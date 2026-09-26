@@ -1,0 +1,595 @@
+# What each Portuguese phrase in `phrases.txt` means, in English.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain is not underlined at all, so a translation in
+# progress simply shows fewer phrases rather than showing empty ones.
+#
+# These glosses are written by hand and are not derived from any licensed
+# corpus. To translate this pack for a reader of another language, copy this
+# file to `phrases.<code>.txt` and translate the right-hand side; the patterns
+# on the left are the join key and must not change.
+#
+# The register is the register of the pack's glosses: terse, verbs with "to",
+# no examples. Where the phrase is vulgar the gloss says so, because a learner
+# who meets `filho da puta` in a subtitle needs to know what it costs to say.
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+ter que|to have to, must
+ter de|to have to, must
+acabar de|to have just (done something)
+começar a|to start to
+parar de|to stop (doing something)
+deixar de|to stop (doing something); to fail to
+voltar a|to do (something) again
+continuar a|to keep on (doing something)
+tratar de|to deal with, to see to; to be about
+dar para|to be possible, to be able to; to face onto
+ter a ver com|to have to do with
+estar de acordo|to agree
+
+# ---- ter + noun: Portuguese states where English is.
+ter razão|to be right
+ter certeza|to be sure
+ter medo|to be afraid
+ter cuidado|to be careful
+ter sorte|to be lucky
+ter fome|to be hungry
+ter pressa|to be in a hurry
+ter graça|to be funny
+ter jeito|to have a knack; to be fixable
+ter saudade|to miss (someone, something)
+
+# ---- Other light-verb idioms.
+dar certo|to work out, to go well
+dar errado|to go wrong
+dar uma olhada|to take a look
+dar conta|to cope, to manage; to realise
+dar em cima|to hit on (someone)
+dar à luz|to give birth
+fazer sentido|to make sense
+fazer as pazes|to make up (after a quarrel)
+valer a pena|to be worth it
+vale a pena|to be worth it
+prestar atenção|to pay attention
+tomar conta|to look after; to take over
+tomar cuidado|to be careful, to watch out
+ficar de olho|to keep an eye on
+perder a cabeça|to lose one's temper
+calar a boca|to shut up
+ir embora|to go away, to leave
+se ferrar|to get screwed; vá se ferrar: get lost (vulgar)
+
+# ---- Connectives and discourse markers.
+no entanto|however
+por isso|that is why, so
+além disso|besides, what is more
+ou seja|that is, in other words
+quer dizer|that is to say; I mean
+na verdade|actually, in fact
+de fato|in fact, indeed
+de qualquer forma|anyway, in any case
+de qualquer jeito|anyway, in any case
+por acaso|by any chance; by chance
+afinal de contas|after all
+apesar de|despite, in spite of
+por causa de|because of
+a fim de|in order to
+mesmo assim|even so
+ainda assim|even so, still
+desde que|as long as, provided that; ever since
+contanto que|as long as, provided that
+para que|so that
+já que|since, seeing as
+uma vez que|since, given that
+pelo menos|at least
+ao menos|at least
+mais ou menos|more or less; so-so
+
+# ---- Question words and relatives written as two tokens.
+o que|what; what (the thing that)
+por que|why
+por quê|why (at the end of a question)
+que tal|how about, what about
+
+# ---- Modality and degree.
+com certeza|certainly, for sure
+claro que sim|of course
+claro que não|of course not
+é claro|of course
+de verdade|really, for real
+nem sequer|not even
+nem mesmo|not even
+de jeito nenhum|no way, not at all
+cada vez mais|more and more
+prestes a|about to
+o mesmo|the same
+de acordo com|according to
+que nem|just like (colloquial); that … not even
+
+# ---- Time and manner.
+de repente|suddenly; maybe (colloquial)
+às vezes|sometimes
+de vez em quando|now and then
+de novo|again
+mais uma vez|once more
+outra vez|again
+uma vez|once, one time
+agora mesmo|right now; just now
+no momento|at the moment
+no início|at first, at the start; at the beginning of
+no final|in the end; at the end of
+em breve|soon
+o tempo todo|all the time
+hoje em dia|these days
+ao mesmo tempo|at the same time
+por enquanto|for now
+a tempo|in time
+em frente|ahead, straight on
+em cima|on top, above
+ao redor|around
+
+# ---- Prepositional phrases whose parts do not give the meaning away.
+graças a|thanks to
+através de|through, by means of
+a partir de|from (a time) on
+em vez de|instead of
+ao invés de|instead of
+
+# ---- Fixed dialogue.
+por favor|please
+de nada|you are welcome; (of, about) nothing
+sinto muito|I am so sorry
+que pena|what a shame
+não importa|it does not matter
+tudo bem|all right, fine; how are you?
+com licença|excuse me
+meu deus|my God
+boa sorte|good luck
+bom dia|good morning
+boa tarde|good afternoon
+boa noite|good evening; good night
+até logo|see you later
+até amanhã|see you tomorrow
+até mais|see you
+muito prazer|nice to meet you
+não faz mal|it does not matter, never mind
+filho da puta|son of a bitch (vulgar)
+puta que pariu|for fuck's sake (vulgar)
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it and a read of its sampled
+# sentences found the idiomatic reading carrying it.
+# ---- Verbal periphrases and verb + particle
+acabar por|to end up (doing)
+acabar com|to put an end to, to finish off; to break up with
+haver de|shall, will; must (há de ser); havia de + noun: there was ... (wrong etc.)
+tornar a|to do (something) again
+pôr se a|to start to, to set about
+ir ter com|to go and meet (European)
+ouvir falar|to hear of, to hear about
+ouvir dizer|to hear (it said) that
+querer dizer|to mean
+contar com|to count on, to rely on
+dar se conta|to realise
+tratar se de|to be a matter of, to be about
+estar a fim|to feel like, to be up for; to fancy (someone) (Brazilian)
+não ter como|there's no way to, to be unable to
+não há como|there's no way to
+não poder deixar de|cannot help (doing)
+não passar de|to be no more than
+não ver a hora|cannot wait (to)
+tomara que|I hope that, hopefully
+quem me dera|if only, I wish
+será que|I wonder (if), do you think
+estar brincando|to be joking, to be kidding
+estar a brincar|to be joking (European); to be playing
+falar sério|to be serious; fala sério: get real, come off it
+deixar cair|to drop
+deixar em paz|to leave alone
+deixa pra lá|forget it, never mind
+deixa para lá|forget it, never mind
+deixa comigo|leave it to me
+pode deixar|leave it to me, don't worry; (you) can leave
+mandar embora|to send away; to fire
+# ---- ter + noun and estar com + noun
+ter sede|to be thirsty
+ter ideia|to have any idea
+ter a certeza|to be sure (European)
+ter vontade|to feel like, to want to
+ter vergonha|to be ashamed; to be shy
+ter culpa|to be to blame
+ter lugar|to take place; to have room
+ter pena|to feel sorry (for)
+ter dó|to feel sorry (for)
+ter calma|to stay calm
+nada a ver|(to have) nothing to do (with); nonsense
+ter cara de|to look like
+ter uma queda|to have a crush (on); to have a fall
+estar com fome|to be hungry
+estar com sede|to be thirsty
+estar com sono|to be sleepy
+estar com medo|to be afraid
+estar com pressa|to be in a hurry
+estar com frio|to be cold
+estar com raiva|to be angry
+estar com saudade|to miss (someone)
+morrer de fome|to starve; to be starving
+morto de|dying of (morto de fome, de medo, de cansaço)
+# ---- dar
+dar um jeito|to sort (it) out, to find a way
+dar uma volta|to go for a walk, a drive
+dar um tempo|to take a break; to give (someone) some time
+dar o fora|to get out, to clear off; to dump (someone)
+dar no pé|to run off, to leg it
+dar um pulo|to pop over, to drop in; to jump
+dar ouvidos|to listen to, to heed
+dar razão|to agree with, to say (someone) is right
+dar a entender|to imply, to give to understand
+dar as costas|to turn one's back
+dar de ombros|to shrug
+dar de cara com|to bump into
+dar uma de|to act like, to play the
+dar trabalho|to be hard work, to be a bother
+dar vontade|to make one want to
+dar medo|to be scary
+dar nojo|to be disgusting
+dar tempo|to have time (dá tempo); to give time
+dar com a língua nos dentes|to spill the beans
+dar o troco|to get even; to give change
+dar a mínima|to care less (não dar a mínima: not give a damn)
+dar no mesmo|to come to the same thing
+dar licença|to excuse (dá licença: excuse me)
+dar ao luxo|dar-se ao luxo: to afford (to)
+dar sorte|to be lucky; to bring luck
+dar azar|to be unlucky; to bring bad luck
+dar cabo de|to get rid of, to finish off
+dar aula|to teach
+# ---- fazer
+fazer falta|to be missed, to be needed
+fazer questão|to insist (on)
+fazer de conta|to pretend
+fazer mal|to harm, to be bad for; to do wrong
+fazer bem|to be good for; to do the right thing
+fazer ideia|to have any idea
+fazer caso|to take notice, to pay heed
+fazer anos|faz (dez) anos: (ten) years ago; to turn (an age); to have a birthday (European)
+fazer as malas|to pack
+fazer a barba|to shave
+fazer uma pergunta|to ask a question
+fazer frio|to be cold (weather)
+fazer calor|to be hot (weather)
+fazer parte|to be part (of)
+fazer careta|to pull a face
+fazer merda|to screw up (vulgar)
+fazer o quê|what can you do?; (doing) what?
+fazer tempo|faz tempo: a long time ago, it's been a while
+fazer muito tempo|faz muito tempo: a long time ago; it's been a long time
+fazer de bobo|to make a fool of
+# ---- ficar, estar
+ficar sabendo|to find out
+ficar de pé|to stand up, to stay standing
+ficar em pé|to stand up, to stay standing
+ficar sem|to run out of, to be left without
+ficar bem|to be all right; to suit, to look good
+ficar à vontade|to make oneself at home
+ficar tranquilo|to relax, not to worry
+fica frio|chill out, keep cool
+estar de saída|to be on one's way out
+estar por fora|to be out of the loop
+estar na hora|to be time (to)
+está na hora|it's time
+estar ferrado|to be screwed
+estar a par|to be informed, to be up to date
+estar de olho|to keep an eye on
+estar nem aí|not to care at all (Brazilian)
+# ---- tomar, levar, pôr, tirar, meter, botar
+tomar banho|to have a bath, a shower
+tomar um banho|to have a bath, a shower
+tomar café|to have coffee; to have breakfast
+levar a cabo|to carry out
+levar a mal|to take offence
+levar a sério|to take seriously
+levar em conta|to take into account
+levar jeito|to have a knack
+levar um tiro|to get shot
+meter medo|to frighten
+tirar uma foto|to take a photo
+tirar sarro|to make fun of (Brazilian)
+tirar proveito|to take advantage (of)
+tirar uma soneca|to take a nap
+# ---- passar, cair, sair, pegar, bater, abrir, other verbs
+passar mal|to feel ill
+passar a perna|to trick, to cheat
+passar fome|to go hungry
+passar pela cabeça|to cross one's mind
+vir à tona|to come to light
+vir ao caso|to be relevant
+cair bem|to suit, to go down well
+cair na real|to face reality, to wake up
+cair fora|to get out, to clear off
+cair no sono|to fall asleep
+pegar no sono|to fall asleep
+pegar fogo|to catch fire
+pega leve|go easy, take it easy
+pegar o jeito|to get the hang of it
+bater papo|to chat
+bater palmas|to clap
+abrir mão|to give up (abrir mão de)
+abrir o jogo|to come clean
+correr bem|to go well (European)
+correr atrás|to chase; to go after, to work for
+engolir em seco|to gulp
+custe o que custar|whatever it takes
+encher o saco|to annoy, to get on (someone's) nerves
+encher a cara|to get drunk
+pisar na bola|to mess up, to drop the ball
+perder tempo|to waste time
+mudar de ideia|to change one's mind
+chamar a atenção|to attract attention; to tell off
+sentir falta|to miss
+voltar atrás|to go back on, to back down
+ir atrás|to go after
+ir com calma|to take it easy
+ir à merda|to go to hell (vulgar)
+vai se foder|fuck off (vulgar)
+se manda|get out, beat it
+se liga|pay attention, get a clue (Brazilian); switches on
+não custa|it doesn't hurt (to)
+não adianta|it's no use
+não tem jeito|there's no way; it's hopeless
+não há de quê|don't mention it
+não tem de quê|don't mention it
+nem que seja|even if only
+# ---- Connectives and discourse markers
+a propósito|by the way
+por falar nisso|speaking of which, by the way
+falando nisso|speaking of which
+de resto|besides, for the rest
+ou melhor|or rather
+antes de mais nada|first of all
+pelo contrário|on the contrary
+ao contrário|on the contrary; the other way round
+em compensação|on the other hand, to make up for it
+de qualquer modo|anyway, in any case
+em todo caso|in any case
+em todo o caso|in any case
+seja como for|be that as it may, anyway
+mesmo que|even if, even though; (really) that
+ainda que|even though, even if
+se bem que|although, mind you
+nem que|even if
+por mais que|however much
+a não ser que|unless
+a não ser|except; unless
+a menos que|unless
+caso contrário|otherwise
+assim que|as soon as; (é assim que: that's how)
+logo que|as soon as
+à medida que|as, as and when
+ao passo que|whereas
+visto que|since, given that
+posto que|although; given that
+de modo que|so that, so
+só que|only, except that, but
+até porque|not least because, and anyway
+além do mais|what's more, besides
+ainda por cima|on top of that, to top it all
+por sua vez|in turn
+sendo assim|that being so, so
+pensando bem|on second thoughts
+cá entre nós|between you and me
+quanto a|as for, as to
+a respeito de|about, concerning
+acerca de|about, concerning
+por volta de|around, at about (a time)
+por conta de|because of; on (someone's) account
+por conta própria|on one's own (account)
+em lugar de|instead of
+à procura de|looking for
+diante de|in front of; faced with
+dentro de|inside; within, in (a time)
+ao pé de|at the foot of; next to
+# ---- Degree, modality, evaluation
+nem pensar|no way, don't even think about it
+nem por isso|not really, not particularly
+nem tanto|not so much
+de modo algum|by no means, not at all
+de maneira nenhuma|by no means, not at all
+de forma alguma|by no means, not at all
+sem falta|without fail
+claro que|of course
+quem sabe|maybe, perhaps; who knows
+sei lá|I don't know, who knows
+pelo visto|apparently, by the looks of it
+pelo jeito|by the looks of it
+ao que parece|apparently
+por sinal|by the way, as it happens
+já não|no longer, not any more
+até mesmo|even
+muito menos|let alone, much less
+quanto mais|the more; let alone
+menos mal|just as well, thank goodness
+ainda bem|thank goodness, just as well
+ainda bem que|luckily, it's a good thing that
+tanto faz|it doesn't matter, whatever
+mais vale|it's better to
+bem feito|serves you right!; well made
+de propósito|on purpose
+sem querer|accidentally, without meaning to
+de graça|for free
+ação de graças|Thanksgiving; thanksgiving
+a sério|seriously (European)
+de brincadeira|as a joke, jokingly
+à toa|for nothing, aimlessly; idly
+à vontade|at ease; as much as you like
+à beça|a lot (Brazilian)
+pra caramba|a lot, really (Brazilian)
+pra caralho|a fuck of a lot (vulgar)
+pra valer|for real, seriously
+para valer|for real, seriously
+um monte de|loads of
+um bocado|a bit; a lot, quite a bit
+de sobra|to spare
+de certo modo|in a way
+de certa forma|in a way
+de algum modo|somehow
+de alguma forma|somehow
+isso mesmo|exactly, that's right
+assim mesmo|just like that; even so
+si mesmo|oneself, himself, herself
+por si só|by itself, on its own
+um ao outro|each other
+uns aos outros|each other, one another
+um do outro|of each other
+# ---- Time
+de manhã|in the morning
+à tarde|in the afternoon
+de tarde|in the afternoon
+à noite|at night, in the evening
+de noite|at night
+de madrugada|in the small hours
+na hora|at that moment, on the spot; on time; at the (right) time
+em cima da hora|at the last minute
+em seguida|next, straight after
+daqui a pouco|in a little while, shortly
+daqui a|in, from now (daqui a dois dias)
+de agora em diante|from now on
+há pouco|a moment ago, just now
+há muito tempo|a long time ago; for a long time
+há tempos|for ages; ages ago
+há anos|for years; years ago
+há dias|a few days ago; for days
+por ora|for now
+por fim|finally, in the end
+mais de uma vez|more than once
+de uma vez|at once, in one go; once and for all
+de uma vez por todas|once and for all
+de vez|for good, once and for all
+era uma vez|once upon a time
+por vezes|sometimes (European)
+toda vez que|every time that, whenever
+de quando em quando|now and then
+aos poucos|little by little, gradually
+outro dia|the other day; another day
+um dia desses|one of these days; the other day
+da noite para o dia|overnight
+de antemão|beforehand
+todo dia|every day
+todo o dia|all day (European); every day
+enquanto isso|meanwhile
+já já|right away, in a sec (Brazilian)
+já volto|I'll be right back
+já vou|coming!, I'm on my way
+já era|it's over, done for (Brazilian); já era hora: about time
+desde logo|straight away; of course (European)
+# ---- Place and posture
+lá fora|outside, out there
+lá dentro|inside, in there
+por aqui|around here; this way
+por aí|around, out there; something like that
+em volta|around
+à volta|around (European)
+ao fundo|in the background; at the back; to the bottom
+no fundo|deep down; at the bottom
+pela frente|ahead; from the front
+por trás|behind
+por cima|over, on top
+por baixo|underneath
+por dentro|inside; in the know
+por fora|outside; out of the loop
+por toda parte|everywhere
+em toda parte|everywhere
+lugar nenhum|nowhere
+para trás|back, backwards; behind
+pra trás|back, backwards; behind
+pra frente|forward, ahead
+logo ali|just over there
+de pé|standing, on one's feet
+em pé|standing, on one's feet
+de joelhos|on one's knees
+de costas|on one's back; with one's back turned
+de bruços|face down
+de lado|sideways, on one's side; aside
+de cabeça para baixo|upside down
+de pernas para o ar|upside down, in a mess
+a pé|on foot
+a sós|alone, in private
+à solta|on the loose
+à deriva|adrift
+às escondidas|secretly, on the sly
+às pressas|in a rush
+à tona|to the surface
+em cheio|squarely, full on
+em branco|blank
+em jogo|at stake
+fora de si|beside oneself
+na cara|to one's face; obvious
+cara de pau|nerve, cheek; shameless
+sangue frio|composure, cool head
+pão duro|skinflint, stingy
+café da manhã|breakfast (Brazilian)
+pequeno almoço|breakfast (European)
+sala de estar|living room
+carteira de motorista|driving licence (Brazilian)
+# ---- People and address
+a gente|we, us (colloquial); people
+o senhor|you (polite, to a man); the gentleman; the Lord
+a senhora|you (polite, to a woman); the lady
+os senhores|you (polite, plural); gentlemen; lords
+todo mundo|everybody
+todo o mundo|everybody; the whole world
+toda a gente|everybody (European)
+o pessoal|the guys, everyone; the staff
+meu bem|my dear, darling
+meu caro|my dear (fellow)
+o tal|the famous, the so-called; that (man, thing)
+# ---- Questions and reactions
+o quê|what?
+para quê|what for?
+pra quê|what for?
+pra que|what for?; so that
+como assim|what do you mean?
+como é que|how (is it that)
+o que é que|what (is it that)
+o que foi|what's wrong?, what happened?; what was
+o que houve|what happened?
+o que há|what's the matter?, what's up?; what is there
+e aí|so?, and then?; hey, what's up
+e daí|so what?
+e se|what if; and if
+é o seguinte|here's the thing
+é isso aí|that's it, that's right
+não é mesmo|isn't it?, right?
+é mesmo|really?; that's right
+pois é|yeah, exactly; (for it is)
+pois não|certainly; how can I help? (Brazilian); (for) not
+pois sim|yeah, right (ironic)
+pois bem|well then, right
+ora essa|well really!; don't mention it
+olha só|look at that; listen
+veja só|look at that; just imagine
+tá bom|OK, all right
+tá legal|OK, fine (Brazilian)
+tudo certo|all good, everything's fine
+como vai|how are you?
+espera aí|wait a moment, hold on
+espere aí|wait a moment, hold on
+calma aí|easy, hold on
+vem cá|come here
+por nada|you're welcome; for no reason; for nothing
+graças a deus|thank God
+pelo amor de deus|for God's sake
+se deus quiser|God willing
+só deus sabe|God only knows
+nossa senhora|goodness!, Our Lady
+minha nossa|my goodness
+que bom|great, how nice
+que droga|damn, what a drag
+que merda|shit (vulgar)
+que diabo|what the hell
+o que diabo|what the hell
+que porra|what the fuck (vulgar)
+sem essa|come off it
+puta merda|holy shit (vulgar)
+quem diria|who would have thought
+se calhar|maybe, perhaps (European)

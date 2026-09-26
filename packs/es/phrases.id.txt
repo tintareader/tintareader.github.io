@@ -1,0 +1,603 @@
+# What each Spanish phrase in `phrases.txt` means, in Indonesian.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Indonesian where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.id.txt`.
+#
+# Verbs are glossed as bare Indonesian verbs — the English `to` in the file
+# this translates is English citation form and has no counterpart to carry
+# across.
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+tener que|harus, mesti
+hay que|orang harus, perlu (tanpa subjek)
+acabar de|baru saja (melakukan sesuatu)
+ir a|akan (+ kata kerja); pergi ke
+dejar de|berhenti (melakukan sesuatu)
+volver a|melakukan (sesuatu) lagi; kembali ke
+empezar a|mulai
+poner a|mulai mengerjakan (ponerse a); menyuruh (seseorang) mengerjakan
+tratar de|berusaha; membahas tentang
+estar de acuerdo|setuju
+poner de pie|mendirikan (seseorang); ponerse de pie: berdiri
+
+# ---- tener + noun: Spanish states where English uses "to be".
+tener razón|benar
+tener ganas|(+ de) ingin, kepingin
+tener miedo|takut
+tener cuidado|hati-hati
+tener prisa|terburu-buru
+tener hambre|lapar
+tener sueño|mengantuk; bermimpi, punya impian (tener sueños)
+tener suerte|beruntung
+tener sentido|masuk akal
+tener lugar|berlangsung
+
+# ---- Other light-verb idioms.
+hacer falta|dibutuhkan, kurang
+hacer caso|memedulikan, mengindahkan
+hacer daño|menyakiti, merugikan
+dar igual|tidak ada bedanya, tidak penting
+dar miedo|menakutkan
+dar cuenta|darse cuenta (de): menyadari
+dar a luz|melahirkan
+echar de menos|merindukan (seseorang)
+llevar a cabo|melaksanakan
+valer la pena|sepadan dengan usahanya
+llamar la atención|menarik perhatian; menegur
+caer bien|menyukai (seseorang), cocok dengan
+tomar el pelo|menggoda, mengerjai
+meter la pata|salah bicara, berbuat blunder
+
+# ---- Connectives and discourse markers.
+sin embargo|namun, meskipun begitu
+por eso|karena itu, jadi
+así que|jadi, maka
+ya que|karena, mengingat
+puesto que|karena, sebab
+para que|supaya
+a menos que|kecuali kalau
+por lo tanto|oleh karena itu
+o sea|maksudnya, dengan kata lain
+es decir|yaitu
+de hecho|nyatanya
+en realidad|sebenarnya
+por cierto|omong-omong
+en fin|ya sudahlah, singkatnya
+de todos modos|bagaimanapun juga
+de todas formas|bagaimanapun juga
+por si acaso|untuk berjaga-jaga
+sobre todo|terutama
+además de|selain, di samping
+por lo visto|tampaknya
+más o menos|kurang lebih
+por lo menos|setidaknya
+al menos|setidaknya
+
+# ---- Question words and relatives written as two tokens.
+por qué|mengapa
+para qué|untuk apa
+lo que|apa yang, yang
+por lo que|jadi, itulah sebabnya
+qué tal|apa kabar?; bagaimana kalau
+
+# ---- Modality and degree.
+a lo mejor|mungkin
+tal vez|mungkin
+por supuesto|tentu saja
+desde luego|tentu saja, pasti
+claro que sí|tentu saja (ya, tegas)
+en serio|serius, sungguhan
+de verdad|sungguh
+ni siquiera|bahkan tidak
+en absoluto|sama sekali tidak (dengan negasi)
+ya no|tidak lagi
+todavía no|belum
+lo mismo|hal yang sama
+de acuerdo|setuju, baiklah
+a punto de|hampir, sebentar lagi
+cada vez más|semakin lama semakin
+
+# ---- Time and manner.
+de repente|tiba-tiba
+de pronto|tiba-tiba
+a veces|kadang-kadang
+a menudo|sering
+de vez en cuando|sesekali
+en cuanto|begitu, segera setelah
+en cuanto a|mengenai, adapun
+a la vez|sekaligus, pada saat yang sama
+de nuevo|lagi
+otra vez|lagi
+ahora mismo|sekarang juga
+por ahora|untuk sekarang
+de momento|untuk sementara ini
+al principio|pada awalnya
+al final|pada akhirnya
+en punto|tepat (untuk jam)
+a tiempo|tepat waktu
+hoy en día|zaman sekarang
+en seguida|segera
+a lo largo de|sepanjang; selama
+
+# ---- Prepositional phrases whose parts do not give the meaning away.
+a pesar de|meskipun, kendati
+a causa de|karena
+gracias a|berkat
+a través de|melalui, menyeberangi
+a partir de|mulai dari (suatu waktu)
+en vez de|alih-alih
+en lugar de|alih-alih
+acerca de|tentang, mengenai
+en contra de|menentang
+
+# ---- Fixed dialogue.
+por favor|tolong, silakan
+de nada|sama-sama; cuma-cuma, sia-sia
+lo siento|maaf; (harfiah) saya merasakannya
+menos mal|syukurlah
+no importa|tidak apa-apa
+qué pena|sayang sekali
+ni modo|ya sudah, mau bagaimana lagi (Amerika Latin)
+por dios|demi Tuhan, ya ampun
+buenos días|selamat pagi
+buenas tardes|selamat siang, selamat sore
+buenas noches|selamat malam; selamat tidur
+hasta luego|sampai jumpa
+hasta mañana|sampai besok
+
+# ---- 2026-09-23 expansion
+# ---- Verbal periphrases and verb + preposition
+llegar a ser|menjadi
+acabar por|akhirnya (melakukan sesuatu)
+terminar por|akhirnya (melakukan sesuatu)
+haber de|harus, mesti; ditakdirkan untuk
+deber de|pasti (dugaan), tentu sudah
+echar a correr|mulai berlari, lari tiba-tiba
+echar a reír|tertawa terbahak-bahak tiba-tiba
+echar a andar|mulai berjalan, berangkat berjalan kaki
+romper a llorar|menangis tersedu-sedu tiba-tiba
+ir a parar|akhirnya berada, berakhir di; (voy a parar) akan berhenti
+ir a por|pergi mengambil, pergi menjemput
+querer decir|berarti, bermaksud
+ser hora de|sudah waktunya untuk
+tardar en|memerlukan waktu (untuk); lambat (melakukan sesuatu)
+pensar en|memikirkan, teringat akan
+soñar con|memimpikan, bermimpi tentang
+contar con|mengandalkan, bergantung pada; memiliki
+dar con|menemukan, bertemu dengan
+acabar con|mengakhiri, menghabisi
+terminar con|mengakhiri; putus dengan (pacar); selesai dengan
+romper con|putus dengan, memutuskan hubungan dengan
+quedar con|quedarse con: menyimpan, mengambil; janjian bertemu
+acordar de|acordarse de: ingat, teringat
+olvidar de|olvidarse de: lupa
+enamorar de|enamorarse de: jatuh cinta pada
+fijar en|fijarse en: memperhatikan, menyadari; menatap
+negar a|negarse a: menolak (untuk); menyangkal (seseorang)
+atrever a|atreverse a: berani
+limitar a|limitarse a: hanya (melakukan), sekadar
+disponer a|disponerse a: bersiap untuk; (dispuesto a) bersedia
+estar dispuesto a|bersedia, siap untuk
+oler a|berbau, beraroma
+tirar de|menarik
+dejar caer|menjatuhkan; menyinggung sambil lalu (ucapan)
+hacer saber|memberi tahu, mengabarkan
+# ---- tener
+tener que ver con|ada hubungannya dengan; (tengo que ver con) harus bertemu dengan
+tener nada que ver|(no tener nada que ver) tidak ada hubungannya (dengan)
+tener algo que ver|ada hubungannya (dengan)
+tener años|(tener 20 años) berumur (sekian) tahun
+tener en cuenta|memperhitungkan, mempertimbangkan
+tener por qué|(no tener por qué) tidak perlu, tidak ada alasan untuk
+tener la culpa|bersalah, menjadi penyebab
+tener frío|kedinginan
+tener calor|kepanasan
+tener sed|haus
+tener celos|cemburu
+tener vergüenza|malu (karena bersalah); malu, canggung
+tener gracia|lucu; (ironi) lucu sekali, ya
+tener entendido|mendengar bahwa, setahu saya
+tener pensado|berencana, bermaksud
+# ---- dar
+dar prisa|darse prisa: bergegas, cepat-cepat
+dar la vuelta|berbalik (darse la vuelta); membalik; mengitari
+dar media vuelta|berbalik arah, balik kanan
+dar una vuelta|jalan-jalan, berkeliling sebentar
+dar vueltas|berputar-putar; gelisah bolak-balik di ranjang; memikirkan terus-menerus
+dar un paso|melangkah
+dar un paseo|jalan-jalan
+dar de comer|memberi makan
+dar la razón|membenarkan (seseorang), mengakui dia benar
+dar la mano|berjabat tangan; bergandengan tangan
+dar la espalda|membelakangi, berpaling (dari)
+dar la cara|menghadapi masalah, bertanggung jawab
+dar la gana|mau, ingin (me da la gana: aku mau saja)
+dar ganas|membuat (seseorang) ingin
+dar pena|membuat sedih; merasa kasihan (me da pena: aku kasihan)
+dar vergüenza|memalukan; merasa malu
+dar asco|menjijikkan, membuat jijik
+dar lo mismo|tidak ada bedanya, tidak penting
+dar a entender|menyiratkan, memberi isyarat
+dar por vencido|darse por vencido: menyerah
+dar por sentado|menganggap sudah pasti
+# ---- hacer
+hacer cargo|hacerse cargo de: mengurus, bertanggung jawab atas; memahami
+hacer frente|menghadapi, melawan
+hacer el favor|(haz el favor de) tolong; berbaik hati
+hacer una pregunta|bertanya, mengajukan pertanyaan
+hacer tiempo|(hace tiempo) dulu sekali, sudah lama; menghabiskan waktu
+hacer mucho tiempo|(hace mucho tiempo) dulu sekali, sudah lama sekali
+hace poco|baru-baru ini, belum lama
+hace un rato|tadi, beberapa saat yang lalu
+hace años|bertahun-tahun yang lalu; sudah bertahun-tahun
+desde hace|sejak (sekian lama sampai sekarang)
+desde hacía|sejak (sekian lama sampai saat itu)
+hacer frío|(hace frío) dingin (cuaca)
+hacer calor|(hace calor) panas (cuaca)
+hacer tarde|hacerse tarde: hari mulai larut
+hacer de noche|hacerse de noche: hari mulai gelap
+hacer ademán de|bergerak seolah hendak
+hacer como si|berpura-pura, bersikap seolah-olah
+hacer las paces|berdamai, berbaikan
+hacer gracia|membuat geli, terasa lucu
+hacer trampa|berbuat curang
+hacer las maletas|berkemas
+# ---- echar, tomar, poner
+echar un vistazo|melihat sekilas, melirik
+echar una ojeada|melihat sekilas
+echar una mano|membantu, turun tangan
+echar mano|echar mano de: memakai (sebagai jalan keluar), meraih
+echar la culpa|menyalahkan
+echar a perder|merusak, mengacaukan
+tomar el sol|berjemur
+poner nervioso|membuat gugup (ponerse nervioso: menjadi gugup)
+poner rojo|membuat tersipu (ponerse rojo: tersipu, memerah)
+poner en pie|berdiri (ponerse en pie); memulihkan, membangkitkan
+poner en marcha|menjalankan, memulai
+poner en camino|ponerse en camino: berangkat
+poner de acuerdo|ponerse de acuerdo: mencapai kesepakatan
+poner al día|memperbarui informasi (ponerse al día: mengejar ketinggalan)
+poner los ojos en blanco|memutar bola mata
+poner los pelos de punta|membuat bulu kuduk berdiri
+# ---- quedar, llevar, pasar, venir, other verbs
+quedar sin|quedarse sin: kehabisan, tidak punya lagi
+quedar dormido|quedarse dormido: tertidur; kesiangan
+quedar mirando|quedarse mirando: menatap, terpaku memandang
+quedar quieto|quedarse quieto: diam tak bergerak
+quedar en blanco|quedarse en blanco: pikiran mendadak kosong
+quedar bien|tampak bagus, cocok; memberi kesan baik
+llevar bien|llevarse bien: akur, rukun
+llevar puesto|mengenakan, sedang memakai
+salir bien|berhasil, berjalan lancar
+salir mal|gagal, berjalan buruk
+salir adelante|bertahan, berhasil melewati kesulitan
+salir con la suya|salirse con la suya: mendapatkan apa yang dimaui
+pasar bien|pasarlo bien: bersenang-senang
+pasar por alto|mengabaikan, melewatkan
+pasar de largo|lewat begitu saja
+pasar el rato|menghabiskan waktu
+venir bien|cocok, berguna
+venir abajo|venirse abajo: runtuh, ambruk
+caer mal|tidak suka (seseorang), tidak cocok dengan
+caer en la cuenta|tersadar, baru menyadari
+volver loco|membuat gila (volverse loco: menjadi gila)
+volver en sí|siuman, sadar kembali
+perder los estribos|kehilangan kesabaran, naik darah
+dejar en paz|membiarkan, tidak mengganggu
+pedir perdón|minta maaf
+llamar a la puerta|mengetuk pintu
+prestar atención|memperhatikan
+cumplir años|berulang tahun; (cumplir 20 años) genap 20 tahun
+costar trabajo|sulit, butuh usaha
+caber duda|(no cabe duda) tidak diragukan lagi
+faltar más|(no faltaba más, faltaría más) tentu saja, sama-sama; keterlaluan
+ir al grano|langsung ke pokok persoalan
+ir a pique|tenggelam; bangkrut, hancur
+encoger de hombros|encogerse de hombros: mengangkat bahu
+fruncir el ceño|mengerutkan dahi
+negar con la cabeza|menggelengkan kepala
+cruzar de brazos|cruzarse de brazos: bersedekap; berpangku tangan
+morir de risa|morirse de risa: tertawa terpingkal-pingkal
+importar un bledo|sama sekali tidak peduli
+pegar ojo|(no pegar ojo) tidak bisa tidur sekejap pun
+# ---- States: ser, estar and what follows them
+estar harto|muak, sudah bosan
+harto de|muak dengan, bosan dengan
+de broma|bercanda, main-main
+en broma|sebagai lelucon, bercanda
+de pie|berdiri
+de rodillas|berlutut
+de espaldas|membelakangi; telentang
+de puntillas|berjinjit
+de bruces|tertelungkup, jatuh tersungkur
+en cuclillas|berjongkok
+boca arriba|telentang
+boca abajo|tengkurap, telungkup
+a gusto|nyaman, betah
+a salvo|selamat, aman
+al tanto|tahu, mengikuti perkembangan (estar al tanto: tahu kabar terbaru)
+al corriente|mengikuti perkembangan, tahu
+en lo cierto|benar (estar en lo cierto: benar)
+de moda|sedang tren, populer
+de vuelta|kembali (sudah pulang); dalam perjalanan pulang
+de guardia|bertugas jaga, siaga
+en juego|dipertaruhkan; sedang dimainkan
+en las últimas|sekarat, di ujung tanduk
+a la altura|setara (dengan); (estar a la altura) sanggup, mampu memenuhi harapan
+pendiente de|mengawasi, memperhatikan; menunggu; tertunda
+en las nubes|melamun, pikiran melayang-layang
+no es para tanto|tidak separah itu, bukan masalah besar
+# ---- Connectives and discourse markers
+es que|soalnya, masalahnya; (harfiah) adalah bahwa
+como si|seolah-olah
+como si nada|seolah tidak terjadi apa-apa
+lo cual|yang mana, hal itu
+lo de|soal, perkara (tentang)
+lo demás|sisanya, selebihnya
+lo que sea|apa saja, apa pun
+lo cierto es que|kenyataannya
+la verdad es que|sebenarnya, terus terang
+el caso es que|masalahnya, soalnya
+resulta que|ternyata
+nada más|tidak ada lagi, hanya; (+ kata kerja) begitu, segera setelah
+nada menos|tidak kurang dari
+más que nada|terutama
+más bien|malahan, lebih tepatnya
+en efecto|memang, sungguh
+en cambio|sebaliknya, sedangkan
+en todo caso|bagaimanapun; kalaupun ada
+en definitiva|pada akhirnya, pendeknya
+en cierto modo|dalam arti tertentu
+no obstante|namun, walaupun demikian
+mientras tanto|sementara itu
+entre tanto|sementara itu
+aun así|meski begitu
+aun cuando|sekalipun, walaupun
+dado que|mengingat, karena
+siempre que|setiap kali; asalkan
+siempre y cuando|asalkan, selama
+con tal de|asalkan, demi
+con tal que|asalkan
+a no ser que|kecuali jika
+al fin y al cabo|bagaimanapun juga, toh
+a fin de cuentas|toh, pada akhirnya
+o bien|atau
+si bien|walaupun, meskipun
+ahora bien|namun, nah
+pues bien|nah, baiklah
+así pues|jadi, maka
+así como|serta; sebagaimana
+tal como|persis seperti
+tal y como|persis seperti
+por tanto|oleh karena itu
+por consiguiente|akibatnya, maka
+por ello|karena itu
+por otro lado|di sisi lain
+por otra parte|di sisi lain; lagi pula
+por un lado|di satu sisi
+de modo que|jadi, sehingga
+de manera que|jadi, sehingga
+de ahí|karena itu; dari situ
+de ahí que|itulah sebabnya
+de lo contrario|kalau tidak
+por lo demás|selain itu, selebihnya
+a su vez|pada gilirannya
+a medida que|seiring dengan
+en tanto que|sementara; sejauh, selaku
+tan solo|hanya, cuma
+tan sólo|hanya, cuma
+aunque sea|walau hanya, setidaknya
+ante todo|terutama, pertama-tama
+a todo esto|omong-omong; sementara itu
+dicho esto|meskipun begitu, setelah mengatakan itu
+dicho sea de paso|omong-omong, sambil lalu
+por así decirlo|boleh dikatakan
+por decirlo así|boleh dikatakan
+a saber|yaitu; entahlah
+que yo sepa|setahu saya
+cuanto más|semakin; apalagi
+cuanto antes|secepatnya
+más allá de|di luar, melampaui
+más allá|lebih jauh; alam baka
+# ---- Degree, quantity and modality
+todo el mundo|semua orang
+del todo|sepenuhnya, sama sekali
+sin querer|tanpa sengaja
+sin más|begitu saja, tanpa basa-basi
+sin falta|pasti, tanpa gagal
+sin cesar|tanpa henti
+ni idea|tidak tahu sama sekali
+ni hablar|tidak mungkin, jangan harap
+ni mucho menos|jauh dari itu, sama sekali tidak
+ni que|seolah-olah; biarpun
+ni se te ocurra|jangan sekali-kali, jangan coba-coba
+gran cosa|banyak, hal besar
+un montón de|banyak sekali
+un montón|banyak, sangat
+un tal|seorang (bernama), si anu
+y demás|dan lain-lain, dan sebagainya
+de lo más|sangat, paling
+a lo sumo|paling banyak
+por muy|betapapun (+ kata sifat)
+por mucho que|betapapun banyaknya
+por más que|betapapun, sekeras apa pun
+por poco|hampir, nyaris
+de veras|sungguh, benar-benar
+a medias|setengah-setengah, setengah jadi; bagi dua
+a duras penas|dengan susah payah, nyaris tidak
+de sobra|lebih dari cukup; sangat tahu, dengan baik
+de primera|kelas satu; (de primera mano) langsung dari sumbernya
+de por sí|pada dasarnya, dengan sendirinya
+# ---- Time
+por fin|akhirnya
+al fin|akhirnya
+al cabo de|setelah (selang waktu)
+al poco rato|tidak lama kemudian
+un buen rato|cukup lama
+dentro de poco|sebentar lagi, tak lama lagi
+de un momento a otro|sewaktu-waktu
+de la noche a la mañana|dalam semalam, tiba-tiba
+de golpe|tiba-tiba, sekaligus
+de improviso|tanpa diduga
+de antemano|sebelumnya, terlebih dulu
+de una vez|sekali untuk selamanya; sekaligus
+de una vez por todas|sekali untuk selamanya
+de cuando en cuando|sesekali
+una y otra vez|berulang kali
+de noche|pada malam hari; (se hace de noche) hari mulai gelap
+por la noche|pada malam hari
+por la mañana|pada pagi hari
+por la tarde|pada siang hari, pada sore hari
+pasado mañana|lusa
+hoy día|zaman sekarang
+a estas alturas|pada tahap ini, sekarang
+a primera hora|pagi-pagi sekali
+a finales de|pada akhir (suatu periode)
+a la larga|dalam jangka panjang
+en breve|segera
+en adelante|seterusnya, sejak saat itu
+de ahora en adelante|mulai sekarang
+hasta ahora|sampai sekarang; (salam) sampai nanti
+hasta la vista|sampai jumpa
+a eso de|sekitar (pukul)
+en el acto|seketika, di tempat
+en un abrir y cerrar de ojos|dalam sekejap mata
+en seco|mendadak (berhenti)
+# ---- Manner and place
+a solas|sendirian
+a ciegas|membabi buta
+a oscuras|dalam gelap
+a escondidas|diam-diam, sembunyi-sembunyi
+a tientas|meraba-raba
+a toda prisa|terburu-buru sekali
+a todo correr|secepat-cepatnya
+a lo lejos|di kejauhan
+a lo grande|secara besar-besaran, mewah
+a la fuerza|secara paksa; mau tidak mau
+a propósito|sengaja; omong-omong
+a pie|berjalan kaki
+a mano|dengan tangan; dekat, mudah dijangkau
+a la ligera|dengan enteng, tanpa berpikir
+a regañadientes|dengan berat hati
+a carcajadas|(tertawa) terbahak-bahak
+a gritos|sambil berteriak, sekeras-kerasnya
+al revés|terbalik
+al contrario|sebaliknya
+al parecer|rupanya, tampaknya
+al fondo|di belakang, di dasar, di ujung
+al aire libre|di luar ruangan, di udara terbuka
+al respecto|tentang hal itu
+al pie de la letra|secara harfiah, kata demi kata
+al azar|secara acak
+al igual que|seperti, sama halnya dengan
+en voz alta|dengan suara keras, lantang
+en voz baja|dengan suara pelan, berbisik
+en el fondo|pada dasarnya, di lubuk hati; di dasar
+en pleno|di tengah-tengah, di puncak
+en marcha|berjalan, sedang berlangsung; (¡en marcha!) ayo berangkat
+de reojo|dengan lirikan, melirik
+de prisa|cepat-cepat, terburu-buru
+de memoria|di luar kepala, hafal
+de mala gana|dengan enggan
+de buena gana|dengan senang hati
+de maravilla|luar biasa baik
+de lleno|sepenuhnya, tepat
+de par en par|terbuka lebar
+de ninguna manera|sama sekali tidak
+de todas maneras|bagaimanapun juga
+de otro modo|kalau tidak; dengan cara lain
+de siempre|seperti biasa; seumur hidup, sejak dulu
+como de costumbre|seperti biasa
+de costumbre|biasa, seperti biasa
+como es debido|sebagaimana mestinya
+de camino|dalam perjalanan
+de entrada|sejak awal, pertama-tama
+poco a poco|sedikit demi sedikit
+por encima de|di atas; lebih dari
+por encima|di atas; sekilas, secara garis besar
+por delante|di depan
+por ahí|di sekitar situ, entah di mana; keluyuran; kira-kira
+por aquí|di sekitar sini, lewat sini
+por allí|di sana, lewat sana
+por allá|di sana
+por todas partes|di mana-mana
+por doquier|di mana-mana
+por su cuenta|sendiri, atas inisiatif sendiri
+por lo bajo|dengan berbisik; paling sedikit
+por desgracia|sayangnya
+por culpa de|gara-gara, karena kesalahan
+por si|kalau-kalau
+por nada del mundo|sama sekali tidak, bagaimanapun juga tidak
+de la mano|bergandengan tangan; (de la mano de) dipimpin oleh
+a la vuelta de la esquina|sudah dekat, di balik tikungan
+junto a|di samping, di sebelah
+frente a|di seberang, menghadap; dihadapkan pada
+# ---- Prepositional phrases
+en torno a|di sekitar, mengenai
+a cambio de|sebagai ganti
+a cambio|sebagai imbalan
+a fin de|agar, supaya
+a base de|dengan cara, berkat; berbahan dasar
+a fuerza de|berkat terus-menerus
+de parte de|atas nama, dari
+a falta de|karena tidak ada
+a modo de|sebagai semacam
+a espaldas de|di belakang (seseorang), tanpa sepengetahuan
+# ---- Fixed dialogue and exclamations
+a ver|coba lihat; (a ver si) semoga; (setelah kata kerja gerak) untuk melihat
+vamos a ver|coba kita lihat; kita akan lihat
+qué pasa|ada apa
+qué te pasa|kamu kenapa
+qué hay|apa kabar; (qué hay de) bagaimana dengan; ada apa
+qué va|mana mungkin, sama sekali tidak
+qué más da|apa bedanya
+qué le vamos a hacer|ya sudah, mau bagaimana lagi
+qué lástima|sayang sekali
+qué vergüenza|memalukan sekali; tidak tahu malu
+qué demonios|apa-apaan
+qué diablos|apa-apaan
+qué rayos|apa-apaan ini
+qué carajo|apa-apaan (kasar)
+cómo no|tentu saja, silakan
+cómo que|apa maksudnya
+claro está|tentu saja
+no puede ser|tidak mungkin!; tidak bisa
+puede que|mungkin
+no pasa nada|tidak apa-apa
+no hay de qué|sama-sama
+no me digas|masa, sungguh?
+ya está|selesai, sudah
+ya lo creo|tentu saja
+ya era hora|akhirnya juga
+ya verás|lihat saja nanti
+ya ves|kau lihat sendiri; begitulah
+ya sabes|kamu tahu
+venga ya|ah masa, yang benar saja
+dios mío|ya Tuhan
+madre mía|astaga, ya ampun
+válgame dios|astaga
+gracias a dios|syukurlah
+vaya por dios|aduh, ya ampun
+por amor de dios|demi Tuhan
+por el amor de dios|demi Tuhan
+con permiso|permisi
+mucho gusto|senang berkenalan
+lo que faltaba|lengkap sudah penderitaan
+pase lo que pase|apa pun yang terjadi
+como quieras|terserah kamu
+como sea|bagaimanapun; apa pun caranya
+sea como sea|bagaimanapun juga, apa pun yang terjadi
+sea lo que sea|apa pun itu
+a la mierda|persetan, enyah sana (kasar)

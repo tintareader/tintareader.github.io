@@ -1,0 +1,329 @@
+# Mandarin multi-word constructions: the patterns. Hand-curated — not generated
+# by dictgen.
+#
+# Format: one pattern per line, `#` comments ignored; what each one means is in
+# `phrases.<meta>.txt`, joined on the pattern. A slot matches one segmenter
+# token, so a pattern is written in the pieces the segmenter actually cuts:
+# `打 * 喷嚏`, not `打 * 喷 嚏`, and a construction the segmenter already takes
+# whole (看不起, 舍不得) is a headword, not a phrase. `*` is a gap of up to four
+# tokens and may cross a comma; `?` is a gap of one and may not.
+#
+# ## What belongs here
+#
+# Only what the segmenter cannot see because it is split, and whose parts
+# mislead read one by one:
+#
+# - Separable verbs with something inside (`帮了我一个忙` is 帮忙): `帮 * 忙`.
+# - Correlative frames (`越 * 越`, `连 * 都`, `不是 * 而是`) and the verb-
+#   specific `一 V * 就` lines — bare `一 * 就` was mostly a numeral and a noun.
+# - A-not-A questions the segmenter splits (`知 不 知道`).
+# - Sequences the segmenter cuts into a misleading word: 回过头 is 回 + 过头
+#   "to overdo it", so `回 过头` is here to say what it means.
+#
+# **Chengyu are not here.** An unbroken four-character idiom is a headword
+# tagged `idiom` in lex.txt: only a headword gets a band, a status and a row in
+# the words table.
+#
+# Each pattern was proposed by a model on 2026-09-23, measured with
+# `measure:phrase-fit` over fiction and OPUS, and kept at 8 hits or more with
+# its sampled sentences read. A single-character slot is the danger: 操 * 心
+# caught 曹操，心说 and 点 * 头 caught 四点，日头, and both were dropped.
+
+# ---- Separable verbs (离合词) split by 了/过/个/a pronoun or a possessive: the
+# contiguous form is usually one headword and then never matches two slots; where it
+# is not (请假, 照相, 理发), the pattern also underlines the adjacent pair.
+帮 * 大忙
+帮 * 忙
+见 过世 面
+见 * 面
+睡 * 觉
+生 * 气
+洗 * 澡
+聊 * 天
+吃 * 亏
+打 * 架
+吵 * 架
+结 * 婚
+离 * 婚
+拍 * 照
+散 * 步
+丢 * 脸
+开 * 玩笑
+叹 * 口气
+叹 * 一口气
+松 * 口气
+松 * 一口气
+吸 * 口气
+吸 * 一口气
+喘 * 口气
+吃 * 醋
+吃 * 苦
+吃 * 惊
+发 * 脾气
+发 * 火
+请 * 假
+游 * 泳
+上 * 课
+放 * 假
+住 * 院
+打 * 仗
+打 * 针
+报 * 仇
+道 * 歉
+鞠 * 躬
+开 * 车
+迷 * 路
+插 * 嘴
+泄 * 气
+争 * 气
+赌 * 气
+费 * 劲
+使 * 劲
+干 * 杯
+发 * 誓
+算 * 账
+打 * 赌
+露 * 面
+过 * 瘾
+发 * 疯
+发 * 呆
+发 * 愁
+发 * 财
+讲 * 理
+丢 * 面子
+给 * 面子
+伤 * 脑筋
+动 * 脑筋
+留 * 神
+敬 * 酒
+值 * 班
+打 * 盹
+打 * 哈欠
+打 * 喷嚏
+打 * 瞌睡
+见 * 鬼
+倒 * 霉
+遭 * 殃
+受 * 罪
+回 过头
+转 过头
+摆 * 手
+撒 * 谎
+拍 * 马屁
+走 * 后门
+打 * 招呼
+打 * 交道
+出 * 主意
+拿 * 主意
+打 * 主意
+伤 * 心
+做 * 梦
+沾 * 光
+占 * 便宜
+告 * 状
+打 * 官司
+打 * 哆嗦
+打 * 冷战
+打 * 转
+怀 * 孕
+坐 * 牢
+耍 * 花招
+发 * 牢骚
+下 ? 棋
+跑 * 腿
+变 * 卦
+翻 * 身
+较 * 劲
+服 * 输
+吃 * 闭门羹
+泼 * 冷 水
+绕 * 圈子
+兜 * 圈子
+卖 * 关子
+摆 * 架子
+走 * 弯 路
+拖 * 后腿
+出 什么 事
+出 了 什么 事
+出 了 事
+上 * 的 当
+做 主
+费 心
+看 ? 病
+理 发
+走 神
+请 ? 安
+动 ? 手
+下 狠 手
+下 的 手
+下 不了 手
+叫 苦
+拜 ? 年
+照 ? 相
+# ---- Correlative frames: two words that work as one construction.
+越 * 越
+连 * 都
+连 * 也
+又 * 又
+既 * 又
+既 * 也
+一边 * 一边
+边 * 边
+非 * 不可
+除了 * 以外
+除了 * 之外
+除了 * 外
+不是 * 就是
+不是 * 而是
+只要 * 就
+只有 * 才
+要是 * 就
+如果 * 就
+不管 * 都
+无论 * 都
+无论 * 也
+即使 * 也
+哪怕 * 也
+就算 * 也
+即便 * 也
+宁可 * 也
+宁愿 * 也
+与其 * 不如
+对 * 来说
+对 * 而言
+就 * 而言
+拿 * 来说
+以 * 为
+以 * 为主
+以 * 为 例
+把 * 当作
+把 * 当成
+把 * 看作
+把 * 看成
+被 * 所
+被 * 给
+像 * 似的
+像 * 一样
+跟 * 一样
+和 * 一样
+跟 * 似的
+好像 * 似的
+跟 * 有关
+与 * 有关
+和 * 有关
+跟 * 没关系
+和 * 没关系
+对 * 感兴趣
+对 * 有 兴趣
+拿 * 没 办法
+跟 * 过不去
+为 * 着想
+到 * 为止
+在 * 看来
+直到 * 才
+刚 * 就
+不是 * 吗
+难道 * 吗
+何必 * 呢
+何 苦 * 呢
+还是 * 吧
+太 ? 了
+快要 * 了
+就要 * 了
+该 ? 了
+挺 ? 的
+是 ? 还是
+从 ? 起
+怎么 ? 也
+怎么 ? 都
+把 ? 当
+为 ? 所
+一 看 * 就
+一 看到 * 就
+一 听 * 就
+一 听到 * 就
+一 见 * 就
+一 见到 * 就
+一 想到 * 就
+一 想 * 就
+一 进 * 就
+一 进门 * 就
+一 进来 * 就
+一 进去 * 就
+一 出来 * 就
+一 到 * 就
+一 回来 * 就
+一 回到 * 就
+一 开口 * 就
+一 碰 * 就
+一 走 * 就
+一 上 来 * 就
+一 接触 * 就
+一 离开 * 就
+一 靠近 * 就
+一 转身 * 就
+一 出手 * 就
+一 抬头 * 就
+# ---- Fixed sequences the segmenter leaves in pieces, and indefinites (什么都, 谁也).
+什么 都
+什么 也
+谁 都
+谁 也
+哪儿 都
+哪里 都
+一点 也 不
+一点 都 不
+一点儿 也 不
+一点 也 没
+一点 都 没
+一 ? 都 没
+再也 不
+再也 没
+好 容易
+谈 不 上
+算 不 上
+说 不 上
+由 不得
+吃 不 消
+看 不 惯
+禁 不住
+止 不住
+对 得 起
+对 不住
+不 在乎
+不 怎么样
+没 意思
+不 一会儿
+一 动 不动
+动 不动
+总 的 来说
+这样 一来
+说 到底
+说 起来
+不 至于
+看 着 办
+一个 劲 儿
+不 客气
+别 客气
+怎么 了
+好 在
+# ---- A-not-A questions the segmenter splits (… or not?).
+知 不 知道
+喜 不 喜欢
+愿 不 愿意
+认 不 认识
+应 不 应该
+需 不 需要
+可不 可以
+记 不 记得
+相 不 相信
+明 不 明白
+要 不要
+能 不能
+会 不会
+想 不想
+敢 不敢
+来 不 来
+在 不 在
+懂 不 懂
+信 不 信

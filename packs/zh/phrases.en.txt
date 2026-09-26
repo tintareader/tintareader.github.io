@@ -1,0 +1,302 @@
+# What each Mandarin construction in `phrases.txt` means, in English.
+#
+# Format: pattern|gloss, joined to `phrases.txt` on the pattern. Written by a
+# model on 2026-09-23 and not derived from any licensed corpus.
+# ---- Separable verbs (离合词) split by 了/过/个/a pronoun or a possessive: the
+# contiguous form is usually one headword and then never matches two slots; where it
+# is not (请假, 照相, 理发), the pattern also underlines the adjacent pair.
+帮 * 大忙|to do (someone) a big favour
+帮 * 忙|to help, do a favour (split: 帮了我一个忙)
+见 过世 面|to have seen the world (not 过世 'pass away')
+见 * 面|to meet, see each other
+睡 * 觉|to sleep, go to bed
+生 * 气|to get angry (生X的气: be angry with X)
+洗 * 澡|to take a bath or shower
+聊 * 天|to chat
+吃 * 亏|to lose out, come off worse
+打 * 架|to fight, come to blows
+吵 * 架|to quarrel
+结 * 婚|to marry
+离 * 婚|to divorce
+拍 * 照|to take a photo
+散 * 步|to take a walk
+丢 * 脸|to lose face, be disgraced
+开 * 玩笑|to joke; to make fun (of)
+叹 * 口气|to sigh
+叹 * 一口气|to sigh
+松 * 口气|to breathe a sigh of relief
+松 * 一口气|to breathe a sigh of relief
+吸 * 口气|to take a breath
+吸 * 一口气|to take a breath
+喘 * 口气|to catch one's breath
+吃 * 醋|to be jealous
+吃 * 苦|to endure hardship
+吃 * 惊|to be startled (吃了一惊)
+发 * 脾气|to lose one's temper
+发 * 火|to lose one's temper
+请 * 假|to ask for leave
+游 * 泳|to swim
+上 * 课|to attend or teach a class
+放 * 假|to be on holiday
+住 * 院|to be in hospital
+打 * 仗|to fight a war
+打 * 针|to give or get an injection
+报 * 仇|to take revenge
+道 * 歉|to apologise
+鞠 * 躬|to bow
+开 * 车|to drive
+迷 * 路|to get lost
+插 * 嘴|to butt in
+泄 * 气|to lose heart
+争 * 气|to do (someone) proud
+赌 * 气|to sulk
+费 * 劲|to take a lot of effort
+使 * 劲|to exert oneself, push hard
+干 * 杯|to drink a toast
+发 * 誓|to swear, vow
+算 * 账|to settle accounts (with)
+打 * 赌|to bet
+露 * 面|to show one's face, appear
+过 * 瘾|to enjoy to the full
+发 * 疯|to go mad
+发 * 呆|to be in a daze, stare blankly
+发 * 愁|to worry
+发 * 财|to get rich
+讲 * 理|to be reasonable
+丢 * 面子|to lose face
+给 * 面子|to show (someone) respect, save their face
+伤 * 脑筋|to be a headache, rack one's brains
+动 * 脑筋|to use one's head
+留 * 神|to take care, watch out
+敬 * 酒|to propose a toast
+值 * 班|to be on duty
+打 * 盹|to doze
+打 * 哈欠|to yawn
+打 * 喷嚏|to sneeze
+打 * 瞌睡|to nod off
+见 * 鬼|what the hell; to see a ghost
+倒 * 霉|to have bad luck
+遭 * 殃|to suffer disaster
+受 * 罪|to have a hard time
+回 过头|to turn one's head (回过头: not 过头 'overdo')
+转 过头|to turn one's head (转过头: not 过头 'overdo')
+摆 * 手|to wave one's hand (no, dismissively)
+撒 * 谎|to lie
+拍 * 马屁|to suck up (to)
+走 * 后门|to pull strings, use the back door
+打 * 招呼|to greet; to give (someone) a heads-up
+打 * 交道|to deal with
+出 * 主意|to give advice, make suggestions
+拿 * 主意|to make up one's mind
+打 * 主意|to have designs on (打X的主意); 打定主意: to make up one's mind
+伤 * 心|to be sad, heartbroken
+做 * 梦|to dream
+沾 * 光|to benefit from association with
+占 * 便宜|to take advantage (of)
+告 * 状|to tell on someone; to file a complaint
+打 * 官司|to go to court
+打 * 哆嗦|to shiver, tremble
+打 * 冷战|to shiver
+打 * 转|to go round in circles
+怀 * 孕|to be pregnant
+坐 * 牢|to be in prison
+耍 * 花招|to play tricks
+发 * 牢骚|to grumble
+下 ? 棋|to play chess
+跑 * 腿|to run errands
+变 * 卦|to go back on one's word
+翻 * 身|to turn over; to free oneself
+较 * 劲|to be at odds with, pit oneself against
+服 * 输|to admit defeat
+吃 * 闭门羹|to be turned away at the door
+泼 * 冷 水|to pour cold water (on)
+绕 * 圈子|to beat around the bush; to make a detour
+兜 * 圈子|to beat around the bush; to go round in circles
+卖 * 关子|to keep (someone) in suspense
+摆 * 架子|to put on airs
+走 * 弯 路|to take a detour, go the wrong way about it
+拖 * 后腿|to hold (someone) back
+出 什么 事|what's happened?, is something wrong?
+出 了 什么 事|what's happened?, what went wrong?
+出 了 事|something went wrong, there was an accident
+上 * 的 当|to be taken in by (上X的当)
+做 主|to decide, be in charge; (为X做主) to stand up for X
+费 心|to take trouble (over)
+看 ? 病|to see a doctor; (of a doctor) to see patients
+理 发|to get a haircut
+走 神|to be absent-minded
+请 ? 安|to pay one's respects
+动 ? 手|to start (a fight), lay hands on
+下 狠 手|to strike ruthlessly, show no mercy
+下 的 手|(who) did it, made the attack (下的手)
+下 不了 手|can't bring oneself to do it
+叫 苦|to complain of hardship
+拜 ? 年|to pay a New Year call
+照 ? 相|to take a photo
+# ---- Correlative frames: two words that work as one construction.
+越 * 越|the more … the more …
+连 * 都|even …
+连 * 也|even …
+又 * 又|both … and …
+既 * 又|both … and …
+既 * 也|both … and …; … as well as …
+一边 * 一边|… while …, at the same time as …
+边 * 边|… while …
+非 * 不可|must, simply have to
+除了 * 以外|apart from …; besides …
+除了 * 之外|apart from …; besides …
+除了 * 外|apart from …; besides …
+不是 * 就是|either … or …
+不是 * 而是|not … but …
+只要 * 就|as long as …, (then) …
+只有 * 才|only if … (then) …; only … can …
+要是 * 就|if …, (then) …
+如果 * 就|if …, (then) …
+不管 * 都|no matter …, still …
+无论 * 都|no matter …, still …
+无论 * 也|no matter …, still …
+即使 * 也|even if …
+哪怕 * 也|even if …
+就算 * 也|even if …
+即便 * 也|even if …
+宁可 * 也|would rather … (than) …
+宁愿 * 也|would rather … (than) …
+与其 * 不如|rather than …, better to …
+对 * 来说|for …, as far as … is concerned
+对 * 而言|for …, as far as … is concerned
+就 * 而言|as far as … is concerned
+拿 * 来说|take … for example
+以 * 为|to take … as, regard … as
+以 * 为主|mainly …, with … as the main thing
+以 * 为 例|taking … as an example
+把 * 当作|to treat … as, regard … as
+把 * 当成|to treat … as, take … for
+把 * 看作|to regard … as
+把 * 看成|to regard … as, take … for
+被 * 所|(formal passive) … by …
+被 * 给|(colloquial passive) … by … (给 adds no meaning here)
+像 * 似的|like …, as if …
+像 * 一样|like …, just as …
+跟 * 一样|the same as …, like … (不一样: different from)
+和 * 一样|the same as …, like … (不一样: different from)
+跟 * 似的|like …, as if …
+好像 * 似的|as if …
+跟 * 有关|to be related to …
+与 * 有关|to be related to …
+和 * 有关|to be related to …
+跟 * 没关系|to have nothing to do with …
+和 * 没关系|to have nothing to do with …
+对 * 感兴趣|to be interested in …
+对 * 有 兴趣|to be interested in …
+拿 * 没 办法|to be unable to do anything with …
+跟 * 过不去|to make things hard for …, have it in for …
+为 * 着想|to think of …'s interests
+到 * 为止|up to …, until …
+在 * 看来|in …'s view
+直到 * 才|not until …
+刚 * 就|had only just … when …
+不是 * 吗|isn't it …? (rhetorical: surely …)
+难道 * 吗|surely … not?; do you mean to say …?
+何必 * 呢|why bother …?, there's no need to …
+何 苦 * 呢|why bother …?, why put yourself through …?
+还是 * 吧|had better …
+太 ? 了|so …!, really …; too … (太好了: great)
+快要 * 了|about to …, nearly …
+就要 * 了|about to …
+该 ? 了|it's time to …
+挺 ? 的|quite …, pretty …
+是 ? 还是|… or …?
+从 ? 起|from … on
+怎么 ? 也|no matter how (+ not: just can't …)
+怎么 ? 都|no matter how (+ not: just can't …)
+把 ? 当|to treat … as, take … for
+为 ? 所|(formal passive) … by …
+一 看 * 就|as soon as … (then) … (一看就)
+一 看到 * 就|as soon as … (then) … (一看到就)
+一 听 * 就|as soon as … (then) … (一听就)
+一 听到 * 就|as soon as … (then) … (一听到就)
+一 见 * 就|as soon as … (then) … (一见就)
+一 见到 * 就|as soon as … (then) … (一见到就)
+一 想到 * 就|as soon as … (then) … (一想到就)
+一 想 * 就|as soon as … (then) … (一想就)
+一 进 * 就|as soon as … (then) … (一进就)
+一 进门 * 就|as soon as … (then) … (一进门就)
+一 进来 * 就|as soon as … (then) … (一进来就)
+一 进去 * 就|as soon as … (then) … (一进去就)
+一 出来 * 就|as soon as … (then) … (一出来就)
+一 到 * 就|as soon as … (then) … (一到就)
+一 回来 * 就|as soon as … (then) … (一回来就)
+一 回到 * 就|as soon as … (then) … (一回到就)
+一 开口 * 就|as soon as … (then) … (一开口就)
+一 碰 * 就|as soon as … (then) … (一碰就)
+一 走 * 就|as soon as … (then) … (一走就)
+一 上 来 * 就|as soon as … (then) … (一上来就)
+一 接触 * 就|as soon as … (then) … (一接触就)
+一 离开 * 就|as soon as … (then) … (一离开就)
+一 靠近 * 就|as soon as … (then) … (一靠近就)
+一 转身 * 就|as soon as … (then) … (一转身就)
+一 出手 * 就|as soon as … (then) … (一出手就)
+一 抬头 * 就|as soon as … (then) … (一抬头就)
+# ---- Fixed sequences the segmenter leaves in pieces, and indefinites (什么都, 谁也).
+什么 都|everything, anything (+ not: nothing)
+什么 也|anything (+ not: nothing)
+谁 都|everyone, anyone (+ not: no one)
+谁 也|anyone (+ not: no one)
+哪儿 都|everywhere (+ not: nowhere)
+哪里 都|everywhere (+ not: nowhere)
+一点 也 不|not at all
+一点 都 不|not at all
+一点儿 也 不|not at all
+一点 也 没|not at all, not a bit
+一点 都 没|not at all, not a bit
+一 ? 都 没|not a single …
+再也 不|never again, no longer
+再也 没|never again
+好 容易|with great difficulty, only just (= 好不容易)
+谈 不 上|to be out of the question; can hardly be called
+算 不 上|can hardly be called
+说 不 上|can't really say; can't be called
+由 不得|to be beyond (someone's) control; can't help
+吃 不 消|to be unable to stand
+看 不 惯|to be unable to stand the sight of
+禁 不住|to be unable to help (doing); to be unable to bear
+止 不住|to be unable to stop
+对 得 起|to be worthy of, do right by
+对 不住|to let (someone) down; sorry
+不 在乎|to not care
+不 怎么样|nothing special, not much good
+没 意思|boring, pointless
+不 一会儿|before long, soon
+一 动 不动|motionless, stock-still
+动 不动|at the slightest thing, all the time (动不动就)
+总 的 来说|all in all, on the whole
+这样 一来|as a result, that way
+说 到底|in the final analysis, when all's said and done
+说 起来|come to think of it; speaking of (说起来容易: easy to say)
+不 至于|to not go so far as, not be as bad as
+看 着 办|to do as one sees fit
+一个 劲 儿|persistently, doggedly
+不 客气|you're welcome; to be rude
+别 客气|don't mention it, make yourself at home
+怎么 了|what's wrong?, what happened?
+好 在|luckily, fortunately
+# ---- A-not-A questions the segmenter splits (… or not?).
+知 不 知道|do (you) know?
+喜 不 喜欢|do (you) like …?
+愿 不 愿意|are (you) willing?
+认 不 认识|do (you) know (someone)?
+应 不 应该|should … or not?
+需 不 需要|do (you) need …?
+可不 可以|may …?, can …? (not 可不 'exactly')
+记 不 记得|do (you) remember?
+相 不 相信|do (you) believe …?
+明 不 明白|do (you) understand?
+要 不要|do (you) want …?, shall …? (… or not)
+能 不能|can … or not?; could you …?
+会 不会|will … or not?; could it be that …?
+想 不想|do (you) want to …?
+敢 不敢|do (you) dare …?
+来 不 来|are (you) coming?
+在 不 在|is … there or not?
+懂 不 懂|do (you) understand?
+信 不 信|believe it or not

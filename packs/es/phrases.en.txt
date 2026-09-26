@@ -1,0 +1,594 @@
+# What each Spanish phrase in `phrases.txt` means, in English.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain is not underlined at all, so a translation in
+# progress simply shows fewer phrases rather than showing empty ones.
+#
+# These glosses are written by hand and are not derived from any licensed
+# corpus. To translate this pack for a reader of another language, copy this
+# file to `phrases.<code>.txt` and translate the right-hand side; the patterns
+# on the left are the join key and must not change.
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+tener que|to have to, must
+hay que|one has to, it is necessary (impersonal)
+acabar de|to have just (done something)
+ir a|to be going to (+ infinitive); to go to
+dejar de|to stop (doing something)
+volver a|to do (something) again; to go back to
+empezar a|to start to
+poner a|to set about, start (doing) (ponerse a); to put (someone) to (work, a task)
+tratar de|to try to; to be about
+estar de acuerdo|to agree
+poner de pie|to stand (someone) up; ponerse de pie: to stand up
+
+# ---- tener + noun: Spanish states where English uses "to be".
+tener razón|to be right
+tener ganas|(+ de) to feel like, to fancy
+tener miedo|to be afraid
+tener cuidado|to be careful
+tener prisa|to be in a hurry
+tener hambre|to be hungry
+tener sueño|to be sleepy; to have dreams (tener sueños)
+tener suerte|to be lucky
+tener sentido|to make sense
+tener lugar|to take place
+
+# ---- Other light-verb idioms.
+hacer falta|to be needed, to be lacking
+hacer caso|to pay attention, to take notice
+hacer daño|to hurt, to do harm
+dar igual|to make no difference, to not matter
+dar miedo|to be frightening
+dar cuenta|darse cuenta (de): to realize
+dar a luz|to give birth
+echar de menos|to miss (a person)
+llevar a cabo|to carry out
+valer la pena|to be worth it
+llamar la atención|to attract attention; to tell off
+caer bien|to like (a person), to get on with
+tomar el pelo|to tease, to pull someone's leg
+meter la pata|to put one's foot in it
+
+# ---- Connectives and discourse markers.
+sin embargo|however, nevertheless
+por eso|that is why, so
+así que|so, therefore
+ya que|since, given that
+puesto que|since, because
+para que|so that
+a menos que|unless
+por lo tanto|therefore
+o sea|I mean, in other words
+es decir|that is to say
+de hecho|in fact
+en realidad|actually, in fact
+por cierto|by the way
+en fin|anyway, in short
+de todos modos|anyway, in any case
+de todas formas|anyway, in any case
+por si acaso|just in case
+sobre todo|above all, especially
+además de|besides, as well as
+por lo visto|apparently
+más o menos|more or less
+por lo menos|at least
+al menos|at least
+
+# ---- Question words and relatives written as two tokens.
+por qué|why
+para qué|what for
+lo que|what, that which
+por lo que|so, which is why
+qué tal|how is it going?; how about
+
+# ---- Modality and degree.
+a lo mejor|maybe, perhaps
+tal vez|maybe, perhaps
+por supuesto|of course
+desde luego|of course, certainly
+claro que sí|of course (emphatic yes)
+en serio|seriously, really
+de verdad|really, truly
+ni siquiera|not even
+en absoluto|not at all (with a negative)
+ya no|no longer, not anymore
+todavía no|not yet
+lo mismo|the same thing
+de acuerdo|agreed, OK
+a punto de|about to
+cada vez más|more and more
+
+# ---- Time and manner.
+de repente|suddenly
+de pronto|suddenly
+a veces|sometimes
+a menudo|often
+de vez en cuando|from time to time
+en cuanto|as soon as
+en cuanto a|as for, regarding
+a la vez|at the same time
+de nuevo|again
+otra vez|again
+ahora mismo|right now
+por ahora|for now
+de momento|for now, for the time being
+al principio|at first
+al final|in the end
+en punto|on the dot (of clock time)
+a tiempo|on time, in time
+hoy en día|nowadays
+en seguida|right away
+a lo largo de|along; throughout
+
+# ---- Prepositional phrases whose parts do not give the meaning away.
+a pesar de|in spite of, despite
+a causa de|because of
+gracias a|thanks to
+a través de|through, across
+a partir de|from (a point in time) onwards
+en vez de|instead of
+en lugar de|instead of
+acerca de|about, concerning
+en contra de|against, opposed to
+
+# ---- Fixed dialogue.
+por favor|please
+de nada|you are welcome; for nothing, in vain
+lo siento|I am sorry; (literally) I feel it
+menos mal|thank goodness, just as well
+no importa|it does not matter
+qué pena|what a shame
+ni modo|oh well, nothing to be done (Lat. Am.)
+por dios|for God's sake, my God
+buenos días|good morning
+buenas tardes|good afternoon
+buenas noches|good evening; good night
+hasta luego|see you later
+hasta mañana|see you tomorrow
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it and a read of its sampled
+# sentences found the idiomatic reading carrying it.
+# ---- Verbal periphrases and verb + preposition
+llegar a ser|to become
+acabar por|to end up (doing)
+terminar por|to end up (doing)
+haber de|to have to, must; to be (destined) to
+deber de|must (probably), must have
+echar a correr|to break into a run
+echar a reír|to burst out laughing
+echar a andar|to set off walking
+romper a llorar|to burst into tears
+ir a parar|to end up; (voy a parar) to be going to stop
+ir a por|to go and get, to go for
+querer decir|to mean
+ser hora de|to be time to
+tardar en|to take (time) to; to be slow to
+pensar en|to think about, to think of
+soñar con|to dream of, to dream about
+contar con|to count on, to rely on; to have
+dar con|to find, to come across
+acabar con|to put an end to, to finish off
+terminar con|to put an end to; to break up with; to finish with
+romper con|to break up with, to break with
+quedar con|quedarse con: to keep; to arrange to meet
+acordar de|acordarse de: to remember
+olvidar de|olvidarse de: to forget
+enamorar de|enamorarse de: to fall in love with
+fijar en|fijarse en: to notice, to pay attention to; to fix on
+negar a|negarse a: to refuse to; to deny (someone)
+atrever a|atreverse a: to dare to
+limitar a|limitarse a: to do no more than, to just (do)
+disponer a|disponerse a: to get ready to; (dispuesto a) willing to
+estar dispuesto a|to be willing to, to be prepared to
+oler a|to smell of
+tirar de|to pull (on)
+dejar caer|to drop, to let fall; to let slip (a remark)
+hacer saber|to let (someone) know, to inform
+# ---- tener
+tener que ver con|to have to do with; (tengo que ver con) to have to see with
+tener nada que ver|(no tener nada que ver) to have nothing to do (with)
+tener algo que ver|to have something to do (with)
+tener años|(tener 20 años) to be (so many) years old
+tener en cuenta|to bear in mind, to take into account
+tener por qué|(no tener por qué) to have no reason to, needn't
+tener la culpa|to be to blame, to be one's fault
+tener frío|to be (feel) cold
+tener calor|to be (feel) hot
+tener sed|to be thirsty
+tener celos|to be jealous
+tener vergüenza|to be ashamed; to be embarrassed
+tener gracia|to be funny; (irony) that's rich
+tener entendido|to understand (that), to have heard
+tener pensado|to plan, to intend
+# ---- dar
+dar prisa|darse prisa: to hurry up
+dar la vuelta|to turn round (darse la vuelta); to turn over; to go round
+dar media vuelta|to turn round, to about-turn
+dar una vuelta|to go for a walk, a drive, a spin
+dar vueltas|to go round and round; to toss and turn; to mull over
+dar un paso|to take a step
+dar un paseo|to go for a walk
+dar de comer|to feed
+dar la razón|to agree with (someone), to admit they are right
+dar la mano|to shake hands; to hold hands
+dar la espalda|to turn one's back (on)
+dar la cara|to face up to things, to take responsibility
+dar la gana|to feel like, to want (me da la gana: I feel like it)
+dar ganas|to make (someone) feel like
+dar pena|to make sad; to feel sorry (me da pena: I feel sorry)
+dar vergüenza|to be embarrassing; to feel ashamed
+dar asco|to be disgusting, to disgust
+dar lo mismo|to make no difference, to not matter
+dar a entender|to imply, to hint
+dar por vencido|darse por vencido: to give up
+dar por sentado|to take for granted
+# ---- hacer
+hacer cargo|hacerse cargo de: to take charge of; to understand
+hacer frente|to face (up to), to confront
+hacer el favor|(haz el favor de) please; to do a favour
+hacer una pregunta|to ask a question
+hacer tiempo|(hace tiempo) a long time ago, for a long time; to kill time
+hacer mucho tiempo|(hace mucho tiempo) a long time ago, for a long time
+hace poco|recently, a short while ago
+hace un rato|a little while ago
+hace años|years ago; for years
+desde hace|for (a length of time, up to now)
+desde hacía|for (a length of time, up to then)
+hacer frío|(hace frío) to be cold (weather)
+hacer calor|(hace calor) to be hot (weather)
+hacer tarde|hacerse tarde: to get late
+hacer de noche|hacerse de noche: to get dark
+hacer ademán de|to make as if to
+hacer como si|to pretend, to act as if
+hacer las paces|to make up, to make peace
+hacer gracia|to amuse, to strike as funny
+hacer trampa|to cheat
+hacer las maletas|to pack (one's bags)
+# ---- echar, tomar, poner
+echar un vistazo|to take a look, to glance
+echar una ojeada|to take a quick look
+echar una mano|to lend a hand
+echar mano|echar mano de: to resort to, to reach for
+echar la culpa|to blame
+echar a perder|to spoil, to ruin
+tomar el sol|to sunbathe
+poner nervioso|to make nervous (ponerse nervioso: to get nervous)
+poner rojo|to make blush (ponerse rojo: to blush, to go red)
+poner en pie|to stand up (ponerse en pie); to get on its feet
+poner en marcha|to start (up), to set in motion
+poner en camino|ponerse en camino: to set off
+poner de acuerdo|ponerse de acuerdo: to come to an agreement
+poner al día|to bring up to date (ponerse al día: to catch up)
+poner los ojos en blanco|to roll one's eyes
+poner los pelos de punta|to make one's hair stand on end
+# ---- quedar, llevar, pasar, venir, other verbs
+quedar sin|quedarse sin: to run out of, to be left without
+quedar dormido|quedarse dormido: to fall asleep; to oversleep
+quedar mirando|quedarse mirando: to stare
+quedar quieto|quedarse quieto: to keep still
+quedar en blanco|quedarse en blanco: to go blank
+quedar bien|to look good, to suit; to make a good impression
+llevar bien|llevarse bien: to get on well
+llevar puesto|to have on, to be wearing
+salir bien|to turn out well, to go well
+salir mal|to go wrong, to turn out badly
+salir adelante|to get by, to pull through
+salir con la suya|salirse con la suya: to get one's own way
+pasar bien|pasarlo bien: to have a good time
+pasar por alto|to overlook
+pasar de largo|to go straight past
+pasar el rato|to pass the time
+venir bien|to suit, to come in handy
+venir abajo|venirse abajo: to collapse, to fall apart
+caer mal|to dislike (someone), to not get on with
+caer en la cuenta|to realise
+volver loco|to drive mad (volverse loco: to go mad)
+volver en sí|to come round, to regain consciousness
+perder los estribos|to lose one's temper
+dejar en paz|to leave alone
+pedir perdón|to apologise, to say sorry
+llamar a la puerta|to knock at the door
+prestar atención|to pay attention
+cumplir años|to have a birthday; (cumplir 20 años) to turn 20
+costar trabajo|to be hard, to take effort
+caber duda|(no cabe duda) there is no doubt
+faltar más|(no faltaba más, faltaría más) of course, don't mention it; that's the limit
+ir al grano|to get to the point
+ir a pique|to sink; to go under
+encoger de hombros|encogerse de hombros: to shrug
+fruncir el ceño|to frown
+negar con la cabeza|to shake one's head
+cruzar de brazos|cruzarse de brazos: to fold one's arms; to sit back and do nothing
+morir de risa|morirse de risa: to die laughing
+importar un bledo|to not give a damn
+pegar ojo|(no pegar ojo) to not sleep a wink
+# ---- States: ser, estar and what follows them
+estar harto|to be fed up
+harto de|fed up with, sick of
+de broma|as a joke, joking
+en broma|as a joke, jokingly
+de pie|standing, on one's feet
+de rodillas|on one's knees, kneeling
+de espaldas|with one's back turned; on one's back
+de puntillas|on tiptoe
+de bruces|face down, flat on one's face
+en cuclillas|squatting, crouching
+boca arriba|face up, on one's back
+boca abajo|face down, on one's front
+a gusto|comfortable, at ease
+a salvo|safe
+al tanto|aware, informed (estar al tanto: to be in the know)
+al corriente|up to date, informed
+en lo cierto|right (estar en lo cierto: to be right)
+de moda|in fashion
+de vuelta|back (returned); on the way back
+de guardia|on duty, on call
+en juego|at stake; in play
+en las últimas|on one's last legs, at death's door
+a la altura|at the level (of); (estar a la altura) to be up to it
+pendiente de|watching, attentive to; waiting on; pending
+en las nubes|with one's head in the clouds
+no es para tanto|it's not that big a deal
+# ---- Connectives and discourse markers
+es que|it's just that, the thing is; (literally) is that
+como si|as if
+como si nada|as if nothing had happened
+lo cual|which
+lo de|the business about, the matter of
+lo demás|the rest, everything else
+lo que sea|whatever, anything
+lo cierto es que|the truth is that
+la verdad es que|the truth is, to be honest
+el caso es que|the thing is that
+resulta que|it turns out that
+nada más|nothing else, only; (+ infinitive) as soon as
+nada menos|no less, nothing less than
+más que nada|above all, mainly
+más bien|rather
+en efecto|indeed, in fact
+en cambio|on the other hand, whereas
+en todo caso|in any case; if anything
+en definitiva|ultimately, in short
+en cierto modo|in a way
+no obstante|nevertheless, however
+mientras tanto|meanwhile
+entre tanto|meanwhile
+aun así|even so
+aun cuando|even if, even though
+dado que|given that, since
+siempre que|whenever; provided that
+siempre y cuando|provided that, as long as
+con tal de|provided (that), as long as
+con tal que|provided that
+a no ser que|unless
+al fin y al cabo|after all
+a fin de cuentas|after all, in the end
+o bien|or else, or
+si bien|although, while
+ahora bien|however, now then
+pues bien|well then, now
+así pues|so, therefore
+así como|as well as; just as
+tal como|just as, exactly as
+tal y como|just as, exactly as
+por tanto|therefore
+por consiguiente|consequently
+por ello|for this reason, that is why
+por otro lado|on the other hand
+por otra parte|on the other hand; moreover
+por un lado|on the one hand
+de modo que|so, so that
+de manera que|so, so that
+de ahí|hence; from there
+de ahí que|hence, which is why
+de lo contrario|otherwise
+por lo demás|otherwise, apart from that
+a su vez|in turn
+a medida que|as (progressively)
+en tanto que|while; insofar as, as
+tan solo|only, just
+tan sólo|only, just
+aunque sea|even if only, at least
+ante todo|above all, first and foremost
+a todo esto|by the way; meanwhile
+dicho esto|having said that
+dicho sea de paso|incidentally
+por así decirlo|so to speak
+por decirlo así|so to speak
+a saber|namely; who knows
+que yo sepa|as far as I know
+cuanto más|the more; all the more
+cuanto antes|as soon as possible
+más allá de|beyond
+más allá|further on; the beyond
+# ---- Degree, quantity and modality
+todo el mundo|everybody, everyone
+del todo|completely, entirely
+sin querer|accidentally, unintentionally
+sin más|just like that, without further ado
+sin falta|without fail
+sin cesar|incessantly
+ni idea|no idea
+ni hablar|no way, out of the question
+ni mucho menos|far from it, not at all
+ni que|as if; not even if
+ni se te ocurra|don't even think about it
+gran cosa|much, a big deal
+un montón de|lots of, a ton of
+un montón|a lot, loads
+un tal|a certain, one (so-and-so)
+y demás|and so on, and the rest
+de lo más|most, really, extremely
+a lo sumo|at most
+por muy|however (+ adjective)
+por mucho que|however much
+por más que|however much, no matter how much
+por poco|almost, nearly
+de veras|really, truly
+a medias|halfway, half-done; half each
+a duras penas|barely, with great difficulty
+de sobra|more than enough; perfectly well
+de primera|first-rate; (de primera mano) first-hand
+de por sí|in itself, by nature
+# ---- Time
+por fin|at last, finally
+al fin|at last, finally
+al cabo de|after (a length of time)
+al poco rato|shortly afterwards
+un buen rato|quite a while
+dentro de poco|soon, shortly
+de un momento a otro|any moment now
+de la noche a la mañana|overnight, suddenly
+de golpe|suddenly, all at once
+de improviso|unexpectedly
+de antemano|beforehand, in advance
+de una vez|once and for all; in one go
+de una vez por todas|once and for all
+de cuando en cuando|from time to time
+una y otra vez|again and again
+de noche|at night, by night; (se hace de noche) it gets dark
+por la noche|at night, in the evening
+por la mañana|in the morning
+por la tarde|in the afternoon, in the evening
+pasado mañana|the day after tomorrow
+hoy día|nowadays
+a estas alturas|at this stage, by now
+a primera hora|first thing (in the morning)
+a finales de|at the end of (a period)
+a la larga|in the long run
+en breve|shortly
+en adelante|from then on, onwards
+de ahora en adelante|from now on
+hasta ahora|so far, until now; (farewell) see you in a bit
+hasta la vista|see you, goodbye
+a eso de|at about (a time)
+en el acto|on the spot, immediately
+en un abrir y cerrar de ojos|in the blink of an eye
+en seco|abruptly, dead (to stop dead)
+# ---- Manner and place
+a solas|alone, by oneself
+a ciegas|blindly
+a oscuras|in the dark
+a escondidas|secretly, behind (someone's) back
+a tientas|gropingly, feeling one's way
+a toda prisa|in a great hurry
+a todo correr|at full speed
+a lo lejos|in the distance
+a lo grande|in style
+a la fuerza|by force; necessarily, of necessity
+a propósito|on purpose; by the way
+a pie|on foot
+a mano|by hand; at hand, handy
+a la ligera|lightly, without thinking
+a regañadientes|reluctantly
+a carcajadas|(laughing) heartily, uproariously
+a gritos|shouting, at the top of one's voice
+al revés|the other way round, inside out, upside down
+al contrario|on the contrary
+al parecer|apparently
+al fondo|at the back, at the bottom, at the end
+al aire libre|outdoors, in the open air
+al respecto|about it, on the matter
+al pie de la letra|literally, to the letter
+al azar|at random
+al igual que|like, just as
+en voz alta|aloud, out loud
+en voz baja|in a low voice, quietly
+en el fondo|deep down; at the bottom
+en pleno|in the middle of, at the height of
+en marcha|running, under way; (¡en marcha!) let's go
+de reojo|out of the corner of one's eye
+de prisa|quickly, in a hurry
+de memoria|by heart
+de mala gana|reluctantly
+de buena gana|willingly, gladly
+de maravilla|wonderfully
+de lleno|fully, squarely
+de par en par|wide open
+de ninguna manera|no way, by no means
+de todas maneras|anyway, in any case
+de otro modo|otherwise; in another way
+de siempre|usual, as always; lifelong
+como de costumbre|as usual
+de costumbre|usual, as usual
+como es debido|properly
+de camino|on the way
+de entrada|to begin with, from the start
+poco a poco|little by little, gradually
+por encima de|above, over; more than
+por encima|on top; superficially, roughly
+por delante|ahead, in front
+por ahí|around there, somewhere; out and about; thereabouts
+por aquí|around here, this way
+por allí|over there, that way
+por allá|over there
+por todas partes|everywhere
+por doquier|everywhere
+por su cuenta|on one's own, off one's own bat
+por lo bajo|under one's breath; at the least
+por desgracia|unfortunately
+por culpa de|because of, through the fault of
+por si|in case
+por nada del mundo|not for anything in the world
+de la mano|hand in hand; (de la mano de) led by
+a la vuelta de la esquina|just around the corner
+junto a|next to, beside
+frente a|opposite, facing; faced with
+# ---- Prepositional phrases
+en torno a|around, about
+a cambio de|in exchange for
+a cambio|in return
+a fin de|in order to
+a base de|by means of, by dint of; based on
+a fuerza de|by dint of
+de parte de|on behalf of, from
+a falta de|for lack of
+a modo de|by way of, as a kind of
+a espaldas de|behind (someone's) back
+# ---- Fixed dialogue and exclamations
+a ver|let's see; (a ver si) let's see if, I hope; (after a verb of motion) to see
+vamos a ver|let's see; we are going to see
+qué pasa|what's up, what's going on
+qué te pasa|what's wrong with you
+qué hay|what's up; (qué hay de) what about; what is there
+qué va|no way, not at all
+qué más da|what does it matter
+qué le vamos a hacer|oh well, what can you do
+qué lástima|what a pity
+qué vergüenza|how embarrassing; shame on you
+qué demonios|what the hell
+qué diablos|what the devil, what the hell
+qué rayos|what on earth
+qué carajo|what the hell (vulgar)
+cómo no|of course, sure
+cómo que|what do you mean
+claro está|of course
+no puede ser|it can't be (true)!; cannot be
+puede que|maybe, it may be that
+no pasa nada|it's fine, no worries
+no hay de qué|don't mention it
+no me digas|you don't say, really?
+ya está|that's it, done
+ya lo creo|I should say so, of course
+ya era hora|about time
+ya verás|you'll see
+ya ves|you see; there you go
+ya sabes|you know
+venga ya|come on (disbelief), come off it
+dios mío|my God
+madre mía|oh my God, good grief
+válgame dios|good heavens
+gracias a dios|thank God
+vaya por dios|oh dear, for goodness' sake
+por amor de dios|for God's sake
+por el amor de dios|for God's sake
+con permiso|excuse me
+mucho gusto|pleased to meet you
+lo que faltaba|that's all we needed
+pase lo que pase|whatever happens
+como quieras|as you like
+como sea|however, anyhow; whatever it takes
+sea como sea|be that as it may, whatever happens
+sea lo que sea|whatever it is
+a la mierda|to hell with it, get lost (vulgar)

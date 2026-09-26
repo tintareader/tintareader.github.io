@@ -1,0 +1,601 @@
+# English multi-word expressions: the patterns. Hand-curated — not generated
+# by dictgen.
+#
+# Format: one pattern per line, `#` comments ignored. What each one *means* is
+# in `phrases.<meta>.txt`, joined on the pattern. Which phrases exist is a fact
+# about English; what they mean is a fact about a pair of languages.
+#
+# A pattern is a sequence of slots matched against consecutive tokens. Each
+# slot matches a token's **root**, its normalised surface, or the lemma its
+# entry points at — so `give` catches `gave`, `given` and `giving` without any
+# of them being written here.
+#
+# ## The particle is the whole point
+#
+# English's dominant multi-word class is the phrasal verb, and it is the class
+# this list is mostly made of. Two shapes, and the difference is grammatical
+# rather than a matter of taste:
+#
+#   - **Separable** — the particle is an adverb and the object may sit inside
+#     it: `give it up`. Written with the narrow gap: `give ? up`, which matches
+#     zero or one token, so one pattern covers both orders.
+#   - **Inseparable** — the particle is a preposition and nothing may come
+#     between: `look for it`, never *look it for*. Written contiguously:
+#     `look for`.
+#
+# **Use `?` here, never the wide `*` gap.** `*` swallows up to four tokens, and
+# every separable pattern written with it misfires on ordinary prose: `turn *
+# down` matches "turned the corner down by the river" and `look * up` matches
+# "looked at the man up on the roof", because the gap eats a noun phrase and
+# the "particle" it lands on is really the preposition opening the next one.
+# The narrow gap is the shape of the real construction — a separated object is
+# almost always a single pronoun (`give it up`, `put them on`), since English
+# puts a full noun phrase after the particle instead (`turn down the offer`),
+# and that order is contiguous and matches anyway. The cost is that `turn the
+# music down` is missed; the gain is that nothing false is underlined.
+#
+# Three-word verbs (`put up with`, `run out of`) are inseparable at the tail
+# even when the head is separable, so they are written contiguously too.
+#
+# There is no frequency data behind these — the rank list is unigram — which is
+# why a phrase carries no band and never enters the band histogram. See NOTICE
+# at the repo root.
+#
+# ## What belongs here
+#
+# Only phrases where the word-by-word reading misleads. `come back`, `sit
+# down`, `go out` and `stand up` are not here: the parts already teach them,
+# and an underline over something the reader can decode is noise that makes the
+# real ones easier to ignore.
+#
+# Where a separable pattern has a live literal reading as well as its
+# idiomatic one — `put ? on` is both "wear" and "place on top of", `take ? off`
+# is both "remove" and "depart from" — the gloss carries both senses rather
+# than the phrase being dropped. A gloss that shows the reader the choice is
+# more use than silence.
+
+# ---- Separable phrasal verbs: the object may sit inside the verb.
+give ? up
+pick ? up
+put ? on
+put ? off
+put ? out
+take ? off
+take ? over
+take ? back
+turn ? on
+turn ? off
+turn ? up
+turn ? down
+find ? out
+work ? out
+figure ? out
+sort ? out
+look ? up
+make ? up
+bring ? up
+call ? off
+call ? back
+check ? out
+cut ? off
+fill ? in
+fill ? out
+hand ? over
+hang ? up
+let ? down
+leave ? out
+pass ? on
+point ? out
+put ? away
+put ? back
+put ? together
+set ? up
+show ? off
+shut ? up
+take ? in
+take ? out
+tell ? off
+think ? over
+throw ? away
+try ? on
+turn ? around
+wake ? up
+write ? down
+knock ? out
+break ? up
+clear ? up
+hold ? up
+keep ? up
+let ? in
+let ? out
+make ? out
+pay ? back
+run ? over
+
+# ---- Inseparable phrasal verbs: nothing may come between the parts.
+look for
+look after
+look into
+look forward to
+get over
+get through
+get along
+get away with
+go through
+go over
+come across
+come up with
+run into
+run out of
+put up with
+deal with
+count on
+depend on
+stand for
+take after
+call on
+carry on
+give in
+show up
+turn into
+end up
+break down
+break into
+pass out
+hang on
+hold on
+watch out
+give ? away
+
+# ---- Fixed expressions the parts do not add up to.
+of course
+at least
+at last
+at all
+after all
+as well
+as well as
+by the way
+in fact
+in order to
+kind of
+sort of
+no matter
+right away
+such as
+up to
+used to
+would rather
+had better
+as if
+even though
+as long as
+on purpose
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it (≈1/M or more) and a read of
+# its sampled sentences found the idiomatic reading carrying it.
+# ---- Separable phrasal verbs
+blow ? up
+bring ? about
+bring ? down
+bring ? out
+call for
+carry ? out
+cheer ? up
+drop ? off
+hold ? back
+hold ? off
+lay ? off
+lay ? out
+mix ? up
+mess ? up
+pay ? off
+pull ? off
+pull ? over
+pull ? together
+put ? down
+put ? up
+rule ? out
+see ? through
+shut ? down
+sum ? up
+take ? on
+take ? up
+track ? down
+turn ? over
+turn ? out
+wear ? out
+wind ? up
+wrap ? up
+break ? off
+break in
+cut ? out
+cut ? short
+get ? over with
+let ? go
+let ? know
+pass ? up
+set ? off
+throw ? up
+give ? a break
+do ? a favour
+do ? a favor
+# ---- Inseparable and intransitive phrasal verbs
+add up
+back off
+break out
+bump into
+burst into
+burst out
+carry away
+catch up
+catch up with
+come about
+come along
+come round
+come by
+come on
+come over
+come up
+come upon
+do without
+do away with
+drop in
+dwell on
+fall apart
+fall for
+feel like
+freak out
+get at
+get away
+get back at
+get by
+get in
+get off
+get on
+get on with
+get out
+get out of
+get up
+give off
+go about
+go ahead
+go along with
+go by
+go off
+go on
+grow up
+hang around
+hang out
+hear of
+hold out
+hold on to
+hurry up
+keep on
+let up
+live up to
+look out
+look on
+make off
+miss out
+pass away
+pick on
+pull through
+see about
+sell out
+set in
+set out
+set about
+settle down
+snap out of
+speak up
+stand out
+stand up for
+stick around
+stick to
+trail off
+wait on
+wear off
+get to know
+turn ? back on
+# ---- Light-verb and verb idioms
+make sense
+make sure
+make fun of
+make up for
+make the most of
+make a fool of
+make ? way
+make love
+make haste
+make it
+make up ? mind
+change ? mind
+have a look
+have got
+have to
+have to do with
+nothing to do with
+take place
+take part
+take care
+take care of
+take advantage of
+take ? into account
+take ? for granted
+take a look
+take hold of
+take ? time
+take ? leave
+take it easy
+take it out on
+take aback
+do ? best
+try ? best
+get rid of
+get used to
+get hold of
+get the better of
+get in touch
+get lost
+get on ? nerves
+go wrong
+go without saying
+go out of ? way
+give way
+give birth
+give rise to
+bear in mind
+keep ? eye on
+keep ? word
+keep ? from
+catch sight of
+catch ? eye
+catch ? breath
+hold ? tongue
+fall asleep
+fall in love
+fall short
+lose sight of
+lose track of
+lose ? temper
+lose ? head
+lose ? mind
+pay attention
+run the risk
+set fire to
+set foot
+stand a chance
+can't stand
+can't help
+cannot help
+can't wait
+feel sorry for
+be about to
+be supposed to
+be bound to
+be going to
+would like
+might as well
+may as well
+ought to
+look like
+sound like
+come true
+come to terms with
+come in handy
+cross ? mind
+mind ? own business
+# ---- Connectives and discourse phrases
+as a matter of fact
+to tell the truth
+mind you
+i mean
+let alone
+not to mention
+to begin with
+first of all
+above all
+in short
+in other words
+on the other hand
+on the one hand
+even so
+even if
+or rather
+rather than
+other than
+what's more
+that is to say
+as it were
+so to speak
+at any rate
+in any case
+in that case
+just in case
+in case
+so that
+so as to
+now that
+as soon as
+as far as
+as though
+as for
+as to
+provided that
+apart from
+thanks to
+due to
+owing to
+according to
+in spite of
+regardless of
+instead of
+all the more
+or so
+and so on
+more or less
+sooner or later
+nothing but
+next to
+as ever
+as yet
+as such
+if only
+what if
+what about
+how about
+how come
+no sooner
+by the time
+in the least
+none the less
+all the same
+for all that
+with regard to
+in the face of
+in view of
+by means of
+on account of
+on behalf of
+in favour of
+in favor of
+in charge of
+for the sake of
+for ? sake
+on top of
+on the verge of
+on the point of
+in return
+in vain
+in turn
+in time
+in the end
+at the same time
+in the meantime
+in no time
+in the long run
+in the first place
+# ---- Fixed prepositional idioms and time phrases
+at once
+at first
+at times
+at present
+at the moment
+at a loss
+at heart
+at hand
+at ease
+at stake
+at large
+at length
+at all events
+at a time
+at ? disposal
+at ? expense
+at the expense of
+by heart
+by far
+by no means
+by all means
+by and by
+for good
+for once
+for the time being
+for the most part
+from now on
+from time to time
+all along
+all at once
+all of a sudden
+all over
+before long
+the other day
+now and then
+now and again
+every now and then
+once in a while
+once and for all
+to and fro
+of late
+on the whole
+on the contrary
+on earth
+on end
+on edge
+on the spot
+on ? own
+on ? way
+on ? behalf
+on ? mind
+in mind
+under way
+under ? breath
+under the impression
+off guard
+out of breath
+out of the question
+out of ? mind
+out of sorts
+out of nowhere
+out of ? way
+in love
+in earnest
+in the nick of time
+at the end of the day
+head over heels
+safe and sound
+sick and tired
+odds and ends
+ups and downs
+# ---- Colloquial and dialogue phrases
+all right
+no way
+i guess
+i bet
+you bet
+i'm afraid
+never mind
+fair enough
+big deal
+no big deal
+what the hell
+thank god
+here you are
+there you go
+there you are
+here we go
+that's it
+that's that
+what's up
+what's the matter
+no kidding
+no wonder
+no doubt
+no longer
+no use
+no good
+got it
+get it
+do you mind
+if you don't mind
+come off it
+you're welcome
+dare say
+to be sure
+not a bit
+wait a minute
+just a minute
+# ---- Adjectival and predicate phrases
+sick of
+tired of
+keen on
+better off
+well off
+done with
+a great deal
+a good deal
+a great many
+a couple of
+all sorts of

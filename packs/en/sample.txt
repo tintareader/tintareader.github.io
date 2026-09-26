@@ -1,0 +1,24 @@
+# Sample text shown on first run for English.
+#
+# Written for this app rather than taken from a corpus, in the shape of the
+# Spanish and Indonesian samples: a daily routine, a short exchange of
+# dialogue, then a piece of local news.
+#
+# Built almost entirely from the 500 words this pack has glossed so far, and
+# deliberately thick with contractions — `don't`, `she's`, `we'll`, `I'd`,
+# `isn't`, `won't`. Those are what the tokeniser has to take apart to reach the
+# pack's commonest entries (`'s` is the 6th most frequent token in the corpus,
+# `'t` the 10th), so the first thing a reader sees is also the thing most
+# likely to be wrong.
+Sample — A day at work
+Every morning Anna leaves the house before seven. She doesn't take the car, because the school is close and she'd rather walk. Her brother stays in bed for another hour; he says he can't think before nine, and nobody in the family believes him.
+
+At work she opens the office, makes the coffee and waits for the phone to start. "You're early again," her friend says. "I'm always early," Anna says. "It's the only quiet time I get."
+
+"Did you hear about the old shop on our street? They're going to close it."
+
+"I don't believe it. It's been there my whole life."
+
+"Well, that's what I heard. Something about the money."
+
+The shop on Green Street will close at the end of the year, after more than forty years. Its owner told us he didn't want to stop, but the rent had become too much. "I'm sorry about it," he said. "People have been very kind. I'd do it all again."

@@ -1,0 +1,615 @@
+# Spanish multi-word expressions: the patterns. Hand-curated — not generated
+# by dictgen.
+#
+# Format: one pattern per line, `#` comments ignored. What each one *means* is
+# in `phrases.<meta>.txt`, joined on the pattern — the same split `lex.txt` and
+# `gloss.<meta>.txt` make, for the same reason. Which phrases exist is a fact
+# about Spanish; what they mean is a fact about a pair of languages.
+#
+# A pattern is a sequence of slots matched against consecutive tokens. Each
+# slot matches a token's **root** or its normalised surface, so a pattern whose
+# head inflects is written in the citation form (`tener que` catches `tengo
+# que`, `tenía que`, `tendremos que`) and an invariant phrase is written just
+# as it is read (`sin embargo`). `*` is a gap of up to four tokens, for
+# constructions written around another word; Spanish needs none so far.
+#
+# There is no frequency data behind these — the rank list is unigram — which is
+# why a phrase carries no band and never enters the band histogram. See NOTICE
+# at the repo root.
+#
+# ## What belongs here
+#
+# Only phrases where the word-by-word reading misleads. `fin de semana` is not
+# here: "end of week" already teaches it, and an underline over a phrase the
+# reader can decode is noise that makes the ones that matter easier to ignore.
+# Transparent multi-word prepositions (`antes de`, `cerca de`, `delante de`)
+# are out for the same reason.
+#
+# Where a pattern has a live literal reading as well as its idiomatic one
+# (`ir a` before a noun is plain motion; `tratar de` can mean "to be about"),
+# the gloss carries both senses rather than the phrase being dropped. A gloss
+# that shows the reader the choice is more use than silence.
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+tener que
+hay que
+acabar de
+ir a
+dejar de
+volver a
+empezar a
+poner a
+tratar de
+estar de acuerdo
+poner de pie
+
+# ---- tener + noun: Spanish states where English uses "to be".
+tener razón
+tener ganas
+tener miedo
+tener cuidado
+tener prisa
+tener hambre
+tener sueño
+tener suerte
+tener sentido
+tener lugar
+
+# ---- Other light-verb idioms.
+hacer falta
+hacer caso
+hacer daño
+dar igual
+dar miedo
+dar cuenta
+dar a luz
+echar de menos
+llevar a cabo
+valer la pena
+llamar la atención
+caer bien
+tomar el pelo
+meter la pata
+
+# ---- Connectives and discourse markers.
+sin embargo
+por eso
+así que
+ya que
+puesto que
+para que
+a menos que
+por lo tanto
+o sea
+es decir
+de hecho
+en realidad
+por cierto
+en fin
+de todos modos
+de todas formas
+por si acaso
+sobre todo
+además de
+por lo visto
+más o menos
+por lo menos
+al menos
+
+# ---- Question words and relatives written as two tokens.
+por qué
+para qué
+lo que
+por lo que
+qué tal
+
+# ---- Modality and degree.
+a lo mejor
+tal vez
+por supuesto
+desde luego
+claro que sí
+en serio
+de verdad
+ni siquiera
+en absoluto
+ya no
+todavía no
+lo mismo
+de acuerdo
+a punto de
+cada vez más
+
+# ---- Time and manner.
+de repente
+de pronto
+a veces
+a menudo
+de vez en cuando
+en cuanto
+en cuanto a
+a la vez
+de nuevo
+otra vez
+ahora mismo
+por ahora
+de momento
+al principio
+al final
+en punto
+a tiempo
+hoy en día
+en seguida
+a lo largo de
+
+# ---- Prepositional phrases whose parts do not give the meaning away.
+a pesar de
+a causa de
+gracias a
+a través de
+a partir de
+en vez de
+en lugar de
+acerca de
+en contra de
+
+# ---- Fixed dialogue.
+por favor
+de nada
+lo siento
+menos mal
+no importa
+qué pena
+ni modo
+por dios
+buenos días
+buenas tardes
+buenas noches
+hasta luego
+hasta mañana
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it and a read of its sampled
+# sentences found the idiomatic reading carrying it.
+# ---- Verbal periphrases and verb + preposition
+llegar a ser
+acabar por
+terminar por
+haber de
+deber de
+echar a correr
+echar a reír
+echar a andar
+romper a llorar
+ir a parar
+ir a por
+querer decir
+ser hora de
+tardar en
+pensar en
+soñar con
+contar con
+dar con
+acabar con
+terminar con
+romper con
+quedar con
+acordar de
+olvidar de
+enamorar de
+fijar en
+negar a
+atrever a
+limitar a
+disponer a
+estar dispuesto a
+oler a
+tirar de
+dejar caer
+hacer saber
+# ---- tener
+tener que ver con
+tener nada que ver
+tener algo que ver
+tener años
+tener en cuenta
+tener por qué
+tener la culpa
+tener frío
+tener calor
+tener sed
+tener celos
+tener vergüenza
+tener gracia
+tener entendido
+tener pensado
+# ---- dar
+dar prisa
+dar la vuelta
+dar media vuelta
+dar una vuelta
+dar vueltas
+dar un paso
+dar un paseo
+dar de comer
+dar la razón
+dar la mano
+dar la espalda
+dar la cara
+dar la gana
+dar ganas
+dar pena
+dar vergüenza
+dar asco
+dar lo mismo
+dar a entender
+dar por vencido
+dar por sentado
+# ---- hacer
+hacer cargo
+hacer frente
+hacer el favor
+hacer una pregunta
+hacer tiempo
+hacer mucho tiempo
+hace poco
+hace un rato
+hace años
+desde hace
+desde hacía
+hacer frío
+hacer calor
+hacer tarde
+hacer de noche
+hacer ademán de
+hacer como si
+hacer las paces
+hacer gracia
+hacer trampa
+hacer las maletas
+# ---- echar, tomar, poner
+echar un vistazo
+echar una ojeada
+echar una mano
+echar mano
+echar la culpa
+echar a perder
+tomar el sol
+poner nervioso
+poner rojo
+poner en pie
+poner en marcha
+poner en camino
+poner de acuerdo
+poner al día
+poner los ojos en blanco
+poner los pelos de punta
+# ---- quedar, llevar, pasar, venir, other verbs
+quedar sin
+quedar dormido
+quedar mirando
+quedar quieto
+quedar en blanco
+quedar bien
+llevar bien
+llevar puesto
+salir bien
+salir mal
+salir adelante
+salir con la suya
+pasar bien
+pasar por alto
+pasar de largo
+pasar el rato
+venir bien
+venir abajo
+caer mal
+caer en la cuenta
+volver loco
+volver en sí
+perder los estribos
+dejar en paz
+pedir perdón
+llamar a la puerta
+prestar atención
+cumplir años
+costar trabajo
+caber duda
+faltar más
+ir al grano
+ir a pique
+encoger de hombros
+fruncir el ceño
+negar con la cabeza
+cruzar de brazos
+morir de risa
+importar un bledo
+pegar ojo
+# ---- States: ser, estar and what follows them
+estar harto
+harto de
+de broma
+en broma
+de pie
+de rodillas
+de espaldas
+de puntillas
+de bruces
+en cuclillas
+boca arriba
+boca abajo
+a gusto
+a salvo
+al tanto
+al corriente
+en lo cierto
+de moda
+de vuelta
+de guardia
+en juego
+en las últimas
+a la altura
+pendiente de
+en las nubes
+no es para tanto
+# ---- Connectives and discourse markers
+es que
+como si
+como si nada
+lo cual
+lo de
+lo demás
+lo que sea
+lo cierto es que
+la verdad es que
+el caso es que
+resulta que
+nada más
+nada menos
+más que nada
+más bien
+en efecto
+en cambio
+en todo caso
+en definitiva
+en cierto modo
+no obstante
+mientras tanto
+entre tanto
+aun así
+aun cuando
+dado que
+siempre que
+siempre y cuando
+con tal de
+con tal que
+a no ser que
+al fin y al cabo
+a fin de cuentas
+o bien
+si bien
+ahora bien
+pues bien
+así pues
+así como
+tal como
+tal y como
+por tanto
+por consiguiente
+por ello
+por otro lado
+por otra parte
+por un lado
+de modo que
+de manera que
+de ahí
+de ahí que
+de lo contrario
+por lo demás
+a su vez
+a medida que
+en tanto que
+tan solo
+tan sólo
+aunque sea
+ante todo
+a todo esto
+dicho esto
+dicho sea de paso
+por así decirlo
+por decirlo así
+a saber
+que yo sepa
+cuanto más
+cuanto antes
+más allá de
+más allá
+# ---- Degree, quantity and modality
+todo el mundo
+del todo
+sin querer
+sin más
+sin falta
+sin cesar
+ni idea
+ni hablar
+ni mucho menos
+ni que
+ni se te ocurra
+gran cosa
+un montón de
+un montón
+un tal
+y demás
+de lo más
+a lo sumo
+por muy
+por mucho que
+por más que
+por poco
+de veras
+a medias
+a duras penas
+de sobra
+de primera
+de por sí
+# ---- Time
+por fin
+al fin
+al cabo de
+al poco rato
+un buen rato
+dentro de poco
+de un momento a otro
+de la noche a la mañana
+de golpe
+de improviso
+de antemano
+de una vez
+de una vez por todas
+de cuando en cuando
+una y otra vez
+de noche
+por la noche
+por la mañana
+por la tarde
+pasado mañana
+hoy día
+a estas alturas
+a primera hora
+a finales de
+a la larga
+en breve
+en adelante
+de ahora en adelante
+hasta ahora
+hasta la vista
+a eso de
+en el acto
+en un abrir y cerrar de ojos
+en seco
+# ---- Manner and place
+a solas
+a ciegas
+a oscuras
+a escondidas
+a tientas
+a toda prisa
+a todo correr
+a lo lejos
+a lo grande
+a la fuerza
+a propósito
+a pie
+a mano
+a la ligera
+a regañadientes
+a carcajadas
+a gritos
+al revés
+al contrario
+al parecer
+al fondo
+al aire libre
+al respecto
+al pie de la letra
+al azar
+al igual que
+en voz alta
+en voz baja
+en el fondo
+en pleno
+en marcha
+de reojo
+de prisa
+de memoria
+de mala gana
+de buena gana
+de maravilla
+de lleno
+de par en par
+de ninguna manera
+de todas maneras
+de otro modo
+de siempre
+como de costumbre
+de costumbre
+como es debido
+de camino
+de entrada
+poco a poco
+por encima de
+por encima
+por delante
+por ahí
+por aquí
+por allí
+por allá
+por todas partes
+por doquier
+por su cuenta
+por lo bajo
+por desgracia
+por culpa de
+por si
+por nada del mundo
+de la mano
+a la vuelta de la esquina
+junto a
+frente a
+# ---- Prepositional phrases
+en torno a
+a cambio de
+a cambio
+a fin de
+a base de
+a fuerza de
+de parte de
+a falta de
+a modo de
+a espaldas de
+# ---- Fixed dialogue and exclamations
+a ver
+vamos a ver
+qué pasa
+qué te pasa
+qué hay
+qué va
+qué más da
+qué le vamos a hacer
+qué lástima
+qué vergüenza
+qué demonios
+qué diablos
+qué rayos
+qué carajo
+cómo no
+cómo que
+claro está
+no puede ser
+puede que
+no pasa nada
+no hay de qué
+no me digas
+ya está
+ya lo creo
+ya era hora
+ya verás
+ya ves
+ya sabes
+venga ya
+dios mío
+madre mía
+válgame dios
+gracias a dios
+vaya por dios
+por amor de dios
+por el amor de dios
+con permiso
+mucho gusto
+lo que faltaba
+pase lo que pase
+como quieras
+como sea
+sea como sea
+sea lo que sea
+a la mierda

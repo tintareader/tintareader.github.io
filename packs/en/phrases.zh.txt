@@ -1,0 +1,573 @@
+# What each English phrase in `phrases.txt` means, in Mandarin Chinese.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Chinese where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Three rules, all inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.zh.txt`.
+#   - `;` `( )` and `: ` are ASCII, never their fullwidth forms: the app scans
+#     for those exact characters to find where one sense ends and the next
+#     begins.
+#
+# Verbs are glossed as bare Chinese verbs — the English `to` has no counterpart
+# to carry across.
+
+# ---- Separable phrasal verbs: the object may sit inside the verb.
+give ? up|放弃, 不再努力; 交出
+pick ? up|拿起, 去接; 无师自通地学会
+put ? on|穿上 (衣服); 放在…上面
+put ? off|推迟; 使失去兴趣, 使反感
+put ? out|扑灭 (火, 灯); 给…添麻烦
+take ? off|脱下 (衣服); 起飞
+take ? over|接管, 接手
+take ? back|收回 (说过的话); 退回 (货物)
+turn ? on|打开 (机器, 灯)
+turn ? off|关掉 (机器, 灯)
+turn ? up|调大 (音量); 露面, 意外出现
+turn ? down|调小 (音量); 拒绝 (提议)
+find ? out|查明, 得知
+work ? out|算出, 解决; 有好结果; 健身
+figure ? out|想明白, 弄清楚
+sort ? out|整顿好, 解决
+look ? up|抬头看; 查 (书或名单); 好转
+make ? up|编造 (故事); 和好; 化妆品
+bring ? up|抚养 (孩子); 提起 (话题)
+call ? off|取消
+call ? back|回电话
+check ? out|看看, 查看; 退房
+cut ? off|切断, 使孤立; 打断
+fill ? in|填写 (表格); 替某人顶班
+fill ? out|填写 (表格)
+hand ? over|交出, 移交
+hang ? up|挂断电话
+let ? down|使失望, 辜负
+leave ? out|漏掉, 不包括
+pass ? on|转告, 传给别人; 谢绝; 去世
+point ? out|指出
+put ? away|收好, 放回原处; 关进监狱
+put ? back|放回原处; 推迟
+put ? together|组装, 拼装
+set ? up|建立, 安排; 设局陷害
+show ? off|炫耀
+shut ? up|闭嘴 (不礼貌)
+take ? in|理解, 领会; 欺骗; 收留
+take ? out|取出, 拿掉; 带…出去
+tell ? off|训斥
+think ? over|仔细考虑
+throw ? away|扔掉; 白白错过 (机会)
+try ? on|试穿
+turn ? around|转过身; 扭转颓势
+wake ? up|醒来, 叫醒
+write ? down|写下来
+knock ? out|打昏; 淘汰出局
+break ? up|分手; 碎成几块
+clear ? up|收拾整齐; 解释清楚; (天气) 放晴
+hold ? up|举起, 高举; 耽搁; 抢劫; 支撑
+keep ? up|保持, 跟上
+let ? in|放进来, 准许进入
+let ? out|发出 (叹息, 叫声), 说出; 放出去, 释放; 把 (衣服) 放大
+make ? out|勉强看清或听清; 谎称
+pay ? back|还钱; 报复
+run ? over|跑过去 (到某处); 开车撞到; 溢出, 超时
+
+# ---- Inseparable phrasal verbs: nothing may come between the parts.
+look for|寻找
+look after|照顾
+look into|调查
+look forward to|期待
+get over|从…中恢复
+get through|挺过来, 完成; 打通电话
+get along|相处融洽
+get away with|做了坏事却没受罚
+go through|经历, 承受; 逐一检查
+go over|走过去 (到某处); 复习, 仔细检查
+come across|偶然遇到, 偶然找到; 给人某种印象
+come up with|想出 (主意)
+run into|偶然遇到; 撞上
+run out of|用完, 没有了
+put up with|忍受
+deal with|处理, 应对
+count on|指望
+depend on|依靠; 取决于
+stand for|代表, 是…的缩写; 容忍
+take after|长得像 (父母)
+call on|拜访; 请某人发言或行动
+carry on|继续
+give in|让步, 不再抵抗
+show up|露面; 让某人难堪
+turn into|变成
+end up|最后落得, 最终到了
+break down|抛锚, 出故障; 情绪崩溃
+break into|强行闯入
+pass out|昏过去
+hang on|等一下; 抓紧
+hold on|等一下; 抓住
+watch out|当心
+give ? away|白送; 泄露 (秘密)
+
+# ---- Fixed expressions the parts do not add up to.
+of course|当然
+at least|至少, 不少于; 起码
+at last|终于
+at all|(用于否定句或疑问句) 丝毫, 到底
+after all|毕竟, 结果却
+as well|也
+as well as|除…之外还
+by the way|顺便说一句
+in fact|事实上, 确切地说
+in order to|为了
+kind of|有点, 有几分 (口语); 一种
+sort of|有点, 有几分 (口语); 一种
+no matter|无论 (什么, 谁, 怎样)
+right away|马上
+such as|例如, 像
+up to|由…决定 (it is up to you); 直到, 多达; 在搞 (不好的事)
+used to|过去常常 (现在不再)
+would rather|宁愿
+had better|最好, 应该
+as if|好像
+even though|尽管, 虽然
+as long as|只要; 在…的整段时间里
+on purpose|故意地
+
+# ---- 2026-09-23 expansion
+
+# ---- Separable phrasal verbs
+blow ? up|爆炸, 炸毁; 充气; 大发脾气
+bring ? about|导致, 引起
+bring ? down|推翻 (政府), 打倒 (某人); 降低
+bring ? out|使显现, 揭示; 出版
+call for|需要, 要求; 去接某人
+carry ? out|执行, 完成 (任务, 命令)
+cheer ? up|高兴起来, 使振作
+drop ? off|顺路送下; 打瞌睡
+hold ? back|抑制, 阻止; 犹豫; 隐瞒
+hold ? off|推迟; 挡住, 使不靠近
+lay ? off|解雇; 停止 (烦扰某人)
+lay ? out|布置, 摊开; 详细说明
+mix ? up|混淆, 弄混
+mess ? up|搞砸, 弄乱
+pay ? off|还清 (债务); 贿赂; 取得成功, 带来回报
+pull ? off|做成 (难事); 扯下, 拉掉
+pull ? over|把车停到路边
+pull ? together|组织起来; 振作起来, 恢复镇定 (pull yourself together)
+put ? down|写下; 镇压 (叛乱); 让 (病畜) 安乐死; 贬低, 批评
+put ? up|留某人过夜; 建造; 提高 (价格), 举起 (手)
+rule ? out|排除 (可能性)
+see ? through|看穿, 不受…蒙骗; 坚持到底
+shut ? down|关闭 (企业); 关掉 (机器)
+sum ? up|总结, 概括
+take ? on|承担 (工作); 雇用; 与…较量
+take ? up|开始从事 (爱好); 占用 (空间, 时间); 接受 (提议)
+track ? down|追查到, 找到
+turn ? over|翻转, 翻过来; 移交 (给当局)
+turn ? out|结果是, 最终证明; 关掉 (灯); 赶出去
+wear ? out|用坏, 磨损; 使筋疲力尽
+wind ? up|结束; 最后落得; 给 (钟表) 上发条; 捉弄, 逗弄
+wrap ? up|结束, 完成; 穿暖和; 用纸包起来
+break ? off|突然中断 (关系, 谈话); 折断
+break in|破门而入; 打断, 插嘴
+cut ? out|剪下, 删掉; 停止 (做某事); (发动机) 熄火
+cut ? short|打断; 提前结束
+get ? over with|把 (不愉快的事) 了结掉
+let ? go|放开, 松手
+let ? know|告诉, 通知
+pass ? up|放弃, 错过 (机会)
+set ? off|出发, 动身; 引发 (警报, 爆炸)
+throw ? up|呕吐; 迅速举起
+give ? a break|别烦 (某人); 别再挑剔 (give me a break)
+do ? a favour|帮个忙
+do ? a favor|帮个忙
+
+# ---- Inseparable and intransitive phrasal verbs
+add up|说得通, 合乎情理 (it doesn't add up); 合计
+back off|后退; 不再逼迫
+break out|突然爆发 (战争, 火灾); 逃出
+bump into|偶然碰见; 撞上
+burst into|突然 (哭, 笑, 唱) 起来; 闯入
+burst out|突然 (笑, 哭) 起来; 突然喊道
+carry away|使过于激动而失控 (got carried away); 拿走
+catch up|赶上 (前面的人); 补上落下的事
+catch up with|赶上 (前面的人); 久别后叙旧
+come about|发生
+come along|一起来, 陪同; 进展; 出现
+come round|改变主意; 苏醒; 来访
+come by|得到, 弄到; 顺便来访
+come on|快点! / 求你了! / 别闹了!; 开始 (灯亮, 生病)
+come over|过来拜访; (某种感觉) 突然袭来
+come up|出现, 被提到; 走近; 升起
+come upon|偶然发现
+do without|没有…也行
+do away with|废除, 去掉
+drop in|顺便拜访
+dwell on|老是想着, 老是谈论
+fall apart|散架, 破碎; 情绪崩溃
+fall for|爱上; 上当, 被…骗
+feel like|想要 (做或得到); 感觉像
+freak out|吓坏, 极度不安
+get at|意思是, 暗示 (what are you getting at); 够到
+get away|逃脱; 去度假
+get back at|报复
+get by|勉强过活, 应付过去
+get in|进入; 到达
+get off|下 (车); 逃脱惩罚
+get on|上 (车); 关系好; 进展
+get on with|继续做; 与…相处融洽
+get out|离开, 逃出; 出去! (滚开)
+get out of|逃避 (责任); 离开
+get up|起床; 站起来
+give off|发出 (气味, 热)
+go about|着手处理 (任务); 忙于
+go ahead|进行, 开始; 请便
+go along with|同意, 附和
+go by|(时间) 流逝; 依照
+go off|爆炸; (闹钟) 响; 离开; 变质
+go on|继续; 发生 (what is going on)
+grow up|长大成人
+hang around|闲逛, 闲待着
+hang out|闲玩, 一起消磨时间
+hear of|听说过; 允许 (won't hear of it)
+hold out|伸出 (手); 维持, 够用; 坚持抵抗
+hold on to|保留, 不放弃; 抓紧
+hurry up|快点, 赶快
+keep on|继续, 不停地
+let up|减弱; 停止
+live up to|不辜负, 达到 (期望)
+look out|小心!; 向 (窗) 外看
+look on|旁观
+make off|逃走
+miss out|错失机会
+pass away|去世 (委婉); (时间) 流逝
+pick on|欺负, 找茬
+pull through|(从疾病中) 康复
+see about|处理, 安排
+sell out|卖光; 为钱出卖原则
+set in|(坏天气, 某种感觉) 开始并持续
+set out|出发, 启程; 打算; 陈列, 安排
+set about|着手 (任务); 攻击
+settle down|平静下来; 安定下来
+snap out of|突然摆脱 (坏情绪)
+speak up|大声点说; 直言, 大胆说出
+stand out|引人注目, 突出
+stand up for|维护, 支持
+stick around|留下, 待着
+stick to|坚持; 不改变
+trail off|(声音) 逐渐变弱
+wait on|服侍 (作为侍者或仆人); 等待
+wear off|(效果) 逐渐消失
+get to know|逐渐了解, 熟悉
+turn ? back on|拒绝, 抛弃 (turn your back on)
+
+# ---- Light-verb and verb idioms
+make sense|讲得通, 合乎逻辑
+make sure|查明, 确保
+make fun of|取笑, 嘲笑
+make up for|弥补
+make the most of|充分利用
+make a fool of|使出丑, 愚弄
+make ? way|前往, 行进 (made his way); 让路 (make way)
+make love|做爱; (旧书中) 求爱, 追求
+make haste|赶快
+make it|成功; 及时赶到; 活下来; (字面) 做出某物
+make up ? mind|下决心, 决定
+change ? mind|改变主意
+have a look|看一看
+have got|有, 拥有
+have to|必须, 不得不
+have to do with|与…有关
+nothing to do with|与…无关
+take place|发生, 举行
+take part|参加
+take care|小心; 再见, 保重
+take care of|照顾; 处理
+take advantage of|利用 (机会); 占 (某人) 便宜
+take ? into account|考虑到
+take ? for granted|想当然; 不珍惜
+take a look|看一看
+take hold of|抓住
+take ? time|慢慢来, 不着急
+take ? leave|告辞
+take it easy|放松; 别着急
+take it out on|拿某人出气
+take aback|使吃惊, 使震惊 (taken aback)
+do ? best|尽力
+try ? best|尽力
+get rid of|摆脱, 扔掉
+get used to|习惯于
+get hold of|得到; 联系上; 抓住
+get the better of|打败; 克服
+get in touch|取得联系
+get lost|迷路; 滚开! (粗鲁)
+get on ? nerves|惹人心烦
+go wrong|出错, 出问题
+go without saying|不言而喻
+go out of ? way|特意, 格外费心
+give way|倒塌; 让步
+give birth|生孩子
+give rise to|引起, 导致
+bear in mind|记住, 考虑到
+keep ? eye on|密切注意
+keep ? word|守信用
+keep ? from|阻止…做; 瞒着
+catch sight of|突然看见
+catch ? eye|引起某人注意
+catch ? breath|喘口气
+hold ? tongue|保持沉默
+fall asleep|睡着
+fall in love|爱上
+fall short|达不到 (标准)
+lose sight of|看不见; 忘记
+lose track of|数不清, 不再了解
+lose ? temper|发脾气
+lose ? head|惊慌失措
+lose ? mind|发疯
+pay attention|注意
+run the risk|冒…的风险
+set fire to|放火烧
+set foot|踏入 (set foot in)
+stand a chance|有可能
+can't stand|讨厌, 无法忍受
+can't help|忍不住
+cannot help|忍不住
+can't wait|迫不及待
+feel sorry for|同情, 可怜
+be about to|即将, 正要
+be supposed to|应该, 被要求
+be bound to|必定
+be going to|将要 (将来); 正要去
+would like|想要 (礼貌)
+might as well|不妨
+may as well|不妨
+ought to|应该
+look like|长得像; 看起来要
+sound like|听起来像
+come true|实现, 成真
+come to terms with|接受 (困境)
+come in handy|派上用场
+cross ? mind|想到 (it crossed my mind)
+mind ? own business|少管闲事
+
+# ---- Connectives and discourse phrases
+as a matter of fact|其实, 事实上
+to tell the truth|说实话, 坦白说
+mind you|不过, 然而
+i mean|我是说, 或者说 (自我纠正); 我的意思是
+let alone|更不用说
+not to mention|更不用说, 此外
+to begin with|首先; 起初
+first of all|首先
+above all|最重要的是
+in short|简而言之, 总之
+in other words|换句话说
+on the other hand|另一方面
+on the one hand|一方面
+even so|即便如此
+even if|即使
+or rather|更确切地说
+rather than|而不是
+other than|除了
+what's more|而且, 此外
+that is to say|也就是说
+as it were|可以说, 在某种程度上
+so to speak|可以说, 打个比方
+at any rate|无论如何; 至少
+in any case|无论如何, 不管怎样
+in that case|既然这样, 那样的话
+just in case|以防万一
+in case|以防, 万一
+so that|以便
+so as to|为了
+now that|既然
+as soon as|一…就
+as far as|就…而言; 远至 (某地)
+as though|好像
+as for|至于
+as to|关于; (so … as to) 以致于
+provided that|只要, 条件是
+apart from|除…之外 (不算); 除…之外还
+thanks to|多亏, 由于
+due to|由于
+owing to|由于
+according to|根据…所说; 按照
+in spite of|尽管
+regardless of|不管, 不顾
+instead of|代替, 而不是
+all the more|更加
+or so|大约, 左右
+and so on|等等
+more or less|大约, 差不多
+sooner or later|迟早
+nothing but|只是, 仅仅
+next to|在…旁边; 几乎 (next to nothing)
+as ever|一如既往
+as yet|到目前为止
+as such|本身; 以这种身份
+if only|要是…就好了
+what if|要是…会怎样
+what about|…怎么样, …呢 (提建议或提问)
+how about|…怎么样 (提建议)
+how come|为什么, 怎么会
+no sooner|一…就 (no sooner … than)
+by the time|到…的时候
+in the least|丝毫 (用于否定)
+none the less|尽管如此
+all the same|尽管如此; 无所谓, 都一样
+for all that|尽管如此
+with regard to|关于
+in the face of|尽管; 面对
+in view of|鉴于
+by means of|借助, 通过
+on account of|由于
+on behalf of|代表, 为了
+in favour of|支持, 赞成; 更喜欢
+in favor of|支持, 赞成; 更喜欢
+in charge of|负责, 主管
+for the sake of|为了…的利益; 为了…的目的
+for ? sake|为了某人 (for her sake); 看在…份上 (for God's sake)
+on top of|除…之外; 在…上面
+on the verge of|濒临, 接近
+on the point of|正要, 即将
+in return|作为回报
+in vain|徒劳, 白费
+in turn|依次, 轮流; 反过来, 因此
+in time|及时; 最终
+in the end|最后, 终于
+at the same time|同时; 然而
+in the meantime|与此同时, 在此期间
+in no time|很快, 马上
+in the long run|从长远来看, 最终
+in the first place|首先; 当初, 根本
+
+# ---- Fixed prepositional idioms and time phrases
+at once|立刻; 同时
+at first|起初
+at times|有时
+at present|目前
+at the moment|此刻, 现在
+at a loss|困惑, 不知所措
+at heart|本质上, 内心里
+at hand|在手边; 即将到来
+at ease|自在, 放松
+at stake|处于危险中, 成败攸关
+at large|逍遥法外; 总体上
+at length|长时间地; 最终
+at all events|无论如何
+at a time|一次, 每次 (one at a time)
+at ? disposal|供某人使用
+at ? expense|由某人付费; 损害某人
+at the expense of|以…为代价
+by heart|凭记忆, 背下来
+by far|远远, 显然
+by no means|绝不
+by all means|当然可以, 务必
+by and by|不久, 过一会儿
+for good|永远
+for once|就这一次
+for the time being|暂时
+for the most part|大部分, 多半
+from now on|从现在起
+from time to time|不时, 有时
+all along|一直, 从一开始; 沿着整个
+all at once|突然; 同时
+all of a sudden|突然
+all over|到处; 结束
+before long|不久
+the other day|前几天
+now and then|有时, 不时
+now and again|有时, 不时
+every now and then|有时, 不时
+once in a while|偶尔
+once and for all|彻底地, 一劳永逸地
+to and fro|来回地
+of late|最近
+on the whole|总的来说
+on the contrary|恰恰相反
+on earth|究竟, 到底 (what on earth, why on earth); 在世上
+on end|连续地 (for hours on end); 竖着
+on edge|紧张不安
+on the spot|当场, 立即; 在现场
+on ? own|独自; 独立地
+on ? way|在路上, 正前往; 即将到来
+on ? behalf|代表某人
+on ? mind|让某人挂心
+in mind|记在心里, 考虑中
+under way|在进行中
+under ? breath|低声地
+under the impression|以为 (错误地)
+off guard|没有防备
+out of breath|上气不接下气
+out of the question|不可能
+out of ? mind|疯了; 非常担心
+out of sorts|有点不舒服, 心情不好
+out of nowhere|突然, 不知从哪里冒出来
+out of ? way|偏僻; 不挡道
+in love|恋爱中
+in earnest|认真地
+in the nick of time|及时, 在紧要关头
+at the end of the day|归根结底, 说到底
+head over heels|深深地 (坠入爱河); 头朝下
+safe and sound|安然无恙
+sick and tired|厌烦透了
+odds and ends|零碎东西
+ups and downs|起起落落, 沉浮
+
+# ---- Colloquial and dialogue phrases
+all right|好, 可以; 没受伤; 行, 同意
+no way|绝不; 不可能
+i guess|我想, 我猜
+i bet|我敢肯定
+you bet|当然
+i'm afraid|恐怕 (遗憾地说); 我害怕
+never mind|没关系; 别担心
+fair enough|有道理, 说得对
+big deal|大事; (讽刺) 有什么了不起
+no big deal|没什么大不了的
+what the hell|搞什么 (表示愤怒或惊讶); 管他呢
+thank god|谢天谢地
+here you are|给你; 你到了
+there you go|就是这样; 给你
+there you are|给你; 我早说过吧
+here we go|开始了; (无奈) 又来了
+that's it|就这些; 对, 就是这样; 我受够了
+that's that|就这么定了, 没什么可说的
+what's up|怎么了, 有什么事; 出什么问题了
+what's the matter|怎么了, 出什么事了
+no kidding|真的吗?; 我是认真的
+no wonder|难怪
+no doubt|无疑, 很可能
+no longer|不再
+no use|没用 (it's no use)
+no good|没用; 不好
+got it|明白了; 我拿到了
+get it|明白; 去拿, 收到
+do you mind|你介意…吗; 请别这样
+if you don't mind|如果你不介意的话
+come off it|得了吧, 我才不信
+you're welcome|不客气
+dare say|想必, 大概 (I dare say)
+to be sure|的确; 诚然
+not a bit|一点也不
+wait a minute|等一下; 慢着 (突然起疑)
+just a minute|等一下
+
+# ---- Adjectival and predicate phrases
+sick of|厌烦
+tired of|厌倦
+keen on|热衷于, 喜欢
+better off|处境更好; 更富裕
+well off|富裕
+done with|结束, 用完
+a great deal|许多, 大量
+a good deal|许多, 大量
+a great many|许多
+a couple of|两个; 几个
+all sorts of|各种各样的

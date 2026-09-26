@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tinta — Privacy Policy</title>
+<style>
+:root { --bg: #f7f6f2; --ink: #1d1d1b; --dim: #5d5b55; --line: #dcd9d0; --link: #2f5d8a; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg: #15171b; --ink: #e8e6e1; --dim: #a19e97; --line: #33363c; --link: #8fb4dc; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 16px 4rem; }
+h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .5rem; }
+h2 { font-size: 1.2rem; margin: 2.2rem 0 .6rem; }
+p, li { color: var(--ink); }
+em { color: var(--dim); }
+a { color: var(--link); overflow-wrap: anywhere; }
+code { font: .9em ui-monospace, Menlo, monospace; }
+table { border-collapse: collapse; width: 100%; font-size: .92rem; display: block; overflow-x: auto; }
+th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+</style>
+</head>
+<body><main>
+<h1>Tinta — Privacy Policy</h1>
+<p><em>Last updated: 26 September 2026</em></p>
+<p>Tinta is a reading tool for language learners. This policy covers the macOS app and the web version at tintareader.com. Where the two differ, the section <em>In a web browser</em> says how.</p>
+<h2>The short version</h2>
+<ul><li>The app does not collect anything about you. There is no account, no analytics, no tracking, and no advertising.</li><li>What you paste, what you mark and your settings stay on your device.</li><li>The app only sends your text anywhere if you turn on the optional AI features. Then it goes straight from your device to the AI provider you chose, using your own API key, and only after you have said yes.</li></ul>
+<h2>What stays on your device</h2>
+<p>Your texts, the words you mark as known or learning, the dictionary entries you write, and your settings are stored on your Mac, in the app's own storage. They are not sent to us or to anyone else. Exports are written only where you choose to save them.</p>
+<p>AI API keys are stored in the macOS Keychain. They are never written to the app's settings file or to a log, and the app has no way to show a saved key back to you.</p>
+<p>Reading aloud uses the voices installed on your Mac. The text being read is not sent anywhere by the app.</p>
+<h2>What the app downloads</h2>
+<p><strong>Dictionaries.</strong> The app checks for and downloads updated dictionaries (&quot;language packs&quot;) from <code>packs.tintareader.com</code>, which is hosted by GitHub. These requests contain only which dictionary and version are being fetched. None of your text, vocabulary or settings is sent. As with any web request, GitHub can see your IP address; GitHub's privacy statement covers that: <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a></p>
+<p><strong>App updates</strong> — <em>copies downloaded directly from us only.</em> Those copies check <code>github.com</code> for a newer version of the app. The Mac App Store version gets its updates from the App Store and makes no such check.</p>
+<h2>The optional AI features</h2>
+<p>The app can ask an AI model to translate a sentence, gloss a word, pick which dictionary sense fits, or write a dictionary entry. This is <strong>off</strong> until you add an API key from one of these providers:</p>
+<table><thead><tr><th>Provider</th><th>Where your text goes</th><th>Their policy</th></tr></thead><tbody><tr><td>Anthropic (Claude)</td><td><code>api.anthropic.com</code></td><td><a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></td></tr><tr><td>OpenAI</td><td><code>api.openai.com</code></td><td><a href="https://openai.com/policies/privacy-policy/">https://openai.com/policies/privacy-policy/</a></td></tr><tr><td>Google (Gemini)</td><td><code>generativelanguage.googleapis.com</code></td><td><a href="https://ai.google.dev/gemini-api/terms">https://ai.google.dev/gemini-api/terms</a></td></tr></tbody></table>
+<p><strong>Before the first request to a provider, the app asks you</strong>, says what will be sent, and links that provider's policy. If you decline, nothing is sent. You are asked once per provider, and you can withdraw your permission in Settings at any time. After that, nothing more is sent to that provider until you allow it again.</p>
+<p><strong>What is sent</strong> with each request is only what that question needs:</p>
+<ul><li>the word or sentence you chose, and the sentence it is in;</li><li>for a sentence translation, the sentences just before and after it, for context;</li><li>what the app's dictionary already says about the word;</li><li>the names of the languages involved.</li></ul>
+<p>Nothing else from your texts, vocabulary or settings is sent.</p>
+<p><strong>How it is sent.</strong> Requests go directly from your Mac to the provider, using your API key. They do not pass through any server of ours, and we never see your text, your key or the provider's reply. Once the text reaches the provider, <strong>the provider's policy governs what happens to it</strong>, not this one. In particular, <strong>Google's free Gemini tier</strong> allows Google to use what is sent to improve its products, and people may read it. The app tells you this before you allow Gemini. Don't send anything private through a free-tier key.</p>
+<p>Replies are stored on your Mac so the same question does not have to be asked twice.</p>
+<h2>In a web browser</h2>
+<p>The web version at <code>tintareader.com</code> works the same way, with these differences:</p>
+<ul><li><strong>Storage.</strong> Your texts, marks and settings are stored in your browser's own storage for this site (IndexedDB), on your device. They are not sent to us. Clearing the site's data in your browser deletes them, and some browsers delete a site's data by themselves after a long time unused, so use <em>Back up</em> in Stats to keep a copy.</li><li><strong>The site itself</strong> is static files hosted by GitHub Pages. Loading it sends GitHub the usual request information, such as your IP address, as with any website. The site has no analytics, no cookies and no third-party scripts.</li><li><strong>AI keys.</strong> A browser has no keychain. By default your key is kept only for as long as the tab is open. If you tick <em>Remember my key on this device</em>, it is kept in the site's browser storage until you remove it; anyone who can use that browser profile could then use the key. AI requests go straight from your browser to the provider, as they do from the Mac app.</li><li><strong>Reading aloud</strong> uses the voices your browser offers. Some browsers, such as Chrome, include online voices that send the text being read to the browser's maker to be spoken.</li></ul>
+<h2>Children</h2>
+<p>The app does not knowingly collect information from anyone, including children. The AI features need an API key, which each provider issues under its own terms, including its own minimum age.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published at this address with a new date. A change that would send anything new off your device would also be asked for in the app before it happened.</p>
+<h2>Contact</h2>
+<p>Questions about this policy or your data: <a href="mailto:james.moult@gmail.com">james.moult@gmail.com</a></p>
+</main></body>
+</html>

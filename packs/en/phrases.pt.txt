@@ -1,0 +1,571 @@
+# What each English phrase in `phrases.txt` means, in Brazilian Portuguese.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Portuguese where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.pt.txt`.
+#
+# Verbs are glossed as bare infinitives, without `a` or `de`. Portuguese has an
+# infinitive where English has `to go`, so the phrase carries across as one word
+# and needs no marker of its own.
+
+# ---- Separable phrasal verbs: the object may sit inside the verb.
+give ? up|desistir, parar de tentar; entregar
+pick ? up|levantar, pegar; aprender sem que ensinem
+put ? on|vestir (uma roupa); pôr em cima de
+put ? off|adiar, deixar para depois; tirar a vontade de alguém
+put ? out|apagar (um fogo, uma luz); incomodar, dar trabalho a
+take ? off|tirar (uma roupa); decolar
+take ? over|assumir o controle de
+take ? back|retirar (o que se disse); devolver (uma mercadoria)
+turn ? on|ligar (uma máquina, uma luz)
+turn ? off|desligar (uma máquina, uma luz)
+turn ? up|aumentar (o volume); aparecer, chegar muitas vezes de surpresa
+turn ? down|abaixar (o volume); recusar (uma oferta)
+find ? out|descobrir, ficar sabendo
+work ? out|resolver, calcular; dar certo no fim; malhar, fazer exercício
+figure ? out|acabar entendendo à força de pensar
+sort ? out|arrumar, resolver
+look ? up|levantar os olhos; procurar (num livro ou numa lista); melhorar
+make ? up|inventar (uma história); fazer as pazes; maquiagem
+bring ? up|criar (um filho); trazer à tona (um assunto)
+call ? off|cancelar
+call ? back|ligar de volta
+check ? out|dar uma olhada em, investigar; fazer o check-out do hotel
+cut ? off|cortar, isolar; interromper
+fill ? in|preencher (um formulário); substituir alguém
+fill ? out|preencher (um formulário)
+hand ? over|entregar, passar às mãos de outro
+hang ? up|desligar o telefone
+let ? down|decepcionar, deixar alguém na mão
+leave ? out|omitir, deixar de fora
+pass ? on|repassar a outra pessoa; recusar, abrir mão; falecer
+point ? out|apontar, chamar a atenção para
+put ? away|guardar no lugar; prender, botar na cadeia
+put ? back|repor no lugar; adiar, atrasar
+put ? together|montar, juntar as peças
+set ? up|montar, organizar; armar uma cilada para alguém
+show ? off|exibir para impressionar
+shut ? up|calar a boca (grosseiro)
+take ? in|entender, assimilar; enganar; acolher, dar abrigo a
+take ? out|tirar, retirar; levar para sair
+tell ? off|dar bronca em
+think ? over|pensar bem em
+throw ? away|jogar fora; desperdiçar (uma chance)
+try ? on|experimentar (uma roupa) para ver se serve
+turn ? around|virar-se para o outro lado; reverter uma queda
+wake ? up|acordar, despertar
+write ? down|anotar no papel
+knock ? out|nocautear, deixar desacordado; eliminar de uma competição
+break ? up|terminar um relacionamento; quebrar em pedaços
+clear ? up|arrumar; esclarecer; (do tempo) abrir, melhorar
+hold ? up|levantar, erguer no alto; atrasar; assaltar; sustentar
+keep ? up|manter, acompanhar o ritmo de
+let ? in|deixar entrar
+let ? out|soltar (um suspiro, um grito), emitir; libertar; alargar (uma roupa)
+make ? out|distinguir com dificuldade; alegar falsamente
+pay ? back|pagar de volta; dar o troco em, vingar-se de
+run ? over|ir correndo (até); atropelar com um veículo; transbordar, passar do tempo
+
+# ---- Inseparable phrasal verbs: nothing may come between the parts.
+look for|procurar, tentar achar
+look after|cuidar de
+look into|examinar, investigar
+look forward to|esperar ansioso por
+get over|superar, recuperar-se de
+get through|aguentar, chegar ao fim; conseguir falar por telefone
+get along|dar-se bem
+get away with|escapar sem ser punido por
+go through|passar por, aguentar; examinar em ordem
+go over|atravessar, ir até; revisar, examinar
+come across|topar por acaso com; passar uma impressão
+come up with|bolar, ter (uma ideia)
+run into|encontrar por acaso; bater em, colidir com
+run out of|ficar sem
+put up with|aguentar, tolerar
+deal with|lidar com, tomar providências sobre
+count on|contar com
+depend on|contar com; depender de
+stand for|representar, ser a sigla de; tolerar
+take after|puxar a (um dos pais)
+call on|passar para visitar; convidar alguém a falar ou agir
+carry on|continuar
+give in|ceder, parar de resistir
+show up|aparecer, dar as caras; deixar alguém em situação vexatória
+turn into|virar, transformar-se em
+end up|acabar em, terminar assim sem querer
+break down|quebrar, parar de funcionar; desabar, perder o controle emocional
+break into|arrombar, entrar à força em
+pass out|desmaiar
+hang on|esperar; agarrar-se firme
+hold on|esperar; segurar firme
+watch out|tomar cuidado
+give ? away|dar de graça; revelar (um segredo)
+
+# ---- Fixed expressions the parts do not add up to.
+of course|claro, é claro
+at least|pelo menos, não menos que; ao menos, de todo modo
+at last|enfim, depois de muita espera
+at all|de jeito nenhum (com negativa ou pergunta)
+after all|afinal, apesar do que se disse ou se esperava
+as well|também
+as well as|assim como, além de
+by the way|a propósito, aliás
+in fact|na verdade, de fato
+in order to|a fim de, para
+kind of|meio, um tanto (informal); um tipo de
+sort of|meio, um tanto (informal); um tipo de
+no matter|não importa (o que, quem, como)
+right away|agora mesmo, na hora
+such as|como, por exemplo
+up to|a cargo de (é você quem decide); até; aprontando (alguma coisa)
+used to|costumava fazer antes, mas não mais
+would rather|preferir
+had better|é melhor que, deveria
+as if|como se
+even though|mesmo que, embora
+as long as|contanto que; enquanto
+on purpose|de propósito, não por acaso
+
+# ---- 2026-09-23 expansion
+
+# ---- Separable phrasal verbs
+blow ? up|explodir, destruir com explosivos; encher (de ar); perder a paciência, explodir de raiva
+bring ? about|provocar, fazer acontecer
+bring ? down|derrubar (um governo, uma pessoa); baixar
+bring ? out|revelar, fazer aparecer; publicar, lançar
+call for|exigir, pedir; ir buscar alguém
+carry ? out|realizar, executar (uma tarefa, uma ordem)
+cheer ? up|animar, alegrar
+drop ? off|deixar no caminho; pegar no sono
+hold ? back|conter, segurar; hesitar; esconder, guardar segredo
+hold ? off|adiar; manter à distância
+lay ? off|demitir, dispensar do trabalho; parar (de incomodar alguém)
+lay ? out|dispor, espalhar; explicar em detalhe
+mix ? up|confundir (uma coisa com outra)
+mess ? up|estragar, fazer mal feito
+pay ? off|quitar (uma dívida); subornar; dar resultado, compensar
+pull ? off|conseguir fazer (algo difícil); arrancar, tirar puxando
+pull ? over|encostar (o carro) na beira da estrada
+pull ? together|organizar, reunir; recompor-se (pull yourself together)
+put ? down|anotar, escrever; reprimir (uma revolta); sacrificar (um animal doente); criticar, rebaixar
+put ? up|hospedar alguém por uma noite; construir, erguer; aumentar (um preço), levantar (a mão)
+rule ? out|descartar, excluir como possibilidade
+see ? through|não se deixar enganar por; levar até o fim
+shut ? down|fechar (uma empresa); desligar (uma máquina)
+sum ? up|resumir
+take ? on|aceitar (um trabalho); contratar; enfrentar
+take ? up|começar (um passatempo); ocupar (espaço, tempo); aceitar (uma oferta)
+track ? down|encontrar depois de procurar, localizar
+turn ? over|virar, dar a volta; entregar (às autoridades)
+turn ? out|acabar sendo, revelar-se; apagar (uma luz); expulsar, pôr para fora
+wear ? out|gastar com o uso; esgotar, cansar
+wind ? up|terminar, encerrar; acabar (em algum lugar ou situação); dar corda (num relógio); provocar, zoar
+wrap ? up|terminar, concluir; agasalhar-se; embrulhar
+break ? off|terminar de repente (um namoro, uma conversa); quebrar, partir (um pedaço)
+break in|entrar à força, arrombar; interromper
+cut ? out|recortar; parar (de fazer algo); (de um motor) morrer, parar
+cut ? short|interromper; encurtar, terminar antes
+get ? over with|acabar logo com (algo desagradável)
+let ? go|soltar, largar
+let ? know|avisar, informar
+pass ? up|deixar passar (uma oportunidade)
+set ? off|partir, pôr-se a caminho; disparar (um alarme), provocar (uma explosão)
+throw ? up|vomitar; levantar de repente
+give ? a break|deixar (alguém) em paz; parar de criticar (give me a break)
+do ? a favour|fazer um favor a alguém
+do ? a favor|fazer um favor a alguém
+
+# ---- Inseparable and intransitive phrasal verbs
+add up|fazer sentido (it doesn't add up); somar
+back off|recuar; parar de pressionar
+break out|começar de repente (uma guerra, um incêndio); fugir, escapar
+bump into|encontrar por acaso, esbarrar com; chocar-se com
+burst into|desatar a (chorar, rir, cantar); entrar de repente
+burst out|desatar a (rir, chorar); exclamar
+carry away|empolgar a ponto de perder o controle (got carried away); levar embora
+catch up|alcançar alguém que está à frente; pôr em dia o atrasado
+catch up with|alcançar alguém que está à frente; reencontrar depois de um tempo
+come about|acontecer, suceder
+come along|acompanhar, vir junto; progredir, avançar; aparecer, surgir
+come round|mudar de ideia; recobrar os sentidos; fazer uma visita
+come by|conseguir, obter; passar rapidamente, dar uma passada
+come on|vamos! / por favor! / para com isso!; acender (uma luz), começar (uma doença)
+come over|vir visitar; (de um sentimento) tomar conta de repente
+come up|surgir, ser mencionado; aproximar-se; subir, nascer
+come upon|encontrar por acaso, deparar com
+do without|passar sem, virar-se sem
+do away with|abolir, acabar com
+drop in|dar uma passada, visitar sem avisar
+dwell on|ficar pensando ou falando demais em
+fall apart|desmanchar-se, cair aos pedaços; desmoronar emocionalmente
+fall for|apaixonar-se por; cair em (um engano)
+feel like|ter vontade de; parecer
+freak out|surtar, ficar muito nervoso ou assustado
+get at|querer dizer, insinuar (what are you getting at); alcançar
+get away|escapar, fugir; sair de férias
+get back at|vingar-se de
+get by|virar-se, sobreviver
+get in|entrar; chegar
+get off|descer (de um veículo); escapar do castigo
+get on|subir, embarcar (num veículo); dar-se bem com alguém; progredir
+get on with|continuar, seguir com; dar-se bem com
+get out|sair, escapar; fora! (vá embora)
+get out of|livrar-se de (uma obrigação); sair de
+get up|levantar-se (da cama); ficar de pé
+give off|soltar, emitir (cheiro, calor)
+go about|lidar com, encarar (uma tarefa); ocupar-se de
+go ahead|seguir em frente, prosseguir; fique à vontade, pode
+go along with|concordar com, aceitar
+go by|passar (o tempo); guiar-se por
+go off|explodir; tocar, disparar (um alarme); ir embora; estragar (comida)
+go on|continuar; acontecer (what is going on)
+grow up|crescer, tornar-se adulto
+hang around|ficar à toa, esperar sem fazer nada
+hang out|passar o tempo, ficar junto (informal)
+hear of|ouvir falar de; admitir, permitir (won't hear of it)
+hold out|estender (a mão); durar; resistir
+hold on to|guardar, ficar com; segurar firme
+hurry up|apressar-se
+keep on|continuar
+let up|diminuir, abrandar; parar
+live up to|estar à altura de (expectativas)
+look out|cuidado!; olhar por (uma janela)
+look on|assistir sem participar
+make off|fugir, sair correndo
+miss out|perder uma oportunidade
+pass away|falecer (educado); (do tempo) passar
+pick on|implicar com, perseguir, criticar injustamente
+pull through|recuperar-se (de uma doença)
+see about|cuidar de, providenciar
+sell out|esgotar, vender tudo; vender-se, trair os princípios por dinheiro
+set in|instalar-se, começar e continuar (mau tempo, um sentimento)
+set out|partir, pôr-se a caminho; pretender; expor, organizar
+set about|pôr-se a (uma tarefa); atacar
+settle down|acalmar-se; assentar, levar uma vida estável
+snap out of|sair de repente (de um mau humor)
+speak up|falar mais alto; falar abertamente
+stand out|destacar-se, chamar a atenção
+stand up for|defender
+stick around|ficar, não ir embora
+stick to|manter-se em, persistir; não mudar
+trail off|ir sumindo (a voz)
+wait on|servir (como garçom ou criado); esperar por
+wear off|passar aos poucos (um efeito)
+get to know|conhecer, ficar conhecendo
+turn ? back on|rejeitar, abandonar (turn your back on)
+
+# ---- Light-verb and verb idioms
+make sense|fazer sentido, ser compreensível
+make sure|verificar, certificar-se
+make fun of|zombar de, rir de
+make up for|compensar
+make the most of|aproveitar ao máximo
+make a fool of|fazer alguém passar por bobo
+make ? way|ir, seguir caminho (made his way); abrir caminho para (make way)
+make love|fazer amor; (em livros antigos) cortejar, namorar
+make haste|apressar-se
+make it|conseguir; chegar a tempo; sobreviver; (literalmente) fazer algo
+make up ? mind|decidir-se
+change ? mind|mudar de ideia
+have a look|dar uma olhada
+have got|ter, possuir
+have to|ter que, ser obrigado a
+have to do with|ter a ver com
+nothing to do with|não ter nada a ver com
+take place|acontecer, ter lugar
+take part|participar
+take care|tomar cuidado; tchau, se cuida
+take care of|cuidar de; tratar de, resolver
+take advantage of|aproveitar (uma oportunidade); aproveitar-se de (uma pessoa)
+take ? into account|levar em conta
+take ? for granted|dar por certo; não dar valor a
+take a look|dar uma olhada
+take hold of|agarrar, segurar
+take ? time|não ter pressa, ir com calma
+take ? leave|despedir-se e ir embora
+take it easy|relaxar; calma
+take it out on|descontar em alguém (a própria raiva)
+take aback|surpreender, chocar (taken aback)
+do ? best|fazer o possível
+try ? best|fazer o possível
+get rid of|livrar-se de, jogar fora
+get used to|acostumar-se com
+get hold of|conseguir, obter; entrar em contato com; agarrar
+get the better of|vencer, levar a melhor sobre; dominar
+get in touch|entrar em contato
+get lost|perder-se; some daqui! (grosseiro)
+get on ? nerves|irritar, dar nos nervos
+go wrong|dar errado, ter um problema
+go without saying|ser óbvio, nem precisar dizer
+go out of ? way|esforçar-se especialmente, fazer de tudo
+give way|desabar, ruir; ceder, dar passagem
+give birth|dar à luz
+give rise to|dar origem a, provocar
+bear in mind|ter em mente, levar em conta
+keep ? eye on|ficar de olho em
+keep ? word|cumprir a palavra
+keep ? from|impedir de; esconder de
+catch sight of|avistar de repente
+catch ? eye|chamar a atenção de alguém
+catch ? breath|recuperar o fôlego
+hold ? tongue|ficar calado, segurar a língua
+fall asleep|adormecer, pegar no sono
+fall in love|apaixonar-se
+fall short|ficar aquém, não alcançar
+lose sight of|perder de vista; esquecer
+lose track of|perder a conta de, perder o fio de
+lose ? temper|perder a paciência, zangar-se
+lose ? head|perder a cabeça, entrar em pânico
+lose ? mind|enlouquecer
+pay attention|prestar atenção
+run the risk|correr o risco
+set fire to|pôr fogo em, incendiar
+set foot|pôr os pés (set foot in)
+stand a chance|ter chance
+can't stand|odiar, não suportar
+can't help|não conseguir evitar
+cannot help|não conseguir evitar
+can't wait|estar ansioso, mal poder esperar
+feel sorry for|ter pena de
+be about to|estar prestes a
+be supposed to|dever (esperado ou exigido)
+be bound to|com certeza ir (fazer ou acontecer)
+be going to|ir (futuro); estar indo para
+would like|querer, gostaria (educado)
+might as well|não custa nada, tanto faz fazer
+may as well|não custa nada, tanto faz fazer
+ought to|dever, deveria
+look like|parecer-se com; parecer provável
+sound like|parecer (pelo que se ouve)
+come true|realizar-se, tornar-se realidade
+come to terms with|aceitar, conformar-se com (uma situação difícil)
+come in handy|ser útil, vir a calhar
+cross ? mind|passar pela cabeça (it crossed my mind)
+mind ? own business|cuidar da própria vida, não se meter
+
+# ---- Connectives and discourse phrases
+as a matter of fact|na verdade, na realidade
+to tell the truth|para falar a verdade, francamente
+mind you|mas, no entanto
+i mean|quer dizer, ou melhor (corrigindo-se); pretender, querer dizer
+let alone|muito menos
+not to mention|sem falar de, além de
+to begin with|para começar; no início
+first of all|antes de tudo, em primeiro lugar
+above all|sobretudo, acima de tudo
+in short|em resumo, em suma
+in other words|em outras palavras, ou seja
+on the other hand|por outro lado
+on the one hand|por um lado
+even so|mesmo assim
+even if|mesmo que, ainda que
+or rather|ou melhor
+rather than|em vez de
+other than|exceto, a não ser
+what's more|além disso
+that is to say|ou seja, quer dizer
+as it were|por assim dizer, de certa forma
+so to speak|por assim dizer, de certa forma
+at any rate|de qualquer forma; pelo menos
+in any case|de qualquer modo, aconteça o que acontecer
+in that case|nesse caso
+just in case|por precaução, só por garantia
+in case|por precaução, caso
+so that|para que, de modo que
+so as to|para, a fim de
+now that|agora que
+as soon as|assim que, logo que
+as far as|na medida em que; até (um lugar)
+as though|como se
+as for|quanto a
+as to|quanto a; (so … as to) a ponto de
+provided that|contanto que, desde que
+apart from|exceto; além de
+thanks to|graças a
+due to|devido a
+owing to|devido a
+according to|segundo, de acordo com; conforme
+in spite of|apesar de
+regardless of|independentemente de
+instead of|em vez de
+all the more|ainda mais
+or so|mais ou menos, aproximadamente
+and so on|e assim por diante
+more or less|mais ou menos, quase
+sooner or later|mais cedo ou mais tarde
+nothing but|só, apenas
+next to|ao lado de; quase (next to nothing)
+as ever|como sempre
+as yet|até agora
+as such|em si; nessa qualidade
+if only|quem dera, se ao menos (desejo forte)
+what if|e se
+what about|e (quanto a)…? (sugestão ou pergunta)
+how about|que tal (sugestão)
+how come|por que, como assim
+no sooner|mal, assim que (no sooner … than)
+by the time|quando, até que
+in the least|nem um pouco (com negativa)
+none the less|mesmo assim, no entanto
+all the same|mesmo assim; tanto faz
+for all that|apesar disso
+with regard to|com relação a
+in the face of|apesar de; diante de
+in view of|tendo em vista, considerando
+by means of|por meio de
+on account of|por causa de
+on behalf of|em nome de, por
+in favour of|a favor de; preferindo
+in favor of|a favor de; preferindo
+in charge of|encarregado de, responsável por
+for the sake of|pelo bem de; com o fim de
+for ? sake|pelo bem de (for her sake); pelo amor de (for God's sake)
+on top of|além de; em cima de
+on the verge of|à beira de
+on the point of|prestes a
+in return|em troca
+in vain|em vão
+in turn|um de cada vez, por sua vez; em consequência
+in time|a tempo; com o tempo
+in the end|no fim, afinal
+at the same time|ao mesmo tempo; no entanto
+in the meantime|enquanto isso
+in no time|num instante, rapidinho
+in the long run|a longo prazo
+in the first place|em primeiro lugar; para começo de conversa, originalmente
+
+# ---- Fixed prepositional idioms and time phrases
+at once|imediatamente; ao mesmo tempo
+at first|no início
+at times|às vezes
+at present|atualmente, agora
+at the moment|no momento, agora
+at a loss|perdido, sem saber o que fazer
+at heart|no fundo
+at hand|à mão, perto; iminente
+at ease|à vontade
+at stake|em jogo
+at large|à solta, foragido; em geral
+at length|longamente; por fim
+at all events|em todo caso
+at a time|de cada vez (one at a time)
+at ? disposal|à disposição de alguém
+at ? expense|à custa de alguém; em prejuízo de alguém
+at the expense of|em detrimento de
+by heart|de cor
+by far|de longe
+by no means|de modo algum
+by all means|claro, com certeza
+by and by|daqui a pouco, com o tempo
+for good|para sempre
+for once|pelo menos uma vez
+for the time being|por enquanto
+for the most part|na maior parte, em geral
+from now on|de agora em diante
+from time to time|de vez em quando
+all along|desde o início, o tempo todo; ao longo de toda a extensão de
+all at once|de repente; ao mesmo tempo
+all of a sudden|de repente
+all over|por toda parte; acabado
+before long|em breve, logo
+the other day|outro dia, há alguns dias
+now and then|de vez em quando
+now and again|de vez em quando
+every now and then|de vez em quando
+once in a while|de vez em quando
+once and for all|de uma vez por todas
+to and fro|para lá e para cá
+of late|ultimamente
+on the whole|de modo geral
+on the contrary|pelo contrário
+on earth|afinal, raios (what on earth, why on earth); na terra, no mundo
+on end|sem parar (for hours on end); em pé
+on edge|nervoso, tenso
+on the spot|na hora, imediatamente; no local
+on ? own|sozinho; sem ajuda
+on ? way|a caminho; chegando em breve
+on ? behalf|em nome de alguém
+on ? mind|preocupando alguém
+in mind|em mente
+under way|em andamento
+under ? breath|em voz baixa, num sussurro
+under the impression|com a impressão (equivocada)
+off guard|desprevenido
+out of breath|sem fôlego
+out of the question|fora de questão
+out of ? mind|louco; muito preocupado
+out of sorts|indisposto, meio chateado
+out of nowhere|do nada, de repente
+out of ? way|afastado, fora de mão; fora do caminho
+in love|apaixonado (por)
+in earnest|a sério
+in the nick of time|bem na hora, em cima da hora
+at the end of the day|no fim das contas
+head over heels|perdidamente (apaixonado); de pernas para o ar
+safe and sound|são e salvo
+sick and tired|farto, de saco cheio
+odds and ends|miudezas, coisinhas
+ups and downs|altos e baixos
+
+# ---- Colloquial and dialogue phrases
+all right|tudo bem, aceitável; ileso, bem; sim, combinado
+no way|de jeito nenhum; é impossível
+i guess|acho, suponho
+i bet|aposto, tenho certeza
+you bet|com certeza, pode apostar
+i'm afraid|infelizmente, lamento dizer; estou com medo
+never mind|não importa; não se preocupe, deixa pra lá
+fair enough|justo, é razoável
+big deal|algo importante; (irônico) grande coisa
+no big deal|nada de mais
+what the hell|que diabos (raiva ou surpresa); por que não, dane-se
+thank god|graças a Deus
+here you are|aqui está, tome; você chegou
+there you go|é assim mesmo; aqui está, tome
+there you are|aqui está, tome; eu não disse?
+here we go|lá vamos nós, vamos começar; (resignado) lá vem de novo
+that's it|é só isso; é isso aí, exatamente; chega!
+that's that|e ponto final, não há mais o que discutir
+what's up|o que está acontecendo, e aí; o que houve
+what's the matter|o que houve, qual é o problema
+no kidding|sério?; é sério, não estou brincando
+no wonder|não admira
+no doubt|sem dúvida, provavelmente
+no longer|não mais, já não
+no use|inútil (it's no use)
+no good|inútil; ruim
+got it|entendi; peguei, está comigo
+get it|entender; ir buscar, receber
+do you mind|você se importa se; por favor, pare
+if you don't mind|se não se importa
+come off it|conta outra, não acredito
+you're welcome|de nada, não precisa agradecer
+dare say|imaginar, achar provável (I dare say)
+to be sure|com certeza; é verdade que
+not a bit|nem um pouco
+wait a minute|espera; peraí (dúvida repentina)
+just a minute|um minutinho, espera
+
+# ---- Adjectival and predicate phrases
+sick of|farto de, cansado de
+tired of|cansado de
+keen on|interessado em, entusiasmado com
+better off|em situação melhor; mais rico
+well off|rico, bem de vida
+done with|acabado, farto de
+a great deal|muito, bastante
+a good deal|muito, bastante
+a great many|muitos
+a couple of|dois; alguns
+all sorts of|todo tipo de

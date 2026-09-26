@@ -1,0 +1,33 @@
+# Sample text shown on first run for French.
+#
+# Written for this app rather than taken from a corpus, in the shape of the
+# Indonesian and Spanish samples: an everyday scene and an exchange of
+# dialogue. Three things are deliberate.
+#
+# **It is dense with elision** — `j'aime`, `qu'est-ce`, `qu'on`, `l'odeur`,
+# `jusqu'à`, `c'est`, `s'arrête`, `l'hiver`, `d'un`. That is the one piece of
+# machinery French needs that Spanish does not, so the first text a learner
+# sees exercises it rather than avoids it.
+#
+# **It leans on inflected forms** — `descends`, `choisissons`, `connaît`,
+# `laissait`, `rentrons`, `appris` — because resolving those through the lemma
+# index is what the provider is for.
+#
+# **Every word resolves against the pack**, with no proper nouns: a name would
+# render as the one unknown word on the page, and first person avoids needing
+# one at all.
+Exemple — Le marché du samedi
+Le samedi matin, je descends au marché avec mon grand-père. Il fait froid, et la rue est encore presque vide. J'aime cette heure-là : les vendeurs installent leurs tables, l'odeur du pain chaud arrive jusqu'à nous, et personne ne se presse.
+
+— Qu'est-ce qu'on achète aujourd'hui ? je lui demande.
+— Ce qu'il faut pour ce soir. Ta mère veut faire une soupe.
+— Encore ? On en a mangé jeudi.
+— Justement. C'est bon, alors on recommence.
+
+Nous choisissons des légumes, du fromage et un poulet. Le vendeur nous connaît depuis des années ; il nous donne toujours quelque chose en plus, une pomme ou deux, sans rien dire.
+
+Sur le chemin du retour, mon grand-père s'arrête devant la vieille librairie. Elle est fermée depuis l'hiver dernier, mais il regarde quand même la vitrine à chaque fois.
+
+— J'ai appris à lire ici, dit-il enfin. Le patron me laissait rester des heures sans jamais rien acheter.
+
+Je ne réponds pas. Je prends sa main, et nous rentrons ensemble.

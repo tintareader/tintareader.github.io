@@ -1,0 +1,43 @@
+# Sample text shown on first run for Mandarin.
+#
+# Written for this app, in the shape of the other packs' samples: an everyday
+# scene and an exchange of dialogue. What it is chosen to exercise is different
+# here, because what Mandarin asks of the app is different.
+#
+# **It is written to be segmented.** There are no spaces to fall back on, so
+# the first text a learner sees is the first test of `buildSegmenter`. It
+# deliberately contains runs that a longest-match tokeniser gets wrong —
+# `我跟妈妈一起去`, `她还是要看一眼` — and compounds that must *not* be split
+# (`星期`, `厨房`, `其实`).
+#
+# **It is thick with compounds whose characters are worth opening**: 天气,
+# 市场, 晚饭, 书店, 厨房. Those are the words the character panel exists for,
+# and every character in them has an entry of its own in the pack.
+#
+# **Dialogue is in `“ ”`, not `「 」`.** Both are correct Chinese, but they
+# belong to different places: the corner brackets are the Taiwan and Hong Kong
+# convention, and the curly quotes are the mainland standard (GB/T 15834). This
+# pack is simplified characters and speaks zh-CN, so the mainland punctuation is
+# the one that matches it. It also reads as prose rather than as markup, which
+# the corner brackets do not once there are four lines of them in a row.
+#
+# **No proper nouns.** Names are the one class this pack deliberately SKIPs, so
+# a name would render as the single unknown word on the page. First person
+# avoids needing one, and the relatives are all kinship terms.
+例文 —— 周末的早上
+周末的早上，我跟妈妈一起去市场。天气很好，路上的人还不多。
+
+“我们买什么？”我问她。
+“晚饭要用的东西。你爸爸想喝汤。”
+“上个星期不是刚喝过吗？”
+“好东西可以再来一次。”
+
+我们买了菜、鸡蛋和一条鱼。卖鱼的老板认识我妈妈很多年了，每次都多给一点，什么也不说。
+
+回家的路上，妈妈在那家旧书店前面停下来。书店从去年冬天就关门了，可是每次经过，她还是要看一眼里面。
+
+“以前你外公常带我来这里，”她说，“那时候我还很小。”
+“你为什么不告诉我？”
+“现在告诉你了。”
+
+到家的时候太阳已经出来了。我把菜放在桌子上，妈妈开始做饭。厨房里很安静，只有水声和刀子的声音。我忽然觉得，这样的早上其实很难得。

@@ -1,0 +1,46 @@
+{
+  "id": "zh",
+  "version": "1.1.61",
+  "files": {
+    "lex": {
+      "path": "lex.txt",
+      "license": "unencumbered",
+      "sha256": "3333cfa93d7fdf3b93d0cc5765170bfe92eff629887773b45f695a59304563ac"
+    },
+    "gloss.en": {
+      "path": "gloss.en.txt",
+      "license": "unencumbered",
+      "sha256": "91fec990161b1f7aefd95e227bb3b7e18cc6779dc5862dfa4709804006f19cbb"
+    },
+    "ranks": {
+      "path": "ranks.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "04670742a854718535b395dd0c3d233a24bb3b9f25fc1d406158c15e24900147"
+    },
+    "readings": {
+      "path": "readings.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "071c2c4e930c65d28f056bc52108161063579b7db24bf37635caf09e83934a8c"
+    },
+    "variants": {
+      "path": "variants.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "adcb38e17ecd8a5bf6eb096a9d287f71dc29cba543aa3a44a9073c5bc7450be6"
+    },
+    "sample": {
+      "path": "sample.txt",
+      "license": "unencumbered",
+      "sha256": "b54bc491ae4a93ede1ffeb9c6ef244d6fdf349bc3cbfa5f5904d819b718591bc"
+    },
+    "phrases": {
+      "path": "phrases.txt",
+      "license": "unencumbered",
+      "sha256": "b331c38bbd1cf92d6b28f75b453ae1593acb2587de62430bf4def34163e84978"
+    },
+    "phrases.en": {
+      "path": "phrases.en.txt",
+      "license": "unencumbered",
+      "sha256": "e5efe54e5fe47aabac2356dbe923ad16d888ed5aaed135aa9665fe4a3141c90c"
+    }
+  }
+}

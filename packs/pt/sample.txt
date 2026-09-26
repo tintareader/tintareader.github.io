@@ -1,0 +1,33 @@
+# Sample text shown on first run for Portuguese.
+#
+# Written for this app rather than taken from a corpus, in the shape of the
+# Indonesian, Spanish and French samples: an everyday scene and an exchange of
+# dialogue. Three things are deliberate.
+#
+# **It uses hyphenated enclitics** — `chama-se`, `dá-me`, `fazê-la`,
+# `repete-se`. That is the one piece of machinery Portuguese needs that
+# Spanish does not, so the first text a learner sees exercises it rather than
+# avoids it, including the case where the verb loses its `-r` (`fazê-la`).
+#
+# **It is thick with contractions** — `no`, `da`, `dessa`, `na`, `pelo`,
+# `num`, `dela` — because those are the entries a learner meets first and the
+# ones the `neverFold` list had to rescue.
+#
+# **Every word resolves against the pack**, with no proper nouns: a name would
+# render as the one unknown word on the page, and first person avoids needing
+# one at all.
+Exemplo — A feira de sábado
+No sábado de manhã, desço à feira com a minha avó. Ainda está frio, e a rua está quase vazia. Gosto dessa hora: os vendedores arrumam as mesas, o cheiro do pão quente chega até nós, e ninguém tem pressa.
+
+— O que a gente compra hoje? — pergunto a ela.
+— O que precisamos para o jantar. A sua mãe quer fazer uma sopa.
+— De novo? Comemos sopa na quinta.
+— Justamente. Se uma coisa é boa, repete-se.
+
+Escolhemos legumes, queijo e um frango. O vendedor nos conhece há anos; sempre dá alguma coisa a mais, uma maçã ou duas, sem dizer nada.
+
+Na volta, a minha avó para na frente da velha livraria. Está fechada desde o inverno passado, mas ela olha pela janela toda vez que passamos.
+
+— Aprendi a ler aqui — diz ela enfim. — O dono me deixava ficar horas sem comprar nada. Se eu perguntava por um livro, ele ia buscá-lo.
+
+Não respondo nada. Pego a mão dela, e voltamos juntas para casa.

@@ -1,0 +1,639 @@
+# Portuguese multi-word expressions: the patterns. Hand-curated — not generated
+# by dictgen.
+#
+# Format: one pattern per line, `#` comments ignored. What each one *means* is
+# in `phrases.<meta>.txt`, joined on the pattern — the same split `lex.txt` and
+# `gloss.<meta>.txt` make, for the same reason. Which phrases exist is a fact
+# about Portuguese; what they mean is a fact about a pair of languages.
+#
+# A pattern is a sequence of slots matched against consecutive tokens. Each
+# slot matches a token's **root** or its normalised surface, so a pattern whose
+# head inflects is written in the citation form (`ter que` catches `tem que`,
+# `temos que`, `tinha que`) and an invariant phrase is written just as it is
+# read (`no entanto`). `*` is a gap of up to four tokens; Portuguese needs none.
+#
+# There is no frequency data behind these — the rank list is unigram — which is
+# why a phrase carries no band and never enters the band histogram. See NOTICE
+# at the repo root.
+#
+# ## What belongs here
+#
+# Only phrases where the word-by-word reading misleads. `fim de semana` is not
+# here: "end of week" already teaches it, and an underline over a phrase the
+# reader can decode is noise that makes the ones that matter easier to ignore.
+# Transparent multi-word prepositions (`perto de`, `longe de`, `ao lado de`)
+# are out for the same reason, as are `mais tarde`, `meia hora` and `ontem à
+# noite`, which the corpus reports as units but which mean what they say.
+#
+# ## Every pattern here was measured before it shipped
+#
+# Spanish's list was written from knowledge of the language. This one was
+# written the same way and then checked with `npm run measure:phrase-fit --
+# --lang pt`, which runs the shipping matcher over a subtitle sample and reports
+# which patterns fire and on which surfaces. **No count from that run is
+# recorded in this file**: the phrase list carries no frequency data, which is
+# what keeps it out of the band histogram and off the licence of `ranks.txt`.
+# The numbers, and the three classes of mistake they caught, are in
+# `tools/measure/README.md`.
+#
+# What the check changes here is which patterns exist. Three kinds were dropped
+# or rewritten because of it:
+#
+#   - Right about Portuguese, wrong about the Brazilian corpus the pack teaches
+#     from: `estar a`, the European progressive, is mostly `está a caminho` — a
+#     preposition, not a periphrasis. `ter sono` is real and almost unwritten,
+#     because Brazilians say `estar com sono`.
+#   - Wrong in shape: `fique quieto` is one imperative of one verb wearing a
+#     pattern's clothes.
+#   - Unreachable from the citation form: `vale` is a headword with an empty
+#     root column — it is both "valley" and "is worth", and the pipeline will
+#     not assert a derivation it cannot choose between — so `valer a pena`
+#     cannot catch the commonest spelling of the phrase, and `vale a pena` sits
+#     below it as a second line. That one was found by reading a text in the
+#     running app, where the underline simply was not there.
+#
+# Where a pattern has a live literal reading as well as its idiomatic one
+# (`dar para` is "to face onto" as well as "to be possible"; `tratar de` can be
+# "to be about"), the gloss carries both senses rather than the phrase being
+# dropped. A gloss that shows the reader the choice is more use than silence.
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+ter que
+ter de
+acabar de
+começar a
+parar de
+deixar de
+voltar a
+continuar a
+tratar de
+dar para
+ter a ver com
+estar de acordo
+
+# ---- ter + noun: Portuguese states where English is.
+ter razão
+ter certeza
+ter medo
+ter cuidado
+ter sorte
+ter fome
+ter pressa
+ter graça
+ter jeito
+ter saudade
+
+# ---- Other light-verb idioms.
+dar certo
+dar errado
+dar uma olhada
+dar conta
+dar em cima
+dar à luz
+fazer sentido
+fazer as pazes
+valer a pena
+vale a pena
+prestar atenção
+tomar conta
+tomar cuidado
+ficar de olho
+perder a cabeça
+calar a boca
+ir embora
+se ferrar
+
+# ---- Connectives and discourse markers.
+no entanto
+por isso
+além disso
+ou seja
+quer dizer
+na verdade
+de fato
+de qualquer forma
+de qualquer jeito
+por acaso
+afinal de contas
+apesar de
+por causa de
+a fim de
+mesmo assim
+ainda assim
+desde que
+contanto que
+para que
+já que
+uma vez que
+pelo menos
+ao menos
+mais ou menos
+
+# ---- Question words and relatives written as two tokens.
+o que
+por que
+por quê
+que tal
+
+# ---- Modality and degree.
+com certeza
+claro que sim
+claro que não
+é claro
+de verdade
+nem sequer
+nem mesmo
+de jeito nenhum
+cada vez mais
+prestes a
+o mesmo
+de acordo com
+que nem
+
+# ---- Time and manner.
+de repente
+às vezes
+de vez em quando
+de novo
+mais uma vez
+outra vez
+uma vez
+agora mesmo
+no momento
+no início
+no final
+em breve
+o tempo todo
+hoje em dia
+ao mesmo tempo
+por enquanto
+a tempo
+em frente
+em cima
+ao redor
+
+# ---- Prepositional phrases whose parts do not give the meaning away.
+graças a
+através de
+a partir de
+em vez de
+ao invés de
+
+# ---- Fixed dialogue.
+por favor
+de nada
+sinto muito
+que pena
+não importa
+tudo bem
+com licença
+meu deus
+boa sorte
+bom dia
+boa tarde
+boa noite
+até logo
+até amanhã
+até mais
+muito prazer
+não faz mal
+filho da puta
+puta que pariu
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it and a read of its sampled
+# sentences found the idiomatic reading carrying it.
+# ---- Verbal periphrases and verb + particle
+acabar por
+acabar com
+haver de
+tornar a
+pôr se a
+ir ter com
+ouvir falar
+ouvir dizer
+querer dizer
+contar com
+dar se conta
+tratar se de
+estar a fim
+não ter como
+não há como
+não poder deixar de
+não passar de
+não ver a hora
+tomara que
+quem me dera
+será que
+estar brincando
+estar a brincar
+falar sério
+deixar cair
+deixar em paz
+deixa pra lá
+deixa para lá
+deixa comigo
+pode deixar
+mandar embora
+# ---- ter + noun and estar com + noun
+ter sede
+ter ideia
+ter a certeza
+ter vontade
+ter vergonha
+ter culpa
+ter lugar
+ter pena
+ter dó
+ter calma
+nada a ver
+ter cara de
+ter uma queda
+estar com fome
+estar com sede
+estar com sono
+estar com medo
+estar com pressa
+estar com frio
+estar com raiva
+estar com saudade
+morrer de fome
+morto de
+# ---- dar
+dar um jeito
+dar uma volta
+dar um tempo
+dar o fora
+dar no pé
+dar um pulo
+dar ouvidos
+dar razão
+dar a entender
+dar as costas
+dar de ombros
+dar de cara com
+dar uma de
+dar trabalho
+dar vontade
+dar medo
+dar nojo
+dar tempo
+dar com a língua nos dentes
+dar o troco
+dar a mínima
+dar no mesmo
+dar licença
+dar ao luxo
+dar sorte
+dar azar
+dar cabo de
+dar aula
+# ---- fazer
+fazer falta
+fazer questão
+fazer de conta
+fazer mal
+fazer bem
+fazer ideia
+fazer caso
+fazer anos
+fazer as malas
+fazer a barba
+fazer uma pergunta
+fazer frio
+fazer calor
+fazer parte
+fazer careta
+fazer merda
+fazer o quê
+fazer tempo
+fazer muito tempo
+fazer de bobo
+# ---- ficar, estar
+ficar sabendo
+ficar de pé
+ficar em pé
+ficar sem
+ficar bem
+ficar à vontade
+ficar tranquilo
+fica frio
+estar de saída
+estar por fora
+estar na hora
+está na hora
+estar ferrado
+estar a par
+estar de olho
+estar nem aí
+# ---- tomar, levar, pôr, tirar, meter, botar
+tomar banho
+tomar um banho
+tomar café
+levar a cabo
+levar a mal
+levar a sério
+levar em conta
+levar jeito
+levar um tiro
+meter medo
+tirar uma foto
+tirar sarro
+tirar proveito
+tirar uma soneca
+# ---- passar, cair, sair, pegar, bater, abrir, other verbs
+passar mal
+passar a perna
+passar fome
+passar pela cabeça
+vir à tona
+vir ao caso
+cair bem
+cair na real
+cair fora
+cair no sono
+pegar no sono
+pegar fogo
+pega leve
+pegar o jeito
+bater papo
+bater palmas
+abrir mão
+abrir o jogo
+correr bem
+correr atrás
+engolir em seco
+custe o que custar
+encher o saco
+encher a cara
+pisar na bola
+perder tempo
+mudar de ideia
+chamar a atenção
+sentir falta
+voltar atrás
+ir atrás
+ir com calma
+ir à merda
+vai se foder
+se manda
+se liga
+não custa
+não adianta
+não tem jeito
+não há de quê
+não tem de quê
+nem que seja
+# ---- Connectives and discourse markers
+a propósito
+por falar nisso
+falando nisso
+de resto
+ou melhor
+antes de mais nada
+pelo contrário
+ao contrário
+em compensação
+de qualquer modo
+em todo caso
+em todo o caso
+seja como for
+mesmo que
+ainda que
+se bem que
+nem que
+por mais que
+a não ser que
+a não ser
+a menos que
+caso contrário
+assim que
+logo que
+à medida que
+ao passo que
+visto que
+posto que
+de modo que
+só que
+até porque
+além do mais
+ainda por cima
+por sua vez
+sendo assim
+pensando bem
+cá entre nós
+quanto a
+a respeito de
+acerca de
+por volta de
+por conta de
+por conta própria
+em lugar de
+à procura de
+diante de
+dentro de
+ao pé de
+# ---- Degree, modality, evaluation
+nem pensar
+nem por isso
+nem tanto
+de modo algum
+de maneira nenhuma
+de forma alguma
+sem falta
+claro que
+quem sabe
+sei lá
+pelo visto
+pelo jeito
+ao que parece
+por sinal
+já não
+até mesmo
+muito menos
+quanto mais
+menos mal
+ainda bem
+ainda bem que
+tanto faz
+mais vale
+bem feito
+de propósito
+sem querer
+de graça
+ação de graças
+a sério
+de brincadeira
+à toa
+à vontade
+à beça
+pra caramba
+pra caralho
+pra valer
+para valer
+um monte de
+um bocado
+de sobra
+de certo modo
+de certa forma
+de algum modo
+de alguma forma
+isso mesmo
+assim mesmo
+si mesmo
+por si só
+um ao outro
+uns aos outros
+um do outro
+# ---- Time
+de manhã
+à tarde
+de tarde
+à noite
+de noite
+de madrugada
+na hora
+em cima da hora
+em seguida
+daqui a pouco
+daqui a
+de agora em diante
+há pouco
+há muito tempo
+há tempos
+há anos
+há dias
+por ora
+por fim
+mais de uma vez
+de uma vez
+de uma vez por todas
+de vez
+era uma vez
+por vezes
+toda vez que
+de quando em quando
+aos poucos
+outro dia
+um dia desses
+da noite para o dia
+de antemão
+todo dia
+todo o dia
+enquanto isso
+já já
+já volto
+já vou
+já era
+desde logo
+# ---- Place and posture
+lá fora
+lá dentro
+por aqui
+por aí
+em volta
+à volta
+ao fundo
+no fundo
+pela frente
+por trás
+por cima
+por baixo
+por dentro
+por fora
+por toda parte
+em toda parte
+lugar nenhum
+para trás
+pra trás
+pra frente
+logo ali
+de pé
+em pé
+de joelhos
+de costas
+de bruços
+de lado
+de cabeça para baixo
+de pernas para o ar
+a pé
+a sós
+à solta
+à deriva
+às escondidas
+às pressas
+à tona
+em cheio
+em branco
+em jogo
+fora de si
+na cara
+cara de pau
+sangue frio
+pão duro
+café da manhã
+pequeno almoço
+sala de estar
+carteira de motorista
+# ---- People and address
+a gente
+o senhor
+a senhora
+os senhores
+todo mundo
+todo o mundo
+toda a gente
+o pessoal
+meu bem
+meu caro
+o tal
+# ---- Questions and reactions
+o quê
+para quê
+pra quê
+pra que
+como assim
+como é que
+o que é que
+o que foi
+o que houve
+o que há
+e aí
+e daí
+e se
+é o seguinte
+é isso aí
+não é mesmo
+é mesmo
+pois é
+pois não
+pois sim
+pois bem
+ora essa
+olha só
+veja só
+tá bom
+tá legal
+tudo certo
+como vai
+espera aí
+espere aí
+calma aí
+vem cá
+por nada
+graças a deus
+pelo amor de deus
+se deus quiser
+só deus sabe
+nossa senhora
+minha nossa
+que bom
+que droga
+que merda
+que diabo
+o que diabo
+que porra
+sem essa
+puta merda
+quem diria
+se calhar

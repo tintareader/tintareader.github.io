@@ -1,0 +1,589 @@
+# What each French phrase in `phrases.txt` means, in English.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain is not underlined at all, so a translation in
+# progress simply shows fewer phrases rather than showing empty ones.
+#
+# These glosses are written by hand and are not derived from any licensed
+# corpus. To translate this pack for a reader of another language, copy this
+# file to `phrases.<code>.txt` and translate the right-hand side; the patterns
+# on the left are the join key — elision spacing included — and must not change.
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+être en train de|to be (in the middle of doing)
+venir de|to have just (done something); to come from
+aller bien|to be well, to be going well
+avoir besoin de|to need
+avoir envie de|to feel like, to want
+avoir l' air|to seem, to look
+avoir l' habitude|to be used to
+être obligé de|to have to
+se mettre à|to start to
+arrêter de|to stop (doing something)
+continuer à|to keep on (doing something)
+finir par|to end up (doing something)
+il y a|there is, there are; ago
+il faut|it is necessary, one must
+il s' agit de|it is about, it is a matter of
+rendre compte|to realise
+laisser tomber|to drop it, to give up
+en aller|to go away, to leave
+en vouloir à|to hold it against (someone)
+faire semblant|to pretend
+faire attention|to pay attention, to be careful
+faire exprès|to do it on purpose
+faire gaffe|to watch out (colloquial)
+faire mal|to hurt
+valoir la peine|to be worth it
+pas la peine|no need, do not bother
+avoir du mal|to have trouble (doing something)
+faire du mal|to hurt (someone)
+prendre soin|to take care
+avoir lieu|to take place
+
+# ---- avoir + noun: French has where English is.
+avoir raison|to be right
+avoir tort|to be wrong
+avoir peur|to be afraid
+avoir faim|to be hungry
+avoir soif|to be thirsty
+avoir mal|to be in pain, to hurt
+avoir froid|to be cold
+avoir chaud|to be hot
+avoir honte|to be ashamed
+avoir de la chance|to be lucky
+
+# ---- Connectives and discourse markers.
+bien sûr|of course
+en fait|in fact, actually
+en effet|indeed
+du coup|so, as a result (colloquial)
+quand même|all the same, even so
+tout de même|all the same
+de toute façon|anyway, in any case
+en tout cas|in any case
+par contre|on the other hand
+au fait|by the way
+à propos|by the way
+c' est-à-dire|that is to say
+autrement dit|in other words
+parce que|because
+pour que|so that
+afin que|so that
+bien que|although; (after a verb) well, full well … that: tu sais bien que = you know full well that
+alors que|whereas, while
+tandis que|whereas, while
+dès que|as soon as
+tant que|as long as
+au lieu de|instead of
+à cause de|because of
+grâce à|thanks to
+plus ou moins|more or less
+au moins|at least
+du tout|at all
+pas du tout|not at all
+jusqu' à|until, up to
+jusqu' à ce que|until
+
+# ---- Modality and degree.
+tout à fait|absolutely, quite
+pas mal|not bad; quite a lot
+n' importe quoi|anything; nonsense
+n' importe qui|anyone
+n' importe où|anywhere
+quelque chose|something
+quelque part|somewhere
+tout le monde|everyone
+
+# ---- Time and manner.
+tout de suite|right away
+tout à l' heure|in a while; a while ago
+tout à coup|all of a sudden
+en ce moment|at the moment
+pour l' instant|for now
+de nouveau|again
+à nouveau|again
+encore une fois|once more
+en retard|late
+à l' heure|on time; per hour; at the time (of)
+de temps en temps|from time to time
+en même temps|at the same time
+tout le temps|all the time
+d' abord|first of all
+
+# ---- Questions.
+qu' est-ce que|what
+qu' est-ce qui|what (as the subject)
+est-ce que|(marks a yes/no question)
+n' est-ce pas|isn't it, right?
+à quoi bon|what is the point
+
+# ---- Fixed dialogue.
+s' il vous plaît|please
+s' il te plaît|please (informal)
+d' accord|all right, agreed
+de rien|you are welcome
+je t' en prie|you are welcome; please
+ça va|it is fine; how are you?
+ça y est|that is it, there we go
+bonne nuit|good night
+bonne chance|good luck
+au revoir|goodbye
+à bientôt|see you soon
+à demain|see you tomorrow
+mon dieu|my God
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it and a read of its sampled
+# sentences found the idiomatic reading carrying it.
+# ---- avoir + noun
+avoir hâte|to be eager, can't wait
+avoir beau|however much (one does), in vain
+avoir l' intention|to intend
+avoir l' impression|to have the feeling, to feel that
+avoir pitié|to take pity
+avoir horreur|to loathe
+avoir recours à|to resort to
+avoir la trouille|to be scared stiff (colloquial)
+avoir le cœur|to have the heart (to); to have a (heavy, broken) heart
+avoir l' œil|to keep an eye out; to have a good eye
+avoir de quoi|to have enough (to); to have good reason
+avoir des ennuis|to be in trouble
+avoir qu' à|to only have to (tu n'as qu'à: just ...)
+en avoir marre|to be fed up
+en avoir assez|to have had enough
+en avoir pour|to take (time); to cost
+avoir affaire|to have to deal (with)
+# ---- faire + noun and causatives
+faire peur|to frighten
+faire confiance|to trust
+faire partie|to be part (of), to belong (to)
+faire face|to face, to cope with
+faire de ? mieux|to do one's best
+faire du bien|to do good, to feel good
+faire plaisir|to please
+faire signe|to wave, to signal; to get in touch
+faire mine de|to pretend to, to make as if to
+faire le tour|to go round, to tour
+faire un tour|to go for a stroll, a spin
+faire allusion|to allude, to hint
+faire de la peine|to upset, to hurt (someone's feelings)
+faire marcher|to pull someone's leg; to make work
+faire savoir|to let know
+faire venir|to send for, to call in
+faire taire|to silence
+faire croire|to make believe, to lead to think
+faire remarquer|to point out
+faire valoir|to assert, to point out
+faire l' affaire|to do the job, to be just right
+faire du souci|to worry
+faire la cour|to court, to woo
+faire part|to announce, to inform
+faire la grasse matinée|to sleep in
+faire nuit|to be dark (il fait nuit)
+faire beau|to be fine weather
+faire froid|to be cold (weather)
+faire chaud|to be hot (weather)
+faire ? valise|to pack one's case
+faire en sorte|to make sure, to see to it
+t' en faire|to worry (ne t'en fais pas: don't worry); to make you some
+vous en faire|to worry (ne vous en faites pas: don't worry); to make of it
+ça ne fait rien|it doesn't matter, never mind
+ça fait longtemps|it's been a long time
+# ---- prendre / mettre / tenir / donner / rendre
+prendre la fuite|to flee
+prendre garde|to beware, to take care
+prendre la parole|to speak, to take the floor
+prendre l' air|to get some fresh air
+prendre congé|to take one's leave
+prendre place|to take a seat
+en prendre à|to attack, to blame (s'en prendre à)
+prendre un verre|to have a drink
+prendre dans ? bras|to take in one's arms
+y prendre|to go about it (s'y prendre)
+mettre de côté|to put aside, to save
+mettre les pieds|to set foot
+mettre la main sur|to lay hands on, to find
+se mettre à table|to sit down to eat; to confess (colloquial)
+tenir le coup|to hold out, to hang on
+tenir tête|to stand up to
+tenir bon|to hold on, to stand firm
+tenir debout|to stand up; to hold water
+tenir compte|to take into account
+tenir à|to be keen to, to care about; (se tenir à) to hold on to, to stay at
+donner raison|to agree with, to prove right
+donner sur|to look out onto
+rendre visite|to visit (someone)
+rendre service|to do a favour
+# ---- tomber / aller / venir / passer / other verbs
+tomber amoureux|to fall in love
+tomber sur|to come across, to run into; to fall on
+aller chercher|to fetch, to go and get
+aller mieux|to be better, to feel better
+aller jusqu' à|to go as far as; to go up to
+on y va|let's go; we're going (there)
+venir à bout|to overcome, to get through
+en venir à|to come to (doing), to get to the point of
+venir à l' esprit|to come to mind
+se passer|to happen; to go (well, badly)
+se passer de|to do without
+passer pour|to pass for, to be taken for
+se douter|to suspect, to guess
+se demander|to wonder
+je me demande|I wonder
+s' attendre à|to expect
+m' attendre à|to expect (je m'attendais à: I expected)
+servir de|to serve as; (se servir de) to use
+servir à|to be used for
+occuper de|to look after, to deal with (s'occuper de)
+en occuper|to take care of it (je m'en occupe)
+moquer de|to make fun of; (se moquer de) not to care about
+en tirer|to get away with it, to pull through; to get (something) out of it
+en foutre|to not give a damn (vulgar)
+en finir|to be done with it, to get it over with
+en rester là|to leave it at that
+où en être|where one is up to, where things stand
+en pouvoir plus|to be exhausted, to not be able to take any more
+en remettre|to get over it; (s'en remettre à) to leave it to, to rely on
+en revenir|to get over it (je n'en reviens pas: I can't believe it); to come back from there
+y être pour|to have (something) to do with it
+y connaître|to know about it
+y tenir|to be keen on it; to fit in there
+vouloir dire|to mean
+entendre dire|to hear (it said) that
+entendre parler|to hear about, to hear of
+on dirait|it looks like, you'd think
+dis donc|hey, say
+dites donc|hey, say
+valoir mieux|to be better (il vaut mieux: it's better to)
+mieux vaut|it's better (to)
+valoir le coup|to be worth it
+laisser faire|to let it be, to let (someone) do it
+laisser tranquille|to leave alone
+manquer de|to lack; to nearly (do)
+me manquer|to be missed by me (tu me manques: I miss you); to fail me, to be lacking
+que je sache|as far as I know
+je ne sais quoi|a certain something
+on ne peut plus|extremely; one can no longer
+perdre connaissance|to faint
+perdre la tête|to lose one's head, to go mad
+perdre ? temps|to waste one's time
+gagner ? vie|to earn one's living
+jeter un œil|to have a look
+serrer la main|to shake hands
+serrer dans ? bras|to hug
+tendre la main|to hold out one's hand
+pousser un cri|to cry out
+fondre en larmes|to burst into tears
+éclater de rire|to burst out laughing
+éclater en sanglots|to burst into sobs
+rire aux éclats|to roar with laughter
+mourir de faim|to be starving
+donner ? parole|to give one's word
+reprendre ? souffle|to get one's breath back
+se tromper|to be mistaken
+# ---- Pronominal and clitic formulas
+m' est égal|I don't mind, it's all the same to me
+ça suffit|that's enough
+il suffit de|all it takes is, you only need to
+il paraît que|apparently, it seems that
+il se trouve que|it so happens that
+il y a longtemps|a long time ago
+pas de quoi|you're welcome, don't mention it; no reason to
+il va sans dire|it goes without saying
+c' est pourquoi|that's why
+c' est pour ça|that's why
+c' est ça|that's right, that's it
+c' est bon|that's fine, that's enough
+c' est parti|here we go, off we go
+pas grave|no matter, it's nothing serious
+c' est pas vrai|no way!, I don't believe it
+ça marche|OK, deal; it works
+ça craint|that sucks (colloquial)
+ça alors|well I never, goodness
+comment ça|what do you mean?, how so?
+comment ça va|how are you?
+qu' importe|what does it matter
+que dalle|nothing at all (slang)
+ne serait-ce que|if only, even just
+# ---- Connectives and discourse markers
+sans doute|probably, no doubt
+au fond|at the back, at the bottom (of); deep down, basically
+en fin de compte|in the end, ultimately
+tout compte fait|all things considered
+à la fois|at the same time, both
+à tout prix|at all costs
+à force de|by dint of, by (doing) repeatedly
+à moins que|unless
+à moins de|unless, short of
+au cas où|in case
+de sorte que|so that
+si bien que|so that, with the result that
+aussi bien que|as well as
+d' autant plus|all the more
+d' ailleurs|besides, moreover, by the way
+en revanche|on the other hand
+par conséquent|consequently
+en outre|furthermore
+en plus|what's more, on top of that
+du moins|at least
+pour ainsi dire|so to speak
+à vrai dire|to tell the truth
+à savoir|namely
+même si|even if
+même pas|not even
+pas même|not even
+pas encore|not yet
+non plus|either, neither
+moi non plus|me neither
+pas grand-chose|not much
+pas question|no way, out of the question
+hors de question|out of the question
+tant pis|too bad, never mind
+tant mieux|so much the better, good
+tant bien que mal|somehow or other, after a fashion
+de même|likewise; (before a noun) of the same
+ainsi que|as well as; as
+de manière à|so as to
+de façon à|so as to
+au point de|to the point of
+au point que|so much that
+vu que|given that, seeing that
+lors de|during, at the time of
+avant tout|above all
+en tant que|as, in the capacity of
+en guise de|by way of
+en vue de|with a view to
+quant à|as for
+au sujet de|about, concerning
+en ce qui concerne|as far as ... is concerned
+à propos de|about, concerning
+à l' égard de|towards, regarding
+à l' insu de|without the knowledge of
+faute de|for lack of
+à défaut de|for lack of
+afin de|in order to
+de peur que|for fear that
+de crainte que|for fear that
+de peur de|for fear of
+pour peu que|if only, provided that
+sans que|without (something happening)
+si ce n' est|if not, except
+d' après|according to
+d' où|hence, from where
+d' autre part|on the other hand
+d' un côté|on the one hand
+cela dit|that said
+en passant|in passing, incidentally; while passing
+ou bien|or else, or
+eh bien|well
+ah bon|really?, oh right
+oh là là|oh dear, wow
+et alors|so what?; and then
+comme quoi|which goes to show
+comme d' habitude|as usual
+d' habitude|usually
+comme il faut|properly, proper
+et ainsi de suite|and so on
+quoi qu' il en soit|be that as it may, anyway
+quoi qu' il arrive|whatever happens
+quoi que ce soit|anything, whatever
+qui que ce soit|anyone, whoever
+coûte que coûte|at all costs
+quel que|whatever (quel que soit)
+n' importe quel|any
+n' importe quand|any time
+peu importe|no matter, never mind
+en quelque sorte|in a way, sort of
+en somme|in short, all in all
+bien entendu|of course
+bien des|many
+pour sûr|for sure
+à coup sûr|for sure
+pour de bon|for good; for real
+pour rien|for nothing; in vain
+rien que|just, merely, only
+rien du tout|nothing at all
+rien à voir|nothing to do (with it)
+rien à faire|no use; nothing to be done
+le moins du monde|in the least
+pas tout à fait|not quite
+pas vrai|right?, isn't it?; not true
+ou quoi|or what?
+y compris|including
+à part|apart from, except; aside
+loin de là|far from it
+sans compter|not to mention
+non sans|not without
+# ---- Time
+à l' instant|just now, this moment
+à la longue|in the long run
+à jamais|for ever
+de temps à autre|now and then
+à partir de|from, starting from
+dès lors|from then on; consequently
+d' avance|in advance
+de nos jours|nowadays
+à l' époque|at the time, back then
+en attendant|in the meantime; while waiting for
+au départ|at first, at the outset
+une fois que|once
+des fois|sometimes (colloquial)
+de suite|in a row; right away (colloquial)
+sur le point de|about to
+en un clin d' œil|in the blink of an eye
+de bonne heure|early
+cette nuit|tonight; last night
+du jour au lendemain|overnight
+à mesure que|as
+au bout de|after (a time); at the end of
+par la suite|subsequently, later on
+au plus vite|as soon as possible
+sans cesse|constantly
+tout d' un coup|all of a sudden
+sur le coup|at the time, instantly
+tout d' abord|first of all
+# ---- Manner and place
+à haute voix|aloud
+à voix basse|in a low voice
+à genoux|on one's knees, kneeling
+à tâtons|gropingly, feeling one's way
+à la renverse|backwards (falling)
+en hâte|in haste
+à bout de souffle|out of breath
+peu à peu|little by little
+à peu près|about, roughly
+à peine|hardly, barely; scarcely (had)
+au hasard|at random
+par hasard|by chance
+par cœur|by heart
+de travers|askew; the wrong way
+de côté|sideways; aside
+en douce|on the quiet
+à pas de loup|stealthily
+de loin|from afar; by far; (de loin en loin) now and then
+de près|closely, up close; (de près de) of nearly
+au juste|exactly
+à merveille|wonderfully
+à l' aise|at ease, comfortable
+mal à l' aise|uncomfortable, uneasy
+à bout|exhausted, at the end of one's tether
+à bout de|at the end of, out of (patience, strength)
+sens dessus dessous|upside down, in a mess
+de long en large|up and down, back and forth
+de plus en plus|more and more
+de plus belle|all the more, even harder
+à perte de vue|as far as the eye can see
+à l' improviste|unexpectedly
+à la place|instead; in the place (of)
+à ta place|if I were you
+à votre place|if I were you
+à son tour|in (his/her) turn
+à mon tour|in my turn, my turn
+à leur tour|in their turn
+tour à tour|in turn, by turns
+en face|opposite, across the way; in the face
+en haut|upstairs, at the top, up above
+en bas|downstairs, at the bottom, down below
+en avant|forward
+en arrière|back, backwards
+en route|on the way; let's go
+tout droit|straight ahead; straight, upright
+tout bas|in a whisper
+tout haut|aloud
+tout juste|only just, barely
+tout au plus|at most
+tout court|simply, full stop
+au loin|in the distance
+le long de|along
+à travers|through, across
+à l' abri|sheltered, safe
+par terre|on the ground, on the floor
+à terre|on the ground, down; ashore
+par ici|this way, around here
+par là|that way; by that
+à l' étranger|abroad
+en plein|right in (the middle of), in broad (daylight), in full
+en plein air|outdoors
+au beau milieu|right in the middle
+au grand jour|in broad daylight, out in the open
+à bord|on board
+au large|offshore, out at sea
+à deux doigts de|within an inch of
+sur la pointe des pieds|on tiptoe
+de la part de|on behalf of, from
+nulle part|nowhere
+du côté de|towards, near; on the side of
+dans le coin|around here
+dans le pétrin|in a fix
+# ---- States: être + prepositional phrase
+en vie|alive
+en colère|angry
+en forme|fit, in shape; (en forme de) shaped like
+en panne|broken down, out of order
+à la hauteur|up to it, up to the task; at the level
+au courant|aware, informed
+de retour|back
+à même de|able to
+en mesure de|in a position to
+sur ? gardes|on one's guard
+en tête|in the lead, at the head; in mind
+bon marché|cheap
+pas terrible|not great
+# ---- Fixed nouns whose parts mislead
+chemin de fer|railway
+hôtel de ville|town hall
+petit déjeuner|breakfast
+lune de miel|honeymoon
+gueule de bois|hangover
+chair de poule|goose pimples
+jeune fille|girl, young woman
+jeunes gens|young people
+bonne femme|woman (colloquial)
+femme de chambre|chambermaid
+peur bleue|terrible fright
+fou rire|fit of the giggles
+clin d' œil|wink
+coup d' œil|glance
+coup de main|helping hand
+coup de fil|phone call
+coup de foudre|love at first sight; thunderbolt
+coup de feu|gunshot
+coup de vent|gust of wind; (en coup de vent) in a rush
+# ---- Fixed dialogue and forms of address
+bon sang|damn it, good grief
+nom de dieu|damn it, good God
+mon vieux|old man, mate
+ma vieille|old girl, dear
+mon pote|mate (colloquial)
+mon cher|my dear
+ma chère|my dear
+mon petit|my dear, little one
+ma petite|my dear, little one
+mon chéri|darling
+ma chérie|darling
+ma belle|love, sweetheart
+mon gars|lad, mate
+au secours|help!
+à l' aide|help!; with the help (of)
+à l' aide de|with the help of, using
+je vous en prie|you are welcome; please
+à tout à l' heure|see you later
+à plus tard|see you later
+à la bonne heure|well done!, good
+quoi de neuf|what's new?
+sans blague|no kidding
+et voilà|there you go, there we are
+voilà tout|that's all
+ma parole|my word!
+tu parles|you bet; yeah, right (ironic); you speak
+tous les deux|both
+toutes les deux|both
+l' un l' autre|each other
+les uns les autres|one another
+l' un et l' autre|both
+ni l' un ni l' autre|neither
+un tas de|lots of
+des tas de|lots of
+quelque peu|somewhat
+pas mal de|quite a lot of

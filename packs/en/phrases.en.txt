@@ -1,0 +1,559 @@
+# What each English phrase in `phrases.txt` means, in English.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain is not underlined at all, so a translation in
+# progress simply shows fewer phrases rather than showing empty ones.
+#
+# Glossing English in English, this file keeps the pack's own convention: a
+# gloss never explains a phrase using the phrase. `give up` is "to stop trying,
+# to surrender", never "to give up".
+#
+# To translate this pack for a reader of another language, copy this file to
+# `phrases.<code>.txt` and translate the right-hand side; the patterns on the
+# left are the join key and must not change.
+
+# ---- Separable phrasal verbs: the object may sit inside the verb.
+give ? up|to stop trying; to hand over
+pick ? up|to lift, to collect; to learn without being taught
+put ? on|to dress in (clothes); to place on top of
+put ? off|to delay; to make someone lose interest
+put ? out|to extinguish (a fire, a light); to inconvenience
+take ? off|to remove (clothes); to leave the ground
+take ? over|to take control of
+take ? back|to withdraw (something said); to return (goods)
+turn ? on|to start (a machine, a light)
+turn ? off|to stop (a machine, a light)
+turn ? up|to increase (volume); to arrive, often unexpectedly
+turn ? down|to reduce (volume); to refuse (an offer)
+find ? out|to discover, to learn
+work ? out|to solve; to end well; to exercise
+figure ? out|to work through until it is understood
+sort ? out|to put right, to resolve
+look ? up|to raise one's eyes; to search for in a book or a list; to improve
+make ? up|to invent (a story); to end a quarrel; cosmetics
+bring ? up|to raise (a child); to mention (a subject)
+call ? off|to cancel
+call ? back|to telephone again
+check ? out|to look at, to investigate; to leave a hotel
+cut ? off|to disconnect, to isolate; to interrupt
+fill ? in|to complete (a form); to substitute for someone
+fill ? out|to complete (a form)
+hand ? over|to surrender, to give to someone else
+hang ? up|to end a telephone call
+let ? down|to disappoint, to fail someone
+leave ? out|to omit
+pass ? on|to hand on to someone else; to decline; to die
+point ? out|to draw attention to
+put ? away|to return to its place; to imprison
+put ? back|to return to its place; to delay
+put ? together|to assemble
+set ? up|to establish, to arrange; to trap someone falsely
+show ? off|to display in order to impress
+shut ? up|to stop talking (rude)
+take ? in|to understand, to absorb; to deceive; to shelter
+take ? out|to remove; to escort somewhere
+tell ? off|to scold
+think ? over|to consider carefully
+throw ? away|to discard; to waste (a chance)
+try ? on|to wear briefly, to see if it fits
+turn ? around|to face the other way; to reverse a decline
+wake ? up|to stop sleeping, to rouse
+write ? down|to record on paper
+knock ? out|to render unconscious; to eliminate from a contest
+break ? up|to end a relationship; to separate into pieces
+clear ? up|to tidy; to explain; (of weather) to improve
+hold ? up|to raise, to hold aloft; to delay; to rob; to support
+keep ? up|to maintain, to stay level with
+let ? in|to admit, to allow to enter
+let ? out|to let out (a sigh, a cry), to utter; to release; to make (clothes) wider
+make ? out|to see or hear with difficulty; to claim falsely
+pay ? back|to repay; to take revenge on
+run ? over|to hurry over (to); to hit with a vehicle; to overflow, to exceed a time
+
+# ---- Inseparable phrasal verbs: nothing may come between the parts.
+look for|to search for, to try to find
+look after|to care for
+look into|to investigate
+look forward to|to await with pleasure
+get over|to recover from
+get through|to survive, to finish; to reach by telephone
+get along|to have a friendly relationship
+get away with|to escape punishment for
+go through|to experience, to endure; to examine in order
+go over|to go across (to); to review, to examine
+come across|to meet or find by chance; to give an impression
+come up with|to think of, to produce (an idea)
+run into|to meet by chance; to collide with
+run out of|to have no more of
+put up with|to tolerate
+deal with|to handle, to take action about
+count on|to rely on
+depend on|to rely on; to be decided by
+stand for|to represent, to be short for; to tolerate
+take after|to resemble (a parent)
+call on|to visit; to ask someone to speak or act
+carry on|to continue
+give in|to yield, to stop resisting
+show up|to arrive; to make someone look bad
+turn into|to become
+end up|to arrive at in the end, often unintentionally
+break down|to stop working; to lose emotional control
+break into|to enter by force
+pass out|to lose consciousness
+hang on|to wait; to hold tightly
+hold on|to wait; to grip
+watch out|to be careful
+give ? away|to give without payment; to reveal (a secret)
+
+# ---- Fixed expressions the parts do not add up to.
+of course|naturally, as expected
+at least|not less than; even if nothing else
+at last|finally, after a long wait
+at all|in any way (used with a negative or a question)
+after all|in spite of what was said or expected
+as well|also, too
+as well as|in addition to
+by the way|incidentally, changing the subject
+in fact|really, to be exact
+in order to|for the purpose of
+kind of|somewhat, rather (informal); a type of
+sort of|somewhat, rather (informal); a type of
+no matter|it makes no difference (what, who, how)
+right away|immediately
+such as|for example, like
+up to|the responsibility of (it is up to you); as far as; doing (something bad)
+used to|did regularly in the past but not now
+would rather|to prefer to
+had better|ought to, would be wise to
+as if|in the way it would be if
+even though|although, in spite of the fact that
+as long as|provided that; for the whole time that
+on purpose|deliberately, not by accident
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it (≈1/M or more) and a read of
+# its sampled sentences found the idiomatic reading carrying it.
+# ---- Separable phrasal verbs
+blow ? up|to explode, to destroy with explosives; to inflate; to lose one's temper
+bring ? about|to cause to happen
+bring ? down|to cause to fall (a government, a person); to lower
+bring ? out|to make visible, to reveal; to publish
+call for|to require, to demand; to fetch someone
+carry ? out|to perform, to do (a task, an order)
+cheer ? up|to become or make happier
+drop ? off|to deliver on the way; to fall asleep
+hold ? back|to restrain; to hesitate; to keep secret
+hold ? off|to delay; to keep away
+lay ? off|to dismiss from work; to stop (annoying someone)
+lay ? out|to arrange, to spread out; to explain in detail
+mix ? up|to confuse (one thing with another)
+mess ? up|to spoil, to do badly
+pay ? off|to finish paying (a debt); to bribe; to succeed, to bring a reward
+pull ? off|to succeed in doing (something difficult); to remove by pulling
+pull ? over|to stop at the side of the road
+pull ? together|to organise; to regain self-control (pull yourself together)
+put ? down|to write; to suppress (a revolt); to kill (a sick animal); to criticise
+put ? up|to give someone a bed for the night; to build; to raise (a price, a hand)
+rule ? out|to exclude as a possibility
+see ? through|to not be deceived by; to continue to the end
+shut ? down|to close (a business); to switch off (a machine)
+sum ? up|to summarise
+take ? on|to accept (work); to employ; to fight against
+take ? up|to begin (a hobby); to occupy (space, time); to accept (an offer)
+track ? down|to find after a search
+turn ? over|to flip; to give to (the authorities)
+turn ? out|to prove to be, to happen in the end; to switch off (a light); to force out
+wear ? out|to become useless through use; to exhaust
+wind ? up|to end; to find oneself in the end; to tighten (a clock); to tease
+wrap ? up|to finish; to dress warmly; to wrap in paper
+break ? off|to end suddenly (a relationship, a talk); to snap off
+break in|to enter by force; to interrupt
+cut ? out|to remove by cutting; to stop (doing something); (of an engine) to stop
+cut ? short|to interrupt; to end early
+get ? over with|to finish (something unpleasant)
+let ? go|to release, to stop holding
+let ? know|to inform
+pass ? up|to not take (a chance)
+set ? off|to start a journey; to cause (an alarm, an explosion)
+throw ? up|to vomit; to raise quickly
+give ? a break|to leave (someone) alone; to stop criticising (give me a break)
+do ? a favour|to help as a kindness
+do ? a favor|to help as a kindness
+# ---- Inseparable and intransitive phrasal verbs
+add up|to make sense (it doesn't add up); to total
+back off|to retreat; to stop pressing
+break out|to begin suddenly (a war, a fire); to escape
+bump into|to meet by chance; to collide with
+burst into|to begin suddenly (tears, laughter, song); to enter suddenly
+burst out|to begin suddenly (laughing, crying); to exclaim
+carry away|to excite so much that self-control is lost (got carried away); to take away
+catch up|to reach someone ahead; to do what is behind
+catch up with|to reach someone ahead; to meet again after a time
+come about|to happen
+come along|to accompany; to progress; to appear
+come round|to change one's mind; to regain consciousness; to visit
+come by|to obtain; to visit briefly
+come on|hurry up! / please! / stop it!; to begin (a light, an illness)
+come over|to visit; (of a feeling) to affect suddenly
+come up|to arise, to be mentioned; to approach; to rise
+come upon|to find by chance
+do without|to manage without
+do away with|to abolish, to get rid of
+drop in|to visit informally
+dwell on|to think or talk too long about
+fall apart|to break into pieces; to lose emotional control
+fall for|to fall in love with; to be deceived by
+feel like|to want (to do or have); to seem like
+freak out|to become very upset or scared
+get at|to mean, to imply (what are you getting at); to reach
+get away|to escape; to go on holiday
+get back at|to take revenge on
+get by|to manage, to survive
+get in|to enter; to arrive
+get off|to leave (a vehicle); to escape punishment
+get on|to board (a vehicle); to have a friendly relationship; to progress
+get on with|to continue; to be friendly with
+get out|to leave, to escape; get out! (go away)
+get out of|to avoid (a duty); to leave
+get up|to rise (from bed); to stand
+give off|to emit (smell, heat)
+go about|to tackle (a task); to be busy with
+go ahead|to proceed; please do
+go along with|to agree to
+go by|to pass (time); to be guided by
+go off|to explode; to ring (an alarm); to leave; to go bad
+go on|to continue; to happen (what is going on)
+grow up|to become an adult
+hang around|to wait or stay idly
+hang out|to spend time casually
+hear of|to know about; to allow (won't hear of it)
+hold out|to extend (a hand); to last; to resist
+hold on to|to keep; to grip
+hurry up|to be quicker
+keep on|to continue
+let up|to become less intense; to stop
+live up to|to be as good as (expectations)
+look out|be careful!; to look out of (a window)
+look on|to watch without taking part
+make off|to flee
+miss out|to lose a chance
+pass away|to die (polite); (of time) to go by
+pick on|to bully, to criticise unfairly
+pull through|to recover (from illness)
+see about|to deal with, to arrange
+sell out|to sell all of; to betray principles for money
+set in|to begin and continue (bad weather, a feeling)
+set out|to begin a journey; to intend; to arrange
+set about|to begin (a task); to attack
+settle down|to become calm; to establish a stable life
+snap out of|to stop (a bad mood) suddenly
+speak up|to speak louder; to speak openly
+stand out|to be noticeable
+stand up for|to defend
+stick around|to stay
+stick to|to continue with; to not change
+trail off|to fade away (a voice)
+wait on|to serve (as a waiter or servant); to wait for
+wear off|to fade gradually (an effect)
+get to know|to become familiar with
+turn ? back on|to reject, to abandon (turn your back on)
+# ---- Light-verb and verb idioms
+make sense|to be understandable, to be logical
+make sure|to check, to ensure
+make fun of|to mock, to laugh at
+make up for|to compensate for
+make the most of|to use as well as possible
+make a fool of|to make look stupid
+make ? way|to go, to proceed (made his way); to move aside for (make way)
+make love|to have sex; (in older books) to court, to woo
+make haste|to hurry
+make it|to succeed; to arrive in time; to survive; (literally) to make something
+make up ? mind|to decide
+change ? mind|to change one's decision or opinion
+have a look|to look briefly
+have got|to have, to possess
+have to|must, to be obliged to
+have to do with|to be connected with
+nothing to do with|not connected with
+take place|to happen
+take part|to participate
+take care|to be careful; goodbye
+take care of|to look after; to deal with
+take advantage of|to use (an opportunity); to exploit (a person)
+take ? into account|to consider
+take ? for granted|to assume; to not appreciate
+take a look|to look briefly
+take hold of|to grasp
+take ? time|to not hurry
+take ? leave|to say goodbye and go
+take it easy|to relax; calm down
+take it out on|to treat someone badly because one is upset
+take aback|to surprise, to shock (taken aback)
+do ? best|to try as hard as possible
+try ? best|to try as hard as possible
+get rid of|to remove, to throw away
+get used to|to become familiar with
+get hold of|to obtain; to contact; to grasp
+get the better of|to defeat; to overcome
+get in touch|to make contact
+get lost|to lose one's way; go away! (rude)
+get on ? nerves|to annoy
+go wrong|to fail, to have a problem
+go without saying|to be obvious
+go out of ? way|to make a special effort
+give way|to collapse; to yield
+give birth|to have a baby
+give rise to|to cause
+bear in mind|to remember, to consider
+keep ? eye on|to watch carefully
+keep ? word|to do what one promised
+keep ? from|to prevent from; to hide from
+catch sight of|to see suddenly
+catch ? eye|to attract someone's attention
+catch ? breath|to rest until breathing normally
+hold ? tongue|to stay silent
+fall asleep|to begin to sleep
+fall in love|to begin to love
+fall short|to fail to reach a standard
+lose sight of|to no longer see; to forget
+lose track of|to lose count of, to no longer know about
+lose ? temper|to become angry
+lose ? head|to panic
+lose ? mind|to go mad
+pay attention|to watch or listen carefully
+run the risk|to be in danger of
+set fire to|to cause to burn
+set foot|to enter (set foot in)
+stand a chance|to have a possibility
+can't stand|to hate, to be unable to bear
+can't help|to be unable to stop oneself
+cannot help|to be unable to stop oneself
+can't wait|to be very eager
+feel sorry for|to pity
+be about to|to be going to do very soon
+be supposed to|to be expected or required to
+be bound to|to be certain to
+be going to|will (future); to be travelling to
+would like|to want (polite)
+might as well|there is no reason not to
+may as well|there is no reason not to
+ought to|should
+look like|to resemble; to seem likely
+sound like|to seem, from what one hears
+come true|to become real
+come to terms with|to accept (a difficult situation)
+come in handy|to be useful
+cross ? mind|to occur to (it crossed my mind)
+mind ? own business|to not interfere
+# ---- Connectives and discourse phrases
+as a matter of fact|actually, in reality
+to tell the truth|honestly, frankly
+mind you|however, nevertheless
+i mean|that is, rather (correcting oneself); I intend
+let alone|and certainly not
+not to mention|and also, besides
+to begin with|firstly; at first
+first of all|firstly, before anything else
+above all|most importantly
+in short|briefly, to summarise
+in other words|that is to say
+on the other hand|in contrast
+on the one hand|considering one side
+even so|nevertheless
+even if|whether or not
+or rather|more exactly
+rather than|instead of
+other than|except
+what's more|in addition
+that is to say|in other words
+as it were|so to speak, in a way
+so to speak|in a way, as it were
+at any rate|anyway; at least
+in any case|anyway, whatever happens
+in that case|if that is so
+just in case|as a precaution
+in case|as a precaution, if it happens that
+so that|in order that
+so as to|in order to
+now that|because now
+as soon as|immediately when
+as far as|to the extent that; up to (a place)
+as though|as if
+as for|concerning
+as to|concerning; (so … as to) enough to
+provided that|on condition that
+apart from|except for; in addition to
+thanks to|because of
+due to|because of
+owing to|because of
+according to|as stated by; in agreement with
+in spite of|despite
+regardless of|without considering
+instead of|in place of
+all the more|even more
+or so|approximately
+and so on|and others of that kind
+more or less|approximately, almost
+sooner or later|eventually
+nothing but|only
+next to|beside; almost (next to nothing)
+as ever|as always
+as yet|until now
+as such|in itself; in that role
+if only|expressing a strong wish
+what if|what would happen if
+what about|introducing a suggestion or a question
+how about|introducing a suggestion
+how come|why
+no sooner|immediately (no sooner … than)
+by the time|when, before
+in the least|at all (with a negative)
+none the less|nevertheless
+all the same|nevertheless; it makes no difference
+for all that|in spite of that
+with regard to|concerning
+in the face of|despite; when confronted with
+in view of|considering
+by means of|using
+on account of|because of
+on behalf of|representing, for
+in favour of|supporting; preferring
+in favor of|supporting; preferring
+in charge of|responsible for
+for the sake of|for the benefit of; for the purpose of
+for ? sake|for the benefit of (for her sake); please (for God's sake)
+on top of|in addition to; on the upper surface of
+on the verge of|very near to
+on the point of|about to
+in return|as payment or exchange
+in vain|without success
+in turn|one after another; as a result
+in time|early enough; eventually
+in the end|finally
+at the same time|simultaneously; nevertheless
+in the meantime|meanwhile
+in no time|very quickly
+in the long run|eventually
+in the first place|firstly; at all, originally
+# ---- Fixed prepositional idioms and time phrases
+at once|immediately; at the same time
+at first|in the beginning
+at times|sometimes
+at present|now
+at the moment|now
+at a loss|confused, not knowing what to do
+at heart|basically, really
+at hand|near; about to happen
+at ease|relaxed
+at stake|at risk
+at large|free, not captured; in general
+at length|for a long time; finally
+at all events|in any case
+at a time|together, in one group (one at a time)
+at ? disposal|available for someone's use
+at ? expense|paid by someone; to someone's harm
+at the expense of|with the loss of
+by heart|from memory
+by far|by a great amount
+by no means|not at all
+by all means|certainly, of course
+by and by|soon, after a while
+for good|permanently
+for once|this time only
+for the time being|for now
+for the most part|mostly
+from now on|from this time forward
+from time to time|sometimes
+all along|the whole time, from the beginning; along the whole length of
+all at once|suddenly; at the same time
+all of a sudden|suddenly
+all over|everywhere; finished
+before long|soon
+the other day|a few days ago
+now and then|sometimes
+now and again|sometimes
+every now and then|sometimes
+once in a while|sometimes
+once and for all|finally, definitively
+to and fro|backwards and forwards
+of late|recently
+on the whole|in general
+on the contrary|the opposite is true
+on earth|ever, at all (what on earth, why on earth); in the world
+on end|continuously (for hours on end); upright
+on edge|nervous
+on the spot|immediately; at the place of action
+on ? own|alone; without help
+on ? way|travelling, going somewhere; coming soon
+on ? behalf|representing someone
+on ? mind|worrying someone
+in mind|in one's thoughts
+under way|in progress
+under ? breath|in a whisper
+under the impression|believing (wrongly)
+off guard|unprepared
+out of breath|breathing hard
+out of the question|impossible
+out of ? mind|mad; very worried
+out of sorts|slightly ill or upset
+out of nowhere|suddenly, unexpectedly
+out of ? way|remote; not obstructing
+in love|feeling love (for)
+in earnest|seriously
+in the nick of time|just in time
+at the end of the day|in the end, when everything is considered
+head over heels|completely (in love); upside down
+safe and sound|unharmed
+sick and tired|very bored or annoyed
+odds and ends|small miscellaneous things
+ups and downs|good and bad times
+# ---- Colloquial and dialogue phrases
+all right|OK, acceptable; unhurt; yes, agreed
+no way|certainly not; it is impossible
+i guess|I suppose, I think
+i bet|I am sure
+you bet|certainly
+i'm afraid|I am sorry to say; I am frightened
+never mind|it does not matter; do not worry
+fair enough|that is reasonable
+big deal|something important; (ironic) that is not important
+no big deal|not important
+what the hell|expressing anger or surprise; why not
+thank god|expressing relief
+here you are|take this; you have arrived
+there you go|that is how it is; take this
+there you are|take this; I told you so
+here we go|we are starting; (resigned) it is happening again
+that's it|that is all; that is right; I have had enough
+that's that|there is nothing more to discuss
+what's up|what is happening; what is wrong
+what's the matter|what is wrong
+no kidding|really?; I am serious
+no wonder|it is not surprising
+no doubt|certainly, probably
+no longer|not now, not any more
+no use|useless (it's no use)
+no good|useless; bad
+got it|I understand; I have it
+get it|to understand; to fetch or receive it
+do you mind|would it bother you if; please stop
+if you don't mind|if it does not bother you
+come off it|I do not believe you
+you're welcome|do not thank me, it was nothing
+dare say|suppose, think probably (I dare say)
+to be sure|certainly; admittedly
+not a bit|not at all
+wait a minute|wait; expressing sudden doubt
+just a minute|wait
+# ---- Adjectival and predicate phrases
+sick of|bored and annoyed with
+tired of|bored with
+keen on|interested in, enthusiastic about
+better off|in a better situation; richer
+well off|rich
+done with|finished with
+a great deal|much, a lot
+a good deal|much, a lot
+a great many|many
+a couple of|two; a few
+all sorts of|many different

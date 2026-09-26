@@ -1,0 +1,570 @@
+# What each English phrase in `phrases.txt` means, in Indonesian.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Indonesian where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.id.txt`.
+#
+# Verbs are glossed as bare Indonesian verbs — the English `to` has no
+# counterpart to carry across.
+
+# ---- Separable phrasal verbs: the object may sit inside the verb.
+give ? up|menyerah, berhenti berusaha; menyerahkan
+pick ? up|mengangkat, menjemput; belajar tanpa diajari
+put ? on|memakai, mengenakan (pakaian); meletakkan di atas
+put ? off|menunda; membuat enggan, menghilangkan minat
+put ? out|memadamkan (api, lampu); merepotkan
+take ? off|melepas (pakaian); lepas landas
+take ? over|mengambil alih
+take ? back|menarik kembali (ucapan); mengembalikan (barang)
+turn ? on|menyalakan, menghidupkan (mesin, lampu)
+turn ? off|mematikan (mesin, lampu)
+turn ? up|mengeraskan (suara); muncul, datang tanpa diduga
+turn ? down|mengecilkan (suara); menolak (tawaran)
+find ? out|mengetahui, mencari tahu
+work ? out|memecahkan, menghitung; berakhir baik; berolahraga
+figure ? out|memikirkan sampai paham, mencari tahu
+sort ? out|membereskan, menyelesaikan
+look ? up|mendongak, mengangkat pandangan; mencari (di buku atau daftar); membaik
+make ? up|mengarang (cerita); berbaikan setelah bertengkar; riasan, kosmetik
+bring ? up|membesarkan (anak); mengangkat, menyinggung (topik)
+call ? off|membatalkan
+call ? back|menelepon kembali
+check ? out|melihat, memeriksa; keluar dari hotel
+cut ? off|memutus, mengucilkan; memotong pembicaraan
+fill ? in|mengisi (formulir); menggantikan seseorang
+fill ? out|mengisi (formulir)
+hand ? over|menyerahkan
+hang ? up|menutup telepon
+let ? down|mengecewakan
+leave ? out|melewatkan, tidak menyertakan
+pass ? on|meneruskan, menyampaikan kepada orang lain; menolak, melewatkan; meninggal dunia
+point ? out|menunjukkan, menegaskan
+put ? away|menyimpan kembali, membereskan; memenjarakan
+put ? back|mengembalikan ke tempatnya; menunda
+put ? together|merakit, menyusun
+set ? up|mendirikan, mengatur; menjebak
+show ? off|memamerkan, pamer
+shut ? up|diam, tutup mulut (kasar)
+take ? in|menyerap, mencerna (informasi); menipu; menampung
+take ? out|mengeluarkan; mengajak keluar
+tell ? off|memarahi, menegur keras
+think ? over|mempertimbangkan masak-masak
+throw ? away|membuang; menyia-nyiakan (kesempatan)
+try ? on|mencoba, mengepas (pakaian)
+turn ? around|berbalik, memutar; memulihkan keadaan yang memburuk
+wake ? up|bangun, membangunkan
+write ? down|mencatat, menuliskan
+knock ? out|membuat pingsan; menyingkirkan dari pertandingan
+break ? up|putus (hubungan); memecah menjadi bagian-bagian
+clear ? up|membereskan; menjelaskan; (cuaca) menjadi cerah
+hold ? up|mengangkat, mengacungkan; menghambat, menunda; merampok; menopang
+keep ? up|mempertahankan, mengimbangi
+let ? in|mempersilakan masuk, mengizinkan masuk
+let ? out|mengeluarkan (desahan, teriakan), mengucapkan; melepaskan; melonggarkan (pakaian)
+make ? out|melihat atau mendengar dengan susah payah; mengaku-ngaku, berdalih
+pay ? back|melunasi, membayar kembali; membalas dendam
+run ? over|bergegas ke (suatu tempat); menabrak dan melindas; meluap, melewati batas waktu
+
+# ---- Inseparable phrasal verbs: nothing may come between the parts.
+look for|mencari
+look after|menjaga, merawat
+look into|menyelidiki, menelusuri
+look forward to|menantikan dengan senang hati
+get over|pulih dari, melupakan
+get through|bertahan, menyelesaikan; berhasil menghubungi lewat telepon
+get along|akur, rukun
+get away with|lolos dari hukuman
+go through|mengalami, menjalani; memeriksa satu per satu
+go over|menyeberang, pergi ke (seberang); meninjau, memeriksa ulang
+come across|bertemu atau menemukan secara kebetulan; memberi kesan
+come up with|mencetuskan, memikirkan (ide)
+run into|bertemu secara kebetulan; menabrak
+run out of|kehabisan
+put up with|tahan terhadap, menoleransi
+deal with|menangani, mengurus
+count on|mengandalkan
+depend on|mengandalkan, bergantung pada; ditentukan oleh
+stand for|melambangkan, singkatan dari; membiarkan, menoleransi
+take after|mirip dengan (orang tua)
+call on|mengunjungi; meminta seseorang berbicara atau bertindak
+carry on|melanjutkan, meneruskan
+give in|mengalah, menyerah
+show up|muncul, datang; mempermalukan
+turn into|berubah menjadi
+end up|akhirnya menjadi, berakhir tanpa disengaja
+break down|mogok, rusak; tak kuasa menahan tangis
+break into|membobol, masuk dengan paksa
+pass out|pingsan
+hang on|tunggu dulu; berpegang erat
+hold on|tunggu sebentar; berpegangan
+watch out|hati-hati, awas
+give ? away|memberikan cuma-cuma; membocorkan (rahasia)
+
+# ---- Fixed expressions the parts do not add up to.
+of course|tentu saja, sudah pasti
+at least|sekurang-kurangnya, paling sedikit; setidaknya
+at last|akhirnya, setelah lama menunggu
+at all|sama sekali (dipakai dalam kalimat negatif atau pertanyaan)
+after all|ternyata, di luar dugaan sebelumnya
+as well|juga, pula
+as well as|selain, di samping
+by the way|omong-omong, ngomong-ngomong
+in fact|sebenarnya, malah
+in order to|untuk, agar
+kind of|agak, lumayan (informal); semacam, jenis
+sort of|agak, lumayan (informal); semacam, jenis
+no matter|tidak peduli, tak jadi soal (apa, siapa, bagaimana)
+right away|segera, langsung
+such as|seperti, misalnya
+up to|terserah (it is up to you); sampai dengan; sedang berbuat sesuatu yang tidak beres
+used to|dulu sering, dulu biasa (sekarang tidak lagi)
+would rather|lebih suka, lebih baik
+had better|sebaiknya
+as if|seolah-olah, seakan-akan
+even though|meskipun, walaupun
+as long as|asalkan; selama
+on purpose|dengan sengaja
+
+# ---- 2026-09-23 expansion
+
+# ---- Separable phrasal verbs
+blow ? up|meledak, meledakkan; memompa, menggembungkan; naik pitam, marah besar
+bring ? about|menyebabkan, mendatangkan
+bring ? down|menjatuhkan, menggulingkan (pemerintah, seseorang); menurunkan
+bring ? out|menampakkan, memunculkan; menerbitkan
+call for|memerlukan, menuntut; menjemput seseorang
+carry ? out|melaksanakan, menjalankan (tugas, perintah)
+cheer ? up|menjadi lebih gembira, menghibur
+drop ? off|mengantarkan sambil lewat; tertidur
+hold ? back|menahan, mengekang; ragu-ragu; merahasiakan
+hold ? off|menunda; menahan, menangkis
+lay ? off|memberhentikan (pekerja), mem-PHK; berhenti (mengganggu seseorang)
+lay ? out|menata, membentangkan; menjelaskan secara terperinci
+mix ? up|mencampuradukkan, keliru membedakan (satu hal dengan yang lain)
+mess ? up|mengacaukan, merusak, melakukan dengan buruk
+pay ? off|melunasi (utang); menyuap; berhasil, membuahkan hasil
+pull ? off|berhasil melakukan (sesuatu yang sulit); mencabut, menarik lepas
+pull ? over|menepi, berhenti di pinggir jalan
+pull ? together|mengatur, menghimpun; menguasai diri kembali (pull yourself together)
+put ? down|mencatat, menuliskan; menumpas (pemberontakan); menyuntik mati (hewan sakit); meremehkan, mengkritik
+put ? up|memberi tumpangan menginap; mendirikan, membangun; menaikkan (harga), mengangkat (tangan)
+rule ? out|mengesampingkan, mencoret sebagai kemungkinan
+see ? through|tidak tertipu oleh; menyelesaikan sampai tuntas
+shut ? down|menutup (usaha); mematikan (mesin)
+sum ? up|merangkum, menyimpulkan
+take ? on|menerima (pekerjaan); mempekerjakan; melawan, menghadapi
+take ? up|mulai menekuni (hobi); menyita, memakan (tempat, waktu); menerima (tawaran)
+track ? down|menemukan setelah mencari, melacak
+turn ? over|membalik; menyerahkan (kepada pihak berwajib)
+turn ? out|ternyata, akhirnya terjadi; mematikan (lampu); mengusir
+wear ? out|aus, rusak karena dipakai; membuat sangat lelah
+wind ? up|mengakhiri; akhirnya berada, ujung-ujungnya; memutar pegas (jam); menggoda, mengusili
+wrap ? up|menyelesaikan; berpakaian hangat; membungkus (dengan kertas)
+break ? off|memutuskan tiba-tiba (hubungan, pembicaraan); mematahkan
+break in|masuk dengan paksa, membobol; menyela
+cut ? out|menggunting, memotong keluar; berhenti (melakukan sesuatu); (mesin) mati mendadak
+cut ? short|menyela, memotong; mengakhiri lebih cepat
+get ? over with|menuntaskan (sesuatu yang tidak menyenangkan)
+let ? go|melepaskan, berhenti memegang
+let ? know|memberi tahu, mengabari
+pass ? up|melewatkan, menyia-nyiakan (kesempatan)
+set ? off|berangkat, memulai perjalanan; memicu (alarm, ledakan)
+throw ? up|muntah; mengangkat dengan cepat
+give ? a break|membiarkan (seseorang) tenang; berhenti mengkritik (give me a break)
+do ? a favour|menolong sebagai kebaikan
+do ? a favor|menolong sebagai kebaikan
+
+# ---- Inseparable and intransitive phrasal verbs
+add up|masuk akal (it doesn't add up); berjumlah, menjumlahkan
+back off|mundur; berhenti mendesak
+break out|pecah, terjadi tiba-tiba (perang, kebakaran); kabur, meloloskan diri
+bump into|bertemu secara kebetulan; menabrak, bertabrakan dengan
+burst into|tiba-tiba mulai (menangis, tertawa, bernyanyi); menerobos masuk
+burst out|tiba-tiba mulai (tertawa, menangis); berseru
+carry away|terbawa perasaan hingga lupa diri (got carried away); membawa pergi
+catch up|menyusul orang di depan; mengejar ketertinggalan
+catch up with|menyusul orang di depan; bertemu kembali setelah sekian lama
+come about|terjadi
+come along|ikut, menemani; berkembang, mengalami kemajuan; muncul
+come round|berubah pikiran; siuman, sadar kembali; berkunjung
+come by|mendapatkan, memperoleh; mampir sebentar
+come on|ayo cepat! / ayolah! / sudahlah!; mulai menyala, mulai terasa (lampu, penyakit)
+come over|berkunjung, datang ke rumah; (perasaan) tiba-tiba melanda
+come up|muncul, disinggung; mendekat; terbit, naik
+come upon|menemukan secara kebetulan
+do without|bisa bertahan tanpa
+do away with|menghapuskan, menyingkirkan
+drop in|mampir, singgah
+dwell on|terlalu lama memikirkan atau membicarakan
+fall apart|hancur berantakan; kehilangan kendali emosi
+fall for|jatuh cinta pada; tertipu oleh
+feel like|ingin (melakukan atau memiliki); terasa seperti
+freak out|panik, sangat kesal atau ketakutan
+get at|bermaksud, menyiratkan (what are you getting at); mencapai, menjangkau
+get away|kabur, meloloskan diri; pergi berlibur
+get back at|membalas dendam pada
+get by|bertahan hidup, pas-pasan
+get in|masuk; tiba
+get off|turun (dari kendaraan); lolos dari hukuman
+get on|naik (kendaraan); akrab, rukun; mengalami kemajuan
+get on with|melanjutkan; akrab dengan
+get out|keluar, melarikan diri; keluar! (pergi sana)
+get out of|menghindari (kewajiban); keluar dari
+get up|bangun (dari tempat tidur); berdiri
+give off|mengeluarkan, memancarkan (bau, panas)
+go about|menangani, mengerjakan (tugas); sibuk dengan
+go ahead|melanjutkan, jalan terus; silakan
+go along with|menyetujui, ikut saja
+go by|berlalu (waktu); berpedoman pada
+go off|meledak; berbunyi (alarm); pergi; basi, busuk
+go on|terus, berlanjut; terjadi (what is going on)
+grow up|tumbuh dewasa
+hang around|menunggu atau berdiam tanpa tujuan, nongkrong
+hang out|bersantai, menghabiskan waktu bersama
+hear of|pernah mendengar tentang; mengizinkan (won't hear of it)
+hold out|mengulurkan (tangan); bertahan, cukup; melawan, tidak menyerah
+hold on to|menyimpan, mempertahankan; berpegangan pada
+hurry up|bergegas, lebih cepat
+keep on|terus, tetap melakukan
+let up|mereda; berhenti
+live up to|memenuhi (harapan), sebaik yang diharapkan
+look out|awas!, hati-hati!; menghadap ke luar (jendela)
+look on|menonton tanpa ikut campur
+make off|kabur, melarikan diri
+miss out|melewatkan kesempatan
+pass away|meninggal dunia (sopan); (waktu) berlalu
+pick on|merundung, mengkritik secara tidak adil
+pull through|pulih, sembuh (dari penyakit)
+see about|mengurus, mengatur
+sell out|terjual habis, menjual habis; mengkhianati prinsip demi uang
+set in|mulai dan berlanjut (cuaca buruk, suatu perasaan)
+set out|berangkat, memulai perjalanan; berniat; menata, memaparkan
+set about|mulai mengerjakan (tugas); menyerang
+settle down|menjadi tenang; hidup mapan
+snap out of|tiba-tiba lepas dari (suasana hati buruk)
+speak up|berbicara lebih keras; berbicara terus terang
+stand out|menonjol, mencolok
+stand up for|membela
+stick around|tetap tinggal, tidak pergi
+stick to|tetap berpegang pada; tidak berubah
+trail off|melemah, memudar perlahan (suara)
+wait on|melayani (sebagai pelayan); menunggu
+wear off|berangsur hilang (efek)
+get to know|mulai mengenal, menjadi akrab dengan
+turn ? back on|menolak, meninggalkan (turn your back on)
+
+# ---- Light-verb and verb idioms
+make sense|dapat dimengerti, masuk akal
+make sure|memeriksa, memastikan
+make fun of|mengejek, menertawakan
+make up for|menebus, mengganti
+make the most of|memanfaatkan sebaik-baiknya
+make a fool of|mempermalukan, membuat tampak bodoh
+make ? way|pergi, menuju (made his way); menyingkir, memberi jalan (make way)
+make love|bercinta, berhubungan seks; (dalam buku lama) merayu, meminang
+make haste|bergegas
+make it|berhasil; tiba tepat waktu; selamat, bertahan hidup; (harfiah) membuat sesuatu
+make up ? mind|memutuskan
+change ? mind|berubah pikiran, mengubah keputusan
+have a look|melihat sebentar
+have got|punya, memiliki
+have to|harus, wajib
+have to do with|berkaitan dengan
+nothing to do with|tidak ada hubungannya dengan
+take place|terjadi, berlangsung
+take part|ikut serta, berpartisipasi
+take care|berhati-hati; sampai jumpa
+take care of|merawat, menjaga; mengurus
+take advantage of|memanfaatkan (kesempatan); memanfaatkan, memperalat (orang)
+take ? into account|mempertimbangkan, memperhitungkan
+take ? for granted|menganggap sudah semestinya; tidak menghargai
+take a look|melihat sebentar
+take hold of|memegang, menggenggam
+take ? time|tidak terburu-buru
+take ? leave|berpamitan lalu pergi
+take it easy|bersantai; tenanglah
+take it out on|melampiaskan kekesalan pada seseorang
+take aback|mengejutkan, membuat tercengang (taken aback)
+do ? best|berusaha sekuat tenaga
+try ? best|berusaha sekuat tenaga
+get rid of|menyingkirkan, membuang
+get used to|terbiasa dengan
+get hold of|mendapatkan; menghubungi; memegang
+get the better of|mengalahkan; menguasai
+get in touch|menghubungi
+get lost|tersesat; pergi sana! (kasar)
+get on ? nerves|menjengkelkan
+go wrong|gagal, bermasalah
+go without saying|sudah jelas dengan sendirinya
+go out of ? way|bersusah payah, berusaha secara khusus
+give way|runtuh, ambruk; mengalah, memberi jalan
+give birth|melahirkan
+give rise to|menimbulkan, menyebabkan
+bear in mind|mengingat, mempertimbangkan
+keep ? eye on|mengawasi dengan saksama
+keep ? word|menepati janji
+keep ? from|mencegah dari; menyembunyikan dari
+catch sight of|tiba-tiba melihat
+catch ? eye|menarik perhatian seseorang
+catch ? breath|mengatur napas, beristirahat hingga napas normal
+hold ? tongue|diam, menahan lidah
+fall asleep|tertidur
+fall in love|jatuh cinta
+fall short|tidak memenuhi standar
+lose sight of|tidak lagi melihat; melupakan
+lose track of|lupa hitungan, tidak lagi tahu tentang
+lose ? temper|naik darah, marah
+lose ? head|panik, hilang akal
+lose ? mind|menjadi gila
+pay attention|memperhatikan, menyimak
+run the risk|berisiko, menghadapi bahaya
+set fire to|membakar
+set foot|menginjakkan kaki (set foot in)
+stand a chance|punya peluang
+can't stand|benci, tidak tahan
+can't help|tidak bisa menahan diri
+cannot help|tidak bisa menahan diri
+can't wait|tidak sabar, sangat ingin
+feel sorry for|kasihan pada
+be about to|hendak, akan segera
+be supposed to|seharusnya, diharapkan
+be bound to|pasti akan
+be going to|akan (masa depan); sedang dalam perjalanan ke
+would like|ingin, mau (sopan)
+might as well|sebaiknya sekalian, tidak ada salahnya
+may as well|sebaiknya sekalian, tidak ada salahnya
+ought to|seharusnya, sebaiknya
+look like|mirip; tampaknya akan
+sound like|kedengarannya
+come true|menjadi kenyataan, terwujud
+come to terms with|menerima (keadaan sulit)
+come in handy|berguna
+cross ? mind|terlintas di pikiran (it crossed my mind)
+mind ? own business|tidak ikut campur, urus urusan sendiri
+
+# ---- Connectives and discourse phrases
+as a matter of fact|sebenarnya, sesungguhnya
+to tell the truth|terus terang, sejujurnya
+mind you|namun, meskipun begitu
+i mean|maksudnya, maksud saya (meralat diri); saya bermaksud
+let alone|apalagi, apa lagi
+not to mention|belum lagi, selain itu
+to begin with|pertama-tama; pada awalnya
+first of all|pertama-tama, sebelum yang lain
+above all|terutama, yang terpenting
+in short|singkatnya, ringkasnya
+in other words|dengan kata lain
+on the other hand|di sisi lain, sebaliknya
+on the one hand|di satu sisi
+even so|meskipun demikian
+even if|sekalipun, biarpun
+or rather|lebih tepatnya
+rather than|daripada, alih-alih
+other than|selain, kecuali
+what's more|lagi pula, terlebih lagi
+that is to say|dengan kata lain, yakni
+as it were|boleh dikatakan, seolah-olah
+so to speak|boleh dikatakan, bisa dibilang
+at any rate|bagaimanapun juga; setidaknya
+in any case|bagaimanapun, apa pun yang terjadi
+in that case|kalau begitu
+just in case|untuk berjaga-jaga
+in case|untuk berjaga-jaga, kalau-kalau
+so that|supaya, agar
+so as to|untuk, agar
+now that|karena sekarang, mengingat sekarang
+as soon as|begitu, segera setelah
+as far as|sejauh; sampai (suatu tempat)
+as though|seolah-olah, seakan-akan
+as for|mengenai, adapun
+as to|mengenai; (so … as to) sampai-sampai
+provided that|asalkan, dengan syarat
+apart from|kecuali; selain, di samping
+thanks to|berkat
+due to|karena, disebabkan oleh
+owing to|karena, disebabkan oleh
+according to|menurut; sesuai dengan
+in spite of|meskipun, walaupun
+regardless of|tanpa memandang, terlepas dari
+instead of|alih-alih, sebagai ganti
+all the more|semakin, terlebih lagi
+or so|kira-kira, sekitar
+and so on|dan seterusnya, dan sebagainya
+more or less|kurang lebih, hampir
+sooner or later|cepat atau lambat
+nothing but|hanya, semata-mata
+next to|di sebelah, di samping; hampir (next to nothing)
+as ever|seperti biasa
+as yet|sampai sekarang, hingga kini
+as such|pada dasarnya, itu sendiri; dalam kapasitas itu
+if only|seandainya saja, andai saja
+what if|bagaimana jika
+what about|bagaimana dengan (mengajukan usul atau pertanyaan)
+how about|bagaimana kalau (mengajukan usul)
+how come|kenapa, mengapa
+no sooner|begitu, baru saja (no sooner … than)
+by the time|ketika, sebelum
+in the least|sama sekali (dengan kalimat negatif)
+none the less|meskipun demikian, namun
+all the same|meskipun demikian; sama saja
+for all that|kendati begitu, meskipun demikian
+with regard to|mengenai, berkenaan dengan
+in the face of|meskipun menghadapi; ketika berhadapan dengan
+in view of|mengingat, memandang
+by means of|dengan menggunakan, melalui
+on account of|karena, disebabkan oleh
+on behalf of|atas nama, mewakili
+in favour of|mendukung; lebih memilih
+in favor of|mendukung; lebih memilih
+in charge of|bertanggung jawab atas
+for the sake of|demi kebaikan; demi tujuan
+for ? sake|demi (for her sake); tolonglah (for God's sake)
+on top of|selain, di samping itu; di atas
+on the verge of|di ambang, hampir
+on the point of|hampir, hendak
+in return|sebagai balasan, sebagai imbalan
+in vain|sia-sia
+in turn|secara bergiliran; pada gilirannya
+in time|tepat waktu, cukup awal; lama-kelamaan
+in the end|akhirnya, pada akhirnya
+at the same time|pada waktu yang sama; namun demikian
+in the meantime|sementara itu
+in no time|dalam sekejap
+in the long run|dalam jangka panjang
+in the first place|pertama-tama; sejak awal, semula
+
+# ---- Fixed prepositional idioms and time phrases
+at once|segera, seketika; sekaligus, bersamaan
+at first|mula-mula, pada awalnya
+at times|kadang-kadang
+at present|saat ini, sekarang
+at the moment|saat ini, sekarang
+at a loss|bingung, tidak tahu harus berbuat apa
+at heart|pada dasarnya, sebenarnya
+at hand|dekat, di dekat; sudah dekat, akan segera terjadi
+at ease|santai, tenang
+at stake|dipertaruhkan
+at large|bebas, belum tertangkap; secara umum
+at length|panjang lebar, lama; akhirnya
+at all events|bagaimanapun juga
+at a time|sekaligus, dalam satu kelompok (one at a time)
+at ? disposal|tersedia untuk dipakai seseorang
+at ? expense|atas biaya seseorang; dengan merugikan seseorang
+at the expense of|dengan mengorbankan
+by heart|di luar kepala, hafal
+by far|jauh, sejauh ini
+by no means|sama sekali tidak
+by all means|tentu saja, silakan
+by and by|sebentar lagi, lambat laun
+for good|untuk selamanya
+for once|sekali ini saja
+for the time being|untuk sementara
+for the most part|sebagian besar
+from now on|mulai sekarang
+from time to time|kadang-kadang, sesekali
+all along|sejak awal, selama ini; di sepanjang
+all at once|tiba-tiba; sekaligus, bersamaan
+all of a sudden|tiba-tiba
+all over|di mana-mana; selesai, berakhir
+before long|tidak lama lagi, segera
+the other day|beberapa hari yang lalu
+now and then|kadang-kadang
+now and again|kadang-kadang
+every now and then|sesekali, kadang-kadang
+once in a while|sesekali, sekali-sekali
+once and for all|untuk terakhir kalinya, secara tuntas
+to and fro|mondar-mandir, bolak-balik
+of late|akhir-akhir ini
+on the whole|secara keseluruhan, pada umumnya
+on the contrary|sebaliknya
+on earth|gerangan, sebenarnya (what on earth, why on earth); di dunia
+on end|terus-menerus (for hours on end); tegak
+on edge|gelisah, tegang
+on the spot|saat itu juga; di tempat kejadian
+on ? own|sendirian; tanpa bantuan
+on ? way|dalam perjalanan; segera datang
+on ? behalf|atas nama seseorang, mewakili
+on ? mind|mengganggu pikiran seseorang
+in mind|dalam pikiran
+under way|sedang berlangsung
+under ? breath|berbisik, dengan suara pelan
+under the impression|mengira (secara keliru)
+off guard|lengah, tidak siap
+out of breath|terengah-engah
+out of the question|mustahil, tidak mungkin
+out of ? mind|gila; sangat cemas
+out of sorts|kurang enak badan atau kesal
+out of nowhere|tiba-tiba, tak terduga
+out of ? way|terpencil; tidak menghalangi
+in love|sedang jatuh cinta (pada)
+in earnest|dengan sungguh-sungguh
+in the nick of time|tepat pada waktunya
+at the end of the day|pada akhirnya, bila semua dipertimbangkan
+head over heels|sepenuhnya, mabuk kepayang (jatuh cinta); jungkir balik
+safe and sound|selamat tanpa cedera
+sick and tired|sangat bosan atau jengkel
+odds and ends|barang-barang kecil yang serba-serbi, pernak-pernik
+ups and downs|pasang surut, suka duka
+
+# ---- Colloquial and dialogue phrases
+all right|oke, boleh juga; tidak apa-apa, tidak terluka; ya, setuju
+no way|tidak mungkin, sama sekali tidak; mustahil
+i guess|saya kira, saya rasa
+i bet|saya yakin
+you bet|tentu saja
+i'm afraid|sayangnya, mohon maaf; saya takut
+never mind|tidak apa-apa, tidak masalah; jangan khawatir
+fair enough|masuk akal, wajar
+big deal|hal penting; (ironis) apa hebatnya
+no big deal|bukan masalah besar
+what the hell|mengungkapkan marah atau heran; masa bodoh, kenapa tidak
+thank god|syukurlah
+here you are|ini, silakan; kamu sudah sampai
+there you go|begitulah; ini, silakan
+there you are|ini, silakan; sudah saya bilang
+here we go|kita mulai; (pasrah) terjadi lagi
+that's it|sudah, itu saja; betul, itu dia; cukup sudah
+that's that|tidak ada lagi yang perlu dibahas
+what's up|ada apa, apa kabar; ada masalah apa
+what's the matter|ada apa, ada masalah apa
+no kidding|masa?, sungguh?; saya serius
+no wonder|pantas saja, tidak heran
+no doubt|pasti, tentu, mungkin sekali
+no longer|tidak lagi
+no use|percuma, tidak ada gunanya (it's no use)
+no good|tidak berguna; buruk
+got it|mengerti, paham; sudah dapat
+get it|mengerti; mengambil atau menerimanya
+do you mind|apakah keberatan jika; tolong hentikan
+if you don't mind|kalau tidak keberatan
+come off it|jangan bohong, saya tidak percaya
+you're welcome|sama-sama, kembali
+dare say|kira-kira, rasanya mungkin (I dare say)
+to be sure|tentu saja; memang, harus diakui
+not a bit|sama sekali tidak
+wait a minute|tunggu; tunggu dulu (tiba-tiba ragu)
+just a minute|tunggu sebentar
+
+# ---- Adjectival and predicate phrases
+sick of|muak, bosan dengan
+tired of|bosan dengan
+keen on|tertarik pada, gemar
+better off|lebih baik keadaannya; lebih kaya
+well off|kaya, berada
+done with|selesai dengan
+a great deal|banyak, sangat
+a good deal|banyak, sangat
+a great many|sangat banyak
+a couple of|dua; beberapa
+all sorts of|berbagai macam
