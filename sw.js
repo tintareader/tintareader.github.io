@@ -58,7 +58,7 @@
 /* global self, caches, fetch, Request, URL */
 
 /** Replaced at build time: `{ version: string, precache: string[] }`. */
-const BUILD = {"version":"7897a36b5910","precache":["/assets/index-BCBOes_u.js","/assets/index-c9Ow_fvp.css","/assets/webview-DdrTtpSE.js","/assets/window-DI7EGxjt.js","/icon.svg","/icons/apple-touch-icon.png","/icons/icon-192.png","/icons/icon-512.png","/icons/maskable-512.png","/index.html","/manifest.webmanifest"]};
+const BUILD = {"version":"d92d7c662116","precache":["/assets/index-CpjL5Ztw.js","/assets/index-c9Ow_fvp.css","/assets/webview-CAYf3ZKV.js","/assets/window-CGcHDSdg.js","/icon.svg","/icons/apple-touch-icon.png","/icons/icon-192.png","/icons/icon-512.png","/icons/maskable-512.png","/index.html","/manifest.webmanifest"]};
 
 const PREFIX = "tinta-";
 const SHELL = `${PREFIX}shell-${BUILD.version}`;
