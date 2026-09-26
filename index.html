@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39;; img-src &#39;self&#39; data: blob:; font-src &#39;self&#39; data:; connect-src &#39;self&#39; https://packs.tintareader.com https://api.anthropic.com https://api.openai.com https://generativelanguage.googleapis.com; worker-src &#39;self&#39;; manifest-src &#39;self&#39;; object-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;">
+
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <!--
@@ -9,9 +11,17 @@
       of the bar above the page, one per palette. `platform/theme.ts` rewrites
       both theme-colors to the palette showing once the saved choice is known.
       The service worker is registered from `platform/offline.ts`.
+
+      iOS names a Home Screen icon from `apple-mobile-web-app-title`, not the
+      manifest's short_name, and without it offers the whole <title>. There is
+      deliberately no `apple-mobile-web-app-status-bar-style`: the only value
+      that lets the page run under the status bar, `black-translucent`, also
+      makes the clock white, which disappears on the light palette. Left out,
+      iOS gives the bar its own background above the safe-area inset.
     -->
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Tinta" />
     <meta name="theme-color" content="#101318" media="(prefers-color-scheme: dark)" />
     <meta name="theme-color" content="#f6f7f4" media="(prefers-color-scheme: light)" />
     <!--
@@ -29,7 +39,7 @@
     <title>Tinta Reader: read in the language you are learning</title>
     <meta
       name="description"
-      content="Paste a text in the language you are learning and see which words you know. Every word is coloured by how common it is and whether you know it, with a gloss on the one you pick. Indonesian, Spanish, Portuguese, French, Mandarin and English."
+      content="Read in Spanish, French, Portuguese, Indonesian, Mandarin or English: paste a text, see which words you know, and tap any word for its meaning. Free, in your browser."
     />
     <!--
       The link preview: what a chat app or a social site shows when someone
@@ -68,8 +78,8 @@
         #boot { color: #5e676f; }
       }
     </style>
-    <script type="module" crossorigin src="/assets/index-B49iTevC.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BEdxB35U.css">
+    <script type="module" crossorigin src="/assets/index-CJNdEWjL.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BsBW2mSU.css">
   </head>
 
   <body>

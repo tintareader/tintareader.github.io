@@ -1,0 +1,134 @@
+NOTICE
+======
+
+This application bundles word-frequency, lemmatisation and pronunciation data
+derived from third-party sources. Those data files carry share-alike licences;
+the application code does not.
+
+These upstream sources do not all use the same licence and two of them are
+mutually incompatible, so their derivatives are kept in separate files.
+Each data file below carries the licence of the source or sources it derives
+from, and files under incompatible licences are never merged.
+
+The data ships as language packs — plain text files under app/public/packs/,
+one directory per language, fetched by the application at runtime rather than
+compiled into it. Each pack's pack.json names its files and states the licence
+of each, and each file repeats its attribution in a `#` header so that the
+licence travels with the file if it is redistributed on its own.
+
+
+1. Frequency and band data — CC BY-SA 4.0
+-----------------------------------------
+
+Files:  app/public/packs/*/ranks.txt
+
+Derived from:
+  hermitdave/FrequencyWords — https://github.com/hermitdave/FrequencyWords
+  Word frequency lists compiled from OpenSubtitles subtitle corpora.
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International
+  (CC BY-SA 4.0) — https://creativecommons.org/licenses/by-sa/4.0/
+
+  Underlying corpus: OpenSubtitles — https://www.opensubtitles.org/
+
+The English pack's ranks draw on one further measurement of the same underlying
+corpus, in app/tools/dictgen/corrections/en.contractions.txt:
+
+  OPUS OpenSubtitles v2018 — https://opus.nlpl.eu/OpenSubtitles-v2018.php
+  P. Lison and J. Tiedemann (2016), "OpenSubtitles2016: Extracting Large
+  Parallel Corpora from Movie and TV Subtitles", LREC 2016.
+
+hermitdave's tokeniser splits on the apostrophe, so its lists have no row for
+`it's` or `I'm` — only for `it`, `I` and `'s`. Contraction counts were therefore
+measured directly from OPUS's raw text and are used to divide each clitic's
+existing count among the words that make it up. What is stored is the counts, a
+measurement of a freely redistributable corpus, and they are combined with a
+CC BY-SA source; the resulting file stays CC BY-SA 4.0 with both credited.
+
+These files are themselves licensed CC BY-SA 4.0.
+
+The frequency band shown for a word is a bucketed corpus rank, and so is
+derived from this source — but it is computed from ranks.txt when a pack is
+loaded rather than stored in dict.txt. That keeps this licence inside the file
+it belongs to instead of reaching across the glosses, which are not derived
+from it. Where dict.txt still states a band, the word has no corpus rank and
+the band is a judgement rather than a derivative.
+
+This applies to every pack, the Indonesian one (app/public/packs/id/) included.
+Its bands were derived from this same source before this NOTICE existed and were
+previously unattributed; this file corrects that. It reached the repository by a
+different route from the rest — written by hand, not generated — but tools/dictgen
+now emits it too, from its own files rather than from a re-fetched list.
+
+
+2. Lemmatisation data — ODbL 1.0
+--------------------------------
+
+Files:  app/public/packs/*/lemmas.txt
+
+Derived from:
+  michmech/lemmatization-lists —
+    https://github.com/michmech/lemmatization-lists
+  Lemma/token pairs collected from Hunspell dictionaries and related sources.
+  Licensed under the Open Database License (ODbL) v1.0 —
+  https://opendatacommons.org/licenses/odbl/1-0/
+
+These files are themselves licensed ODbL 1.0.
+
+
+3. Pronunciation and spelling data, Mandarin — CC BY-SA 4.0
+-----------------------------------------------------------
+
+Files:  app/public/packs/zh/readings.txt
+        app/public/packs/zh/variants.txt
+
+Derived from:
+  CC-CEDICT — https://cc-cedict.org/
+  A Chinese-English dictionary providing pinyin readings for Chinese words.
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International
+  (CC BY-SA 4.0) — https://creativecommons.org/licenses/by-sa/4.0/
+
+Both files are themselves licensed CC BY-SA 4.0. Only the pinyin readings and
+the traditional-spelling column are taken from CC-CEDICT; its English
+definitions are not used, and the glosses in app/public/packs/zh/gloss.en.txt
+are generated independently as described in section 5.
+
+variants.txt states how each headword of the Mandarin pack is written in
+traditional characters, so that a text in traditional characters can be read
+against the same dictionary. Its content is the traditional column of
+CC-CEDICT, selected per headword, and it is kept in a file of its own rather
+than folded into the pack skeleton so that the share-alike licence does not
+reach the unencumbered files beside it. Which spelling is chosen where
+CC-CEDICT offers several is decided by scoring against this project's own
+glosses; that selection is this project's work, but the spellings themselves
+are not, so the whole file carries the upstream licence.
+
+CC-CEDICT is also used at build time to map traditional spellings onto their
+simplified equivalents, which affects which words appear in the Mandarin pack
+and their frequency ranks. app/public/packs/zh/ranks.txt is therefore a derivative of
+both this source and the source in section 1; both are CC BY-SA 4.0, so the two
+are compatible and may share a file.
+
+
+4. Glosses — not derived from any of the above sources
+------------------------------------------------------
+
+Files:  app/public/packs/*/gloss.*.txt
+        app/public/packs/*/lex.txt
+        app/public/packs/*/phrases.txt
+        app/public/packs/*/phrases.*.txt
+
+The glosses are generated at build time by a large language model, from the word
+list alone. They are not copied or translated from any licensed dictionary or
+corpus, and are not subject to the licences above. The phrase lists and their
+glosses are written by hand for this project, from the same starting point.
+
+lex.txt is listed here because it holds no meanings and no ranks: it is the
+word list and its morphology, which is this project's own arrangement of its
+own output.
+
+
+5. Application code
+-------------------
+
+Everything outside app/public/packs/ is the application's own code and is not
+affected by the licences above.

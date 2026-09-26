@@ -1,6 +1,6 @@
 {
   "id": "pt",
-  "version": "1.1.27",
+  "version": "1.1.28",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -20,7 +20,7 @@
     "lemmas": {
       "path": "lemmas.txt",
       "license": "ODbL-1.0",
-      "sha256": "a7993fb3e40535b0981a77bd44fa5cd10ce5ffaae665b143382d43f146ef04fe"
+      "sha256": "37fa15f6a66c7f685d4415980ddf9c7b04049d6545fdf93bb8b97e037898a1d0"
     },
     "sample": {
       "path": "sample.txt",

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      What GitHub Pages serves for a path the site does not have. Standalone on
+      purpose — no bundle, no worker, nothing that can itself be missing — and
+      every URL absolute, since it answers at any depth. The colours are the
+      two palettes' ground and text, as in index.html.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <title>Page not found · Tinta Reader</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #101318; color: #dde2e8; }
+      body {
+        display: flex; align-items: center; justify-content: center;
+        font: 16px/1.6 system-ui, -apple-system, sans-serif; padding: 0 16px;
+      }
+      main { max-width: 26rem; text-align: center; }
+      img { width: 64px; height: 64px; }
+      h1 { font-size: 1.4rem; margin: 16px 0 8px; }
+      p { margin: 0 0 24px; color: #8994a3; }
+      a {
+        display: inline-block; padding: 10px 20px; border-radius: 8px;
+        background: #dde2e8; color: #101318; text-decoration: none; font-weight: 600;
+      }
+      a:focus-visible { outline: 2px solid #8994a3; outline-offset: 3px; }
+      @media (prefers-color-scheme: light) {
+        html, body { background: #f6f7f4; color: #1b1f24; }
+        p { color: #5e676f; }
+        a { background: #1b1f24; color: #f6f7f4; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="/icon.svg" alt="" />
+      <h1>There is no page here</h1>
+      <p>The link may be mistyped, or the page has moved. Tinta itself is one page, at the address below.</p>
+      <a href="/">Open Tinta</a>
+    </main>
+  </body>
+</html>

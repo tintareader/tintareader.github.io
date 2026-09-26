@@ -17,20 +17,30 @@ a { color: var(--link); overflow-wrap: anywhere; }
 code { font: .9em ui-monospace, Menlo, monospace; }
 table { border-collapse: collapse; width: 100%; font-size: .92rem; display: block; overflow-x: auto; }
 th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+h3 { font-size: 1rem; margin: 1.6rem 0 .4rem; }
+pre { font: .8rem/1.5 ui-monospace, Menlo, monospace; white-space: pre-wrap; overflow-wrap: anywhere; color: var(--dim); }
 </style>
 </head>
 <body><main>
 <h1>Tinta — Support</h1>
-<p>Tinta is a reading tool for language learners on the Mac. Paste a text in the language you are learning, and every word is coloured by how common it is and whether you know it; click a word to see what it means.</p>
+<p>Tinta is a reading tool for language learners, on the Mac and in a web browser at <a href="https://tintareader.com">https://tintareader.com</a>. Paste a text in the language you are learning, and every word is coloured by whether you know it; click a word to see what it means and how common it is.</p>
 <h2>Getting started</h2>
 <ol><li>Choose the language you are learning and the language you want explanations in. You can change both later in Settings.</li><li>A short sample opens. Click a word to see its meaning. Press <strong>k</strong> to mark it known, <strong>l</strong> for learning, <strong>i</strong> to ignore it, <strong>u</strong> to reset it.</li><li>To read your own text, open the text menu at the top left and choose <strong>New text</strong> (paste) or <strong>Open a text file…</strong> (a <code>.txt</code> file).</li></ol>
 <p>Press <strong>?</strong> in the app for every keyboard shortcut.</p>
 <h2>Questions</h2>
 <p><strong>A language is downloading, or will not load.</strong> Each language's dictionary is downloaded the first time you choose it, and needs an internet connection that once. After that it works offline. If it fails, check the connection and choose the language again.</p>
-<p><strong>My words are not there after moving from the direct download to the App Store version.</strong> The two versions keep their data separately, as macOS requires. Export your vocabulary from the old one (Stats → Export vocab…) and import it in the new one (Stats → Import vocab…).</p>
+<p><strong>My words are not there after moving from the direct download to the App Store version.</strong> The two versions keep their data separately, as macOS requires. Back up your words in the old one (Stats → Back up…) and import the file in the new one (Stats → Import…). The same works between the Mac app and the browser.</p>
 <p><strong>How do I turn on the AI features?</strong> Settings → AI: choose a provider and paste an API key from that provider. The app asks your permission before it sends anything, and says what it will send. See the privacy policy for details.</p>
-<p><strong>Where is my data?</strong> On your Mac only. The app has no account and no server.</p>
+<p><strong>Where is my data?</strong> On your device only: on your Mac in the app, or in your browser's storage for the site on the web. There is no account and no server.</p>
 <p><strong>Read aloud is silent.</strong> It uses the voices installed on your Mac. Add one for the language in System Settings → Accessibility → Spoken Content → System voice → Manage Voices.</p>
+<h2>In a web browser</h2>
+<p>The web version at <a href="https://tintareader.com">https://tintareader.com</a> is the same app. Nothing to install, no account, and it works offline once a language has been downloaded.</p>
+<p><strong>Where are my words kept?</strong> In your browser's storage for this site (IndexedDB), on that device and in that browser only. A different browser, a private window or another device starts empty.</p>
+<p><strong>Clearing site data deletes them.</strong> Clearing your browser's history or website data for tintareader.com removes your texts and marks, and some browsers clear a site's data by themselves after weeks unused. Keep a copy: Stats → Back up… saves everything to a file, and Stats → Import… brings it back, in any browser or in the Mac app. The app reminds you when there is a lot to lose.</p>
+<p><strong>Exporting words.</strong> Stats → Export words… makes a file for Anki or a spreadsheet. It is not a backup: it has no texts or settings.</p>
+<p><strong>Installing it as an app.</strong> On an iPhone or iPad, open the site in Safari, tap Share, then Add to Home Screen. In Chrome or Edge on a computer, use the install icon at the end of the address bar. It then opens in its own window and keeps working offline.</p>
+<p><strong>Read aloud sounds wrong or is silent.</strong> It uses the voices your browser and system offer, so what you hear differs from one browser to another. On an iPhone or iPad, add a voice in Settings → Accessibility → Spoken Content → Voices. Some browsers, such as Chrome, also offer online voices, which send the text being read to the browser's maker.</p>
+<p><strong>AI features in the browser.</strong> They work as in the Mac app. Your key is kept only while the tab is open unless you tick <em>Remember my key on this device</em>.</p>
 <h2>Contact</h2>
 <p><a href="mailto:james.moult@gmail.com">james.moult@gmail.com</a> — please say which version you have (Settings → About) and what you were doing when the problem happened.</p>
 </main></body>
