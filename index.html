@@ -31,6 +31,29 @@
       name="description"
       content="Paste a text in the language you are learning and see which words you know. Every word is coloured by how common it is and whether you know it, with a gloss on the one you pick. Indonesian, Spanish, Portuguese, French, Mandarin and English."
     />
+    <!--
+      The link preview: what a chat app or a social site shows when someone
+      pastes tintareader.com. Written for the person the link was *sent* to,
+      who has never heard of the app, so it says what it is before what it is
+      called, and ends on what decides a tap — free, in the browser, no
+      sign-up. The image is docs/brand/og-card.html, rendered by
+      `sh docs/brand/build-icons.sh og`; the URLs are absolute because a
+      preview is fetched by a crawler that knows no base.
+    -->
+    <link rel="canonical" href="https://tintareader.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tinta Reader" />
+    <meta property="og:url" content="https://tintareader.com/" />
+    <meta property="og:title" content="Tinta Reader: read real texts in the language you’re learning" />
+    <meta
+      property="og:description"
+      content="Paste an article, a story or a song in Spanish, French, Portuguese, Indonesian, Mandarin or English. Every word is coloured by whether you know it; tap one for its meaning. Free, in your browser, no sign-up."
+    />
+    <meta property="og:image" content="https://tintareader.com/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A Spanish sentence with the unknown words in pink, and a card under it showing come: to eat, with buttons to mark it Unknown, Learning or Known." />
+    <meta name="twitter:card" content="summary_large_image" />
     <style>
       /* The two palettes' ground and dim text, by the system's appearance:
          this paints before the bundle, so before the saved choice is known. */
@@ -45,8 +68,8 @@
         #boot { color: #5e676f; }
       }
     </style>
-    <script type="module" crossorigin src="/assets/index-ClmzLVdg.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-c9Ow_fvp.css">
+    <script type="module" crossorigin src="/assets/index-B49iTevC.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BEdxB35U.css">
   </head>
 
   <body>

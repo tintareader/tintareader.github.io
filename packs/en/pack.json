@@ -1,6 +1,6 @@
 {
   "id": "en",
-  "version": "1.0.145",
+  "version": "1.0.146",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -50,7 +50,7 @@
     "gloss.zh": {
       "path": "gloss.zh.txt",
       "license": "unencumbered",
-      "sha256": "9afccf8add7d112266ec90a11e246d59cfffcdbf707dc81b51a4bca3a78b634a"
+      "sha256": "3e2bad4e0781ee23d71ee76daa84aaa13a7cac5eb95253fe0b7aa9f5f6f40959"
     },
     "phrases.zh": {
       "path": "phrases.zh.txt",
