@@ -22,8 +22,7 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Tinta" />
-    <meta name="theme-color" content="#101318" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#f6f7f4" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#101318" />
     <!--
       `viewport-fit=cover` lets the app paint under the notch and the home
       indicator, which is what makes `env(safe-area-inset-*)` report anything
@@ -65,20 +64,16 @@
     <meta property="og:image:alt" content="A Spanish sentence with the unknown words in pink, and a card under it showing come: to eat, with buttons to mark it Unknown, Learning or Known." />
     <meta name="twitter:card" content="summary_large_image" />
     <style>
-      /* The two palettes' ground and dim text, by the system's appearance:
-         this paints before the bundle, so before the saved choice is known. */
+      /* The dark palette's ground and dim text, the default: this paints before
+         the bundle, so before a saved choice of light is known. */
       html, body { margin: 0; height: 100%; background: #101318; color: #dde2e8; }
       #boot {
         position: fixed; inset: 0; display: flex; align-items: center;
         justify-content: center; padding: 40px; text-align: center;
         font: 13px/1.6 system-ui, -apple-system, sans-serif; color: #8994a3;
       }
-      @media (prefers-color-scheme: light) {
-        html, body { background: #f6f7f4; color: #1b1f24; }
-        #boot { color: #5e676f; }
-      }
     </style>
-    <script type="module" crossorigin src="/assets/index-CJNdEWjL.js"></script>
+    <script type="module" crossorigin src="/assets/index-B84wPWtA.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BsBW2mSU.css">
   </head>
 
