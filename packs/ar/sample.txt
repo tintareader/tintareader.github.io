@@ -1,0 +1,19 @@
+# Sample text shown on first run for Arabic.
+#
+# Written for this app, in simple Modern Standard Arabic and the shape of the
+# other samples: a day in town, a short exchange, an evening letter. It leans
+# on what the Arabic provider has to get right: clitics joined on (وفاكهة,
+# فأجاب, وسيارتها, لجدته, تنتظرني), the article (السوق, المقهى), `ة` written
+# `ت` before a suffix (سيارتها, لجدته), a few optional marks (خبزًا, أولًا,
+# كثيرًا), `أن` beside `إن`, Arabic punctuation (، ؟ « »), and a digit.
+#
+# It lives here, not in a pack, until the Arabic pack has glosses and becomes
+# one: then it moves to public/packs/ar/sample.txt like every other sample.
+مثال — يوم في المدينة
+ذهب أحمد مع أخته إلى السوق في الصباح. اشترى خبزًا وفاكهة، ثم جلس في المقهى وشرب القهوة مع صديقه.
+
+قال صديقه: «هل تريد أن نلعب كرة القدم بعد الساعة ٣؟»
+
+فأجاب أحمد: «نعم، ولكن يجب أن أعود إلى البيت أولًا. أمي تنتظرني، وسيارتها في المدرسة.»
+
+في المساء كتب أحمد رسالة لجدته، وقال فيها إن المدينة جميلة وإنه يحبها كثيرًا.

@@ -112,8 +112,7 @@ These files are themselves licensed ODbL 1.0.
 3a. Lemmatisation data, Arabic — CC BY-SA 4.0
 ---------------------------------------------
 
-Files:  app/public/packs/ar/lemmas.txt (not yet shipped; built by
-        app/tools/dictgen into its cache)
+Files:  app/public/packs/ar/lemmas.txt
 
 Derived from:
   English Wiktionary — https://en.wiktionary.org/
@@ -136,8 +135,7 @@ project's own work.
 
 Pronunciation data, Arabic — CC BY-SA 4.0
 
-Files:  app/public/packs/ar/readings.txt (not yet shipped; built by
-        app/tools/dictgen into its cache)
+Files:  app/public/packs/ar/readings.txt
 
 Derived from the same Wiktionary extract, CC BY-SA 4.0: each headword written
 with its short vowels, as Wiktionary's canonical form gives it, one per
@@ -148,6 +146,21 @@ its own attribution, and from the glosses of section 4. The readings in
 app/tools/dictgen/corrections/ar.readings.txt, for words Wiktionary has no
 vowelled entry for, are this project's own work, and are shipped in the same
 file under the same licence.
+
+Word selection, Arabic — counted from the Tanzil Quran text, not shipped
+
+Which words of the Quran the Arabic pack has an entry for was decided by
+counting them in:
+
+  Tanzil Quran Text (Simple Clean, Version 1.1)
+  Copyright (C) 2007-2026 Tanzil Project — https://tanzil.net/
+  Licensed under Creative Commons Attribution 3.0
+
+The text is read at build time, verbatim and with its copyright block, only to
+count how often each word occurs; no part of it is modified, stored in this
+repository or shipped in any pack. The counts are recorded beside each word
+in app/tools/dictgen/adopted/ar.tsv. The glosses those words received are
+section 4's, generated from the word list alone.
 
 
 3. Pronunciation and spelling data, Mandarin — CC BY-SA 4.0
