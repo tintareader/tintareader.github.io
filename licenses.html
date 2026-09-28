@@ -74,6 +74,10 @@ existing count among the words that make it up. What is stored is the counts, a
 measurement of a freely redistributable corpus, and they are combined with a
 CC BY-SA source; the resulting file stays CC BY-SA 4.0 with both credited.
 
+The Arabic pack's ranks also derive from the source in section 3a, which
+decided which spellings count towards which word; both are CC BY-SA 4.0, so
+the two are compatible and may share a file, and its header credits both.
+
 These files are themselves licensed CC BY-SA 4.0.
 
 The frequency band shown for a word is a bucketed corpus rank, and so is
@@ -93,7 +97,7 @@ now emits it too, from its own files rather than from a re-fetched list.
 2. Lemmatisation data — ODbL 1.0
 --------------------------------
 
-Files:  app/public/packs/*/lemmas.txt
+Files:  app/public/packs/*/lemmas.txt, except the Arabic pack's (section 3a)
 
 Derived from:
   michmech/lemmatization-lists —
@@ -103,6 +107,47 @@ Derived from:
   https://opendatacommons.org/licenses/odbl/1-0/
 
 These files are themselves licensed ODbL 1.0.
+
+
+3a. Lemmatisation data, Arabic — CC BY-SA 4.0
+---------------------------------------------
+
+Files:  app/public/packs/ar/lemmas.txt (not yet shipped; built by
+        app/tools/dictgen into its cache)
+
+Derived from:
+  English Wiktionary — https://en.wiktionary.org/
+  via the kaikki.org machine-readable extract —
+    https://kaikki.org/dictionary/Arabic/
+  T. Ylonen (2022), &quot;Wiktextract: Wiktionary as Machine-Readable Structured
+  Data&quot;, LREC 2022.
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International
+  (CC BY-SA 4.0) — https://creativecommons.org/licenses/by-sa/4.0/
+and from the source in section 1, for which forms the corpus uses.
+
+This file is itself licensed CC BY-SA 4.0. Only Wiktionary's headwords and the
+inflected forms in its tables are used, with its diacritics removed; none of
+its definitions are. It is kept separate from ranks.txt, which carries its own
+attribution, and never shares a file with the ODbL lemma lists of section 2 or
+with the glosses of section 4.
+
+The hand decisions in app/tools/dictgen/corrections/ar.lemmas.txt are this
+project's own work.
+
+Pronunciation data, Arabic — CC BY-SA 4.0
+
+Files:  app/public/packs/ar/readings.txt (not yet shipped; built by
+        app/tools/dictgen into its cache)
+
+Derived from the same Wiktionary extract, CC BY-SA 4.0: each headword written
+with its short vowels, as Wiktionary's canonical form gives it, one per
+headword, chosen by scoring against this project's own glosses. Its
+definitions are used only for that choice and are not shipped. This file is
+itself licensed CC BY-SA 4.0, and is kept apart from lemmas.txt, which carries
+its own attribution, and from the glosses of section 4. The readings in
+app/tools/dictgen/corrections/ar.readings.txt, for words Wiktionary has no
+vowelled entry for, are this project's own work, and are shipped in the same
+file under the same licence.
 
 
 3. Pronunciation and spelling data, Mandarin — CC BY-SA 4.0
