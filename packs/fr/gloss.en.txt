@@ -123,7 +123,7 @@ juste|just, only; fair|o;o
 très|very|o
 prendre|to take; to have (food, drink)|v;v
 jamais|never; ever|o;o
-été|been; summer|o;o
+été|been (past participle of être: j'ai été); summer|o;o
 aussi|also, too|o
 même|same; even; quand même: all the same, anyway|o;o;n
 vraiment|really|o
@@ -264,7 +264,7 @@ mec|guy, bloke|o
 voiture|car|o
 gars|lad, fellow|o
 travail|work, job|o
-tête|head; face, look (faire la tête)|o;o
+tête|head; face, look (quelle tête !); faire la tête: to sulk|o;o;n
 dû|had to; owed|f3s;o
 fils|son|o
 prêt|ready; loan|o;o
@@ -377,7 +377,7 @@ donné|given|o
 est-il|is he, is it|f3s
 voici|here is, here are|o
 dont|whose, of which|o
-garçon|boy|o
+garçon|boy; waiter (garçon de café)|o;o
 sentir|to feel; to smell|v;v
 important|important|o
 madame|madam, Mrs|o
@@ -444,7 +444,7 @@ confiance|trust|o
 téléphone|telephone; I phone; he/she phones|o;f1s;f3s
 journée|day (as a span)|o
 apprendre|to learn; to teach|v;v
-seconde|second|o
+seconde|second (of time); second (f.)|o;o
 génial|brilliant, fantastic|o
 film|film, movie|o
 équipe|team|o
@@ -484,7 +484,7 @@ derrière|behind|o
 ben|well, um|o
 capitaine|captain|o
 tirer|to shoot; to pull|v;v
-foutre|to shove, to chuck; s'en foutre: not to care|v;n
+foutre|to do (vulgar: qu'est-ce que tu fous?); to put, to shove, to chuck (vulgar); s'en foutre: not to give a damn (vulgar)|v;v;n
 envie|urge, craving; avoir envie de: to want; I envy; he/she envies|o;n;f1s;f3s
 porter|to carry; to wear|v;v
 ordre|order|o
@@ -516,7 +516,7 @@ retour|return|o
 excusez-moi|excuse me|o
 raconter|to tell (a story)|v
 sérieux|serious, earnest|o
-laissé|left behind; allowed|o;o
+laissé|left, left behind; let (il m'a laissé partir)|o;o
 ainsi|thus, this way; ainsi que: as well as|o;n
 ignorer|not to know; to ignore|o;v
 autant|as much, so much|o
@@ -551,7 +551,7 @@ dollar|dollar|o
 détester|to hate|v
 sujet|subject; au sujet de: about|o;n
 verre|glass|o
-état|state, condition|o
+état|state, condition; State (nation, government)|o;o
 drôle|funny; drôle de: strange, odd|o;n
 humain|human|o
 descendre|to go down, to come down; to get off; to take down|v;v;v
@@ -981,7 +981,7 @@ survivre|to survive|v
 court|short; he/she runs|o;f3s
 robe|dress|o
 membre|member|o
-reconnaître|to recognise|v
+reconnaître|to recognise; to admit, to acknowledge|v;v
 méchant|mean, nasty|o
 directeur|director, manager|o
 diable|devil|o
@@ -1303,7 +1303,7 @@ gay|gay|o
 beauté|beauty|o
 retenir|to hold back; to remember|v;v
 contacter|to contact|v
-acte|act|o
+acte|act, deed; act (of a play); certificate, record (legal document: acte de naissance)|o;o;o
 taxi|taxi|o
 stop|stop|o
 chier|to shit|v
@@ -1441,8 +1441,8 @@ leçon|lesson|o
 faveur|favour|o
 poulet|chicken|o
 campagne|countryside; campaign|o;o
-entraîner|to train; to lead to|v;v
-examen|exam|o
+entraîner|to train; to lead to, to cause; to drag along|v;v;v
+examen|exam, test; examination, check-up (medical); review, scrutiny (of a case, a bill)|o;o;o
 regarde-moi|look at me|o
 pause|break|o
 connaissance|knowledge; acquaintance|o;o
@@ -1670,7 +1670,7 @@ insister|to insist|v
 vote|vote|o
 piéger|to trap|v
 a-t-elle|does she have; has she|f3s;f3s
-chaîne|chain; channel|o;o
+chaîne|chain; channel (TV)|o;o
 tombée|fallen (f.); à la tombée de la nuit: at nightfall|o;n
 chargé|loaded; in charge|o;o
 conscience|conscience; awareness|o;o
@@ -1806,7 +1806,7 @@ viser|to aim|v
 inquiet|worried|o
 dépenser|to spend|v
 dépêche-toi|hurry up|o
-crever|to puncture; to die|v;v
+crever|to puncture; to die (colloq.)|v;v
 amitié|friendship|o
 civil|civilian; civil|o;o
 confirmer|to confirm|v
@@ -2256,7 +2256,7 @@ robot|robot|o
 prière|prayer; prière de: please|o;n
 sensible|sensitive (not "sensible")|o
 guerrier|warrior|o
-mars|March|o
+mars|March; Mars (the planet)|o;o
 pilule|pill|o
 effrayé|frightened|o
 ordinaire|ordinary|o
@@ -2518,7 +2518,7 @@ témoignage|testimony|o
 chevalier|knight|o
 psy|shrink|o
 roue|wheel|o
-etat|state; condition|o;o
+etat|state, condition; State (nation, government)|o;o
 mondial|world, global|o
 empoisonner|to poison|v
 international|international|o
@@ -2529,7 +2529,7 @@ race|race; breed|o;o
 attitude|attitude|o
 autorisation|permission, authorisation (formal, written)|o
 élection|election|o
-dealer|dealer|o
+dealer|drug dealer|o
 golf|golf|o
 empereur|emperor|o
 aube|dawn|o
@@ -2850,7 +2850,7 @@ annulé|cancelled|o
 stratégie|strategy|o
 matinée|morning (as a span)|o
 frigo|fridge|o
-meme|same; even|o;o
+meme|same; even; quand meme: all the same, anyway|o;o;n
 défaut|flaw; par défaut: by default|o;n
 foie|liver|o
 stylo|pen|o
@@ -3100,7 +3100,7 @@ familier|familiar|o
 brigade|squad, brigade|o
 mordu|bitten|o
 faut-il|is it necessary|f3s
-homo|gay (colloquial short form)|o
+homo|gay, homosexual (colloq. short form, often pejorative)|o
 naître|to be born|v
 reporter|to postpone; reporter (a journalist)|v;o
 chauffer|to heat|v
@@ -3167,10 +3167,10 @@ four|oven|o
 musical|musical|o
 pardonne-moi|forgive me|o
 anneau|ring, hoop (a plain band)|o
-traîne|I drag; he/she drags|f1s;f3s
+traîne|I drag, I hang around; he/she drags, hangs around; train (of a dress) (nf); à la traîne: lagging behind|f1s;f3s;o;n
 arrangement|arrangement|o
 exagérer|to exaggerate|v
-voeu|wish|o
+voeu|wish; vow|o;o
 croyez-vous|do you believe (pl., formal)|f2s2p
 rappelez-vous|call to mind, remember (pl., formal)|o
 hélicoptère|helicopter|o
@@ -3242,7 +3242,7 @@ ecoute-moi|listen to me|o
 mat|matt, dull; checkmate|o;o
 inconscient|unconscious; reckless|o;o
 affecter|to affect|v
-voile|veil (nf); sail (nm)|o;o
+voile|veil (nm); sail (nf)|o;o
 assuré|insured; confident|o;o
 pige|I get it; he/she gets it|f1s;f3s
 cuire|to cook (food, in heat), to bake|v
@@ -3282,7 +3282,7 @@ disposer|to arrange; disposer de: to have|v;n
 rein|kidney|o
 effondrer|s'effondrer: to collapse|n
 résolu|solved; determined|o;o
-pédé|fag (offensive)|o
+pédé|offensive term for a gay man|o
 pétrole|oil, petroleum|o
 enveloppe|envelope|o
 traduire|to translate|v
@@ -3347,7 +3347,7 @@ morale|morals; moral|o;o
 infection|infection|o
 rejeter|to reject|v
 baseball|baseball|o
-nègre|negro (offensive)|o
+nègre|offensive, racist term for a Black person; ghostwriter (dated, now avoided as offensive); petit nègre: broken French, pidgin (offensive)|o;o;n
 défier|to challenge|v
 poker|poker|o
 dé|die, dice|o
@@ -3586,7 +3586,7 @@ réduit|reduced|o
 louche|shady, dodgy|o
 balader|se balader: to wander, to stroll|n
 procéder|to proceed|v
-mettez-vous|put yourself (pl., formal)|o
+mettez-vous|sit, stand, go (somewhere), make yourselves (pl., formal: mettez-vous là, mettez-vous à l'aise); start on, get down to (mettez-vous au travail)|o;o
 époux|husband, spouse|o
 exposition|exhibition|o
 mou|soft, limp|o
@@ -3768,7 +3768,7 @@ passez-moi|pass me (pl., formal)|o
 profondeur|depth|o
 formulaire|form|o
 novembre|November|o
-opéra|opera|o
+opéra|opera; opera house|o;o
 combattant|fighter|o
 prends-le|take it|o
 renverser|to knock over; to overturn|v;v
@@ -4034,7 +4034,7 @@ méfier|se méfier: to be wary|n
 convoquer|to summon|v
 performance|performance|o
 tabac|tobacco; tobacconist's|o;o
-apres|after|o
+apres|after; d'apres: according to|o;n
 bacon|bacon|o
 pacifique|peaceful|o
 observation|observation|o
@@ -4200,7 +4200,7 @@ sentez-vous|do you feel (pl., formal)|f2s2p
 solo|solo|o
 gène|gene|o
 ressort|spring; he/she goes out again|o;f3s
-traînée|trail; slut|o;o
+traînée|trail, streak; slut (vulgar, offensive)|o;o
 vertu|virtue|o
 phénomène|phenomenon|o
 chantage|blackmail|o
@@ -4301,8 +4301,8 @@ frein|brake|o
 calibre|calibre|o
 paperasse|paperwork|o
 rentrant|coming home|o
-aprés|after|o
-jouir|to enjoy; to come|v;v
+aprés|after; d'aprés: according to|o;n
+jouir|to enjoy (jouir de); to come, to orgasm (colloq.)|v;v
 municipal|municipal|o
 institut|institute|o
 temporel|time, temporal|o
@@ -4315,7 +4315,7 @@ emplacement|site, spot|o
 fine|fine, thin (f.)|o
 berger|shepherd|o
 chips|crisps|o
-rappelle-moi|remind me|o
+rappelle-moi|remind me; call me back|o;o
 atterrissage|landing|o
 édition|edition|o
 hache|axe|o
@@ -4681,7 +4681,7 @@ vaincu|defeated|o
 centimètre|centimetre|o
 vestiaire|changing room|o
 chiotte|bog, loo|o
-vœu|wish|o
+vœu|wish; vow|o;o
 mécanique|mechanical|o
 débutant|beginner|o
 ski|skiing|o
@@ -4999,7 +4999,7 @@ sniper|sniper|o
 bonus|bonus, extra|o
 préservatif|condom (not "preservative")|o
 accrochez-vous|hang on (pl., formal)|o
-ete|been; summer|o;o
+ete|been (past participle of être: j'ai été); summer|o;o
 fosse|pit|o
 révolutionnaire|revolutionary|o
 assigner|to assign|v
@@ -5272,7 +5272,7 @@ biper|to page|v
 hilarant|hilarious|o
 promu|promoted|o
 drôlement|really, awfully|o
-faculté|faculty|o
+faculté|faculty (of a university), university; faculty, ability|o;o
 métaphore|metaphor|o
 terrorisme|terrorism|o
 prédateur|predator|o
@@ -5301,7 +5301,7 @@ prescrire|to prescribe|v
 accidentellement|accidentally|o
 était-elle|was she|f3s
 naviguer|to sail; to browse|v;v
-séminaire|seminar|o
+séminaire|seminar; seminary (where priests train)|o;o
 imprévisible|unpredictable|o
 squelette|skeleton|o
 convenu|agreed|o
@@ -5328,7 +5328,7 @@ accessoire|accessory; prop|o;o
 redevable|indebted|o
 chapelle|chapel|o
 trancher|to slice; to settle|v;v
-tapette|flyswatter; fag (offensive)|o;o
+tapette|flyswatter; offensive term for a gay man|o;o
 ciné|cinema, the pictures (colloquial short form)|o
 séparé|separate|o
 short|shorts|o
@@ -5624,7 +5624,7 @@ volcan|volcano|o
 brisée|broken (f.)|o
 forteresse|fortress|o
 tentation|temptation|o
-cartouche|cartridge|o
+cartouche|cartridge, round (ammunition); cartridge, refill (ink, gas); carton (of cigarettes)|o;o;o
 mentor|mentor|o
 moniteur|monitor; instructor|o;o
 pyramide|pyramid|o
@@ -5768,7 +5768,7 @@ arche|arch|o
 héro|hero|o
 tuez-le|kill him (pl., formal)|o
 parallèle|parallel|o
-tete|head|o
+tete|head; face, look (quelle tête !); faire la tete: to sulk|o;o;n
 diplomatique|diplomatic|o
 jeep|jeep|o
 spectaculaire|spectacular|o
@@ -6041,7 +6041,7 @@ rangé|tidied|o
 utérus|womb|o
 colon|settler|o
 croyable|believable|o
-maitre|master|o
+maitre|master; mistress, schoolteacher (f.)|o;o
 contrebande|smuggling|o
 stabiliser|to stabilise|v
 dôme|dome|o
@@ -6059,7 +6059,7 @@ grincheux|grumpy|o
 porte-bonheur|lucky charm|o
 baisse-toi|get down|o
 feriez-vous|would you do (pl., formal)|f2s2p
-gitan|gypsy|o
+gitan|Roma, Romani person (esp. of Spain and southern France)|o
 limonade|lemonade|o
 bourgeois|middle-class|o
 farine|flour|o
@@ -6241,7 +6241,7 @@ smoking|dinner jacket|o
 provisoire|provisional, temporary|o
 mâcher|to chew|v
 contusion|bruise|o
-general|general|o
+general|general; en general: generally, usually|o;n
 imprévu|unforeseen, unexpected|o
 emballage|packaging|o
 emprunt|loan|o
@@ -6349,7 +6349,7 @@ maximal|maximum (adj)|o
 pourrions-nous|could we|f1p
 trouvez-moi|find me (pl., formal)|o
 absorber|to absorb|v
-parceque|because|o
+parceque|because (parce que)|o
 procédé|process, method (a technique)|o
 abdomen|abdomen|o
 lancée|momentum|o
@@ -6478,7 +6478,7 @@ agacer|to annoy|v
 aveugler|to blind|v
 épatant|splendid, terrific (dated)|o
 milliardaire|billionaire|o
-la-bas|over there|o
+la-bas|over there, at a distance|o
 mépriser|to despise|v
 coffrer|to lock up, to bang up (colloquial)|v
 cowboy|cowboy|o
@@ -6544,7 +6544,7 @@ financement|funding|o
 heure-ci|à cette heure-ci: at this hour|n
 rayé|striped; crossed out|o;o
 superviseur|supervisor|o
-assoir|to sit down|v
+assoir|s'assoir: to sit down|n
 défensive|defensive (f.); sur la défensive: on the defensive|o;n
 psychotique|psychotic|o
 anticiper|to anticipate|v
@@ -6971,7 +6971,7 @@ divisé|divided|o
 confrontation|confrontation|o
 houillère|coal mine|o
 adéquat|adequate, appropriate|o
-bohémien|Bohemian; gypsy, wanderer|o;o
+bohémien|Bohemian (of Bohemia; unconventional, artistic); Roma, Romani person, wanderer (dated)|o;o
 exportateur|exporter (nm); exporting|o;o
 chaussée|roadway, road surface|o
 planétaire|planetary; global|o;o
@@ -7625,7 +7625,7 @@ nominer|to nominate|v
 simultanément|simultaneously|o
 affaibli|weakened|o
 contrainte|constraint|o
-fraction|fraction|o
+fraction|fraction (maths); fraction, part (une fraction de la population)|o;o
 instance|authority, body; proceedings|o;o
 photographique|photographic|o
 dérober|to steal; se dérober: to evade, slip away|v;n
@@ -8434,7 +8434,7 @@ haïtien|Haitian|o
 impunité|impunity|o
 simplicité|simplicity|o
 accoster|to accost; to come alongside, berth|v;v
-administrer|to administer, to run|v
+administrer|to administer, to run (a business, a country); to administer, to give (medicine, a sacrament)|v;v
 adoucir|to soften, soothe|v
 adroitement|skilfully, deftly|o
 agenouiller|to kneel (s'agenouiller)|v
@@ -8666,7 +8666,7 @@ optimal|optimal|o
 pertinence|relevance|o
 plaisant|pleasant; amusing|o;o
 protectorat|protectorate|o
-renflouer|to bail out, to refloat|v
+renflouer|to bail out (financially); to refloat (a ship)|v;v
 roulement|rumble, roll; rotation|o;o
 russo|Russo- (prefix)|o
 réécrire|to rewrite|v
@@ -8840,7 +8840,7 @@ allégation|allegation|o
 attractif|attractive (price, rate); attracting (force)|o;o
 bactérien|bacterial|o
 consultatif|advisory, consultative|o
-elliptique|elliptical|o
+elliptique|elliptical, oval (shape); elliptical, allusive (in speech)|o;o
 interrupteur|switch|o
 marqueur|marker|o
 pictural|pictorial|o
@@ -9151,7 +9151,7 @@ biocarburant|biofuel|o
 blocage|blocking, freeze; mental block|o;o
 boréal|northern, boreal|o
 bravement|bravely|o
-brulé|burnt, burned|o
+brulé|burnt|o
 confronter|to confront; to compare|v;v
 cumuler|to accumulate; to hold concurrently|v;v
 dissiper|to dispel, to clear; to squander|v;v
@@ -9431,7 +9431,7 @@ esquisse|sketch, outline|o
 incliner|to tilt, tip; (s'incliner) to bow; to give in|v;v;v
 ion|ion|o
 mythique|mythical; legendary, iconic|o;o
-patriarche|patriarch|o
+patriarche|patriarch (head of a family, a tribe); Patriarch (head of an Orthodox or Eastern church)|o;o
 poliomyélite|polio, poliomyelitis|o
 prolongé|prolonged, extended|o
 technocratique|technocratic|o
@@ -9498,7 +9498,7 @@ vigoureux|vigorous|o
 émancipation|emancipation|o
 coder|to code, encode|v
 efficience|efficiency|o
-entrainer|to lead to, cause; to train; to drag along|v;v;v
+entrainer|to train; to lead to, to cause; to drag along|v;v;v
 hippocampe|seahorse; hippocampus|o;o
 hospice|hospice, home (for the elderly)|o
 interlocuteur|interlocutor, person one is talking to; counterpart (in talks)|o;o
@@ -9837,7 +9837,7 @@ campagnard|country, rustic; countryman (nm)|o;o
 chancelant|tottering, unsteady; failing|o;o
 chanceler|to stagger, totter|v
 chenille|caterpillar; track (of a tank)|o;o
-choeur|choir; chorus|o;o
+choeur|choir, chorus; choir (of a church)|o;o
 coiffe|headdress, coif|o
 conforter|to reinforce, strengthen|v
 destitution|removal from office, dismissal|o
@@ -9931,7 +9931,7 @@ convocation|summons, notice to attend|o
 croquis|sketch|o
 délocaliser|to relocate, move offshore|v
 fissure|crack, fissure|o
-garcon|boy; waiter|o;o
+garcon|boy; waiter (garçon de café)|o;o
 géo|geography (colloq., school subject)|o
 hypertension|high blood pressure|o
 impérialiste|imperialist|o
@@ -9965,7 +9965,7 @@ coulant|flowing, smooth; easy-going|o;o
 dédicace|dedication; book signing|o;o
 démence|dementia; madness|o;o
 eucalyptus|eucalyptus|o
-facon|way, manner|o
+facon|way; de toute facon: anyway|o;n
 fiabilité|reliability|o
 fuyant|receding; evasive, shifty; fleeing|o;o;o
 grelotter|to shiver|v
@@ -11080,7 +11080,7 @@ pénétration|penetration|o
 roquette|rocket (missile); rocket, arugula|o;o
 tapir|tapir (nm); se tapir: to crouch, hide|o;n
 traders|traders (financial)|o
-traine|he/she drags, hangs around; train (of a dress) (nf); à la traine: lagging behind|f3s;o;n
+traine|I drag, I hang around; he/she drags, hangs around; train (of a dress) (nf); à la traine: lagging behind|f1s;f3s;o;n
 abrogation|repeal, abrogation|o
 affiner|to refine; to hone|v;v
 alignement|alignment; row, line|o;o
@@ -11296,7 +11296,7 @@ patin|skate; rouler un patin: to French-kiss (colloq.)|o;n
 pernicieux|pernicious|o
 philologue|philologist|o
 prémunir|to protect, guard (usu. se prémunir contre)|v
-reconnaitre|to recognise; to admit, acknowledge|v;v
+reconnaitre|to recognise; to admit, to acknowledge|v;v
 renégociation|renegotiation|o
 romanesque|novelistic, fictional; romantic, fanciful|o;o
 rupestre|rock, cave (art, painting); rock-dwelling (plant)|o;o
@@ -11329,7 +11329,7 @@ costard|suit (colloq., = costume)|o
 dialoguer|to talk, hold a dialogue|v
 dogme|dogma|o
 décomposition|decomposition, decay; breakdown|o;o
-déduction|deduction|o
+déduction|deduction, inference (reasoning); deduction (from a sum, a tax)|o;o
 dérailler|to derail, go off the rails; to talk nonsense (colloq.)|v;v
 facette|facet|o
 façonné|shaped, fashioned|o
@@ -11615,7 +11615,7 @@ francilien|of the Paris region (Île-de-France)|o
 fraîchir|to freshen, get cooler|v
 fébrile|feverish; nervous, jittery|o;o
 férié|holiday (adj); jour férié: public holiday|o;n
-galvaniser|to galvanise|v
+galvaniser|to galvanise, to rouse (a crowd, a team); to galvanise, to zinc-plate (metal)|v;v
 gastronomie|gastronomy|o
 gréement|rigging|o
 géostratégique|geostrategic|o
@@ -12250,7 +12250,7 @@ climatisation|air conditioning|o
 clouer|to nail; to pin down; clouer le bec: to shut (someone) up|v;v;n
 commodité|convenience; amenity|o;o
 comparativement|comparatively|o
-conjonction|conjunction|o
+conjonction|conjunction (grammar); conjunction, combination (of events, planets)|o;o
 consciencieusement|conscientiously|o
 contrebas|en contrebas: below, lower down|n
 coquetterie|flirtatiousness; vanity, concern with appearance|o;o
@@ -12510,7 +12510,7 @@ rétrospectivement|retrospectively, in hindsight|o
 réunifier|to reunify|v
 salin|saline, salty|o
 similarité|similarity (technical)|o
-spéculer|to speculate|v
+spéculer|to speculate (on the markets); to speculate, to conjecture|v;v
 sécréter|to secrete|v
 terminologie|terminology|o
 toxicomane|drug addict|o
@@ -12642,7 +12642,7 @@ verticalement|vertically|o
 épitaphe|epitaph|o
 étoilé|starry, star-studded|o
 étui|case (for glasses, etc.)|o
-absenter|to absent oneself, go away|v
+absenter|s'absenter: to be away, to go out (for a while)|n
 accalmie|lull|o
 alcôve|alcove|o
 amicalement|in a friendly way; best wishes (closing a letter)|o;o
@@ -13276,7 +13276,7 @@ courtiser|to court, woo|v
 hibou|owl|o
 rosier|rosebush|o
 récrimination|recrimination, complaint|o
-appendice|appendix|o
+appendice|appendix (of a book); appendix (anatomy)|o;o
 contremaître|foreman|o
 coulée|flow (of lava); casting|o;o
 distancer|to outdistance, leave behind|v
@@ -13548,7 +13548,7 @@ minaret|minaret|o
 miroiter|to sparkle, shimmer; faire miroiter: to dangle (a prospect)|v;n
 mitraille|grapeshot; hail of bullets|o;o
 moite|damp, sticky, clammy|o
-mulâtre|mulatto|o
+mulâtre|mixed-race person (dated, offensive)|o
 munir|to provide, equip (with)|v
 méchamment|nastily, spitefully|o
 noisette|hazelnut; hazel (colour)|o;o

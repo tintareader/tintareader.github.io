@@ -1,0 +1,453 @@
+# Indonesian multi-word expressions: the patterns. Hand-curated — not generated
+# by dictgen.
+#
+# Format: one pattern per line, `#` comments ignored. What each one *means* is
+# in `phrases.<meta>.txt`, joined on the pattern — the same split `lex.txt` and
+# `gloss.<meta>.txt` make, for the same reason.
+#
+# A pattern is a sequence of slots matched against consecutive tokens. Each
+# slot matches a token's **root** (after the stemmer) or its lower-cased
+# surface, so `angkat kaki` also catches `mengangkat kaki` and an invariant
+# formula is written just as it is read (`apa boleh buat`). `*` is a gap of up
+# to four tokens, for the correlative frames (`baik * maupun`).
+#
+# ## A phrase, a headword or a key
+#
+# Indonesian has three places for a multi-word meaning, and each expression
+# goes in exactly one:
+#
+#   - **A headword** (`lex.txt`) when the words make a new word: `rumah sakit`,
+#     `kambing hitam`. The tokeniser glues it into one token and it is counted
+#     and learned as one item.
+#   - **A key** (`expression: meaning` inside a gloss) when the expression pins
+#     one sense of one word: `minta maaf: to apologize` on `minta`.
+#   - **A phrase** (here) when the reader should be told what the words mean
+#     together without losing them as words: `apa boleh buat`, `mau tidak
+#     mau`, `angkat tangan`. It underlines and adds a line to the card; every
+#     word keeps its own entry, band and count.
+#
+# A test holds the line: no pattern here is a headword or a key the pack
+# already states. A pattern may *contain* a glued headword (`tidak tahu terima
+# kasih`) — the provider's `keyForms` joins those slots the way the tokeniser
+# does.
+#
+# ## What belongs here
+#
+# Only expressions where the word-by-word reading misleads. `dari hari ke hari`
+# is not here: "from day to day" already teaches it. Where a literal reading is
+# live as well, the gloss carries both, and the commoner reading first — `buka
+# mata` is mostly someone opening their eyes.
+#
+# Every pattern was measured with `measure:phrase-fit` over the fiction and
+# OpenSubtitles samples, cut at about one per million words in either, and the
+# words each one caught were read: 22 were dropped because the stemmer let them
+# catch something else (`pasang mata` caught *sepasang mata* "a pair of eyes",
+# `tidak apa` caught *tidak berapa*). There is no frequency data in this file,
+# so a phrase carries no band. See "Phrases for Indonesian" in
+# tools/dictgen/README.md, and NOTICE at the repo root.
+# ---- Discourse and connectives
+mau tidak mau
+mau tak mau
+suka atau tidak
+percaya atau tidak
+apa boleh buat
+apa mau dikata
+apa hendak dikata
+mau bagaimana lagi
+mau gimana lagi
+apa daya
+siapa tahu
+siapa sangka
+siapa kira
+siapa bilang
+siapa peduli
+kalau tidak salah
+kalau begitu
+kalau gitu
+kalau tidak
+kalau saja
+andai saja
+seandainya saja
+cepat atau lambat
+lama kelamaan
+oleh karena itu
+oleh sebab itu
+maka dari itu
+karena itu
+dengan kata lain
+dengan demikian
+dengan begitu
+meskipun demikian
+meskipun begitu
+walaupun demikian
+walau begitu
+namun demikian
+kendati demikian
+bagaimanapun juga
+bagaimana pun juga
+pada akhirnya
+pada dasarnya
+pada hakikatnya
+pada umumnya
+pada intinya
+pada kenyataannya
+pada gilirannya
+tak lain
+tidak lain
+tak ubahnya
+tidak ubahnya
+tak urung
+tidak urung
+tak jarang
+tidak jarang
+tak sedikit
+tidak sedikit
+paling tidak
+hanya saja
+belum lagi
+sudah barang tentu
+sudah tentu
+lebih dulu
+lebih dahulu
+habis itu
+begitu saja
+begitu pula
+begitu juga
+demikian pula
+demikian juga
+sama halnya
+tak disangka
+tidak disangka
+tak disangka-sangka
+tidak disangka-sangka
+tanpa disadari
+tanpa sadar
+tak terasa
+tidak terasa
+tanpa terasa
+entah kenapa
+entah mengapa
+entah bagaimana
+entah apa
+entah di mana
+entah dari mana
+entah siapa
+jangan sampai
+sampai hati
+tidak sampai hati
+tak sampai hati
+tak habis pikir
+tidak habis pikir
+lebih baik * daripada
+daripada * lebih baik
+tidak hanya * tetapi juga
+tidak hanya * tapi juga
+bukan hanya * tetapi juga
+bukan hanya * tapi juga
+baik * maupun
+entah * entah
+semakin * semakin
+makin * makin
+semakin lama semakin
+makin lama makin
+makin hari makin
+semakin hari semakin
+kian hari kian
+bukan * melainkan
+jangankan * pun
+begitu * sehingga
+sedemikian rupa
+sedemikian rupa sehingga
+yang penting
+yang pasti
+namanya juga
+yang namanya
+
+# ---- Quantity, degree, time
+sekali lagi
+seumur hidup
+sekali seumur hidup
+sepanjang masa
+untuk selamanya
+sampai kapan pun
+suatu hari nanti
+pada suatu hari
+sekarang juga
+saat itu juga
+saat ini juga
+hari itu juga
+seketika itu juga
+tak lama kemudian
+tidak lama kemudian
+tak lama lagi
+tidak lama lagi
+belum lama ini
+akhir-akhir ini
+siang malam
+siang dan malam
+tidak karuan
+tak karuan
+tidak keruan
+tak keruan
+tidak menentu
+tak menentu
+bukan kepalang
+alang kepalang
+bukan sembarang
+tak terhitung
+tiada duanya
+minta ampun
+setengah hati
+sebisa mungkin
+sedapat mungkin
+sesegera mungkin
+secepat mungkin
+dengan susah payah
+jerih payah
+dengan senang hati
+dengan hormat
+dengan sendirinya
+dengan sengaja
+tanpa sengaja
+tidak sengaja
+tak sengaja
+tanpa pikir panjang
+tanpa basa-basi
+tanpa ampun
+tanpa pamrih
+terus terang
+secara terang-terangan
+apa adanya
+ala kadarnya
+sesuka hati
+tidak ada salahnya
+tak ada salahnya
+apa salahnya
+tidak ada gunanya
+tak ada gunanya
+apa gunanya
+tak ada habisnya
+tidak ada hubungannya
+apa hubungannya
+sia-sia saja
+hampir saja
+nyaris saja
+untung saja
+di atas angin
+di atas kertas
+di bawah umur
+di depan mata
+dengan mata kepala sendiri
+dari lubuk hati
+titik darah penghabisan
+
+# ---- Idioms (ungkapan): verb heads, so written on the root
+angkat kaki
+cuci tangan
+angkat tangan
+gigit jari
+cari perhatian
+cari gara-gara
+cari masalah
+cari mati
+cari makan
+cari kesempatan
+main api
+main belakang
+main aman
+main kasar
+main curang
+tidak main-main
+tak main-main
+jangan main-main
+cuci otak
+buka mulut
+buka suara
+buka mata
+buka jalan
+tutup mata
+tutup telinga
+pasang telinga
+jual mahal
+jual diri
+putar balik
+putar haluan
+balik badan
+naik pangkat
+naik banding
+turun gunung
+mati suri
+habis akal
+kehabisan akal
+ambil sikap
+jalan buntu
+buang waktu
+buang-buang waktu
+tinggal kenangan
+makan korban
+mandi keringat
+curi pandang
+curi dengar
+adu nasib
+adu mulut
+tolak mentah-mentah
+sebelah mata
+bertepuk sebelah tangan
+naik turun
+turun naik
+timbul tenggelam
+keluar masuk
+diam seribu bahasa
+ditelan bumi
+lari tunggang langgang
+tunggang langgang
+lari terbirit-birit
+tidak tahu terima kasih
+tidak mengapa
+tak mengapa
+bukan apa-apa
+tidak ada apa-apa
+tidak ada masalah
+tidak masalah
+tak masalah
+bukan masalah
+jatuh miskin
+jatuh sakit
+jatuh pingsan
+jatuh tertidur
+minta izin
+minta tolong
+minta diri
+muka masam
+tersenyum kecut
+tersenyum simpul
+keringat dingin
+panas dingin
+besar mulut
+mulut besar
+mulut manis
+omong besar
+asal bicara
+panas hati
+hancur hati
+pinang dibelah dua
+durian runtuh
+
+# ---- Proverbs (peribahasa)
+nasi sudah menjadi bubur
+tak ada gading yang tak retak
+
+# ---- Formulas and greetings
+selamat tahun baru
+selamat menikmati
+selamat makan
+selamat bersenang-senang
+turut berduka
+berduka cita
+cepat sembuh
+lekas sembuh
+semoga berhasil
+semoga sukses
+semoga beruntung
+semoga saja
+mudah-mudahan saja
+insya allah
+demi tuhan
+demi allah
+ya tuhan
+ya allah
+syukur alhamdulillah
+wa alaikum salam
+waalaikum salam
+wallahu alam
+permisi dulu
+pamit dulu
+saya permisi
+aku duluan
+sampai nanti
+sampai besok
+hati-hati di jalan
+hati-hati ya
+jaga diri
+jaga diri baik-baik
+baik-baik saja
+baik-baik aja
+kabar baik
+tunggu sebentar
+tunggu dulu
+nanti dulu
+nanti saja
+sabar dulu
+pelan-pelan saja
+santai saja
+santai aja
+tenang saja
+tenang aja
+dengan segala hormat
+mohon maaf
+sampai di sini
+sudah cukup
+
+# ---- Colloquial (subtitles, chat)
+nggak apa-apa
+gak apa-apa
+nggak papa
+ga papa
+tidak usah
+tak usah
+nggak usah
+gak usah
+ga usah
+enggak usah
+masa sih
+kenapa sih
+ada apa
+ada apa sih
+ada apa lagi
+apa sih
+apaan sih
+apa-apaan ini
+gimana ya
+terus kenapa
+lalu kenapa
+biasa saja
+boleh juga
+bisa aja
+bisa saja
+kok bisa
+bukan begitu
+yang benar saja
+tidak juga
+ya kan
+iya kan
+biar saja
+terserah kamu
+terserah saja
+terserah anda
+bodo amat
+bukan urusanmu
+bukan urusan
+lihat saja nanti
+kita lihat saja
+awas kau
+awas saja
+ada-ada saja
+ada benarnya
+begini saja
+tahu sendiri
+asal tahu saja
+sumpah demi
+
+# ---- Kinship and people
+kakak kelas
+adik kelas
+tuan rumah
+nyonya rumah
+tuan tanah
+anak ingusan
+orang kecil
+rakyat kecil
+orang ketiga
+kaum hawa
+pujaan hati
+kekasih hati

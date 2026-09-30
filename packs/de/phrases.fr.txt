@@ -1,0 +1,212 @@
+# What each German phrase in `phrases.txt` means, in French.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`. Hand-written,
+# like the files it translates; dictgen only carries it into the manifest
+# (`register --file phrases.fr`). The patterns must not change and the sense
+# count must match `phrases.en.txt`.
+
+# ---- Frames around another word: `*` is a gap of up to four words.
+um * zu|pour, afin de (+ infinitif)
+ohne * zu|sans (+ infinitif)
+statt * zu|au lieu de (+ infinitif)
+anstatt * zu|au lieu de (+ infinitif)
+sowohl * als auch|aussi bien … que, à la fois … et
+entweder * oder|soit … soit, ou … ou
+weder * noch|ni … ni
+je * desto|plus … plus
+je * umso|plus … plus
+nicht nur * sondern auch|non seulement … mais aussi
+zwar * aber|certes … mais
+es kommt auf * an|cela dépend de
+# ---- es: the subject that is not there. `gibt es` is found through the key forms.
+es gibt|il y a
+es geht um|il s'agit de
+es handelt sich um|il s'agit de
+es kommt darauf an|cela dépend
+es tut mir leid|je suis désolé
+tut mir leid|(je suis) désolé
+es lohnt sich|ça vaut la peine
+es fällt mir schwer|j'ai du mal (à)
+es ist mir egal|ça m'est égal
+das ist mir egal|ça m'est égal
+es macht nichts|ce n'est pas grave
+macht nichts|pas grave, peu importe
+es eilig haben|être pressé
+es sich leisten|(pouvoir) se le permettre
+# ---- Negation and repetition, where the words mislead.
+nicht mehr|ne … plus
+nicht einmal|même pas
+nicht mal|même pas
+gar nicht|pas du tout
+gar nichts|rien du tout
+überhaupt nicht|pas du tout
+überhaupt nichts|rien du tout
+immer noch|toujours, encore
+noch einmal|encore une fois
+noch mal|encore une fois
+schon wieder|encore, de nouveau (agacé)
+immer wieder|sans cesse, encore et encore
+# ---- Quantities.
+ein paar|quelques (pas « une paire »)
+ein bisschen|un peu
+ein wenig|un peu
+eine Menge|beaucoup (de), plein (de)
+so ein|un tel, une telle
+so etwas|quelque chose comme ça, une telle chose
+was für|quel genre de; quel … ! (exclamation)
+wie viel|combien
+# ---- Connectives and adverbials.
+zum Beispiel|par exemple
+auf jeden Fall|en tout cas, absolument
+auf keinen Fall|en aucun cas, pas question
+im Gegenteil|au contraire
+in der Tat|en effet
+vor allem|surtout, avant tout
+nach wie vor|toujours, comme avant
+und zwar|à savoir, et ce
+das heißt|c'est-à-dire
+im Grunde|au fond
+im Allgemeinen|en général
+im Großen und Ganzen|dans l'ensemble
+unter anderem|entre autres
+unter uns|entre nous
+ohne weiteres|sans problème, facilement
+auf diese Weise|de cette façon
+so gut wie|pratiquement, quasiment
+wie gesagt|comme je l'ai dit
+statt dessen|à la place
+auf einmal|soudain, tout à coup; à la fois, d'un coup
+mit einem Mal|tout à coup
+zum ersten Mal|pour la première fois
+zum letzten Mal|pour la dernière fois
+zum Glück|heureusement
+zum Schluss|pour finir, à la fin
+im Moment|en ce moment
+im Augenblick|en ce moment
+in letzter Zeit|ces derniers temps
+seit langem|depuis longtemps
+vor kurzem|récemment, il y a peu
+eines Tages|un jour
+ab und zu|de temps en temps
+ab und an|de temps en temps
+hin und wieder|de temps en temps
+hin und her|de long en large, dans tous les sens
+nach und nach|peu à peu
+von Tag zu Tag|de jour en jour
+Schritt für Schritt|pas à pas
+von Anfang an|dès le début
+von nun an|désormais
+ab jetzt|à partir de maintenant
+ab sofort|dès maintenant, avec effet immédiat
+bis jetzt|jusqu'à présent
+bis dahin|d'ici là, jusque-là
+im Voraus|à l'avance
+im Freien|en plein air
+im Laufe|au cours de
+im Gegensatz zu|contrairement à
+im Vergleich zu|par rapport à
+in Bezug auf|en ce qui concerne
+auf der Stelle|sur-le-champ
+an deiner Stelle|à ta place
+an Ihrer Stelle|à votre place (vouvoiement); à sa place, à leur place
+an meiner Stelle|à ma place
+mit Absicht|exprès
+aus Versehen|par erreur, sans le faire exprès
+um jeden Preis|à tout prix
+zu Fuß|à pied; (zu Füßen) aux pieds
+zu Hause|à la maison, chez soi
+nach Hause|à la maison (direction)
+von zu Hause|de chez soi
+in Ordnung|d'accord, en ordre
+alles in Ordnung|tout va bien
+in Ruhe|en paix, tranquillement
+zu Ende|fini, terminé
+auf dem Laufenden|au courant, à jour
+meiner Meinung nach|à mon avis
+meiner Ansicht nach|selon moi
+# ---- Replies and formulas.
+guten Morgen|bonjour (le matin)
+guten Tag|bonjour
+guten Abend|bonsoir
+gute Nacht|bonne nuit
+auf Wiedersehen|au revoir
+bis morgen|à demain
+bis bald|à bientôt
+vielen Dank|merci beaucoup
+danke schön|merci
+bitte schön|je vous en prie; voilà
+bitte sehr|je vous en prie; voilà
+gern geschehen|de rien
+keine Ahnung|aucune idée
+keine Sorge|ne t'inquiète pas
+keine Angst|n'aie pas peur
+na ja|bon, eh bien
+na und|et alors ?
+na gut|bon, d'accord
+ach so|ah, je vois
+wie bitte|pardon ?, comment ?
+was ist los|qu'est-ce qui se passe ?
+wie geht es|comment ça va ?
+wie immer|comme toujours
+alles Gute|tous mes vœux, bonne continuation
+viel Glück|bonne chance
+viel Spaß|amuse-toi bien
+herzlichen Glückwunsch|félicitations
+Gott sei Dank|Dieu merci
+mein Gott|mon Dieu
+um Gottes willen|pour l'amour de Dieu
+um Himmels willen|pour l'amour du ciel
+zum Teufel|au diable; bon sang, diable
+lass mich in Ruhe|laisse-moi tranquille
+halt den Mund|tais-toi
+kurz und gut|bref
+# ---- Light-verb idioms, cited as a dictionary does; the verb-second forms (`hat Angst`) come from the key forms.
+Angst haben|avoir peur
+Recht haben|avoir raison
+Unrecht haben|avoir tort
+Lust haben|avoir envie
+Glück haben|avoir de la chance
+Pech haben|ne pas avoir de chance
+Hunger haben|avoir faim
+Durst haben|avoir soif
+schuld sein|être responsable, être fautif
+Spaß machen|être amusant
+Spaß haben|s'amuser
+Sorgen machen|inquiéter (sich Sorgen machen: s'inquiéter)
+Gedanken machen|réfléchir, se soucier (sich Gedanken machen)
+Mühe geben|faire des efforts (sich Mühe geben)
+Bescheid wissen|être au courant
+Bescheid sagen|prévenir (quelqu'un)
+Fragen stellen|poser des questions
+eine Frage stellen|poser une question
+eine Entscheidung treffen|prendre une décision
+eine Rolle spielen|jouer un rôle, compter
+keine Rolle spielen|ne pas compter, ne pas avoir d'importance
+Platz nehmen|prendre place, s'asseoir
+Abschied nehmen|faire ses adieux
+ernst nehmen|prendre au sérieux
+Rücksicht nehmen|avoir des égards, ménager
+in Kauf nehmen|accepter, s'accommoder de
+auf den Arm nehmen|faire marcher (quelqu'un)
+im Stich lassen|laisser tomber, abandonner
+in Ruhe lassen|laisser tranquille
+zur Verfügung stehen|être à disposition
+zur Verfügung stellen|mettre à disposition
+zu Ende gehen|toucher à sa fin
+ums Leben kommen|perdre la vie, mourir
+ums Leben|(perdre) la vie
+zur Welt kommen|venir au monde, naître
+ins Bett gehen|aller se coucher
+zu Bett gehen|aller se coucher
+schlafen gehen|aller se coucher
+spazieren gehen|aller se promener
+einkaufen gehen|aller faire les courses
+zu Mittag essen|déjeuner
+zu Abend essen|dîner
+zu tun haben|avoir affaire (à); être occupé
+nichts zu tun haben|n'avoir rien à voir (avec)
+den Mund halten|se taire
+Wort halten|tenir parole
+Schritt halten|suivre le rythme
+Gas geben|accélérer, appuyer sur le champignon

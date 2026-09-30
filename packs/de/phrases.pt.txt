@@ -1,0 +1,212 @@
+# What each German phrase in `phrases.txt` means, in Brazilian Portuguese.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`. Hand-written,
+# like the two files it translates; dictgen only carries it into the manifest
+# (`register --file phrases.pt`). The patterns must not change and the sense
+# count must match `phrases.en.txt`.
+
+# ---- Frames around another word: `*` is a gap of up to four words.
+um * zu|para (+ infinitivo)
+ohne * zu|sem (+ infinitivo)
+statt * zu|em vez de (+ infinitivo)
+anstatt * zu|em vez de (+ infinitivo)
+sowohl * als auch|tanto … quanto
+entweder * oder|ou … ou
+weder * noch|nem … nem
+je * desto|quanto (mais) … (mais)
+je * umso|quanto (mais) … (mais)
+nicht nur * sondern auch|não só … mas também
+zwar * aber|é verdade que … mas
+es kommt auf * an|depende de
+# ---- es: the subject that is not there. `gibt es` is found through the key forms.
+es gibt|há, existe, tem
+es geht um|trata-se de, é sobre
+es handelt sich um|trata-se de
+es kommt darauf an|depende
+es tut mir leid|sinto muito, desculpe
+tut mir leid|sinto muito, desculpe
+es lohnt sich|vale a pena
+es fällt mir schwer|acho difícil, é difícil para mim
+es ist mir egal|não me importa, tanto faz
+das ist mir egal|não me importa, tanto faz
+es macht nichts|não tem problema, não faz mal
+macht nichts|não faz mal, deixa pra lá
+es eilig haben|estar com pressa
+es sich leisten|poder se dar ao luxo de, poder pagar
+# ---- Negation and repetition, where the words mislead.
+nicht mehr|não mais, já não
+nicht einmal|nem mesmo, nem sequer
+nicht mal|nem mesmo, nem sequer
+gar nicht|de jeito nenhum, nem um pouco
+gar nichts|absolutamente nada
+überhaupt nicht|de jeito nenhum, nem um pouco
+überhaupt nichts|absolutamente nada
+immer noch|ainda
+noch einmal|mais uma vez, de novo
+noch mal|mais uma vez, de novo
+schon wieder|de novo, outra vez (com irritação)
+immer wieder|repetidamente, várias vezes
+# ---- Quantities.
+ein paar|alguns, uns poucos (não "um par")
+ein bisschen|um pouco
+ein wenig|um pouco
+eine Menge|muito, uma porção (de)
+so ein|um tal, um … assim
+so etwas|algo assim, uma coisa dessas
+was für|que tipo de; que (!)
+wie viel|quanto, quantos
+# ---- Connectives and adverbials.
+zum Beispiel|por exemplo
+auf jeden Fall|em todo caso, com certeza
+auf keinen Fall|de jeito nenhum, de forma alguma
+im Gegenteil|pelo contrário
+in der Tat|de fato, realmente
+vor allem|sobretudo, principalmente
+nach wie vor|ainda, como antes
+und zwar|a saber, ou seja
+das heißt|isto é, ou seja
+im Grunde|no fundo, basicamente
+im Allgemeinen|em geral
+im Großen und Ganzen|de modo geral, no geral
+unter anderem|entre outras coisas
+unter uns|cá entre nós
+ohne weiteres|sem mais, facilmente
+auf diese Weise|dessa maneira, assim
+so gut wie|praticamente, quase
+wie gesagt|como eu disse
+statt dessen|em vez disso
+auf einmal|de repente; de uma vez
+mit einem Mal|de repente, de uma hora para outra
+zum ersten Mal|pela primeira vez
+zum letzten Mal|pela última vez
+zum Glück|por sorte, felizmente
+zum Schluss|por fim, no final
+im Moment|no momento
+im Augenblick|no momento
+in letzter Zeit|ultimamente
+seit langem|há muito tempo
+vor kurzem|recentemente, há pouco tempo
+eines Tages|um dia
+ab und zu|de vez em quando
+ab und an|de vez em quando
+hin und wieder|de vez em quando
+hin und her|de um lado para o outro, para lá e para cá
+nach und nach|pouco a pouco
+von Tag zu Tag|dia após dia
+Schritt für Schritt|passo a passo
+von Anfang an|desde o início
+von nun an|de agora em diante
+ab jetzt|a partir de agora
+ab sofort|a partir de agora, com efeito imediato
+bis jetzt|até agora
+bis dahin|até lá, até então
+im Voraus|com antecedência
+im Freien|ao ar livre
+im Laufe|no decorrer de
+im Gegensatz zu|ao contrário de
+im Vergleich zu|em comparação com
+in Bezug auf|com relação a
+auf der Stelle|na hora, imediatamente
+an deiner Stelle|se eu fosse você
+an Ihrer Stelle|se eu fosse o senhor (formal); no lugar dela, no lugar deles
+an meiner Stelle|no meu lugar
+mit Absicht|de propósito
+aus Versehen|sem querer, por engano
+um jeden Preis|a qualquer preço
+zu Fuß|a pé; (zu Füßen) aos pés
+zu Hause|em casa
+nach Hause|para casa
+von zu Hause|de casa
+in Ordnung|tudo bem, certo
+alles in Ordnung|está tudo bem
+in Ruhe|em paz, com calma
+zu Ende|acabado, terminado
+auf dem Laufenden|atualizado, a par
+meiner Meinung nach|na minha opinião
+meiner Ansicht nach|a meu ver
+# ---- Replies and formulas.
+guten Morgen|bom dia
+guten Tag|olá, bom dia
+guten Abend|boa noite (ao chegar)
+gute Nacht|boa noite (ao se despedir)
+auf Wiedersehen|até logo, tchau
+bis morgen|até amanhã
+bis bald|até breve
+vielen Dank|muito obrigado
+danke schön|obrigado
+bitte schön|de nada; aqui está
+bitte sehr|de nada; aqui está
+gern geschehen|de nada, por nada
+keine Ahnung|não faço ideia
+keine Sorge|não se preocupe
+keine Angst|não tenha medo, não se preocupe
+na ja|bom, enfim
+na und|e daí?
+na gut|tá bom, então tá
+ach so|ah, entendi
+wie bitte|como?, perdão?
+was ist los|o que houve?, o que está acontecendo?
+wie geht es|como vai? (como está indo)
+wie immer|como sempre
+alles Gute|tudo de bom
+viel Glück|boa sorte
+viel Spaß|divirta-se
+herzlichen Glückwunsch|parabéns
+Gott sei Dank|graças a Deus
+mein Gott|meu Deus
+um Gottes willen|pelo amor de Deus
+um Himmels willen|pelo amor de Deus, céus
+zum Teufel|para o inferno (com); diabos
+lass mich in Ruhe|me deixa em paz
+halt den Mund|cala a boca
+kurz und gut|resumindo, em suma
+# ---- Light-verb idioms, cited as a dictionary does; the verb-second forms (`hat Angst`) come from the key forms.
+Angst haben|ter medo
+Recht haben|ter razão
+Unrecht haben|não ter razão, estar errado
+Lust haben|estar com vontade, ter vontade
+Glück haben|ter sorte
+Pech haben|ter azar
+Hunger haben|estar com fome
+Durst haben|estar com sede
+schuld sein|ter a culpa
+Spaß machen|ser divertido
+Spaß haben|divertir-se
+Sorgen machen|preocupar (sich Sorgen machen: estar preocupado)
+Gedanken machen|pensar em, preocupar-se (sich Gedanken machen)
+Mühe geben|esforçar-se (sich Mühe geben)
+Bescheid wissen|saber (do assunto), estar informado
+Bescheid sagen|avisar (alguém)
+Fragen stellen|fazer perguntas
+eine Frage stellen|fazer uma pergunta
+eine Entscheidung treffen|tomar uma decisão
+eine Rolle spielen|ter importância, desempenhar um papel
+keine Rolle spielen|não ter importância
+Platz nehmen|sentar-se
+Abschied nehmen|despedir-se
+ernst nehmen|levar a sério
+Rücksicht nehmen|ter consideração
+in Kauf nehmen|aceitar, conformar-se com
+auf den Arm nehmen|tirar sarro de (alguém), zoar
+im Stich lassen|deixar na mão, abandonar
+in Ruhe lassen|deixar em paz
+zur Verfügung stehen|estar à disposição
+zur Verfügung stellen|pôr à disposição
+zu Ende gehen|chegar ao fim
+ums Leben kommen|perder a vida, morrer
+ums Leben|(perder) a vida
+zur Welt kommen|nascer
+ins Bett gehen|ir para a cama, ir dormir
+zu Bett gehen|ir para a cama, ir dormir
+schlafen gehen|ir dormir
+spazieren gehen|ir passear, dar uma volta
+einkaufen gehen|ir às compras, fazer compras
+zu Mittag essen|almoçar
+zu Abend essen|jantar
+zu tun haben|ter a ver (com); estar ocupado
+nichts zu tun haben|não ter nada a ver (com)
+den Mund halten|ficar calado, calar a boca
+Wort halten|cumprir a palavra
+Schritt halten|acompanhar o ritmo
+Gas geben|pisar no acelerador, acelerar

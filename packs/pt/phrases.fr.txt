@@ -1,0 +1,602 @@
+# What each Portuguese phrase in `phrases.txt` means, in French.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows French where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.fr.txt`.
+#
+# Verbs are glossed as French infinitives. Many of these phrases look like
+# French and are not: `dar certo` is not « donner certain », `fazer questão`
+# is « tenir à », not « faire question », `de repente` can mean « peut-être »,
+# `tomar conta` is looking after, not « prendre compte ». The gloss says what
+# the Portuguese means, and marks register (vulgaire, familier) as the English
+# file does.
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+ter que|devoir, falloir
+ter de|devoir, falloir
+acabar de|venir de (faire quelque chose)
+começar a|commencer à
+parar de|arrêter de (faire quelque chose)
+deixar de|arrêter de (faire quelque chose); ne pas réussir à, manquer de
+voltar a|refaire, recommencer à (faire quelque chose)
+continuar a|continuer à (faire quelque chose)
+tratar de|s'occuper de, veiller à; parler de, traiter de
+dar para|être possible, pouvoir; donner sur (une rue, un lieu)
+ter a ver com|avoir à voir avec
+estar de acordo|être d'accord
+
+# ---- ter + noun: Portuguese states where English is.
+ter razão|avoir raison
+ter certeza|être sûr
+ter medo|avoir peur
+ter cuidado|faire attention
+ter sorte|avoir de la chance
+ter fome|avoir faim
+ter pressa|être pressé
+ter graça|être drôle
+ter jeito|avoir le coup de main; avoir une solution
+ter saudade|regretter l'absence de, manquer (tenho saudade dela : elle me manque)
+
+# ---- Other light-verb idioms.
+dar certo|marcher, bien se passer
+dar errado|mal tourner, rater
+dar uma olhada|jeter un coup d'œil
+dar conta|s'en sortir, y arriver; se rendre compte
+dar em cima|draguer (quelqu'un)
+dar à luz|accoucher, donner naissance
+fazer sentido|avoir du sens
+fazer as pazes|se réconcilier
+valer a pena|valoir la peine
+vale a pena|ça vaut la peine
+prestar atenção|faire attention
+tomar conta|s'occuper de, garder (pas « prendre compte »); prendre le contrôle, s'emparer de
+tomar cuidado|faire attention
+ficar de olho|garder un œil sur, surveiller
+perder a cabeça|perdre la tête, s'emporter
+calar a boca|se taire, la fermer
+ir embora|partir, s'en aller
+se ferrar|se faire avoir, s'en prendre plein la figure; vá se ferrar: va te faire voir (vulgaire)
+
+# ---- Connectives and discourse markers.
+no entanto|cependant
+por isso|c'est pourquoi, donc
+além disso|en outre, de plus
+ou seja|c'est-à-dire, autrement dit
+quer dizer|c'est-à-dire; je veux dire
+na verdade|en fait, en réalité
+de fato|en effet, de fait
+de qualquer forma|de toute façon
+de qualquer jeito|de toute façon
+por acaso|par hasard (dans une question); par hasard
+afinal de contas|après tout
+apesar de|malgré
+por causa de|à cause de
+a fim de|afin de
+mesmo assim|quand même
+ainda assim|malgré tout, quand même
+desde que|pourvu que, du moment que; depuis que
+contanto que|pourvu que, à condition que
+para que|pour que
+já que|puisque
+uma vez que|puisque, étant donné que
+pelo menos|au moins
+ao menos|au moins
+mais ou menos|plus ou moins; comme ci, comme ça
+
+# ---- Question words and relatives written as two tokens.
+o que|quoi, qu'est-ce que; ce que
+por que|pourquoi
+por quê|pourquoi (en fin de question)
+que tal|et si, que dirais-tu de
+
+# ---- Modality and degree.
+com certeza|certainement, bien sûr
+claro que sim|bien sûr que oui
+claro que não|bien sûr que non
+é claro|bien sûr
+de verdade|vraiment, pour de vrai
+nem sequer|même pas
+nem mesmo|même pas
+de jeito nenhum|pas question, pas du tout
+cada vez mais|de plus en plus
+prestes a|sur le point de
+o mesmo|le même
+de acordo com|selon, d'après
+que nem|comme (familier); que … même pas
+
+# ---- Time and manner.
+de repente|soudain, tout à coup; peut-être (familier)
+às vezes|parfois
+de vez em quando|de temps en temps
+de novo|de nouveau
+mais uma vez|encore une fois
+outra vez|encore, de nouveau
+uma vez|une fois
+agora mesmo|tout de suite; à l'instant
+no momento|en ce moment
+no início|au début; au début de
+no final|à la fin; à la fin de
+em breve|bientôt
+o tempo todo|tout le temps
+hoje em dia|de nos jours
+ao mesmo tempo|en même temps
+por enquanto|pour l'instant
+a tempo|à temps
+em frente|en avant, tout droit
+em cima|dessus, en haut
+ao redor|autour
+
+# ---- Prepositional phrases whose parts do not give the meaning away.
+graças a|grâce à
+através de|à travers, par le biais de
+a partir de|à partir de
+em vez de|au lieu de
+ao invés de|au lieu de
+
+# ---- Fixed dialogue.
+por favor|s'il te plaît, s'il vous plaît
+de nada|de rien; (de, à propos de) rien
+sinto muito|je suis vraiment désolé
+que pena|quel dommage
+não importa|ça ne fait rien, peu importe
+tudo bem|d'accord, ça va; ça va ?
+com licença|excusez-moi, pardon
+meu deus|mon Dieu
+boa sorte|bonne chance
+bom dia|bonjour
+boa tarde|bonjour (l'après-midi)
+boa noite|bonsoir; bonne nuit
+até logo|à plus tard, à tout à l'heure
+até amanhã|à demain
+até mais|à plus, à bientôt
+muito prazer|enchanté
+não faz mal|ce n'est pas grave, tant pis
+filho da puta|fils de pute (vulgaire)
+puta que pariu|putain de merde (vulgaire)
+
+# ==== The 2026-09-23 expansion (phase 4).
+# ---- Verbal periphrases and verb + particle
+acabar por|finir par (faire quelque chose)
+acabar com|en finir avec, mettre fin à; rompre avec (quelqu'un)
+haver de|futur, aller (+ infinitif) (hei de conseguir : j'y arriverai); devoir (há de ser : ça doit être); il y avait ... (havia de + nom, p. ex. quelque chose qui clochait)
+tornar a|refaire, recommencer à (faire quelque chose)
+pôr se a|se mettre à
+ir ter com|aller retrouver, aller voir (Portugal)
+ouvir falar|entendre parler de
+ouvir dizer|entendre dire que
+querer dizer|vouloir dire, signifier
+contar com|compter sur
+dar se conta|se rendre compte
+tratar se de|s'agir de
+estar a fim|avoir envie de, être partant; en pincer pour (quelqu'un) (Brésil)
+não ter como|ne pas y avoir moyen de, ne pas pouvoir
+não há como|il n'y a pas moyen de
+não poder deixar de|ne pas pouvoir s'empêcher de
+não passar de|n'être que
+não ver a hora|avoir hâte de, être impatient de
+tomara que|pourvu que, j'espère que
+quem me dera|si seulement, j'aimerais bien
+será que|est-ce que par hasard, tu crois que
+estar brincando|plaisanter
+estar a brincar|plaisanter (Portugal); jouer
+falar sério|parler sérieusement; fala sério: arrête, tu rigoles
+deixar cair|laisser tomber, faire tomber
+deixar em paz|laisser tranquille
+deixa pra lá|laisse tomber, peu importe
+deixa para lá|laisse tomber, peu importe
+deixa comigo|je m'en occupe, laisse-moi faire
+pode deixar|je m'en charge, ne t'inquiète pas; tu peux laisser
+mandar embora|renvoyer, chasser; licencier
+# ---- ter + noun and estar com + noun
+ter sede|avoir soif
+ter ideia|avoir une idée (de)
+ter a certeza|être sûr (Portugal)
+ter vontade|avoir envie
+ter vergonha|avoir honte; être timide
+ter culpa|être fautif, y être pour quelque chose
+ter lugar|avoir lieu; y avoir de la place
+ter pena|avoir pitié (de), plaindre, avoir de la peine pour
+ter dó|avoir pitié (de), plaindre
+ter calma|garder son calme
+nada a ver|(n'avoir) rien à voir (avec); n'importe quoi
+ter cara de|avoir l'air de
+ter uma queda|avoir un faible (pour quelqu'un); faire une chute
+estar com fome|avoir faim
+estar com sede|avoir soif
+estar com sono|avoir sommeil
+estar com medo|avoir peur
+estar com pressa|être pressé
+estar com frio|avoir froid
+estar com raiva|être en colère
+estar com saudade|regretter l'absence de (quelqu'un) (estou com saudade dele : il me manque)
+morrer de fome|mourir de faim; crever de faim
+morto de|mort de (morto de fome, de medo, de cansaço)
+# ---- dar
+dar um jeito|se débrouiller, trouver un moyen
+dar uma volta|faire un tour, une promenade
+dar um tempo|faire une pause; laisser du temps (à quelqu'un)
+dar o fora|se tirer, filer; plaquer (quelqu'un)
+dar no pé|prendre ses jambes à son cou, filer
+dar um pulo|faire un saut (chez quelqu'un), passer; sauter
+dar ouvidos|écouter, prêter l'oreille
+dar razão|donner raison
+dar a entender|laisser entendre
+dar as costas|tourner le dos
+dar de ombros|hausser les épaules
+dar de cara com|tomber sur
+dar uma de|jouer les, faire le
+dar trabalho|donner du travail, être pénible
+dar vontade|donner envie
+dar medo|faire peur
+dar nojo|dégoûter, écœurer
+dar tempo|avoir le temps (dá tempo); laisser le temps
+dar com a língua nos dentes|vendre la mèche
+dar o troco|rendre la pareille, se venger; rendre la monnaie
+dar a mínima|se soucier le moins du monde (não dar a mínima : s'en ficher complètement)
+dar no mesmo|revenir au même
+dar licença|permettre (dá licença : excusez-moi, vous permettez)
+dar ao luxo|dar-se ao luxo: se payer le luxe de, se permettre
+dar sorte|avoir de la chance; porter bonheur
+dar azar|ne pas avoir de chance; porter malheur
+dar cabo de|venir à bout de, se débarrasser de, bousiller
+dar aula|donner des cours, enseigner
+# ---- fazer
+fazer falta|manquer, être nécessaire
+fazer questão|tenir à, insister (pour)
+fazer de conta|faire semblant
+fazer mal|faire du mal, être mauvais pour; mal faire
+fazer bem|faire du bien; bien faire, avoir raison
+fazer ideia|avoir une idée (de)
+fazer caso|faire cas (de), prêter attention
+fazer anos|faz (dez) anos: il y a (dix) ans; avoir (tel âge); fêter son anniversaire (Portugal)
+fazer as malas|faire ses valises
+fazer a barba|se raser
+fazer uma pergunta|poser une question
+fazer frio|faire froid
+fazer calor|faire chaud
+fazer parte|faire partie (de)
+fazer careta|faire la grimace
+fazer merda|faire une connerie (vulgaire)
+fazer o quê|qu'est-ce qu'on y peut ?; (en train de faire) quoi ?
+fazer tempo|faz tempo: il y a longtemps, ça fait un moment
+fazer muito tempo|faz muito tempo: il y a très longtemps; ça fait très longtemps
+fazer de bobo|prendre pour un idiot
+# ---- ficar, estar
+ficar sabendo|apprendre, être mis au courant
+ficar de pé|se lever, rester debout
+ficar em pé|se lever, rester debout
+ficar sem|se retrouver sans, manquer de
+ficar bem|aller bien; aller bien (à quelqu'un), bien rendre
+ficar à vontade|se mettre à l'aise, faire comme chez soi
+ficar tranquilo|se rassurer, ne pas s'inquiéter
+fica frio|du calme, relax
+estar de saída|être sur le point de partir
+estar por fora|ne pas être au courant
+estar na hora|être l'heure (de)
+está na hora|c'est l'heure
+estar ferrado|être foutu, être dans la merde
+estar a par|être au courant, être à jour
+estar de olho|avoir à l'œil, surveiller
+estar nem aí|s'en ficher complètement (Brésil)
+# ---- tomar, levar, pôr, tirar, meter, botar
+tomar banho|prendre un bain, une douche
+tomar um banho|prendre un bain, une douche
+tomar café|prendre un café; prendre le petit-déjeuner
+levar a cabo|mener à bien
+levar a mal|mal prendre
+levar a sério|prendre au sérieux
+levar em conta|tenir compte de
+levar jeito|être doué, avoir le coup de main
+levar um tiro|prendre une balle, se faire tirer dessus
+meter medo|faire peur
+tirar uma foto|prendre une photo
+tirar sarro|se moquer de, charrier (Brésil)
+tirar proveito|tirer profit (de)
+tirar uma soneca|faire une sieste
+# ---- passar, cair, sair, pegar, bater, abrir, other verbs
+passar mal|se sentir mal
+passar a perna|rouler, arnaquer
+passar fome|souffrir de la faim
+passar pela cabeça|passer par la tête
+vir à tona|faire surface, éclater au grand jour
+vir ao caso|venir à propos, être pertinent
+cair bem|aller bien, bien passer
+cair na real|redescendre sur terre, ouvrir les yeux
+cair fora|se tirer, filer
+cair no sono|s'endormir
+pegar no sono|s'endormir
+pegar fogo|prendre feu
+pega leve|vas-y doucement, calme-toi
+pegar o jeito|prendre le coup (de main)
+bater papo|bavarder, papoter
+bater palmas|applaudir
+abrir mão|renoncer (abrir mão de)
+abrir o jogo|jouer cartes sur table, tout avouer
+correr bem|bien se passer (Portugal)
+correr atrás|poursuivre; courir après, se battre pour
+engolir em seco|avaler sa salive
+custe o que custar|coûte que coûte
+encher o saco|casser les pieds, taper sur les nerfs
+encher a cara|se bourrer la gueule, se soûler
+pisar na bola|faire une gaffe, se planter
+perder tempo|perdre son temps
+mudar de ideia|changer d'avis
+chamar a atenção|attirer l'attention; faire une remarque, réprimander
+sentir falta|regretter l'absence de (sinto falta dele : il me manque)
+voltar atrás|revenir sur sa décision, faire marche arrière
+ir atrás|aller chercher, courir après
+ir com calma|y aller doucement
+ir à merda|aller se faire foutre (vulgaire)
+vai se foder|va te faire foutre (vulgaire)
+se manda|dégage, tire-toi
+se liga|fais gaffe, réveille-toi (Brésil); s'allume
+não custa|ça ne coûte rien (de)
+não adianta|ça ne sert à rien
+não tem jeito|il n'y a rien à faire; c'est sans espoir
+não há de quê|il n'y a pas de quoi
+não tem de quê|il n'y a pas de quoi
+nem que seja|ne serait-ce que
+# ---- Connectives and discourse markers
+a propósito|à propos
+por falar nisso|à ce propos, au fait
+falando nisso|à ce propos
+de resto|du reste, pour le reste
+ou melhor|ou plutôt
+antes de mais nada|avant tout
+pelo contrário|au contraire
+ao contrário|au contraire; à l'envers
+em compensação|en revanche, en compensation
+de qualquer modo|de toute façon
+em todo caso|en tout cas
+em todo o caso|en tout cas
+seja como for|quoi qu'il en soit
+mesmo que|même si; que (vraiment)
+ainda que|même si, bien que
+se bem que|bien que, remarque
+nem que|même si
+por mais que|avoir beau, si… que
+a não ser que|à moins que
+a não ser|sauf, excepté; à moins que
+a menos que|à moins que
+caso contrário|sinon, autrement
+assim que|dès que; (é assim que : c'est comme ça que)
+logo que|dès que
+à medida que|à mesure que
+ao passo que|tandis que
+visto que|vu que, étant donné que
+posto que|bien que; étant donné que
+de modo que|de sorte que, donc
+só que|sauf que, mais
+até porque|d'autant plus que, et d'ailleurs
+além do mais|en plus, de surcroît
+ainda por cima|par-dessus le marché, en plus
+por sua vez|à son tour
+sendo assim|dans ce cas, donc
+pensando bem|à la réflexion
+cá entre nós|entre nous
+quanto a|quant à
+a respeito de|au sujet de, concernant
+acerca de|au sujet de, concernant
+por volta de|vers, aux alentours de (une heure)
+por conta de|à cause de; aux frais de (quelqu'un)
+por conta própria|à son compte, de son propre chef
+em lugar de|au lieu de
+à procura de|à la recherche de
+diante de|devant; face à
+dentro de|dans, à l'intérieur de; dans (un délai)
+ao pé de|au pied de; à côté de
+# ---- Degree, modality, evaluation
+nem pensar|pas question, n'y pense même pas
+nem por isso|pas vraiment, pas spécialement
+nem tanto|pas tant que ça
+de modo algum|en aucun cas, pas du tout
+de maneira nenhuma|en aucune façon, pas du tout
+de forma alguma|en aucune façon, pas du tout
+sem falta|sans faute
+claro que|bien sûr que
+quem sabe|peut-être; qui sait
+sei lá|je sais pas, qui sait
+pelo visto|apparemment, à ce qu'il paraît
+pelo jeito|apparemment, à ce qu'on dirait
+ao que parece|apparemment
+por sinal|d'ailleurs, au fait
+já não|ne… plus
+até mesmo|même
+muito menos|encore moins
+quanto mais|plus… plus; encore moins
+menos mal|heureusement, tant mieux
+ainda bem|heureusement, tant mieux
+ainda bem que|heureusement que
+tanto faz|peu importe, ça m'est égal
+mais vale|mieux vaut
+bem feito|bien fait pour toi !; bien fait
+de propósito|exprès
+sem querer|sans le faire exprès
+de graça|gratuitement, gratis
+ação de graças|Thanksgiving; action de grâce
+a sério|sérieusement (Portugal)
+de brincadeira|pour rire, pour plaisanter
+à toa|pour rien, sans but; à ne rien faire
+à vontade|à l'aise; à volonté
+à beça|beaucoup, un max (Brésil)
+pra caramba|vachement, énormément (Brésil)
+pra caralho|vachement, un putain de paquet (vulgaire)
+pra valer|pour de vrai, sérieusement
+para valer|pour de vrai, sérieusement
+um monte de|un tas de
+um bocado|un peu; pas mal, beaucoup
+de sobra|à revendre, en rab
+de certo modo|d'une certaine manière
+de certa forma|d'une certaine façon
+de algum modo|d'une manière ou d'une autre
+de alguma forma|d'une manière ou d'une autre
+isso mesmo|exactement, c'est ça
+assim mesmo|comme ça, tel quel; quand même
+si mesmo|soi-même, lui-même, elle-même
+por si só|en soi, à lui seul
+um ao outro|l'un l'autre
+uns aos outros|les uns les autres
+um do outro|l'un de l'autre
+# ---- Time
+de manhã|le matin
+à tarde|l'après-midi
+de tarde|l'après-midi
+à noite|le soir, la nuit
+de noite|la nuit, de nuit
+de madrugada|au petit matin, en pleine nuit
+na hora|sur le moment, sur-le-champ; à l'heure; au bon moment
+em cima da hora|à la dernière minute
+em seguida|ensuite, aussitôt après
+daqui a pouco|dans un instant, tout à l'heure
+daqui a|dans (daqui a dois dias)
+de agora em diante|désormais, dorénavant
+há pouco|il y a un instant, tout à l'heure
+há muito tempo|il y a longtemps; depuis longtemps
+há tempos|depuis une éternité; il y a une éternité
+há anos|depuis des années; il y a des années
+há dias|il y a quelques jours; depuis des jours
+por ora|pour l'instant
+por fim|finalement, enfin
+mais de uma vez|plus d'une fois
+de uma vez|d'un coup, en une fois; une fois pour toutes
+de uma vez por todas|une fois pour toutes
+de vez|pour de bon, définitivement
+era uma vez|il était une fois
+por vezes|parfois (Portugal)
+toda vez que|chaque fois que
+de quando em quando|de temps en temps
+aos poucos|peu à peu
+outro dia|l'autre jour; un autre jour
+um dia desses|un de ces jours; l'autre jour
+da noite para o dia|du jour au lendemain
+de antemão|d'avance, au préalable
+todo dia|tous les jours
+todo o dia|toute la journée (Portugal); tous les jours
+enquanto isso|pendant ce temps
+já já|tout de suite, dans une seconde (Brésil)
+já volto|je reviens tout de suite
+já vou|j'arrive !
+já era|c'est fini, c'est foutu (Brésil); já era hora: il était temps
+desde logo|tout de suite; bien sûr (Portugal)
+# ---- Place and posture
+lá fora|dehors
+lá dentro|dedans, là-dedans
+por aqui|par ici, dans le coin; par ici (ce chemin)
+por aí|par là, dans le coin; quelque chose comme ça
+em volta|autour
+à volta|autour (Portugal)
+ao fundo|en arrière-plan; au fond (d'un lieu); jusqu'au fond
+no fundo|au fond (en réalité); au fond (en bas)
+pela frente|devant soi; de face
+por trás|derrière
+por cima|par-dessus, au-dessus
+por baixo|en dessous, par-dessous
+por dentro|à l'intérieur; au courant
+por fora|à l'extérieur; pas au courant
+por toda parte|partout
+em toda parte|partout
+lugar nenhum|nulle part
+para trás|en arrière; derrière (rester)
+pra trás|en arrière; derrière (rester)
+pra frente|en avant
+logo ali|juste là
+de pé|debout
+em pé|debout
+de joelhos|à genoux
+de costas|sur le dos; de dos
+de bruços|à plat ventre
+de lado|de côté, sur le côté; de côté (mettre)
+de cabeça para baixo|à l'envers, la tête en bas
+de pernas para o ar|sens dessus dessous
+a pé|à pied
+a sós|seul à seul, en tête-à-tête
+à solta|en liberté
+à deriva|à la dérive
+às escondidas|en cachette
+às pressas|à la hâte
+à tona|à la surface
+em cheio|en plein
+em branco|en blanc, vierge
+em jogo|en jeu
+fora de si|hors de soi
+na cara|en face; évident
+cara de pau|culot, toupet; culotté, effronté
+sangue frio|sang-froid
+pão duro|radin, pingre
+café da manhã|petit-déjeuner (Brésil)
+pequeno almoço|petit-déjeuner (Portugal)
+sala de estar|salon, salle de séjour
+carteira de motorista|permis de conduire (Brésil)
+# ---- People and address
+a gente|on, nous (familier); les gens
+o senhor|vous (poli, à un homme); le monsieur; le Seigneur
+a senhora|vous (poli, à une femme); la dame
+os senhores|vous (poli, pluriel); messieurs; seigneurs
+todo mundo|tout le monde
+todo o mundo|tout le monde; le monde entier
+toda a gente|tout le monde (Portugal)
+o pessoal|les gars, tout le monde; le personnel
+meu bem|mon chéri, ma chérie
+meu caro|mon cher
+o tal|le fameux, le soi-disant; ce (type, truc)
+# ---- Questions and reactions
+o quê|quoi ?
+para quê|pour quoi faire ?
+pra quê|pour quoi faire ?
+pra que|pour quoi faire ?; pour que
+como assim|comment ça ?
+como é que|comment (est-ce que)
+o que é que|qu'est-ce que
+o que foi|qu'est-ce qu'il y a ?, qu'est-ce qui s'est passé ?; ce qui a été
+o que houve|qu'est-ce qui s'est passé ?
+o que há|qu'est-ce qu'il y a ?, quoi de neuf ?; ce qu'il y a
+e aí|et alors ?, et après ?; salut, ça va ?
+e daí|et alors ?
+e se|et si ?; et si
+é o seguinte|voilà le truc
+é isso aí|c'est ça, voilà
+não é mesmo|n'est-ce pas ?, hein ?
+é mesmo|ah bon ?, vraiment ?; c'est vrai
+pois é|eh oui, justement; (car c'est)
+pois não|bien sûr; je peux vous aider ? (Brésil); (car non)
+pois sim|c'est ça, oui (ironique)
+pois bem|eh bien, bon
+ora essa|ça alors !; il n'y a pas de quoi
+olha só|regarde-moi ça; écoute
+veja só|regarde-moi ça; imagine
+tá bom|d'accord, OK
+tá legal|d'accord, OK (Brésil)
+tudo certo|tout va bien
+como vai|comment ça va ?
+espera aí|attends, une seconde
+espere aí|attendez, une seconde
+calma aí|du calme, attends
+vem cá|viens ici
+por nada|de rien; pour rien (sans raison); pour rien (gratuitement)
+graças a deus|Dieu merci
+pelo amor de deus|pour l'amour de Dieu
+se deus quiser|si Dieu le veut
+só deus sabe|Dieu seul le sait
+nossa senhora|mon Dieu !, Notre-Dame
+minha nossa|mon Dieu !
+que bom|super, que c'est bien
+que droga|zut, quelle barbe
+que merda|merde, quelle merde (vulgaire)
+que diabo|que diable, bon sang
+o que diabo|que diable, bon sang
+que porra|c'est quoi ce bordel, putain (vulgaire)
+sem essa|arrête, n'importe quoi
+puta merda|putain de merde (vulgaire)
+quem diria|qui l'eût cru
+se calhar|peut-être, sans doute (Portugal)

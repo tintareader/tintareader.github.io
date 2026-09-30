@@ -1,0 +1,212 @@
+# What each German phrase in `phrases.txt` means, in Indonesian.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`. Hand-written,
+# like the two files it translates; dictgen only carries it into the manifest
+# (`register --file phrases.id`). The patterns must not change and the sense
+# count must match `phrases.en.txt`.
+
+# ---- Frames around another word: `*` is a gap of up to four words.
+um * zu|untuk, agar (+ infinitif)
+ohne * zu|tanpa (melakukan)
+statt * zu|alih-alih (melakukan)
+anstatt * zu|alih-alih (melakukan)
+sowohl * als auch|baik … maupun
+entweder * oder|entah … atau, baik … atau
+weder * noch|baik … maupun … tidak, bukan … bukan pula
+je * desto|makin … makin
+je * umso|makin … makin
+nicht nur * sondern auch|tidak hanya … tetapi juga
+zwar * aber|memang … tetapi
+es kommt auf * an|itu tergantung pada
+# ---- es: the subject that is not there. `gibt es` is found through the key forms.
+es gibt|ada
+es geht um|ini tentang, yang dipersoalkan adalah
+es handelt sich um|ini menyangkut, ini adalah
+es kommt darauf an|tergantung
+es tut mir leid|saya minta maaf
+tut mir leid|maaf
+es lohnt sich|itu sepadan, itu layak
+es fällt mir schwer|saya merasa sulit
+es ist mir egal|saya tidak peduli
+das ist mir egal|saya tidak peduli
+es macht nichts|tidak apa-apa
+macht nichts|tidak apa-apa
+es eilig haben|sedang terburu-buru
+es sich leisten|mampu membelinya, sanggup
+# ---- Negation and repetition, where the words mislead.
+nicht mehr|tidak lagi
+nicht einmal|bahkan tidak
+nicht mal|bahkan tidak
+gar nicht|sama sekali tidak
+gar nichts|sama sekali tidak ada apa-apa
+überhaupt nicht|sama sekali tidak
+überhaupt nichts|sama sekali tidak ada apa-apa
+immer noch|masih
+noch einmal|sekali lagi
+noch mal|sekali lagi
+schon wieder|lagi-lagi
+immer wieder|berulang kali
+# ---- Quantities.
+ein paar|beberapa
+ein bisschen|sedikit
+ein wenig|sedikit
+eine Menge|banyak
+so ein|yang seperti itu, semacam itu
+so etwas|hal seperti itu
+was für|jenis apa; alangkah (!)
+wie viel|berapa (banyak)
+# ---- Connectives and adverbials.
+zum Beispiel|misalnya
+auf jeden Fall|bagaimanapun, pasti
+auf keinen Fall|sama sekali tidak, tidak mungkin
+im Gegenteil|sebaliknya
+in der Tat|memang, sungguh
+vor allem|terutama
+nach wie vor|tetap, masih seperti dulu
+und zwar|yaitu, tepatnya
+das heißt|artinya, yaitu
+im Grunde|pada dasarnya
+im Allgemeinen|pada umumnya
+im Großen und Ganzen|secara keseluruhan
+unter anderem|antara lain
+unter uns|di antara kita
+ohne weiteres|begitu saja, dengan mudah
+auf diese Weise|dengan cara ini
+so gut wie|hampir, praktis
+wie gesagt|seperti yang saya katakan
+statt dessen|sebagai gantinya
+auf einmal|tiba-tiba; sekaligus
+mit einem Mal|tiba-tiba
+zum ersten Mal|untuk pertama kalinya
+zum letzten Mal|untuk terakhir kalinya
+zum Glück|untungnya
+zum Schluss|akhirnya
+im Moment|saat ini
+im Augenblick|saat ini
+in letzter Zeit|akhir-akhir ini
+seit langem|sejak lama
+vor kurzem|baru-baru ini
+eines Tages|suatu hari
+ab und zu|sesekali
+ab und an|sesekali
+hin und wieder|sesekali
+hin und her|bolak-balik, mondar-mandir
+nach und nach|sedikit demi sedikit
+von Tag zu Tag|dari hari ke hari
+Schritt für Schritt|selangkah demi selangkah
+von Anfang an|sejak awal
+von nun an|mulai sekarang
+ab jetzt|mulai sekarang
+ab sofort|mulai sekarang juga
+bis jetzt|sampai sekarang
+bis dahin|sampai saat itu
+im Voraus|sebelumnya, di muka
+im Freien|di luar ruangan
+im Laufe|selama, dalam perjalanan
+im Gegensatz zu|berbeda dengan
+im Vergleich zu|dibandingkan dengan
+in Bezug auf|berkenaan dengan
+auf der Stelle|saat itu juga
+an deiner Stelle|kalau aku jadi kamu
+an Ihrer Stelle|kalau saya jadi Anda; di tempatnya, di tempat mereka
+an meiner Stelle|di tempatku
+mit Absicht|dengan sengaja
+aus Versehen|tidak sengaja
+um jeden Preis|bagaimanapun caranya
+zu Fuß|berjalan kaki; (zu Füßen) di kaki
+zu Hause|di rumah
+nach Hause|pulang, ke rumah
+von zu Hause|dari rumah
+in Ordnung|baik, beres
+alles in Ordnung|semuanya baik-baik saja
+in Ruhe|dengan tenang
+zu Ende|selesai, berakhir
+auf dem Laufenden|tetap mendapat kabar terbaru
+meiner Meinung nach|menurut pendapat saya
+meiner Ansicht nach|menurut pandangan saya
+# ---- Replies and formulas.
+guten Morgen|selamat pagi
+guten Tag|selamat siang, halo
+guten Abend|selamat malam
+gute Nacht|selamat tidur
+auf Wiedersehen|sampai jumpa
+bis morgen|sampai besok
+bis bald|sampai jumpa lagi
+vielen Dank|terima kasih banyak
+danke schön|terima kasih
+bitte schön|sama-sama; silakan
+bitte sehr|sama-sama; silakan
+gern geschehen|sama-sama
+keine Ahnung|tidak tahu
+keine Sorge|jangan khawatir
+keine Angst|jangan takut
+na ja|yah, ya sudahlah
+na und|lalu kenapa
+na gut|baiklah
+ach so|oh begitu
+wie bitte|maaf, apa?
+was ist los|ada apa
+wie geht es|apa kabar
+wie immer|seperti biasa
+alles Gute|semoga sukses, semua yang terbaik
+viel Glück|semoga beruntung
+viel Spaß|selamat bersenang-senang
+herzlichen Glückwunsch|selamat
+Gott sei Dank|syukurlah
+mein Gott|ya Tuhan
+um Gottes willen|demi Tuhan
+um Himmels willen|astaga, demi Tuhan
+zum Teufel|persetan; sialan
+lass mich in Ruhe|jangan ganggu aku
+halt den Mund|tutup mulutmu
+kurz und gut|singkatnya
+# ---- Light-verb idioms, cited as a dictionary does; the verb-second forms (`hat Angst`) come from the key forms.
+Angst haben|takut
+Recht haben|benar
+Unrecht haben|salah
+Lust haben|ingin, berselera
+Glück haben|beruntung
+Pech haben|sial
+Hunger haben|lapar
+Durst haben|haus
+schuld sein|bersalah, yang salah
+Spaß machen|menyenangkan
+Spaß haben|bersenang-senang
+Sorgen machen|membuat khawatir (sich Sorgen machen: khawatir)
+Gedanken machen|memikirkan, khawatir (sich Gedanken machen)
+Mühe geben|berusaha keras (sich Mühe geben)
+Bescheid wissen|tahu, sudah diberi tahu
+Bescheid sagen|memberi tahu
+Fragen stellen|mengajukan pertanyaan
+eine Frage stellen|mengajukan pertanyaan
+eine Entscheidung treffen|mengambil keputusan
+eine Rolle spielen|berperan, penting
+keine Rolle spielen|tidak penting
+Platz nehmen|duduk, mengambil tempat
+Abschied nehmen|berpamitan
+ernst nehmen|menanggapi dengan serius
+Rücksicht nehmen|memperhatikan, menenggang
+in Kauf nehmen|menerima (risikonya)
+auf den Arm nehmen|mempermainkan, menggoda
+im Stich lassen|meninggalkan, menelantarkan
+in Ruhe lassen|membiarkan, tidak mengganggu
+zur Verfügung stehen|tersedia
+zur Verfügung stellen|menyediakan
+zu Ende gehen|berakhir
+ums Leben kommen|tewas
+ums Leben|nyawa (kehilangan nyawa)
+zur Welt kommen|lahir
+ins Bett gehen|pergi tidur
+zu Bett gehen|pergi tidur
+schlafen gehen|pergi tidur
+spazieren gehen|berjalan-jalan
+einkaufen gehen|berbelanja
+zu Mittag essen|makan siang
+zu Abend essen|makan malam
+zu tun haben|berurusan (dengan); sibuk
+nichts zu tun haben|tidak ada hubungannya (dengan)
+den Mund halten|diam, tutup mulut
+Wort halten|menepati janji
+Schritt halten|mengimbangi
+Gas geben|tancap gas

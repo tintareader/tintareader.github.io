@@ -1,16 +1,16 @@
 {
   "id": "es",
-  "version": "1.1.42",
+  "version": "1.1.75",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "cbcf46ac1c4979a3d0b739de7e4bc0f6dfbd62e0593cb36a7a3b8fa90c0c92aa"
+      "sha256": "0c65ed5abea0bda9821af415cf44932dc784ab48132b92cf4165b3a94ad4950e"
     },
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "9d7865756e06bfef8abbd0f54897e5a93fe7ba6a7b0f71f8f5d5aee2bf9e9427"
+      "sha256": "bf2bc97c10ac991080531c88c7119c4095701dfc180e62fd56c06fc8ef468955"
     },
     "ranks": {
       "path": "ranks.txt",
@@ -35,17 +35,47 @@
     "phrases.en": {
       "path": "phrases.en.txt",
       "license": "unencumbered",
-      "sha256": "159f2050a5d690c692cbaf995a9feb6e11e918d03ef020a22206bb4af2e09f70"
+      "sha256": "453b1f688acac4565915b30aadf269cdc510d8861b7a2d1035b2468becb8f5f1"
     },
     "gloss.id": {
       "path": "gloss.id.txt",
       "license": "unencumbered",
-      "sha256": "2aae0aad5378f5c5316215f156d76f389c17c40ffc96e1ff71366fcd8067b1aa"
+      "sha256": "a6b6454eaf0ae51d8114ddc1de0cd9a237e5f1a5e732319cf9622d5dc8e603a3"
     },
     "phrases.id": {
       "path": "phrases.id.txt",
       "license": "unencumbered",
-      "sha256": "937af4bac0448744ef0a17254ac375300e59b902130fc04c6ed377d4002b02fb"
+      "sha256": "37d1385f79fa8a6ec788422b6fbc23c09f852e10a66b7a9c1aecff8e47d37303"
+    },
+    "gloss.fr": {
+      "path": "gloss.fr.txt",
+      "license": "unencumbered",
+      "sha256": "576c3fb8f85ed627d43d31d51bdb763e9677fb826b0a89bfb108a3c4d1bd7e85"
+    },
+    "phrases.fr": {
+      "path": "phrases.fr.txt",
+      "license": "unencumbered",
+      "sha256": "c454235625a96dfd0c0e89d3a7d4273a8b8b35a53683aa95c5a914946059d48a"
+    },
+    "phrases.pt": {
+      "path": "phrases.pt.txt",
+      "license": "unencumbered",
+      "sha256": "2f4777ebb36ab36614d0be4a3d1e9fb378ba38b74d28bd77a3f85f523a0ae871"
+    },
+    "gloss.pt": {
+      "path": "gloss.pt.txt",
+      "license": "unencumbered",
+      "sha256": "fcad75967f7ca59db8b17f65bf9ca5c090781950467ffccad777ee7606c97b3d"
+    },
+    "phrases.zh": {
+      "path": "phrases.zh.txt",
+      "license": "unencumbered",
+      "sha256": "944cc1320db3baf4cae1032a740bd075be541febb699af4e01ca14d7e599c40c"
+    },
+    "gloss.zh": {
+      "path": "gloss.zh.txt",
+      "license": "unencumbered",
+      "sha256": "66f44d3135cafd1da4a7116d4b4860140ff2bf040afde8e8b42eb684b766ab89"
     }
   }
 }

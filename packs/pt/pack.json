@@ -1,6 +1,6 @@
 {
   "id": "pt",
-  "version": "1.1.28",
+  "version": "1.1.50",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -10,7 +10,7 @@
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "3a00a56f1827f8f0f2578c45de42a2cbfab70c3e42b393ed423ddb9cf08c90f2"
+      "sha256": "989412cd90cbeaa600d188deb2ab5a1a814f91f54121dbd2ac45d83eeaafabac"
     },
     "ranks": {
       "path": "ranks.txt",
@@ -35,7 +35,37 @@
     "phrases.en": {
       "path": "phrases.en.txt",
       "license": "unencumbered",
-      "sha256": "85cc659d7d5553847c4f225cf490174ba752d076edbe2b488dfb08d9950a5d9f"
+      "sha256": "4fbd6adfb98e8c68c5d1c42810e589cad54182ef60f4378e9e4ae7b0e2ef33a2"
+    },
+    "phrases.id": {
+      "path": "phrases.id.txt",
+      "license": "unencumbered",
+      "sha256": "768093f0d2caae0eadd6f1abbf8d4f72a8631f6351c1313f195731c5957e0eb0"
+    },
+    "gloss.id": {
+      "path": "gloss.id.txt",
+      "license": "unencumbered",
+      "sha256": "27d17f0b1a7df8e60eadc5c48f71d8fdbbac938ab1e2e5326eda923c23fb2518"
+    },
+    "gloss.es": {
+      "path": "gloss.es.txt",
+      "license": "unencumbered",
+      "sha256": "d781c239fc76c29ce1ac9e52367fa47e9ddd1c98d2ae493b1de9b61a44b3fc36"
+    },
+    "phrases.es": {
+      "path": "phrases.es.txt",
+      "license": "unencumbered",
+      "sha256": "ca6eac7e8fc0c3729a191720b07928baba21188cf70a9ac070655b52eb971b12"
+    },
+    "phrases.fr": {
+      "path": "phrases.fr.txt",
+      "license": "unencumbered",
+      "sha256": "d768a260bd81681c9280f0d721ec28e746471d71a4c2fda0d9b83e106b3a0546"
+    },
+    "gloss.fr": {
+      "path": "gloss.fr.txt",
+      "license": "unencumbered",
+      "sha256": "dfb9dc3d8fc7d333d8cb0b585f761e6715b3a5d5cfb64f583f33e6f4bdae39c7"
     }
   }
 }

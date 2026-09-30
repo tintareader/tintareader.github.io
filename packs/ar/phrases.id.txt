@@ -1,0 +1,382 @@
+# What each Arabic phrase in `phrases.txt` means, in Indonesian.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest. The
+# patterns on the left are the join key and must not change; each gloss keeps
+# the English gloss's `;`-separated sense count and any Arabic it quotes.
+
+# ---- Formulas of faith and courtesy
+إن شاء الله|insya Allah, semoga
+ما شاء الله|masya Allah (kagum, menolak rasa dengki)
+الحمد لله|segala puji bagi Allah, alhamdulillah
+سبحان الله|Mahasuci Allah, subhanallah (heran, takjub)
+بسم الله|dengan nama Allah, bismillah
+بسم الله الرحمن الرحيم|dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang
+الرحمن الرحيم|Yang Maha Pengasih lagi Maha Penyayang
+الله أكبر|Allah Mahabesar
+لا إله إلا الله|tiada Tuhan selain Allah
+أستغفر الله|aku mohon ampun kepada Allah, astagfirullah
+جزاك الله خيرا|semoga Allah membalas kebaikanmu (terima kasih)
+بارك الله فيك|semoga Allah memberkatimu (terima kasih)
+رحمه الله|semoga Allah merahmatinya (setelah menyebut orang yang wafat)
+الله يرحمه|semoga Allah merahmatinya (setelah menyebut orang yang wafat)
+صلى الله عليه وسلم|salawat dan salam atasnya (setelah nama Nabi)
+عليه السلام|salam atasnya (setelah nama seorang nabi)
+رضي الله عنه|semoga Allah meridainya (setelah nama seorang sahabat)
+لا حول ولا قوة إلا بالله|tiada daya dan kekuatan selain dengan Allah (cemas, sedih)
+إنا لله وإنا إليه راجعون|sesungguhnya kami milik Allah dan kepada-Nya kami kembali (saat ada yang wafat)
+البقاء لله|turut berduka cita (hanya Allah yang kekal)
+بإذن الله|dengan izin Allah, insya Allah
+والله أعلم|Allah lebih tahu
+الله يعلم|Allah tahu
+حفظك الله|semoga Allah menjagamu
+السلام عليكم|assalamualaikum (salam)
+وعليكم السلام|waalaikumsalam (balasan salam)
+صباح الخير|selamat pagi
+صباح النور|selamat pagi (balasan)
+مساء الخير|selamat sore, selamat malam
+تصبح على خير|selamat tidur, selamat malam
+تصبحين على خير|selamat tidur (kepada perempuan)
+أهلا وسهلا|selamat datang
+أهلا بك|selamat datang, halo
+مع السلامة|selamat jalan (kepada yang pergi)
+إلى اللقاء|sampai jumpa
+أراك لاحقا|sampai jumpa nanti
+أراك قريبا|sampai jumpa lagi
+كيف حالك|apa kabar?
+كيف الحال|bagaimana keadaannya?, apa kabar?
+على ما يرام|baik-baik saja, beres
+من فضلك|tolong, silakan
+من فضلكم|tolong, silakan (kepada beberapa orang)
+لو سمحت|permisi, tolong
+لو سمحتي|permisi, tolong (kepada perempuan)
+شكرا جزيلا|terima kasih banyak
+لا شكر على واجب|sama-sama, tidak usah berterima kasih
+على الرحب والسعة|sama-sama, dengan senang hati
+بكل سرور|dengan senang hati
+عيد ميلاد سعيد|selamat ulang tahun
+عيد ميلاد|ulang tahun
+كل عام وأنتم بخير|selamat hari raya, semoga panjang umur
+ألف مبروك|selamat!
+حظا سعيدا|semoga beruntung
+فرصة سعيدة|senang berkenalan
+سعدت بلقائك|senang bertemu denganmu
+تشرفت بمعرفتك|senang berkenalan denganmu
+الحمد لله على السلامة|syukurlah kamu selamat, selamat datang kembali
+
+# ---- Replies and conversational set phrases
+لا بأس|tidak apa-apa, tidak masalah
+لا عليك|tidak apa-apa, jangan khawatir
+لا يهم|tidak penting, tidak masalah
+لا يهمني|aku tidak peduli
+ولا يهمك|jangan khawatir soal itu
+لا مشكلة|tidak masalah
+لا داعي|tidak perlu
+لا مانع|tidak keberatan
+هل تمانع|apakah kamu keberatan?
+لا تهتم|tidak usah dipikirkan, tidak usah repot
+لا شيء|tidak ada apa-apa
+لا أحد|tidak ada seorang pun
+لا أحد يعرف|tidak ada yang tahu
+ولا حتى|bahkan tidak
+ما الأمر|ada apa?, ada masalah apa?
+ما الخطب|ada apa?, apa yang salah?
+ما المشكلة|apa masalahnya?
+ماذا بك|kamu kenapa?
+ما بك|kamu kenapa?
+ما بال|ada apa dengan …?, bagaimana dengan …?
+ماذا هناك|ada apa?
+ما رأيك|bagaimana menurutmu?
+ما رأيك في|apa pendapatmu tentang …?
+أليس كذلك|bukan?, kan? (pertanyaan penegas)
+ليس كذلك|tidak begitu, bukan begitu
+هل هذا صحيح|benarkah itu?
+معك حق|kamu benar
+على حق|benar, di pihak yang benar
+على خطأ|salah, di pihak yang salah
+كما تشاء|terserah kamu
+كما تريد|sesukamu
+على راحتك|sesukamu, pelan-pelan saja
+خذ راحتك|santai saja, anggap rumah sendiri
+على مهلك|pelan-pelan, sabar
+تحت أمرك|siap melayani
+هيا بنا|ayo pergi, ayo
+انتبه لنفسك|jaga dirimu
+اعتن بنفسك|jaga dirimu baik-baik
+صدق أو لا تصدق|percaya atau tidak
+يا إلهي|ya Tuhan, astaga
+يا رجل|bung!, ayolah
+يا صاح|kawan, bung
+يا للهول|mengerikan!, astaga
+يا له من|betapa …!, sungguh …!
+يا لها من|betapa …! (dengan kata benda feminin)
+يا للعار|memalukan!
+يا ليت|seandainya, andai saja
+يا حبيبي|sayangku, kekasihku
+عن إذنك|permisi (hendak pergi atau lewat)
+بعد إذنك|permisi, dengan izinmu
+هذا يكفي|cukup
+كم الساعة|jam berapa sekarang?
+كم عمرك|berapa umurmu?
+شيء من هذا القبيل|semacam itu
+من هذا القبيل|semacam itu, seperti itu
+وما إلى ذلك|dan sebagainya
+إلى آخره|dan lain-lain, dan seterusnya
+
+# ---- Connectives and sentence adverbs whose parts mislead
+على الرغم من|meskipun, walaupun
+بالرغم من|meskipun, walaupun
+على الرغم|meskipun demikian
+بالإضافة إلى|selain, di samping
+بالاضافة إلى|selain, di samping
+بالنسبة ل|mengenai, bagi (بالنسبة لي bagiku)
+من أجل|untuk, demi; agar (+ أن)
+مع ذلك|namun demikian, meskipun begitu
+على أي حال|bagaimanapun, pokoknya
+على كل حال|bagaimanapun, pokoknya
+في كل الأحوال|bagaimanapun juga, dalam segala keadaan
+في جميع الأحوال|bagaimanapun juga, dalam segala keadaan
+في الحقيقة|sebenarnya, sesungguhnya
+في الواقع|sebenarnya, kenyataannya
+على سبيل المثال|misalnya, contohnya
+في نهاية المطاف|pada akhirnya
+في نفس الوقت|pada saat yang sama
+في الوقت نفسه|pada saat yang sama
+في آن واحد|sekaligus, pada saat yang sama
+في حين|sementara, padahal
+في حين أن|sementara, padahal
+بدلا من|daripada, sebagai ganti
+بدلا من ذلك|sebagai gantinya
+عوضا عن|sebagai ganti
+بغض النظر عن|terlepas dari, tanpa memandang
+حتى لو|meskipun, sekalipun
+حتى الآن|sampai sekarang, sejauh ini, belum
+حتى ذلك الحين|sampai saat itu
+حتى لا|agar tidak
+كي لا|agar tidak
+من الآن فصاعدا|mulai sekarang
+منذ ذلك الحين|sejak saat itu
+من جديد|lagi, dari awal
+مرة أخرى|lagi, sekali lagi
+مرة واحدة|sekali; sekaligus
+دفعة واحدة|sekaligus
+من وقت لآخر|dari waktu ke waktu
+من حين لآخر|sesekali, kadang-kadang
+شيئا فشيئا|sedikit demi sedikit
+خطوة بخطوة|langkah demi langkah
+إلى حد ما|agak, sampai batas tertentu
+إلى حد كبير|sebagian besar, sangat
+إلى الأبد|selamanya
+إلى متى|sampai kapan?
+إلى أن|sampai
+على الفور|segera, saat itu juga
+في الحال|segera, saat itu juga
+في أقرب وقت|secepatnya
+في أسرع وقت|secepatnya
+في آخر لحظة|pada menit terakhir
+في اللحظة الأخيرة|pada saat terakhir
+في أي لحظة|kapan saja, sewaktu-waktu
+قدر الإمكان|sebisa mungkin
+بقدر ما|sebanyak, sejauh
+كما لو|seolah-olah
+كما لو كان|seolah-olah itu
+لا سيما|terutama, khususnya
+بمعنى آخر|dengan kata lain
+بعبارة أخرى|dengan kata lain
+من ناحية|di satu sisi; dari segi
+من ناحية أخرى|di sisi lain
+من جهة أخرى|di sisi lain
+على العكس|sebaliknya
+في وقت لاحق|nanti, kemudian
+في يوم من الأيام|suatu hari nanti
+ذات يوم|suatu hari (dulu)
+ذات مرة|suatu kali, sekali waktu; pada suatu ketika, alkisah
+في الوقت الحالي|saat ini, sekarang
+في الغالب|biasanya, kebanyakan
+على الإطلاق|sama sekali; mutlak
+على الأرجح|kemungkinan besar
+على الأقل|setidaknya
+على الأكثر|paling banyak
+على ما يبدو|tampaknya, kelihatannya
+على ما أعتقد|kurasa, menurutku
+في رأيي|menurut pendapatku
+بكل صراحة|terus terang
+بلا شك|tanpa ragu, pasti
+دون شك|tanpa ragu, pasti
+بشكل عام|secara umum
+بشكل رئيسي|terutama
+بشكل كبير|sangat, secara besar-besaran
+بطريقة ما|entah bagaimana
+بأي ثمن|berapa pun harganya
+بأي حال|bagaimanapun, lagi pula; dengan cara apa pun, sama sekali tidak (dengan kata ingkar)
+على فكرة|ngomong-ngomong
+كما قلت|seperti kataku, seperti katamu
+كما ترى|seperti kamu lihat
+كما تعلم|seperti kamu tahu
+كما تعرف|seperti kamu tahu
+إلا أن|namun, hanya saja
+غير أن|namun, tetapi
+ما عدا|kecuali
+بمجرد أن|begitu, segera setelah
+قبل أن|sebelum (+ kata kerja)
+بعد أن|setelah (+ kata kerja)
+منذ أن|sejak (+ kata kerja)
+مهما كان|apa pun itu
+مهما حدث|apa pun yang terjadi
+أيا كان|siapa pun, apa pun itu
+أكثر أو أقل|kurang lebih
+أكثر من اللازم|terlalu banyak, berlebihan
+أكثر من ذلك|lebih dari itu
+لا أكثر ولا أقل|tidak lebih, tidak kurang
+عن طريق|melalui, dengan cara
+عن قصد|sengaja
+عن ظهر قلب|di luar kepala, hafal
+عن قرب|dari dekat
+عن بعد|dari jauh, jarak jauh
+رأسا على عقب|terbalik, jungkir balik
+وجها لوجه|berhadapan muka
+يدا بيد|bergandengan tangan
+جنبا إلى جنب|berdampingan
+بفارغ الصبر|dengan tidak sabar
+على عجل|dengan tergesa-gesa
+على وشك|hampir, akan segera
+على قيد الحياة|masih hidup
+في حد ذاته|itu sendiri, pada dasarnya
+بحد ذاته|itu sendiri, pada dasarnya
+من تلقاء نفسه|atas kemauannya sendiri, dengan sendirinya
+كل ما في الأمر|itu saja, hanya saja
+طوال الوقت|sepanjang waktu, terus-menerus
+ليس بعد|belum
+ليس إلا|tidak lebih, hanya
+على حساب|dengan mengorbankan
+على أساس|berdasarkan
+على حدة|secara terpisah, satu per satu
+بعين الاعتبار|dengan mempertimbangkan
+
+# ---- Negation frames that mean something else
+ما زال|masih
+لا يزال|masih
+لا زال|masih
+ما دام|selama
+ما دمت|selama kamu / aku
+ما عاد|tidak lagi
+لا بد|harus, wajib; pasti
+لا بد أن|pasti, harus (+ kata kerja)
+لا بد من|harus ada, perlu
+لم يعد|tidak lagi, sudah tidak
+لم أعد|aku tidak lagi, sudah tidak
+لم تعد|kamu / dia (perempuan) tidak lagi
+لن أدع|aku tidak akan membiarkan
+
+# ---- Verb + preposition: the preposition changes the verb
+حصل على|mendapat, memperoleh
+تعرف على|berkenalan dengan; mengenali
+وافق على|menyetujui
+قضى على|melenyapkan, menghabisi
+اعتمد على|mengandalkan, bergantung pada
+أصر على|bersikeras
+حافظ على|menjaga, memelihara
+سيطر على|menguasai, mengendalikan
+قبض على|menangkap
+عثر على|menemukan
+ركز على|berfokus pada
+اعتاد على|terbiasa dengan
+تغلب على|mengatasi, mengalahkan
+أشرف على|mengawasi
+ساعد على|membantu (untuk)
+قام ب|melakukan
+اتصل ب|menelepon, menghubungi
+التقى ب|bertemu dengan
+اهتم ب|peduli pada, tertarik pada
+اعتنى ب|merawat, menjaga
+شعر ب|merasakan
+آمن ب|beriman kepada, percaya pada
+وثق ب|memercayai
+استمتع ب|menikmati
+احتفظ ب|menyimpan, mempertahankan
+سمح ل|mengizinkan, membiarkan
+أدى إلى|menyebabkan, berujung pada
+احتاج إلى|membutuhkan
+بحث عن|mencari
+توقف عن|berhenti (melakukan)
+تخلى عن|melepaskan, meninggalkan
+دافع عن|membela
+عبر عن|mengungkapkan
+اعتذر عن|meminta maaf atas
+تخلص من|menyingkirkan
+تأكد من|memastikan
+تمكن من|berhasil, mampu
+انتهى من|selesai (melakukan)
+استفاد من|mengambil manfaat dari
+خاف من|takut pada
+اقترب من|mendekati
+رغب في|ingin, menginginkan
+
+# ---- Words that go together and mean something else
+الليلة الماضية|tadi malam, semalam
+شاهد عيان|saksi mata
+قاتل متسلسل|pembunuh berantai
+رجل أعمال|pengusaha
+سيارة أجرة|taksi
+هاتف محمول|telepon genggam
+بريد إلكتروني|surel, email
+ربطة عنق|dasi
+حمام السباحة|kolam renang
+شهر العسل|bulan madu
+ابن عم|sepupu (dari pihak ayah)
+ابنة عم|sepupu perempuan (dari pihak ayah)
+ابن الكلب|bajingan (anak anjing)
+ابن العاهرة|bajingan (anak pelacur)
+الشرق الأوسط|Timur Tengah
+الولايات المتحدة|Amerika Serikat
+الأمم المتحدة|Perserikatan Bangsa-Bangsa
+الحرب العالمية|perang dunia
+حالة طوارئ|keadaan darurat
+غرفة الطوارئ|unit gawat darurat
+مكتب التحقيقات الفيدرالي|FBI
+المباحث الفدرالية|FBI
+الرأي العام|opini publik
+المدعي العام|jaksa, jaksa agung
+النيابة العامة|kejaksaan
+كبير في السن|tua, lanjut usia
+كبار السن|para lansia
+وقت الفراغ|waktu luang
+سوء الفهم|salah paham
+سوء الحظ|nasib buruk (لسوء الحظ sayangnya)
+حسن الحظ|nasib baik (لحسن الحظ untungnya)
+بعضهم بعضا|satu sama lain
+بعضنا البعض|satu sama lain
+بعضهم البعض|satu sama lain
+بعضكم البعض|satu sama lain
+
+# ---- The Quran's phrases
+يوم القيامة|hari kiamat
+يوم الدين|hari pembalasan
+اليوم الآخر|hari akhir
+رب العالمين|Tuhan semesta alam
+الصراط المستقيم|jalan yang lurus
+أهل الكتاب|Ahli Kitab (Yahudi dan Nasrani)
+بني إسرائيل|Bani Israil
+ابن السبيل|ibnu sabil, musafir yang kehabisan bekal
+في سبيل الله|di jalan Allah
+سبيل الله|jalan Allah
+يا أيها الذين آمنوا|wahai orang-orang yang beriman
+يا أيها الناس|wahai manusia
+الذين آمنوا|orang-orang yang beriman
+الذين كفروا|orang-orang yang kafir
+عمل الصالحات|mengerjakan amal saleh (عملوا الصالحات)
+أقام الصلاة|mendirikan salat
+آتى الزكاة|menunaikan zakat
+جنات تجري من تحتها الأنهار|surga yang mengalir di bawahnya sungai-sungai
+خالدين فيها|kekal di dalamnya
+من دون الله|selain Allah
+على كل شيء قدير|Mahakuasa atas segala sesuatu
+لعلكم تتقون|agar kamu bertakwa
+لعلكم تعقلون|agar kamu mengerti
+لعلكم تشكرون|agar kamu bersyukur
+لعلهم يتفكرون|agar mereka berpikir
+لا ريب فيه|tidak ada keraguan padanya
+كن فيكون|"Jadilah!" maka jadilah ia

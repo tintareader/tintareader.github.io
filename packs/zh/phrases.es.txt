@@ -1,0 +1,319 @@
+# What each Mandarin construction in `phrases.txt` means, in Spanish.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Spanish where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.es.txt`.
+#
+# Verbs are glossed in the infinitive. The Chinese inside a gloss — the split
+# form (帮了我一个忙), the frame (生X的气), the word it is not (过世) — is
+# kept exactly as `phrases.en.txt` has it: it is Mandarin the reader is
+# studying, not English prose.
+# ---- Separable verbs (离合词) split by 了/过/个/a pronoun or a possessive: the
+# contiguous form is usually one headword and then never matches two slots; where it
+# is not (请假, 照相, 理发), the pattern also underlines the adjacent pair.
+帮 * 大忙|hacer un gran favor (a alguien)
+帮 * 忙|ayudar, echar una mano (separado: 帮了我一个忙)
+见 过世 面|haber visto mundo, tener experiencia (no 过世 'fallecer')
+见 * 面|verse, encontrarse
+睡 * 觉|dormir, irse a la cama
+生 * 气|enfadarse (生X的气: enfadarse con X)
+洗 * 澡|bañarse o ducharse
+聊 * 天|charlar
+吃 * 亏|salir perdiendo
+打 * 架|pelearse, llegar a las manos
+吵 * 架|discutir, reñir
+结 * 婚|casarse
+离 * 婚|divorciarse
+拍 * 照|sacar una foto
+散 * 步|dar un paseo
+丢 * 脸|quedar en ridículo, pasar vergüenza
+开 * 玩笑|bromear; burlarse (de)
+叹 * 口气|suspirar
+叹 * 一口气|suspirar
+松 * 口气|respirar aliviado
+松 * 一口气|respirar aliviado
+吸 * 口气|tomar aire
+吸 * 一口气|tomar aire
+喘 * 口气|recobrar el aliento
+吃 * 醋|tener celos
+吃 * 苦|pasar penalidades
+吃 * 惊|sobresaltarse, llevarse un susto (吃了一惊)
+发 * 脾气|perder los estribos
+发 * 火|enfurecerse, perder los estribos
+请 * 假|pedir permiso (para faltar)
+游 * 泳|nadar
+上 * 课|ir a clase o dar clase
+放 * 假|estar de vacaciones
+住 * 院|estar hospitalizado
+打 * 仗|hacer la guerra, combatir
+打 * 针|poner o recibir una inyección
+报 * 仇|vengarse
+道 * 歉|pedir perdón, disculparse
+鞠 * 躬|hacer una reverencia
+开 * 车|conducir, manejar
+迷 * 路|perderse
+插 * 嘴|interrumpir, meter baza
+泄 * 气|desanimarse
+争 * 气|dejar bien (a alguien), hacer quedar bien
+赌 * 气|enfurruñarse
+费 * 劲|costar mucho esfuerzo
+使 * 劲|esforzarse, empujar con fuerza
+干 * 杯|brindar
+发 * 誓|jurar
+算 * 账|ajustar cuentas (con)
+打 * 赌|apostar
+露 * 面|dejarse ver, aparecer
+过 * 瘾|disfrutar a tope
+发 * 疯|volverse loco
+发 * 呆|quedarse embobado, mirar al vacío
+发 * 愁|preocuparse
+发 * 财|hacerse rico
+讲 * 理|atender a razones, ser razonable
+丢 * 面子|quedar mal, perder prestigio
+给 * 面子|mostrar respeto (a alguien), salvarle la cara
+伤 * 脑筋|ser un quebradero de cabeza, devanarse los sesos
+动 * 脑筋|usar la cabeza
+留 * 神|tener cuidado, estar atento
+敬 * 酒|proponer un brindis
+值 * 班|estar de guardia
+打 * 盹|dormitar, echar una cabezada
+打 * 哈欠|bostezar
+打 * 喷嚏|estornudar
+打 * 瞌睡|dar cabezadas
+见 * 鬼|¡qué demonios!; ver un fantasma
+倒 * 霉|tener mala suerte
+遭 * 殃|sufrir una desgracia
+受 * 罪|pasarlo mal
+回 过头|volver la cabeza (回过头: no 过头 'pasarse')
+转 过头|volver la cabeza (转过头: no 过头 'pasarse')
+摆 * 手|hacer un gesto con la mano (negar, despachar)
+撒 * 谎|mentir
+拍 * 马屁|hacer la pelota (a), lamer botas
+走 * 后门|tener enchufe, entrar por la puerta de atrás
+打 * 招呼|saludar; avisar (a alguien)
+打 * 交道|tratar con
+出 * 主意|aconsejar, dar ideas
+拿 * 主意|decidirse
+打 * 主意|tener puesto el ojo en (打X的主意); 打定主意: decidirse
+伤 * 心|estar triste, con el corazón roto
+做 * 梦|soñar
+沾 * 光|beneficiarse de la relación con alguien
+占 * 便宜|aprovecharse (de)
+告 * 状|acusar, chivarse; presentar una denuncia
+打 * 官司|pleitear, ir a juicio
+打 * 哆嗦|tiritar, temblar
+打 * 冷战|tiritar, estremecerse
+打 * 转|dar vueltas
+怀 * 孕|estar embarazada
+坐 * 牢|estar en la cárcel
+耍 * 花招|hacer trampas, jugarretas
+发 * 牢骚|quejarse, refunfuñar
+下 ? 棋|jugar al ajedrez
+跑 * 腿|hacer recados
+变 * 卦|echarse atrás, faltar a la palabra
+翻 * 身|darse la vuelta; liberarse, levantar cabeza
+较 * 劲|medirse con, estar enfrentado a
+服 * 输|darse por vencido
+吃 * 闭门羹|encontrarse con la puerta cerrada
+泼 * 冷 水|echar un jarro de agua fría (sobre)
+绕 * 圈子|andarse con rodeos; dar un rodeo
+兜 * 圈子|andarse con rodeos; dar vueltas
+卖 * 关子|dejar (a alguien) en suspenso
+摆 * 架子|darse aires
+走 * 弯 路|dar un rodeo, equivocar el camino
+拖 * 后腿|frenar (a alguien), ser un lastre
+出 什么 事|¿qué ha pasado?, ¿pasa algo?
+出 了 什么 事|¿qué ha pasado?, ¿qué ha salido mal?
+出 了 事|algo salió mal, hubo un accidente
+上 * 的 当|dejarse engañar por (上X的当)
+做 主|decidir, llevar la voz cantante; (为X做主) defender a X, hacer justicia a X
+费 心|tomarse la molestia
+看 ? 病|ir al médico; (un médico) atender a pacientes
+理 发|cortarse el pelo
+走 神|distraerse, estar en las nubes
+请 ? 安|presentar sus respetos
+动 ? 手|empezar (una pelea), ponerle la mano encima
+下 狠 手|golpear sin piedad, no tener compasión
+下 的 手|(quién) lo hizo, dio el golpe (下的手)
+下 不了 手|no atreverse a hacerlo, no tener valor
+叫 苦|quejarse de las penurias
+拜 ? 年|hacer la visita de Año Nuevo
+照 ? 相|sacar una foto
+# ---- Correlative frames: two words that work as one construction.
+越 * 越|cuanto más … más …
+连 * 都|incluso …, hasta …
+连 * 也|incluso …, hasta …
+又 * 又|… y además …, tanto … como …
+既 * 又|tanto … como …
+既 * 也|tanto … como …; … así como …
+一边 * 一边|… mientras …, a la vez que …
+边 * 边|… mientras …
+非 * 不可|tener que … sí o sí, no haber más remedio que …
+除了 * 以外|excepto …; además de …
+除了 * 之外|excepto …; además de …
+除了 * 外|excepto …; además de …
+不是 * 就是|o … o …
+不是 * 而是|no … sino …
+只要 * 就|con tal de que …, (entonces) …
+只有 * 才|solo si … (entonces) …; solo … puede …
+要是 * 就|si …, (entonces) …
+如果 * 就|si …, (entonces) …
+不管 * 都|no importa …, igualmente …
+无论 * 都|no importa …, igualmente …
+无论 * 也|no importa …, igualmente …
+即使 * 也|aunque …, incluso si …
+哪怕 * 也|aunque …, incluso si …
+就算 * 也|aunque …, incluso si …
+即便 * 也|aunque …, incluso si …
+宁可 * 也|preferir … (antes que) …
+宁愿 * 也|preferir … (antes que) …
+与其 * 不如|en vez de …, mejor …
+对 * 来说|para …, en lo que respecta a …
+对 * 而言|para …, en lo que respecta a …
+就 * 而言|en lo que respecta a …
+拿 * 来说|tomemos … por ejemplo
+以 * 为|tomar … como, considerar … como
+以 * 为主|principalmente …, con … como lo principal
+以 * 为 例|tomando … como ejemplo
+把 * 当作|tratar … como, considerar … como
+把 * 当成|tratar … como, tomar … por
+把 * 看作|considerar … como
+把 * 看成|considerar … como, tomar … por
+被 * 所|(pasiva formal) … por …
+被 * 给|(pasiva coloquial) … por … (给 no añade significado aquí)
+像 * 似的|como …, como si …
+像 * 一样|como …, igual que …
+跟 * 一样|igual que …, como … (不一样: distinto de)
+和 * 一样|igual que …, como … (不一样: distinto de)
+跟 * 似的|como …, como si …
+好像 * 似的|como si …
+跟 * 有关|estar relacionado con …
+与 * 有关|estar relacionado con …
+和 * 有关|estar relacionado con …
+跟 * 没关系|no tener nada que ver con …
+和 * 没关系|no tener nada que ver con …
+对 * 感兴趣|estar interesado en …
+对 * 有 兴趣|estar interesado en …
+拿 * 没 办法|no poder hacer nada con …
+跟 * 过不去|ponérselo difícil a …, tenerla tomada con …
+为 * 着想|pensar en el bien de …
+到 * 为止|hasta …
+在 * 看来|en opinión de …, a juicio de …
+直到 * 才|no … hasta … (hasta que … no …)
+刚 * 就|apenas … cuando …
+不是 * 吗|¿no es …? (retórico: seguro que …)
+难道 * 吗|¿acaso …?; ¿quieres decir que …?
+何必 * 呢|¿para qué …?, no hace falta …
+何 苦 * 呢|¿para qué …?, ¿para qué pasar por …?
+还是 * 吧|mejor …, más vale …
+太 ? 了|¡qué …!, muy …; demasiado … (太好了: ¡genial!)
+快要 * 了|estar a punto de …, casi …
+就要 * 了|estar a punto de …
+该 ? 了|ya es hora de …
+挺 ? 的|bastante …, muy …
+是 ? 还是|¿… o …?
+从 ? 起|a partir de …
+怎么 ? 也|por mucho que … (+ negación: no hay manera de …)
+怎么 ? 都|por mucho que … (+ negación: no hay manera de …)
+把 ? 当|tratar … como, tomar … por
+为 ? 所|(pasiva formal) … por …
+一 看 * 就|en cuanto … (enseguida) … (一看就)
+一 看到 * 就|en cuanto … (enseguida) … (一看到就)
+一 听 * 就|en cuanto … (enseguida) … (一听就)
+一 听到 * 就|en cuanto … (enseguida) … (一听到就)
+一 见 * 就|en cuanto … (enseguida) … (一见就)
+一 见到 * 就|en cuanto … (enseguida) … (一见到就)
+一 想到 * 就|en cuanto … (enseguida) … (一想到就)
+一 想 * 就|en cuanto … (enseguida) … (一想就)
+一 进 * 就|en cuanto … (enseguida) … (一进就)
+一 进门 * 就|en cuanto … (enseguida) … (一进门就)
+一 进来 * 就|en cuanto … (enseguida) … (一进来就)
+一 进去 * 就|en cuanto … (enseguida) … (一进去就)
+一 出来 * 就|en cuanto … (enseguida) … (一出来就)
+一 到 * 就|en cuanto … (enseguida) … (一到就)
+一 回来 * 就|en cuanto … (enseguida) … (一回来就)
+一 回到 * 就|en cuanto … (enseguida) … (一回到就)
+一 开口 * 就|en cuanto … (enseguida) … (一开口就)
+一 碰 * 就|en cuanto … (enseguida) … (一碰就)
+一 走 * 就|en cuanto … (enseguida) … (一走就)
+一 上 来 * 就|en cuanto … (enseguida) … (一上来就)
+一 接触 * 就|en cuanto … (enseguida) … (一接触就)
+一 离开 * 就|en cuanto … (enseguida) … (一离开就)
+一 靠近 * 就|en cuanto … (enseguida) … (一靠近就)
+一 转身 * 就|en cuanto … (enseguida) … (一转身就)
+一 出手 * 就|en cuanto … (enseguida) … (一出手就)
+一 抬头 * 就|en cuanto … (enseguida) … (一抬头就)
+# ---- Fixed sequences the segmenter leaves in pieces, and indefinites (什么都, 谁也).
+什么 都|todo, cualquier cosa (+ negación: nada)
+什么 也|cualquier cosa (+ negación: nada)
+谁 都|todos, cualquiera (+ negación: nadie)
+谁 也|cualquiera (+ negación: nadie)
+哪儿 都|en todas partes (+ negación: en ninguna parte)
+哪里 都|en todas partes (+ negación: en ninguna parte)
+一点 也 不|en absoluto, nada
+一点 都 不|en absoluto, nada
+一点儿 也 不|en absoluto, nada
+一点 也 没|nada de nada, ni lo más mínimo
+一点 都 没|nada de nada, ni lo más mínimo
+一 ? 都 没|ni un solo …
+再也 不|nunca más, ya no
+再也 没|nunca más
+好 容易|a duras penas, con mucho esfuerzo (= 好不容易)
+谈 不 上|ni hablar de ello; difícilmente puede llamarse
+算 不 上|difícilmente puede llamarse
+说 不 上|no saber decir, no estar seguro; no poder llamarse
+由 不得|no depender de (alguien); no poder evitar
+吃 不 消|no poder aguantar
+看 不 惯|no soportar ver, no tolerar
+禁 不住|no poder evitar (hacer algo); no poder soportar
+止 不住|no poder parar
+对 得 起|estar a la altura de, no defraudar
+对 不住|defraudar (a alguien); lo siento
+不 在乎|no importar, dar igual
+不 怎么样|nada del otro mundo, no muy bueno
+没 意思|aburrido, sin sentido
+不 一会儿|al poco rato, enseguida
+一 动 不动|inmóvil, sin moverse
+动 不动|a la mínima, todo el tiempo (动不动就)
+总 的 来说|en resumen, en general
+这样 一来|así, como resultado
+说 到底|en el fondo, al fin y al cabo
+说 起来|ahora que lo pienso; hablando de (说起来容易: es fácil decirlo)
+不 至于|no llegar a tanto, no ser para tanto
+看 着 办|hacer lo que a uno le parezca
+一个 劲 儿|sin parar, con obstinación
+不 客气|de nada; ser descortés
+别 客气|no hay de qué, estás en tu casa
+怎么 了|¿qué pasa?, ¿qué ha pasado?
+好 在|por suerte, afortunadamente
+# ---- A-not-A questions the segmenter splits (… or not?).
+知 不 知道|¿sabes?
+喜 不 喜欢|¿te gusta …?
+愿 不 愿意|¿estás dispuesto?, ¿quieres?
+认 不 认识|¿conoces (a alguien)?
+应 不 应该|¿se debe … o no?
+需 不 需要|¿necesitas …?
+可不 可以|¿se puede …?, ¿puedo …? (no 可不 'exacto')
+记 不 记得|¿te acuerdas?
+相 不 相信|¿crees …?
+明 不 明白|¿entiendes?
+要 不要|¿quieres …?, ¿hacemos …? (… o no)
+能 不能|¿puede … o no?; ¿podrías …?
+会 不会|¿va a … o no?; ¿será que …?
+想 不想|¿quieres …?
+敢 不敢|¿te atreves a …?
+来 不 来|¿vienes?
+在 不 在|¿está … o no?
+懂 不 懂|¿entiendes?
+信 不 信|lo creas o no

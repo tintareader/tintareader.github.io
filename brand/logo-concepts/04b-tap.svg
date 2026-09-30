@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <title>Tinta logo concept 4b: The tap</title>
-  <style>
-    :root{--ink:#1b1f24;--pink:#b8246a}
-    @media (prefers-color-scheme:dark){:root{--ink:#c5ccd4;--pink:#ff5277}}
-  </style>
-  <rect x="10" y="20" width="44" height="24" rx="8" fill="none" stroke="var(--ink)" stroke-width="3.5"/>
-  <path fill="var(--pink)" d="M21.5 27h21a3.5 3.5 0 0 1 3.5 3.5v3a3.5 3.5 0 0 1 -3.5 3.5h-21a3.5 3.5 0 0 1 -3.5 -3.5v-3a3.5 3.5 0 0 1 3.5 -3.5z"/>
-</svg>

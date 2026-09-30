@@ -1,0 +1,417 @@
+# What each Indonesian phrase in `phrases.txt` means, in English.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain is not underlined at all.
+#
+# These glosses are written by hand and are not derived from any licensed
+# corpus. To translate them for a reader of another language, copy this file to
+# `phrases.<code>.txt` and translate the right-hand side; the patterns on the
+# left are the join key and must not change. `;` separates senses, as in a
+# word's gloss; `(literally)` marks the word-by-word reading, never `(lit.)`,
+# which means "literary" in these packs.
+# ---- Discourse and connectives
+mau tidak mau|like it or not, willy-nilly, inevitably
+mau tak mau|like it or not, willy-nilly, inevitably
+suka atau tidak|like it or not
+percaya atau tidak|believe it or not
+apa boleh buat|it can't be helped, there's nothing for it
+apa mau dikata|what can one say, it can't be helped
+apa hendak dikata|what can one say, it can't be helped
+mau bagaimana lagi|what else can one do, it can't be helped
+mau gimana lagi|what else can one do, it can't be helped
+apa daya|what could one do, (being) powerless
+siapa tahu|who knows, perhaps, you never know
+siapa sangka|who would have thought
+siapa kira|who would have thought
+siapa bilang|who says so, says who
+siapa peduli|who cares
+kalau tidak salah|if I'm not mistaken
+kalau begitu|in that case, then
+kalau gitu|in that case, then
+kalau tidak|otherwise, or else; if not
+kalau saja|if only
+andai saja|if only
+seandainya saja|if only
+cepat atau lambat|sooner or later
+lama kelamaan|in the long run, eventually, gradually
+oleh karena itu|therefore, for that reason
+oleh sebab itu|therefore, for that reason
+maka dari itu|therefore, that is why
+karena itu|therefore, that is why
+dengan kata lain|in other words
+dengan demikian|thus, accordingly, in this way
+dengan begitu|that way, thus
+meskipun demikian|nevertheless, even so
+meskipun begitu|nevertheless, even so
+walaupun demikian|nevertheless, even so
+walau begitu|even so, nevertheless
+namun demikian|nevertheless, however
+kendati demikian|nevertheless, even so
+bagaimanapun juga|in any case, after all, whatever happens
+bagaimana pun juga|in any case, after all, whatever happens
+pada akhirnya|in the end, eventually
+pada dasarnya|basically, essentially
+pada hakikatnya|in essence, in reality
+pada umumnya|generally, in general
+pada intinya|in essence, the point is
+pada kenyataannya|in fact, in reality
+pada gilirannya|in turn
+tak lain|nothing other than, none other than
+tidak lain|nothing other than, none other than
+tak ubahnya|no different from, just like
+tidak ubahnya|no different from, just like
+tak urung|in the end, after all, nevertheless
+tidak urung|in the end, after all, nevertheless
+tak jarang|often, not infrequently
+tidak jarang|often, not infrequently
+tak sedikit|many, a good deal (of)
+tidak sedikit|many, a good deal (of)
+paling tidak|at least
+hanya saja|it's just that, except that, only
+belum lagi|not to mention, let alone
+sudah barang tentu|of course, naturally
+sudah tentu|of course, certainly
+lebih dulu|first, beforehand, ahead (of others)
+lebih dahulu|first, beforehand, ahead (of others)
+habis itu|after that, then
+begitu saja|just like that, without further ado; simply, just (so)
+begitu pula|likewise, similarly
+begitu juga|likewise, the same goes for
+demikian pula|likewise, similarly
+demikian juga|likewise, similarly
+sama halnya|likewise, in the same way
+tak disangka|unexpectedly, who would have thought
+tidak disangka|unexpectedly, who would have thought
+tak disangka-sangka|quite unexpectedly
+tidak disangka-sangka|quite unexpectedly
+tanpa disadari|without realising it, unconsciously
+tanpa sadar|without realising it, unconsciously
+tak terasa|before one knows it, (time) flies
+tidak terasa|before one knows it, (time) flies
+tanpa terasa|before one knows it, (time) flies
+entah kenapa|for some reason, somehow
+entah mengapa|for some reason, somehow
+entah bagaimana|somehow (or other)
+entah apa|who knows what, something or other
+entah di mana|who knows where, somewhere
+entah dari mana|from who knows where
+entah siapa|who knows who, someone or other
+jangan sampai|make sure not to, let it not happen that
+sampai hati|to have the heart to, bring oneself to
+tidak sampai hati|not to have the heart to
+tak sampai hati|not to have the heart to
+tak habis pikir|cannot fathom, cannot understand (how)
+tidak habis pikir|cannot fathom, cannot understand (how)
+lebih baik * daripada|better to ... than
+daripada * lebih baik|rather than ..., better to
+tidak hanya * tetapi juga|not only ... but also
+tidak hanya * tapi juga|not only ... but also
+bukan hanya * tetapi juga|not only ... but also
+bukan hanya * tapi juga|not only ... but also
+baik * maupun|both ... and; whether ... or
+entah * entah|either ... or, whether ... or
+semakin * semakin|the more ..., the more
+makin * makin|the more ..., the more
+semakin lama semakin|more and more, increasingly
+makin lama makin|more and more, increasingly
+makin hari makin|day by day more and more
+semakin hari semakin|day by day more and more
+kian hari kian|day by day more and more
+bukan * melainkan|not ... but (rather)
+jangankan * pun|let alone, never mind
+begitu * sehingga|so ... that
+sedemikian rupa|in such a way, to such an extent
+sedemikian rupa sehingga|in such a way that, so much that
+yang penting|the main thing is, what matters is
+yang pasti|what is certain, for sure
+namanya juga|what do you expect, after all it's (a/an)
+yang namanya|what is called, anything called
+
+# ---- Quantity, degree, time
+sekali lagi|once again, once more
+seumur hidup|lifetime, for life, in all one's life
+sekali seumur hidup|once in a lifetime
+sepanjang masa|of all time, forever
+untuk selamanya|forever, for good
+sampai kapan pun|forever, no matter how long
+suatu hari nanti|someday, one day
+pada suatu hari|one day (story opening)
+sekarang juga|right now, immediately
+saat itu juga|at that very moment, right then
+saat ini juga|right this moment, immediately
+hari itu juga|that very day
+seketika itu juga|instantly, at that very moment
+tak lama kemudian|soon after, shortly afterwards
+tidak lama kemudian|soon after, shortly afterwards
+tak lama lagi|soon, before long
+tidak lama lagi|soon, before long
+belum lama ini|recently, not long ago
+akhir-akhir ini|lately, recently
+siang malam|day and night, round the clock
+siang dan malam|day and night, round the clock
+tidak karuan|out of control, in a mess, all over the place
+tak karuan|out of control, in a mess, all over the place
+tidak keruan|out of control, in a mess, all over the place
+tak keruan|out of control, in a mess, all over the place
+tidak menentu|uncertain, erratic, unsettled
+tak menentu|uncertain, erratic, unsettled
+bukan kepalang|extremely, beyond measure
+alang kepalang|extremely, beyond measure
+bukan sembarang|no ordinary, not just any
+tak terhitung|countless, innumerable
+tiada duanya|second to none, unique
+minta ampun|terribly, unbearably (after an adjective); to beg for mercy
+setengah hati|half-hearted(ly)
+sebisa mungkin|as far as possible
+sedapat mungkin|as far as possible
+sesegera mungkin|as soon as possible
+secepat mungkin|as quickly as possible
+dengan susah payah|with great difficulty, painstakingly
+jerih payah|toil, hard work, effort
+dengan senang hati|gladly, with pleasure
+dengan hormat|respectfully; Dear Sir/Madam (letter opening)
+dengan sendirinya|by itself, of its own accord, automatically
+dengan sengaja|deliberately, on purpose
+tanpa sengaja|accidentally, unintentionally
+tidak sengaja|accidentally, unintentionally
+tak sengaja|accidentally, unintentionally
+tanpa pikir panjang|without thinking twice
+tanpa basa-basi|without beating about the bush, bluntly
+tanpa ampun|mercilessly
+tanpa pamrih|selflessly, without expecting anything in return
+terus terang|frankly, to be honest
+secara terang-terangan|openly, bluntly
+apa adanya|as it is, unvarnished; plainly
+ala kadarnya|simple, modest, whatever is available
+sesuka hati|as one pleases, at will
+tidak ada salahnya|there's no harm in
+tak ada salahnya|there's no harm in
+apa salahnya|what's the harm in, why not
+tidak ada gunanya|there's no point, it's no use
+tak ada gunanya|there's no point, it's no use
+apa gunanya|what's the use, what's the point
+tak ada habisnya|endless, never-ending
+tidak ada hubungannya|to have nothing to do with it
+apa hubungannya|what does it have to do with
+sia-sia saja|in vain, all for nothing
+hampir saja|very nearly, almost
+nyaris saja|very nearly, almost
+untung saja|luckily, fortunately
+di atas angin|to have the upper hand
+di atas kertas|on paper, in theory
+di bawah umur|underage
+di depan mata|right before one's eyes, imminent
+dengan mata kepala sendiri|with one's own eyes
+dari lubuk hati|from the bottom of one's heart
+titik darah penghabisan|the last drop of blood, to the bitter end
+
+# ---- Idioms (ungkapan): verb heads, so written on the root
+angkat kaki|to leave, clear off; (literally) to lift one's feet
+cuci tangan|to wash one's hands of it, evade responsibility; (literally) to wash one's hands
+angkat tangan|to raise one's hand; to give up, wash one's hands of it
+gigit jari|to be left empty-handed, disappointed; (literally) to bite one's finger
+cari perhatian|to seek attention, show off
+cari gara-gara|to look for trouble, pick a fight
+cari masalah|to look for trouble
+cari mati|to court death, ask for it
+cari makan|to make a living; to look for food
+cari kesempatan|to look for an opportunity; to take advantage
+main api|to play with fire
+main belakang|to act behind someone's back
+main aman|to play it safe
+main kasar|to play rough, use force
+main curang|to cheat
+tidak main-main|serious, no joke, not kidding
+tak main-main|serious, no joke, not kidding
+jangan main-main|don't mess about, don't trifle (with)
+cuci otak|to brainwash
+buka mulut|to open one's mouth; to speak up, reveal (a secret)
+buka suara|to speak up, break one's silence
+buka mata|to open one's eyes; to open someone's eyes (to), make realise
+buka jalan|to pave the way
+tutup mata|to close one's eyes; to turn a blind eye (to); to die
+tutup telinga|to turn a deaf ear
+pasang telinga|to listen closely, prick up one's ears
+jual mahal|to play hard to get
+jual diri|to sell oneself, prostitute oneself
+putar balik|to turn back, make a U-turn; to twist (the facts)
+putar haluan|to change course
+balik badan|to turn round, turn one's back
+naik pangkat|to be promoted
+naik banding|to appeal (a verdict)
+turun gunung|to come out of retirement, step in personally
+mati suri|suspended animation, near-death; dormant
+habis akal|at one's wits' end
+kehabisan akal|at one's wits' end
+ambil sikap|to take a stand
+jalan buntu|dead end, deadlock
+buang waktu|to waste time
+buang-buang waktu|to waste time, a waste of time
+tinggal kenangan|to be only a memory
+makan korban|to claim victims, cause casualties
+mandi keringat|to be drenched in sweat
+curi pandang|to steal a glance
+curi dengar|to eavesdrop
+adu nasib|to try one's luck
+adu mulut|to quarrel, have a row
+tolak mentah-mentah|to reject outright
+sebelah mata|with contempt, dismissively
+bertepuk sebelah tangan|(of love) to be one-sided, unrequited
+naik turun|up and down, fluctuating
+turun naik|up and down, fluctuating
+timbul tenggelam|coming and going, intermittent
+keluar masuk|in and out, coming and going
+diam seribu bahasa|to remain completely silent
+ditelan bumi|to vanish without a trace
+lari tunggang langgang|to run helter-skelter
+tunggang langgang|helter-skelter, in headlong flight
+lari terbirit-birit|to run away in a panic
+tidak tahu terima kasih|ungrateful
+tidak mengapa|it doesn't matter, it's all right
+tak mengapa|it doesn't matter, it's all right
+bukan apa-apa|it's nothing, nothing special
+tidak ada apa-apa|there's nothing (wrong), nothing at all
+tidak ada masalah|no problem
+tidak masalah|no problem, it doesn't matter
+tak masalah|no problem, it doesn't matter
+bukan masalah|not a problem
+jatuh miskin|to become poor, fall into poverty
+jatuh sakit|to fall ill
+jatuh pingsan|to faint
+jatuh tertidur|to fall asleep
+minta izin|to ask permission
+minta tolong|to ask for help; please (could you)
+minta diri|to take one's leave
+muka masam|sour face, scowl
+tersenyum kecut|to smile wryly
+tersenyum simpul|to smile faintly
+keringat dingin|cold sweat
+panas dingin|feverish, hot and cold; nervous
+besar mulut|boastful, big-mouthed
+mulut besar|boastful talk, big mouth
+mulut manis|sweet talk
+omong besar|to boast, talk big
+asal bicara|to talk without thinking
+panas hati|angry, resentful
+hancur hati|heartbroken
+pinang dibelah dua|like two peas in a pod
+durian runtuh|a windfall, unexpected luck
+
+# ---- Proverbs (peribahasa)
+nasi sudah menjadi bubur|what's done is done, no use crying over spilt milk
+tak ada gading yang tak retak|nobody's perfect
+
+# ---- Formulas and greetings
+selamat tahun baru|happy new year
+selamat menikmati|enjoy (your meal, the show)
+selamat makan|enjoy your meal
+selamat bersenang-senang|have fun
+turut berduka|my condolences
+berduka cita|to mourn; condolences
+cepat sembuh|get well soon
+lekas sembuh|get well soon
+semoga berhasil|good luck
+semoga sukses|good luck, best of luck
+semoga beruntung|good luck
+semoga saja|let's hope so, hopefully
+mudah-mudahan saja|let's hope so, hopefully
+insya allah|God willing
+demi tuhan|by God, I swear
+demi allah|by God, I swear
+ya tuhan|oh God, oh my God
+ya allah|oh God, oh my God
+syukur alhamdulillah|thank God
+wa alaikum salam|and peace be upon you (reply to a greeting)
+waalaikum salam|and peace be upon you (reply to a greeting)
+wallahu alam|God knows best, who knows
+permisi dulu|excuse me, I'll be going
+pamit dulu|I'll take my leave
+saya permisi|excuse me, I'll be going
+aku duluan|I'll go ahead, see you
+sampai nanti|see you later
+sampai besok|see you tomorrow
+hati-hati di jalan|take care on the way, safe trip
+hati-hati ya|take care
+jaga diri|take care (of yourself)
+jaga diri baik-baik|take good care of yourself
+baik-baik saja|fine, all right
+baik-baik aja|fine, all right
+kabar baik|good news; (I'm) fine
+tunggu sebentar|wait a moment, just a minute
+tunggu dulu|wait a moment, hold on
+nanti dulu|hold on, not yet, wait
+nanti saja|later, let it wait
+sabar dulu|be patient, hold on
+pelan-pelan saja|take it easy, slowly
+santai saja|take it easy, relax
+santai aja|take it easy, relax
+tenang saja|don't worry, relax
+tenang aja|don't worry, relax
+dengan segala hormat|with all due respect
+mohon maaf|I apologise, please excuse
+sampai di sini|that's all (for now), up to here
+sudah cukup|that's enough
+
+# ---- Colloquial (subtitles, chat)
+nggak apa-apa|it's all right, never mind, no problem
+gak apa-apa|it's all right, never mind, no problem
+nggak papa|it's all right, never mind, no problem
+ga papa|it's all right, never mind, no problem
+tidak usah|no need, don't bother
+tak usah|no need, don't bother
+nggak usah|no need, don't bother
+gak usah|no need, don't bother
+ga usah|no need, don't bother
+enggak usah|no need, don't bother
+masa sih|really? no way, come on
+kenapa sih|why on earth, what is it
+ada apa|what's up, what's the matter
+ada apa sih|what's the matter, what's going on
+ada apa lagi|what now, what else
+apa sih|what is it; come on (in protest)
+apaan sih|what is it, come off it
+apa-apaan ini|what's all this, what's the meaning of this
+gimana ya|hmm, how should I put it
+terus kenapa|so what
+lalu kenapa|so what
+biasa saja|nothing special, ordinary, as usual
+boleh juga|not bad, pretty good; why not
+bisa aja|you would say that, oh you (teasing); possibly
+bisa saja|possibly, could well; you would say that
+kok bisa|how come, how could that be
+bukan begitu|that's not it, not like that
+yang benar saja|you must be joking, come off it
+tidak juga|not really, not necessarily
+ya kan|right? isn't it
+iya kan|right? isn't it
+biar saja|let it be, never mind
+terserah kamu|it's up to you, whatever you like
+terserah saja|whatever, up to you
+terserah anda|it's up to you
+bodo amat|who cares, whatever
+bukan urusanmu|none of your business
+bukan urusan|none of (someone's) business
+lihat saja nanti|just you wait and see
+kita lihat saja|we'll see
+awas kau|you'll pay for this, watch it
+awas saja|you'll see, watch it
+ada-ada saja|what next, the things people do
+ada benarnya|to have a point
+begini saja|let's do this, here's an idea
+tahu sendiri|you know how it is
+asal tahu saja|just so you know
+sumpah demi|I swear by
+
+# ---- Kinship and people
+kakak kelas|older student, senior (at school)
+adik kelas|younger student, junior (at school)
+tuan rumah|host
+nyonya rumah|hostess, lady of the house
+tuan tanah|landlord
+anak ingusan|snotty kid, green youngster
+orang kecil|ordinary people, the little people
+rakyat kecil|ordinary people, the common folk
+orang ketiga|third party (in a relationship)
+kaum hawa|women, womankind
+pujaan hati|beloved, sweetheart
+kekasih hati|beloved

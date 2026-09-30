@@ -20,7 +20,6 @@ nicht|tidak, bukan|o
 die|(kata sandang feminin; jamak); yang (relatif)|o;o
 es|itu, dia (benda); es gibt: ada|f3s;n
 und|dan|o
-der|(kata sandang maskulin); yang (relatif)|o;o
 wir|kami, kita|f1p
 was|apa; sesuatu (cakapan)|o;o
 zu|ke; terlalu; tertutup; zu Hause: di rumah|o;o;o;n
@@ -32,9 +31,9 @@ ja|ya; (partikel) kan, tentu saja|o;o
 mir|aku, kepadaku (datif)|o
 mit|dengan, bersama|o
 wie|bagaimana; seperti, sebagai|o;o
-den|(kata sandang maskulin akusatif; datif jamak)|o
+den|(kata sandang maskulin akusatif; datif jamak); yang (relatif)|o;o
 mich|aku (akusatif)|o
-auf|di atas, ke atas; terbuka; auf Wiedersehen: sampai jumpa|o;o;n
+auf|di atas, ke atas; terbuka; bangun, sudah bangun; auf Wiedersehen: sampai jumpa|o;o;o;n
 dass|bahwa|o
 aber|tetapi; (partikel) sungguh, memang|o;o
 sein|adalah, menjadi, ada (ist, war, gewesen, ist); -nya (milik laki-laki atau benda)|v;o
@@ -58,7 +57,6 @@ an|di, pada; ke; an sein: menyala (hidup)|o;o;n
 meine|milikku (feminin; jamak); maksudku|o;f1s
 bin|aku adalah|f1s
 noch|masih, belum; lagi, lainnya; noch nicht: belum|o;o;n
-nur|hanya, cuma|o
 da|di sana; lalu; karena|o;o;o
 dir|kamu, kepadamu (datif, akrab)|f2s2p
 sich|diri sendiri (refleksif)|o
@@ -68,7 +66,7 @@ uns|kami, kita, kepada kami|o
 hast|kamu punya (akrab)|f2s2p
 sehen|melihat (sieht, sah, gesehen)|v
 sagen|berkata, mengatakan|v
-dem|(kata sandang maskulin/netral datif)|o
+dem|(kata sandang maskulin/netral datif); kepada yang (relatif)|o;o
 kann|aku bisa; dia bisa|f1s;f3s
 auch|juga|o
 schon|sudah; (partikel) pasti, baiklah|o;o
@@ -102,7 +100,7 @@ muss|aku harus; dia harus|f1s;f3s
 viel|banyak|o
 will|aku mau; dia mau|f1s;f3s
 ihnen|mereka, kepada mereka (datif); (Ihnen) Anda, kepada Anda (formal)|o;f2s2p
-geht|pergi; berfungsi; es geht: tidak apa-apa, lumayan|f3s;o;n
+geht|pergi; berfungsi; es geht um: ini tentang; es geht: keadaannya, tidak apa-apa|f3s;o;n;n
 wo|di mana|o
 etwas|sesuatu; agak, sedikit|o;o
 oh|oh|o
@@ -131,7 +129,6 @@ leben|hidup; kehidupan (das, pl. Leben)|v;o
 geben|memberi (gibt, gab, gegeben); es gibt: ada|v;n
 ihm|dia, kepadanya (laki-laki, datif)|o
 zum|ke (zu+dem)|o
-vielleicht|mungkin|o
 einem|sebuah, seorang (maskulin/netral datif)|o
 diese|ini, (yang) ini|o
 euch|kalian, kepada kalian (akrab)|f2s2p
@@ -255,7 +252,7 @@ schnell|cepat; dengan cepat|o;o
 gar|gar nicht: sama sekali tidak; gar nichts: sama sekali tidak ada; matang|n;n;o
 fahren|mengemudi, pergi (naik kendaraan) (fährt, fuhr, gefahren, ist)|v
 sache|hal, urusan (die, pl. Sachen)|o
-heißen|bernama; berarti (hieß, geheißen)|v;v
+heißen|bernama; berarti (hieß, geheißen); panas (bentuk dari heiß)|v;v;o
 ins|ke dalam (in+das)|o
 dort|di sana|o
 weiter|lebih jauh, terus; weiter!: lanjutkan!|o;n
@@ -294,7 +291,7 @@ unter|di bawah; di antara|o;o
 zusammen|bersama|o
 hand|tangan (die, pl. Hände)|o
 neue|baru|o
-treffen|bertemu; mengenai (sasaran) (trifft, traf, getroffen); pertemuan (das, pl. Treffen)|v;v;o
+treffen|bertemu; mengenai (sasaran) (trifft, traf, getroffen); pertemuan (das, pl. Treffen); Entscheidung treffen: mengambil keputusan|v;v;o;n
 getan|(sudah) melakukan, berbuat, dilakukan|o
 erst|baru, tidak sebelum; pertama|o;o
 liegen|berbaring, terletak; berada (lag, gelegen)|v;v
@@ -332,7 +329,7 @@ wahr|benar, nyata|o
 minute|menit (die, pl. Minuten)|o
 fall|kasus, perkara (der, pl. Fälle); jatuhnya; auf jeden Fall: bagaimanapun juga|o;o;n
 vergessen|lupa, melupakan (vergisst, vergaß, vergessen)|v
-fertig|siap; selesai|o;o
+fertig|selesai; siap|o;o
 allein|sendirian|o
 beim|di, saat (bei+dem)|o
 weit|jauh; lebar|o;o
@@ -362,7 +359,6 @@ frage|pertanyaan (die, pl. Fragen); aku bertanya|o;f1s
 kopf|kepala (der, pl. Köpfe)|o
 auto|mobil (das, pl. Autos)|o
 sage|aku berkata; legenda, hikayat (die, pl. Sagen)|f1s;o
-eigentlich|sebenarnya|o
 schlafen|tidur (schläft, schlief, geschlafen)|v
 uhr|jam, pukul; jam (benda) (die, pl. Uhren)|o;o
 dad|ayah|o
@@ -378,7 +374,6 @@ hi|hai|o
 hoffen|berharap|v
 nett|baik, ramah|o
 später|nanti, kemudian|o
-schaffen|berhasil, sanggup; menciptakan (schuf, geschaffen)|v;v
 stellen|meletakkan (tegak), menaruh; eine Frage stellen: bertanya|v;n
 einzige|satu-satunya|o
 ende|akhir (das, pl. Enden)|o
@@ -388,7 +383,7 @@ schlecht|buruk, jelek; dengan buruk; mir ist schlecht: aku mual|o;o;n
 neu|baru|o
 darauf|di atasnya; sesudah itu; darauf warten: menunggu hal itu|o;o;n
 bald|segera, sebentar lagi|o
-grund|alasan (der, pl. Gründe); dasar, tanah|o;o
+grund|alasan (der, pl. Gründe); dasar, tanah; im Grunde: pada dasarnya|o;o;n
 sorgen|peduli, menyediakan; sich sorgen: khawatir; kekhawatiran (jamak dari die Sorge)|v;n;o
 eins|satu|o
 kerl|orang, cowok (der, pl. Kerle)|o
@@ -405,7 +400,7 @@ ahnung|gagasan, firasat (die, pl. Ahnungen); keine Ahnung: tidak tahu|o;n
 bisschen|ein bisschen: sedikit|n
 scheinen|tampaknya; bersinar (schien, geschienen)|v;v
 jungs|anak-anak, cowok-cowok (jamak cakapan dari der Junge)|o
-schwer|berat; sulit|o;o
+schwer|sulit; berat|o;o
 polizei|polisi (die, no pl.)|o
 setzen|menaruh, mendudukkan; sich setzen: duduk|v;n
 draußen|di luar|o
@@ -417,7 +412,6 @@ fast|hampir|o
 erzählen|menceritakan|v
 runter|turun, ke bawah (cakapan)|o
 verlassen|meninggalkan (verlässt, verließ, verlassen); ditinggalkan, sepi; sich verlassen auf: mengandalkan|v;o;n
-ruhig|tenang, sepi|o
 geschichte|cerita (die, pl. Geschichten); sejarah|o;o
 eigene|sendiri, milik sendiri|o
 vorbei|lewat, berlalu; vorbei sein: sudah berakhir|o;n
@@ -425,7 +419,7 @@ gerne|dengan senang hati; gerne haben: suka|o;n
 job|pekerjaan (der, pl. Jobs)|o
 dran|padanya (cakapan); ich bin dran: giliranku|o;n
 hinter|di belakang|o
-land|negara (das, pl. Länder); tanah; pedesaan|o;o;o
+land|negara (das, pl. Länder); tanah; pedesaan; auf dem Land / auf dem Lande / aufs Land: di pedesaan|o;o;o;n
 mom|ibu|o
 ziemlich|cukup, agak|o
 voll|penuh; benar-benar (cakapan)|o;o
@@ -452,7 +446,7 @@ schreiben|menulis (schrieb, geschrieben)|v
 erzählt|(sudah) menceritakan, diceritakan|o
 verlieren|kehilangan, kalah (verlor, verloren)|v
 stunden|jam (jamak dari die Stunde), berjam-jam|o
-tragen|membawa; memakai (trägt, trug, getragen)|v;v
+tragen|memakai (trägt, trug, getragen); membawa|v;v
 oben|di atas; di lantai atas|o;o
 gestern|kemarin|o
 lachen|tertawa|v
@@ -461,7 +455,7 @@ endlich|akhirnya|o
 he|hei|o
 etwa|kira-kira; jangan-jangan (dalam pertanyaan)|o;o
 wasser|air (das, pl. Wasser)|o
-reichen|cukup; menyerahkan, mengoper; es reicht: sudah cukup|v;v;n
+reichen|cukup; menyerahkan, mengoper; es reicht: sudah cukup; kaya (bentuk dari reich); orang kaya (die Reichen)|v;v;n;o;o
 ernst|serius; keseriusan (der, no pl.); im Ernst: serius|o;o;n
 anders|lain, berbeda; secara lain|o;o
 miss|Nona|o
@@ -1144,7 +1138,6 @@ detective|detektif|o
 gruppe|kelompok (die, pl. Gruppen)|o
 mädel|gadis (das, pl. Mädels)|o
 überlegen|mempertimbangkan, memikirkan; lebih unggul|v;o
-rat|nasihat (der, pl. Räte); dewan|o;o
 hau|hau ab: pergi sana!; pukul! (akrab)|n;o
 königin|ratu (die, pl. Königinnen)|o
 sheriff|sheriff|o
@@ -5535,7 +5528,6 @@ lüg|bohonglah! (akrab)|o
 schwindel|pusing (der, no pl.); penipuan|o;o
 streben|berusaha keras|v
 vorgeschlagen|(sudah) mengusulkan, diusulkan|o
-borg|meminjam (aku/dia, lampau)|o
 fahrkarte|tiket (die, pl. Fahrkarten)|o
 genehmigt|(sudah) menyetujui, disetujui|o
 ick|aku (dialek Berlin)|f1s
@@ -5991,7 +5983,6 @@ drittel|sepertiga (das, pl. Drittel)|o
 lieferwagen|mobil boks (der, pl. Lieferwagen)|o
 zurückgebracht|(sudah) mengembalikan, dikembalikan|o
 blondine|wanita pirang (die, pl. Blondinen)|o
-drang|dorongan (der, no pl.); menembus (lampau)|o;o
 einsame|kesepian|o
 erwartete|mengharapkan (lampau)|o
 tierarzt|dokter hewan (der, pl. Tierärzte)|o
@@ -7274,3 +7265,12 @@ aneignen|sich aneignen: memperoleh, mempelajari; mengambil alih|n;v
 aufflammen|berkobar, menyala tiba-tiba|v
 anpflanzen|menanam|v
 zusammenfalten|melipat|v
+der|(kata sandang maskulin); yang (relatif); (kata sandang feminin datif), kepada; (kata sandang genitif feminin; genitif jamak), dari|o;o;o;o
+nur|hanya, cuma; (dalam pertanyaan) sih, gerangan|o;o
+vielleicht|mungkin; (partikel) sungguh, benar-benar (dalam seruan)|o;o
+eigentlich|sebenarnya; (dalam pertanyaan) sebenarnya, omong-omong|o;o
+schaffen|berhasil, sanggup (schaffte, geschafft); menciptakan (schuf, geschaffen)|v;v
+ruhig|tenang, sepi; (partikel) silakan saja, tidak apa-apa|o;o
+rat|nasihat (der, pl. Ratschläge); dewan, anggota dewan (pl. Räte)|o;o
+borg|pinjamlah!, pinjamkanlah! (akrab)|o
+drang|dorongan (der, no pl.); menembus, masuk (aku/dia, lampau dari dringen)|o;o

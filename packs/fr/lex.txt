@@ -2513,7 +2513,7 @@ témoignage|||nm
 chevalier|||nm
 psy|||nm
 roue|||nf
-etat||état|nm;nm
+etat||état|nm
 mondial|||
 empoisonner|||
 international|||
@@ -2998,7 +2998,7 @@ fascinant|||
 ressource|||nf
 pendre|||
 organe|||nm
-diner||dîner|
+diner||dîner|nm
 rideau|||nm
 ambassadeur|||nm
 sœurs||sœur|nf
@@ -4358,13 +4358,13 @@ drone|||nm
 épais|||
 aussitôt|||
 graisse|||nf
-pere||père|
+pere||père|nm
 mesurer|||
 onze|||num
 évaluation|||nf
 turc|||
 capital|||nm
-pére||père|
+pére||père|nm
 casquette|||nf
 brûlure|||nf
 levée|||nf
@@ -4994,7 +4994,7 @@ sniper|||nm
 bonus|||nm
 préservatif|||nm
 accrochez-vous||accrocher|
-ete||être|
+ete||être|nm
 fosse|||nf
 révolutionnaire|||
 assigner|||
@@ -5206,7 +5206,7 @@ mére||mère|
 débris|||nm
 gala|||nm
 flûte|||nf
-entrainement||entraînement|
+entrainement||entraînement|nm
 flux|||nm
 averti||avertir|
 branler|||
@@ -5216,7 +5216,7 @@ schéma|||nm
 bœuf|||nm
 baptiser|||
 font-ils||faire|
-noel||noël|
+noel||noël|nm
 pdg|||nm
 baver|||
 télécharger|||
@@ -5226,7 +5226,7 @@ indispensable|||
 rigolo|||
 regardez-vous||regarder|
 entrepreneur|||nm
-mere||mère|
+mere||mère|nf
 distrait|||
 livreur|||nm
 cure|||nf
@@ -6036,7 +6036,7 @@ rangé||ranger|
 utérus|||nm
 colon|||nm
 croyable|||
-maitre||maître|
+maitre||maître|nm;nf
 contrebande|||nf
 stabiliser|||
 dôme|||nm
@@ -6046,7 +6046,7 @@ frérot|||nm
 pointu|||
 gifler|||
 ignoré||ignorer|
-probleme||problème|
+probleme||problème|nm
 admirable|||
 prends-la||prendre|
 renifler|||
@@ -6088,7 +6088,7 @@ cube|||nm
 vigilant|||
 désigner|||
 mollo|||
-hopital||hôpital|
+hopital||hôpital|nm
 punaise|||nf
 ragot|||nm
 support|||nm
@@ -6559,7 +6559,7 @@ accumuler|||
 ajuster|||
 composant|||nm
 polo|||nm
-equipe||équipe|
+equipe||équipe|nf
 sottise|||nf
 offensé||offenser|
 fabrication|||nf
@@ -8679,7 +8679,7 @@ insistance|||nf
 pollen|||nm
 soucieux|||
 soulevé|||
-chaine|||nf
+chaine||chaîne|nf
 consulat|||nm
 contrepartie|||nf
 cycliste|||nmf
@@ -9226,7 +9226,7 @@ déverser|||
 ecartez||écarter|
 fendu||fendre|
 friction|||nf
-gout||goût|
+gout||goût|nm
 grêle|||
 huissier|||nm
 inondé||inonder|
@@ -9493,7 +9493,7 @@ vigoureux|||
 émancipation|||nf
 coder|5||
 efficience|5||nf
-entrainer|||
+entrainer||entraîner|
 hippocampe|||nm
 hospice|||nm
 interlocuteur|||nm
@@ -9832,7 +9832,7 @@ campagnard|||
 chancelant|5||
 chanceler|5||
 chenille|||nf
-choeur|||nm
+choeur||chœur|nm
 coiffe|||nf
 conforter|5||
 destitution|||nf
@@ -11075,7 +11075,7 @@ pénétration|||nf
 roquette|||nf
 tapir|5||
 traders|||nm
-traine|||
+traine||traîner|
 abrogation|5||nf
 affiner|||
 alignement|||nm
@@ -11291,7 +11291,7 @@ patin|||nm
 pernicieux|5||
 philologue|5||nmf
 prémunir|5||
-reconnaitre|||
+reconnaitre||reconnaître|
 renégociation|5||nf
 romanesque|||
 rupestre|5||

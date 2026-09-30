@@ -1,0 +1,610 @@
+# What each Spanish phrase in `phrases.txt` means, in Mandarin Chinese
+# (simplified characters).
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Chinese where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Three rules, all inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.zh.txt`.
+#   - `;` `( )` and `: ` are ASCII, never their fullwidth forms: the app scans
+#     for those exact characters to find where one sense ends and the next
+#     begins.
+#
+# Verbs are glossed as bare Chinese verbs — the English `to` has no counterpart
+# to carry across. Spanish inside brackets, and a Spanish key before `: `, stay
+# Spanish. Grammar is named in Chinese terms (虚拟式, 自复动词, 阴性/阳性), and
+# register and region the way gloss.zh.txt marks them (口语, 粗俗, 西班牙用法,
+# 拉美用法).
+
+# ---- 动词短语: 变位的是动词, 所以词组以不定式列出。
+tener que|必须, 得
+hay que|必须, 有必要 (无人称)
+acabar de|刚刚 (做了某事)
+ir a|将要, 打算 (+ 不定式); 去 (某地)
+dejar de|停止 (做某事)
+volver a|再次 (做某事); 回到
+empezar a|开始 (做某事)
+poner a|着手, 开始 (做某事) (ponerse a); 让 (某人) 去 (工作, 做某事)
+tratar de|试图, 设法; 关于, 讲的是
+estar de acuerdo|同意
+poner de pie|让 (某人) 站起来; ponerse de pie: 站起来
+
+# ---- tener + 名词: 西班牙语用"有", 汉语常用"是"或形容词。
+tener razón|有道理, 说得对
+tener ganas|(+ de) 想要, 有兴致
+tener miedo|害怕
+tener cuidado|小心
+tener prisa|赶时间, 着急
+tener hambre|饿
+tener sueño|困; 做梦 (tener sueños)
+tener suerte|走运, 运气好
+tener sentido|有意义, 说得通
+tener lugar|举行, 发生
+
+# ---- 其他轻动词习语。
+hacer falta|需要, 缺少
+hacer caso|理会, 听从
+hacer daño|伤害, 弄疼
+dar igual|无所谓, 没关系
+dar miedo|令人害怕
+dar cuenta|darse cuenta (de): 意识到, 察觉
+dar a luz|分娩, 生孩子
+echar de menos|想念 (某人)
+llevar a cabo|实施, 完成
+valer la pena|值得
+llamar la atención|引人注意; 训斥
+caer bien|(对某人) 有好感, 合得来
+tomar el pelo|开玩笑, 捉弄
+meter la pata|说错话, 做错事, 出洋相
+
+# ---- 连接词和话语标记。
+sin embargo|然而, 不过
+por eso|所以, 因此
+así que|所以, 因此
+ya que|既然, 由于
+puesto que|既然, 因为
+para que|为了, 以便
+a menos que|除非
+por lo tanto|因此
+o sea|也就是说, 我是说
+es decir|也就是说
+de hecho|事实上
+en realidad|其实, 实际上
+por cierto|顺便说一下
+en fin|总之, 反正
+de todos modos|无论如何, 反正
+de todas formas|无论如何, 反正
+por si acaso|以防万一
+sobre todo|尤其, 特别是
+además de|除了…之外, 以及
+por lo visto|看来, 似乎
+más o menos|差不多, 大约
+por lo menos|至少
+al menos|至少
+
+# ---- 写成两个词的疑问词和关系词。
+por qué|为什么
+para qué|为了什么, 干什么用
+lo que|…的东西, 所…的
+por lo que|因此, 所以
+qué tal|怎么样?; …如何
+
+# ---- 情态和程度。
+a lo mejor|也许, 说不定
+tal vez|也许, 或许
+por supuesto|当然
+desde luego|当然, 的确
+claro que sí|当然 (强调肯定)
+en serio|认真地, 真的
+de verdad|真的, 确实
+ni siquiera|甚至都不, 连…都不
+en absoluto|根本不, 一点也不 (与否定词连用)
+ya no|不再
+todavía no|还没有
+lo mismo|同样的事
+de acuerdo|同意, 好的
+a punto de|即将, 正要
+cada vez más|越来越
+
+# ---- 时间和方式。
+de repente|突然
+de pronto|突然
+a veces|有时
+a menudo|经常
+de vez en cuando|偶尔, 时不时
+en cuanto|一…就
+en cuanto a|至于, 关于
+a la vez|同时
+de nuevo|再次
+otra vez|又, 再一次
+ahora mismo|马上, 此刻
+por ahora|暂时, 目前
+de momento|目前, 暂时
+al principio|起初
+al final|最后, 到头来
+en punto|整 (钟点)
+a tiempo|准时, 及时
+hoy en día|如今
+en seguida|立刻, 马上
+a lo largo de|沿着; 在…期间, 贯穿
+
+# ---- 字面看不出意思的介词短语。
+a pesar de|尽管
+a causa de|因为, 由于
+gracias a|多亏, 由于
+a través de|通过, 穿过
+a partir de|从 (某时) 起
+en vez de|代替, 而不是
+en lugar de|代替, 而不是
+acerca de|关于
+en contra de|反对, 违背
+
+# ---- 固定对话用语。
+por favor|请
+de nada|不客气; 白白地, 徒劳
+lo siento|对不起, 抱歉; (字面) 我感觉到它
+menos mal|幸好, 还好
+no importa|没关系
+qué pena|真可惜
+ni modo|算了, 没办法 (拉美用法)
+por dios|看在上帝的份上, 天哪
+buenos días|早上好
+buenas tardes|下午好
+buenas noches|晚上好; 晚安
+hasta luego|回头见
+hasta mañana|明天见
+
+# ==== 2026-09-23 扩充 (第四阶段): 由模型提出, 仅保留经 `measure:phrase-fit`
+# 在小说和 OPUS 语料中找到、且抽样句子确以习语义出现的词组。
+# ---- 动词短语与动词 + 介词
+llegar a ser|成为
+acabar por|最终 (做了某事)
+terminar por|最终 (做了某事)
+haber de|必须, 得; 注定要
+deber de|想必, 大概 (推测)
+echar a correr|拔腿就跑
+echar a reír|放声大笑, 忍不住笑起来
+echar a andar|动身走起来
+romper a llorar|放声大哭
+ir a parar|最终落到; (voy a parar) 我要停下来
+ir a por|去拿, 去找 (西班牙用法)
+querer decir|意思是
+ser hora de|是…的时候了
+tardar en|花 (时间) 做; 迟迟不
+pensar en|想着, 想到
+soñar con|梦见, 梦想
+contar con|依靠, 指望; 拥有
+dar con|找到, 碰到
+acabar con|结束, 终结, 消灭
+terminar con|结束; 和…分手; 做完
+romper con|和…分手, 和…决裂
+quedar con|quedarse con: 留下, 保留; 约 (某人) 见面
+acordar de|acordarse de: 记得, 想起
+olvidar de|olvidarse de: 忘记
+enamorar de|enamorarse de: 爱上
+fijar en|fijarse en: 注意到, 留意; 盯住
+negar a|negarse a: 拒绝 (做); 拒绝给 (某人)
+atrever a|atreverse a: 敢于
+limitar a|limitarse a: 只是, 仅限于
+disponer a|disponerse a: 准备 (做); (dispuesto a) 愿意
+estar dispuesto a|愿意, 准备好
+oler a|有…的气味
+tirar de|拉, 拽
+dejar caer|使落下, 扔下; 顺口透露
+hacer saber|告知, 通知 (某人)
+# ---- tener
+tener que ver con|与…有关
+tener nada que ver|(no tener nada que ver) 与…毫无关系
+tener algo que ver|与…有点关系
+tener años|(tener 20 años) …岁
+tener en cuenta|考虑到, 记住
+tener por qué|(no tener por qué) 没有理由, 不必
+tener la culpa|有过错, 该怪
+tener frío|感觉冷
+tener calor|感觉热
+tener sed|口渴
+tener celos|嫉妒, 吃醋
+tener vergüenza|羞愧; 难为情
+tener gracia|有趣, 好笑; (反语) 真行啊
+tener entendido|听说, 据…所知
+tener pensado|打算, 计划
+# ---- dar
+dar prisa|darse prisa: 赶快
+dar la vuelta|转身 (darse la vuelta); 翻过来; 绕一圈
+dar media vuelta|转身, 向后转
+dar una vuelta|出去走走, 兜一圈
+dar vueltas|转来转去; 辗转反侧; 反复琢磨
+dar un paso|迈出一步
+dar un paseo|散步
+dar de comer|喂
+dar la razón|承认 (某人) 说得对
+dar la mano|握手; 牵手
+dar la espalda|背对, 背弃
+dar la cara|敢于面对, 承担责任
+dar la gana|想, 愿意 (me da la gana: 我乐意)
+dar ganas|使 (某人) 想要
+dar pena|令人难过; 同情, 可怜 (me da pena: 我替他难过); 不好意思, 难为情 (拉美用法; me da pena: 我不好意思)
+dar vergüenza|令人难堪; 感到羞愧
+dar asco|令人恶心
+dar lo mismo|无所谓, 都一样
+dar a entender|暗示
+dar por vencido|darse por vencido: 认输, 放弃
+dar por sentado|想当然, 视为理所当然
+# ---- hacer
+hacer cargo|hacerse cargo de: 负责, 接管; 理解
+hacer frente|面对, 应对
+hacer el favor|(haz el favor de) 请; 帮个忙
+hacer una pregunta|提问
+hacer tiempo|(hace tiempo) 很久以前, 很久了; 消磨时间
+hacer mucho tiempo|(hace mucho tiempo) 很久以前, 很久了
+hace poco|不久前, 最近
+hace un rato|刚才
+hace años|多年前; 好多年了
+desde hace|(到现在) 已经…了
+desde hacía|(到那时) 已经…了
+hacer frío|(hace frío) 天冷
+hacer calor|(hace calor) 天热
+hacer tarde|hacerse tarde: 天晚了
+hacer de noche|hacerse de noche: 天黑
+hacer ademán de|做出要…的样子
+hacer como si|假装, 装作
+hacer las paces|和好, 讲和
+hacer gracia|逗乐, 觉得好笑
+hacer trampa|作弊, 耍花招
+hacer las maletas|收拾行李
+# ---- echar, tomar, poner
+echar un vistazo|看一眼, 瞧瞧
+echar una ojeada|瞥一眼
+echar una mano|帮一把
+echar mano|echar mano de: 求助于, 动用
+echar la culpa|怪罪, 归咎
+echar a perder|弄坏, 毁掉
+tomar el sol|晒太阳
+poner nervioso|使紧张 (ponerse nervioso: 紧张起来)
+poner rojo|使脸红 (ponerse rojo: 脸红)
+poner en pie|站起来 (ponerse en pie); 使恢复, 振兴
+poner en marcha|启动, 开始实施
+poner en camino|ponerse en camino: 动身, 上路
+poner de acuerdo|ponerse de acuerdo: 达成一致
+poner al día|使了解最新情况 (ponerse al día: 赶上进度)
+poner los ojos en blanco|翻白眼
+poner los pelos de punta|令人毛骨悚然
+# ---- quedar, llevar, pasar, venir 及其他动词
+quedar sin|quedarse sin: 用完, 没有了
+quedar dormido|quedarse dormido: 睡着; 睡过头
+quedar mirando|quedarse mirando: 盯着看, 愣愣地看
+quedar quieto|quedarse quieto: 一动不动
+quedar en blanco|quedarse en blanco: 脑子一片空白
+quedar bien|好看, 合适; 留下好印象
+llevar bien|llevarse bien: 相处融洽
+llevar puesto|穿着, 戴着
+salir bien|结果很好, 顺利
+salir mal|出岔子, 结果不好
+salir adelante|渡过难关, 勉强维持
+salir con la suya|salirse con la suya: 如愿以偿, 得逞
+pasar bien|pasarlo bien: 玩得开心
+pasar por alto|忽略, 忽视
+pasar de largo|径直走过
+pasar el rato|消磨时间
+venir bien|合适, 正好用得上
+venir abajo|venirse abajo: 倒塌, 垮掉
+caer mal|(对某人) 没好感, 合不来
+caer en la cuenta|恍然大悟, 意识到
+volver loco|把人逼疯 (volverse loco: 发疯)
+volver en sí|苏醒, 恢复知觉
+perder los estribos|发脾气, 失去冷静
+dejar en paz|别打扰, 放过
+pedir perdón|道歉
+llamar a la puerta|敲门
+prestar atención|注意
+cumplir años|过生日; (cumplir 20 años) 满20岁
+costar trabajo|费劲, 不容易
+caber duda|(no cabe duda) 毫无疑问
+faltar más|(no faltaba más, faltaría más) 当然, 别客气; 太过分了
+ir al grano|直奔主题
+ir a pique|沉没; 垮台
+encoger de hombros|encogerse de hombros: 耸肩
+fruncir el ceño|皱眉
+negar con la cabeza|摇头
+cruzar de brazos|cruzarse de brazos: 抱起双臂; 袖手旁观
+morir de risa|morirse de risa: 笑死, 笑得要命
+importar un bledo|毫不在乎
+pegar ojo|(no pegar ojo) 一夜没合眼
+# ---- 状态: ser, estar 及其后的成分
+estar harto|受够了, 烦透了
+harto de|受够了…, 厌倦…
+de broma|开玩笑地
+en broma|开玩笑地
+de pie|站着
+de rodillas|跪着
+de espaldas|背对着; 仰面
+de puntillas|踮着脚
+de bruces|脸朝下, 趴着
+en cuclillas|蹲着
+boca arriba|脸朝上, 仰卧
+boca abajo|脸朝下, 俯卧
+a gusto|舒服, 自在
+a salvo|安全
+al tanto|知情, 了解 (estar al tanto: 了解情况)
+al corriente|了解最新情况, 知情
+en lo cierto|对的 (estar en lo cierto: 说得对)
+de moda|流行, 时髦
+de vuelta|回来了; 在回来的路上
+de guardia|值班
+en juego|面临风险, 攸关; 在比赛中
+en las últimas|奄奄一息, 快不行了
+a la altura|在…的高度; (estar a la altura) 称职, 不负所望
+pendiente de|关注着, 留意; 等着; 悬而未决
+en las nubes|心不在焉, 走神
+no es para tanto|没那么严重
+# ---- 连接词和话语标记
+es que|只是, 问题是; (字面) 是…
+como si|好像, 仿佛
+como si nada|若无其事
+lo cual|这 (指前面整件事)
+lo de|…的事, 关于…的那件事
+lo demás|其余的, 其他一切
+lo que sea|随便什么, 无论什么
+lo cierto es que|事实是
+la verdad es que|说实话, 其实
+el caso es que|问题是
+resulta que|原来, 结果是
+nada más|仅此而已, 只; (+ 不定式) 一…就
+nada menos|不少于, 竟然是
+más que nada|主要是, 尤其
+más bien|倒不如说, 而是
+en efecto|确实, 果然
+en cambio|相反, 而
+en todo caso|无论如何; 要说的话
+en definitiva|总之, 归根结底
+en cierto modo|在某种程度上
+no obstante|然而, 不过
+mientras tanto|与此同时
+entre tanto|与此同时
+aun así|即便如此
+aun cuando|即使
+dado que|鉴于, 既然
+siempre que|每当; 只要
+siempre y cuando|只要
+con tal de|只要
+con tal que|只要
+a no ser que|除非
+al fin y al cabo|毕竟, 归根结底
+a fin de cuentas|毕竟, 到头来
+o bien|或者
+si bien|虽然
+ahora bien|不过, 然而
+pues bien|那么, 好吧
+así pues|因此, 于是
+así como|以及; 正如
+tal como|正如, 恰如
+tal y como|正如, 恰如
+por tanto|因此
+por consiguiente|因此, 所以
+por ello|因此, 正因如此
+por otro lado|另一方面
+por otra parte|另一方面; 此外
+por un lado|一方面
+de modo que|所以, 以便
+de manera que|所以, 以便
+de ahí|因此; 从那里
+de ahí que|因此, 所以
+de lo contrario|否则
+por lo demás|除此之外
+a su vez|反过来, 转而
+a medida que|随着
+en tanto que|当…时; 作为, 就…而言
+tan solo|只, 仅仅
+tan sólo|只, 仅仅
+aunque sea|哪怕只是, 至少
+ante todo|首先, 最重要的是
+a todo esto|顺便说一句; 与此同时
+dicho esto|话虽如此
+dicho sea de paso|顺便说一句
+por así decirlo|可以这么说
+por decirlo así|可以这么说
+a saber|即; 天知道
+que yo sepa|据我所知
+cuanto más|越…越; 更加
+cuanto antes|尽快
+más allá de|超出, 在…之外
+más allá|更远处; 来世, 彼岸
+# ---- 程度、数量和情态
+todo el mundo|每个人, 大家
+del todo|完全
+sin querer|无意中, 不小心
+sin más|就这样, 二话不说
+sin falta|务必, 一定
+sin cesar|不停地
+ni idea|完全不知道
+ni hablar|没门, 不可能
+ni mucho menos|远非如此, 根本不
+ni que|好像; 就算…也不
+ni se te ocurra|想都别想
+gran cosa|了不起的事, 大不了的
+un montón de|一大堆, 很多
+un montón|很多, 大量
+un tal|一个叫…的人, 某个
+y demás|等等
+de lo más|非常, 极其
+a lo sumo|最多, 至多
+por muy|无论多么 (+ 形容词)
+por mucho que|无论多少
+por más que|无论怎样, 不管多少
+por poco|差点儿
+de veras|真的
+a medias|半途, 做了一半; 各半
+a duras penas|好不容易, 勉强
+de sobra|绰绰有余; 非常清楚
+de primera|一流的; (de primera mano) 第一手的
+de por sí|本身, 本来
+# ---- 时间
+por fin|终于
+al fin|终于
+al cabo de|(一段时间) 之后
+al poco rato|不一会儿
+un buen rato|好一阵子
+dentro de poco|不久, 很快
+de un momento a otro|随时, 马上
+de la noche a la mañana|一夜之间, 突然
+de golpe|突然, 一下子
+de improviso|出其不意地
+de antemano|事先, 预先
+de una vez|一劳永逸地; 一次性地
+de una vez por todas|一劳永逸地, 彻底
+de cuando en cuando|不时, 偶尔
+una y otra vez|一次又一次
+de noche|在夜里; (se hace de noche) 天黑了
+por la noche|晚上, 夜里
+por la mañana|上午, 早上
+por la tarde|下午, 傍晚
+pasado mañana|后天
+hoy día|如今
+a estas alturas|到了这个地步, 事到如今
+a primera hora|一大早
+a finales de|在…末
+a la larga|从长远看
+en breve|很快, 不久
+en adelante|从那以后, 往后
+de ahora en adelante|从今以后
+hasta ahora|到目前为止; (道别) 一会儿见
+hasta la vista|再见
+a eso de|大约在 (某时)
+en el acto|当场, 立即
+en un abrir y cerrar de ojos|一眨眼间
+en seco|突然, 猛地 (停住)
+# ---- 方式和地点
+a solas|独自
+a ciegas|盲目地
+a oscuras|在黑暗中
+a escondidas|偷偷地, 背着 (某人)
+a tientas|摸索着
+a toda prisa|匆匆忙忙
+a todo correr|全速地
+a lo lejos|在远处
+a lo grande|大张旗鼓地, 阔气地
+a la fuerza|强行; 不得不, 必然
+a propósito|故意; 顺便说一下
+a pie|步行
+a mano|手工; 在手边, 方便
+a la ligera|轻率地
+a regañadientes|不情愿地
+a carcajadas|(笑) 哈哈大笑地
+a gritos|大喊着
+al revés|反过来, 里朝外, 颠倒
+al contrario|恰恰相反
+al parecer|看来, 似乎
+al fondo|在里面, 在尽头, 在底部
+al aire libre|在户外, 露天
+al respecto|关于此事
+al pie de la letra|逐字地, 一字不差地
+al azar|随机
+al igual que|和…一样
+en voz alta|大声地
+en voz baja|小声地
+en el fondo|内心深处; 在底部
+en pleno|在…正当中
+en marcha|运转中, 进行中; (¡en marcha!) 出发!
+de reojo|用眼角, 斜眼
+de prisa|匆忙地
+de memoria|凭记忆, 背诵
+de mala gana|勉强地, 不情愿地
+de buena gana|乐意地
+de maravilla|好极了
+de lleno|完全地, 正中
+de par en par|大开着
+de ninguna manera|绝不
+de todas maneras|无论如何, 反正
+de otro modo|否则; 用另一种方式
+de siempre|一贯的, 老样子; 一辈子的
+como de costumbre|照常, 像往常一样
+de costumbre|平常的, 像往常一样
+como es debido|恰当地, 像样地
+de camino|在路上, 顺路
+de entrada|一开始, 首先
+poco a poco|渐渐地, 一点一点地
+por encima de|在…上方; 超过
+por encima|在上面; 粗略地
+por delante|在前面
+por ahí|在那附近, 某个地方; 在外面闲逛; 大约
+por aquí|这附近, 这边
+por allí|那边
+por allá|那边
+por todas partes|到处
+por doquier|到处
+por su cuenta|独自, 自作主张
+por lo bajo|低声地; 至少
+por desgracia|不幸的是
+por culpa de|因为, 都怪
+por si|以防
+por nada del mundo|无论如何也不
+de la mano|手拉手; (de la mano de) 由…带领
+a la vuelta de la esquina|就在拐角处, 近在眼前
+junto a|在…旁边
+frente a|在…对面; 面对
+# ---- 介词短语
+en torno a|围绕, 关于
+a cambio de|以…交换
+a cambio|作为回报
+a fin de|为了
+a base de|靠, 凭借; 以…为基础
+a fuerza de|靠着, 凭借 (反复)
+de parte de|代表, 来自
+a falta de|缺少, 由于没有
+a modo de|作为, 当作
+a espaldas de|背着 (某人)
+# ---- 固定对话和感叹
+a ver|看看; (a ver si) 看看是否, 但愿; (用在移动动词后) 去看
+vamos a ver|让我们看看; 我们会看到的
+qué pasa|怎么了, 发生什么事了
+qué te pasa|你怎么了
+qué hay|有什么新鲜事; (qué hay de) …怎么样; 有什么
+qué va|哪儿啊, 根本不是
+qué más da|有什么关系
+qué le vamos a hacer|算了, 能怎么办呢
+qué lástima|真可惜
+qué vergüenza|真丢人; 你真不害臊
+qué demonios|搞什么鬼
+qué diablos|见鬼, 到底
+qué rayos|到底怎么回事
+qué carajo|他妈的到底 (粗俗)
+cómo no|当然, 没问题
+cómo que|什么意思
+claro está|当然
+no puede ser|不可能!; 不可能是
+puede que|也许, 可能
+no pasa nada|没事, 别担心
+no hay de qué|不客气
+no me digas|真的吗, 不会吧
+ya está|好了, 完成了
+ya lo creo|那还用说, 当然
+ya era hora|早该如此了
+ya verás|你会看到的, 你就知道了
+ya ves|你看; 就是这样
+ya sabes|你知道的
+venga ya|得了吧, 少来 (表示不信) (西班牙用法)
+dios mío|我的天
+madre mía|天哪, 我的妈呀
+válgame dios|天啊
+gracias a dios|谢天谢地
+vaya por dios|哎呀, 真是的
+por amor de dios|看在上帝的份上
+por el amor de dios|看在上帝的份上
+con permiso|劳驾, 借过
+mucho gusto|很高兴认识你
+lo que faltaba|真是雪上加霜
+pase lo que pase|无论发生什么
+como quieras|随你便
+como sea|不管怎样; 无论如何
+sea como sea|不管怎样, 无论发生什么
+sea lo que sea|不管是什么
+a la mierda|见鬼去吧, 滚 (粗俗)

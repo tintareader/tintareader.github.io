@@ -1,0 +1,319 @@
+# What each Mandarin construction in `phrases.txt` means, in Indonesian.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Indonesian where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.id.txt`.
+#
+# Verbs are glossed as bare Indonesian verbs. The Chinese inside a gloss — the
+# split form (帮了我一个忙), the frame (生X的气), the word it is not (过世) — is
+# kept exactly as `phrases.en.txt` has it: it is Mandarin the reader is
+# studying, not English prose.
+# ---- Separable verbs (离合词) split by 了/过/个/a pronoun or a possessive: the
+# contiguous form is usually one headword and then never matches two slots; where it
+# is not (请假, 照相, 理发), the pattern also underlines the adjacent pair.
+帮 * 大忙|memberi bantuan besar (kepada seseorang)
+帮 * 忙|membantu, menolong (terpisah: 帮了我一个忙)
+见 过世 面|sudah banyak makan asam garam (bukan 过世 'meninggal')
+见 * 面|bertemu, berjumpa
+睡 * 觉|tidur
+生 * 气|marah (生X的气: marah kepada X)
+洗 * 澡|mandi
+聊 * 天|mengobrol
+吃 * 亏|rugi, kalah
+打 * 架|berkelahi
+吵 * 架|bertengkar
+结 * 婚|menikah
+离 * 婚|bercerai
+拍 * 照|memotret
+散 * 步|berjalan-jalan
+丢 * 脸|kehilangan muka, dipermalukan
+开 * 玩笑|bercanda; mengolok-olok
+叹 * 口气|menghela napas
+叹 * 一口气|menghela napas
+松 * 口气|bernapas lega
+松 * 一口气|bernapas lega
+吸 * 口气|menarik napas
+吸 * 一口气|menarik napas
+喘 * 口气|mengatur napas
+吃 * 醋|cemburu
+吃 * 苦|menanggung kesusahan
+吃 * 惊|terkejut (吃了一惊)
+发 * 脾气|naik darah, marah-marah
+发 * 火|naik darah, marah
+请 * 假|minta izin cuti
+游 * 泳|berenang
+上 * 课|mengikuti atau mengajar kelas
+放 * 假|libur
+住 * 院|dirawat di rumah sakit
+打 * 仗|berperang
+打 * 针|menyuntik atau disuntik
+报 * 仇|membalas dendam
+道 * 歉|meminta maaf
+鞠 * 躬|membungkuk memberi hormat
+开 * 车|menyetir
+迷 * 路|tersesat
+插 * 嘴|menyela pembicaraan
+泄 * 气|patah semangat
+争 * 气|membanggakan (seseorang)
+赌 * 气|merajuk
+费 * 劲|butuh banyak tenaga
+使 * 劲|mengerahkan tenaga
+干 * 杯|bersulang
+发 * 誓|bersumpah
+算 * 账|membuat perhitungan (dengan)
+打 * 赌|bertaruh
+露 * 面|menampakkan diri, muncul
+过 * 瘾|puas sepuas-puasnya
+发 * 疯|menjadi gila
+发 * 呆|bengong, melamun
+发 * 愁|cemas
+发 * 财|menjadi kaya
+讲 * 理|masuk akal, mau berpikir jernih
+丢 * 面子|kehilangan muka
+给 * 面子|menghargai (seseorang), menjaga mukanya
+伤 * 脑筋|bikin pusing, memeras otak
+动 * 脑筋|memakai otak
+留 * 神|berhati-hati, waspada
+敬 * 酒|bersulang untuk seseorang
+值 * 班|bertugas jaga
+打 * 盹|terkantuk-kantuk
+打 * 哈欠|menguap
+打 * 喷嚏|bersin
+打 * 瞌睡|tertidur sebentar
+见 * 鬼|apa-apaan ini; melihat hantu
+倒 * 霉|sial
+遭 * 殃|tertimpa musibah
+受 * 罪|menderita
+回 过头|menoleh (回过头: bukan 过头 'keterlaluan')
+转 过头|menoleh (转过头: bukan 过头 'keterlaluan')
+摆 * 手|melambaikan tangan (menolak, mengabaikan)
+撒 * 谎|berbohong
+拍 * 马屁|menjilat
+走 * 后门|lewat jalur belakang, main koneksi
+打 * 招呼|menyapa; memberi tahu (seseorang) lebih dulu
+打 * 交道|berurusan dengan
+出 * 主意|memberi saran, usul
+拿 * 主意|mengambil keputusan
+打 * 主意|mengincar (打X的主意); 打定主意: membulatkan tekad
+伤 * 心|sedih, patah hati
+做 * 梦|bermimpi
+沾 * 光|ikut kecipratan untung
+占 * 便宜|mengambil keuntungan (dari)
+告 * 状|mengadu; mengajukan pengaduan
+打 * 官司|berperkara di pengadilan
+打 * 哆嗦|menggigil, gemetar
+打 * 冷战|menggigil
+打 * 转|berputar-putar
+怀 * 孕|hamil
+坐 * 牢|dipenjara
+耍 * 花招|main akal-akalan
+发 * 牢骚|menggerutu
+下 ? 棋|main catur
+跑 * 腿|disuruh-suruh, menjalankan tugas kecil
+变 * 卦|ingkar janji, berubah sikap
+翻 * 身|berbalik badan; bangkit, membebaskan diri
+较 * 劲|bersaing, beradu kekuatan dengan
+服 * 输|mengaku kalah
+吃 * 闭门羹|ditolak di depan pintu
+泼 * 冷 水|menyiram air dingin (ke), mematahkan semangat
+绕 * 圈子|berbelit-belit; mengambil jalan memutar
+兜 * 圈子|berbelit-belit; berputar-putar
+卖 * 关子|bikin penasaran
+摆 * 架子|berlagak, sok penting
+走 * 弯 路|mengambil jalan memutar, salah langkah
+拖 * 后腿|menghambat (seseorang)
+出 什么 事|ada apa?, ada masalah?
+出 了 什么 事|apa yang terjadi?, apa yang salah?
+出 了 事|terjadi sesuatu, ada kecelakaan
+上 * 的 当|tertipu oleh (上X的当)
+做 主|memutuskan, berkuasa; (为X做主) membela X
+费 心|repot-repot (untuk)
+看 ? 病|berobat ke dokter; (dokter) memeriksa pasien
+理 发|potong rambut
+走 神|melamun, tidak fokus
+请 ? 安|menyampaikan salam hormat
+动 ? 手|mulai (berkelahi), main tangan
+下 狠 手|menyerang tanpa ampun
+下 的 手|(siapa) yang melakukannya, yang menyerang (下的手)
+下 不了 手|tidak tega melakukannya
+叫 苦|mengeluh kesusahan
+拜 ? 年|bersilaturahmi Tahun Baru
+照 ? 相|memotret
+# ---- Correlative frames: two words that work as one construction.
+越 * 越|makin … makin …
+连 * 都|bahkan …
+连 * 也|bahkan …
+又 * 又|… sekaligus …
+既 * 又|baik … maupun …
+既 * 也|baik … maupun …; … serta …
+一边 * 一边|… sambil …, sekaligus …
+边 * 边|… sambil …
+非 * 不可|harus, mau tak mau
+除了 * 以外|selain …; di samping …
+除了 * 之外|selain …; di samping …
+除了 * 外|selain …; di samping …
+不是 * 就是|kalau bukan … ya …
+不是 * 而是|bukan … melainkan …
+只要 * 就|asalkan …, (maka) …
+只有 * 才|hanya jika … (barulah) …; hanya … yang bisa …
+要是 * 就|kalau …, (maka) …
+如果 * 就|jika …, (maka) …
+不管 * 都|tidak peduli …, tetap …
+无论 * 都|bagaimanapun …, tetap …
+无论 * 也|bagaimanapun …, tetap …
+即使 * 也|walaupun …
+哪怕 * 也|sekalipun …
+就算 * 也|biarpun …
+即便 * 也|sekalipun …
+宁可 * 也|lebih baik … (daripada) …
+宁愿 * 也|lebih suka … (daripada) …
+与其 * 不如|daripada …, lebih baik …
+对 * 来说|bagi …, sejauh menyangkut …
+对 * 而言|bagi …, sejauh menyangkut …
+就 * 而言|sejauh menyangkut …
+拿 * 来说|ambil … sebagai contoh
+以 * 为|menganggap … sebagai
+以 * 为主|terutama …, dengan … sebagai pokok
+以 * 为 例|mengambil … sebagai contoh
+把 * 当作|memperlakukan … sebagai, menganggap … sebagai
+把 * 当成|memperlakukan … sebagai, mengira … sebagai
+把 * 看作|memandang … sebagai
+把 * 看成|memandang … sebagai, mengira … sebagai
+被 * 所|(pasif formal) di… oleh …
+被 * 给|(pasif cakapan) di… oleh … (给 di sini tidak menambah arti)
+像 * 似的|seperti …, seolah-olah …
+像 * 一样|seperti …, sama seperti …
+跟 * 一样|sama dengan …, seperti … (不一样: berbeda dengan)
+和 * 一样|sama dengan …, seperti … (不一样: berbeda dengan)
+跟 * 似的|seperti …, seolah-olah …
+好像 * 似的|seolah-olah …
+跟 * 有关|berkaitan dengan …
+与 * 有关|berkaitan dengan …
+和 * 有关|berkaitan dengan …
+跟 * 没关系|tidak ada hubungannya dengan …
+和 * 没关系|tidak ada hubungannya dengan …
+对 * 感兴趣|tertarik pada …
+对 * 有 兴趣|tertarik pada …
+拿 * 没 办法|tidak berdaya menghadapi …
+跟 * 过不去|mempersulit …, cari gara-gara dengan …
+为 * 着想|memikirkan kepentingan …
+到 * 为止|sampai …, hingga …
+在 * 看来|menurut pandangan …
+直到 * 才|baru setelah … (barulah …)
+刚 * 就|baru saja … sudah …
+不是 * 吗|bukankah …? (retoris: pasti …)
+难道 * 吗|masa sih …?; maksudmu …?
+何必 * 呢|buat apa …?, tidak perlu …
+何 苦 * 呢|buat apa …?, kenapa menyiksa diri dengan …?
+还是 * 吧|sebaiknya …
+太 ? 了|… sekali!, sungguh …; terlalu … (太好了: bagus sekali)
+快要 * 了|hampir …, sebentar lagi …
+就要 * 了|akan segera …
+该 ? 了|sudah waktunya …
+挺 ? 的|cukup …, lumayan …
+是 ? 还是|… atau …?
+从 ? 起|mulai dari …
+怎么 ? 也|bagaimanapun (+ tidak: tetap saja tidak bisa …)
+怎么 ? 都|bagaimanapun (+ tidak: tetap saja tidak bisa …)
+把 ? 当|memperlakukan … sebagai, mengira … sebagai
+为 ? 所|(pasif formal) di… oleh …
+一 看 * 就|begitu … (langsung) … (一看就)
+一 看到 * 就|begitu … (langsung) … (一看到就)
+一 听 * 就|begitu … (langsung) … (一听就)
+一 听到 * 就|begitu … (langsung) … (一听到就)
+一 见 * 就|begitu … (langsung) … (一见就)
+一 见到 * 就|begitu … (langsung) … (一见到就)
+一 想到 * 就|begitu … (langsung) … (一想到就)
+一 想 * 就|begitu … (langsung) … (一想就)
+一 进 * 就|begitu … (langsung) … (一进就)
+一 进门 * 就|begitu … (langsung) … (一进门就)
+一 进来 * 就|begitu … (langsung) … (一进来就)
+一 进去 * 就|begitu … (langsung) … (一进去就)
+一 出来 * 就|begitu … (langsung) … (一出来就)
+一 到 * 就|begitu … (langsung) … (一到就)
+一 回来 * 就|begitu … (langsung) … (一回来就)
+一 回到 * 就|begitu … (langsung) … (一回到就)
+一 开口 * 就|begitu … (langsung) … (一开口就)
+一 碰 * 就|begitu … (langsung) … (一碰就)
+一 走 * 就|begitu … (langsung) … (一走就)
+一 上 来 * 就|begitu … (langsung) … (一上来就)
+一 接触 * 就|begitu … (langsung) … (一接触就)
+一 离开 * 就|begitu … (langsung) … (一离开就)
+一 靠近 * 就|begitu … (langsung) … (一靠近就)
+一 转身 * 就|begitu … (langsung) … (一转身就)
+一 出手 * 就|begitu … (langsung) … (一出手就)
+一 抬头 * 就|begitu … (langsung) … (一抬头就)
+# ---- Fixed sequences the segmenter leaves in pieces, and indefinites (什么都, 谁也).
+什么 都|apa saja, segalanya (+ tidak: tidak ada apa-apa)
+什么 也|apa pun (+ tidak: tidak ada apa-apa)
+谁 都|semua orang, siapa saja (+ tidak: tak seorang pun)
+谁 也|siapa pun (+ tidak: tak seorang pun)
+哪儿 都|di mana-mana (+ tidak: tidak di mana pun)
+哪里 都|di mana-mana (+ tidak: tidak di mana pun)
+一点 也 不|sama sekali tidak
+一点 都 不|sama sekali tidak
+一点儿 也 不|sama sekali tidak
+一点 也 没|sama sekali tidak, sedikit pun tidak
+一点 都 没|sama sekali tidak, sedikit pun tidak
+一 ? 都 没|tidak satu … pun
+再也 不|tidak akan lagi, tidak lagi
+再也 没|tidak pernah lagi
+好 容易|dengan susah payah, akhirnya (= 好不容易)
+谈 不 上|jauh dari itu; hampir tidak bisa disebut
+算 不 上|hampir tidak bisa disebut
+说 不 上|sulit dikatakan, tidak tahu pasti; tidak bisa disebut
+由 不得|di luar kendali (seseorang); mau tidak mau
+吃 不 消|tidak tahan
+看 不 惯|tidak tahan melihat
+禁 不住|tidak kuasa menahan diri (untuk); tidak sanggup menanggung
+止 不住|tidak bisa berhenti
+对 得 起|pantas bagi, tidak mengecewakan
+对 不住|mengecewakan (seseorang); maaf
+不 在乎|tidak peduli
+不 怎么样|biasa saja, kurang bagus
+没 意思|membosankan, tidak ada gunanya
+不 一会儿|tak lama kemudian
+一 动 不动|diam tak bergerak
+动 不动|sedikit-sedikit, selalu saja (动不动就)
+总 的 来说|secara keseluruhan
+这样 一来|dengan begitu, akibatnya
+说 到底|pada akhirnya, ujung-ujungnya
+说 起来|kalau dipikir-pikir; omong-omong soal (说起来容易: mudah diucapkan)
+不 至于|tidak sampai, tidak separah itu
+看 着 办|lakukan sesuai pertimbanganmu
+一个 劲 儿|terus-menerus, tak henti-henti
+不 客气|sama-sama; kurang ajar
+别 客气|jangan sungkan, anggap rumah sendiri
+怎么 了|ada apa?, kenapa?
+好 在|untungnya, syukurlah
+# ---- A-not-A questions the segmenter splits (… or not?).
+知 不 知道|(kamu) tahu tidak?
+喜 不 喜欢|(kamu) suka tidak …?
+愿 不 愿意|(kamu) mau tidak?
+认 不 认识|(kamu) kenal tidak (seseorang)?
+应 不 应该|seharusnya … atau tidak?
+需 不 需要|(kamu) perlu tidak …?
+可不 可以|boleh …?, bisa …? (bukan 可不 'tentu saja')
+记 不 记得|(kamu) ingat tidak?
+相 不 相信|(kamu) percaya tidak …?
+明 不 明白|(kamu) mengerti tidak?
+要 不要|(kamu) mau …?, bagaimana kalau …? (… atau tidak)
+能 不能|bisa … atau tidak?; bisakah kamu …?
+会 不会|akan … atau tidak?; jangan-jangan …?
+想 不想|(kamu) mau tidak …?
+敢 不敢|(kamu) berani tidak …?
+来 不 来|(kamu) datang tidak?
+在 不 在|… ada atau tidak?
+懂 不 懂|(kamu) paham tidak?
+信 不 信|percaya atau tidak

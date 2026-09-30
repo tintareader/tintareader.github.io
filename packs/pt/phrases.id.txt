@@ -1,0 +1,602 @@
+# What each Portuguese phrase in `phrases.txt` means, in Indonesian.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Indonesian where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.id.txt`.
+#
+# Verbs are glossed as bare Indonesian verbs — the English `to` in the file
+# this translates is English citation form and has no counterpart to carry
+# across. Where the phrase is vulgar the gloss says so (kasar), as the English
+# file does.
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+ter que|harus, mesti
+ter de|harus, mesti
+acabar de|baru saja (melakukan sesuatu)
+começar a|mulai
+parar de|berhenti (melakukan sesuatu)
+deixar de|berhenti (melakukan sesuatu); gagal, lalai
+voltar a|melakukan (sesuatu) lagi
+continuar a|terus (melakukan sesuatu)
+tratar de|mengurus, menangani; tentang, membahas
+dar para|bisa, memungkinkan; menghadap ke
+ter a ver com|ada hubungannya dengan
+estar de acordo|setuju
+
+# ---- ter + noun: Portuguese states where English is.
+ter razão|benar
+ter certeza|yakin
+ter medo|takut
+ter cuidado|hati-hati
+ter sorte|beruntung
+ter fome|lapar
+ter pressa|terburu-buru
+ter graça|lucu
+ter jeito|berbakat, pandai; bisa diperbaiki
+ter saudade|rindu (pada seseorang, sesuatu)
+
+# ---- Other light-verb idioms.
+dar certo|berhasil, berjalan lancar
+dar errado|gagal, berantakan
+dar uma olhada|melihat sebentar
+dar conta|sanggup, mampu mengatasi; menyadari
+dar em cima|menggoda, merayu (seseorang)
+dar à luz|melahirkan
+fazer sentido|masuk akal
+fazer as pazes|berbaikan (setelah bertengkar)
+valer a pena|sepadan, layak
+vale a pena|sepadan, layak
+prestar atenção|memperhatikan
+tomar conta|menjaga, merawat; mengambil alih
+tomar cuidado|berhati-hati, waspada
+ficar de olho|mengawasi
+perder a cabeça|hilang kesabaran, naik darah
+calar a boca|tutup mulut, diam
+ir embora|pergi, meninggalkan tempat
+se ferrar|celaka, sial; vá se ferrar: enyahlah (kasar)
+
+# ---- Connectives and discourse markers.
+no entanto|namun
+por isso|karena itu, jadi
+além disso|selain itu, lagi pula
+ou seja|yaitu, dengan kata lain
+quer dizer|artinya; maksud saya
+na verdade|sebenarnya, sesungguhnya
+de fato|memang, sungguh
+de qualquer forma|bagaimanapun, pokoknya
+de qualquer jeito|bagaimanapun, pokoknya
+por acaso|kebetulan (dalam pertanyaan); secara kebetulan
+afinal de contas|toh, bagaimanapun juga
+apesar de|meskipun, walaupun
+por causa de|karena, gara-gara
+a fim de|untuk, supaya
+mesmo assim|meski begitu
+ainda assim|meski begitu, tetap saja
+desde que|asalkan; sejak
+contanto que|asalkan, selama
+para que|supaya, agar
+já que|karena, mengingat
+uma vez que|karena, mengingat
+pelo menos|setidaknya
+ao menos|setidaknya
+mais ou menos|kurang lebih; lumayan, biasa saja
+
+# ---- Question words and relatives written as two tokens.
+o que|apa; apa yang (hal yang)
+por que|mengapa, kenapa
+por quê|mengapa (di akhir pertanyaan)
+que tal|bagaimana kalau
+
+# ---- Modality and degree.
+com certeza|tentu saja, pasti
+claro que sim|tentu saja
+claro que não|tentu saja tidak
+é claro|tentu saja
+de verdade|sungguh, beneran
+nem sequer|bahkan tidak
+nem mesmo|bahkan tidak
+de jeito nenhum|sama sekali tidak, tidak mungkin
+cada vez mais|makin lama makin, semakin
+prestes a|hampir, akan segera
+o mesmo|sama, yang sama
+de acordo com|menurut
+que nem|persis seperti (lisan); yang … bahkan tidak
+
+# ---- Time and manner.
+de repente|tiba-tiba; mungkin (lisan)
+às vezes|kadang-kadang
+de vez em quando|sesekali
+de novo|lagi
+mais uma vez|sekali lagi
+outra vez|lagi
+uma vez|sekali, satu kali
+agora mesmo|sekarang juga; baru saja
+no momento|saat ini
+no início|awalnya, pada mulanya; di awal
+no final|akhirnya; di akhir
+em breve|segera
+o tempo todo|sepanjang waktu, terus-menerus
+hoje em dia|zaman sekarang
+ao mesmo tempo|pada saat yang sama
+por enquanto|untuk sementara
+a tempo|tepat waktu
+em frente|ke depan, lurus terus
+em cima|di atas
+ao redor|di sekeliling
+
+# ---- Prepositional phrases whose parts do not give the meaning away.
+graças a|berkat
+através de|melalui, lewat
+a partir de|mulai (suatu waktu)
+em vez de|alih-alih, sebagai ganti
+ao invés de|alih-alih, sebagai ganti
+
+# ---- Fixed dialogue.
+por favor|tolong, silakan
+de nada|sama-sama; (dari, tentang) bukan apa-apa, tidak ada apa-apa
+sinto muito|saya sungguh minta maaf
+que pena|sayang sekali
+não importa|tidak apa-apa, tidak penting
+tudo bem|baik, oke; apa kabar?
+com licença|permisi
+meu deus|ya Tuhan
+boa sorte|semoga berhasil
+bom dia|selamat pagi
+boa tarde|selamat siang, selamat sore
+boa noite|selamat malam; selamat tidur
+até logo|sampai nanti
+até amanhã|sampai besok
+até mais|sampai jumpa
+muito prazer|senang berkenalan
+não faz mal|tidak apa-apa
+filho da puta|bajingan, anak haram (kasar)
+puta que pariu|sialan, brengsek (kasar)
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it and a read of its sampled
+# sentences found the idiomatic reading carrying it.
+# ---- Verbal periphrases and verb + particle
+acabar por|akhirnya (melakukan)
+acabar com|mengakhiri, menghabisi; putus dengan
+haver de|akan; harus (há de ser); ada saja ... (havia de + kata benda, mis. yang salah)
+tornar a|melakukan (sesuatu) lagi
+pôr se a|mulai, mulai mengerjakan
+ir ter com|pergi menemui (Portugal)
+ouvir falar|mendengar tentang
+ouvir dizer|mendengar (kabar) bahwa
+querer dizer|berarti, bermaksud
+contar com|mengandalkan
+dar se conta|menyadari
+tratar se de|soal, tentang
+estar a fim|ingin, berminat; naksir (seseorang) (Brasil)
+não ter como|tidak mungkin, tidak bisa
+não há como|tidak ada cara untuk
+não poder deixar de|tidak bisa tidak (melakukan)
+não passar de|tidak lebih dari
+não ver a hora|tidak sabar (untuk)
+tomara que|semoga
+quem me dera|andai saja, seandainya
+será que|apakah (kira-kira), menurutmu
+estar brincando|bercanda
+estar a brincar|bercanda (Portugal); sedang bermain
+falar sério|serius; fala sério: yang benar saja, jangan bercanda
+deixar cair|menjatuhkan
+deixar em paz|membiarkan, jangan mengganggu
+deixa pra lá|lupakan saja, sudahlah
+deixa para lá|lupakan saja, sudahlah
+deixa comigo|serahkan pada saya
+pode deixar|serahkan pada saya, jangan khawatir; (kamu) boleh meninggalkan
+mandar embora|mengusir; memecat
+# ---- ter + noun and estar com + noun
+ter sede|haus
+ter ideia|punya bayangan, tahu
+ter a certeza|yakin (Portugal)
+ter vontade|ingin, kepingin
+ter vergonha|malu; pemalu
+ter culpa|bersalah
+ter lugar|berlangsung; ada tempat
+ter pena|kasihan (pada)
+ter dó|kasihan (pada)
+ter calma|tetap tenang
+nada a ver|tidak ada hubungannya (dengan); omong kosong
+ter cara de|kelihatan seperti
+ter uma queda|naksir (seseorang); jatuh
+estar com fome|lapar
+estar com sede|haus
+estar com sono|mengantuk
+estar com medo|takut
+estar com pressa|terburu-buru
+estar com frio|kedinginan
+estar com raiva|marah
+estar com saudade|rindu (seseorang)
+morrer de fome|kelaparan; lapar sekali
+morto de|setengah mati karena (morto de fome, de medo, de cansaço)
+# ---- dar
+dar um jeito|membereskan, mencari jalan
+dar uma volta|jalan-jalan, berkeliling
+dar um tempo|istirahat sejenak; memberi (seseorang) waktu
+dar o fora|pergi, enyah; memutuskan (pacar)
+dar no pé|kabur, lari
+dar um pulo|mampir sebentar; melompat
+dar ouvidos|mendengarkan, mengindahkan
+dar razão|membenarkan, setuju dengan (seseorang)
+dar a entender|menyiratkan, memberi kesan
+dar as costas|membelakangi, berpaling
+dar de ombros|mengangkat bahu
+dar de cara com|berpapasan dengan
+dar uma de|berlagak seperti, berperan sebagai
+dar trabalho|merepotkan, butuh kerja keras
+dar vontade|membuat ingin
+dar medo|menakutkan
+dar nojo|menjijikkan
+dar tempo|sempat (dá tempo); memberi waktu
+dar com a língua nos dentes|membocorkan rahasia
+dar o troco|membalas; memberi uang kembalian
+dar a mínima|peduli sedikit pun (não dar a mínima: sama sekali tidak peduli)
+dar no mesmo|sama saja
+dar licença|memberi izin (dá licença: permisi)
+dar ao luxo|dar-se ao luxo: sanggup, mampu (melakukan)
+dar sorte|beruntung; membawa keberuntungan
+dar azar|sial; membawa sial
+dar cabo de|menyingkirkan, menghabisi
+dar aula|mengajar
+# ---- fazer
+fazer falta|dirindukan, dibutuhkan
+fazer questão|bersikeras (untuk)
+fazer de conta|berpura-pura
+fazer mal|merugikan, tidak baik untuk; berbuat salah
+fazer bem|baik untuk; berbuat benar
+fazer ideia|punya bayangan, tahu
+fazer caso|menghiraukan, memperhatikan
+fazer anos|faz (dez) anos: (sepuluh) tahun yang lalu; berulang tahun ke- (usia); berulang tahun (Portugal)
+fazer as malas|berkemas
+fazer a barba|bercukur
+fazer uma pergunta|bertanya, mengajukan pertanyaan
+fazer frio|dingin (cuaca)
+fazer calor|panas (cuaca)
+fazer parte|menjadi bagian (dari)
+fazer careta|meringis, bermuka masam
+fazer merda|mengacau (kasar)
+fazer o quê|mau bagaimana lagi?; (sedang) apa?
+fazer tempo|faz tempo: sudah lama sekali
+fazer muito tempo|faz muito tempo: lama sekali yang lalu; sudah lama sekali
+fazer de bobo|membodohi
+# ---- ficar, estar
+ficar sabendo|mengetahui, jadi tahu
+ficar de pé|berdiri, tetap berdiri
+ficar em pé|berdiri, tetap berdiri
+ficar sem|kehabisan, tidak punya lagi
+ficar bem|baik-baik saja; cocok, pantas
+ficar à vontade|merasa seperti di rumah sendiri, santai
+ficar tranquilo|tenang, tidak khawatir
+fica frio|santai saja, tenang
+estar de saída|hendak pergi
+estar por fora|ketinggalan berita
+estar na hora|sudah waktunya
+está na hora|sudah waktunya
+estar ferrado|celaka, habislah
+estar a par|tahu, mengikuti perkembangan
+estar de olho|mengawasi
+estar nem aí|sama sekali tidak peduli (Brasil)
+# ---- tomar, levar, pôr, tirar, meter, botar
+tomar banho|mandi
+tomar um banho|mandi
+tomar café|minum kopi; sarapan
+levar a cabo|melaksanakan
+levar a mal|tersinggung
+levar a sério|menganggap serius
+levar em conta|mempertimbangkan
+levar jeito|berbakat
+levar um tiro|tertembak
+meter medo|menakut-nakuti
+tirar uma foto|memotret
+tirar sarro|mengejek (Brasil)
+tirar proveito|memanfaatkan
+tirar uma soneca|tidur sebentar
+# ---- passar, cair, sair, pegar, bater, abrir, other verbs
+passar mal|tidak enak badan
+passar a perna|menipu, mengakali
+passar fome|kelaparan
+passar pela cabeça|terlintas di pikiran
+vir à tona|terungkap
+vir ao caso|relevan
+cair bem|cocok, diterima dengan baik
+cair na real|sadar akan kenyataan
+cair fora|pergi, enyah
+cair no sono|tertidur
+pegar no sono|tertidur
+pegar fogo|terbakar
+pega leve|santai saja, pelan-pelan
+pegar o jeito|mulai terbiasa, menguasai caranya
+bater papo|mengobrol
+bater palmas|bertepuk tangan
+abrir mão|merelakan, melepaskan (abrir mão de)
+abrir o jogo|berterus terang
+correr bem|berjalan lancar (Portugal)
+correr atrás|mengejar; berusaha mendapatkan
+engolir em seco|menelan ludah
+custe o que custar|apa pun yang terjadi
+encher o saco|mengganggu, bikin kesal
+encher a cara|mabuk-mabukan
+pisar na bola|berbuat kesalahan
+perder tempo|membuang waktu
+mudar de ideia|berubah pikiran
+chamar a atenção|menarik perhatian; menegur
+sentir falta|merindukan
+voltar atrás|menarik kembali (ucapan), mundur
+ir atrás|mengejar
+ir com calma|pelan-pelan, santai saja
+ir à merda|pergi ke neraka (kasar)
+vai se foder|persetan kau (kasar)
+se manda|pergi sana, enyah
+se liga|perhatikan, sadarlah (Brasil); menyala
+não custa|tidak ada ruginya
+não adianta|tidak ada gunanya
+não tem jeito|tidak ada cara; tidak ada harapan
+não há de quê|sama-sama
+não tem de quê|sama-sama
+nem que seja|meskipun hanya
+# ---- Connectives and discourse markers
+a propósito|omong-omong
+por falar nisso|ngomong-ngomong soal itu, omong-omong
+falando nisso|ngomong-ngomong soal itu
+de resto|selain itu, selebihnya
+ou melhor|atau lebih tepatnya
+antes de mais nada|pertama-tama
+pelo contrário|sebaliknya
+ao contrário|sebaliknya; terbalik
+em compensação|di sisi lain, sebagai gantinya
+de qualquer modo|bagaimanapun, pokoknya
+em todo caso|bagaimanapun
+em todo o caso|bagaimanapun
+seja como for|bagaimanapun juga
+mesmo que|meskipun, walaupun; bahwa (sungguh)
+ainda que|meskipun, walaupun
+se bem que|meskipun, tapi ingat
+nem que|meskipun
+por mais que|sekeras apa pun, betapapun
+a não ser que|kecuali jika
+a não ser|kecuali; kecuali jika
+a menos que|kecuali jika
+caso contrário|kalau tidak
+assim que|begitu, segera setelah; (é assim que: begitulah caranya)
+logo que|begitu, segera setelah
+à medida que|seiring, sambil
+ao passo que|sedangkan
+visto que|karena, mengingat
+posto que|meskipun; mengingat
+de modo que|sehingga, jadi
+só que|hanya saja, tapi
+até porque|apalagi karena, lagi pula
+além do mais|lagi pula, selain itu
+ainda por cima|lebih parah lagi, ditambah lagi
+por sua vez|pada gilirannya
+sendo assim|kalau begitu, jadi
+pensando bem|setelah dipikir-pikir
+cá entre nós|antara kita saja
+quanto a|mengenai, adapun
+a respeito de|tentang, mengenai
+acerca de|tentang, mengenai
+por volta de|sekitar, kira-kira (waktu)
+por conta de|karena; atas tanggungan (seseorang)
+por conta própria|atas usaha sendiri
+em lugar de|alih-alih, sebagai ganti
+à procura de|mencari
+diante de|di depan; dihadapkan pada
+dentro de|di dalam; dalam (waktu)
+ao pé de|di kaki; di dekat
+# ---- Degree, modality, evaluation
+nem pensar|tidak mungkin, jangan harap
+nem por isso|tidak juga, tidak terlalu
+nem tanto|tidak terlalu
+de modo algum|sama sekali tidak
+de maneira nenhuma|sama sekali tidak
+de forma alguma|sama sekali tidak
+sem falta|pasti, tanpa gagal
+claro que|tentu saja
+quem sabe|mungkin; siapa tahu
+sei lá|entahlah, siapa tahu
+pelo visto|rupanya, kelihatannya
+pelo jeito|kelihatannya
+ao que parece|rupanya, tampaknya
+por sinal|omong-omong, kebetulan
+já não|tidak lagi
+até mesmo|bahkan
+muito menos|apalagi, terlebih lagi
+quanto mais|makin; apalagi
+menos mal|untunglah, syukurlah
+ainda bem|syukurlah, untunglah
+ainda bem que|untung saja
+tanto faz|terserah, sama saja
+mais vale|lebih baik
+bem feito|rasakan!, syukurin!; dibuat dengan baik
+de propósito|sengaja
+sem querer|tidak sengaja
+de graça|gratis
+ação de graças|Hari Pengucapan Syukur; ucapan syukur
+a sério|dengan serius (Portugal)
+de brincadeira|bercanda, main-main
+à toa|sia-sia, tanpa tujuan; menganggur
+à vontade|santai, leluasa; sepuasnya
+à beça|banyak sekali (Brasil)
+pra caramba|banyak sekali, sangat (Brasil)
+pra caralho|banyak banget, parah (kasar)
+pra valer|sungguhan, serius
+para valer|sungguhan, serius
+um monte de|banyak sekali
+um bocado|sedikit; cukup banyak
+de sobra|berlebih, lebih dari cukup
+de certo modo|dalam arti tertentu
+de certa forma|dalam arti tertentu
+de algum modo|entah bagaimana
+de alguma forma|entah bagaimana
+isso mesmo|tepat sekali, betul
+assim mesmo|begitu saja; meski begitu
+si mesmo|diri sendiri, dirinya sendiri
+por si só|dengan sendirinya
+um ao outro|satu sama lain
+uns aos outros|satu sama lain, saling
+um do outro|satu sama lain
+# ---- Time
+de manhã|pada pagi hari
+à tarde|pada sore hari
+de tarde|pada sore hari
+à noite|pada malam hari
+de noite|pada malam hari
+de madrugada|dini hari
+na hora|saat itu juga, di tempat; tepat waktu; pada waktunya
+em cima da hora|pada menit terakhir
+em seguida|berikutnya, segera sesudahnya
+daqui a pouco|sebentar lagi
+daqui a|lagi (dari sekarang) (daqui a dois dias)
+de agora em diante|mulai sekarang
+há pouco|tadi, baru saja
+há muito tempo|dahulu kala, lama sekali yang lalu; sudah lama
+há tempos|sudah lama; lama sekali yang lalu
+há anos|sudah bertahun-tahun; bertahun-tahun yang lalu
+há dias|beberapa hari yang lalu; berhari-hari
+por ora|untuk sementara
+por fim|akhirnya
+mais de uma vez|lebih dari sekali
+de uma vez|sekaligus; untuk selamanya, tuntas sekali ini
+de uma vez por todas|untuk selamanya, tuntas sekali ini
+de vez|untuk selamanya
+era uma vez|pada zaman dahulu
+por vezes|kadang-kadang (Portugal)
+toda vez que|setiap kali
+de quando em quando|sesekali
+aos poucos|sedikit demi sedikit
+outro dia|tempo hari; lain hari
+um dia desses|suatu hari nanti; tempo hari
+da noite para o dia|dalam semalam
+de antemão|sebelumnya
+todo dia|setiap hari
+todo o dia|sepanjang hari (Portugal); setiap hari
+enquanto isso|sementara itu
+já já|sebentar lagi, sekarang juga (Brasil)
+já volto|saya segera kembali
+já vou|sebentar!, saya datang
+já era|sudah berakhir, tamat (Brasil); já era hora: sudah waktunya
+desde logo|segera; tentu saja (Portugal)
+# ---- Place and posture
+lá fora|di luar sana
+lá dentro|di dalam sana
+por aqui|di sekitar sini; lewat sini
+por aí|di luar sana, di sekitar situ; kira-kira begitu
+em volta|di sekeliling
+à volta|di sekeliling (Portugal)
+ao fundo|di latar belakang; di bagian belakang; ke dasar
+no fundo|dalam hati; di dasar
+pela frente|di depan; dari depan
+por trás|di balik, di belakang
+por cima|di atas
+por baixo|di bawah
+por dentro|di dalam; tahu seluk-beluknya
+por fora|di luar; ketinggalan berita
+por toda parte|di mana-mana
+em toda parte|di mana-mana
+lugar nenhum|tidak di mana pun
+para trás|ke belakang, mundur; tertinggal
+pra trás|ke belakang, mundur; tertinggal
+pra frente|ke depan, maju
+logo ali|di sebelah sana
+de pé|berdiri
+em pé|berdiri
+de joelhos|berlutut
+de costas|telentang; membelakangi
+de bruços|tengkurap
+de lado|miring, menyamping; di samping, ke samping
+de cabeça para baixo|terbalik
+de pernas para o ar|jungkir balik, berantakan
+a pé|berjalan kaki
+a sós|berdua saja, secara pribadi
+à solta|berkeliaran bebas
+à deriva|terombang-ambing
+às escondidas|diam-diam
+às pressas|terburu-buru
+à tona|ke permukaan
+em cheio|tepat, telak
+em branco|kosong
+em jogo|dipertaruhkan
+fora de si|hilang kendali, kalap
+na cara|di depan muka; jelas sekali
+cara de pau|tidak tahu malu; muka tembok
+sangue frio|ketenangan, kepala dingin
+pão duro|pelit, kikir
+café da manhã|sarapan (Brasil)
+pequeno almoço|sarapan (Portugal)
+sala de estar|ruang tamu
+carteira de motorista|SIM (Brasil)
+# ---- People and address
+a gente|kita, kami (lisan); orang-orang
+o senhor|Anda, Bapak (sopan, kepada laki-laki); tuan itu; Tuhan
+a senhora|Anda, Ibu (sopan, kepada perempuan); nyonya itu
+os senhores|Anda sekalian (sopan, jamak); tuan-tuan; para tuan
+todo mundo|semua orang
+todo o mundo|semua orang; seluruh dunia
+toda a gente|semua orang (Portugal)
+o pessoal|teman-teman, semua orang; para staf
+meu bem|sayangku
+meu caro|kawanku yang baik
+o tal|yang terkenal, yang disebut-sebut; (orang, benda) itu
+# ---- Questions and reactions
+o quê|apa?
+para quê|untuk apa?
+pra quê|untuk apa?
+pra que|untuk apa?; supaya
+como assim|maksudnya?
+como é que|bagaimana (bisa)
+o que é que|apa (sebenarnya)
+o que foi|ada apa?, apa yang terjadi?; apa itu
+o que houve|apa yang terjadi?
+o que há|ada apa?, ada kabar apa?; apa yang ada
+e aí|terus?, lalu?; hei, apa kabar
+e daí|terus kenapa?
+e se|bagaimana kalau; dan jika
+é o seguinte|begini ceritanya
+é isso aí|itu dia, betul
+não é mesmo|bukan?, ya kan?
+é mesmo|masa?; betul sekali
+pois é|iya, betul; (karena memang)
+pois não|tentu; ada yang bisa dibantu? (Brasil); (karena) tidak
+pois sim|ya, tentu saja (ironis)
+pois bem|baiklah
+ora essa|ya ampun!; sama-sama
+olha só|lihat itu; dengar
+veja só|lihat itu; bayangkan saja
+tá bom|oke, baiklah
+tá legal|oke, baik (Brasil)
+tudo certo|semua beres, baik-baik saja
+como vai|apa kabar?
+espera aí|tunggu sebentar
+espere aí|tunggu sebentar
+calma aí|tenang, tunggu dulu
+vem cá|sini
+por nada|sama-sama; tanpa alasan; percuma
+graças a deus|syukurlah, puji Tuhan
+pelo amor de deus|demi Tuhan
+se deus quiser|insyaallah, kalau Tuhan menghendaki
+só deus sabe|hanya Tuhan yang tahu
+nossa senhora|astaga!, Bunda Maria
+minha nossa|ya ampun
+que bom|bagus, senangnya
+que droga|sialan, menyebalkan
+que merda|sial (kasar)
+que diabo|apa-apaan
+o que diabo|apa-apaan
+que porra|apa-apaan ini (kasar)
+sem essa|jangan begitu, yang benar saja
+puta merda|sialan (kasar)
+quem diria|siapa sangka
+se calhar|mungkin (Portugal)

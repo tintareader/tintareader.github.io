@@ -1,0 +1,605 @@
+# What each Spanish phrase in `phrases.txt` means, in French.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows French where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A
+#     changed pattern is a phrase the app stops finding; an invented one is a
+#     phrase it hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.fr.txt`.
+#
+# Verbs are glossed as bare French infinitives — the English `to` in the file
+# this translates is English citation form and has no counterpart to carry
+# across. Spanish inside brackets, and a Spanish key before `: `, stay Spanish.
+
+# ---- Périphrases verbales : le verbe se conjugue, le motif est donc à l'infinitif.
+tener que|devoir, être obligé de
+hay que|il faut (impersonnel)
+acabar de|venir de (faire quelque chose)
+ir a|aller (+ infinitif, futur proche); aller à
+dejar de|arrêter de, cesser de
+volver a|refaire (quelque chose), recommencer à; retourner à
+empezar a|commencer à
+poner a|se mettre à (ponerse a); mettre (quelqu'un) à (un travail, une tâche)
+tratar de|essayer de; parler de, porter sur
+estar de acuerdo|être d'accord
+poner de pie|mettre (quelqu'un) debout; ponerse de pie: se lever
+
+# ---- tener + nom : l'espagnol dit « avoir » là où le français dit parfois « être ».
+tener razón|avoir raison
+tener ganas|(+ de) avoir envie de
+tener miedo|avoir peur
+tener cuidado|faire attention
+tener prisa|être pressé
+tener hambre|avoir faim
+tener sueño|avoir sommeil; faire des rêves (tener sueños)
+tener suerte|avoir de la chance
+tener sentido|avoir du sens
+tener lugar|avoir lieu
+
+# ---- Autres locutions à verbe support.
+hacer falta|falloir, manquer
+hacer caso|faire attention, écouter
+hacer daño|faire mal, nuire
+dar igual|être égal, ne pas importer
+dar miedo|faire peur
+dar cuenta|darse cuenta (de): se rendre compte (de)
+dar a luz|accoucher, donner naissance
+echar de menos|regretter (te echo de menos = tu me manques)
+llevar a cabo|mener à bien, réaliser
+valer la pena|valoir la peine
+llamar la atención|attirer l'attention; faire des reproches, réprimander
+caer bien|trouver sympathique, bien aimer (quelqu'un)
+tomar el pelo|faire marcher, se payer la tête de
+meter la pata|faire une gaffe
+
+# ---- Connecteurs et marqueurs du discours.
+sin embargo|cependant, pourtant
+por eso|c'est pourquoi, donc
+así que|donc, alors
+ya que|puisque, étant donné que
+puesto que|puisque, car
+para que|pour que
+a menos que|à moins que
+por lo tanto|par conséquent
+o sea|c'est-à-dire, autrement dit
+es decir|c'est-à-dire
+de hecho|en fait, de fait
+en realidad|en réalité, en fait
+por cierto|au fait, à propos
+en fin|bref, enfin
+de todos modos|de toute façon
+de todas formas|de toute façon
+por si acaso|au cas où
+sobre todo|surtout
+además de|en plus de, outre
+por lo visto|apparemment
+más o menos|plus ou moins
+por lo menos|au moins
+al menos|au moins
+
+# ---- Mots interrogatifs et relatifs écrits en deux mots.
+por qué|pourquoi
+para qué|pour quoi faire
+lo que|ce que, ce qui
+por lo que|donc, c'est pourquoi
+qué tal|comment ça va ?; et si, que dirais-tu de
+
+# ---- Modalité et degré.
+a lo mejor|peut-être
+tal vez|peut-être
+por supuesto|bien sûr
+desde luego|bien sûr, évidemment
+claro que sí|bien sûr que oui
+en serio|sérieusement, vraiment
+de verdad|vraiment
+ni siquiera|même pas
+en absoluto|pas du tout (avec une négation)
+ya no|ne... plus
+todavía no|pas encore
+lo mismo|la même chose
+de acuerdo|d'accord
+a punto de|sur le point de
+cada vez más|de plus en plus
+
+# ---- Temps et manière.
+de repente|soudain, tout à coup
+de pronto|soudain, tout à coup
+a veces|parfois
+a menudo|souvent
+de vez en cuando|de temps en temps
+en cuanto|dès que
+en cuanto a|quant à, en ce qui concerne
+a la vez|à la fois, en même temps
+de nuevo|de nouveau
+otra vez|encore, de nouveau
+ahora mismo|tout de suite, à l'instant
+por ahora|pour l'instant
+de momento|pour le moment
+al principio|au début
+al final|à la fin, finalement
+en punto|pile (heure)
+a tiempo|à temps, à l'heure
+hoy en día|de nos jours
+en seguida|tout de suite
+a lo largo de|le long de; tout au long de
+
+# ---- Locutions prépositives dont les mots ne livrent pas le sens.
+a pesar de|malgré
+a causa de|à cause de
+gracias a|grâce à
+a través de|à travers
+a partir de|à partir de
+en vez de|au lieu de
+en lugar de|au lieu de, à la place de
+acerca de|au sujet de, concernant
+en contra de|contre, opposé à
+
+# ---- Formules de dialogue figées.
+por favor|s'il vous plaît, s'il te plaît
+de nada|de rien; pour rien, en vain
+lo siento|je suis désolé; (littéralement) je le ressens
+menos mal|heureusement, encore heureux
+no importa|ça ne fait rien
+qué pena|quel dommage
+ni modo|tant pis, rien à faire (Amérique latine)
+por dios|pour l'amour de Dieu, mon Dieu
+buenos días|bonjour
+buenas tardes|bonjour (l'après-midi)
+buenas noches|bonsoir; bonne nuit
+hasta luego|à plus tard, à tout à l'heure
+hasta mañana|à demain
+
+# ==== L'extension du 2026-09-23 (phase 4) : proposée par un modèle, gardée seulement là où
+# `measure:phrase-fit` l'a trouvée dans la fiction et OPUS et où la lecture des
+# phrases échantillonnées confirmait le sens idiomatique.
+# ---- Périphrases verbales et verbe + préposition
+llegar a ser|devenir
+acabar por|finir par (faire)
+terminar por|finir par (faire)
+haber de|devoir; être (destiné) à
+deber de|devoir (probablement), avoir dû
+echar a correr|se mettre à courir
+echar a reír|éclater de rire
+echar a andar|se mettre à marcher, se mettre en marche
+romper a llorar|fondre en larmes
+ir a parar|finir par se retrouver, aboutir; (voy a parar) aller s'arrêter
+ir a por|aller chercher (Espagne)
+querer decir|vouloir dire
+ser hora de|être l'heure de
+tardar en|mettre (du temps) à; tarder à
+pensar en|penser à
+soñar con|rêver de
+contar con|compter sur; disposer de
+dar con|trouver, tomber sur
+acabar con|mettre fin à, en finir avec
+terminar con|mettre fin à; rompre avec; avoir fini avec
+romper con|rompre avec
+quedar con|quedarse con: garder; donner rendez-vous à
+acordar de|acordarse de: se souvenir de
+olvidar de|olvidarse de: oublier
+enamorar de|enamorarse de: tomber amoureux de
+fijar en|fijarse en: remarquer, faire attention à; fixer (le regard) sur
+negar a|negarse a: refuser de; refuser (quelque chose à quelqu'un)
+atrever a|atreverse a: oser
+limitar a|limitarse a: se contenter de, se borner à
+disponer a|disponerse a: s'apprêter à; (dispuesto a) disposé à
+estar dispuesto a|être prêt à, être disposé à
+oler a|sentir (une odeur de)
+tirar de|tirer (sur)
+dejar caer|laisser tomber; lâcher (une remarque)
+hacer saber|faire savoir, informer
+# ---- tener
+tener que ver con|avoir à voir avec, avoir rapport avec
+tener nada que ver|(no tener nada que ver) n'avoir rien à voir (avec)
+tener algo que ver|avoir quelque chose à voir (avec)
+tener años|(tener 20 años) avoir (tant d')ans
+tener en cuenta|tenir compte de, prendre en compte
+tener por qué|(no tener por qué) n'avoir aucune raison de, ne pas être obligé de
+tener la culpa|être responsable, être fautif
+tener frío|avoir froid
+tener calor|avoir chaud
+tener sed|avoir soif
+tener celos|être jaloux
+tener vergüenza|avoir honte; être gêné
+tener gracia|être drôle; (ironie) elle est bien bonne
+tener entendido|croire savoir, avoir entendu dire
+tener pensado|prévoir, avoir l'intention de
+# ---- dar
+dar prisa|darse prisa: se dépêcher
+dar la vuelta|se retourner (darse la vuelta); retourner (quelque chose); faire le tour
+dar media vuelta|faire demi-tour
+dar una vuelta|faire un tour (à pied, en voiture)
+dar vueltas|tourner en rond; se tourner et se retourner; ressasser
+dar un paso|faire un pas
+dar un paseo|faire une promenade
+dar de comer|donner à manger, nourrir
+dar la razón|donner raison (à quelqu'un)
+dar la mano|serrer la main; donner la main
+dar la espalda|tourner le dos (à)
+dar la cara|faire face, assumer ses responsabilités
+dar la gana|avoir envie, vouloir (me da la gana: j'en ai envie)
+dar ganas|donner envie (à quelqu'un)
+dar pena|rendre triste; faire de la peine (me da pena: ça me fait de la peine); être gêné, avoir honte (Amérique latine; me da pena: j'ai honte)
+dar vergüenza|être gênant; avoir honte
+dar asco|dégoûter
+dar lo mismo|être égal, ne pas importer
+dar a entender|laisser entendre, sous-entendre
+dar por vencido|darse por vencido: abandonner, s'avouer vaincu
+dar por sentado|tenir pour acquis
+# ---- hacer
+hacer cargo|hacerse cargo de: se charger de; comprendre
+hacer frente|faire face à, affronter
+hacer el favor|(haz el favor de) s'il te plaît; rendre service
+hacer una pregunta|poser une question
+hacer tiempo|(hace tiempo) il y a longtemps, depuis longtemps; tuer le temps
+hacer mucho tiempo|(hace mucho tiempo) il y a longtemps, depuis longtemps
+hace poco|récemment, il y a peu
+hace un rato|il y a un moment
+hace años|il y a des années; depuis des années
+desde hace|depuis (une durée, jusqu'à maintenant)
+desde hacía|depuis (une durée, jusqu'alors)
+hacer frío|(hace frío) faire froid
+hacer calor|(hace calor) faire chaud
+hacer tarde|hacerse tarde: se faire tard
+hacer de noche|hacerse de noche: commencer à faire nuit
+hacer ademán de|faire mine de
+hacer como si|faire comme si, faire semblant
+hacer las paces|faire la paix, se réconcilier
+hacer gracia|amuser, faire rire
+hacer trampa|tricher
+hacer las maletas|faire ses valises
+# ---- echar, tomar, poner
+echar un vistazo|jeter un coup d'œil
+echar una ojeada|jeter un rapide coup d'œil
+echar una mano|donner un coup de main
+echar mano|echar mano de: recourir à, se servir de
+echar la culpa|rejeter la faute sur
+echar a perder|gâcher, abîmer
+tomar el sol|prendre le soleil, bronzer
+poner nervioso|rendre nerveux (ponerse nervioso: devenir nerveux)
+poner rojo|faire rougir (ponerse rojo: rougir)
+poner en pie|se mettre debout (ponerse en pie); remettre sur pied
+poner en marcha|démarrer, mettre en marche
+poner en camino|ponerse en camino: se mettre en route
+poner de acuerdo|ponerse de acuerdo: se mettre d'accord
+poner al día|mettre à jour (ponerse al día: se mettre à jour)
+poner los ojos en blanco|lever les yeux au ciel
+poner los pelos de punta|faire dresser les cheveux sur la tête
+# ---- quedar, llevar, pasar, venir, autres verbes
+quedar sin|quedarse sin: se retrouver sans, ne plus avoir de
+quedar dormido|quedarse dormido: s'endormir; ne pas se réveiller à temps
+quedar mirando|quedarse mirando: rester à regarder, fixer du regard
+quedar quieto|quedarse quieto: ne pas bouger
+quedar en blanco|quedarse en blanco: avoir un trou (de mémoire)
+quedar bien|aller bien (vêtement); faire bonne impression
+llevar bien|llevarse bien: bien s'entendre
+llevar puesto|porter (un vêtement)
+salir bien|bien se passer, réussir
+salir mal|mal tourner, mal se passer
+salir adelante|s'en sortir, s'en tirer
+salir con la suya|salirse con la suya: arriver à ses fins
+pasar bien|pasarlo bien: bien s'amuser
+pasar por alto|laisser passer, négliger
+pasar de largo|passer sans s'arrêter
+pasar el rato|passer le temps
+venir bien|convenir, tomber à pic
+venir abajo|venirse abajo: s'effondrer
+caer mal|ne pas aimer, ne pas pouvoir sentir (quelqu'un)
+caer en la cuenta|se rendre compte
+volver loco|rendre fou (volverse loco: devenir fou)
+volver en sí|revenir à soi, reprendre connaissance
+perder los estribos|perdre son sang-froid, sortir de ses gonds
+dejar en paz|laisser tranquille
+pedir perdón|demander pardon, s'excuser
+llamar a la puerta|frapper à la porte
+prestar atención|faire attention
+cumplir años|fêter son anniversaire; (cumplir 20 años) avoir 20 ans
+costar trabajo|être difficile, demander des efforts
+caber duda|(no cabe duda) il n'y a aucun doute
+faltar más|(no faltaba más, faltaría más) bien sûr, je vous en prie; c'est un comble
+ir al grano|aller droit au but
+ir a pique|couler, sombrer; faire faillite
+encoger de hombros|encogerse de hombros: hausser les épaules
+fruncir el ceño|froncer les sourcils
+negar con la cabeza|faire non de la tête
+cruzar de brazos|cruzarse de brazos: croiser les bras; rester les bras croisés
+morir de risa|morirse de risa: mourir de rire
+importar un bledo|s'en ficher complètement
+pegar ojo|(no pegar ojo) ne pas fermer l'œil
+# ---- États : ser, estar et ce qui les suit
+estar harto|en avoir marre
+harto de|las de, qui en a marre de
+de broma|pour rire, en plaisantant
+en broma|pour rire, en plaisantant
+de pie|debout
+de rodillas|à genoux
+de espaldas|de dos; sur le dos
+de puntillas|sur la pointe des pieds
+de bruces|face contre terre, à plat ventre
+en cuclillas|accroupi
+boca arriba|sur le dos
+boca abajo|à plat ventre, face contre terre
+a gusto|à l'aise, bien
+a salvo|en sécurité, sain et sauf
+al tanto|au courant (estar al tanto: être au courant)
+al corriente|à jour, au courant
+en lo cierto|dans le vrai (estar en lo cierto: avoir raison)
+de moda|à la mode
+de vuelta|de retour; sur le chemin du retour
+de guardia|de garde, de service
+en juego|en jeu (qui peut se perdre); en jeu (en cours de partie)
+en las últimas|à bout, à l'article de la mort
+a la altura|à la hauteur (de); (estar a la altura) être à la hauteur
+pendiente de|attentif à, qui surveille; dans l'attente de; en suspens
+en las nubes|dans la lune
+no es para tanto|il n'y a pas de quoi en faire une histoire
+# ---- Connecteurs et marqueurs du discours
+es que|c'est que, le truc c'est que; (littéralement) est que
+como si|comme si
+como si nada|comme si de rien n'était
+lo cual|ce qui, ce que
+lo de|l'histoire de, l'affaire de
+lo demás|le reste
+lo que sea|n'importe quoi, peu importe quoi
+lo cierto es que|le fait est que
+la verdad es que|à vrai dire, la vérité c'est que
+el caso es que|le fait est que
+resulta que|il se trouve que, il s'avère que
+nada más|rien d'autre, seulement; (+ infinitif) dès que
+nada menos|rien de moins que
+más que nada|surtout
+más bien|plutôt
+en efecto|en effet
+en cambio|en revanche, alors que
+en todo caso|en tout cas; à la rigueur
+en definitiva|en définitive, bref
+en cierto modo|d'une certaine manière
+no obstante|néanmoins, cependant
+mientras tanto|pendant ce temps
+entre tanto|entre-temps
+aun así|malgré tout, quand même
+aun cuando|même si
+dado que|étant donné que, puisque
+siempre que|chaque fois que; à condition que
+siempre y cuando|à condition que, pourvu que
+con tal de|à condition de, pourvu que
+con tal que|pourvu que
+a no ser que|à moins que
+al fin y al cabo|après tout
+a fin de cuentas|en fin de compte
+o bien|ou bien
+si bien|bien que
+ahora bien|cela dit, or
+pues bien|eh bien
+así pues|ainsi, donc
+así como|ainsi que; de même que
+tal como|tel que, exactement comme
+tal y como|tel que, exactement comme
+por tanto|par conséquent
+por consiguiente|par conséquent
+por ello|pour cette raison, c'est pourquoi
+por otro lado|d'un autre côté
+por otra parte|d'autre part; en outre
+por un lado|d'un côté
+de modo que|de sorte que, donc
+de manera que|de sorte que, donc
+de ahí|d'où; de là
+de ahí que|d'où le fait que, c'est pourquoi
+de lo contrario|sinon
+por lo demás|pour le reste, à part ça
+a su vez|à son tour
+a medida que|à mesure que
+en tanto que|tandis que; dans la mesure où, en tant que
+tan solo|seulement, juste
+tan sólo|seulement, juste
+aunque sea|ne serait-ce que, au moins
+ante todo|avant tout
+a todo esto|au fait; pendant ce temps
+dicho esto|cela dit
+dicho sea de paso|soit dit en passant
+por así decirlo|pour ainsi dire
+por decirlo así|pour ainsi dire
+a saber|à savoir; qui sait
+que yo sepa|que je sache
+cuanto más|plus... plus; d'autant plus
+cuanto antes|au plus vite, dès que possible
+más allá de|au-delà de
+más allá|plus loin; l'au-delà
+# ---- Degré, quantité et modalité
+todo el mundo|tout le monde
+del todo|tout à fait, complètement
+sin querer|sans le vouloir, sans faire exprès
+sin más|comme ça, sans plus attendre
+sin falta|sans faute
+sin cesar|sans cesse
+ni idea|aucune idée
+ni hablar|pas question
+ni mucho menos|loin de là, pas du tout
+ni que|comme si; même pas si
+ni se te ocurra|n'y pense même pas
+gran cosa|grand-chose
+un montón de|un tas de, plein de
+un montón|beaucoup, plein
+un tal|un certain, un dénommé
+y demás|et ainsi de suite, et le reste
+de lo más|des plus, vraiment, extrêmement
+a lo sumo|tout au plus
+por muy|si... que (+ adjectif)
+por mucho que|avoir beau (+ infinitif), si... que
+por más que|avoir beau (+ infinitif), peu importe combien
+por poco|presque, pour un peu
+de veras|vraiment
+a medias|à moitié; moitié-moitié
+a duras penas|à grand-peine
+de sobra|largement assez; parfaitement
+de primera|de premier ordre; (de primera mano) de première main
+de por sí|en soi, par nature
+# ---- Temps
+por fin|enfin
+al fin|enfin
+al cabo de|au bout de
+al poco rato|peu après
+un buen rato|un bon moment
+dentro de poco|bientôt, sous peu
+de un momento a otro|d'un moment à l'autre
+de la noche a la mañana|du jour au lendemain
+de golpe|d'un coup, tout à coup
+de improviso|à l'improviste
+de antemano|d'avance, à l'avance
+de una vez|une bonne fois pour toutes; d'un coup
+de una vez por todas|une fois pour toutes
+de cuando en cuando|de temps en temps
+una y otra vez|encore et encore
+de noche|la nuit, de nuit; (se hace de noche) la nuit tombe
+por la noche|la nuit, le soir
+por la mañana|le matin
+por la tarde|l'après-midi, le soir
+pasado mañana|après-demain
+hoy día|de nos jours
+a estas alturas|à ce stade, maintenant
+a primera hora|à la première heure
+a finales de|à la fin de (une période)
+a la larga|à la longue
+en breve|sous peu
+en adelante|désormais, dorénavant
+de ahora en adelante|dorénavant, à partir de maintenant
+hasta ahora|jusqu'à présent; (au revoir) à tout de suite
+hasta la vista|au revoir, à la prochaine
+a eso de|vers (une heure)
+en el acto|sur-le-champ
+en un abrir y cerrar de ojos|en un clin d'œil
+en seco|net, brusquement
+# ---- Manière et lieu
+a solas|seul, en tête-à-tête
+a ciegas|à l'aveuglette
+a oscuras|dans le noir
+a escondidas|en cachette
+a tientas|à tâtons
+a toda prisa|en toute hâte
+a todo correr|à toute vitesse
+a lo lejos|au loin
+a lo grande|en grand, en grande pompe
+a la fuerza|de force; forcément
+a propósito|exprès; à propos
+a pie|à pied
+a mano|à la main; sous la main
+a la ligera|à la légère
+a regañadientes|à contrecœur
+a carcajadas|(rire) aux éclats
+a gritos|en criant, à tue-tête
+al revés|à l'envers
+al contrario|au contraire
+al parecer|apparemment
+al fondo|au fond
+al aire libre|en plein air
+al respecto|à ce sujet
+al pie de la letra|au pied de la lettre
+al azar|au hasard
+al igual que|comme, de même que
+en voz alta|à voix haute
+en voz baja|à voix basse
+en el fondo|au fond (de soi); au fond
+en pleno|en plein
+en marcha|en marche, en cours; (¡en marcha!) allons-y
+de reojo|du coin de l'œil
+de prisa|vite, à la hâte
+de memoria|par cœur
+de mala gana|à contrecœur
+de buena gana|volontiers
+de maravilla|à merveille
+de lleno|en plein, pleinement
+de par en par|grand ouvert
+de ninguna manera|en aucun cas, pas question
+de todas maneras|de toute façon
+de otro modo|sinon; autrement
+de siempre|habituel, comme toujours; de longue date
+como de costumbre|comme d'habitude
+de costumbre|habituel, d'habitude
+como es debido|comme il faut
+de camino|en chemin
+de entrada|d'emblée, pour commencer
+poco a poco|petit à petit
+por encima de|au-dessus de; plus que
+por encima|dessus; en surface, sommairement
+por delante|devant, en avant
+por ahí|par là, quelque part; dehors, en vadrouille; à peu près
+por aquí|par ici
+por allí|par là-bas
+por allá|là-bas
+por todas partes|partout
+por doquier|partout
+por su cuenta|tout seul, de son propre chef
+por lo bajo|à voix basse; au bas mot
+por desgracia|malheureusement
+por culpa de|à cause de, par la faute de
+por si|au cas où
+por nada del mundo|pour rien au monde
+de la mano|main dans la main; (de la mano de) sous la conduite de
+a la vuelta de la esquina|au coin de la rue, tout près
+junto a|à côté de, près de
+frente a|en face de; face à
+# ---- Locutions prépositives
+en torno a|autour de, environ
+a cambio de|en échange de
+a cambio|en retour
+a fin de|afin de
+a base de|à force de, au moyen de; à base de
+a fuerza de|à force de
+de parte de|de la part de
+a falta de|faute de
+a modo de|en guise de
+a espaldas de|dans le dos de
+# ---- Formules de dialogue figées et exclamations
+a ver|voyons; (a ver si) voyons si, pourvu que; (après un verbe de mouvement) pour voir
+vamos a ver|voyons; nous allons voir
+qué pasa|qu'est-ce qui se passe, quoi de neuf
+qué te pasa|qu'est-ce que tu as
+qué hay|quoi de neuf; (qué hay de) et... alors ?; qu'est-ce qu'il y a
+qué va|pas du tout, tu parles
+qué más da|qu'est-ce que ça peut faire
+qué le vamos a hacer|tant pis, on n'y peut rien
+qué lástima|quel dommage
+qué vergüenza|quelle honte; tu devrais avoir honte
+qué demonios|que diable
+qué diablos|que diable, bon sang
+qué rayos|mais qu'est-ce que...
+qué carajo|bordel (vulgaire)
+cómo no|bien sûr, évidemment
+cómo que|comment ça
+claro está|bien entendu
+no puede ser|ce n'est pas possible !; ne peut pas être
+puede que|il se peut que
+no pasa nada|ce n'est rien, pas de souci
+no hay de qué|il n'y a pas de quoi
+no me digas|sans blague, c'est vrai ?
+ya está|ça y est, c'est fait
+ya lo creo|je pense bien, bien sûr
+ya era hora|il était temps
+ya verás|tu verras
+ya ves|tu vois; et voilà
+ya sabes|tu sais
+venga ya|arrête, tu rigoles (Espagne)
+dios mío|mon Dieu
+madre mía|mon Dieu, ça alors
+válgame dios|grand Dieu
+gracias a dios|Dieu merci
+vaya por dios|mince alors, bon sang
+por amor de dios|pour l'amour de Dieu
+por el amor de dios|pour l'amour de Dieu
+con permiso|excusez-moi, pardon
+mucho gusto|enchanté
+lo que faltaba|il ne manquait plus que ça
+pase lo que pase|quoi qu'il arrive
+como quieras|comme tu veux
+como sea|d'une manière ou d'une autre, de toute façon; coûte que coûte
+sea como sea|quoi qu'il en soit
+sea lo que sea|quoi que ce soit
+a la mierda|merde alors, va te faire voir (vulgaire)

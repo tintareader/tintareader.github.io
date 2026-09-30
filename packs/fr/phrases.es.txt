@@ -1,0 +1,597 @@
+# What each French phrase in `phrases.txt` means, in Spanish.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Spanish where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key — elision spacing included —
+#     and must not change. A changed pattern is a phrase the app stops
+#     finding; an invented one is a phrase it hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.es.txt`.
+#
+# Verbs are glossed as Spanish infinitives — the English `to` in the file
+# this translates is English citation form and has no counterpart to carry
+# across. Register marks are written as Spanish does: (coloq.), (vulgar), (argot).
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+être en train de|estar (haciendo algo)
+venir de|acabar de (hacer algo); venir de
+aller bien|estar bien, ir bien
+avoir besoin de|necesitar
+avoir envie de|tener ganas de, apetecer
+avoir l' air|parecer, tener pinta de
+avoir l' habitude|estar acostumbrado
+être obligé de|tener que, estar obligado a
+se mettre à|ponerse a
+arrêter de|dejar de (hacer algo)
+continuer à|seguir (haciendo algo)
+finir par|acabar (haciendo algo)
+il y a|hay; hace (tiempo)
+il faut|hay que, es necesario
+il s' agit de|se trata de
+rendre compte|darse cuenta
+laisser tomber|dejarlo, abandonar
+en aller|irse, marcharse
+en vouloir à|guardar rencor a (alguien)
+faire semblant|fingir, hacer como que
+faire attention|prestar atención, tener cuidado
+faire exprès|hacerlo a propósito
+faire gaffe|tener cuidado, ojo (coloq.)
+faire mal|doler, hacer daño
+valoir la peine|valer la pena
+pas la peine|no hace falta, no te molestes
+avoir du mal|costar (hacer algo), tener dificultades
+faire du mal|hacer daño (a alguien)
+prendre soin|cuidar
+avoir lieu|tener lugar
+
+# ---- avoir + noun: French has where English is.
+avoir raison|tener razón
+avoir tort|estar equivocado, no tener razón
+avoir peur|tener miedo
+avoir faim|tener hambre
+avoir soif|tener sed
+avoir mal|tener dolor, doler
+avoir froid|tener frío
+avoir chaud|tener calor
+avoir honte|tener vergüenza
+avoir de la chance|tener suerte
+
+# ---- Connectives and discourse markers.
+bien sûr|por supuesto, claro
+en fait|en realidad, de hecho
+en effet|en efecto
+du coup|así que, por eso (coloq.)
+quand même|aun así, de todos modos
+tout de même|aun así
+de toute façon|de todos modos, en cualquier caso
+en tout cas|en todo caso
+par contre|en cambio
+au fait|por cierto
+à propos|por cierto
+c' est-à-dire|es decir
+autrement dit|dicho de otro modo
+parce que|porque
+pour que|para que
+afin que|a fin de que, para que
+bien que|aunque; (tras un verbo) bien … que: tu sais bien que = sabes muy bien que
+alors que|mientras que
+tandis que|mientras que
+dès que|en cuanto
+tant que|mientras
+au lieu de|en lugar de
+à cause de|a causa de, por culpa de
+grâce à|gracias a
+plus ou moins|más o menos
+au moins|al menos
+du tout|en absoluto
+pas du tout|en absoluto, para nada
+jusqu' à|hasta
+jusqu' à ce que|hasta que
+
+# ---- Modality and degree.
+tout à fait|totalmente, exactamente
+pas mal|nada mal; bastante
+n' importe quoi|cualquier cosa; tonterías
+n' importe qui|cualquiera
+n' importe où|en cualquier sitio
+quelque chose|algo
+quelque part|en algún sitio
+tout le monde|todo el mundo
+
+# ---- Time and manner.
+tout de suite|enseguida
+tout à l' heure|dentro de un rato; hace un rato
+tout à coup|de repente
+en ce moment|en este momento
+pour l' instant|por ahora
+de nouveau|de nuevo
+à nouveau|de nuevo
+encore une fois|una vez más
+en retard|tarde, con retraso
+à l' heure|a la hora, puntual; por hora; en la época (de)
+de temps en temps|de vez en cuando
+en même temps|al mismo tiempo
+tout le temps|todo el tiempo
+d' abord|primero, en primer lugar
+
+# ---- Questions.
+qu' est-ce que|qué
+qu' est-ce qui|qué (como sujeto)
+est-ce que|(marca una pregunta de sí o no)
+n' est-ce pas|¿verdad?, ¿no?
+à quoi bon|¿de qué sirve?
+
+# ---- Fixed dialogue.
+s' il vous plaît|por favor
+s' il te plaît|por favor (tuteando)
+d' accord|de acuerdo, vale
+de rien|de nada
+je t' en prie|de nada; por favor
+ça va|está bien; ¿qué tal?
+ça y est|ya está, listo
+bonne nuit|buenas noches
+bonne chance|buena suerte
+au revoir|adiós
+à bientôt|hasta pronto
+à demain|hasta mañana
+mon dieu|Dios mío
+
+# ==== The 2026-09-23 expansion (phase 4).
+# ---- avoir + noun
+avoir hâte|estar deseando, tener ganas
+avoir beau|por mucho que (uno haga), en vano
+avoir l' intention|tener la intención
+avoir l' impression|tener la impresión, parecerle a uno
+avoir pitié|tener compasión
+avoir horreur|detestar
+avoir recours à|recurrir a
+avoir la trouille|estar muerto de miedo (coloq.)
+avoir le cœur|tener valor (para); tener el corazón (encogido, roto)
+avoir l' œil|estar ojo avizor; tener buen ojo
+avoir de quoi|tener con qué (para); tener motivos
+avoir des ennuis|tener problemas
+avoir qu' à|no tener más que (tu n'as qu'à: no tienes más que...)
+en avoir marre|estar harto
+en avoir assez|estar harto, no aguantar más
+en avoir pour|tardar (tiempo); costar
+avoir affaire|tener que vérselas (con)
+# ---- faire + noun and causatives
+faire peur|dar miedo, asustar
+faire confiance|confiar
+faire partie|formar parte (de)
+faire face|hacer frente, afrontar
+faire de ? mieux|hacer lo posible
+faire du bien|hacer bien, sentar bien
+faire plaisir|agradar, alegrar
+faire signe|hacer una seña, saludar con la mano; dar señales de vida
+faire mine de|hacer como que, amagar
+faire le tour|dar la vuelta, recorrer
+faire un tour|dar una vuelta
+faire allusion|aludir, insinuar
+faire de la peine|dar pena, hacer daño (moralmente)
+faire marcher|tomar el pelo; hacer funcionar
+faire savoir|hacer saber
+faire venir|hacer venir, llamar
+faire taire|hacer callar
+faire croire|hacer creer
+faire remarquer|señalar, hacer notar
+faire valoir|hacer valer, alegar
+faire l' affaire|servir, venir de perlas
+faire du souci|preocuparse
+faire la cour|cortejar
+faire part|comunicar, anunciar
+faire la grasse matinée|quedarse en la cama hasta tarde
+faire nuit|ser de noche (il fait nuit)
+faire beau|hacer buen tiempo
+faire froid|hacer frío
+faire chaud|hacer calor
+faire ? valise|hacer la maleta
+faire en sorte|procurar, asegurarse de
+t' en faire|preocuparte (ne t'en fais pas: no te preocupes); hacerte algo
+vous en faire|preocuparse, preocuparos (ne vous en faites pas: no se preocupe); hacer de ello
+ça ne fait rien|no importa, no pasa nada
+ça fait longtemps|hace mucho tiempo
+# ---- prendre / mettre / tenir / donner / rendre
+prendre la fuite|darse a la fuga
+prendre garde|tener cuidado
+prendre la parole|tomar la palabra
+prendre l' air|tomar el aire
+prendre congé|despedirse
+prendre place|tomar asiento
+en prendre à|atacar, culpar (s'en prendre à)
+prendre un verre|tomar una copa
+prendre dans ? bras|tomar en brazos, abrazar
+y prendre|arreglárselas (s'y prendre)
+mettre de côté|apartar, ahorrar
+mettre les pieds|poner los pies
+mettre la main sur|echar mano a, encontrar
+se mettre à table|sentarse a la mesa; cantar, confesar (coloq.)
+tenir le coup|aguantar
+tenir tête|plantar cara
+tenir bon|resistir, mantenerse firme
+tenir debout|tenerse en pie; sostenerse (un argumento)
+tenir compte|tener en cuenta
+tenir à|tener empeño en, apreciar; (se tenir à) agarrarse a, atenerse a
+donner raison|dar la razón
+donner sur|dar a
+rendre visite|visitar (a alguien)
+rendre service|hacer un favor
+# ---- tomber / aller / venir / passer / other verbs
+tomber amoureux|enamorarse
+tomber sur|toparse con, encontrarse con; caer sobre
+aller chercher|ir a buscar, ir a por
+aller mieux|estar mejor, encontrarse mejor
+aller jusqu' à|llegar hasta el punto de; ir hasta
+on y va|vamos; allá vamos
+venir à bout|acabar con, superar
+en venir à|llegar a (hacer algo)
+venir à l' esprit|venir a la mente
+se passer|pasar, ocurrir; ir (bien, mal)
+se passer de|prescindir de
+passer pour|pasar por
+se douter|sospechar, imaginarse
+se demander|preguntarse
+je me demande|me pregunto
+s' attendre à|esperarse
+m' attendre à|esperarme (je m'attendais à: me esperaba)
+servir de|servir de; (se servir de) usar
+servir à|servir para
+occuper de|ocuparse de (s'occuper de)
+en occuper|encargarse (je m'en occupe: yo me encargo)
+moquer de|burlarse de; (se moquer de) importarle a uno un bledo
+en tirer|salir airoso, salir adelante; sacar (algo) de ello
+en foutre|importarle a uno un carajo (vulgar)
+en finir|acabar de una vez
+en rester là|dejarlo así
+où en être|en qué punto está uno
+en pouvoir plus|no poder más
+en remettre|recuperarse; (s'en remettre à) confiar en, remitirse a
+en revenir|reponerse (je n'en reviens pas: no me lo puedo creer); volver de allí
+y être pour|tener que ver con ello
+y connaître|entender de eso
+y tenir|tener empeño; caber ahí
+vouloir dire|querer decir
+entendre dire|oír decir
+entendre parler|oír hablar
+on dirait|parece, se diría
+dis donc|oye, dime
+dites donc|oiga, oíd
+valoir mieux|ser mejor (il vaut mieux: más vale)
+mieux vaut|más vale
+valoir le coup|valer la pena
+laisser faire|dejar hacer
+laisser tranquille|dejar en paz
+manquer de|carecer de; estar a punto de
+me manquer|echar de menos (tu me manques: te echo de menos); fallarme, faltarme
+que je sache|que yo sepa
+je ne sais quoi|un no sé qué
+on ne peut plus|sumamente; ya no se puede
+perdre connaissance|perder el conocimiento
+perdre la tête|perder la cabeza
+perdre ? temps|perder el tiempo
+gagner ? vie|ganarse la vida
+jeter un œil|echar un vistazo
+serrer la main|estrechar la mano
+serrer dans ? bras|abrazar
+tendre la main|tender la mano
+pousser un cri|soltar un grito
+fondre en larmes|romper a llorar
+éclater de rire|echarse a reír
+éclater en sanglots|romper a sollozar
+rire aux éclats|reírse a carcajadas
+mourir de faim|morirse de hambre
+donner ? parole|dar su palabra
+reprendre ? souffle|recobrar el aliento
+se tromper|equivocarse
+# ---- Pronominal and clitic formulas
+m' est égal|me da igual
+ça suffit|basta, ya está bien
+il suffit de|basta con
+il paraît que|al parecer, parece que
+il se trouve que|resulta que
+il y a longtemps|hace mucho tiempo
+pas de quoi|de nada, no hay de qué; no hay motivo
+il va sans dire|ni que decir tiene
+c' est pourquoi|por eso
+c' est pour ça|por eso
+c' est ça|eso es
+c' est bon|está bien, ya basta
+c' est parti|allá vamos
+pas grave|no pasa nada
+c' est pas vrai|¡no puede ser!, ¡no me lo creo!
+ça marche|vale, trato hecho; funciona
+ça craint|qué mal rollo, qué fastidio (coloq.)
+ça alors|¡vaya!, ¡quién lo diría!
+comment ça|¿cómo que...?, ¿qué quieres decir?
+comment ça va|¿qué tal?
+qu' importe|qué más da
+que dalle|nada de nada (argot)
+ne serait-ce que|aunque solo sea
+# ---- Connectives and discourse markers
+sans doute|sin duda, probablemente
+au fond|al fondo; en el fondo
+en fin de compte|al fin y al cabo
+tout compte fait|bien mirado
+à la fois|a la vez
+à tout prix|a toda costa
+à force de|a fuerza de
+à moins que|a menos que
+à moins de|a menos de, salvo
+au cas où|por si acaso
+de sorte que|de modo que
+si bien que|de modo que, así que
+aussi bien que|así como, tan bien como
+d' autant plus|tanto más
+d' ailleurs|además, por cierto
+en revanche|en cambio
+par conséquent|por consiguiente
+en outre|además
+en plus|además, encima
+du moins|al menos
+pour ainsi dire|por así decirlo
+à vrai dire|a decir verdad
+à savoir|a saber
+même si|aunque, incluso si
+même pas|ni siquiera
+pas même|ni siquiera
+pas encore|todavía no
+non plus|tampoco
+moi non plus|yo tampoco
+pas grand-chose|no gran cosa
+pas question|ni hablar
+hors de question|ni hablar, ni pensarlo
+tant pis|qué le vamos a hacer, mala suerte
+tant mieux|mejor, tanto mejor
+tant bien que mal|mal que bien
+de même|igualmente; (ante un sustantivo) del mismo
+ainsi que|así como; como
+de manière à|para, con el fin de
+de façon à|para, con el fin de
+au point de|hasta el punto de
+au point que|hasta tal punto que
+vu que|dado que
+lors de|durante, con motivo de
+avant tout|ante todo
+en tant que|en calidad de, como
+en guise de|a modo de
+en vue de|con vistas a
+quant à|en cuanto a
+au sujet de|acerca de
+en ce qui concerne|en lo que respecta a
+à propos de|a propósito de, acerca de
+à l' égard de|con respecto a
+à l' insu de|a espaldas de
+faute de|a falta de
+à défaut de|a falta de
+afin de|para, a fin de
+de peur que|por miedo a que
+de crainte que|por temor a que
+de peur de|por miedo a
+pour peu que|con tal de que, por poco que
+sans que|sin que
+si ce n' est|si no, salvo
+d' après|según
+d' où|de ahí, de dónde
+d' autre part|por otra parte
+d' un côté|por un lado
+cela dit|dicho esto
+en passant|de paso, dicho sea de paso; al pasar
+ou bien|o bien
+eh bien|pues bien, bueno
+ah bon|¿ah, sí?, ¿de verdad?
+oh là là|¡ay, madre!, ¡vaya!
+et alors|¿y qué?; y entonces
+comme quoi|lo que demuestra que
+comme d' habitude|como de costumbre
+d' habitude|normalmente
+comme il faut|como es debido
+et ainsi de suite|y así sucesivamente
+quoi qu' il en soit|sea como sea
+quoi qu' il arrive|pase lo que pase
+quoi que ce soit|lo que sea, cualquier cosa
+qui que ce soit|quien sea, cualquiera
+coûte que coûte|cueste lo que cueste
+quel que|cualquiera que (quel que soit: sea cual sea)
+n' importe quel|cualquier
+n' importe quand|cuando sea
+peu importe|no importa
+en quelque sorte|en cierto modo
+en somme|en resumen
+bien entendu|por supuesto
+bien des|muchos
+pour sûr|seguro
+à coup sûr|con toda seguridad
+pour de bon|para siempre; de verdad
+pour rien|por nada; en vano
+rien que|solo, nada más que
+rien du tout|nada de nada
+rien à voir|nada que ver
+rien à faire|no hay nada que hacer; nada que hacer
+le moins du monde|en lo más mínimo
+pas tout à fait|no del todo
+pas vrai|¿verdad?; no es verdad
+ou quoi|¿o qué?
+y compris|incluido
+à part|aparte de, excepto; aparte
+loin de là|ni mucho menos
+sans compter|sin contar
+non sans|no sin
+# ---- Time
+à l' instant|ahora mismo, hace un momento
+à la longue|a la larga
+à jamais|para siempre
+de temps à autre|de vez en cuando
+à partir de|a partir de
+dès lors|desde entonces; por consiguiente
+d' avance|de antemano
+de nos jours|hoy en día
+à l' époque|en aquella época
+en attendant|mientras tanto; a la espera de
+au départ|al principio
+une fois que|una vez que
+des fois|a veces (coloq.)
+de suite|seguidos; enseguida (coloq.)
+sur le point de|a punto de
+en un clin d' œil|en un abrir y cerrar de ojos
+de bonne heure|temprano
+cette nuit|esta noche; anoche
+du jour au lendemain|de la noche a la mañana
+à mesure que|a medida que
+au bout de|al cabo de; al final de
+par la suite|después, más adelante
+au plus vite|cuanto antes
+sans cesse|sin cesar
+tout d' un coup|de repente
+sur le coup|en el momento, en el acto
+tout d' abord|ante todo, en primer lugar
+# ---- Manner and place
+à haute voix|en voz alta
+à voix basse|en voz baja
+à genoux|de rodillas
+à tâtons|a tientas
+à la renverse|de espaldas (al caer)
+en hâte|a toda prisa
+à bout de souffle|sin aliento
+peu à peu|poco a poco
+à peu près|más o menos, aproximadamente
+à peine|apenas; nada más (haber)
+au hasard|al azar
+par hasard|por casualidad
+par cœur|de memoria
+de travers|torcido; al revés, mal
+de côté|de lado; aparte
+en douce|a escondidas
+à pas de loup|sigilosamente
+de loin|de lejos; con mucho; (de loin en loin) de vez en cuando
+de près|de cerca; (de près de) de casi
+au juste|exactamente
+à merveille|de maravilla
+à l' aise|a gusto, cómodo
+mal à l' aise|incómodo, a disgusto
+à bout|agotado, al límite
+à bout de|al límite de, sin (paciencia, fuerzas)
+sens dessus dessous|patas arriba
+de long en large|de un lado a otro
+de plus en plus|cada vez más
+de plus belle|con más fuerza aún
+à perte de vue|hasta donde alcanza la vista
+à l' improviste|de improviso
+à la place|en su lugar; en el lugar (de)
+à ta place|yo que tú
+à votre place|yo que usted
+à son tour|a su vez
+à mon tour|a mi vez, me toca
+à leur tour|a su vez
+tour à tour|por turnos, sucesivamente
+en face|enfrente; a la cara
+en haut|arriba
+en bas|abajo
+en avant|adelante
+en arrière|atrás, hacia atrás
+en route|en camino; ¡vamos!
+tout droit|todo recto; derecho, erguido
+tout bas|en voz muy baja
+tout haut|en voz alta
+tout juste|justo, apenas
+tout au plus|como mucho
+tout court|a secas
+au loin|a lo lejos
+le long de|a lo largo de
+à travers|a través de
+à l' abri|a cubierto, a salvo
+par terre|en el suelo
+à terre|en tierra, en el suelo; en tierra (desembarcado)
+par ici|por aquí
+par là|por allí; con eso
+à l' étranger|en el extranjero
+en plein|en pleno
+en plein air|al aire libre
+au beau milieu|justo en medio
+au grand jour|a plena luz del día
+à bord|a bordo
+au large|mar adentro
+à deux doigts de|a un paso de
+sur la pointe des pieds|de puntillas
+de la part de|de parte de
+nulle part|en ninguna parte
+du côté de|hacia, cerca de; del lado de
+dans le coin|por aquí, por la zona
+dans le pétrin|en un apuro
+# ---- States: être + prepositional phrase
+en vie|con vida, vivo
+en colère|enfadado
+en forme|en forma; (en forme de) en forma de
+en panne|averiado
+à la hauteur|a la altura; al nivel
+au courant|al corriente, al tanto
+de retour|de vuelta
+à même de|capaz de
+en mesure de|en condiciones de
+sur ? gardes|en guardia
+en tête|en cabeza; en mente
+bon marché|barato
+pas terrible|no muy bueno, regular
+# ---- Fixed nouns whose parts mislead
+chemin de fer|ferrocarril
+hôtel de ville|ayuntamiento
+petit déjeuner|desayuno
+lune de miel|luna de miel
+gueule de bois|resaca
+chair de poule|piel de gallina
+jeune fille|chica, muchacha
+jeunes gens|jóvenes
+bonne femme|mujer, tía (coloq.)
+femme de chambre|camarera de habitaciones
+peur bleue|miedo cerval
+fou rire|ataque de risa
+clin d' œil|guiño
+coup d' œil|vistazo
+coup de main|mano, ayuda
+coup de fil|llamada (de teléfono)
+coup de foudre|flechazo; rayo
+coup de feu|disparo
+coup de vent|ráfaga de viento; (en coup de vent) a toda prisa
+# ---- Fixed dialogue and forms of address
+bon sang|¡maldita sea!, ¡por Dios!
+nom de dieu|¡maldita sea!, ¡santo Dios!
+mon vieux|amigo, viejo
+ma vieille|querida, vieja
+mon pote|colega (coloq.)
+mon cher|querido
+ma chère|querida
+mon petit|pequeño, cariño
+ma petite|pequeña, cariño
+mon chéri|cariño
+ma chérie|cariño
+ma belle|guapa, cielo
+mon gars|chaval, amigo
+au secours|¡socorro!
+à l' aide|¡socorro!; con la ayuda (de)
+à l' aide de|con ayuda de, mediante
+je vous en prie|de nada; por favor
+à tout à l' heure|hasta luego
+à plus tard|hasta luego
+à la bonne heure|¡muy bien!, ¡así me gusta!
+quoi de neuf|¿qué hay de nuevo?
+sans blague|¡no me digas!
+et voilà|ya está, ahí lo tienes
+voilà tout|eso es todo
+ma parole|¡palabra!, ¡lo juro!
+tu parles|¡y tanto!; ¡sí, claro! (irónico); hablas
+tous les deux|los dos
+toutes les deux|las dos
+l' un l' autre|el uno al otro
+les uns les autres|unos a otros
+l' un et l' autre|ambos
+ni l' un ni l' autre|ni uno ni otro
+un tas de|un montón de
+des tas de|montones de
+quelque peu|algo, un tanto
+pas mal de|bastante, un buen número de

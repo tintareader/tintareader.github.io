@@ -1,6 +1,6 @@
 {
   "id": "zh",
-  "version": "1.1.61",
+  "version": "1.1.83",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -10,7 +10,7 @@
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "91fec990161b1f7aefd95e227bb3b7e18cc6779dc5862dfa4709804006f19cbb"
+      "sha256": "6df8d6235249812107bf9ba40d288fe5cf6ff9e4fa154cb28b7b40732b58a368"
     },
     "ranks": {
       "path": "ranks.txt",
@@ -41,6 +41,46 @@
       "path": "phrases.en.txt",
       "license": "unencumbered",
       "sha256": "e5efe54e5fe47aabac2356dbe923ad16d888ed5aaed135aa9665fe4a3141c90c"
+    },
+    "gloss.id": {
+      "path": "gloss.id.txt",
+      "license": "unencumbered",
+      "sha256": "f5c07e281051d882380904e9ad8dd3ef35d8e553ed7f6b6b5b3c3bf21ca377a7"
+    },
+    "phrases.id": {
+      "path": "phrases.id.txt",
+      "license": "unencumbered",
+      "sha256": "906e81cd71a184b9bc8f2da6bd0724898a3543152db3473d3834ccb889831b65"
+    },
+    "phrases.es": {
+      "path": "phrases.es.txt",
+      "license": "unencumbered",
+      "sha256": "54d44c088d8959e7efde90822db61ca2bc316c7bfc593edbec5d1e2a25e523b0"
+    },
+    "gloss.es": {
+      "path": "gloss.es.txt",
+      "license": "unencumbered",
+      "sha256": "9ab8cf333fd6faf7eb485fb5d600e1aad9d926990bdc95b03502561a8fdffedc"
+    },
+    "phrases.fr": {
+      "path": "phrases.fr.txt",
+      "license": "unencumbered",
+      "sha256": "1871ba8027c8baf71f413b424b2c983869a6fa8f2f3d5ba3cee3c57cbf44d9a2"
+    },
+    "gloss.fr": {
+      "path": "gloss.fr.txt",
+      "license": "unencumbered",
+      "sha256": "20e9cdcf74714217cfb652c33fc1f0799f68362ef253ecd491279f34c507a5ad"
+    },
+    "phrases.pt": {
+      "path": "phrases.pt.txt",
+      "license": "unencumbered",
+      "sha256": "ab3c0394d6b0cb78d595b2f4b6f041abb4204ae5f400884f02d427dd393970b4"
+    },
+    "gloss.pt": {
+      "path": "gloss.pt.txt",
+      "license": "unencumbered",
+      "sha256": "cc38cd3fa7a9e180f9304ed512f75bbc6b87313c1510c10318471b000ea37b9a"
     }
   }
 }

@@ -1,0 +1,213 @@
+# What each German phrase in `phrases.txt` means, in English.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain is not underlined at all. Hand-written, not
+# derived from any licensed corpus. To translate this pack for a reader of
+# another language, copy this file to `phrases.<code>.txt` and translate the
+# right-hand side; the patterns are the join key and must not change, and the
+# `;`-separated sense count must match.
+
+# ---- Frames around another word: `*` is a gap of up to four words.
+um * zu|in order to (+ infinitive)
+ohne * zu|without (doing)
+statt * zu|instead of (doing)
+anstatt * zu|instead of (doing)
+sowohl * als auch|both … and
+entweder * oder|either … or
+weder * noch|neither … nor
+je * desto|the (more) … the (more)
+je * umso|the (more) … the (more)
+nicht nur * sondern auch|not only … but also
+zwar * aber|admittedly … but, it's true … but
+es kommt auf * an|it depends on
+# ---- es: the subject that is not there. `gibt es` is found through the key forms.
+es gibt|there is, there are
+es geht um|it is about, it's a matter of
+es handelt sich um|it is a matter of, it concerns
+es kommt darauf an|it depends
+es tut mir leid|I'm sorry
+tut mir leid|(I'm) sorry
+es lohnt sich|it's worth it
+es fällt mir schwer|I find it hard
+es ist mir egal|I don't care
+das ist mir egal|I don't care
+es macht nichts|it doesn't matter
+macht nichts|never mind, it doesn't matter
+es eilig haben|to be in a hurry
+es sich leisten|to (be able to) afford it
+# ---- Negation and repetition, where the words mislead.
+nicht mehr|no longer, not any more
+nicht einmal|not even
+nicht mal|not even
+gar nicht|not at all
+gar nichts|nothing at all
+überhaupt nicht|not at all
+überhaupt nichts|nothing at all
+immer noch|still
+noch einmal|once more, again
+noch mal|once more, again
+schon wieder|yet again, not again
+immer wieder|again and again
+# ---- Quantities.
+ein paar|a few (not "a pair")
+ein bisschen|a little, a bit
+ein wenig|a little
+eine Menge|a lot (of)
+so ein|such a
+so etwas|something like that, such a thing
+was für|what kind of; what a (!)
+wie viel|how much, how many
+# ---- Connectives and adverbials.
+zum Beispiel|for example
+auf jeden Fall|in any case, definitely
+auf keinen Fall|under no circumstances, no way
+im Gegenteil|on the contrary
+in der Tat|indeed, in fact
+vor allem|above all, especially
+nach wie vor|still, as before
+und zwar|namely, that is
+das heißt|that is, i.e.
+im Grunde|basically, at bottom
+im Allgemeinen|in general
+im Großen und Ganzen|on the whole
+unter anderem|among other things
+unter uns|between you and me
+ohne weiteres|readily, just like that
+auf diese Weise|in this way
+so gut wie|as good as, practically
+wie gesagt|as I said
+statt dessen|instead
+auf einmal|suddenly; at once
+mit einem Mal|suddenly, all at once
+zum ersten Mal|for the first time
+zum letzten Mal|for the last time
+zum Glück|luckily, fortunately
+zum Schluss|finally, in the end
+im Moment|at the moment
+im Augenblick|at the moment
+in letzter Zeit|lately, recently
+seit langem|for a long time
+vor kurzem|recently, a short time ago
+eines Tages|one day
+ab und zu|now and then
+ab und an|now and then
+hin und wieder|now and then
+hin und her|back and forth, to and fro
+nach und nach|little by little
+von Tag zu Tag|from day to day
+Schritt für Schritt|step by step
+von Anfang an|from the start
+von nun an|from now on
+ab jetzt|from now on
+ab sofort|from now on, effective immediately
+bis jetzt|so far, until now
+bis dahin|by then, until then
+im Voraus|in advance
+im Freien|outdoors
+im Laufe|in the course of
+im Gegensatz zu|in contrast to
+im Vergleich zu|compared to
+in Bezug auf|with regard to
+auf der Stelle|on the spot, immediately
+an deiner Stelle|if I were you
+an Ihrer Stelle|if I were you (formal); in her place, in their place
+an meiner Stelle|in my place
+mit Absicht|on purpose
+aus Versehen|by mistake, accidentally
+um jeden Preis|at any price
+zu Fuß|on foot; (zu Füßen) at the feet
+zu Hause|at home
+nach Hause|home (towards)
+von zu Hause|from home
+in Ordnung|all right, okay
+alles in Ordnung|everything's all right
+in Ruhe|in peace, calmly
+zu Ende|over, finished
+auf dem Laufenden|up to date, informed
+meiner Meinung nach|in my opinion
+meiner Ansicht nach|in my view
+# ---- Replies and formulas.
+guten Morgen|good morning
+guten Tag|hello, good day
+guten Abend|good evening
+gute Nacht|good night
+auf Wiedersehen|goodbye
+bis morgen|see you tomorrow
+bis bald|see you soon
+vielen Dank|thank you very much
+danke schön|thank you
+bitte schön|you're welcome; here you are
+bitte sehr|you're welcome; here you are
+gern geschehen|you're welcome
+keine Ahnung|no idea
+keine Sorge|don't worry
+keine Angst|don't be afraid, don't worry
+na ja|well, oh well
+na und|so what
+na gut|all right then
+ach so|oh I see
+wie bitte|pardon?, sorry?
+was ist los|what's the matter, what's going on
+wie geht es|how are you (how is it going)
+wie immer|as always
+alles Gute|all the best
+viel Glück|good luck
+viel Spaß|have fun
+herzlichen Glückwunsch|congratulations
+Gott sei Dank|thank God
+mein Gott|my God
+um Gottes willen|for God's sake
+um Himmels willen|for heaven's sake
+zum Teufel|to hell (with); the hell
+lass mich in Ruhe|leave me alone
+halt den Mund|shut up
+kurz und gut|in short
+# ---- Light-verb idioms, cited as a dictionary does; the verb-second forms (`hat Angst`) come from the key forms.
+Angst haben|to be afraid
+Recht haben|to be right
+Unrecht haben|to be wrong
+Lust haben|to feel like
+Glück haben|to be lucky
+Pech haben|to be unlucky
+Hunger haben|to be hungry
+Durst haben|to be thirsty
+schuld sein|to be to blame
+Spaß machen|to be fun
+Spaß haben|to have fun
+Sorgen machen|to worry (sich Sorgen machen: to be worried)
+Gedanken machen|to think about, to worry (sich Gedanken machen)
+Mühe geben|to make an effort (sich Mühe geben)
+Bescheid wissen|to know (about it), to be informed
+Bescheid sagen|to let (someone) know
+Fragen stellen|to ask questions
+eine Frage stellen|to ask a question
+eine Entscheidung treffen|to make a decision
+eine Rolle spielen|to play a part, to matter
+keine Rolle spielen|not to matter
+Platz nehmen|to take a seat
+Abschied nehmen|to say goodbye
+ernst nehmen|to take seriously
+Rücksicht nehmen|to be considerate
+in Kauf nehmen|to accept, to put up with
+auf den Arm nehmen|to pull (someone's) leg
+im Stich lassen|to let down, to abandon
+in Ruhe lassen|to leave alone
+zur Verfügung stehen|to be available
+zur Verfügung stellen|to make available
+zu Ende gehen|to come to an end
+ums Leben kommen|to lose one's life, to die
+ums Leben|(to lose) one's life
+zur Welt kommen|to be born
+ins Bett gehen|to go to bed
+zu Bett gehen|to go to bed
+schlafen gehen|to go to bed
+spazieren gehen|to go for a walk
+einkaufen gehen|to go shopping
+zu Mittag essen|to have lunch
+zu Abend essen|to have dinner
+zu tun haben|to have to do (with); to be busy
+nichts zu tun haben|to have nothing to do (with)
+den Mund halten|to keep quiet, to shut up
+Wort halten|to keep one's word
+Schritt halten|to keep pace
+Gas geben|to step on it, to accelerate

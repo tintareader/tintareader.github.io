@@ -1,0 +1,212 @@
+# What each German phrase in `phrases.txt` means, in Spanish.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`. Hand-written,
+# like the two files it translates; dictgen only carries it into the manifest
+# (`register --file phrases.es`). The patterns must not change and the sense
+# count must match `phrases.en.txt`.
+
+# ---- Frames around another word: `*` is a gap of up to four words.
+um * zu|para (+ infinitivo)
+ohne * zu|sin (+ infinitivo)
+statt * zu|en lugar de (+ infinitivo)
+anstatt * zu|en lugar de (+ infinitivo)
+sowohl * als auch|tanto … como
+entweder * oder|o … o
+weder * noch|ni … ni
+je * desto|cuanto (más) … (más)
+je * umso|cuanto (más) … (más)
+nicht nur * sondern auch|no solo … sino también
+zwar * aber|es cierto que … pero
+es kommt auf * an|depende de
+# ---- es: the subject that is not there. `gibt es` is found through the key forms.
+es gibt|hay
+es geht um|se trata de
+es handelt sich um|se trata de
+es kommt darauf an|depende
+es tut mir leid|lo siento
+tut mir leid|lo siento
+es lohnt sich|vale la pena
+es fällt mir schwer|me cuesta
+es ist mir egal|me da igual
+das ist mir egal|me da igual
+es macht nichts|no importa
+macht nichts|no pasa nada, no importa
+es eilig haben|tener prisa
+es sich leisten|(poder) permitírselo
+# ---- Negation and repetition, where the words mislead.
+nicht mehr|ya no
+nicht einmal|ni siquiera
+nicht mal|ni siquiera
+gar nicht|en absoluto, nada
+gar nichts|nada de nada
+überhaupt nicht|en absoluto
+überhaupt nichts|absolutamente nada
+immer noch|todavía, aún
+noch einmal|otra vez, una vez más
+noch mal|otra vez, una vez más
+schon wieder|otra vez, ¡otra vez no!
+immer wieder|una y otra vez
+# ---- Quantities.
+ein paar|unos cuantos, algunos (no exactamente dos)
+ein bisschen|un poco
+ein wenig|un poco
+eine Menge|un montón (de), mucho
+so ein|un … así, semejante
+so etwas|algo así, una cosa así
+was für|qué tipo de; ¡qué …! (exclamación)
+wie viel|cuánto, cuántos
+# ---- Connectives and adverbials.
+zum Beispiel|por ejemplo
+auf jeden Fall|en cualquier caso, sin duda
+auf keinen Fall|de ninguna manera, ni hablar
+im Gegenteil|al contrario
+in der Tat|en efecto, de hecho
+vor allem|sobre todo
+nach wie vor|todavía, como antes
+und zwar|en concreto, es decir
+das heißt|es decir, o sea
+im Grunde|en el fondo
+im Allgemeinen|en general
+im Großen und Ganzen|en términos generales, en conjunto
+unter anderem|entre otras cosas
+unter uns|entre nosotros
+ohne weiteres|sin más, sin problema
+auf diese Weise|de esta manera
+so gut wie|prácticamente, casi
+wie gesagt|como he dicho
+statt dessen|en cambio, en su lugar
+auf einmal|de repente; a la vez
+mit einem Mal|de repente, de golpe
+zum ersten Mal|por primera vez
+zum letzten Mal|por última vez
+zum Glück|por suerte, afortunadamente
+zum Schluss|al final, por último
+im Moment|en este momento
+im Augenblick|en este momento
+in letzter Zeit|últimamente
+seit langem|desde hace mucho
+vor kurzem|hace poco, recientemente
+eines Tages|un día
+ab und zu|de vez en cuando
+ab und an|de vez en cuando
+hin und wieder|de vez en cuando
+hin und her|de un lado a otro
+nach und nach|poco a poco
+von Tag zu Tag|de día en día
+Schritt für Schritt|paso a paso
+von Anfang an|desde el principio
+von nun an|de ahora en adelante
+ab jetzt|a partir de ahora
+ab sofort|a partir de ahora, con efecto inmediato
+bis jetzt|hasta ahora
+bis dahin|para entonces, hasta entonces
+im Voraus|por adelantado
+im Freien|al aire libre
+im Laufe|a lo largo de, en el transcurso de
+im Gegensatz zu|a diferencia de
+im Vergleich zu|en comparación con
+in Bezug auf|con respecto a
+auf der Stelle|en el acto, inmediatamente
+an deiner Stelle|yo que tú, en tu lugar
+an Ihrer Stelle|yo que usted (formal); en su lugar (de ella, de ellos)
+an meiner Stelle|en mi lugar
+mit Absicht|a propósito
+aus Versehen|sin querer, por error
+um jeden Preis|a toda costa
+zu Fuß|a pie; (zu Füßen) a los pies
+zu Hause|en casa
+nach Hause|a casa
+von zu Hause|de casa, desde casa
+in Ordnung|de acuerdo, vale
+alles in Ordnung|todo bien
+in Ruhe|en paz, con calma
+zu Ende|terminado, acabado
+auf dem Laufenden|al día, al corriente
+meiner Meinung nach|en mi opinión
+meiner Ansicht nach|a mi parecer
+# ---- Replies and formulas.
+guten Morgen|buenos días
+guten Tag|buenos días, hola
+guten Abend|buenas tardes, buenas noches (al llegar)
+gute Nacht|buenas noches (al despedirse)
+auf Wiedersehen|adiós, hasta la vista
+bis morgen|hasta mañana
+bis bald|hasta pronto
+vielen Dank|muchas gracias
+danke schön|muchas gracias
+bitte schön|de nada; aquí tiene
+bitte sehr|de nada; aquí tiene
+gern geschehen|de nada
+keine Ahnung|ni idea
+keine Sorge|no te preocupes
+keine Angst|no tengas miedo, tranquilo
+na ja|bueno, en fin
+na und|¿y qué?
+na gut|bueno, vale
+ach so|ah, ya veo
+wie bitte|¿perdón?, ¿cómo?
+was ist los|¿qué pasa?
+wie geht es|¿qué tal? (¿cómo va?)
+wie immer|como siempre
+alles Gute|que te vaya bien, felicidades
+viel Glück|buena suerte
+viel Spaß|que te diviertas
+herzlichen Glückwunsch|enhorabuena, felicidades
+Gott sei Dank|gracias a Dios
+mein Gott|Dios mío
+um Gottes willen|por el amor de Dios
+um Himmels willen|por el amor de Dios, ¡cielos!
+zum Teufel|al diablo (con); demonios
+lass mich in Ruhe|déjame en paz
+halt den Mund|cállate
+kurz und gut|en resumen
+# ---- Light-verb idioms, cited as a dictionary does; the verb-second forms (`hat Angst`) come from the key forms.
+Angst haben|tener miedo
+Recht haben|tener razón
+Unrecht haben|no tener razón, estar equivocado
+Lust haben|tener ganas
+Glück haben|tener suerte
+Pech haben|tener mala suerte
+Hunger haben|tener hambre
+Durst haben|tener sed
+schuld sein|tener la culpa
+Spaß machen|ser divertido
+Spaß haben|divertirse
+Sorgen machen|preocupar (sich Sorgen machen: preocuparse)
+Gedanken machen|pensar en, preocuparse (sich Gedanken machen)
+Mühe geben|esforzarse (sich Mühe geben)
+Bescheid wissen|estar enterado, saberlo
+Bescheid sagen|avisar (a alguien)
+Fragen stellen|hacer preguntas
+eine Frage stellen|hacer una pregunta
+eine Entscheidung treffen|tomar una decisión
+eine Rolle spielen|desempeñar un papel, importar
+keine Rolle spielen|no importar
+Platz nehmen|tomar asiento
+Abschied nehmen|despedirse
+ernst nehmen|tomar en serio
+Rücksicht nehmen|tener consideración
+in Kauf nehmen|aceptar, asumir
+auf den Arm nehmen|tomar el pelo (a alguien)
+im Stich lassen|dejar en la estacada, abandonar
+in Ruhe lassen|dejar en paz
+zur Verfügung stehen|estar disponible
+zur Verfügung stellen|poner a disposición
+zu Ende gehen|llegar a su fin
+ums Leben kommen|perder la vida, morir
+ums Leben|(perder) la vida
+zur Welt kommen|nacer
+ins Bett gehen|irse a la cama
+zu Bett gehen|irse a la cama
+schlafen gehen|irse a dormir
+spazieren gehen|ir a pasear
+einkaufen gehen|ir de compras
+zu Mittag essen|comer, almorzar
+zu Abend essen|cenar
+zu tun haben|tener que ver (con); estar ocupado
+nichts zu tun haben|no tener nada que ver (con)
+den Mund halten|callarse, cerrar la boca
+Wort halten|cumplir su palabra
+Schritt halten|seguir el ritmo
+Gas geben|pisar el acelerador, darse prisa

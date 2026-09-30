@@ -19,7 +19,7 @@ nicht|not|o
 die|the (fem.; pl.); who, which (relative)|o;o
 es|it; es gibt: there is, there are|f3s;n
 und|and|o
-der|the (masc.); who, which (relative)|o;o
+der|the (masc.); who, which (relative); the, to the (fem. dat.); of the (fem. gen.; gen. pl.)|o;o;o;o
 wir|we|f1p
 was|what; something (colloq.)|o;o
 zu|to; too; closed; zu Hause: at home|o;o;o;n
@@ -31,9 +31,9 @@ ja|yes; (particle) of course, you know|o;o
 mir|me, to me (dat.)|o
 mit|with|o
 wie|how; like, as|o;o
-den|the (masc. acc.; dat. pl.)|o
+den|the (masc. acc.; dat. pl.); whom, which (relative)|o;o
 mich|me (acc.)|o
-auf|on, onto; open; auf Wiedersehen: goodbye|o;o;n
+auf|on, onto; open; up, awake; auf Wiedersehen: goodbye|o;o;o;n
 dass|that (conjunction)|o
 aber|but; (particle) really, indeed|o;o
 sein|to be (ist, war, gewesen, ist); his, its|v;o
@@ -57,7 +57,7 @@ an|at, on; to; an sein: to be on (switched on)|o;o;n
 meine|my (fem.; pl.); I mean|o;f1s
 bin|I am|f1s
 noch|still, yet; else, more; noch nicht: not yet|o;o;n
-nur|only, just|o
+nur|only, just; (in questions) on earth, ever|o;o
 da|there; then; since, as|o;o;o
 dir|you, to you (dat., informal)|f2s2p
 sich|oneself, himself, herself, itself, themselves (reflexive)|o
@@ -67,7 +67,7 @@ uns|us, to us|o
 hast|you have (informal)|f2s2p
 sehen|to see, to look (sieht, sah, gesehen)|v
 sagen|to say, to tell|v
-dem|the (masc./neut. dat.)|o
+dem|the (masc./neut. dat.); to whom, to which (relative)|o;o
 kann|I can; he/she/it can|f1s;f3s
 auch|also, too|o
 schon|already; (particle) surely, all right|o;o
@@ -101,7 +101,7 @@ muss|I must, I have to; he/she/it must|f1s;f3s
 viel|much, a lot|o
 will|I want; he/she/it wants|f1s;f3s
 ihnen|them, to them (dat.); (Ihnen) you, to you (formal)|o;f2s2p
-geht|goes; works; es geht: it's all right|f3s;o;n
+geht|goes; works; es geht um: it is about; es geht: things are going, it's all right|f3s;o;n;n
 wo|where|o
 etwas|something; somewhat, a little|o;o
 oh|oh|o
@@ -130,7 +130,7 @@ leben|to live; life (das, pl. Leben)|v;o
 geben|to give (gibt, gab, gegeben); es gibt: there is, there are|v;n
 ihm|him, to him (dat.)|o
 zum|to the (zu+dem)|o
-vielleicht|maybe, perhaps|o
+vielleicht|maybe, perhaps; (particle) really, what a (in exclamations)|o;o
 einem|a, an (masc./neut. dat.)|o
 diese|this, these|o
 euch|you, to you (pl., informal)|f2s2p
@@ -254,7 +254,7 @@ schnell|fast, quick; quickly|o;o
 gar|gar nicht: not at all; gar nichts: nothing at all; cooked, done|n;n;o
 fahren|to drive, to go (by vehicle), to ride (fährt, fuhr, gefahren, ist)|v
 sache|thing, matter (die, pl. Sachen)|o
-heißen|to be called; to mean (hieß, geheißen)|v;v
+heißen|to be called; to mean (hieß, geheißen); hot (form of heiß)|v;v;o
 ins|into the (in+das)|o
 dort|there|o
 weiter|further, on; weiter!: go on!, carry on|o;n
@@ -294,7 +294,7 @@ unter|under, below; among|o;o
 zusammen|together|o
 hand|hand (die, pl. Hände)|o
 neue|new|o
-treffen|to meet; to hit (trifft, traf, getroffen); meeting (das, pl. Treffen)|v;v;o
+treffen|to meet; to hit (trifft, traf, getroffen); meeting (das, pl. Treffen); Entscheidung treffen: to make a decision|v;v;o;n
 getan|done|o
 erst|only, not until; first|o;o
 liegen|to lie, to be lying; to be located (lag, gelegen)|v;v
@@ -332,7 +332,7 @@ wahr|true|o
 minute|minute (die, pl. Minuten)|o
 fall|case (der, pl. Fälle); fall; auf jeden Fall: in any case|o;o;n
 vergessen|to forget (vergisst, vergaß, vergessen)|v
-fertig|ready; finished, done|o;o
+fertig|finished, done; ready|o;o
 allein|alone|o
 beim|at the, while (bei+dem)|o
 weit|far; wide|o;o
@@ -362,7 +362,7 @@ frage|question (die, pl. Fragen); I ask|o;f1s
 kopf|head (der, pl. Köpfe)|o
 auto|car (das, pl. Autos)|o
 sage|I say; legend, saga (die, pl. Sagen)|f1s;o
-eigentlich|actually, really|o
+eigentlich|actually, really; (in questions) anyway, by the way|o;o
 schlafen|to sleep (schläft, schlief, geschlafen)|v
 uhr|o'clock; clock, watch (die, pl. Uhren)|o;o
 dad|dad|o
@@ -378,7 +378,7 @@ hi|hi|o
 hoffen|to hope|v
 nett|nice, kind|o
 später|later|o
-schaffen|to manage, to make it; to create (schuf, geschaffen)|v;v
+schaffen|to manage, to make it (schaffte, geschafft); to create (schuf, geschaffen)|v;v
 stellen|to put (upright), to place; eine Frage stellen: to ask a question|v;n
 einzige|only, sole|o
 ende|end (das, pl. Enden)|o
@@ -388,7 +388,7 @@ schlecht|bad; badly; mir ist schlecht: I feel sick|o;o;n
 neu|new|o
 darauf|on it; after that; darauf warten: to wait for it|o;o;n
 bald|soon|o
-grund|reason (der, pl. Gründe); ground, bottom|o;o
+grund|reason (der, pl. Gründe); ground, bottom; im Grunde: basically|o;o;n
 sorgen|to care, to provide; sich sorgen: to worry; worries (pl. of die Sorge)|v;n;o
 eins|one|o
 kerl|guy, fellow (der, pl. Kerle)|o
@@ -405,7 +405,7 @@ ahnung|idea, notion (die, pl. Ahnungen); keine Ahnung: no idea|o;n
 bisschen|ein bisschen: a little, a bit|n
 scheinen|to seem; to shine (schien, geschienen)|v;v
 jungs|guys, boys (colloq. pl. of der Junge)|o
-schwer|heavy; difficult, hard|o;o
+schwer|difficult, hard; heavy|o;o
 polizei|police (die, no pl.)|o
 setzen|to set, to put, to seat; sich setzen: to sit down|v;n
 draußen|outside|o
@@ -417,7 +417,7 @@ fast|almost, nearly|o
 erzählen|to tell, to narrate|v
 runter|down (colloq.)|o
 verlassen|to leave, to abandon (verlässt, verließ, verlassen); abandoned; sich verlassen auf: to rely on|v;o;n
-ruhig|quiet, calm|o
+ruhig|quiet, calm; (particle) go ahead, feel free|o;o
 geschichte|story (die, pl. Geschichten); history|o;o
 eigene|own|o
 vorbei|over, past; vorbei sein: to be over|o;n
@@ -425,7 +425,7 @@ gerne|gladly; gerne haben: to like|o;n
 job|job (der, pl. Jobs)|o
 dran|on it (colloq.); ich bin dran: it's my turn|o;n
 hinter|behind|o
-land|country (das, pl. Länder); land; countryside|o;o;o
+land|country (das, pl. Länder); land; countryside; auf dem Land / auf dem Lande / aufs Land: in the countryside|o;o;o;n
 mom|mom|o
 ziemlich|quite, rather, pretty|o
 voll|full; totally (colloq.)|o;o
@@ -452,7 +452,7 @@ schreiben|to write (schrieb, geschrieben)|v
 erzählt|told|o
 verlieren|to lose (verlor, verloren)|v
 stunden|hours (pl. of die Stunde)|o
-tragen|to carry; to wear (trägt, trug, getragen)|v;v
+tragen|to wear (trägt, trug, getragen); to carry|v;v
 oben|up, above; upstairs|o;o
 gestern|yesterday|o
 lachen|to laugh|v
@@ -461,7 +461,7 @@ endlich|finally, at last|o
 he|hey|o
 etwa|about, approximately; perhaps (in questions)|o;o
 wasser|water (das, pl. Wasser)|o
-reichen|to be enough; to hand, to pass; es reicht: that's enough|v;v;n
+reichen|to be enough; to hand, to pass; es reicht: that's enough; rich (form of reich); the rich (die Reichen)|v;v;n;o;o
 ernst|serious; seriousness (der, no pl.); im Ernst: seriously|o;o;n
 anders|different; differently|o;o
 miss|Miss|o
@@ -1144,7 +1144,7 @@ detective|detective|o
 gruppe|group (die, pl. Gruppen)|o
 mädel|girl, lass (das, pl. Mädels)|o
 überlegen|to consider, to think over; superior|v;o
-rat|advice (der, pl. Räte); council|o;o
+rat|advice (der, pl. Ratschläge); council, councillor (pl. Räte)|o;o
 hau|hau ab: get lost!; hit! (informal)|n;o
 königin|queen (die, pl. Königinnen)|o
 sheriff|sheriff|o
@@ -5538,7 +5538,7 @@ lüg|lie! (informal)|o
 schwindel|dizziness (der, no pl.); swindle|o;o
 streben|to strive|v
 vorgeschlagen|suggested|o
-borg|borrowed (I/he/she borrowed)|o
+borg|borrow!, lend! (informal)|o
 fahrkarte|ticket (die, pl. Fahrkarten)|o
 genehmigt|approved|o
 ick|I (Berlin dialect)|f1s
@@ -5994,7 +5994,7 @@ drittel|third (das, pl. Drittel)|o
 lieferwagen|van (der, pl. Lieferwagen)|o
 zurückgebracht|brought back|o
 blondine|blonde (die, pl. Blondinen)|o
-drang|urge (der, no pl.); pushed (it pushed)|o;o
+drang|urge (der, no pl.); penetrated, got through (I/he/she/it; past of dringen)|o;o
 einsame|lonely|o
 erwartete|expected|o
 tierarzt|vet (der, pl. Tierärzte)|o

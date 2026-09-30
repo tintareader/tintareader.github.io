@@ -1,0 +1,428 @@
+# What each Indonesian phrase in `phrases.txt` means, in Mandarin Chinese
+# (simplified characters).
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Chinese where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. The ASCII `;` separates
+#     senses and `、` or `，` joins near-synonyms inside one, as in `gloss.zh.txt`.
+#     Brackets are ASCII `(` `)`, never fullwidth.
+#
+# Verbs are cited bare, as Chinese dictionaries cite them; `(字面义)` marks the
+# word-by-word reading, as `(literally)` does in English, and `……` stands for
+# the slot the pattern's `*` leaves open.
+# ---- Discourse and connectives
+mau tidak mau|不管愿不愿意、不得不、势必
+mau tak mau|不管愿不愿意、不得不、势必
+suka atau tidak|不管喜不喜欢
+percaya atau tidak|信不信由你
+apa boleh buat|没办法、只好如此
+apa mau dikata|还能说什么呢、没办法
+apa hendak dikata|还能说什么呢、没办法
+mau bagaimana lagi|还能怎么办呢、没办法
+mau gimana lagi|还能怎么办呢、没办法
+apa daya|无可奈何、无能为力
+siapa tahu|谁知道呢、说不定、没准儿
+siapa sangka|谁能想到
+siapa kira|谁能想到
+siapa bilang|谁说的
+siapa peduli|谁在乎
+kalau tidak salah|如果我没记错的话、没弄错的话
+kalau begitu|那样的话、那么
+kalau gitu|那样的话、那么 (口语)
+kalau tidak|否则、不然;如果不
+kalau saja|要是……就好了、但愿
+andai saja|要是……就好了、但愿
+seandainya saja|要是……就好了、但愿
+cepat atau lambat|迟早
+lama kelamaan|久而久之、渐渐地
+oleh karena itu|因此、所以
+oleh sebab itu|因此、所以
+maka dari itu|因此、正因为如此
+karena itu|因此、所以
+dengan kata lain|换句话说
+dengan demikian|因此、由此、这样一来
+dengan begitu|这样一来、因此
+meskipun demikian|尽管如此、即便如此
+meskipun begitu|尽管如此、即便如此
+walaupun demikian|尽管如此、即便如此
+walau begitu|即便如此、尽管如此
+namun demikian|然而、尽管如此
+kendati demikian|尽管如此、即便如此
+bagaimanapun juga|无论如何、毕竟、不管怎样
+bagaimana pun juga|无论如何、毕竟、不管怎样
+pada akhirnya|最终、到头来
+pada dasarnya|基本上、从根本上说
+pada hakikatnya|实质上、实际上
+pada umumnya|一般来说、通常
+pada intinya|说到底、要点是
+pada kenyataannya|事实上、实际上
+pada gilirannya|反过来、进而
+tak lain|不是别的、正是
+tidak lain|不是别的、正是
+tak ubahnya|无异于、就像
+tidak ubahnya|无异于、就像
+tak urung|终究、到底还是、尽管如此
+tidak urung|终究、到底还是、尽管如此
+tak jarang|常常、不乏
+tidak jarang|常常、不乏
+tak sedikit|不少、许多
+tidak sedikit|不少、许多
+paling tidak|至少
+hanya saja|只是、不过
+belum lagi|更不用说、何况
+sudah barang tentu|当然、自然
+sudah tentu|当然、肯定
+lebih dulu|先、事先、抢先
+lebih dahulu|先、事先、抢先
+habis itu|之后、然后
+begitu saja|就那样、干脆;只是、仅仅
+begitu pula|同样、也是如此
+begitu juga|同样、……也一样
+demikian pula|同样、也是如此
+demikian juga|同样、也是如此
+sama halnya|同样、同理
+tak disangka|没想到、出乎意料
+tidak disangka|没想到、出乎意料
+tak disangka-sangka|万万没想到
+tidak disangka-sangka|万万没想到
+tanpa disadari|不知不觉、无意识地
+tanpa sadar|不知不觉、无意识地
+tak terasa|不知不觉、(时间)飞逝
+tidak terasa|不知不觉、(时间)飞逝
+tanpa terasa|不知不觉、(时间)飞逝
+entah kenapa|不知为何、不知怎么的
+entah mengapa|不知为何、不知怎么的
+entah bagaimana|不知怎么地
+entah apa|不知什么、某种东西
+entah di mana|不知在哪里、某处
+entah dari mana|不知从哪里
+entah siapa|不知是谁、某人
+jangan sampai|千万别、可别让……发生
+sampai hati|忍心、狠得下心
+tidak sampai hati|不忍心
+tak sampai hati|不忍心
+tak habis pikir|想不通、无法理解
+tidak habis pikir|想不通、无法理解
+lebih baik * daripada|……比……好、宁可……也不
+daripada * lebih baik|与其……不如
+tidak hanya * tetapi juga|不仅……而且
+tidak hanya * tapi juga|不仅……而且
+bukan hanya * tetapi juga|不仅……而且
+bukan hanya * tapi juga|不仅……而且
+baik * maupun|……和……都;无论……还是
+entah * entah|或者……或者、不管是……还是
+semakin * semakin|越……越
+makin * makin|越……越
+semakin lama semakin|越来越
+makin lama makin|越来越
+makin hari makin|一天比一天更
+semakin hari semakin|一天比一天更
+kian hari kian|一天比一天更
+bukan * melainkan|不是……而是
+jangankan * pun|别说……就连……也
+begitu * sehingga|如此……以至于
+sedemikian rupa|如此地、到如此程度
+sedemikian rupa sehingga|如此……以至于
+yang penting|重要的是、关键是
+yang pasti|可以肯定的是、肯定
+namanya juga|毕竟是……嘛、还能指望什么
+yang namanya|所谓的、凡是叫……的
+
+# ---- Quantity, degree, time
+sekali lagi|再一次、又一次
+seumur hidup|一辈子、终身
+sekali seumur hidup|一生仅此一次
+sepanjang masa|有史以来、永远
+untuk selamanya|永远、永久
+sampai kapan pun|永远、无论多久
+suatu hari nanti|总有一天、将来某天
+pada suatu hari|有一天 (故事开头)
+sekarang juga|马上、立刻
+saat itu juga|就在那一刻、当即
+saat ini juga|此时此刻、立刻
+hari itu juga|当天、就在那天
+seketika itu juga|立刻、就在那一刻
+tak lama kemudian|不久之后
+tidak lama kemudian|不久之后
+tak lama lagi|不久、很快
+tidak lama lagi|不久、很快
+belum lama ini|最近、不久前
+akhir-akhir ini|近来、最近
+siang malam|日日夜夜、昼夜不停
+siang dan malam|日日夜夜、昼夜不停
+tidak karuan|乱七八糟、失控、一团糟
+tak karuan|乱七八糟、失控、一团糟
+tidak keruan|乱七八糟、失控、一团糟
+tak keruan|乱七八糟、失控、一团糟
+tidak menentu|不确定、变化无常、不稳定
+tak menentu|不确定、变化无常、不稳定
+bukan kepalang|极其、非同一般
+alang kepalang|极其、非同一般
+bukan sembarang|不寻常的、不是随便什么
+tak terhitung|数不清、无数
+tiada duanya|独一无二、无与伦比
+minta ampun|……得要命、……死了 (用在形容词后);求饶
+setengah hati|半心半意
+sebisa mungkin|尽可能
+sedapat mungkin|尽可能
+sesegera mungkin|尽快
+secepat mungkin|尽快、越快越好
+dengan susah payah|费尽周折、千辛万苦
+jerih payah|辛劳、心血、努力
+dengan senang hati|乐意、很高兴地
+dengan hormat|恭敬地;敬启者 (书信开头)
+dengan sendirinya|自然而然、自动地
+dengan sengaja|故意、有意
+tanpa sengaja|无意中、不小心
+tidak sengaja|无意中、不小心
+tak sengaja|无意中、不小心
+tanpa pikir panjang|不假思索
+tanpa basa-basi|开门见山、直截了当
+tanpa ampun|毫不留情
+tanpa pamrih|无私地、不求回报
+terus terang|坦白说、老实说
+secara terang-terangan|公开地、直言不讳
+apa adanya|原原本本、不加修饰;实话实说
+ala kadarnya|简单的、将就的、有什么用什么
+sesuka hati|随心所欲、随意
+tidak ada salahnya|……也无妨
+tak ada salahnya|……也无妨
+apa salahnya|……有什么不好、何乐而不为
+tidak ada gunanya|没有意义、没用
+tak ada gunanya|没有意义、没用
+apa gunanya|有什么用、有什么意义
+tak ada habisnya|没完没了、无穷无尽
+tidak ada hubungannya|毫无关系
+apa hubungannya|跟……有什么关系
+sia-sia saja|白费、徒劳
+hampir saja|差点儿、险些
+nyaris saja|差点儿、险些
+untung saja|幸好、幸亏
+di atas angin|占上风
+di atas kertas|纸面上、理论上
+di bawah umur|未成年
+di depan mata|就在眼前、迫在眉睫
+dengan mata kepala sendiri|亲眼
+dari lubuk hati|发自内心
+titik darah penghabisan|最后一滴血、奋战到底
+
+# ---- Idioms (ungkapan): verb heads, so written on the root
+angkat kaki|离开、走人;(字面义) 抬脚
+cuci tangan|洗手不干、推卸责任;(字面义) 洗手
+angkat tangan|举手;认输、撒手不管
+gigit jari|落空、失望;(字面义) 咬手指
+cari perhatian|博取关注、出风头
+cari gara-gara|找茬、挑衅
+cari masalah|找麻烦、自找麻烦
+cari mati|找死
+cari makan|谋生、糊口;觅食
+cari kesempatan|找机会;趁机占便宜
+main api|玩火
+main belakang|背地里搞小动作
+main aman|求稳、稳妥行事
+main kasar|动粗、耍狠
+main curang|作弊、耍诈
+tidak main-main|认真的、不是开玩笑
+tak main-main|认真的、不是开玩笑
+jangan main-main|别胡闹、别儿戏
+cuci otak|洗脑
+buka mulut|张嘴;开口、泄露(秘密)
+buka suara|开口表态、打破沉默
+buka mata|睁开眼睛;让人睁眼看清、使醒悟
+buka jalan|铺路、开辟道路
+tutup mata|闭上眼睛;视而不见;去世
+tutup telinga|充耳不闻
+pasang telinga|竖起耳朵听、仔细听
+jual mahal|摆架子、故作矜持
+jual diri|出卖自己、卖身
+putar balik|掉头;歪曲(事实)
+putar haluan|改变方向、转向
+balik badan|转身、背过身去
+naik pangkat|升职、晋升
+naik banding|上诉
+turun gunung|复出、亲自出马
+mati suri|假死、濒死;停滞、处于休眠状态
+habis akal|束手无策、无计可施
+kehabisan akal|束手无策、无计可施
+ambil sikap|表明立场、表态
+jalan buntu|死胡同、僵局
+buang waktu|浪费时间
+buang-buang waktu|浪费时间、白费时间
+tinggal kenangan|只剩回忆
+makan korban|造成伤亡、夺去人命
+mandi keringat|汗流浃背
+curi pandang|偷看、偷瞄
+curi dengar|偷听
+adu nasib|碰运气
+adu mulut|吵架、拌嘴
+tolak mentah-mentah|断然拒绝
+sebelah mata|轻视、不屑一顾
+bertepuk sebelah tangan|(爱情) 一厢情愿、单相思
+naik turun|起起伏伏、上下波动
+turun naik|起起伏伏、上下波动
+timbul tenggelam|时隐时现、断断续续
+keluar masuk|进进出出、来来往往
+diam seribu bahasa|一言不发、沉默不语
+ditelan bumi|消失得无影无踪
+lari tunggang langgang|落荒而逃、仓皇逃窜
+tunggang langgang|狼狈不堪、仓皇奔逃
+lari terbirit-birit|吓得拔腿就跑
+tidak tahu terima kasih|忘恩负义
+tidak mengapa|没关系、不要紧
+tak mengapa|没关系、不要紧
+bukan apa-apa|没什么、不算什么
+tidak ada apa-apa|没什么事、什么都没有
+tidak ada masalah|没问题
+tidak masalah|没问题、没关系
+tak masalah|没问题、没关系
+bukan masalah|不成问题
+jatuh miskin|变穷、陷入贫困
+jatuh sakit|病倒
+jatuh pingsan|晕倒
+jatuh tertidur|睡着
+minta izin|请求允许、请假
+minta tolong|请求帮忙;请(帮个忙)
+minta diri|告辞
+muka masam|愁眉苦脸、板着脸
+tersenyum kecut|苦笑
+tersenyum simpul|微微一笑、抿嘴笑
+keringat dingin|冷汗
+panas dingin|发烧、忽冷忽热;紧张不安
+besar mulut|爱吹牛、说大话的
+mulut besar|大话、夸夸其谈
+mulut manis|甜言蜜语
+omong besar|吹牛、说大话
+asal bicara|信口开河、随口乱说
+panas hati|生气、恼火
+hancur hati|心碎
+pinang dibelah dua|一模一样、如同一个模子刻出来的
+durian runtuh|意外之财、天上掉馅饼
+
+# ---- Proverbs (peribahasa)
+nasi sudah menjadi bubur|木已成舟、覆水难收
+tak ada gading yang tak retak|金无足赤，人无完人
+
+# ---- Formulas and greetings
+selamat tahun baru|新年快乐
+selamat menikmati|请慢用、请享用
+selamat makan|请慢用、用餐愉快
+selamat bersenang-senang|玩得开心
+turut berduka|节哀顺变、深表哀悼
+berduka cita|哀悼;慰问、节哀
+cepat sembuh|早日康复
+lekas sembuh|早日康复
+semoga berhasil|祝你成功、祝好运
+semoga sukses|祝你成功、祝一切顺利
+semoga beruntung|祝你好运
+semoga saja|但愿如此、希望如此
+mudah-mudahan saja|但愿如此、希望如此
+insya allah|如果真主允许、但愿如此
+demi tuhan|对天发誓、以上帝之名
+demi allah|对真主发誓、以真主之名
+ya tuhan|天哪、我的天
+ya allah|真主啊、天哪
+syukur alhamdulillah|感谢真主、谢天谢地
+wa alaikum salam|愿你也平安 (回应问候)
+waalaikum salam|愿你也平安 (回应问候)
+wallahu alam|只有真主知道、谁知道呢
+permisi dulu|失陪了、我先走了
+pamit dulu|我先告辞了
+saya permisi|失陪了、我先走了
+aku duluan|我先走了、回头见
+sampai nanti|回头见、待会儿见
+sampai besok|明天见
+hati-hati di jalan|路上小心、一路平安
+hati-hati ya|小心点、保重
+jaga diri|保重
+jaga diri baik-baik|好好保重
+baik-baik saja|挺好的、没事
+baik-baik aja|挺好的、没事 (口语)
+kabar baik|好消息;(我)很好
+tunggu sebentar|稍等一下、等一会儿
+tunggu dulu|等一下、且慢
+nanti dulu|等等、先别、还不行
+nanti saja|以后再说、等会儿吧
+sabar dulu|耐心点、先别急
+pelan-pelan saja|慢慢来、别着急
+santai saja|放轻松、别紧张
+santai aja|放轻松、别紧张 (口语)
+tenang saja|别担心、放心
+tenang aja|别担心、放心 (口语)
+dengan segala hormat|恕我直言、恕我冒昧
+mohon maaf|非常抱歉、请原谅
+sampai di sini|到此为止、就到这里
+sudah cukup|够了
+
+# ---- Colloquial (subtitles, chat)
+nggak apa-apa|没关系、没事、不要紧
+gak apa-apa|没关系、没事、不要紧
+nggak papa|没关系、没事、不要紧
+ga papa|没关系、没事、不要紧
+tidak usah|不用了、不必
+tak usah|不用了、不必
+nggak usah|不用了、不必
+gak usah|不用了、不必
+ga usah|不用了、不必
+enggak usah|不用了、不必
+masa sih|真的吗?、不会吧、怎么可能
+kenapa sih|到底为什么、怎么了嘛
+ada apa|怎么了、有什么事
+ada apa sih|到底怎么了、出什么事了
+ada apa lagi|又怎么了、还有什么事
+apa sih|什么呀、干嘛;哎呀、够了 (表示不满)
+apaan sih|什么呀、得了吧
+apa-apaan ini|这算什么、这是什么意思
+gimana ya|嗯……、怎么说呢
+terus kenapa|那又怎样
+lalu kenapa|那又怎样
+biasa saja|一般般、普通、照常
+boleh juga|还不错、挺好;也行、有何不可
+bisa aja|你真会说、讨厌啦 (调侃);有可能
+bisa saja|有可能、完全可能;你真会说
+kok bisa|怎么会、怎么可能
+bukan begitu|不是那样、不是这个意思
+yang benar saja|开什么玩笑、得了吧
+tidak juga|也不见得、不一定
+ya kan|对吧?、是不是
+iya kan|对吧?、是不是
+biar saja|随它去吧、算了
+terserah kamu|随你、你说了算
+terserah saja|随便、都行
+terserah anda|由您决定、悉听尊便
+bodo amat|管他呢、爱咋咋地
+bukan urusanmu|不关你的事
+bukan urusan|不关(某人)的事
+lihat saja nanti|等着瞧吧
+kita lihat saja|走着瞧、看看再说
+awas kau|你给我等着、小心点
+awas saja|你等着瞧、小心点
+ada-ada saja|真是什么事都有、真有你的
+ada benarnya|有道理、说得有几分对
+begini saja|这样吧、我有个主意
+tahu sendiri|你也知道的、你懂的
+asal tahu saja|告诉你吧、让你知道一下
+sumpah demi|以……发誓
+
+# ---- Kinship and people
+kakak kelas|学长、学姐
+adik kelas|学弟、学妹
+tuan rumah|主人、东道主
+nyonya rumah|女主人
+tuan tanah|地主
+anak ingusan|乳臭未干的小孩、毛头小子
+orang kecil|小人物、普通百姓
+rakyat kecil|老百姓、平民百姓
+orang ketiga|第三者
+kaum hawa|女性、女同胞
+pujaan hati|心上人、意中人
+kekasih hati|心上人、恋人

@@ -1,0 +1,604 @@
+# What each French phrase in `phrases.txt` means, in Mandarin Chinese
+# (simplified characters).
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Chinese where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Three rules, all inherited from the file this translates:
+#
+#   - The patterns on the left are the join key — elision spacing included —
+#     and must not change. A changed pattern is a phrase the app stops
+#     finding; an invented one is a phrase it hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.zh.txt`.
+#   - `;` `( )` and `: ` are ASCII, never their fullwidth forms: the app scans
+#     for those exact characters to find where one sense ends and the next
+#     begins.
+#
+# Verbs are glossed as bare Chinese verbs — the English `to` has no counterpart
+# to carry across. French inside brackets stays French. Grammar is named in
+# Chinese terms (代动词, 虚拟式, 阴性/阳性), and register the way gloss.zh.txt
+# marks it (口语, 俚语, 粗俗).
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+être en train de|正在 (做某事)
+venir de|刚刚 (做了某事); 来自
+aller bien|(身体) 好, 进展顺利
+avoir besoin de|需要
+avoir envie de|想要, 很想
+avoir l' air|看起来, 似乎
+avoir l' habitude|习惯于
+être obligé de|不得不, 必须
+se mettre à|开始 (做某事)
+arrêter de|停止 (做某事)
+continuer à|继续 (做某事)
+finir par|最终 (做了某事)
+il y a|有, 存在; …以前
+il faut|必须, 应该
+il s' agit de|涉及, 关系到, 问题在于
+rendre compte|意识到 (se rendre compte)
+laisser tomber|放弃, 算了
+en aller|离开, 走开 (s'en aller)
+en vouloir à|怨恨, 责怪 (某人)
+faire semblant|假装
+faire attention|注意, 当心
+faire exprès|故意 (做)
+faire gaffe|当心, 小心 (口语)
+faire mal|弄疼, 疼
+valoir la peine|值得
+pas la peine|不必, 用不着
+avoir du mal|很难 (做某事), 费劲
+faire du mal|伤害 (某人)
+prendre soin|照顾, 爱护
+avoir lieu|举行, 发生
+
+# ---- avoir + noun: French has where English is.
+avoir raison|对, 有道理
+avoir tort|错, 没道理
+avoir peur|害怕
+avoir faim|饿
+avoir soif|渴
+avoir mal|疼, 痛
+avoir froid|(人) 觉得冷
+avoir chaud|(人) 觉得热
+avoir honte|感到羞耻, 不好意思
+avoir de la chance|运气好
+
+# ---- Connectives and discourse markers.
+bien sûr|当然
+en fait|其实, 实际上
+en effet|确实, 的确
+du coup|于是, 结果 (口语)
+quand même|还是, 尽管如此
+tout de même|仍然, 还是
+de toute façon|反正, 无论如何
+en tout cas|无论如何, 总之
+par contre|相反, 另一方面
+au fait|顺便问一下, 对了
+à propos|顺便说一下, 对了
+c' est-à-dire|也就是说
+autrement dit|换句话说
+parce que|因为
+pour que|为了, 以便 (接虚拟式)
+afin que|为了, 以便 (接虚拟式)
+bien que|虽然, 尽管 (接虚拟式); (动词后) 很清楚…: tu sais bien que = 你很清楚…
+alors que|而, 然而, 当…时
+tandis que|而, 然而, 当…时
+dès que|一…就
+tant que|只要
+au lieu de|代替, 而不是
+à cause de|因为, 由于
+grâce à|多亏, 幸亏
+plus ou moins|或多或少
+au moins|至少
+du tout|(用于否定) 一点也
+pas du tout|一点也不
+jusqu' à|直到, 到
+jusqu' à ce que|直到 (接虚拟式)
+
+# ---- Modality and degree.
+tout à fait|完全, 完全正确
+pas mal|不错; 相当多
+n' importe quoi|随便什么; 胡说八道
+n' importe qui|随便谁, 任何人
+n' importe où|随便哪里, 任何地方
+quelque chose|某事, 某物
+quelque part|某处
+tout le monde|大家, 所有人
+
+# ---- Time and manner.
+tout de suite|立刻, 马上
+tout à l' heure|待会儿; 刚才
+tout à coup|突然
+en ce moment|此刻, 目前
+pour l' instant|暂时, 目前
+de nouveau|再次, 又
+à nouveau|再次, 重新
+encore une fois|再一次
+en retard|迟到, 晚了
+à l' heure|准时; 每小时; 在…时代
+de temps en temps|不时, 有时
+en même temps|同时
+tout le temps|一直, 总是
+d' abord|首先
+
+# ---- Questions.
+qu' est-ce que|什么 (作宾语)
+qu' est-ce qui|什么 (作主语)
+est-ce que|(一般疑问句标记, 不译出)
+n' est-ce pas|不是吗, 对吧
+à quoi bon|有什么用
+
+# ---- Fixed dialogue.
+s' il vous plaît|请 (您, 你们)
+s' il te plaît|请 (你, 非正式)
+d' accord|好的, 同意
+de rien|不客气
+je t' en prie|不客气; 请 (你)
+ça va|还好, 没事; 你好吗?
+ça y est|好了, 成了
+bonne nuit|晚安
+bonne chance|祝你好运
+au revoir|再见
+à bientôt|回头见, 再会
+à demain|明天见
+mon dieu|天哪, 我的上帝
+
+# ==== The 2026-09-23 expansion (phase 4): proposed by a model, kept only where
+# `measure:phrase-fit` over fiction and OPUS found it and a read of its sampled
+# sentences found the idiomatic reading carrying it.
+# ---- avoir + noun
+avoir hâte|迫不及待, 急于
+avoir beau|无论怎样 (做) 也是徒劳
+avoir l' intention|打算, 有意
+avoir l' impression|觉得, 感觉
+avoir pitié|怜悯, 同情
+avoir horreur|极其厌恶
+avoir recours à|求助于, 诉诸
+avoir la trouille|吓得要死 (口语)
+avoir le cœur|忍心 (做); 心情 (沉重, 心碎)
+avoir l' œil|留意, 注意; 眼光好
+avoir de quoi|足以 (做); 有理由
+avoir des ennuis|遇到麻烦
+avoir qu' à|只需 (tu n'as qu'à: 你只要…就行)
+en avoir marre|受够了, 烦透了
+en avoir assez|受够了
+en avoir pour|需要 (时间); 花费 (钱)
+avoir affaire|(与…) 打交道
+# ---- faire + noun and causatives
+faire peur|使害怕, 吓唬
+faire confiance|信任
+faire partie|属于, 是…的一部分
+faire face|面对, 应付
+faire de ? mieux|尽力而为
+faire du bien|有好处, 让人舒服
+faire plaisir|使高兴
+faire signe|招手, 示意; 联系
+faire mine de|装作, 做出要…的样子
+faire le tour|绕一圈, 周游
+faire un tour|散散步, 兜一圈
+faire allusion|暗示, 影射
+faire de la peine|使难过, 伤 (某人的) 心
+faire marcher|捉弄, 骗 (某人); 使运转
+faire savoir|通知, 告知
+faire venir|叫来, 请来
+faire taire|使闭嘴, 使安静
+faire croire|使相信, 让人以为
+faire remarquer|指出
+faire valoir|主张, 强调
+faire l' affaire|合用, 正合适
+faire du souci|担心 (se faire du souci)
+faire la cour|追求, 献殷勤
+faire part|宣布, 告知
+faire la grasse matinée|睡懒觉
+faire nuit|天黑 (il fait nuit)
+faire beau|天气好
+faire froid|天气冷
+faire chaud|天气热
+faire ? valise|收拾行李
+faire en sorte|设法确保, 务必使
+t' en faire|担心 (ne t'en fais pas: 别担心); 给你做一些
+vous en faire|担心 (ne vous en faites pas: 别担心); 拿…怎么办
+ça ne fait rien|没关系
+ça fait longtemps|好久不见, 很久了
+# ---- prendre / mettre / tenir / donner / rendre
+prendre la fuite|逃跑
+prendre garde|当心, 提防
+prendre la parole|发言
+prendre l' air|透透气
+prendre congé|告辞
+prendre place|就座
+en prendre à|攻击, 责怪 (s'en prendre à)
+prendre un verre|喝一杯
+prendre dans ? bras|拥入怀中
+y prendre|着手, 做法 (s'y prendre)
+mettre de côté|放在一边, 存钱
+mettre les pieds|踏足
+mettre la main sur|找到, 弄到手
+se mettre à table|入座吃饭; 招供 (口语)
+tenir le coup|坚持住, 挺住
+tenir tête|对抗, 顶撞
+tenir bon|坚持住, 不让步
+tenir debout|站得住; 站得住脚, 说得通
+tenir compte|考虑到
+tenir à|一心想, 在乎; (se tenir à) 抓住, 保持在
+donner raison|认为 (某人) 对, 证明 (某人) 是对的
+donner sur|朝向, 面对
+rendre visite|拜访 (某人)
+rendre service|帮忙
+# ---- tomber / aller / venir / passer / other verbs
+tomber amoureux|爱上
+tomber sur|偶然碰到; 落在…上
+aller chercher|去找, 去接, 去拿
+aller mieux|好转, 好些了
+aller jusqu' à|甚至到…的地步; 一直走到
+on y va|走吧; 我们 (这就) 去
+venir à bout|克服, 完成
+en venir à|终于 (做起…), 到了 (做…) 的地步
+venir à l' esprit|想到, 浮现在脑中
+se passer|发生; 进行 (顺利, 不顺)
+se passer de|不需要, 没有…也行
+passer pour|被看作, 被当成
+se douter|猜到, 料到
+se demander|自问, 想知道
+je me demande|我想知道, 我在想
+s' attendre à|预料, 期待
+m' attendre à|预料 (je m'attendais à: 我早料到)
+servir de|充当, 用作; (se servir de) 使用
+servir à|用于
+occuper de|照顾, 处理 (s'occuper de)
+en occuper|负责这件事 (je m'en occupe: 交给我)
+moquer de|嘲笑; (se moquer de) 不在乎
+en tirer|摆脱困境, 渡过难关; 从中得到
+en foutre|根本不在乎 (粗俗)
+en finir|了结, 做个了断
+en rester là|到此为止
+où en être|进展到哪一步, 情况如何
+en pouvoir plus|筋疲力尽, 再也受不了
+en remettre|从中恢复; (s'en remettre à) 交给, 依靠
+en revenir|恢复过来 (je n'en reviens pas: 我简直不敢相信); 从那里回来
+y être pour|与此有关
+y connaître|懂行, 了解
+y tenir|很在乎这个; 放得下
+vouloir dire|意思是
+entendre dire|听说
+entendre parler|听说, 听人谈起
+on dirait|好像, 看起来像
+dis donc|喂, 我说
+dites donc|喂, 我说 (对您, 你们)
+valoir mieux|最好 (il vaut mieux: 最好…)
+mieux vaut|最好 (…)
+valoir le coup|值得
+laisser faire|听之任之, 让 (某人) 去做
+laisser tranquille|别打扰, 让…安静
+manquer de|缺少; 差点 (做)
+me manquer|让我想念 (tu me manques: 我想你); 我缺少, 使我力不从心
+que je sache|据我所知
+je ne sais quoi|说不出的某种东西
+on ne peut plus|极其, 再…不过; 再也不能
+perdre connaissance|昏迷, 失去知觉
+perdre la tête|失去理智, 发疯
+perdre ? temps|浪费时间
+gagner ? vie|谋生
+jeter un œil|看一眼
+serrer la main|握手
+serrer dans ? bras|拥抱
+tendre la main|伸出手
+pousser un cri|叫喊一声
+fondre en larmes|放声大哭
+éclater de rire|放声大笑
+éclater en sanglots|失声痛哭
+rire aux éclats|哈哈大笑
+mourir de faim|饿死了, 饿得要命
+donner ? parole|保证, 许诺
+reprendre ? souffle|喘口气, 缓过气来
+se tromper|弄错, 搞错
+# ---- Pronominal and clitic formulas
+m' est égal|我无所谓
+ça suffit|够了
+il suffit de|只要…就行
+il paraît que|据说, 好像
+il se trouve que|碰巧, 恰好
+il y a longtemps|很久以前
+pas de quoi|不客气, 没什么; 没理由
+il va sans dire|不用说, 不言而喻
+c' est pourquoi|所以, 这就是为什么
+c' est pour ça|所以, 就是因为这个
+c' est ça|对, 就是这样
+c' est bon|好了, 行了
+c' est parti|开始了, 出发
+pas grave|没关系, 不要紧
+c' est pas vrai|不会吧!, 难以置信
+ça marche|好的, 一言为定; 行得通
+ça craint|真糟糕, 真烂 (口语)
+ça alors|哎呀, 真没想到
+comment ça|什么意思?, 怎么会?
+comment ça va|你好吗?
+qu' importe|有什么关系
+que dalle|什么都没有 (俚语)
+ne serait-ce que|哪怕只是, 即使仅仅
+# ---- Connectives and discourse markers
+sans doute|大概, 很可能
+au fond|在最里面, 在底部; 其实, 说到底
+en fin de compte|最终, 归根结底
+tout compte fait|总的来说, 通盘考虑
+à la fois|同时, 既…又…
+à tout prix|不惜一切代价
+à force de|由于反复 (做), 靠不断
+à moins que|除非 (接虚拟式)
+à moins de|除非, 除了
+au cas où|万一
+de sorte que|以便, 以致
+si bien que|以致, 结果
+aussi bien que|和…一样, 以及
+d' autant plus|更加, 尤其
+d' ailleurs|况且, 此外, 顺便说
+en revanche|相反, 另一方面
+par conséquent|因此
+en outre|此外
+en plus|而且, 另外
+du moins|至少
+pour ainsi dire|可以说
+à vrai dire|说实话
+à savoir|即, 就是
+même si|即使
+même pas|甚至不
+pas même|甚至不
+pas encore|还没有
+non plus|也 (不)
+moi non plus|我也不
+pas grand-chose|没什么, 不多
+pas question|不可能, 没门
+hors de question|不可能, 绝对不行
+tant pis|算了, 活该
+tant mieux|那更好, 太好了
+tant bien que mal|勉勉强强, 好歹
+de même|同样; (名词前) 同样的
+ainsi que|以及; 正如
+de manière à|以便
+de façon à|以便
+au point de|到…的地步
+au point que|以致, 到了…的程度
+vu que|鉴于, 既然
+lors de|在…时候, 在…期间
+avant tout|首先, 最重要的是
+en tant que|作为, 以…身份
+en guise de|作为, 当作
+en vue de|为了
+quant à|至于
+au sujet de|关于
+en ce qui concerne|就…而言
+à propos de|关于
+à l' égard de|对于, 关于
+à l' insu de|瞒着, 不让…知道
+faute de|由于缺少
+à défaut de|缺少…时, 没有…的话
+afin de|为了
+de peur que|唯恐, 以免 (接虚拟式)
+de crainte que|唯恐, 以免 (接虚拟式)
+de peur de|唯恐, 以免
+pour peu que|只要稍微, 只要
+sans que|而不…, 没有 (接虚拟式)
+si ce n' est|如果不是, 除了
+d' après|根据, 按照
+d' où|由此, 从哪里
+d' autre part|另一方面
+d' un côté|一方面
+cela dit|话虽如此
+en passant|顺便, 附带地; 路过时
+ou bien|或者, 要不然
+eh bien|那么, 嗯
+ah bon|真的吗?, 哦是吗
+oh là là|哎呀, 天哪
+et alors|那又怎样?; 然后呢
+comme quoi|这说明, 可见
+comme d' habitude|像往常一样
+d' habitude|通常
+comme il faut|恰当地, 得体的
+et ainsi de suite|等等, 以此类推
+quoi qu' il en soit|不管怎样, 无论如何
+quoi qu' il arrive|不管发生什么
+quoi que ce soit|任何事, 无论什么
+qui que ce soit|任何人, 无论是谁
+coûte que coûte|不惜一切代价
+quel que|无论什么样的 (quel que soit)
+n' importe quel|任何一个, 随便哪个
+n' importe quand|随时, 任何时候
+peu importe|无所谓, 没关系
+en quelque sorte|在某种程度上, 可以说
+en somme|总之
+bien entendu|当然
+bien des|许多
+pour sûr|肯定
+à coup sûr|肯定, 必定
+pour de bon|永远, 彻底; 真的
+pour rien|白白地, 免费; 徒劳
+rien que|仅仅, 只是
+rien du tout|什么都没有
+rien à voir|毫无关系
+rien à faire|没用; 毫无办法
+le moins du monde|丝毫, 一点也
+pas tout à fait|不完全
+pas vrai|对吧?, 不是吗?; 不是真的
+ou quoi|还是怎么的?
+y compris|包括
+à part|除了; 另外, 单独
+loin de là|远非如此
+sans compter|更不用说
+non sans|不无, 并非没有
+# ---- Time
+à l' instant|刚才, 此刻
+à la longue|久而久之
+à jamais|永远
+de temps à autre|不时, 偶尔
+à partir de|从…起
+dès lors|从那时起; 因此
+d' avance|预先, 提前
+de nos jours|如今, 现在
+à l' époque|当时, 那时候
+en attendant|与此同时; 在等…的时候
+au départ|起初, 一开始
+une fois que|一旦
+des fois|有时 (口语)
+de suite|接连; 马上 (口语)
+sur le point de|正要, 即将
+en un clin d' œil|一眨眼, 转眼间
+de bonne heure|很早
+cette nuit|今晚; 昨晚
+du jour au lendemain|一夜之间
+à mesure que|随着
+au bout de|(一段时间) 以后; 在…的尽头
+par la suite|后来, 随后
+au plus vite|尽快
+sans cesse|不断地
+tout d' un coup|突然
+sur le coup|当时, 当场
+tout d' abord|首先
+# ---- Manner and place
+à haute voix|大声地
+à voix basse|低声地
+à genoux|跪着
+à tâtons|摸索着
+à la renverse|仰面 (倒下)
+en hâte|匆忙地
+à bout de souffle|上气不接下气
+peu à peu|渐渐地
+à peu près|大约, 差不多
+à peine|几乎不, 勉强; 刚一…就
+au hasard|随机, 随便
+par hasard|偶然
+par cœur|背熟, 凭记忆
+de travers|歪的; 错误地, 不对劲
+de côté|侧着; 在一边
+en douce|偷偷地
+à pas de loup|蹑手蹑脚地
+de loin|从远处; 远远 (超过); (de loin en loin) 偶尔
+de près|近距离, 仔细地; (de près de) 将近
+au juste|确切地
+à merveille|好极了, 非常好地
+à l' aise|自在, 舒适
+mal à l' aise|不自在, 不安
+à bout|筋疲力尽, 忍无可忍
+à bout de|到…的尽头, (耐心, 力气) 耗尽
+sens dessus dessous|乱七八糟, 颠倒
+de long en large|来回, 走来走去
+de plus en plus|越来越
+de plus belle|更加起劲, 越发
+à perte de vue|一望无际
+à l' improviste|出其不意地, 突然
+à la place|反而, 代之以; 在…的位置
+à ta place|如果我是你
+à votre place|如果我是您
+à son tour|轮到他/她, 反过来
+à mon tour|轮到我
+à leur tour|轮到他们
+tour à tour|轮流, 相继
+en face|对面; 当面
+en haut|楼上, 在上面
+en bas|楼下, 在下面
+en avant|向前
+en arrière|向后
+en route|在路上; 出发吧
+tout droit|一直往前; 笔直
+tout bas|低声
+tout haut|大声
+tout juste|刚好, 勉强
+tout au plus|最多
+tout court|不加限定地, 仅此而已
+au loin|在远处
+le long de|沿着
+à travers|穿过, 通过
+à l' abri|在安全处, 受到保护
+par terre|在地上
+à terre|在地上, 倒地; 上岸
+par ici|这边, 这附近
+par là|那边; 由此, 那样
+à l' étranger|在国外
+en plein|在…正中, 正当…之时 (en plein jour: 光天化日), 完全
+en plein air|在户外, 露天
+au beau milieu|正中间
+au grand jour|光天化日之下, 公开地
+à bord|在船上, 在机上
+au large|在海上, 离岸
+à deux doigts de|差一点就
+sur la pointe des pieds|踮着脚
+de la part de|代表, 来自
+nulle part|无处, 哪儿都不
+du côté de|朝…方向, 在…附近; 站在…一边
+dans le coin|在这附近
+dans le pétrin|陷入困境
+# ---- States: être + prepositional phrase
+en vie|活着
+en colère|生气
+en forme|健康, 状态好; (en forme de) 形状像
+en panne|出故障
+à la hauteur|胜任, 称职; 在…的高度
+au courant|知情的, 了解情况
+de retour|回来了
+à même de|能够
+en mesure de|有能力, 能够
+sur ? gardes|提防, 保持警惕
+en tête|领先, 在前头; 在心里
+bon marché|便宜
+pas terrible|不怎么样
+# ---- Fixed nouns whose parts mislead
+chemin de fer|铁路
+hôtel de ville|市政厅
+petit déjeuner|早餐
+lune de miel|蜜月
+gueule de bois|宿醉
+chair de poule|鸡皮疙瘩
+jeune fille|少女, 姑娘
+jeunes gens|年轻人
+bonne femme|女人, 娘们 (口语, 略带轻蔑)
+femme de chambre|女仆, 客房服务员
+peur bleue|惊恐万分
+fou rire|一阵狂笑, 笑个不停
+clin d' œil|眨眼
+coup d' œil|一瞥
+coup de main|帮忙
+coup de fil|打电话
+coup de foudre|一见钟情; 雷击
+coup de feu|枪声
+coup de vent|一阵风; (en coup de vent) 匆匆忙忙
+# ---- Fixed dialogue and forms of address
+bon sang|见鬼, 天哪
+nom de dieu|见鬼, 我的天
+mon vieux|老兄, 哥们儿
+ma vieille|老姐妹, 亲爱的
+mon pote|哥们儿 (口语)
+mon cher|亲爱的 (对男性)
+ma chère|亲爱的 (对女性)
+mon petit|亲爱的, 小家伙
+ma petite|亲爱的, 小姑娘
+mon chéri|亲爱的 (对男性)
+ma chérie|亲爱的 (对女性)
+ma belle|美女, 亲爱的
+mon gars|小伙子, 哥们儿
+au secours|救命!
+à l' aide|救命!; 借助
+à l' aide de|借助, 用
+je vous en prie|不客气; 请 (您)
+à tout à l' heure|待会儿见
+à plus tard|回头见
+à la bonne heure|好极了!, 很好
+quoi de neuf|有什么新鲜事?
+sans blague|不是开玩笑吧
+et voilà|好了, 就这样
+voilà tout|就这些
+ma parole|我发誓!, 真是的
+tu parles|当然; 得了吧 (反讽); 你说话
+tous les deux|两个都, 俩
+toutes les deux|两个都, 俩 (阴性)
+l' un l' autre|互相
+les uns les autres|彼此, 互相
+l' un et l' autre|两者都
+ni l' un ni l' autre|两者都不
+un tas de|一大堆
+des tas de|许多, 一大堆
+quelque peu|有点, 稍微
+pas mal de|不少, 相当多

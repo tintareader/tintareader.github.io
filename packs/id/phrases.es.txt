@@ -1,0 +1,426 @@
+# What each Indonesian phrase in `phrases.txt` means, in Spanish.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Spanish where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.es.txt`.
+#
+# Latin American Spanish, as `gloss.es.txt` is. Verbs are glossed in the
+# infinitive; `(literalmente)` marks the word-by-word reading, as
+# `(literally)` does in English.
+# ---- Discourse and connectives
+mau tidak mau|quieras o no, por fuerza, inevitablemente
+mau tak mau|quieras o no, por fuerza, inevitablemente
+suka atau tidak|te guste o no
+percaya atau tidak|aunque no lo creas, lo creas o no
+apa boleh buat|qué se le va a hacer, no hay remedio
+apa mau dikata|qué se le va a hacer, qué se puede decir
+apa hendak dikata|qué se le va a hacer, qué se puede decir
+mau bagaimana lagi|qué más se puede hacer, no hay remedio
+mau gimana lagi|qué más se puede hacer, no hay remedio
+apa daya|qué se podía hacer, (estar) impotente
+siapa tahu|quién sabe, a lo mejor, nunca se sabe
+siapa sangka|quién lo hubiera pensado
+siapa kira|quién lo hubiera pensado
+siapa bilang|quién dijo eso, ¿quién lo dice?
+siapa peduli|a quién le importa
+kalau tidak salah|si no me equivoco
+kalau begitu|en ese caso, entonces
+kalau gitu|en ese caso, entonces
+kalau tidak|si no, de lo contrario; si no (es así)
+kalau saja|ojalá, si tan solo
+andai saja|ojalá, si tan solo
+seandainya saja|ojalá, si tan solo
+cepat atau lambat|tarde o temprano
+lama kelamaan|con el tiempo, a la larga, poco a poco
+oleh karena itu|por lo tanto, por esa razón
+oleh sebab itu|por lo tanto, por esa razón
+maka dari itu|por lo tanto, por eso
+karena itu|por eso, por lo tanto
+dengan kata lain|en otras palabras
+dengan demikian|así, por consiguiente, de este modo
+dengan begitu|de esa manera, así
+meskipun demikian|sin embargo, aun así
+meskipun begitu|sin embargo, aun así
+walaupun demikian|sin embargo, aun así
+walau begitu|aun así, sin embargo
+namun demikian|no obstante, sin embargo
+kendati demikian|no obstante, aun así
+bagaimanapun juga|en cualquier caso, al fin y al cabo, pase lo que pase
+bagaimana pun juga|en cualquier caso, al fin y al cabo, pase lo que pase
+pada akhirnya|al final, finalmente
+pada dasarnya|básicamente, en el fondo
+pada hakikatnya|en esencia, en realidad
+pada umumnya|por lo general, en general
+pada intinya|en esencia, lo importante es
+pada kenyataannya|de hecho, en realidad
+pada gilirannya|a su vez
+tak lain|no otro que, ni más ni menos que
+tidak lain|no otro que, ni más ni menos que
+tak ubahnya|no es distinto de, igual que
+tidak ubahnya|no es distinto de, igual que
+tak urung|al final, después de todo, aun así
+tidak urung|al final, después de todo, aun así
+tak jarang|a menudo, no pocas veces
+tidak jarang|a menudo, no pocas veces
+tak sedikit|muchos, bastante(s)
+tidak sedikit|muchos, bastante(s)
+paling tidak|por lo menos, al menos
+hanya saja|lo que pasa es que, solo que
+belum lagi|por no hablar de, sin contar
+sudah barang tentu|por supuesto, naturalmente
+sudah tentu|por supuesto, desde luego
+lebih dulu|primero, antes, por delante (de otros)
+lebih dahulu|primero, antes, por delante (de otros)
+habis itu|después de eso, luego
+begitu saja|así sin más, de buenas a primeras; simplemente, tal cual
+begitu pula|asimismo, del mismo modo
+begitu juga|asimismo, lo mismo vale para
+demikian pula|asimismo, del mismo modo
+demikian juga|asimismo, del mismo modo
+sama halnya|del mismo modo, igualmente
+tak disangka|inesperadamente, quién lo hubiera pensado
+tidak disangka|inesperadamente, quién lo hubiera pensado
+tak disangka-sangka|de lo más inesperado, sin que nadie lo esperara
+tidak disangka-sangka|de lo más inesperado, sin que nadie lo esperara
+tanpa disadari|sin darse cuenta, inconscientemente
+tanpa sadar|sin darse cuenta, inconscientemente
+tak terasa|sin darse cuenta, (el tiempo) vuela
+tidak terasa|sin darse cuenta, (el tiempo) vuela
+tanpa terasa|sin darse cuenta, (el tiempo) vuela
+entah kenapa|por alguna razón, no sé por qué
+entah mengapa|por alguna razón, no sé por qué
+entah bagaimana|de algún modo, no sé cómo
+entah apa|quién sabe qué, algo
+entah di mana|quién sabe dónde, en algún lugar
+entah dari mana|de quién sabe dónde
+entah siapa|quién sabe quién, alguien
+jangan sampai|procura que no, que no llegue a pasar que
+sampai hati|tener el valor de, atreverse a (hacer algo cruel)
+tidak sampai hati|no tener valor para, no atreverse a (por compasión)
+tak sampai hati|no tener valor para, no atreverse a (por compasión)
+tak habis pikir|no poder entender, no caber en la cabeza (cómo)
+tidak habis pikir|no poder entender, no caber en la cabeza (cómo)
+lebih baik * daripada|mejor ... que
+daripada * lebih baik|en vez de ..., mejor
+tidak hanya * tetapi juga|no solo ... sino también
+tidak hanya * tapi juga|no solo ... sino también
+bukan hanya * tetapi juga|no solo ... sino también
+bukan hanya * tapi juga|no solo ... sino también
+baik * maupun|tanto ... como; ya sea ... o
+entah * entah|o ... o, ya sea ... o
+semakin * semakin|cuanto más ..., más
+makin * makin|cuanto más ..., más
+semakin lama semakin|cada vez más
+makin lama makin|cada vez más
+makin hari makin|cada día más
+semakin hari semakin|cada día más
+kian hari kian|cada día más
+bukan * melainkan|no ... sino
+jangankan * pun|ni hablar de, mucho menos
+begitu * sehingga|tan ... que
+sedemikian rupa|de tal manera, hasta tal punto
+sedemikian rupa sehingga|de tal manera que, tanto que
+yang penting|lo importante es, lo que importa es
+yang pasti|lo que es seguro, sin duda
+namanya juga|qué esperabas, al fin y al cabo es (un/una)
+yang namanya|lo que se llama, todo lo que se llame
+
+# ---- Quantity, degree, time
+sekali lagi|una vez más, otra vez
+seumur hidup|toda la vida, de por vida, en toda la vida
+sekali seumur hidup|una vez en la vida
+sepanjang masa|de todos los tiempos, para siempre
+untuk selamanya|para siempre, definitivamente
+sampai kapan pun|para siempre, por mucho que tarde
+suatu hari nanti|algún día
+pada suatu hari|un día (al empezar un relato)
+sekarang juga|ahora mismo, de inmediato
+saat itu juga|en ese mismo momento, en el acto
+saat ini juga|en este mismo momento, de inmediato
+hari itu juga|ese mismo día
+seketika itu juga|al instante, en ese mismo momento
+tak lama kemudian|poco después, al poco rato
+tidak lama kemudian|poco después, al poco rato
+tak lama lagi|pronto, dentro de poco
+tidak lama lagi|pronto, dentro de poco
+belum lama ini|hace poco, recientemente
+akhir-akhir ini|últimamente, recientemente
+siang malam|día y noche, sin parar
+siang dan malam|día y noche, sin parar
+tidak karuan|descontrolado, hecho un desastre, sin orden
+tak karuan|descontrolado, hecho un desastre, sin orden
+tidak keruan|descontrolado, hecho un desastre, sin orden
+tak keruan|descontrolado, hecho un desastre, sin orden
+tidak menentu|incierto, irregular, inestable
+tak menentu|incierto, irregular, inestable
+bukan kepalang|enormemente, sin medida
+alang kepalang|enormemente, sin medida
+bukan sembarang|nada común, no cualquier
+tak terhitung|incontable, innumerable
+tiada duanya|sin igual, único
+minta ampun|terriblemente, insoportablemente (tras un adjetivo); pedir clemencia
+setengah hati|a medias, sin ganas
+sebisa mungkin|en lo posible, en la medida de lo posible
+sedapat mungkin|en lo posible, en la medida de lo posible
+sesegera mungkin|lo antes posible
+secepat mungkin|lo más rápido posible
+dengan susah payah|a duras penas, con mucho esfuerzo
+jerih payah|esfuerzo, trabajo duro, sudor
+dengan senang hati|con mucho gusto, con placer
+dengan hormat|respetuosamente; Estimado(s) señor(es) (encabezado de carta)
+dengan sendirinya|por sí solo, solo, automáticamente
+dengan sengaja|a propósito, deliberadamente
+tanpa sengaja|sin querer, por accidente
+tidak sengaja|sin querer, por accidente
+tak sengaja|sin querer, por accidente
+tanpa pikir panjang|sin pensarlo dos veces
+tanpa basa-basi|sin rodeos, sin andarse con cumplidos
+tanpa ampun|sin piedad
+tanpa pamrih|desinteresadamente, sin esperar nada a cambio
+terus terang|francamente, para ser sincero
+secara terang-terangan|abiertamente, sin tapujos
+apa adanya|tal como es, sin adornos; con sencillez
+ala kadarnya|sencillo, modesto, con lo que haya
+sesuka hati|a su antojo, como le dé la gana
+tidak ada salahnya|no hay nada de malo en, no se pierde nada con
+tak ada salahnya|no hay nada de malo en, no se pierde nada con
+apa salahnya|qué tiene de malo, por qué no
+tidak ada gunanya|no tiene sentido, no sirve de nada
+tak ada gunanya|no tiene sentido, no sirve de nada
+apa gunanya|de qué sirve, qué sentido tiene
+tak ada habisnya|interminable, sin fin
+tidak ada hubungannya|no tener nada que ver
+apa hubungannya|qué tiene que ver
+sia-sia saja|en vano, para nada
+hampir saja|por poco, casi
+nyaris saja|por poco, casi
+untung saja|por suerte, afortunadamente
+di atas angin|llevar ventaja, tener la sartén por el mango
+di atas kertas|sobre el papel, en teoría
+di bawah umur|menor de edad
+di depan mata|ante los propios ojos, inminente
+dengan mata kepala sendiri|con sus propios ojos
+dari lubuk hati|desde el fondo del corazón
+titik darah penghabisan|la última gota de sangre, hasta el final
+
+# ---- Idioms (ungkapan): verb heads, so written on the root
+angkat kaki|irse, largarse; (literalmente) levantar los pies
+cuci tangan|lavarse las manos, eludir la responsabilidad; (literalmente) lavarse las manos
+angkat tangan|levantar la mano; rendirse, lavarse las manos de algo
+gigit jari|quedarse con las manos vacías, decepcionado; (literalmente) morderse el dedo
+cari perhatian|buscar atención, hacerse notar, lucirse
+cari gara-gara|buscar pelea, buscar problemas
+cari masalah|buscar problemas
+cari mati|buscarse la muerte, buscársela
+cari makan|ganarse la vida; buscar comida
+cari kesempatan|buscar una oportunidad; aprovecharse
+main api|jugar con fuego
+main belakang|actuar a espaldas de alguien
+main aman|ir a lo seguro
+main kasar|jugar brusco, usar la fuerza
+main curang|hacer trampa
+tidak main-main|en serio, no es broma, sin bromear
+tak main-main|en serio, no es broma, sin bromear
+jangan main-main|no juegues, no te metas (con)
+cuci otak|lavar el cerebro
+buka mulut|abrir la boca; hablar, revelar (un secreto)
+buka suara|hablar, romper el silencio
+buka mata|abrir los ojos; abrirle los ojos a alguien (sobre algo)
+buka jalan|abrir camino, allanar el camino
+tutup mata|cerrar los ojos; hacerse de la vista gorda; morir
+tutup telinga|hacer oídos sordos
+pasang telinga|escuchar con atención, aguzar el oído
+jual mahal|hacerse del rogar
+jual diri|venderse, prostituirse
+putar balik|dar la vuelta, dar media vuelta; tergiversar (los hechos)
+putar haluan|cambiar de rumbo
+balik badan|darse la vuelta, dar la espalda
+naik pangkat|ser ascendido
+naik banding|apelar (una sentencia)
+turun gunung|salir del retiro, intervenir en persona
+mati suri|muerte aparente, casi muerte; en letargo
+habis akal|no saber qué más hacer, estar desesperado
+kehabisan akal|no saber qué más hacer, estar desesperado
+ambil sikap|tomar postura
+jalan buntu|callejón sin salida, punto muerto
+buang waktu|perder el tiempo
+buang-buang waktu|perder el tiempo, una pérdida de tiempo
+tinggal kenangan|no ser más que un recuerdo
+makan korban|cobrarse víctimas, causar bajas
+mandi keringat|estar empapado en sudor
+curi pandang|echar una mirada furtiva
+curi dengar|escuchar a escondidas
+adu nasib|probar suerte
+adu mulut|discutir, pelearse de palabra
+tolak mentah-mentah|rechazar de plano
+sebelah mata|con desprecio, sin tomar en serio
+bertepuk sebelah tangan|(del amor) no ser correspondido, unilateral
+naik turun|altibajos, fluctuante
+turun naik|altibajos, fluctuante
+timbul tenggelam|intermitente, que va y viene
+keluar masuk|entrar y salir, ir y venir
+diam seribu bahasa|guardar silencio absoluto
+ditelan bumi|desaparecer sin dejar rastro, tragárselo la tierra
+lari tunggang langgang|huir en desbandada
+tunggang langgang|en desbandada, a la desbandada
+lari terbirit-birit|salir corriendo despavorido
+tidak tahu terima kasih|desagradecido
+tidak mengapa|no importa, está bien
+tak mengapa|no importa, está bien
+bukan apa-apa|no es nada, nada especial
+tidak ada apa-apa|no pasa nada, nada de nada
+tidak ada masalah|no hay problema
+tidak masalah|no hay problema, no importa
+tak masalah|no hay problema, no importa
+bukan masalah|no es problema
+jatuh miskin|empobrecerse, caer en la pobreza
+jatuh sakit|enfermarse
+jatuh pingsan|desmayarse
+jatuh tertidur|quedarse dormido
+minta izin|pedir permiso
+minta tolong|pedir ayuda; por favor (¿podrías…?)
+minta diri|despedirse, retirarse
+muka masam|cara agria, ceño fruncido
+tersenyum kecut|sonreír con amargura
+tersenyum simpul|esbozar una sonrisa
+keringat dingin|sudor frío
+panas dingin|con fiebre, escalofríos; nervioso
+besar mulut|fanfarrón, bocón
+mulut besar|fanfarronería, bocaza
+mulut manis|palabras dulces, labia
+omong besar|fanfarronear, echarse flores
+asal bicara|hablar sin pensar
+panas hati|enojado, resentido
+hancur hati|con el corazón roto
+pinang dibelah dua|como dos gotas de agua
+durian runtuh|golpe de suerte, lotería inesperada
+
+# ---- Proverbs (peribahasa)
+nasi sudah menjadi bubur|lo hecho, hecho está, a lo hecho, pecho
+tak ada gading yang tak retak|nadie es perfecto
+
+# ---- Formulas and greetings
+selamat tahun baru|feliz año nuevo
+selamat menikmati|que lo disfrute(s) (la comida, el espectáculo)
+selamat makan|buen provecho
+selamat bersenang-senang|que te diviertas
+turut berduka|mi más sentido pésame
+berduka cita|estar de luto; condolencias
+cepat sembuh|que te mejores pronto
+lekas sembuh|que te mejores pronto
+semoga berhasil|buena suerte, que te vaya bien
+semoga sukses|mucho éxito, que te vaya muy bien
+semoga beruntung|buena suerte
+semoga saja|ojalá, esperemos que sí
+mudah-mudahan saja|ojalá, esperemos que sí
+insya allah|si Dios quiere
+demi tuhan|por Dios, lo juro
+demi allah|por Dios, lo juro
+ya tuhan|ay, Dios, Dios mío
+ya allah|ay, Dios, Dios mío
+syukur alhamdulillah|gracias a Dios
+wa alaikum salam|y la paz sea con ustedes (respuesta a un saludo)
+waalaikum salam|y la paz sea con ustedes (respuesta a un saludo)
+wallahu alam|solo Dios sabe, quién sabe
+permisi dulu|con permiso, me voy
+pamit dulu|me despido
+saya permisi|con permiso, me retiro
+aku duluan|me adelanto, nos vemos
+sampai nanti|hasta luego
+sampai besok|hasta mañana
+hati-hati di jalan|cuídate en el camino, buen viaje
+hati-hati ya|cuídate
+jaga diri|cuídate
+jaga diri baik-baik|cuídate mucho
+baik-baik saja|bien, todo bien
+baik-baik aja|bien, todo bien
+kabar baik|buenas noticias; (estoy) bien
+tunggu sebentar|espera un momento, un minuto
+tunggu dulu|espera un momento, aguarda
+nanti dulu|espera, todavía no, aguarda
+nanti saja|luego, que espere
+sabar dulu|ten paciencia, aguarda
+pelan-pelan saja|con calma, despacio
+santai saja|tranquilo, relájate
+santai aja|tranquilo, relájate
+tenang saja|no te preocupes, tranquilo
+tenang aja|no te preocupes, tranquilo
+dengan segala hormat|con todo respeto
+mohon maaf|le pido disculpas, disculpe
+sampai di sini|eso es todo (por ahora), hasta aquí
+sudah cukup|ya basta, es suficiente
+
+# ---- Colloquial (subtitles, chat)
+nggak apa-apa|no pasa nada, no importa, no hay problema
+gak apa-apa|no pasa nada, no importa, no hay problema
+nggak papa|no pasa nada, no importa, no hay problema
+ga papa|no pasa nada, no importa, no hay problema
+tidak usah|no hace falta, no te molestes
+tak usah|no hace falta, no te molestes
+nggak usah|no hace falta, no te molestes
+gak usah|no hace falta, no te molestes
+ga usah|no hace falta, no te molestes
+enggak usah|no hace falta, no te molestes
+masa sih|¿en serio?, no puede ser, ¡anda ya!
+kenapa sih|¿por qué rayos?, ¿qué pasa?
+ada apa|¿qué pasa?, ¿qué ocurre?
+ada apa sih|¿qué pasa?, ¿qué está pasando?
+ada apa lagi|¿y ahora qué?, ¿qué más?
+apa sih|¿qué pasa?; ¡ay, por favor! (protestando)
+apaan sih|¿qué pasa?, ¡déjate de cosas!
+apa-apaan ini|¿qué es todo esto?, ¿qué significa esto?
+gimana ya|mmm, cómo decirlo
+terus kenapa|¿y qué?
+lalu kenapa|¿y qué?
+biasa saja|nada especial, normal, como siempre
+boleh juga|no está mal, bastante bien; por qué no
+bisa aja|qué cosas dices, ay tú (en broma); puede ser
+bisa saja|puede ser, bien podría; qué cosas dices
+kok bisa|¿cómo es posible?, ¿cómo puede ser?
+bukan begitu|no es eso, no es así
+yang benar saja|no puede ser, ¡no me digas!
+tidak juga|no exactamente, no necesariamente
+ya kan|¿verdad?, ¿no?
+iya kan|¿verdad?, ¿no?
+biar saja|déjalo, no importa
+terserah kamu|como quieras, tú decides
+terserah saja|lo que sea, como quieras
+terserah anda|como usted quiera, usted decide
+bodo amat|me da igual, lo que sea
+bukan urusanmu|no es asunto tuyo
+bukan urusan|no es asunto (de alguien)
+lihat saja nanti|ya verás, espera y verás
+kita lihat saja|ya veremos
+awas kau|me las vas a pagar, cuidadito
+awas saja|ya verás, cuidadito
+ada-ada saja|lo que faltaba, las cosas que se le ocurren a la gente
+ada benarnya|tener algo de razón
+begini saja|hagamos esto, se me ocurre algo
+tahu sendiri|ya sabes cómo es
+asal tahu saja|para que lo sepas
+sumpah demi|juro por
+
+# ---- Kinship and people
+kakak kelas|alumno mayor, de un curso superior (en la escuela)
+adik kelas|alumno menor, de un curso inferior (en la escuela)
+tuan rumah|anfitrión
+nyonya rumah|anfitriona, señora de la casa
+tuan tanah|terrateniente, casero
+anak ingusan|mocoso, novato
+orang kecil|la gente común, los de abajo
+rakyat kecil|la gente común, el pueblo llano
+orang ketiga|tercero en discordia (en una relación)
+kaum hawa|las mujeres, el sexo femenino
+pujaan hati|amado, amor de mi vida
+kekasih hati|amado, persona amada

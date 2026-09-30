@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <title>Tinta logo concept 4: Tinta, reader</title>
-  <style>
-    :root{--ink:#1b1f24;--pink:#b8246a}
-    @media (prefers-color-scheme:dark){:root{--ink:#c5ccd4;--pink:#ff5277}}
-  </style>
-  <path fill="var(--pink)" d="M11.5 26h14a3.5 3.5 0 0 1 3.5 3.5v5a3.5 3.5 0 0 1 -3.5 3.5h-14a3.5 3.5 0 0 1 -3.5 -3.5v-5a3.5 3.5 0 0 1 3.5 -3.5z"/>
-  <path fill="var(--ink)" d="M35.5 26h17a3.5 3.5 0 0 1 3.5 3.5v5a3.5 3.5 0 0 1 -3.5 3.5h-17a3.5 3.5 0 0 1 -3.5 -3.5v-5a3.5 3.5 0 0 1 3.5 -3.5z"/>
-</svg>

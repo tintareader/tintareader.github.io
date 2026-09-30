@@ -1,0 +1,383 @@
+# What each Arabic phrase in `phrases.txt` means, in Spanish.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest. The
+# patterns on the left are the join key and must not change; each gloss keeps
+# the English gloss's `;`-separated sense count and any Arabic it quotes.
+# Where the English says God, this file says Dios.
+
+# ---- Formulas of faith and courtesy
+إن شاء الله|si Dios quiere, ojalá
+ما شاء الله|lo que Dios ha querido (admiración, contra la envidia)
+الحمد لله|alabado sea Dios, gracias a Dios
+سبحان الله|gloria a Dios (asombro, sorpresa)
+بسم الله|en el nombre de Dios
+بسم الله الرحمن الرحيم|en el nombre de Dios, el Clemente, el Misericordioso
+الرحمن الرحيم|el Clemente, el Misericordioso
+الله أكبر|Dios es el más grande
+لا إله إلا الله|no hay más dios que Dios
+أستغفر الله|pido perdón a Dios
+جزاك الله خيرا|que Dios te lo pague (gracias)
+بارك الله فيك|Dios te bendiga (gracias)
+رحمه الله|que Dios lo tenga en su misericordia (tras nombrar a un difunto)
+الله يرحمه|que Dios lo tenga en su misericordia (tras nombrar a un difunto)
+صلى الله عليه وسلم|la paz sea con él (tras el nombre del Profeta)
+عليه السلام|la paz sea con él (tras el nombre de un profeta)
+رضي الله عنه|que Dios esté complacido con él (tras el nombre de un Compañero)
+لا حول ولا قوة إلا بالله|no hay poder ni fuerza sino en Dios (consternación)
+إنا لله وإنا إليه راجعون|de Dios somos y a Él volvemos (ante una muerte)
+البقاء لله|mi más sentido pésame (solo Dios permanece)
+بإذن الله|si Dios quiere, con el permiso de Dios
+والله أعلم|Dios sabe más
+الله يعلم|Dios sabe
+حفظك الله|Dios te guarde
+السلام عليكم|la paz sea con vosotros (hola)
+وعليكم السلام|y con vosotros la paz (respuesta al saludo)
+صباح الخير|buenos días
+صباح النور|buenos días (respuesta)
+مساء الخير|buenas tardes, buenas noches (al llegar)
+تصبح على خير|buenas noches
+تصبحين على خير|buenas noches (a una mujer)
+أهلا وسهلا|bienvenido
+أهلا بك|bienvenido, hola
+مع السلامة|adiós (a quien se va)
+إلى اللقاء|adiós, hasta luego
+أراك لاحقا|hasta luego
+أراك قريبا|hasta pronto
+كيف حالك|¿cómo estás?
+كيف الحال|¿qué tal?, ¿cómo estás?
+على ما يرام|bien, todo bien, de acuerdo
+من فضلك|por favor
+من فضلكم|por favor (a varias personas)
+لو سمحت|por favor, disculpe
+لو سمحتي|por favor, disculpe (a una mujer)
+شكرا جزيلا|muchas gracias
+لا شكر على واجب|no hay de qué
+على الرحب والسعة|de nada
+بكل سرور|con mucho gusto
+عيد ميلاد سعيد|feliz cumpleaños
+عيد ميلاد|cumpleaños
+كل عام وأنتم بخير|felices fiestas, que cumplas muchos más
+ألف مبروك|¡enhorabuena!, ¡felicidades!
+حظا سعيدا|buena suerte
+فرصة سعيدة|encantado de conocerte
+سعدت بلقائك|encantado de conocerte
+تشرفت بمعرفتك|es un placer conocerte
+الحمد لله على السلامة|gracias a Dios que estás bien, bienvenido de vuelta
+
+# ---- Replies and conversational set phrases
+لا بأس|no pasa nada, no importa, sin problema
+لا عليك|no importa, no te preocupes
+لا يهم|da igual, no importa
+لا يهمني|me da igual, no me importa
+ولا يهمك|no te preocupes
+لا مشكلة|no hay problema
+لا داعي|no hace falta
+لا مانع|no hay inconveniente, no me importa
+هل تمانع|¿te importa?
+لا تهتم|no importa, no te molestes
+لا شيء|nada
+لا أحد|nadie
+لا أحد يعرف|nadie sabe
+ولا حتى|ni siquiera
+ما الأمر|¿qué pasa?, ¿qué ocurre?
+ما الخطب|¿qué pasa?, ¿algo va mal?
+ما المشكلة|¿cuál es el problema?
+ماذا بك|¿qué te pasa?
+ما بك|¿qué te pasa?
+ما بال|¿qué le pasa a …?, ¿y qué hay de …?
+ماذا هناك|¿qué pasa?, ¿qué hay?
+ما رأيك|¿qué te parece?
+ما رأيك في|¿qué te parece …?
+أليس كذلك|¿verdad?, ¿no? (coletilla interrogativa)
+ليس كذلك|no es así
+هل هذا صحيح|¿es verdad?
+معك حق|tienes razón
+على حق|tener razón, estar en lo cierto
+على خطأ|estar equivocado
+كما تشاء|como quieras
+كما تريد|como quieras
+على راحتك|como quieras, tómate tu tiempo
+خذ راحتك|tómate tu tiempo, estás en tu casa
+على مهلك|tranquilo, despacio
+تحت أمرك|a tu servicio, a tus órdenes
+هيا بنا|vamos, venga
+انتبه لنفسك|cuídate
+اعتن بنفسك|cuídate
+صدق أو لا تصدق|aunque no te lo creas
+يا إلهي|Dios mío
+يا رجل|¡hombre!, ¡venga, hombre!
+يا صاح|amigo, colega
+يا للهول|¡qué horror!, ¡madre mía!
+يا له من|¡qué …!
+يا لها من|¡qué …! (con un sustantivo femenino)
+يا للعار|¡qué vergüenza!
+يا ليت|ojalá, si tan solo
+يا حبيبي|cariño, mi amor
+عن إذنك|con permiso (al irse o al pasar)
+بعد إذنك|con permiso, si me permites
+هذا يكفي|basta, ya es suficiente
+كم الساعة|¿qué hora es?
+كم عمرك|¿cuántos años tienes?
+شيء من هذا القبيل|algo así
+من هذا القبيل|de ese tipo, así
+وما إلى ذلك|etcétera, y demás
+إلى آخره|etcétera, y así sucesivamente
+
+# ---- Connectives and sentence adverbs whose parts mislead
+على الرغم من|a pesar de, pese a
+بالرغم من|a pesar de, pese a
+على الرغم|a pesar de ello, no obstante
+بالإضافة إلى|además de, aparte de
+بالاضافة إلى|además de, aparte de
+بالنسبة ل|en cuanto a, respecto a (بالنسبة لي en cuanto a mí)
+من أجل|por, por el bien de; para (+ أن)
+مع ذلك|sin embargo, aun así
+على أي حال|de todos modos, en cualquier caso
+على كل حال|de todos modos, en cualquier caso
+في كل الأحوال|en cualquier caso, de todas formas
+في جميع الأحوال|en cualquier caso, en todos los casos
+في الحقيقة|de hecho, en realidad
+في الواقع|de hecho, en realidad
+على سبيل المثال|por ejemplo
+في نهاية المطاف|al final, en última instancia
+في نفس الوقت|al mismo tiempo
+في الوقت نفسه|al mismo tiempo
+في آن واحد|al mismo tiempo, a la vez
+في حين|mientras, mientras que
+في حين أن|mientras que
+بدلا من|en lugar de
+بدلا من ذلك|en cambio, en su lugar
+عوضا عن|en lugar de
+بغض النظر عن|independientemente de
+حتى لو|aunque, incluso si
+حتى الآن|hasta ahora, todavía
+حتى ذلك الحين|hasta entonces
+حتى لا|para que no …
+كي لا|para que no …
+من الآن فصاعدا|de ahora en adelante
+منذ ذلك الحين|desde entonces
+من جديد|de nuevo, otra vez
+مرة أخرى|otra vez, una vez más
+مرة واحدة|una vez; de una vez
+دفعة واحدة|todo de una vez
+من وقت لآخر|de vez en cuando
+من حين لآخر|de vez en cuando, a veces
+شيئا فشيئا|poco a poco
+خطوة بخطوة|paso a paso
+إلى حد ما|hasta cierto punto, algo
+إلى حد كبير|en gran medida
+إلى الأبد|para siempre
+إلى متى|¿hasta cuándo?, ¿cuánto tiempo?
+إلى أن|hasta que
+على الفور|inmediatamente, en el acto
+في الحال|inmediatamente, en el acto
+في أقرب وقت|cuanto antes
+في أسرع وقت|lo antes posible
+في آخر لحظة|en el último minuto
+في اللحظة الأخيرة|en el último momento
+في أي لحظة|en cualquier momento
+قدر الإمكان|en lo posible, todo lo posible
+بقدر ما|tanto como, en la medida en que
+كما لو|como si
+كما لو كان|como si fuera
+لا سيما|sobre todo, en particular
+بمعنى آخر|en otras palabras
+بعبارة أخرى|en otras palabras, dicho de otro modo
+من ناحية|por un lado; en cuanto a
+من ناحية أخرى|por otro lado
+من جهة أخرى|por otra parte
+على العكس|al contrario
+في وقت لاحق|más tarde, posteriormente
+في يوم من الأيام|un día, algún día
+ذات يوم|un día (una vez)
+ذات مرة|una vez, en cierta ocasión; érase una vez
+في الوقت الحالي|por el momento, actualmente
+في الغالب|mayormente, por lo general
+على الإطلاق|en absoluto; absolutamente
+على الأرجح|lo más probable, probablemente
+على الأقل|al menos
+على الأكثر|como mucho
+على ما يبدو|al parecer, por lo visto
+على ما أعتقد|creo, me parece
+في رأيي|en mi opinión
+بكل صراحة|con toda franqueza, sinceramente
+بلا شك|sin duda
+دون شك|sin duda
+بشكل عام|en general
+بشكل رئيسي|principalmente
+بشكل كبير|considerablemente, en gran medida
+بطريقة ما|de alguna manera
+بأي ثمن|a cualquier precio
+بأي حال|de todos modos, en cualquier caso; de cualquier modo, de ningún modo (con negación)
+على فكرة|por cierto
+كما قلت|como dije, como dijiste
+كما ترى|como ves
+كما تعلم|como sabes
+كما تعرف|como sabes
+إلا أن|sin embargo, solo que
+غير أن|sin embargo, pero
+ما عدا|excepto, salvo
+بمجرد أن|en cuanto, tan pronto como
+قبل أن|antes de (+ verbo)
+بعد أن|después de (+ verbo)
+منذ أن|desde que (+ verbo)
+مهما كان|sea lo que sea, pase lo que pase
+مهما حدث|pase lo que pase
+أيا كان|quienquiera que sea, sea lo que sea
+أكثر أو أقل|más o menos
+أكثر من اللازم|demasiado, más de la cuenta
+أكثر من ذلك|más que eso
+لا أكثر ولا أقل|ni más ni menos
+عن طريق|por medio de, a través de
+عن قصد|a propósito, adrede
+عن ظهر قلب|de memoria
+عن قرب|de cerca
+عن بعد|a distancia
+رأسا على عقب|patas arriba, al revés
+وجها لوجه|cara a cara
+يدا بيد|de la mano
+جنبا إلى جنب|codo con codo, uno al lado del otro
+بفارغ الصبر|con impaciencia, con ansia
+على عجل|con prisa, deprisa
+على وشك|a punto de
+على قيد الحياة|con vida, vivo
+في حد ذاته|en sí mismo
+بحد ذاته|en sí mismo
+من تلقاء نفسه|por iniciativa propia, por sí solo
+كل ما في الأمر|eso es todo, lo que pasa es que
+طوال الوقت|todo el tiempo
+ليس بعد|todavía no
+ليس إلا|nada más, solo
+على حساب|a costa de
+على أساس|sobre la base de
+على حدة|por separado, individualmente
+بعين الاعتبار|en cuenta, en consideración
+
+# ---- Negation frames that mean something else
+ما زال|todavía, seguir (no ha dejado de)
+لا يزال|todavía, seguir
+لا زال|todavía, seguir
+ما دام|mientras, siempre que
+ما دمت|mientras (tú / yo)
+ما عاد|ya no
+لا بد|hay que, es necesario; inevitablemente
+لا بد أن|tener que (+ verbo), seguro que
+لا بد من|es necesario, … es imprescindible
+لم يعد|ya no
+لم أعد|(yo) ya no
+لم تعد|(tú / ella) ya no
+لن أدع|no dejaré
+
+# ---- Verb + preposition: the preposition changes the verb
+حصل على|conseguir, obtener
+تعرف على|conocer (a alguien); reconocer
+وافق على|aceptar, aprobar
+قضى على|acabar con, eliminar
+اعتمد على|confiar en, depender de
+أصر على|insistir en
+حافظ على|conservar, mantener, preservar
+سيطر على|controlar, hacerse con
+قبض على|detener, atrapar
+عثر على|encontrar, dar con
+ركز على|centrarse en
+اعتاد على|acostumbrarse a
+تغلب على|superar, vencer
+أشرف على|supervisar, dirigir
+ساعد على|ayudar a
+قام ب|hacer, llevar a cabo
+اتصل ب|llamar, contactar con
+التقى ب|encontrarse con, reunirse con
+اهتم ب|interesarse por, preocuparse por
+اعتنى ب|cuidar de, ocuparse de
+شعر ب|sentir
+آمن ب|creer en
+وثق ب|confiar en
+استمتع ب|disfrutar de
+احتفظ ب|guardar, conservar
+سمح ل|permitir, dejar
+أدى إلى|llevar a, provocar
+احتاج إلى|necesitar
+بحث عن|buscar
+توقف عن|dejar de
+تخلى عن|renunciar a, abandonar
+دافع عن|defender
+عبر عن|expresar
+اعتذر عن|disculparse por
+تخلص من|deshacerse de
+تأكد من|asegurarse de
+تمكن من|lograr, conseguir, poder
+انتهى من|terminar (de hacer)
+استفاد من|aprovechar, beneficiarse de
+خاف من|tener miedo de
+اقترب من|acercarse a
+رغب في|querer, desear
+
+# ---- Words that go together and mean something else
+الليلة الماضية|anoche
+شاهد عيان|testigo presencial
+قاتل متسلسل|asesino en serie
+رجل أعمال|hombre de negocios, empresario
+سيارة أجرة|taxi
+هاتف محمول|teléfono móvil, celular
+بريد إلكتروني|correo electrónico
+ربطة عنق|corbata
+حمام السباحة|piscina
+شهر العسل|luna de miel
+ابن عم|primo (por parte de padre)
+ابنة عم|prima (por parte de padre)
+ابن الكلب|hijo de puta
+ابن العاهرة|hijo de puta
+الشرق الأوسط|Oriente Medio
+الولايات المتحدة|Estados Unidos
+الأمم المتحدة|las Naciones Unidas
+الحرب العالمية|guerra mundial
+حالة طوارئ|emergencia, estado de emergencia
+غرفة الطوارئ|sala de urgencias
+مكتب التحقيقات الفيدرالي|el FBI
+المباحث الفدرالية|el FBI
+الرأي العام|opinión pública
+المدعي العام|fiscal, fiscal general
+النيابة العامة|fiscalía, ministerio público
+كبير في السن|mayor, anciano
+كبار السن|los mayores, los ancianos
+وقت الفراغ|tiempo libre, ratos libres
+سوء الفهم|malentendido
+سوء الحظ|mala suerte (لسوء الحظ por desgracia)
+حسن الحظ|buena suerte (لحسن الحظ por suerte)
+بعضهم بعضا|unos a otros, mutuamente
+بعضنا البعض|unos a otros, mutuamente
+بعضهم البعض|unos a otros, mutuamente
+بعضكم البعض|unos a otros, mutuamente
+
+# ---- The Quran's phrases
+يوم القيامة|el Día de la Resurrección
+يوم الدين|el Día del Juicio
+اليوم الآخر|el Último Día
+رب العالمين|el Señor de los mundos
+الصراط المستقيم|el camino recto
+أهل الكتاب|la Gente del Libro (judíos y cristianos)
+بني إسرائيل|los hijos de Israel
+ابن السبيل|el viajero, el caminante necesitado
+في سبيل الله|por la causa de Dios, en el camino de Dios
+سبيل الله|el camino de Dios, la causa de Dios
+يا أيها الذين آمنوا|oh, vosotros que creéis
+يا أيها الناس|oh, hombres
+الذين آمنوا|los que creen, los creyentes
+الذين كفروا|los que no creen, los incrédulos
+عمل الصالحات|obrar el bien, hacer buenas obras (عملوا الصالحات hicieron buenas obras)
+أقام الصلاة|cumplir la oración, rezar con regularidad
+آتى الزكاة|dar el azaque, pagar el zakat
+جنات تجري من تحتها الأنهار|jardines por los que corren ríos
+خالدين فيها|donde permanecerán para siempre
+من دون الله|fuera de Dios, en lugar de Dios
+على كل شيء قدير|tiene poder sobre todas las cosas
+لعلكم تتقون|quizás así seáis temerosos (de Dios)
+لعلكم تعقلون|quizás así razonéis
+لعلكم تشكرون|quizás así seáis agradecidos
+لعلهم يتفكرون|quizás así reflexionen
+لا ريب فيه|no hay duda en él
+كن فيكون|«Sé», y es

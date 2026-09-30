@@ -1,0 +1,231 @@
+# German multi-word expressions: the patterns. Hand-curated — not generated
+# by dictgen.
+#
+# Format: one pattern per line, `#` comments ignored. What each one *means* is
+# in `phrases.<meta>.txt`, joined on the pattern (case-blind) — the same split
+# `lex.txt` and `gloss.<meta>.txt` make. Which phrases exist is a fact about
+# German; what they mean is a fact about a pair of languages.
+#
+# A slot matches a token's root, its surface or its `from`, so a pattern whose
+# head inflects is written in the citation form: `Angst haben` catches *habe
+# Angst*, *hatte Angst*, *Angst gehabt*. The verb-second order (*hat Angst*,
+# *gibt es*) is not written here: the German provider's `keyForms` writes it
+# for every pattern whose last slot is a verb, and for every pattern led by
+# `es` (engine README, "Constructions"). `*` is a gap of up to four words, for
+# the frames German builds around another word — `um … zu`, `weder … noch`.
+#
+# Written as candidates (2026-09-29), then kept only where `measure:phrase-fit
+# -- --lang de --corpus fiction,opus` found three or more hits over 1.9M words
+# of Tatoeba and five Gutenberg novels, and the sampled surfaces were read
+# (tools/dictgen/README.md, "German phrases"). No frequency data ships with
+# them and nothing here is copied from a corpus, so the file is unencumbered.
+#
+# Only phrases where the word-by-word reading misleads, as for the other packs:
+# `ein paar` is "a few", not "a pair"; `nicht mehr` is "no longer". `jeden Tag`,
+# `wie lange`, `seit Jahren` fired often and were cut, because the reader
+# decodes them without help.
+
+# ---- Frames around another word: `*` is a gap of up to four words.
+um * zu
+ohne * zu
+statt * zu
+anstatt * zu
+sowohl * als auch
+entweder * oder
+weder * noch
+je * desto
+je * umso
+nicht nur * sondern auch
+zwar * aber
+es kommt auf * an
+# ---- es: the subject that is not there. `gibt es` is found through the key forms.
+es gibt
+es geht um
+es handelt sich um
+es kommt darauf an
+es tut mir leid
+tut mir leid
+es lohnt sich
+es fällt mir schwer
+es ist mir egal
+das ist mir egal
+es macht nichts
+macht nichts
+es eilig haben
+es sich leisten
+# ---- Negation and repetition, where the words mislead.
+nicht mehr
+nicht einmal
+nicht mal
+gar nicht
+gar nichts
+überhaupt nicht
+überhaupt nichts
+immer noch
+noch einmal
+noch mal
+schon wieder
+immer wieder
+# ---- Quantities.
+ein paar
+ein bisschen
+ein wenig
+eine Menge
+so ein
+so etwas
+was für
+wie viel
+# ---- Connectives and adverbials.
+zum Beispiel
+auf jeden Fall
+auf keinen Fall
+im Gegenteil
+in der Tat
+vor allem
+nach wie vor
+und zwar
+das heißt
+im Grunde
+im Allgemeinen
+im Großen und Ganzen
+unter anderem
+unter uns
+ohne weiteres
+auf diese Weise
+so gut wie
+wie gesagt
+statt dessen
+auf einmal
+mit einem Mal
+zum ersten Mal
+zum letzten Mal
+zum Glück
+zum Schluss
+im Moment
+im Augenblick
+in letzter Zeit
+seit langem
+vor kurzem
+eines Tages
+ab und zu
+ab und an
+hin und wieder
+hin und her
+nach und nach
+von Tag zu Tag
+Schritt für Schritt
+von Anfang an
+von nun an
+ab jetzt
+ab sofort
+bis jetzt
+bis dahin
+im Voraus
+im Freien
+im Laufe
+im Gegensatz zu
+im Vergleich zu
+in Bezug auf
+auf der Stelle
+an deiner Stelle
+an Ihrer Stelle
+an meiner Stelle
+mit Absicht
+aus Versehen
+um jeden Preis
+zu Fuß
+zu Hause
+nach Hause
+von zu Hause
+in Ordnung
+alles in Ordnung
+in Ruhe
+zu Ende
+auf dem Laufenden
+meiner Meinung nach
+meiner Ansicht nach
+# ---- Replies and formulas.
+guten Morgen
+guten Tag
+guten Abend
+gute Nacht
+auf Wiedersehen
+bis morgen
+bis bald
+vielen Dank
+danke schön
+bitte schön
+bitte sehr
+gern geschehen
+keine Ahnung
+keine Sorge
+keine Angst
+na ja
+na und
+na gut
+ach so
+wie bitte
+was ist los
+wie geht es
+wie immer
+alles Gute
+viel Glück
+viel Spaß
+herzlichen Glückwunsch
+Gott sei Dank
+mein Gott
+um Gottes willen
+um Himmels willen
+zum Teufel
+lass mich in Ruhe
+halt den Mund
+kurz und gut
+# ---- Light-verb idioms, cited as a dictionary does; the verb-second forms (`hat Angst`) come from the key forms.
+Angst haben
+Recht haben
+Unrecht haben
+Lust haben
+Glück haben
+Pech haben
+Hunger haben
+Durst haben
+schuld sein
+Spaß machen
+Spaß haben
+Sorgen machen
+Gedanken machen
+Mühe geben
+Bescheid wissen
+Bescheid sagen
+Fragen stellen
+eine Frage stellen
+eine Entscheidung treffen
+eine Rolle spielen
+keine Rolle spielen
+Platz nehmen
+Abschied nehmen
+ernst nehmen
+Rücksicht nehmen
+in Kauf nehmen
+auf den Arm nehmen
+im Stich lassen
+in Ruhe lassen
+zur Verfügung stehen
+zur Verfügung stellen
+zu Ende gehen
+ums Leben kommen
+ums Leben
+zur Welt kommen
+ins Bett gehen
+zu Bett gehen
+schlafen gehen
+spazieren gehen
+einkaufen gehen
+zu Mittag essen
+zu Abend essen
+zu tun haben
+nichts zu tun haben
+den Mund halten
+Wort halten
+Schritt halten
+Gas geben

@@ -1,0 +1,382 @@
+# What each Arabic phrase in `phrases.txt` means, in English.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain is not underlined at all.
+#
+# Written by hand on 2026-09-29 and not derived from any licensed corpus. The
+# patterns on the left are the join key and must not change; to explain the
+# pack in another language, copy this file to `phrases.<code>.txt` and
+# translate the right-hand side.
+
+# ---- Formulas of faith and courtesy
+إن شاء الله|God willing, hopefully
+ما شاء الله|what God has willed (admiration, warding off envy)
+الحمد لله|praise be to God, thank God
+سبحان الله|glory be to God (wonder, surprise)
+بسم الله|in the name of God
+بسم الله الرحمن الرحيم|in the name of God, the Most Gracious, the Most Merciful
+الرحمن الرحيم|the Most Gracious, the Most Merciful
+الله أكبر|God is the greatest
+لا إله إلا الله|there is no god but God
+أستغفر الله|I seek God's forgiveness
+جزاك الله خيرا|may God reward you (thank you)
+بارك الله فيك|God bless you (thank you)
+رحمه الله|may God have mercy on him (after naming the dead)
+الله يرحمه|may God have mercy on him (after naming the dead)
+صلى الله عليه وسلم|peace be upon him (after the Prophet's name)
+عليه السلام|peace be upon him (after a prophet's name)
+رضي الله عنه|may God be pleased with him (after a Companion's name)
+لا حول ولا قوة إلا بالله|there is no power nor strength except in God (dismay)
+إنا لله وإنا إليه راجعون|to God we belong and to Him we return (on a death)
+البقاء لله|my condolences (only God endures)
+بإذن الله|God willing, with God's permission
+والله أعلم|God knows best
+الله يعلم|God knows
+حفظك الله|God keep you
+السلام عليكم|peace be upon you (hello)
+وعليكم السلام|and upon you be peace (reply to a greeting)
+صباح الخير|good morning
+صباح النور|good morning (reply)
+مساء الخير|good evening
+تصبح على خير|good night
+تصبحين على خير|good night (to a woman)
+أهلا وسهلا|welcome
+أهلا بك|welcome, hello to you
+مع السلامة|goodbye (to someone leaving)
+إلى اللقاء|goodbye, see you
+أراك لاحقا|see you later
+أراك قريبا|see you soon
+كيف حالك|how are you?
+كيف الحال|how are things?, how are you?
+على ما يرام|fine, all right, OK
+من فضلك|please
+من فضلكم|please (to several people)
+لو سمحت|please, excuse me
+لو سمحتي|please, excuse me (to a woman)
+شكرا جزيلا|thank you very much
+لا شكر على واجب|don't mention it
+على الرحب والسعة|you're welcome
+بكل سرور|with pleasure
+عيد ميلاد سعيد|happy birthday
+عيد ميلاد|birthday
+كل عام وأنتم بخير|happy holiday, many happy returns
+ألف مبروك|congratulations!
+حظا سعيدا|good luck
+فرصة سعيدة|nice to meet you
+سعدت بلقائك|nice to meet you
+تشرفت بمعرفتك|pleased to meet you
+الحمد لله على السلامة|thank God you're safe, welcome back
+
+# ---- Replies and conversational set phrases
+لا بأس|it's all right, never mind, no problem
+لا عليك|never mind, don't worry about it
+لا يهم|it doesn't matter
+لا يهمني|I don't care
+ولا يهمك|don't worry about it
+لا مشكلة|no problem
+لا داعي|there's no need
+لا مانع|no objection, I don't mind
+هل تمانع|do you mind?
+لا تهتم|never mind, don't bother
+لا شيء|nothing
+لا أحد|nobody, no one
+لا أحد يعرف|nobody knows
+ولا حتى|not even
+ما الأمر|what's the matter?, what's going on?
+ما الخطب|what's wrong?
+ما المشكلة|what's the problem?
+ماذا بك|what's wrong with you?
+ما بك|what's wrong with you?
+ما بال|what's the matter with …?, what about …?
+ماذا هناك|what is it?, what's up?
+ما رأيك|what do you think?
+ما رأيك في|what do you think of …?
+أليس كذلك|isn't it?, right? (tag question)
+ليس كذلك|it's not so, not like that
+هل هذا صحيح|is that true?
+معك حق|you're right
+على حق|right, in the right
+على خطأ|wrong, in the wrong
+كما تشاء|as you wish
+كما تريد|as you like
+على راحتك|as you like, take your time
+خذ راحتك|take your time, make yourself at home
+على مهلك|take it easy, slow down
+تحت أمرك|at your service
+هيا بنا|let's go, come on
+انتبه لنفسك|take care (of yourself)
+اعتن بنفسك|take care of yourself
+صدق أو لا تصدق|believe it or not
+يا إلهي|oh my God
+يا رجل|man!, come on, man
+يا صاح|pal, buddy
+يا للهول|how awful!, good grief
+يا له من|what a …!
+يا لها من|what a …! (with a feminine noun)
+يا للعار|what a shame!
+يا ليت|if only, I wish
+يا حبيبي|my darling, my dear
+عن إذنك|excuse me (leaving, or passing)
+بعد إذنك|excuse me, with your permission
+هذا يكفي|that's enough
+كم الساعة|what time is it?
+كم عمرك|how old are you?
+شيء من هذا القبيل|something like that
+من هذا القبيل|of that kind, like that
+وما إلى ذلك|and so on, and so forth
+إلى آخره|etcetera, and so on
+
+# ---- Connectives and sentence adverbs whose parts mislead
+على الرغم من|despite, in spite of
+بالرغم من|despite, in spite of
+على الرغم|in spite of that, nevertheless
+بالإضافة إلى|in addition to, besides
+بالاضافة إلى|in addition to, besides
+بالنسبة ل|as for, regarding (بالنسبة لي as for me)
+من أجل|for, for the sake of; in order to (+ أن)
+مع ذلك|nevertheless, even so
+على أي حال|anyway, in any case
+على كل حال|anyway, in any case
+في كل الأحوال|in any case, either way
+في جميع الأحوال|in any case, in all cases
+في الحقيقة|in fact, actually
+في الواقع|in fact, actually
+على سبيل المثال|for example
+في نهاية المطاف|in the end, ultimately
+في نفس الوقت|at the same time
+في الوقت نفسه|at the same time
+في آن واحد|at the same time, at once
+في حين|while, whereas
+في حين أن|while, whereas
+بدلا من|instead of
+بدلا من ذلك|instead
+عوضا عن|instead of
+بغض النظر عن|regardless of
+حتى لو|even if
+حتى الآن|so far, until now, yet
+حتى ذلك الحين|until then
+حتى لا|so that … not
+كي لا|so that … not
+من الآن فصاعدا|from now on
+منذ ذلك الحين|since then
+من جديد|again, anew
+مرة أخرى|again, once more
+مرة واحدة|once; at once
+دفعة واحدة|all at once
+من وقت لآخر|from time to time
+من حين لآخر|from time to time, now and then
+شيئا فشيئا|little by little
+خطوة بخطوة|step by step
+إلى حد ما|to some extent, somewhat
+إلى حد كبير|to a large extent, largely
+إلى الأبد|forever
+إلى متى|how long?, until when?
+إلى أن|until
+على الفور|immediately, at once
+في الحال|immediately, at once
+في أقرب وقت|as soon as possible
+في أسرع وقت|as soon as possible
+في آخر لحظة|at the last minute
+في اللحظة الأخيرة|at the last moment
+في أي لحظة|at any moment
+قدر الإمكان|as much as possible
+بقدر ما|as much as, insofar as
+كما لو|as if
+كما لو كان|as if it were
+لا سيما|especially, particularly
+بمعنى آخر|in other words
+بعبارة أخرى|in other words
+من ناحية|on the one hand; in terms of
+من ناحية أخرى|on the other hand
+من جهة أخرى|on the other hand
+على العكس|on the contrary
+في وقت لاحق|later, at a later time
+في يوم من الأيام|one day, someday
+ذات يوم|one day (once)
+ذات مرة|once, one time; once upon a time
+في الوقت الحالي|at the moment, currently
+في الغالب|mostly, usually
+على الإطلاق|at all; absolutely
+على الأرجح|most likely, probably
+على الأقل|at least
+على الأكثر|at most
+على ما يبدو|apparently, it seems
+على ما أعتقد|I think, I believe
+في رأيي|in my opinion
+بكل صراحة|frankly, in all honesty
+بلا شك|without doubt
+دون شك|without doubt
+بشكل عام|in general, generally
+بشكل رئيسي|mainly, chiefly
+بشكل كبير|greatly, considerably
+بطريقة ما|somehow, in some way
+بأي ثمن|at any cost
+بأي حال|anyway, in any case; in any way, by any means (with a negative: in no way, by no means)
+على فكرة|by the way
+كما قلت|as I said, as you said
+كما ترى|as you see
+كما تعلم|as you know
+كما تعرف|as you know
+إلا أن|however, except that
+غير أن|however, but
+ما عدا|except
+بمجرد أن|as soon as
+قبل أن|before (+ verb)
+بعد أن|after (+ verb)
+منذ أن|since (+ verb)
+مهما كان|whatever it is, no matter what
+مهما حدث|whatever happens
+أيا كان|whoever, whatever it is
+أكثر أو أقل|more or less
+أكثر من اللازم|too much, more than necessary
+أكثر من ذلك|more than that
+لا أكثر ولا أقل|no more, no less
+عن طريق|by way of, by means of, through
+عن قصد|on purpose, deliberately
+عن ظهر قلب|by heart
+عن قرب|closely, up close
+عن بعد|remotely, from a distance
+رأسا على عقب|upside down
+وجها لوجه|face to face
+يدا بيد|hand in hand
+جنبا إلى جنب|side by side
+بفارغ الصبر|impatiently, eagerly
+على عجل|in a hurry
+على وشك|about to, on the verge of
+على قيد الحياة|alive
+في حد ذاته|in itself
+بحد ذاته|in itself
+من تلقاء نفسه|of his own accord, by itself
+كل ما في الأمر|that's all there is to it, it's just that
+طوال الوقت|all the time, the whole time
+ليس بعد|not yet
+ليس إلا|nothing more, only
+على حساب|at the expense of
+على أساس|on the basis of
+على حدة|separately, individually
+بعين الاعتبار|into account, into consideration
+
+# ---- Negation frames that mean something else
+ما زال|still (has not ceased)
+لا يزال|still
+لا زال|still
+ما دام|as long as
+ما دمت|as long as you / I
+ما عاد|no longer
+لا بد|must, it is necessary; inevitably
+لا بد أن|must (+ verb), surely
+لا بد من|it is necessary to, … is a must
+لم يعد|no longer, not anymore
+لم أعد|I no longer, not anymore
+لم تعد|you / she no longer
+لن أدع|I won't let
+
+# ---- Verb + preposition: the preposition changes the verb
+حصل على|to get, to obtain
+تعرف على|to get to know; to recognise
+وافق على|to agree to, to approve
+قضى على|to eliminate, to finish off
+اعتمد على|to rely on, to depend on
+أصر على|to insist on
+حافظ على|to keep, to preserve, to maintain
+سيطر على|to control, to take over
+قبض على|to arrest, to catch
+عثر على|to find, to come across
+ركز على|to focus on
+اعتاد على|to get used to
+تغلب على|to overcome
+أشرف على|to supervise, to oversee
+ساعد على|to help (to)
+قام ب|to do, to carry out
+اتصل ب|to call, to contact
+التقى ب|to meet (someone)
+اهتم ب|to care about, to take an interest in
+اعتنى ب|to take care of, to look after
+شعر ب|to feel
+آمن ب|to believe in
+وثق ب|to trust
+استمتع ب|to enjoy
+احتفظ ب|to keep, to hold on to
+سمح ل|to allow, to let
+أدى إلى|to lead to, to result in
+احتاج إلى|to need
+بحث عن|to look for, to search for
+توقف عن|to stop (doing)
+تخلى عن|to give up, to abandon
+دافع عن|to defend
+عبر عن|to express
+اعتذر عن|to apologise for
+تخلص من|to get rid of
+تأكد من|to make sure of
+تمكن من|to manage to, to be able to
+انتهى من|to finish (doing)
+استفاد من|to benefit from
+خاف من|to be afraid of
+اقترب من|to approach, to come near
+رغب في|to want, to wish for
+
+# ---- Words that go together and mean something else
+الليلة الماضية|last night
+شاهد عيان|eyewitness
+قاتل متسلسل|serial killer
+رجل أعمال|businessman
+سيارة أجرة|taxi
+هاتف محمول|mobile phone
+بريد إلكتروني|email
+ربطة عنق|necktie
+حمام السباحة|swimming pool
+شهر العسل|honeymoon
+ابن عم|cousin (father's side)
+ابنة عم|cousin (father's side, f.)
+ابن الكلب|son of a bitch
+ابن العاهرة|son of a bitch
+الشرق الأوسط|the Middle East
+الولايات المتحدة|the United States
+الأمم المتحدة|the United Nations
+الحرب العالمية|world war
+حالة طوارئ|emergency, state of emergency
+غرفة الطوارئ|emergency room
+مكتب التحقيقات الفيدرالي|the FBI
+المباحث الفدرالية|the FBI
+الرأي العام|public opinion
+المدعي العام|prosecutor, attorney general
+النيابة العامة|public prosecution
+كبير في السن|old, elderly
+كبار السن|the elderly
+وقت الفراغ|free time, spare time
+سوء الفهم|misunderstanding
+سوء الحظ|bad luck (لسوء الحظ unfortunately)
+حسن الحظ|good luck (لحسن الحظ fortunately)
+بعضهم بعضا|each other, one another
+بعضنا البعض|each other, one another
+بعضهم البعض|each other, one another
+بعضكم البعض|each other, one another
+
+# ---- The Quran's phrases
+يوم القيامة|the Day of Resurrection
+يوم الدين|the Day of Judgment
+اليوم الآخر|the Last Day
+رب العالمين|Lord of the worlds
+الصراط المستقيم|the straight path
+أهل الكتاب|the People of the Book (Jews and Christians)
+بني إسرائيل|the Children of Israel
+ابن السبيل|the wayfarer, the traveller in need
+في سبيل الله|in the way of God, for God's cause
+سبيل الله|the way of God, God's cause
+يا أيها الذين آمنوا|O you who believe
+يا أيها الناس|O mankind
+الذين آمنوا|those who believe, the believers
+الذين كفروا|those who disbelieve, the unbelievers
+عمل الصالحات|to do righteous deeds (عملوا الصالحات did righteous deeds)
+أقام الصلاة|to establish prayer, to pray regularly
+آتى الزكاة|to give alms, to pay zakat
+جنات تجري من تحتها الأنهار|gardens beneath which rivers flow
+خالدين فيها|abiding in it forever
+من دون الله|besides God, other than God
+على كل شيء قدير|has power over all things
+لعلكم تتقون|so that you may be mindful (of God)
+لعلكم تعقلون|so that you may understand
+لعلكم تشكرون|so that you may be grateful
+لعلهم يتفكرون|so that they may reflect
+لا ريب فيه|there is no doubt in it
+كن فيكون|"Be," and it is

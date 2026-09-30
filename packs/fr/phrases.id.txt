@@ -1,0 +1,597 @@
+# What each French phrase in `phrases.txt` means, in Indonesian.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Indonesian where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Two rules, both inherited from the file this translates:
+#
+#   - The patterns on the left are the join key — elision spacing included —
+#     and must not change. A changed pattern is a phrase the app stops
+#     finding; an invented one is a phrase it hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.id.txt`.
+#
+# Verbs are glossed as bare Indonesian verbs — the English `to` in the file
+# this translates is English citation form and has no counterpart to carry
+# across.
+
+# ---- Verbal periphrases: the head inflects, so the pattern is the infinitive.
+être en train de|sedang (melakukan sesuatu)
+venir de|baru saja (melakukan sesuatu); datang dari
+aller bien|baik-baik saja, berjalan lancar
+avoir besoin de|butuh, perlu
+avoir envie de|ingin, kepingin
+avoir l' air|tampaknya, kelihatannya
+avoir l' habitude|terbiasa
+être obligé de|terpaksa, harus
+se mettre à|mulai
+arrêter de|berhenti (melakukan sesuatu)
+continuer à|terus (melakukan sesuatu)
+finir par|akhirnya (melakukan sesuatu)
+il y a|ada; yang lalu (deux ans: dua tahun yang lalu)
+il faut|perlu, harus
+il s' agit de|ini tentang, ini soal
+rendre compte|menyadari
+laisser tomber|melupakan saja, menyerah
+en aller|pergi, meninggalkan tempat
+en vouloir à|menyimpan dendam pada (seseorang)
+faire semblant|berpura-pura
+faire attention|memperhatikan, berhati-hati
+faire exprès|sengaja melakukannya
+faire gaffe|hati-hati, awas (bahasa sehari-hari)
+faire mal|menyakitkan, sakit
+valoir la peine|layak, sepadan
+pas la peine|tidak perlu, tidak usah repot
+avoir du mal|kesulitan (melakukan sesuatu)
+faire du mal|menyakiti (seseorang)
+prendre soin|merawat, menjaga
+avoir lieu|berlangsung, terjadi
+
+# ---- avoir + noun: French has where English is.
+avoir raison|benar
+avoir tort|salah
+avoir peur|takut
+avoir faim|lapar
+avoir soif|haus
+avoir mal|merasa sakit, kesakitan
+avoir froid|kedinginan
+avoir chaud|kepanasan
+avoir honte|malu
+avoir de la chance|beruntung
+
+# ---- Connectives and discourse markers.
+bien sûr|tentu saja
+en fait|sebenarnya, sesungguhnya
+en effet|memang
+du coup|jadi, akibatnya (bahasa sehari-hari)
+quand même|tetap saja, meskipun begitu
+tout de même|tetap saja
+de toute façon|bagaimanapun juga
+en tout cas|pokoknya, bagaimanapun
+par contre|sebaliknya, di sisi lain
+au fait|omong-omong
+à propos|omong-omong
+c' est-à-dire|yaitu, artinya
+autrement dit|dengan kata lain
+parce que|karena
+pour que|supaya, agar
+afin que|supaya, agar
+bien que|walaupun, meskipun; (sesudah kata kerja) benar-benar … bahwa (tu sais bien que = kamu tahu betul bahwa)
+alors que|padahal, sementara
+tandis que|sedangkan, sementara
+dès que|begitu, segera setelah
+tant que|selama
+au lieu de|alih-alih, bukannya
+à cause de|karena, gara-gara
+grâce à|berkat
+plus ou moins|kurang lebih
+au moins|setidaknya
+du tout|sama sekali
+pas du tout|sama sekali tidak
+jusqu' à|sampai, hingga
+jusqu' à ce que|sampai
+
+# ---- Modality and degree.
+tout à fait|sepenuhnya, betul sekali
+pas mal|lumayan; cukup banyak
+n' importe quoi|apa saja; omong kosong
+n' importe qui|siapa saja
+n' importe où|di mana saja
+quelque chose|sesuatu
+quelque part|di suatu tempat
+tout le monde|semua orang
+
+# ---- Time and manner.
+tout de suite|segera, sekarang juga
+tout à l' heure|sebentar lagi; tadi
+tout à coup|tiba-tiba
+en ce moment|saat ini
+pour l' instant|untuk sementara
+de nouveau|lagi
+à nouveau|lagi
+encore une fois|sekali lagi
+en retard|terlambat
+à l' heure|tepat waktu; per jam; pada saat (itu)
+de temps en temps|sesekali, kadang-kadang
+en même temps|pada saat yang sama
+tout le temps|terus-menerus, sepanjang waktu
+d' abord|pertama-tama
+
+# ---- Questions.
+qu' est-ce que|apa
+qu' est-ce qui|apa (sebagai subjek)
+est-ce que|(penanda pertanyaan ya/tidak)
+n' est-ce pas|bukan?, kan?
+à quoi bon|apa gunanya
+
+# ---- Fixed dialogue.
+s' il vous plaît|tolong, silakan
+s' il te plaît|tolong (akrab)
+d' accord|baiklah, setuju
+de rien|sama-sama
+je t' en prie|sama-sama; silakan
+ça va|baik-baik saja; apa kabar?
+ça y est|nah, sudah, beres
+bonne nuit|selamat tidur
+bonne chance|semoga berhasil
+au revoir|sampai jumpa
+à bientôt|sampai jumpa lagi
+à demain|sampai besok
+mon dieu|ya Tuhan
+
+# ==== The 2026-09-23 expansion (phase 4).
+# ---- avoir + noun
+avoir hâte|tidak sabar, ingin segera
+avoir beau|sekeras apa pun (berusaha), sia-sia
+avoir l' intention|bermaksud, berniat
+avoir l' impression|merasa, punya kesan
+avoir pitié|merasa kasihan
+avoir horreur|sangat benci
+avoir recours à|terpaksa memakai, beralih ke
+avoir la trouille|ketakutan setengah mati (bahasa sehari-hari)
+avoir le cœur|tega (melakukan); berhati (berat, hancur)
+avoir l' œil|terus mengawasi; punya mata yang jeli
+avoir de quoi|punya cukup (untuk); punya alasan kuat
+avoir des ennuis|dalam kesulitan, kena masalah
+avoir qu' à|tinggal, cukup (tu n'as qu'à: kamu tinggal ...)
+en avoir marre|muak, bosan
+en avoir assez|sudah cukup, muak
+en avoir pour|memakan waktu; menghabiskan biaya
+avoir affaire|berurusan (dengan)
+# ---- faire + noun and causatives
+faire peur|menakut-nakuti
+faire confiance|memercayai
+faire partie|menjadi bagian (dari), termasuk
+faire face|menghadapi, mengatasi
+faire de ? mieux|berusaha sebaik mungkin
+faire du bien|berbuat baik, terasa enak
+faire plaisir|menyenangkan hati
+faire signe|melambai, memberi isyarat; menghubungi
+faire mine de|berpura-pura, seolah-olah hendak
+faire le tour|mengelilingi, berkeliling
+faire un tour|jalan-jalan sebentar, berkeliling
+faire allusion|menyinggung, menyindir
+faire de la peine|menyedihkan, menyakiti hati (seseorang)
+faire marcher|mengerjai seseorang; menjalankan
+faire savoir|memberi tahu
+faire venir|memanggil, mendatangkan
+faire taire|membungkam, menyuruh diam
+faire croire|membuat orang percaya, mengelabui
+faire remarquer|menunjukkan, mengingatkan
+faire valoir|menegaskan, mengemukakan
+faire l' affaire|cocok, memadai
+faire du souci|khawatir, cemas
+faire la cour|merayu, mendekati
+faire part|mengumumkan, memberi tahu
+faire la grasse matinée|tidur sampai siang, bermalas-malasan di tempat tidur
+faire nuit|sudah gelap (il fait nuit)
+faire beau|cuaca cerah
+faire froid|dingin (cuaca)
+faire chaud|panas (cuaca)
+faire ? valise|berkemas, mengepak koper
+faire en sorte|memastikan, mengusahakan
+t' en faire|khawatir (ne t'en fais pas: jangan khawatir); membuatkanmu sedikit
+vous en faire|khawatir (ne vous en faites pas: jangan khawatir); membuat sesuatu darinya
+ça ne fait rien|tidak apa-apa
+ça fait longtemps|sudah lama sekali
+# ---- prendre / mettre / tenir / donner / rendre
+prendre la fuite|melarikan diri
+prendre garde|waspada, berhati-hati
+prendre la parole|berbicara, angkat bicara
+prendre l' air|menghirup udara segar
+prendre congé|berpamitan
+prendre place|duduk, mengambil tempat
+en prendre à|menyerang, menyalahkan (s'en prendre à)
+prendre un verre|minum-minum, minum segelas
+prendre dans ? bras|memeluk
+y prendre|melakukannya, menanganinya (s'y prendre)
+mettre de côté|menyisihkan, menabung
+mettre les pieds|menginjakkan kaki
+mettre la main sur|mendapatkan, menemukan
+se mettre à table|duduk untuk makan; mengaku (bahasa sehari-hari)
+tenir le coup|bertahan, tabah
+tenir tête|melawan, menentang
+tenir bon|bertahan, tetap teguh
+tenir debout|berdiri tegak; masuk akal
+tenir compte|memperhitungkan
+tenir à|ingin sekali, peduli pada; (se tenir à) berpegangan pada, tetap di
+donner raison|membenarkan, setuju dengan
+donner sur|menghadap ke
+rendre visite|mengunjungi (seseorang)
+rendre service|menolong, membantu
+# ---- tomber / aller / venir / passer / other verbs
+tomber amoureux|jatuh cinta
+tomber sur|bertemu secara kebetulan, menemukan; jatuh menimpa
+aller chercher|menjemput, mengambil
+aller mieux|membaik, merasa lebih baik
+aller jusqu' à|sampai-sampai; pergi sampai ke
+on y va|ayo pergi; kita pergi (ke sana)
+venir à bout|mengatasi, menyelesaikan
+en venir à|sampai (melakukan), sampai pada
+venir à l' esprit|terlintas di pikiran
+se passer|terjadi; berjalan (baik, buruk)
+se passer de|hidup tanpa, tidak memerlukan
+passer pour|dianggap sebagai
+se douter|menduga, curiga
+se demander|bertanya-tanya
+je me demande|saya bertanya-tanya
+s' attendre à|mengharapkan, menduga
+m' attendre à|mengharapkan (je m'attendais à: saya sudah menduga)
+servir de|berfungsi sebagai; (se servir de) menggunakan
+servir à|dipakai untuk, berguna untuk
+occuper de|mengurus, menangani (s'occuper de)
+en occuper|mengurusnya (je m'en occupe)
+moquer de|mengejek; (se moquer de) tidak peduli
+en tirer|lolos, selamat; mendapat (sesuatu) darinya
+en foutre|tidak peduli sama sekali (kasar)
+en finir|menyelesaikannya, mengakhirinya
+en rester là|cukup sampai di situ
+où en être|sampai di mana, bagaimana keadaannya
+en pouvoir plus|kelelahan, tidak tahan lagi
+en remettre|pulih; (s'en remettre à) menyerahkan kepada, mengandalkan
+en revenir|pulih (je n'en reviens pas: saya tidak percaya); kembali dari sana
+y être pour|ada hubungannya dengan itu
+y connaître|paham soal itu
+y tenir|sangat menginginkannya; muat di situ
+vouloir dire|berarti, bermaksud
+entendre dire|mendengar (orang bilang) bahwa
+entendre parler|mendengar tentang
+on dirait|sepertinya, kelihatannya
+dis donc|hei, eh
+dites donc|hei, eh
+valoir mieux|lebih baik (il vaut mieux: lebih baik)
+mieux vaut|lebih baik
+valoir le coup|layak, sepadan
+laisser faire|membiarkan saja, membiarkan (seseorang) melakukannya
+laisser tranquille|membiarkan, tidak mengganggu
+manquer de|kekurangan; hampir (melakukan)
+me manquer|dirindukan olehku (tu me manques: aku merindukanmu); mengecewakanku, kurang
+que je sache|setahu saya
+je ne sais quoi|sesuatu yang istimewa
+on ne peut plus|sangat, sekali; tidak bisa lagi
+perdre connaissance|pingsan
+perdre la tête|hilang akal, menjadi gila
+perdre ? temps|membuang waktu
+gagner ? vie|mencari nafkah
+jeter un œil|melihat sekilas
+serrer la main|berjabat tangan
+serrer dans ? bras|memeluk erat
+tendre la main|mengulurkan tangan
+pousser un cri|berteriak
+fondre en larmes|menangis tersedu-sedu
+éclater de rire|tertawa terbahak-bahak
+éclater en sanglots|tangisnya pecah, menangis tersedu-sedu
+rire aux éclats|tertawa terpingkal-pingkal
+mourir de faim|kelaparan
+donner ? parole|berjanji, memberi janji
+reprendre ? souffle|mengatur napas kembali
+se tromper|keliru, salah
+# ---- Pronominal and clitic formulas
+m' est égal|saya tidak keberatan, sama saja bagi saya
+ça suffit|cukup
+il suffit de|cukup, hanya perlu
+il paraît que|katanya, tampaknya
+il se trouve que|kebetulan
+il y a longtemps|dahulu kala, lama sekali
+pas de quoi|sama-sama; tidak ada alasan
+il va sans dire|sudah tentu, tak perlu dikatakan lagi
+c' est pourquoi|itulah sebabnya
+c' est pour ça|itulah sebabnya
+c' est ça|betul, itu dia
+c' est bon|baiklah, sudah cukup
+c' est parti|ayo mulai, berangkat
+pas grave|tidak apa-apa, bukan masalah
+c' est pas vrai|masa!, saya tidak percaya
+ça marche|oke, sepakat; berhasil, jalan
+ça craint|payah, menyebalkan (bahasa sehari-hari)
+ça alors|astaga, wah
+comment ça|maksudnya?, kok bisa?
+comment ça va|apa kabar?
+qu' importe|apa pentingnya
+que dalle|sama sekali tidak ada (bahasa gaul)
+ne serait-ce que|walau hanya, sekadar
+# ---- Connectives and discourse markers
+sans doute|mungkin, barangkali
+au fond|di belakang, di dasar; pada dasarnya, dalam hati
+en fin de compte|pada akhirnya
+tout compte fait|setelah dipertimbangkan
+à la fois|sekaligus, pada saat yang sama
+à tout prix|dengan segala cara
+à force de|karena terus-menerus (melakukan)
+à moins que|kecuali jika
+à moins de|kecuali, tanpa
+au cas où|kalau-kalau, untuk berjaga-jaga
+de sorte que|sehingga
+si bien que|sehingga, akibatnya
+aussi bien que|serta, maupun
+d' autant plus|terlebih lagi
+d' ailleurs|lagi pula, omong-omong
+en revanche|sebaliknya
+par conséquent|oleh karena itu
+en outre|selain itu
+en plus|lagi pula, apalagi
+du moins|setidaknya
+pour ainsi dire|boleh dikatakan
+à vrai dire|sejujurnya
+à savoir|yaitu
+même si|meskipun, sekalipun
+même pas|bahkan tidak
+pas même|bahkan tidak
+pas encore|belum
+non plus|juga tidak
+moi non plus|saya juga tidak
+pas grand-chose|tidak banyak
+pas question|tidak mungkin, tidak ada ceritanya
+hors de question|tidak mungkin
+tant pis|apa boleh buat, biarlah
+tant mieux|baguslah
+tant bien que mal|sebisanya, seadanya
+de même|begitu pula; (di depan kata benda) yang sama
+ainsi que|serta; seperti
+de manière à|supaya, agar
+de façon à|supaya, agar
+au point de|sampai-sampai
+au point que|sedemikian rupa sehingga
+vu que|mengingat, karena
+lors de|pada saat, selama
+avant tout|terutama, pertama-tama
+en tant que|sebagai
+en guise de|sebagai
+en vue de|dengan tujuan
+quant à|mengenai, adapun
+au sujet de|tentang, mengenai
+en ce qui concerne|sehubungan dengan, mengenai
+à propos de|tentang, mengenai
+à l' égard de|terhadap, mengenai
+à l' insu de|tanpa sepengetahuan
+faute de|karena tidak ada
+à défaut de|karena tidak ada
+afin de|untuk, supaya
+de peur que|karena takut kalau
+de crainte que|karena takut kalau
+de peur de|karena takut akan
+pour peu que|asalkan, jika saja
+sans que|tanpa (sesuatu terjadi)
+si ce n' est|kalau bukan, kecuali
+d' après|menurut
+d' où|maka dari itu, dari mana
+d' autre part|di sisi lain
+d' un côté|di satu sisi
+cela dit|meski begitu
+en passant|sambil lalu, omong-omong; sambil lewat
+ou bien|atau
+eh bien|nah, yah
+ah bon|oh ya?, begitu ya
+oh là là|aduh, wah
+et alors|lalu kenapa?; lalu
+comme quoi|yang membuktikan bahwa
+comme d' habitude|seperti biasa
+d' habitude|biasanya
+comme il faut|dengan benar, pantas
+et ainsi de suite|dan seterusnya
+quoi qu' il en soit|bagaimanapun juga
+quoi qu' il arrive|apa pun yang terjadi
+quoi que ce soit|apa pun
+qui que ce soit|siapa pun
+coûte que coûte|bagaimanapun caranya
+quel que|apa pun (quel que soit)
+n' importe quel|apa saja, mana saja
+n' importe quand|kapan saja
+peu importe|tidak masalah, tidak apa-apa
+en quelque sorte|boleh dibilang, semacam
+en somme|singkatnya
+bien entendu|tentu saja
+bien des|banyak
+pour sûr|pasti
+à coup sûr|pasti
+pour de bon|untuk selamanya; sungguhan
+pour rien|cuma-cuma; sia-sia
+rien que|hanya, sekadar
+rien du tout|sama sekali tidak ada
+rien à voir|tidak ada hubungannya
+rien à faire|percuma; tidak ada yang bisa dilakukan
+le moins du monde|sedikit pun
+pas tout à fait|tidak sepenuhnya
+pas vrai|kan?, bukan?; tidak benar
+ou quoi|atau apa?
+y compris|termasuk
+à part|selain, kecuali; terpisah
+loin de là|jauh dari itu
+sans compter|belum lagi
+non sans|bukan tanpa
+# ---- Time
+à l' instant|barusan, saat ini
+à la longue|lama-kelamaan
+à jamais|selamanya
+de temps à autre|sesekali
+à partir de|mulai dari
+dès lors|sejak itu; oleh karena itu
+d' avance|sebelumnya, di muka
+de nos jours|zaman sekarang
+à l' époque|waktu itu, dulu
+en attendant|sementara itu; sambil menunggu
+au départ|mula-mula, pada awalnya
+une fois que|begitu, setelah
+des fois|kadang-kadang (bahasa sehari-hari)
+de suite|berturut-turut; segera (bahasa sehari-hari)
+sur le point de|hampir, akan segera
+en un clin d' œil|dalam sekejap mata
+de bonne heure|pagi-pagi
+cette nuit|malam ini; tadi malam
+du jour au lendemain|dalam semalam
+à mesure que|seiring
+au bout de|setelah (suatu waktu); di ujung
+par la suite|kemudian, selanjutnya
+au plus vite|secepat mungkin
+sans cesse|terus-menerus
+tout d' un coup|tiba-tiba
+sur le coup|saat itu juga, seketika
+tout d' abord|pertama-tama
+# ---- Manner and place
+à haute voix|dengan suara keras
+à voix basse|dengan suara pelan
+à genoux|berlutut
+à tâtons|meraba-raba
+à la renverse|terjengkang (jatuh ke belakang)
+en hâte|dengan tergesa-gesa
+à bout de souffle|kehabisan napas
+peu à peu|sedikit demi sedikit
+à peu près|kira-kira
+à peine|hampir tidak, nyaris tidak; baru saja
+au hasard|secara acak
+par hasard|secara kebetulan
+par cœur|di luar kepala, hafal
+de travers|miring; salah
+de côté|ke samping; di samping
+en douce|diam-diam
+à pas de loup|mengendap-endap
+de loin|dari jauh; jauh lebih; (de loin en loin) sesekali
+de près|dari dekat; (de près de) hampir
+au juste|tepatnya
+à merveille|dengan sempurna
+à l' aise|santai, nyaman
+mal à l' aise|canggung, tidak nyaman
+à bout|kelelahan, habis kesabaran
+à bout de|di ujung, kehabisan (kesabaran, tenaga)
+sens dessus dessous|jungkir balik, berantakan
+de long en large|mondar-mandir
+de plus en plus|makin lama makin
+de plus belle|makin menjadi-jadi
+à perte de vue|sejauh mata memandang
+à l' improviste|tanpa diduga, mendadak
+à la place|sebagai gantinya; di tempat (dari)
+à ta place|kalau saya jadi kamu
+à votre place|kalau saya jadi Anda
+à son tour|gilirannya
+à mon tour|giliran saya
+à leur tour|giliran mereka
+tour à tour|bergiliran
+en face|di seberang; di depan muka
+en haut|di atas, di lantai atas
+en bas|di bawah, di lantai bawah
+en avant|maju, ke depan
+en arrière|mundur, ke belakang
+en route|dalam perjalanan; ayo berangkat
+tout droit|lurus saja; tegak
+tout bas|berbisik
+tout haut|dengan suara keras
+tout juste|pas-pasan, nyaris
+tout au plus|paling banyak
+tout court|begitu saja, titik
+au loin|di kejauhan
+le long de|di sepanjang
+à travers|melalui, menembus
+à l' abri|terlindung, aman
+par terre|di tanah, di lantai
+à terre|di tanah, jatuh; di darat
+par ici|lewat sini, di sekitar sini
+par là|lewat sana; dengan itu
+à l' étranger|di luar negeri
+en plein|tepat di (tengah), di siang (bolong), penuh
+en plein air|di luar ruangan
+au beau milieu|tepat di tengah-tengah
+au grand jour|di siang bolong, terang-terangan
+à bord|di atas kapal, di dalam pesawat
+au large|di lepas pantai
+à deux doigts de|nyaris, hampir saja
+sur la pointe des pieds|berjingkat
+de la part de|atas nama, dari
+nulle part|tidak di mana pun
+du côté de|ke arah, dekat; di pihak
+dans le coin|di sekitar sini
+dans le pétrin|dalam kesulitan
+# ---- States: être + prepositional phrase
+en vie|hidup, masih hidup
+en colère|marah
+en forme|bugar, sehat; (en forme de) berbentuk
+en panne|mogok, rusak
+à la hauteur|mampu, sanggup; setinggi, sejajar
+au courant|tahu, mengetahui
+de retour|kembali
+à même de|mampu
+en mesure de|dalam posisi untuk, mampu
+sur ? gardes|waspada, berjaga-jaga
+en tête|memimpin, di depan; dalam pikiran
+bon marché|murah
+pas terrible|tidak terlalu bagus
+# ---- Fixed nouns whose parts mislead
+chemin de fer|jalan kereta api
+hôtel de ville|balai kota
+petit déjeuner|sarapan
+lune de miel|bulan madu
+gueule de bois|pengar, sisa mabuk
+chair de poule|merinding
+jeune fille|gadis, perempuan muda
+jeunes gens|anak-anak muda
+bonne femme|perempuan (bahasa sehari-hari)
+femme de chambre|pelayan kamar
+peur bleue|ketakutan setengah mati
+fou rire|tawa yang tak tertahankan
+clin d' œil|kedipan mata
+coup d' œil|lirikan
+coup de main|bantuan
+coup de fil|telepon, panggilan telepon
+coup de foudre|cinta pada pandangan pertama; sambaran petir
+coup de feu|tembakan
+coup de vent|embusan angin; (en coup de vent) terburu-buru
+# ---- Fixed dialogue and forms of address
+bon sang|sialan, astaga
+nom de dieu|sialan, ya Tuhan
+mon vieux|kawan, bung
+ma vieille|sayang, non
+mon pote|sobat (bahasa sehari-hari)
+mon cher|sayangku
+ma chère|sayangku
+mon petit|sayang, nak
+ma petite|sayang, nak
+mon chéri|sayang
+ma chérie|sayang
+ma belle|manis, sayang
+mon gars|nak, bung
+au secours|tolong!
+à l' aide|tolong!; dengan bantuan
+à l' aide de|dengan bantuan, menggunakan
+je vous en prie|sama-sama; silakan
+à tout à l' heure|sampai nanti
+à plus tard|sampai nanti
+à la bonne heure|bagus!, bagus sekali
+quoi de neuf|ada kabar apa?
+sans blague|serius?, jangan bercanda
+et voilà|nah, ini dia
+voilà tout|itu saja
+ma parole|sungguh!, astaga!
+tu parles|tentu saja; masa sih (ironis); kamu berbicara
+tous les deux|keduanya
+toutes les deux|keduanya
+l' un l' autre|satu sama lain
+les uns les autres|satu sama lain
+l' un et l' autre|keduanya
+ni l' un ni l' autre|tidak satu pun dari keduanya, bukan yang ini maupun yang itu
+un tas de|banyak sekali
+des tas de|banyak sekali
+quelque peu|agak
+pas mal de|cukup banyak

@@ -41,7 +41,7 @@ kami|we (excluding you)|f1p
 kita|we (including you)|f1p
 mereka|they|f3p
 kalian|you (plural)|f2s2p
-orang|person, people|o
+orang|person, people; (classifier for people: dua orang = two people)|o;g
 apa|what; (marks a yes/no question); or (colloq., between alternatives: teh apa kopi?)|o;g;o
 apa-apa|anything, nothing (in a negated clause); tidak apa-apa: it's all right, never mind|o;n
 apakan|to do what with|v
@@ -49,7 +49,7 @@ siapa|who|o
 siapa-siapa|anyone, nobody (in a negated clause)|o
 mana|which, where; how could, surely not (mana mungkin = no way, mana bisa)|o;o
 mana-mana|anywhere, everywhere (with di or ke)|o
-bagaimana|how|o
+bagaimana|how; how about, what about (bagaimana kalau = how about)|o;o
 mengapa|why|o
 kenapa|why; what's wrong (with) (kamu kenapa? = what's wrong with you?)|o;o
 kapan|when|o
@@ -98,7 +98,7 @@ tadi|just now, earlier|o
 besok|tomorrow|o
 kemarin|yesterday|o
 dulu|before, first (in time)|o
-dahulu|before, formerly|o
+dahulu|before, formerly; first (before something else)|o;o
 sudah|already; (marks a completed action); that's enough!, stop it!|o;g;o
 sudahi|to end, to stop|v
 sudahkan|have you already...? (= sudahkah)|f2s2p
@@ -144,12 +144,12 @@ terlalu|too (excessively)|o
 cukup|enough, sufficient; quite, fairly|o;o
 memadai|adequate, sufficient|o
 kurang|less; lacking, not enough; not very, not really (before an adjective or verb: kurang suka)|o;o;o
-lebih|more|o
+lebih|more; extra, left over (uang lebih = spare money)|o;o
 melebih|to exceed, go beyond|v
-melebihkan|to overdo, to put too much on|v
+melebihkan|to overdo, to put too much on; to favour (one over others)|v;v
 berlebihan|excessive, too much|o
 berlebih|excessive, in excess|o
-paling|most|o
+paling|most; at most (paling lambat = at the latest); probably, most likely (colloq.: paling dia lupa)|o;o;o
 memalingkan|to turn away (the face)|v
 palingkan|turn (your face) away|o
 banyak|many, much|o
@@ -172,7 +172,7 @@ beda|different|o
 seperti|like, as|o
 sebagai|as, in the role of; dan sebagainya: and so on, et cetera|o;n
 bahwa|that (conjunction)|o
-kalau|if; as for (kalau saya = as for me)|o;o
+kalau|if; as for (kalau saya = as for me); when, whenever (of the future or a habit)|o;o;o
 kalau-kalau|in case, lest; whether, if by chance (after a verb of checking)|o;o
 jika|if|o
 andai|if, supposing|o
@@ -187,7 +187,7 @@ tetapi|but|o
 tapi|but|o
 namun|however|o
 atau|or|o
-serta|as well as|o
+serta|as well as; ikut serta: to take part|o;n
 disertai|accompanied by|o
 menyertakan|to include, to enclose|v
 sertakan|include it, enclose it|o
@@ -214,14 +214,14 @@ luar|outside|o
 atas|above, top; for, on (terima kasih atas = thank you for; atas nama = in the name of)|o;o
 bawah|below, under|o
 depan|front; next, coming|o;o
-belakang|back, behind|o
+belakang|back, behind; ke belakang: to go to the toilet (euph.)|o;n
 tengah|middle, center; in the middle of (doing), currently (formal); tengah malam: midnight|o;o;n
 samping|side, beside|o
-dekat|near|o
+dekat|near; close (of friends, family)|o;o
 jauh|far; much, far (before a comparative: jauh lebih baik)|o;o
 sini|here; come here!|o;o
 sinikan|hand it over, bring it here (colloq.)|o
-situ|there|o
+situ|there; you (colloq.)|o;f2s2p
 sana|over there; go on!, off you go (pergi sana = go away)|o;o
 mari|let's; goodbye, I'll be going (taking leave: mari, Pak)|o;o
 ayo|come on, let's|o
@@ -234,13 +234,13 @@ maaf|sorry; excuse me (to get attention or pass)|o;o
 terima|to receive, to accept|v
 kasih|to give; affection|v;o
 terima kasih|thank you|o
-selamat|safe; congratulations|o;o
+selamat|safe; congratulations; good (in greetings: selamat pagi = good morning)|o;o;o
 nama|name|o
 rumah|house, home|o
 jalan|road, street; to walk; to run, work (of a machine, a plan)|o;v;v
 kota|city|o
 negara|country, state|o
-negeri|land, country|o
+negeri|land, country; state, public (state-run)|o;o
 tempat|place|o
 dunia|world|o
 daerah|region, area|o
@@ -248,15 +248,15 @@ pergi|to go|v
 datang|to come|v
 pulang|to go home|v
 masuk|to enter, go in; to go to (work, school) (tidak masuk = absent)|v;v
-keluar|to go out, exit|v
+keluar|to go out, exit; to quit, leave (a job, school, a group)|v;v
 naik|to go up, rise; to get on, board|v;v
-turun|to go down, descend|v
+turun|to go down, descend; to get off (a vehicle)|v;v
 duduk|to sit|v
 diri|self|o
 tidur|to sleep|v
 bangun|to wake up; to build|v;v
 makan|to eat|v
-minum|to drink|v
+minum|to drink; to take (medicine)|v;v
 tenggak|to gulp down, to swig|v
 menenggak|to gulp down, to swig|v
 lihat|to see, look|v
@@ -265,7 +265,7 @@ bicara|to speak|v
 kata|word; said, says|o;f3s
 tanya|to ask|v
 jawab|to answer|v
-minta|to ask for, request|v
+minta|to ask for, request; minta maaf: to apologize|v;n
 pikir|to think|v
 rasa|feeling, taste; to feel|o;v
 ingat|to remember|v
@@ -273,20 +273,20 @@ lupa|to forget|v
 harap|to hope; please (in notices and formal requests: harap tenang = please be quiet)|v;o
 tunggu|to wait|v
 cari|to look for, seek|v
-temu|to meet, to find|v
+temu|to meet; to find|v;v
 ambil|to take|v
 beri|to give|v
-bawa|to bring, carry|v
+bawa|to bring, carry; to drive (a vehicle) (colloq.)|v;v
 kirim|to send|v
 taruh|to put, place|v
 letak|position; to put|o;v
-buka|to open|v
-tutup|to close, shut; closed (of a shop, an office)|v;o
+buka|to open; to take off (clothes, shoes)|v;v
+tutup|to close, shut; closed (of a shop, an office); lid, cover|v;o;o
 mulai|to begin, start; from, starting (a time: mulai besok = from tomorrow)|v;o
 selesai|finished, done|o
 habis|used up, finished; after (habis makan = after eating); because (colloq.)|o;o;o
 terus|to continue; continuously, the whole time; dan seterusnya: and so on, et cetera; then, and then (colloq.); straight on, straight ahead|v;o;n;o;o
-lanjut|to continue|v
+lanjut|to continue; lebih lanjut: further|v;n
 henti|to stop|v
 coba|to try; go on and, just (softening a request: coba lihat = have a look)|v;o
 coba-coba|to try out, experiment; to dare, try anything (esp. after jangan)|v;v
@@ -295,7 +295,7 @@ guna|use, purpose|o
 buat|to make; for|v;o
 bikin|to make (colloq.)|v
 kerja|work; to work|o;v
-main|to play|v
+main|to play; to drop by, visit (colloq.); to act, star (in a film)|v;v;v
 main-main|to mess around, fool around; joking, not serious|v;o
 ajar|to teach (belajar: to learn)|v
 baca|to read|v
@@ -316,7 +316,7 @@ buruk|bad|o
 jelek|bad, ugly|o
 benar|true, correct; really, truly (after an adjective: cantik benar)|o;o
 benar-benar|really, truly, genuinely|o
-betul|correct, right|o
+betul|correct, right; really, very (after an adjective)|o;o
 betul-betul|really, truly|o
 salah|wrong; mistake; salah satu / salah seorang: one of|o;o;n
 besar|big, large|o
@@ -325,26 +325,26 @@ panjang|long|o
 pendek|short|o
 tinggi|tall, high|o
 rendah|low|o
-luas|wide, spacious|o
-sempit|narrow|o
-berat|heavy; serious|o;o
+luas|wide, spacious; area (size)|o;o
+sempit|narrow; tight, cramped|o;o
+berat|heavy; serious; hard, difficult; weight|o;o;o;o
 ringan|light (in weight); mild, minor|o;o
 tebal|thick|o
-tipis|thin|o
+tipis|thin; slim, narrow (of a chance, margin)|o;o
 cepat|fast, quick; quickly!, hurry up!|o;o
 lambat|slow|o
 pelan|slow; soft|o;o
 mudah|easy|o
 gampang|easy (colloq.)|o
 sulit|difficult|o
-susah|difficult, hard|o
+susah|difficult, hard; poor, hard up|o;o
 sederhana|simple, modest|o
 rumit|complicated|o
 penting|important|o
 lama|a long time; old|o;o
 lama-lama|(for) long; eventually, in the end|o;o
-muda|young|o
-tua|old; parent (orang tua)|o;o
+muda|young; light (of a colour)|o;o
+tua|old; parent (orang tua); dark (of a colour: biru tua = dark blue)|o;o;o
 cantik|beautiful, pretty|o
 tampan|handsome|o
 ganteng|handsome (colloq.)|o
@@ -358,8 +358,8 @@ sejuk|cool (of air)|o
 kering|dry|o
 basah|wet|o
 penuh|full|o
-kosong|empty|o
-kuat|strong|o
+kosong|empty; zero (in numbers read aloud)|o;o
+kuat|strong; to be able to bear, stand (tidak kuat lagi = can't take any more)|o;v
 lemah|weak|o
 keras|hard; loud; harsh, severe|o;o;o
 lembut|soft, gentle|o
@@ -381,10 +381,10 @@ haus|thirsty|o
 kenyang|full (after eating)|o
 enak|tasty; pleasant, nice|o;o
 lezat|delicious|o
-manis|sweet|o
+manis|sweet; cute, pretty (of a person)|o;o
 pahit|bitter|o
 asin|salty|o
-asam|sour; acid|o;o
+asam|sour; acid; tamarind|o;o;o
 pedas|spicy|o
 gurih|savoury|o
 anak|child|o
@@ -399,7 +399,7 @@ nenek|grandmother|o
 suami|husband|o
 istri|wife|o
 keluarga|family|o
-saudara|sibling, relative|o
+saudara|sibling, relative; you (formal address)|o;f2s2p
 teman|friend|o
 kawan|friend|o
 sahabat|close friend|o
@@ -446,10 +446,10 @@ emas|gold|o
 perak|silver|o
 besi|iron|o
 kayu|wood|o
-kaca|glass (material)|o
+kaca|glass (material); mirror (colloq.)|o;o
 hewan|animal|o
 kucing|cat|o
-anjing|dog|o
+anjing|dog; damn!, bastard! (vulgar exclamation)|o;o
 ayam|chicken|o
 sapi|cow|o
 kambing|goat|o
@@ -475,7 +475,7 @@ gula|sugar|o
 gula-gula|sweets, candy|o
 garam|salt|o
 minyak|oil; cooking oil|o;o
-sayur|vegetable|o
+sayur|vegetable; vegetable dish, soup|o;o
 bawang|onion, garlic|o
 cabai|chilli|o
 sambal|chilli paste|o
@@ -486,7 +486,7 @@ kue|cake, cookie|o
 pisang|banana|o
 jeruk|orange, citrus|o
 kelapa|coconut|o
-sarapan|breakfast|o
+sarapan|breakfast; to have breakfast|o;v
 warna|colour|o
 merah|red|o
 putih|white|o
@@ -497,7 +497,7 @@ kuning|yellow|o
 coklat|brown; chocolate|o;o
 ungu|purple|o
 pagi|morning|o
-siang|midday|o
+siang|midday; daytime|o;o
 sore|afternoon|o
 malam|night|o
 sambil|while (doing)|o
@@ -506,20 +506,20 @@ kemudian|then, afterwards|o
 hal|thing, matter|o
 cara|way, method|o
 buku|book|o
-sekolah|school|o
+sekolah|school; to go to school|o;v
 nomor|number|o
 angka|number, digit|o
 huruf|letter (of alphabet)|o
 kalimat|sentence|o
 bahasa|language|o
-cerita|story|o
+cerita|story; to tell (colloq.)|o;v
 sejarah|history|o
 lagu|song|o
 musik|music|o
 suara|voice, sound; vote|o;o
 kabar|news (how are you: apa kabar)|o
 berita|news|o
-surat|letter (mail)|o
+surat|letter (mail); document, certificate|o;o
 koran|newspaper|o
 foto|photo|o
 film|film, movie|o
@@ -527,7 +527,7 @@ gambar|picture; to draw|o;v
 contoh|example|o
 soal|question, problem; about, regarding|o;o
 masalah|problem|o
-macam|kind, sort|o
+macam|kind, sort; like, as if (colloq.)|o;o
 jenis|kind, type|o
 bentuk|form, shape|o
 ukur|to measure (ukuran: size)|v
@@ -553,7 +553,7 @@ percaya|to believe, trust|v
 yakin|sure, convinced|o
 ragu|doubtful, hesitant|o
 bohong|to lie|v
-jujur|honest|o
+jujur|honest; to be honest, frankly|o;v
 janji|promise; appointment|o;o
 kelompok|group|o
 para|(plural marker for people)|g
@@ -561,7 +561,7 @@ memang|indeed, in fact|o
 langsung|direct(ly), immediately|o
 segar|fresh|o
 ekor|tail; (classifier for animals)|o;g
-belanja|to shop; shopping|v;o
+belanja|to shop; shopping; spending, expenditure|v;o;o
 yaitu|namely, that is|o
 musim|season|o
 hampir|almost|o
@@ -576,23 +576,23 @@ kiri|left (side)|o
 lurus|straight|o
 mandi|to bathe|v
 cuci|to wash|v
-masak|to cook|v
+masak|to cook; ripe|v;o
 goreng|fried; to fry|o;v
 rebus|boiled; to boil|o;v
 bakar|to burn; grilled; bahan bakar: fuel; luka bakar: a burn (injury)|v;o;n;n
-potong|to cut|v
+potong|to cut; piece, slice (classifier)|v;o
 belah|to split; side|v;o
 iris|to slice|v
 sapu|broom; to sweep|o;v
-sikat|brush|o
+sikat|brush; to brush, scrub; to grab, go for it (colloq.)|o;v;v
 sabun|soap|o
 simpan|to keep, store|v
-buang|to throw away|v
+buang|to throw away; to waste (time, money)|v;v
 buang-buang|to waste (time, money)|v
 sampah|garbage, rubbish|o
 pilih|to choose; to vote|v;v
 tentu|of course; certain, sure|o;o
-tunjuk|to point, to show|v
+tunjuk|to point, to show; to appoint|v;v
 tanda|sign, mark|o
 bukti|proof, evidence|o
 butuh|to need|v
@@ -613,13 +613,13 @@ pemerintah|government|o
 presiden|president|o
 menteri|minister (government)|o
 politik|politics|o
-ekonomi|economy|o
+ekonomi|economy; economics (subject)|o;o
 sosial|social|o
 budaya|culture|o
 seni|art|o
 agama|religion|o
 sekitar|around, surroundings; about, approximately|o;o
-batas|limit, border|o
+batas|limit; border|o;o
 jarak|distance|o
 pusat|center|o
 akhir|end|o
@@ -631,8 +631,8 @@ pesan|message; to order|o;v
 acara|event, programme|o
 pesta|party, celebration|o
 ulang|to repeat|v
-ulang tahun|birthday|o
-raya|great|o
+ulang tahun|birthday; anniversary|o;o
+raya|great; jalan raya: main road|o;n
 hadiah|gift, prize|o
 biasa|usual, ordinary; used to, accustomed to (sudah biasa = used to it)|o;o
 biasa-biasa|ordinary, nothing special (usu. biasa-biasa saja)|o
@@ -692,7 +692,7 @@ kain|cloth, fabric|o
 tas|bag|o
 kertas|paper|o
 pensil|pencil|o
-badan|body|o
+badan|body; agency, board (institution)|o;o
 tubuh|body|o
 kepala|head; chief|o;o
 rambut|hair|o
@@ -700,10 +700,10 @@ mata|eye|o
 hidung|nose|o
 mulut|mouth|o
 telinga|ear|o
-gigi|tooth|o
+gigi|tooth; gear (of a vehicle)|o;o
 lidah|tongue|o
 tangan|hand, arm|o
-kaki|foot, leg|o
+kaki|foot, leg; foot (of a mountain), base|o;o
 jari|finger|o
 kulit|skin; leather|o;o
 hati|heart (figurative); liver|o;o
@@ -719,7 +719,7 @@ renang|swimming|o
 terbang|to fly|v
 tiba|to arrive|v
 kembali|to return; again; you're welcome (reply to thanks)|v;o;f2s2p
-balik|to return, reverse|v
+balik|to return; reverse; di balik: behind|v;o;n
 pindah|to move (house etc.)|v
 diam|silent; to stay still|o;v
 diam-diam|secretly, quietly|o
@@ -727,7 +727,7 @@ tinggal|to stay, live; to leave behind; to be left, remain (only)|v;v;v
 berangkat|to depart|v
 lewat|through, via; to pass by; past (telling the time: jam tujuh lewat lima = five past seven)|o;v;o
 ikut|to follow, to join|v
-antar|to escort, deliver|v
+antar|to escort, deliver; between, inter-|v;o
 jemput|to pick up|v
 bantu|to help|v
 dukung|to support|v
@@ -741,7 +741,7 @@ latih|to train (latihan: exercise)|v
 didik|to educate|v
 uji|to test (ujian: exam)|v
 nilai|value; grade, score; to assess, to judge, to regard as (menilai; dinilai = judged, considered)|o;o;v
-tingkat|level, degree|o
+tingkat|level, degree; storey, floor|o;o
 jaga|to guard, watch over|v
 jaga-jaga|to take precautions, be on guard; untuk jaga-jaga: just in case|v;n
 rawat|to care for, nurse|v
@@ -749,7 +749,7 @@ obat|medicine|o
 sembuh|to recover, heal|v
 luka|wound, injury|o
 jiwa|soul, spirit|o
-mimpi|dream|o
+mimpi|dream; to dream (colloq.)|o;v
 sadar|aware, conscious|o
 kaya|rich; like, as if (colloquial, for kayak)|o;o
 miskin|poor|o
@@ -761,7 +761,7 @@ setuju|to agree|v
 tolak|to refuse, reject; to push away|v;v
 dorong|to push|v
 tarik|to pull; to attract|v;v
-angkat|to lift, raise; angkat telepon: to answer the phone|v;n
+angkat|to lift, raise; angkat telepon: to answer the phone; to appoint|v;n;v
 pegang|to hold|v
 lempar|to throw|v
 tangkap|to catch|v
@@ -769,7 +769,7 @@ lepas|loose; to release|o;v
 ikat|to tie|v
 gantung|to hang|v
 pasang|to install, put up; pair|v;o
-tekan|to press|v
+tekan|to press; to put pressure on|v;v
 bunuh|to kill|v
 curi|to steal|v
 perang|war|o
@@ -784,24 +784,24 @@ alun-alun|town square|o
 laku|behaviour; to sell well|o;v
 kira|to guess, think|v
 rapi|neat, tidy|o
-ramai|crowded, lively|o
-sepi|quiet, deserted|o
+ramai|crowded, lively; noisy, rowdy|o;o
+sepi|quiet, deserted; lonely|o;o
 gelap|dark|o
-terang|bright, clear|o
+terang|bright; clear|o;o
 jelas|clear, obvious; of course, obviously|o;o
 muncul|to appear, emerge|v
 hilang|lost; to disappear|o;v
-tampak|visible, to appear|o
+tampak|to appear; visible|v;o
 kumpul|to gather|v
 pisah|to separate|v
 gabung|to join, combine|v
 hubung|to connect (hubungan: relationship)|v
 sambung|to connect, continue|v
-putus|to break off|v
-pecah|to break, shatter|v
+putus|to break off; to break up (of a couple)|v;v
+pecah|to break, shatter; to break out (of war, a fight)|v;v
 rusak|broken, damaged|o
 hancur|destroyed, shattered|o
-tambah|to add|v
+tambah|to add; increasingly, more and more (colloq.)|v;o
 ganti|to replace, change|v
 ubah|to change|v
 merubah|to change (nonstandard spelling of mengubah)|v
@@ -809,10 +809,10 @@ kali|time(s), occurrence; maybe, I guess (colloq., at the end of a clause); time
 perkalian|multiplication|o
 jumlah|amount, total; sejumlah: a number of, several|o;n
 hasil|result, product|o
-akibat|result, consequence|o
+akibat|result, consequence; as a result of|o;o
 tuju|to head toward (tujuan: goal, purpose)|v
 maksud|intention, meaning|o
-istirahat|rest, break|o
+istirahat|rest, break; to rest|o;v
 siap|ready; yes, sir!, will do (acknowledging an order)|o;o
 sedia|ready; to provide|o;v
 ternyata|it turns out that|f3s
@@ -827,7 +827,7 @@ bola|ball|o
 sepak bola|football, soccer|o
 tim|team|o
 rumah sakit|hospital|o
-orang tua|parents|o
+orang tua|parents; old person|o;o
 kamar mandi|bathroom|o
 tempat tidur|bed|o
 mungkin|maybe, possible|o
@@ -837,15 +837,15 @@ sebut|to mention, to call|v
 panggil|to call (someone)|v
 pukul|to hit; o'clock|v;o
 masa|period, time; no way?, really? (disbelief)|o;o
-sebentar|a moment, a little while|o
+sebentar|a moment, a little while; sebentar lagi: soon, in a moment|o;n
 umur|age|o
 usia|age|o
 bayi|baby|o
 remaja|teenager|o
-dewasa|adult|o
+dewasa|adult; mature|o;o
 bahkan|even, in fact|o
-apalagi|moreover, let alone|o
-pula|also, too|o
+apalagi|moreover, let alone; what else? (colloq.)|o;o
+pula|also, too; (in questions) on earth, then (emphatic)|o;o
 pun|even; also (particle); (after a question word) -ever, any at all|o;o;o
 meski|although|o
 walau|although|o
@@ -866,7 +866,7 @@ nyanyi|to sing|v
 tari|dance|o
 pandang|to gaze, to view|v
 sambut|to welcome, greet|v
-puji|to praise|v
+puji|to praise; puji Tuhan: praise God, thank God|v;n
 bayam|spinach|o
 ucap|to say, utter|v
 teriak|to shout|v
@@ -906,7 +906,7 @@ riset|research|o
 simpul|knot|o
 analisis|analysis|o
 rumus|formula|o
-misal|example|o
+misal|example; for example, say (colloq.)|o;o
 yakni|namely|o
 demikian|thus, such|o
 kesan|impression|o
@@ -914,7 +914,7 @@ alasan|reason; excuse|o;o
 alas|base, mat|o
 syarat|requirement, condition|o
 wajib|obligatory|o
-hak|right (entitlement)|o
+hak|right (entitlement); heel (of a shoe)|o;o
 tanggung|to bear, be responsible for|v
 tanggung jawab|responsibility|o
 luar biasa|extraordinary|o
@@ -930,7 +930,7 @@ peroleh|to obtain|v
 laksana|to carry out (melaksanakan); like, as|v;o
 wujud|form; mewujudkan: to realise|o;n
 susun|to arrange, compile|v
-tata|to arrange, put in order|v
+tata|to arrange, put in order; order, system (tata ruang, tata kota)|v;o
 acak|random|o
 kacau|chaotic|o
 berantakan|messy|o
@@ -938,7 +938,7 @@ bongkar|to dismantle; to unload; to expose, reveal|v;v;v
 runtuh|to collapse|v
 bangkit|to rise, get up|v
 geser|to shift|v
-titip|to entrust to|v
+titip|to entrust to; titip salam: to send one's regards|v;n
 tunda|to postpone|v
 batal|cancelled|o
 hindar|to avoid|v
@@ -947,7 +947,7 @@ lindung|to protect|v
 serang|to attack|v
 bela|to defend|v
 senjata|weapon|o
-tembak|to shoot|v
+tembak|to shoot; to ask out, declare one's love to (colloq.)|v;v
 tendang|to kick|v
 sentuh|to touch|v
 genggam|to grip|v
@@ -960,9 +960,9 @@ nafas|breath|o
 hirup|to inhale|v
 tiup|to blow|v
 keringat|sweat|o
-gosok|to rub, scrub|v
+gosok|to rub, scrub; to iron (clothes); gosok gigi: to brush one's teeth|v;v;n
 jemur|to dry in the sun|v
-setrika|to iron|v
+setrika|iron (for clothes); to iron|o;v
 jahit|to sew|v
 paksa|to force|v
 desak|to press, urge|v
@@ -971,18 +971,18 @@ buru|to hunt, chase|v
 lompat|to jump|v
 langkah|step|o
 belok|to turn (direction)|v
-putar|to turn, rotate|v
+putar|to turn, rotate; to play (music, a video)|v;v
 seberang|across, opposite side|o
-lintas|to cross|v
+lintas|to cross; cross-, inter- (lintas budaya)|v;o
 lalu lintas|traffic|o
-tumpang|to ride along|v
+tumpang|to ride along; tumpang tindih: overlapping|v;n
 angkut|to transport|v
 muat|to contain; to load; to fit (have room)|v;v;v
 beban|burden, load|o
 kemas|to pack|v
-bungkus|to wrap; package|v;o
+bungkus|to wrap; package; to take away (of food) (colloq.)|v;o;v
 kado|gift, present|o
-amplop|envelope|o
+amplop|envelope; bribe, cash gift (colloq.)|o;o
 pos|post, mail; post, station|o;o
 jembatan|bridge|o
 stasiun|station|o
@@ -1025,7 +1025,7 @@ teknik|technique; engineering|o;o
 komputer|computer|o
 laptop|laptop|o
 internet|internet|o
-situs|website|o
+situs|website; (historical) site|o;o
 aplikasi|application, app|o
 ponsel|mobile phone|o
 telepon|telephone; to phone|o;v
@@ -1039,7 +1039,7 @@ tombol|button|o
 klik|to click|v
 ketik|to type|v
 cetak|to print|v
-salin|to copy|v
+salin|to copy; to change (clothes)|v;v
 tempel|to stick, paste|v
 hapus|to erase, delete|v
 unduh|to download|v
@@ -1055,7 +1055,7 @@ hibur|to entertain (hiburan)|v
 panggung|stage|o
 artis|celebrity, performer|o
 gitar|guitar|o
-wayang|shadow puppetry|o
+wayang|shadow puppetry; puppet (figure)|o;o
 lambang|symbol|o
 bendera|flag|o
 patung|statue|o
@@ -1064,7 +1064,7 @@ kaus|t-shirt|o
 sarung|sarong; sheath|o;o
 upacara|ceremony|o
 adat|custom, tradition|o
-suku|ethnic group; tribe|o;o
+suku|ethnic group; tribe; suku bunga: interest rate|o;o;n
 bangsa|nation, people|o
 provinsi|province|o
 wilayah|territory, region|o
@@ -1074,15 +1074,15 @@ gang|alley|o
 lorong|corridor, lane|o
 arus|current, flow|o
 lingkung|to surround (lingkungan: environment)|v
-alam|nature|o
+alam|nature; world, realm|o;o
 cuaca|weather|o
 iklim|climate|o
 suhu|temperature|o
-derajat|degree|o
-banjir|flood|o
+derajat|degree; rank, standing|o;o
+banjir|flood; flooded|o;o
 gempa|earthquake|o
 bencana|disaster|o
-korban|victim|o
+korban|victim; sacrifice|o;o
 badai|storm|o
 ombak|(sea) wave|o
 gelombang|wave|o
@@ -1101,7 +1101,7 @@ tomat|tomato|o
 wortel|carrot|o
 kangkung|water spinach|o
 mangga|mango|o
-apel|apple|o
+apel|apple; roll call, (morning) assembly|o;o
 anggur|grape; wine|o;o
 semangka|watermelon|o
 pepaya|papaya|o
@@ -1180,7 +1180,7 @@ pajak|tax|o
 bank|bank|o
 tabung|tube; cylinder (for gas)|o;o
 pinjam|to borrow|v
-utang|debt|o
+utang|debt; to owe (colloq.)|o;v
 hutang|debt|o
 dompet|wallet|o
 kartu|card|o
@@ -1201,7 +1201,7 @@ saksi|witness|o
 penjara|prison, jail|o
 denda|fine (penalty)|o
 calon|candidate; prospective, future|o;o
-partai|(political) party|o
+partai|(political) party; match (in sport)|o;o
 gubernur|governor|o
 wali|guardian; wali kota: mayor; wali kelas: homeroom teacher|o;n;n
 dewan|council|o
@@ -1219,8 +1219,8 @@ allah|God (Islam)|o
 doa|prayer; to pray for (mendoakan)|o;v
 sembah|to worship|v
 puasa|to fast; fasting|v;o
-salat|(Islamic) prayer|o
-shalat|(Islamic) prayer|o
+salat|(Islamic) prayer; to pray (perform the salat)|o;v
+shalat|(Islamic) prayer; to pray (perform the salat)|o;v
 ibadah|worship|o
 haji|hajj; pilgrim|o;o
 surga|heaven|o
@@ -1234,10 +1234,10 @@ demam|fever|o
 batuk|cough|o
 pilek|head cold|o
 flu|flu|o
-pusing|dizzy; headache|o;o
+pusing|dizzy; headache; stressed, at one's wits' end (colloq.)|o;o;o
 mual|nauseous|o
 muntah|to vomit|v
-gatal|itchy|o
+gatal|itchy; flirtatious (colloq.)|o;o
 alergi|allergy|o
 suntik|to inject|v
 vaksin|vaccine|o
@@ -1259,7 +1259,7 @@ hamil|pregnant|o
 peduli|to care about|v
 hormat|respect|o
 setia|loyal, faithful|o
-ikhlas|sincere|o
+ikhlas|sincere; willing, accepting (without resentment)|o;o
 tulus|sincere|o
 niat|intention|o
 semangat|spirit, enthusiasm; keep it up!, go for it! (encouragement)|o;o
@@ -1273,7 +1273,7 @@ sabar|patient|o
 kecewa|disappointed|o
 kaget|startled|o
 kejut|surprise, shock|o
-heran|amazed, puzzled|o
+heran|amazed, puzzled; tidak heran: no wonder|o;n
 bangga|proud|o
 iri|envious|o
 cemburu|jealous|o
@@ -1283,7 +1283,7 @@ stres|stress(ed)|o
 rindu|to miss, long for|v
 kangen|to miss (colloq.)|v
 kesal|annoyed|o
-ngeri|horrifying|o
+ngeri|horrifying; scared, horrified; awesome, impressive (slang)|o;o;o
 seram|scary|o
 kagum|to admire|v
 kasur|mattress|o
@@ -1297,7 +1297,7 @@ rak|shelf|o
 laci|drawer|o
 kipas|fan|o
 kulkas|refrigerator|o
-kompor|stove|o
+kompor|stove; instigator, stirrer (colloq.)|o;o
 panci|pot, saucepan|o
 wajan|wok|o
 mangkuk|bowl|o
@@ -1305,14 +1305,14 @@ cangkir|cup|o
 ember|bucket|o
 paku|nail (hardware)|o
 palu|hammer|o
-tangga|stairs, ladder|o
+tangga|stairs; ladder|o;o
 pagar|fence|o
 halaman|yard; page|o;o
 gerbang|gate|o
 cat|paint|o
 kabel|cable|o
 kolam|pool, pond|o
-lapang|spacious (lapangan: field)|o
+lapang|spacious (lapangan: field); relieved, at ease (of the heart)|o;o
 mal|shopping mall|o
 bengkel|repair shop|o
 salon|salon|o
@@ -1335,8 +1335,8 @@ subuh|dawn (prayer time)|o
 persen|percent|o
 persis|exactly|o
 pas|exactly right, fitting (colloq.); when (colloq.)|o;o
-ganjil|odd (number)|o
-genap|even (number)|o
+ganjil|odd (number); strange, peculiar|o;o
+genap|even (number); full, exactly (of a period of time)|o;o
 ganda|double|o
 tunggal|single|o
 rata|flat, even|o
@@ -1344,26 +1344,26 @@ rata-rata|average; on average, mostly|o;o
 inti|core, essence|o
 bab|chapter|o
 babi|pig|o
-ayat|verse|o
+ayat|verse; paragraph, subsection (of a law)|o;o
 pasal|article, clause|o
 judul|title|o
 tema|theme|o
 topik|topic|o
-isu|issue|o
+isu|issue; rumour|o;o
 rupa|form, appearance; serupa: similar, alike|o;n
 sosok|figure, silhouette|o
 gagah|dashing, strong|o
 kokoh|sturdy|o
-licin|slippery, smooth|o
+licin|slippery, smooth; sly, cunning (of a person)|o;o
 kasar|rough, rude|o
 halus|smooth, refined|o
 tajam|sharp|o
-bulat|round|o
+bulat|round; unanimous, wholehearted (of a decision)|o;o
 kotak|box; square|o;o
 garis|line|o
 titik|point, dot; full stop|o;o
-koma|comma|o
-sudut|corner, angle|o
+koma|comma; coma|o;o
+sudut|corner; angle|o;o
 pojok|corner|o
 tepi|edge|o
 pinggir|edge, side|o
@@ -1379,8 +1379,8 @@ alamat|address|o
 ampun|mercy|o
 himpun|to gather, collect|v
 jamu|herbal medicine drink|o
-gaul|sociable; slang (bahasa gaul)|o;o
-turut|to join in, follow along|v
+gaul|sociable; slang (bahasa gaul); trendy, cool (colloq.)|o;o;o
+turut|to join in, follow along; turut berduka cita: my condolences|v;n
 absen|absent; roll call|o;o
 lebah|bee|o
 lalat|fly (insect)|o
@@ -1393,7 +1393,7 @@ rusa|deer|o
 singa|lion|o
 beruang|bear (animal)|o
 berang-berang|otter|o
-buaya|crocodile|o
+buaya|crocodile; womanizer (colloq.)|o;o
 hiu|shark|o
 paus|whale; pope|o;o
 udang|shrimp, prawn|o
@@ -1401,13 +1401,13 @@ kepiting|crab|o
 kerang|shellfish, clam|o
 leher|neck|o
 bahu|shoulder|o
-dada|chest|o
+dada|chest; bye-bye (to a child)|o;o
 punggung|back (of body)|o
 pinggang|waist|o
 lutut|knee|o
 bibir|lips|o
 pipi|cheek|o
-kuku|fingernail|o
+kuku|fingernail; claw (of an animal)|o;o
 tulang|bone|o
 otot|muscle|o
 otak|brain|o
@@ -1417,9 +1417,9 @@ bibi|aunt|o
 sepupu|cousin|o
 cucu|grandchild|o
 mertua|parent-in-law|o
-mas|(address: older brother, Javanese)|g
+mas|(address: older brother, Javanese); gold (short for emas)|g;o
 mbak|(address: older sister, Javanese)|g
-pak|sir (short for bapak)|o
+pak|sir (short for bapak); Mr. (before a name: Pak Budi)|o;o
 bu|ma'am (short for ibu)|o
 kak|(address: older sibling)|g
 om|uncle (address)|o
@@ -1435,7 +1435,7 @@ aja|just, only (colloq.); (after a question word) -ever, any at all (colloq.)|o;
 banget|very (colloq.)|o
 gitu|like that (colloq.); that, so (degree: nggak gitu penting = not that important); or something (at the end of a clause)|o;o;o
 gini|like this (colloq.)|o
-gimana|how (colloq.)|o
+gimana|how (colloq.); gimana kalau: what if, how about (colloq.)|o;n
 kok|how come?, why? (surprised); really, you know (reassuring: nggak apa-apa kok)|o;o
 sih|actually, though (softening: nggak tahu sih); … anyway?, … then? (in questions: apa sih?)|o;o
 dong|come on, … will you (urging: ayo dong); of course, obviously (in replies: iya dong)|o;o
@@ -1455,7 +1455,7 @@ mantap|solid, great (colloq.)|o
 keren|cool (colloq.)|o
 asyik|fun, engrossed (colloq.)|o
 galau|confused, moody (colloq.)|o
-ribet|complicated (colloq.)|o
+ribet|complicated (colloq.); fussy (of a person)|o;o
 obrol|to chat|v
 yg|= yang (text abbreviation)|o
 dgn|= dengan (text abbreviation)|o
@@ -1491,7 +1491,7 @@ tiba-tiba|suddenly|o
 kadang-kadang|sometimes|o
 hati-hati|careful; be careful|o;o
 oleh-oleh|souvenir (from a trip)|o
-jalan-jalan|to go out for a stroll|v
+jalan-jalan|to go out for a stroll; to travel, go sightseeing|v;v
 mata-mata|spy|o
 kupu-kupu|butterfly|o
 kura-kura|turtle, tortoise|o
@@ -1500,10 +1500,10 @@ lumba-lumba|dolphin|o
 cumi-cumi|squid|o
 abu-abu|grey|o
 abu|ash; abu-abu: grey|o;n
-gado-gado|(vegetable dish, peanut sauce)|g
+gado-gado|(vegetable dish, peanut sauce); mix, hodgepodge (fig.)|g;o
 sayur-mayur|vegetables (assorted)|o
-macam-macam|all sorts, various|o
-kira-kira|approximately|o
+macam-macam|all sorts, various; to try something funny, act up (colloq.)|o;v
+kira-kira|approximately; I wonder, do you think (in a question) (colloq.)|o;f1s
 masing-masing|each (one)|o
 sehari-hari|everyday, daily|o
 buru-buru|in a hurry|o
@@ -1546,7 +1546,7 @@ jatuh|fall|o
 eh|hey, oh (interjection)|o
 raja|king|o
 bajingan|bastard, scoundrel (vulgar)|o
-demi|for the sake of|o
+demi|for the sake of; after, by (in X demi X: hari demi hari = day by day)|o;o
 kasus|case, instance|o
 amerika|America|o
 permisi|excuse me|o
@@ -1570,13 +1570,13 @@ omong-omong|by the way (informal)|o
 semoga|hopefully|o
 brengsek|damn, jerk (vulgar)|o
 bila|if, when|o
-tahan|endure, hold, withstand|o
+tahan|endure, hold, withstand; to detain, hold back (ditahan = arrested)|o;v
 sang|the (honorific article, e.g. sang raja)|o
 jahat|evil, wicked|o
 pasukan|troops, forces|o
 perempuan|woman, female|o
 segala|all, every kind of|o
-mundur|retreat, move back|o
+mundur|retreat, move back; to resign, step down|o;v
 barang|thing, object; goods|o;o
 agak|rather, somewhat|o
 awak|I, me (regional); crew|f1s;o
@@ -1600,7 +1600,7 @@ kabur|flee, escape; blurry|o;o
 kini|now, at present|o
 hantu|ghost|o
 cocok|fit, match, suitable|o
-mabuk|drunk|o
+mabuk|drunk; travel-sick|o;o
 planet|planet|o
 periksa|check, examine|o
 utara|north|o
@@ -1633,7 +1633,7 @@ prajurit|soldier|o
 selatan|south|o
 sebagian|some, a portion|o
 kerajaan|kingdom|o
-maju|advance, progress|o
+maju|advance, progress; advanced, developed (of a country)|o;o
 tersisa|remaining|o
 tewas|killed, died|o
 keparat|damn, bastard (vulgar)|o
@@ -1670,7 +1670,7 @@ minggir|move aside, get out of the way|o
 kisah|story, tale|o
 alih|shift, transfer|o
 alih-alih|instead of, rather than|o
-asli|original, genuine, authentic|o
+asli|original, genuine, authentic; native, indigenous|o;o
 menakjubkan|amazing|o
 awas|watch out, beware|o
 konyol|silly, ridiculous|o
@@ -1694,7 +1694,7 @@ rekaman|recording|o
 menyembunyikan|hide (something)|o
 darimana|from where|o
 telpon|phone (colloq. spelling of telepon); to call|o;v
-mantan|ex- (former partner)|o
+mantan|ex- (former partner); former, ex- (of a post)|o;o
 idiot|idiot|o
 setan|devil, demon|o
 malah|instead, on the contrary|o
@@ -1709,7 +1709,7 @@ india|India|o
 letnan|lieutenant|o
 yesus|Jesus|o
 kena|to hit, to be affected by; to get in trouble|v;v
-tanggal|date (calendar)|o
+tanggal|date (calendar); to come off, fall out (of teeth, buttons)|o;v
 bro|bro (slang)|o
 lelucon|joke|o
 vampir|vampire|o
@@ -1719,7 +1719,7 @@ parah|severe, terrible|o
 naga|dragon|o
 cerdas|smart, intelligent|o
 berbagi|share|o
-seksi|sexy|o
+seksi|sexy; section, division (of an organisation)|o;o
 energi|energy|o
 kuno|ancient, old-fashioned|o
 tersangka|suspect|o
@@ -1746,7 +1746,7 @@ daya|power, energy, ability|o
 serigala|wolf|o
 pengecut|coward|o
 penasaran|curious|o
-resmi|official|o
+resmi|official; formal|o;o
 pertarungan|fight, contest|o
 kendali|control|o
 nakal|naughty|o
@@ -1758,7 +1758,7 @@ liar|wild|o
 balas|reply, respond; retaliate|o;o
 perancis|France|o
 bingung|confused|o
-lolos|pass, escape, get through|o
+lolos|pass, get through; escape|o;o
 sekarat|dying, near death|o
 medis|medical|o
 lacak|track, trace|o
@@ -1780,19 +1780,19 @@ dana|fund, funding|o
 rokok|cigarette|o
 area|area|o
 rekan|colleague, partner|o
-gas|gas|o
+gas|gas; accelerator, throttle|o;o
 pendeta|pastor, priest, clergyman|o
 bapa|father (formal/religious address)|o
 raksasa|giant|o
 malang|unfortunate, pitiful|o
-tenaga|energy, power, workforce|o
+tenaga|energy, power; workforce|o;o
 spesial|special|o
 stop|stop|o
 ajaib|magical, miraculous|o
 episode|episode|o
 panik|panic|o
 sheriff|sheriff|o
-tenggelam|drown, sink|o
+tenggelam|drown, sink; to set (of the sun)|o;v
 darat|land, ground|o
 robot|robot|o
 bekas|former; used; trace|o;o;o
@@ -1824,8 +1824,8 @@ ajukan|propose, submit, put forward|o
 cek|cheque; to check|o;v
 sekedar|just, merely|o
 nasib|fate, luck|o
-sesat|astray, misguided|o
-cewek|girl, chick (informal)|o
+sesat|astray, misguided; heretical, deviant (of a sect)|o;o
+cewek|girl, chick (informal); girlfriend (colloq.)|o;o
 kagak|not, no (very colloq.)|o
 lumayan|fairly good, decent, not bad|o
 kendaraan|vehicle|o
@@ -1845,7 +1845,7 @@ campur|mix|o
 singkir|move aside, get rid of|o
 kriminal|criminal|o
 bangsat|bastard, scum (vulgar)|o
-payah|weak, pathetic, hopeless|o
+payah|weak, pathetic, hopeless; susah payah: with great difficulty|o;n
 tongkat|stick, cane, staff|o
 pingsan|faint, pass out|o
 kontrak|contract|o
@@ -1857,11 +1857,11 @@ serikat|union, federation|o
 singkat|brief, short|o
 markas|headquarters, base|o
 profesional|professional|o
-jijik|disgust|o
+jijik|disgust; gross, disgusting (colloq.)|o;o
 permen|candy|o
 ganggu|bother, disturb|o
 rock|rock (music)|o
-kontrol|control|o
+kontrol|control; check-up (medical follow-up)|o;o
 tipe|type|o
 model|model|o
 kutuk|curse|o
@@ -1869,7 +1869,7 @@ tolol|stupid, idiot|o
 trik|trick|o
 bakat|talent|o
 beliau|he, she (formal, respectful)|f3s
-muka|face|o
+muka|face; front|o;o
 ni|this (colloq., short for ini)|o
 lokal|local|o
 jenius|genius|o
@@ -1902,7 +1902,7 @@ publik|public|o
 mayor|major (military rank)|o
 senapan|rifle|o
 komunikasi|communication|o
-lengan|arm (limb)|o
+lengan|arm (limb); sleeve|o;o
 nuklir|nuclear|o
 saham|stock, shares (finance)|o
 file|file|o
@@ -1921,12 +1921,12 @@ berkat|thanks to, by virtue of; blessing|o;o
 impian|dream, aspiration|o
 sayap|wing|o
 resiko|risk|o
-spanyol|Spain|o
+spanyol|Spain; Spanish|o;o
 china|China (alt. to cina)|o
 emosi|emotion|o
-nyala|flame, ignite|o
+nyala|flame, ignite; on, lit (of a light, device)|o;o
 dollar|dollar (alt. spelling)|o
-banding|compare|o
+banding|compare; appeal (legal)|o;o
 dna|DNA|o
 romantis|romantic|o
 geng|gang|o
@@ -1976,7 +1976,7 @@ sup|soup|o
 rekam|record|o
 kompetisi|competition|o
 berlian|diamond|o
-timbang|weigh, consider|o
+timbang|weigh; consider|o;o
 mahasiswa|university student|o
 cadangan|reserve, backup|o
 tkp|crime scene (abbrev. for tempat kejadian perkara)|o
@@ -2010,7 +2010,7 @@ drama|drama|o
 adegan|scene|o
 kantong|pocket, bag|o
 tuduh|accuse|o
-peti|box, chest, crate|o
+peti|box, chest, crate; peti mati: coffin|o;n
 benteng|fort, fortress|o
 cowok|guy; boyfriend (informal)|o;o
 penis|penis|o
@@ -2045,7 +2045,7 @@ sekretaris|secretary|o
 pengaruh|influence|o
 tantang|challenge|o
 jebak|trap|o
-panah|arrow, bow|o
+panah|arrow; bow|o;o
 domba|sheep|o
 ksatria|knight|o
 momen|moment|o
@@ -2059,7 +2059,7 @@ bijaksana|wise|o
 puteri|princess (alt. spelling of putri)|o
 negatif|negative|o
 hadirin|audience, attendees|o
-cerah|bright, sunny|o
+cerah|bright, sunny; promising (of a future)|o;o
 trims|thanks (colloq., short for terima kasih)|o
 jaket|jacket|o
 kembar|twin|o
@@ -2088,7 +2088,7 @@ divisi|division|o
 perangkap|trap|o
 sekaligus|at the same time, simultaneously|o
 internasional|international|o
-keliling|around, circumference|o
+keliling|around; circumference|o;o
 mesir|Egypt|o
 ketuk|knock|o
 mesti|must, should|o
@@ -2103,7 +2103,7 @@ ritual|ritual|o
 hamba|servant, slave (humble self-reference)|o
 rute|route|o
 karna|because (colloq., alt. spelling of karena)|o
-lipat|fold|o
+lipat|fold; kali lipat: -fold, times over|o;n
 infeksi|infection|o
 sidang|trial, hearing; session; thesis defence (colloq., for sidang skripsi)|o;o;o
 tato|tattoo|o
@@ -2144,7 +2144,7 @@ artikel|article|o
 akrab|close, familiar (friendship)|o
 sejenak|for a moment|o
 modern|modern|o
-tembus|penetrate, pierce through|o
+tembus|to penetrate, pierce through; to pass, exceed (a figure)|v;v
 wabah|epidemic, outbreak|o
 cacat|defect; disabled|o;o
 liat|see, look (colloq. for lihat)|o
@@ -2178,11 +2178,11 @@ tunduk|bow down, submit|o
 ternak|livestock|o
 memori|memory|o
 kacamata|glasses, spectacles|o
-babak|round, act (of a play/match)|o
+babak|round, act (of a play/match); babak belur: black and blue, badly beaten|o;n
 tur|tour|o
 koin|coin|o
 hendak|intend to, about to|o
-padang|field, plain|o
+padang|field, plain; Padang (city in West Sumatra)|o;o
 spesies|species|o
 separuh|half|o
 standar|standard|o
@@ -2191,7 +2191,7 @@ nyaris|almost, nearly|o
 mahu|want (Malay variant of mau)|o
 galaksi|galaxy|o
 bersikeras|insist|o
-jarum|needle|o
+jarum|needle; hand (of a clock or gauge)|o;o
 terobos|break through|o
 properti|property|o
 pers|press, media|o
@@ -2201,13 +2201,13 @@ prosedur|procedure|o
 asia|Asia|o
 rantai|chain|o
 goda|tempt, tease|o
-tepuk|clap|o
+tepuk|clap; pat|o;o
 investigasi|investigation|o
 emosional|emotional|o
 piano|piano|o
 selera|taste, appetite|o
 strategi|strategy|o
-kandung|contain; womb|o;o
+kandung|biological, by blood (of kin); contain; womb|o;o;o
 badut|clown|o
 lenyap|vanish, disappear|o
 oksigen|oxygen|o
@@ -2236,12 +2236,12 @@ bedah|surgery|o
 intelijen|intelligence (agency/info)|o
 ambulans|ambulance|o
 final|final|o
-lega|relieved|o
+lega|relieved; spacious, roomy|o;o
 ngobrol|chat (colloq.)|o
 sinting|crazy, insane|o
 peradaban|civilization|o
 jus|juice|o
-bunyi|sound|o
+bunyi|sound; wording (of a text)|o;o
 mental|mental|o
 bergegas|hurry, rush|o
 ialah|is, namely (formal copula)|f3s
@@ -2266,14 +2266,14 @@ kutu|louse, flea; kutu buku: nerd|o;n
 bagaikan|like, as if|o
 dongeng|fairy tale, folklore|o
 buronan|fugitive|o
-otomatis|automatic|o
-pangkalan|base (military/naval)|o
-terjun|jump, dive, plunge|o
+otomatis|automatic; naturally, as a consequence (colloq.)|o;o
+pangkalan|base (military/naval); stand, rank (for taxis, ojek)|o;o
+terjun|jump, dive, plunge; to go into, get involved in (a field)|o;v
 pakistan|Pakistan|o
-lebar|wide|o
+lebar|wide; width|o;o
 cacing|worm|o
 perhiasan|jewelry|o
-plastik|plastic|o
+plastik|plastic; plastic bag (colloq.)|o;o
 dewi|goddess|o
 seniman|artist|o
 ceo|CEO|o
@@ -2284,7 +2284,7 @@ tamat|finished, ended (of a story/show); to graduate, finish school|o;v
 syuting|filming, shooting (a movie)|o
 fikir|think (alt. spelling of pikir)|o
 utuh|intact, whole|o
-karet|rubber|o
+karet|rubber; rubber band, elastic|o;o
 studio|studio|o
 koper|suitcase|o
 kanada|Canada|o
@@ -2296,7 +2296,7 @@ runduk|crouch, duck down|o
 cair|liquid; melt; disbursed (of funds)|o;o;o
 ras|race (ethnicity)|o
 festival|festival|o
-hina|insult, despise|o
+hina|insult, despise; lowly, despicable|o;o
 ronde|round (of a match/fight)|o
 bak|like, as (colloq.); water tub; open cargo bed (of a pickup truck); mobil bak: pickup truck|o;o;o;n
 amunisi|ammunition|o
@@ -2313,17 +2313,17 @@ gugur|fall (in battle); fail (an exam); fall (of leaves)|o;o;o
 panti|institution, home (e.g. panti asuhan)|o
 tusuk|stab, pierce|o
 pena|pen|o
-fantastis|fantastic|o
+fantastis|fantastic; staggering, huge (of a sum)|o;o
 inci|inch|o
 mitra|partner|o
 komando|command|o
-hisap|suck, inhale|o
+hisap|to suck, inhale; to smoke (a cigarette)|v;v
 sekutu|ally|o
 pergelangan|wrist/ankle (joint); pergelangan tangan: wrist; pergelangan kaki: ankle|o;n;n
 kristal|crystal|o
 miliar|billion|o
 kerana|because (Malay spelling variant of karena)|o
-ribut|noisy, commotion|o
+ribut|noisy, commotion; to quarrel, fight|o;v
 tragedi|tragedy|o
 radiasi|radiation|o
 yatim|orphan|o
@@ -2354,7 +2354,7 @@ aroma|aroma, smell|o
 jantan|male (of animals); macho|o;o
 reputasi|reputation|o
 cakap|capable, competent; talk|o;o
-jago|champion, expert|o
+jago|champion, expert; rooster|o;o
 kongres|congress|o
 tiang|pole, post|o
 beneran|really, for real (colloq.)|o
@@ -2389,14 +2389,14 @@ esok|tomorrow|o
 roket|rocket|o
 jangka|term, period; compass|o;o
 nafsu|desire, lust; appetite|o;o
-bagasi|luggage, baggage|o
+bagasi|luggage, baggage; boot, trunk (of a car)|o;o
 rinci|detail, itemize|o
 andal|reliable|o
 sains|science|o
 waris|heir, inheritance|o
 perisai|shield|o
 koleksi|collection|o
-laki|male, man|o
+laki|male, man; husband (colloq.)|o;o
 laki-laki|man; male|o;o
 transaksi|transaction|o
 manual|manual|o
@@ -2416,7 +2416,7 @@ identifikasi|identification|o
 kilometer|kilometer|o
 forensik|forensic|o
 panjat|climb|o
-luncur|slide, launch|o
+luncur|slide; launch|o;o
 revolusi|revolution|o
 desain|design|o
 struktur|structure|o
@@ -2446,10 +2446,10 @@ detak|beat, tick (heartbeat)|o
 kabin|cabin|o
 potensi|potential|o
 konfirmasi|confirmation|o
-ngapain|doing what (colloq.)|o
+ngapain|doing what (colloq.); why, what for (colloq.)|o;o
 sorak|cheer, shout|o
 skor|score|o
-motif|motive|o
+motif|motive; pattern, design (on fabric)|o;o
 cenderung|tend to, inclined to|o
 swasta|private (sector)|o
 dini|early|o
@@ -2525,7 +2525,7 @@ sesal|regret|o
 server|server|o
 helm|helmet|o
 insinyur|engineer|o
-dek|deck|o
+dek|deck; (address to a younger person) (colloq.)|o;o
 psikopat|psychopath|o
 latin|Latin|o
 koordinat|coordinate|o
@@ -2535,7 +2535,7 @@ arena|arena|o
 dasi|necktie|o
 kastil|castle|o
 canggung|awkward|o
-usai|finished, over|o
+usai|finished, over; after|o;o
 meteor|meteor|o
 dimensi|dimension|o
 bantai|slaughter|o
@@ -2610,7 +2610,7 @@ kritis|critical|o
 permanen|permanent|o
 kawat|wire|o
 retak|crack|o
-bocor|leak|o
+bocor|leak; flat, punctured (of a tyre)|o;o
 agresif|aggressive|o
 imbalan|reward, compensation|o
 banci|effeminate man, drag queen (informal, can be pejorative)|o
@@ -2619,7 +2619,7 @@ skenario|scenario|o
 komite|committee|o
 catur|chess|o
 brutal|brutal|o
-massa|mass, crowd|o
+massa|crowd; mass|o;o
 purnama|full moon|o
 karpet|carpet|o
 buntu|dead end, stuck|o
@@ -2639,7 +2639,7 @@ gairah|passion, desire|o
 dampak|impact|o
 gemetar|tremble, shake|o
 privasi|privacy|o
-lampau|past, exceed|o
+lampau|past; exceed|o;o
 nabi|prophet|o
 kala|time, when (poetic)|o
 ninja|ninja|o
@@ -2648,18 +2648,18 @@ matang|ripe, mature, cooked|o
 konstruksi|construction|o
 prinsip|principle|o
 tiru|imitate, copy|o
-sensor|censor, sensor|o
+sensor|censor; sensor|o;o
 kandidat|candidate|o
 inspirasi|inspiration|o
 mentega|butter|o
-biji|seed|o
+biji|seed; (classifier for small objects)|o;g
 borgol|handcuffs|o
 janda|widow|o
 instruksi|instruction|o
 islam|Islam|o
 magang|internship|o
 keponakan|nephew, niece|o
-candu|opium, addiction|o
+candu|opium; addiction|o;o
 lonceng|bell|o
 bel|bell|o
 cctv|CCTV|o
@@ -2673,7 +2673,7 @@ pameran|exhibition|o
 rangka|framework, skeleton; dalam rangka: in order to, as part of|o;n
 ketimbang|rather than, compared to|o
 sembarangan|careless, random|o
-induk|parent (of animal), main/host|o
+induk|parent (of animal); main/host|o;o
 negosiasi|negotiation|o
 kombinasi|combination|o
 joker|joker|o
@@ -2694,7 +2694,7 @@ macan|tiger|o
 cabul|obscene, indecent|o
 belati|dagger|o
 lahan|land, plot; slow (archaic, as in perlahan)|o;o
-preman|thug, gangster|o
+preman|thug, gangster; plainclothes (of clothing)|o;o
 injak|step on|o
 memar|bruise|o
 arwah|spirit, soul (of the deceased)|o
@@ -2722,7 +2722,7 @@ tegas|firm, assertive|o
 takluk|submit, conquer|o
 dekade|decade|o
 kerumunan|crowd|o
-bubar|disperse, adjourn|o
+bubar|disperse, adjourn; to break up, be dissolved (of a group)|o;v
 mode|mode, fashion|o
 lekas|quickly, soon|o
 kelak|later, in the future|o
@@ -2737,14 +2737,14 @@ pesona|charm, fascination|o
 konspirasi|conspiracy|o
 mesum|obscene, dirty (behavior)|o
 aktris|actress|o
-timpa|fall upon, hit|o
+timpa|to fall upon, hit; to befall (of misfortune)|v;v
 kemah|tent, camp|o
 suri|queen consort; role model (suri teladan)|o;o
 kelamin|genitals, sex (biological)|o
 label|label|o
 regu|team, squad|o
 wahai|oh! (vocative interjection)|o
-jasa|service, merit|o
+jasa|service; merit|o;o
 hasrat|desire, longing|o
 produser|producer|o
 imam|imam|o
@@ -2778,7 +2778,7 @@ antik|antique|o
 rapuh|fragile|o
 bandit|bandit|o
 komunis|communist|o
-baku|standard, raw (bahan baku)|o
+baku|standard; raw (bahan baku); baku tembak: exchange of fire|o;o;n
 lunak|soft|o
 tega|have the heart to (do something)|f3s
 naif|naive|o
@@ -2790,7 +2790,7 @@ bius|anesthesia, sedative|o
 zat|substance|o
 otoritas|authority|o
 padu|fused, united|o
-cakar|claw|o
+cakar|claw; to scratch (with claws)|o;v
 gagak|crow (bird)|o
 akting|acting (performance)|o
 kedip|blink|o
@@ -2817,7 +2817,7 @@ korek|matches; to scratch, dig|o;v
 editor|editor|o
 populasi|population|o
 karang|coral; to compose, write|o;v
-bala|troops, forces (bala bantuan)|o
+bala|troops, forces (bala bantuan); calamity, misfortune|o;o
 payung|umbrella|o
 angsa|goose, swan|o
 mood|mood|o
@@ -2839,7 +2839,7 @@ jernih|clear (water, sound)|o
 kaset|cassette tape|o
 individu|individual|o
 delta|delta|o
-rutin|routine|o
+rutin|routine; regularly|o;o
 rok|skirt|o
 web|web (internet)|o
 makna|meaning|o
@@ -2853,7 +2853,7 @@ nongkrong|hang out (colloq.)|o
 lantas|then, subsequently|o
 brankas|safe (vault)|o
 tumpah|spill|o
-praktis|practical|o
+praktis|practical; virtually, practically|o;o
 panel|panel|o
 tindak|act, action|o
 steak|steak|o
@@ -2865,7 +2865,7 @@ sosis|sausage|o
 rel|rail, track|o
 tengkar|quarrel|o
 kerabat|relative, kin|o
-cukur|shave|o
+cukur|to shave; to cut (hair), get a haircut|v;v
 spesialis|specialist|o
 traktir|treat (pay for someone)|o
 koridor|corridor|o
@@ -2891,7 +2891,7 @@ kreatif|creative|o
 fans|fans|o
 fiksi|fiction|o
 jurnal|journal|o
-kentut|fart|o
+kentut|fart; to fart|o;v
 koloni|colony|o
 meleleh|melt|o
 hobi|hobby|o
@@ -2934,8 +2934,8 @@ kadal|lizard|o
 rusuh|chaotic, riotous|o
 pramuka|scouts (boy/girl scouts)|o
 amatir|amateur|o
-gulung|roll up|o
-pake|use (colloq., short for pakai)|o
+gulung|roll up; gulung tikar: to go out of business|o;n
+pake|use (colloq., short for pakai); to wear; with (colloq.)|o;v;o
 isteri|wife (alt. spelling of istri)|o
 panen|harvest|o
 zoom|zoom|o
@@ -2974,12 +2974,12 @@ manipulasi|manipulation|o
 bilik|chamber, cubicle|o
 pbb|UN (abbrev. for Perserikatan Bangsa-Bangsa)|o
 rangkai|series, string together|o
-sita|confiscate|o
+sita|to confiscate; to take up (time, attention)|v;v
 royal|generous, lavish|o
 pepatah|proverb, saying|o
 usus|intestine|o
 narapidana|convict, inmate|o
-lembar|sheet (of paper)|o
+lembar|sheet (of paper); (classifier for flat objects)|o;g
 anggaran|budget|o
 cap|stamp, seal|o
 pasifik|Pacific|o
@@ -2994,12 +2994,12 @@ gelincir|slip|o
 lobi|lobby|o
 longgar|loose|o
 bual|boast, brag|o
-geli|ticklish, amused|o
+geli|ticklish; amused; grossed out, creeped out|o;o;o
 formula|formula|o
 lem|glue|o
 musnah|destroyed, extinct|o
 nurani|conscience (hati nurani)|o
-pengertian|understanding|o
+pengertian|understanding; definition; considerate (of a person)|o;o;o
 pelangi|rainbow|o
 ayuh|come on! (colloq., alt. of ayo)|o
 mangsa|prey|o
@@ -3061,16 +3061,16 @@ ayun|swing|o
 bising|noisy|o
 renggut|snatch|o
 dinasti|dynasty|o
-pelatuk|trigger|o
-dinas|official duty, service|o
+pelatuk|trigger; woodpecker|o;o
+dinas|official duty, service; government agency, office|o;o
 pamer|show off|o
 kebal|immune, invulnerable|o
 tetes|drop (liquid)|o
 kursus|course (class)|o
 hambat|hinder, obstruct|o
-unggul|superior, excel|o
-sesak|tight, cramped, breathless|o
-polos|plain, innocent, naive|o
+unggul|superior, excel; ahead, leading (in a match or poll)|o;o
+sesak|tight, cramped; breathless|o;o
+polos|plain; innocent, naive|o;o
 terengah|panting, out of breath|o
 asosiasi|association|o
 spiritual|spiritual|o
@@ -3094,7 +3094,7 @@ maksimal|maximal|o
 labirin|labyrinth, maze|o
 mekar|bloom|o
 fenomena|phenomenon|o
-geram|growl, furious|o
+geram|furious; growl|o;o
 amuk|rampage, run amok|o
 aliansi|alliance|o
 balai|hall, building (public)|o
@@ -3110,7 +3110,7 @@ sengsara|suffering, misery|o
 rengek|whine|o
 ungsi|flee, take refuge|o
 lajang|single (unmarried)|o
-ambang|threshold|o
+ambang|threshold; di ambang: on the verge of|o;n
 dukun|shaman, witch doctor|o
 cemerlang|brilliant, outstanding|o
 riwayat|history, record|o
@@ -3140,14 +3140,14 @@ rekomendasi|recommendation|o
 tisu|tissue|o
 datar|flat|o
 singgah|stop by, drop in|o
-pangkat|rank, grade|o
+pangkat|rank, grade; power (maths)|o;o
 protein|protein|o
 fotografer|photographer|o
 penjuru|corner, direction|o
 abdi|servant, devote|o
 bubur|porridge|o
 pelecehan|harassment|o
-tempo|tempo, pace|o
+tempo|tempo, pace; time, space of time|o;o
 mempelai|bride/groom|o
 bakteri|bacteria|o
 parade|parade|o
@@ -3158,8 +3158,8 @@ penggal|behead, cut off|o
 sukacita|joy|o
 piknik|picnic|o
 molekul|molecule|o
-percik|splash, spark|o
-manja|spoiled, pampered|o
+percik|splash; spark|o;o
+manja|spoiled, pampered; clingy, affectionate|o;o
 logika|logic|o
 swedia|Sweden|o
 karantina|quarantine|o
@@ -3193,11 +3193,11 @@ dayung|paddle, oar|o
 sadis|sadistic|o
 kapsul|capsule|o
 dandan|dress up, put on makeup|o
-ulur|extend, stretch out|o
+ulur|extend, stretch out; mengulur waktu: to stall for time|o;n
 selebriti|celebrity|o
 telapak|palm (of hand), sole (of foot)|o
 rasional|rational|o
-goyang|shake, sway|o
+goyang|to shake, sway; to dance, move to music (colloq.)|v;v
 tenis|tennis|o
 personil|personnel|o
 frustasi|frustrated (alt. spelling of frustrasi)|o
@@ -3209,7 +3209,7 @@ tornado|tornado|o
 bener|correct, right (very colloq.)|o
 teras|terrace, porch|o
 beranda|veranda, porch|o
-wadah|container, vessel|o
+wadah|container, vessel; forum, platform (for a group)|o;o
 dampar|stranded, washed ashore|o
 signifikan|significant|o
 jorok|dirty, filthy|o
@@ -3219,7 +3219,7 @@ gencatan|ceasefire (gencatan senjata)|o
 karate|karate|o
 sandar|lean, rest against|o
 samudera|ocean|o
-anugerah|gift, blessing|o
+anugerah|gift, blessing; award|o;o
 berkah|blessing|o
 proposal|proposal|o
 kilau|shine, sparkle|o
@@ -3244,7 +3244,7 @@ sebanding|comparable|o
 teler|stoned, drunk (colloq.)|o
 mampus|die (vulgar exclamation)|o
 wangi|fragrant|o
-gemas|adorable, endearingly annoying|o
+gemas|adorable, endearingly annoying; exasperated, frustrated|o;o
 maniak|maniac|o
 trailer|trailer (movie/vehicle)|o
 bisu|mute|o
@@ -3259,7 +3259,7 @@ efisien|efficient|o
 orgasme|orgasm|o
 tequila|tequila|o
 karung|sack|o
-cerewet|nagging, fussy|o
+cerewet|nagging, fussy; chatty, talkative|o;o
 popok|diaper|o
 software|software|o
 hening|silent, quiet|o
@@ -3282,7 +3282,7 @@ tablet|tablet|o
 unta|camel|o
 gulat|wrestling|o
 megah|grand, magnificent|o
-tahi|feces, dung (vulgar/colloq.)|o
+tahi|feces, dung (vulgar/colloq.); tahi lalat: mole (on the skin)|o;n
 kardinal|cardinal (church rank)|o
 keesokan|the following (day)|o
 asma|asthma|o
@@ -3290,7 +3290,7 @@ drone|drone|o
 deskripsi|description|o
 cicip|taste, sample|o
 kumbang|beetle|o
-sumbang|donate|o
+sumbang|donate; out of tune, discordant|o;o
 basis|base|o
 arsitek|architect|o
 adopsi|adoption|o
@@ -3364,9 +3364,9 @@ kompensasi|compensation|o
 dam|dam|o
 veteran|veteran|o
 menjelang|approaching, as (time) draws near|o
-mentah|raw, uncooked|o
+mentah|raw, uncooked; mentah-mentah: flatly, outright|o;n
 naksir|have a crush on (colloq.)|f3s
-minimal|minimal|o
+minimal|minimal; at least|o;o
 psikologis|psychological|o
 lensa|lens|o
 majikan|employer, master|o
@@ -3422,7 +3422,7 @@ motivasi|motivation|o
 citra|image (public image)|o
 gergaji|saw (tool)|o
 klakson|car horn|o
-sandiwara|drama, pretense|o
+sandiwara|drama; pretense|o;o
 rehabilitasi|rehabilitation|o
 terkemuka|prominent, leading|o
 pencerahan|enlightenment|o
@@ -3443,10 +3443,10 @@ organisme|organism|o
 paha|thigh|o
 agenda|agenda|o
 kepung|surround, besiege|o
-beranjak|move, shift (position)|o
+beranjak|move, shift (position); beranjak dewasa: to be growing up|o;n
 kategori|category|o
 demonstrasi|demonstration|o
-karat|rust|o
+karat|rust; carat|o;o
 norma|norm|o
 guncang|shake, shock|o
 kantin|canteen, cafeteria|o
@@ -3481,14 +3481,14 @@ siul|whistle|o
 jempol|thumb|o
 bentur|collide, bump|o
 statistik|statistics|o
-minus|minus|o
+minus|minus; drawback, shortcoming; nearsighted (of eyes)|o;o;o
 frustrasi|frustrated|o
 persik|peach|o
 puting|nipple|o
 bendung|dam, block|o
 sampul|cover (book/envelope)|o
 antena|antenna|o
-bobol|break into|o
+bobol|break into; breached, broken through (of a dam, goal)|o;o
 desainer|designer|o
 nangis|cry (colloq., short for menangis)|o
 koktail|cocktail|o
@@ -3501,14 +3501,14 @@ rutinitas|routine|o
 ultah|birthday (colloq., abbrev. for ulang tahun)|o
 intim|intimate|o
 kodok|frog, toad|o
-adu|compete, pit against|o
+adu|compete, pit against; to complain, tell on (someone)|o;v
 kasir|cashier|o
 nadi|pulse (nadi jantung)|o
 sembrono|careless, reckless|o
 cenayang|psychic, medium|o
 barak|barracks|o
 dokumenter|documentary|o
-kelana|wander, roam|o
+kelana|wander, roam; wanderer|o;o
 kontribusi|contribution|o
 tunggang|ride, mount|o
 fitur|feature|o
@@ -3524,7 +3524,7 @@ pura-pura|to pretend, feign|v
 wahyu|divine revelation|o
 kosmos|cosmos|o
 genetika|genetics|o
-semprot|spray|o
+semprot|to spray; to scold, tell off (colloq.)|v;v
 gembala|shepherd|o
 batin|inner self, heart|o
 anjungan|deck (ship); ATM booth|o;o
@@ -3532,7 +3532,7 @@ organisir|organize|o
 gorok|slit, cut throat|o
 sandal|sandal|o
 karnaval|carnival|o
-buntut|tail|o
+buntut|tail; aftermath, consequence|o;o
 iring|accompany|o
 mendiang|the late (deceased)|o
 pulpen|pen (ballpoint)|o
@@ -3546,11 +3546,11 @@ bimbang|hesitant, torn|o
 hipotek|mortgage|o
 pion|pawn (chess)|o
 pancar|emit, radiate|o
-subur|fertile|o
+subur|fertile; thriving, flourishing|o;o
 histeris|hysterical|o
 batalion|battalion|o
 manuver|maneuver|o
-lemas|weak, limp|o
+lemas|weak, limp; mati lemas: to suffocate, drown|o;n
 empuk|soft, tender (food)|o
 monumen|monument|o
 dinamit|dynamite|o
@@ -3571,7 +3571,7 @@ aura|aura|o
 garuk|scratch|o
 sejajar|parallel, level with|o
 gigih|persistent|o
-guling|roll|o
+guling|roll; bolster (pillow)|o;o
 sindrom|syndrome|o
 ulas|review, comment on|o
 inisiatif|initiative|o
@@ -3582,37 +3582,37 @@ ukir|carve|o
 tikam|stab|o
 personal|personal|o
 imigrasi|immigration|o
-hangus|burnt, scorched|o
+hangus|burnt, scorched; forfeited, void (of a ticket, credit)|o;o
 kitar|circle, around|o
 ktp|Indonesian ID card (abbrev. for Kartu Tanda Penduduk)|o
 setimpal|commensurate, fitting|o
 operasional|operational|o
 kocok|shake, shuffle|o
 rakit|raft; assemble|o;o
-kelopak|petal, eyelid|o
-keping|piece, fragment|o
+kelopak|petal; eyelid|o;o
+keping|piece, fragment; (classifier for flat objects: coins, discs)|o;g
 netral|neutral|o
 instan|instant|o
 traktor|tractor|o
 sedot|suck, vacuum|o
 magis|magical|o
-kapur|chalk, lime|o
+kapur|chalk; lime|o;o
 ongkos|cost, fare|o
 stroberi|strawberry|o
 diplomatik|diplomatic|o
 angkuh|arrogant|o
 sajak|poem, rhyme|o
-alur|plot, flow|o
+alur|plot; flow|o;o
 saudi|Saudi|o
 material|material|o
 akhirat|afterlife|o
 pribumi|indigenous, native|o
 klise|cliche|o
-sambar|swoop, snatch, struck by lightning|o
+sambar|swoop, snatch; struck by lightning|o;o
 labuh|anchor, dock|o
 stiker|sticker|o
 kualifikasi|qualification|o
-heboh|commotion, uproar|o
+heboh|commotion, uproar; sensational, causing a stir|o;o
 interaksi|interaction|o
 pemukiman|settlement|o
 liter|liter|o
@@ -3639,7 +3639,7 @@ cakrawala|horizon|o
 iq|IQ|o
 fotografi|photography|o
 politikus|politician|o
-gulir|roll, scroll|o
+gulir|roll; scroll|o;o
 hipnotis|hypnosis, hypnotize|o
 bengkak|swollen|o
 selir|concubine|o
@@ -3652,12 +3652,12 @@ asik|fun, enjoyable (colloq., alt. of asyik)|o
 kelam|dark, gloomy|o
 anomali|anomaly|o
 tular|contagious, spread|o
-banting|slam, throw hard|o
+banting|slam, throw hard; banting tulang: to work hard|o;n
 tumit|heel (foot)|o
 helium|helium|o
 mumi|mummy (Egyptian)|o
 seminar|seminar|o
-modus|mode, method (modus operandi)|o
+modus|mode, method (modus operandi); pretext, ulterior motive (slang)|o;o
 pilar|pillar|o
 oral|oral|o
 direksi|board of directors|o
@@ -3713,7 +3713,7 @@ ereksi|erection|o
 leceh|harass, belittle|o
 mamalia|mammal|o
 gelitik|tickle|o
-arak|alcohol, liquor (traditional)|o
+arak|alcohol, liquor (traditional); to parade (through the streets)|o;v
 kewalahan|overwhelmed|o
 kabinet|cabinet (government)|o
 enkripsi|encryption|o
@@ -3734,7 +3734,7 @@ alis|eyebrow|o
 kilap|shine, gloss|o
 syok|shocked (colloq., alt. of shock)|o
 suplai|supply|o
-tobat|repent|o
+tobat|repent; good grief! (colloq.)|o;o
 mercusuar|lighthouse|o
 analisa|analysis|o
 strategis|strategic|o
@@ -3758,10 +3758,10 @@ bibit|seed, seedling|o
 pindai|scan|o
 anonim|anonymous|o
 janggal|odd, awkward|o
-iseng|just for fun, on a whim|o
+iseng|just for fun, on a whim; mischievous, prankish|o;o
 aduk|stir, mix|o
 metafora|metaphor|o
-giring|herd, drive|o
+giring|herd, drive; dribble (a ball)|o;o
 formalitas|formality|o
 kuartal|quarter (of a year)|o
 paten|patent|o
@@ -3818,7 +3818,7 @@ lamun|daydream|o
 puja|worship|o
 kudeta|coup|o
 interior|interior|o
-sorot|spotlight, beam|o
+sorot|spotlight, beam; sorot mata: look, gaze|o;n
 fakultas|faculty (university)|o
 jinak|tame|o
 kontaminasi|contamination|o
@@ -3845,7 +3845,7 @@ haru|touched, moved (emotionally)|o
 ekstraksi|extraction|o
 sangkar|cage|o
 antri|queue, line up|o
-konsumsi|consumption|o
+konsumsi|consumption; refreshments (at an event)|o;o
 feri|ferry|o
 terpuruk|fallen into despair, ruined|o
 rangsang|stimulate|o
@@ -3869,20 +3869,20 @@ raut|facial expression, features|o
 vas|vase|o
 akselerator|accelerator|o
 ulat|caterpillar|o
-bolong|hole, perforated|o
+bolong|hole, perforated; skipped, missed (colloq., of fasting or prayers)|o;o
 radang|inflammation|o
-copot|come off, detached|o
+copot|come off, detached; to remove, take off (colloq.); to dismiss (from a post)|o;v;v
 diagnosa|diagnosis (alt. spelling of diagnosis)|o
 tayang|broadcast, air|o
 dominan|dominant|o
 janin|fetus|o
-ledeng|plumbing (tukang ledeng)|o
+ledeng|plumbing (tukang ledeng); air ledeng: tap water|o;n
 jangkrik|cricket (insect)|o
 gipsi|gypsy|o
 kupu|butterfly (kupu-kupu)|o
 sahaja|just, merely (poetic, alt. of saja)|o
 bidadari|angel, celestial nymph|o
-pungut|collect, pick up|o
+pungut|collect, pick up; anak pungut: adopted child|o;n
 diplomat|diplomat|o
 intervensi|intervention|o
 elektrik|electric|o
@@ -3910,7 +3910,7 @@ tertera|printed, stated|o
 cegat|intercept|o
 variasi|variation|o
 bekal|provisions, supplies|o
-kental|thick, viscous|o
+kental|thick, viscous; strong, marked (of an accent, culture)|o;o
 jomblo|single, unmarried (colloq. slang)|o
 lonjak|jump, surge|o
 balistik|ballistic|o
@@ -3936,7 +3936,7 @@ rakus|greedy (for food)|o
 sabit|sickle|o
 cerna|digest|o
 dilema|dilemma|o
-jepit|clip, clamp|o
+jepit|clip, clamp; sandal jepit: flip-flops|o;n
 tungku|furnace, stove|o
 gamma|gamma|o
 esai|essay|o
@@ -3964,7 +3964,7 @@ komplotan|gang, conspiracy|o
 ironi|irony|o
 lahap|devour, eat eagerly|o
 pelampung|buoy, life jacket|o
-kusut|messy, tangled|o
+kusut|messy, tangled; troubled, gloomy (of a face)|o;o
 klinis|clinical|o
 sergap|ambush|o
 limpah|overflow, abundant|o
@@ -3974,7 +3974,7 @@ tilang|traffic ticket|o
 remas|squeeze, knead|o
 terjang|charge, kick|o
 fasis|fascist|o
-butir|grain, item|o
+butir|grain; item; (classifier for small round objects: eggs, pills)|o;o;g
 ngawur|reckless, talking nonsense (colloq.)|o
 duniawi|worldly|o
 belot|defect|o
@@ -4013,7 +4013,7 @@ kontol|penis (vulgar slang)|o
 sekuriti|security (job title)|o
 pamrih|ulterior motive|o
 lecet|scraped, blistered|o
-komplain|complain|o
+komplain|complain; complaint|o;o
 omel|grumble, nag|o
 produsen|producer, manufacturer|o
 paralel|parallel|o
@@ -4057,7 +4057,7 @@ beruntun|in a row, consecutive|o
 atraksi|attraction (performance)|o
 popularitas|popularity|o
 prasangka|prejudice|o
-curah|pour, downpour|o
+curah|pour, downpour; curah hujan: rainfall|o;n
 sindikat|syndicate|o
 lengkung|curve, arch|o
 diare|diarrhea|o
@@ -4070,7 +4070,7 @@ anut|follow, adhere to belief|o
 lihai|skilled, cunning|o
 jodoh|soulmate, match (marriage)|o
 portugis|Portuguese|o
-refleksi|reflection (thought)|o
+refleksi|reflection (thought); reflexology (massage)|o;o
 pasca|post- (pascasarjana)|o
 intimidasi|intimidation|o
 majelis|council, assembly|o
@@ -4099,7 +4099,7 @@ hias|decorate|o
 tabir|veil, screen|o
 pornografi|pornography|o
 donasi|donation|o
-perihal|regarding, about (formal)|o
+perihal|regarding, about (formal); matter, subject|o;o
 renyah|crispy|o
 upeti|tribute (historical payment)|o
 seluler|cellular|o
@@ -4112,7 +4112,7 @@ improvisasi|improvisation|o
 amandemen|amendment|o
 aniaya|persecute, mistreat|o
 epik|epic|o
-sosialisasi|socialization|o
+sosialisasi|socialization; public information campaign (about a policy)|o;o
 delusi|delusion|o
 selongsong|casing, sleeve|o
 lantang|loud, resounding|o
@@ -4121,7 +4121,7 @@ dikit|a little (colloq., short for sedikit)|o
 sosiopat|sociopath|o
 rezim|regime|o
 jihad|jihad|o
-plester|plaster, band-aid|o
+plester|plaster; band-aid|o;o
 selaras|harmonious, in line with|o
 imperial|imperial|o
 milimeter|millimeter|o
@@ -4129,7 +4129,7 @@ tenggat|deadline|o
 hanyut|carried away, adrift|o
 wawasan|insight, perspective|o
 pedoman|guideline|o
-receh|small change (coins), petty|o
+receh|small change (coins); petty|o;o
 tempuh|travel, traverse|o
 migrasi|migration|o
 fitnah|slander|o
@@ -4157,7 +4157,7 @@ curhat|vent, share feelings (colloq.)|o
 damba|long for, yearn|o
 jangkit|infect, contagious|o
 konservatif|conservative|o
-jerat|snare, trap|o
+jerat|snare, trap; to charge (under a law)|o;v
 sintetis|synthetic|o
 curam|steep|o
 lotre|lottery (alt. of lotere)|o
@@ -4180,7 +4180,7 @@ kemaren|yesterday (colloq., alt. of kemarin)|o
 sumpit|chopsticks|o
 bedak|powder (cosmetic)|o
 pacuan|racing, race|o
-campak|throw away, discard|o
+campak|throw away, discard; measles|o;o
 bule|foreigner (colloq., esp. Westerner)|o
 ayahanda|father (formal/honorific)|o
 ziarah|pilgrimage|o
@@ -4190,7 +4190,7 @@ merkuri|mercury|o
 reinkarnasi|reincarnation|o
 anatomi|anatomy|o
 kayuh|paddle, pedal|o
-ungkit|bring up, pry|o
+ungkit|bring up; pry|o;o
 bintik|spot, speck|o
 binatu|laundry (formal term)|o
 kuis|quiz|o
@@ -4198,10 +4198,10 @@ islandia|Iceland|o
 sumsum|marrow|o
 loyal|loyal|o
 kepsek|school principal (abbrev. for kepala sekolah)|o
-numpang|hitch a ride, stay temporarily (colloq.)|o
+numpang|hitch a ride, stay temporarily (colloq.); to use, borrow (someone's toilet, phone, etc.)|o;v
 teleportasi|teleportation|o
 furnitur|furniture|o
-sedap|delicious, tasty|o
+sedap|delicious, tasty; pleasant, nice (to see, hear)|o;o
 bungkam|silent, mute|o
 terik|scorching, blazing (sun)|o
 lembu|cow, ox|o
@@ -4209,16 +4209,16 @@ marga|clan name, surname|o
 cincang|mince, chop|o
 verifikasi|verification|o
 fleksibel|flexible|o
-vokal|vocal|o
+vokal|vocal; outspoken|o;o
 bundar|round|o
 optik|optic|o
 pukau|captivate|o
-resume|resume|o
+resume|summary; resume|o;o
 igau|delirious, rave|o
 resah|restless, anxious|o
 kondominium|condominium|o
 sarden|sardine|o
-tancap|stick into|o
+tancap|stick into; tancap gas: to step on the gas|o;n
 gulma|weed|o
 bentang|stretch, span|o
 tameng|shield|o
@@ -4250,7 +4250,7 @@ bakti|devotion, service|o
 ritme|rhythm (alt. of irama)|o
 alamiah|natural|o
 algojo|executioner|o
-awet|durable, long-lasting|o
+awet|durable, long-lasting; awet muda: youthful-looking, ageless|o;n
 pudar|fade|o
 singgasana|throne|o
 kabul|grant, accept|o
@@ -4262,9 +4262,9 @@ celoteh|chatter, prattle|o
 derit|creak|o
 katedral|cathedral|o
 seka|wipe|o
-maklum|understand, of course|o
+maklum|understand; of course|o;o
 persentase|percentage|o
-selip|slip in, insert|o
+selip|to slip in, insert; to skid (of a vehicle)|v;v
 lingkup|scope|o
 keyboard|keyboard|o
 doang|only, just (colloq.)|o
@@ -4290,7 +4290,7 @@ mumpung|while there's still a chance|o
 papas|pass by|o
 baptis|baptism|o
 fisikawan|physicist|o
-urai|describe, elaborate|o
+urai|describe, elaborate; untangle, loosen (hair, knot)|o;o
 skuter|scooter|o
 intuisi|intuition|o
 alamak|oh my (colloq. interjection)|o
@@ -4306,7 +4306,7 @@ sangga|support, prop|o
 dobrak|break down, force open|o
 sanksi|sanction, penalty|o
 sentimen|sentiment|o
-pantang|taboo, forbidden|o
+pantang|taboo, forbidden; never, refuse to (before a verb)|o;o
 kosmetik|cosmetic|o
 eksploitasi|exploitation|o
 aspal|asphalt|o
@@ -4323,7 +4323,7 @@ lendir|mucus, slime|o
 puing|debris, rubble|o
 kontroversial|controversial|o
 infrastruktur|infrastructure|o
-sumbu|wick, fuse|o
+sumbu|wick, fuse; axis; sumbu pendek: short-tempered (colloq.)|o;o;n
 pekik|shriek, scream|o
 variabel|variable|o
 daur|cycle (daur ulang)|o
@@ -4349,7 +4349,7 @@ ikon|icon|o
 infanteri|infantry|o
 ratap|wail, lament|o
 tuntas|complete, resolved|o
-aparat|apparatus, officials|o
+aparat|officials; apparatus|o;o
 gembel|homeless, vagrant|o
 aktivis|activist|o
 salep|ointment|o
@@ -4361,7 +4361,7 @@ vonis|verdict, sentence|o
 impoten|impotent|o
 lintang|latitude (garis lintang)|o
 filsuf|philosopher|o
-tikar|mat|o
+tikar|mat; gulung tikar: to go out of business|o;n
 panutan|role model|o
 peron|platform (train station)|o
 rasio|ratio|o
@@ -4395,7 +4395,7 @@ liberal|liberal|o
 abis|finished, all gone (colloq.); after (colloq.: abis makan = after eating); because (colloq.)|o;o;o
 pertapa|hermit|o
 pelumas|lubricant|o
-suaka|asylum|o
+suaka|asylum; sanctuary, reserve (for wildlife)|o;o
 karibia|Caribbean|o
 silinder|cylinder|o
 tonik|tonic|o
@@ -4435,7 +4435,7 @@ mangkok|bowl (alt. of mangkuk)|o
 royalti|royalty (payment)|o
 sirna|vanished, disappeared|o
 bugar|fit, healthy|o
-geliat|stretch, writhe|o
+geliat|stretch, writhe; stirring, revival (of activity)|o;o
 residu|residue|o
 gaduh|noisy, commotion|o
 spektrum|spectrum|o
@@ -4446,7 +4446,7 @@ eksplorasi|exploration|o
 remuk|crushed, shattered|o
 senjang|gap, disparity|o
 jajah|colonize|o
-belang|stripe, spots (pattern)|o
+belang|stripe, spots (pattern); true nature, hidden faults (fig.)|o;o
 kendala|obstacle, constraint|o
 pangsit|dumpling|o
 insulin|insulin|o
@@ -4481,7 +4481,7 @@ manggung|perform on stage (colloq.)|o
 jelata|commoner (rakyat jelata)|o
 akomodasi|accommodation|o
 longsor|landslide|o
-mendung|overcast, cloudy|o
+mendung|overcast, cloudy; gloomy (of a face or mood)|o;o
 supervisor|supervisor|o
 akta|deed, certificate|o
 tanggap|responsive|o
@@ -4489,7 +4489,7 @@ orde|order (regime, era)|o
 biokimia|biochemistry|o
 jemaat|congregation|o
 blokade|blockade|o
-setel|set, tune|o
+setel|to set, tune; to play, put on (music, video; colloq.)|v;v
 karavan|caravan|o
 kobar|blaze, flare|o
 bumerang|boomerang|o
@@ -4567,7 +4567,7 @@ segelintir|a handful, a few|o
 psikotik|psychotic|o
 mekkah|Mecca|o
 marmer|marble|o
-vakum|vacuum|o
+vakum|vacuum; inactive, on hiatus|o;o
 sikit|a little (colloq., Malay spelling of sedikit)|o
 andil|contribution, share|o
 kaktus|cactus|o
@@ -4592,7 +4592,7 @@ otentik|authentic|o
 seteru|feud, rival|o
 kultus|cult|o
 bahama|Bahamas|o
-wahana|vehicle, ride (amusement park)|o
+wahana|vehicle; ride (amusement park)|o;o
 akuntansi|accounting|o
 piara|raise, keep as pet|o
 kasta|caste|o
@@ -4604,7 +4604,7 @@ mutilasi|mutilation|o
 hibernasi|hibernation|o
 feminin|feminine|o
 tempa|forge|o
-kompak|compact, close-knit|o
+kompak|close-knit; compact|o;o
 larva|larva|o
 bejat|depraved, corrupt (moral)|o
 garang|fierce, ferocious|o
@@ -4662,7 +4662,7 @@ selangkangan|crotch|o
 gembong|kingpin, ringleader|o
 getah|sap, resin|o
 ajal|death, fated end|o
-silikon|silicone|o
+silikon|silicone; silicon (element)|o;o
 rasul|prophet, apostle (Islamic)|o
 gemar|fond of, keen on|o
 dekorasi|decoration|o
@@ -4681,7 +4681,7 @@ nikel|nickel|o
 kemoterapi|chemotherapy|o
 instalasi|installation|o
 sujud|prostrate (in prayer)|o
-cela|flaw, criticize|o
+cela|flaw; criticize|o;o
 jikalau|if (formal, alt. of jika)|o
 antek|lackey, stooge|o
 ngarai|canyon, ravine|o
@@ -4705,7 +4705,7 @@ indeks|index|o
 waralaba|franchise|o
 plutonium|plutonium|o
 suspensi|suspension|o
-joki|jockey|o
+joki|jockey; stand-in paid to do another's task (exam, driving)|o;o
 salip|overtake|o
 karamel|caramel|o
 senar|string (guitar/racket)|o
@@ -4719,10 +4719,10 @@ habitat|habitat|o
 yaman|Yemen|o
 rentetan|series, string of (events)|o
 aksesoris|accessories|o
-tumbal|sacrifice, scapegoat|o
+tumbal|sacrifice; scapegoat|o;o
 gorilla|gorilla|o
 silat|martial art (pencak silat)|o
-segan|reluctant, hesitant (out of respect)|o
+segan|reluctant, hesitant (out of respect); to respect, be in awe of|o;v
 insya|God willing (Insya Allah)|o
 nitrat|nitrate|o
 pelopor|pioneer|o
@@ -4739,7 +4739,7 @@ tekun|diligent|o
 kemping|camping|o
 kempes|deflated|o
 proyektor|projector|o
-kurator|curator|o
+kurator|curator; receiver, trustee (in bankruptcy)|o;o
 gemuruh|rumble, roar|o
 tabloid|tabloid|o
 mandat|mandate|o
@@ -4773,7 +4773,7 @@ militan|militant|o
 konstantinopel|Constantinople|o
 mortir|mortar (weapon)|o
 literatur|literature|o
-gengsi|prestige, pride|o
+gengsi|prestige, pride; too proud (to do something) (colloq.)|o;o
 rawan|vulnerable, prone to|o
 nostalgia|nostalgia|o
 rekat|stick, adhesive|o
@@ -4814,8 +4814,8 @@ lesu|listless, lethargic|o
 mucikari|pimp|o
 emisi|emission|o
 kopling|clutch (car)|o
-ganjaran|reward, punishment|o
-lempeng|plate (tectonic), flat|o
+ganjaran|reward; punishment|o;o
+lempeng|plate (tectonic); flat|o;o
 patriotik|patriotic|o
 pestisida|pesticide|o
 dialek|dialect|o
@@ -4823,11 +4823,11 @@ postur|posture|o
 komoditas|commodity|o
 kecup|peck, kiss|o
 deret|row, series|o
-nota|note, memo|o
+nota|note, memo; receipt, bill|o;o
 celcius|Celsius|o
 neutron|neutron|o
 seksualitas|sexuality|o
-pulas|twist, sound asleep|o
+pulas|sound asleep; twist|o;o
 pemulung|scavenger, trash picker|o
 artifak|artifact|o
 grafis|graphic|o
@@ -4886,7 +4886,7 @@ hipotetis|hypothetical|o
 gelegar|boom, roar|o
 mahjong|mahjong|o
 lelap|sound asleep|o
-jenuh|saturated, bored/fed up|o
+jenuh|bored/fed up; saturated|o;o
 tempurung|shell (coconut shell, kneecap)|o
 kompresi|compression|o
 britania|Britain|o
@@ -4904,7 +4904,7 @@ konten|content|o
 turbulensi|turbulence|o
 ajang|event, arena (competition)|o
 kibar|flutter, wave|o
-eksis|exist (colloq.)|o
+eksis|exist (colloq.); to be active, have a presence (colloq.)|o;v
 pubertas|puberty|o
 interpretasi|interpretation|o
 jungkir|flip, somersault|o
@@ -4930,7 +4930,7 @@ saking|because of, so much that (colloq.)|o
 striptis|striptease|o
 tentakel|tentacle|o
 berantas|eradicate|o
-tukik|dive, swoop|o
+tukik|turtle hatchling; dive, swoop|o;o
 milenium|millennium|o
 oles|apply, smear|o
 mediterania|Mediterranean|o
@@ -4941,7 +4941,7 @@ grogi|nervous, jittery (colloq.)|o
 merdu|melodious, sweet (sound)|o
 coret|scribble, cross out|o
 pengap|stuffy, stale (air)|o
-empedu|bile, gallbladder|o
+empedu|bile; gallbladder|o;o
 ketiak|armpit|o
 gemilang|brilliant, glorious|o
 finalis|finalist|o
@@ -4954,7 +4954,7 @@ melotot|glare, bulge eyes|o
 simfoni|symphony|o
 jagat|world, universe (jagat raya)|o
 sodium|sodium|o
-laos|Laos|o
+laos|Laos; galangal (= lengkuas)|o;o
 zina|adultery|o
 kasut|shoes (formal/poetic)|o
 termos|thermos|o
@@ -4965,7 +4965,7 @@ elok|beautiful, fine|o
 juragan|boss, owner (business)|o
 luhur|noble, lofty|o
 firdaus|paradise (Islamic term)|o
-tegur|reprimand, greet|o
+tegur|reprimand; greet|o;o
 landak|porcupine|o
 tuah|luck, charm|o
 pajang|display|o
@@ -4984,13 +4984,13 @@ bokep|porn (very colloq. slang)|o
 antarmuka|interface|o
 skors|suspension (school/sports)|o
 lancong|travel, tour|o
-kubu|camp, faction|o
+kubu|camp, faction; stronghold, fortification|o;o
 misionaris|missionary|o
 pekat|thick, concentrated|o
 penghujung|the very end|o
-miring|tilted, sloped|o
+miring|tilted, sloped; cheap (of a price); crazy (colloq.)|o;o;o
 koordinasi|coordination|o
-hajat|wish, need; celebration|o;o
+hajat|wish, need; celebration; buang hajat: to relieve oneself|o;o;n
 rukun|harmonious; pillar (of faith)|o;o
 booming|boom (colloq.)|o
 butik|boutique|o
@@ -5048,7 +5048,7 @@ hambur|scatter|o
 cecer|scatter, drop|o
 jamaika|Jamaica|o
 sulfur|sulfur|o
-mandul|infertile|o
+mandul|infertile; ineffective, toothless (fig.)|o;o
 kreativitas|creativity|o
 terpana|stunned, amazed|o
 aktual|actual, current|o
@@ -5085,7 +5085,7 @@ sembelit|constipation|o
 condong|lean toward, inclined|o
 migrain|migraine|o
 lini|line (lini masa)|o
-najis|filth, impurity (religious term)|o
+najis|filth, impurity (religious term); ritually unclean|o;o
 bujang|bachelor, unmarried man|o
 neuron|neuron|o
 bendahara|treasurer|o
@@ -5128,7 +5128,7 @@ bulbul|nightingale|o
 jala|fishing net|o
 sia-sia|futile, in vain|o
 belalang|grasshopper|o
-deras|swift, heavy (of flowing water)|o
+deras|swift, heavy (of flowing water); heavy, torrential (of rain)|o;o
 saudagar|merchant, trader (literary)|o
 singsing|break (of dawn), rise|o
 telundakan|staircase, steps (regional/archaic)|o
@@ -5141,7 +5141,7 @@ semayam|reside, dwell (formal/archaic)|o
 patuk|peck|o
 kubah|dome|o
 hempas|fling, hurl, crash|o
-gelora|surge, passion|o
+gelora|surge; passion|o;o
 kafilah|caravan|o
 bilah|blade, piece (classifier)|o
 benderang|blazing, brightly lit|o
@@ -5162,7 +5162,7 @@ geletak|sprawled, lying prone|o
 ringkik|neigh, bray (of a horse/donkey)|o
 termenung|lost in thought, pensive|o
 ancang-ancang|run-up, preparation (before an action)|o
-hinggap|perch, alight (of a bird)|o
+hinggap|perch, alight (of a bird); to come over, afflict (of a feeling, illness)|o;v
 gumam|mutter, murmur|o
 ratu|queen|o
 lebat|dense, thick (forest/rain)|o
@@ -5174,7 +5174,7 @@ kayangan|heavenly abode, celestial realm|o
 angguk|nod|o
 niscaya|surely, certainly (formal)|o
 jelma|transform into, incarnate as|o
-sela|gap, interval, crevice|o
+sela|gap, interval, crevice; sela-sela: in between, amid (activities)|o;n
 gelung|coil, curl|o
 kenan|willing, consent|o
 meraung-raung|howl, wail repeatedly|o
@@ -5188,12 +5188,12 @@ serempet|graze, sideswipe|o
 tengger|perch|o
 talang|gutter|o
 gersang|arid, barren|o
-derap|galloping sound, hoofbeats|o
+derap|galloping sound, hoofbeats; derap langkah: tramp of marching feet|o;n
 serentak|simultaneously, all at once|o
 kepul|billow, puff|o
 decit|creak, squeak|o
 telentang|lying on one's back, supine|o
-gabus|cork|o
+gabus|cork; styrofoam; ikan gabus: snakehead (fish)|o;o;n
 tengadah|look up, tilt back|o
 secuil|a tiny bit, sliver|o
 gong|gong|o
@@ -5240,14 +5240,14 @@ penelitian|research|o
 peluang|opportunity, chance|o
 penumpang|passenger|o
 kemasan|packaging|o
-pelayan|waiter, attendant|o
+pelayan|waiter, attendant; servant|o;o
 perpustakaan|library|o
 pelanggan|customer, subscriber|o
 kebijakan|policy|o
 terkejut|surprised, startled|o
 melakukan|to do, carry out|v
 jurusan|major, department; direction|o;o
-mengaku|to admit, confess|v
+mengaku|to admit, confess; to claim (to be)|v;v
 mengakui|to admit, acknowledge|v
 akui|to admit, acknowledge|v
 diakui|to be acknowledged, admitted|v
@@ -5262,7 +5262,7 @@ mengalami|to experience, undergo|v
 menabung|to save money|v
 mengolah|to process, work on|v
 mengobrol|to chat|v
-mengarang|to compose, write, make up|v
+mengarang|to compose, write; to make up|v;v
 kehilangan|to lose; loss|v;o
 kesempatan|opportunity, chance|o
 kehidupan|life|o
@@ -5273,14 +5273,14 @@ keadaan|situation, condition|o
 keamanan|security, safety|o
 keberatan|objection; to object, to mind|o;v
 ketakutan|fear, terror; frightened, terrified|o;o
-kemungkinan|possibility|o
+kemungkinan|possibility; probably, likely|o;o
 kejadian|event, incident|o
 kebenaran|truth|o
-kelihatan|to appear, seem, be visible|v
+kelihatan|to appear, seem; be visible|v;o
 kehormatan|honour|o
 kebanyakan|most of, the majority; too much, too many|o;o
 kegelapan|darkness|o
-kesulitan|difficulty, trouble|o
+kesulitan|difficulty, trouble; to have difficulty|o;v
 kenyataan|reality, fact|o
 kecepatan|speed|o
 keinginan|desire, wish|o
@@ -5288,13 +5288,13 @@ kehabisan|to run out of|v
 kekacauan|chaos, disorder|o
 kemenangan|victory|o
 kebaikan|kindness, goodness|o
-keuntungan|profit, advantage|o
+keuntungan|profit; advantage|o;o
 kebakaran|fire, blaze|o
 kebohongan|a lie|o
 kekerasan|violence|o
 keajaiban|miracle, wonder|o
 keberanian|courage|o
-kelaparan|famine; starving|o;o
+kelaparan|starving; famine|o;o
 kepercayaan|belief, trust|o
 kerusakan|damage|o
 keadilan|justice|o
@@ -5309,7 +5309,7 @@ keselamatan|safety; salvation|o;o
 keturunan|descendant; descent|o;o
 kebiasaan|habit, custom|o
 keyakinan|conviction, belief|o
-kedatangan|arrival|o
+kedatangan|arrival; to be visited by (guests)|o;v
 kemarahan|anger|o
 ketinggalan|to be left behind; to miss|v;v
 kekurangan|shortage, lack; shortcoming, flaw|o;o
@@ -5341,7 +5341,7 @@ keindahan|beauty|o
 kejuaraan|championship|o
 kesamaan|similarity|o
 keterampilan|skill|o
-kelelahan|exhaustion|o
+kelelahan|exhaustion; exhausted|o;o
 kedutaan|embassy|o
 kepribadian|personality|o
 kehadiran|presence, attendance|o
@@ -5351,10 +5351,10 @@ kesetiaan|loyalty|o
 kemanusiaan|humanity|o
 kesadaran|consciousness, awareness|o
 kekalahan|defeat|o
-kebingungan|confusion|o
+kebingungan|confusion; confused|o;o
 kesabaran|patience|o
 kecerdasan|intelligence|o
-kecanduan|addiction|o
+kecanduan|addiction; addicted|o;o
 ketenangan|calm, composure|o
 kesaksian|testimony|o
 kebocoran|leak|o
@@ -5382,13 +5382,13 @@ kemaluan|genitals; shame|o;o
 kesuksesan|success|o
 keterangan|information, statement|o
 kejayaan|glory, heyday|o
-kenaikan|rise, increase|o
+kenaikan|rise, increase; Ascension (Christian holiday)|o;o
 kebersihan|cleanliness|o
 kehamilan|pregnancy|o
 kecurigaan|suspicion|o
 kesukaan|favourite; liking|o;o
 kejaksaan|prosecutor's office|o
-kelewatan|excessive, too much|o
+kelewatan|excessive, too much; to miss, go past (colloq.)|o;v
 kelangsungan|continuity|o
 keheningan|silence|o
 keanehan|oddity, strangeness|o
@@ -5400,7 +5400,7 @@ kepuasan|satisfaction|o
 kerasukan|to be possessed|v
 keterlibatan|involvement|o
 kenikmatan|pleasure, enjoyment|o
-keracunan|poisoning|o
+keracunan|poisoning; to be poisoned|o;v
 kemauan|will, willingness|o
 kehangatan|warmth|o
 kejauhan|distance; too far|o;o
@@ -5451,11 +5451,11 @@ kementerian|ministry|o
 kebalikan|the opposite|o
 kesucian|purity, sanctity|o
 kepikiran|to have on one's mind|v
-kekeringan|drought|o
+kekeringan|drought; to dry out|o;v
 kesunyian|solitude, silence|o
 keliatan|to appear, seem (colloq.)|v
 kebesaran|greatness; too big|o;o
-kehausan|thirst|o
+kehausan|thirsty, parched; thirst|o;o
 kesendirian|solitude|o
 kecemburuan|jealousy|o
 kepunyaan|belonging, property|o
@@ -5469,8 +5469,8 @@ petugas|officer, official|o
 penjaga|guard, keeper|o
 pengacara|lawyer|o
 pemimpin|leader|o
-petunjuk|instruction, clue|o
-pemain|player|o
+petunjuk|instruction; clue|o;o
+pemain|player; actor, cast member|o;o
 penyakit|disease, illness|o
 pencuri|thief|o
 pemilik|owner|o
@@ -5508,7 +5508,7 @@ penjual|seller|o
 pengunjung|visitor|o
 pengaman|safety device|o
 pengganti|replacement, substitute|o
-pembawa|carrier, bearer|o
+pembawa|carrier, bearer; pembawa acara: presenter, host|o;n
 pengasuh|caregiver, nanny|o
 pemandu|guide|o
 pewaris|heir|o
@@ -5550,7 +5550,7 @@ pencipta|creator|o
 pembela|defender|o
 pesulap|magician|o
 pemarah|bad-tempered|o
-pembangkit|generator|o
+pembangkit|generator; pembangkit listrik: power plant|o;n
 pengungsi|refugee|o
 pemakan|eater|o
 penculik|kidnapper|o
@@ -5584,7 +5584,7 @@ pesiar|cruise, pleasure trip|o
 pengendara|rider, motorist|o
 penyidik|investigator|o
 pemerkosa|rapist|o
-pemilih|voter|o
+pemilih|voter; picky, choosy|o;o
 penanda|marker|o
 pendengar|listener|o
 penyelundup|smuggler|o
@@ -5599,7 +5599,7 @@ penyewa|tenant, renter|o
 pemanas|heater|o
 penghilang|remover|o
 pemberi|giver|o
-pengiring|escort, accompanist|o
+pengiring|escort; accompanist|o;o
 pembatas|divider, barrier|o
 penjudi|gambler|o
 pengatur|regulator|o
@@ -5611,7 +5611,7 @@ peniru|imitator|o
 penderita|sufferer, patient|o
 penyendiri|loner|o
 pemeriksa|inspector|o
-pengalih|diverter|o
+pengalih|diverter; pengalih perhatian: distraction|o;n
 penyadap|wiretapper|o
 pembicara|speaker|o
 pejalan|pedestrian|o
@@ -5645,7 +5645,7 @@ penantang|challenger|o
 pelempar|thrower|o
 pengirim|sender|o
 pemimpi|dreamer|o
-penghibur|entertainer|o
+penghibur|entertainer; comfort, consolation|o;o
 pengadilan|court, trial|o
 penerbangan|flight, aviation|o
 pengalaman|experience|o
@@ -5657,7 +5657,7 @@ penampilan|appearance; performance|o;o
 pegunungan|mountain range|o
 pengorbanan|sacrifice|o
 pengobatan|treatment, medication|o
-pengakuan|confession, admission|o
+pengakuan|confession, admission; recognition|o;o
 peperangan|warfare|o
 penyimpanan|storage|o
 penglihatan|eyesight, vision|o
@@ -5680,7 +5680,7 @@ penyiksaan|torture|o
 peningkatan|increase, improvement|o
 pembangunan|development, construction|o
 penginapan|lodging, inn|o
-pendekatan|approach|o
+pendekatan|approach; getting close to someone (courtship)|o;o
 penampungan|shelter|o
 penghormatan|tribute, honouring|o
 pencegahan|prevention|o
@@ -5695,7 +5695,7 @@ penampakan|apparition, sighting|o
 penolakan|rejection, refusal|o
 pengejaran|pursuit, chase|o
 pengujian|testing|o
-pengunduran|resignation, postponement|o
+pengunduran|resignation; postponement|o;o
 penurunan|decrease, decline|o
 pengambilan|taking, collection|o
 pendaftaran|registration|o
@@ -5704,13 +5704,13 @@ penghasilan|income, earnings|o
 pengusiran|expulsion|o
 penyergapan|ambush|o
 pengangguran|unemployment|o
-penyelesaian|solution, settlement|o
+penyelesaian|solution, settlement; completion|o;o
 pemboman|bombing|o
 peninggalan|legacy, remains|o
 penyebaran|spread, distribution|o
 pemindahan|transfer, relocation|o
 pengeboman|bombing|o
-pengeluaran|expenditure, output|o
+pengeluaran|expenditure; output|o;o
 pemasaran|marketing|o
 pengasingan|exile, isolation|o
 penyesuaian|adjustment|o
@@ -5761,7 +5761,7 @@ perubahan|change|o
 pertandingan|match, contest|o
 permintaan|request, demand|o
 pertunjukan|show, performance|o
-pelajaran|lesson, subject|o
+pelajaran|lesson; subject (at school)|o;o
 peringatan|warning; commemoration|o;o
 perlindungan|protection|o
 perjanjian|agreement, treaty|o
@@ -5786,8 +5786,8 @@ perayaan|celebration|o
 perbuat|to do, commit|v
 perguruan|educational institution; perguruan tinggi: university, college|o;n
 perkelahian|fight, brawl|o
-perdagangan|trade, commerce|o
-perpisahan|farewell, parting|o
+perdagangan|trade, commerce; perdagangan manusia: human trafficking|o;n
+perpisahan|farewell, parting; separation, breakup|o;o
 perawan|virgin|o
 pertolongan|help, aid|o
 persediaan|supply, stock|o
@@ -5810,7 +5810,7 @@ perlengkapan|gear, equipment|o
 perjuangan|struggle|o
 pelajar|student, pupil|o
 pertengahan|middle, mid-|o
-perhitungan|calculation|o
+perhitungan|calculation; stingy, calculating (colloq.)|o;o
 perkumpulan|association, club|o
 persembunyian|hiding place|o
 perlombaan|race, competition|o
@@ -5871,7 +5871,7 @@ peretas|hacker|o
 perjamuan|banquet, feast|o
 perkenalan|introduction|o
 pelawak|comedian|o
-perbandingan|comparison|o
+perbandingan|comparison; ratio|o;o
 perbincangan|discussion, talk|o
 peregangan|stretching|o
 perekam|recorder|o
@@ -5888,8 +5888,8 @@ serangan|attack|o
 pakaian|clothing|o
 ruangan|room|o
 catatan|note, record|o
-tujuan|goal, purpose, destination|o
-panggilan|call, summons|o
+tujuan|goal, purpose; destination|o;o
+panggilan|call, summons; nickname, name one goes by|o;o
 minuman|drink, beverage|o
 harapan|hope, expectation|o
 urusan|affair, business|o
@@ -5898,10 +5898,10 @@ tembakan|gunshot|o
 jawaban|answer|o
 aturan|rule|o
 tindakan|action, measure|o
-kotoran|dirt, filth, faeces|o
+kotoran|dirt, filth; faeces|o;o
 pasangan|partner, pair|o
 kejutan|surprise|o
-lapangan|field, ground|o
+lapangan|field, ground; lapangan kerja: jobs, employment|o;n
 duluan|first, ahead (colloq.)|o
 jalanan|the streets|o
 tekanan|pressure|o
@@ -5935,9 +5935,9 @@ sungguhan|for real, genuine|o
 mainan|toy|o
 pemeriksaan|examination, inspection|o
 ingatan|memory|o
-bayangan|shadow, reflection|o
+bayangan|shadow, reflection; image, idea (in the mind)|o;o
 apaan|what? (colloq.)|o
-pandangan|view, outlook|o
+pandangan|view, outlook; gaze, glance|o;o
 potongan|piece, cut; discount|o;o
 pelatihan|training|o
 bayaran|pay, fee|o
@@ -5950,9 +5950,9 @@ tawaran|offer, bid|o
 belakangan|lately, recently; later, afterwards|o;o
 buatan|made by, of make; artificial|o;o
 balapan|race|o
-jaminan|guarantee, collateral|o
+jaminan|guarantee, collateral; bail|o;o
 lingkaran|circle|o
-sekalian|all at once; as well|o;o
+sekalian|all at once; as well; all (of you) (after a form of address)|o;o;o
 dukungan|support|o
 menyalakan|to turn on, light|v
 tuduhan|accusation|o
@@ -5960,10 +5960,10 @@ hitungan|count, calculation|o
 putaran|round, rotation|o
 tantangan|challenge|o
 jebakan|trap|o
-tulisan|writing, article|o
+tulisan|writing; article|o;o
 pengiriman|delivery, shipment|o
 kuburan|grave, cemetery|o
-tumpangan|a lift, ride|o
+tumpangan|a lift, ride; lodging, place to stay|o;o
 tagihan|bill, invoice|o
 tarian|dance|o
 penjualan|sale, sales|o
@@ -5984,8 +5984,8 @@ pujian|praise, compliment|o
 penculikan|kidnapping|o
 tuntutan|demand; lawsuit|o;o
 masukan|input, feedback|o
-penawaran|offer, bid|o
-pesanan|order (goods)|o
+penawaran|offer, bid; supply (economics)|o;o
+pesanan|order (goods); booking, reservation|o;o
 pacaran|to date, go out|v
 tunjukan|to show (variant of tunjukkan)|v
 salinan|copy|o
@@ -6010,7 +6010,7 @@ penipuan|fraud, deception|o
 tumpukan|pile, stack|o
 gigitan|bite|o
 pengkhianatan|betrayal, treason|o
-jagoan|champion, hero|o
+jagoan|champion, hero; tough guy, fighter|o;o
 campuran|mixture|o
 daratan|land, mainland|o
 ramuan|concoction, mixture|o
@@ -6019,7 +6019,7 @@ warisan|inheritance, heritage|o
 penyelamatan|rescue|o
 sentuhan|touch|o
 hidangan|dish, course|o
-harian|daily|o
+harian|daily; daily newspaper|o;o
 masakan|cooking, dish|o
 pembukaan|opening|o
 penembakan|shooting|o
@@ -6047,7 +6047,7 @@ tawanan|captive, prisoner|o
 peliharaan|pet, kept animal|o
 sayuran|vegetables|o
 jeritan|scream|o
-dugaan|suspicion, presumption|o
+dugaan|suspicion, presumption; di luar dugaan: unexpectedly|o;n
 jabatan|position, office|o
 penggunaan|use, usage|o
 pengaturan|arrangement, setting|o
@@ -6056,17 +6056,17 @@ obrolan|chat, conversation|o
 suntikan|injection|o
 tatapan|gaze, stare|o
 landasan|foundation; runway|o;o
-pecahan|fragment; fraction|o;o
+pecahan|fragment; fraction; denomination (of money)|o;o;o
 tendangan|kick|o
 paduan|blend, combination|o
 khayalan|fantasy, illusion|o
 pasokan|supply|o
 pengendalian|control|o
-sambutan|welcome, reception speech|o
+sambutan|welcome, reception speech; response (from the public)|o;o
 curian|stolen goods|o
 bakalan|going to (colloq.)|o
 tabrakan|collision, crash|o
-kenalan|acquaintance|o
+kenalan|acquaintance; to get acquainted (colloq.)|o;v
 panduan|guide, manual|o
 getaran|vibration|o
 lintasan|track, path|o
@@ -6075,12 +6075,12 @@ pinggiran|outskirts, fringe|o
 gulungan|roll, coil|o
 batasan|limit, boundary|o
 lompatan|jump, leap|o
-belahan|half, split|o
+belahan|half, split; belahan jiwa: soulmate|o;n
 sebutan|title, term|o
-pemberian|gift, grant|o
+pemberian|gift, grant; giving, provision (of aid, a vaccine)|o;o
 rancangan|design, draft|o
 erangan|groan, moan|o
-muatan|load, cargo|o
+muatan|load, cargo; content (e.g. muatan politik)|o;o
 lulusan|graduate|o
 senyuman|smile|o
 goresan|scratch, streak|o
@@ -6088,23 +6088,23 @@ pengalihan|diversion, transfer|o
 lagian|besides, anyway (colloq.)|o
 rendahan|low-grade, menial|o
 ayunan|swing|o
-penerimaan|acceptance, admission|o
+penerimaan|acceptance, admission; revenue, receipts|o;o
 hambatan|obstacle, barrier|o
 lemparan|throw|o
 pembersihan|cleaning, purge|o
 pembelaan|defence|o
 gabungan|combination, merger|o
 pendapatan|income, revenue|o
-simpanan|savings; stash|o;o
+simpanan|savings; stash; kept woman, mistress|o;o;o
 penyembuhan|healing, cure|o
 tabungan|savings|o
-sambungan|connection, extension|o
+sambungan|connection, extension; continuation (of a story)|o;o
 pembuatan|making, production|o
 pengamatan|observation|o
-percikan|splash, spark|o
+percikan|splash; spark|o;o
 pengintaian|surveillance, stakeout|o
 rintangan|obstacle, hurdle|o
-buruan|prey, quarry|o
+buruan|prey, quarry; hurry up! (colloq.)|o;o
 dataran|plain, plateau|o
 satuan|unit|o
 nyanyian|song, singing|o
@@ -6116,7 +6116,7 @@ ungkapan|expression, phrase|o
 terobosan|breakthrough|o
 miliaran|billions of|o
 gugatan|lawsuit, claim|o
-cetakan|print, edition, mould|o
+cetakan|print, edition; mould|o;o
 kurungan|cage; confinement|o;o
 lembaran|sheet, page|o
 karangan|essay, composition|o
@@ -6124,7 +6124,7 @@ golongan|group, category|o
 jahitan|stitch, sewing|o
 tiruan|imitation, fake|o
 saingan|rival, competition|o
-pemotongan|cutting, deduction|o
+pemotongan|cutting; deduction|o;o
 malahan|on the contrary, in fact|o
 tebakan|guess|o
 tusukan|stab, jab|o
@@ -6133,7 +6133,7 @@ pemerkosaan|rape|o
 tingkatan|level, tier|o
 godaan|temptation|o
 siksaan|torture, torment|o
-pengenalan|introduction, recognition|o
+pengenalan|introduction; recognition|o;o
 bimbingan|guidance, mentoring|o
 penutupan|closing, closure|o
 pembelian|purchase|o
@@ -6148,10 +6148,10 @@ samaran|disguise, alias|o
 lamaran|application; proposal|o;o
 bujangan|bachelor|o
 larangan|prohibition, ban|o
-ketukan|knock|o
+ketukan|knock; beat (in music)|o;o
 tontonan|show, spectacle|o
-bawaan|innate; belongings|o;o
-gantungan|hanger, hook|o
+bawaan|innate; belongings; default (setting)|o;o;o
+gantungan|hanger, hook; gantungan kunci: keyring|o;n
 antrian|queue, line|o
 pengamanan|securing, safeguarding|o
 hiasan|decoration, ornament|o
@@ -6163,8 +6163,8 @@ pencucian|washing, laundering|o
 pendengaran|hearing|o
 omongan|talk, words (colloq.)|o
 sekolahan|school (colloq.)|o
-pindahan|move, relocation|o
-sengatan|sting, shock|o
+pindahan|move, relocation; transfer (student)|o;o
+sengatan|sting; shock|o;o
 dekan|dean|o
 ciptaan|creation, work|o
 cucian|laundry, washing|o
@@ -6173,7 +6173,7 @@ tunjangan|allowance, benefit|o
 pensiunan|pensioner, retiree|o
 pancaran|emission, radiance|o
 tamparan|slap|o
-lanjutan|continuation, sequel|o
+lanjutan|continuation, sequel; advanced (of a level)|o;o
 semprotan|spray|o
 lusinan|dozens of|o
 manisan|sweets, candied fruit|o
@@ -6181,7 +6181,7 @@ gemetaran|trembling, shaking|o
 bawahan|subordinate|o
 parkiran|car park|o
 ulasan|review, commentary|o
-pemadaman|blackout, extinguishing|o
+pemadaman|blackout; extinguishing|o;o
 dakwaan|charge, indictment|o
 kepingan|fragment, piece|o
 ukiran|carving, engraving|o
@@ -6205,7 +6205,7 @@ ejekan|mockery, taunt|o
 sewaan|rental|o
 susunan|arrangement, structure|o
 sorotan|spotlight, highlight|o
-pasaran|market, market price|o
+pasaran|market, market price; common, run-of-the-mill (colloq.)|o;o
 bualan|boasting, tall tale|o
 genggaman|grip, grasp|o
 belokan|bend, turn|o
@@ -6250,7 +6250,7 @@ tertarik|interested; pulled|o;o
 terdengar|to be heard, sound|v
 terkenal|famous, well-known|o
 terserah|up to you, whatever|o
-termasuk|including|o
+termasuk|including; to be among, belong to|o;v
 terasa|to feel, be felt|v
 terbesar|biggest, largest|o
 terbakar|burnt, on fire|o
@@ -6267,7 +6267,7 @@ tertidur|to fall asleep|v
 terhormat|honourable, respected|o
 tersesat|lost, gone astray|o
 terkunci|locked|o
-tertutup|closed, covered|o
+tertutup|closed, covered; reserved, private (of a person)|o;o
 terbiasa|accustomed, used to|o
 tertembak|shot|o
 tertulis|written|o
@@ -6276,7 +6276,7 @@ terpisah|separated, apart|o
 terlebih|moreover, especially; terlebih dahulu: first, beforehand|o;n
 terhubung|connected|o
 terkesan|impressed; seeming|o;o
-terbangun|to wake up suddenly|v
+terbangun|to wake up suddenly; built, constructed|v;o
 terbaru|newest, latest|o
 tertinggi|highest, tallest|o
 terjatuh|to fall down|v
@@ -6300,12 +6300,12 @@ terlahir|born|o
 tertinggal|left behind|o
 tegang|tense, taut|o
 terduga|expected; suspected|o;o
-terbalik|upside down, reversed|o
+terbalik|upside down, reversed; inside out, back to front (of clothes)|o;o
 tersedia|available|o
 terkuat|strongest|o
 terbukti|proven|o
 terletak|located, situated|o
-terbenam|sunken, submerged|o
+terbenam|sunken, submerged; to set (of the sun)|o;v
 terperangkap|trapped|o
 terdaftar|registered|o
 tersebar|scattered, widespread|o
@@ -6336,12 +6336,12 @@ terdeteksi|detected|o
 terwujud|realised, materialised|o
 tergelincir|slipped, skidded|o
 tetua|elder|o
-tersangkut|caught, snagged|o
-tersandung|to trip, stumble|v
+tersangkut|caught, snagged; implicated (in a case)|o;o
+tersandung|to trip, stumble; to be caught up in (a scandal, case)|v;v
 terdiri|to consist of|v
-terbuang|discarded, wasted|o
-terbawa|carried away|o
-terhitung|counted, reckoned|o
+terbuang|discarded, wasted; exiled, cast out|o;o
+terbawa|carried away; taken along by mistake|o;o
+terhitung|counted, reckoned; as of, effective from|o;o
 terpasang|installed, fitted|o
 terindah|most beautiful|o
 terkurung|confined, caged|o
@@ -6367,7 +6367,7 @@ tergoda|tempted|o
 terinspirasi|inspired|o
 tertahan|held back, restrained|o
 terbongkar|uncovered, exposed|o
-terjepit|pinched, stuck|o
+terjepit|pinched, stuck; in a tight spot, cornered|o;o
 tertabrak|hit by a vehicle|o
 terisolasi|isolated|o
 terkecil|smallest|o
@@ -6395,7 +6395,7 @@ terlempar|thrown, flung|o
 terkini|latest, current|o
 terdepan|foremost, leading|o
 terhindar|avoided, spared|o
-tersadar|to come to one's senses|v
+tersadar|to come to one's senses; to regain consciousness, wake up|v;v
 terangkat|lifted, raised|o
 terkontaminasi|contaminated|o
 terlacak|traced, tracked|o
@@ -6427,11 +6427,11 @@ mengawasi|to supervise, watch over|v
 memasuki|to enter|v
 mempercayai|to trust, believe in|v
 menjalani|to undergo, live through|v
-mendekati|to approach|v
+mendekati|to approach; to try to get close to, court (someone)|v;v
 melayani|to serve, attend to|v
 mengunjungi|to visit|v
 menghormati|to respect, honour|v
-memenuhi|to fulfil, meet|v
+memenuhi|to fulfil, meet; to fill|v;v
 menghindari|to avoid|v
 mengakhiri|to end, conclude|v
 menguasai|to master, control|v
@@ -6504,8 +6504,8 @@ merasuki|to possess (of a spirit)|v
 meyakini|to be convinced of|v
 menempati|to occupy|v
 mencampuri|to interfere with|v
-menduduki|to occupy, sit on|v
-menelusuri|to trace, follow up|v
+menduduki|to occupy, sit on; to hold, rank (a position)|v;v
+menelusuri|to trace, follow up; to go along (a road, river)|v;v
 melengkapi|to complete, equip|v
 membuntuti|to tail, follow|v
 mengitari|to circle, go around|v
@@ -6519,7 +6519,7 @@ menyebrangi|to cross over (colloq.)|v
 mengirimi|to send to|v
 memandangi|to gaze at|v
 mengasihani|to pity|v
-melucuti|to strip, disarm|v
+melucuti|to strip; disarm|v;o
 membanjiri|to flood, inundate|v
 mendanai|to fund|v
 menodai|to stain, taint|v
@@ -6528,7 +6528,7 @@ memarahi|to scold|v
 menghianati|to betray|v
 menyertai|to accompany|v
 mengabari|to inform, notify|v
-kelabu|grey; deceptive|o;o
+kelabu|grey; deceptive; gloomy, dark (of a time or mood)|o;o;o
 begitu|so, like that, that much; (before a clause) as soon as|o;o
 berada|to be located; well-off|v;o
 bertemu|to meet|v
@@ -6582,8 +6582,8 @@ bertaruh|to bet|v
 berusia|to be aged|v
 berkumpul|to gather, assemble|v
 berlangsung|to take place, last|v
-berumur|to be aged|v
-berlalu|to pass by (of time)|v
+berumur|to be aged; elderly, getting on in years|v;o
+berlalu|to pass by (of time); to go away, walk off|v;v
 berburu|to hunt|v
 berkelahi|to fight, brawl|v
 berpakaian|to be dressed|v
@@ -6609,7 +6609,7 @@ bersinar|to shine|v
 berduka|to mourn, grieve|v
 bernafas|to breathe|v
 bertingkah|to act up, behave oddly|v
-berpisah|to part, separate|v
+berpisah|to part, separate; to break up (of a couple)|v;v
 berdansa|to dance|v
 berlutut|to kneel|v
 bercerita|to tell a story|v
@@ -6620,7 +6620,7 @@ bertiga|the three of us|o
 berlayar|to sail|v
 bertambah|to increase|v
 berbakat|talented|o
-berkuasa|to be in power|v
+berkuasa|to be in power; powerful|v;o
 berfikir|to think|v
 bersatu|to unite|v
 beraksi|to take action, perform|v
@@ -6633,14 +6633,14 @@ bercerai|to divorce|v
 bersyukur|to be grateful|v
 berkomunikasi|to communicate|v
 berdosa|sinful, to sin|o
-berhadapan|to face each other|v
+berhadapan|to face each other; to face, be up against|v;v
 berpesta|to party|v
 berlanjut|to continue|v
 bernilai|valuable, worth|o
 berkunjung|to visit|v
 berlindung|to take shelter|v
 berdaya|to have power; tidak berdaya: helpless|v;n
-berbunyi|to sound, ring|v
+berbunyi|to sound, ring; to read, say (of a text)|v;v
 berkendara|to drive|v
 bergaul|to socialise|v
 bersaudara|to be siblings|v
@@ -6679,7 +6679,7 @@ berciuman|to kiss each other|v
 berbahasa|to speak (a language)|v
 beresiko|risky|o
 bernegosiasi|to negotiate|v
-bersahabat|friendly|o
+bersahabat|friendly; to be friends|o;v
 bersedih|to be sad|v
 berasumsi|to assume|v
 berpencar|to scatter, split up|v
@@ -6725,18 +6725,18 @@ bermanfaat|beneficial, useful|o
 berpegang|to hold on to|v
 berkomitmen|committed|o
 berempat|the four of us|o
-berdiam|to stay, dwell|v
+berdiam|to stay, dwell; berdiam diri: to keep silent|v;n
 berkelas|classy|o
 berpacaran|to be dating|v
 beradaptasi|to adapt|v
 becanda|to joke (colloq.)|v
-beredar|to circulate|v
+beredar|to circulate; to orbit, revolve|v;v
 berdandan|to dress up|v
 bertepuk|to clap|v
 bertopeng|masked|o
 bermula|to begin|v
 bergoyang|to sway, shake|v
-bersandar|to lean|v
+bersandar|to lean; to dock, berth (of a ship)|v;v
 berfoto|to take photos|v
 berkilau|to sparkle|v
 bebatuan|rocks|o
@@ -6744,7 +6744,7 @@ beranggapan|to assume|v
 berujung|to end in|v
 bermata|to have eyes|v
 bersekolah|to attend school|v
-bergaya|stylish, to pose|o
+bergaya|stylish; to pose|o;v
 berkhianat|to betray|v
 bersekongkol|to conspire|v
 berbaur|to mingle|v
@@ -6754,7 +6754,7 @@ berdebar|to pound (of the heart)|v
 bersejarah|historic|o
 berjarak|to be at a distance of|v
 bertahun|for years|o
-beralasan|reasonable, justified|o
+beralasan|reasonable, justified; to give as a reason, argue|o;v
 berpelukan|to hug each other|v
 berkarat|rusty|o
 bersyarat|conditional|o
@@ -6803,7 +6803,7 @@ berinteraksi|to interact|v
 berpatroli|to patrol|v
 bergembira|to rejoice|v
 bernasib|to have a fate|v
-bergulir|to roll, scroll|v
+bergulir|to roll, scroll; to get underway, unfold (of events)|v;v
 berpidato|to give a speech|v
 beriman|to have faith|v
 bermoral|moral|o
@@ -6841,10 +6841,10 @@ bermurah|to be generous (bermurah hati)|v
 berotot|muscular|o
 bermutasi|to mutate|v
 bergulat|to wrestle|v
-berhubung|since, because of|o
+berhubung|since, because of; to be connected, related|o;v
 bermuka|to have a face; bermuka dua: two-faced|v;n
 beragam|varied, diverse|o
-bersarang|to nest|v
+bersarang|to nest; to lodge (of a bullet); to find the net (of a ball)|v;v;v
 berpura|to pretend (berpura-pura)|v
 berpura-pura|to pretend, feign|v
 berfokus|to focus|v
@@ -6891,7 +6891,7 @@ membuktikan|to prove|v
 mengucapkan|to utter, express|v
 mengirimkan|to send|v
 menceritakan|to tell, narrate|v
-menyerahkan|to hand over, surrender|v
+menyerahkan|to hand over; to surrender; to leave (it) to, entrust|v;v;v
 menyebalkan|annoying|o
 memalukan|embarrassing, shameful|o
 menanyakan|to ask about|v
@@ -6918,8 +6918,8 @@ mengharapkan|to hope for, expect|v
 menyalahkan|to blame|v
 mengejutkan|surprising, shocking; to surprise, startle|o;v
 menyingkirkan|to get rid of|v
-menjatuhkan|to drop, bring down|v
-menyaksikan|to witness|v
+menjatuhkan|to drop, bring down; to impose (a sentence, sanction)|v;v
+menyaksikan|to witness; to watch (a show, match)|v;v
 menyiapkan|to prepare|v
 merencanakan|to plan|v
 menjijikkan|disgusting|o
@@ -6933,7 +6933,7 @@ mengingatkan|to remind|v
 memindahkan|to move, transfer|v
 menentukan|to determine|v
 membebaskan|to free, liberate|v
-menghilangkan|to remove, eliminate|v
+menghilangkan|to remove, eliminate; to lose|v;v
 meningkatkan|to increase, improve|v
 mengesankan|impressive; to give the impression|o;v
 meledakkan|to blow up, detonate|v
@@ -6943,9 +6943,9 @@ mengabaikan|to ignore, neglect|v
 mengajarkan|to teach|v
 mengorbankan|to sacrifice|v
 memungkinkan|to enable, make possible|v
-mematahkan|to break, snap|v
+mematahkan|to break, snap; to refute (an argument)|v;v
 memaafkan|to forgive|v
-melahirkan|to give birth to|v
+melahirkan|to give birth to; to produce, give rise to|v;v
 membatalkan|to cancel|v
 melibatkan|to involve|v
 memanfaatkan|to make use of, exploit|v
@@ -6991,11 +6991,11 @@ mempekerjakan|to employ|v
 membangunkan|to wake someone up|v
 mengundurkan|to postpone; to resign|v;v
 membuatkan|to make for someone|v
-mengamankan|to secure|v
+mengamankan|to secure; to detain, take into custody (of police)|v;v
 membelikan|to buy for someone|v
 menetapkan|to establish, fix|v
 mengijinkan|to permit (alt. spelling)|v
-membereskan|to tidy up, sort out|v
+membereskan|to tidy up, sort out; to finish off, take care of (someone)|v;v
 menyesuaikan|to adjust, adapt|v
 menuliskan|to write down|v
 membangkitkan|to arouse, generate|v
@@ -7004,18 +7004,18 @@ memuaskan|satisfying; to satisfy|o;v
 melaksanakan|to carry out, implement|v
 menjauhkan|to keep away|v
 menaikkan|to raise, increase|v
-mendirikan|to establish, found|v
+mendirikan|to establish, found; to erect, put up (a building, tent)|v;v
 mengaktifkan|to activate|v
 menaklukkan|to conquer|v
 menembakkan|to fire (a weapon)|v
 menampilkan|to display, present|v
-merepotkan|troublesome|o
+merepotkan|troublesome; to trouble, inconvenience|o;v
 menerbangkan|to fly (something)|v
 meluncurkan|to launch|v
 melumpuhkan|to paralyse, disable|v
 menyimpulkan|to conclude|v
 meneruskan|to continue, pass on|v
-menumpahkan|to spill|v
+menumpahkan|to spill; to pour out (feelings)|v;v
 memalsukan|to falsify, forge|v
 melainkan|but rather|o
 memaksakan|to force, impose|v
@@ -7024,10 +7024,10 @@ menggerakkan|to move, drive|v
 memulihkan|to restore, recover|v
 merendahkan|to humiliate, lower|v
 mendiskusikan|to discuss|v
-menggelikan|amusing, ticklish|o
+menggelikan|amusing; ticklish|o;o
 memusnahkan|to annihilate, wipe out|v
 merahasiakan|to keep secret|v
-membenarkan|to justify, confirm|v
+membenarkan|to confirm; to justify; to fix, adjust (e.g. one's position)|v;v;v
 membacakan|to read aloud|v
 membalikkan|to turn over, reverse|v
 memimpikan|to dream of|v
@@ -7045,9 +7045,9 @@ membocorkan|to leak|v
 menegaskan|to affirm, stress|v
 menodongkan|to point (a weapon)|v
 mengosongkan|to empty, vacate|v
-menggemaskan|adorable|o
+menggemaskan|adorable; exasperating, annoying|o;o
 mencemaskan|to worry about; worrying|v;o
-meluruskan|to straighten|v
+meluruskan|to straighten; to set right, clarify (a misunderstanding)|v;v
 melegakan|relieving|o
 mencarikan|to find for someone|v
 menertawakan|to laugh at|v
@@ -7058,8 +7058,8 @@ melenyapkan|to make disappear|v
 meluangkan|to set aside (time)|v
 mengemudikan|to drive, steer|v
 meringankan|to lighten, ease|v
-menuangkan|to pour|v
-mendatangkan|to bring in, import|v
+menuangkan|to pour; to set down, express (ideas in writing)|v;v
+mendatangkan|to bring in, import; to bring about, cause|v;v
 mengambilkan|to fetch for someone|v
 menerapkan|to apply, implement|v
 menggagalkan|to thwart, foil|v
@@ -7075,7 +7075,7 @@ memadamkan|to extinguish|v
 menargetkan|to target|v
 memamerkan|to show off, exhibit|v
 menghangatkan|to warm up|v
-membagikan|to distribute|v
+membagikan|to distribute; to share (online)|v;v
 mengherankan|puzzling, surprising|o
 menggairahkan|exciting, arousing|o
 mengekspresikan|to express|v
@@ -7084,14 +7084,14 @@ menginjakkan|to set foot|v
 membekukan|to freeze|v
 mengenalkan|to introduce|v
 merapikan|to tidy up|v
-menegakkan|to uphold, erect|v
+menegakkan|to uphold; erect|v;o
 mementingkan|to prioritise|v
-menerbitkan|to publish|v
+menerbitkan|to publish; to issue (a permit, bond)|v;v
 mencerminkan|to reflect|v
 membanggakan|to make proud|v
 menguatkan|to strengthen|v
 menegangkan|tense, gripping|o
-memancarkan|to emit, broadcast|v
+memancarkan|to emit; broadcast|v;o
 merelakan|to let go willingly|v
 membiasakan|to accustom|v
 menandakan|to indicate, signify|v
@@ -7110,7 +7110,7 @@ memuakkan|sickening, nauseating|o
 mempercayakan|to entrust|v
 meruntuhkan|to bring down, demolish|v
 menyulitkan|to complicate|v
-menggulingkan|to overthrow, roll|v
+menggulingkan|to overthrow; roll|v;o
 mencalonkan|to nominate|v
 melecehkan|to harass, demean|v
 menjernihkan|to clarify, purify|v
@@ -7120,9 +7120,9 @@ mengagetkan|startling|o
 melambaikan|to wave|v
 mendaratkan|to land (something)|v
 menyalurkan|to channel, distribute|v
-menanamkan|to instil, plant|v
+menanamkan|to instil, plant; to invest (capital)|v;v
 membahagiakan|to make happy|v
-menyesatkan|misleading|o
+menyesatkan|misleading; to lead astray|o;v
 menjinakkan|to tame|v
 menyuntikkan|to inject|v
 membolehkan|to allow|v
@@ -7261,7 +7261,7 @@ selamanya|forever, for good|o
 harusnya|should have, ought to (colloquial)|o
 biasanya|usually, normally|o
 selanjutnya|next, after that|o
-bukannya|it is not that, rather than|f3s
+bukannya|it is not that; rather than; isn't it? (in questions)|f3s;o;o
 keduanya|both of them, the two of them|o
 sayangnya|unfortunately, sadly|o
 rupanya|apparently, as it turns out|o
@@ -7289,7 +7289,7 @@ kebagian|to get a share of, to get some|v
 kerak|crust, crusty layer|o
 merak|peacock|o
 berak|to defecate, take a dump (crude)|v
-ketahanan|endurance, resilience, resistance|o
+ketahanan|endurance, resilience, resistance; security (of food or energy supply)|o;o
 tebus|to redeem, pay off; to ransom|v;v
 mewah|luxurious, lavish|o
 koki|cook, chef|o
@@ -7307,11 +7307,11 @@ penyok|dented|o
 kebiri|to castrate, neuter|v
 kebab|kebab|o
 serasi|well-matched, in harmony|o
-kupas|to peel, to skin|v
+kupas|to peel, to skin; to analyse, discuss in depth|v;v
 kuras|to drain, empty out|v
 kubang|to wallow (in mud) (kubangan: puddle, wallow)|v
 upil|booger, nasal mucus|o
-urap|to anoint, rub with oil|v
+urap|to anoint, rub with oil; vegetables with spiced grated coconut|v;o
 kupon|coupon, voucher|o
 kubis|cabbage|o
 kubus|cube|o
@@ -7340,7 +7340,7 @@ ikat pinggang|belt|o
 jam tangan|wristwatch, watch|o
 resleting|zip, zipper|o
 ritsleting|zip, zipper|o
-lengket|sticky|o
+lengket|sticky; inseparable, clingy (of people, colloq.)|o;o
 mentimun|cucumber|o
 timun|cucumber|o
 terong|aubergine, eggplant|o
@@ -7356,7 +7356,7 @@ musyrik|one who ascribes partners to God, polytheist|o
 bertakwa|to be god-fearing, to be pious|v
 yah|well, oh (resigned or softening)|o
 video|video|o
-rezeki|livelihood, sustenance (esp. as granted by God)|o
+rezeki|livelihood, sustenance (esp. as granted by God); good fortune, luck|o;o
 barangsiapa|whoever, anyone who|o
 berfirman|to speak, to decree (of God)|v
 zalim|cruel, unjust, tyrannical|o
@@ -7466,7 +7466,7 @@ kian|increasingly, more and more|o
 konservasi|conservation|o
 sanitasi|sanitation|o
 surah|surah, a chapter of the Quran|o
-rujukan|reference, referral|o
+rujukan|reference; referral|o;o
 manga|manga|o
 operator|operator|o
 kebajikan|virtue, goodness|o
@@ -7533,7 +7533,7 @@ keridaan|divine pleasure, approval|o
 riba|usury, interest (forbidden in Islam)|o
 farmasi|pharmacy|o
 memitigasi|to mitigate|v
-pemangku|holder of an office, custodian|o
+pemangku|holder of an office, custodian; pemangku kepentingan: stakeholder|o;n
 ultrasonik|ultrasonic|o
 real|real, actual (= riil)|o
 biak|to breed, to multiply (usu. berkembang biak)|v
@@ -7577,7 +7577,7 @@ strip|stripe, dash; strip|o;o
 konstan|constant, steady|o
 hemoglobin|haemoglobin|o
 ibukota|capital city|o
-token|token|o
+token|token; prepaid electricity credit (colloq.)|o;o
 domain|domain|o
 hisab|reckoning, calculation; the Reckoning (on the Day of Judgement)|o;o
 malapetaka|disaster, calamity|o
@@ -7597,8 +7597,8 @@ kompatibel|compatible|o
 bilateral|bilateral|o
 dinamika|dynamics|o
 teka-teki|puzzle, riddle|o
-premium|premium, top grade|o
-mengukuhkan|to confirm, to affirm, to strengthen|v
+premium|premium, top grade; Premium (low-octane petrol)|o;o
+mengukuhkan|to confirm, to affirm, to strengthen; to install, to inaugurate (officially)|v;v
 kuantitas|quantity|o
 talak|divorce (pronounced by the husband)|o
 smartphone|smartphone|o
@@ -7706,7 +7706,7 @@ sunah|sunnah, the Prophet's practice; recommended but not obligatory|o;o
 legislatif|legislative|o
 optimal|optimal|o
 anabolik|anabolic|o
-anjlok|to plunge, to drop sharply|v
+anjlok|to plunge, to drop sharply; to derail (of a train)|v;v
 deforestasi|deforestation|o
 digitalisasi|digitalisation|o
 nasionalisme|nationalism|o
@@ -7739,7 +7739,7 @@ palet|pallet; palette|o;o
 stylist|stylist|o
 utilitas|utility|o
 wafat|to pass away, to die (respectful)|v
-basa|base, alkali|o
+basa|base, alkali; basa-basi: small talk, pleasantries|o;n
 vena|vein|o
 angan-angan|daydream, fancy; aspiration|o;o
 ghaib|unseen, hidden, supernatural|o
@@ -7951,7 +7951,7 @@ fitting|lamp holder, fitting|o
 jazz|jazz|o
 nonaktif|inactive, suspended from duty|o
 desimal|decimal|o
-kontras|contrast|o
+kontras|contrast; contrasting, in stark contrast|o;o
 analog|analogue|o
 andaikata|supposing that, if|o
 berangsur-angsur|gradually, little by little|o
@@ -7992,7 +7992,7 @@ pengecoran|casting, pouring (of concrete or metal)|o
 ujar|to say; utterance|v;o
 casing|casing|o
 cor|cast concrete; to pour, to cast|o;v
-debit|flow rate, discharge|o
+debit|flow rate, discharge; debit (banking)|o;o
 obyek|object|o
 blower|blower|o
 subtropis|subtropical|o
@@ -8005,7 +8005,7 @@ watt|watt|o
 antimikroba|antimicrobial|o
 budi|character, good sense; kindness|o;o
 gamis|long robe|o
-khusyuk|devout, absorbed in prayer|o
+khusyuk|devout, absorbed in prayer; engrossed, absorbed (in anything)|o;o
 mengkaji|to study, to examine|v
 multinasional|multinational|o
 sosio-ekonomi|socio-economic|o
@@ -8087,7 +8087,7 @@ vital|vital|o
 linier|linear|o
 penyunting|editor|o
 koefisien|coefficient|o
-tangkai|stalk, stem; handle|o;o
+tangkai|stalk, stem; handle; (counter for flowers)|o;o;g
 boom|boom|o
 ester|ester|o
 integral|integral|o
@@ -8136,7 +8136,7 @@ rasisme|racism|o
 retensi|retention|o
 silih|in turn, alternately (silih berganti)|o
 syahwat|carnal desire, lust|o
-umpama|for example; like, as|o;o
+umpama|for example; like, as; supposing, if|o;o;o
 uzur|infirm, aged; valid excuse|o;o
 zaqqum|zaqqum, the infernal tree named in the Quran|o
 penutur|speaker (of a language)|o
@@ -8200,7 +8200,7 @@ laba|profit, gain|o
 torium|thorium|o
 polinomial|polynomial|o
 spontan|spontaneous|o
-bodi|body (of a vehicle)|o
+bodi|body (of a vehicle); figure, physique (colloq.)|o;o
 pemukim|settler|o
 rubel|rouble|o
 wallpaper|wallpaper|o
@@ -8255,7 +8255,7 @@ budidaya|cultivation, farming|o
 konsistensi|consistency|o
 asupan|intake|o
 dioptimalkan|to be optimised|v
-relasi|relation, connection|o
+relasi|relation, connection; (business) contact, acquaintance|o;o
 subfamili|subfamily|o
 filtrasi|filtration|o
 mazhab|school of Islamic law; school of thought|o;o
@@ -8327,7 +8327,7 @@ sinkronisasi|synchronisation|o
 bejana|vessel, container|o
 bergelimpangan|to lie strewn about|v
 dahaga|thirst|o
-dalil|proof text, scriptural argument|o
+dalil|proof text, scriptural argument; argument, grounds (for a claim)|o;o
 jizyah|poll tax levied on non-Muslims|o
 kemahaesaan|the oneness of God|o
 kemungkaran|wrongdoing, evil|o
@@ -8541,7 +8541,7 @@ bening|clear, transparent|o
 klem|clamp|o
 microwave|microwave|o
 multimedia|multimedia|o
-pucuk|shoot, bud; tip, top|o;o
+pucuk|shoot, bud; tip, top; classifier for letters, firearms|o;o;o
 sentrifugal|centrifugal|o
 charger|charger|o
 diagonal|diagonal|o
@@ -8646,7 +8646,7 @@ filosofis|philosophical|o
 glikolisis|glycolysis|o
 headset|headset|o
 karbondioksida|carbon dioxide|o
-kisi|grid, grating; lattice|o;o
+kisi|grid, grating; lattice; kisi-kisi: exam outline, hints on what will be tested|o;o;n
 spindle|spindle|o
 thriller|thriller|o
 transpor|transport|o
@@ -8691,7 +8691,7 @@ jackpot|jackpot|o
 sejarahwan|historian|o
 tangkis|to parry, to ward off|v
 komentator|commentator|o
-pala|nutmeg|o
+pala|nutmeg; head (colloq., = kepala)|o;o
 ranting|twig; local branch (of an organisation)|o;o
 androgen|androgen|o
 berdaulat|sovereign|o
@@ -8782,7 +8782,7 @@ menaungi|to shelter; to oversee|v;v
 menghardik|to snap at, to rebuke harshly|v
 menyandangkan|to confer on, to hang on|v
 mihrab|prayer niche|o
-penangkaran|captive breeding, a breeding facility|o
+penangkaran|captive breeding; a breeding facility|o;o
 ridha|pleasure, approval (of God); content|o;o
 shower|shower|o
 tutur|speech, words; to speak|o;v
@@ -8814,7 +8814,7 @@ ornamen|ornament|o
 protagonis|protagonist|o
 rotavirus|rotavirus|o
 termodinamika|thermodynamics|o
-wacana|discourse|o
+wacana|discourse; idea, proposal (still under discussion)|o;o
 abjad|alphabet|o
 basisdata|database|o
 engsel|hinge|o
@@ -8830,7 +8830,7 @@ mantera|spell, incantation|o
 mustard|mustard|o
 spiritualitas|spirituality|o
 hipertensi|hypertension|o
-lajur|lane, column, strip|o
+lajur|lane; column, strip|o;o
 panji|banner, standard|o
 ragi|yeast; ferment|o;o
 rusun|walk-up flat block|o
@@ -8839,7 +8839,7 @@ bertajuk|entitled, headed|o
 dispersi|dispersion|o
 gelanggang|arena, ring|o
 liturgi|liturgy|o
-majemuk|plural, compound, composite|o
+majemuk|plural; compound, composite|o;o
 mezbah|altar|o
 offset|offset|o
 penampang|cross-section|o
@@ -9109,7 +9109,7 @@ kondusif|conducive|o
 konsolidasi|consolidation|o
 liberalisme|liberalism|o
 malware|malware|o
-mengucurkan|to pour out, to disburse|v
+mengucurkan|to pour out; to disburse|v;v
 meningitis|meningitis|o
 monitoring|monitoring|o
 non-fosil|non-fossil|o
@@ -9134,7 +9134,7 @@ tunggakan|arrears, outstanding debt|o
 veto|veto|o
 bip|beep|o
 bushing|bushing|o
-jamaah|congregation, body of worshippers|o
+jamaah|congregation, body of worshippers; worshipper, pilgrim (individual member)|o;o
 lumen|lumen|o
 pertussis|pertussis|o
 rejan|whooping; batuk rejan: whooping cough|o;n
@@ -9144,7 +9144,7 @@ atensi|attention|o
 bajing|squirrel|o
 buletin|bulletin|o
 corat-coret|scribbling, graffiti|o
-dirujuk|to be referred to, to be consulted|v
+dirujuk|to be referred to, to be consulted; to be referred (of a patient, to a hospital)|v;v
 gantry|gantry|o
 klad|clade|o
 kosmis|cosmic|o
@@ -9265,7 +9265,7 @@ nuthfah|sperm drop, germ cell|o
 penghisaban|the calling to account, the reckoning|o
 pengukuh|a reinforcement, that which strengthens|o
 pernis|varnish|o
-poli|poly-|o
+poli|poly-; outpatient clinic (in a hospital)|o;o
 proxy|proxy|o
 rakaat|a unit of the ritual prayer|o
 rangkuman|summary|o
@@ -9286,7 +9286,7 @@ non-anyaman|non-woven|o
 rupiah|rupiah|o
 trendi|trendy|o
 centang|tick, check mark|o
-colokan|socket, plug point|o
+colokan|socket, plug point; plug|o;o
 developer|developer|o
 dinonaktifkan|to be deactivated, to be suspended|v
 ebook|ebook|o
@@ -9326,7 +9326,7 @@ ketupat|rice cake boiled in a woven palm pouch|o
 koresponden|correspondent|o
 likuid|liquid|o
 marginalisasi|marginalisation|o
-mengenyam|to taste, to experience|v
+mengenyam|to experience; to taste|v;v
 mengerami|to brood, to incubate|v
 menjabarkan|to spell out, to elaborate|v
 menormalisasi|to normalise|v
@@ -9661,7 +9661,7 @@ verbal|verbal|o
 almond|almond|o
 bogie|bogie|o
 dalang|puppeteer; mastermind|o;o
-disunting|to be edited|v
+disunting|to be edited; to be taken as a wife|v;v
 engkol|crank|o
 interferensi|interference|o
 komedian|comedian|o
@@ -9822,7 +9822,7 @@ pinta|request, wish|o
 bertapa|to meditate in seclusion, to live as an ascetic|v
 keraton|palace (of a Javanese ruler)|o
 nakhoda|ship's captain, skipper|o
-pinang|areca nut, betel nut|o
+pinang|areca nut, betel nut; to propose (marriage) to|o;v
 dian|lamp, candle|o
 reka|to devise, to invent|v
 tuk|for, to (colloq., = untuk)|o
@@ -10258,7 +10258,7 @@ suling|bamboo flute|o
 taut|joined, linked (usu. bertaut)|o
 warta|news, report|o
 berkutik|to budge, to stir; tidak berkutik: helpless, powerless to act|v;n
-bertandang|to pay a visit|v
+bertandang|to pay a visit; to play away (sport)|v;v
 dulang|tray; pan (for panning gold)|o;o
 hardik|harsh rebuke, snarl|o
 ikal|curly, wavy (of hair)|o
@@ -10278,7 +10278,7 @@ gelatik|Java sparrow|o
 kelu|tongue-tied, mute|o
 lipan|centipede|o
 membahana|to resound, to echo|v
-nangkap|to catch (colloq., = menangkap)|v
+nangkap|to catch (colloq., = menangkap); to get, understand (colloq.)|v;v
 bergotong-royong|to work together, to cooperate|v
 hara|nutrient; huru-hara: riot, turmoil|o;n
 kasa|gauze|o
@@ -10319,7 +10319,7 @@ jagad|world, universe (= jagat)|o
 menjulur|to stick out, to extend|v
 antarmanusia|between people, interpersonal|o
 bertatahkan|studded with, inlaid with|o
-gayung|water dipper, scoop|o
+gayung|water dipper, scoop; gayung bersambut: the overture was reciprocated|o;n
 gudeg|gudeg (young jackfruit stew)|o
 insaf|aware, conscious; repentant|o;o
 jalar|creeping, spreading (usu. menjalar)|o
@@ -10364,23 +10364,23 @@ sukur|thank God (= syukur)|o
 terbirit-birit|helter-skelter, in a panic (of running away)|o
 berdecak|to click the tongue|v
 ditabuh|beaten, played (of a drum or gong)|o
-gerah|sultry, stuffy, hot|o
+gerah|sultry, stuffy, hot; fed up, irked (fig.)|o;o
 jukung|dugout canoe|o
 menyeringai|to grin, to grimace|v
-menyeruak|to push one's way through, to burst through|v
+menyeruak|to push one's way through, to burst through; to come to light, surface (of an issue)|v;v
 merambah|to clear (forest); to expand into|v;v
 merang|rice straw|o
 ngajak|to invite, to ask along (colloq., = mengajak)|v
 oleng|to roll, to lurch, to sway|v
 rona|colour, hue; complexion|o;o
-terhenyak|stunned, taken aback|o
+terhenyak|stunned, taken aback; to slump (into a seat)|o;v
 alaikum|assalamu alaikum: peace be upon you|n
 deskriptif|descriptive|o
 dianyam|woven, plaited|o
 hiruk-pikuk|hustle and bustle, din|o
 jangkung|tall, lanky|o
 melerai|to break up (a fight), to separate (fighters)|v
-menanjak|to climb, to go uphill|v
+menanjak|to climb, to go uphill; to rise (of a career, prices)|v;v
 menubruk|to crash into, to bump into; to pounce on|v;v
 nagasari|nagasari (steamed banana cake)|o
 pelik|complicated, intricate|o
@@ -10514,7 +10514,7 @@ diparang|hacked (with a machete)|o
 kalimah|word, phrase (esp. a religious formula)|o
 lagak|swagger, airs, manner|o
 lipstik|lipstick|o
-memboyong|to take (one's family, a bride) to a new home|v
+memboyong|to take (one's family, a bride) to a new home; to carry off (a title, prize); to bring in (a player, staff)|v;v;v
 memo|memo|o
 milih|to choose (colloq., = memilih)|v
 pedagogis|pedagogical|o
@@ -10579,7 +10579,7 @@ salawat|blessings invoked on the Prophet|o
 adab|manners, courtesy, civility|o
 berikhtiar|to strive, to make an effort|v
 berjanggut|bearded|o
-gardu|guard post, sentry box|o
+gardu|guard post, sentry box; (electricity) substation|o;o
 gatra|aspect, dimension|o
 lontong|lontong (rice cake cooked in banana leaf)|o
 meliuk-liuk|to sway, to twist, to wind|v
@@ -10596,7 +10596,7 @@ areal|area, tract (of land)|o
 atma|soul (literary)|o
 besan|co-parent-in-law (parent of one's child's spouse)|o
 dadak|sudden (usu. mendadak)|o
-dodol|dodol (sticky toffee-like sweet)|o
+dodol|dodol (sticky toffee-like sweet); stupid, silly (colloq.)|o;o
 kadangkala|sometimes|o
 kulup|foreskin|o
 lengkuas|galangal|o
@@ -10733,7 +10733,7 @@ ketentraman|peace, tranquillity (= ketenteraman)|o
 kuntum|bud, bloom; (counter for flowers)|o;g
 literal|literal|o
 loket|ticket window, counter|o
-mancing|to fish (colloq., = memancing)|v
+mancing|to fish (colloq., = memancing); to provoke, bait (colloq.)|v;v
 memoar|memoir|o
 mencibir|to sneer, to curl one's lip|v
 pelipur|pelipur lara: comfort, consolation|n
@@ -11857,7 +11857,7 @@ plagioklas|plagioclase|o
 plum|plum|o
 provokatif|provocative|o
 regresi|regression|o
-representatif|representative|o
+representatif|representative; suitable, decent (of a place or facility)|o;o
 rutil|rutile|o
 subkelas|subclass|o
 subkelompok|subgroup|o
@@ -11946,7 +11946,7 @@ ukhrawi|of the hereafter, otherworldly|o
 amnesia|amnesia|o
 bioma|biome|o
 brandy|brandy|o
-bunglon|chameleon|o
+bunglon|chameleon; turncoat (fig.)|o;o
 cikrak|dustpan (woven bamboo)|o
 depo|depot|o
 diproklamasikan|to be proclaimed|v
@@ -12044,7 +12044,7 @@ dualisme|dualism|o
 ekstrovert|extrovert|o
 elektrolitik|electrolytic|o
 emitor|emitter|o
-encer|thin, watery, dilute|o
+encer|thin, watery, dilute; quick-witted (colloq., of the brain)|o;o
 endemi|endemic (disease)|o
 endemis|endemic|o
 etalase|display case, shop window|o
@@ -12098,7 +12098,7 @@ megakota|megacity|o
 mekanisasi|mechanization|o
 melejit|to soar, shoot up|v
 meletupkan|to set off, make burst|v
-mematok|to fix, set (a price, target); to stake out|v;v
+mematok|to fix, set (a price, target); to stake out; to peck, to strike (of a bird or snake)|v;v;v
 memorak-porandakan|to wreck, devastate|v
 mencanangkan|to launch, proclaim (a programme)|v
 mencicil|to pay in instalments|v
@@ -12327,7 +12327,7 @@ kromatik|chromatic|o
 manikur|manicure|o
 matematik|mathematical; mathematics (= matematika)|o;o
 memampatkan|to compress|v
-menciut|to shrink|v
+menciut|to shrink; to lose heart (of courage)|v;v
 menyamaratakan|to generalize, treat all alike|v
 menyortir|to sort|v
 mikoriza|mycorrhiza|o
