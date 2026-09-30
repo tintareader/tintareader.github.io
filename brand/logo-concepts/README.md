@@ -1,5 +1,8 @@
 # Tinta logo concepts
 
+Chosen: 1a for the mark and 4a for the wordmark. The refined assets and the
+usage guide are in `../logo`.
+
 Logo directions for the Tinta mark, all in the app's own palette: ink for a
 known word, pink for an unknown one. Open `index.html` for the full sheet,
 which proves each concept on the light and dark palettes, as a lockup with
