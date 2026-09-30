@@ -5,13 +5,20 @@ this site with `tools/publish/site.ts`.
 
 ## State of play
 
-- The card identity (concept 4a) is **already live on tintareader.com**:
-  commit `d591d76` on `main` of `tintareader/tintareader.github.io` replaced
-  the favicon, the four app icons, `og.png` and the 404 page's picture by hand.
-- Those are generated files. **The next publish overwrites them** unless the
-  sources in the app repository's `docs/brand` change first. That is this job.
-- Everything needed is in this folder, `brand/logo-card/`, on the site's `main`.
-  `guide.html` is the usage guide; `README.md` lists every file.
+- The card identity (concept 4a) was rolled out by hand on the site's `main`
+  (commit `d591d76`): the favicon, the four app icons, `og.png` and the 404
+  page's picture.
+- **A publish then reverted all of it.** Commit `7c78bc1` ("Site from
+  2e59fe2") regenerated the site in full, put the old logo back, and deleted
+  the `brand/` folders. The rollout was re-applied on top of that publish in
+  the commit that carries this version of the brief. It will happen again on
+  every publish until the app repository's `docs/brand` carries the new
+  sources. That is this job, and it is the only thing that makes the logo
+  stick.
+- Everything needed is in this folder, `brand/logo-card/`, on the site's
+  `main`; if a publish has wiped it again, the intact tree is at `d591d76`
+  (`git show d591d76:brand/logo-card/<file>`). `guide.html` is the usage
+  guide; `README.md` lists every file.
 
 ## What to change in the app repository
 
@@ -56,11 +63,11 @@ this site with `tools/publish/site.ts`.
    the app's own font tokens (`--font-face-charter` for "tinta", `--font-ui`
    for "reader"), 2 : 1 in size, left-aligned.
 
-6. **Keep the brand folders.** The publish "generates in full", so decide
-   where `brand/logo-concepts`, `brand/logo` and `brand/logo-card` live from
-   now on: either move them into the app repository (`docs/brand/…` is the
-   natural home, next to `og-card.html`) and let the site drop them, or have
-   `site.ts` preserve `brand/`. Moving them is the tidier option.
+6. **Move the brand folders into the app repository.** The publish deletes
+   anything it did not generate, so `brand/logo-concepts`, `brand/logo` and
+   `brand/logo-card` cannot live in the site repository. Put them under
+   `docs/brand/` (next to `og-card.html`), and let the next publish drop them
+   from the site.
 
 ## Verify before publishing
 
