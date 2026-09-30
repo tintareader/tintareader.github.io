@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <title>Tinta logo concept 5: Stroke</title>
-  <style>
-    :root{--ink:#1b1f24;--pink:#b8246a}
-    @media (prefers-color-scheme:dark){:root{--ink:#c5ccd4;--pink:#ff5277}}
-  </style>
-  <path fill="none" stroke="var(--ink)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M30 9V42Q30 52 39 52Q45 52 48 47M19 25H42"/>
-  <circle cx="49" cy="47" r="6.5" fill="var(--pink)"/>
-</svg>

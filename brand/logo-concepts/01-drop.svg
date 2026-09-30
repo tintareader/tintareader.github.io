@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <title>Tinta logo concept 1: Drop</title>
-  <style>
-    :root{--ink:#1b1f24;--pink:#b8246a}
-    @media (prefers-color-scheme:dark){:root{--ink:#c5ccd4;--pink:#ff5277}}
-  </style>
-  <path fill="var(--ink)" fill-rule="evenodd" d="M32 7C32 7 50 25 50 38A18 18 0 1 1 14 38C14 25 32 7 32 7ZM25.5 30h13a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-13a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5zM25.5 41h3a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-3a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5z"/>
-  <path fill="var(--pink)" d="M36.5 41h4a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-4a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5z"/>
-</svg>

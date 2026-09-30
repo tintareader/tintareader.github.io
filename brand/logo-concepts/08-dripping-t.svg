@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <title>Tinta logo concept 8: Dripping T</title>
-  <style>
-    :root{--ink:#1b1f24;--pink:#b8246a}
-    @media (prefers-color-scheme:dark){:root{--ink:#c5ccd4;--pink:#ff5277}}
-  </style>
-  <path fill="var(--ink)" d="M10.5 12h43a2.5 2.5 0 0 1 2.5 2.5v5a2.5 2.5 0 0 1 -2.5 2.5h-43a2.5 2.5 0 0 1 -2.5 -2.5v-5a2.5 2.5 0 0 1 2.5 -2.5zM29.5 20h5a2.5 2.5 0 0 1 2.5 2.5v27a2.5 2.5 0 0 1 -2.5 2.5h-5a2.5 2.5 0 0 1 -2.5 -2.5v-27a2.5 2.5 0 0 1 2.5 -2.5z"/>
-  <path fill="var(--pink)" d="M49 21C49 21 55 27.96 55 33A6 6 0 1 1 43 33C43 27.96 49 21 49 21Z"/>
-</svg>
