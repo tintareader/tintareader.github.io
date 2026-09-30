@@ -9,7 +9,7 @@ const lum = (hex) => {
 };
 const contrast = (a, b) => { const [h, l] = [lum(a), lum(b)].sort((x, y) => y - x); return ((h + 0.05) / (l + 0.05)).toFixed(1); };
 
-export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColour, wordmarkInner, lockupInner, CARD, LOCKUP, LOCK, MARK, WORD, MEANING, FAVICON_VB, ICON_SCALE, MASK_SCALE, iconInner }) {
+export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColour, wordmarkInner, lockupInner, CARD, LOCKUP, LOCK, MARK, WORD, MEANING, FAVICON_VB, ICON_SCALE, MASK_SCALE, iconInner, TYPE }) {
   const PAD = 8;
   const mark = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64" aria-hidden="true">${markTwoColour("var(--ink)", "var(--pink)")}</svg>`;
   const mono = (size, colour) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64" aria-hidden="true">${markOneColour(colour)}</svg>`;
@@ -76,7 +76,7 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
   </div>`;
   const og = `<div class="ogwrap"><div class="og" aria-hidden="true">
     <div class="ogleft">
-      ${wordmark(84)}
+      ${lockup(84)}
       <h3>Read real texts in the language you’re learning</h3>
       <p>Paste an article, a story or a song. Every word is coloured by whether you know it. Tap one for its meaning.</p>
       <p class="langs">Spanish · French · Portuguese · Indonesian · Mandarin · Arabic · English</p>
@@ -87,8 +87,30 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
       <div class="ogcard"><span class="hw">come</span><span class="gl">to eat · from <i>comer</i></span></div>
     </div>
   </div></div>`;
-  const header = `<div class="pagehead" aria-hidden="true">${wordmark(40)}<nav><span>Privacy</span><span>Support</span><span>Licences</span></nav></div>`;
+  const header = `<div class="pagehead" aria-hidden="true">${lockup(40)}<nav><span>Privacy</span><span>Support</span><span>Licences</span></nav></div>`;
   const about = `<div class="about" aria-hidden="true">${lockup(56)}<p><span>Privacy</span> · <span>Support</span> · <span>Licences</span></p></div>`;
+
+  // The open question at the end: five ways the mark and the name could
+  // combine, drawn at one scale (0.5 px per card unit) so they compare. The
+  // one-line forms set the words from the same outlines as the card.
+  const altMark = (x, y, h) => `<g transform="translate(${x.toFixed(2)} ${y.toFixed(2)}) scale(${(h / MARK.h).toFixed(4)}) translate(-${MARK.x} -${MARK.y})">${markTwoColour("var(--ink)", "var(--pink)")}</g>`;
+  const P = TYPE.paths, hs = TYPE.headScale, ss = TYPE.subScale;
+  const headBox = P.tinta.bbox.map((v) => v * hs), subBox = P.reader.bbox.map((v) => v * ss);
+  const lineH = -headBox[1];                                   // "tinta", the top of the t to the baseline
+  const tintaW = headBox[2] - TYPE.cardX0, readerW = subBox[2] - subBox[0], wordGap = 0.3 * lineH;
+  const oneLine = (x, y, fill, withReader) => {
+    const dx = headBox[2] - subBox[0] + wordGap;
+    return `<g transform="translate(${(x - TYPE.cardX0).toFixed(2)} ${(y - headBox[1]).toFixed(2)})"><path fill="${fill}" transform="scale(${hs})" d="${P.tinta.d}"/>${withReader ? `<path fill="var(--ink)" transform="translate(${dx.toFixed(2)} 0) scale(${ss})" d="${P.reader.d}"/>` : ""}</g>`;
+  };
+  const alt = (label, w, h, inner) => `<figure class="alt"><svg height="${((h + 2 * PAD) * 0.5).toFixed(1)}" viewBox="${-PAD} ${-PAD} ${(w + 2 * PAD).toFixed(1)} ${(h + 2 * PAD).toFixed(1)}" aria-hidden="true">${inner}</svg><figcaption class="cap">${label}</figcaption></figure>`;
+  const fullW = (MARK.w / MARK.h) * CARD.h, lineMarkW = (MARK.w / MARK.h) * lineH, lineGap = 0.3 * lineH;
+  const alts = [
+    alt("Beside the card, at " + LOCK.markRatio + " of it. The guide's lockup.", LOCKUP.w, LOCKUP.h, lockupInner("var(--ink)", "var(--pink)", 0, 0)),
+    alt("Beside the card, as tall as it. The concept sheet's.", fullW + LOCKUP.gap + CARD.w, CARD.h, altMark(0, 0, CARD.h) + wordmarkInner("var(--ink)", "var(--pink)", fullW + LOCKUP.gap, 0)),
+    alt("Above the card, on its left edge.", CARD.w, LOCKUP.markH + LOCKUP.gap + CARD.h, altMark(0, 0, LOCKUP.markH) + wordmarkInner("var(--ink)", "var(--pink)", 0, LOCKUP.markH + LOCKUP.gap)),
+    alt("Beside the name on one line, the mark as tall as the t. No card.", lineMarkW + lineGap + tintaW + wordGap + readerW, lineH, altMark(0, 0, lineH) + oneLine(lineMarkW + lineGap, 0, "var(--pink)", true)),
+    alt("Beside “tinta” alone, in ink. The mark carries the pink.", lineMarkW + lineGap + tintaW, lineH, altMark(0, 0, lineH) + oneLine(lineMarkW + lineGap, 0, "var(--ink)", false)),
+  ].join("");
 
   const style = `
 <style>
@@ -164,6 +186,7 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
   .pagehead nav { display: flex; gap: 18px; font-size: 14px; color: var(--muted) }
   .about { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 28px 24px; display: grid; gap: 14px; justify-items: start; max-width: 380px }
   .about p { margin: 0; font-size: 13px; color: var(--muted) } .about p span { color: var(--accent) }
+  .alt { margin: 0; display: grid; gap: 6px; justify-items: start; max-width: 100% } .alt svg { display: block; max-width: 100%; height: auto }
   table.files { max-width: 100% } .files td:first-child { width: 34% } .files code { overflow-wrap: anywhere }
   @media (max-width: 860px) { .two { grid-template-columns: minmax(0, 1fr) } .donts { grid-template-columns: repeat(2, minmax(0, 1fr)) } .grounds { grid-template-columns: repeat(2, minmax(0, 1fr)) } }
   @media (max-width: 560px) { .sheet { grid-template-columns: minmax(0, 1fr) } h1 { font-size: 28px } }
@@ -175,7 +198,7 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
 <div class="wrap">
 <header>
   <h1>Tinta logo: usage guide</h1>
-  <p class="lead">The identity is the word card, the thing the app shows when you tap a word: the headword, then its meaning. The <strong>wordmark</strong> is the name set as that card, and it leads. The <strong>mark</strong> is the card reduced to two bars, for icons and any place too small for words. The <strong>lockup</strong> is the two side by side, for the places where the mark is learned. This page says how each is built, where it goes and what not to do with it. Every colour is the app's own.</p>
+  <p class="lead">The identity is the word card, the thing the app shows when you tap a word: the headword, then its meaning. The <strong>wordmark</strong> is the name set as that card, and it leads. The <strong>mark</strong> is the card reduced to two bars, for icons and any place too small for words. The <strong>lockup</strong> is the two side by side, for the places where the name is first met, so the mark is learned with it: the link preview, the page headers, the About screen. This page says how each is built, where it goes and what not to do with it. Every colour is the app's own.</p>
   <nav class="toc"><a href="#wordmark">The wordmark</a><a href="#mark">The mark</a><a href="#lockups">Lockups</a><a href="#colour">Colour</a><a href="#size">Size and space</a><a href="#icons">App icon</a><a href="#donts">Don't</a><a href="#use">In use</a><a href="#files">Files</a><a href="#changes">What changed</a></nav>
 </header>
 
@@ -217,17 +240,17 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
   <h2>Lockups</h2>
   <div class="two">
     <div>
-      <p>Three forms. The wordmark leads; the other two serve it.</p>
+      <p>Three forms. The wordmark is the identity; the lockup carries it where the name is first met; the mark stands alone where there is no room for words.</p>
       <ul>
-        <li><strong>Wordmark.</strong> The default: the site header, the link preview, a slide, a footer, print. It is the card, so it needs no symbol beside it.</li>
-        <li><strong>Lockup.</strong> The mark beside the card, for the places where the icon and the name should be seen together so the mark is learned: the About screen, a store listing, the first-run screen.</li>
+        <li><strong>Lockup.</strong> The mark beside the card, wherever someone meets the name before they meet the icon: the link preview, the header of the privacy, support and licences pages, the About screen, a store listing, the first-run screen. Seen together there, the two bars are learned, and the mark can then stand alone in a tab strip or on a home screen.</li>
+        <li><strong>Wordmark.</strong> The card alone, where the mark is already on screen or the name matters more than the symbol: a footer, a slide, print, a credit line.</li>
         <li><strong>Mark.</strong> Alone in the favicon, the app icon, avatars, and any space under 40 px tall.</li>
       </ul>
       <p>In the lockup the mark stands ${LOCK.markRatio} of the card block's height, centred on it, with a gap of ${LOCK.gapRatio} of that height. The mark never grows to the block's full height: at that size its pink bar outweighs the name.</p>
     </div>
     <div class="sheet">
-      <div class="panel light tall"><div class="col">${wordmark(64)}${lockup(64)}${mark(56)}</div></div>
-      <div class="panel dark tall"><div class="col">${wordmark(64)}${lockup(64)}${mark(56)}</div></div>
+      <div class="panel light tall"><div class="col">${lockup(64)}${wordmark(64)}${mark(56)}</div></div>
+      <div class="panel dark tall"><div class="col">${lockup(64)}${wordmark(64)}${mark(56)}</div></div>
       <div class="panel light" style="grid-column: 1 / -1">${proportions}</div>
     </div>
   </div>
@@ -317,9 +340,9 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
   <div class="mocks">
     <div class="mock">${tab}<span class="cap">The favicon in a tab strip, 16 px, beside the page title.</span></div>
     <div class="mock">${home}<span class="cap">The touch icon on a phone home screen, among other apps.</span></div>
-    <div class="mock">${og}<span class="cap">The link preview (og.png) with the wordmark in place of the old bars and “Tinta”. The card on the right is the app's; the wordmark on the left is the same card, which is the point.</span></div>
-    <div class="mock">${header}<span class="cap">The header of the privacy, support and licences pages: the wordmark at 40 px, the navigation beside it.</span></div>
-    <div class="mock">${about}<span class="cap">The About screen: the one place the lockup is the right form, where the icon meets the name.</span></div>
+    <div class="mock">${og}<span class="cap">The link preview (og.png): the lockup in place of the old bars and “Tinta”. The card on the right is the app's; the card in the lockup is the same card, which is the point.</span></div>
+    <div class="mock">${header}<span class="cap">The header of the privacy, support and licences pages: the lockup at 40 px, the navigation beside it. The pages have no header today; this adds one.</span></div>
+    <div class="mock">${about}<span class="cap">The About screen: the lockup again, where the icon meets the name.</span></div>
   </div>
 </section>
 
@@ -328,8 +351,8 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
   <p>Everything in <code>brand/logo-card/</code> is generated by <code>build.mjs</code> from one definition; <code>render.cjs</code> makes the PNGs and the ICO from the SVGs; <code>wordmark-paths.json</code> holds the two words as paths, made by <code>brand/logo/outline.py</code>.</p>
   <table class="files">
     <tr><th>File</th><th>What it is</th><th>Use it for</th></tr>
-    <tr><td><code>wordmark.svg</code> and <code>-light</code>, <code>-dark</code></td><td>The card, outlined. The primary form</td><td>Headers, previews, slides, footers, print</td></tr>
-    <tr><td><code>lockup.svg</code> and <code>-light</code>, <code>-dark</code></td><td>Mark beside the card, outlined</td><td>The About screen, a store listing, first run</td></tr>
+    <tr><td><code>wordmark.svg</code> and <code>-light</code>, <code>-dark</code></td><td>The card, outlined. The primary form</td><td>Footers, slides, print, beside a mark already shown</td></tr>
+    <tr><td><code>lockup.svg</code> and <code>-light</code>, <code>-dark</code></td><td>Mark beside the card, outlined</td><td>The link preview, the page headers, the About screen, a store listing</td></tr>
     <tr><td><code>mark.svg</code></td><td>The mark, follows the viewer's scheme</td><td>Web pages, docs, anywhere an SVG can be placed</td></tr>
     <tr><td><code>mark-light.svg</code>, <code>mark-dark.svg</code></td><td>The mark in fixed colours</td><td>Places that pick one palette, or that cannot read a media query</td></tr>
     <tr><td><code>mark-mono.svg</code></td><td>One colour, both bars, fills with <code>currentColor</code></td><td>Any surface that is not the app's ground; print; stamps</td></tr>
@@ -338,7 +361,7 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
     <tr><td><code>app-icon.svg</code>, <code>app-icon-dark.svg</code>, <code>app-icon-maskable.svg</code>, <code>apple-touch-icon.svg</code></td><td>The sources of the PNGs</td><td>Regenerate at any size</td></tr>
   </table>
   <h3>Rollout</h3>
-  <p>This site repository is regenerated on every publish, so the logo lives in the app repository's <code>docs/brand</code>, next to <code>og-card.html</code> and <code>build-icons.sh</code>. Move <code>brand/logo-card</code> there, point <code>build-icons.sh</code> at the new SVGs, swap the wordmark into <code>og-card.html</code>, and publish. The manifest, the page markup and the icon file names do not change.</p>
+  <p>This site repository is regenerated on every publish, so the logo lives in the app repository's <code>docs/brand</code>, next to <code>og-card.html</code> and <code>build-icons.sh</code>. Move <code>brand/logo-card</code> there, point <code>build-icons.sh</code> at the new SVGs, swap the lockup into <code>og-card.html</code>, give the privacy, support and licences pages the header shown above, and publish. The manifest and the icon file names do not change.</p>
 </section>
 
 <section id="changes">
@@ -346,12 +369,15 @@ export function buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColou
   <ul>
     <li><strong>The bars follow the type.</strong> The concept's bars were 12 and 9 tall. They are now 14 and 7, the same 2 : 1 as the headword and its meaning in the wordmark, with a gap of 4. The thinner meaning bar is what keeps the mark from reading as a list at 16 px.</li>
     <li><strong>The lockup's mark is smaller.</strong> The concept sheet showed the mark near the block's full height. At that size the pink bar outweighs the name, so it now stands ${LOCK.markRatio} of the block and sits centred on it.</li>
-    <li><strong>The wordmark leads.</strong> The three forms are ordered wordmark, lockup, mark, and the link preview and page headers use the wordmark alone, because the card is the identity and a symbol beside it says the same thing twice.</li>
+    <li><strong>The wordmark leads, with the mark beside it where the name is first met.</strong> The three forms are ordered wordmark, lockup, mark. The link preview and the page headers carry the lockup, so the two bars are learned next to the name before they stand alone in a tab strip or on a home screen.</li>
     <li><strong>The card's second line.</strong> “reader” is set in the interface sans, as the app's own card sets a word's meaning, which is what makes the wordmark the card and not two sizes of the name.</li>
     <li><strong>Fixed faces, outlined.</strong> Charter and Source Sans 3 are fixed and outlined in the files, so the wordmark has one shape everywhere.</li>
     <li><strong>A one-colour form.</strong> Both bars, or both words, in one colour, with the heights carrying the idea.</li>
   </ul>
   <p>Worth trying before the rollout: put the touch icon on a real phone beside real apps in both appearances, since two bars in a light squircle are quiet, and the dark-ground icon is ready if it reads better; and give the mark one motion in the app, the meaning bar sliding out from under the word as a card opens, since that is what the shape already describes.</p>
+  <h3>Open: the wordmark, and how the mark joins it</h3>
+  <p>The mark is settled. The wordmark, and the way the mark and the name combine, are not. Five ways to combine them, at one scale, on both grounds. The first is what this guide uses. The last two keep the mark and drop the card, with the name set on one line from the same outlines.</p>
+  <div class="sheet"><div class="panel light tall"><div class="col">${alts}</div></div><div class="panel dark tall"><div class="col">${alts}</div></div></div>
 </section>
 </div>
 <script>

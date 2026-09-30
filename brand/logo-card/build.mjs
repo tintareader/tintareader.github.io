@@ -85,6 +85,8 @@ const cardW = Math.max(headBox[2], subBox[2]) - Math.min(headBox[0], subBox[0]);
 const cardH = subBase + subBox[3] - headTop;
 const cardX0 = Math.min(headBox[0], subBox[0]);
 export const CARD = { w: cardW, h: cardH, headH: -headTop, readerTop: GAP_EM, readerH: subBox[3] - subBox[1] };
+// The type itself, for the guide's alternatives: the outlines, their scales, and where the card's origin sits.
+export const TYPE = { paths, headScale, subScale, headTop, subBase, cardX0 };
 export const wordmarkInner = (ink, pink, x = 0, y = 0) =>
   `<g transform="translate(${(x - cardX0).toFixed(2)} ${(y - headTop).toFixed(2)})">
   <path fill="${pink}" transform="scale(${headScale})" d="${paths.tinta.d}"/>
@@ -116,5 +118,5 @@ console.log("mark, icons, wordmark and lockup written to", OUT, "card", { w: car
 
 if (process.env.GUIDE !== "0") {
   const { buildGuide } = await import("./guide.mjs");
-  buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColour, wordmarkInner, lockupInner, CARD, LOCKUP, LOCK, MARK, WORD, MEANING, FAVICON_VB, ICON_SCALE, MASK_SCALE, iconInner });
+  buildGuide({ OUT, FRAG, LIGHT, DARK, markTwoColour, markOneColour, wordmarkInner, lockupInner, CARD, LOCKUP, LOCK, MARK, WORD, MEANING, FAVICON_VB, ICON_SCALE, MASK_SCALE, iconInner, TYPE });
 }
