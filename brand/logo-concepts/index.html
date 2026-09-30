@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Tinta Logo Concepts</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:wght@500;600&display=swap">
+
+<style>
+  /* One column, each concept as a text block beside a two-panel proof sheet
+     (light palette, dark palette) that uses the app's own colours. */
+  :root {
+    --bg: #eceee9; --fg: #1b1f24; --muted: #5e676f; --rule: #d0d4cc; --accent: #b8246a;
+    --font-display: "Charter", "Bitstream Charter", "Iowan Old Style", "Palatino", "Literata", Georgia, serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #0b0e12; --fg: #dde2e8; --muted: #8994a3; --rule: #273039; --accent: #ff5277; color-scheme: dark } }
+  :root[data-theme="dark"] { --bg: #0b0e12; --fg: #dde2e8; --muted: #8994a3; --rule: #273039; --accent: #ff5277; color-scheme: dark }
+  html { background: var(--bg) }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 var(--font-body); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding-block: 40px 64px; padding-inline: 20px; }
+  header { max-width: 60ch; margin-bottom: 40px }
+  h1 { font: 600 34px/1.15 var(--font-display); letter-spacing: -0.01em; margin: 0 0 12px; text-wrap: balance }
+  header p { margin: 0 0 8px; color: var(--muted) }
+  header p strong { color: var(--fg); font-weight: 600 }
+  .concept { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.8fr); gap: 24px 36px; padding-block: 32px; border-top: 1px solid var(--rule); }
+  .concept .text { min-width: 0 }
+  h2 { font: 600 24px/1.2 var(--font-display); margin: 0 0 10px; display: flex; align-items: baseline; gap: 10px }
+  .num { font: 500 13px/1 var(--font-body); color: var(--accent); letter-spacing: 0.08em; border: 1px solid currentColor; border-radius: 999px; padding: 4px 8px; }
+  .idea { margin: 0 0 16px; font-size: 16px }
+  dl { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 14px; font-size: 14px }
+  dt { color: var(--muted); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; padding-top: 3px }
+  dd { margin: 0 }
+  .sheet { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; min-width: 0 }
+  .panel { border-radius: 10px; padding: 20px; display: grid; gap: 18px; justify-items: start; border: 1px solid var(--p-line); background: var(--p-ground); color: var(--p-ink) }
+  .panel.light { --ink: #1b1f24; --pink: #b8246a; --p-ground: #f6f7f4; --p-ink: #1b1f24; --p-line: #d8dcd4; --p-dim: #8994a3; --icon-fill: #f4f5f2; --icon-line: rgba(0,0,0,.18) }
+  .panel.dark  { --ink: #c5ccd4;  --pink: #ff5277;  --p-ground: #101318;  --p-ink: #c5ccd4;  --p-line: #273039;  --p-dim: #5e676f;  --icon-fill: #1a1f27; --icon-line: rgba(255,255,255,.12) }
+  .hero { width: 100%; display: flex; justify-content: center; padding-block: 8px }
+  .lockup { display: flex; align-items: center; gap: 12px; font: 600 38px/1 var(--font-display); letter-spacing: -0.015em; color: var(--p-ink) }
+  .lockup.lower { font-weight: 500; font-size: 36px }
+  .row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; width: 100%; flex-wrap: wrap }
+  .proof { display: grid; gap: 6px; justify-items: start }
+  .icons { display: flex; align-items: flex-end; gap: 12px }
+  .icons > svg:last-child { margin-left: 6px }
+  .mono { --pink: var(--ink); display: flex; align-items: flex-end }
+  .lineup { padding-block: 32px 0; border-top: 1px solid var(--rule) }
+  .lineup h2 { margin-bottom: 6px }
+  .lineup > p { margin: 0 0 16px; color: var(--muted); max-width: 60ch }
+  .lineup-row { grid-template-columns: repeat(6, minmax(0, 1fr)); justify-items: center; gap: 12px; margin-bottom: 12px }
+  .lineup-cell { display: flex; align-items: flex-end; gap: 8px }
+  .cap { font: 11.5px/1.3 var(--font-body); color: var(--p-dim) }
+  .lineup-cell .cap { align-self: center; margin-left: 4px }
+  .verdict { padding-block: 32px 0; border-top: 1px solid var(--rule); max-width: 66ch }
+  .verdict h2 { margin-bottom: 10px }
+  .verdict p { margin: 0 0 10px }
+  .verdict a { color: var(--accent) }
+  .files { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 13px }
+  .files code { font: 12.5px/1.4 ui-monospace, Menlo, monospace }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+  @media (max-width: 860px) {
+    .concept { grid-template-columns: minmax(0, 1fr) }
+    .lineup-row { grid-template-columns: repeat(3, minmax(0, 1fr)) }
+  }
+  @media (max-width: 560px) {
+    .sheet { grid-template-columns: minmax(0, 1fr) }
+    .lockup { font-size: 32px }
+    .lineup-row { grid-template-columns: repeat(2, minmax(0, 1fr)) }
+    h1 { font-size: 28px }
+  }
+  @media (prefers-reduced-motion: no-preference) { a { transition: color .15s } }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><path id="sq" d="M63.00 32.00L62.97 42.41L62.89 45.73L62.76 48.12L62.57 50.05L62.33 51.69L62.03 53.11L61.68 54.37L61.27 55.49L60.79 56.51L60.26 57.42L59.66 58.24L58.99 58.99L58.24 59.66L57.42 60.26L56.51 60.79L55.49 61.27L54.37 61.68L53.11 62.03L51.69 62.33L50.05 62.57L48.12 62.76L45.73 62.89L42.41 62.97L32.00 63.00L21.59 62.97L18.27 62.89L15.88 62.76L13.95 62.57L12.31 62.33L10.89 62.03L9.63 61.68L8.51 61.27L7.49 60.79L6.58 60.26L5.76 59.66L5.01 58.99L4.34 58.24L3.74 57.42L3.21 56.51L2.73 55.49L2.32 54.37L1.97 53.11L1.67 51.69L1.43 50.05L1.24 48.12L1.11 45.73L1.03 42.41L1.00 32.00L1.03 21.59L1.11 18.27L1.24 15.88L1.43 13.95L1.67 12.31L1.97 10.89L2.32 9.63L2.73 8.51L3.21 7.49L3.74 6.58L4.34 5.76L5.01 5.01L5.76 4.34L6.58 3.74L7.49 3.21L8.51 2.73L9.63 2.32L10.89 1.97L12.31 1.67L13.95 1.43L15.88 1.24L18.27 1.11L21.59 1.03L32.00 1.00L42.41 1.03L45.73 1.11L48.12 1.24L50.05 1.43L51.69 1.67L53.11 1.97L54.37 2.32L55.49 2.73L56.51 3.21L57.42 3.74L58.24 4.34L58.99 5.01L59.66 5.76L60.26 6.58L60.79 7.49L61.27 8.51L61.68 9.63L62.03 10.89L62.33 12.31L62.57 13.95L62.76 15.88L62.89 18.27L62.97 21.59Z"/><symbol id="m-drop" viewBox="0 0 64 64"><path fill="var(--ink)" fill-rule="evenodd" d="M32 7C32 7 50 25 50 38A18 18 0 1 1 14 38C14 25 32 7 32 7ZM25.5 30h13a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-13a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5zM25.5 41h3a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-3a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5z"/>
+      <path fill="var(--pink)" d="M36.5 41h4a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-4a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5z"/></symbol>
+<symbol id="m-tbar" viewBox="0 0 64 64"><path fill="var(--ink)" d="M12 13h8a3 3 0 0 1 3 3v4a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-4a3 3 0 0 1 3 -3zM44 13h8a3 3 0 0 1 3 3v4a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-4a3 3 0 0 1 3 -3zM29 26h6a3 3 0 0 1 3 3v20a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-20a3 3 0 0 1 3 -3z"/>
+      <path fill="var(--pink)" d="M29 13h6a3 3 0 0 1 3 3v4a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-4a3 3 0 0 1 3 -3z"/></symbol>
+<symbol id="m-bookmark" viewBox="0 0 64 64"><path fill="var(--ink)" d="M18 11a3 3 0 0 1 3-3h22a3 3 0 0 1 3 3v45l-14-10-14 10z"/>
+      <path fill="var(--pink)" d="M18 40.5Q32 35.5 46 40.5V56L32 46 18 56z"/></symbol>
+<symbol id="m-line" viewBox="0 0 64 64"><path fill="var(--pink)" d="M11.5 26h14a3.5 3.5 0 0 1 3.5 3.5v5a3.5 3.5 0 0 1 -3.5 3.5h-14a3.5 3.5 0 0 1 -3.5 -3.5v-5a3.5 3.5 0 0 1 3.5 -3.5z"/>
+      <path fill="var(--ink)" d="M35.5 26h17a3.5 3.5 0 0 1 3.5 3.5v5a3.5 3.5 0 0 1 -3.5 3.5h-17a3.5 3.5 0 0 1 -3.5 -3.5v-5a3.5 3.5 0 0 1 3.5 -3.5z"/></symbol>
+<symbol id="m-stroke" viewBox="0 0 64 64"><path fill="none" stroke="var(--ink)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M30 9V42Q30 52 39 52Q45 52 48 47M19 25H42"/>
+      <circle cx="49" cy="47" r="6.5" fill="var(--pink)"/></symbol>
+<symbol id="m-nib" viewBox="0 0 64 64"><path fill="var(--ink)" fill-rule="evenodd" d="M21 8H43Q48 8 47 14L46 26Q44 40 32 58Q20 40 18 26L17 14Q16 8 21 8Z M30.8 34H33.2V60H30.8Z"/>
+      <circle cx="32" cy="29" r="4.5" fill="var(--pink)"/></symbol></svg>
+<div class="wrap">
+<header>
+  <h1>Six logo concepts for Tinta</h1>
+  <p><strong>Tinta</strong> is ink in Spanish, Portuguese and Indonesian. The app colours every word of a text by whether you know it, and every concept below keeps to that palette: ink for a known word, pink for an unknown one.</p>
+  <p>Each concept is proved on the light and the dark palette: the mark, the lockup with the wordmark set in the reading serif, the app icon at 64, 32 and 16 px, a bare 16 px favicon, and the mark in one colour.</p>
+</header>
+
+<section class="concept" id="drop">
+  <div class="text">
+    <h2><span class="num">1</span>Drop</h2>
+    <p class="idea">A drop of ink with a text inside it: two lines, one word unknown. The name, literally, holding what the app does.</p>
+    <dl>
+      <dt>Works because</dt><dd>Reads as “tinta” at once, and the organic outline stands out in a row of square app icons.</dd>
+      <dt>Watch for</dt><dd>The inner lines close up at 16 px and leave a drop with a pink dash. Fine for a favicon, but the story needs 32 px and up.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="tbar">
+  <div class="text">
+    <h2><span class="num">2</span>T of words</h2>
+    <p class="idea">The initial built from the reading view: a line of three words with the unknown one in pink, and the stem hanging from it like the card that opens when you tap.</p>
+    <dl>
+      <dt>Works because</dt><dd>The clearest at 16 px, a monogram and the mechanic in one shape, and the nearest relative of the current icon, so the least risky move.</dd>
+      <dt>Watch for</dt><dd>Block monograms are common. In one colour the tapped-word story goes and it is just a T.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="bookmark">
+  <div class="text">
+    <h2><span class="num">3</span>Dipped bookmark</h2>
+    <p class="idea">A bookmark dipped in ink. Reading and tinta in one silhouette; the pink meniscus is the ink line.</p>
+    <dl>
+      <dt>Works because</dt><dd>A silhouette nobody else has, still two clear tones at 16 px, and no letter in it, so it works the same beside Arabic and Mandarin.</dd>
+      <dt>Watch for</dt><dd>Bookmark icons mean “save” in many apps. The pink dip is what makes this one Tinta’s, so it can never be dropped in a one-colour use.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="line">
+  <div class="text">
+    <h2><span class="num">4</span>Tinta, reader</h2>
+    <p class="idea">The wordmark is the logo. The name is treated as a text in the app: to an English speaker “tinta” is the unknown word and “reader” is known. The mark is that line reduced to two blocks.</p>
+    <dl>
+      <dt>Works because</dt><dd>It explains the product on sight, and a wordmark-first identity suits a website and a link preview.</dd>
+      <dt>Watch for</dt><dd>The two blocks are thin on their own; on a phone home screen they need the wordmark nearby. The point lands only for English speakers.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg></div>
+    <div class="lockup lower"><span class="word"><span style="color:var(--pink)">tinta</span> <span>reader</span></span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg></div>
+    <div class="lockup lower"><span class="word"><span style="color:var(--pink)">tinta</span> <span>reader</span></span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="stroke">
+  <div class="text">
+    <h2><span class="num">5</span>Stroke</h2>
+    <p class="idea">A lowercase t drawn in one pen stroke, ending where the ink pools into a pink blot.</p>
+    <dl>
+      <dt>Works because</dt><dd>Warm and handmade, the most “reading a book” of the six, and the stroke keeps its weight at small sizes.</dd>
+      <dt>Watch for</dt><dd>The blot can read as a full stop after the t. The stroke weight wants tuning per size.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="nib">
+  <div class="text">
+    <h2><span class="num">6</span>Nib</h2>
+    <p class="idea">A nib pointing down, its breather hole in pink and the slit cut through to the tip.</p>
+    <dl>
+      <dt>Works because</dt><dd>The classic sign of ink: formal, credible, and the best of the six in one colour.</dd>
+      <dt>Watch for</dt><dd>A nib says writing, and Tinta is for reading. It is also the most borrowed shape here; several writing apps use one.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+<section class="lineup">
+  <h2>All six at icon size</h2>
+  <p>The test that matters most for a favicon and a home screen: which ones still say something at 24 and 16 px.</p>
+  
+  <div class="panel light lineup-row">
+    <div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg><span class="cap">1</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg><span class="cap">2</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg><span class="cap">3</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg><span class="cap">4</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg><span class="cap">5</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg><span class="cap">6</span></div>
+  </div>
+  
+  <div class="panel dark lineup-row">
+    <div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg><span class="cap">1</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg><span class="cap">2</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg><span class="cap">3</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg><span class="cap">4</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg><span class="cap">5</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg><span class="cap">6</span></div>
+  </div>
+</section>
+<section class="verdict">
+  <h2>A recommendation</h2>
+  <p>Take <a href="#tbar">T of words</a> forward as the safe choice: it is the current icon's idea sharpened into a letter, and it is the most legible at 16 px. Take <a href="#bookmark">Dipped bookmark</a> forward as the distinctive one, and put both on a phone home screen beside real apps before deciding.</p>
+  <p>Whichever mark wins, the coloured wordmark from <a href="#line">Tinta, reader</a> can travel with it: pink “tinta”, ink “reader” works beside any of the other five marks and says what the product does in two words.</p>
+  <p class="files">Files: <code>brand/logo-concepts/0N-name.svg</code>, one per mark, 64 px grid, colours follow the viewer's light or dark scheme. The site repo is regenerated on every publish, so a chosen mark belongs in <code>docs/brand</code> of the app repo.</p>
+</section>
+</div>
+</body>
+</html>
