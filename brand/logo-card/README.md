@@ -32,7 +32,7 @@ carries the commit:
 | `icons/icon-192.png`, `icons/icon-512.png` | The mark on the light ground in the superellipse, as before |
 | `icons/maskable-512.png` | Full-bleed ground, the mark inside the safe circle |
 | `icons/apple-touch-icon.png` | Full-bleed ground, 180 px |
-| `og.png` | The link preview, `og-card.html` here rendered by `render-og.cjs`, with the wordmark in place of the old bars and "Tinta"; copy and layout unchanged |
+| `og.png` | The link preview, `og-card.html` here rendered by `render-og.cjs`, with the lockup (mark beside the card) in place of the old bars and "Tinta", as the guide has it; copy and layout unchanged |
 | `404.html` | Its picture is now `/icons/icon-192.png`, since a bare scheme-following mark disappears on that page's fixed dark ground |
 
 The service worker serves icons network-first, so no version bump was
