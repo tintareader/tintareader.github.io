@@ -1,9 +1,27 @@
 # Tinta logo concepts
 
-Six directions for the Tinta mark, all in the app's own palette: ink for a
+Logo directions for the Tinta mark, all in the app's own palette: ink for a
 known word, pink for an unknown one. Open `index.html` for the full sheet,
 which proves each concept on the light and dark palettes, as a lockup with
 the wordmark, as the app icon at 64, 32 and 16 px, and in one colour.
+
+## Round two
+
+Two variations each on the shortlisted Drop (1) and Tinta, reader (4), then
+four new directions.
+
+| # | File | Idea |
+|---|------|------|
+| 1a | `01a-drop-two-words.svg` | The drop holding the "tinta reader" line: pink word, known word cut out of the ink. |
+| 1b | `01b-drop-on-a-line.svg` | The drop about to land on a line of text; the word under it is already pink. |
+| 4a | `04a-card.svg` | The word card: unknown word above, its meaning beneath. Lockup stacks pink "tinta" over "reader". |
+| 4b | `04b-tap.svg` | The tapped word: a pink word inside the app's selection ring. Lockup rings "tinta". |
+| 7 | `07-blot.svg` | A splash of ink with the text showing through, one word pink. |
+| 8 | `08-dripping-t.svg` | A solid T with a drop of ink falling from its crossbar. |
+| 9 | `09-ring.svg` | A sentence wrapped into a ring: six words, one unknown. |
+| 10 | `10-glasses.svg` | Reading glasses with one lens tinted pink. |
+
+## Round one
 
 | # | File | Idea |
 |---|------|------|

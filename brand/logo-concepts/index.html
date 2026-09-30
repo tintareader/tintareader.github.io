@@ -24,7 +24,7 @@
   h1 { font: 600 34px/1.15 var(--font-display); letter-spacing: -0.01em; margin: 0 0 12px; text-wrap: balance }
   header p { margin: 0 0 8px; color: var(--muted) }
   header p strong { color: var(--fg); font-weight: 600 }
-  .concept { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.8fr); gap: 24px 36px; padding-block: 32px; border-top: 1px solid var(--rule); }
+  .concept { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.8fr); gap: 24px 36px; padding-block: 32px; border-top: 1px solid var(--rule); scroll-margin-top: 16px }
   .concept .text { min-width: 0 }
   h2 { font: 600 24px/1.2 var(--font-display); margin: 0 0 10px; display: flex; align-items: baseline; gap: 10px }
   .num { font: 500 13px/1 var(--font-body); color: var(--accent); letter-spacing: 0.08em; border: 1px solid currentColor; border-radius: 999px; padding: 4px 8px; }
@@ -39,6 +39,10 @@
   .hero { width: 100%; display: flex; justify-content: center; padding-block: 8px }
   .lockup { display: flex; align-items: center; gap: 12px; font: 600 38px/1 var(--font-display); letter-spacing: -0.015em; color: var(--p-ink) }
   .lockup.lower { font-weight: 500; font-size: 36px }
+  .stack { display: grid; line-height: 1; font-weight: 500 }
+  .stack .w1 { color: var(--pink); font-size: 40px; letter-spacing: -0.01em }
+  .stack .w2 { font-size: 21px; margin-top: 4px }
+  .ringed { color: var(--pink); border: 2px solid var(--p-ink); border-radius: 9px; padding: 0.02em 0.16em 0.04em; margin-right: 0.05em }
   .row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; width: 100%; flex-wrap: wrap }
   .proof { display: grid; gap: 6px; justify-items: start }
   .icons { display: flex; align-items: flex-end; gap: 12px }
@@ -47,10 +51,19 @@
   .lineup { padding-block: 32px 0; border-top: 1px solid var(--rule) }
   .lineup h2 { margin-bottom: 6px }
   .lineup > p { margin: 0 0 16px; color: var(--muted); max-width: 60ch }
-  .lineup-row { grid-template-columns: repeat(6, minmax(0, 1fr)); justify-items: center; gap: 12px; margin-bottom: 12px }
+  .lineup-row { justify-items: center; gap: 14px 12px; margin-bottom: 12px }
+  .lineup-row.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)) }
+  .lineup-row.cols-6 { grid-template-columns: repeat(6, minmax(0, 1fr)) }
   .lineup-cell { display: flex; align-items: flex-end; gap: 8px }
   .cap { font: 11.5px/1.3 var(--font-body); color: var(--p-dim) }
   .lineup-cell .cap { align-self: center; margin-left: 4px }
+  .toc { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 16px; font-size: 13.5px }
+  .toc a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent }
+  .toc a:hover { border-bottom-color: currentColor }
+  h2.round { font-size: 30px; margin: 24px 0 6px; padding-top: 28px; border-top: 2px solid var(--fg) }
+  .lead { margin: 0 0 8px; color: var(--muted); max-width: 60ch }
+  .lead a { color: var(--accent) }
+  h3.group { font: 500 12.5px/1 var(--font-body); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin: 36px 0 -20px }
   .verdict { padding-block: 32px 0; border-top: 1px solid var(--rule); max-width: 66ch }
   .verdict h2 { margin-bottom: 10px }
   .verdict p { margin: 0 0 10px }
@@ -60,12 +73,11 @@
   a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
   @media (max-width: 860px) {
     .concept { grid-template-columns: minmax(0, 1fr) }
-    .lineup-row { grid-template-columns: repeat(3, minmax(0, 1fr)) }
+    .lineup-row.cols-4, .lineup-row.cols-6 { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)) }
   }
   @media (max-width: 560px) {
     .sheet { grid-template-columns: minmax(0, 1fr) }
     .lockup { font-size: 32px }
-    .lineup-row { grid-template-columns: repeat(2, minmax(0, 1fr)) }
     h1 { font-size: 28px }
   }
   @media (prefers-reduced-motion: no-preference) { a { transition: color .15s } }
@@ -83,13 +95,292 @@
 <symbol id="m-stroke" viewBox="0 0 64 64"><path fill="none" stroke="var(--ink)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M30 9V42Q30 52 39 52Q45 52 48 47M19 25H42"/>
       <circle cx="49" cy="47" r="6.5" fill="var(--pink)"/></symbol>
 <symbol id="m-nib" viewBox="0 0 64 64"><path fill="var(--ink)" fill-rule="evenodd" d="M21 8H43Q48 8 47 14L46 26Q44 40 32 58Q20 40 18 26L17 14Q16 8 21 8Z M30.8 34H33.2V60H30.8Z"/>
-      <circle cx="32" cy="29" r="4.5" fill="var(--pink)"/></symbol></svg>
+      <circle cx="32" cy="29" r="4.5" fill="var(--pink)"/></symbol>
+<symbol id="m-drop-two-words" viewBox="0 0 64 64"><path fill="var(--ink)" fill-rule="evenodd" d="M32 7C32 7 50 25 50 38A18 18 0 1 1 14 38C14 25 32 7 32 7ZM39.5 35.5h3a3.5 3.5 0 0 1 3.5 3.5v0a3.5 3.5 0 0 1 -3.5 3.5h-3a3.5 3.5 0 0 1 -3.5 -3.5v-0a3.5 3.5 0 0 1 3.5 -3.5z"/>
+      <path fill="var(--pink)" d="M22.5 35.5h7a3.5 3.5 0 0 1 3.5 3.5v0a3.5 3.5 0 0 1 -3.5 3.5h-7a3.5 3.5 0 0 1 -3.5 -3.5v-0a3.5 3.5 0 0 1 3.5 -3.5z"/></symbol>
+<symbol id="m-drop-on-a-line" viewBox="0 0 64 64"><path fill="var(--ink)" d="M32 5C32 5 41.5 15.440000000000001 41.5 23A9.5 9.5 0 1 1 22.5 23C22.5 15.440000000000001 32 5 32 5ZM10 41h7a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-7a3 3 0 0 1 -3 -3v-3a3 3 0 0 1 3 -3zM47 41h7a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-7a3 3 0 0 1 -3 -3v-3a3 3 0 0 1 3 -3z"/>
+      <path fill="var(--pink)" d="M26 41h12a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-3a3 3 0 0 1 3 -3z"/></symbol>
+<symbol id="m-card" viewBox="0 0 64 64"><path fill="var(--pink)" d="M16 19h17a4 4 0 0 1 4 4v4a4 4 0 0 1 -4 4h-17a4 4 0 0 1 -4 -4v-4a4 4 0 0 1 4 -4z"/>
+      <path fill="var(--ink)" d="M15.5 36h33a3.5 3.5 0 0 1 3.5 3.5v2a3.5 3.5 0 0 1 -3.5 3.5h-33a3.5 3.5 0 0 1 -3.5 -3.5v-2a3.5 3.5 0 0 1 3.5 -3.5z"/></symbol>
+<symbol id="m-tap" viewBox="0 0 64 64"><rect x="10" y="20" width="44" height="24" rx="8" fill="none" stroke="var(--ink)" stroke-width="3.5"/>
+      <path fill="var(--pink)" d="M21.5 27h21a3.5 3.5 0 0 1 3.5 3.5v3a3.5 3.5 0 0 1 -3.5 3.5h-21a3.5 3.5 0 0 1 -3.5 -3.5v-3a3.5 3.5 0 0 1 3.5 -3.5z"/></symbol>
+<symbol id="m-blot" viewBox="0 0 64 64"><path fill="var(--ink)" fill-rule="evenodd" d="M57.26 33.00L57.47 34.33L57.31 35.66L56.82 36.93L56.03 38.11L55.03 39.17L53.89 40.11L52.73 40.96L51.61 41.73L50.60 42.48L49.73 43.24L49.03 44.06L48.46 44.96L47.99 45.95L47.56 47.01L47.10 48.10L46.56 49.17L45.89 50.15L45.06 50.98L44.08 51.61L42.97 52.00L41.75 52.14L40.48 52.05L39.20 51.76L37.96 51.35L36.79 50.88L35.71 50.43L34.70 50.07L33.77 49.86L32.88 49.82L32.00 49.97L31.09 50.27L30.14 50.70L29.12 51.20L28.02 51.71L26.86 52.18L25.65 52.55L24.40 52.80L23.13 52.91L21.87 52.88L20.62 52.71L19.39 52.42L18.17 52.03L16.98 51.55L15.80 50.99L14.66 50.34L13.57 49.59L12.56 48.74L11.67 47.77L10.94 46.67L10.42 45.46L10.14 44.14L10.13 42.74L10.38 41.30L10.87 39.87L11.56 38.48L12.38 37.17L13.24 35.97L14.06 34.89L14.76 33.90L15.26 33.00L15.52 32.14L15.54 31.27L15.33 30.36L14.95 29.38L14.46 28.30L13.95 27.14L13.52 25.90L13.24 24.65L13.17 23.41L13.36 22.24L13.81 21.18L14.48 20.27L15.35 19.52L16.35 18.90L17.40 18.40L18.45 17.95L19.45 17.51L20.38 17.00L21.21 16.38L21.97 15.62L22.68 14.72L23.40 13.68L24.15 12.55L24.98 11.40L25.92 10.31L26.97 9.35L28.13 8.59L29.38 8.09L30.68 7.88L32.00 7.97L33.29 8.33L34.53 8.93L35.69 9.72L36.76 10.63L37.73 11.61L38.63 12.61L39.45 13.59L40.22 14.55L40.94 15.46L41.62 16.34L42.26 17.20L42.86 18.05L43.41 18.91L43.91 19.77L44.36 20.64L44.79 21.49L45.20 22.31L45.65 23.08L46.17 23.80L46.79 24.46L47.56 25.07L48.50 25.66L49.59 26.25L50.81 26.89L52.13 27.61L53.46 28.44L54.72 29.40L55.83 30.50L56.70 31.71ZM24.5 27.5h15a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-15a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5zM24.5 37.5h3a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-3a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5z"/>
+      <circle cx="55" cy="12" r="2.6" fill="var(--ink)"/><circle cx="9" cy="51" r="2" fill="var(--ink)"/>
+      <path fill="var(--pink)" d="M35.5 37.5h5a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1 -2.5 2.5h-5a2.5 2.5 0 0 1 -2.5 -2.5v-0a2.5 2.5 0 0 1 2.5 -2.5z"/></symbol>
+<symbol id="m-dripping-t" viewBox="0 0 64 64"><path fill="var(--ink)" d="M10.5 12h43a2.5 2.5 0 0 1 2.5 2.5v5a2.5 2.5 0 0 1 -2.5 2.5h-43a2.5 2.5 0 0 1 -2.5 -2.5v-5a2.5 2.5 0 0 1 2.5 -2.5zM29.5 20h5a2.5 2.5 0 0 1 2.5 2.5v27a2.5 2.5 0 0 1 -2.5 2.5h-5a2.5 2.5 0 0 1 -2.5 -2.5v-27a2.5 2.5 0 0 1 2.5 -2.5z"/>
+      <path fill="var(--pink)" d="M49 21C49 21 55 27.96 55 33A6 6 0 1 1 43 33C43 27.96 49 21 49 21Z"/></symbol>
+<symbol id="m-ring" viewBox="0 0 64 64"><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M38.61 13.12A20 20 0 0 1 44.96 16.76"/><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M51.63 28.17A20 20 0 0 1 51.95 30.62"/><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M48.46 43.36A20 20 0 0 1 39.59 50.51"/><path fill="none" stroke="var(--pink)" stroke-width="8" stroke-linecap="round" d="M26.39 51.20A20 20 0 0 1 22.19 49.43"/><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M13.46 39.51A20 20 0 0 1 12.69 26.81"/><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M20.14 15.90A20 20 0 0 1 25.39 13.12"/></symbol>
+<symbol id="m-glasses" viewBox="0 0 64 64"><circle cx="45" cy="34" r="10" fill="var(--pink)"/>
+      <circle cx="19" cy="34" r="10" fill="none" stroke="var(--ink)" stroke-width="4"/>
+      <circle cx="45" cy="34" r="10" fill="none" stroke="var(--ink)" stroke-width="4"/>
+      <path fill="none" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round" d="M29 32Q32 27 35 32M8 31L4 26M56 31L60 26"/></symbol></svg>
 <div class="wrap">
 <header>
-  <h1>Six logo concepts for Tinta</h1>
+  <h1>Logo concepts for Tinta</h1>
   <p><strong>Tinta</strong> is ink in Spanish, Portuguese and Indonesian. The app colours every word of a text by whether you know it, and every concept below keeps to that palette: ink for a known word, pink for an unknown one.</p>
   <p>Each concept is proved on the light and the dark palette: the mark, the lockup with the wordmark set in the reading serif, the app icon at 64, 32 and 16 px, a bare 16 px favicon, and the mark in one colour.</p>
+  <nav class="toc"><a href="#round-two">Round two</a><a href="#lineup">All at icon size</a><a href="#verdict">Recommendation</a><a href="#round-one">Round one</a></nav>
 </header>
+
+<h2 class="round" id="round-two">Round two</h2>
+<p class="lead">Two variations each on the shortlisted <a href="#drop">Drop</a> and <a href="#line">Tinta, reader</a>, then four new directions.</p>
+<h3 class="group">Drop, varied</h3>
+
+<section class="concept" id="drop-two-words">
+  <div class="text">
+    <h2><span class="num">1a</span>Drop, two words</h2>
+    <p class="idea">The drop from concept 1 holding the line from concept 4: pink “tinta”, and the known word cut out of the ink. One mark for both favourites.</p>
+    <dl>
+      <dt>Works because</dt><dd>One line instead of two, so it holds at 16 px where the first drop lost its lines.</dd>
+      <dt>Watch for</dt><dd>The cut-out word is only as visible as the contrast between the ink and the icon ground.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg></div>
+    <div class="lockup lower"><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg><span class="word"><span style="color:var(--pink)">tinta</span> <span>reader</span></span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg></div>
+    <div class="lockup lower"><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg><span class="word"><span style="color:var(--pink)">tinta</span> <span>reader</span></span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="drop-on-a-line">
+  <div class="text">
+    <h2><span class="num">1b</span>Drop on a line</h2>
+    <p class="idea">The drop about to land on a line of text, and the word under it already pink. The moment the app makes: ink meets a word.</p>
+    <dl>
+      <dt>Works because</dt><dd>It tells a small story, and the drop and the line stay two clear shapes at every size.</dd>
+      <dt>Watch for</dt><dd>Two elements is one more than a 16 px favicon likes; the drop shrinks to a dot.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+<h3 class="group">Tinta, reader, varied</h3>
+
+<section class="concept" id="card">
+  <div class="text">
+    <h2><span class="num">4a</span>The card</h2>
+    <p class="idea">“Tinta, reader” as the word card: the unknown word above, its meaning beneath, left-aligned. The lockup is the card the app opens on a tap.</p>
+    <dl>
+      <dt>Works because</dt><dd>The stacked lockup is the most distinctive wordmark of the set, and the mark has more mass than two blocks side by side.</dd>
+      <dt>Watch for</dt><dd>Two stacked bars alone can read as a list icon. The top one has to stay pink.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg><span class="stack"><span class="w1">tinta</span><span class="w2">reader</span></span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg><span class="stack"><span class="w1">tinta</span><span class="w2">reader</span></span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="tap">
+  <div class="text">
+    <h2><span class="num">4b</span>The tap</h2>
+    <p class="idea">“tinta” as the tapped word: pink inside the selection ring the app draws, “reader” plain beside it. The mark is that ring around a pink word.</p>
+    <dl>
+      <dt>Works because</dt><dd>The ring gives the small mark an edge to hold at 16 px, and it is the app's own gesture.</dd>
+      <dt>Watch for</dt><dd>A rounded outline is close to a button. The ring wants to stay thin beside the wordmark.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tap"/></svg></div>
+    <div class="lockup lower"><span class="ringed">tinta</span> <span>reader</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tap"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tap"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tap"/></svg></div>
+    <div class="lockup lower"><span class="ringed">tinta</span> <span>reader</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tap"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tap"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+<h3 class="group">Four new</h3>
+
+<section class="concept" id="blot">
+  <div class="text">
+    <h2><span class="num">7</span>Blot</h2>
+    <p class="idea">A splash of ink with the text showing through, the unknown word pink. The drop's wilder sibling.</p>
+    <dl>
+      <dt>Works because</dt><dd>The most organic shape of the set and unmistakable at any size.</dd>
+      <dt>Watch for</dt><dd>A blot has to be drawn once, well, by hand; an irregular outline looks accidental when its balance is off.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="dripping-t">
+  <div class="text">
+    <h2><span class="num">8</span>Dripping T</h2>
+    <p class="idea">A solid T with a drop of ink falling from the end of its crossbar.</p>
+    <dl>
+      <dt>Works because</dt><dd>The initial and the drop in one, and still one shape at 16 px.</dd>
+      <dt>Watch for</dt><dd>The drip is small. Below 24 px it becomes a pink dot beside the T.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="ring">
+  <div class="text">
+    <h2><span class="num">9</span>Ring of words</h2>
+    <p class="idea">A sentence wrapped into a ring: six words of different lengths, one of them unknown. “Know what you can read”, as a shape.</p>
+    <dl>
+      <dt>Works because</dt><dd>Unlike any reading app's icon, and the gaps close at small sizes into a ring with one pink segment.</dd>
+      <dt>Watch for</dt><dd>It reads as a progress ring at first glance. The pink has to stay the odd one out.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="concept" id="glasses">
+  <div class="text">
+    <h2><span class="num">10</span>Glasses</h2>
+    <p class="idea">Reading glasses with one lens tinted ink pink: the reader, and what the app colours for them.</p>
+    <dl>
+      <dt>Works because</dt><dd>The friendliest of the set, and the only one that says “reader” before “ink”.</dd>
+      <dt>Watch for</dt><dd>The most playful, so it sets a lighter tone than the serif wordmark.</dd>
+    </dl>
+  </div>
+  <div class="sheet">
+  <div class="panel light">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div>
+  <div class="panel dark">
+    <div class="hero"><svg class="mark" width="128" height="128" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg></div>
+    <div class="lockup "><svg class="" width="44" height="44" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg><span class="word">Tinta</span></div>
+    <div class="row">
+      <div class="proof"><div class="icons"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg></div><span class="cap">App icon 64 · 32 · 16, favicon</span></div>
+      <div class="proof"><div class="mono"><svg class="" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg></div><span class="cap">One colour</span></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="lineup" id="lineup">
+  <h2>All fourteen at icon size</h2>
+  <p>The test that matters most for a favicon and a home screen: which ones still say something at 24 and 16 px. Round two first, then round one.</p>
+  
+  <div class="panel light lineup-row cols-4">
+    <div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg><span class="cap">1a</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg><span class="cap">1b</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg><span class="cap">4a</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tap"/></svg><span class="cap">4b</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg><span class="cap">7</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg><span class="cap">8</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg><span class="cap">9</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg><span class="cap">10</span></div>
+  </div>
+  
+  <div class="panel dark lineup-row cols-4">
+    <div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-two-words"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-two-words"/></svg><span class="cap">1a</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop-on-a-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop-on-a-line"/></svg><span class="cap">1b</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-card"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-card"/></svg><span class="cap">4a</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tap"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tap"/></svg><span class="cap">4b</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-blot"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-blot"/></svg><span class="cap">7</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-dripping-t"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-dripping-t"/></svg><span class="cap">8</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-ring"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-ring"/></svg><span class="cap">9</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-glasses"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-glasses"/></svg><span class="cap">10</span></div>
+  </div>
+  
+  <div class="panel light lineup-row cols-6">
+    <div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg><span class="cap">1</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg><span class="cap">2</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg><span class="cap">3</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg><span class="cap">4</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg><span class="cap">5</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg><span class="cap">6</span></div>
+  </div>
+  
+  <div class="panel dark lineup-row cols-6">
+    <div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg><span class="cap">1</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg><span class="cap">2</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg><span class="cap">3</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg><span class="cap">4</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg><span class="cap">5</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg><span class="cap">6</span></div>
+  </div>
+</section>
+
+<section class="verdict" id="verdict">
+  <h2>A recommendation</h2>
+  <p><a href="#drop-two-words">Drop, two words</a> is the one mark that carries both favourites: the drop for “tinta”, the pink-and-known line for what the app does, and it survives 16 px. Pair it with the <a href="#card">card</a> lockup, pink “tinta” over “reader”, for the site and the link preview, and the mark alone for the icon.</p>
+  <p>Of the four new, <a href="#ring">Ring of words</a> is the one worth a second look: the least like anything else on a home screen, and its story is the tagline. <a href="#blot">Blot</a> is the drop's wilder sibling if the drop feels too tidy.</p>
+</section>
+
+<h2 class="round" id="round-one">Round one</h2>
+<p class="lead">The first six. Concepts 1 and 4 were shortlisted.</p>
 
 <section class="concept" id="drop">
   <div class="text">
@@ -258,24 +549,8 @@
     </div>
   </div></div>
 </section>
-<section class="lineup">
-  <h2>All six at icon size</h2>
-  <p>The test that matters most for a favicon and a home screen: which ones still say something at 24 and 16 px.</p>
-  
-  <div class="panel light lineup-row">
-    <div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg><span class="cap">1</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg><span class="cap">2</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg><span class="cap">3</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg><span class="cap">4</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg><span class="cap">5</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg><span class="cap">6</span></div>
-  </div>
-  
-  <div class="panel dark lineup-row">
-    <div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-drop"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-drop"/></svg><span class="cap">1</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-tbar"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-tbar"/></svg><span class="cap">2</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-bookmark"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-bookmark"/></svg><span class="cap">3</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-line"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-line"/></svg><span class="cap">4</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-stroke"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-stroke"/></svg><span class="cap">5</span></div><div class="lineup-cell"><svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><use href="#sq" fill="var(--icon-fill)" stroke="var(--icon-line)" stroke-width="0.75"/><g transform="translate(32 32) scale(0.74) translate(-32 -32)"><use href="#m-nib"/></g></svg><svg class="" width="16" height="16" viewBox="0 0 64 64" aria-hidden="true"><use href="#m-nib"/></svg><span class="cap">6</span></div>
-  </div>
-</section>
-<section class="verdict">
-  <h2>A recommendation</h2>
-  <p>Take <a href="#tbar">T of words</a> forward as the safe choice: it is the current icon's idea sharpened into a letter, and it is the most legible at 16 px. Take <a href="#bookmark">Dipped bookmark</a> forward as the distinctive one, and put both on a phone home screen beside real apps before deciding.</p>
-  <p>Whichever mark wins, the coloured wordmark from <a href="#line">Tinta, reader</a> can travel with it: pink “tinta”, ink “reader” works beside any of the other five marks and says what the product does in two words.</p>
-  <p class="files">Files: <code>brand/logo-concepts/0N-name.svg</code>, one per mark, 64 px grid, colours follow the viewer's light or dark scheme. The site repo is regenerated on every publish, so a chosen mark belongs in <code>docs/brand</code> of the app repo.</p>
-</section>
+
+<p class="files">Files: <code>brand/logo-concepts/NN-name.svg</code>, one per mark, 64 px grid, colours follow the viewer's light or dark scheme. The site repo is regenerated on every publish, so a chosen mark belongs in <code>docs/brand</code> of the app repo.</p>
 </div>
 </body>
 </html>
