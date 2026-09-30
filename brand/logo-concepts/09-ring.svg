@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Tinta logo concept 9: Ring of words</title>
+  <style>
+    :root{--ink:#1b1f24;--pink:#b8246a}
+    @media (prefers-color-scheme:dark){:root{--ink:#c5ccd4;--pink:#ff5277}}
+  </style>
+  <path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M38.61 13.12A20 20 0 0 1 44.96 16.76"/><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M51.63 28.17A20 20 0 0 1 51.95 30.62"/><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M48.46 43.36A20 20 0 0 1 39.59 50.51"/><path fill="none" stroke="var(--pink)" stroke-width="8" stroke-linecap="round" d="M26.39 51.20A20 20 0 0 1 22.19 49.43"/><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M13.46 39.51A20 20 0 0 1 12.69 26.81"/><path fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round" d="M20.14 15.90A20 20 0 0 1 25.39 13.12"/>
+</svg>
