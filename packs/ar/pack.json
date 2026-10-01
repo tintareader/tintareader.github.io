@@ -1,41 +1,41 @@
 {
   "id": "ar",
-  "version": "1.0.38",
+  "version": "1.0.45",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "2d9f31bdac1f921228809687cd025f140351471873590ed05ef8dd4244a438a7"
+      "sha256": "86c6d44485c98e69047b920c748517eaddd0790c88d76e9d44a3f53b7bd04cef"
     },
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "67ca2da85807de967ea17545774be582ef1e91451955c03cd202ab5cab741603"
+      "sha256": "b8104359ea26c9ae7e665b3449d83882aa90403e6784144d26ab0a918479ef97"
     },
     "ranks": {
       "path": "ranks.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "ab69ead70574ab7bc35f20953ba1cc65a32b320ef7728ec28fbc1cab741c4e2b"
+      "sha256": "f43baf442aee7a014a09e2dd8065345e759e78c7bda59241e10a9200da1b527c"
     },
     "lemmas": {
       "path": "lemmas.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "ca86177974c0f2ea4c25f75723ac415d88337d5bfe7aefde9adbf30c3274ca15"
+      "sha256": "bc3df4571b7f1ae52140849d9fe34a2b07d03605a12ccbd1ca48f7a48b423198"
     },
     "readings": {
       "path": "readings.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "a140cd9a27ceb165311615fd1a3222227632c096c9b88d70c08f87a0adfc8cc6"
+      "sha256": "4c9bdbe7d4468256c14292c89e983e544d53ca49eb70a9943031227abce8bda3"
     },
     "sample": {
       "path": "sample.txt",
       "license": "unencumbered",
-      "sha256": "decf44fc5f41b90096c125b86eae31fa12659ea04eb54d1c3100c6ac5f5062fa"
+      "sha256": "cda8ff12105d1927243158f62b094214a32af8a3ef8c3cf406f235f06344b95d"
     },
     "gloss.id": {
       "path": "gloss.id.txt",
       "license": "unencumbered",
-      "sha256": "4d773346741b03e8fa46bc1442116e6364dd6ae405d3b8166a0d6aa2908bacc3"
+      "sha256": "65a24b22ee1bc22cdf7e58461ed107e6e1c5854f8e4867fd05168f347623e1a1"
     },
     "phrases": {
       "path": "phrases.txt",
@@ -60,7 +60,7 @@
     "gloss.es": {
       "path": "gloss.es.txt",
       "license": "unencumbered",
-      "sha256": "202237976600f7cbde72a86ed165162591b7144d520dc1f27cba1d49e5cafc6e"
+      "sha256": "b6bb57a673f2b8d37ca05a78a2172aa0c4f1a42e644f0e54abd9c8a07055998f"
     },
     "phrases.fr": {
       "path": "phrases.fr.txt",
@@ -70,7 +70,7 @@
     "gloss.fr": {
       "path": "gloss.fr.txt",
       "license": "unencumbered",
-      "sha256": "ec19cfbf8f098c535dd5056e16e42170d7c86bb71a7ed36236091059e08e71c0"
+      "sha256": "b30b3b08d7d6dadca9e6a656b015ee4284b74bbe7095a7cd0b0227396f142db9"
     },
     "phrases.pt": {
       "path": "phrases.pt.txt",
@@ -80,7 +80,7 @@
     "gloss.pt": {
       "path": "gloss.pt.txt",
       "license": "unencumbered",
-      "sha256": "065063c026a9d1c782d26c71ee0668774d391682ee15cfaad505769bb88ac62d"
+      "sha256": "14525a8160d81a1902aa221f9a777e4f886ade03816be62550fbf5c45eb10b9d"
     }
   }
 }

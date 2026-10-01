@@ -1,11 +1,11 @@
 {
   "id": "pt",
-  "version": "1.1.50",
+  "version": "1.1.51",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "bc5ffc856f5e9dca6e559e7dfb5efc16af2bab725fc5f3a3122e887f20412d62"
+      "sha256": "478e24ee88e57ce26fe5ceaf1ecad5c4ae57c0edad502a5347f4f480addc677b"
     },
     "gloss.en": {
       "path": "gloss.en.txt",

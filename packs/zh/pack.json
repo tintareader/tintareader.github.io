@@ -1,6 +1,6 @@
 {
   "id": "zh",
-  "version": "1.1.83",
+  "version": "1.1.97",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -10,7 +10,7 @@
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "6df8d6235249812107bf9ba40d288fe5cf6ff9e4fa154cb28b7b40732b58a368"
+      "sha256": "e4cb7d6c6d0d2c381e6ab4fdab4055c8a48d979bd12a8251c4afe1ed8abe423c"
     },
     "ranks": {
       "path": "ranks.txt",
@@ -30,7 +30,7 @@
     "sample": {
       "path": "sample.txt",
       "license": "unencumbered",
-      "sha256": "b54bc491ae4a93ede1ffeb9c6ef244d6fdf349bc3cbfa5f5904d819b718591bc"
+      "sha256": "2faca24bbc19bee359bf18b9f160aa95c629d144c133849204d9db8d1fadfbe8"
     },
     "phrases": {
       "path": "phrases.txt",
@@ -45,7 +45,7 @@
     "gloss.id": {
       "path": "gloss.id.txt",
       "license": "unencumbered",
-      "sha256": "f5c07e281051d882380904e9ad8dd3ef35d8e553ed7f6b6b5b3c3bf21ca377a7"
+      "sha256": "6636e2e03067be81780b22130171b903965b7109a9bada59da85572b023a3790"
     },
     "phrases.id": {
       "path": "phrases.id.txt",
@@ -60,7 +60,7 @@
     "gloss.es": {
       "path": "gloss.es.txt",
       "license": "unencumbered",
-      "sha256": "9ab8cf333fd6faf7eb485fb5d600e1aad9d926990bdc95b03502561a8fdffedc"
+      "sha256": "22719d64d715dd0a774ac31486cd96108b286d47ee3c6d3d050b9ee1f0b58315"
     },
     "phrases.fr": {
       "path": "phrases.fr.txt",
@@ -70,7 +70,7 @@
     "gloss.fr": {
       "path": "gloss.fr.txt",
       "license": "unencumbered",
-      "sha256": "20e9cdcf74714217cfb652c33fc1f0799f68362ef253ecd491279f34c507a5ad"
+      "sha256": "72a92154bdb5b6850d78ce5e446c6e832b2d8da38fb5a39484b4a04d7c0b7586"
     },
     "phrases.pt": {
       "path": "phrases.pt.txt",
@@ -80,7 +80,7 @@
     "gloss.pt": {
       "path": "gloss.pt.txt",
       "license": "unencumbered",
-      "sha256": "cc38cd3fa7a9e180f9304ed512f75bbc6b87313c1510c10318471b000ea37b9a"
+      "sha256": "291cf94c653122a6a434fc3885c0ed976237c6f71790b2512ee50a84452cf55d"
     }
   }
 }

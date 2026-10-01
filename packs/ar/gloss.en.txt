@@ -100,8 +100,8 @@
 لهذا|for this reason, that's why, so|o
 مرحبا|hello, hi; welcome|o;o
 هيا|come on!, let's go!|o
-أم|mother (pl. أمهات); or (in questions)|o;o
 تحدث|to speak, to talk (V, يتحدث، تحدث)|v
+أم|mother (pl. أمهات); or (in questions)|o;o
 مكان|place (pl. أماكن)|o
 نظر|to look (at) (ينظُر، نظر); sight, view (pl. أنظار)|v;o
 أخذ|to take (يأخُذ، أخذ)|v
@@ -258,7 +258,6 @@
 مجرد|just, mere, merely (+ noun); abstract|o;o
 حسن|good, fine; أحسن: better, best; Hassan (name)|o;n;o
 نسبة|ratio, proportion, percentage (pl. نسب); بالنسبة: as for, regarding (بالنسبة لي as for me)|o;n
-قدم|foot (pl. أقدام); to present, to offer (II, يقدم، تقديم); to come, to arrive (يقدَم، قدوم)|o;v;v
 عاش|to live (يعيش، عيش)|v
 لنا|to us, for us; we have|o;f1p
 ها|here, look (ها هو here he is; ها أنا here I am)|o
@@ -269,6 +268,7 @@
 دفع|to pay (يدفَع، دفع); to push (يدفَع، دفع); payment|v;v;o
 زوجة|wife|o
 كثيرا|a lot, much; often|o;o
+قدم|foot (pl. أقدام); to present, to offer (II, يقدم، تقديم); to come, to arrive (يقدَم، قدوم)|o;v;v
 صغير|small, little (pl. صغار); young|o;o
 حب|love; grains, seeds (حَب); حبوب: pills|o;o;n
 وجه|face (pl. وجوه); aspect, way (pl. أوجه); to direct, to aim (II, يوجه، توجيه)|o;o;v
@@ -482,9 +482,9 @@
 حلم|dream (pl. أحلام); to dream (يحلُم، حلم)|o;v
 أخت|sister|o
 آنسة|miss (young woman)|o
-زوج|husband (pl. أزواج); pair, couple|o;o
 ألقى|to throw (IV, يلقي، إلقاء); ألقى القبض: to arrest; ألقى نظرة: to take a look|v;n;n
 قابل|to meet (III, يقابل، مقابلة); capable of, -able (قابل للكسر breakable)|v;o
+زوج|husband (pl. أزواج); pair, couple|o;o
 ذا|this (من ذا who is it?; ماذا what); having, with (form of ذو)|o;o
 كره|to hate (يكرَه، كره); hatred|v;o
 أوقف|to stop, to halt (IV, يوقف، إيقاف); to arrest|v;v
@@ -501,15 +501,15 @@
 عني|about me; from me, away from me (ابتعد عني get away from me)|o;o
 أيتها|O, hey (before a definite feminine noun: أيتها السيدة madam)|o
 دليل|evidence, proof (pl. أدلة); guide, directory|o;o
-منطقة|area, region, zone (pl. مناطق)|o
 توقع|to expect (V, يتوقع، توقع); expectation, prediction|v;o
+منطقة|area, region, zone (pl. مناطق)|o
 سيئة|bad (f.); bad deed, sin|o;o
 كذب|to lie (يكذِب، كذب); lie, lying (pl. أكاذيب)|v;o
 افترض|to suppose, to assume (VIII, يفترض، افتراض); يفترض: is supposed to|v;n
 نحو|towards; about, approximately (نحو عشرة about ten); grammar, syntax|o;o;o
 كرة|ball; كرة القدم: football, soccer|o;n
-وقع|to fall (يقَع، وقوع); to be located (يقع في); to sign (II, يوقع، توقيع); وقع في الحب: to fall in love|v;v;v;n
 شعور|feeling, sense (pl. مشاعر)|o
+وقع|to fall (يقَع، وقوع); to be located (يقع في); to sign (II, يوقع، توقيع); وقع في الحب: to fall in love|v;v;v;n
 قضى|to spend (time) (يقضي، قضاء); to judge, to decide; قضى على: to finish off, to wipe out|v;v;n
 تال|next, following (التالي)|o
 ضد|against|o
@@ -698,6 +698,7 @@
 قيادة|driving; leadership, command|o;o
 اختفى|to disappear, to vanish (VIII, يختفي، اختفاء)|v
 مئة|hundred|o
+تقدم|to advance, to move forward, to make progress (V, يتقدم، تقدم); progress|v;o
 حساب|account; bill (in a restaurant); calculation|o;o;o
 غاضب|angry, mad|o
 سوء|evil, badness; mis-, ill- (سوء الفهم misunderstanding); لسوء الحظ: unfortunately|o;o;n
@@ -716,15 +717,15 @@
 تسمع|you hear, she hears (هل تسمعني can you hear me)|f2s2p
 لون|colour (pl. ألوان)|o
 حظي|my luck; to obtain, to enjoy (+ ب; يحظى، حظوة)|o;v
+تزوج|to marry, to get married (V, يتزوج، زواج)|v
 أثناء|during (أثناء ذلك meanwhile)|o
 مانع|objection, obstacle (pl. موانع); لا مانع: no objection, I don't mind|o;n
 أبد|eternity; إلى الأبد: forever|o;n
-وهم|illusion, delusion (pl. أوهام); (و + هم) and they, while they|o;o
+وهم|(و + هم) and they, while they; illusion, delusion (pl. أوهام)|o;o
 وشك|على وشك: about to, on the verge of|n
 بقية|rest, remainder|o
-وفي|loyal, faithful (pl. أوفياء); (و + في) and in|o;o
+وفي|(و + في) and in; loyal, faithful (pl. أوفياء)|o;o
 بطاقة|card; ticket|o;o
-تزوج|to marry, to get married (V, يتزوج، زواج)|v
 نقود|money, cash|o
 إليها|to her, towards her; to it (f.)|o;o
 استمتع|to enjoy (+ ب; X, يستمتع، استمتاع)|v
@@ -752,7 +753,6 @@
 أغنية|song (pl. أغان)|o
 ضوء|light (pl. أضواء)|o
 خمس|five (with a feminine noun; خمسة with a masculine); a fifth (خُمس)|o;o
-تقدم|to advance, to move forward, to make progress (V, يتقدم، تقدم); progress|v;o
 أخر|to delay, to postpone (II, يؤخر، تأخير); other (pl. of أخرى: أُخَر)|v;o
 تاريخ|history; date (pl. تواريخ)|o;o
 حمام|bathroom, toilet; bath; pigeons, doves (حَمام)|o;o;o
@@ -1201,7 +1201,6 @@
 قضاء|spending (time); judiciary, justice; fate (القضاء والقدر fate and destiny)|o;o;o
 فيديو|video|o
 شاي|tea|o
-فرق|difference (pl. فروق); teams, bands (pl. of فرقة); to separate, to split up (II, يفرق، تفريق)|o;o;v
 ضعيف|weak (pl. ضعفاء)|o
 المسيح|Christ, the Messiah|o
 عبث|futility, nonsense; to mess with, to tamper with (+ ب; يعبَث، عبث); عبثا: in vain|o;v;n
@@ -1229,6 +1228,7 @@
 إضافي|additional, extra|o
 مليء|full (of) (+ ب)|o
 رصاصة|bullet|o
+فرق|difference (pl. فروق); teams, bands (pl. of فرقة); to separate, to split up (II, يفرق، تفريق)|o;o;v
 أدنى|lower, lowest, least (الحد الأدنى the minimum; أدنى فكرة the slightest idea)|o
 أقدم|older, oldest; to undertake, to proceed to (+ على; IV, يقدم، إقدام); I present, I offer (أقدّم)|o;v;f1s
 متعة|pleasure, enjoyment, fun (pl. متع)|o
@@ -1270,7 +1270,7 @@
 مجرم|criminal|o
 ثلج|snow; ice (pl. ثلوج)|o;o
 مسافة|distance|o
-فلم|film, movie (= فيلم، pl. أفلام); (ف + لم) so … did not|o;o
+فلم|(ف + لم) so … did not; film, movie (= فيلم، pl. أفلام)|o;o
 إنترنت|internet|o
 شاذ|abnormal, odd, irregular; homosexual (derogatory term)|o;o
 اتفاق|agreement, deal|o
@@ -2038,7 +2038,6 @@
 المباحث|investigators, criminal investigation (المباحث الفيدرالية the FBI)|o
 علبة|box, can, pack (pl. علب)|o
 فيروس|virus|o
-جهز|to prepare, to get ready, to equip (II, يجهز، تجهيز)|v
 ذكاء|intelligence, cleverness; ذكاء اصطناعي: artificial intelligence|o;n
 حيوي|vital, lively; biological (سلاح حيوي biological weapon)|o;o
 رهيب|terrible, dreadful; awesome (colloq.)|o;o
@@ -2089,6 +2088,7 @@
 تام|complete, total, full (بشكل تام completely)|o
 تحليل|analysis (pl. تحاليل); (medical) test|o;o
 تطور|to develop, to evolve (V, يتطور، تطور); development, evolution|v;o
+جهز|to prepare, to get ready, to equip (II, يجهز، تجهيز)|v
 لسان|tongue (pl. ألسنة); language|o;o
 أنبوب|tube, pipe (pl. أنابيب)|o
 رومانسي|romantic|o
@@ -4990,6 +4990,7 @@
 الخطورة|danger, seriousness, gravity|o
 رافعة|crane (machine); lever, jack|o;o
 كد|toil, hard work; to toil, to work hard (يكِد، كد)|o;v
+تجهز|to get ready, to prepare oneself (V, يتجهز، تجهز); you prepare, she prepares (of جهز)|v;f2s2p
 ورل|monitor lizard (pl. ورلان)|o
 افترق|to part, to separate, to split up (VIII, يفترق، افتراق)|v
 مبادرة|initiative|o
@@ -5336,6 +5337,7 @@
 نبرة|tone (of voice)|o
 شد|to pull, to tighten (يشُد، شد); pull, tension|v;o
 تغذى|to feed (on), to be nourished (V, يتغذى، تغذية)|v
+تفرق|to disperse, to scatter, to split up (V, يتفرق، تفرق); separation, dispersal|v;o
 تقدمي|progressive|o
 وهلة|moment, instant (للوهلة الأولى: at first sight)|o
 استكشاف|exploration, exploring|o
@@ -5571,7 +5573,6 @@
 بوصلة|compass|o
 دمج|to merge, to integrate (يدمُج، دمج); merger, integration|v;o
 فيجي|Fiji|o
-تجهز|to get ready, to prepare oneself (V, يتجهز، تجهز); you prepare, she prepares (of جهز)|v;f2s2p
 كويكب|asteroid|o
 مضاعف|double, doubled, multiplied; complication (medical) (مضاعفات)|o;o
 تشاو|ciao, bye (colloq.)|o
@@ -6905,7 +6906,6 @@
 تألم|to suffer, to feel pain (V, يتألم، تألم)|v
 مشتت|scattered, dispersed; distracted, confused|o;o
 إفادة|statement, testimony (to police); benefit, usefulness|o;o
-تفرق|to disperse, to scatter, to split up (V, يتفرق، تفرق); separation, dispersal|v;o
 صد|to repel, to block, to fend off (يصُد، صد)|v
 النمسا|Austria|o
 تباهى|to show off, to boast (VI, يتباهى، تباه)|v
