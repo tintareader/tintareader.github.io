@@ -261,6 +261,7 @@ notice travels with the data, as the licence asks. That notice reads:
 ----------------------------------------------------
 
 Files:  app/public/packs/zh/parts.txt
+        app/public/packs/zh/parts.<reader>.txt (es, fr, id, pt)
 
 Derived from:
   Make Me a Hanzi, dictionary.txt, by Shaunak Kishore and its contributors —
@@ -277,6 +278,13 @@ source's short English note on it, and — only for a character the pack has
 no headword of its own for — the source's English definition. The rows are
 the source's fields, selected and not rewritten; the file's header says so,
 with the date of the change, as the licence asks of a modified copy.
+
+Each parts.<reader>.txt is a translation of two of those columns — the note
+on how the parts make a character (only where it is not a meaning part plus a
+sound part) and the definitions parts.txt keeps — into one reader's language.
+A translation is a modification, so each is likewise its own file under LGPL
+3.0 or later, with both licence texts and its own notice of change, dated, in
+its header.
 
 It is kept apart from every other file and is itself licensed LGPL 3.0 or
 later. The full texts of the GNU LGPL and of the GNU GPL it supplements are in

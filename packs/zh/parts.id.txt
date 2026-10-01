@@ -1,0 +1,2716 @@
+# Tinta — parts.txt's two notes about the Mandarin pack's characters, in Indonesian:
+# how the parts make a character, and a part's own definition.
+# char|hint|definition
+#   hint           how the parts make the character, translated; only where
+#                  the character is not a sound part plus a meaning part
+#   definition     parts.txt's definition, translated, with as many
+#                  ;-separated senses
+# A field left empty is not translated, and the card leaves it out.
+#
+# Derived from Make Me a Hanzi, dictionary.txt, commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92
+# — https://github.com/skishore/makemeahanzi — by Shaunak Kishore and its
+# contributors, itself derived from Unihan (https://www.unicode.org/charts/unihan.html) and
+# CJKlib (https://github.com/cburgmer/cjklib).
+#
+# Modified by Tinta on 2026-10-01: the hint and definition of parts.txt (see its own
+# notice) translated from English into Indonesian (id), for the rows
+# described above; the other columns dropped.
+#
+# You can redistribute and/or modify this file under the terms of the GNU
+# Lesser General Public License as published by the Free Software Foundation,
+# either version 3 of the License, or (at your option) any later version. It
+# is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. This file is plain text
+# and is its own source. The GNU LGPL and the GNU GPL it supplements follow,
+# as they ask to go with every copy.
+#
+# For data derived from the Unihan database the following notice applies:
+#
+# COPYRIGHT AND PERMISSION NOTICE
+#
+# Copyright © 1991-2009 Unicode, Inc. All rights reserved. Distributed under the
+# Terms of Use in http://www.unicode.org/copyright.html.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy of
+# the Unicode data files and any associated documentation (the "Data Files") or
+# Unicode software and any associated documentation (the "Software") to deal in
+# the Data Files or Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, and/or sell copies of
+# the Data Files or Software, and to permit persons to whom the Data Files or
+# Software are furnished to do so, provided that (a) the above copyright notice(s)
+# and this permission notice appear with all copies of the Data Files or Software,
+# (b) both the above copyright notice(s) and this permission notice appear in
+# associated documentation, and (c) there is clear notice in each modified Data
+# File or in the Software as well as in the documentation associated with the Data
+# File(s) or Software that the data or software has been modified.
+#
+# THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD
+# PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS
+# NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL
+# DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+# WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+# OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR
+# SOFTWARE.
+#
+# Except as contained in this notice, the name of a copyright holder shall not be
+# used in advertising or otherwise to promote the sale, use or other dealings in
+# these Data Files or Software without prior written authorization of the
+# copyright holder.
+#
+#
+# Distributed source code is released under the LGPL, if not otherwise noted:
+#
+# 		   GNU LESSER GENERAL PUBLIC LICENSE
+#                        Version 3, 29 June 2007
+#
+#  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+#  Everyone is permitted to copy and distribute verbatim copies
+#  of this license document, but changing it is not allowed.
+#
+#
+#   This version of the GNU Lesser General Public License incorporates
+# the terms and conditions of version 3 of the GNU General Public
+# License, supplemented by the additional permissions listed below.
+#
+#   0. Additional Definitions. 
+#
+#   As used herein, "this License" refers to version 3 of the GNU Lesser
+# General Public License, and the "GNU GPL" refers to version 3 of the GNU
+# General Public License.
+#
+#   "The Library" refers to a covered work governed by this License,
+# other than an Application or a Combined Work as defined below.
+#
+#   An "Application" is any work that makes use of an interface provided
+# by the Library, but which is not otherwise based on the Library.
+# Defining a subclass of a class defined by the Library is deemed a mode
+# of using an interface provided by the Library.
+#
+#   A "Combined Work" is a work produced by combining or linking an
+# Application with the Library.  The particular version of the Library
+# with which the Combined Work was made is also called the "Linked
+# Version".
+#
+#   The "Minimal Corresponding Source" for a Combined Work means the
+# Corresponding Source for the Combined Work, excluding any source code
+# for portions of the Combined Work that, considered in isolation, are
+# based on the Application, and not on the Linked Version.
+#
+#   The "Corresponding Application Code" for a Combined Work means the
+# object code and/or source code for the Application, including any data
+# and utility programs needed for reproducing the Combined Work from the
+# Application, but excluding the System Libraries of the Combined Work.
+#
+#   1. Exception to Section 3 of the GNU GPL.
+#
+#   You may convey a covered work under sections 3 and 4 of this License
+# without being bound by section 3 of the GNU GPL.
+#
+#   2. Conveying Modified Versions.
+#
+#   If you modify a copy of the Library, and, in your modifications, a
+# facility refers to a function or data to be supplied by an Application
+# that uses the facility (other than as an argument passed when the
+# facility is invoked), then you may convey a copy of the modified
+# version:
+#
+#    a) under this License, provided that you make a good faith effort to
+#    ensure that, in the event an Application does not supply the
+#    function or data, the facility still operates, and performs
+#    whatever part of its purpose remains meaningful, or
+#
+#    b) under the GNU GPL, with none of the additional permissions of
+#    this License applicable to that copy.
+#
+#   3. Object Code Incorporating Material from Library Header Files.
+#
+#   The object code form of an Application may incorporate material from
+# a header file that is part of the Library.  You may convey such object
+# code under terms of your choice, provided that, if the incorporated
+# material is not limited to numerical parameters, data structure
+# layouts and accessors, or small macros, inline functions and templates
+# (ten or fewer lines in length), you do both of the following:
+#
+#    a) Give prominent notice with each copy of the object code that the
+#    Library is used in it and that the Library and its use are
+#    covered by this License.
+#
+#    b) Accompany the object code with a copy of the GNU GPL and this license
+#    document.
+#
+#   4. Combined Works.
+#
+#   You may convey a Combined Work under terms of your choice that,
+# taken together, effectively do not restrict modification of the
+# portions of the Library contained in the Combined Work and reverse
+# engineering for debugging such modifications, if you also do each of
+# the following:
+#
+#    a) Give prominent notice with each copy of the Combined Work that
+#    the Library is used in it and that the Library and its use are
+#    covered by this License.
+#
+#    b) Accompany the Combined Work with a copy of the GNU GPL and this license
+#    document.
+#
+#    c) For a Combined Work that displays copyright notices during
+#    execution, include the copyright notice for the Library among
+#    these notices, as well as a reference directing the user to the
+#    copies of the GNU GPL and this license document.
+#
+#    d) Do one of the following:
+#
+#        0) Convey the Minimal Corresponding Source under the terms of this
+#        License, and the Corresponding Application Code in a form
+#        suitable for, and under terms that permit, the user to
+#        recombine or relink the Application with a modified version of
+#        the Linked Version to produce a modified Combined Work, in the
+#        manner specified by section 6 of the GNU GPL for conveying
+#        Corresponding Source.
+#
+#        1) Use a suitable shared library mechanism for linking with the
+#        Library.  A suitable mechanism is one that (a) uses at run time
+#        a copy of the Library already present on the user's computer
+#        system, and (b) will operate properly with a modified version
+#        of the Library that is interface-compatible with the Linked
+#        Version. 
+#
+#    e) Provide Installation Information, but only if you would otherwise
+#    be required to provide such information under section 6 of the
+#    GNU GPL, and only to the extent that such information is
+#    necessary to install and execute a modified version of the
+#    Combined Work produced by recombining or relinking the
+#    Application with a modified version of the Linked Version. (If
+#    you use option 4d0, the Installation Information must accompany
+#    the Minimal Corresponding Source and Corresponding Application
+#    Code. If you use option 4d1, you must provide the Installation
+#    Information in the manner specified by section 6 of the GNU GPL
+#    for conveying Corresponding Source.)
+#
+#   5. Combined Libraries.
+#
+#   You may place library facilities that are a work based on the
+# Library side by side in a single library together with other library
+# facilities that are not Applications and are not covered by this
+# License, and convey such a combined library under terms of your
+# choice, if you do both of the following:
+#
+#    a) Accompany the combined library with a copy of the same work based
+#    on the Library, uncombined with any other library facilities,
+#    conveyed under the terms of this License.
+#
+#    b) Give prominent notice with the combined library that part of it
+#    is a work based on the Library, and explaining where to find the
+#    accompanying uncombined form of the same work.
+#
+#   6. Revised Versions of the GNU Lesser General Public License.
+#
+#   The Free Software Foundation may publish revised and/or new versions
+# of the GNU Lesser General Public License from time to time. Such new
+# versions will be similar in spirit to the present version, but may
+# differ in detail to address new problems or concerns.
+#
+#   Each version is given a distinguishing version number. If the
+# Library as you received it specifies that a certain numbered version
+# of the GNU Lesser General Public License "or any later version"
+# applies to it, you have the option of following the terms and
+# conditions either of that published version or of any later version
+# published by the Free Software Foundation. If the Library as you
+# received it does not specify a version number of the GNU Lesser
+# General Public License, you may choose any version of the GNU Lesser
+# General Public License ever published by the Free Software Foundation.
+#
+#   If the Library as you received it specifies that a proxy can decide
+# whether future versions of the GNU Lesser General Public License shall
+# apply, that proxy's public statement of acceptance of any version is
+# permanent authorization for you to choose that version for the
+# Library.
+#
+#                     GNU GENERAL PUBLIC LICENSE
+#                        Version 3, 29 June 2007
+#
+#  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+#  Everyone is permitted to copy and distribute verbatim copies
+#  of this license document, but changing it is not allowed.
+#
+#                             Preamble
+#
+#   The GNU General Public License is a free, copyleft license for
+# software and other kinds of works.
+#
+#   The licenses for most software and other practical works are designed
+# to take away your freedom to share and change the works.  By contrast,
+# the GNU General Public License is intended to guarantee your freedom to
+# share and change all versions of a program--to make sure it remains free
+# software for all its users.  We, the Free Software Foundation, use the
+# GNU General Public License for most of our software; it applies also to
+# any other work released this way by its authors.  You can apply it to
+# your programs, too.
+#
+#   When we speak of free software, we are referring to freedom, not
+# price.  Our General Public Licenses are designed to make sure that you
+# have the freedom to distribute copies of free software (and charge for
+# them if you wish), that you receive source code or can get it if you
+# want it, that you can change the software or use pieces of it in new
+# free programs, and that you know you can do these things.
+#
+#   To protect your rights, we need to prevent others from denying you
+# these rights or asking you to surrender the rights.  Therefore, you have
+# certain responsibilities if you distribute copies of the software, or if
+# you modify it: responsibilities to respect the freedom of others.
+#
+#   For example, if you distribute copies of such a program, whether
+# gratis or for a fee, you must pass on to the recipients the same
+# freedoms that you received.  You must make sure that they, too, receive
+# or can get the source code.  And you must show them these terms so they
+# know their rights.
+#
+#   Developers that use the GNU GPL protect your rights with two steps:
+# (1) assert copyright on the software, and (2) offer you this License
+# giving you legal permission to copy, distribute and/or modify it.
+#
+#   For the developers' and authors' protection, the GPL clearly explains
+# that there is no warranty for this free software.  For both users' and
+# authors' sake, the GPL requires that modified versions be marked as
+# changed, so that their problems will not be attributed erroneously to
+# authors of previous versions.
+#
+#   Some devices are designed to deny users access to install or run
+# modified versions of the software inside them, although the manufacturer
+# can do so.  This is fundamentally incompatible with the aim of
+# protecting users' freedom to change the software.  The systematic
+# pattern of such abuse occurs in the area of products for individuals to
+# use, which is precisely where it is most unacceptable.  Therefore, we
+# have designed this version of the GPL to prohibit the practice for those
+# products.  If such problems arise substantially in other domains, we
+# stand ready to extend this provision to those domains in future versions
+# of the GPL, as needed to protect the freedom of users.
+#
+#   Finally, every program is threatened constantly by software patents.
+# States should not allow patents to restrict development and use of
+# software on general-purpose computers, but in those that do, we wish to
+# avoid the special danger that patents applied to a free program could
+# make it effectively proprietary.  To prevent this, the GPL assures that
+# patents cannot be used to render the program non-free.
+#
+#   The precise terms and conditions for copying, distribution and
+# modification follow.
+#
+#                        TERMS AND CONDITIONS
+#
+#   0. Definitions.
+#
+#   "This License" refers to version 3 of the GNU General Public License.
+#
+#   "Copyright" also means copyright-like laws that apply to other kinds of
+# works, such as semiconductor masks.
+#
+#   "The Program" refers to any copyrightable work licensed under this
+# License.  Each licensee is addressed as "you".  "Licensees" and
+# "recipients" may be individuals or organizations.
+#
+#   To "modify" a work means to copy from or adapt all or part of the work
+# in a fashion requiring copyright permission, other than the making of an
+# exact copy.  The resulting work is called a "modified version" of the
+# earlier work or a work "based on" the earlier work.
+#
+#   A "covered work" means either the unmodified Program or a work based
+# on the Program.
+#
+#   To "propagate" a work means to do anything with it that, without
+# permission, would make you directly or secondarily liable for
+# infringement under applicable copyright law, except executing it on a
+# computer or modifying a private copy.  Propagation includes copying,
+# distribution (with or without modification), making available to the
+# public, and in some countries other activities as well.
+#
+#   To "convey" a work means any kind of propagation that enables other
+# parties to make or receive copies.  Mere interaction with a user through
+# a computer network, with no transfer of a copy, is not conveying.
+#
+#   An interactive user interface displays "Appropriate Legal Notices"
+# to the extent that it includes a convenient and prominently visible
+# feature that (1) displays an appropriate copyright notice, and (2)
+# tells the user that there is no warranty for the work (except to the
+# extent that warranties are provided), that licensees may convey the
+# work under this License, and how to view a copy of this License.  If
+# the interface presents a list of user commands or options, such as a
+# menu, a prominent item in the list meets this criterion.
+#
+#   1. Source Code.
+#
+#   The "source code" for a work means the preferred form of the work
+# for making modifications to it.  "Object code" means any non-source
+# form of a work.
+#
+#   A "Standard Interface" means an interface that either is an official
+# standard defined by a recognized standards body, or, in the case of
+# interfaces specified for a particular programming language, one that
+# is widely used among developers working in that language.
+#
+#   The "System Libraries" of an executable work include anything, other
+# than the work as a whole, that (a) is included in the normal form of
+# packaging a Major Component, but which is not part of that Major
+# Component, and (b) serves only to enable use of the work with that
+# Major Component, or to implement a Standard Interface for which an
+# implementation is available to the public in source code form.  A
+# "Major Component", in this context, means a major essential component
+# (kernel, window system, and so on) of the specific operating system
+# (if any) on which the executable work runs, or a compiler used to
+# produce the work, or an object code interpreter used to run it.
+#
+#   The "Corresponding Source" for a work in object code form means all
+# the source code needed to generate, install, and (for an executable
+# work) run the object code and to modify the work, including scripts to
+# control those activities.  However, it does not include the work's
+# System Libraries, or general-purpose tools or generally available free
+# programs which are used unmodified in performing those activities but
+# which are not part of the work.  For example, Corresponding Source
+# includes interface definition files associated with source files for
+# the work, and the source code for shared libraries and dynamically
+# linked subprograms that the work is specifically designed to require,
+# such as by intimate data communication or control flow between those
+# subprograms and other parts of the work.
+#
+#   The Corresponding Source need not include anything that users
+# can regenerate automatically from other parts of the Corresponding
+# Source.
+#
+#   The Corresponding Source for a work in source code form is that
+# same work.
+#
+#   2. Basic Permissions.
+#
+#   All rights granted under this License are granted for the term of
+# copyright on the Program, and are irrevocable provided the stated
+# conditions are met.  This License explicitly affirms your unlimited
+# permission to run the unmodified Program.  The output from running a
+# covered work is covered by this License only if the output, given its
+# content, constitutes a covered work.  This License acknowledges your
+# rights of fair use or other equivalent, as provided by copyright law.
+#
+#   You may make, run and propagate covered works that you do not
+# convey, without conditions so long as your license otherwise remains
+# in force.  You may convey covered works to others for the sole purpose
+# of having them make modifications exclusively for you, or provide you
+# with facilities for running those works, provided that you comply with
+# the terms of this License in conveying all material for which you do
+# not control copyright.  Those thus making or running the covered works
+# for you must do so exclusively on your behalf, under your direction
+# and control, on terms that prohibit them from making any copies of
+# your copyrighted material outside their relationship with you.
+#
+#   Conveying under any other circumstances is permitted solely under
+# the conditions stated below.  Sublicensing is not allowed; section 10
+# makes it unnecessary.
+#
+#   3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+#
+#   No covered work shall be deemed part of an effective technological
+# measure under any applicable law fulfilling obligations under article
+# 11 of the WIPO copyright treaty adopted on 20 December 1996, or
+# similar laws prohibiting or restricting circumvention of such
+# measures.
+#
+#   When you convey a covered work, you waive any legal power to forbid
+# circumvention of technological measures to the extent such circumvention
+# is effected by exercising rights under this License with respect to
+# the covered work, and you disclaim any intention to limit operation or
+# modification of the work as a means of enforcing, against the work's
+# users, your or third parties' legal rights to forbid circumvention of
+# technological measures.
+#
+#   4. Conveying Verbatim Copies.
+#
+#   You may convey verbatim copies of the Program's source code as you
+# receive it, in any medium, provided that you conspicuously and
+# appropriately publish on each copy an appropriate copyright notice;
+# keep intact all notices stating that this License and any
+# non-permissive terms added in accord with section 7 apply to the code;
+# keep intact all notices of the absence of any warranty; and give all
+# recipients a copy of this License along with the Program.
+#
+#   You may charge any price or no price for each copy that you convey,
+# and you may offer support or warranty protection for a fee.
+#
+#   5. Conveying Modified Source Versions.
+#
+#   You may convey a work based on the Program, or the modifications to
+# produce it from the Program, in the form of source code under the
+# terms of section 4, provided that you also meet all of these conditions:
+#
+#     a) The work must carry prominent notices stating that you modified
+#     it, and giving a relevant date.
+#
+#     b) The work must carry prominent notices stating that it is
+#     released under this License and any conditions added under section
+#     7.  This requirement modifies the requirement in section 4 to
+#     "keep intact all notices".
+#
+#     c) You must license the entire work, as a whole, under this
+#     License to anyone who comes into possession of a copy.  This
+#     License will therefore apply, along with any applicable section 7
+#     additional terms, to the whole of the work, and all its parts,
+#     regardless of how they are packaged.  This License gives no
+#     permission to license the work in any other way, but it does not
+#     invalidate such permission if you have separately received it.
+#
+#     d) If the work has interactive user interfaces, each must display
+#     Appropriate Legal Notices; however, if the Program has interactive
+#     interfaces that do not display Appropriate Legal Notices, your
+#     work need not make them do so.
+#
+#   A compilation of a covered work with other separate and independent
+# works, which are not by their nature extensions of the covered work,
+# and which are not combined with it such as to form a larger program,
+# in or on a volume of a storage or distribution medium, is called an
+# "aggregate" if the compilation and its resulting copyright are not
+# used to limit the access or legal rights of the compilation's users
+# beyond what the individual works permit.  Inclusion of a covered work
+# in an aggregate does not cause this License to apply to the other
+# parts of the aggregate.
+#
+#   6. Conveying Non-Source Forms.
+#
+#   You may convey a covered work in object code form under the terms
+# of sections 4 and 5, provided that you also convey the
+# machine-readable Corresponding Source under the terms of this License,
+# in one of these ways:
+#
+#     a) Convey the object code in, or embodied in, a physical product
+#     (including a physical distribution medium), accompanied by the
+#     Corresponding Source fixed on a durable physical medium
+#     customarily used for software interchange.
+#
+#     b) Convey the object code in, or embodied in, a physical product
+#     (including a physical distribution medium), accompanied by a
+#     written offer, valid for at least three years and valid for as
+#     long as you offer spare parts or customer support for that product
+#     model, to give anyone who possesses the object code either (1) a
+#     copy of the Corresponding Source for all the software in the
+#     product that is covered by this License, on a durable physical
+#     medium customarily used for software interchange, for a price no
+#     more than your reasonable cost of physically performing this
+#     conveying of source, or (2) access to copy the
+#     Corresponding Source from a network server at no charge.
+#
+#     c) Convey individual copies of the object code with a copy of the
+#     written offer to provide the Corresponding Source.  This
+#     alternative is allowed only occasionally and noncommercially, and
+#     only if you received the object code with such an offer, in accord
+#     with subsection 6b.
+#
+#     d) Convey the object code by offering access from a designated
+#     place (gratis or for a charge), and offer equivalent access to the
+#     Corresponding Source in the same way through the same place at no
+#     further charge.  You need not require recipients to copy the
+#     Corresponding Source along with the object code.  If the place to
+#     copy the object code is a network server, the Corresponding Source
+#     may be on a different server (operated by you or a third party)
+#     that supports equivalent copying facilities, provided you maintain
+#     clear directions next to the object code saying where to find the
+#     Corresponding Source.  Regardless of what server hosts the
+#     Corresponding Source, you remain obligated to ensure that it is
+#     available for as long as needed to satisfy these requirements.
+#
+#     e) Convey the object code using peer-to-peer transmission, provided
+#     you inform other peers where the object code and Corresponding
+#     Source of the work are being offered to the general public at no
+#     charge under subsection 6d.
+#
+#   A separable portion of the object code, whose source code is excluded
+# from the Corresponding Source as a System Library, need not be
+# included in conveying the object code work.
+#
+#   A "User Product" is either (1) a "consumer product", which means any
+# tangible personal property which is normally used for personal, family,
+# or household purposes, or (2) anything designed or sold for incorporation
+# into a dwelling.  In determining whether a product is a consumer product,
+# doubtful cases shall be resolved in favor of coverage.  For a particular
+# product received by a particular user, "normally used" refers to a
+# typical or common use of that class of product, regardless of the status
+# of the particular user or of the way in which the particular user
+# actually uses, or expects or is expected to use, the product.  A product
+# is a consumer product regardless of whether the product has substantial
+# commercial, industrial or non-consumer uses, unless such uses represent
+# the only significant mode of use of the product.
+#
+#   "Installation Information" for a User Product means any methods,
+# procedures, authorization keys, or other information required to install
+# and execute modified versions of a covered work in that User Product from
+# a modified version of its Corresponding Source.  The information must
+# suffice to ensure that the continued functioning of the modified object
+# code is in no case prevented or interfered with solely because
+# modification has been made.
+#
+#   If you convey an object code work under this section in, or with, or
+# specifically for use in, a User Product, and the conveying occurs as
+# part of a transaction in which the right of possession and use of the
+# User Product is transferred to the recipient in perpetuity or for a
+# fixed term (regardless of how the transaction is characterized), the
+# Corresponding Source conveyed under this section must be accompanied
+# by the Installation Information.  But this requirement does not apply
+# if neither you nor any third party retains the ability to install
+# modified object code on the User Product (for example, the work has
+# been installed in ROM).
+#
+#   The requirement to provide Installation Information does not include a
+# requirement to continue to provide support service, warranty, or updates
+# for a work that has been modified or installed by the recipient, or for
+# the User Product in which it has been modified or installed.  Access to a
+# network may be denied when the modification itself materially and
+# adversely affects the operation of the network or violates the rules and
+# protocols for communication across the network.
+#
+#   Corresponding Source conveyed, and Installation Information provided,
+# in accord with this section must be in a format that is publicly
+# documented (and with an implementation available to the public in
+# source code form), and must require no special password or key for
+# unpacking, reading or copying.
+#
+#   7. Additional Terms.
+#
+#   "Additional permissions" are terms that supplement the terms of this
+# License by making exceptions from one or more of its conditions.
+# Additional permissions that are applicable to the entire Program shall
+# be treated as though they were included in this License, to the extent
+# that they are valid under applicable law.  If additional permissions
+# apply only to part of the Program, that part may be used separately
+# under those permissions, but the entire Program remains governed by
+# this License without regard to the additional permissions.
+#
+#   When you convey a copy of a covered work, you may at your option
+# remove any additional permissions from that copy, or from any part of
+# it.  (Additional permissions may be written to require their own
+# removal in certain cases when you modify the work.)  You may place
+# additional permissions on material, added by you to a covered work,
+# for which you have or can give appropriate copyright permission.
+#
+#   Notwithstanding any other provision of this License, for material you
+# add to a covered work, you may (if authorized by the copyright holders of
+# that material) supplement the terms of this License with terms:
+#
+#     a) Disclaiming warranty or limiting liability differently from the
+#     terms of sections 15 and 16 of this License; or
+#
+#     b) Requiring preservation of specified reasonable legal notices or
+#     author attributions in that material or in the Appropriate Legal
+#     Notices displayed by works containing it; or
+#
+#     c) Prohibiting misrepresentation of the origin of that material, or
+#     requiring that modified versions of such material be marked in
+#     reasonable ways as different from the original version; or
+#
+#     d) Limiting the use for publicity purposes of names of licensors or
+#     authors of the material; or
+#
+#     e) Declining to grant rights under trademark law for use of some
+#     trade names, trademarks, or service marks; or
+#
+#     f) Requiring indemnification of licensors and authors of that
+#     material by anyone who conveys the material (or modified versions of
+#     it) with contractual assumptions of liability to the recipient, for
+#     any liability that these contractual assumptions directly impose on
+#     those licensors and authors.
+#
+#   All other non-permissive additional terms are considered "further
+# restrictions" within the meaning of section 10.  If the Program as you
+# received it, or any part of it, contains a notice stating that it is
+# governed by this License along with a term that is a further
+# restriction, you may remove that term.  If a license document contains
+# a further restriction but permits relicensing or conveying under this
+# License, you may add to a covered work material governed by the terms
+# of that license document, provided that the further restriction does
+# not survive such relicensing or conveying.
+#
+#   If you add terms to a covered work in accord with this section, you
+# must place, in the relevant source files, a statement of the
+# additional terms that apply to those files, or a notice indicating
+# where to find the applicable terms.
+#
+#   Additional terms, permissive or non-permissive, may be stated in the
+# form of a separately written license, or stated as exceptions;
+# the above requirements apply either way.
+#
+#   8. Termination.
+#
+#   You may not propagate or modify a covered work except as expressly
+# provided under this License.  Any attempt otherwise to propagate or
+# modify it is void, and will automatically terminate your rights under
+# this License (including any patent licenses granted under the third
+# paragraph of section 11).
+#
+#   However, if you cease all violation of this License, then your
+# license from a particular copyright holder is reinstated (a)
+# provisionally, unless and until the copyright holder explicitly and
+# finally terminates your license, and (b) permanently, if the copyright
+# holder fails to notify you of the violation by some reasonable means
+# prior to 60 days after the cessation.
+#
+#   Moreover, your license from a particular copyright holder is
+# reinstated permanently if the copyright holder notifies you of the
+# violation by some reasonable means, this is the first time you have
+# received notice of violation of this License (for any work) from that
+# copyright holder, and you cure the violation prior to 30 days after
+# your receipt of the notice.
+#
+#   Termination of your rights under this section does not terminate the
+# licenses of parties who have received copies or rights from you under
+# this License.  If your rights have been terminated and not permanently
+# reinstated, you do not qualify to receive new licenses for the same
+# material under section 10.
+#
+#   9. Acceptance Not Required for Having Copies.
+#
+#   You are not required to accept this License in order to receive or
+# run a copy of the Program.  Ancillary propagation of a covered work
+# occurring solely as a consequence of using peer-to-peer transmission
+# to receive a copy likewise does not require acceptance.  However,
+# nothing other than this License grants you permission to propagate or
+# modify any covered work.  These actions infringe copyright if you do
+# not accept this License.  Therefore, by modifying or propagating a
+# covered work, you indicate your acceptance of this License to do so.
+#
+#   10. Automatic Licensing of Downstream Recipients.
+#
+#   Each time you convey a covered work, the recipient automatically
+# receives a license from the original licensors, to run, modify and
+# propagate that work, subject to this License.  You are not responsible
+# for enforcing compliance by third parties with this License.
+#
+#   An "entity transaction" is a transaction transferring control of an
+# organization, or substantially all assets of one, or subdividing an
+# organization, or merging organizations.  If propagation of a covered
+# work results from an entity transaction, each party to that
+# transaction who receives a copy of the work also receives whatever
+# licenses to the work the party's predecessor in interest had or could
+# give under the previous paragraph, plus a right to possession of the
+# Corresponding Source of the work from the predecessor in interest, if
+# the predecessor has it or can get it with reasonable efforts.
+#
+#   You may not impose any further restrictions on the exercise of the
+# rights granted or affirmed under this License.  For example, you may
+# not impose a license fee, royalty, or other charge for exercise of
+# rights granted under this License, and you may not initiate litigation
+# (including a cross-claim or counterclaim in a lawsuit) alleging that
+# any patent claim is infringed by making, using, selling, offering for
+# sale, or importing the Program or any portion of it.
+#
+#   11. Patents.
+#
+#   A "contributor" is a copyright holder who authorizes use under this
+# License of the Program or a work on which the Program is based.  The
+# work thus licensed is called the contributor's "contributor version".
+#
+#   A contributor's "essential patent claims" are all patent claims
+# owned or controlled by the contributor, whether already acquired or
+# hereafter acquired, that would be infringed by some manner, permitted
+# by this License, of making, using, or selling its contributor version,
+# but do not include claims that would be infringed only as a
+# consequence of further modification of the contributor version.  For
+# purposes of this definition, "control" includes the right to grant
+# patent sublicenses in a manner consistent with the requirements of
+# this License.
+#
+#   Each contributor grants you a non-exclusive, worldwide, royalty-free
+# patent license under the contributor's essential patent claims, to
+# make, use, sell, offer for sale, import and otherwise run, modify and
+# propagate the contents of its contributor version.
+#
+#   In the following three paragraphs, a "patent license" is any express
+# agreement or commitment, however denominated, not to enforce a patent
+# (such as an express permission to practice a patent or covenant not to
+# sue for patent infringement).  To "grant" such a patent license to a
+# party means to make such an agreement or commitment not to enforce a
+# patent against the party.
+#
+#   If you convey a covered work, knowingly relying on a patent license,
+# and the Corresponding Source of the work is not available for anyone
+# to copy, free of charge and under the terms of this License, through a
+# publicly available network server or other readily accessible means,
+# then you must either (1) cause the Corresponding Source to be so
+# available, or (2) arrange to deprive yourself of the benefit of the
+# patent license for this particular work, or (3) arrange, in a manner
+# consistent with the requirements of this License, to extend the patent
+# license to downstream recipients.  "Knowingly relying" means you have
+# actual knowledge that, but for the patent license, your conveying the
+# covered work in a country, or your recipient's use of the covered work
+# in a country, would infringe one or more identifiable patents in that
+# country that you have reason to believe are valid.
+#
+#   If, pursuant to or in connection with a single transaction or
+# arrangement, you convey, or propagate by procuring conveyance of, a
+# covered work, and grant a patent license to some of the parties
+# receiving the covered work authorizing them to use, propagate, modify
+# or convey a specific copy of the covered work, then the patent license
+# you grant is automatically extended to all recipients of the covered
+# work and works based on it.
+#
+#   A patent license is "discriminatory" if it does not include within
+# the scope of its coverage, prohibits the exercise of, or is
+# conditioned on the non-exercise of one or more of the rights that are
+# specifically granted under this License.  You may not convey a covered
+# work if you are a party to an arrangement with a third party that is
+# in the business of distributing software, under which you make payment
+# to the third party based on the extent of your activity of conveying
+# the work, and under which the third party grants, to any of the
+# parties who would receive the covered work from you, a discriminatory
+# patent license (a) in connection with copies of the covered work
+# conveyed by you (or copies made from those copies), or (b) primarily
+# for and in connection with specific products or compilations that
+# contain the covered work, unless you entered into that arrangement,
+# or that patent license was granted, prior to 28 March 2007.
+#
+#   Nothing in this License shall be construed as excluding or limiting
+# any implied license or other defenses to infringement that may
+# otherwise be available to you under applicable patent law.
+#
+#   12. No Surrender of Others' Freedom.
+#
+#   If conditions are imposed on you (whether by court order, agreement or
+# otherwise) that contradict the conditions of this License, they do not
+# excuse you from the conditions of this License.  If you cannot convey a
+# covered work so as to satisfy simultaneously your obligations under this
+# License and any other pertinent obligations, then as a consequence you may
+# not convey it at all.  For example, if you agree to terms that obligate you
+# to collect a royalty for further conveying from those to whom you convey
+# the Program, the only way you could satisfy both those terms and this
+# License would be to refrain entirely from conveying the Program.
+#
+#   13. Use with the GNU Affero General Public License.
+#
+#   Notwithstanding any other provision of this License, you have
+# permission to link or combine any covered work with a work licensed
+# under version 3 of the GNU Affero General Public License into a single
+# combined work, and to convey the resulting work.  The terms of this
+# License will continue to apply to the part which is the covered work,
+# but the special requirements of the GNU Affero General Public License,
+# section 13, concerning interaction through a network will apply to the
+# combination as such.
+#
+#   14. Revised Versions of this License.
+#
+#   The Free Software Foundation may publish revised and/or new versions of
+# the GNU General Public License from time to time.  Such new versions will
+# be similar in spirit to the present version, but may differ in detail to
+# address new problems or concerns.
+#
+#   Each version is given a distinguishing version number.  If the
+# Program specifies that a certain numbered version of the GNU General
+# Public License "or any later version" applies to it, you have the
+# option of following the terms and conditions either of that numbered
+# version or of any later version published by the Free Software
+# Foundation.  If the Program does not specify a version number of the
+# GNU General Public License, you may choose any version ever published
+# by the Free Software Foundation.
+#
+#   If the Program specifies that a proxy can decide which future
+# versions of the GNU General Public License can be used, that proxy's
+# public statement of acceptance of a version permanently authorizes you
+# to choose that version for the Program.
+#
+#   Later license versions may give you additional or different
+# permissions.  However, no additional obligations are imposed on any
+# author or copyright holder as a result of your choosing to follow a
+# later version.
+#
+#   15. Disclaimer of Warranty.
+#
+#   THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+# APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+# HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+# OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+# THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+# PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+# IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+# ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+#
+#   16. Limitation of Liability.
+#
+#   IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+# WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+# THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+# GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+# USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+# DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+# PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+# EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+# SUCH DAMAGES.
+#
+#   17. Interpretation of Sections 15 and 16.
+#
+#   If the disclaimer of warranty and limitation of liability provided
+# above cannot be given local legal effect according to their terms,
+# reviewing courts shall apply local law that most closely approximates
+# an absolute waiver of all civil liability in connection with the
+# Program, unless a warranty or assumption of liability accompanies a
+# copy of the Program in return for a fee.
+#
+#                      END OF TERMS AND CONDITIONS
+#
+#             How to Apply These Terms to Your New Programs
+#
+#   If you develop a new program, and you want it to be of the greatest
+# possible use to the public, the best way to achieve this is to make it
+# free software which everyone can redistribute and change under these terms.
+#
+#   To do so, attach the following notices to the program.  It is safest
+# to attach them to the start of each source file to most effectively
+# state the exclusion of warranty; and each file should have at least
+# the "copyright" line and a pointer to where the full notice is found.
+#
+#     <one line to give the program's name and a brief idea of what it does.>
+#     Copyright (C) <year>  <name of author>
+#
+#     This program is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+# Also add information on how to contact you by electronic and paper mail.
+#
+#   If the program does terminal interaction, make it output a short
+# notice like this when it starts in an interactive mode:
+#
+#     <program>  Copyright (C) <year>  <name of author>
+#     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+#     This is free software, and you are welcome to redistribute it
+#     under certain conditions; type `show c' for details.
+#
+# The hypothetical commands `show w' and `show c' should show the appropriate
+# parts of the General Public License.  Of course, your program's commands
+# might be different; for a GUI interface, you would use an "about box".
+#
+#   You should also get your employer (if you work as a programmer) or school,
+# if any, to sign a "copyright disclaimer" for the program, if necessary.
+# For more information on this, and how to apply and follow the GNU GPL, see
+# <https://www.gnu.org/licenses/>.
+#
+#   The GNU General Public License does not permit incorporating your program
+# into proprietary programs.  If your program is a subroutine library, you
+# may consider it more useful to permit linking proprietary applications with
+# the library.  If this is what you want to do, use the GNU Lesser General
+# Public License instead of this License.  But first, please read
+# <https://www.gnu.org/licenses/why-not-lgpl.html>.
+#
+# This file carries no other licence. See NOTICE, section 7.
+⺀||es
+⺊|Retakan pada tulang ramalan; bandingkan 卜|
+⺗||hati; pikiran; jiwa
+⺮|Dua batang bambu; lihat 竹|bambu; seruling
+⺳||jaring, jaringan
+⺼|Daging pada rusuk hewan; bandingkan 肉|daging; senyawa organik
+㐌||suku di Tiongkok Selatan
+㐬||panji; liar, tandus, tidak digarap
+㐱||rambut hitam lebat; varian dari 鬒
+㒸||menaati, mengikuti; tahun, musim, panen
+㒼|Dua anak timbangan 入 seimbang di atas neraca 巾|rata-rata; setara
+㔾|Gulungan naskah atau orang berlutut; bandingkan 卩|segel; orang berlutut
+㕡|Air mengalir melalui ngarai 谷|parit, kolam; parit yang terbentuk oleh hujan deras
+㝵|Tangan 寸 meraih kerang 旦|memperoleh, mendapat, meraih; bentuk kuno dari 得
+㡭|Benang 纟 tak terputus dari atas sampai bawah|melanjutkan; meneruskan; menggantikan, mewarisi
+㢆|Rumah 广 di desa 里|toko, warung, tempat tinggal
+㢟|Kaki 止 berjalan santai di jalan 廴|berjalan pelan; berjalan-jalan; mengembara
+㣎|Biji 彡 berjatuhan dari tanaman 小 yang matang 白|halus, lembut
+㥯||hati-hati, bijaksana; penuh belas kasih; berduka; cemas
+㬎|Butiran 幺 debu 灬 kecil dalam sinar matahari 日|debu dalam sinar matahari; termasyhur, cemerlang
+㳄||air liur, ludah
+㿽||mangkuk kecil, baskom kecil
+䍃|Tembikar; bandingkan 缶|vas, kendi, gerabah
+䙴||terbang, bergerak, berubah
+䜌|Gelendong 言 yang diikat benang 糹|kekacauan, gangguan; mengurus, mengikat menjadi satu
+䧹||elang, alap-alap, rajawali
+一|Melambangkan langit (天), bumi (旦), atau angka 1|
+丁|Paku|
+丂||sesak napas (qi); varian dari 考
+丄|Satu goresan di atas goresan lain; varian dari 上|atas
+三|Tiga garis sejajar; bandingkan 一 (satu) dan 二 (dua)|
+上|Satu goresan di atas goresan lain; bandingkan 下 (bawah)|
+下|Satu goresan di bawah goresan lain; bandingkan 上 (atas)|
+不|Burung terbang menuju langit 一|
+丐|Orang membungkuk ke depan meminta pertolongan|
+且|Altar batu|
+丕||besar, agung, mulia, terkemuka
+世|Tiga daun pada sebuah dahan|
+丘|Dua bukit|
+东|Bentuk sederhana dari 東, matahari 日 terbit di balik pohon 木|
+丝|Bentuk sederhana dari 絲, dua utas benang|
+丞||membantu, menolong, menyelamatkan
+丢|Giok 玉 yang hilang 厶|
+两|Dua orang 从 bersama di dalam kereta|
+並|Dua orang duduk berdampingan; bandingkan 竝|
+丧|Bentuk sederhana dari 喪; menangisi 哭 orang yang meninggal 亡|
+丨||angka satu; garis
+丩||menyambung, menggabungkan; tanaman merambat
+个|Hitungan 丨 orang 人|
+丫|Garis 丨 bercabang|
+丬||belahan batang pohon
+中|Garis 丨 menembus tengah kotak 口|
+丰|Bulir rumput|
+丱|Dua kepang 丱 rambut|rambut anak yang diikat menjadi dua jambul; bijih
+串|Dua benda 口 yang ditusuk 丨 menjadi satu|
+丵||lebat (rumput)
+丶||titik
+丷||kwukyel
+丸|Kepalan 九 menggenggam kerikil 丶|
+丹|Butiran 丶 merah dari tambang 井|sinabar, merah, merah terang; butiran, bubuk
+主|Pelita 王 dengan nyala api 丶|
+丽|Bentuk sederhana dari 麗; tanduk rusa 鹿|cantik, anggun, megah
+丿||garis miring
+乂|Gunting, untuk merawat kebun|memerintah; mengendalikan; memelihara
+乃|Perempuan hamil; bandingkan 孕|
+乇||bergantung pada, memercayakan kepada
+之|Kaki yang berarti "mengikuti"; versi kursif dari 止|
+乌|Bentuk sederhana dari 烏; burung gagak; bandingkan 鸟|
+乍||pertama kali, untuk pertama kalinya, tiba-tiba
+乏|Kaki 之 menabrak dinding atau penghalang 丿|
+乐|Bentuk sederhana dari 樂, alat musik dengan kayu 木, senar 幺, dan pemetik 白|
+乑||berdiri berdampingan
+乒|Bola memantul bolak-balik; bandingkan 乓|
+乓|Bola memantul bolak-balik; bandingkan 乒|
+乔|Orang 夭 di atas egrang|
+乘|Dua kaki 北 memanjat batang kacang 禾|
+乙|Burung layang-layang|kedua; batang langit ke-2
+乚||rahasia, tersembunyi, misterius; kecil, mungil; menyembunyikan
+乛||kwukyel
+九|Siku|
+书|Tanda yang dibuat oleh pena ⺺|
+乹|Panas 乚 dari matahari 龺; 龺 juga memberi pelafalan|
+乾|Sinar 十 yang terpancar dari 日; 乞 memberi pelafalan|
+亂|Orang berlutut 乚 menggunakan tangannya 爫 untuk mengurai simpul|
+亅||kait
+了|Anak yang dibedong dalam selimut; bandingkan 子|
+争|Bentuk sederhana dari 爭, dua tangan 爪 dan 彐 memperebutkan 亅|
+二|Dua garis sejajar; bandingkan 一 (satu) dan 三 (tiga)|
+亍||melangkah kecil-kecil; nama tempat di Korea
+云|Awan|
+互|Dua kait saling mengait|
+五|Lima unsur (salib dengan goresan tambahan) di antara langit 一 dan bumi 一|
+井|Tambang atau sumur|
+亘|Membentang dari langit 一 ke bumi 一|membentang melintasi, menembus; dari
+亙|Jembatan yang terbentang melintasi sungai 二|menembus; membentang melintasi; ke, dari
+亚|Gambar rumah atau kuil berbentuk salib|
+亞|Rumah atau kuil berbentuk salib|
+亟||segera, seketika, sangat
+亠||tutup, penutup; kepala
+亡|Orang 人 di dalam peti mati; lihat 亾|
+交|Orang dengan kaki bersilang|
+亥||cabang bumi ke-12; dipakai dalam transliterasi
+亦|Orang berdiri dengan anak panah menunjuk ke ketiaknya|
+亨||makmur, berjalan lancar
+享|Anak-anak 子 tinggal dan makan 口 di dalam rumah 亠|
+京|Bangunan ibu kota di atas bukit|
+亭|亠, 口, dan 冖 membentuk gambar paviliun; 丁 memberi pelafalan|paviliun; tegak
+亮|Pelita minyak yang menyala|
+亲|Pohon 木 yang berbuah 立|
+亵|Tangan mencengkeram 执 dan merobek pakaian 衣|
+亶||nyata, tulus, benar; kebenaran
+人|Kaki manusia|
+亻|Singkatan visual dari 人|pria, orang; manusia
+亼||berkumpul, menghimpun
+亾|Orang 人 di dalam peti mati|
+什|Barisan sepuluh 十 orang 亻|
+仁|Hubungan penuh kasih antara dua 二 orang 亻|
+今|Mulut 亼 membicarakan berbagai hal|
+介|Batas 八 yang memisahkan orang 人|
+仌|Varian lama dari 冰 ("air es")|beku; sedingin es
+从|Satu orang 人 mengikuti orang lain|
+仑||alasan logis, urutan logis
+仓|Bentuk sederhana dari 倉; biji-bijian 食 yang disimpan di gudang 口|
+仔|Orang 亻 menjaga anak 子; 子 juga memberi pelafalan|
+他|Orang 亻 tambahan, "juga" 也|
+付|Menyerahkan 寸 sesuatu kepada seseorang 亻|
+代|Orang 亻 yang tertangkap 弋 oleh berlalunya waktu|
+令|Orang berlutut di hadapan tuannya 人|
+仰|Memuliakan 卬 seseorang 亻|
+仲|Orang 亻 di tengah 中; 中 juga memberi pelafalan|
+件|Orang 亻 membagi-bagi sapi 牛|
+份|Bagian 分 yang diberikan kepada seseorang 亻|
+企|Orang 人 yang berdiri di atas kakinya 止; 止 juga memberi pelafalan|
+伊||dia; ini, itu; dipakai dalam transliterasi
+伍|Lima 五 orang 亻; 五 juga memberi pelafalan|
+伎|Orang 亻 yang dapat menopang 支 orang lain|
+伏|Orang 亻 yang bertingkah seperti anjing 犬|
+伐|Orang 亻 yang diserang 戈|
+休|Orang 亻 bersandar pada pohon 木|
+众|Tiga orang 人 yang melambangkan kerumunan|
+会|Orang-orang 人 berbicara 云|
+伦|Urutan logis 仑 masyarakat manusia 亻; 仑 juga memberi pelafalan|hubungan antarmanusia; masyarakat
+伸|Mengulurkan kepercayaan 申 kepada orang lain 亻; 申 juga memberi pelafalan|
+似|Satu orang 亻 menyerupai orang lain|
+伽||kuil; dipakai dalam transliterasi
+佇|Orang 亻 yang tenang 宁|
+佈|Orang 亻 membuat pengumuman 布; 布 juga memberi pelafalan|
+位|Tempat seseorang 亻 berdiri 立|
+住|Orang 亻 yang menjadi tuan rumah 主; 主 juga memberi pelafalan|
+作|Orang 亻 membuat sesuatu untuk pertama kalinya 乍; 乍 juga memberi pelafalan|
+你|Kata ganti 尔 untuk seseorang 亻|
+佣|Orang 亻 yang dipekerjakan 用; 用 juga memberi pelafalan|
+佥|Banyak orang berkumpul 亼 di bawah satu atap|semua, bersama, sepakat
+佩|Hiasan kain 巾 biasa 凡 yang dipakai orang 亻|
+佬|Orang 亻 tua 老; 老 juga memberi pelafalan|
+佰|Seratus 百 orang 亻; 百 juga memberi pelafalan|ratus
+併|Penakluk 亻 merebut tanah 并; 并 juga memberi pelafalan|
+使|Orang 亻 yang bekerja untuk pemerintah 吏|
+侃|Sepercaya 㐰 air mata air 川|
+來|Tanaman gandum yang baru berbuah; bandingkan 来|
+侈|Orang 亻 yang memiliki lebih dari yang dibutuhkan 多|
+侖|Menghimpun 亼 buku 冊; menyusun argumen|alasan logis, urutan logis
+供|Orang 亻 memberi persembahan dengan kedua tangan 共; 共 juga memberi pelafalan|
+侯|Orang 亻 yang mungkin menjadi sasaran 矦|
+係|Seseorang 亻 yang menghubungkan 系 orang-orang; 系 juga memberi pelafalan|
+促|Seseorang 亻 yang membuntuti 足; 足 juga memberi pelafalan|
+俄||tiba-tiba, mendadak; dipakai dalam transliterasi
+俞||menyetujui, merestui; nama keluarga
+俠|Seseorang 亻 yang menopang 夾 orang lain; 夾 juga memberi pelafalan|
+俩|Pasangan 寿; 寿 juga memberi pelafalan|
+倆|Pasangan 兩; 兩 juga memberi pelafalan|
+倉|Lumbung dengan atap 人, pintu 户, dan fondasi 口|
+倔|Seseorang 亻 yang tidak mau membungkuk 屈; 屈 juga memberi pelafalan|
+倖|Orang 亻 yang beruntung 幸; 幸 juga memberi pelafalan|
+倡|Seseorang 亻 yang menerangi jalan 昌; 昌 juga memberi pelafalan|
+倦|Orang 亻 yang meringkuk 卷; 卷 juga memberi pelafalan|
+倪|Anak kecil 兒|
+倫|Urutan logis 侖 masyarakat manusia 亻; 侖 juga memberi pelafalan|hubungan antarmanusia; masyarakat
+债|Kewajiban 责 seseorang 亻; 责 juga memberi pelafalan|
+假|Orang 亻 palsu 叚; 叚 juga memberi pelafalan|
+做|Seseorang 亻 yang membuat sesuatu terjadi 故; 故 juga memberi pelafalan|
+健|Seseorang 亻 yang dapat membangun 建 sesuatu; 建 juga memberi pelafalan|
+傅|Seseorang 亻 yang memberi kuliah 尃; 尃 juga memberi pelafalan|
+傍|Seseorang 亻 di sisimu 旁; 旁 juga memberi pelafalan|
+傑||pahlawan; heroik, luar biasa
+傚|Memengaruhi 效 orang lain 亻; 效 juga memberi pelafalan|
+債|Kewajiban 責 seseorang 亻; 責 juga memberi pelafalan|
+傻|Orang 亻 yang dipukul 夂 di kepala 囟|
+僉|Banyak orang 从 berbicara 口 di bawah satu atap 亼|semua, bersama, sepakat
+僱|Menyewa 雇 seseorang 亻; 雇 juga memberi pelafalan|
+價|Pedagang 亻賈; 賈 juga memberi pelafalan|
+儿|Bentuk sederhana dari 兒, gambar seorang anak; bandingkan 人|
+兀|Memotong 一 kaki 儿|
+元|Orang 儿 dengan dua garis yang menegaskan kepalanya 二|
+兄|Kakak laki-laki 儿 berbicara 口 kepada adik-adiknya|
+兆|Retakan pada tulang ramalan yang dipakai untuk meramal|
+兇|Wadah 凵 kejahatan 乂|
+先|Seseorang melangkah 止 di depan orang lain 儿|
+光|Orang 儿 membawa obor 火|
+克|Senjata 十 yang dipakai untuk menundukkan binatang buas 兄|
+兌|Binatang buas 兄 bertanduk dua 丷|
+兑|Binatang buas 兄 bertanduk dua 丷|
+兔|Kelinci|
+兟|Dua orang 先 berbaris; 先 juga memberi pelafalan|maju
+入|Anak panah yang menunjukkan "masuk"|
+內|Orang 入 memasuki pintu 冂|
+全|Giok 玉 disimpan 入 agar aman|
+兩|Dua orang 入 bersama di dalam kereta|
+八|Dua garis bengkok yang berarti "membagi"|
+公|Membagi 八 apa yang pribadi 厶|
+兰|Anggrek yang sedang mekar|
+共|Dua tangan 八 memegang satu benda 廾|
+兵|Dua tangan 八 memegang kapak 丘|
+具|Dua tangan 八 menulis pada lempeng 目|
+典|Dua tangan 八 memegang buku 冊|
+兹||sekarang, di sini; ini; waktu, tahun
+兼|Tangan memegang dua ikat padi 禾|
+兽|Binatang dengan tanduk 丷, mata 田, hidung 一, dan mulut 口|
+冂||lebar
+内|Orang 人 memasuki pintu 冂|
+冈|Bentuk sederhana dari 岡, awan 网 yang terbentuk di atas gunung 山|punggung atau puncak bukit
+冉||lembut; lemah; maju perlahan-lahan
+冊|Bilah-bilah bambu 冂 diikat menjadi buku; bandingkan 册|
+冋|Sebidang tanah 口 dikelilingi batas 冂; 冂 juga memberi pelafalan|gurun; perbatasan
+册|Bilah-bilah bambu 冂 diikat menjadi buku|
+再|Dua ikan 冉 tertangkap pada tali pancing 一|
+冎|Penampang tulang|tulang
+冏|Bentuk kuno dari 炯|terang, cemerlang; jelas; panas
+冓||rahasia, ceruk, tempat persembunyian, lemari
+冖|Kain penutup|penutup
+冗|Kain penutup 冖 di atas meja 几|berlebihan; tidak perlu
+冘||bergerak maju; meragukan
+军|Prajurit 冖 (力 yang terdistorsi) di dalam kereta 车|
+农|Bentuk sederhana dari 農, mengolah ladang 田 dengan cangkul 辰|
+冝||cocok, benar, patut
+冠|Pria 元 mengenakan topi 冖 dengan tangannya 寸|
+冥|Matahari 日, tertutup 冖, dengan 六 memberi pelafalan|
+冫||es
+冬|Orang berjalan 夂 di atas es ⺀|
+冰|Air 水 sedingin es 冫|
+几|Meja kecil; bandingkan 丌|
+凡|Piring atau pinggan datar; barang sehari-hari|
+処||tempat, lokasi; bagian
+凭|Bersandar pada (memercayai) 任 meja 几|
+凵|Nampan|wadah; tempat
+凶|Wadah 凵 kejahatan 乂|
+凸|Persegi panjang dengan tonjolan|
+出|Tunas 屮 tumbuh keluar dari wadah 凵|
+击|Bentuk sederhana dari 擊; 手 memberi makna|
+函|Surat-surat ditaruh di dalam wadah 凵|
+刂||pisau
+刃|Pisau 刀 yang cukup tajam untuk mengeluarkan darah 丶|
+刅||menciptakan, membuat, menemukan
+分|Potongan-potongan 八 yang dibagi lagi dengan pisau 刀|
+刍||menyabit, memotong rumput; jerami, pakan ternak
+刑|Orang 刂 di dalam penjara 开|
+刖||memotong kaki sebagai bentuk hukuman
+则|Hukum yang diukir 刂 pada lempeng batu 贝|
+初|Memotong 刀 kain 衤 adalah langkah pertama membuat pakaian|
+删|Memotong 刂 bagian-bagian dari buku 册|
+別|Menarik batas 刂 antargolongan 另|
+利|Memanen 刂 padi 禾|
+刪|Memotong 刂 bagian-bagian dari buku 冊|
+别|Menarik batas 刂 antargolongan 另|
+刷|Orang membungkuk 尸 memegang handuk 巾|
+則|Hukum yang diukir 刂 pada lempeng batu 貝|
+剋|Senjata 刂 yang dipakai untuk menundukkan 十 binatang buas 兄|
+剌||menebas, memotong menjadi dua; membantah
+力|Mata bajak yang melambangkan kekuatan|
+劝|Kekuasaan 力 di samping 又 takhta|
+功|Hasil dari kerja 工 yang cakap 力; 工 juga memberi pelafalan|
+加|Mendukung suatu tujuan dengan kekuatan 力 kata-kata 口|
+劦|Banyak orang bekerja 力 bersama|bekerja sama, bergotong royong; kerja bersama
+劳|Orang mengangkat 力 beban 冖 rumput 艹|
+勈||berani
+勒||mencekik; mengencangkan
+勞|Orang mengangkat 力 beban 冖 rumput 炏|
+勹||bungkus
+勺|Sendok 勹 berisi sesuatu 丶|sendok, sendok sayur; satuan volume
+勻|Memakai sendok 勹 untuk menakar dua bagian yang sama 二|
+勿|Pisau 勹 memotong serpihan 丿|
+匀|Memakai sendok 勹 untuk menakar dua bagian yang sama 冫|
+包|Membedong 勹 bayi 巳; 勹 juga memberi pelafalan|
+匈||payudara, dada, rongga dada; ribut; Hongaria
+匊|Segenggam beras 米 di dalam mangkuk 勹|genggam
+匋||tembikar
+匍||merangkak; bersujud
+匐||merangkak; bersujud
+匕|Sendok|
+北|Dua orang 匕 duduk saling membelakangi; pinjaman bunyi untuk "utara"|
+匚||kotak; keranjang
+匡||membetulkan, merevisi; memulihkan
+匸||kotak
+匹|Segulung kain|
+区|Tempat 匸 di bawah kekuasaan seorang tuan 乂|
+區|Tempat 匸 tinggal banyak mulut 品|
+卂||terbang cepat
+卄|Dua puluhan 十 berdampingan|dua puluh, kedua puluh
+卅|Tiga tanda hitungan; bandingkan sepuluh 十 dan dua puluh 廿|tiga puluh, ketiga puluh
+卉|Sepuluh 十 jenis rumput 艹 yang berbeda|sebutan umum untuk tumbuhan; tak terhitung banyaknya
+半|Sapi 牛 membelah 丷 kayu menjadi dua|
+卌|Empat tanda hitungan; bandingkan sepuluh 十, dua puluh 廿, dan tiga puluh 卅|empat puluh, keempat puluh
+卑|Tangan 又 (diubah) memegang cangkang kosong 甲 (diubah)|
+卒|Prajurit berbaju zirah|
+卓|Melihat ke depan ⺊ fajar 早 yang akan tiba; 早 juga memberi pelafalan|
+南|Lonceng musik|
+卜|Retakan pada tulang ramalan|
+占|Mengucapkan 口 pertanda ⺊|
+卡|Kartu yang terjepit di antara 上 dan 下|
+卧|Orang 卜 (bentuk ubahan 人) berbaring di tempat tidur 臣|
+卩|Gulungan naskah atau orang berlutut|segel; orang berlutut
+卬|Orang berlutut 卩 di hadapan orang (raja) yang duduk 匕|luhur; tinggi; menaikkan; mahal
+卯||cabang bumi ke-4; pukul 5-7 pagi
+印|Tangan 爪 membubuhkan cap 卩|
+危|Orang 㔾 di tepi tebing 厃; 厃 juga memberi pelafalan|
+即|Orang lapar 卩 berlutut di depan makanan 皀; bandingkan 既|
+卵|Dua indung telur berisi telur|
+卷|Gulungan naskah 㔾 yang tergulung|
+厃||menengadah
+厄|Orang 㔾 terhimpit tekanan 厂|
+压|Tanah 土 terhimpit tekanan 厂|
+厓|Tebing 厂 yang terbentuk dari tanah 土|jurang; tepi sungai, pantai; nama keluarga
+厚|Sinar matahari 日 dan anak-anak 子 di dalam bangunan 厂|
+厥||kata ganti orang; dia
+厩||kandang; halaman kandang
+厶|Kepompong sutra|pribadi, rahasia
+厷|Lengan tertekuk; menegangkan otot|lengan bawah, lengan atas; bulat
+叀||kumparan; menggantung
+又|Tangan kanan, melambangkan pasangan; bandingkan 左|
+叉|Tangan 又 menggenggam benda 丶|
+友|Dua tangan 又 berpegangan, melambangkan persahabatan; 又 juga memberi pelafalan|
+双|Dua tangan 又 berdampingan|
+反|Tangan 又 terangkat menahan tebing 厂|
+叒|Tiga tangan 又 berpegangan, melambangkan persatuan|patuh; bersatu
+叔|Saudara laki-laki yang lebih kecil 小|
+叕|Banyak kait 又 membentuk jaring|menghubungkan
+取|Tangan 又 mengambil telinga 耳 musuh yang tewas|
+受|Sesuatu 冖 berpindah dari satu tangan 爫 ke tangan lain 又|
+叟|Tangan 又 mengangkat lilin, melambangkan penglihatan yang memudar|pria tua; sesepuh
+叠|Pakaian 叒 ditumpuk di atas laci 冝|
+口|Mulut terbuka|
+古|Kata-kata melewati sepuluh 十 mulut 口|
+句|Frasa 勹 dari mulut 口|
+只|Kata-kata sederhana 八 keluar dari mulut 口|
+叭||terompet
+史|Tangan 乂 memakai pena untuk mencatat sejarah|
+司|Orang memberi perintah 口 sambil mengangkat lengannya|
+叹|Mulut 口 mengembuskan napas 又|
+各|Berjalan 夂 dan berbicara 口|
+吉|Kata-kata 口 seorang cendekiawan 士|beruntung, baik pertanda, baik
+吋|Inci 寸 asing 口; 寸 juga memberi pelafalan|inci Inggris (tidak seperti 寸, yang bisa berarti inci Inggris atau inci Tiongkok)
+同|Berbagi bahasa 口 yang sama 凡|
+名|Nama yang diserukan 口 untuk memanggil seseorang di malam hari 夕|
+吏||pejabat pemerintah, hakim
+吕|Dua mulut 口 yang selaras|
+君|Pemimpin 尹 memberi perintah 口|
+吠|Suara yang dibuat anjing 犬 dengan mulutnya 口|
+听|Kata-kata 口 sampai ke telinga 斤|
+启|Pintu 户 dibuka 口|
+呆|Orang yang bicaranya 口 kaku seperti kayu 木|
+呈|Berbicara 口 di hadapan raja 王|
+告|Berbicara 口 dengan kekuatan seekor lembu 牛|
+呙|Kata-kata 内 keluar dari mulut 口|mengobrol, bergosip, mengoceh, berbicara; mulut
+周|Batas 冂 di sekeliling tanah 土 dengan sumur 口|
+命|Perintah 令 yang diberikan secara lisan 口|
+咅||meludahkan
+咖||kopi; dipakai dalam transliterasi
+咠|Berbisik 口 di telinga 耳 seseorang|berbisik, memfitnah, menyalahkan
+咢||onomatope, bunyi tabuhan genderang
+咪||meong kucing; meter
+咸|Satu 一 suara 口 dikelilingi konflik 戈|
+咼|Tulang 冎 rahang 口|mengobrol, bergosip, mengoceh, berbicara; mulut
+品|Sesuatu yang dibicarakan 口 semua orang|
+哥|Satu orang berbicara 可 melebihi orang lain 可|
+哭|Meneteskan air mata dari mata 口 karena seseorang 犬|
+唐|Anak-anak belajar membaca 口 dan menulis 肀 di sekolah 广|
+售|Pedagang kaki lima berbicara 口 tanpa henti, seperti burung 隹|
+啇||tangkai, batang, akar, kaki, dasar
+啓|Mengetuk 攵 pintu 户|
+啚||hina, rendah
+啟|Mengetuk 攵 pintu 启; 启 juga memberi pelafalan|
+啡||kopi; morfin
+啫||onomatope; seruan peringatan
+啬||kikir, pelit, hemat
+喀||muntah; dipakai dalam transliterasi
+善|Memberi seseorang makanan 羊 dan teman bicara 口|
+喇||klakson, terompet; lama; partikel akhir
+喜|Bernyanyi 口 dan menabuh genderang 壴|
+喪|Menangisi 哭 orang yang meninggal 亡|
+喱|Seperseribu 厘 hidangan 口; 厘 juga memberi pelafalan|gram; berat satu butir biji
+喿|Beberapa burung 品 berkicau di pohon 木|bunyi kicauan burung
+嗇||kikir, pelit, hemat
+嗤|Tertawa 蚩 keras-keras 口; 蚩 juga memberi pelafalan|
+嘻|Suara 口 gembira 喜; 喜 juga memberi pelafalan|
+噁||buruk, jahat; busuk, memualkan
+器|Empat bejana masak 口 dijaga seekor anjing 犬|
+噩|Patung giok 王 dengan empat lubang 口|
+噪|Suara 口 kicauan burung 喿; 喿 juga memberi pelafalan|
+嚮|Menuju 向 negeri 鄉; 鄉 juga memberi pelafalan|
+囗||kurungan; batas
+囚|Orang 人 di dalam sel 囗|
+四|Anak 儿 di dalam ruangan berdinding empat 囗|
+回|Awalnya, spiral yang menandakan kembali|
+囟|Tengkorak dilihat dari atas, dengan 乂 menandai ubun-ubun|ubun-ubun; tengkorak
+团|Banyak bakat 才 berkumpul di satu tempat 囗|
+困|Pagar 囗 dibangun mengelilingi pohon 木|
+囱|Api 夂 menyala dan mengeluarkan asap|cerobong asap
+囷|Wadah 囗 untuk menyimpan padi 禾|wadah bundar untuk menyimpan padi
+国|Harta 玉 di dalam perbatasan negara 囗|
+图|Bentuk sederhana dari 圖; peta perbatasan 囗 suatu wilayah 啚|
+國|Harta 或 di dalam perbatasan negara 囗|
+圖|Peta perbatasan 囗 suatu wilayah 啚|
+團|Banyak bakat 專 berkumpul di satu tempat 囗|
+土|Segumpal tanah liat di atas meja putar tembikar|
+圣|Bentuk sederhana dari 聖; raja 王 dalam mendengar 耳 dan berbicara 口|
+圭|Tumpukan lempeng|lempeng giok
+圳|Alur yang digali di tanah 土 oleh aliran sungai 川; 川 juga memberi pelafalan|alur di ladang; parit pembuangan kecil
+圼||lendir, lumpur hitam
+坐|Dua orang 从 duduk di tanah 土|
+坒|Membandingkan 比 tembikar 土; 比 juga memberi pelafalan|membandingkan, menyamai, menandingi
+坦||datar, rata, mulus; terus terang, terbuka
+坴|Tanah 土 ditimbun 八 di atas bumi 土|bongkahan tanah; daratan
+垂|Pohon dengan dahan terkulai|
+垔||mengekang; membendung sungai dan membelokkan arahnya; gundukan
+埃||debu halus; kotoran; angstrom
+埶|Tanah liat 坴 dibentuk menjadi bola 丸|seni
+執|Tangan 幸 menggenggam kerikil 丸|
+堅|Benteng 土 yang kokoh 臤; 臤 juga memberi pelafalan|
+堇|Tanah 土 kuning 黄|tanah liat kuning; tanah liat; musim; sedikit
+堡|Tembok tanah 土 yang dibangun untuk pertahanan 保; 保 juga memberi makna|
+堪|Orang yang memiliki banyak 甚 tanah 土|
+堯|Gundukan 垚 dipikul seorang pria 兀; 垚 juga memberi pelafalan|kaisar bijak legendaris zaman kuno
+報|Tangan 幸 memborgol 又 penjahat 卩, melambangkan penjatuhan hukuman|
+塵|Debu 土 yang beterbangan oleh rusa 鹿 yang melarikan diri|
+墨|Kapur yang dibuat dari tanah 土 hitam 黑|
+壑|Parit 㕡 yang tergali di tanah 土; 㕡 juga memberi pelafalan|
+壓|Tanah 土 terhimpit tekanan 厭; 厭 juga memberi pelafalan|
+壬||batang langit ke-9
+声|Bentuk sederhana dari 聲; lihat aksara itu untuk etimologinya|
+壳|Cangkang yang dibuang 冗 oleh seorang prajurit 士|
+壴|Genderang 口 di atas penyangga dengan bulu 土 di atasnya|genderang
+壽|Bentuk kuno dari 老|
+夂||pergi
+处|Pergi ke suatu tempat 夂 dan menancapkan bendera 卜|
+夅||turun, jatuh; menjatuhkan, menurunkan
+夆||melawan; menanduk
+备|Pergi 夂 ke ladang 田 untuk bersiap memanen|
+夋||berlambat-lambat; ayah Kaisar Yao
+夌||berlambat-lambat; nama ayah Kaisar Yao
+复|Orang 亻 yang pergi ke suatu tempat 夂 setiap hari 日|
+夕|Bulan sabit|
+外|Ramalan 卜 di malam hari 夕; yang gaib, yang asing|
+夗|Orang 㔾 meringkuk di malam hari 夕|berbalik badan saat tidur
+多|Dua malam 夕, menyiratkan banyak|
+夜|Orang 亻 menyelinap di bawah selubung 亠 malam 夕|
+夢|Dua mata 艹 terpejam 罒 di malam hari 夕|
+大|Orang 人 dengan lengan terentang|
+天|Langit 一 di atas seorang pria 大|
+太|Raksasa 大 dengan pria berukuran biasa 丶 sebagai pembanding|
+夫|Pria 大 mengenakan tusuk konde tanda akil balig 一|
+夬||tegas, pasti; terpisah; cabang
+夭|Orang dengan kepala miring - condong ke depan, berlari, bersemangat|
+失|Sesuatu 丿 jatuh dari tangan 夫|
+夷|Pria 大 bersenjatakan busur 弓|
+夹|Orang 夫 terjepit di antara dua orang lain 丷|
+夺|Pria 大 merampas sesuatu 寸|
+夾|Dua orang 从 menopang seseorang 大 dari kedua sisi|
+奂||banyak; cemerlang
+奇|Orang 大 menunggang kuda 可|
+奈|Pria 大 yang bersemangat 示|tetapi, bagaimana; menahan, menanggung, bertahan
+奋|Pria 大 bekerja di ladang 田|
+奏|Laporan tentang (di atas) kaisar 天|
+奐||banyak; cemerlang
+契|Kontrak yang disahkan dengan memotong 刀 takik 丰 pada kayu 木 (kini berubah menjadi 大)|
+奔|Pria 大 berlari melintasi padang rumput 卉|
+套|Pria 大 terbungkus kain panjang 镸|
+奚||di mana, apa, mengapa, bagaimana
+奠|Pria 大 mengangkat persembahan arak 酋|
+奥|Orang 大 menemukan rumah 宀 penuh beras 米|misterius, samar, mendalam; dipakai dalam transliterasi
+奪|Pria 大 merampas 寸 seekor burung 隹|
+奮|Pria 大 bekerja di ladang 田|
+女|Perempuan menghadap ke samping|
+奴|Perempuan 女 berdiri di sisi tangan kanan 又 tuannya; 女 juga memberi pelafalan|
+她|Perempuan 女 di sampingmu 也|
+好|Perempuan 女 dengan anak laki-laki 子|
+如|Istri 女 mengikuti kata-kata 口 suaminya|
+妃|Perempuan 女 milik sendiri 己|
+妇|Bentuk sederhana dari 婦; perempuan 女 dengan sapu 彐|
+妓|Perempuan 女 yang bekerja 支; 支 juga memberi pelafalan|
+妟|Perempuan 女 memasak makanan 日 untuk jamuan 宀; bandingkan 宴|jamuan, pesta; menjamu
+妥|Tangan 爫 di atas perempuan 女, melambangkan kendali|
+妳|Kamu 尔 (perempuan) 女|
+妻|Perempuan 女 memegang sapu 十 di tangannya 彐|
+妾|Perempuan 女 dicap 辛 sebagai budak|selir
+姆||pengasuh, ibu asrama, inang
+姑|Perempuan 女 yang lebih tua 古; 古 juga memberi pelafalan|
+姜|Bentuk sederhana dari 薑; rumput 艹 memberi makna sementara 畺 memberi pelafalan|
+姦|Seseorang yang menggoda banyak perempuan 女|
+姻|Perempuan 女 yang berkerabat karena 因 pernikahan|
+威|Menguasai perempuan 女 dengan kekuatan senjata 戈|
+娃|Gadis 女 dari giok 圭 yang indah|
+娄|Perempuan 女 menatap bintang 米|nama rasi bintang; memakai; nama keluarga
+娑||menari, bermain riang; bersantai; berjalan santai
+娶|Mengambil 取 istri 女; 取 juga memberi pelafalan|
+婁|Anak perempuan 女 menatap ibunya 母|nama rasi bintang; memakai; nama keluarga
+婢|Perempuan 女 yang rendah 卑; 卑 juga memberi pelafalan|
+婦|Perempuan 女 dengan sapu 帚|
+嫉|Perempuan 女 yang iri 疾; 疾 juga memberi pelafalan|
+子|Anak dalam bedong, dengan lengan terentang tetapi kaki terbungkus|
+孔|Mulut 乚 bayi 子 yang menangis|
+孕|Perempuan melahirkan 乃 anak 子|
+字|Anak 子 di dalam rumah 宀; 子 juga memberi pelafalan|
+孙|Bentuk sederhana dari 孫; rantai 系 keturunan 子|
+孚|Burung mendekap 爫 telurnya 子|mengerami telur; memiliki keyakinan
+孛||komet
+孝|Pemuda 子 menggendong orang tua 耂|
+孟|Anak 子 duduk di atas takhta 皿|
+季|Waktu menanam benih 子 padi 禾|
+学|Bangunan 冖 tempat anak-anak 子 belajar; ⺍ memberi pelafalan|
+孨|Banyak anak 子 terlantar yang melambangkan panti asuhan|berhati-hati, penakut, lemah; anak yatim
+孫|Rantai 系 keturunan 子|
+孰||siapa? yang mana? apa? yang mana satu?
+孱|Lemah 孨 badannya 尸|
+孵|Mengerami 孚 telur 卵|
+學|Bangunan 冖 tempat anak-anak 子 belajar|
+宀||atap; rumah
+守|Menyimpan sesuatu 寸 di dalam dinding rumah sendiri 宀|
+安|Perempuan 女 aman di dalam rumah 宀|
+宋|Bangunan 宀 yang terbuat dari kayu 木|
+宓||tenang, sunyi, diam; sehat
+宗|Altar 示 untuk arwah leluhur di dalam rumah 宀|
+定|Orang 疋 menetap di bawah atap 宀|
+宜|Upacara peringatan 且 yang diadakan di rumah 宀|
+宝|Giok 玉 yang disimpan di rumah 宀|
+客|Orang 各 yang disambut di bawah atap sendiri 宀; 各 juga memberi pelafalan|
+宣|Istana, tempat maklumat diumumkan|
+宰|Barak 宀 tempat tinggal para budak 辛|
+宴|Perempuan 女 memasak makanan 日 untuk jamuan di rumah 宀|
+宾|Prajurit 兵 yang ditampung di bawah atap sendiri 宀|
+宿|Orang 亻 tidur di ranjang 百 di bawah atap 宀|
+寅||menghormati, memuliakan; dengan hormat; cabang bumi ke-3
+密|Gunung 山 yang sunyi 宓; 宓 juga memberi pelafalan|
+寝|Orang 彐冖又 berbaring di ranjang 丬 di rumahnya 宀|
+寢|Orang 彐冖又 berbaring di ranjang 爿 di rumahnya 宀|
+寨|Benteng 宀 berdinding kayu 木|
+寶|Barang berharga 貝 yang disimpan di rumah 宀; 珤 juga memberi pelafalan|
+寸|Tangan dengan titik yang menandai tempat denyut nadi terasa, sekitar satu inci di atas pergelangan|
+对|Sepasang 又 tangan 寸|
+寺|Persembahan 土 di tanganmu 寸|
+导|Tangan 寸 menunjukkan jalan ke suatu tempat 巳|
+寿|Bentuk ubahan dari 老|
+封|Menyegel 寸 sesuatu dengan segenggam adukan 土|
+尃||mengumumkan, menyatakan
+射|Busur 身 yang ditarik oleh tangan 寸|
+将|Pergi tidur 丬 di malam hari 夕, masa depan yang dapat diramalkan|
+將|Pergi tidur 爿 di malam hari 夕, masa depan yang dapat diramalkan|
+尊|Tangan 寸 mempersembahkan arak 酋|
+尋|Tangan 彐 mencari 工 sebuah barang 口; 寸 memberi pelafalan|
+尌||menopang; mendirikan sesuatu
+對|Tangan 寸 memegang kaki lilin 羊 yang menyala 业|
+導|Tangan 寸 menunjukkan jalan ke suatu tempat 道|
+小|Membagi 八 dengan sebuah garis 亅|
+少|Butiran pasir; 小 memberi pelafalan dan makna|
+尖|Ujung runcing, kecil 小 di atas besar 大|
+尗|Yang lebih kecil 小 dari dua bersaudara|adik laki-laki; adik laki-laki ayah
+尘|Serpihan 小 tanah 土 yang kecil|
+尞||bahan bakar untuk persembahan
+尢|Memotong 一 kaki 儿; bandingkan 兀|lemah, pincang
+尤||terutama, khususnya
+尧||kaisar bijak legendaris zaman kuno
+尸|Orang yang roboh|
+尹|Tongkat kekuasaan|
+尺|Gambar orang mengukur dengan langkah|
+尼||biksuni; dipakai dalam transliterasi
+尾|Ekor berbulu 毛 di belakang tubuh 尸|
+尿|Orang berjongkok 尸 buang air 水|
+局|Tempat untuk membicarakan 口 langkah-langkah 尺|
+层|Bentuk sederhana dari 層; 曾 memberi pelafalan|
+屋|Berhenti 至 di bawah atap 尸 (varian dari 厂)|
+屌|Sesuatu yang tergantung 吊 dari tubuh 尸; 吊 juga memberi pelafalan|
+屍|Tubuh 尸 yang mati 死; 尸 juga memberi pelafalan|
+屎|Orang berjongkok 尸 buang air besar 米; 米 juga memberi pelafalan|
+展|Menggelar pakaian 㠭 untuk dijual di pasar 尸; bandingkan 㠭|
+履|Orang 尸 berjalan 彳; 復 juga memberi pelafalan|
+屮|Tunas|tunas
+屯||desa, dusun; kemah; pos
+屰||membangkang
+山|Tiga puncak gunung|
+岔|Jalan yang terbelah 分 oleh gunung 山|
+岛|Burung 鸟 bertengger di puncak gunung 山|
+岡|Awan 网 terbentuk di atas gunung 山|punggung atau puncak bukit
+岩|Batu-batu 石 yang membentuk gunung 山|
+岳|Pegunungan 山 yang dikelilingi bukit-bukit 丘|
+岸|Tebing 厂 gunung 山; 干 memberi pelafalan|
+峡|Ruang di antara 夹 dua gunung 山; 夹 juga memberi pelafalan|
+島|Burung 烏 bertengger di puncak gunung 山|
+峽|Ruang di antara 夾 dua gunung 山; 夾 juga memberi pelafalan|
+崔|Burung 隹 berhadapan dengan gunung 山|
+崖|Jurang 厓 gunung 山; 厓 juga memberi pelafalan|
+巂||nama tempat
+巅|Puncak 颠 gunung 山; 颠 juga memberi pelafalan|
+巔|Puncak 顛 gunung 山; 顛 juga memberi pelafalan|
+巛|Sungai yang mengalir|kali, sungai
+川|Aliran sungai; bandingkan 巛|
+州|Pulau-pulau di tengah sungai 川|
+巠||sungai bawah tanah; air mengalir
+巡|Berjalan 辶 di tepi sungai 巛; 巛 juga memberi pelafalan|
+巢|Sarang 巛田 yang dibangun di pohon 木|
+巤|Kumis 巛 tikus 鼠|kumis tikus; surai kuda; sirip punggung ikan
+工|Sekop atau perkakas pekerja lainnya|
+左|Tangan kiri; bandingkan 又|
+巨|Tangan memegang penyiku tukang kayu 工 yang besar|
+巫|Tongkat ramalan berbentuk salib|
+差|Pekerjaan 工 yang dilakukan seekor domba 羊; ketidakcakapan|
+己|Alat tenun yang ditenun dengan benang|
+巳||pukul 9 sampai 11; cabang bumi ke-6
+巴||menginginkan, mengharapkan
+巽||lembut, rendah hati, patuh; tenggara; trigram ke-5 dari 8 trigram
+巾|Tirai atau handuk yang tergantung di rak|
+巿|Sabuk 一 dari kain 巾|berputar, berbelok, mengitari
+币|Uang kertas yang ditulis di atas sutra 巾|
+布|Kain 巾 yang dipegang tangan|
+帅|Perwira membawa senjata 刂 dan bendera 巾|
+师|Dengan terampil mengayunkan 帀 pisau 刂|
+帕|Selendang 巾 untuk menjaga kesucian gadis 巾|selendang, serban, cadar, kain pembungkus
+帘|Tirai 巾 di pintu masuk gua 穴|
+帚|Tangan 巾 memegang sapu dengan kepala 彐 terangkat|
+帛||sutra, kain; kekayaan, harta
+帝|Altar tempat persembahan dilakukan|
+帥|Perwira membawa senjata 㠯 dan bendera 巾|
+带|Sabuk, melipat jubah di atas 卅 tetapi tidak di bawah 巾|
+師|Dengan terampil mengayunkan 帀 pisau 㠯|
+席|Tikar kain 巾 atau jerami 艹 di dalam rumah 广|
+帮|Bendera 巾 suatu negara 邦; 邦 juga memberi pelafalan|
+帶|Sabuk, melipat jubah di atas 卌 tetapi tidak di bawah 巾|
+幅|Segulung 畐 kain 巾; 畐 juga memberi pelafalan|
+幫|Bendera 帛 feodal 封; 封 juga memberi pelafalan|
+干|Pentungan atau kapak|
+平|Timbangan perata|
+年|Pria 干 membawa padi, melambangkan panen tahunan|
+并|Bentuk sederhana dari 並; dua pria berdiri berdampingan|
+幸|Dua pria, satu hidup 土 dan satu mati 干; yang hidup beruntung|
+幹|Sinar matahari 龺 menyiratkan "kering"; pentungan 人干 menyiratkan "menyerbu"|
+幺||satu; mungil, kecil
+幻|Kebalikan dari 予, "memberi"|
+幼|Orang yang sedikit 幺 kekuatannya 力; 幺 juga memberi pelafalan|
+幽|Ceruk-ceruk kecil 幺 di lereng gunung 山; 幺 juga memberi pelafalan|
+幾|Meja 戍 yang sangat kecil 幺|
+广|Gubuk sandar 厂, menyiratkan bangunan|
+庆|Perayaan besar 大 di dalam rumah 广|
+床|Rumah 广 yang terbuat dari kayu 木; 广 juga memberi pelafalan|
+库|Kandang 广 tempat kereta 车 diparkir|
+庙|Bangunan 广 berisi altar 由|
+庞|Naga 龙 di dalam rumah 广|
+度|Dua puluh 廿 orang 又 berkumpul di dalam bangunan 广 untuk bermusyawarah|
+座|Tempat duduk 坐 yang lebar 广; 坐 juga memberi pelafalan|
+庫|Kandang 广 tempat kereta 車 diparkir|
+庭|Pelataran 廷 yang luas 广; 廷 juga memberi pelafalan|
+庶|Banyak orang 灬 (dua puluh atau lebih 廿) di dalam rumah 广|banyak, beragam; khalayak
+康|Rumah 广 dengan seorang pelayan 隶|
+廄||kandang; halaman kandang
+廌||unicorn
+廖|Angin 翏 bertiup di atas dataran luas yang kosong 广|
+廛||toko, warung
+廟|Bangunan 广 berisi altar 朝|
+廴|Orang berjalan ke kiri|berjalan, pergi; tempat
+延|Kaki di jalan 㢟 berhenti di tempat 丿|
+廾|Dua tangan 十 berdampingan|dua tangan
+廿|Dua puluhan 十 berdampingan|dua puluh, kedua puluh
+开|Bentuk sederhana dari 開; tangan 廾 mengangkat palang 一 pintu|
+异|Bentuk sederhana dari 異; orang 共 dengan wajah menakutkan 田|
+弃|Dua tangan 廾 membuang bayi terbedong yang mati 亠厶|
+弄|Dua tangan 廾 memainkan sepotong giok 玉; 廾 juga memberi pelafalan|
+弊|Dua tangan 廾 memecahkan sesuatu 敝; 敝 juga memberi pelafalan|
+弋|Gambar anak panah yang dilepaskan dari busur|menangkap, menahan; memanah
+式|Perajin memakai penusuk 弋 dan penyiku 工|
+弓|Busur yang dibidikkan ke kiri|
+弔|Mayat 弓 yang tergantung pada tali 丨|
+引|Menarik tali 丨 busur 弓|
+弗|Dua anak panah 丨 ditarik melintangi busur|tidak, negatif
+弯|Seperti 亦 busur 弓|
+弱|Dua tunas 弓 mati karena embun beku 冫|
+彐||moncong
+彑|Moncong dilihat dari depan|moncong
+归|Bentuk sederhana dari 歸; istri 帚 pulang ke rumah; 追 memberi pelafalan|
+录|Kuas yang dipakai untuk mencatat cerita|
+彖|Babi 豕 bermoncong panjang 彑|babi, landak susu, landak
+彗|Tangan 彐 memegang sapu bambu 丰|
+彙|Mengumpulkan 彑 buah 果|
+彡|Jumbai rambut|rambut; sinar matahari
+形|Sinar matahari 彡 masuk melalui jendela 开|
+彥||anggun
+彦||anggun
+彭|Bunyi 彡 genderang 壴|
+彳||melangkah dengan kaki kiri
+彷||serupa, mirip; menyerupai
+役|Orang berjalan 彳 membawa makanan di tangan 殳|
+待|Menyambut seseorang yang tiba 彳 di istana 寺|
+徊|Mondar-mandir 彳 bolak-balik 回; 回 juga memberi pelafalan|
+律|Berjalan 彳 sesuai tuntutan hukum 聿|
+後|Satu langkah 彳 datang di belakang langkah lain 夂; 幺 memberi pelafalan|
+徒|Berjalan 走 mengikuti jejak seseorang 彳|
+得|Tangan 寸 meraih kerang 旦|
+徙|Melangkah 彳 dalam perjalanan jauh 歨|
+復|Bentuk lama dari 复; lihat aksara itu untuk etimologinya|
+徴|Berbaris 彳 atas perintah 攵 raja 王|memanggil
+心|Jantung|
+忄||hati; pikiran; jiwa
+忍|Pisau 刃 menusuk hati 心; 刃 juga memberi pelafalan|
+忐|Beban di atas 上 hati 心|
+忑|Beban di bawah 下 hati 心|
+志|Pikiran 心 seorang cendekiawan 士; 士 juga memberi pelafalan|
+忙|Hati 忄 berhadapan dengan kematian 亡; 亡 juga memberi pelafalan|
+忝||malu, aib; merendahkan diri
+快|Kehendak 忄 yang tegas 夬; 夬 juga memberi pelafalan|
+念|Menyimpan masa kini 今 di dalam hati 心|
+思|Menimbang sesuatu dengan pikiran 囟 (diubah) dan hati 心|
+总|Banyak mulut 口 berbicara dengan satu hati 心|
+恆|Hati 忄 yang tetap 亙; 亙 juga memberi pelafalan|
+恒|Hati 忄 yang tetap 亘; 亘 juga memberi pelafalan|
+恢||memulihkan, mendapatkan kembali; besar, sangat luas, luas
+息|Menghirup (kehidupan, 心) melalui hidung 自; 心 juga memberi pelafalan|
+您|Kamu 你 yang diucapkan dengan sayang 心|
+悬|Kebanggaan 心 pada negeri 县, diungkapkan dengan bendera; 县 juga memberi pelafalan|
+惑|Hati 心 yang tidak pasti 或; 或 juga memberi pelafalan|
+惚|Melalaikan 忽 pikiran 忄; 忽 juga memberi pelafalan|
+惜|Merasakan 忄 masa lalu 昔; 昔 juga memberi pelafalan|
+惠||kebaikan, manfaat, berkah, kemurahan hati
+惺|Pikiran 忄 yang cemerlang 星; 星 juga memberi pelafalan|
+愛|Membawa kekasih 心 ke dalam rumah 冖|
+感|Dua hati 心 berdetak bersama 咸|
+慄|Pohon 木 berbuah kacang 覀; bandingkan 果|
+慮|Harimau 虍 menebar ketakutan ke dalam hati 思|
+慶|Pergi 夂 ke perayaan 心 di dalam rumah 广|
+慼|Berduka 心 atas saudara yang tewas 戚; 戚 juga memberi pelafalan|
+慾|Hasrat 欲 hati 心; 欲 juga memberi pelafalan|
+憲|Aturan 宀 untuk hidup 龶; 心 memberi pelafalan|
+懸|Kebanggaan 心 pada negeri 縣, diungkapkan dengan bendera; 縣 juga memberi pelafalan|
+戈|Tombak yang mengarah ke kanan bawah|tombak, lembing, tombak kapak
+戉|Kapak yang diayunkan ke kiri|tombak kapak, kapak perang
+戋||kecil, sempit; mungil, sedikit
+戌||cabang bumi ke-11
+戍|Senjata 戈 mengelilingi negeri 丶|menjaga garnisun, mempertahankan perbatasan
+戎|Tangan memegang tombak 戈|senjata, persenjataan; urusan militer
+戏|Tangan 又 bermain sulap dengan tombak 戈|
+我|Tangan 扌 memegang senjata 戈|
+戒|Dua tangan 廾 mengacungkan tombak 戈|
+戔|Ruang sempit di antara dua mata pisau 戈|kecil, sempit; mungil, sedikit
+或|Membela diri 口 dengan tombak 戈; "atau"|
+戚|Adik laki-laki 尗 yang tewas dalam perang 戈|
+戛|Memukul 戈 hidung 自 seseorang|tombak; mengetuk atau memukul pelan
+戜||mengikis; menguntungkan
+戠||pedang; tanah liat tembikar; mengumpulkan
+截|Burung 隹 yang terputus dari sarangnya 十 oleh senjata 戈|
+戶|Pintu yang berayun pada engselnya|
+户|Bentuk sederhana dari 戶; pintu yang berayun pada engselnya|
+戾|Anjing 犬 yang tidak mau masuk ke rumah 户|sesat, membangkang, keras kepala
+所|Kapak 斤 diayunkan ke pintu 户|
+扇|Kipas berbulu 羽 berbentuk pintu lipat 户|
+手|Tangan dengan jari-jari terbuka|
+扌|Tangan dengan jari-jari terbuka; bandingkan 手|tangan
+才|Tunas yang tumbuh dari tanah, melambangkan bakat yang mulai tumbuh|
+扎|Tangan 扌 mengikat buntelan dengan tali 乚|
+托|Memakai tangan 扌 sebagai penopang 乇; 乇 juga memberi pelafalan|
+执|Tangan 扌 menggenggam kerikil 丸|
+扫|Bentuk sederhana dari 掃; memakai 扌 sapu 帚; 帚 juga memberi pelafalan|
+找|Pergi mencari dengan tombak 戈 di tangan 扌|
+承|Tiga tangan 手 mengangkat mayat 了|
+抉|Memilih 夬 dengan tangan 扌; 夬 juga memberi pelafalan|
+抓|Tangan 扌 bercakar 爪; 爪 juga memberi pelafalan|
+抗|Bertarung 亢 dengan tangan kosong 扌; 亢 juga memberi pelafalan|
+折|Tangan 扌 mengayunkan kapak 斤|
+护|Menjaga 扌 rumah 户; 户 juga memberi pelafalan|
+报|Tangan 扌 memborgol 又 penjahat 卩, melambangkan penjatuhan hukuman|
+披|Mengenakan 扌 bulu binatang 皮; 皮 juga memberi pelafalan|
+抱|Membungkus 包 dalam pelukan 扌; 包 juga memberi pelafalan|
+拐|Mengambil orang lain 另 dengan paksa 扌|
+招|Seruan 召 untuk mengangkat senjata 扌; 召 juga memberi pelafalan|
+拜|Dua tangan 手 dirapatkan dengan hormat|
+拨|Mengirim 发 barang dengan tangan 扌|
+拯|Mengulurkan 丞 tangan 扌; 丞 juga memberi pelafalan|
+拷|Menginterogasi 考 dengan tangan 扌; 考 juga memberi pelafalan|
+拽|Menarik 曳 dengan tangan 扌; 曳 juga memberi pelafalan|
+拾|Mengumpulkan 合 barang-barang di tangan 扌|
+指|Menunjuk 旨 dengan tangan 扌; 旨 juga memberi pelafalan|
+挖|Menggali 扌 lubang 穵; 穵 juga memberi pelafalan|
+挡|Tangan 扌 terangkat pada saat yang tepat 当; 当 juga memberi pelafalan|
+挣|Bertarung 争 dengan tangan 扌; 争 juga memberi pelafalan|
+挥|Memimpin pasukan 军 dengan tangan 扌|
+捂|Melawan 吾 dengan tangan 扌; 吾 juga memberi pelafalan|
+捧|Persembahan 奉 dengan kedua tangan 扌; 奉 juga memberi pelafalan|
+掃|Memakai 扌 sapu 帚; 帚 juga memberi pelafalan|
+掙|Bertarung 爭 dengan tangan 扌; 爭 juga memberi pelafalan|
+揮|Memimpin pasukan 軍 dengan tangan 扌|
+援|Menuntun 爰 dengan tangan 扌; 爰 juga memberi pelafalan|
+摘|Memetik 扌 buah dari dahan 啇|
+摺|Keterampilan 習 melipat kertas 扌; 習 juga memberi pelafalan|
+撒|Menebar 散 benih dengan tangan 扌; 散 juga memberi pelafalan|
+撥|Mengirim 發 barang dengan tangan 扌|
+播|Menabur benih 番 dengan tangan 扌; 番 juga memberi pelafalan|
+擊|Memukul 毄 dengan tangan 手; 毄 juga memberi pelafalan|
+擋|Tangan 扌 terangkat pada saat yang tepat 當; 當 juga memberi pelafalan|
+擒|Menangkap 禽 dengan tangan 扌; 禽 juga memberi pelafalan|
+擡|Mengangkat 扌 tinggi-tinggi 臺; 臺 juga memberi pelafalan|
+支|Tangan 又 memegang dahan 十 sebagai penopang|
+攴|Tangan 又 mengayunkan tongkat ⺊|mengetuk, menepuk
+攵|Kepalan tangan kanan|mengetuk, menepuk; tulisan; melepaskan
+攸||jauh, jauh sekali; awalan adverbial
+改|Tangan bertongkat 攵 mendisiplinkan anak yang berlutut 己|
+敃||kekar, kuat, bertenaga
+敕||titah atau dekret kekaisaran
+敖||berkeliaran, bermain-main; santai; nama keluarga
+敝||memecahkan, menghancurkan; rusak, compang-camping
+敢|Tangan bertongkat 攵 memukul binatang buas 耳|
+散|Tangan 攵 menebar benih dari keranjang|
+敦||jujur, terus terang, tulus; baik hati; menghargai
+敫||alat musik kuno
+文|Dada bertato, melambangkan tulisan|
+斑|Corak 文 pada giok 王|
+斗|Tangan memegang gayung takar|
+料|Tangan menakar 斗 secangkir beras 米|
+斥|Seseorang dimarahi karena melukai dirinya 丶 dengan kapak 斤|
+断|Memakai kapak 斤 untuk memanen padi 米|
+斯||ini, demikian, begitu; partikel penegas; dipakai dalam transliterasi
+新|Pohon 亲 yang baru ditebang 斤|
+斲|Menebang 斤 batang pohon|menebang, membacok; memotong kayu
+斷|Benang 幺 yang diputus 一 oleh kapak 斤|
+斿||berenang; bergerak bebas
+旃||kain kempa; panji sutra pada tiang bengkok
+旅|Pria 方 bepergian dengan buntelan 氏 di punggungnya|
+旉||mengumumkan, menyatakan
+旋|Pasukan 方 berbaris di bawah bendera 疋|
+族|Sekelompok orang yang bersumpah 矢 setia pada satu bendera 方|
+旡||tersedak sesuatu
+既|Orang 旡 berpaling dari makanan 皀; bandingkan 即|
+日|Matahari|
+旦|Matahari 日 terbit di atas cakrawala 一|
+旧|Lebih tua daripada 丨 matahari 日|
+旨|Sendok 匕 diarahkan ke mulut 日|
+早|Sinar pertama 十 matahari 日|
+旬|Siklus 勹 sepuluh hari 日; pekan tradisional|
+旱|Matahari 日 memanggang gurun 干; 干 juga memberi pelafalan|
+旲||cahaya siang, sinar matahari
+旷|Dataran luas 广 di bawah matahari 日; 广 juga memberi pelafalan|
+昆|Dua bersaudara 比 di bawah matahari 日|
+昇|Matahari 日 yang terbit 升; 升 juga memberi pelafalan|
+昌|Berbicara 曰 di siang hari 日|sinar matahari; baik, patut; makmur
+明|Cahaya matahari 日 dan bulan 月|
+昏|Matahari 日 terbenam di balik desa 氏|
+昔|Dua puluh 廿 hari 日 yang lalu|
+昜|Terang dan terbuka, seperti fajar 旦|terang, gemilang; meluas, membuka
+昧||gelap, tersembunyi, samar
+是|Berbicara 日 secara langsung 疋|
+昷|Makanan 皿 hangat 日|hangat, makanan hangat
+昼|Ketika matahari sejengkal 尺 di atas cakrawala 旦|
+晉|Panggung 一 yang ditinggikan di atas tiang 厶|
+晋|Maju ke hari 日 kedua 亚|
+晚|Menghindari 免 matahari 日; 免 juga memberi pelafalan|
+普|Semua orang 並 di bawah matahari 日|
+景|Matahari 日 terbit di atas kota 京; 京 juga memberi pelafalan|
+晶|Banyak matahari 日, menyiratkan permata yang terang dan berkilau|
+智|Diketahui 知 dengan jelas 日; 知 juga memberi pelafalan|
+暴|Pria dengan kepala 日 dan tangan 共 menyiksa rusa 水|
+曠|Dataran luas 廣 di bawah matahari 日; 廣 juga memberi pelafalan|
+曰|Gambar mulut 口 yang terbuka 一|
+曲|Benda yang terlipat 曰|
+曷|Varian dari 何|apa, mengapa, di mana, yang mana, bagaimana
+書|Kuas 聿 yang dipakai untuk menulis kata-kata 曰|
+曼|Dua tangan 日, 又 membuka mata 罒|panjang, membentang, luas; cantik
+曾|Penanak nasi di atas api 日, mengumpulkan uap 丷 lalu melepaskannya|
+替|Satu pria 夫 menggantikan pria lain; 日 memberi pelafalan|
+最|Terjadi 取 di bawah matahari 日 (yaitu, di mana-mana)|
+朁||jika, seandainya, namun
+會|Orang-orang 人 berbicara 日|
+月|Bulan sabit|
+朋|Dua orang 月 berjalan bersama|
+服|Orang 卩 mengenakan 又 mantel 月|
+朗||terang, jelas, nyata
+望|Raja 王 memandangi bulan 月; 亡 memberi pelafalan|
+木|Pohon|
+未|Tanaman gandum yang belum berbuah; bandingkan 來|
+末|Pucuk 一 pohon 木|
+本|Pohon 木 dengan akar yang ditonjolkan|
+札||surat, catatan; surat-menyurat
+朱|Warna getah 一 beberapa jenis pohon 木|
+朴||polos, sederhana; tulus; nama keluarga
+朵|Bunga 几 mekar di pohon 木|
+机|Meja 几 yang terbuat dari kayu 木; 几 juga memberi pelafalan|
+朽|Kayu dari pohon 木 yang sekarat 丂|
+朿||duri, sengat, onak; menikam; membunuh
+杀|Membunuh 乂 seseorang dan menguburnya dalam peti mati 木|
+束|Kayu 木 yang diikat tali 口|
+杠|Tuas 工 dari kayu 木; 工 juga memberi pelafalan|
+来|Tanaman gandum yang belum berbuah; bandingkan 來|
+杭||penyeberangan sungai; nama keluarga
+杰||pahlawan; heroik, luar biasa
+東|Matahari 日 terbit di balik pohon 木; bandingkan 西|
+析|Membelah 斤 kayu 木; 斤 juga memberi pelafalan|
+林|Dua pohon 木 yang melambangkan hutan|
+果|Buah 田 tumbuh di pohon 木|
+枯|Pohon 木 tua 古; 古 juga memberi pelafalan|
+枼||meja; kepingan kayu datar; lembaran, daun
+某|Buah manis 甘 dari pohon 木 tertentu|
+染|Air 氵 dan arak 九 dicampur dalam mangkuk kayu 木|
+柔|Kayu 木 yang begitu lunak sehingga dapat dipotong 矛|
+柬|Bungkusan yang diikat 束|kartu, surat, undangan, catatan
+柰||pohon apel liar; bertahan, menanggung
+柵|Pagar 冊 dari kayu 木; 冊 juga memberi pelafalan|
+栅|Pagar 册 dari kayu 木; 册 juga memberi pelafalan|
+栗|Pohon 木 berbuah kacang 覀; bandingkan 果|
+桑|Pohon 木 berbuah beri 叒|pohon murbei; nama keluarga
+桓||sejenis pohon; nama keluarga
+桼|Pohon 木 yang getahnya 氺 dipakai sebagai pernis|pohon pernis; pernis, lak; cat
+梁|Jembatan kayu 木 yang dibangun 刅 di atas sungai 氵|
+梅||plum; plum kering; nama keluarga
+條|Orang 亻 menghitung 丨; 条 memberi pelafalan|
+梦|Dua mata terpejam 林 di malam hari 夕|
+棉|Sutra 帛 yang dipetik dari pohon 木|
+森|Banyak pohon 木 membentuk hutan|
+業|Alat musik 业 dari kayu 木|
+榘|Penyiku tukang kayu 矩 dari kayu 木; 矩 juga memberi pelafalan|
+榜|Papan pengumuman yang ditempel 旁 di pohon 木; 旁 juga memberi pelafalan|
+榮|Rumput 炏 dan pohon 木 tumbuh subur di taman 冖|
+槃||nampan; memutar, berputar; mencari
+樂|Alat musik dengan kayu 木, senar 幺, dan pemetik 白|
+樊||pagar, pagar pembatas, tempat tertutup
+樑|Balok 梁 kayu 木; 梁 juga memberi pelafalan|
+樸||polos, sederhana; tulus; nama keluarga
+機|Meja 幾 yang terbuat dari kayu 木; 幾 juga memberi pelafalan|
+檯|Panggung 臺 kayu 木; 臺 juga memberi pelafalan|
+欠|Orang 人 menguap ⺈|
+次|Orang 欠 menguap berkali-kali 冫|
+欶||mengisap, minum
+止|Kaki|
+正|Kaki 止 berhenti di tempat yang benar 一|
+步|Bentuk modern dari 歨; meletakkan satu kaki 止 di depan kaki lain|
+武|Menghentikan seseorang 止 dengan anak panah 弋|
+歨|Meletakkan satu kaki 止 di depan kaki lain|Varian lama dari 步
+歰|Dua orang 止 saling bertukar kata-kata tajam 刃|berdebat, tidak sepakat, bertengkar
+歹|Mayat|
+歺|Mayat; bandingkan 歹|jahat, bejat, keji
+死|Orang berlutut 匕 di depan mayat 歹|
+歼|Seribu 千 mayat 歹; 千 juga memberi pelafalan|
+殳|Tangan 又 memegang senjata 几|alat, senjata
+段|Tangan memakai pahat 殳 untuk memotong batu|
+殸|Alat 殳 musik 声; 声 juga memberi pelafalan|lonceng batu
+殹||gema
+殼|Tangan 殳 memukul cangkang 壳|
+毀|Orang memakai alat 殳 untuk memukul bejana 臼 tanah liat 土|
+毁|Orang memakai alat 殳 untuk memukul 工 bejana tanah liat 臼|
+毄||memukul, menghantam
+毌||bentuk lama dari 貫
+母|Payudara seorang ibu|
+比|Dua sendok 匕 berdampingan; 匕 juga memberi pelafalan|
+毚|Memakan dua kelinci utuh 㲋 dan 兔|rakus; licik
+氏|Orang yang membungkuk|
+氐||nama suku kuno
+民|Mata 巳 ditusuk belati 戈, tanda perbudakan zaman dahulu|
+气|Orang 亻 menghirup udara|
+氣|Orang 亻 menghirup udara 米|
+水|Sungai mengalir di antara dua tepi; bandingkan 川|
+氵||air
+氺|Sungai mengalir di antara dua tepi; bandingkan 川 dan 水|
+氿||mata air
+汇|Air 氵 yang terkumpul dalam wadah 匚|
+汉|Bentuk sederhana dari 漢; sungai 氵 Han 𦰩|
+汽|Gas 气 cair 氵; 气 juga memberi pelafalan|
+沉|Jumlah air 氵 yang berlebihan 冗|
+沓||tersambung, tergabung; berulang
+治|Bangunan 台 yang mengatur aliran air 氵|
+泉|Air 水 mengalir dari mata air 白|
+法|Alur 去 yang diikuti sungai 氵|
+泪|Air 氵 dari mata 目|
+泰|Air 氺 yang ditahan bendungan|agung, mulia, unggul; tenang; besar
+泼|Memancarkan 发 air 氵|
+泽||rawa, paya; kecemerlangan, keanggunan
+洛||sungai di provinsi Shaanxi; sebuah kota
+洪|Semua 共 air 氵; 共 juga memberi pelafalan|
+洰||parit, selokan; kanal, saluran
+洲|Negara bagian 州 yang dikelilingi air 氵; 州 juga memberi pelafalan|
+洹||sungai di provinsi Henan
+浊|Kolam 氵 yang berbuih kotor 虫|
+浙||provinsi Zhejiang; sebuah sungai
+浦||pantai, pesisir, tepi sungai; nama keluarga
+涅||menghitamkan; lendir, lumpur hitam
+涉|Mengarungi 步 sungai 氵|
+涡|Mulut 呙 yang terbuat dari air 氵|
+涩|Air 氵 yang memotong seperti pisau 刃; 止 memberi pelafalan|
+淮||sungai di provinsi Anhui
+深|Air 氵 yang dalam 罙|
+渔|Menangkap ikan 鱼 di sungai 氵; 鱼 juga memberi pelafalan|
+渠|Parit 洰 dari kayu 木; 洰 juga memberi pelafalan|
+渦|Mulut 咼 yang terbuat dari air 氵|
+游|Berenang bebas 斿 di lautan 氵|
+湮|Sungai 氵 yang dibendung 垔; 垔 juga memberi pelafalan|
+準|Menyeimbangkan 十 air 氵 dalam waterpas; 隹 memberi pelafalan|
+溥||besar, agung, luas; ekstensif, merata, tersebar luas
+溯|Mencari sumber 朔 sungai 氵|
+滅|Memadamkan nyala api 烕 dengan air 氵; 烕 juga memberi pelafalan|
+滕||negara kuno di provinsi Shandong
+滩|Perairan 氵 yang sulit 难 dilayari; 难 juga memberi pelafalan|
+漁|Menangkap ikan 魚 di sungai 氵; 魚 juga memberi pelafalan|
+漆|Getah 氵 pohon pernis 桼; 桼 juga memberi pelafalan|
+漏|Air 氵 jatuh seperti tetes hujan 雨; 屚 memberi pelafalan|
+漢|Sungai 氵 Han 𦰩|
+漩|Air 氵 yang berpusar 旋; 旋 juga memberi pelafalan|
+潑|Memancarkan 發 air 氵|
+澀|Air 氵 yang memotong seperti pisau 歰; 歰 juga memberi pelafalan|
+澍|Hujan 氵 yang menyelamatkan 尌 ladang; 尌 juga memberi pelafalan|
+澤||rawa, paya; kecemerlangan, keanggunan
+濁|Kolam 氵 yang berbuih kotor 蜀|
+瀑|Air 氵 yang ganas 暴; 暴 juga memberi pelafalan|
+瀰|Air 氵 di mana-mana 彌; 彌 juga memberi pelafalan|
+灘|Perairan 氵 yang sulit 難 dilayari; 難 juga memberi pelafalan|
+火|Nyala api|
+灬||api
+灭|Menutup 一 nyala api 火|
+灰|Sisa-sisa api 火; 火 juga memberi pelafalan|
+災|Sungai 巛 yang terbakar 火|
+灾|Rumah 宀 yang terbakar 火|
+炉|Api 火 di dalam rumah 户|
+炎|Dua api 火 menyala|
+炏|Dua helai rumput; bandingkan 艸|rumput
+炸|Nyala api 火 yang tiba-tiba 乍; 乍 juga memberi pelafalan|
+為|Tangan 爫 menuntun gajah|
+烁|Cahaya gembira 乐 dari nyala api 火|
+烏|Burung gagak; bandingkan 鸟|
+烕|Memadamkan 戊 nyala api 灭; 灭 juga memberi pelafalan|menghancurkan, membasmi, memadamkan
+烝|Air 氶 mendidih 灬|naik; uap; banyak, sangat banyak
+烬|Api 火 yang sudah habis 尽; 尽 juga memberi pelafalan|
+焉|Burung 鳥 dengan kepala yang aneh|
+焚|Membakar 火 hutan 林|
+焦|Burung 隹 yang ekornya hangus 灬|
+煽|Mengipasi 扇 nyala api 火; 扇 juga memberi pelafalan|
+熄|Mengakhiri 息 nyala api 火; 息 juga memberi pelafalan|
+熊|Jejak kaki 灬 beruang 能|
+熏||mengasapi, mengawetkan daging; uap, asap, kabut
+熔|Membentuk 容 logam panas 火; 容 juga memberi pelafalan|
+燬|Kerusakan 毁 akibat api 火; 毁 juga memberi pelafalan|
+燼|Api 火 yang sudah habis 盡; 盡 juga memberi pelafalan|
+爆|Nyala api 火 yang ganas 暴; 暴 juga memberi pelafalan|
+爍|Cahaya gembira 樂 dari nyala api 火|
+爐|Api 火 di dalam rumah 盧|
+爪|Cakar burung|
+爫|Cakar burung; bandingkan 爪|cakar, kuku, cakar burung
+爭|Dua tangan 爪 dan 彐 memperebutkan 亅|
+爯|Tangan 爫 menyeimbangkan barang di atas timbangan 冉|menyeimbangkan, menyesuaikan; seimbang, cocok
+爰||menuntun menuju; lalu, oleh karena itu, akibatnya
+爱|Membawa sahabat 友 ke dalam rumah 冖|
+爵|Tangan 寸 memegang piala 良 berisi arak 罒|
+父|Tangan 乂 memegang kapak 八|
+爻|Dua tanda 乂 pada tulang ramalan|diagram untuk meramal
+爽|Orang 大 menghirup banyak udara segar 爻|
+爿|Belahan batang pohon; bandingkan 片|belahan batang pohon
+片|Belahan batang pohon; bandingkan 爿|
+牛|Kepala lembu bertanduk|
+牟||mengambil untung, merebut; lenguh
+牢|Kandang 宀 tempat ternak dipelihara 牛|
+牧|Tangan 攵 menuntun lembu 牛|
+牵|Orang 大 menarik lembu 牛 dengan tali 冖|
+牽|Orang menarik 冖 lembu 牛 dengan tali 玄|
+犀|Lembu 牛 berekor 尾|
+犊|Mengorbankan 卖 anak sapi 牛|
+犍||sapi jantan muda; mengebiri
+犢|Mengorbankan 賣 anak sapi 牛|
+犬|Anjing menghadap ke samping|anjing
+犭|Anjing menghadap ke samping|anjing
+犮||mencabut
+狱|Anjing penjaga 犭 berbicara 讠 kepada tahanan 犬|
+猋|Sekawanan anjing 犬 yang ganas; badai|angin, badai, angin kencang; anjing berlari
+猗||seruan kekaguman
+獄|Anjing penjaga 犭 berbicara 言 kepada tahanan 犬|
+獠|Berburu dengan anjing 犭 dan obor 尞; 尞 juga memberi pelafalan|
+率|Senar 幺 bergetar pada alat musik 亠十|
+玉|Kalung 丨 berhias tiga keping giok|
+王|Pria 十 yang menjembatani langit dan bumi (keduanya 一)|
+玛||batu akik, kornalin
+玨|Dua senar gitar terentang melintasi fret|senar gitar; varian dari 珏
+现|Melihat 见 giok 王; 见 juga memberi pelafalan|
+玻||kaca
+珀|Giok 王 yang bening 白; 白 juga memberi pelafalan|ambar
+珊||karang
+珤||harta, permata; langka, berharga
+班|Memotong 刂 sepotong giok 王 menjadi dua, melambangkan dua kelas|
+現|Melihat 見 giok 王; 見 juga memberi pelafalan|
+琥|Batu 王 mata harimau 虎; 虎 juga memberi pelafalan|
+琴|Dua senar gitar 玨 menyiratkan makna; 今 memberi pelafalan|
+瑙||batu akik, kornalin
+瑞||membawa keberuntungan; pertanda baik
+瑟||alat musik petik besar; gemetar, bergetar
+瑪||batu akik, kornalin
+璃||kaca; glasir berwarna
+璨|Kilau 粲 permata 王; 粲 juga memberi pelafalan|
+瓜|Sulur merambat dengan buah melon di pangkalnya|
+瓦|Genting yang saling mengunci|
+甘|Gambar lidah dengan 一 menandai titik manis|
+甜|Sesuatu yang lezat 甘 bagi lidah 舌|
+生|Tunas 屮 tumbuh di tanah 土|
+甦|Memberikan kehidupan 生 tambahan 更|
+甩|Kebalikan dari "memakai" 用|
+甫||memulai; pria, ayah; agung; jarak sepuluh li
+甬||jalan setapak; sungai di Ningbo; Ningbo
+甭|Tidak 不 diperlukan 用; 用 juga memberi pelafalan|
+田|Petak-petak sawah|
+由|Jalan 丨 menuju ladang 田|
+申|Sambaran petir|
+电|Bentuk sederhana dari 電; petir 申 dari awan badai 雨|
+男|Seseorang yang dapat menggarap 力 ladang 田|
+甸||pinggiran ibu kota; memerintah; hasil panen
+甹||ksatria yang gagah berani
+画|Lukisan di atas kuda-kuda; bandingkan 畫, yang menyertakan kuasnya|
+畀||memberi
+畏|Monster berkepala 田 menakutkan|
+畐||mengisi; segulung kain
+畔|Ladang 田 yang dibagi dua 半; 半 juga memberi pelafalan|
+畝|Pria 久 mengukur sebidang tanah 亩 dengan langkah|
+番|Menabur benih 米 di ladang 田|
+畫|Melukis 聿 kanvas 田 di atas kuda-kuda 一|
+異|Orang dengan wajah 田 menakutkan|
+畺|Garis 一 yang ditarik di antara dua bidang tanah 田|batas, perbatasan
+畾|Tiga ladang 田 yang dipisahkan pematang|ladang yang dipisahkan pematang
+疆|Busur 弓 dan anak panah 土 untuk mempertahankan perbatasan 畺; 畺 juga memberi pelafalan|
+疊|Pakaian 畾 ditumpuk di atas laci 冝|
+疋|Telapak kaki 止 dengan tungkai di atasnya|
+疌||gesit, cepat
+疏|Berjalan 疋 melintasi tanah yang tidak digarap 㐬|
+疐|Kaki 疋 terjebak di ladang 田|jatuh, tersandung, goyah; terhalang
+疑|Orang tua berjalan 疋 sambil memegang 匕 tongkat 矢|
+疒||penyakit, sakit
+疗|Membersihkan 了 penyakit 疒; 了 juga memberi pelafalan|
+癒|Pulih 愈 dari penyakit 疒; 愈 juga memberi pelafalan|
+癶|Dua kaki|kaki
+癸||batang langit ke-10
+白|Lilin yang menyala; sinar matahari|
+皃||raut muka, rupa
+皇|Mahkota 白 di kepala kaisar 王|
+皮|Tangan memakai alat 攴 untuk menguliti bangkai|
+皿||piring, bejana; wadah dangkal
+益|Wadah 皿 yang meluap oleh air 水|
+盍||apa? mengapa tidak?
+盖|Piring 皿 bertutup 羊|
+盡|Kuas 聿 memakai tetes-tetes terakhir 灬 tinta 皿|
+盪|Sup panas 湯 di dalam mangkuk 皿; 湯 juga memberi pelafalan|
+目|Mata yang digambar miring|
+盲|Kehilangan 亡 penglihatan 目; 亡 juga memberi pelafalan|
+直|Menatap mata 目 seseorang|
+相|Menatap 目 pohon 木, berarti mengamati|
+盾|Mata 目 mengintip dari balik perisai 厂|
+眇|Terlalu kecil 少 untuk dilihat dengan mata telanjang 目|buta sebelah mata; halus, sangat kecil, mungil
+眉|Gambar rambut 尸 di atas mata 目|
+看|Menaungi mata 目 dengan tangan 手 untuk melihat ke kejauhan|
+県||kabupaten, distrik, subdivisi
+真|Meja 几 yang lurus 直 (yaitu, rata)|
+眨|Dua mata, satu terbuka 目 dan satu terpejam 乏|
+睘||bulat; menatap
+睪|Mata 目 di atas menara 幸|memata-matai
+瞎|Merusak 害 mata 目; 害 juga memberi pelafalan|
+瞿|Burung 隹 dengan dua mata 目 terbelalak|terkejut; nama keluarga
+矇||bodoh, dungu; buta
+矍|Mengejutkan 瞿 lagi 又; 瞿 juga memberi pelafalan|memandang sekeliling dengan cemas atau takut
+矛|Tombak yang mengarah ke kanan atas|
+矞|Melubangi dengan penusuk 矛|melubangi dengan penusuk; cerah, menawan
+矢|Anak panah yang mengarah ke atas|anak panah, panah kecil; bersumpah, berikrar
+矣||partikel tindakan yang telah selesai
+矦|Anak panah 矢 mengenai sasaran 厃|sasaran panahan
+石|Batu 口 di kaki tebing 厂|
+矶||dermaga, terumbu; pemecah ombak, pusaran air
+砗||kima raksasa, Tridacna gigas
+硃|Bijih 石 sinabar 朱; 朱 juga memberi pelafalan|
+硕|Seperti lembaran 页 batu 石|
+碟|Batu 石 yang datar 枼|
+碩|Seperti lembaran 頁 batu 石|
+磯||dermaga, terumbu; pemecah ombak, pusaran air
+磲||kima raksasa, Tridacna gigas
+示|Altar|
+礻||roh
+社|Roh 礻 bumi 土; 礻 juga memberi pelafalan|
+祝|Orang 兄 berdoa di depan altar 礻|
+祥||kebahagiaan, keberuntungan; membawa keberuntungan
+票|Nyala api 覀 di atas altar 示, merujuk pada tradisi Tiongkok membakar uang tiruan sebagai persembahan|
+祭|Tangan 寸 memegang daging ⺼ di atas altar 示|
+禀|Menunjukkan 示 sesuatu kepada pejabat 亠回|
+禸||pantat
+禹||pendiri legendaris dinasti Xia
+禺||distrik; gunung di Zhejiang
+离|Binatang berdiri tegak; 亠 adalah kepalanya|
+禼||rayap
+禽|Binatang legendaris 离 yang ditangkap seorang pria 人|
+禾|Batang tanaman dengan kepala terkulai|serealia, biji-bijian, padi; tanaman, batang
+禿|Butir-butir rambut 禾 di kepala seseorang 儿|
+私|厶 memberi makna dan pelafalan|
+秃|Butir-butir rambut 禾 di kepala seseorang 几|
+秋|Musim ketika petani membakar 禾 tanaman 火|
+科|Tangan menakar 斗 padi 禾|
+秝|Setipis batang padi 禾|(Kanton) terlalu kurus
+租|Upeti padi 禾 yang dibayar secara rutin 且|
+稅|Padi 禾 yang dibayarkan sebagai upeti 兌; 兌 juga memberi pelafalan|
+稍|Menyerupai 肖 padi 禾; 肖 juga memberi pelafalan|
+税|Padi 禾 yang dibayarkan sebagai upeti 兑; 兑 juga memberi pelafalan|
+稟|Menunjukkan 禾 sesuatu kepada pejabat 亠回|
+稱|Padi 禾 ditimbang di atas timbangan 爯; 爯 juga memberi pelafalan|
+穆||agung; khidmat, sungguh-sungguh
+穌||menghidupkan kembali; bangkit kembali
+穴|Mulut gua|
+穵||lubang yang dalam; menggali, mencungkil
+穹|Kubah 穴 yang melengkung 弓; 弓 juga memberi pelafalan|
+突|Anjing 犬 berlari keluar dari gua 穴|
+窜|Bentuk sederhana dari 竄; tikus 鼠 berlari keluar dari lubangnya 穴|
+竄|Tikus 鼠 berlari keluar dari lubangnya 穴|
+竊|Rayap 禼 membawa biji-bijian 米 ke sarangnya 穴|
+立|Orang berdiri di atas tanah 一|
+竖|Orang 又 berdiri 立 setegak pisau 刂|
+竞|Berdiri 立 menghadapi lawan 兄|
+竟|Orang 儿 menyelesaikan sebuah lagu 音|
+章|Sepuluh 十 bagian sebuah karya musik 音|
+童|Anak berdiri 立 di desa 里|
+競|Dua orang 竞 terkunci dalam pergulatan|
+竹|Dua batang bambu|
+笑|Orang 夭 dengan senyum lebar ⺮|
+笔|Batang bambu ⺮ berujung rambut 毛|
+笛|Seruling 由 bambu ⺮|
+第|Bilah-bilah bambu ⺮ yang disusun berurutan; 弟 memberi pelafalan|
+筆|Batang bambu ⺮ yang dipakai sebagai pensil 聿|
+等|Bilah-bilah bambu ⺮ diletakkan di depan pengadilan 寺|
+筋|Urat seperti bambu ⺮ di dada 肋|
+筑|Bangunan bambu ⺮ yang kokoh 巩; ⺮ juga memberi pelafalan|
+筮||meramal dengan batang tanaman; tongkat ramalan
+算|Sempoa 具 bambu ⺮|
+篇|Lempeng 扁 bambu ⺮; 扁 juga memberi pelafalan|
+築|Bangunan 巩 dari bambu ⺮ dan kayu 木; ⺮ juga memberi pelafalan|
+簾|Papan tanda bambu ⺮ yang tegak 廉|
+籲|Memohon 龥 dengan memainkan seruling bambu 录; 龥 juga memberi pelafalan|
+米|Butir-butir beras|
+粟|Tanaman jawawut 米 yang berbiji 覀|
+粲||terang, berseri; tersenyum; menggosok
+糰|Bola 團 nasi 米; 團 juga memberi pelafalan|
+糸|Seutas sutra yang terpilin|sutra; benang
+糹|Seutas sutra yang terpilin|sutra; benang
+糾|Menyambung 丩 benang 糹; 丩 juga memberi pelafalan|
+納||mengadopsi, menerima; menerima, mengambil
+素|Benang sutra 糸 tergantung di pohon 龶|
+索|Tali 糸 tergantung dari langit-langit 冖|
+紥|Mengikat 扎 dengan benang 糸|
+累|Bentuk sederhana dari 纍; membudidayakan sutra 糸 di ladang 畾; 畾 juga memberi pelafalan|
+絕|Memotong 刀 benang 糹; 巴 memberi pelafalan|
+絜||garis, tanda; menilai, mengukur
+絲|Sutra 糸 berlapis halus 糹; 糹 juga memberi pelafalan|
+綴|Mengikat 叕 dengan benang 糹; 叕 juga memberi pelafalan|
+綿|Benang 糹 sutra 帛 yang tak terputus|
+緻|Hadiah 致 sutra 糹; 致 juga memberi pelafalan|
+縕||rami kusut, sutra kusut; samar, bingung
+縣|Batas 系 distrik 県; 県 juga memberi pelafalan|
+縴|Tali 糹 untuk menarik 牽 perahu; 牽 juga memberi pelafalan|
+績|Menuntaskan 糹 kewajiban 責; 責 juga memberi pelafalan|
+纍|Bentuk sederhana dari 纍; membudidayakan sutra 糸 di ladang 畾; 畾 juga memberi pelafalan|
+纟|Seutas sutra yang terpilin; lihat 糸|sutra; benang
+纠|Menyambung 丩 benang 纟; 丩 juga memberi pelafalan|
+纳||mengadopsi, menerima; menerima, mengambil
+绩|Menuntaskan 纟 kewajiban 责; 责 juga memberi pelafalan|
+绵|Benang 纟 sutra 帛 yang tak terputus|
+缀|Mengikat 叕 dengan benang 纟; 叕 juga memberi pelafalan|
+缊||rami kusut, sutra kusut; samar, bingung
+缶|Tempayan tanah liat|tempayan atau guci tanah liat; tembikar
+网|Jala untuk menangkap ikan|
+罒||jaring, jaringan
+罕|Jala ikan ⺳ yang kosong 干; 干 juga memberi pelafalan|
+罙||dalam
+罚|Bentuk sederhana dari 罰; menghukum 刂 terdakwa 詈|
+罢|Terjerat jaring 罒, tidak bisa pergi 去|
+罪|Jaring 罒 kesalahan 非|
+罰|Menghukum 刂 terdakwa 詈|
+罷|Terjerat jaring 罒, tidak mampu 能 pergi|
+羅|Jaring 罒 sutra 糹 untuk menangkap burung 隹|
+羊|Kepala domba bertanduk|
+美|Orang 大 mengenakan mahkota 羊 yang anggun|
+羔||anak domba
+羕||sungai, air mengalir
+羞|Domba 羊 yang buruk rupa 丑|
+羡|Seseorang yang memiliki sederet 次 domba 羊|
+羲||kaisar kuno; napas, uap
+羹|Sup anak domba 羔 yang lezat 美|
+羽|Dua bulu atau sayap|
+翏|Merasakan angin 羽 di rambut 彡 seseorang 人|bunyi angin; membubung
+習|Burung terbang 羽 di siang hari 白|
+翟|Burung 隹 dengan ekor 羽 berjambul|burung pegar berekor panjang; bulu hias; nama keluarga
+翰||pena, pensil, kuas tulis
+耀|Merak 翟 dengan ekor 光 yang cemerlang|
+老|Orang membungkuk berambut panjang 匕 dengan tongkat; bandingkan 耂|
+耂|Orang membungkuk berambut panjang|tua, lanjut usia; berpengalaman
+耆||pria berusia enam puluh; lanjut usia, tua
+耍|Perempuan 女 memakai janggut 而 untuk menyamar|
+耒|Gagang bajak|bajak
+耤||membajak; mengandalkan
+耨||mencangkul, menggaru; menyiangi
+耳|Telinga|
+聂|Sepasang 双 telinga 耳|berbisik; nama keluarga
+聖|Penguasa 王 yang berbicara 口 dan mendengarkan 耳|
+聚|Orang-orang berdiri berdampingan 乑, tangan ke telinga 取|
+聶|Desas-desus yang melewati banyak telinga 耳|berbisik; nama keluarga
+聽|Seseorang mendengarkan 耳 dengan penuh perhatian 心|
+聿|Tangan 彐 memegang kuas; bandingkan 肀|kuas tulis, pensil; lalu
+肀|Tangan 彐 memegang pena; bandingkan 聿|pena
+肆|Memiliki rambut 聿 panjang 镸|
+肉|Daging pada rusuk hewan|
+肖||menyerupai, mirip; seperti
+肘|Lengan membawa benda 寸 di sisi tubuh ⺼|
+肙|Kepala 口 pada tubuh ⺼ yang panjang|cacing kecil; memilin; mengepung; kosong
+肩|Pria membawa pulang daging ⺼ untuk keluarga 户|
+肯|Berhenti 止 menegangkan otot ⺼|
+肰|Daging ⺼ anjing 犬|daging anjing
+育|Perempuan hamil dengan bayi ⺼ dalam rahimnya|
+胁|Mengendalikan 办 tubuh ⺼ orang lain|
+胃|Lambung ⺼ di balik otot perut 田|
+胥|Tubuh ⺼ yang terbungkus kain 疋|semua, bersama, saling
+胶|Urat yang menghubungkan 交 otot ⺼; 交 juga memberi pelafalan|
+胸|Jantung ⺼ di dalam dada 匈; 匈 juga memberi pelafalan|
+能|Kepala 厶, tubuh ⺼, dan cakar 匕 beruang|
+脅|Mengendalikan 劦 tubuh ⺼ orang lain|
+脆|Sesuatu yang berbahaya 危 bagi daging ⺼|
+脈|Pembuluh 永 panjang di dalam tubuh ⺼|
+脉|Pembuluh 永 panjang di dalam tubuh ⺼|
+脊|Ruas tulang belakang 人 yang menonjol dari daging ⺼|
+腊|Persembahan daging ⺼ untuk tahun yang telah lalu 昔|Desember; persembahan akhir tahun; daging kering
+腦|Organ ⺼ di dalam tengkorak 囟|
+腫|Daging ⺼ yang bengkak 重; 重 juga memberi pelafalan|
+腿|Daging ⺼ yang dipakai untuk berjalan 退; 退 juga memberi pelafalan|
+膀|Daging ⺼ di samping 旁 tubuh; 旁 juga memberi pelafalan|
+膛|Aula 堂 di dalam dada ⺼; 堂 juga memberi pelafalan|
+臘||Desember; persembahan akhir tahun; daging kering
+臤|Seperti 又 seorang menteri 臣; 臣 juga memberi pelafalan|tegas; bijaksana
+臥|Orang 人 berbaring di ranjang 臣|
+臧||baik, benar; murah hati; memerintah
+自|Hidung; di Tiongkok, orang menunjuk diri sendiri dengan menunjuk hidungnya|
+臭|Bau 自 anjing 犬 yang kotor|
+至|Burung hinggap di tanah 土|
+臺|Pria 吉 berdiri di atas panggung 冖 yang ditinggikan 至|
+臼|Lumpang untuk menumbuk bubuk|lumpang; mangkuk sendi tulang
+臽|Orang ⺈ jatuh ke dalam lubang 臼|lubang, liang
+臿|Lumpang 臼 dan alu 千|memisahkan biji dari sekamnya
+舀|Tangan 爫 mengambil makanan dari wadah 臼|menyendok; menciduk
+舁|Dua tangan 廾 mengangkat lumpang 臼|mengangkat, menaikkan, memikul di bahu
+舄|Burung murai; bandingkan 鳥|sepatu, sol sepatu; burung murai
+舆|Kereta 车 yang dipikul di bahu 舁|
+舌|Lidah 千 menjulur dari mulut 口|
+舛||keliru; bertentangan; menyimpang
+舜||penguasa legendaris
+舞|Tangan 舛 memegang kipas|
+舟|Perahu|
+般|Memakai alat 殳 untuk memilah barang di atas nampan 舟|
+舱|Kabin 仓 kapal 舟; 仓 juga memberi pelafalan|
+艙|Kabin 倉 kapal 舟; 倉 juga memberi pelafalan|
+艮||tumpul; alot, kenyal
+色|Apa yang diinginkan 巴 seseorang ⺈|
+艳|Subur 丰 dan seksi 色|
+艷|Subur 豐 dan seksi 色|
+艸|Rumput yang bertunas|
+艹|Bentuk sederhana dari 艸; rumput yang bertunas|rumput, gulma, tanaman, herba
+艾||apsintus, Artemisia vulgaris; dipakai dalam transliterasi
+节|Bentuk sederhana dari 節; ruas-ruas bambu ⺮|
+芭||pohon pisang
+芯|Inti 心 tanaman 艹; 心 juga memberi pelafalan|
+花|Bunga 艹 yang mekar 化; 化 juga memberi pelafalan|
+芻|Memangkas 勹 tunas rumput 屮|menyabit, memotong rumput; jerami, pakan ternak
+苋||bayam
+苗|Rumput 艹 tumbuh di ladang 田|
+茁|Rumput 艹 yang bertunas 出; 出 juga memberi pelafalan|
+茱||dogwood
+茲||sekarang, di sini; ini; waktu, tahun
+荅||menjawab; kacang kecil; tebal, berat
+荐|Tanaman menahun; rumput 艹 yang bertahan hidup 存 dari tahun ke tahun|
+荡|Air panas 汤 memusnahkan tumbuhan 艹; 汤 juga memberi pelafalan|
+荣|Rumput 艹 dan pohon 木 tumbuh subur di taman 冖|
+莅|Tempat 位 rumput 艹 tumbuh; 立 juga memberi pelafalan|
+莉||melati
+莱||gulma, gulma angsa; ladang bera; dipakai dalam transliterasi
+莽|Anjing 犬 dikelilingi gulma 艹, 廾|
+菐||semak belukar
+菩||herba, tanaman aromatik
+菲||harum; kaya, subur; Filipina
+萊||gulma, gulma angsa; ladang bera; dipakai dalam transliterasi
+萨||dewa Buddha; dipakai dalam transliterasi
+葉|Daun 艹 yang pipih 枼; 枼 juga memberi pelafalan|
+葛||kacang yang dapat dimakan; tanaman merambat; nama keluarga
+葬|Mayat 死 dibaringkan 廾 di bawah rerumputan 艹|
+蒂||akar masalah; tangkai buah; tangkai bunga
+蒙||menutupi; menipu; Mongolia
+蒦||mengukur; menghitung
+蒸|Uap 烝 memberi makna dan bunyi|
+蔓|Tanaman 艹 yang panjang 曼; 曼 juga memberi pelafalan|
+蔔|Sayuran 艹 yang terkubur di dalam tanah 匐; 匐 juga memberi pelafalan|
+蔺||jerami, rumput kering; nama keluarga
+蕩|Air panas 湯 memusnahkan tumbuhan 艹; 湯 juga memberi pelafalan|
+蕾||kuncup bunga
+薛|Sejenis rumput 艹 yang pahit 辛|
+薩||dewa Buddha; dipakai dalam transliterasi
+薪|Kayu 艹 yang baru dipotong 新; 新 juga memberi pelafalan|
+藉|Bajak 耤 adalah sarana untuk menanam tanaman 艹|
+藐||membenci, meremehkan; mengabaikan, menyepelekan
+藺||jerami, rumput kering; nama keluarga
+蘇|Rumput 艹 menahun 穌; 穌 juga memberi pelafalan|
+虍||harimau
+虎|Harimau 虍 berdiri di atas batu 几; 虍 juga memberi pelafalan|
+虐|Harimau 虍 memamerkan cakarnya 彐|
+虑|Harimau 虍 menebar ketakutan ke dalam hati 心|
+虒|Harimau 虎 bertanduk satu 厂|binatang amfibi menyerupai harimau bertanduk satu; nama tempat
+虚|Harimau 虍 mengendap-endap di semak-semak 业|
+虛|Harimau 虍 mengendap-endap di semak-semak 丱|
+號|Auman 口 harimau 虎; 丂 memberi pelafalan|
+虧|Harimau 虍 mencabik burung 隹; 亏 juga memberi pelafalan|
+蚀|Gigitan 饣 serangga 虫; 饣 juga memberi pelafalan|
+蚤||kutu loncat; kutu
+蚩||cacing; bodoh, kampungan; menertawakan
+蛮|Seperti 亦 serangga 虫|
+蛻|Serangga 虫 berganti 兌 kulit; 兌 juga memberi pelafalan|
+蜀||nama negara kuno
+蜕|Serangga 虫 berganti 兑 kulit; 兑 juga memberi pelafalan|
+蝇|Serangga 虫 yang dimakan katak 黾|
+蝕|Gigitan 飠 serangga 虫; 飠 juga memberi pelafalan|
+螢|Serangga 虫 yang bercahaya 火|
+蟲|Golongan serangga 虫|
+蠅|Serangga 虫 yang dimakan katak 黽|
+血|Cawan 皿 berisi darah 丿|
+衊|Menghina 蔑 dengan lumuran darah 血; 蔑 juga memberi pelafalan|
+行|Melangkah kecil-kecil 亍 dengan kaki 彳|
+衍|Air 氵 mengalir ke segala arah 行|
+術|Keterampilan 术 profesional 行; 术 juga memberi pelafalan|
+衕|Berjalan 行 bersama 同 seseorang; 同 juga memberi pelafalan|
+衡|Tanduk 角 besar 大; 行 memberi pelafalan|
+衣|Gaun perempuan|
+衤||kain
+表|Pakaian 衣 bulu 毛; selendang atau kain pembungkus|
+衮|Adipati 公 dalam jubahnya 衣|jubah kekaisaran; pakaian upacara
+衰|Orang berjubah 衣 dengan luka 一 di kepalanya 口|
+衷|Orang berjubah 衣 dengan hatinya 中 ditandai; 中 juga memberi pelafalan|
+袁|Orang 口 mengenakan jubah 衣|
+袍|Kain 衤 pembungkus 包; 包 juga memberi pelafalan|
+袞|Kaisar 口 di dalam 八 jubahnya 衣|jubah kekaisaran; pakaian upacara
+裁|Memotong 戈 kain 衣|
+裡|Satuan ukuran tanah 土 pertanian 田; 衤 memberi pelafalan|
+裨|Pakaian 衤 untuk orang miskin 卑; 卑 juga memberi pelafalan|
+製|Membuat 制 pakaian 衣; 制 juga memberi pelafalan|
+複|Pola 复 kain 衤; 复 juga memberi pelafalan|
+褱||membungkus, menyembunyikan; membawa di dada atau di lengan baju
+襄|Memakai dua tangan 口 untuk membantu seseorang menanggalkan pakaiannya 衣|membantu, menolong, menyokong; menanggalkan pakaian
+襟|Kain 衤 yang membatasi 禁; 禁 juga memberi pelafalan|
+襢|Kebenaran 亶 yang tersembunyi di balik jubah 衤; 亶 juga memberi pelafalan|
+西|Burung masuk ke sarangnya, melambangkan matahari terbenam; bandingkan 東|
+覀|Burung masuk ke sarangnya, melambangkan matahari terbenam; bandingkan 東|barat, kebarat-baratan, ke arah barat
+要|Perempuan 女 bertolak pinggang 覀|
+覃|Dari timur 早 ke barat 覀|mencapai, menyebar ke; dalam, luas
+見|Orang 儿 dengan mata 目 yang ditonjolkan|
+见|Bentuk sederhana dari 見; orang 儿 dengan mata 目 yang ditonjolkan|
+观|Melihat 见 lagi 又|
+角|Cula badak atau tanduk binatang lain|
+觜||paruh
+解|Memotong 刀 tanduk 角 lembu 牛; 角 juga memberi pelafalan|
+言|Lidah menjulur dari mulut 口|
+討|Meminta 言 sesuatu 寸|
+託|Bergantung pada 乇 kata-kata 言 seseorang; 乇 juga memberi pelafalan|
+記|Catatan 言 pribadi 己; 己 juga memberi pelafalan|
+訣|Kata-kata 言 yang diucapkan saat berpisah 夬; 夬 juga memberi pelafalan|
+訴|Kata-kata 言 tuduhan 斥; 斥 juga memberi pelafalan|
+訶||memarahi dengan keras, mengutuk, mencaci
+詣|Mencapai 言 tujuan 旨; 旨 juga memberi pelafalan|
+話|Lidah 舌 yang berbicara 言; 舌 juga memberi pelafalan|
+詹||banyak bicara, bertele-tele; nama keluarga
+誇|Kata-kata 言 yang berlebihan 夸; 夸 juga memberi pelafalan|
+誉|Kabar 言 tentang keberhasilan seseorang 兴|
+誑|Ucapan 言 gila 狂; 狂 juga memberi pelafalan|
+誒|Menegaskan 矣 secara lisan 言; 矣 juga memberi pelafalan|
+誓|Kata-kata 言 yang tidak boleh dilanggar 折; 折 juga memberi pelafalan|
+誘|Memakai kata-kata 言 yang indah 秀; 秀 juga memberi pelafalan|
+誼|Ucapan 言 yang pantas 宜; 宜 juga memberi pelafalan|
+論|Ucapan 言 yang menjelaskan logika 侖; 侖 juga memberi pelafalan|
+諮|Membahas 言 rencana 咨; 咨 juga memberi pelafalan|
+諺|Kata-kata 言 yang anggun 彦; 彦 juga memberi pelafalan|
+諾||berjanji; menyetujui, mengiyakan
+謎|Kata-kata 言 yang memikat 迷; 迷 juga memberi pelafalan|
+譭|Kata-kata 言 yang memfitnah 毁; 毁 juga memberi pelafalan|
+譯|Kata-kata 言 mata-mata 睪; 睪 juga memberi pelafalan|
+讀|Memamerkan 賣 kemampuan baca-tulis 言|
+變|Menghasut 攵 pemberontakan 䜌|
+讚|Kata-kata 言 pujian 贊; 贊 juga memberi pelafalan|
+讠||kata-kata, ucapan; berbicara, berkata
+讨|Meminta 讠 sesuatu 寸|
+记|Catatan 讠 pribadi 己; 己 juga memberi pelafalan|
+论|Ucapan 讠 yang menjelaskan logika 仑; 仑 juga memberi pelafalan|
+诀|Kata-kata 讠 yang diucapkan saat berpisah 夬; 夬 juga memberi pelafalan|
+证|Mengatakan 讠 kebenaran 正; 正 juga memberi pelafalan|
+诃||memarahi dengan keras, mengutuk, mencaci
+诉|Kata-kata 讠 tuduhan 斥; 斥 juga memberi pelafalan|
+话|Lidah 舌 yang berbicara 讠; 舌 juga memberi pelafalan|
+诣|Mencapai 讠 tujuan 旨; 旨 juga memberi pelafalan|
+诤|Kata-kata 讠 yang bertarung 争; 争 juga memberi pelafalan|
+诱|Memakai kata-kata 讠 yang indah 秀; 秀 juga memberi pelafalan|
+诳|Ucapan 讠 gila 狂; 狂 juga memberi pelafalan|
+诶|Menegaskan 矣 secara lisan 讠; 矣 juga memberi pelafalan|
+诺||berjanji; menyetujui, mengiyakan
+读|Memamerkan 卖 kemampuan baca-tulis 讠|
+谊|Ucapan 讠 yang pantas 宜; 宜 juga memberi pelafalan|
+谚|Kata-kata 讠 yang anggun 彦; 彦 juga memberi pelafalan|
+谜|Kata-kata 讠 yang memikat 迷; 迷 juga memberi pelafalan|
+谷|Air mengalir 人 dari mata air 口 melalui lembah 八|
+豆|Wadah saji kuno 口 di atas penyangga dengan tutup 一|
+豊|Batang yang melengkung 曲 karena berat kacangnya 豆|berlimpah, subur, melimpah ruah, banyak
+豐|Tanaman kacang 豆 yang banyak buahnya 丰; 丰 juga memberi pelafalan|
+豕|Babi yang digambar menyamping|babi, babi hutan
+豖|Babi 豕 yang dibelenggu 丶|babi yang dibelenggu
+豚|Babi 豕 menyusu pada puting induknya ⺼|
+豦|Babi hutan 豕 bertarung dengan harimau 虍|babi hutan; bertarung
+豸||luak; binatang legendaris
+貇|Gigi 艮 luak 豸; 艮 juga memberi pelafalan|menggigit, mengerat
+貌|Rupa 皃 binatang 豸; 皃 juga memberi pelafalan|
+貝|Kerang laut, dahulu dipakai sebagai mata uang|
+貞||berbudi luhur, suci, murni; setia
+負|Orang 人 membawa banyak uang 貝|
+貧|Uang 貝 yang harus dibagi 分; 分 juga memberi pelafalan|
+責|Uang 貝 yang harus dibayar kembali|
+貳|Angka dua 二 ala bankir 貝 dengan tambahan coretan untuk mencegah pemalsuan|dua (angka antipemalsuan perbankan)
+貶|Menurunkan nilai 乏 mata uang 貝|
+賀|Menambah 加 kekayaan 貝 orang lain|
+賁||maju terus; bersemangat; nama keluarga
+賄|Memiliki 有 kekayaan 貝|
+賏|Dua kerang 貝 yang dirangkai|kalung; mutiara atau kerang yang dirangkai
+賓|Seseorang 小 yang tinggal di bawah atap sendiri 宀; 貝 juga memberi pelafalan|
+賤|Berharga sedikit 戔 uang 貝; 戔 juga memberi pelafalan|
+賦|Uang 貝 untuk menghimpun pasukan 武; 武 juga memberi pelafalan|
+贖|Menjual 賣 jiwa demi uang 貝; 賣 juga memberi pelafalan|
+贝|Kerang laut, dahulu dipakai sebagai mata uang|
+贞||berbudi luhur, suci, murni; setia
+负|Orang 人 membawa banyak uang 贝|
+责|Uang 贝 yang harus dibayar kembali|
+贫|Uang 贝 yang harus dibagi 分; 分 juga memberi pelafalan|
+贬|Menurunkan nilai 乏 mata uang 贝|
+贰|Angka dua 二 ala bankir 贝 dengan tambahan coretan untuk mencegah pemalsuan|dua (angka antipemalsuan perbankan)
+贱|Berharga sedikit 戋 uang 贝; 戋 juga memberi pelafalan|
+贲||maju terus; bersemangat; nama keluarga
+贺|Menambah 加 kekayaan 贝 orang lain|
+贿|Memiliki 有 kekayaan 贝|
+赋|Uang 贝 untuk menghimpun pasukan 武; 武 juga memberi pelafalan|
+赍|Uang 贝 dari 从 seseorang|
+赎|Menjual 卖 jiwa demi uang 贝; 卖 juga memberi pelafalan|
+赤|Orang 土 yang pipinya terbakar 火|
+赫|Tersipu 赤 merah menyala 赤|terang, berseri, bercahaya
+走|Seseorang 土 melangkah dengan kakinya 止|
+足|Tungkai 口 di atas telapak kaki|
+跌|Kehilangan 失 pijakan 足|
+蹴|Mendekat 就 dalam satu lompatan 足; 足 juga memberi pelafalan|
+身|Perempuan hamil|
+躬|Membungkukkan 弓 badan 身; 弓 juga memberi pelafalan|
+車|Kereta beroda dua, dilihat dari atas|
+軍|Prajurit 冖 (力 yang terdistorsi) di dalam kereta 車|
+輛|Dua 兩 kereta 車; 兩 juga memberi pelafalan|
+輿|Kereta 車 yang dipikul di bahu 舁|
+轎|Kereta 車 yang megah 喬; 喬 juga memberi pelafalan|
+轟|Bunyi gemuruh banyak kereta perang 車|
+车|Bentuk sederhana dari 車, kereta beroda dua, dilihat dari atas|
+轰|Bunyi gemuruh sepasang 双 kereta 车|
+轿|Kereta 车 yang megah 乔; 乔 juga memberi pelafalan|
+辆|Dua 两 kereta 车; 两 juga memberi pelafalan|
+辙|Sesuatu yang ditinggalkan 育 kereta 车 saat bergerak 攵|
+辛|Besi panas untuk mencap tahanan dan budak|
+辞|Kata-kata 舌 yang pahit 辛|
+辟|Tubuh 尸 yang dipenggal 口 dengan pedang 辛, melambangkan hukum|
+辨|Memisahkan 刂 dua pilihan 辛|
+辩|Adu kata-kata 讠 yang pahit 辛|
+辯|Adu kata-kata 言 yang pahit 辛|
+農|Mengolah ladang 田 dengan cangkul 辰|
+辶|Kaki melangkah|berjalan; berjalan kaki
+辽||jauh, jauh sekali
+迅|Berjalan 辶 dengan cepat 卂; 卂 juga memberi pelafalan|
+迈|Melangkah sepuluh ribu 万 langkah 辶|
+返|Berjalan 辶 mundur 反; 反 juga memberi pelafalan|
+还|Tidak 不 bergerak 辶|
+连|Kereta 车 mengangkut 辶 barang antarkota|
+迦||dipakai dalam transliterasi
+迪|Berjalan 辶 dengan tujuan 由|maju, mencerahkan, membuat kemajuan
+迴|Berjalan 辶 berputar-putar 回; 回 juga memberi pelafalan|
+迶||berjalan
+送|Orang melambai 关 kepada seseorang yang berjalan pergi 辶|
+逆|Orang 辶 yang membangkang 屰; 屰 juga memberi pelafalan|
+逊||rendah hati, bersahaja; mengalah
+連|Kereta 車 mengangkut 辶 barang antarkota|
+週|Berjalan 辶 berputar 周; 周 juga memberi pelafalan|
+逸|Berlari 辶 seperti kelinci 兔|
+遀||berjalan
+遂||gagal; mengikuti, mematuhi
+遗|Meninggalkan 辶 sesuatu yang berharga 贵|
+遜||rendah hati, bersahaja; mengalah
+遵|Mengikuti 辶 atau menghormati 尊 seseorang; 尊 juga memberi pelafalan|
+遺|Meninggalkan 辶 sesuatu yang berharga 貴|
+遼||jauh, jauh sekali
+邁|Melangkah sepuluh ribu 萬 langkah 辶|
+邦|Tempat 阝 yang makmur 丰|
+邨|Kota 阝 yang bersahaja 屯; 阝 juga memberi pelafalan|
+邱|Tempat 阝 di atas bukit 丘; 丘 juga memberi pelafalan|
+郎|Pria dari tempat 阝 yang baik 良; 良 juga memberi pelafalan|
+郑|Kota 阝 yang menjaga celah gunung 关|
+郭|Bangunan tinggi 享 di tepi kota 阝|
+鄉|Dua orang 乡 dan ⻏ membungkuk di depan hidangan 良|
+鄭|Kota 阝 yang menjaga celah gunung 奠|
+酉|Bejana yang setengah berisi arak|arak; bejana arak; zat kimia
+酋|Mahkota berbulu|
+酒|Tempayan 酉 berisi arak 氵; 酉 juga memberi pelafalan|
+酗|Pemabuk 酉 yang berbahaya 凶|
+酸|Arak 酉 yang disimpan terlalu lama 夋; 夋 juga memberi pelafalan|
+醇|Arak 酉 yang layak dinikmati 享|
+醋|Arak 酉 yang sudah lama 昔; arak yang menjadi asam|
+釆|Padi 米 yang siap dipetik|membedakan; memetik, mengumpulkan, menghimpun
+采|Tangan memetik 爫 buah dari pohon 木|
+里|Satuan ukuran tanah 土 pertanian 田|
+重|Beban yang dipikul sejauh seribu 千 mil 里|
+金|Lonceng besi tuang|
+釒|Lonceng besi tuang; bandingkan 金|emas, logam; uang
+釘|Paku 丁 logam 釒; 丁 juga memberi pelafalan|
+針|Jarum 十 logam 釒|
+釣|Kail 勺 logam 釒; 勺 juga memberi pelafalan|
+鈎|Kait 勾 logam 釒; 勾 juga memberi pelafalan|
+鉤|Kait 句 logam 釒; 句 juga memberi pelafalan|
+銘|Mengukir 釒 nama 名 seseorang; 名 juga memberi pelafalan|
+錄|Kuas 彔 logam 釒 untuk mencatat cerita|
+錦|Sutra 帛 bertatahkan emas 釒; 釒 juga memberi pelafalan|
+錫||timah; menganugerahkan, memberikan
+錮|Menempa 固 logam 釒; 固 juga memberi pelafalan|
+錯|Emas 釒 yang dahulu ada 昔 tetapi telah hilang|
+鏈|Logam 釒 yang menyambung 連; 連 juga memberi pelafalan|
+鑣|Kekang logam 釒 untuk memasang pelana 麃 kuda|
+钅|Lonceng besi tuang; bandingkan 金|emas, logam; uang
+针|Jarum 十 logam 钅|
+钉|Paku 丁 logam 钅; 丁 juga memberi pelafalan|
+钓|Kail 勺 logam 钅; 勺 juga memberi pelafalan|
+钩|Kait 勾 logam 钅; 勾 juga memberi pelafalan|
+铭|Mengukir 钅 nama 名 seseorang; 名 juga memberi pelafalan|
+链|Logam 钅 yang menyambung 连; 连 juga memberi pelafalan|
+错|Emas 钅 yang dahulu ada 昔 tetapi telah hilang|
+锡||timah; menganugerahkan, memberikan
+锢|Menempa 固 logam 钅; 固 juga memberi pelafalan|
+锦|Sutra 帛 bertatahkan emas 钅; 钅 juga memberi pelafalan|
+镳|Kekang logam 钅 untuk memasang pelana 麃 kuda|
+長|Pria tua berambut panjang dengan tongkat|
+镸||panjang; tahan lama; unggul dalam
+长|Bentuk sederhana dari 長; pria tua berambut panjang dengan tongkat|
+門|Ambang pintu atau gerbang yang terbuka|
+閃|Pria 人 yang sekilas terlihat melalui pintu 門|
+閉|Pintu 門 yang dihalangi palang 才|
+閏||kabisat; tambahan, lebih
+閑|Pagar kayu 木 berpintu 門|
+閒|Bulan 月 terlihat melalui pintu 門; malam hari|
+間|Matahari 日 bersinar melalui ambang pintu 門|
+閔||berkabung, berduka; menghasut, mendorong
+閦|Kerumunan 众 berjalan melewati gerbang 門|sibuk, ramai; dipakai dalam transliterasi
+閭||desa dua puluh lima keluarga
+閾|Dipisahkan 或 oleh gerbang 門|
+闆|Bahan 品 pintu 門; 品 juga memberi pelafalan|
+闌||pintu kasa, pagar, pagar pembatas
+闖|Kuda 馬 menerobos gerbang 門|
+门|Ambang pintu atau gerbang yang terbuka|
+闪|Pria 人 yang sekilas terlihat melalui pintu 门|
+闭|Pintu 门 yang dihalangi palang 才|
+闯|Kuda 马 menerobos gerbang 门|
+闰||kabisat; tambahan, lebih
+闲|Pagar kayu 木 berpintu 门|
+间|Matahari 日 bersinar melalui ambang pintu 门|
+闵||berkabung, berduka; menghasut, mendorong
+闹|Seramai gerbang 门 pasar 市|
+闼||pintu, gerbang; pintu ke ruang dalam
+闾||desa dua puluh lima keluarga
+阈|Dipisahkan 或 oleh gerbang 门|
+阑||pintu kasa, pagar, pagar pembatas
+阝||tempat, kota kecil, kota
+队|Sekelompok orang 人 berkumpul di satu tempat 阝|
+阱|Ladang 阝 dengan sumur 井; 井 juga memberi pelafalan|
+阳|Tempat 阝 matahari 日; bandingkan 阴|
+阴|Tempat 阝 bulan 月; bandingkan 阳|
+阵|Formasi 阝 prajurit 车|
+陀||tebing curam, medan kasar
+陈|Menempatkan 阝 menghadap ke timur 东|
+陌|Kota 阝 besar 百, melambangkan tempat yang asing|
+陏||menemani, mengikuti; mendengarkan; tunduk kepada
+陕|Tempat 阝 yang terjepit di lembah 夹|celah gunung; provinsi Shaanxi
+陝||celah gunung; provinsi Shaanxi
+陞|Menimbun 升 tanah 土 menjadi gundukan 阝; 升 juga memberi pelafalan|
+陣|Formasi 阝 prajurit 車|
+除|Limbah 余 yang dihasilkan kota 阝|
+陰|Sisi bukit 阝 yang teduh; 侌 memberi pelafalan|
+陳|Menempatkan 阝 menghadap ke timur 東|
+陵|Bukit 阝 tempat orang dimakamkan 夌; 夌 juga memberi pelafalan|
+陶|Gundukan 阝 tanah liat 匋; 匋 juga memberi pelafalan|
+陷|Tempat 阝 berlubang 臽; 臽 juga memberi pelafalan|
+陽|Tempat 阝 matahari 昜; bandingkan 阴|
+隋||dinasti Sui; nama keluarga
+随|Berjalan 迶 ke kota 阝; mengikuti suatu jalan|
+隐|Tempat 阝 bersembunyi saat cemas 急|
+隙|Celah 日 yang memisahkan dua benda 小; 阝 memberi pelafalan|
+隨|Berjalan 遀 ke kota 阝; mengikuti suatu jalan|
+隱|Tempat 阝 bersembunyi saat cemas 㥯|
+隶|Tangan 彐 mengirik padi|
+隹|Burung menghadap ke kiri; bandingkan 鳥|burung berekor pendek; burung pipit
+隺|Burung 隹 terbang dekat langit-langit 冖|terbang tinggi; cita-cita
+隽|Seseorang membidikkan busur 乃 ke arah burung kecil 隹|unggul, menonjol, berbakat
+难|Tangan 又 berusaha menangkap burung 隹|
+雀|Burung 隹 kecil 小|
+集|Burung-burung 隹 berkumpul di pohon 木|
+雈||burung hantu
+雍|Burung-burung 乡 hidup bersama di desa 乡|keselarasan, persatuan; selaras
+雐||sejenis burung
+雔|Sepasang 隹 burung cinta|teman; pasangan; menjodohkan
+雙|Sepasang burung cinta 雔 bertengger di dahan 又|
+雚||burung bangau; cawan kecil
+雞|Jenis 奚 burung 隹 yang lain|
+雨|Tetes hujan jatuh dari awan 帀|
+雲|Hujan 雨 jatuh dari awan 云|
+雷|Badai 雨 di atas ladang 田|
+電|Halilintar 电 dari awan badai 雨|
+需|Hujan 雨 yang dibutuhkan agar tanaman tumbuh|
+霄|Tampak seperti 肖 hujan 雨; 肖 juga memberi pelafalan|
+霍|Burung-burung 隹 terperangkap badai 雨 yang tiba-tiba|cepat, tiba-tiba; nama keluarga
+非|Dua sayap burung yang berlawanan; dua orang saling membelakangi|
+面|Wajah seseorang|
+革|Binatang yang sedang dikuliti|
+鞏|Ikatan 巩 kulit 革; 巩 juga memberi pelafalan|
+韱|Memanen 戈 daun bawang 韭|bawang liar atau bawang perai
+音|Lidah 立 membentuk bunyi di dalam mulut 日|
+頁|Kepala seseorang|
+須|Rambut 彡 yang tumbuh di wajah 頁|
+頒|Membagikan 分 buku kecil 頁; 分 juga memberi pelafalan|
+頰|Rahang di 夾 kepala 頁; 夾 juga memberi pelafalan|
+页|Kepala seseorang|
+须|Rambut 彡 yang tumbuh di wajah 页|
+颁|Membagikan 分 buku kecil 页; 分 juga memberi pelafalan|
+颊|Rahang di 夹 kepala 页; 夹 juga memberi pelafalan|
+颱|Kabar 風 yang disampaikan dari panggung 台|
+颳|Lidah 舌 angin 風 yang menggigit|
+飆|Angin 風 badai 猋; 猋 juga memberi pelafalan|
+飙|Angin 风 badai 猋; 猋 juga memberi pelafalan|
+飛|Dua burung 飞 terbang|
+飞|Burung mengepakkan sayapnya|
+食|Sepiring makanan 良 dengan tutup di atasnya 人|
+飠|Sepiring makanan 良 dengan tutup di atasnya 人|makanan; makan
+餓|Menginginkan 我 makanan 飠; 我 juga memberi pelafalan|
+餘|Makanan 飠 berlebih 余; 余 juga memberi pelafalan|
+餡|Makanan 飠 yang dijejalkan ke dalam lubang 臽; 臽 juga memberi pelafalan|
+館|Bangunan umum 官 tempat makanan 飠 disajikan; 官 juga memberi pelafalan|
+饋|Makanan 飠 yang mahal 貴; 貴 juga memberi pelafalan|
+饣||makanan; makan
+饿|Menginginkan 我 makanan 饣; 我 juga memberi pelafalan|
+馅|Makanan 饣 yang dijejalkan ke dalam lubang 臽; 臽 juga memberi pelafalan|
+馆|Bangunan umum 官 tempat makanan 饣 disajikan; 官 juga memberi pelafalan|
+馈|Makanan 饣 yang mahal 贵; 贵 juga memberi pelafalan|
+首|Kepala rusa 自 berhias tanduk 丷|
+香|Herba 禾 yang berbau manis 甘|
+馬|Kuda berlari kencang ke kiri|
+騰|Orang 朕 menunggang kuda 馬|
+騷|Kutu 蚤 menggigit kuda 馬; 蚤 juga memberi pelafalan|
+驕|Kuda 馬 yang angkuh 喬; 喬 juga memberi pelafalan|
+马|Bentuk sederhana dari 馬, kuda berlari kencang ke kiri|
+骄|Kuda 马 yang angkuh 乔; 乔 juga memberi pelafalan|
+骚|Kutu 蚤 menggigit kuda 马; 蚤 juga memberi pelafalan|
+骜|Kuda 马 yang berkeliaran 敖; 敖 juga memberi pelafalan|
+骨|Daging ⺼ dan tulang 冎|
+高|Istana yang tinggi|
+髟|Rambut 彡 panjang 镸|rambut panjang
+鬟|Sanggul 髟 bundar 睘; 睘 juga memberi pelafalan|
+鬥|Dua orang 丨 bertinju 王|
+鬧|Seramai gerbang 鬥 pasar 市|
+鬭|Bertarung 鬥 dengan kapak 斲; 鬥 juga memberi pelafalan|
+鬯||arak persembahan; tanpa hambatan
+鬲|Kuali 口 berkaki tiga 冂丷|periuk tanah liat, kuali besi
+鬼|Hantu berwajah menakutkan|
+魁|Orang yang melawan 斗 hantu 鬼; 鬼 juga memberi pelafalan|
+魅|Setan 鬼 hutan 未; 未 juga memberi pelafalan|
+魚|Ikan berenang ke atas|
+魯|Berbicara 日 seperti ikan 魚|bodoh, dungu, gegabah; kasar
+鱻|Ikan 魚 hasil tangkapan segar|
+鱼|Ikan berenang ke atas|
+鲁|Berbicara 日 seperti ikan 鱼|bodoh, dungu, gegabah; kasar
+鳥|Burung|
+鳴|Bunyi 口 yang dibuat burung 鳥|
+鸟|Bentuk sederhana dari 烏, burung|
+鸡|Jenis 又 burung 鸟 yang lain|
+鸣|Bunyi 口 yang dibuat burung 鸟|
+鹵|Wadah untuk mengasinkan acar|garam
+鹿|Rusa dengan kepala bertanduk, dua kaki, dan ekor|
+麃|Jejak 灬 yang ditinggalkan rusa 鹿|membajak, mengolah tanah
+麗|Tanduk rusa 鹿|cantik, anggun, megah
+麥|Biji-bijian 來 yang siap dipanen 夂; bandingkan 麦|
+麦|Bentuk sederhana dari 麦; biji-bijian 來 yang siap dipanen 夂|
+麻|Tanaman rami 林 tumbuh di rumah kaca 广|
+黃|Liontin giok|
+黄|Liontin giok|
+黍|Biji-bijian 禾 yang dapat difermentasi menjadi arak 氺|jawawut sapu; jawawut ketan
+黑|Wajah pria yang menghitam oleh jelaga api 灬|
+默|Anjing 犬 mengawasi dalam gelap 黑|
+黴|Pertumbuhan 黑 hitam yang kecil 微; 微 juga memberi pelafalan|
+黽|Katak bermata melotot|katak, kodok; berusaha, berupaya
+黾|Bentuk sederhana dari 黽; katak bermata melotot|katak, kodok; berusaha, berupaya
+鼎|Kuali di atas tungku berkaki tiga dari perunggu|
+鼠|Tikus, dengan dua kaki di kiri dan ekor di kanan|
+齊|Tiga batang padi tumbuh merata|
+齒|Gigi atas dan bawah 从; 止 memberi pelafalan|
+齿|Gigi 人凵; 止 memberi pelafalan|
+龍|Naga menghadap ke kiri dan melengkung ke bawah|
+龐|Naga 龍 di dalam rumah 广|
+龙|Naga|
+龜|Kura-kura menyamping dengan tempurung di kanan|
+龟|Kura-kura; bandingkan 龜|
+龠|Seruling pan|seruling; pipa, takaran kuno
+龥||memohon, meminta dengan sangat
+龹||Bentuk 卷 yang dipakai sebagai komponen fonetik
+龺||cahaya matahari; sinar matahari

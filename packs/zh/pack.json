@@ -1,6 +1,6 @@
 {
   "id": "zh",
-  "version": "1.1.102",
+  "version": "1.1.103",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -121,6 +121,26 @@
       "path": "parts.txt",
       "license": "LGPL-3.0-or-later",
       "sha256": "76981db7a9d98f26258856eb29b6503a491b9624bbe7ce127cb48bf404359653"
+    },
+    "parts.es": {
+      "path": "parts.es.txt",
+      "license": "LGPL-3.0-or-later",
+      "sha256": "d6d7f85cb7b95952d9482b50a69aa611c7e4fb2ef657c667ce83d67cf755dcb4"
+    },
+    "parts.fr": {
+      "path": "parts.fr.txt",
+      "license": "LGPL-3.0-or-later",
+      "sha256": "54bfce65036273203a82e583b1e3f88bc2d5561cbe5234549b8779fb492f45b6"
+    },
+    "parts.id": {
+      "path": "parts.id.txt",
+      "license": "LGPL-3.0-or-later",
+      "sha256": "51459289d9fcd26f353be3aacecd7eaad058661c81b72c5a835d003235e1951f"
+    },
+    "parts.pt": {
+      "path": "parts.pt.txt",
+      "license": "LGPL-3.0-or-later",
+      "sha256": "76ce73c036caeea237175a588c525a7337daecd59caddfb4161dc1c824e61f8c"
     }
   }
 }

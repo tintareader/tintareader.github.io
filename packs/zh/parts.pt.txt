@@ -1,0 +1,2716 @@
+# Tinta — parts.txt's two notes about the Mandarin pack's characters, in Portuguese:
+# how the parts make a character, and a part's own definition.
+# char|hint|definition
+#   hint           how the parts make the character, translated; only where
+#                  the character is not a sound part plus a meaning part
+#   definition     parts.txt's definition, translated, with as many
+#                  ;-separated senses
+# A field left empty is not translated, and the card leaves it out.
+#
+# Derived from Make Me a Hanzi, dictionary.txt, commit bddc96d41bef78427ed0e034e9f7e31d71fd1b92
+# — https://github.com/skishore/makemeahanzi — by Shaunak Kishore and its
+# contributors, itself derived from Unihan (https://www.unicode.org/charts/unihan.html) and
+# CJKlib (https://github.com/cburgmer/cjklib).
+#
+# Modified by Tinta on 2026-10-01: the hint and definition of parts.txt (see its own
+# notice) translated from English into Portuguese (pt), for the rows
+# described above; the other columns dropped.
+#
+# You can redistribute and/or modify this file under the terms of the GNU
+# Lesser General Public License as published by the Free Software Foundation,
+# either version 3 of the License, or (at your option) any later version. It
+# is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. This file is plain text
+# and is its own source. The GNU LGPL and the GNU GPL it supplements follow,
+# as they ask to go with every copy.
+#
+# For data derived from the Unihan database the following notice applies:
+#
+# COPYRIGHT AND PERMISSION NOTICE
+#
+# Copyright © 1991-2009 Unicode, Inc. All rights reserved. Distributed under the
+# Terms of Use in http://www.unicode.org/copyright.html.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy of
+# the Unicode data files and any associated documentation (the "Data Files") or
+# Unicode software and any associated documentation (the "Software") to deal in
+# the Data Files or Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, and/or sell copies of
+# the Data Files or Software, and to permit persons to whom the Data Files or
+# Software are furnished to do so, provided that (a) the above copyright notice(s)
+# and this permission notice appear with all copies of the Data Files or Software,
+# (b) both the above copyright notice(s) and this permission notice appear in
+# associated documentation, and (c) there is clear notice in each modified Data
+# File or in the Software as well as in the documentation associated with the Data
+# File(s) or Software that the data or software has been modified.
+#
+# THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD
+# PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS
+# NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL
+# DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+# WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+# OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR
+# SOFTWARE.
+#
+# Except as contained in this notice, the name of a copyright holder shall not be
+# used in advertising or otherwise to promote the sale, use or other dealings in
+# these Data Files or Software without prior written authorization of the
+# copyright holder.
+#
+#
+# Distributed source code is released under the LGPL, if not otherwise noted:
+#
+# 		   GNU LESSER GENERAL PUBLIC LICENSE
+#                        Version 3, 29 June 2007
+#
+#  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+#  Everyone is permitted to copy and distribute verbatim copies
+#  of this license document, but changing it is not allowed.
+#
+#
+#   This version of the GNU Lesser General Public License incorporates
+# the terms and conditions of version 3 of the GNU General Public
+# License, supplemented by the additional permissions listed below.
+#
+#   0. Additional Definitions. 
+#
+#   As used herein, "this License" refers to version 3 of the GNU Lesser
+# General Public License, and the "GNU GPL" refers to version 3 of the GNU
+# General Public License.
+#
+#   "The Library" refers to a covered work governed by this License,
+# other than an Application or a Combined Work as defined below.
+#
+#   An "Application" is any work that makes use of an interface provided
+# by the Library, but which is not otherwise based on the Library.
+# Defining a subclass of a class defined by the Library is deemed a mode
+# of using an interface provided by the Library.
+#
+#   A "Combined Work" is a work produced by combining or linking an
+# Application with the Library.  The particular version of the Library
+# with which the Combined Work was made is also called the "Linked
+# Version".
+#
+#   The "Minimal Corresponding Source" for a Combined Work means the
+# Corresponding Source for the Combined Work, excluding any source code
+# for portions of the Combined Work that, considered in isolation, are
+# based on the Application, and not on the Linked Version.
+#
+#   The "Corresponding Application Code" for a Combined Work means the
+# object code and/or source code for the Application, including any data
+# and utility programs needed for reproducing the Combined Work from the
+# Application, but excluding the System Libraries of the Combined Work.
+#
+#   1. Exception to Section 3 of the GNU GPL.
+#
+#   You may convey a covered work under sections 3 and 4 of this License
+# without being bound by section 3 of the GNU GPL.
+#
+#   2. Conveying Modified Versions.
+#
+#   If you modify a copy of the Library, and, in your modifications, a
+# facility refers to a function or data to be supplied by an Application
+# that uses the facility (other than as an argument passed when the
+# facility is invoked), then you may convey a copy of the modified
+# version:
+#
+#    a) under this License, provided that you make a good faith effort to
+#    ensure that, in the event an Application does not supply the
+#    function or data, the facility still operates, and performs
+#    whatever part of its purpose remains meaningful, or
+#
+#    b) under the GNU GPL, with none of the additional permissions of
+#    this License applicable to that copy.
+#
+#   3. Object Code Incorporating Material from Library Header Files.
+#
+#   The object code form of an Application may incorporate material from
+# a header file that is part of the Library.  You may convey such object
+# code under terms of your choice, provided that, if the incorporated
+# material is not limited to numerical parameters, data structure
+# layouts and accessors, or small macros, inline functions and templates
+# (ten or fewer lines in length), you do both of the following:
+#
+#    a) Give prominent notice with each copy of the object code that the
+#    Library is used in it and that the Library and its use are
+#    covered by this License.
+#
+#    b) Accompany the object code with a copy of the GNU GPL and this license
+#    document.
+#
+#   4. Combined Works.
+#
+#   You may convey a Combined Work under terms of your choice that,
+# taken together, effectively do not restrict modification of the
+# portions of the Library contained in the Combined Work and reverse
+# engineering for debugging such modifications, if you also do each of
+# the following:
+#
+#    a) Give prominent notice with each copy of the Combined Work that
+#    the Library is used in it and that the Library and its use are
+#    covered by this License.
+#
+#    b) Accompany the Combined Work with a copy of the GNU GPL and this license
+#    document.
+#
+#    c) For a Combined Work that displays copyright notices during
+#    execution, include the copyright notice for the Library among
+#    these notices, as well as a reference directing the user to the
+#    copies of the GNU GPL and this license document.
+#
+#    d) Do one of the following:
+#
+#        0) Convey the Minimal Corresponding Source under the terms of this
+#        License, and the Corresponding Application Code in a form
+#        suitable for, and under terms that permit, the user to
+#        recombine or relink the Application with a modified version of
+#        the Linked Version to produce a modified Combined Work, in the
+#        manner specified by section 6 of the GNU GPL for conveying
+#        Corresponding Source.
+#
+#        1) Use a suitable shared library mechanism for linking with the
+#        Library.  A suitable mechanism is one that (a) uses at run time
+#        a copy of the Library already present on the user's computer
+#        system, and (b) will operate properly with a modified version
+#        of the Library that is interface-compatible with the Linked
+#        Version. 
+#
+#    e) Provide Installation Information, but only if you would otherwise
+#    be required to provide such information under section 6 of the
+#    GNU GPL, and only to the extent that such information is
+#    necessary to install and execute a modified version of the
+#    Combined Work produced by recombining or relinking the
+#    Application with a modified version of the Linked Version. (If
+#    you use option 4d0, the Installation Information must accompany
+#    the Minimal Corresponding Source and Corresponding Application
+#    Code. If you use option 4d1, you must provide the Installation
+#    Information in the manner specified by section 6 of the GNU GPL
+#    for conveying Corresponding Source.)
+#
+#   5. Combined Libraries.
+#
+#   You may place library facilities that are a work based on the
+# Library side by side in a single library together with other library
+# facilities that are not Applications and are not covered by this
+# License, and convey such a combined library under terms of your
+# choice, if you do both of the following:
+#
+#    a) Accompany the combined library with a copy of the same work based
+#    on the Library, uncombined with any other library facilities,
+#    conveyed under the terms of this License.
+#
+#    b) Give prominent notice with the combined library that part of it
+#    is a work based on the Library, and explaining where to find the
+#    accompanying uncombined form of the same work.
+#
+#   6. Revised Versions of the GNU Lesser General Public License.
+#
+#   The Free Software Foundation may publish revised and/or new versions
+# of the GNU Lesser General Public License from time to time. Such new
+# versions will be similar in spirit to the present version, but may
+# differ in detail to address new problems or concerns.
+#
+#   Each version is given a distinguishing version number. If the
+# Library as you received it specifies that a certain numbered version
+# of the GNU Lesser General Public License "or any later version"
+# applies to it, you have the option of following the terms and
+# conditions either of that published version or of any later version
+# published by the Free Software Foundation. If the Library as you
+# received it does not specify a version number of the GNU Lesser
+# General Public License, you may choose any version of the GNU Lesser
+# General Public License ever published by the Free Software Foundation.
+#
+#   If the Library as you received it specifies that a proxy can decide
+# whether future versions of the GNU Lesser General Public License shall
+# apply, that proxy's public statement of acceptance of any version is
+# permanent authorization for you to choose that version for the
+# Library.
+#
+#                     GNU GENERAL PUBLIC LICENSE
+#                        Version 3, 29 June 2007
+#
+#  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+#  Everyone is permitted to copy and distribute verbatim copies
+#  of this license document, but changing it is not allowed.
+#
+#                             Preamble
+#
+#   The GNU General Public License is a free, copyleft license for
+# software and other kinds of works.
+#
+#   The licenses for most software and other practical works are designed
+# to take away your freedom to share and change the works.  By contrast,
+# the GNU General Public License is intended to guarantee your freedom to
+# share and change all versions of a program--to make sure it remains free
+# software for all its users.  We, the Free Software Foundation, use the
+# GNU General Public License for most of our software; it applies also to
+# any other work released this way by its authors.  You can apply it to
+# your programs, too.
+#
+#   When we speak of free software, we are referring to freedom, not
+# price.  Our General Public Licenses are designed to make sure that you
+# have the freedom to distribute copies of free software (and charge for
+# them if you wish), that you receive source code or can get it if you
+# want it, that you can change the software or use pieces of it in new
+# free programs, and that you know you can do these things.
+#
+#   To protect your rights, we need to prevent others from denying you
+# these rights or asking you to surrender the rights.  Therefore, you have
+# certain responsibilities if you distribute copies of the software, or if
+# you modify it: responsibilities to respect the freedom of others.
+#
+#   For example, if you distribute copies of such a program, whether
+# gratis or for a fee, you must pass on to the recipients the same
+# freedoms that you received.  You must make sure that they, too, receive
+# or can get the source code.  And you must show them these terms so they
+# know their rights.
+#
+#   Developers that use the GNU GPL protect your rights with two steps:
+# (1) assert copyright on the software, and (2) offer you this License
+# giving you legal permission to copy, distribute and/or modify it.
+#
+#   For the developers' and authors' protection, the GPL clearly explains
+# that there is no warranty for this free software.  For both users' and
+# authors' sake, the GPL requires that modified versions be marked as
+# changed, so that their problems will not be attributed erroneously to
+# authors of previous versions.
+#
+#   Some devices are designed to deny users access to install or run
+# modified versions of the software inside them, although the manufacturer
+# can do so.  This is fundamentally incompatible with the aim of
+# protecting users' freedom to change the software.  The systematic
+# pattern of such abuse occurs in the area of products for individuals to
+# use, which is precisely where it is most unacceptable.  Therefore, we
+# have designed this version of the GPL to prohibit the practice for those
+# products.  If such problems arise substantially in other domains, we
+# stand ready to extend this provision to those domains in future versions
+# of the GPL, as needed to protect the freedom of users.
+#
+#   Finally, every program is threatened constantly by software patents.
+# States should not allow patents to restrict development and use of
+# software on general-purpose computers, but in those that do, we wish to
+# avoid the special danger that patents applied to a free program could
+# make it effectively proprietary.  To prevent this, the GPL assures that
+# patents cannot be used to render the program non-free.
+#
+#   The precise terms and conditions for copying, distribution and
+# modification follow.
+#
+#                        TERMS AND CONDITIONS
+#
+#   0. Definitions.
+#
+#   "This License" refers to version 3 of the GNU General Public License.
+#
+#   "Copyright" also means copyright-like laws that apply to other kinds of
+# works, such as semiconductor masks.
+#
+#   "The Program" refers to any copyrightable work licensed under this
+# License.  Each licensee is addressed as "you".  "Licensees" and
+# "recipients" may be individuals or organizations.
+#
+#   To "modify" a work means to copy from or adapt all or part of the work
+# in a fashion requiring copyright permission, other than the making of an
+# exact copy.  The resulting work is called a "modified version" of the
+# earlier work or a work "based on" the earlier work.
+#
+#   A "covered work" means either the unmodified Program or a work based
+# on the Program.
+#
+#   To "propagate" a work means to do anything with it that, without
+# permission, would make you directly or secondarily liable for
+# infringement under applicable copyright law, except executing it on a
+# computer or modifying a private copy.  Propagation includes copying,
+# distribution (with or without modification), making available to the
+# public, and in some countries other activities as well.
+#
+#   To "convey" a work means any kind of propagation that enables other
+# parties to make or receive copies.  Mere interaction with a user through
+# a computer network, with no transfer of a copy, is not conveying.
+#
+#   An interactive user interface displays "Appropriate Legal Notices"
+# to the extent that it includes a convenient and prominently visible
+# feature that (1) displays an appropriate copyright notice, and (2)
+# tells the user that there is no warranty for the work (except to the
+# extent that warranties are provided), that licensees may convey the
+# work under this License, and how to view a copy of this License.  If
+# the interface presents a list of user commands or options, such as a
+# menu, a prominent item in the list meets this criterion.
+#
+#   1. Source Code.
+#
+#   The "source code" for a work means the preferred form of the work
+# for making modifications to it.  "Object code" means any non-source
+# form of a work.
+#
+#   A "Standard Interface" means an interface that either is an official
+# standard defined by a recognized standards body, or, in the case of
+# interfaces specified for a particular programming language, one that
+# is widely used among developers working in that language.
+#
+#   The "System Libraries" of an executable work include anything, other
+# than the work as a whole, that (a) is included in the normal form of
+# packaging a Major Component, but which is not part of that Major
+# Component, and (b) serves only to enable use of the work with that
+# Major Component, or to implement a Standard Interface for which an
+# implementation is available to the public in source code form.  A
+# "Major Component", in this context, means a major essential component
+# (kernel, window system, and so on) of the specific operating system
+# (if any) on which the executable work runs, or a compiler used to
+# produce the work, or an object code interpreter used to run it.
+#
+#   The "Corresponding Source" for a work in object code form means all
+# the source code needed to generate, install, and (for an executable
+# work) run the object code and to modify the work, including scripts to
+# control those activities.  However, it does not include the work's
+# System Libraries, or general-purpose tools or generally available free
+# programs which are used unmodified in performing those activities but
+# which are not part of the work.  For example, Corresponding Source
+# includes interface definition files associated with source files for
+# the work, and the source code for shared libraries and dynamically
+# linked subprograms that the work is specifically designed to require,
+# such as by intimate data communication or control flow between those
+# subprograms and other parts of the work.
+#
+#   The Corresponding Source need not include anything that users
+# can regenerate automatically from other parts of the Corresponding
+# Source.
+#
+#   The Corresponding Source for a work in source code form is that
+# same work.
+#
+#   2. Basic Permissions.
+#
+#   All rights granted under this License are granted for the term of
+# copyright on the Program, and are irrevocable provided the stated
+# conditions are met.  This License explicitly affirms your unlimited
+# permission to run the unmodified Program.  The output from running a
+# covered work is covered by this License only if the output, given its
+# content, constitutes a covered work.  This License acknowledges your
+# rights of fair use or other equivalent, as provided by copyright law.
+#
+#   You may make, run and propagate covered works that you do not
+# convey, without conditions so long as your license otherwise remains
+# in force.  You may convey covered works to others for the sole purpose
+# of having them make modifications exclusively for you, or provide you
+# with facilities for running those works, provided that you comply with
+# the terms of this License in conveying all material for which you do
+# not control copyright.  Those thus making or running the covered works
+# for you must do so exclusively on your behalf, under your direction
+# and control, on terms that prohibit them from making any copies of
+# your copyrighted material outside their relationship with you.
+#
+#   Conveying under any other circumstances is permitted solely under
+# the conditions stated below.  Sublicensing is not allowed; section 10
+# makes it unnecessary.
+#
+#   3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+#
+#   No covered work shall be deemed part of an effective technological
+# measure under any applicable law fulfilling obligations under article
+# 11 of the WIPO copyright treaty adopted on 20 December 1996, or
+# similar laws prohibiting or restricting circumvention of such
+# measures.
+#
+#   When you convey a covered work, you waive any legal power to forbid
+# circumvention of technological measures to the extent such circumvention
+# is effected by exercising rights under this License with respect to
+# the covered work, and you disclaim any intention to limit operation or
+# modification of the work as a means of enforcing, against the work's
+# users, your or third parties' legal rights to forbid circumvention of
+# technological measures.
+#
+#   4. Conveying Verbatim Copies.
+#
+#   You may convey verbatim copies of the Program's source code as you
+# receive it, in any medium, provided that you conspicuously and
+# appropriately publish on each copy an appropriate copyright notice;
+# keep intact all notices stating that this License and any
+# non-permissive terms added in accord with section 7 apply to the code;
+# keep intact all notices of the absence of any warranty; and give all
+# recipients a copy of this License along with the Program.
+#
+#   You may charge any price or no price for each copy that you convey,
+# and you may offer support or warranty protection for a fee.
+#
+#   5. Conveying Modified Source Versions.
+#
+#   You may convey a work based on the Program, or the modifications to
+# produce it from the Program, in the form of source code under the
+# terms of section 4, provided that you also meet all of these conditions:
+#
+#     a) The work must carry prominent notices stating that you modified
+#     it, and giving a relevant date.
+#
+#     b) The work must carry prominent notices stating that it is
+#     released under this License and any conditions added under section
+#     7.  This requirement modifies the requirement in section 4 to
+#     "keep intact all notices".
+#
+#     c) You must license the entire work, as a whole, under this
+#     License to anyone who comes into possession of a copy.  This
+#     License will therefore apply, along with any applicable section 7
+#     additional terms, to the whole of the work, and all its parts,
+#     regardless of how they are packaged.  This License gives no
+#     permission to license the work in any other way, but it does not
+#     invalidate such permission if you have separately received it.
+#
+#     d) If the work has interactive user interfaces, each must display
+#     Appropriate Legal Notices; however, if the Program has interactive
+#     interfaces that do not display Appropriate Legal Notices, your
+#     work need not make them do so.
+#
+#   A compilation of a covered work with other separate and independent
+# works, which are not by their nature extensions of the covered work,
+# and which are not combined with it such as to form a larger program,
+# in or on a volume of a storage or distribution medium, is called an
+# "aggregate" if the compilation and its resulting copyright are not
+# used to limit the access or legal rights of the compilation's users
+# beyond what the individual works permit.  Inclusion of a covered work
+# in an aggregate does not cause this License to apply to the other
+# parts of the aggregate.
+#
+#   6. Conveying Non-Source Forms.
+#
+#   You may convey a covered work in object code form under the terms
+# of sections 4 and 5, provided that you also convey the
+# machine-readable Corresponding Source under the terms of this License,
+# in one of these ways:
+#
+#     a) Convey the object code in, or embodied in, a physical product
+#     (including a physical distribution medium), accompanied by the
+#     Corresponding Source fixed on a durable physical medium
+#     customarily used for software interchange.
+#
+#     b) Convey the object code in, or embodied in, a physical product
+#     (including a physical distribution medium), accompanied by a
+#     written offer, valid for at least three years and valid for as
+#     long as you offer spare parts or customer support for that product
+#     model, to give anyone who possesses the object code either (1) a
+#     copy of the Corresponding Source for all the software in the
+#     product that is covered by this License, on a durable physical
+#     medium customarily used for software interchange, for a price no
+#     more than your reasonable cost of physically performing this
+#     conveying of source, or (2) access to copy the
+#     Corresponding Source from a network server at no charge.
+#
+#     c) Convey individual copies of the object code with a copy of the
+#     written offer to provide the Corresponding Source.  This
+#     alternative is allowed only occasionally and noncommercially, and
+#     only if you received the object code with such an offer, in accord
+#     with subsection 6b.
+#
+#     d) Convey the object code by offering access from a designated
+#     place (gratis or for a charge), and offer equivalent access to the
+#     Corresponding Source in the same way through the same place at no
+#     further charge.  You need not require recipients to copy the
+#     Corresponding Source along with the object code.  If the place to
+#     copy the object code is a network server, the Corresponding Source
+#     may be on a different server (operated by you or a third party)
+#     that supports equivalent copying facilities, provided you maintain
+#     clear directions next to the object code saying where to find the
+#     Corresponding Source.  Regardless of what server hosts the
+#     Corresponding Source, you remain obligated to ensure that it is
+#     available for as long as needed to satisfy these requirements.
+#
+#     e) Convey the object code using peer-to-peer transmission, provided
+#     you inform other peers where the object code and Corresponding
+#     Source of the work are being offered to the general public at no
+#     charge under subsection 6d.
+#
+#   A separable portion of the object code, whose source code is excluded
+# from the Corresponding Source as a System Library, need not be
+# included in conveying the object code work.
+#
+#   A "User Product" is either (1) a "consumer product", which means any
+# tangible personal property which is normally used for personal, family,
+# or household purposes, or (2) anything designed or sold for incorporation
+# into a dwelling.  In determining whether a product is a consumer product,
+# doubtful cases shall be resolved in favor of coverage.  For a particular
+# product received by a particular user, "normally used" refers to a
+# typical or common use of that class of product, regardless of the status
+# of the particular user or of the way in which the particular user
+# actually uses, or expects or is expected to use, the product.  A product
+# is a consumer product regardless of whether the product has substantial
+# commercial, industrial or non-consumer uses, unless such uses represent
+# the only significant mode of use of the product.
+#
+#   "Installation Information" for a User Product means any methods,
+# procedures, authorization keys, or other information required to install
+# and execute modified versions of a covered work in that User Product from
+# a modified version of its Corresponding Source.  The information must
+# suffice to ensure that the continued functioning of the modified object
+# code is in no case prevented or interfered with solely because
+# modification has been made.
+#
+#   If you convey an object code work under this section in, or with, or
+# specifically for use in, a User Product, and the conveying occurs as
+# part of a transaction in which the right of possession and use of the
+# User Product is transferred to the recipient in perpetuity or for a
+# fixed term (regardless of how the transaction is characterized), the
+# Corresponding Source conveyed under this section must be accompanied
+# by the Installation Information.  But this requirement does not apply
+# if neither you nor any third party retains the ability to install
+# modified object code on the User Product (for example, the work has
+# been installed in ROM).
+#
+#   The requirement to provide Installation Information does not include a
+# requirement to continue to provide support service, warranty, or updates
+# for a work that has been modified or installed by the recipient, or for
+# the User Product in which it has been modified or installed.  Access to a
+# network may be denied when the modification itself materially and
+# adversely affects the operation of the network or violates the rules and
+# protocols for communication across the network.
+#
+#   Corresponding Source conveyed, and Installation Information provided,
+# in accord with this section must be in a format that is publicly
+# documented (and with an implementation available to the public in
+# source code form), and must require no special password or key for
+# unpacking, reading or copying.
+#
+#   7. Additional Terms.
+#
+#   "Additional permissions" are terms that supplement the terms of this
+# License by making exceptions from one or more of its conditions.
+# Additional permissions that are applicable to the entire Program shall
+# be treated as though they were included in this License, to the extent
+# that they are valid under applicable law.  If additional permissions
+# apply only to part of the Program, that part may be used separately
+# under those permissions, but the entire Program remains governed by
+# this License without regard to the additional permissions.
+#
+#   When you convey a copy of a covered work, you may at your option
+# remove any additional permissions from that copy, or from any part of
+# it.  (Additional permissions may be written to require their own
+# removal in certain cases when you modify the work.)  You may place
+# additional permissions on material, added by you to a covered work,
+# for which you have or can give appropriate copyright permission.
+#
+#   Notwithstanding any other provision of this License, for material you
+# add to a covered work, you may (if authorized by the copyright holders of
+# that material) supplement the terms of this License with terms:
+#
+#     a) Disclaiming warranty or limiting liability differently from the
+#     terms of sections 15 and 16 of this License; or
+#
+#     b) Requiring preservation of specified reasonable legal notices or
+#     author attributions in that material or in the Appropriate Legal
+#     Notices displayed by works containing it; or
+#
+#     c) Prohibiting misrepresentation of the origin of that material, or
+#     requiring that modified versions of such material be marked in
+#     reasonable ways as different from the original version; or
+#
+#     d) Limiting the use for publicity purposes of names of licensors or
+#     authors of the material; or
+#
+#     e) Declining to grant rights under trademark law for use of some
+#     trade names, trademarks, or service marks; or
+#
+#     f) Requiring indemnification of licensors and authors of that
+#     material by anyone who conveys the material (or modified versions of
+#     it) with contractual assumptions of liability to the recipient, for
+#     any liability that these contractual assumptions directly impose on
+#     those licensors and authors.
+#
+#   All other non-permissive additional terms are considered "further
+# restrictions" within the meaning of section 10.  If the Program as you
+# received it, or any part of it, contains a notice stating that it is
+# governed by this License along with a term that is a further
+# restriction, you may remove that term.  If a license document contains
+# a further restriction but permits relicensing or conveying under this
+# License, you may add to a covered work material governed by the terms
+# of that license document, provided that the further restriction does
+# not survive such relicensing or conveying.
+#
+#   If you add terms to a covered work in accord with this section, you
+# must place, in the relevant source files, a statement of the
+# additional terms that apply to those files, or a notice indicating
+# where to find the applicable terms.
+#
+#   Additional terms, permissive or non-permissive, may be stated in the
+# form of a separately written license, or stated as exceptions;
+# the above requirements apply either way.
+#
+#   8. Termination.
+#
+#   You may not propagate or modify a covered work except as expressly
+# provided under this License.  Any attempt otherwise to propagate or
+# modify it is void, and will automatically terminate your rights under
+# this License (including any patent licenses granted under the third
+# paragraph of section 11).
+#
+#   However, if you cease all violation of this License, then your
+# license from a particular copyright holder is reinstated (a)
+# provisionally, unless and until the copyright holder explicitly and
+# finally terminates your license, and (b) permanently, if the copyright
+# holder fails to notify you of the violation by some reasonable means
+# prior to 60 days after the cessation.
+#
+#   Moreover, your license from a particular copyright holder is
+# reinstated permanently if the copyright holder notifies you of the
+# violation by some reasonable means, this is the first time you have
+# received notice of violation of this License (for any work) from that
+# copyright holder, and you cure the violation prior to 30 days after
+# your receipt of the notice.
+#
+#   Termination of your rights under this section does not terminate the
+# licenses of parties who have received copies or rights from you under
+# this License.  If your rights have been terminated and not permanently
+# reinstated, you do not qualify to receive new licenses for the same
+# material under section 10.
+#
+#   9. Acceptance Not Required for Having Copies.
+#
+#   You are not required to accept this License in order to receive or
+# run a copy of the Program.  Ancillary propagation of a covered work
+# occurring solely as a consequence of using peer-to-peer transmission
+# to receive a copy likewise does not require acceptance.  However,
+# nothing other than this License grants you permission to propagate or
+# modify any covered work.  These actions infringe copyright if you do
+# not accept this License.  Therefore, by modifying or propagating a
+# covered work, you indicate your acceptance of this License to do so.
+#
+#   10. Automatic Licensing of Downstream Recipients.
+#
+#   Each time you convey a covered work, the recipient automatically
+# receives a license from the original licensors, to run, modify and
+# propagate that work, subject to this License.  You are not responsible
+# for enforcing compliance by third parties with this License.
+#
+#   An "entity transaction" is a transaction transferring control of an
+# organization, or substantially all assets of one, or subdividing an
+# organization, or merging organizations.  If propagation of a covered
+# work results from an entity transaction, each party to that
+# transaction who receives a copy of the work also receives whatever
+# licenses to the work the party's predecessor in interest had or could
+# give under the previous paragraph, plus a right to possession of the
+# Corresponding Source of the work from the predecessor in interest, if
+# the predecessor has it or can get it with reasonable efforts.
+#
+#   You may not impose any further restrictions on the exercise of the
+# rights granted or affirmed under this License.  For example, you may
+# not impose a license fee, royalty, or other charge for exercise of
+# rights granted under this License, and you may not initiate litigation
+# (including a cross-claim or counterclaim in a lawsuit) alleging that
+# any patent claim is infringed by making, using, selling, offering for
+# sale, or importing the Program or any portion of it.
+#
+#   11. Patents.
+#
+#   A "contributor" is a copyright holder who authorizes use under this
+# License of the Program or a work on which the Program is based.  The
+# work thus licensed is called the contributor's "contributor version".
+#
+#   A contributor's "essential patent claims" are all patent claims
+# owned or controlled by the contributor, whether already acquired or
+# hereafter acquired, that would be infringed by some manner, permitted
+# by this License, of making, using, or selling its contributor version,
+# but do not include claims that would be infringed only as a
+# consequence of further modification of the contributor version.  For
+# purposes of this definition, "control" includes the right to grant
+# patent sublicenses in a manner consistent with the requirements of
+# this License.
+#
+#   Each contributor grants you a non-exclusive, worldwide, royalty-free
+# patent license under the contributor's essential patent claims, to
+# make, use, sell, offer for sale, import and otherwise run, modify and
+# propagate the contents of its contributor version.
+#
+#   In the following three paragraphs, a "patent license" is any express
+# agreement or commitment, however denominated, not to enforce a patent
+# (such as an express permission to practice a patent or covenant not to
+# sue for patent infringement).  To "grant" such a patent license to a
+# party means to make such an agreement or commitment not to enforce a
+# patent against the party.
+#
+#   If you convey a covered work, knowingly relying on a patent license,
+# and the Corresponding Source of the work is not available for anyone
+# to copy, free of charge and under the terms of this License, through a
+# publicly available network server or other readily accessible means,
+# then you must either (1) cause the Corresponding Source to be so
+# available, or (2) arrange to deprive yourself of the benefit of the
+# patent license for this particular work, or (3) arrange, in a manner
+# consistent with the requirements of this License, to extend the patent
+# license to downstream recipients.  "Knowingly relying" means you have
+# actual knowledge that, but for the patent license, your conveying the
+# covered work in a country, or your recipient's use of the covered work
+# in a country, would infringe one or more identifiable patents in that
+# country that you have reason to believe are valid.
+#
+#   If, pursuant to or in connection with a single transaction or
+# arrangement, you convey, or propagate by procuring conveyance of, a
+# covered work, and grant a patent license to some of the parties
+# receiving the covered work authorizing them to use, propagate, modify
+# or convey a specific copy of the covered work, then the patent license
+# you grant is automatically extended to all recipients of the covered
+# work and works based on it.
+#
+#   A patent license is "discriminatory" if it does not include within
+# the scope of its coverage, prohibits the exercise of, or is
+# conditioned on the non-exercise of one or more of the rights that are
+# specifically granted under this License.  You may not convey a covered
+# work if you are a party to an arrangement with a third party that is
+# in the business of distributing software, under which you make payment
+# to the third party based on the extent of your activity of conveying
+# the work, and under which the third party grants, to any of the
+# parties who would receive the covered work from you, a discriminatory
+# patent license (a) in connection with copies of the covered work
+# conveyed by you (or copies made from those copies), or (b) primarily
+# for and in connection with specific products or compilations that
+# contain the covered work, unless you entered into that arrangement,
+# or that patent license was granted, prior to 28 March 2007.
+#
+#   Nothing in this License shall be construed as excluding or limiting
+# any implied license or other defenses to infringement that may
+# otherwise be available to you under applicable patent law.
+#
+#   12. No Surrender of Others' Freedom.
+#
+#   If conditions are imposed on you (whether by court order, agreement or
+# otherwise) that contradict the conditions of this License, they do not
+# excuse you from the conditions of this License.  If you cannot convey a
+# covered work so as to satisfy simultaneously your obligations under this
+# License and any other pertinent obligations, then as a consequence you may
+# not convey it at all.  For example, if you agree to terms that obligate you
+# to collect a royalty for further conveying from those to whom you convey
+# the Program, the only way you could satisfy both those terms and this
+# License would be to refrain entirely from conveying the Program.
+#
+#   13. Use with the GNU Affero General Public License.
+#
+#   Notwithstanding any other provision of this License, you have
+# permission to link or combine any covered work with a work licensed
+# under version 3 of the GNU Affero General Public License into a single
+# combined work, and to convey the resulting work.  The terms of this
+# License will continue to apply to the part which is the covered work,
+# but the special requirements of the GNU Affero General Public License,
+# section 13, concerning interaction through a network will apply to the
+# combination as such.
+#
+#   14. Revised Versions of this License.
+#
+#   The Free Software Foundation may publish revised and/or new versions of
+# the GNU General Public License from time to time.  Such new versions will
+# be similar in spirit to the present version, but may differ in detail to
+# address new problems or concerns.
+#
+#   Each version is given a distinguishing version number.  If the
+# Program specifies that a certain numbered version of the GNU General
+# Public License "or any later version" applies to it, you have the
+# option of following the terms and conditions either of that numbered
+# version or of any later version published by the Free Software
+# Foundation.  If the Program does not specify a version number of the
+# GNU General Public License, you may choose any version ever published
+# by the Free Software Foundation.
+#
+#   If the Program specifies that a proxy can decide which future
+# versions of the GNU General Public License can be used, that proxy's
+# public statement of acceptance of a version permanently authorizes you
+# to choose that version for the Program.
+#
+#   Later license versions may give you additional or different
+# permissions.  However, no additional obligations are imposed on any
+# author or copyright holder as a result of your choosing to follow a
+# later version.
+#
+#   15. Disclaimer of Warranty.
+#
+#   THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+# APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+# HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+# OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+# THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+# PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+# IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+# ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+#
+#   16. Limitation of Liability.
+#
+#   IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+# WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+# THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+# GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+# USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+# DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+# PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+# EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+# SUCH DAMAGES.
+#
+#   17. Interpretation of Sections 15 and 16.
+#
+#   If the disclaimer of warranty and limitation of liability provided
+# above cannot be given local legal effect according to their terms,
+# reviewing courts shall apply local law that most closely approximates
+# an absolute waiver of all civil liability in connection with the
+# Program, unless a warranty or assumption of liability accompanies a
+# copy of the Program in return for a fee.
+#
+#                      END OF TERMS AND CONDITIONS
+#
+#             How to Apply These Terms to Your New Programs
+#
+#   If you develop a new program, and you want it to be of the greatest
+# possible use to the public, the best way to achieve this is to make it
+# free software which everyone can redistribute and change under these terms.
+#
+#   To do so, attach the following notices to the program.  It is safest
+# to attach them to the start of each source file to most effectively
+# state the exclusion of warranty; and each file should have at least
+# the "copyright" line and a pointer to where the full notice is found.
+#
+#     <one line to give the program's name and a brief idea of what it does.>
+#     Copyright (C) <year>  <name of author>
+#
+#     This program is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+# Also add information on how to contact you by electronic and paper mail.
+#
+#   If the program does terminal interaction, make it output a short
+# notice like this when it starts in an interactive mode:
+#
+#     <program>  Copyright (C) <year>  <name of author>
+#     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+#     This is free software, and you are welcome to redistribute it
+#     under certain conditions; type `show c' for details.
+#
+# The hypothetical commands `show w' and `show c' should show the appropriate
+# parts of the General Public License.  Of course, your program's commands
+# might be different; for a GUI interface, you would use an "about box".
+#
+#   You should also get your employer (if you work as a programmer) or school,
+# if any, to sign a "copyright disclaimer" for the program, if necessary.
+# For more information on this, and how to apply and follow the GNU GPL, see
+# <https://www.gnu.org/licenses/>.
+#
+#   The GNU General Public License does not permit incorporating your program
+# into proprietary programs.  If your program is a subroutine library, you
+# may consider it more useful to permit linking proprietary applications with
+# the library.  If this is what you want to do, use the GNU Lesser General
+# Public License instead of this License.  But first, please read
+# <https://www.gnu.org/licenses/why-not-lgpl.html>.
+#
+# This file carries no other licence. See NOTICE, section 7.
+⺀||gelo
+⺊|Uma rachadura num osso oracular; compare 卜|
+⺗||coração; mente; alma
+⺮|Dois talos de bambu; ver 竹|bambu; flauta
+⺳||rede
+⺼|Carne nas costelas de um animal; compare 肉|carne; composto orgânico
+㐌||uma tribo do sul da China
+㐬||flâmula; selvagem, árido, inculto
+㐱||cabelo preto e farto; variante de 鬒
+㒸||obedecer, seguir; ano, estação, colheita
+㒼|Dois pesos 入 equilibrados numa balança 巾|média; equivalente
+㔾|Um rolo de papel ou uma pessoa ajoelhada; compare 卩|selo; pessoa ajoelhada
+㕡|Água correndo por um desfiladeiro 谷|ravina, poça; vala aberta por uma chuva torrencial
+㝵|Uma mão 寸 agarrando uma concha 旦|obter, conseguir, adquirir; forma antiga de 得
+㡭|Um fio 纟 contínuo de cima a baixo|continuar; prosseguir; suceder, herdar
+㢆|Uma casa 广 numa aldeia 里|loja, armazém, espaço de moradia
+㢟|Um pé 止 passeando pela estrada 廴|andar devagar; passear; perambular
+㣎|Sementes 彡 caindo de uma planta 小 madura 白|fino, delicado
+㥯||cuidadoso, prudente; compassivo; aflito; preocupado
+㬎|Minúsculas 幺 partículas de poeira 灬 num raio de sol 日|partículas num raio de sol; ilustre, brilhante
+㳄||saliva, cuspe
+㿽||tigela pequena, bacia pequena
+䍃|Cerâmica; compare 缶|vaso, jarro, louça de barro
+䙴||voar, mover-se, mudar
+䜌|Um carretel 言 amarrado com fio 糹|caos, distração; administrar, amarrar
+䧹||águia, falcão, gavião
+一|Representa o céu (天), a terra (旦) ou o número 1|
+丁|Um prego|
+丂||obstrução da respiração (qi); variante de 考
+丄|Um traço em cima de outro; variante de 上|acima
+三|Três linhas paralelas; compare 一 (um) e 二 (dois)|
+上|Um traço em cima de outro; compare 下 (abaixo)|
+下|Um traço embaixo de outro; compare 上 (acima)|
+不|Um pássaro voando em direção ao céu 一|
+丐|Uma pessoa inclinada para a frente pedindo ajuda|
+且|Um altar de pedra|
+丕||grande, grandioso, glorioso, distinto
+世|Três folhas num galho|
+丘|Duas colinas|
+东|Forma simplificada de 東, o sol 日 nascendo atrás de uma árvore 木|
+丝|Forma simplificada de 絲, dois fios|
+丞||ajudar, auxiliar, socorrer
+丢|Um jade 玉 perdido 厶|
+两|Duas pessoas 从 juntas numa carroça|
+並|Duas pessoas sentadas lado a lado; compare 竝|
+丧|Forma simplificada de 喪; chorar 哭 pelos mortos 亡|
+丨||número um; linha
+丩||ligar, unir; trepadeira
+个|Uma contagem 丨 de pessoas 人|
+丫|Uma linha 丨 bifurcada|
+丬||metade de um tronco de árvore
+中|Uma linha 丨 atravessando o centro de uma caixa 口|
+丰|Uma espiga de capim|
+丱|Duas tranças 丱 de cabelo|cabelo de criança preso em dois tufos; minério
+串|Dois objetos 口 enfiados 丨 juntos|
+丵||espesso (capim)
+丶||ponto
+丷||kwukyel
+丸|Um punho 九 segurando uma pedrinha 丶|
+丹|Uma pílula 丶 vermelha de uma mina 井|cinábrio, vermelho, vermelhão; pílula, pó
+主|Uma lamparina 王 com uma chama 丶|
+丽|Forma simplificada de 麗; os chifres de um cervo 鹿|bonito, elegante, magnífico
+丿||traço diagonal
+乂|Tesoura, para cuidar de um jardim|governar; controlar; cultivar
+乃|Uma mulher grávida; compare 孕|
+乇||depender de, confiar a
+之|Um pé, significando "seguir"; versão cursiva de 止|
+乌|Forma simplificada de 烏; um corvo; compare 鸟|
+乍||primeira vez, pela primeira vez, de repente
+乏|Um pé 之 batendo num muro ou barreira 丿|
+乐|Forma simplificada de 樂, um instrumento musical com madeira 木, cordas 幺 e uma palheta 白|
+乑||ficar lado a lado
+乒|Uma bola quicando de um lado para o outro; compare 乓|
+乓|Uma bola quicando de um lado para o outro; compare 乒|
+乔|Uma pessoa 夭 sobre pernas de pau|
+乘|Dois pés 北 subindo num pé de feijão 禾|
+乙|Uma andorinha|segundo; 2º tronco celeste
+乚||secreto, oculto, misterioso; pequeno, minúsculo; esconder
+乛||kwukyel
+九|Um cotovelo|
+书|Uma marca feita por uma caneta ⺺|
+乹|Calor 乚 do sol 龺; 龺 também dá a pronúncia|
+乾|Raios 十 que emanam do sol 日; 乞 dá a pronúncia|
+亂|Uma pessoa ajoelhada 乚 usando as mãos 爫 para desfazer um nó|
+亅||gancho
+了|Uma criança enrolada em cobertores; compare 子|
+争|Forma simplificada de 爭, duas mãos 爪 e 彐 disputando 亅|
+二|Duas linhas paralelas; compare 一 (um) e 三 (três)|
+亍||dar passos curtos; topônimo coreano
+云|Uma nuvem|
+互|Dois ganchos enganchados um no outro|
+五|Cinco elementos (a cruz com o traço extra) entre o céu 一 e a terra 一|
+井|Uma mina ou um poço|
+亘|Estendendo-se do céu 一 à terra 一|estender-se através de; de
+亙|Uma ponte lançada sobre um rio 二|através de; estender-se através de; até, de
+亚|Desenho de uma casa ou templo em forma de cruz|
+亞|Uma casa ou templo em forma de cruz|
+亟||urgentemente, imediatamente, extremamente
+亠||tampa, cobertura; cabeça
+亡|Um homem 人 num caixão; ver 亾|
+交|Uma pessoa de pernas cruzadas|
+亥||12º ramo terrestre; usado em transliterações
+亦|Um homem em pé com setas apontando para as axilas|
+亨||próspero, que vai bem
+享|Filhos 子 morando e comendo 口 na casa 亠|
+京|Um edifício da capital sobre uma colina|
+亭|亠, 口 e 冖 formam o desenho de um pavilhão; 丁 dá a pronúncia|pavilhão; erguer
+亮|Uma lamparina a óleo acesa|
+亲|Uma árvore 木 dando frutos 立|
+亵|Mãos agarrando 执 e rasgando um vestido 衣|
+亶||real, sincero, verdadeiro; verdade
+人|As pernas de um ser humano|
+亻|Abreviação visual de 人|homem, pessoa; povo
+亼||reunir, juntar
+亾|Um homem 人 num caixão|
+什|Uma fila de dez 十 pessoas 亻|
+仁|Uma relação de cuidado entre duas 二 pessoas 亻|
+今|Uma boca 亼 falando de coisas|
+介|Uma fronteira 八 dividindo pessoas 人|
+仌|Variante antiga de 冰 ("água gelada")|congelado; gelado
+从|Uma pessoa 人 seguindo outra|
+仑||razões lógicas, ordem lógica
+仓|Forma simplificada de 倉; grãos 食 guardados num depósito 口|
+仔|Uma pessoa 亻 vigiando uma criança 子; 子 também dá a pronúncia|
+他|Uma pessoa 亻 a mais, "também" 也|
+付|Entregar 寸 algo a alguém 亻|
+代|Um homem 亻 apanhado 弋 pela passagem do tempo|
+令|Uma pessoa ajoelhada diante de um senhor 人|
+仰|Exaltar 卬 uma pessoa 亻|
+仲|A pessoa 亻 do meio 中; 中 também dá a pronúncia|
+件|Um homem 亻 repartindo uma vaca 牛|
+份|O lote ou a porção 分 dada a um homem 亻|
+企|Um homem 人 de pé 止; 止 também dá a pronúncia|
+伊||ele, ela; este, aquele; usado em transliterações
+伍|Cinco 五 pessoas 亻; 五 também dá a pronúncia|
+伎|Um homem 亻 capaz de sustentar 支 alguém|
+伏|Uma pessoa 亻 agindo como um cachorro 犬|
+伐|Uma pessoa 亻 atacada 戈|
+休|Uma pessoa 亻 encostada numa árvore 木|
+众|Três pessoas 人 representando uma multidão|
+会|Pessoas 人 falando 云|
+伦|A ordem lógica 仑 da sociedade humana 亻; 仑 também dá a pronúncia|relações humanas; sociedade
+伸|Estender sua confiança 申 a outra pessoa 亻; 申 também dá a pronúncia|
+似|Uma pessoa 亻 parecida com outra|
+伽||templo; usado em transliterações
+佇|Uma pessoa 亻 calma 宁|
+佈|Uma pessoa 亻 fazendo um anúncio 布; 布 também dá a pronúncia|
+位|O lugar onde uma pessoa 亻 fica de pé 立|
+住|Uma pessoa 亻 que recebe hóspedes 主; 主 também dá a pronúncia|
+作|Uma pessoa 亻 fazendo algo pela primeira vez 乍; 乍 também dá a pronúncia|
+你|Pronome 尔 para uma pessoa 亻|
+佣|Uma pessoa 亻 empregada 用; 用 também dá a pronúncia|
+佥|Muitas pessoas reunidas 亼 sob um mesmo teto|todos, juntos, unânime
+佩|Enfeites de pano 巾 comuns 凡 usados pelas pessoas 亻|
+佬|Uma pessoa 亻 velha 老; 老 também dá a pronúncia|
+佰|Cem 百 pessoas 亻; 百 também dá a pronúncia|cem
+併|Um conquistador 亻 tomando terras 并; 并 também dá a pronúncia|
+使|Uma pessoa 亻 que trabalha para o governo 吏|
+侃|Tão confiável 㐰 quanto água de nascente 川|
+來|Um pé de trigo que acabou de dar frutos; compare 来|
+侈|Uma pessoa 亻 com mais do que precisa 多|
+侖|Reunir 亼 um livro 冊; preparar um argumento|razões lógicas, ordem lógica
+供|Uma pessoa 亻 fazendo uma oferenda com as duas mãos 共; 共 também dá a pronúncia|
+侯|Uma pessoa 亻 que pode ser um alvo 矦|
+係|Alguém 亻 que liga 系 as pessoas; 系 também dá a pronúncia|
+促|Alguém 亻 nos seus calcanhares 足; 足 também dá a pronúncia|
+俄||súbito, abrupto; usado em transliterações
+俞||consentir, aprovar; sobrenome
+俠|Alguém 亻 que apoia 夾 os outros; 夾 também dá a pronúncia|
+俩|Um casal 寿; 寿 também dá a pronúncia|
+倆|Um casal 兩; 兩 também dá a pronúncia|
+倉|Um celeiro com telhado 人, porta 户 e alicerce 口|
+倔|Alguém 亻 que não se curva 屈; 屈 também dá a pronúncia|
+倖|Uma pessoa 亻 de sorte 幸; 幸 também dá a pronúncia|
+倡|Alguém 亻 que ilumina o caminho 昌; 昌 também dá a pronúncia|
+倦|Uma pessoa 亻 encolhida 卷; 卷 também dá a pronúncia|
+倪|Uma criança pequena 兒|
+倫|A ordem lógica 侖 da sociedade humana 亻; 侖 também dá a pronúncia|relações humanas; sociedade
+债|O dever 责 de uma pessoa 亻; 责 também dá a pronúncia|
+假|Uma pessoa 亻 falsa 叚; 叚 também dá a pronúncia|
+做|Alguém 亻 que faz as coisas acontecerem 故; 故 também dá a pronúncia|
+健|Alguém 亻 que sabe construir 建 coisas; 建 também dá a pronúncia|
+傅|Alguém 亻 que dá aulas 尃; 尃 também dá a pronúncia|
+傍|Alguém 亻 ao seu lado 旁; 旁 também dá a pronúncia|
+傑||herói; heroico, notável
+傚|Influenciar 效 outra pessoa 亻; 效 também dá a pronúncia|
+債|O dever 責 de uma pessoa 亻; 責 também dá a pronúncia|
+傻|Um homem 亻 levando uma pancada 夂 na cabeça 囟|
+僉|Muitas pessoas 从 falando 口 sob um mesmo teto 亼|todos, juntos, unânime
+僱|Contratar 雇 alguém 亻; 雇 também dá a pronúncia|
+價|Um comerciante 亻賈; 賈 também dá a pronúncia|
+儿|Forma simplificada de 兒, o desenho de uma criança; compare 人|
+兀|Cortar 一 os pés 儿|
+元|Um homem 儿 com dois traços destacando a cabeça 二|
+兄|O irmão mais velho 儿 falando 口 aos mais novos|
+兆|Rachaduras em ossos oraculares usados para adivinhação|
+兇|Um recipiente 凵 de maldade 乂|
+先|Alguém dando um passo 止 à frente de outra pessoa 儿|
+光|Uma pessoa 儿 carregando uma tocha 火|
+克|Uma arma 十 usada para dominar uma fera 兄|
+兌|Uma fera 兄 com dois chifres 丷|
+兑|Uma fera 兄 com dois chifres 丷|
+兔|Um coelho|
+兟|Duas pessoas 先 marchando; 先 também dá a pronúncia|avançar
+入|Uma seta indicando "entrar"|
+內|Um homem 入 entrando por uma porta 冂|
+全|Jade 玉 guardado 入 em segurança|
+兩|Duas pessoas 入 juntas numa carroça|
+八|Duas linhas curvas significando "dividir"|
+公|Dividir 八 o que é privado 厶|
+兰|Uma orquídea em flor|
+共|Duas mãos 八 segurando um objeto 廾|
+兵|Duas mãos 八 segurando um machado 丘|
+具|Duas mãos 八 escrevendo numa tábua 目|
+典|Duas mãos 八 segurando um livro 冊|
+兹||agora, aqui; este; tempo, ano
+兼|Uma mão segurando dois feixes de grãos 禾|
+兽|Um animal com chifres 丷, olhos 田, nariz 一 e boca 口|
+冂||amplo
+内|Um homem 人 entrando por uma porta 冂|
+冈|Forma simplificada de 岡, nuvens 网 se formando sobre uma montanha 山|cume ou crista de colina
+冉||tenro; fraco; avançar aos poucos
+冊|Tiras de bambu 冂 amarradas formando um livro; compare 册|
+冋|Um terreno 口 cercado por uma fronteira 冂; 冂 também dá a pronúncia|deserto; fronteira
+册|Tiras de bambu 冂 amarradas formando um livro|
+再|Dois peixes 冉 presos numa linha 一|
+冎|Corte transversal de um osso|osso
+冏|Forma arcaica de 炯|brilhante, reluzente; claro; quente
+冓||segredo, nicho, esconderijo, armário
+冖|Um pano de cobrir|cobertura
+冗|Um pano 冖 sobre uma mesa 几|excessivo; supérfluo
+冘||seguir em frente; duvidoso
+军|Soldados 冖 (力 distorcido) numa carroça 车|
+农|Forma simplificada de 農, lavrar o campo 田 com uma enxada 辰|
+冝||adequado, certo, apropriado
+冠|Um homem 元 põe um gorro 冖 com a mão 寸|
+冥|O sol 日, coberto 冖, com 六 dando a pronúncia|
+冫||gelo
+冬|Um homem andando 夂 sobre o gelo ⺀|
+冰|Água 水 gelada 冫|
+几|Uma mesinha; compare 丌|
+凡|Um prato ou travessa rasa; um objeto do dia a dia|
+処||lugar, local; departamento
+凭|Apoiar-se (confiar) 任 numa mesa 几|
+凵|Uma bandeja|recipiente; receptáculo
+凶|Um recipiente 凵 de maldade 乂|
+凸|Um retângulo com uma saliência|
+出|Um broto 屮 crescendo para fora de um recipiente 凵|
+击|Forma simplificada de 擊; 手 dá o significado|
+函|Cartas colocadas num recipiente 凵|
+刂||faca
+刃|Uma faca 刀 afiada a ponto de tirar sangue 丶|
+刅||criar, fazer, inventar
+分|Pedaços 八 sendo subdivididos com uma faca 刀|
+刍||ceifar, cortar capim; feno, forragem
+刑|Um homem 刂 na prisão 开|
+刖||cortar os pés como forma de castigo
+则|Leis gravadas 刂 numa lousa 贝|
+初|Cortar 刀 o pano 衤 é o primeiro passo para fazer roupas|
+删|Cortar 刂 trechos de um livro 册|
+別|Traçar limites 刂 entre classes 另|
+利|Colher 刂 grãos 禾|
+刪|Cortar 刂 trechos de um livro 冊|
+别|Traçar limites 刂 entre classes 另|
+刷|Uma pessoa curvada 尸 com uma toalha 巾|
+則|Leis gravadas 刂 numa lousa 貝|
+剋|Uma arma 刂 usada para dominar 十 uma fera 兄|
+剌||golpear, cortar em dois; contradizer
+力|A cabeça de um arado, representando força|
+劝|O poder 力 ao lado 又 do trono|
+功|Resultados produzidos por trabalho 工 competente 力; 工 também dá a pronúncia|
+加|Apoiar uma causa com a força 力 das palavras 口|
+劦|Muitas pessoas trabalhando 力 juntas|cooperar, trabalhar juntos; trabalho conjunto
+劳|Um homem erguendo 力 uma carga 冖 de capim 艹|
+勈||corajoso
+勒||estrangular; apertar
+勞|Um homem erguendo 力 uma carga 冖 de capim 炏|
+勹||envolver
+勺|Uma colher 勹 com algo dentro 丶|colher, concha; unidade de volume
+勻|Usar uma colher 勹 para medir duas partes iguais 二|
+勿|Uma faca 勹 cortando fragmentos 丿|
+匀|Usar uma colher 勹 para medir duas partes iguais 冫|
+包|Enrolar 勹 um bebê 巳; 勹 também dá a pronúncia|
+匈||peito, tórax; clamar; Hungria
+匊|Um punhado de arroz 米 numa tigela 勹|punhado
+匋||cerâmica
+匍||rastejar; prostrar-se
+匐||rastejar; prostrar-se
+匕|Uma colher|
+北|Duas pessoas 匕 sentadas de costas uma para a outra; empréstimo fonético para "norte"|
+匚||caixa; cesto
+匡||corrigir, revisar; restaurar
+匸||caixa
+匹|Um rolo de tecido|
+区|Um lugar 匸 sob o controle de um senhor 乂|
+區|Um lugar 匸 onde vivem muitas bocas 品|
+卂||voar depressa
+卄|Dois dez 十 lado a lado|vinte, vigésimo
+卅|Três marcas de contagem; compare dez 十 e vinte 廿|trinta, trigésimo
+卉|Dez 十 tipos diferentes de capim 艹|termo geral para plantas; miríades
+半|Uma vaca 牛 partindo 丷 madeira ao meio|
+卌|Quatro marcas de contagem; compare dez 十, vinte 廿 e trinta 卅|quarenta, quadragésimo
+卑|Uma mão 又 (alterada) segurando uma concha vazia 甲 (alterada)|
+卒|Um soldado de armadura|
+卓|Prever ⺊ a chegada do amanhecer 早; 早 também dá a pronúncia|
+南|Um sino musical|
+卜|Uma rachadura num osso oracular|
+占|Pronunciar 口 presságios ⺊|
+卡|Um cartão espremido entre 上 e 下|
+卧|Uma pessoa 卜 (forma alterada de 人) deitada na cama 臣|
+卩|Um rolo de papel ou uma pessoa ajoelhada|selo; pessoa ajoelhada
+卬|Uma pessoa ajoelhada 卩 diante de uma pessoa (um rei) sentada 匕|elevado; alto; erguer; caro
+卯||4º ramo terrestre; período das 5 às 7 da manhã
+印|Uma mão 爪 carimbando um selo 卩|
+危|Uma pessoa 㔾 à beira de um penhasco 厃; 厃 também dá a pronúncia|
+即|Uma pessoa faminta 卩 ajoelhada diante da comida 皀; compare 既|
+卵|Dois ovários contendo óvulos|
+卷|Um rolo de papel 㔾 enrolado|
+厃||olhar para cima
+厄|Uma pessoa 㔾 sendo esmagada sob pressão 厂|
+压|Terra 土 esmagada sob pressão 厂|
+厓|Um penhasco 厂 formado de terra 土|precipício; margem de rio, costa; sobrenome
+厚|Luz do sol 日 e crianças 子 num edifício 厂|
+厥||pronome pessoal; ele, ela
+厩||estábulo; curral
+厶|Um casulo de seda|privado, secreto
+厷|Um braço dobrado; flexionando os músculos|antebraço, braço; redondo
+叀||fuso; pendurar
+又|Uma mão direita, representando um par; compare 左|
+叉|Uma mão 又 agarrando um objeto 丶|
+友|Duas mãos 又 unidas, representando a amizade; 又 também dá a pronúncia|
+双|Duas mãos 又 lado a lado|
+反|Uma mão 又 erguida contra um penhasco 厂|
+叒|Três mãos 又 unidas, representando a união|obediente; unido
+叔|O irmão menor 小|
+叕|Muitos ganchos 又 formando uma rede|ligar
+取|Uma mão 又 pegando a orelha 耳 de um inimigo abatido|
+受|Algo 冖 passado de uma mão 爫 para outra 又|
+叟|Uma mão 又 segurando uma vela, representando a vista que falha|velho; ancião
+叠|Roupas 叒 empilhadas em cima de uma gaveta 冝|
+口|Uma boca aberta|
+古|Palavras que passam por dez 十 bocas 口|
+句|Uma frase 勹 saída da boca 口|
+只|Palavras simples 八 saindo da boca 口|
+叭||trompete
+史|Uma mão 乂 usando uma pena para registrar a história|
+司|Uma pessoa dando ordens 口 e erguendo o braço|
+叹|Uma boca 口 expirando 又|
+各|Andar 夂 e falar 口|
+吉|As palavras 口 de um erudito 士|sortudo, propício, bom
+吋|Uma polegada 寸 estrangeira 口; 寸 também dá a pronúncia|polegada inglesa (ao contrário de 寸, que pode ser a polegada inglesa ou a chinesa)
+同|Partilhar uma língua 口 comum 凡|
+名|Um nome chamado em voz alta 口 para saudar alguém à noite 夕|
+吏||funcionário do governo, magistrado
+吕|Duas bocas 口 em harmonia|
+君|Um líder 尹 dando ordens 口|
+吠|O som que um cachorro 犬 faz com a boca 口|
+听|Palavras 口 chegando a um ouvido 斤|
+启|Uma porta 户 sendo aberta 口|
+呆|Alguém de fala 口 de madeira 木|
+呈|Falar 口 diante de um rei 王|
+告|Falar 口 com a força de um boi 牛|
+呙|Palavras 内 saindo de uma boca 口|conversar, fofocar, tagarelar, falar; boca
+周|Uma fronteira 冂 em volta de um terreno 土 com um poço 口|
+命|Uma ordem 令 dada pela boca 口|
+咅||cuspir
+咖||café; usado em transliterações
+咠|Sussurrar 口 no ouvido 耳 de alguém|sussurrar, caluniar, culpar
+咢||onomatopeia, som de tambor
+咪||o miado do gato; metro
+咸|Uma 一 voz 口 cercada de conflito 戈|
+咼|Um osso 冎 da mandíbula 口|conversar, fofocar, tagarelar, falar; boca
+品|Algo de que todos estão falando 口|
+哥|Uma pessoa falando 可 por cima de outra 可|
+哭|Derramar uma lágrima dos olhos 口 por uma pessoa 犬|
+唐|Crianças aprendendo a ler 口 e escrever 肀 na escola 广|
+售|Um vendedor ambulante fala 口 sem parar, como um pássaro 隹|
+啇||talo, caule, raiz, pé, base
+啓|Bater 攵 à porta 户|
+啚||mesquinho, baixo
+啟|Bater 攵 numa porta 启; 启 também dá a pronúncia|
+啡||café; morfina
+啫||onomatopeia; interjeição de advertência
+啬||avarento, sovina, econômico
+喀||vomitar; usado em transliterações
+善|Dar a alguém comida 羊 e conversa 口|
+喇||trompa, corneta; lama; partícula final
+喜|Cantar 口 e tocar tambores 壴|
+喪|Chorar 哭 pelos mortos 亡|
+喱|Um milésimo 厘 de uma refeição 口; 厘 também dá a pronúncia|grama; o peso de um grão
+喿|Vários pássaros 品 cantando numa árvore 木|o som de pássaros cantando
+嗇||avarento, sovina, econômico
+嗤|Rir 蚩 alto 口; 蚩 também dá a pronúncia|
+嘻|Um som 口 alegre 喜; 喜 também dá a pronúncia|
+噁||mau, perverso; repugnante, nauseante
+器|Quatro panelas 口 guardadas por um cachorro 犬|
+噩|Uma estátua de jade 王 com quatro furos 口|
+噪|O som 口 de pássaros cantando 喿; 喿 também dá a pronúncia|
+嚮|Em direção 向 ao país 鄉; 鄉 também dá a pronúncia|
+囗||cercado; fronteira
+囚|Uma pessoa 人 numa cela 囗|
+四|Uma criança 儿 num quarto com quatro paredes 囗|
+回|Originalmente, uma espiral que significa retorno|
+囟|Um crânio visto de cima, com 乂 marcando a moleira|topo da cabeça; crânio
+团|Muito talento 才 reunido num só lugar 囗|
+困|Uma cerca 囗 construída em volta de uma árvore 木|
+囱|Um fogo 夂 queimando e soltando fumaça|chaminé
+囷|Uma tulha 囗 para guardar grãos 禾|tulha redonda para guardar grãos
+国|Um tesouro 玉 dentro das fronteiras de um país 囗|
+图|Forma simplificada de 圖; um mapa das fronteiras 囗 de um distrito 啚|
+國|Um tesouro 或 dentro das fronteiras de um país 囗|
+圖|Um mapa das fronteiras 囗 de um distrito 啚|
+團|Muito talento 專 reunido num só lugar 囗|
+土|Um bloco de argila num torno de oleiro|
+圣|Forma simplificada de 聖; um rei 王 que escuta 耳 e fala 口|
+圭|Uma pilha de tábuas|tábua de jade
+圳|Um sulco aberto na terra 土 por um riacho 川; 川 também dá a pronúncia|sulco num campo; pequena vala de drenagem
+圼||lodo, lama preta
+坐|Duas pessoas 从 sentadas no chão 土|
+坒|Comparar 比 cerâmicas 土; 比 também dá a pronúncia|comparar, igualar, combinar
+坦||plano, nivelado, liso; franco, aberto
+坴|Terra 土 amontoada 八 sobre a terra 土|torrão; terra
+垂|Uma árvore de galhos pendentes|
+垔||conter; represar um riacho e mudar seu curso; monte
+埃||poeira fina; sujeira; angstrom
+埶|Argila 坴 moldada numa bola 丸|arte
+執|Uma mão 幸 agarrando uma pedrinha 丸|
+堅|Uma fortificação 土 severa 臤; 臤 também dá a pronúncia|
+堇|Terra 土 amarela 黄|barro amarelo; argila; estação; poucos
+堡|Muros de terra 土 construídos para defesa 保; 保 também dá o significado|
+堪|Alguém com uma quantidade considerável 甚 de terra 土|
+堯|Um monte 垚 carregado por um homem 兀; 垚 também dá a pronúncia|lendário imperador sábio da Antiguidade
+報|Uma mão 幸 algemando 又 um criminoso 卩, representando a sentença|
+塵|Poeira 土 levantada por um cervo 鹿 em fuga|
+墨|Giz feito de terra 土 preta 黑|
+壑|Uma vala 㕡 aberta na terra 土; 㕡 também dá a pronúncia|
+壓|Terra 土 esmagada sob pressão 厭; 厭 também dá a pronúncia|
+壬||9º tronco celeste
+声|Forma simplificada de 聲; ver esse caractere para a etimologia|
+壳|Uma carapaça descartada 冗 por um soldado 士|
+壴|Um tambor 口 num suporte com penas 土 em cima|tambor
+壽|Forma antiga de 老|
+夂||ir
+处|Ir a algum lugar 夂 e fincar uma bandeira 卜|
+夅||descer, cair; deixar cair, baixar
+夆||resistir; dar cabeçada
+备|Ir 夂 à fazenda 田 para se preparar para a colheita|
+夋||demorar-se; o pai do imperador Yao
+夌||demorar-se; o nome do pai do imperador Yao
+复|Uma pessoa 亻 que vai a algum lugar 夂 todo dia 日|
+夕|Uma lua crescente|
+外|Adivinhações 卜 noturnas 夕; o sobrenatural, o estrangeiro|
+夗|Uma pessoa 㔾 encolhida à noite 夕|virar-se durante o sono
+多|Duas noites 夕, sugerindo muitos|
+夜|Uma pessoa 亻 passando às escondidas sob o manto 亠 da noite 夕|
+夢|Dois olhos 艹 fechados 罒 à noite 夕|
+大|Um homem 人 de braços abertos|
+天|Os céus 一 acima de um homem 大|
+太|Um gigante 大 com um homem de tamanho normal 丶 como escala|
+夫|Um homem 大 usando um grampo de cabelo de maioridade 一|
+夬||decidido, certo; separado; bifurcação
+夭|Uma pessoa com a cabeça inclinada: curvada para a frente, correndo, enérgica|
+失|Algo 丿 caindo de uma mão 夫|
+夷|Um homem 大 armado com um arco 弓|
+夹|Uma pessoa 夫 presa entre outras duas 丷|
+夺|Um homem 大 agarrando algo 寸|
+夾|Duas pessoas 从 amparando alguém 大 dos dois lados|
+奂||numeroso; brilhante
+奇|Uma pessoa 大 montada num cavalo 可|
+奈|Um homem 大 com espírito 示|mas, como; suportar, aguentar, tolerar
+奋|Um homem 大 trabalhando na fazenda 田|
+奏|Um relatório sobre (acima de) o imperador 天|
+奐||numeroso; brilhante
+契|Um contrato firmado cortando 刀 entalhes 丰 na madeira 木 (hoje mudada para 大)|
+奔|Um homem 大 correndo por um campo de capim 卉|
+套|Um homem 大 envolto num pano comprido 镸|
+奚||onde, o quê, por quê, como
+奠|Um homem 大 erguendo uma oferenda de vinho 酋|
+奥|Uma pessoa 大 descobrindo uma casa 宀 cheia de arroz 米|misterioso, obscuro, profundo; usado em transliterações
+奪|Um homem 大 agarrando 寸 um pássaro 隹|
+奮|Um homem 大 trabalhando na fazenda 田|
+女|Uma mulher vista de lado|
+奴|Uma mulher 女 de pé junto à mão direita 又 do senhor; 女 também dá a pronúncia|
+她|Uma mulher 女 ao seu lado 也|
+好|Uma mulher 女 com um filho 子|
+如|Uma esposa 女 seguindo as palavras 口 do marido|
+妃|A própria 己 mulher 女|
+妇|Forma simplificada de 婦; uma mulher 女 com uma vassoura 彐|
+妓|Uma mulher 女 que trabalha 支; 支 também dá a pronúncia|
+妟|Uma mulher 女 cozinhando 日 para um banquete 宀; compare 宴|banquete, festa; entreter
+妥|Uma mão 爫 sobre uma mulher 女, representando controle|
+妳|Você 尔 (feminino) 女|
+妻|Uma mulher 女 segurando uma vassoura 十 na mão 彐|
+妾|Uma mulher 女 marcada 辛 como escrava|concubina
+姆||governanta, matrona, babá
+姑|Uma mulher 女 mais velha 古; 古 também dá a pronúncia|
+姜|Forma simplificada de 薑; capim 艹 dá o significado e 畺 dá a pronúncia|
+姦|Alguém que flerta com muitas mulheres 女|
+姻|Uma mulher 女 ligada pelo 因 casamento|
+威|Dominar uma mulher 女 pela força das armas 戈|
+娃|Uma menina 女 feita de belo jade 圭|
+娄|Uma mulher 女 olhando para uma estrela 米|uma constelação; vestir; sobrenome
+娑||dançar, brincar; descansar à toa; passear
+娶|Tomar 取 uma esposa 女; 取 também dá a pronúncia|
+婁|Uma filha 女 olhando para a mãe 母|uma constelação; vestir; sobrenome
+婢|Uma mulher 女 humilde 卑; 卑 também dá a pronúncia|
+婦|Uma mulher 女 com uma vassoura 帚|
+嫉|Uma mulher 女 invejosa 疾; 疾 também dá a pronúncia|
+子|Uma criança enrolada num pano, de braços abertos mas pernas envoltas|
+孔|A boca 乚 de um bebê 子 chorando|
+孕|Uma mulher dando à luz 乃 uma criança 子|
+字|Uma criança 子 numa casa 宀; 子 também dá a pronúncia|
+孙|Forma simplificada de 孫; uma corrente 系 de descendência 子|
+孚|Um pássaro segurando 爫 os ovos 子|chocar ovos; ter confiança
+孛||cometa
+孝|Um jovem 子 carregando um homem mais velho 耂|
+孟|Uma criança 子 sentada num trono 皿|
+季|A época de plantar sementes 子 de grãos 禾|
+学|Um edifício 冖 onde crianças 子 estudam; ⺍ dá a pronúncia|
+孨|Muitas crianças 子 abandonadas, representando um orfanato|cauteloso, covarde, fraco; órfão
+孫|Uma corrente 系 de descendência 子|
+孰||quem? qual? o quê? qual deles?
+孱|Fraco 孨 de corpo 尸|
+孵|Chocar 孚 ovos 卵|
+學|Um edifício 冖 onde crianças 子 estudam|
+宀||telhado; casa
+守|Guardar algo 寸 dentro dos próprios muros 宀|
+安|Uma mulher 女 segura numa casa 宀|
+宋|Um edifício 宀 feito de madeira 木|
+宓||quieto, silencioso, imóvel; com boa saúde
+宗|Um altar 示 aos espíritos ancestrais dentro de casa 宀|
+定|Uma pessoa 疋 se instalando sob um teto 宀|
+宜|Uma cerimônia em memória 且 realizada numa casa 宀|
+宝|Jade 玉 guardado em casa 宀|
+客|Uma pessoa 各 recebida sob o seu teto 宀; 各 também dá a pronúncia|
+宣|Um palácio, onde se fazem proclamações|
+宰|Um alojamento 宀 onde vivem escravos 辛|
+宴|Uma mulher 女 cozinhando 日 para um banquete em casa 宀|
+宾|Um soldado 兵 alojado sob o seu teto 宀|
+宿|Uma pessoa 亻 dormindo numa cama 百 sob um teto 宀|
+寅||respeitar, reverenciar; respeitosamente; 3º ramo terrestre
+密|Uma montanha 山 silenciosa 宓; 宓 também dá a pronúncia|
+寝|Uma pessoa 彐冖又 deitada numa cama 丬 em casa 宀|
+寢|Uma pessoa 彐冖又 deitada numa cama 爿 em casa 宀|
+寨|Uma fortaleza 宀 com muros de madeira 木|
+寶|Objetos de valor 貝 guardados em casa 宀; 珤 também dá a pronúncia|
+寸|Uma mão com um ponto indicando onde se sente o pulso, cerca de uma polegada acima do punho|
+对|Um par 又 de mãos 寸|
+寺|Uma oferenda 土 na mão 寸|
+导|Uma mão 寸 apontando o caminho para algum lugar 巳|
+寿|Forma alterada de 老|
+封|Selar 寸 algo com um punhado de argamassa 土|
+尃||anunciar, declarar
+射|Um arco 身 sendo puxado por uma mão 寸|
+将|Ir para a cama 丬 à noite 夕, um futuro previsível|
+將|Ir para a cama 爿 à noite 夕, um futuro previsível|
+尊|Uma mão 寸 oferecendo vinho 酋|
+尋|Uma mão 彐 procurando 工 um objeto 口; 寸 dá a pronúncia|
+尌||escorar; pôr algo de pé
+對|Uma mão 寸 segurando um candelabro 羊 aceso 业|
+導|Uma mão 寸 apontando o caminho para algum lugar 道|
+小|Dividir 八 com uma linha 亅|
+少|Grãos de areia; 小 dá a pronúncia e o significado|
+尖|Uma ponta, pequeno 小 sobre grande 大|
+尗|O menor 小 de dois irmãos|irmão mais novo; irmão mais novo do pai
+尘|Pequenos 小 flocos de terra 土|
+尞||combustível usado em sacrifícios
+尢|Cortar 一 os pés 儿; compare 兀|fraco, coxo
+尤||especialmente, particularmente
+尧||lendário imperador sábio da Antiguidade
+尸|Um homem tombado|
+尹|Um cetro|
+尺|Desenho de um homem medindo a passos|
+尼||monja budista; usado em transliterações
+尾|Uma cauda peluda 毛 atrás de um corpo 尸|
+尿|Uma pessoa agachada 尸 urinando 水|
+局|Um lugar onde se discutem 口 medidas 尺|
+层|Forma simplificada de 層; 曾 dá a pronúncia|
+屋|Parar 至 sob um teto 尸 (variante de 厂)|
+屌|Algo pendurado 吊 no corpo 尸; 吊 também dá a pronúncia|
+屍|Um corpo 尸 morto 死; 尸 também dá a pronúncia|
+屎|Uma pessoa agachada 尸 defecando 米; 米 também dá a pronúncia|
+展|Roupas 㠭 expostas para venda num mercado 尸; compare 㠭|
+履|Uma pessoa 尸 andando 彳; 復 também dá a pronúncia|
+屮|Um broto|broto
+屯||aldeia, povoado; acampamento; posto
+屰||desobediente
+山|Três picos de montanha|
+岔|Uma estrada dividida 分 por uma montanha 山|
+岛|Um pássaro 鸟 pousado no alto de uma montanha 山|
+岡|Nuvens 网 se formando sobre uma montanha 山|cume ou crista de colina
+岩|As rochas 石 que formam uma montanha 山|
+岳|Uma cordilheira 山 cercada de colinas 丘|
+岸|Um penhasco 厂 de montanha 山; 干 dá a pronúncia|
+峡|O espaço entre 夹 duas montanhas 山; 夹 também dá a pronúncia|
+島|Um pássaro 烏 pousado no alto de uma montanha 山|
+峽|O espaço entre 夾 duas montanhas 山; 夾 também dá a pronúncia|
+崔|Um pássaro 隹 diante de uma montanha 山|
+崖|Um precipício 厓 de montanha 山; 厓 também dá a pronúncia|
+巂||um topônimo
+巅|O topo 颠 de uma montanha 山; 颠 também dá a pronúncia|
+巔|O topo 顛 de uma montanha 山; 顛 também dá a pronúncia|
+巛|Um rio correndo|riacho, rio
+川|O fluxo de um rio; compare 巛|
+州|Ilhas num rio 川|
+巠||rio subterrâneo; água corrente
+巡|Andar 辶 junto ao rio 巛; 巛 também dá a pronúncia|
+巢|Um ninho 巛田 construído numa árvore 木|
+巤|Os bigodes 巛 de um rato 鼠|bigodes de rato; crina de cavalo; nadadeira dorsal de peixe
+工|Uma pá ou outra ferramenta de trabalhador|
+左|Uma mão esquerda; compare 又|
+巨|Uma mão segurando um grande esquadro de carpinteiro 工|
+巫|Uma vara de adivinhação em forma de cruz|
+差|Trabalho 工 feito por uma ovelha 羊; incompetência|
+己|Um tear com fios|
+巳||as horas das 9 às 11; 6º ramo terrestre
+巴||desejar, almejar
+巽||brando, modesto, obediente; sudeste; 5º dos 8 trigramas
+巾|Uma cortina ou toalha pendurada num suporte|
+巿|Um cinto 一 feito de pano 巾|girar, virar, dar uma volta
+币|Notas escritas em seda 巾|
+布|Pano 巾 segurado por uma mão|
+帅|Um oficial do exército carregando uma arma 刂 e uma bandeira 巾|
+师|Manejar com habilidade 帀 uma faca 刂|
+帕|Um lenço 巾 usado para preservar a pureza de uma moça 巾|lenço, turbante, véu, xale
+帘|Uma cortina 巾 na entrada de uma caverna 穴|
+帚|Uma mão 巾 segurando uma vassoura com a cabeça 彐 para cima|
+帛||seda, tecido; riqueza, bens
+帝|Um altar onde se faz um sacrifício|
+帥|Um oficial do exército carregando uma arma 㠯 e uma bandeira 巾|
+带|Um cinto, que vinca a túnica acima 卅 mas não abaixo 巾|
+師|Manejar com habilidade 帀 uma faca 㠯|
+席|Uma esteira de pano 巾 ou palha 艹 na casa 广|
+帮|A bandeira 巾 de uma nação 邦; 邦 também dá a pronúncia|
+帶|Um cinto, que vinca a túnica acima 卌 mas não abaixo 巾|
+幅|Um rolo 畐 de pano 巾; 畐 também dá a pronúncia|
+幫|Uma bandeira 帛 feudal 封; 封 também dá a pronúncia|
+干|Uma clava ou um machado|
+平|Uma balança nivelada|
+年|Um homem 干 carregando grãos, representando a colheita anual|
+并|Forma simplificada de 並; dois homens de pé lado a lado|
+幸|Dois homens, um vivo 土 e um morto 干; o vivo tem sorte|
+幹|A luz do sol 龺 sugere "seco"; uma clava 人干 sugere "invadir"|
+幺||um; minúsculo, pequeno
+幻|Uma inversão de 予, "dar"|
+幼|Alguém com pouca 幺 força 力; 幺 também dá a pronúncia|
+幽|Pequenos nichos 幺 na encosta da montanha 山; 幺 também dá a pronúncia|
+幾|Uma mesa 戍 muito pequena 幺|
+广|Um alpendre 厂, sugerindo um edifício|
+庆|Uma grande 大 celebração numa casa 广|
+床|Uma casa 广 feita de madeira 木; 广 também dá a pronúncia|
+库|Uma cocheira 广 onde se guardam carruagens 车|
+庙|Um edifício 广 que contém um altar 由|
+庞|Um dragão 龙 dentro de uma casa 广|
+度|Vinte 廿 pessoas 又 reunidas num edifício 广 para deliberar|
+座|Um assento 坐 largo 广; 坐 também dá a pronúncia|
+庫|Uma cocheira 广 onde se guardam carruagens 車|
+庭|Um pátio 廷 amplo 广; 廷 também dá a pronúncia|
+庶|Muitas pessoas 灬 (vinte ou mais 廿) numa casa 广|numeroso, variado; multidão
+康|Uma casa 广 com um criado 隶|
+廄||estábulo; curral
+廌||unicórnio
+廖|O vento 翏 soprando sobre uma planície vasta e vazia 广|
+廛||loja, armazém
+廟|Um edifício 广 que contém um altar 朝|
+廴|Um homem andando para a esquerda|andar, ir; lugar
+延|Um pé na estrada 㢟 detido no caminho 丿|
+廾|Duas mãos 十 lado a lado|duas mãos
+廿|Dois dez 十 lado a lado|vinte, vigésimo
+开|Forma simplificada de 開; mãos 廾 levantando a tranca 一 de uma porta|
+异|Forma simplificada de 異; uma pessoa 共 com um rosto assustador 田|
+弃|Duas mãos 廾 descartando um bebê morto, enrolado em panos 亠厶|
+弄|Duas mãos 廾 brincando com um pedaço de jade 玉; 廾 também dá a pronúncia|
+弊|Duas mãos 廾 quebrando algo 敝; 敝 também dá a pronúncia|
+弋|Desenho de uma flecha disparada por um arco|capturar, prender; atirar com arco
+式|Um artesão usando uma sovela 弋 e um esquadro 工|
+弓|Um arco apontado para a esquerda|
+弔|Um cadáver 弓 pendurado numa corda 丨|
+引|Puxar a corda 丨 de um arco 弓|
+弗|Duas flechas 丨 puxadas num arco|não, negativo
+弯|Como 亦 um arco 弓|
+弱|Dois brotos 弓 morrendo com a geada 冫|
+彐||focinho
+彑|Um focinho visto de frente|focinho
+归|Forma simplificada de 歸; uma esposa 帚 voltando para casa; 追 dá a pronúncia|
+录|Um pincel usado para registrar histórias|
+彖|Um porco 豕 de focinho comprido 彑|porco, ouriço, porco-espinho
+彗|Uma mão 彐 segurando uma vassoura de bambu 丰|
+彙|Colher 彑 frutas 果|
+彡|Tufos de cabelo|cabelo; luz do sol
+形|Luz do sol 彡 entrando por uma janela 开|
+彥||elegante
+彦||elegante
+彭|O som 彡 de tambores 壴|
+彳||dar um passo com o pé esquerdo
+彷||semelhante, parecido; assemelhar-se
+役|Uma pessoa vindo 彳 com comida na mão 殳|
+待|Receber alguém que chega 彳 à corte real 寺|
+徊|Andar 彳 de um lado para o outro 回; 回 também dá a pronúncia|
+律|Andar 彳 como manda a lei 聿|
+後|Um passo 彳 vindo atrás de outro 夂; 幺 dá a pronúncia|
+徒|Andar 走 nos passos de alguém 彳|
+得|Uma mão 寸 agarrando uma concha 旦|
+徙|Partir 彳 numa longa viagem 歨|
+復|Forma mais antiga de 复; ver esse caractere para a etimologia|
+徴|Marchar 彳 sob as ordens 攵 do rei 王|convocar
+心|Um coração|
+忄||coração; mente; alma
+忍|Uma faca 刃 perfurando o coração 心; 刃 também dá a pronúncia|
+忐|Um peso sobre 上 o coração 心|
+忑|Um peso sob 下 o coração 心|
+志|A mente 心 de um erudito 士; 士 também dá a pronúncia|
+忙|Um coração 忄 diante da morte 亡; 亡 também dá a pronúncia|
+忝||vergonha, desonra; autodepreciação
+快|Uma vontade 忄 decidida 夬; 夬 também dá a pronúncia|
+念|Manter o presente 今 na mente 心|
+思|Pesar algo com a mente 囟 (alterado) e o coração 心|
+总|Muitas bocas 口 falando com uma só mente 心|
+恆|Um coração 忄 constante 亙; 亙 também dá a pronúncia|
+恒|Um coração 忄 constante 亘; 亘 também dá a pronúncia|
+恢||restaurar, recuperar; grande, imenso, vasto
+息|Respirar (a vida, 心) pelo nariz 自; 心 também dá a pronúncia|
+您|Você 你 dito com afeto 心|
+悬|Orgulho 心 do próprio país 县, expresso por uma bandeira; 县 também dá a pronúncia|
+惑|Um coração 心 incerto 或; 或 também dá a pronúncia|
+惚|Descuidar 忽 da mente 忄; 忽 também dá a pronúncia|
+惜|Sentir 忄 pelo passado 昔; 昔 também dá a pronúncia|
+惠||favor, benefício, bênção, bondade
+惺|Uma mente 忄 brilhante 星; 星 também dá a pronúncia|
+愛|Trazer um amante 心 para dentro de casa 冖|
+感|Dois corações 心 batendo juntos 咸|
+慄|Uma árvore 木 dando nozes 覀; compare 果|
+慮|Um tigre 虍 metendo medo no coração 思|
+慶|Ir 夂 a uma celebração 心 numa casa 广|
+慼|Chorar 心 por um irmão morto 戚; 戚 também dá a pronúncia|
+慾|O desejo 欲 do coração 心; 欲 também dá a pronúncia|
+憲|Regras 宀 para viver 龶; 心 dá a pronúncia|
+懸|Orgulho 心 do próprio país 縣, expresso por uma bandeira; 縣 também dá a pronúncia|
+戈|Uma lança apontada para baixo e para a direita|lança, alabarda
+戉|Um machado balançando para a esquerda|alabarda, machado de guerra
+戋||pequeno, estreito; minúsculo
+戌||11º ramo terrestre
+戍|Armas 戈 cercando o país 丶|guarnecer, defender a fronteira
+戎|Uma mão segurando uma lança 戈|armas, armamentos; assuntos militares
+戏|Uma mão 又 fazendo truques com uma lança 戈|
+我|Uma mão 扌 segurando uma arma 戈|
+戒|Duas mãos 廾 brandindo uma lança 戈|
+戔|O espaço estreito entre duas lâminas 戈|pequeno, estreito; minúsculo
+或|Defender-se 口 com uma lança 戈; "senão"|
+戚|Um irmão mais novo 尗 morto numa guerra 戈|
+戛|Golpear 戈 alguém no nariz 自|lança; tocar ou golpear de leve
+戜||raspar; vantajoso
+戠||espada; argila de oleiro; reunir
+截|Um pássaro 隹 isolado do ninho 十 por uma arma 戈|
+戶|Uma porta girando na dobradiça|
+户|Forma simplificada de 戶; uma porta girando na dobradiça|
+戾|Um cachorro 犬 que não quer entrar em casa 户|perverso, rebelde, recalcitrante
+所|Um machado 斤 golpeando uma porta 户|
+扇|Um leque de penas 羽 em forma de porta dobrável 户|
+手|Uma mão de dedos abertos|
+扌|Uma mão de dedos abertos; compare 手|mão
+才|Um broto nascendo do chão, representando um talento em botão|
+扎|Uma mão 扌 amarrando um feixe com barbante 乚|
+托|Usar as mãos 扌 como apoio 乇; 乇 também dá a pronúncia|
+执|Uma mão 扌 agarrando uma pedrinha 丸|
+扫|Forma simplificada de 掃; usar 扌 uma vassoura 帚; 帚 também dá a pronúncia|
+找|Sair procurando com uma lança 戈 na mão 扌|
+承|Três mãos 手 erguendo um cadáver 了|
+抉|Escolher 夬 com a mão 扌; 夬 também dá a pronúncia|
+抓|Uma mão 扌 com garras 爪; 爪 também dá a pronúncia|
+抗|Lutar 亢 de mãos nuas 扌; 亢 também dá a pronúncia|
+折|Uma mão 扌 manejando um machado 斤|
+护|Guardar 扌 um lar 户; 户 também dá a pronúncia|
+报|Uma mão 扌 algemando 又 um criminoso 卩, representando a sentença|
+披|Vestir 扌 uma pele 皮; 皮 também dá a pronúncia|
+抱|Envolver 包 nos braços 扌; 包 também dá a pronúncia|
+拐|Levar outra pessoa 另 à força 扌|
+招|Um chamado 召 às armas 扌; 召 também dá a pronúncia|
+拜|Duas mãos 手 juntas em sinal de respeito|
+拨|Despachar 发 mercadorias à mão 扌|
+拯|Dar 丞 uma mão 扌; 丞 também dá a pronúncia|
+拷|Interrogar 考 à mão 扌; 考 também dá a pronúncia|
+拽|Puxar 曳 com a mão 扌; 曳 também dá a pronúncia|
+拾|Juntar 合 coisas nas mãos 扌|
+指|Apontar 旨 com a mão 扌; 旨 também dá a pronúncia|
+挖|Escavar 扌 um buraco 穵; 穵 também dá a pronúncia|
+挡|Uma mão 扌 erguida na hora certa 当; 当 também dá a pronúncia|
+挣|Lutar 争 com as mãos 扌; 争 também dá a pronúncia|
+挥|Comandar um exército 军 com a mão 扌|
+捂|Resistir 吾 com a mão 扌; 吾 também dá a pronúncia|
+捧|Uma oferenda 奉 feita com as duas mãos 扌; 奉 também dá a pronúncia|
+掃|Usar 扌 uma vassoura 帚; 帚 também dá a pronúncia|
+掙|Lutar 爭 com as mãos 扌; 爭 também dá a pronúncia|
+揮|Comandar um exército 軍 com a mão 扌|
+援|Conduzir 爰 pela mão 扌; 爰 também dá a pronúncia|
+摘|Colher 扌 uma fruta de um galho 啇|
+摺|Habilidade 習 em dobrar papel 扌; 習 também dá a pronúncia|
+撒|Espalhar 散 sementes com a mão 扌; 散 também dá a pronúncia|
+撥|Despachar 發 mercadorias à mão 扌|
+播|Semear 番 à mão 扌; 番 também dá a pronúncia|
+擊|Golpear 毄 com a mão 手; 毄 também dá a pronúncia|
+擋|Uma mão 扌 erguida na hora certa 當; 當 também dá a pronúncia|
+擒|Capturar 禽 com a mão 扌; 禽 também dá a pronúncia|
+擡|Erguer 扌 bem alto 臺; 臺 também dá a pronúncia|
+支|Uma mão 又 segurando um galho 十 como apoio|
+攴|Uma mão 又 manejando uma vara ⺊|bater, dar batidinhas
+攵|Um punho feito com a mão direita|bater, dar batidinhas; escrita; soltar
+攸||distante, longe; prefixo adverbial
+改|Uma mão com uma vara 攵 disciplinando uma criança ajoelhada 己|
+敃||robusto, forte, vigoroso
+敕||ordem ou decreto imperial
+敖||vagar, divertir-se; ocioso; sobrenome
+敝||quebrar, destruir; arruinado, esfarrapado
+敢|Uma mão com uma vara 攵 golpeando uma fera 耳|
+散|Uma mão 攵 lançando sementes de um cesto|
+敦||honesto, franco, sincero; bondoso; estimar
+敫||antigo instrumento musical
+文|Um peito tatuado, representando a escrita|
+斑|Marcas 文 no jade 王|
+斗|Uma mão segurando uma concha de medida|
+料|Uma mão medindo 斗 uma xícara de arroz 米|
+斥|Alguém repreendido por se cortar 丶 com um machado 斤|
+断|Usar um machado 斤 para colher grãos 米|
+斯||este, assim, tal; partícula enfática; usado em transliterações
+新|Uma árvore 亲 recém-cortada 斤|
+斲|Cortar 斤 um tronco de árvore|cortar, talhar; cortar madeira
+斷|Fios 幺 cortados 一 por um machado 斤|
+斿||nadar; mover-se livremente
+旃||feltro; estandarte de seda num mastro curvo
+旅|Um homem 方 viajando com uma trouxa 氏 nas costas|
+旉||anunciar, declarar
+旋|Um exército 方 marchando sob uma bandeira 疋|
+族|Um grupo de pessoas que jura 矢 por uma mesma bandeira 方|
+旡||engasgar-se com algo
+既|Uma pessoa 旡 virando o rosto para a comida 皀; compare 即|
+日|O sol|
+旦|O sol 日 nascendo no horizonte 一|
+旧|Mais velho que 丨 o sol 日|
+旨|Uma colher 匕 apontada para a boca 日|
+早|Os primeiros raios 十 do sol 日|
+旬|Um ciclo 勹 de dez dias 日; uma semana tradicional|
+旱|O sol 日 torrando um deserto 干; 干 também dá a pronúncia|
+旲||luz do dia, luz do sol
+旷|Uma planície ampla 广 sob o sol 日; 广 também dá a pronúncia|
+昆|Dois irmãos 比 sob o sol 日|
+昇|O sol 日 nascente 升; 升 também dá a pronúncia|
+昌|Falar 曰 durante o dia 日|luz do sol; bom, apropriado; próspero
+明|A luz do sol 日 e da lua 月|
+昏|O sol 日 se pondo atrás de uma aldeia 氏|
+昔|Vinte 廿 dias 日 atrás|
+昜|Claro e aberto, como o amanhecer 旦|brilhante, glorioso; expandir, abrir
+昧||escuro, oculto, obscuro
+是|Falar 日 diretamente 疋|
+昷|Uma refeição 皿 quente 日|quente, refeição quente
+昼|Quando o sol está a um pé 尺 acima do horizonte 旦|
+晉|Uma plataforma 一 erguida sobre estacas 厶|
+晋|Um avanço para o segundo 亚 dia 日|
+晚|Evitar 免 o sol 日; 免 também dá a pronúncia|
+普|Todos 並 sob o sol 日|
+景|O sol 日 nascendo sobre uma cidade 京; 京 também dá a pronúncia|
+晶|Muitos sóis 日, sugerindo uma gema clara e cintilante|
+智|Conhecido 知 com clareza 日; 知 também dá a pronúncia|
+暴|Um homem com cabeça 日 e mãos 共 atormentando um cervo 水|
+曠|Uma planície ampla 廣 sob o sol 日; 廣 também dá a pronúncia|
+曰|Desenho de uma boca 口 aberta 一|
+曲|Um objeto dobrado 曰|
+曷|Variante de 何|o quê, por quê, onde, qual, como
+書|Um pincel 聿 usado para escrever palavras 曰|
+曼|Duas mãos 日, 又 abrindo um olho 罒|longo, estendido, vasto; belo
+曾|Uma panela de arroz no fogo 日, acumulando vapor 丷 e soltando-o|
+替|Um homem 夫 substituindo outro; 日 dá a pronúncia|
+最|Acontecer 取 sob o sol 日 (ou seja, em toda parte)|
+朁||se, supondo que, no entanto
+會|Pessoas 人 falando 日|
+月|Uma lua crescente|
+朋|Duas pessoas 月 andando juntas|
+服|Uma pessoa 卩 vestindo 又 um casaco 月|
+朗||claro, nítido, distinto
+望|Um rei 王 contemplando a lua 月; 亡 dá a pronúncia|
+木|Uma árvore|
+未|Um pé de trigo que ainda não deu frutos; compare 來|
+末|O topo 一 de uma árvore 木|
+本|Uma árvore 木 com as raízes destacadas|
+札||carta, bilhete; correspondência
+朱|A cor da seiva 一 de certas árvores 木|
+朴||simples, singelo; sincero; sobrenome
+朵|Flores 几 desabrochando numa árvore 木|
+机|Uma mesa 几 feita de madeira 木; 几 também dá a pronúncia|
+朽|A madeira de uma árvore 木 morrendo 丂|
+朿||espinho, ferrão, pico; apunhalar; assassinar
+杀|Matar 乂 alguém e enterrá-lo num caixão 木|
+束|Madeira 木 amarrada com corda 口|
+杠|Uma alavanca 工 de madeira 木; 工 também dá a pronúncia|
+来|Um pé de trigo que ainda não deu frutos; compare 來|
+杭||vau; sobrenome
+杰||herói; heroico, notável
+東|O sol 日 nascendo atrás de uma árvore 木; compare 西|
+析|Cortar 斤 madeira 木; 斤 também dá a pronúncia|
+林|Duas árvores 木 representando uma floresta|
+果|Frutas 田 crescendo numa árvore 木|
+枯|Uma árvore 木 velha 古; 古 também dá a pronúncia|
+枼||mesa; peças planas de madeira; tira, folha
+某|O fruto doce 甘 de uma certa árvore 木|
+染|Água 氵 e vinho 九 misturados numa tigela de madeira 木|
+柔|Madeira 木 tão macia que pode ser cortada 矛|
+柬|Um pacote amarrado 束|cartão, carta, convite, bilhete
+柰||macieira-brava; suportar, aguentar
+柵|Uma cerca 冊 de madeira 木; 冊 também dá a pronúncia|
+栅|Uma cerca 册 de madeira 木; 册 também dá a pronúncia|
+栗|Uma árvore 木 dando nozes 覀; compare 果|
+桑|Uma árvore 木 dando frutinhas 叒|amoreira; sobrenome
+桓||variedade de árvore; sobrenome
+桼|Uma árvore 木 cuja seiva 氺 se usa como verniz|a árvore-do-verniz; verniz, laca; tinta
+梁|Uma ponte de madeira 木 construída 刅 sobre um rio 氵|
+梅||ameixa; ameixa seca; sobrenome
+條|Uma pessoa 亻 contando 丨; 条 dá a pronúncia|
+梦|Dois olhos fechados 林 à noite 夕|
+棉|Seda 帛 colhida de uma árvore 木|
+森|Muitas árvores 木 formando uma floresta|
+業|Um instrumento musical 业 feito de madeira 木|
+榘|Um esquadro 矩 de carpinteiro de madeira 木; 矩 também dá a pronúncia|
+榜|Um aviso afixado 旁 numa árvore 木; 旁 também dá a pronúncia|
+榮|Capim 炏 e árvores 木 florescendo num jardim 冖|
+槃||bandeja; girar, virar; procurar
+樂|Um instrumento musical com madeira 木, cordas 幺 e uma palheta 白|
+樊||grade, cerca, lugar cercado
+樑|Uma viga 梁 de madeira 木; 梁 também dá a pronúncia|
+樸||simples, singelo; sincero; sobrenome
+機|Uma mesa 幾 feita de madeira 木; 幾 também dá a pronúncia|
+檯|Uma plataforma 臺 de madeira 木; 臺 também dá a pronúncia|
+欠|Um homem 人 bocejando ⺈|
+次|Uma pessoa 欠 bocejando várias vezes 冫|
+欶||sugar, beber
+止|Um pé|
+正|Um pé 止 parando no lugar certo 一|
+步|Forma moderna de 歨; pôr um pé 止 na frente do outro|
+武|Deter alguém 止 com uma flecha 弋|
+歨|Pôr um pé 止 na frente do outro|variante antiga de 步
+歰|Duas pessoas 止 trocando palavras afiadas 刃|discutir, discordar, brigar
+歹|Um cadáver|
+歺|Um cadáver; compare 歹|mau, depravado, perverso
+死|Uma pessoa ajoelhada 匕 diante de um cadáver 歹|
+歼|Mil 千 cadáveres 歹; 千 também dá a pronúncia|
+殳|Uma mão 又 segurando uma arma 几|ferramenta, arma
+段|Uma mão usando um cinzel 殳 para cortar pedra|
+殸|Um instrumento 殳 musical 声; 声 também dá a pronúncia|carrilhão de pedra
+殹||eco
+殼|Uma mão 殳 golpeando uma carapaça 壳|
+毀|Um homem usando uma ferramenta 殳 para golpear um vaso 臼 de barro 土|
+毁|Um homem usando uma ferramenta 殳 para golpear 工 um vaso de barro 臼|
+毄||bater, golpear
+毌||forma antiga de 貫
+母|Os seios de uma mãe|
+比|Duas colheres 匕 lado a lado; 匕 também dá a pronúncia|
+毚|Comer dois coelhos inteiros 㲋 e 兔|guloso; astuto
+氏|Uma pessoa se curvando|
+氐||o nome de uma tribo antiga
+民|Um olho 巳 furado por um punhal 戈, antiga marca de escravidão|
+气|Uma pessoa 亻 respirando ar|
+氣|Uma pessoa 亻 respirando ar 米|
+水|Um rio correndo entre duas margens; compare 川|
+氵||água
+氺|Um rio correndo entre duas margens; compare 川 e 水|
+氿||nascente
+汇|Água 氵 recolhida num recipiente 匚|
+汉|Forma simplificada de 漢; o rio 氵 Han 𦰩|
+汽|Gás 气 líquido 氵; 气 também dá a pronúncia|
+沉|Uma quantidade excessiva 冗 de água 氵|
+沓||ligado, unido; repetido
+治|Uma estrutura 台 que dirige o fluxo da água 氵|
+泉|Água 水 brotando de uma nascente 白|
+法|O curso 去 seguido por um riacho 氵|
+泪|Água 氵 dos olhos 目|
+泰|Água 氺 contida por uma represa|grande, exaltado, superior; calmo; grande
+泼|Lançar 发 água 氵|
+泽||pântano, brejo; brilho, graça
+洛||um rio na província de Shaanxi; uma cidade
+洪|Toda 共 a água 氵; 共 também dá a pronúncia|
+洰||vala, sarjeta; canal
+洲|Um estado 州 cercado de água 氵; 州 também dá a pronúncia|
+洹||um rio na província de Henan
+浊|Uma lagoa 氵 criando limo 虫|
+浙||a província de Zhejiang; um rio
+浦||praia, costa, margem de rio; sobrenome
+涅||enegrecer; lodo, lama preta
+涉|Atravessar a vau 步 um riacho 氵|
+涡|Uma boca 呙 feita de água 氵|
+涩|Água 氵 que corta como uma faca 刃; 止 dá a pronúncia|
+淮||um rio na província de Anhui
+深|Água 氵 profunda 罙|
+渔|Pescar 鱼 num rio 氵; 鱼 também dá a pronúncia|
+渠|Uma vala 洰 feita de madeira 木; 洰 também dá a pronúncia|
+渦|Uma boca 咼 feita de água 氵|
+游|Nadar livremente 斿 pelos mares 氵|
+湮|Um riacho 氵 represado 垔; 垔 também dá a pronúncia|
+準|Equilibrar 十 a água 氵 num nível de bolha; 隹 dá a pronúncia|
+溥||grande, vasto; extenso, difundido, generalizado
+溯|Buscar a nascente 朔 de um rio 氵|
+滅|Apagar uma chama 烕 com água 氵; 烕 também dá a pronúncia|
+滕||um antigo Estado na província de Shandong
+滩|Águas 氵 difíceis 难 de navegar; 难 também dá a pronúncia|
+漁|Pescar 魚 num rio 氵; 魚 também dá a pronúncia|
+漆|A seiva 氵 da árvore-do-verniz 桼; 桼 também dá a pronúncia|
+漏|Água 氵 caindo como gotas de chuva 雨; 屚 dá a pronúncia|
+漢|O rio 氵 Han 𦰩|
+漩|Água 氵 em redemoinho 旋; 旋 também dá a pronúncia|
+潑|Lançar 發 água 氵|
+澀|Água 氵 que corta como uma faca 歰; 歰 também dá a pronúncia|
+澍|Chuva 氵 que salva 尌 a lavoura; 尌 também dá a pronúncia|
+澤||pântano, brejo; brilho, graça
+濁|Uma lagoa 氵 criando limo 蜀|
+瀑|Água 氵 violenta 暴; 暴 também dá a pronúncia|
+瀰|Água 氵 por toda parte 彌; 彌 também dá a pronúncia|
+灘|Águas 氵 difíceis 難 de navegar; 難 também dá a pronúncia|
+火|Chamas|
+灬||fogo
+灭|Cobrir 一 uma chama 火|
+灰|Os restos de um fogo 火; 火 também dá a pronúncia|
+災|Um rio 巛 em chamas 火|
+灾|Uma casa 宀 em chamas 火|
+炉|Um fogo 火 em casa 户|
+炎|Dois fogos 火 queimando|
+炏|Duas folhas de capim; compare 艸|capim
+炸|Uma chama 火 súbita 乍; 乍 também dá a pronúncia|
+為|Uma mão 爫 conduzindo um elefante|
+烁|A luz alegre 乐 de uma chama 火|
+烏|Um corvo; compare 鸟|
+烕|Abafar 戊 uma chama 灭; 灭 também dá a pronúncia|destruir, exterminar, extinguir
+烝|Água 氶 fervendo 灬|subir; vapor; muitos, numerosos
+烬|Um fogo 火 consumido 尽; 尽 também dá a pronúncia|
+焉|Um pássaro 鳥 de cabeça estranha|
+焚|Pôr fogo 火 numa floresta 林|
+焦|Um pássaro 隹 com a cauda chamuscada 灬|
+煽|Abanar 扇 as chamas 火; 扇 também dá a pronúncia|
+熄|Pôr fim 息 a uma chama 火; 息 também dá a pronúncia|
+熊|As pegadas 灬 de um urso 能|
+熏||defumar, curar carne; vapor, fumaça, névoa
+熔|Moldar 容 metal quente 火; 容 também dá a pronúncia|
+燬|Dano 毁 causado pelo fogo 火; 毁 também dá a pronúncia|
+燼|Um fogo 火 consumido 盡; 盡 também dá a pronúncia|
+爆|Uma chama 火 violenta 暴; 暴 também dá a pronúncia|
+爍|A luz alegre 樂 de uma chama 火|
+爐|Um fogo 火 em casa 盧|
+爪|As garras de uma ave|
+爫|As garras de uma ave; compare 爪|garras, unhas
+爭|Duas mãos 爪 e 彐 disputando 亅|
+爯|Uma mão 爫 equilibrando objetos numa balança 冉|equilibrar, ajustar; equilibrado, adequado
+爰||conduzir a; então, portanto, em consequência
+爱|Trazer um amigo 友 para dentro de casa 冖|
+爵|Uma mão 寸 segurando uma taça 良 de vinho 罒|
+父|Uma mão 乂 segurando um machado 八|
+爻|Duas marcas 乂 num osso oracular|diagramas de adivinhação
+爽|Uma pessoa 大 respirando muito ar fresco 爻|
+爿|Metade de um tronco de árvore; compare 片|metade de um tronco de árvore
+片|Metade de um tronco de árvore; compare 爿|
+牛|A cabeça chifruda de um boi|
+牟||lucrar, usurpar; mugido
+牢|Um estábulo 宀 onde se guarda o gado 牛|
+牧|Uma mão 攵 conduzindo um boi 牛|
+牵|Uma pessoa 大 puxando um boi 牛 por uma corda 冖|
+牽|Uma pessoa puxando 冖 um boi 牛 por uma corda 玄|
+犀|Um boi 牛 com cauda 尾|
+犊|Sacrificar 卖 um bezerro 牛|
+犍||boi castrado; castrar
+犢|Sacrificar 賣 um bezerro 牛|
+犬|Um cachorro visto de lado|cachorro
+犭|Um cachorro visto de lado|cachorro
+犮||arrancar
+狱|Um cão de guarda 犭 falando 讠 com um prisioneiro 犬|
+猋|Uma matilha de cães ferozes 犬; uma tempestade|vento, tempestade, ventania; cachorro correndo
+猗||exclamação de admiração
+獄|Um cão de guarda 犭 falando 言 com um prisioneiro 犬|
+獠|Caçar com cães 犭 e tochas 尞; 尞 também dá a pronúncia|
+率|Uma corda 幺 vibrando num instrumento 亠十|
+玉|Um colar 丨 enfeitado com três peças de jade|
+王|Um homem 十 ligando o céu e a terra (ambos 一)|
+玛||ágata, cornalina
+玨|Duas cordas de violão presas sobre os trastes|cordas de violão; variante de 珏
+现|Ver 见 o jade 王; 见 também dá a pronúncia|
+玻||vidro
+珀|Jade 王 claro 白; 白 também dá a pronúncia|âmbar
+珊||coral
+珤||tesouro, joia; raro, precioso
+班|Cortar 刂 uma peça de jade 王 em duas, simbolizando duas classes|
+現|Ver 見 o jade 王; 見 também dá a pronúncia|
+琥|Uma pedra 王 olho-de-tigre 虎; 虎 também dá a pronúncia|
+琴|Duas cordas de violão 玨 sugerem o significado; 今 dá a pronúncia|
+瑙||ágata, cornalina
+瑞||auspicioso; bom presságio
+瑟||grande instrumento de cordas; tremer, vibrar
+瑪||ágata, cornalina
+璃||vidro; esmalte colorido
+璨|O brilho 粲 de uma gema 王; 粲 também dá a pronúncia|
+瓜|Ramas crescendo com um melão na base|
+瓦|Uma telha de encaixe|
+甘|Desenho de uma língua com 一 marcando o ponto doce|
+甜|Algo saboroso 甘 para a língua 舌|
+生|Um broto 屮 crescendo na terra 土|
+甦|Conceder uma vida 生 a mais 更|
+甩|O contrário de "usar" 用|
+甫||começar; homem, pai; grande; uma distância de dez li
+甬||caminho; rio em Ningbo; Ningbo
+甭|Não 不 é preciso 用; 用 também dá a pronúncia|
+田|Os lotes de um arrozal|
+由|Uma estrada 丨 levando à fazenda 田|
+申|Um raio|
+电|Forma simplificada de 電; um raio 申 de uma nuvem de tempestade 雨|
+男|Alguém que pode trabalhar 力 na fazenda 田|
+甸||arredores da capital; governar; colheitas
+甹||cavaleiro nobre
+画|Uma pintura num cavalete; compare 畫, que inclui o pincel|
+畀||dar
+畏|Um monstro de cabeça assustadora 田|
+畐||encher; um rolo de tecido
+畔|Uma fazenda 田 dividida ao meio 半; 半 também dá a pronúncia|
+畝|Um homem 久 medindo a passos um terreno 亩|
+番|Semear 米 na fazenda 田|
+畫|Pintar 聿 uma tela 田 num cavalete 一|
+異|Uma pessoa de rosto assustador 田|
+畺|Linhas 一 traçadas entre dois terrenos 田|limite, fronteira
+畾|Três campos 田 divididos por diques|campos divididos por diques
+疆|Um arco 弓 e uma flecha 土 usados para defender uma fronteira 畺; 畺 também dá a pronúncia|
+疊|Roupas 畾 empilhadas em cima de uma gaveta 冝|
+疋|Um pé 止 com uma perna em cima|
+疌||ágil, rápido
+疏|Andar 疋 por terras incultas 㐬|
+疐|Um pé 疋 preso num campo 田|cair, tropeçar, vacilar; impedido
+疑|Um velho andando 疋 apoiado 匕 numa bengala 矢|
+疒||doença, enfermidade
+疗|Livrar-se 了 de uma doença 疒; 了 também dá a pronúncia|
+癒|Recuperar-se 愈 de uma doença 疒; 愈 também dá a pronúncia|
+癶|Dois pés|pernas
+癸||10º tronco celeste
+白|Uma vela acesa; os raios do sol|
+皃||semblante, aparência
+皇|Uma coroa 白 na cabeça do imperador 王|
+皮|Uma mão usando uma ferramenta 攴 para tirar o couro de uma carcaça|
+皿||prato, vasilha; recipiente raso
+益|Um recipiente 皿 transbordando de água 水|
+盍||o quê? por que não?
+盖|Um prato 皿 com tampa 羊|
+盡|Um pincel 聿 usando as últimas gotas 灬 de tinta 皿|
+盪|Sopa quente 湯 numa tigela 皿; 湯 também dá a pronúncia|
+目|Um olho desenhado de lado|
+盲|Perder 亡 a visão 目; 亡 também dá a pronúncia|
+直|Olhar alguém nos olhos 目|
+相|Fitar 目 uma árvore 木, ou seja, observar|
+盾|Um olho 目 espiando por trás de um escudo 厂|
+眇|Pequeno 少 demais para ser visto a olho nu 目|cego de um olho; sutil, minúsculo
+眉|Desenho de pelos 尸 acima de um olho 目|
+看|Proteger os olhos 目 com a mão 手 para olhar ao longe|
+県||condado, distrito, subdivisão
+真|Uma mesa 几 reta 直 (isto é, nivelada)|
+眨|Dois olhos, um aberto 目 e um fechado 乏|
+睘||redondo; fitar
+睪|Um olho 目 no alto de uma torre 幸|espionar
+瞎|Danificar 害 os olhos 目; 害 também dá a pronúncia|
+瞿|Um pássaro 隹 com dois olhos 目 arregalados|assustado; sobrenome
+矇||estúpido, ignorante; cego
+矍|Assustar 瞿 de novo 又; 瞿 também dá a pronúncia|olhar em volta alarmado ou assustado
+矛|Uma lança apontada para cima e para a direita|
+矞|Furar um buraco com uma sovela 矛|furar com sovela; brilhante, encantador
+矢|Uma flecha apontada para cima|flecha, dardo; jurar
+矣||partícula de ação concluída
+矦|Uma flecha 矢 acertando um alvo 厃|alvo de tiro com arco
+石|Uma pedra 口 ao pé de um penhasco 厂|
+矶||molhe, recife; quebra-mar, redemoinho
+砗||marisco gigante, Tridacna gigas
+硃|Minério 石 de cinábrio 朱; 朱 também dá a pronúncia|
+硕|Como uma placa 页 de pedra 石|
+碟|Uma pedra 石 plana 枼|
+碩|Como uma placa 頁 de pedra 石|
+磯||molhe, recife; quebra-mar, redemoinho
+磲||marisco gigante, Tridacna gigas
+示|Um altar|
+礻||espírito
+社|Um espírito 礻 da terra 土; 礻 também dá a pronúncia|
+祝|Uma pessoa 兄 rezando diante de um altar 礻|
+祥||felicidade, boa sorte; auspicioso
+票|Chamas 覀 sobre um altar 示, referência à tradição chinesa de queimar dinheiro falso como oferenda|
+祭|Mão 寸 segurando carne ⺼ sobre um altar 示|
+禀|Mostrar 示 algo a um funcionário 亠回|
+禸||garupa
+禹||lendário fundador da dinastia Xia
+禺||distrito; montanha em Zhejiang
+离|Um animal de pé; 亠 é a cabeça|
+禼||cupim
+禽|Uma fera lendária 离 capturada por um homem 人|
+禾|O talo de uma planta com a cabeça pendente|cereal, grão, arroz; planta, talo
+禿|Grãos de cabelo 禾 na cabeça de uma pessoa 儿|
+私|厶 dá o significado e a pronúncia|
+秃|Grãos de cabelo 禾 na cabeça de uma pessoa 几|
+秋|A época do ano em que os agricultores queimavam 火 as plantações 禾|
+科|Uma mão medindo 斗 grãos 禾|
+秝|Fino como um talo de grão 禾|(cant.) magro demais
+租|Tributo em grãos 禾 pago regularmente 且|
+稅|Grãos 禾 pagos como tributo 兌; 兌 também dá a pronúncia|
+稍|Parecido 肖 com grãos 禾; 肖 também dá a pronúncia|
+税|Grãos 禾 pagos como tributo 兑; 兑 também dá a pronúncia|
+稟|Mostrar 禾 algo a um funcionário 亠回|
+稱|Grãos 禾 medidos numa balança 爯; 爯 também dá a pronúncia|
+穆||majestoso; reverente, solene
+穌||reviver; ressuscitar
+穴|A boca de uma caverna|
+穵||buraco fundo; escavar, goivar
+穹|Uma abóbada 穴 arqueada 弓; 弓 também dá a pronúncia|
+突|Um cachorro 犬 saindo correndo de uma caverna 穴|
+窜|Forma simplificada de 竄; um rato 鼠 saindo correndo da toca 穴|
+竄|Um rato 鼠 saindo correndo da toca 穴|
+竊|Cupins 禼 levando grãos 米 para o ninho 穴|
+立|Um homem de pé no chão 一|
+竖|Uma pessoa 又 de pé 立, reta como uma faca 刂|
+竞|Enfrentar 立 um inimigo 兄|
+竟|Uma pessoa 儿 terminando uma peça musical 音|
+章|Os dez 十 movimentos de uma peça musical 音|
+童|Uma criança de pé 立 na aldeia 里|
+競|Duas pessoas 竞 travando uma luta|
+竹|Dois talos de bambu|
+笑|Uma pessoa 夭 com um grande sorriso ⺮|
+笔|Uma vara de bambu ⺮ com ponta de pelos 毛|
+笛|Uma flauta 由 de bambu ⺮|
+第|Tiras de bambu ⺮ dispostas em sequência; 弟 dá a pronúncia|
+筆|Uma vara de bambu ⺮ usada como lápis 聿|
+等|Tiras de bambu ⺮ apresentadas diante de um tribunal 寺|
+筋|Tendões do peito 肋 parecidos com bambu ⺮|
+筑|Uma construção de bambu ⺮ resistente 巩; ⺮ também dá a pronúncia|
+筮||adivinhação com talos de plantas; vara de adivinhação
+算|Um ábaco 具 de bambu ⺮|
+篇|Uma tábua 扁 de bambu ⺮; 扁 também dá a pronúncia|
+築|Uma construção 巩 de bambu ⺮ e madeira 木; ⺮ também dá a pronúncia|
+簾|Uma placa de bambu ⺮ na vertical 廉|
+籲|Implorar 龥 tocando uma flauta de bambu 录; 龥 também dá a pronúncia|
+米|Grãos de arroz|
+粟|Um pé de painço 米 dando grãos 覀|
+粲||claro, radiante; sorridente; polir
+糰|Um bolinho 團 de arroz 米; 團 também dá a pronúncia|
+糸|Um fio de seda torcido|seda; fio
+糹|Um fio de seda torcido|seda; fio
+糾|Ligar 丩 fios 糹; 丩 também dá a pronúncia|
+納||adotar, aceitar; receber, tomar
+素|Um fio de seda 糸 pendurado numa árvore 龶|
+索|Uma corda 糸 pendurada no teto 冖|
+紥|Amarrar 扎 com fio 糸|
+累|Forma simplificada de 纍; cultivar seda 糸 nos campos 畾; 畾 também dá a pronúncia|
+絕|Cortar 刀 um fio 糹; 巴 dá a pronúncia|
+絜||linha, marca; avaliar, medir
+絲|Seda 糸 em camadas finas 糹; 糹 também dá a pronúncia|
+綴|Amarrar 叕 com fio 糹; 叕 também dá a pronúncia|
+綿|Um fio 糹 contínuo de seda 帛|
+緻|Um presente 致 de seda 糹; 致 também dá a pronúncia|
+縕||cânhamo emaranhado, seda desfiada; vago, confuso
+縣|As fronteiras 系 de um distrito 県; 県 também dá a pronúncia|
+縴|Um fio 糹 usado para puxar 牽 barcos; 牽 também dá a pronúncia|
+績|Cumprir 糹 os próprios deveres 責; 責 também dá a pronúncia|
+纍|Forma simplificada de 纍; cultivar seda 糸 nos campos 畾; 畾 também dá a pronúncia|
+纟|Um fio de seda torcido; ver 糸|seda; fio
+纠|Ligar 丩 fios 纟; 丩 também dá a pronúncia|
+纳||adotar, aceitar; receber, tomar
+绩|Cumprir 纟 os próprios deveres 责; 责 também dá a pronúncia|
+绵|Um fio 纟 contínuo de seda 帛|
+缀|Amarrar 叕 com fio 纟; 叕 também dá a pronúncia|
+缊||cânhamo emaranhado, seda desfiada; vago, confuso
+缶|Um pote de barro|vaso ou pote de barro; cerâmica
+网|Uma rede de pesca|
+罒||rede
+罕|Uma rede de pesca ⺳ vazia 干; 干 também dá a pronúncia|
+罙||fundo
+罚|Forma simplificada de 罰; castigar 刂 o acusado 詈|
+罢|Preso numa rede 罒, sem poder sair 去|
+罪|Uma rede 罒 de delitos 非|
+罰|Castigar 刂 o acusado 詈|
+罷|Preso numa rede 罒, incapaz 能 de sair|
+羅|Uma rede 罒 de seda 糹 para pegar pássaros 隹|
+羊|A cabeça de uma ovelha com chifres|
+美|Uma pessoa 大 usando uma coroa elegante 羊|
+羔||cordeiro
+羕||rio, água corrente
+羞|Uma ovelha 羊 feia 丑|
+羡|Alguém que tem uma fileira 次 inteira de ovelhas 羊|
+羲||um imperador antigo; sopro, vapor
+羹|Uma agradável 美 sopa de cordeiro 羔|
+羽|Duas penas ou asas|
+翏|Sentir o vento 羽 no cabelo 彡 de alguém 人|o som do vento; planar
+習|Pássaros voando 羽 durante o dia 白|
+翟|Um pássaro 隹 de cauda emplumada 羽|faisão de cauda longa; pluma; sobrenome
+翰||pena, lápis, pincel de escrita
+耀|Um pavão 翟 de cauda brilhante 光|
+老|Uma pessoa curvada, de cabelo comprido 匕 e com uma muleta; compare 耂|
+耂|Uma pessoa curvada, de cabelo comprido|velho, idoso; experiente
+耆||homem de sessenta anos; idoso, velho
+耍|Uma mulher 女 usando uma barba 而 como disfarce|
+耒|O cabo de um arado|arado
+耤||arar; contar com
+耨||capinar, rastelar; tirar ervas daninhas
+耳|Uma orelha|
+聂|Um par 双 de orelhas 耳|sussurrar; sobrenome
+聖|Um governante 王 que fala 口 e escuta 耳|
+聚|Pessoas lado a lado 乑, de mão na orelha 取|
+聶|Um boato passando por muitos ouvidos 耳|sussurrar; sobrenome
+聽|Alguém escutando 耳 com atenção 心|
+聿|Uma mão 彐 segurando um pincel; compare 肀|pincel de escrita, lápis; em seguida
+肀|Uma mão 彐 segurando uma caneta; compare 聿|caneta
+肆|Ter cabelo 聿 comprido 镸|
+肉|Carne nas costelas de um animal|
+肖||assemelhar-se, parecer; ser como
+肘|Um braço carregando um objeto 寸 ao lado do corpo ⺼|
+肙|Uma cabeça 口 num corpo comprido ⺼|verme pequeno; torcer; cercar; vazio
+肩|Um homem trazendo carne ⺼ para a família 户|
+肯|Parar 止 de flexionar os músculos ⺼|
+肰|Carne ⺼ de cachorro 犬|carne de cachorro
+育|Uma mulher grávida com um bebê ⺼ no ventre|
+胁|Controlar 办 o corpo ⺼ de outra pessoa|
+胃|O estômago ⺼ atrás dos músculos abdominais 田|
+胥|Um corpo ⺼ envolto em pano 疋|todos, juntos, mutuamente
+胶|Tendões que ligam 交 os músculos ⺼; 交 também dá a pronúncia|
+胸|Um coração ⺼ no peito 匈; 匈 também dá a pronúncia|
+能|A cabeça 厶, o corpo ⺼ e as garras 匕 de um urso|
+脅|Controlar 劦 o corpo ⺼ de outra pessoa|
+脆|Algo perigoso 危 para a carne ⺼|
+脈|Vasos longos 永 pelo corpo ⺼|
+脉|Vasos longos 永 pelo corpo ⺼|
+脊|Uma vértebra 人 saliente na carne ⺼|
+腊|Um sacrifício de carne ⺼ pelo ano que passou 昔|dezembro; sacrifício de fim de ano; carne seca
+腦|Um órgão ⺼ no crânio 囟|
+腫|Carne ⺼ inchada 重; 重 também dá a pronúncia|
+腿|A carne ⺼ usada para andar 退; 退 também dá a pronúncia|
+膀|A carne ⺼ ao lado 旁 do corpo; 旁 também dá a pronúncia|
+膛|Um salão 堂 no peito ⺼; 堂 também dá a pronúncia|
+臘||dezembro; sacrifício de fim de ano; carne seca
+臤|Como 又 um ministro 臣; 臣 também dá a pronúncia|severo; sábio
+臥|Uma pessoa 人 deitada numa cama 臣|
+臧||bom, certo; generoso; comandar
+自|Um nariz; na China, as pessoas se referem a si mesmas apontando para o nariz|
+臭|O cheiro 自 de um cachorro 犬 sujo|
+至|Um pássaro pousando no chão 土|
+臺|Um homem 吉 de pé num estrado 冖 elevado 至|
+臼|Um pilão usado para moer pós|pilão; cavidade articular
+臽|Uma pessoa ⺈ caindo num buraco 臼|cova, buraco
+臿|Um pilão 臼 e sua mão 千|separar o grão da casca
+舀|Uma mão 爫 tirando comida de um recipiente 臼|servir com concha; tirar com colher
+舁|Duas mãos 廾 levantando um pilão 臼|levantar, erguer, carregar no ombro
+舄|Uma pega; compare 鳥|sapato, sola de sapato; pega
+舆|Uma carroça 车 carregada no ombro 舁|
+舌|Uma língua 千 saindo de uma boca 口|
+舛||equivocado; ser contrário; desviar-se
+舜||governante lendário
+舞|Uma mão 舛 segurando um leque|
+舟|Um barco|
+般|Usar uma ferramenta 殳 para separar objetos numa bandeja 舟|
+舱|A cabine 仓 de um navio 舟; 仓 também dá a pronúncia|
+艙|A cabine 倉 de um navio 舟; 倉 também dá a pronúncia|
+艮||rombudo; duro, borrachudo
+色|Aquilo que uma pessoa ⺈ deseja 巴|
+艳|Exuberante 丰 e sensual 色|
+艷|Exuberante 豐 e sensual 色|
+艸|Capim brotando|
+艹|Forma simplificada de 艸; capim brotando|capim, erva daninha, planta, erva
+艾||artemísia, Artemisia vulgaris; usado em transliterações
+节|Forma simplificada de 節; gomos de bambu ⺮|
+芭||bananeira
+芯|O coração 心 de uma planta 艹; 心 também dá a pronúncia|
+花|Uma flor 艹 desabrochando 化; 化 também dá a pronúncia|
+芻|Aparar 勹 brotos de capim 屮|ceifar, cortar capim; feno, forragem
+苋||amaranto
+苗|Capim 艹 crescendo num campo 田|
+茁|Capim 艹 brotando 出; 出 também dá a pronúncia|
+茱||corniso
+茲||agora, aqui; este; tempo, ano
+荅||responder; feijão pequeno; grosso, pesado
+荐|Uma planta perene; capim 艹 que sobrevive 存 ano após ano|
+荡|Água quente 汤 acabando com as plantas 艹; 汤 também dá a pronúncia|
+荣|Capim 艹 e árvores 木 florescendo num jardim 冖|
+莅|Um lugar 位 onde cresce capim 艹; 立 também dá a pronúncia|
+莉||jasmim
+莱||erva daninha, ançarinha; terreno em pousio; usado em transliterações
+莽|Um cachorro 犬 cercado de mato 艹, 廾|
+菐||matagal
+菩||erva, planta aromática
+菲||perfumado; rico, exuberante; Filipinas
+萊||erva daninha, ançarinha; terreno em pousio; usado em transliterações
+萨||divindade budista; usado em transliterações
+葉|Uma folha 艹 plana 枼; 枼 também dá a pronúncia|
+葛||feijão comestível; trepadeira; sobrenome
+葬|Um cadáver 死 deitado 廾 para descansar sob o capim 艹|
+蒂||causa principal; o pedúnculo de um fruto; o pedúnculo de uma flor
+蒙||cobrir; enganar; Mongólia
+蒦||medir; calcular
+蒸|Vapor 烝 dá o significado e o som|
+蔓|Uma planta 艹 comprida 曼; 曼 também dá a pronúncia|
+蔔|Vegetais 艹 enterrados no chão 匐; 匐 também dá a pronúncia|
+蔺||feno, palha; sobrenome
+蕩|Água quente 湯 acabando com as plantas 艹; 湯 também dá a pronúncia|
+蕾||botão de flor
+薛|Um tipo de capim 艹 amargo 辛|
+薩||divindade budista; usado em transliterações
+薪|Madeira 艹 recém-cortada 新; 新 também dá a pronúncia|
+藉|O arado 耤 é o meio usado para cultivar plantas 艹|
+藐||desprezar, desdenhar; ignorar, menosprezar
+藺||feno, palha; sobrenome
+蘇|Um capim 艹 perene 穌; 穌 também dá a pronúncia|
+虍||tigre
+虎|Um tigre 虍 de pé numa pedra 几; 虍 também dá a pronúncia|
+虐|Um tigre 虍 mostrando as garras 彐|
+虑|Um tigre 虍 metendo medo no coração 心|
+虒|Um tigre 虎 com um chifre 厂|fera anfíbia parecida com um tigre de um chifre só; topônimo
+虚|Um tigre 虍 espreitando no mato 业|
+虛|Um tigre 虍 espreitando no mato 丱|
+號|O rugido 口 do tigre 虎; 丂 dá a pronúncia|
+虧|Um tigre 虍 atacando um pássaro 隹; 亏 também dá a pronúncia|
+蚀|A picada 饣 de um inseto 虫; 饣 também dá a pronúncia|
+蚤||pulga; piolho
+蚩||verme; ignorante, rústico; zombar
+蛮|Como 亦 insetos 虫|
+蛻|Um inseto 虫 mudando 兌 de pele; 兌 também dá a pronúncia|
+蜀||o nome de um antigo Estado
+蜕|Um inseto 虫 mudando 兑 de pele; 兑 também dá a pronúncia|
+蝇|Insetos 虫 de que os sapos 黾 se alimentam|
+蝕|A picada 飠 de um inseto 虫; 飠 também dá a pronúncia|
+螢|Um inseto 虫 que brilha 火|
+蟲|A classe dos insetos 虫|
+蠅|Insetos 虫 de que os sapos 黽 se alimentam|
+血|Um cálice 皿 cheio de sangue 丿|
+衊|Menosprezar 蔑 com sangue espalhado 血; 蔑 também dá a pronúncia|
+行|Dar passos curtos 亍 com os pés 彳|
+衍|Água 氵 indo em todas as direções 行|
+術|Habilidades 术 profissionais 行; 术 também dá a pronúncia|
+衕|Andar 行 com 同 alguém; 同 também dá a pronúncia|
+衡|Um chifre 角 grande 大; 行 dá a pronúncia|
+衣|O vestido de uma mulher|
+衤||pano
+表|Roupa 衣 de pele 毛; um xale ou manto|
+衮|Um duque 公 em seus trajes 衣|traje imperial; traje cerimonial
+衰|Uma pessoa de túnica 衣 com um ferimento 一 na cabeça 口|
+衷|Uma pessoa de túnica 衣 com o coração 中 marcado; 中 também dá a pronúncia|
+袁|Uma pessoa 口 vestindo uma túnica 衣|
+袍|Um manto 包 de pano 衤; 包 também dá a pronúncia|
+袞|O imperador 口 dentro 八 de seus trajes 衣|traje imperial; traje cerimonial
+裁|Cortar 戈 pano 衣|
+裡|Unidade de medida para terra 土 de cultivo 田; 衤 dá a pronúncia|
+裨|Roupa 衤 para os pobres 卑; 卑 também dá a pronúncia|
+製|Fabricar 制 roupas 衣; 制 também dá a pronúncia|
+複|Um padrão 复 de tecido 衤; 复 também dá a pronúncia|
+褱||envolver, esconder; levar junto ao peito ou na manga
+襄|Usar as duas mãos 口 para ajudar alguém a tirar a roupa 衣|ajudar, auxiliar, assistir; despir
+襟|Pano 衤 que restringe 禁; 禁 também dá a pronúncia|
+襢|A verdade 亶 escondida sob a túnica 衤; 亶 também dá a pronúncia|
+西|Um pássaro se acomodando no ninho, representando o pôr do sol; compare 東|
+覀|Um pássaro se acomodando no ninho, representando o pôr do sol; compare 東|oeste, ocidental, para o oeste
+要|Uma mulher 女 com as mãos na cintura 覀|
+覃|Do leste 早 ao oeste 覀|alcançar, estender-se a; profundo, extenso
+見|Um homem 儿 com o olho 目 em destaque|
+见|Forma simplificada de 見; um homem 儿 com o olho 目 em destaque|
+观|Ver 见 de novo 又|
+角|Um chifre de rinoceronte ou de outro animal|
+觜||bico
+解|Cortar 刀 os chifres 角 de um boi 牛; 角 também dá a pronúncia|
+言|Uma língua saindo de uma boca 口|
+討|Pedir 言 algo 寸|
+託|Depender 乇 da palavra 言 de alguém; 乇 também dá a pronúncia|
+記|Uma nota 言 particular 己; 己 também dá a pronúncia|
+訣|Palavras 言 ditas numa despedida 夬; 夬 também dá a pronúncia|
+訴|Palavras 言 de acusação 斥; 斥 também dá a pronúncia|
+訶||repreender em voz alta, xingar, insultar
+詣|Atingir 言 um objetivo 旨; 旨 também dá a pronúncia|
+話|Uma língua 舌 falada 言; 舌 também dá a pronúncia|
+詹||falador, prolixo; sobrenome
+誇|Palavras 言 extravagantes 夸; 夸 também dá a pronúncia|
+誉|A notícia 言 do sucesso 兴 de alguém|
+誑|Fala 言 louca 狂; 狂 também dá a pronúncia|
+誒|Confirmar 矣 verbalmente 言; 矣 também dá a pronúncia|
+誓|Palavras 言 que não podem ser quebradas 折; 折 também dá a pronúncia|
+誘|Usar palavras 言 elegantes 秀; 秀 também dá a pronúncia|
+誼|Fala 言 adequada 宜; 宜 também dá a pronúncia|
+論|Fala 言 que explica a lógica 侖; 侖 também dá a pronúncia|
+諮|Discutir 言 um plano 咨; 咨 também dá a pronúncia|
+諺|Palavras 言 elegantes 彦; 彦 também dá a pronúncia|
+諾||prometer; aprovar, consentir
+謎|Palavras 言 enfeitiçantes 迷; 迷 também dá a pronúncia|
+譭|Palavras 言 caluniosas 毁; 毁 também dá a pronúncia|
+譯|As palavras 言 dos espiões 睪; 睪 também dá a pronúncia|
+讀|Exibir 賣 o próprio letramento 言|
+變|Fomentar 攵 a rebelião 䜌|
+讚|Palavras 言 de elogio 贊; 贊 também dá a pronúncia|
+讠||palavras, fala; falar, dizer
+讨|Pedir 讠 algo 寸|
+记|Uma nota 讠 particular 己; 己 também dá a pronúncia|
+论|Fala 讠 que explica a lógica 仑; 仑 também dá a pronúncia|
+诀|Palavras 讠 ditas numa despedida 夬; 夬 também dá a pronúncia|
+证|Dizer 讠 a verdade 正; 正 também dá a pronúncia|
+诃||repreender em voz alta, xingar, insultar
+诉|Palavras 讠 de acusação 斥; 斥 também dá a pronúncia|
+话|Uma língua 舌 falada 讠; 舌 também dá a pronúncia|
+诣|Atingir 讠 um objetivo 旨; 旨 também dá a pronúncia|
+诤|Palavras 讠 de luta 争; 争 também dá a pronúncia|
+诱|Usar palavras 讠 elegantes 秀; 秀 também dá a pronúncia|
+诳|Fala 讠 louca 狂; 狂 também dá a pronúncia|
+诶|Confirmar 矣 verbalmente 讠; 矣 também dá a pronúncia|
+诺||prometer; aprovar, consentir
+读|Exibir 卖 o próprio letramento 讠|
+谊|Fala 讠 adequada 宜; 宜 também dá a pronúncia|
+谚|Palavras 讠 elegantes 彦; 彦 também dá a pronúncia|
+谜|Palavras 讠 enfeitiçantes 迷; 迷 também dá a pronúncia|
+谷|Água correndo 人 de uma nascente 口 por um vale 八|
+豆|Uma antiga travessa 口 num suporte, com tampa 一|
+豊|Um talo entortado 曲 pelo peso dos feijões 豆|abundante, exuberante, farto, fartura
+豐|Um pé de feijão 豆 carregado de frutos 丰; 丰 também dá a pronúncia|
+豕|Um porco desenhado de lado|porco, javali
+豖|Um porco 豕 acorrentado 丶|porco acorrentado
+豚|Um porco 豕 mamando na teta da mãe ⺼|
+豦|Um javali 豕 lutando com um tigre 虍|javali; lutar
+豸||texugo; fera lendária
+貇|Os dentes 艮 de um texugo 豸; 艮 também dá a pronúncia|morder, roer
+貌|A aparência 皃 de uma fera 豸; 皃 também dá a pronúncia|
+貝|Uma concha do mar, antigamente usada como dinheiro|
+貞||virtuoso, casto, puro; leal
+負|Uma pessoa 人 carregando muito dinheiro 貝|
+貧|Dinheiro 貝 que precisa ser dividido 分; 分 também dá a pronúncia|
+責|Dinheiro 貝 que precisa ser devolvido|
+貳|O dois 二 dos banqueiros 貝, com traços extras contra falsificação|dois (numeral bancário contra fraudes)
+貶|Desvalorizar 乏 a moeda 貝|
+賀|Somar 加 à fortuna 貝 de outra pessoa|
+賁||avançar com ímpeto; enérgico; sobrenome
+賄|Possuir 有 riqueza 貝|
+賏|Duas conchas 貝 enfiadas juntas|colar; pérolas ou conchas enfiadas juntas
+賓|Alguém 小 que mora sob o seu teto 宀; 貝 também dá a pronúncia|
+賤|Que custa pouco 戔 dinheiro 貝; 戔 também dá a pronúncia|
+賦|Dinheiro 貝 usado para formar um exército 武; 武 também dá a pronúncia|
+贖|Vender 賣 a alma por dinheiro 貝; 賣 também dá a pronúncia|
+贝|Uma concha do mar, antigamente usada como dinheiro|
+贞||virtuoso, casto, puro; leal
+负|Uma pessoa 人 carregando muito dinheiro 贝|
+责|Dinheiro 贝 que precisa ser devolvido|
+贫|Dinheiro 贝 que precisa ser dividido 分; 分 também dá a pronúncia|
+贬|Desvalorizar 乏 a moeda 贝|
+贰|O dois 二 dos banqueiros 贝, com traços extras contra falsificação|dois (numeral bancário contra fraudes)
+贱|Que custa pouco 戋 dinheiro 贝; 戋 também dá a pronúncia|
+贲||avançar com ímpeto; enérgico; sobrenome
+贺|Somar 加 à fortuna 贝 de outra pessoa|
+贿|Possuir 有 riqueza 贝|
+赋|Dinheiro 贝 usado para formar um exército 武; 武 também dá a pronúncia|
+赍|Dinheiro 贝 vindo 从 de alguém|
+赎|Vender 卖 a alma por dinheiro 贝; 卖 também dá a pronúncia|
+赤|Uma pessoa 土 com as bochechas ardendo 火|
+赫|Corar 赤 de um vermelho vivo 赤|brilhante, radiante, resplandecente
+走|Alguém 土 dando um passo com o pé 止|
+足|A perna 口 acima do pé|
+跌|Perder 失 o equilíbrio 足|
+蹴|Aproximar-se 就 de um salto 足; 足 também dá a pronúncia|
+身|Uma mulher grávida|
+躬|Curvar 弓 o corpo 身; 弓 também dá a pronúncia|
+車|Uma carroça de duas rodas, vista de cima|
+軍|Soldados 冖 (力 distorcido) numa carroça 車|
+輛|Duas 兩 carroças 車; 兩 também dá a pronúncia|
+輿|Uma carroça 車 carregada no ombro 舁|
+轎|Uma carruagem 車 elevada 喬; 喬 também dá a pronúncia|
+轟|O estrondo de muitas carruagens 車|
+车|Forma simplificada de 車, uma carroça de duas rodas, vista de cima|
+轰|O estrondo de um par 双 de carroças 车|
+轿|Uma carruagem 车 elevada 乔; 乔 também dá a pronúncia|
+辆|Duas 两 carroças 车; 两 também dá a pronúncia|
+辙|Algo deixado 育 por uma carroça 车 quando se move 攵|
+辛|Um ferro em brasa usado para marcar prisioneiros e escravos|
+辞|Palavras 舌 amargas 辛|
+辟|Um corpo 尸 decapitado 口 por uma espada 辛, representando a lei|
+辨|Separar 刂 duas alternativas 辛|
+辩|Uma amarga 辛 troca de palavras 讠|
+辯|Uma amarga 辛 troca de palavras 言|
+農|Lavrar o campo 田 com uma enxada 辰|
+辶|Um pé dando um passo|andar; caminhada
+辽||distante, longe
+迅|Andar 辶 depressa 卂; 卂 também dá a pronúncia|
+迈|Dar dez mil 万 passos 辶|
+返|Andar 辶 para trás 反; 反 também dá a pronúncia|
+还|Não 不 se mover 辶|
+连|Uma carroça 车 levando 辶 mercadorias entre cidades|
+迦||usado em transliterações
+迪|Andar 辶 com propósito 由|avançar, esclarecer, progredir
+迴|Andar 辶 em círculos 回; 回 também dá a pronúncia|
+迶||andar
+送|Uma pessoa acenando 关 para alguém que se afasta 辶|
+逆|Uma pessoa 辶 desobediente 屰; 屰 também dá a pronúncia|
+逊||humilde, modesto; ceder
+連|Uma carroça 車 levando 辶 mercadorias entre cidades|
+週|Andar 辶 em círculo 周; 周 também dá a pronúncia|
+逸|Correr 辶 como um coelho 兔|
+遀||andar
+遂||fracassar; seguir, cumprir
+遗|Deixar 辶 para trás algo valioso 贵|
+遜||humilde, modesto; ceder
+遵|Seguir 辶 ou honrar 尊 alguém; 尊 também dá a pronúncia|
+遺|Deixar 辶 para trás algo valioso 貴|
+遼||distante, longe
+邁|Dar dez mil 萬 passos 辶|
+邦|Um lugar 阝 farto 丰|
+邨|Uma cidade 阝 rústica 屯; 阝 também dá a pronúncia|
+邱|Um lugar 阝 numa colina 丘; 丘 também dá a pronúncia|
+郎|Um homem de um bom 良 lugar 阝; 良 também dá a pronúncia|
+郑|Uma cidade 阝 guardando um desfiladeiro 关|
+郭|Um edifício alto 享 na borda de uma cidade 阝|
+鄉|Duas pessoas 乡 e ⻏ debruçadas sobre uma refeição 良|
+鄭|Uma cidade 阝 guardando um desfiladeiro 奠|
+酉|Um vaso pela metade de vinho|vinho; vaso de vinho; químico
+酋|Uma coroa de penas|
+酒|Um jarro 酉 de vinho 氵; 酉 também dá a pronúncia|
+酗|Um bêbado 酉 perigoso 凶|
+酸|Vinho 酉 envelhecido demais 夋; 夋 também dá a pronúncia|
+醇|Vinho 酉 digno de ser saboreado 享|
+醋|Vinho 酉 envelhecido 昔; vinho que azedou|
+釆|Arroz 米 pronto para ser colhido|distinguir; colher, juntar, recolher
+采|Uma mão colhendo 爫 frutas de uma árvore 木|
+里|Unidade de medida para terra 土 de cultivo 田|
+重|Uma carga levada por mil 千 milhas 里|
+金|Um sino de ferro fundido|
+釒|Um sino de ferro fundido; compare 金|ouro, metal; dinheiro
+釘|Um prego 丁 de metal 釒; 丁 também dá a pronúncia|
+針|Um alfinete 十 de metal 釒|
+釣|Um anzol 勺 de metal 釒; 勺 também dá a pronúncia|
+鈎|Um gancho 勾 de metal 釒; 勾 também dá a pronúncia|
+鉤|Um gancho 句 de metal 釒; 句 também dá a pronúncia|
+銘|Gravar 釒 o próprio nome 名; 名 também dá a pronúncia|
+錄|Um pincel 彔 de metal 釒 usado para registrar histórias|
+錦|Seda 帛 com incrustações de ouro 釒; 釒 também dá a pronúncia|
+錫||estanho; conceder, outorgar
+錮|Forjar 固 metal 釒; 固 também dá a pronúncia|
+錯|Ouro 釒 que existia 昔 mas se perdeu|
+鏈|Metal 釒 que une 連; 連 também dá a pronúncia|
+鑣|Um freio de metal 釒 usado para selar 麃 um cavalo|
+钅|Um sino de ferro fundido; compare 金|ouro, metal; dinheiro
+针|Um alfinete 十 de metal 钅|
+钉|Um prego 丁 de metal 钅; 丁 também dá a pronúncia|
+钓|Um anzol 勺 de metal 钅; 勺 também dá a pronúncia|
+钩|Um gancho 勾 de metal 钅; 勾 também dá a pronúncia|
+铭|Gravar 钅 o próprio nome 名; 名 também dá a pronúncia|
+链|Metal 钅 que une 连; 连 também dá a pronúncia|
+错|Ouro 钅 que existia 昔 mas se perdeu|
+锡||estanho; conceder, outorgar
+锢|Forjar 固 metal 钅; 固 também dá a pronúncia|
+锦|Seda 帛 com incrustações de ouro 钅; 钅 também dá a pronúncia|
+镳|Um freio de metal 钅 usado para selar 麃 um cavalo|
+長|Um velho de cabelo comprido e bengala|
+镸||longo; duradouro; destacar-se em
+长|Forma simplificada de 長; um velho de cabelo comprido e bengala|
+門|Uma porta ou portão aberto|
+閃|Um homem 人 entrevisto por uma porta 門|
+閉|Uma porta 門 bloqueada por barras 才|
+閏||intercalar; extra, excedente
+閑|Uma cerca de madeira 木 com uma porta 門|
+閒|A lua 月 vista por uma porta 門; noite|
+間|O sol 日 brilhando por uma porta 門|
+閔||lamentar, chorar; incitar, instigar
+閦|Uma multidão 众 passando por um portão 門|movimentado, lotado; usado em transliterações
+閭||aldeia de vinte e cinco famílias
+閾|Separado 或 por um portão 門|
+闆|Material 品 de porta 門; 品 também dá a pronúncia|
+闌||porta de tela, grade, cerca
+闖|Um cavalo 馬 investindo por um portão 門|
+门|Uma porta ou portão aberto|
+闪|Um homem 人 entrevisto por uma porta 门|
+闭|Uma porta 门 bloqueada por barras 才|
+闯|Um cavalo 马 investindo por um portão 门|
+闰||intercalar; extra, excedente
+闲|Uma cerca de madeira 木 com uma porta 门|
+间|O sol 日 brilhando por uma porta 门|
+闵||lamentar, chorar; incitar, instigar
+闹|Movimentado como o portão 门 do mercado 市|
+闼||porta, portão; a porta de um cômodo interno
+闾||aldeia de vinte e cinco famílias
+阈|Separado 或 por um portão 门|
+阑||porta de tela, grade, cerca
+阝||lugar, vila, cidade
+队|Um grupo de pessoas 人 reunidas num lugar 阝|
+阱|Uma fazenda 阝 com um poço 井; 井 também dá a pronúncia|
+阳|O lugar 阝 do sol 日; compare 阴|
+阴|O lugar 阝 da lua 月; compare 阳|
+阵|Uma formação 阝 de soldados 车|
+陀||barranco íngreme, terreno acidentado
+陈|Colocar 阝 voltado para o leste 东|
+陌|Uma cidade 阝 grande 百, representando um lugar desconhecido|
+陏||acompanhar, seguir; escutar; submeter-se a
+陕|Um lugar 阝 encaixado num vale 夹|desfiladeiro; a província de Shaanxi
+陝||desfiladeiro; a província de Shaanxi
+陞|Amontoar 升 terra 土 para formar um monte 阝; 升 também dá a pronúncia|
+陣|Uma formação 阝 de soldados 車|
+除|Os resíduos 余 produzidos por uma cidade 阝|
+陰|O lado sombreado de uma colina 阝; 侌 dá a pronúncia|
+陳|Colocar 阝 voltado para o leste 東|
+陵|Uma colina 阝 onde as pessoas são sepultadas 夌; 夌 também dá a pronúncia|
+陶|Um monte 阝 de argila 匋; 匋 também dá a pronúncia|
+陷|Um lugar 阝 com um buraco 臽; 臽 também dá a pronúncia|
+陽|O lugar 阝 do sol 昜; compare 阴|
+隋||a dinastia Sui; sobrenome
+随|Andar 迶 até a cidade 阝; seguir um caminho|
+隐|Um lugar 阝 para se esconder quando se está preocupado 急|
+隙|Uma fenda 日 dividindo duas coisas 小; 阝 dá a pronúncia|
+隨|Andar 遀 até a cidade 阝; seguir um caminho|
+隱|Um lugar 阝 para se esconder quando se está preocupado 㥯|
+隶|Uma mão 彐 debulhando arroz|
+隹|Um pássaro virado para a esquerda; compare 鳥|pássaro de cauda curta; pardal
+隺|Um pássaro 隹 voando rente ao teto 冖|voar alto; ambição
+隽|Alguém mirando um arco 乃 num passarinho 隹|superior, notável, talentoso
+难|Uma mão 又 tentando agarrar um pássaro 隹|
+雀|Um pássaro 隹 pequeno 小|
+集|Pássaros 隹 se juntando numa árvore 木|
+雈||coruja
+雍|Pássaros 乡 vivendo juntos numa aldeia 乡|harmonia, união; harmonioso
+雐||um tipo de pássaro
+雔|Um par 隹 de pássaros apaixonados|companheiro; casal; combinar
+雙|Um par de pássaros apaixonados 雔 pousados num galho 又|
+雚||garça; copinho
+雞|Outro 奚 tipo de pássaro 隹|
+雨|Gotas de chuva caindo de uma nuvem 帀|
+雲|Chuva 雨 caindo de uma nuvem 云|
+雷|Uma tempestade 雨 sobre os campos 田|
+電|Um raio 电 lançado por uma nuvem de tempestade 雨|
+需|Chuva 雨 necessária para as plantações crescerem|
+霄|Parecer 肖 chuva 雨; 肖 também dá a pronúncia|
+霍|Pássaros 隹 apanhados por uma tempestade súbita 雨|rapidamente, de repente; sobrenome
+非|Duas asas de pássaro opostas; duas pessoas de costas uma para a outra|
+面|O rosto de uma pessoa|
+革|Um animal sendo esfolado|
+鞏|Amarras 巩 de couro 革; 巩 também dá a pronúncia|
+韱|Colher 戈 cebolinhas 韭|cebolas ou alho-porós selvagens
+音|Uma língua 立 formando um som na boca 日|
+頁|A cabeça de uma pessoa|
+須|Pelos 彡 crescendo no rosto 頁|
+頒|Distribuir 分 um livreto 頁; 分 também dá a pronúncia|
+頰|A mandíbula na 夾 cabeça 頁; 夾 também dá a pronúncia|
+页|A cabeça de uma pessoa|
+须|Pelos 彡 crescendo no rosto 页|
+颁|Distribuir 分 um livreto 页; 分 também dá a pronúncia|
+颊|A mandíbula na 夹 cabeça 页; 夹 também dá a pronúncia|
+颱|Notícias 風 dadas de uma plataforma 台|
+颳|A língua 舌 cortante do vento 風|
+飆|Ventos 風 de tempestade 猋; 猋 também dá a pronúncia|
+飙|Ventos 风 de tempestade 猋; 猋 também dá a pronúncia|
+飛|Dois pássaros 飞 voando|
+飞|Um pássaro batendo as asas|
+食|Um prato de comida 良 com uma tampa por cima 人|
+飠|Um prato de comida 良 com uma tampa por cima 人|comida; comer
+餓|Querer 我 comida 飠; 我 também dá a pronúncia|
+餘|Comida 飠 extra 余; 余 também dá a pronúncia|
+餡|Comida 飠 enfiada num buraco 臽; 臽 também dá a pronúncia|
+館|Um edifício público 官 onde se serve comida 飠; 官 também dá a pronúncia|
+饋|Comida 飠 cara 貴; 貴 também dá a pronúncia|
+饣||comida; comer
+饿|Querer 我 comida 饣; 我 também dá a pronúncia|
+馅|Comida 饣 enfiada num buraco 臽; 臽 também dá a pronúncia|
+馆|Um edifício público 官 onde se serve comida 饣; 官 também dá a pronúncia|
+馈|Comida 饣 cara 贵; 贵 também dá a pronúncia|
+首|A cabeça 自 de um cervo enfeitada com chifres 丷|
+香|Uma erva 禾 de cheiro doce 甘|
+馬|Um cavalo galopando para a esquerda|
+騰|Uma pessoa 朕 montada num cavalo 馬|
+騷|Uma pulga 蚤 picando um cavalo 馬; 蚤 também dá a pronúncia|
+驕|Um cavalo 馬 orgulhoso 喬; 喬 também dá a pronúncia|
+马|Forma simplificada de 馬, um cavalo galopando para a esquerda|
+骄|Um cavalo 马 orgulhoso 乔; 乔 também dá a pronúncia|
+骚|Uma pulga 蚤 picando um cavalo 马; 蚤 também dá a pronúncia|
+骜|Um cavalo 马 errante 敖; 敖 também dá a pronúncia|
+骨|Carne ⺼ e ossos 冎|
+高|Um palácio alto|
+髟|Cabelo 彡 comprido 镸|cabelo comprido
+鬟|Um coque 髟 redondo 睘; 睘 também dá a pronúncia|
+鬥|Duas pessoas 丨 lutando boxe 王|
+鬧|Movimentado como o portão 鬥 do mercado 市|
+鬭|Lutar 鬥 com um machado 斲; 鬥 também dá a pronúncia|
+鬯||vinho de sacrifício; desimpedido
+鬲|Um caldeirão 口 de três pés 冂丷|panela de barro, caldeirão de ferro
+鬼|Um fantasma de rosto assustador|
+魁|Alguém que lutou 斗 contra um fantasma 鬼; 鬼 também dá a pronúncia|
+魅|Um demônio 鬼 da floresta 未; 未 também dá a pronúncia|
+魚|Um peixe nadando para cima|
+魯|Falar 日 como um peixe 魚|tolo, estúpido, imprudente; vulgar
+鱻|Uma pesca fresca de peixes 魚|
+鱼|Um peixe nadando para cima|
+鲁|Falar 日 como um peixe 鱼|tolo, estúpido, imprudente; vulgar
+鳥|Um pássaro|
+鳴|O som 口 que um pássaro 鳥 faz|
+鸟|Forma simplificada de 烏, um pássaro|
+鸡|Outro 又 tipo de pássaro 鸟|
+鸣|O som 口 que um pássaro 鸟 faz|
+鹵|Um recipiente usado para pôr picles em salmoura|sal
+鹿|Um cervo com cabeça de galhada, duas patas e cauda|
+麃|Rastros 灬 deixados por um cervo 鹿|arar, lavrar
+麗|Os chifres de um cervo 鹿|bonito, elegante, magnífico
+麥|Grãos 來 prontos para a colheita 夂; compare 麦|
+麦|Forma simplificada de 麦; grãos 來 prontos para a colheita 夂|
+麻|Pés de cânhamo 林 crescendo numa estufa 广|
+黃|Um pingente de jade|
+黄|Um pingente de jade|
+黍|Grão 禾 que pode ser fermentado para fazer vinho 氺|painço-vassoura; painço glutinoso
+黑|O rosto de um homem enegrecido pela fuligem de um fogo 灬|
+默|Um cachorro 犬 vigiando no escuro 黑|
+黴|Um pequeno 微 crescimento preto 黑; 微 também dá a pronúncia|
+黽|Um sapo de olhos esbugalhados|rã, sapo; esforçar-se, empenhar-se
+黾|Forma simplificada de 黽; um sapo de olhos esbugalhados|rã, sapo; esforçar-se, empenhar-se
+鼎|Um caldeirão sobre seu tripé de bronze|
+鼠|Um rato, com duas patas à esquerda e a cauda à direita|
+齊|Três talos de grão crescendo por igual|
+齒|Dentes de cima e de baixo 从; 止 dá a pronúncia|
+齿|Dentes 人凵; 止 dá a pronúncia|
+龍|Um dragão virado para a esquerda e curvado para baixo|
+龐|Um dragão 龍 dentro de uma casa 广|
+龙|Um dragão|
+龜|Uma tartaruga de lado, com o casco à direita|
+龟|Uma tartaruga; compare 龜|
+龠|Flauta de Pã|flauta; tubo, medida antiga
+龥||implorar, suplicar
+龹||forma de 卷 usada como componente fonético
+龺||luz do sol; os raios do sol
