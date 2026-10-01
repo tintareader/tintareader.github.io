@@ -12,12 +12,15 @@
 #            closed (a pair refused before a vowel or a doubled letter); end (only at the tail)
 #
 # The pairs are kept to the ones German spelling treats as one sound without
-# exception worth a learner's while: sch, ch, ck, ei, ie, au, eu, äu, and st and
-# sp at the start of a word, where they say "sht" and "shp". Anything subtler is
-# for the notes, which say "usually".
+# exception worth a learner's while: sch, ch, ck, chs, ei, ie, au, eu, äu, and st
+# and sp at the start of a word, where they say "sht" and "shp". `chs` collapses
+# the whole cluster to ks (sechs, wachsen) rather than ch's own sound plus a
+# separate s. Anything subtler is for the notes, which say "usually" — the
+# common -ig ending (König, zwanzig) is one such note on g, not a cut of its
+# own, since ig elsewhere (Igel) is plain i+g.
 a|letter|a||||a|mann|vowel
 b|letter|be||||b|buch|
-c|letter|ce||||k, ts|computer|
+c|letter|ce||||k|computer|
 d|letter|de||||d|dank|
 e|letter|e||||e|see|vowel,front
 f|letter|ef||||f|fisch|
@@ -46,8 +49,9 @@ z|letter|zet||||ts|zeit|
 ü|letter|ü||||y|über|vowel,front
 ß|letter|eszett||||s|straße|
 sch|pair|||||ʃ|schule|
-ch|pair|||||x|buch|
+ch|pair|||||x/ç|buch|
 ck|pair|||||k|zucker|
+chs|pair|||||ks|sechs|
 ei|pair|||||aɪ|eis|vowel
 ie|pair|||||iː|liebe|vowel,front
 au|pair|||||aʊ|haus|vowel

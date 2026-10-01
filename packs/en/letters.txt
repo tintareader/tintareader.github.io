@@ -14,10 +14,14 @@
 #            heavy (an emphatic consonant)
 #
 # English spells sounds less regularly than any other pack here, so the pairs are
-# kept to the ten that read the same way nearly everywhere: th, sh, ch, ph, wh,
-# ck, ng, qu, ee and oo. A pair like `ea` (bread, bead, great) is left as two
-# letters rather than given one sound it has only half the time; the notes on
-# each letter say "usually".
+# kept to the ones that read the same way nearly everywhere: th, sh, ch, ph, wh,
+# ck, ng, qu, ee, oo, igh, tion, tch and dge. A pair like `ea` (bread, bead,
+# great) is left as two letters rather than given one sound it has only half
+# the time; the notes on each letter say "usually". `ough` is kept in by
+# exception, not because it passes that bar — it has at least five readings
+# (through, though, thought, enough, cough) and no single one is usual — but a
+# word with no `ough` unit at all cut letter-by-letter with no way to say any
+# of them, so the notes list the readings rather than pick a wrong one.
 a|letter|a||||æ|apple|vowel
 b|letter|bee||||b|big|
 c|letter|cee||||k|cat|
@@ -54,3 +58,8 @@ ng|pair|||||ŋ|sing|
 qu|pair|||||kw|quick|
 ee|pair|||||iː|see|vowel,front
 oo|pair|||||uː|food|vowel
+igh|pair|||||aɪ|light|vowel
+tion|pair|||||ʃən|nation|
+tch|pair|||||tʃ|watch|
+dge|pair|||||dʒ|bridge|
+ough|pair|||||uː|through|vowel

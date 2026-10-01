@@ -11,13 +11,13 @@ b||b con los labios bien cerrados, también entre vocales
 c||k, como la c de casa
 c|beforefront|s, como la c de cine en América
 d||d firme, como en dedo, también entre vocales
-d|end|casi siempre muda al final de palabra
+d|end|casi siempre muda al final de palabra; puede volver como t ante vocal, en liaison: grand ami
 e||una e débil y apagada, a medio camino de la o, o no se dice
 e|end|muda al final de palabra
 f||f, como en foca
 g||g, como en gato
 g|beforefront|como la ll de llave en Argentina, no como la j española
-h||siempre muda, como en español
+h||siempre muda, como en español; unas pocas palabras con h bloquean la elisión y la liaison, como si la h estuviera ahí: le haricot, no l'haricot
 i||i, como en sí
 j||como la ll de llave en Argentina, no como la j española
 k||k; solo en préstamos
@@ -26,22 +26,22 @@ m||m, como en mano
 n||n, como en nube
 o||o cerrada y pura; abierta, como en ojo, ante consonante
 p||p, igual que en español
-p|end|casi siempre muda al final de palabra
+p|end|casi siempre muda al final de palabra; puede volver ante vocal, en liaison: trop heureux
 q||solo en qu, que suena k
 r||se hace al fondo de la garganta, casi como una j suave y sonora
 s||s, como en sol
 s|between|s sonora, con zumbido de abeja, entre dos vocales
-s|end|casi siempre muda al final de palabra
+s|end|casi siempre muda al final de palabra; vuelve como z ante vocal, en liaison: les enfants
 t||t, igual que en español: la lengua contra los dientes
-t|end|casi siempre muda al final de palabra
+t|end|casi siempre muda al final de palabra; puede volver ante vocal, en liaison: petit ami
 u||di i con los labios redondeados como para la u
 v||v con los dientes sobre el labio inferior, nunca como la b
 w||u semivocal o v, según la palabra; solo en préstamos
 x||ks, como en taxi; gz en exemple
-x|end|casi siempre muda al final de palabra
+x|end|casi siempre muda al final de palabra; vuelve como z ante vocal, en liaison: deux enfants
 y||i, como en sí
 z||s sonora, con zumbido de abeja, no como la z española
-z|end|casi siempre muda al final de palabra
+z|end|casi siempre muda al final de palabra; se dice como z ante vocal, en liaison: nez aquilin
 eau||o cerrada y pura
 ou||u, como en luna
 au||o cerrada y pura
@@ -53,15 +53,18 @@ ch||sh, como el ¡shh! para pedir silencio
 gn||ñ, como en niño
 qu||k; la u no suena, como en queso
 ph||f, como en foto
+tion||algo como "shon", en nation; la t suena como sh
+tion|after:s|una t normal, no sh: question
 ain||vocal nasal: una e abierta dicha por la nariz, sin n
 ein||vocal nasal: una e abierta dicha por la nariz, sin n
 oin||u semivocal y luego una e abierta dicha por la nariz, sin n
 on||vocal nasal: una o dicha por la nariz, sin n
 an||vocal nasal: una a dicha por la nariz, sin n
 en||vocal nasal: una a dicha por la nariz, sin n
+en|after:i|vocal nasal, pero no la de ah: tras i, en suena como la a de cat por la nariz, como en: bien, rien, chien
 in||vocal nasal: una e abierta dicha por la nariz, sin n
 ez||e cerrada, como en café; la z no suena
-er||e cerrada, como en café, al final de casi todas las palabras (parler); «er» en unas pocas (mer)
+er||e cerrada, como en café, al final de casi todos los verbos (parler); «er» en bastantes sustantivos y adjetivos también: hiver, fer, cher, hier, mer
 où||u, como en luna
 œu||como eu: una e abierta con los labios redondeados
 é||e cerrada y breve, como en café

@@ -17,8 +17,10 @@
 # here, so it has the most pairs. The nasal vowels (on, an, en, in, ain, ein, oin)
 # are pairs only before a consonant or at the end of a word: `bon` is nasal and
 # `bonne` and `bone` are not, which is what the `closed` flag says. `ez` is a pair
-# only at the end of a word (chez, parlez). Everything subtler — the silent final
-# consonants, `ent` in a verb — is for the notes.
+# only at the end of a word (chez, parlez). `tion` (nation, addition) reads
+# sjɔ̃, not the plain t a letter-by-letter cut would give it; its own `after:s`
+# note says why `question` keeps a plain t instead. Everything subtler — the
+# silent final consonants, `ent` in a verb — is for the notes.
 a|letter|a||||a|ami|vowel
 b|letter|bé||||b|bon|
 c|letter|cé||||k|café|
@@ -67,6 +69,7 @@ ez|pair|||||e|chez|vowel,front,end
 er|pair|||||e|parler|vowel,front,end
 où|pair|||||u|où|vowel
 œu|pair|||||œ|cœur|vowel
+tion|pair|||||sjɔ̃|nation|
 é|also|||||e|été|vowel,front
 è|also|||||ɛ|mère|vowel,front
 ê|also|||||ɛ|être|vowel,front

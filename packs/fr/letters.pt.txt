@@ -11,13 +11,13 @@ b||b, como em bola
 c||k, como o c de casa
 c|beforefront|s, como o c de cidade
 d||d, como em dado; nunca vira dj antes de i
-d|end|em geral mudo no fim da palavra
+d|end|em geral mudo no fim da palavra; pode voltar como t antes de vogal, na liaison: grand ami
 e||um e fraco com lábios arredondados, ou nem é dito
 e|end|mudo no fim da palavra
 f||f, como em faca
 g||g, como em gato
 g|beforefront|j, como o g de gente
-h||sempre mudo, como em hora
+h||sempre mudo, como em hora; algumas palavras com h continuam bloqueando a elisão e a liaison, como se o h estivesse lá: le haricot, não l'haricot
 i||i, como em vida
 j||j, como em janela
 k||k; só em empréstimos
@@ -26,22 +26,22 @@ m||m, como em mão
 n||n, como em nó
 o||ô puro, como em ovo; aberto, como em pó, antes de consoante
 p||p, como em pato
-p|end|em geral mudo no fim da palavra
+p|end|em geral mudo no fim da palavra; pode voltar antes de vogal, na liaison: trop heureux
 q||só em qu, que soa k
 r||feito no fundo da garganta, como o r carioca de rato, mas com voz
 s||s, como em sapo
 s|between|z, como em casa, entre duas vogais
-s|end|em geral mudo no fim da palavra
+s|end|em geral mudo no fim da palavra; volta como z antes de vogal, na liaison: les enfants
 t||t, como em tatu; nunca vira tch antes de i
-t|end|em geral mudo no fim da palavra
+t|end|em geral mudo no fim da palavra; pode voltar antes de vogal, na liaison: petit ami
 u||diga i com os lábios arredondados como para u; nunca o u de uva
 v||v, como em vaca
 w||u semivogal ou v, conforme a palavra; só em empréstimos
 x||ks, como em táxi; gz em exemple
-x|end|em geral mudo no fim da palavra
+x|end|em geral mudo no fim da palavra; volta como z antes de vogal, na liaison: deux enfants
 y||i, como em vida
 z||z, como em zebra
-z|end|em geral mudo no fim da palavra
+z|end|em geral mudo no fim da palavra; dito como z antes de vogal, na liaison: nez aquilin
 eau||ô, como em ovo, puro
 ou||u, como em uva
 au||ô, como em ovo, puro
@@ -53,15 +53,18 @@ ch||x, como o ch de chuva
 gn||como o nh de banho
 qu||k; o u é mudo
 ph||f, como em foto
+tion||algo como "chon", em nation; o t soa como ch
+tion|after:s|um t normal, não ch: question
 ain||vogal nasal: um é aberto pelo nariz, sem soar n
 ein||vogal nasal: um é aberto pelo nariz, sem soar n
 oin||u semivogal e depois um é aberto pelo nariz: "uẽ", sem soar n
 on||vogal nasal: um ó aberto pelo nariz, perto de om, sem soar n
 an||vogal nasal: um a aberto pelo nariz, mais aberto que o ã de lã
 en||vogal nasal: um a aberto pelo nariz, mais aberto que o ã de lã
+en|after:i|vogal nasal, mas não essa: depois de i, en soa como o a de cat pelo nariz, como em: bien, rien, chien
 in||vogal nasal: um é aberto pelo nariz, sem soar n
 ez||ê, como em medo; o z é mudo
-er||ê, como em medo, no fim da maioria das palavras (parler); ér em algumas (mer)
+er||ê, como em medo, no fim da maioria dos verbos (parler); ér em bastantes substantivos e adjetivos também: hiver, fer, cher, hier, mer
 où||u, como em uva
 œu||como eu: é aberto com os lábios arredondados
 é||ê fechado, como em medo, curto e puro

@@ -12,7 +12,8 @@ b||b, as in bed
 c||k, as in cat
 c|beforefront|s, as in see
 d||d, as in dog
-d|beforefront|j, as in jeans, before i and a final e in Brazil: dia, cidade
+d|before:i|j, as in jeans, before i in Brazil: dia
+d|before:e+penult|j, as in jeans, before a final weak e in Brazil: cidade
 e||ay, as in say
 e|end|ee, as in see, at the end of a word in Brazil: leite
 f||f, as in fish
@@ -24,9 +25,12 @@ j||zh, like the s of measure
 k||k; loanwords only
 l||l, light and clear
 l|end|w at the end of a syllable in Brazil: Brasil says "brazeew"
+l|beforeconsonant|also w before a consonant in Brazil: alto says "owtoo"
 m||m, as in man
 m|end|not said as m: it makes the vowel before it nasal
+m|beforeconsonant|not said as m before a consonant: it makes the vowel before it nasal, as in campo
 n||n, as in no
+n|beforeconsonant|not said as n before a consonant: it makes the vowel before it nasal, as in mundo
 o||oh, as in so
 o|end|oo, as in food, at the end of a word: livro
 p||p, as in pen
@@ -36,9 +40,10 @@ r|start|like an English h, at the start of a word in Brazil: rio
 r|end|a light h, or a tap, at the end of a syllable
 s||s, as in see
 s|between|z, as in zoo, between two vowels
-s|end|s; sh in Rio and in Portugal
+s|end|s; sh in Rio and in Portugal, already voiced to z before a voiced consonant: mesmo
 t||t, as in top
-t|beforefront|ch, as in cheese, before i and a final e in Brazil: tia, leite
+t|before:i|ch, as in cheese, before i in Brazil: tia
+t|before:e+penult|ch, as in cheese, before a final weak e in Brazil: leite
 u||oo, as in food
 v||v, as in van
 w||w; loanwords only

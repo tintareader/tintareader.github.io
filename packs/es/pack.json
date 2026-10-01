@@ -1,6 +1,6 @@
 {
   "id": "es",
-  "version": "1.1.79",
+  "version": "1.1.80",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -80,32 +80,32 @@
     "letters": {
       "path": "letters.txt",
       "license": "unencumbered",
-      "sha256": "6fc09e0285f7d2aa3ad50ff0df5f5336b4f1d259664700b81f3ec8e7229636e5"
+      "sha256": "63313ba74f328de5b0e6878d5f4809e3b8902bac4d4f905fee8818c5ce208b2f"
     },
     "letters.en": {
       "path": "letters.en.txt",
       "license": "unencumbered",
-      "sha256": "4961396e24d42cfc78aed26bdd325d1434994aa5693abcec573a8c50c68f7625"
+      "sha256": "24fec0d6b77b7515ca2ca34931c47f7c7fa2d586763e6a1b5974efc6ca68518d"
     },
     "letters.fr": {
       "path": "letters.fr.txt",
       "license": "unencumbered",
-      "sha256": "0f98de37f2f78afb8cca51e47f756bb931a17542833a05dab649bf3e3d4a805e"
+      "sha256": "1ec982b6bd8345887e72014073f67a4aaa75b0a90f44c016e8e2aa01bc6da7a9"
     },
     "letters.id": {
       "path": "letters.id.txt",
       "license": "unencumbered",
-      "sha256": "5339ae4d5e8933ffe5f72a50bee8e7b9a3ba58184acfe662c709f07451d8448b"
+      "sha256": "df9a9d64f87d0c1ee1f071e11eebbcb3c1ac72a737b5071825e05dda46dee687"
     },
     "letters.pt": {
       "path": "letters.pt.txt",
       "license": "unencumbered",
-      "sha256": "847bbf065b405efa3cd21a3640e0c593f0b84e25688d57b0a82a91879e14f7e6"
+      "sha256": "1bc8551ab36d48dead0e786cf0f10646a44c5155a4759b50943f3e1ced4bacbf"
     },
     "letters.zh": {
       "path": "letters.zh.txt",
       "license": "unencumbered",
-      "sha256": "0dcd609d660f51432e69f989e9c51cfdfeadaa03a164e11ef4786d7e7d61ddf2"
+      "sha256": "03380bb5531ed175997321e7f846bf39c7aa8825196848ae89dcdab7c946b600"
     }
   }
 }

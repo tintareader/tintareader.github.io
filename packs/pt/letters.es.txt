@@ -12,7 +12,8 @@ b||b con los labios bien cerrados, también entre vocales
 c||k, como la c de casa
 c|beforefront|s, como la c de cine en América
 d||d firme, como en dedo, también entre vocales
-d|beforefront|una ch sonora ante i y e final en Brasil: dia, cidade
+d|before:i|una ch sonora ante i en Brasil: dia
+d|before:e+penult|una ch sonora ante una e final débil en Brasil: cidade
 e||e cerrada, como en mesa
 e|end|i, como en sí, al final de palabra en Brasil: leite
 f||f, como en foca
@@ -24,9 +25,12 @@ j||como la ll de llave en Argentina, no como la j española
 k||k; solo en préstamos
 l||l, igual que en español
 l|end|u al final de sílaba en Brasil: Brasil suena "brasiu"
+l|beforeconsonant|también u ante consonante en Brasil: alto suena "autu"
 m||m, como en mano
 m|end|no suena como m: hace nasal la vocal anterior
+m|beforeconsonant|no suena como m ante consonante: hace nasal la vocal anterior, como en campo
 n||n, como en nube
+n|beforeconsonant|no suena como n ante consonante: hace nasal la vocal anterior, como en mundo
 o||o, como en solo
 o|end|u, como en luna, al final de palabra: livro
 p||p, igual que en español
@@ -36,9 +40,10 @@ r|start|como una j suave, al inicio de palabra en Brasil: rio
 r|end|una j suave, o un toque, al final de sílaba
 s||s, como en sol
 s|between|s sonora, con zumbido de abeja, entre dos vocales
-s|end|s; sh, como en ¡shh!, en Río y en Portugal
+s|end|s; sh, como en ¡shh!, en Río y en Portugal, ya sonora como z ante consonante sonora: mesmo
 t||t, igual que en español
-t|beforefront|ch, como en chico, ante i y e final en Brasil: tia, leite
+t|before:i|ch, como en chico, ante i en Brasil: tia
+t|before:e+penult|ch, como en chico, ante una e final débil en Brasil: leite
 u||u, como en luna
 v||v con los dientes sobre el labio inferior, distinta de la b
 w||u semivocal; solo en préstamos

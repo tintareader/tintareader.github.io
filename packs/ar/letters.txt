@@ -19,42 +19,53 @@
 # a word writes it in is worked out by the engine, from Unicode's joining types,
 # and is not stored here.
 #
-# Two romanisations, both kept: `rom` is the scholarly one (ALA-LC: ā, ḥ, ʿ) and
-# `rom_plain` the keyboard one (aa, H, '). The plain one capitalises the heavy
-# letters (H, S, D, T, Z) to keep them apart from their light twins.
+# Two romanisations, both kept, and the reader picks in Settings: `rom` is the
+# scholarly one (ALA-LC: ā, ḥ, ʻ, ʼ) and `rom_plain` the everyday one (aa, h,
+# '). The plain one does not mark the heavy letters: capitals (H, S, D, T, Z)
+# were tried and dropped on 2026-10-01, because a capital also starts a name or
+# a sentence, and the letter itself, beside it on every tile, already tells ح
+# from ه. The scholarly one is for whoever wants the difference in Latin.
 ا|letter|alif|alif|ā|aa|aː|باب|
-ب|letter|bāʾ|baa|b|b|b|بيت|
-ت|letter|tāʾ|taa|t|t|t|تفاح|
-ث|letter|thāʾ|thaa|th|th|θ|ثلاثة|
+ب|letter|bāʼ|baa|b|b|b|بيت|
+ت|letter|tāʼ|taa|t|t|t|تفاح|
+ث|letter|thāʼ|thaa|th|th|θ|ثلاثة|
 ج|letter|jīm|jiim|j|j|dʒ|جميل|
-ح|letter|ḥāʾ|Haa|ḥ|H|ħ|حب|
-خ|letter|khāʾ|khaa|kh|kh|x|خبز|
+ح|letter|ḥāʼ|haa|ḥ|h|ħ|حب|
+خ|letter|khāʼ|khaa|kh|kh|x|خبز|
 د|letter|dāl|daal|d|d|d|دار|
 ذ|letter|dhāl|dhaal|dh|dh|ð|ذهب|
-ر|letter|rāʾ|raa|r|r|r|رجل|
+ر|letter|rāʼ|raa|r|r|r|رجل|
 ز|letter|zāy|zaay|z|z|z|زيت|
 س|letter|sīn|siin|s|s|s|سماء|
 ش|letter|shīn|shiin|sh|sh|ʃ|شمس|
-ص|letter|ṣād|Saad|ṣ|S|sˤ|صديق|heavy
-ض|letter|ḍād|Daad|ḍ|D|dˤ|ضوء|heavy
-ط|letter|ṭāʾ|Taa|ṭ|T|tˤ|طالب|heavy
-ظ|letter|ẓāʾ|Zaa|ẓ|Z|ðˤ|ظهر|heavy
-ع|letter|ʿayn|'ayn|ʿ|'|ʕ|عين|
+ص|letter|ṣād|saad|ṣ|s|sˤ|صديق|heavy
+ض|letter|ḍād|daad|ḍ|d|dˤ|ضوء|heavy
+ط|letter|ṭāʼ|taa|ṭ|t|tˤ|طالب|heavy
+ظ|letter|ẓāʼ|zaa|ẓ|z|ðˤ|ظهر|heavy
+ع|letter|ʻayn|'ayn|ʻ|'|ʕ|عين|
 غ|letter|ghayn|ghayn|gh|gh|ɣ|غرفة|
-ف|letter|fāʾ|faa|f|f|f|فم|
+ف|letter|fāʼ|faa|f|f|f|فم|
 ق|letter|qāf|qaaf|q|q|q|قلب|
 ك|letter|kāf|kaaf|k|k|k|كتاب|
 ل|letter|lām|laam|l|l|l|ليل|
 م|letter|mīm|miim|m|m|m|ماء|
 ن|letter|nūn|nuun|n|n|n|نور|
-ه|letter|hāʾ|haa|h|h|h|هنا|
+ه|letter|hāʼ|haa|h|h|h|هنا|
 و|letter|wāw|waaw|w, ū|w, uu|w|ولد|
-ي|letter|yāʾ|yaa|y, ī|y, ii|j|يد|
-ء|also|hamzah|hamza|ʾ|'|ʔ|شيء|
-أ|also|alif hamzah|alif hamza|ʾa, ʾu|'a, 'u|ʔ|أنا|
-إ|also|alif hamzah below|alif hamza below|ʾi|'i|ʔi|إلى|
-آ|also|alif maddah|alif madda|ʾā|'aa|ʔaː|آخر|
-ؤ|also|wāw hamzah|waaw hamza|ʾ|'|ʔ|سؤال|
-ئ|also|yāʾ hamzah|yaa hamza|ʾ|'|ʔ|رئيس|
-ة|also|tāʾ marbūṭah|taa marbuuta|ah, at|a, at|a|مدرسة|
+ي|letter|yāʼ|yaa|y, ī|y, ii|j|يد|
+ء|also|hamzah|hamza|ʼ|'|ʔ|شيء|
+أ|also|alif hamzah|alif hamza|ʼa, ʼu|'a, 'u|ʔ|أنا|
+إ|also|alif hamzah below|alif hamza below|ʼi|'i|ʔi|إلى|
+آ|also|alif maddah|alif madda|ʼā|'aa|ʔaː|آخر|
+ؤ|also|wāw hamzah|waaw hamza|ʼ|'|ʔ|سؤال|
+ئ|also|yāʼ hamzah|yaa hamza|ʼ|'|ʔ|رئيس|
+ة|also|tāʼ marbūṭah|taa marbuuta|ah, at|a, at|a|مدرسة|
 ى|also|alif maqṣūrah|alif maqsuura|ā|aa|aː|على|
+َ|also|fatḥah|fatha|a|a|a||
+ُ|also|ḍammah|damma|u|u|u||
+ِ|also|kasrah|kasra|i|i|i||
+ْ|also|sukūn|sukuun|||||
+ّ|also|shaddah|shadda|||ː||
+ً|also|tanwīn fatḥ|tanwiin fath|an|an|an||
+ٌ|also|tanwīn ḍamm|tanwiin damm|un|un|un||
+ٍ|also|tanwīn kasr|tanwiin kasr|in|in|in||
