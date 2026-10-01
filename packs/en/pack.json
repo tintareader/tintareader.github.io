@@ -1,6 +1,6 @@
 {
   "id": "en",
-  "version": "1.0.151",
+  "version": "1.0.161",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -10,7 +10,7 @@
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "10720b685bab57114cddf7c3417a752976f5499d3a7c1162e1adc173922f160d"
+      "sha256": "4d9bcadc95c94ca369090dbf64e5f48eb9a48c274eb6a9145f5a632b39e5351f"
     },
     "ranks": {
       "path": "ranks.txt",
@@ -40,7 +40,7 @@
     "gloss.id": {
       "path": "gloss.id.txt",
       "license": "unencumbered",
-      "sha256": "023c7a53da9ecc6e1e45f647080c95334e1ff5960a3b77c548f9a2dccda13faf"
+      "sha256": "56200947666ecfcd9d66d10578d95c8feb2c4fb239d45f6f8d57951284229385"
     },
     "phrases.id": {
       "path": "phrases.id.txt",
@@ -50,7 +50,7 @@
     "gloss.zh": {
       "path": "gloss.zh.txt",
       "license": "unencumbered",
-      "sha256": "3e2bad4e0781ee23d71ee76daa84aaa13a7cac5eb95253fe0b7aa9f5f6f40959"
+      "sha256": "d18195443eb793931f7de9513882b34731eb36349e03b6784fe9cac238f9a29c"
     },
     "phrases.zh": {
       "path": "phrases.zh.txt",
@@ -60,7 +60,7 @@
     "gloss.es": {
       "path": "gloss.es.txt",
       "license": "unencumbered",
-      "sha256": "98aca74a601a1704c02845766a9697fc3fa3fc1fa27f65f6dc1e6a8f3accefa7"
+      "sha256": "f43158422f84665158de960de37304b88ef51bbe7c8ef5598e2c0cf49dea32a3"
     },
     "phrases.es": {
       "path": "phrases.es.txt",
@@ -70,7 +70,7 @@
     "gloss.fr": {
       "path": "gloss.fr.txt",
       "license": "unencumbered",
-      "sha256": "783e6763b23848090b1424e0e6976b9f260f7f29b4fe9669abea30a131e99c6c"
+      "sha256": "298304701ef9ee81ad4d36046ca41b5e319d32e898dc10caa55baba31f614e02"
     },
     "phrases.fr": {
       "path": "phrases.fr.txt",
@@ -80,7 +80,7 @@
     "gloss.pt": {
       "path": "gloss.pt.txt",
       "license": "unencumbered",
-      "sha256": "f02b0bde76997e78697c820172c9abb1909d371b68ce48bf6ed3455847f0d10c"
+      "sha256": "9590a774a3d7bc34fe6fa95c4df5c189aa10b97e876766372d36d65746c46964"
     },
     "phrases.pt": {
       "path": "phrases.pt.txt",
@@ -121,6 +121,11 @@
       "path": "letters.zh.txt",
       "license": "unencumbered",
       "sha256": "a1062ef8cef9d93ac84bf6bd4c7efb06bbfa745762eb2588d1ebb6bd2f23d620"
+    },
+    "define.en": {
+      "path": "define.en.txt",
+      "license": "unencumbered",
+      "sha256": "379a4271932d369efbe1f5b4a0d7b7f8ff44732283d02e2e186bb439b766ceb4"
     }
   }
 }

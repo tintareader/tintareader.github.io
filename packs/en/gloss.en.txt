@@ -28,9 +28,9 @@ we|we|f1p
 me|me|o
 this|this (this one, near me); this (the present one: this week, this morning)|o;o
 he|he|f3s
-do|to do; (makes questions and negatives: do you know?); do without: to manage without; do away with: to abolish, to get rid of|v;g;n;n
+do|to do; (makes questions and negatives: do you know?); do without: to manage without; do away with: to abolish, to get rid of; to carry out (work, a task); to be enough (that will do); to get on, to manage (how are you doing?)|v;g;n;n;v;v;v
 for|for (intended for); for (a length of time); for, because; for, in favour of; for, on behalf of (works for a bank)|o;o;o;o;o
-have|to have; (makes the perfect: I have seen); have to: must|v;g;n
+have|to have; (makes the perfect: I have seen); have to: must; to own; to eat or drink (have lunch); to experience (have fun, have a cold)|v;g;n;v;v;v
 my|my|o
 on|on, on top of; on (a day or date); on, about (a subject); on, switched on, working; on, continuing (go on, carry on, read on); on (by means of: on the phone, on TV)|o;o;o;o;o;o
 your|your|o
@@ -47,7 +47,7 @@ can|can, to be able to; (in can't) cannot; a can, a tin|o;o;o
 with|with; with, using (cut it with a knife); with, having (a girl with red hair); with, because of (shaking with fear); with, supporting, understanding (I'm with you)|o;o;o;o;o
 but|but, however; but, except (all but one)|o;o
 all|all, everything; all, completely (all alone, all wet); all right: OK, unhurt, yes (agreed); all over: everywhere, finished; all along: the whole time, from the beginning|o;o;n;n;n
-go|to go; go on: to continue, to happen (what's going on); go through: to experience, to endure, to examine in order; go ahead: to proceed, to go first; go off: to explode, to ring (an alarm), to leave, to go bad; go over: to go across (to someone, a place), to review, to examine; go by: to pass (time, a place), to be guided by; go about: to set about, to tackle (a task); go along with: to agree to, to accept; go wrong: to fail, to have a problem|v;n;n;n;n;n;n;n;n;n
+go|to go; go on: to continue, to happen (what's going on); go through: to experience, to endure, to examine in order; go ahead: to proceed, to go first; go off: to explode, to ring (an alarm), to leave, to go bad; go over: to go across (to someone, a place), to review, to examine; go by: to pass (time, a place), to be guided by; go about: to set about, to tackle (a task); go along with: to agree to, to accept; go wrong: to fail, to have a problem; to leave; to become (go wrong, go bald); to lead (the road goes to the sea); to belong, to fit (it goes in the drawer)|v;n;n;n;n;n;n;n;n;n;v;v;v;v
 so|so, therefore; so (to that degree); so (in order that); and so on: and others of that kind; or so: approximately|o;o;o;n;n
 get|to get, to obtain; to become; to arrive; to understand; get out: to leave, to escape, get out! (go away); get out of: to leave, to avoid (a duty); get up: to rise (from bed), to stand up; get away: to escape, to go on holiday; get away with: to escape punishment for; get over: to recover from; get through: to survive, to finish, to reach by telephone; get along: to be friendly, to manage; get on: to board or climb on (a vehicle), to be friendly, to progress; get on with: to continue, to be friendly with; get off: to leave (a bus, a train), to escape punishment; get back: to return, to recover; get by: to manage, to survive; get rid of: to remove, to throw away|v;v;v;v;n;n;n;n;n;n;n;n;n;n;n;n;n;n
 just|just, only; just (a moment ago); just, simply (for emphasis: it just stopped); just, exactly (just like him, just right); just, barely (just in time)|o;o;o;o;o
@@ -57,7 +57,7 @@ like|like, similar to; to enjoy; like, such as (cities like Paris); like, as if 
 they|they|f3p
 'll|will|o
 she|she|f3s
-come|to come; come on: hurry up!, please!, stop it!; come up with: to think of, to produce (an idea); come along: to go with someone, to progress, to appear; come over: to come across (to where someone is), to visit, (of a feeling) to affect suddenly; come across: to find or meet by chance, to seem; come by: to visit briefly, to obtain; come about: to happen; come upon: to find by chance; come round: to visit, to change one's mind, to regain consciousness; come true: to become real|v;n;n;n;n;n;n;n;n;n;n
+come|to come; come on: hurry up!, please!, stop it!; come up with: to think of, to produce (an idea); come along: to go with someone, to progress, to appear; come over: to come across (to where someone is), to visit, (of a feeling) to affect suddenly; come across: to find or meet by chance, to seem; come by: to visit briefly, to obtain; come about: to happen; come upon: to find by chance; come round: to visit, to change one's mind, to regain consciousness; come true: to become real; to arrive; to reach (a point, an end)|v;n;n;n;n;n;n;n;n;n;n;v;v
 if|if (on condition that); if, whether|o;o
 right|right, correct; right (the side); (interjection) okay; a right, an entitlement; right away: immediately, at once; right now: at this moment; (before a place or time) exactly, just (right here, right after)|o;o;o;o;n;n;o
 want|to want|v
@@ -81,7 +81,7 @@ look|to look; look! (pay attention); a look, a glance; a look, an expression, ap
 got|got, past of get; have got: to have; have got to: must (I've got to go); got up: rose (from bed), stood up; got out: left, escaped; got back: returned; got rid of: removed, threw away; got over: recovered from; got away: escaped; got on: boarded, got along; got off: left (a bus, a train); got through: survived, finished, reached by telephone; got used to: became accustomed to|o;n;n;n;n;n;n;n;n;n;n;n;n
 okay|okay, all right|o
 as|as, like; as (while); as (in the role of: work as a teacher); as, because (as it was late, we left); as if / as though: in a way that suggests; as for: concerning|o;o;o;o;n;n
-take|to take; take over: to take control of; take on: to accept (work, a responsibility), to employ, to fight against, to acquire (a look, a quality); take off: to remove (clothes), to leave the ground, to leave; take out: to bring out (of a pocket, a bag), to remove, to take someone out; take back: to withdraw (something said), to return (goods); take after: to resemble (a parent); take place: to happen; take part: to participate; take care of: to look after, to deal with; take advantage of: to use (a chance), to exploit; take it easy: to relax, to calm down|v;n;n;n;n;n;n;n;n;n;n;n
+take|to take; take over: to take control of; take on: to accept (work, a responsibility), to employ, to fight against, to acquire (a look, a quality); take off: to remove (clothes), to leave the ground, to leave; take out: to bring out (of a pocket, a bag), to remove, to take someone out; take back: to withdraw (something said), to return (goods); take after: to resemble (a parent); take place: to happen; take part: to participate; take care of: to look after, to deal with; take advantage of: to use (a chance), to exploit; take it easy: to relax, to calm down; to need (time, effort: it takes an hour); to travel by (a bus, a train); to accept (a job, advice, a card); to carry or lead (somewhere); to have (a shower, a photo, a look)|v;n;n;n;n;n;n;n;n;n;n;n;v;v;v;v;v
 good|good, of high quality; good, kind, well-behaved; good, pleasant, enjoyable; goods: things for sale; for good: permanently; no good: useless, bad|o;o;o;n;n;n
 let|to let, to allow; let down: to disappoint, to fail someone, to lower (let down one's guard); let go: to release, to stop holding; let in: to allow to enter; let out: to utter (a sigh, a cry), to release; let alone: and certainly not|v;n;n;n;n;n
 did|past form of do|o
@@ -92,7 +92,7 @@ from|from|o
 his|his|o
 yes|yes|o
 time|time; a time (an occasion); on time: punctually, not late; in time: early enough, eventually; at the same time: simultaneously, nevertheless; from time to time: sometimes; all the time: always, constantly; for the time being: for now|o;o;n;n;n;n;n;n
-make|to make, to create; to force (to do); make up: to invent (a story), to form, to become friends again, to decide (make up one's mind); make up for: to compensate for; make out: to see or hear with difficulty, to understand, to kiss; make sure: to check, to ensure; make sense: to be understandable, to be logical; make fun of: to mock, to laugh at; make the most of: to use as well as possible|v;v;n;n;n;n;n;n;n
+make|to make, to create; to force (to do); make up: to invent (a story), to form, to become friends again, to decide (make up one's mind); make up for: to compensate for; make out: to see or hear with difficulty, to understand, to kiss; make sure: to check, to ensure; make sense: to be understandable, to be logical; make fun of: to mock, to laugh at; make the most of: to use as well as possible; to earn (money); to cause to be (it makes me happy)|v;v;n;n;n;n;n;n;n;v;v
 when|when|o
 going|going; going to: about to; going on: continuing, happening (what's going on)|o;n;n
 an|a, one (before a vowel sound)|o
@@ -116,7 +116,7 @@ really|really, truly; really (very)|o;o
 thank|to thank; thank you: thanks; thanks: thank you; thanks to: because of|v;n;n;n
 some|some; some, a certain (some guy called); some, about, approximately (some 20 people)|o;o;o
 hey|hey (greeting; getting attention)|o
-give|to give; give up: to stop trying, to quit, to hand over; give in: to yield, to stop resisting; give away: to give without payment, to reveal (a secret); give birth: to have a baby; give way: to collapse, to yield, to be replaced by (gave way to)|v;n;n;n;n;n
+give|to give; give up: to stop trying, to quit, to hand over; give in: to yield, to stop resisting; give away: to give without payment, to reveal (a secret); give birth: to have a baby; give way: to collapse, to yield, to be replaced by (gave way to); to cause (a headache, a fright); to hold, to perform (a party, a talk)|v;n;n;n;n;n;v;v
 could|could, was able to; could (a polite request); could, might (it could be)|o;o;o
 'd|would (I'd like); (had: I'd gone); (did: where'd you go)|o;g;g
 didn|(did not, in didn't)|g
@@ -165,8 +165,8 @@ stop|to stop; a stop (bus or train)|v;o
 happen|to happen|v
 first|first, before all others; first, before doing anything else; at first: in the beginning; first of all: firstly, before anything else|o;o;n;n
 into|into (to the inside of); into, interested in (I'm into music)|o;o
-keep|to keep; to carry on (doing); keep up: to stay level with, to continue; keep up with: to stay level with; keep on: to continue|v;v;n;n;n
-find|to find; find out: to discover, to learn|v;n
+keep|to keep; to carry on (doing); keep up: to stay level with, to continue; keep up with: to stay level with; keep on: to continue; to stay (keep calm, keep warm)|v;v;n;n;n;v
+find|to find; find out: to discover, to learn; to think, to consider (I find it hard)|v;n;v
 ask|to ask (a question); to ask for|v;v
 still|still (even now); still, motionless; still, nevertheless, even so|o;o;o
 anything|anything|o
@@ -175,7 +175,7 @@ god|god; oh God: exclamation of shock|o;n
 leave|to leave (go away); to leave (behind); leave, time off|v;v;o
 nothing|nothing|o
 sir|sir (polite address to a man)|o
-put|to put, to place; put on: to dress in, to switch on, to put on (weight, a show); put up: to raise, to build, to offer (a fight, resistance), to give someone a bed for the night; put up with: to tolerate; put out: to extinguish (a fire, a light), to inconvenience; put off: to delay, to make someone lose interest; put down: to set down (put down the cup), to write, to suppress, to put an animal to sleep, to criticise; put away: to put back in its place, to imprison; put together: to assemble|v;n;n;n;n;n;n;n;n
+put|to put, to place; put on: to dress in, to switch on, to put on (weight, a show); put up: to raise, to build, to offer (a fight, resistance), to give someone a bed for the night; put up with: to tolerate; put out: to extinguish (a fire, a light), to inconvenience; put off: to delay, to make someone lose interest; put down: to set down (put down the cup), to write, to suppress, to put an animal to sleep, to criticise; put away: to put back in its place, to imprison; put together: to assemble; to express (put it simply)|v;n;n;n;n;n;n;n;n;v
 their|their|o
 great|great, very good; great, large|o;o
 long|long, lasting a long time; long, of great length; to long for, to want very much; as long as: provided that, for the whole time that; no longer: not any more; before long: soon|o;o;v;n;n;n
@@ -257,14 +257,14 @@ today|today, this day; today, nowadays|o;o
 car|car|o
 another|another, one more; another, a different one|o;o
 minute|minute, sixty seconds; a minute, a moment (wait a minute); minute, very small|o;o;o
-turn|to turn; a turn (your go); turn out: to prove to be, to happen in the end, to switch off (a light); turn into: to become; turn on: to switch on (a machine, a light), to attack; turn off: to switch off (a machine, a light); turn up: to arrive, to appear, to turn upwards (a collar), to increase (volume); turn down: to refuse (an offer), to reduce (volume); turn over: to flip, to hand over (to the authorities); turn around: to face the other way, to reverse a decline; in turn: one after another, as a result|v;o;n;n;n;n;n;n;n;n;n
+turn|to turn; a turn (your go); turn out: to prove to be, to happen in the end, to switch off (a light); turn into: to become; turn on: to switch on (a machine, a light), to attack; turn off: to switch off (a machine, a light); turn up: to arrive, to appear, to turn upwards (a collar), to increase (volume); turn down: to refuse (an offer), to reduce (volume); turn over: to flip, to hand over (to the authorities); turn around: to face the other way, to reverse a decline; in turn: one after another, as a result; to become (turn red, turn twenty)|v;o;n;n;n;n;n;n;n;n;n;v
 same|same|o
 son|son|o
 found|found, past of find; to found, to establish; found out: discovered, learnt|o;v;n
 else|else, other, besides; or else: otherwise|o;n
 next|next, following, coming after; next to: beside|o;n
 use|to use; use, purpose|v;o
-run|to run; to run (a business); run into: to meet by chance, to collide with, to run inside; run out of: to have no more of; run out: to be used up, to expire, to run outside, to leave (ran out on him); run away: to escape, to flee|v;v;n;n;n;n
+run|to run; to run (a business); run into: to meet by chance, to collide with, to run inside; run out of: to have no more of; run out: to be used up, to expire, to run outside, to leave (ran out on him); run away: to escape, to flee; to flow (water runs); to work, to operate (an engine, a program)|v;v;n;n;n;n;v;v
 live|to live; live (happening now, not recorded); live up to: to be as good as (expectations)|v;o;n
 mind|mind; to mind, to object; to watch out for, to be careful of (mind the step); never mind: it does not matter, do not worry; in mind: in one's thoughts (keep in mind, bear in mind); change my mind / change your mind: to change one's decision|o;v;v;n;n;n
 yourself|yourself|o
@@ -280,7 +280,7 @@ room|room (in a house); room, space|o;o
 mom|mom, mother|o
 watch|to watch; watch (on the wrist)|v;o
 child|child|o
-hold|to hold; hold on: to wait, to grip, hold on! (wait!); hold up: to raise, to delay, to rob, to support; hold out: to extend (a hand), to last, to resist; hold back: to restrain, to hesitate, to keep secret; hold on to: to keep, to grip|v;n;n;n;n;n
+hold|to hold; hold on: to wait, to grip, hold on! (wait!); hold up: to raise, to delay, to rob, to support; hold out: to extend (a hand), to last, to resist; hold back: to restrain, to hesitate, to keep secret; hold on to: to keep, to grip; to contain (it holds two litres); to organise (a meeting, an election); to keep (hold your breath)|v;n;n;n;n;n;v;v;v
 best|best|o
 morning|morning|o
 hell|hell; what the hell: expresses annoyance|o;n
