@@ -1,0 +1,69 @@
+# Tinta — what the Portuguese letters sound like, for a reader of English.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to English words.
+a||ah, as in father
+a|end|a weak uh at the end of a word, as in sofa
+b||b, as in bed
+c||k, as in cat
+c|beforefront|s, as in see
+d||d, as in dog
+d|beforefront|j, as in jeans, before i and a final e in Brazil: dia, cidade
+e||ay, as in say
+e|end|ee, as in see, at the end of a word in Brazil: leite
+f||f, as in fish
+g||g, as in go
+g|beforefront|zh, like the s of measure
+h||always silent
+i||ee, as in see
+j||zh, like the s of measure
+k||k; loanwords only
+l||l, light and clear
+l|end|w at the end of a syllable in Brazil: Brasil says "brazeew"
+m||m, as in man
+m|end|not said as m: it makes the vowel before it nasal
+n||n, as in no
+o||oh, as in so
+o|end|oo, as in food, at the end of a word: livro
+p||p, as in pen
+q||only in qu
+r||one quick tap of the tongue, like the tt of American butter
+r|start|like an English h, at the start of a word in Brazil: rio
+r|end|a light h, or a tap, at the end of a syllable
+s||s, as in see
+s|between|z, as in zoo, between two vowels
+s|end|s; sh in Rio and in Portugal
+t||t, as in top
+t|beforefront|ch, as in cheese, before i and a final e in Brazil: tia, leite
+u||oo, as in food
+v||v, as in van
+w||w; loanwords only
+x||sh, as in ship, most often; also ks, z or s
+y||ee; loanwords only
+z||z, as in zoo
+z|end|s at the end of a word: feliz
+lh||ly, close to the lli of million
+nh||ny, as in canyon
+ch||sh, as in ship
+rr||like an English h, from the throat: carro
+ss||s, as in see; written ss between vowels, where one s says z
+qu||k before e and i; kw before a and o
+ão||a nasal ow: the ow of how said through the nose
+õe||a nasal oy: the oy of boy said through the nose
+ãe||a nasal eye: the word eye said through the nose
+á||ah, with the stress written on it
+à||a; it is a + a run together
+â||a closed uh, with the stress on it
+ã||a nasal uh: the u of cut said through the nose
+é||open e, as in bed, with the stress on it
+ê||closed e, as in say, with the stress on it
+í||ee, with the stress written on it
+ó||open o, as in British pot, with the stress on it
+ô||closed o, as in so, with the stress on it
+õ||a nasal o: o said through the nose
+ú||oo, with the stress written on it
+ç||s, as in see

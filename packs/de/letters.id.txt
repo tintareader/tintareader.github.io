@@ -1,0 +1,57 @@
+# Tinta — what the German letters sound like, for a reader of Indonesian.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Indonesian words.
+a||a, seperti dalam bapak; lebih pendek sebelum dua konsonan
+b||b, seperti dalam batu
+b|end|p di akhir kata: ab dibaca "ap"
+c||jarang di luar ch dan ck: k dalam kebanyakan kata serapan
+c|beforefront|ts, seperti dalam tsunami; bukan c Indonesia
+d||d, seperti dalam dua
+d|end|t di akhir kata: Hund dibaca "hunt"
+e||é, seperti dalam sate, bila panjang; e, seperti dalam bebek, bila pendek
+e|end|e lemah di akhir kata, seperti e dalam besar
+e|lastsyllable|e lemah di suku kata terakhir, seperti e dalam besar: gehen dibaca "gé-en"
+f||f, seperti dalam fajar
+g||g, seperti dalam gula, tidak pernah j
+g|end|k di akhir kata: Tag dibaca "tak"
+h||h, seperti dalam hari
+h|aftervowel|biasanya tidak dibaca setelah vokal, dan membuat vokal itu panjang
+i||i panjang, seperti dalam ini; bila pendek, lebih longgar
+j||y, seperti dalam yakin; bukan j Indonesia
+k||k, seperti dalam kaki
+l||l, seperti dalam lampu
+m||m, seperti dalam makan
+n||n, seperti dalam nasi
+o||o, seperti dalam soto tetapi lebih bulat; bila pendek, lebih terbuka
+p||p, seperti dalam pagi
+q||hanya dalam qu, yang dibaca kv
+r||dibuat di pangkal tenggorokan, mirip gh dalam ghaib
+r|end|mendekati a lemah di akhir kata: Bier dibaca "bi-a"
+s||s, seperti dalam sapu
+s|beforevowel|z, seperti dalam zaman, sebelum vokal
+t||t, seperti dalam tahu
+u||u, seperti dalam buku, bila panjang; bila pendek, lebih longgar
+v||f, seperti dalam fajar; v dalam beberapa kata serapan
+w||v: gigi atas menyentuh bibir bawah; bukan w Indonesia
+x||ks, seperti dalam taksi
+y||seperti ü: ucapkan i dengan bibir dibulatkan
+z||ts, seperti dalam tsunami, bahkan di awal kata
+ä||e, seperti dalam bebek; bila panjang, e terbuka yang panjang
+ö||ucapkan é (sate) dengan bibir dibulatkan seperti untuk o
+ü||ucapkan i dengan bibir dibulatkan seperti untuk u
+ß||ss, s yang tajam, setelah vokal panjang
+sch||sy, seperti dalam syarat
+ch||setelah a, o, u: kh, seperti dalam akhir; selain itu: y dalam yakin tanpa suara
+ck||k; vokal sebelumnya pendek
+ei||ai, seperti dalam pantai
+ie||i panjang, seperti dalam ini
+au||au, seperti dalam pulau
+eu||oi, seperti dalam amboi
+äu||oi, seperti dalam amboi
+st||syt, di awal kata
+sp||syp, di awal kata

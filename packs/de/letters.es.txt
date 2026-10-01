@@ -1,0 +1,57 @@
+# Tinta — what the German letters sound like, for a reader of Spanish.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Spanish words.
+a||a, como en casa; más breve ante dos consonantes
+b||b, como en boca, con los labios bien cerrados
+b|end|p al final de palabra: ab suena "ap"
+c||rara fuera de ch y ck: k en la mayoría de préstamos
+c|beforefront|ts, como en tsunami
+d||d, como en dedo al inicio de palabra
+d|end|t al final de palabra: Hund suena "hunt"
+e||larga, una e más cerrada que la española; breve, como en perro
+e|end|una e débil y apagada al final de palabra
+e|lastsyllable|una e débil y apagada en la última sílaba: gehen suena «gué-en», casi «gué-n»
+f||f, como en foca
+g||g, como en gato, nunca como la j
+g|end|k al final de palabra: Tag suena "tak"
+h||h aspirada suave, como un soplo; no es la j española
+h|aftervowel|casi siempre muda tras vocal, que alarga
+i||larga, como en sí pero alargada; breve, una i algo abierta
+j||y, como en yo
+k||k, como la c de casa
+l||l, igual que en español
+m||m, como en mano
+n||n, como en nube
+o||larga, una o cerrada y pura; breve, una o abierta
+p||p, con un leve soplo de aire
+q||solo en qu, que suena kv
+r||se hace al fondo de la garganta, casi como una j suave y sonora
+r|end|casi una a breve al final: Bier suena "bi-a"
+s||s, como en sol
+s|beforevowel|s sonora, con zumbido de abeja, ante vocal
+t||t, con un leve soplo de aire
+u||larga, como en luna; breve, una u algo abierta
+v||f, como en foca; v en algunos préstamos
+w||v con los dientes sobre el labio inferior, nunca como la b
+x||ks, como en taxi
+y||como la ü: di i con los labios redondeados
+z||ts, como en tsunami, incluso al inicio de palabra
+ä||e abierta, como en perro; larga, esa misma e alargada
+ö||di e con los labios redondeados como para la o
+ü||di i con los labios redondeados como para la u
+ß||s, como en sol, tras una vocal larga
+sch||sh, como el ¡shh! para pedir silencio
+ch||tras a, o, u: como la j de jamón; si no, un siseo suave, como una i susurrada
+ck||k; la vocal anterior es breve
+ei||ai, como en aire
+ie||i larga, como en sí
+au||au, como en auto
+eu||oi, como en hoy
+äu||oi, como en hoy
+st||sht, al inicio de palabra
+sp||shp, al inicio de palabra

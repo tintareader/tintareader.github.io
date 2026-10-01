@@ -1,0 +1,54 @@
+# Tinta — what the Spanish letters sound like, for a reader of Chinese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Mandarin sounds and pinyin.
+a||像拼音的 a，如“爸”，短而清楚
+b||近似拼音的 b，但声带振动
+b|between|软化的 b：双唇几乎碰上，但不闭合
+c||不送气的 k，近似拼音的 g；不读拼音的 c
+c|beforefront|西班牙读齿间音：舌尖在上下齿间吹气；拉美读拼音的 s
+d||近似拼音的 d，但声带振动，舌尖抵上齿背
+d|between|很轻：舌尖在齿间轻擦，声带振动
+d|end|很弱或不发音：Madrid
+e||像“诶”，但更紧，不滑向 i
+f||像拼音的 f
+g||近似拼音的 g，但声带振动
+g|between|软化的 g：舌根不完全闭合
+g|beforefront|像拼音的 h，但在喉咙里摩擦得更重
+h||永远不发音
+i||像拼音的 i，短而清楚
+j||像拼音的 h，但在喉咙里摩擦得更重；不读拼音的 j
+k||不送气的 k；只用于外来词
+l||像拼音的 l，清晰
+m||像拼音的 m
+n||像拼音的 n
+ñ||ny：像“妞”(niu)开头的 n 带 i 滑音
+o||像拼音的 o，纯而不滑向 u，不读“欧”
+p||不送气的 p，近似拼音的 b
+q||只出现在 qu 中，读 k；不读拼音的 q
+r||舌尖在上齿龈快速轻弹一下，像很快的 d
+r|start|大舌音：舌尖连续颤动
+s||像拼音的 s，从不读浊音 z
+t||不送气的 t，近似拼音的 d，舌尖抵上齿背
+u||像拼音的 u，如“不”
+v||与 b 相同：近似拼音 b，声带振动；不读 v
+v|between|软化的 b：双唇几乎碰上，但不闭合
+w||像拼音的 w；只用于外来词
+x||读 ks，如 taxi；某些名字中读 h，如 México；不读拼音的 x
+y||像拼音的 y；很多地方更像英语 jam 的 j
+y|end|词尾读元音，像拼音的 i：hoy、muy
+z||西班牙读齿间音：舌尖在上下齿间吹气；拉美读拼音的 s
+ch||近似拼音的 ch，舌位稍靠前，接近 q
+ll||像拼音的 y；阿根廷读 sh
+rr||大舌音：舌尖连续颤动
+qu||读不送气的 k；u 不发音
+á||a，重音在这个音节
+é||e，重音在这个音节
+í||i，重音在这个音节；día 读 dí-a
+ó||o，重音在这个音节
+ú||u，重音在这个音节
+ü||本不发音的 u 要读出来：pingüino

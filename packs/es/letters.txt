@@ -1,0 +1,55 @@
+# Tinta — Spanish letters table, for letters mode.
+# This project's own work, derived from no third-party source: unencumbered.
+# What each letter sounds like is said per reader, in letters.<meta>.txt.
+#
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+#   key      the unit, lower case; a word is cut into these longest first
+#   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
+#   name     the letter's name in Spanish
+#   rom      romanisation (empty for a Latin alphabet)
+#   ipa      its usual sound, for the grid
+#   example  a common word with it, as the dictionary keys it
+#   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
+#            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
+#            heavy (an emphatic consonant)
+#
+# The pairs are the four Spanish spelling reads as one sound everywhere: ch, ll,
+# rr and qu. ñ is a letter of its own, the 27th. The accented vowels are the same
+# vowels with the stress written on them, so they are "also written", not letters.
+a|letter|a||||a|agua|vowel
+b|letter|be||||b|bueno|
+c|letter|ce||||k|casa|
+d|letter|de||||d|día|
+e|letter|e||||e|este|vowel,front
+f|letter|efe||||f|fuego|
+g|letter|ge||||g|gato|
+h|letter|hache|||||hora|
+i|letter|i||||i|isla|vowel,front
+j|letter|jota||||x|joven|
+k|letter|ka||||k|kilo|
+l|letter|ele||||l|luz|
+m|letter|eme||||m|madre|
+n|letter|ene||||n|noche|
+ñ|letter|eñe||||ɲ|niño|
+o|letter|o||||o|ojo|vowel
+p|letter|pe||||p|padre|
+q|letter|cu||||k||
+r|letter|erre||||ɾ|rojo|
+s|letter|ese||||s|sol|
+t|letter|te||||t|tiempo|
+u|letter|u||||u|uno|vowel
+v|letter|uve||||b|vida|
+w|letter|uve doble||||w|web|
+x|letter|equis||||ks|examen|
+y|letter|ye||||ʝ|yo|
+z|letter|zeta||||θ|zapato|
+ch|pair|||||tʃ|noche|
+ll|pair|||||ʝ|llamar|
+rr|pair|||||r|perro|
+qu|pair|||||k|querer|
+á|also|||||a|más|vowel
+é|also|||||e|café|vowel,front
+í|also|||||i|aquí|vowel,front
+ó|also|||||o|canción|vowel
+ú|also|||||u|último|vowel
+ü|also|||||w|vergüenza|vowel

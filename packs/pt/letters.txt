@@ -1,0 +1,66 @@
+# Tinta — Portuguese letters table, for letters mode.
+# This project's own work, derived from no third-party source: unencumbered.
+# What each letter sounds like is said per reader, in letters.<meta>.txt.
+#
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+#   key      the unit, lower case; a word is cut into these longest first
+#   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
+#   name     the letter's name in Portuguese
+#   rom      romanisation (empty for a Latin alphabet)
+#   ipa      its usual sound, for the grid
+#   example  a common word with it, as the dictionary keys it
+#   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
+#            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
+#            heavy (an emphatic consonant)
+#
+# The pairs are the ones Portuguese spelling reads as one sound: lh, nh, ch, rr,
+# ss and qu, and the three nasal diphthongs ão, õe and ãe. The sounds are those of
+# Brazil, which is the variety this pack is written for; the notes say where
+# Portugal differs.
+a|letter|a||||a|água|vowel
+b|letter|bê||||b|bom|
+c|letter|cê||||k|casa|
+d|letter|dê||||d|dia|
+e|letter|é||||e|ele|vowel,front
+f|letter|efe||||f|filho|
+g|letter|gê||||g|gato|
+h|letter|agá|||||hora|
+i|letter|i||||i|ilha|vowel,front
+j|letter|jota||||ʒ|já|
+k|letter|cá||||k||
+l|letter|ele||||l|livro|
+m|letter|eme||||m|mãe|
+n|letter|ene||||n|noite|
+o|letter|ó||||o|olho|vowel
+p|letter|pê||||p|pai|
+q|letter|quê||||k||
+r|letter|erre||||ʁ|rio|
+s|letter|esse||||s|sol|
+t|letter|tê||||t|tempo|
+u|letter|u||||u|um|vowel
+v|letter|vê||||v|vida|
+w|letter|dáblio||||w|web|
+x|letter|xis||||ʃ|peixe|
+y|letter|ípsilon||||i||vowel,front
+z|letter|zê||||z|zero|
+lh|pair|||||ʎ|filho|
+nh|pair|||||ɲ|vinho|
+ch|pair|||||ʃ|chuva|
+rr|pair|||||ʁ|carro|
+ss|pair|||||s|passar|
+qu|pair|||||k|quem|
+ão|pair|||||ɐ̃w|não|vowel
+õe|pair|||||õj|põe|vowel
+ãe|pair|||||ɐ̃j|mãe|vowel
+á|also|||||a|lá|vowel
+à|also|||||a|às|vowel
+â|also|||||ɐ|câmera|vowel
+ã|also|||||ɐ̃|irmã|vowel
+é|also|||||ɛ|café|vowel,front
+ê|also|||||e|você|vowel,front
+í|also|||||i|aí|vowel,front
+ó|also|||||ɔ|só|vowel
+ô|also|||||o|avô|vowel
+õ|also|||||õ||vowel
+ú|also|||||u|último|vowel
+ç|also|||||s|coração|

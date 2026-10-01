@@ -1,0 +1,79 @@
+# Tinta — what the French letters sound like, for a reader of Indonesian.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Indonesian words.
+a||a, seperti dalam bapak
+b||b, seperti dalam batu
+c||k, seperti dalam kaki; bukan c Indonesia
+c|beforefront|s, seperti dalam sapu
+d||d, seperti dalam dua
+d|end|biasanya tidak dibaca di akhir kata
+e||e lemah, seperti e dalam besar, atau tidak dibaca sama sekali
+e|end|tidak dibaca di akhir kata
+f||f, seperti dalam fajar
+g||g, seperti dalam gula
+g|beforefront|seperti sy dalam syarat, tetapi bersuara
+h||selalu tidak dibaca
+i||i, seperti dalam ini
+j||seperti sy dalam syarat, tetapi bersuara; bukan j Indonesia
+k||k; hanya dalam kata serapan
+l||l, ringan dan jelas
+m||m, seperti dalam makan
+n||n, seperti dalam nasi
+o||o, seperti dalam soto, murni; lebih terbuka sebelum konsonan
+p||p, seperti dalam pagi
+p|end|biasanya tidak dibaca di akhir kata
+q||hanya dalam qu, yang dibaca k
+r||dibuat di pangkal tenggorokan, mirip gh dalam ghaib
+s||s, seperti dalam sapu
+s|between|z, seperti dalam zaman, di antara dua vokal
+s|end|biasanya tidak dibaca di akhir kata
+t||t, dengan lidah menyentuh gigi, seperti dalam tahu
+t|end|biasanya tidak dibaca di akhir kata
+u||ucapkan i dengan bibir dibulatkan seperti untuk u
+v||v: seperti f tetapi bersuara; bukan f
+w||w atau v, tergantung katanya; hanya dalam kata serapan
+x||ks, seperti dalam taksi; gz dalam exemple
+x|end|biasanya tidak dibaca di akhir kata
+y||i, seperti dalam ini
+z||z, seperti dalam zaman
+z|end|biasanya tidak dibaca di akhir kata
+eau||o, seperti dalam soto, murni
+ou||u, seperti dalam buku
+au||o, seperti dalam soto, murni
+ai||e, seperti dalam bebek
+ei||e, seperti dalam bebek
+oi||wa, seperti dalam wajah
+eu||é (sate) dengan bibir dibulatkan; lebih terbuka sebelum konsonan
+ch||sy, seperti dalam syarat
+gn||ny, seperti dalam nyanyi
+qu||k; u tidak dibaca
+ph||f, seperti dalam foto
+ain||vokal sengau: e terbuka (bebek) lewat hidung, tanpa n
+ein||vokal sengau: e terbuka (bebek) lewat hidung, tanpa n
+oin||w, lalu e terbuka (bebek) lewat hidung, tanpa n
+on||vokal sengau: o lewat hidung, tanpa n
+an||vokal sengau: a lewat hidung, tanpa n
+en||vokal sengau: a lewat hidung, tanpa n
+in||vokal sengau: e terbuka (bebek) lewat hidung, tanpa n
+ez||é, seperti dalam sate; z tidak dibaca
+er||é, seperti dalam sate, di akhir kebanyakan kata (parler); er di beberapa kata (mer)
+où||u, seperti dalam buku
+œu||seperti eu terbuka: e (bebek) dengan bibir dibulatkan
+é||é, seperti dalam sate, pendek dan murni
+è||e, seperti dalam bebek
+ê||e, seperti dalam bebek
+ë||dibaca terpisah dari vokal sebelumnya: Noël dibaca no-el
+à||a; tanda aksen hanya membedakan kata
+â||a, sedikit lebih ke belakang
+î||i, seperti dalam ini
+ï||i, dibaca terpisah dari vokal sebelumnya: naïf
+ô||o, seperti dalam soto, murni
+û||seperti u: i dengan bibir dibulatkan
+ù||u, seperti dalam buku; hanya ditulis dalam où, "di mana"
+ç||s, seperti dalam sapu
+œ||seperti eu: é (sate) dengan bibir dibulatkan

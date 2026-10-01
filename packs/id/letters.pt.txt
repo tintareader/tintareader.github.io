@@ -1,0 +1,42 @@
+# Tinta — what the Indonesian letters sound like, for a reader of Portuguese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Portuguese words.
+a||a, como em casa; nunca nasal
+b||b, como em bola
+b|end|quase p no fim da palavra
+c||tch, como o ti carioca de tia; nunca k nem s
+d||d, como em dado; nunca vira dj antes de i
+d|end|quase t no fim da palavra
+e||em geral um e fraco e apagado; em algumas palavras ê ou é
+f||f; sobretudo em empréstimos, e muitas vezes dito como p
+g||g, como em gato, nunca como o g de gente
+h||h aspirado, um sopro leve; não é mudo como em hora
+h|end|um sopro leve no fim da palavra, não mudo
+i||i, como em vida
+j||dj, como o di carioca de dia
+k||k, como o c de casa
+k|end|uma parada seca na garganta no fim da palavra
+l||l claro, como em lata, mesmo no fim: nunca vira u
+m||m, como em mão; no fim não nasaliza a vogal
+n||n, como em nó; no fim não nasaliza a vogal
+o||o, como em ovo, puro
+p||p, como em pato
+q||k; só em empréstimos do árabe
+r||vibrado: o r de caro, ou rolado; nunca o r de garganta
+s||s, como em sapo; nunca z, nem entre vogais
+t||t, como em tatu; nunca vira tch antes de i
+u||u, como em uva
+v||f; em empréstimos
+w||u semivogal, como o u de quatro
+x||ks; só em empréstimos
+y||i semivogal, como o i de iate
+z||z, como em zebra; em empréstimos
+ng||o n de banco, mas sem soar o g depois
+ny||como o nh de banho
+sy||x, como o ch de chuva
+kh||um r raspado da garganta, como o rr carioca de carro

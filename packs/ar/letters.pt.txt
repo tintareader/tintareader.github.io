@@ -1,0 +1,49 @@
+# Tinta — what the Arabic letters sound like, for a reader of Portuguese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Portuguese words.
+ا||a longo, como em casa; no início da palavra leva uma vogal curta
+ا|start|no início da palavra, apoio de uma vogal breve (a, i ou u), não um ā longo
+ا|article|o a de al-, "o, a": dito no início da frase, cai depois de uma vogal (fi l-bayt)
+ا|end|ā longo no fim da palavra (hunā); depois da última letra de um substantivo muitas vezes escreve a terminação -an (kitāban, "um livro")
+ب||b, como em bola
+ت||t, como em tatu, sem virar tch antes de i
+ث||ponta da língua entre os dentes, soprando um s; o português não tem
+ج||dj, como o di carioca de dia; no Egito, g de gato
+ح||um h forte e soprado do fundo da garganta, como ao embaçar um vidro
+خ||um r raspado no fundo da garganta, como o rr carioca de carro
+د||d, como em dado, sem virar dj antes de i
+ذ||ponta da língua entre os dentes, com voz: um z suave; o português não tem
+ر||r vibrado: o r de caro, ou o r rolado mais longo
+ز||z, como em zebra
+س||s, como em sapo
+ش||x, como o ch de chuva
+ص||um s pesado: s com o fundo da língua levantado
+ض||um d pesado: d com o fundo da língua levantado
+ط||um t pesado: t com o fundo da língua levantado
+ظ||um z suave pesado, com a língua entre os dentes e o fundo levantado
+ع||um aperto forte no fundo da garganta; o português não tem esse som
+غ||um gargarejo com voz, como o r do francês
+ف||f, como em faca
+ق||k feito bem no fundo, junto à garganta
+ك||k, como o c de casa
+ل||l, como em lata
+ل|sun|o l de al-, "o, a", que toma o som da letra seguinte: ash-shams, não al-shams
+ل|article|o l de al-, "o, a": al-kitāb
+م||m, como em mão
+ن||n, como em nó
+ه||h aspirado, um sopro leve; não é mudo como em hora, nem no fim da palavra
+و||u semivogal, como o u de quatro; ou u longo, como em uva
+ي||i semivogal, como o i de iate; ou i longo, como em vida
+ء||uma parada seca na garganta, como no meio de "ã-ã" (não)
+أ||uma parada seca na garganta, depois a ou u
+إ||uma parada seca na garganta, depois i
+آ||uma parada seca na garganta, depois a longo
+ؤ||uma parada seca na garganta, escrita sobre um wāw
+ئ||uma parada seca na garganta, escrita sobre um yāʾ
+ة||a no fim da palavra; t quando vem um sufixo
+ى||a longo, como em casa; só no fim da palavra

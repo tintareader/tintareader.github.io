@@ -1,0 +1,50 @@
+# Tinta — what the English letters sound like, for a reader of Chinese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Mandarin sounds and pinyin.
+a||短 a，如 cat，介于拼音 a 和“诶”之间；词尾有 e 时读 ei，如 make
+b||近似拼音的 b，但声带振动，如 bed
+c||送气的 k，像拼音的 k，如 cat；不读拼音的 c
+c|beforefront|像拼音的 s，如 city
+d||近似拼音的 d，但声带振动，如 dog
+e||短 e，如 bed，像“诶”；在 be、me 中读拼音的 i
+e|end|通常不发音，并让前面的元音读字母本名：make、home
+f||像拼音的 f，如 fish
+g||近似拼音的 g，但声带振动，如 go
+g|beforefront|常读英语的 j（如 gem），但 get、give 不读
+h||像拼音的 h，但更轻，只是呼气，如 hat
+i||短 i，如 sit，比拼音 i 松；在 time 中读“爱”
+j||近似拼音的 zh，但声带振动、嘴唇略突，如 jam；不读拼音的 j
+k||送气的 k，像拼音的 k，如 kite；在 n 前不发音：know
+l||像拼音的 l，如 love
+m||像拼音的 m，如 man
+n||像拼音的 n，如 no
+o||短 o，如 hot，嘴张大；在 home 中近似“欧”
+p||送气的 p，像拼音的 p，如 pen
+q||只出现在 qu 中；不读拼音的 q
+r||舌尖向后卷、不碰上颚，近似拼音的 r 但不摩擦
+r|end|英式英语元音后不发音：car；美式英语要卷舌
+s||像拼音的 s，如 sun；常读浊音 z，如 is
+s|end|读 s 或浊音 z：cats、dogs
+t||送气的 t，像拼音的 t，如 top
+u||短 u，如 cut，近似“阿”；rule 中读拼音 u；use 中读 you
+v||上齿轻咬下唇，声带振动，如 van；不读 w
+w||像拼音的 w，如 wet；在 r 前不发音：write
+x||读 ks，如 box；不读拼音的 x
+y||像拼音的 y，如 yes
+y|end|词尾是元音：happy 中读拼音 i，my 中读“爱”
+z||浊音 z：拼音的 s 加声带振动，如 zoo；不读拼音的 z
+th||舌尖放在上下齿之间吹气：think 不振动，this 声带振动
+sh||介于拼音 sh 和 x 之间，嘴唇略突，如 ship
+ch||近似拼音的 ch，嘴唇略突，如 church；school 中读 k，chef 中读 sh
+ph||像拼音的 f，如 phone
+wh||像拼音的 w，如 what；who 中读 h
+ck||读 k；前面的元音是短元音
+ng||像拼音韵尾的 ng，如 sing
+qu||读 kw，如 quick
+ee||像拼音的 i，拉长，如 see
+oo||像拼音的 u，如 food；book 中短而松

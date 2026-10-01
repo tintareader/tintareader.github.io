@@ -1,0 +1,50 @@
+# Tinta — what the English letters sound like, for a reader of English.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to English words.
+a||short a, as in cat; ay, as in make, when an e ends the word
+b||b, as in bed
+c||k, as in cat
+c|beforefront|s, as in city
+d||d, as in dog
+e||short e, as in bed; ee in be and me
+e|end|usually silent, and makes the vowel before it say its name: make, home
+f||f, as in fish
+g||g, as in go
+g|beforefront|often j, as in gem, but not in get or give
+h||h, as in hat
+i||short i, as in sit; eye, as in time
+j||j, as in jam
+k||k, as in kite; silent before n: know
+l||l, as in love
+m||m, as in man
+n||n, as in no
+o||short o, as in hot; oh, as in home
+p||p, as in pen
+q||only in qu
+r||r, with the tongue curled back
+r|end|silent after a vowel in British English: car; said in American English
+s||s, as in sun; often z, as in is
+s|end|s or z: cats, dogs
+t||t, as in top
+u||short u, as in cut; oo, as in rule; you, as in use
+v||v, as in van
+w||w, as in wet; silent before r: write
+x||ks, as in box
+y||y, as in yes
+y|end|a vowel at the end: ee in happy, eye in my
+z||z, as in zoo
+th||two sounds: soft in think, hard in this
+sh||sh, as in ship
+ch||ch, as in church; k in school, sh in chef
+ph||f, as in phone
+wh||w, as in what; h in who
+ck||k; the vowel before it is short
+ng||ng, as in sing
+qu||kw, as in quick
+ee||ee, as in see
+oo||oo, as in food; short, as in book

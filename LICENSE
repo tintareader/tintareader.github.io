@@ -8,5 +8,6 @@ The application code (index.html and assets/) is all rights reserved.
 The language packs under packs/ are data, and each file carries the licence of
 the source it derives from; see NOTICE. The glosses are this project's own work
 and all rights reserved; frequency ranks and readings are CC BY-SA 4.0; lemma
-lists are ODbL 1.0. Files under incompatible licences are never merged, and each
+lists are ODbL 1.0; the Mandarin radical map is under the Unicode License v3.
+Files under incompatible licences are never merged, and each
 repeats its attribution in a `#` header.

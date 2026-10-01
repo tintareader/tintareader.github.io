@@ -1,0 +1,58 @@
+# Tinta — what the German letters sound like, for a reader of English.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: sun, article (Arabic's al-), end, start,
+#            lastsyllable (the last vowel of several), between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to English words.
+a||ah, as in father; shorter before two consonants
+b||b, as in bed
+b|end|p at the end of a word: ab says "ap"
+c||rare outside ch and ck: k in most loanwords
+c|beforefront|ts, as in cats
+d||d, as in dog
+d|end|t at the end of a word: Hund says "hunt"
+e||ay, as in say, when long; e, as in bed, when short
+e|end|a weak uh at the end of a word, as in sofa
+e|lastsyllable|a weak uh in the last syllable: gehen says "GAY-uhn", Tage says "TAH-guh"
+f||f, as in fish
+g||g, as in go, never j
+g|end|k at the end of a word: Tag says "tahk"
+h||h, as in hat
+h|aftervowel|usually silent after a vowel, which it makes long
+i||ee, as in see, when long; i, as in sit, when short
+j||y, as in yes
+k||k, as in kite
+l||l, as in leaf: light, never dark
+m||m, as in man
+n||n, as in no
+o||oh, as in so but pure; short o, as in British pot
+p||p, as in pen
+q||only in qu, which says kv
+r||made at the back of the throat, close to a gargle
+r|end|close to a short uh at the end: Bier says "bee-uh"
+s||s, as in sun
+s|beforevowel|z, as in zoo, before a vowel
+t||t, as in top
+u||oo, as in moon, when long; u, as in put, when short
+v||f, as in fish; v in some loanwords
+w||v, as in van
+x||ks, as in box
+y||like ü: say ee with your lips rounded
+z||ts, as in cats, even at the start of a word
+ä||e, as in bed; when long, like the vowel of air
+ö||say ay with your lips rounded as for oh
+ü||say ee with your lips rounded as for oo
+ß||ss, as in kiss, after a long vowel
+sch||sh, as in ship
+ch||after a, o, u: as in Scottish loch; elsewhere a soft hiss, like the h of huge
+ck||k, as in back; the vowel before it is short
+ei||eye, as in my
+ie||ee, as in see
+au||ow, as in how
+eu||oy, as in boy
+äu||oy, as in boy
+st||sht, at the start of a word
+sp||shp, at the start of a word

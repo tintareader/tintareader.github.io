@@ -1,0 +1,54 @@
+# Tinta — what the Spanish letters sound like, for a reader of Indonesian.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Indonesian words.
+a||a, seperti dalam bapak, pendek dan jelas
+b||b, seperti dalam batu
+b|between|b lembut: bibir hampir bertemu tetapi tidak menutup
+c||k, seperti dalam kaki; bukan c Indonesia
+c|beforefront|lidah di antara gigi, seperti ṡa (ث), di Spanyol; s di Amerika Latin
+d||d, dengan lidah menyentuh gigi
+d|between|d lembut, mendekati żal (ذ): lidah di antara gigi
+d|end|sangat lembut, atau tidak dibaca: Madrid
+e||é, seperti dalam sate
+f||f, seperti dalam fajar
+g||g, seperti dalam gula
+g|between|g lembut: lidah tidak sampai menutup
+g|beforefront|h kasar dari tenggorokan, seperti kh dalam khusus
+h||selalu tidak dibaca
+i||i, seperti dalam ini, pendek dan jelas
+j||h kasar dari tenggorokan, seperti kh dalam khusus; bukan j Indonesia
+k||k; hanya dalam kata serapan
+l||l, ringan dan jelas
+m||m, seperti dalam makan
+n||n, seperti dalam nasi
+ñ||ny, seperti dalam nyanyi
+o||o, seperti dalam soto, murni
+p||p, seperti dalam pagi
+q||hanya dalam qu, yang dibaca k
+r||satu ketukan lidah yang cepat, seperti r dalam lari
+r|start|digetarkan kuat, seperti r dalam rumah yang ditekan
+s||s, seperti dalam sapu, tidak pernah z
+t||t, dengan lidah menyentuh gigi, seperti dalam tahu
+u||u, seperti dalam buku
+v||sama dengan b: b, seperti dalam batu; bukan f
+v|between|b lembut: bibir hampir bertemu tetapi tidak menutup
+w||w; hanya dalam kata serapan
+x||ks, seperti dalam taksi; h dalam beberapa nama, seperti México
+y||y, seperti dalam yakin; di banyak tempat lebih mirip j dalam jalan
+y|end|i, sebuah vokal, di akhir kata: hoy, muy
+z||lidah di antara gigi, seperti ṡa (ث), di Spanyol; s di Amerika Latin
+ch||c, seperti dalam cari
+ll||y, seperti dalam yakin; sy di Argentina
+rr||digetarkan kuat, seperti r dalam rumah yang ditekan
+qu||k; u tidak dibaca
+á||a, dengan tekanan yang ditulis di atasnya
+é||e, dengan tekanan yang ditulis di atasnya
+í||i, dengan tekanan yang ditulis di atasnya; día dibaca dí-a
+ó||o, dengan tekanan yang ditulis di atasnya
+ú||u, dengan tekanan yang ditulis di atasnya
+ü||u yang dibaca di tempat biasanya diam: pingüino

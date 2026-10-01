@@ -1,0 +1,42 @@
+# Tinta — what the Indonesian letters sound like, for a reader of Chinese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Mandarin sounds and pinyin.
+a||像拼音的 a，如“爸”
+b||近似拼音的 b，但声带振动
+b|end|词尾接近 p
+c||近似拼音的 zh 或 j，不送气；不读 k 或 s，也不读拼音的 c
+d||近似拼音的 d，但声带振动
+d|end|词尾接近 t
+e||通常是弱读的 e，像轻声“的”(de)；有些词读“诶”
+f||读 f；多见于外来词，常被读成 p
+g||近似拼音的 g，但声带振动；不读 j
+h||像拼音的 h，但很轻
+h|end|词尾轻轻呼一口气，不是不发音
+i||像拼音的 i
+j||近似拼音的 j，但声带振动，像英语 jam 的 j
+k||不送气的 k，近似拼音的 g
+k|end|词尾是喉塞音：声音在喉咙里突然顿住
+l||像拼音的 l，清晰
+m||像拼音的 m
+n||像拼音的 n
+o||纯 o，像拼音 o，不滑向 u
+p||不送气的 p，近似拼音的 b
+q||读 k；只用于阿拉伯语借词，不读拼音的 q
+r||大舌音：舌尖轻弹或颤动
+s||像拼音的 s，从不读 z
+t||不送气的 t，近似拼音的 d
+u||像拼音的 u
+v||读 f；用于外来词
+w||像拼音的 w
+x||读 ks；只用于外来词，不读拼音的 x
+y||像拼音的 y
+z||浊音 z：拼音 s 加声带振动；用于外来词
+ng||像拼音韵尾的 ng，后面不带 g，也可出现在词首
+ny||像“妞”(niu)开头的 n 带 i 滑音
+sy||近似拼音的 sh 或 x
+kh||像拼音的 h，但在喉咙里摩擦得更重

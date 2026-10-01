@@ -1,0 +1,50 @@
+# Tinta — what the English letters sound like, for a reader of Indonesian.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Indonesian words.
+a||antara a dan e, mulut lebar: cat; ei bila kata berakhir e: make
+b||b, seperti dalam batu
+c||k, seperti dalam kaki; bukan c Indonesia
+c|beforefront|s, seperti dalam sapu: city
+d||d, seperti dalam dua
+e||e, seperti dalam bebek; i panjang dalam be dan me
+e|end|biasanya tidak dibaca, dan vokal sebelumnya dibaca seperti namanya: make, home
+f||f, seperti dalam fajar
+g||g, seperti dalam gula
+g|beforefront|sering j, seperti dalam jalan: gem; tetapi tidak dalam get atau give
+h||h, seperti dalam hari
+i||i pendek dan longgar: sit; ai, seperti dalam pantai: time
+j||j, seperti dalam jalan
+k||k, seperti dalam kaki; tidak dibaca sebelum n: know
+l||l, seperti dalam lampu
+m||m, seperti dalam makan
+n||n, seperti dalam nasi
+o||o pendek yang terbuka: hot; o yang meluncur ke u: home
+p||p, dengan sedikit hembusan napas: pen
+q||hanya dalam qu
+r||r tanpa getaran, ujung lidah melengkung ke belakang
+r|end|setelah vokal: tidak dibaca di Inggris (car), dibaca di Amerika
+s||s, seperti dalam sapu; sering z, seperti dalam is
+s|end|s atau z: cats, dogs
+t||t, dengan sedikit hembusan napas: top
+u||a pendek yang kabur: cut; u: rule; yu: use
+v||v: seperti f tetapi bersuara; bukan f
+w||w, seperti dalam waktu; tidak dibaca sebelum r: write
+x||ks, seperti dalam taksi
+y||y, seperti dalam yakin
+y|end|vokal di akhir kata: i dalam happy, ai dalam my
+z||z, seperti dalam zaman
+th||lidah di antara gigi: seperti ṡa (ث) dalam think, żal (ذ) dalam this
+sh||sy, seperti dalam syarat
+ch||c, seperti dalam cari; k dalam school, sy dalam chef
+ph||f, seperti dalam foto
+wh||w, seperti dalam what; h dalam who
+ck||k; vokal sebelumnya pendek
+ng||ng, seperti dalam bunga
+qu||kw, seperti dalam quick
+ee||i panjang, seperti dalam see
+oo||u panjang, seperti dalam food; pendek, seperti dalam book

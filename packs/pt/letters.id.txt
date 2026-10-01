@@ -1,0 +1,69 @@
+# Tinta — what the Portuguese letters sound like, for a reader of Indonesian.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Indonesian words.
+a||a, seperti dalam bapak
+a|end|a lemah di akhir kata, mendekati e dalam besar
+b||b, seperti dalam batu
+c||k, seperti dalam kaki; bukan c Indonesia
+c|beforefront|s, seperti dalam sapu
+d||d, seperti dalam dua
+d|beforefront|j, seperti dalam jalan, sebelum i dan e akhir di Brasil: dia, cidade
+e||é, seperti dalam sate
+e|end|i, seperti dalam ini, di akhir kata di Brasil: leite
+f||f, seperti dalam fajar
+g||g, seperti dalam gula
+g|beforefront|seperti sy dalam syarat, tetapi bersuara
+h||selalu tidak dibaca
+i||i, seperti dalam ini
+j||seperti sy dalam syarat, tetapi bersuara; bukan j Indonesia
+k||k; hanya dalam kata serapan
+l||l, ringan dan jelas
+l|end|w di akhir suku kata di Brasil: Brasil dibaca "braziu"
+m||m, seperti dalam makan
+m|end|tidak dibaca sebagai m: membuat vokal sebelumnya sengau
+n||n, seperti dalam nasi
+o||o, seperti dalam soto
+o|end|u, seperti dalam buku, di akhir kata: livro
+p||p, seperti dalam pagi
+q||hanya dalam qu
+r||satu ketukan lidah yang cepat, seperti r dalam lari
+r|start|seperti h dalam hari, di awal kata di Brasil: rio
+r|end|h ringan, atau satu ketukan, di akhir suku kata
+s||s, seperti dalam sapu
+s|between|z, seperti dalam zaman, di antara dua vokal
+s|end|s; sy di Rio dan di Portugal
+t||t, seperti dalam tahu
+t|beforefront|c, seperti dalam cari, sebelum i dan e akhir di Brasil: tia, leite
+u||u, seperti dalam buku
+v||v: seperti f tetapi bersuara; bukan f
+w||w; hanya dalam kata serapan
+x||sy, seperti dalam syarat, paling sering; juga ks, z atau s
+y||i; hanya dalam kata serapan
+z||z, seperti dalam zaman
+z|end|s di akhir kata: feliz
+lh||ly: l yang langsung disambung y
+nh||ny, seperti dalam nyanyi
+ch||sy, seperti dalam syarat
+rr||seperti h dalam hari, dari tenggorokan: carro
+ss||s, seperti dalam sapu; ditulis ss di antara vokal, tempat s tunggal dibaca z
+qu||k sebelum e dan i; kw sebelum a dan o
+ão||au sengau: au dalam pulau, lewat hidung
+õe||oi sengau: oi dalam amboi, lewat hidung
+ãe||ai sengau: ai dalam pantai, lewat hidung
+á||a, dengan tekanan yang ditulis di atasnya
+à||a; gabungan a + a
+â||a tertutup, mendekati e dalam besar, dengan tekanan
+ã||a sengau: a tertutup (besar) lewat hidung
+é||e terbuka, seperti dalam bebek, dengan tekanan
+ê||e tertutup, seperti dalam sate, dengan tekanan
+í||i, dengan tekanan yang ditulis di atasnya
+ó||o terbuka, mulut lebih lebar, dengan tekanan
+ô||o tertutup, seperti dalam soto, dengan tekanan
+õ||o sengau: o lewat hidung
+ú||u, dengan tekanan yang ditulis di atasnya
+ç||s, seperti dalam sapu

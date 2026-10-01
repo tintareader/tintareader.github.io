@@ -1,0 +1,57 @@
+# Tinta — German letters table, for letters mode.
+# This project's own work, derived from no third-party source: unencumbered.
+# What each letter sounds like is said per reader, in letters.<meta>.txt.
+#
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+#   key      the unit, lower case; a word is cut into these longest first
+#   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
+#   name     the letter's name in German
+#   ipa      its usual sound, for the grid
+#   example  a common word with it, as the dictionary keys it
+#   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
+#            closed (a pair refused before a vowel or a doubled letter); end (only at the tail)
+#
+# The pairs are kept to the ones German spelling treats as one sound without
+# exception worth a learner's while: sch, ch, ck, ei, ie, au, eu, äu, and st and
+# sp at the start of a word, where they say "sht" and "shp". Anything subtler is
+# for the notes, which say "usually".
+a|letter|a||||a|mann|vowel
+b|letter|be||||b|buch|
+c|letter|ce||||k, ts|computer|
+d|letter|de||||d|dank|
+e|letter|e||||e|see|vowel,front
+f|letter|ef||||f|fisch|
+g|letter|ge||||g|gut|
+h|letter|ha||||h|haus|
+i|letter|i||||i|bild|vowel,front
+j|letter|jot||||j|jahr|
+k|letter|ka||||k|kind|
+l|letter|el||||l|licht|
+m|letter|em||||m|mutter|
+n|letter|en||||n|nacht|
+o|letter|o||||o|oma|vowel
+p|letter|pe||||p|post|
+q|letter|ku||||k|quelle|
+r|letter|er||||ʁ|rot|
+s|letter|es||||z|sonne|
+t|letter|te||||t|tag|
+u|letter|u||||u|uhr|vowel
+v|letter|vau||||f|vater|
+w|letter|we||||v|wasser|
+x|letter|ix||||ks|taxi|
+y|letter|ypsilon||||y|typ|vowel,front
+z|letter|zet||||ts|zeit|
+ä|letter|ä||||ɛ|mädchen|vowel,front
+ö|letter|ö||||ø|schön|vowel,front
+ü|letter|ü||||y|über|vowel,front
+ß|letter|eszett||||s|straße|
+sch|pair|||||ʃ|schule|
+ch|pair|||||x|buch|
+ck|pair|||||k|zucker|
+ei|pair|||||aɪ|eis|vowel
+ie|pair|||||iː|liebe|vowel,front
+au|pair|||||aʊ|haus|vowel
+eu|pair|||||ɔʏ|heute|vowel
+äu|pair|||||ɔʏ|träumen|vowel
+st|pair|||||ʃt|stadt|start
+sp|pair|||||ʃp|spielen|start

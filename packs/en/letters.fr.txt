@@ -1,0 +1,50 @@
+# Tinta — what the English letters sound like, for a reader of French.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to French words.
+a||a bref, entre a et è : cat ; « éï » quand un e finit le mot : make
+b||b, comme dans bon
+c||k, comme dans cou
+c|beforefront|s, comme dans ciel
+d||d, comme dans doux
+e||è bref, comme dans sept : bed ; i long dans be et me
+e|end|en général muet, et fait dire son nom à la voyelle d'avant : make, home
+f||f, comme dans fou
+g||g dur, comme dans gare
+g|beforefront|souvent dj, comme dans djinn, mais pas dans get ni give
+h||un h soufflé qu'on entend, jamais muet
+i||i bref et ouvert, presque é : sit ; « aï », comme dans aïe : time
+j||dj, comme dans djinn, jamais le j français
+k||k, comme dans cou ; muet devant n : know
+l||l, comme dans lune
+m||m, comme dans mer
+n||n, comme dans nous
+o||o bref et ouvert, comme dans porte : hot ; « eo » glissé : home
+p||p, comme dans pain, avec un souffle
+q||seulement dans qu
+r||r sans frottement, la langue recourbée vers l'arrière
+r|end|muet après une voyelle en anglais britannique : car ; dit en américain
+s||s, comme dans sol ; souvent z, comme dans is
+s|end|s ou z : cats, dogs
+t||t, comme dans table, avec un souffle
+u||proche d'un a bref : cut ; ou : rule ; « iou » : use
+v||v, comme dans vin
+w||ou, comme dans oui ; muet devant r : write
+x||ks, comme dans taxi
+y||y, comme dans yeux
+y|end|une voyelle en fin de mot : i dans happy, « aï » dans my
+z||z, comme dans zéro
+th||absent du français : langue entre les dents, s dans think, z dans this
+sh||ch, comme dans chat
+ch||tch, comme dans tchèque ; k dans school, ch dans chef
+ph||f, comme dans photo
+wh||ou, comme dans what ; h dans who
+ck||k ; la voyelle d'avant est brève
+ng||ng, comme dans parking
+qu||kw, comme dans quick, proche de « kou- »
+ee||i long, comme dans lit
+oo||ou long, comme dans food ; bref, comme dans book

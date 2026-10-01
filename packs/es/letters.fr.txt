@@ -1,0 +1,54 @@
+# Tinta — what the Spanish letters sound like, for a reader of French.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to French words.
+a||a, comme dans papa, bref et net
+b||b, comme dans bon
+b|between|un b doux : les lèvres se frôlent sans se fermer
+c||k, comme dans cou
+c|beforefront|absent du français en Espagne : s langue entre les dents ; s en Amérique latine
+d||d, comme dans doux
+d|between|un d doux : la langue effleure les dents sans les toucher
+d|end|très doux, ou muet : Madrid
+e||entre é et è, comme le e de mettre dit plus fermé
+f||f, comme dans fou
+g||g dur, comme dans gare
+g|between|un g doux : la langue ne ferme pas tout à fait
+g|beforefront|un r raclé et sans voix, du fond de la gorge
+h||toujours muet, comme en français
+i||i, comme dans lit, bref et net
+j||un r raclé et sans voix, du fond de la gorge, jamais le j français
+k||k ; seulement dans les emprunts
+l||l, comme dans lune
+m||m, comme dans mer
+n||n, comme dans nous
+ñ||gn, comme dans montagne
+o||o, entre beau et porte, pur
+p||p, comme dans pain
+q||seulement dans qu, qui se dit k
+r||une seule frappe rapide du bout de la langue, jamais le r de gorge
+r|start|roulé : la langue vibre plusieurs fois
+s||s, comme dans sol, jamais z
+t||t, comme dans table
+u||ou, comme dans roue, jamais le u français
+v||comme b : b, comme dans bon, jamais le v français
+v|between|un b doux : les lèvres se frôlent sans se fermer
+w||w ; seulement dans les emprunts
+x||ks, comme dans taxi ; un r raclé dans quelques noms, comme México
+y||y, comme dans yeux ; souvent plus proche de dj, comme dans djinn
+y|end|i, une voyelle, en fin de mot : hoy, muy
+z||absent du français en Espagne : s langue entre les dents ; s en Amérique latine
+ch||tch, comme dans tchèque
+ll||y, comme dans yeux ; ch, comme dans chat, en Argentine
+rr||roulé : la langue vibre plusieurs fois
+qu||k ; le u est muet, comme dans qui
+á||a, avec l'accent tonique écrit dessus
+é||e, entre é et è, avec l'accent tonique écrit dessus
+í||i, avec l'accent tonique écrit dessus ; día se dit dí-a
+ó||o, avec l'accent tonique écrit dessus
+ú||ou, avec l'accent tonique écrit dessus
+ü||un u qui se dit là où il serait muet, comme ou : pingüino

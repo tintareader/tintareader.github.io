@@ -1,0 +1,49 @@
+# Tinta — what the Arabic letters sound like, for a reader of Indonesian.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Indonesian words.
+ا||a panjang, seperti a dalam bapak tetapi lebih lama; di awal kata, vokal pendek
+ا|start|di awal kata, tempat vokal pendek (a, i, atau u), bukan ā panjang
+ا|article|a dari al-, kata sandang: dibaca di awal kalimat, hilang setelah vokal (fi l-bayt)
+ا|end|ā panjang di akhir kata (hunā); setelah huruf terakhir kata benda sering menulis akhiran -an (kitāban, "sebuah buku")
+ب||b, seperti dalam batu
+ت||t, seperti dalam tahu
+ث||s dengan ujung lidah di antara gigi, seperti ṡa saat mengaji
+ج||j, seperti dalam jalan; g, seperti dalam gula, di Mesir
+ح||h yang kuat dan berdesah dari tenggorokan, seperti ḥa saat mengaji
+خ||kh, seperti dalam khusus atau akhir
+د||d, seperti dalam dua
+ذ||z dengan ujung lidah di antara gigi, seperti żal saat mengaji
+ر||r yang digetarkan, seperti r dalam raja
+ز||z, seperti dalam zaman
+س||s, seperti dalam sapu
+ش||sy, seperti dalam syarat
+ص||s yang berat: s dengan pangkal lidah terangkat
+ض||d yang berat: d dengan pangkal lidah terangkat
+ط||t yang berat: t dengan pangkal lidah terangkat
+ظ||ż yang berat: lidah di antara gigi, pangkal lidah terangkat
+ع||tekanan rapat di dalam tenggorokan, seperti ʿain saat mengaji
+غ||gh, bunyi seperti berkumur, seperti dalam ghaib
+ف||f, seperti dalam fajar
+ق||k yang diucapkan jauh di belakang, dekat tenggorokan
+ك||k, seperti dalam kaki
+ل||l, seperti dalam lampu
+ل|sun|l dari al-, kata sandang, yang berbunyi seperti huruf sesudahnya: asy-syams, bukan al-syams
+ل|article|l dari al-, kata sandang: al-kitāb
+م||m, seperti dalam makan
+ن||n, seperti dalam nasi
+ه||h, seperti dalam hari, tetap diucapkan di akhir kata
+و||w, seperti dalam waktu; atau u panjang
+ي||y, seperti dalam yakin; atau i panjang
+ء||hentian napas, seperti jeda dalam saat atau k di akhir kata bapak
+أ||hentian napas, lalu a atau u
+إ||hentian napas, lalu i
+آ||hentian napas, lalu a panjang
+ؤ||hentian napas, ditulis di atas wāw
+ئ||hentian napas, ditulis di atas yāʾ
+ة||a di akhir kata; t bila diikuti akhiran
+ى||a panjang, seperti a dalam bapak tetapi lama; hanya di akhir kata

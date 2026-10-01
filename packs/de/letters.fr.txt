@@ -1,0 +1,57 @@
+# Tinta — what the German letters sound like, for a reader of French.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to French words.
+a||a, comme dans pâte ; plus bref devant deux consonnes
+b||b, comme dans bon
+b|end|p en fin de mot : ab se dit « ap »
+c||rare hors de ch et ck : k dans la plupart des emprunts
+c|beforefront|ts, comme dans tsar
+d||d, comme dans doux
+d|end|t en fin de mot : Hund se dit « hount »
+e||é, comme dans été, s'il est long ; è, comme dans sept, s'il est bref
+e|end|un e faible en fin de mot, comme le e de petit
+e|lastsyllable|un e faible dans la dernière syllabe, comme le e de petit : gehen se dit « gué-eun »
+f||f, comme dans fou
+g||g dur, comme dans gare, jamais j
+g|end|k en fin de mot : Tag se dit « tak »
+h||un h soufflé qu'on entend, comme dans un soupir
+h|aftervowel|en général muet après une voyelle, qu'il allonge
+i||i, comme dans lit, s'il est long ; plus ouvert s'il est bref
+j||y, comme dans yeux, jamais le j français
+k||k, comme dans cou
+l||l, comme dans lune
+m||m, comme dans mer
+n||n, comme dans nous
+o||o fermé, comme dans beau, s'il est long ; ouvert, comme dans porte, s'il est bref
+p||p, comme dans pain
+q||seulement dans qu, qui se dit kv
+r||r du fond de la gorge, proche du r français
+r|end|presque un a bref en fin de mot : Bier se dit « bi-a »
+s||s, comme dans sol
+s|beforevowel|z, comme dans zéro, devant une voyelle
+t||t, comme dans table
+u||ou, comme dans roue, jamais le u français
+v||f, comme dans fou ; v dans certains emprunts
+w||v, comme dans vin
+x||ks, comme dans taxi
+y||comme ü : le u français, comme dans rue
+z||ts, comme dans tsar, même en début de mot
+ä||è, comme dans mère, bref ou long
+ö||eu, comme dans feu, s'il est long ; comme dans peur, s'il est bref
+ü||le u français, comme dans rue
+ß||ss, comme dans tasse, après une voyelle longue
+sch||ch, comme dans chat
+ch||après a, o, u : un r raclé, comme la jota espagnole ; ailleurs un ch doux, langue placée pour i
+ck||k ; la voyelle d'avant est brève
+ei||aï, comme dans aïe
+ie||i long, comme dans lit
+au||aou, comme dans miaou
+eu||oï, comme dans cowboy
+äu||oï, comme dans cowboy
+st||cht, en début de mot
+sp||chp, en début de mot

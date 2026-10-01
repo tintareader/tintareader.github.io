@@ -1,0 +1,79 @@
+# Tinta — what the French letters sound like, for a reader of Spanish.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Spanish words.
+a||a, como en casa
+b||b con los labios bien cerrados, también entre vocales
+c||k, como la c de casa
+c|beforefront|s, como la c de cine en América
+d||d firme, como en dedo, también entre vocales
+d|end|casi siempre muda al final de palabra
+e||una e débil y apagada, a medio camino de la o, o no se dice
+e|end|muda al final de palabra
+f||f, como en foca
+g||g, como en gato
+g|beforefront|como la ll de llave en Argentina, no como la j española
+h||siempre muda, como en español
+i||i, como en sí
+j||como la ll de llave en Argentina, no como la j española
+k||k; solo en préstamos
+l||l, igual que en español
+m||m, como en mano
+n||n, como en nube
+o||o cerrada y pura; abierta, como en ojo, ante consonante
+p||p, igual que en español
+p|end|casi siempre muda al final de palabra
+q||solo en qu, que suena k
+r||se hace al fondo de la garganta, casi como una j suave y sonora
+s||s, como en sol
+s|between|s sonora, con zumbido de abeja, entre dos vocales
+s|end|casi siempre muda al final de palabra
+t||t, igual que en español: la lengua contra los dientes
+t|end|casi siempre muda al final de palabra
+u||di i con los labios redondeados como para la u
+v||v con los dientes sobre el labio inferior, nunca como la b
+w||u semivocal o v, según la palabra; solo en préstamos
+x||ks, como en taxi; gz en exemple
+x|end|casi siempre muda al final de palabra
+y||i, como en sí
+z||s sonora, con zumbido de abeja, no como la z española
+z|end|casi siempre muda al final de palabra
+eau||o cerrada y pura
+ou||u, como en luna
+au||o cerrada y pura
+ai||e abierta, como en perro
+ei||e abierta, como en perro
+oi||ua, como en suave
+eu||di e con los labios redondeados; más abierta ante consonante
+ch||sh, como el ¡shh! para pedir silencio
+gn||ñ, como en niño
+qu||k; la u no suena, como en queso
+ph||f, como en foto
+ain||vocal nasal: una e abierta dicha por la nariz, sin n
+ein||vocal nasal: una e abierta dicha por la nariz, sin n
+oin||u semivocal y luego una e abierta dicha por la nariz, sin n
+on||vocal nasal: una o dicha por la nariz, sin n
+an||vocal nasal: una a dicha por la nariz, sin n
+en||vocal nasal: una a dicha por la nariz, sin n
+in||vocal nasal: una e abierta dicha por la nariz, sin n
+ez||e cerrada, como en café; la z no suena
+er||e cerrada, como en café, al final de casi todas las palabras (parler); «er» en unas pocas (mer)
+où||u, como en luna
+œu||como eu: una e abierta con los labios redondeados
+é||e cerrada y breve, como en café
+è||e abierta, como en perro
+ê||e abierta, como en perro
+ë||se dice aparte de la vocal anterior: Noël es no-el
+à||a; el acento solo distingue palabras
+â||a, un poco más atrás en la boca
+î||i, como en sí
+ï||i, dicha aparte de la vocal anterior: naïf
+ô||o cerrada y pura
+û||como la u: i con los labios redondeados
+ù||u, como en luna; solo se escribe en où, "donde"
+ç||s, como en sol
+œ||como eu: e con los labios redondeados

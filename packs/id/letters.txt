@@ -1,0 +1,48 @@
+# Tinta — Indonesian letters table, for letters mode.
+# This project's own work, derived from no third-party source: unencumbered.
+# What each letter sounds like is said per reader, in letters.<meta>.txt.
+#
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+#   key      the unit, lower case; a word is cut into these longest first
+#   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
+#   name     the letter's name in Indonesian
+#   rom      romanisation (empty for a Latin alphabet)
+#   ipa      its usual sound, for the grid
+#   example  a common word with it, as the dictionary keys it
+#   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
+#            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
+#            heavy (an emphatic consonant)
+#
+# Indonesian spelling is close to one letter, one sound, and the four pairs are
+# the exceptions: ng, ny, sy and kh. The diphthongs ai, au and oi are left as two
+# letters, because the same letters are two syllables just as often (main, laut).
+a|letter|a||||a|anak|vowel
+b|letter|be||||b|baru|
+c|letter|ce||||tʃ|cari|
+d|letter|de||||d|dan|
+e|letter|e||||ə|enam|vowel,front
+f|letter|ef||||f|foto|
+g|letter|ge||||g|guru|
+h|letter|ha||||h|hari|
+i|letter|i||||i|ini|vowel,front
+j|letter|je||||dʒ|jalan|
+k|letter|ka||||k|kamu|
+l|letter|el||||l|lima|
+m|letter|em||||m|makan|
+n|letter|en||||n|nama|
+o|letter|o||||o|orang|vowel
+p|letter|pe||||p|pagi|
+q|letter|ki||||k||
+r|letter|er||||r|rumah|
+s|letter|es||||s|satu|
+t|letter|te||||t|tidur|
+u|letter|u||||u|untuk|vowel
+v|letter|ve||||f|visa|
+w|letter|we||||w|waktu|
+x|letter|eks||||ks||
+y|letter|ye||||j|yang|
+z|letter|zet||||z|zaman|
+ng|pair|||||ŋ|dengan|
+ny|pair|||||ɲ|banyak|
+sy|pair|||||ʃ|syarat|
+kh|pair|||||x|khusus|

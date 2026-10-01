@@ -1,0 +1,56 @@
+# Tinta — English letters table, for letters mode.
+# This project's own work, derived from no third-party source: unencumbered.
+# What each letter sounds like is said per reader, in letters.<meta>.txt.
+#
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+#   key      the unit, lower case; a word is cut into these longest first
+#   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
+#   name     the letter's name in English
+#   rom      romanisation (empty for a Latin alphabet)
+#   ipa      its usual sound, for the grid
+#   example  a common word with it, as the dictionary keys it
+#   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
+#            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
+#            heavy (an emphatic consonant)
+#
+# English spells sounds less regularly than any other pack here, so the pairs are
+# kept to the ten that read the same way nearly everywhere: th, sh, ch, ph, wh,
+# ck, ng, qu, ee and oo. A pair like `ea` (bread, bead, great) is left as two
+# letters rather than given one sound it has only half the time; the notes on
+# each letter say "usually".
+a|letter|a||||æ|apple|vowel
+b|letter|bee||||b|big|
+c|letter|cee||||k|cat|
+d|letter|dee||||d|dog|
+e|letter|e||||ɛ|egg|vowel,front
+f|letter|ef||||f|fish|
+g|letter|gee||||ɡ|go|
+h|letter|aitch||||h|house|
+i|letter|i||||ɪ|it|vowel,front
+j|letter|jay||||dʒ|job|
+k|letter|kay||||k|key|
+l|letter|el||||l|love|
+m|letter|em||||m|man|
+n|letter|en||||n|name|
+o|letter|o||||ɒ|on|vowel
+p|letter|pee||||p|pen|
+q|letter|cue||||k||
+r|letter|ar||||ɹ|red|
+s|letter|ess||||s|sun|
+t|letter|tee||||t|time|
+u|letter|u||||ʌ|up|vowel
+v|letter|vee||||v|very|
+w|letter|double-u||||w|water|
+x|letter|ex||||ks|box|
+y|letter|wy||||j|yes|front
+z|letter|zed||||z|zero|
+th|pair|||||θ|think|
+sh|pair|||||ʃ|she|
+ch|pair|||||tʃ|child|
+ph|pair|||||f|phone|
+wh|pair|||||w|what|
+ck|pair|||||k|back|
+ng|pair|||||ŋ|sing|
+qu|pair|||||kw|quick|
+ee|pair|||||iː|see|vowel,front
+oo|pair|||||uː|food|vowel

@@ -1,0 +1,79 @@
+# Tinta — what the French letters sound like, for a reader of Portuguese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Portuguese words.
+a||a, como em casa
+b||b, como em bola
+c||k, como o c de casa
+c|beforefront|s, como o c de cidade
+d||d, como em dado; nunca vira dj antes de i
+d|end|em geral mudo no fim da palavra
+e||um e fraco com lábios arredondados, ou nem é dito
+e|end|mudo no fim da palavra
+f||f, como em faca
+g||g, como em gato
+g|beforefront|j, como o g de gente
+h||sempre mudo, como em hora
+i||i, como em vida
+j||j, como em janela
+k||k; só em empréstimos
+l||l claro, como em lata, mesmo no fim: nunca vira u
+m||m, como em mão
+n||n, como em nó
+o||ô puro, como em ovo; aberto, como em pó, antes de consoante
+p||p, como em pato
+p|end|em geral mudo no fim da palavra
+q||só em qu, que soa k
+r||feito no fundo da garganta, como o r carioca de rato, mas com voz
+s||s, como em sapo
+s|between|z, como em casa, entre duas vogais
+s|end|em geral mudo no fim da palavra
+t||t, como em tatu; nunca vira tch antes de i
+t|end|em geral mudo no fim da palavra
+u||diga i com os lábios arredondados como para u; nunca o u de uva
+v||v, como em vaca
+w||u semivogal ou v, conforme a palavra; só em empréstimos
+x||ks, como em táxi; gz em exemple
+x|end|em geral mudo no fim da palavra
+y||i, como em vida
+z||z, como em zebra
+z|end|em geral mudo no fim da palavra
+eau||ô, como em ovo, puro
+ou||u, como em uva
+au||ô, como em ovo, puro
+ai||é, como em pé
+ei||é, como em pé
+oi||uá, como o ua de quatro
+eu||ê com os lábios arredondados; mais aberto antes de consoante
+ch||x, como o ch de chuva
+gn||como o nh de banho
+qu||k; o u é mudo
+ph||f, como em foto
+ain||vogal nasal: um é aberto pelo nariz, sem soar n
+ein||vogal nasal: um é aberto pelo nariz, sem soar n
+oin||u semivogal e depois um é aberto pelo nariz: "uẽ", sem soar n
+on||vogal nasal: um ó aberto pelo nariz, perto de om, sem soar n
+an||vogal nasal: um a aberto pelo nariz, mais aberto que o ã de lã
+en||vogal nasal: um a aberto pelo nariz, mais aberto que o ã de lã
+in||vogal nasal: um é aberto pelo nariz, sem soar n
+ez||ê, como em medo; o z é mudo
+er||ê, como em medo, no fim da maioria das palavras (parler); ér em algumas (mer)
+où||u, como em uva
+œu||como eu: é aberto com os lábios arredondados
+é||ê fechado, como em medo, curto e puro
+è||é aberto, como em pé
+ê||é aberto, como em pé
+ë||dito à parte da vogal anterior: Noël é no-él
+à||a; o acento só distingue palavras
+â||a, um pouco mais atrás na boca
+î||i, como em vida
+ï||i, dito à parte da vogal anterior: naïf
+ô||ô fechado, como em ovo, puro
+û||como u: i com os lábios arredondados
+ù||u, como em uva; só em où, "onde"
+ç||s, como em caça
+œ||como eu: ê com os lábios arredondados

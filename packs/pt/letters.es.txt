@@ -1,0 +1,69 @@
+# Tinta — what the Portuguese letters sound like, for a reader of Spanish.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Spanish words.
+a||a, como en casa
+a|end|una a débil y apagada al final de palabra
+b||b con los labios bien cerrados, también entre vocales
+c||k, como la c de casa
+c|beforefront|s, como la c de cine en América
+d||d firme, como en dedo, también entre vocales
+d|beforefront|una ch sonora ante i y e final en Brasil: dia, cidade
+e||e cerrada, como en mesa
+e|end|i, como en sí, al final de palabra en Brasil: leite
+f||f, como en foca
+g||g, como en gato
+g|beforefront|como la ll de llave en Argentina, no como la j española
+h||siempre muda, como en español
+i||i, como en sí
+j||como la ll de llave en Argentina, no como la j española
+k||k; solo en préstamos
+l||l, igual que en español
+l|end|u al final de sílaba en Brasil: Brasil suena "brasiu"
+m||m, como en mano
+m|end|no suena como m: hace nasal la vocal anterior
+n||n, como en nube
+o||o, como en solo
+o|end|u, como en luna, al final de palabra: livro
+p||p, igual que en español
+q||solo en qu
+r||un toque simple de la lengua, como la r de pero
+r|start|como una j suave, al inicio de palabra en Brasil: rio
+r|end|una j suave, o un toque, al final de sílaba
+s||s, como en sol
+s|between|s sonora, con zumbido de abeja, entre dos vocales
+s|end|s; sh, como en ¡shh!, en Río y en Portugal
+t||t, igual que en español
+t|beforefront|ch, como en chico, ante i y e final en Brasil: tia, leite
+u||u, como en luna
+v||v con los dientes sobre el labio inferior, distinta de la b
+w||u semivocal; solo en préstamos
+x||sh, como en ¡shh!, casi siempre; también ks, z o s
+y||i; solo en préstamos
+z||s sonora, con zumbido de abeja, no como la z de España
+z|end|s al final de palabra: feliz
+lh||como la ll de quien la distingue de la y; casi li
+nh||ñ, como en niño
+ch||sh, como el ¡shh! para pedir silencio
+rr||como una j suave, desde la garganta: carro
+ss||s, como en sol; se escribe ss entre vocales, donde una s es sonora
+qu||k ante e, i, como en queso; cu ante a, o, como en cuando
+ão||au nasal: el au de auto dicho por la nariz
+õe||oi nasal: el oi de hoy dicho por la nariz
+ãe||ai nasal: el ai de aire dicho por la nariz
+á||a, con el acento escrito
+à||a; es a + a contraídas
+â||una a cerrada y apagada, con el acento
+ã||una a cerrada y apagada dicha por la nariz
+é||e abierta, más que en mesa, con el acento
+ê||e cerrada, como en mesa, con el acento
+í||i, con el acento escrito
+ó||o abierta, más que en solo, con el acento
+ô||o cerrada, como en solo, con el acento
+õ||o nasal: una o dicha por la nariz
+ú||u, con el acento escrito
+ç||s, como en sol

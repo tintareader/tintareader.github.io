@@ -1,0 +1,79 @@
+# Tinta — what the French letters sound like, for a reader of English.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to English words.
+a||a, between the a of cat and father
+b||b, as in bed
+c||k, as in cat
+c|beforefront|s, as in see
+d||d, as in dog
+d|end|usually silent at the end of a word
+e||a weak uh, as in about, or not said at all
+e|end|silent at the end of a word
+f||f, as in fish
+g||g, as in go
+g|beforefront|zh, like the s of measure
+h||always silent
+i||ee, as in see
+j||zh, like the s of measure
+k||k; loanwords only
+l||l, light and clear
+m||m, as in man
+n||n, as in no
+o||o, as in note but pure; open, as in British pot, before a consonant
+p||p, without a puff of air
+p|end|usually silent at the end of a word
+q||only in qu, which says k
+r||made at the back of the throat, close to a gargle
+s||s, as in see
+s|between|z, as in zoo, between two vowels
+s|end|usually silent at the end of a word
+t||t, with the tongue against the teeth
+t|end|usually silent at the end of a word
+u||say ee with your lips rounded as for oo
+v||v, as in van
+w||w or v, depending on the word; loanwords only
+x||ks, as in taxi; gz in exemple
+x|end|usually silent at the end of a word
+y||ee, as in see
+z||z, as in zoo
+z|end|usually silent at the end of a word
+eau||oh, as in so, but pure
+ou||oo, as in food
+au||oh, as in so, but pure
+ai||e, as in bed
+ei||e, as in bed
+oi||wa, as in wagon
+eu||ay said with rounded lips; open, like the u of fur, before a consonant
+ch||sh, as in ship
+gn||ny, as in canyon
+qu||k; the u is silent
+ph||f, as in phone
+ain||a nasal vowel: the a of cat said through the nose, no n
+ein||a nasal vowel: the a of cat said through the nose, no n
+oin||w, then the a of cat said through the nose, no n
+on||a nasal vowel: o said through the nose, no n
+an||a nasal vowel: ah said through the nose, no n
+en||a nasal vowel: ah said through the nose, no n
+in||a nasal vowel: the a of cat said through the nose, no n
+ez||ay, as in say; the z is silent
+er||ay, as in say, at the end of most words (parler); air in a few (mer)
+où||oo, as in food
+œu||like eu: the u of fur, without the r
+é||ay, as in say, but short and pure
+è||e, as in bed
+ê||e, as in bed
+ë||said apart from the vowel before it: Noël is no-el
+à||a; the accent only tells words apart
+â||a, a little further back, as in father
+î||ee, as in see
+ï||ee, said apart from the vowel before it: naïf
+ô||oh, as in so, but pure
+û||as u: ee with rounded lips
+ù||oo, as in food; written only in où, "where"
+ç||s, as in see
+œ||like eu: ay with rounded lips

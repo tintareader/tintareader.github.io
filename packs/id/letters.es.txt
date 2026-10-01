@@ -1,0 +1,42 @@
+# Tinta — what the Indonesian letters sound like, for a reader of Spanish.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Spanish words.
+a||a, como en casa
+b||b con los labios bien cerrados, también entre vocales
+b|end|casi p al final de palabra
+c||ch, como en chico, nunca k ni s
+d||d firme, como en dedo, también entre vocales
+d|end|casi t al final de palabra
+e||casi siempre una e débil y apagada; en algunas palabras e, como en mesa
+f||f; sobre todo en préstamos, y a menudo dicha como p
+g||g, como en gato, nunca como la j
+h||h aspirada suave, como un soplo; no es la j española
+h|end|un soplo suave al final de palabra, no muda
+i||i, como en sí
+j||como la ch de chico pero sonora
+k||k, como la c de casa
+k|end|un corte seco en la garganta al final de palabra, sin soltar la k
+l||l, igual que en español
+m||m, como en mano
+n||n, como en nube
+o||o, como en solo
+p||p, igual que en español
+q||k; solo en préstamos del árabe
+r||r vibrante, como en pero o perro
+s||s, igual que en español, nunca sonora
+t||t, igual que en español
+u||u, como en luna
+v||f; en préstamos
+w||u semivocal, como en huevo
+x||ks; solo en préstamos
+y||y, como en yo
+z||s sonora, con zumbido de abeja; en préstamos
+ng||la n de tengo, sin la g detrás
+ny||ñ, como en niño
+sy||sh, como el ¡shh! para pedir silencio
+kh||como la j de jamón

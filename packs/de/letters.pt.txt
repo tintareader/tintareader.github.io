@@ -1,0 +1,57 @@
+# Tinta — what the German letters sound like, for a reader of Portuguese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Portuguese words.
+a||a, como em casa; mais curto antes de duas consoantes
+b||b, como em bola
+b|end|p no fim da palavra: ab soa "ap"
+c||raro fora de ch e ck: k na maioria dos empréstimos
+c|beforefront|ts, como em tsunami
+d||d, como em dado, sem virar dj antes de i
+d|end|t no fim da palavra: Hund soa "hunt"
+e||ê fechado, como em medo, quando longo; é aberto quando curto
+e|end|um e fraco e apagado no fim da palavra, quase um "â"
+e|lastsyllable|um e fraco e apagado na última sílaba, quase um "â": gehen soa "guê-ân"
+f||f, como em faca
+g||g, como em gato, nunca como o g de gente
+g|end|k no fim da palavra: Tag soa "tak"
+h||h aspirado, um sopro leve; não é mudo como em hora
+h|aftervowel|em geral mudo depois de vogal, que fica longa
+i||i, como em vida, quando longo; mais solto, quase ê, quando curto
+j||i semivogal, como o i de iate
+k||k, como o c de casa
+l||l sempre claro, como em lata, mesmo no fim: nunca vira u
+m||m, como em mão; no fim não nasaliza a vogal
+n||n, como em nó; no fim não nasaliza a vogal
+o||ô fechado e puro, como em ovo; curto, ó aberto, como em pó
+p||p, como em pato
+q||só em qu, que soa kv
+r||feito no fundo da garganta, como o r carioca de rato, mas com voz
+r|end|quase um a curto no fim: Bier soa "bí-a"
+s||s, como em sapo
+s|beforevowel|z, como em zebra, antes de vogal
+t||t, como em tatu, sem virar tch antes de i
+u||u, como em uva, quando longo; mais solto quando curto
+v||f, como em faca; v em alguns empréstimos
+w||v, como em vaca
+x||ks, como em táxi
+y||como ü: diga i com os lábios arredondados
+z||ts, como em tsunami, até no início da palavra
+ä||é aberto, como em pé; também quando longo
+ö||diga ê com os lábios arredondados como para ô
+ü||diga i com os lábios arredondados como para u
+ß||ss, como em passo, depois de vogal longa
+sch||x, como o ch de chuva
+ch||depois de a, o, u: o r raspado de carro; nos outros casos, um chiado suave
+ck||k; a vogal antes dele é curta
+ei||ai, como em pai
+ie||i longo, como em vida
+au||au, como em mau
+eu||ói, como em herói
+äu||ói, como em herói
+st||xt no início da palavra, como o st carioca de festa
+sp||xp no início da palavra, como o sp carioca de vespa

@@ -1,0 +1,50 @@
+# Tinta — what the English letters sound like, for a reader of Spanish.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Spanish words.
+a||breve, entre la a y la e: cat; ei, como en rey, si una e cierra la palabra
+b||b, como en boca, con los labios bien cerrados
+c||k, como la c de casa
+c|beforefront|s, como la c de cine en América
+d||d, como en dedo al inicio de palabra
+e||e breve, como en perro; i en be y me
+e|end|casi siempre muda; hace que la vocal anterior diga su nombre: make, home
+f||f, como en foca
+g||g, como en gato
+g|beforefront|a menudo como una ch sonora (gem), pero no en get ni give
+h||h aspirada suave, como un soplo; no es la j española
+i||i breve y abierta: sit; ai, como en hay: time
+j||como la ch de chico pero sonora: jam
+k||k, como la c de casa; muda ante n: know
+l||l; al final de sílaba más oscura, con la lengua hacia atrás
+m||m, como en mano
+n||n, como en nube
+o||o breve y abierta: hot; ou, una o que se cierra hacia u: home
+p||p, con un leve soplo de aire
+q||solo en qu
+r||r con la lengua curvada hacia atrás, sin tocar el paladar
+r|end|muda tras vocal en inglés británico: car; se dice en el americano
+s||s, como en sol; a menudo sonora, con zumbido de abeja: is
+s|end|s, o sonora con zumbido: cats, dogs
+t||t, con un leve soplo de aire
+u||a breve y oscura: cut; u, como en luna: rule; iu, como en ciudad: use
+v||v con los dientes sobre el labio inferior, nunca como la b
+w||u semivocal, como en huevo; muda ante r: write
+x||ks, como en taxi
+y||y, como en yo
+y|end|vocal al final: i en happy, ai en my
+z||s sonora, con zumbido de abeja: zzz
+th||dos sonidos: como la z de España en think, como la d de nada en this
+sh||sh, como el ¡shh! para pedir silencio
+ch||ch, como en chico; k en school, sh en chef
+ph||f, como en phone
+wh||u semivocal, como en what; h aspirada en who
+ck||k; la vocal anterior es breve
+ng||la n de tengo, sin la g detrás: sing
+qu||cu, como en cuando: quick
+ee||i larga, como en sí
+oo||u larga, como en luna: food; breve, como en book

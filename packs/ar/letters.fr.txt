@@ -1,0 +1,49 @@
+# Tinta — what the Arabic letters sound like, for a reader of French.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to French words.
+ا||a long, comme dans pâte ; en début de mot, porte une voyelle brève
+ا|start|en début de mot, support d’une voyelle brève (a, i ou u), pas d’un ā long
+ا|article|le a de al-, « le, la » : prononcé en début de phrase, il tombe après une voyelle (fi l-bayt)
+ا|end|ā long en fin de mot (hunā) ; après la dernière lettre d’un nom, il note souvent la terminaison -an (kitāban, « un livre »)
+ب||b, comme dans bon
+ت||t, comme dans table
+ث||absent du français : un s dit la langue entre les dents
+ج||dj, comme dans djinn ; g dur, comme dans gare, en Égypte
+ح||un h fort et soufflé du fond de la gorge, comme pour embuer une vitre
+خ||un r raclé et sans voix, comme la jota espagnole
+د||d, comme dans doux
+ذ||absent du français : un z dit la langue entre les dents
+ر||un r roulé : la langue frappe ou vibre, comme en espagnol
+ز||z, comme dans zéro
+س||s, comme dans sol
+ش||ch, comme dans chat
+ص||un s lourd : s avec l'arrière de la langue relevé
+ض||un d lourd : d avec l'arrière de la langue relevé
+ط||un t lourd : t avec l'arrière de la langue relevé
+ظ||un ذ lourd : z entre les dents, l'arrière de la langue relevé
+ع||une contraction serrée au fond de la gorge ; inconnu en français
+غ||très proche du r français, comme dans rue
+ف||f, comme dans fou
+ق||un k dit très en arrière, au fond de la gorge
+ك||k, comme dans cou
+ل||l, comme dans lune
+ل|sun|le l de al-, « le, la », qui prend le son de la lettre suivante : ash-shams, pas al-shams
+ل|article|le l de al-, « le, la » : al-kitāb
+م||m, comme dans mer
+ن||n, comme dans nous
+ه||un h soufflé qu'on entend, même en fin de mot
+و||ou, comme dans oui ; ou un ou long, comme dans roue
+ي||y, comme dans yeux ; ou un i long, comme dans lit
+ء||un coup de glotte, comme la coupure au milieu de « oh oh ! »
+أ||un coup de glotte, puis a ou ou
+إ||un coup de glotte, puis i
+آ||un coup de glotte, puis un a long
+ؤ||un coup de glotte, écrit sur un wāw
+ئ||un coup de glotte, écrit sur un yāʾ
+ة||a en fin de mot ; t quand une terminaison suit
+ى||a long, comme dans pâte ; seulement en fin de mot

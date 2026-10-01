@@ -1,0 +1,82 @@
+# Tinta — French letters table, for letters mode.
+# This project's own work, derived from no third-party source: unencumbered.
+# What each letter sounds like is said per reader, in letters.<meta>.txt.
+#
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+#   key      the unit, lower case; a word is cut into these longest first
+#   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
+#   name     the letter's name in French
+#   rom      romanisation (empty for a Latin alphabet)
+#   ipa      its usual sound, for the grid
+#   example  a common word with it, as the dictionary keys it
+#   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
+#            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
+#            heavy (an emphatic consonant)
+#
+# French spells one sound with several letters more often than any other pack
+# here, so it has the most pairs. The nasal vowels (on, an, en, in, ain, ein, oin)
+# are pairs only before a consonant or at the end of a word: `bon` is nasal and
+# `bonne` and `bone` are not, which is what the `closed` flag says. `ez` is a pair
+# only at the end of a word (chez, parlez). Everything subtler — the silent final
+# consonants, `ent` in a verb — is for the notes.
+a|letter|a||||a|ami|vowel
+b|letter|bé||||b|bon|
+c|letter|cé||||k|café|
+d|letter|dé||||d|dans|
+e|letter|e||||ə|le|vowel,front
+f|letter|effe||||f|femme|
+g|letter|gé||||g|gare|
+h|letter|ache|||||homme|
+i|letter|i||||i|il|vowel,front
+j|letter|ji||||ʒ|jour|
+k|letter|ka||||k|kilo|
+l|letter|elle||||l|livre|
+m|letter|emme||||m|mère|
+n|letter|enne||||n|nuit|
+o|letter|o||||o|mot|vowel
+p|letter|pé||||p|pain|
+q|letter|ku||||k||
+r|letter|erre||||ʁ|rue|
+s|letter|esse||||s|soleil|
+t|letter|té||||t|tête|
+u|letter|u||||y|lune|vowel
+v|letter|vé||||v|vie|
+w|letter|double vé||||w|week-end|
+x|letter|ixe||||ks|taxi|
+y|letter|i grec||||i|stylo|vowel,front
+z|letter|zède||||z|zéro|
+eau|pair|||||o|eau|vowel,front
+ou|pair|||||u|nous|vowel
+au|pair|||||o|aussi|vowel
+ai|pair|||||ɛ|mais|vowel
+ei|pair|||||ɛ|neige|vowel,front
+oi|pair|||||wa|moi|vowel
+eu|pair|||||ø|deux|vowel,front
+ch|pair|||||ʃ|chat|
+gn|pair|||||ɲ|montagne|
+qu|pair|||||k|qui|
+ph|pair|||||f|photo|
+ain|pair|||||ɛ̃|pain|vowel,closed
+ein|pair|||||ɛ̃|plein|vowel,front,closed
+oin|pair|||||wɛ̃|loin|vowel,closed
+on|pair|||||ɔ̃|bon|vowel,closed
+an|pair|||||ɑ̃|grand|vowel,closed
+en|pair|||||ɑ̃|enfant|vowel,front,closed
+in|pair|||||ɛ̃|fin|vowel,front,closed
+ez|pair|||||e|chez|vowel,front,end
+er|pair|||||e|parler|vowel,front,end
+où|pair|||||u|où|vowel
+œu|pair|||||œ|cœur|vowel
+é|also|||||e|été|vowel,front
+è|also|||||ɛ|mère|vowel,front
+ê|also|||||ɛ|être|vowel,front
+ë|also|||||ɛ|noël|vowel,front
+à|also|||||a|là|vowel
+â|also|||||ɑ|âge|vowel
+î|also|||||i|île|vowel,front
+ï|also|||||i|naïf|vowel,front
+ô|also|||||o|côté|vowel
+û|also|||||y|sûr|vowel
+ù|also|||||u||vowel
+ç|also|||||s|français|
+œ|also|||||œ|œil|vowel

@@ -1,0 +1,79 @@
+# Tinta — what the French letters sound like, for a reader of Chinese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Mandarin sounds and pinyin.
+a||像拼音的 a，舌位略靠前
+b||近似拼音的 b，但声带振动
+c||不送气的 k，近似拼音的 g；不读拼音的 c
+c|beforefront|像拼音的 s
+d||近似拼音的 d，但声带振动
+d|end|词尾通常不发音
+e||弱读的 e，像轻声“的”(de)里的 e，或不读
+e|end|词尾不发音
+f||像拼音的 f
+g||近似拼音的 g，但声带振动
+g|beforefront|近似拼音的 r，但舌尖不卷，嘴唇前突
+h||永远不发音
+i||像拼音的 i
+j||近似拼音的 r，但舌尖不卷，嘴唇前突；不读拼音的 j
+k||不送气的 k；只用于外来词
+l||像拼音的 l，清晰
+m||像拼音的 m
+n||像拼音的 n
+o||纯 o，像拼音 o 但不滑向 u；辅音前口张得更开
+p||不送气的 p，近似拼音的 b
+p|end|词尾通常不发音
+q||只出现在 qu 中，读 k；不读拼音的 q
+r||小舌音：在喉咙后部摩擦，近似漱口声，像带振动的 h
+s||像拼音的 s
+s|between|两个元音之间读浊音 z：拼音 s 加声带振动
+s|end|词尾通常不发音
+t||不送气的 t，近似拼音的 d，舌尖抵上齿背
+t|end|词尾通常不发音
+u||像拼音的 ü，如“鱼”；不读拼音的 u
+v||上齿轻咬下唇，声带振动；不读 w
+w||读 w 或 v，依词而定；只用于外来词
+x||读 ks，如 taxi；exemple 中读 gz
+x|end|词尾通常不发音
+y||像拼音的 i
+z||浊音 z：拼音 s 加声带振动；不读拼音的 z
+z|end|词尾通常不发音
+eau||纯 o，像拼音 o，不滑向 u
+ou||像拼音的 u
+au||纯 o，像拼音 o，不滑向 u
+ai||开口的“诶”，像拼音 ie 里的 e
+ei||开口的“诶”，像拼音 ie 里的 e
+oi||读 wa，像“哇”
+eu||发“诶”时把嘴唇撮圆；辅音前口张得更开
+ch||近似拼音的 sh，嘴唇略突；不读 ch
+gn||ny：像“妞”(niu)开头的 n 带 i 滑音
+qu||读 k；u 不发音
+ph||像拼音的 f
+ain||鼻化元音：张口发“诶”，气从鼻出，不带 n
+ein||鼻化元音：张口发“诶”，气从鼻出，不带 n
+oin||先发 w，再张口发“诶”，气从鼻出，不带 n
+on||鼻化元音：圆唇发 o，气从鼻出，不带 n，不读 ong
+an||鼻化元音：发“啊”，气从鼻出，不带 n，不读拼音 an
+en||鼻化元音：发“啊”，气从鼻出，不带 n，不读拼音 en
+in||鼻化元音：张口发“诶”，气从鼻出，不带 n，不读拼音 in
+ez||纯“诶”，不滑向 i；z 不发音
+er||多数词尾读纯“诶”，r 不发音（parler）；少数词读 ɛr（mer）
+où||像拼音的 u
+œu||同 eu：口较开，近似拼音 e 撮圆嘴唇
+é||短而纯的“诶”，不滑向 i
+è||开口的“诶”，像拼音 ie 里的 e
+ê||开口的“诶”，像拼音 ie 里的 e
+ë||与前一个元音分开读：Noël 读 no-el
+à||a；重音符号只用来区分词
+â||a，舌位稍靠后，近似“啊”
+î||像拼音的 i
+ï||像拼音的 i，与前一个元音分开读：naïf
+ô||纯 o，像拼音 o，不滑向 u
+û||同 u：像拼音的 ü
+ù||像拼音的 u；只出现在 où（“哪里”）中
+ç||像拼音的 s
+œ||同 eu：发“诶”时把嘴唇撮圆

@@ -1,0 +1,42 @@
+# Tinta — what the Indonesian letters sound like, for a reader of French.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to French words.
+a||a, comme dans papa
+b||b, comme dans bon
+b|end|proche de p en fin de mot
+c||tch, comme dans tchèque, jamais k ni s
+d||d, comme dans doux
+d|end|proche de t en fin de mot
+e||en général un e faible, comme dans petit ; dans certains mots é ou è
+f||f ; surtout dans les emprunts, et souvent dit p
+g||g dur, comme dans gare, jamais j
+h||un h soufflé, léger
+h|end|un léger souffle en fin de mot, pas muet
+i||i, comme dans lit
+j||dj, comme dans djinn, jamais le j français
+k||k, comme dans cou
+k|end|un coup de glotte en fin de mot, comme la coupure de « oh oh ! »
+l||l, comme dans lune
+m||m, comme dans mer
+n||n, comme dans nous
+o||o, entre beau et porte, pur
+p||p, comme dans pain
+q||k ; seulement dans les emprunts à l'arabe
+r||roulé : la langue frappe ou vibre, jamais le r de gorge
+s||s, comme dans sol, jamais z
+t||t, comme dans table
+u||ou, comme dans roue, jamais le u français
+v||f ; dans les emprunts
+w||ou, comme dans oui
+x||ks ; seulement dans les emprunts
+y||y, comme dans yeux
+z||z, comme dans zéro ; dans les emprunts
+ng||ng, comme dans parking, sans g dur après
+ny||gn, comme dans montagne
+sy||ch, comme dans chat
+kh||un r raclé et sans voix, comme la jota espagnole

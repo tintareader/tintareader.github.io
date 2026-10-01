@@ -1,0 +1,54 @@
+# Tinta — what the Spanish letters sound like, for a reader of English.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to English words.
+a||ah, as in father, short and clear
+b||b, as in bed
+b|between|a soft b: the lips almost touch but do not close
+c||k, as in cat
+c|beforefront|th, as in think, in Spain; s in Latin America
+d||d, with the tongue against the teeth
+d|between|soft, like the th in this
+d|end|very soft, or silent: Madrid
+e||e, as in bed, but tenser
+f||f, as in fish
+g||g, as in go
+g|between|a soft g, the tongue not quite closing
+g|beforefront|a breathy h from the throat, like Scottish loch
+h||always silent
+i||ee, as in see, short and clear
+j||a breathy h from the throat, like Scottish loch
+k||k; loanwords only
+l||l, light and clear
+m||m, as in man
+n||n, as in no
+ñ||ny, as in canyon
+o||o, as in note, but pure, with no w at the end
+p||p, without the puff of air of English p
+q||only in qu, which says k
+r||one quick tap of the tongue, like the tt of American butter
+r|start|rolled: a trill of the tongue
+s||s, as in sun, never z
+t||t, with the tongue against the teeth
+u||oo, as in food
+v||the same as b: b, as in bed
+v|between|a soft b: the lips almost touch but do not close
+w||w; loanwords only
+x||ks, as in taxi; h in some names, like México
+y||y, as in yes; in many places closer to the j of jam
+y|end|ee, a vowel, at the end of a word: hoy, muy
+z||th, as in think, in Spain; s in Latin America
+ch||ch, as in church
+ll||y, as in yes; sh in Argentina
+rr||rolled: a trill of the tongue
+qu||k; the u is silent
+á||a, with the stress written on it
+é||e, with the stress written on it
+í||i, with the stress written on it; día is dí-a
+ó||o, with the stress written on it
+ú||u, with the stress written on it
+ü||a u that is said where it would be silent: pingüino

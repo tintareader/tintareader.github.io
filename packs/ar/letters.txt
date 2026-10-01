@@ -1,0 +1,60 @@
+# Tinta — Arabic letters table, for letters mode.
+# This project's own work, derived from no third-party source: unencumbered.
+# What each letter sounds like is said per reader, in letters.<meta>.txt.
+#
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+#   key      the unit, lower case; a word is cut into these longest first
+#   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
+#   name     the letter's name in Arabic (scholarly), name_plain (plain)
+#   rom      romanisation (scholarly, ALA-LC), rom_plain (plain)
+#   ipa      its usual sound, for the grid
+#   example  a common word with it, as the dictionary keys it
+#   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
+#            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
+#            heavy (an emphatic consonant)
+#
+# The 28 letters in their dictionary order, then the shapes the alphabet adds:
+# hamzah on its own and on its three seats, alif with maddah, tāʾ marbūṭah and
+# alif maqṣūrah. Each is keyed by its bare form; which of its four joined shapes
+# a word writes it in is worked out by the engine, from Unicode's joining types,
+# and is not stored here.
+#
+# Two romanisations, both kept: `rom` is the scholarly one (ALA-LC: ā, ḥ, ʿ) and
+# `rom_plain` the keyboard one (aa, H, '). The plain one capitalises the heavy
+# letters (H, S, D, T, Z) to keep them apart from their light twins.
+ا|letter|alif|alif|ā|aa|aː|باب|
+ب|letter|bāʾ|baa|b|b|b|بيت|
+ت|letter|tāʾ|taa|t|t|t|تفاح|
+ث|letter|thāʾ|thaa|th|th|θ|ثلاثة|
+ج|letter|jīm|jiim|j|j|dʒ|جميل|
+ح|letter|ḥāʾ|Haa|ḥ|H|ħ|حب|
+خ|letter|khāʾ|khaa|kh|kh|x|خبز|
+د|letter|dāl|daal|d|d|d|دار|
+ذ|letter|dhāl|dhaal|dh|dh|ð|ذهب|
+ر|letter|rāʾ|raa|r|r|r|رجل|
+ز|letter|zāy|zaay|z|z|z|زيت|
+س|letter|sīn|siin|s|s|s|سماء|
+ش|letter|shīn|shiin|sh|sh|ʃ|شمس|
+ص|letter|ṣād|Saad|ṣ|S|sˤ|صديق|heavy
+ض|letter|ḍād|Daad|ḍ|D|dˤ|ضوء|heavy
+ط|letter|ṭāʾ|Taa|ṭ|T|tˤ|طالب|heavy
+ظ|letter|ẓāʾ|Zaa|ẓ|Z|ðˤ|ظهر|heavy
+ع|letter|ʿayn|'ayn|ʿ|'|ʕ|عين|
+غ|letter|ghayn|ghayn|gh|gh|ɣ|غرفة|
+ف|letter|fāʾ|faa|f|f|f|فم|
+ق|letter|qāf|qaaf|q|q|q|قلب|
+ك|letter|kāf|kaaf|k|k|k|كتاب|
+ل|letter|lām|laam|l|l|l|ليل|
+م|letter|mīm|miim|m|m|m|ماء|
+ن|letter|nūn|nuun|n|n|n|نور|
+ه|letter|hāʾ|haa|h|h|h|هنا|
+و|letter|wāw|waaw|w, ū|w, uu|w|ولد|
+ي|letter|yāʾ|yaa|y, ī|y, ii|j|يد|
+ء|also|hamzah|hamza|ʾ|'|ʔ|شيء|
+أ|also|alif hamzah|alif hamza|ʾa, ʾu|'a, 'u|ʔ|أنا|
+إ|also|alif hamzah below|alif hamza below|ʾi|'i|ʔi|إلى|
+آ|also|alif maddah|alif madda|ʾā|'aa|ʔaː|آخر|
+ؤ|also|wāw hamzah|waaw hamza|ʾ|'|ʔ|سؤال|
+ئ|also|yāʾ hamzah|yaa hamza|ʾ|'|ʔ|رئيس|
+ة|also|tāʾ marbūṭah|taa marbuuta|ah, at|a, at|a|مدرسة|
+ى|also|alif maqṣūrah|alif maqsuura|ā|aa|aː|على|

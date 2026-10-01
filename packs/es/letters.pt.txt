@@ -1,0 +1,54 @@
+# Tinta — what the Spanish letters sound like, for a reader of Portuguese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Portuguese words.
+a||a, como em casa; nunca nasal, nem antes de m ou n
+b||b, como em bola
+b|between|um b suave: os lábios quase se tocam, mas não fecham
+c||k, como o c de casa
+c|beforefront|na Espanha, língua entre os dentes; s na América Latina
+d||d, como em dado; nunca vira dj antes de i
+d|between|suave, com a língua quase entre os dentes
+d|end|muito suave, ou mudo: Madrid
+e||e entre ê e é; nunca vira i no fim da palavra
+f||f, como em faca
+g||g, como em gato
+g|between|um g suave, sem a língua fechar de todo
+g|beforefront|um r raspado da garganta, como o rr carioca; nunca o g de gente
+h||sempre mudo, como em hora
+i||i, como em vida, curto e claro
+j||um r raspado da garganta, como o rr carioca; nunca o j de janela
+k||k; só em empréstimos
+l||l claro, como em lata, mesmo no fim: nunca vira u
+m||m, como em mão; no fim não nasaliza a vogal
+n||n, como em nó; no fim não nasaliza a vogal
+ñ||como o nh de banho
+o||o entre ô e ó; nunca vira u no fim da palavra
+p||p, como em pato
+q||só em qu, que soa k
+r||uma batida rápida da língua, como o r de caro
+r|start|rolado: a língua vibra várias vezes, nunca o r de garganta
+s||s, como em sapo; nunca z, nem entre vogais
+t||t, como em tatu; nunca vira tch antes de i
+u||u, como em uva
+v||igual ao b: b, como em bola; o espanhol não tem o v do português
+v|between|um b suave: os lábios quase se tocam, mas não fecham
+w||u semivogal; só em empréstimos
+x||ks, como em táxi; r raspado em alguns nomes, como México
+y||i semivogal, como em iate; em muitos lugares, perto do dj de dia
+y|end|i, uma vogal, no fim da palavra: hoy, muy
+z||na Espanha, língua entre os dentes; s na América Latina
+ch||tch, como o ti carioca de tia
+ll||i semivogal, como em iate; x de chuva na Argentina; não é o lh
+rr||rolado: a língua vibra várias vezes, nunca o r de garganta
+qu||k; o u é mudo
+á||a, com a tônica marcada
+é||e, com a tônica marcada; não indica é aberto
+í||i, com a tônica marcada; día é dí-a
+ó||o, com a tônica marcada; não indica ó aberto
+ú||u, com a tônica marcada
+ü||u que soa onde seria mudo, como no antigo trema: pingüino

@@ -1,0 +1,50 @@
+# Tinta — what the English letters sound like, for a reader of Portuguese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Portuguese words.
+a||a curto, entre o é de pé e o a; ei, como em make, quando a palavra termina em e
+b||b, como em bola
+c||k, como o c de casa
+c|beforefront|s, como o c de cidade
+d||d, como em dado, sem virar dj antes de i
+e||é curto, como em bed; i longo em be e me
+e|end|em geral mudo, e faz a vogal anterior soar como seu nome: make, home
+f||f, como em faca
+g||g, como em gato
+g|beforefront|muitas vezes dj, como em gem, mas não em get nem give
+h||h aspirado, um sopro leve; não é mudo como em hora
+i||i curto e solto, quase ê; ai, como em time
+j||dj, como o di carioca de dia
+k||k, como o c de casa; mudo antes de n: know
+l||l, como em lata; no fim é mais escuro, mas não vira u
+m||m, como em mão; no fim não nasaliza a vogal
+n||n, como em nó; no fim não nasaliza a vogal
+o||ó curto, como em hot; ou, como em home
+p||p, com um sopro de ar
+q||só em qu
+r||r com a ponta da língua curvada para trás, como o r caipira
+r|end|mudo depois de vogal no inglês britânico: car; pronunciado no americano
+s||s, como em sapo; muitas vezes z, como em is
+s|end|s ou z: cats, dogs
+t||t, com um sopro de ar, sem virar tch antes de i
+u||a curto e fechado, como em cut; u em rule; iu em use
+v||v, como em vaca
+w||u semivogal, como o u de quatro; mudo antes de r: write
+x||ks, como em táxi
+y||i semivogal, como o i de iate
+y|end|vogal no fim: i em happy, ai em my
+z||z, como em zebra
+th||dois sons, língua entre os dentes: soprado em think, com voz em this
+sh||x, como o ch de chuva
+ch||tch, como o ti carioca de tia; k em school, x em chef
+ph||f, como em foto
+wh||u semivogal em what; h em who
+ck||k; a vogal antes dele é curta
+ng||o ng de sing: n no fundo da boca, sem soar o g
+qu||kw, como o qu de quatro
+ee||i longo, como em vida
+oo||u longo, como em food; curto, como em book

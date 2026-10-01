@@ -1,0 +1,50 @@
+# Tinta — what the Arabic letters sound like, for a reader of English.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: sun, article (Arabic's al-), end, start,
+#            lastsyllable (the last vowel of several), between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to English words.
+ا||long a, as in father; at the start of a word it carries a short vowel
+ا|start|at the start of a word: a seat for a short a, i or u, not a long ā
+ا|article|the a of al-, "the": said at the start of a sentence, dropped after a vowel (fi l-bayt)
+ا|end|long ā at the end of a word (hunā); after a noun's last letter it often spells the ending -an instead (kitāban, "a book")
+ب||b, as in bed
+ت||t, as in top
+ث||th, as in think
+ج||j, as in jam; g, as in go, in Egypt
+ح||a strong breathy h from deep in the throat, as when fogging a glass
+خ||ch, as in Scottish loch
+د||d, as in dog
+ذ||th, as in this
+ر||a rolled r: a tap or trill of the tongue
+ز||z, as in zoo
+س||s, as in sun
+ش||sh, as in ship
+ص||a heavy s: s with the back of the tongue raised
+ض||a heavy d: d with the back of the tongue raised
+ط||a heavy t: t with the back of the tongue raised
+ظ||a heavy th, as in this
+ع||a tight squeeze deep in the throat; English has no such sound
+غ||a gargled sound, like a French r
+ف||f, as in fish
+ق||k said far back, at the throat
+ك||k, as in kite
+ل||l, as in lamp
+ل|sun|the l of al-, "the", which takes the sound of the next letter: ash-shams, not al-shams
+ل|article|the l of al-, "the": al-kitāb
+م||m, as in moon
+ن||n, as in noon
+ه||h, as in hat, said even at the end of a word
+و||w, as in wet; or a long oo, as in food
+ي||y, as in yes; or a long ee, as in see
+ء||a catch in the breath, as in the middle of uh-oh
+أ||a catch in the breath, then a or u
+إ||a catch in the breath, then i
+آ||a catch in the breath, then a long a
+ؤ||a catch in the breath, written on a wāw
+ئ||a catch in the breath, written on a yāʾ
+ة||a at the end of a word; t when an ending follows
+ى||long a, as in father; only at the end of a word
