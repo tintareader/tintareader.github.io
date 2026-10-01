@@ -603,7 +603,7 @@ sekunde|||nf
 dauern|||
 geschäft|||nn;nn
 lieb|||
-ruf||rufen|v;nm
+ruf||rufen|v;nm;v
 leider|||
 umbringen|||
 foto|||nn
@@ -976,7 +976,7 @@ vermisst||vermissen|
 planet|||nm
 lage|||nf
 sowieso|||
-lauf||laufen|v;nm
+lauf||laufen|v;nm;v
 ehre|||nf
 stell||stellen|
 gericht|||nn;nn
@@ -1379,7 +1379,7 @@ geschlossen||schließen|
 schwert|||nn
 quatsch|||nm
 restaurant|||nn
-fang||fangen|v;nm
+fang||fangen|v;nm;v
 angehen|||
 dienen|||
 dringend|||
@@ -1611,7 +1611,7 @@ sieg|||nm
 reihe|||nf;nf;adv
 beobachten|||
 dieb|||nm
-schick|||adj;v
+schick|||adj;v;v
 entlassen|||
 geraten|||
 jahrhundert|||nn
@@ -1683,7 +1683,7 @@ bastard|||nm
 schutz|||nm
 sonntag|||nm
 doc|||
-fass||fassen|nn;v
+fass||fassen|nn;v;v
 untersuchen|||
 gebrauchen|||
 vorstellung|||nf;nf;nf
@@ -1799,7 +1799,7 @@ dennoch|||
 verarschen|||
 klären|||
 anbieten|||
-dreh||drehen|v;nm
+dreh||drehen|v;nm;v
 schicke||schicken,schick|
 trotz|||
 bauer|||nm
@@ -2077,7 +2077,7 @@ vorteil|||nm
 anstatt|||
 stoßen|||
 champagner|||nm
-leck|||v;nn;adj
+leck|||v;nn;adj;v
 entspannen|||
 strafe|||nf;nf
 huhn|||nn
@@ -2283,7 +2283,7 @@ scheidung|||nf
 führer|||nm;nm
 abgeben|||
 anständig|||
-schrei||schreien|nm;v
+schrei||schreien|nm;v;v
 abenteuer|||nn
 umdrehen|||
 erstaunlich|||
@@ -2348,7 +2348,7 @@ posten|||nm;v
 bye|||
 heimat|||nf
 flehen|||
-kauf||kaufen|nm;v
+kauf||kaufen|nm;v;v
 cent|||nm
 gewohnt||gewöhnen|
 schlacht|||nf
@@ -2554,7 +2554,7 @@ bequem|||
 einst|||
 applaus|||nm
 mitteilen|||
-pack||packen|nn;v
+pack||packen|nn;v;v
 rächen|||
 gekämpft||kämpfen|
 einkaufen|||
@@ -2644,7 +2644,7 @@ studio|||nn
 rausfinden|||
 zielen|||
 rauskommen|||
-sitz||sitzen|nm;v
+sitz||sitzen|nm;v;v
 geruch|||nm
 rosa|||
 regnen|||
@@ -12478,4 +12478,7 @@ weitergeben|||
 wiederherstellen|||
 übergabe|||nf
 überschritten||überschreiten|
+klimawandel|||nm
+sonnenbrille|||nf
+spielplatz|||nm
 s||es|bound
