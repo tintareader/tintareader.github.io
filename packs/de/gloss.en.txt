@@ -217,7 +217,6 @@ gerade|just, right now; straight; even (number)|o;o;o
 gesehen|seen|o
 wohl|probably; well; (particle) I suppose|o;o;f1s
 geld|money (das, pl. Gelder)|o
-letzte|last|o
 liebe|love (die, no pl.); dear (form of address); I love|o;o;f1s
 mutter|mother (die, pl. Mütter)|o
 durch|through; by (means of)|o;o
@@ -238,6 +237,7 @@ gehört|heard; belongs|o;f3s
 selbst|oneself, myself, yourself…; even|o;o
 bekommen|to get, to receive (bekam, bekommen)|v
 ohne|without|o
+letzte|last|o
 hör|listen!, hear! (informal)|o
 nacht|night (die, pl. Nächte); gute Nacht: good night|o;n
 her|here (towards the speaker); ago|o;o
@@ -995,6 +995,7 @@ hunger|hunger (der, no pl.); Hunger haben: to be hungry|o;n
 leg|lay!, put! (informal)|o
 bewegen|to move; sich bewegen: to move (oneself)|v;n
 erinnerung|memory (die, pl. Erinnerungen); reminder|o;o
+letzterer|the latter|o
 held|hero (der, pl. Helden)|o
 steh|stand! (informal)|o
 zurückkommen|to come back (kam zurück, zurückgekommen, ist)|v
@@ -1932,6 +1933,7 @@ grüßen|to greet, to say hello|v
 heulen|to howl; to cry, to blubber (colloq.)|v;v
 vorn|in front, at the front|o
 wichtige|important|o
+elle|ulna, forearm bone; ell, old unit of length (die, pl. Ellen)|o;o
 stürzen|to fall, to plunge (stürzte, gestürzt, ist); to overthrow|v;v
 bauch|belly, stomach (der, pl. Bäuche)|o
 sexy|sexy|o
@@ -4481,6 +4483,7 @@ sternenflotte|Starfleet (die, no pl.)|o
 vortrag|lecture, talk (der, pl. Vorträge)|o
 durchkommen|to get through (kam durch, durchgekommen, ist)|v
 übermorgen|the day after tomorrow|o
+allmächtig|almighty, omnipotent|o
 angerichtet|caused (damage)|o
 beklagen|to lament; sich beklagen: to complain|v;n
 schnarchen|to snore|v
@@ -4761,6 +4764,7 @@ bäumen|trees (dat. pl. of der Baum)|o
 datenbank|database (die, pl. Datenbanken)|o
 bunker|bunker (der, pl. Bunker)|o
 foltern|to torture|v
+herauskommen|to come out, to emerge (kam heraus, herausgekommen, ist)|v
 klaren|clear|o
 löffel|spoon (der, pl. Löffel)|o
 abhängig|dependent; addicted|o;o
@@ -4779,6 +4783,7 @@ charme|charm (der, no pl.)|o
 dulden|to tolerate|v
 depression|depression (die, pl. Depressionen)|o
 überdenken|to reconsider (überdachte, überdacht)|v
+vollbringen|to accomplish, to achieve (vollbrachte, vollbracht)|v
 ablaufen|to run out, to expire; to go (off) (läuft ab, lief ab, abgelaufen, ist)|v;v
 automatisch|automatic; automatically|o;o
 einbrechen|to break in (bricht ein, brach ein, eingebrochen)|v
@@ -4923,6 +4928,7 @@ genaue|exact|o
 pfote|paw (die, pl. Pfoten)|o
 japanisch|Japanese|o
 knoten|knot (der, pl. Knoten)|o
+abgeordnete|member of parliament, representative (der/die, pl. Abgeordneten)|o
 begriffen|grasped, understood|o
 hinrichtung|execution (die, pl. Hinrichtungen)|o
 rumhängen|to hang around (colloq.)|v
@@ -5004,6 +5010,7 @@ wohnwagen|caravan, trailer (der, pl. Wohnwagen)|o
 bezahlung|payment (die, pl. Bezahlungen)|o
 päckchen|packet, small parcel (das, pl. Päckchen)|o
 schüssel|bowl (die, pl. Schüsseln)|o
+unterbringen|to accommodate, to house (brachte unter, untergebracht)|v
 zerreißen|to tear up (zerriss, zerrissen)|v
 entsetzlich|dreadful, horrible|o
 händler|dealer, trader (der, pl. Händler)|o
@@ -5127,6 +5134,7 @@ gießen|to pour; to water (goss, gegossen)|v;v
 greif|grab! (informal)|o
 blass|pale|o
 klare|clear|o
+widersetzen|sich widersetzen: to resist, to oppose|n
 aufeinander|on top of each other; at each other|o;o
 verkaufte|sold|o
 edle|noble|o
@@ -5255,6 +5263,7 @@ durchsuchungsbefehl|search warrant (der, pl. Durchsuchungsbefehle)|o
 irisch|Irish|o
 preisen|to praise (pries, gepriesen)|v
 vermieten|to rent out, to let|v
+einleiten|to initiate, to start|v
 erpressen|to blackmail|v
 fliegende|flying|o
 flittchen|tart, slut (das, pl. Flittchen)|o
@@ -5383,6 +5392,7 @@ nich|not (colloq.)|o
 regie|direction (film, theatre) (die, no pl.)|o
 zugegeben|admitted|o
 allergisch|allergic|o
+anführen|to lead (a group); to cite, to quote|v;v
 olive|olive (die, pl. Oliven)|o
 schülerin|pupil, student (fem.) (die, pl. Schülerinnen)|o
 befürchtet|feared|o
@@ -5443,6 +5453,7 @@ abstellen|to put down; to park; to turn off|v;v;v
 eiern|eggs (dat. pl. of das Ei); balls (vulg.)|o;o
 farmer|farmer (der, pl. Farmer)|o
 badewanne|bathtub (die, pl. Badewannen)|o
+gabel|fork (die, pl. Gabeln)|o
 lücke|gap (die, pl. Lücken)|o
 obst|fruit (das, no pl.)|o
 ameise|ant (die, pl. Ameisen)|o
@@ -5491,6 +5502,7 @@ mitbewohner|flatmate, roommate (der, pl. Mitbewohner)|o
 sire|sire|o
 verlobung|engagement (die, pl. Verlobungen)|o
 versprech|I promise (colloq.)|f1s
+einbauen|to install, to build in|v
 ex-frau|ex-wife (die, pl. Ex-Frauen)|o
 gleichfalls|likewise, the same to you|o
 balkon|balcony (der, pl. Balkone)|o
@@ -5511,6 +5523,7 @@ verpfeifen|to inform on, to rat out|v
 eingetroffen|arrived|o
 feine|fine|o
 spuck|spit! (informal)|o
+wiederfinden|to find again (fand wieder, wiedergefunden)|v
 ader|vein (die, pl. Adern)|o
 archiv|archive (das, pl. Archive)|o
 belasten|to burden; to incriminate|v;v
@@ -5537,6 +5550,7 @@ basketball|basketball (der, no pl.)|o
 erzeugt|produced, generated|o
 staunen|to be amazed|v
 abgesetzt|dropped off; deposed|o;o
+aufdecken|to uncover, to expose|v
 ausgraben|to dig up, to excavate (gräbt aus, grub aus, ausgegraben)|v
 irgendwelchen|any, some|o
 suite|suite (die, pl. Suiten)|o
@@ -5757,6 +5771,7 @@ körperverletzung|bodily harm, assault (die, pl. Körperverletzungen)|o
 pink|pink|o
 renn|run! (informal)|o
 durchgeknallt|crazy, nuts (colloq.)|o
+offenbaren|to reveal|v
 schnattern|to chatter; to quack|v;v
 steif|stiff|o
 adoptiert|adopted|o
@@ -5767,6 +5782,7 @@ ferse|heel (die, pl. Fersen)|o
 klippe|cliff (die, pl. Klippen)|o
 kuba|Cuba|o
 überdosis|overdose (die, pl. Überdosen)|o
+vollenden|to complete, to finish|v
 comic|comic (der, pl. Comics)|o
 department|department|o
 handschrift|handwriting (die, pl. Handschriften)|o
@@ -5844,6 +5860,7 @@ abgehen|to go off, to leave (ging ab, abgegangen, ist)|v
 rendezvous|date, rendezvous (das, pl. Rendezvous)|o
 verschont|spared|o
 handgelenk|wrist (das, pl. Handgelenke)|o
+kompromiss|compromise (der, pl. Kompromisse)|o
 literatur|literature (die, pl. Literaturen)|o
 ausrauben|to rob|v
 quer|across, crosswise|o
@@ -5966,6 +5983,7 @@ kuppel|dome (die, pl. Kuppeln)|o
 mexikanische|Mexican|o
 provinz|province (die, pl. Provinzen)|o
 hinzu|in addition|o
+seemann|sailor, seaman (der, pl. Seeleute)|o
 silbern|silver, silvery|o
 vorbeigekommen|come by|o
 wegbringen|to take away (brachte weg, weggebracht)|v
@@ -6008,6 +6026,7 @@ rechtmäßig|lawful, rightful|o
 vorläufig|provisional; for the time being|o;o
 commissioner|commissioner|o
 gescheitert|failed|o
+inner|inner, internal|o
 kragen|collar (der, pl. Kragen)|o
 plane|tarpaulin (die, pl. Planen); I plan|o;f1s
 reizende|charming|o
@@ -6159,6 +6178,7 @@ reingezogen|dragged in, pulled in|o
 schlamassel|mess (der, no pl.)|o
 zäh|tough|o
 abstimmung|vote (die, pl. Abstimmungen)|o
+außerordentlich|extraordinary|o
 marshal|marshal|o
 schmuggeln|to smuggle|v
 jahreszeit|season (die, pl. Jahreszeiten)|o
@@ -6261,6 +6281,7 @@ geschäftsführer|managing director (der, pl. Geschäftsführer)|o
 konfrontieren|to confront|v
 protestieren|to protest|v
 pulver|powder (das, pl. Pulver)|o
+schraube|screw (die, pl. Schrauben)|o
 strafzettel|ticket (parking, speeding) (der, pl. Strafzettel)|o
 uniformen|uniforms (pl. of die Uniform)|o
 verabreichen|to administer (a medicine, dose)|v
@@ -6268,6 +6289,7 @@ angenehme|pleasant|o
 angesprochen|spoken to, addressed|o
 lebewohl|farewell|o
 reporterin|reporter (fem.) (die, pl. Reporterinnen)|o
+wahrnehmen|to perceive, to notice (nimmt wahr, nahm wahr, wahrgenommen)|v
 welpen|puppies (pl. of der Welpe)|o
 züchten|to breed, to cultivate|v
 durstig|thirsty|o
@@ -6330,6 +6352,7 @@ vorgestern|the day before yesterday|o
 glänzend|shiny; brilliant|o;o
 kaiserliche|imperial|o
 mindeste|least; das Mindeste: the least|o;n
+überholen|to overtake, to pass; to overhaul|v;v
 verlängern|to extend, to lengthen|v
 zutat|ingredient (die, pl. Zutaten)|o
 aufführen|to perform; sich aufführen: to behave|v;n
@@ -6358,6 +6381,7 @@ aufsatz|essay (der, pl. Aufsätze)|o
 ausgeliefert|delivered; at the mercy of|o;o
 betäubt|stunned; anaesthetized|o;o
 fähre|ferry (die, pl. Fähren)|o
+fortgehen|to go away, to leave (ging fort, fortgegangen, ist)|v
 geerbt|inherited|o
 gespart|saved|o
 glanz|shine, gleam (der, no pl.); splendour|o;o
@@ -6395,6 +6419,7 @@ künstlerin|artist (fem.) (die, pl. Künstlerinnen)|o
 madrid|Madrid|o
 regiert|rules, governs|o
 ringen|to wrestle, to struggle (rang, gerungen); rings (pl. of der Ring)|v;o
+übergehen|to pass, to change over (to); to skip over, to ignore (überging, übergangen)|v;v
 unbedeutend|insignificant|o
 vormachen|to show how; to fool (someone)|v;v
 auktion|auction (die, pl. Auktionen)|o
@@ -6409,6 +6434,7 @@ friede|peace (der, no pl.)|o
 losen|to draw lots; loose|v;o
 mathematik|mathematics (die, no pl.)|o
 niveau|level, standard (das, pl. Niveaus)|o
+schwelle|threshold (die, pl. Schwellen)|o
 afrikanisch|African|o
 bänder|ribbons, tapes (pl. of das Band); ligaments|o;o
 detectives|detectives|o
@@ -6426,6 +6452,7 @@ verspüren|to feel, to sense|v
 wieviele|how many|o
 kurzfristig|at short notice; short-term|o;o
 spannungsvolle|suspenseful|o
+zahlreich|numerous|o
 gewagt|dared; daring|o;o
 nanu|well I never|o
 vertuschen|to cover up|v
@@ -6513,6 +6540,7 @@ borgen|to borrow; to lend|v;v
 kindermädchen|nanny (das, pl. Kindermädchen)|o
 kontinent|continent (der, pl. Kontinente)|o
 phantasie|imagination, fantasy (die, pl. Phantasien)|o
+überreichen|to hand over, to present|v
 unmittelbar|immediate, direct|o
 abgefeuert|fired|o
 attacke|attack (die, pl. Attacken)|o
@@ -6555,6 +6583,7 @@ geprügelt|beaten|o
 hingelegt|put down; lain down|o;o
 reinlassen|to let in (colloq.)|v
 sperma|sperm (das, no pl.)|o
+türke|Turk (der, pl. Türken)|o
 verdreht|twisted|o
 yen|yen (der, pl. Yen)|o
 auskommen|to get by (kam aus, ausgekommen, ist); auskommen mit: to get on with|v;n
@@ -6642,6 +6671,7 @@ vorhanden|available, present|o
 zerstörte|destroyed|o
 angemeldet|registered; announced|o;o
 ausgenutzt|exploited, taken advantage of|o
+ausschuss|committee; waste, scrap (der, pl. Ausschüsse)|o;o
 gier|greed (die, no pl.)|o
 insbesondere|in particular|o
 maestro|maestro|o
@@ -6661,6 +6691,7 @@ finanziell|financial|o
 gerichtssaal|courtroom (der, pl. Gerichtssäle)|o
 gps|GPS|o
 heizung|heating (die, pl. Heizungen)|o
+lebenslang|lifelong|o
 vase|vase (die, pl. Vasen)|o
 boom|boom|o
 erdbeere|strawberry (die, pl. Erdbeeren)|o
@@ -6675,6 +6706,7 @@ marquis|marquis (der, pl. Marquis)|o
 raubüberfall|robbery (der, pl. Raubüberfälle)|o
 teich|pond (der, pl. Teiche)|o
 wiedergutmachen|to make up for|v
+zusammenstellen|to put together, to compile|v
 amsterdam|Amsterdam|o
 arbeitszimmer|study (room) (das, pl. Arbeitszimmer)|o
 erhoffen|sich erhoffen: to hope for, to wish for|n
@@ -6712,6 +6744,7 @@ auskennen|sich auskennen: to know one's way around (kannte aus, ausgekannt)|n
 basierend|based|o
 berücksichtigen|to take into account, to consider|v
 handtücher|towels (pl. of das Handtuch)|o
+kunstwerk|work of art (das, pl. Kunstwerke)|o
 mistkerle|bastards (pl. of der Mistkerl)|o
 naht|seam (die, pl. Nähte); suture; approaches|o;o;o
 ungewöhnliche|unusual|o
@@ -6773,33 +6806,8 @@ finanziert|financed|o
 gesandt|sent|o
 gesunden|healthy|o
 legion|legion (die, pl. Legionen)|o
-mitgemacht|taken part|o
-pärchen|couple (das, pl. Pärchen)|o
-ruine|ruin (die, pl. Ruinen)|o
-stückchen|little piece (das, pl. Stückchen)|o
-busen|bosom, breasts (der, pl. Busen)|o
-durchatmen|to breathe deeply|v
-hervorragende|excellent|o
-hirsch|deer, stag (der, pl. Hirsche)|o
-notarzt|emergency doctor (der, pl. Notärzte)|o
-schleier|veil (der, pl. Schleier)|o
-vaterland|fatherland (das, pl. Vaterländer)|o
-verdrängen|to displace, to push out; to repress (psychology)|v;v
-bombardieren|to bomb, to bombard|v
-hysterisch|hysterical|o
-monatelang|for months|o
-übergabe|handover (die, pl. Übergaben)|o
-aufführung|performance (die, pl. Aufführungen)|o
-belassen|to leave (as it is) (belässt, beließ, belassen)|v
-kategorie|category (die, pl. Kategorien)|o
-latein|Latin (das, no pl.)|o
-mailand|Milan|o
-maximal|maximum; at most|o;o
-plakat|poster (das, pl. Plakate)|o
-überschritten|exceeded; crossed|o;o
-verwirrung|confusion (die, pl. Verwirrungen)|o
-wiederherstellen|to restore|v
 wirtschaftlich|economic; economical|o;o
+abrufen|to call up, to retrieve (rief ab, abgerufen)|v
 demokratisch|democratic|o
 österreichisch|Austrian|o
 langfristig|long-term|o
@@ -6811,6 +6819,7 @@ regional|regional|o
 anschließend|subsequent, afterward|o
 erheblich|considerable, substantial|o
 strategisch|strategic|o
+wachstum|growth (das, no pl.)|o
 nachhaltig|sustainable; lasting|o;o
 gegenwärtig|current, present; currently|o;o
 entgegnen|to reply, to retort|v
@@ -6824,10 +6833,12 @@ liberal|liberal|o
 vernehmen|to hear, to perceive; to question, to interrogate (legal) (vernimmt, vernahm, vernommen)|v;v
 indessen|meanwhile; however|o;o
 gewährleisten|to guarantee, to ensure|v
+beispielsweise|for example|o
 freilich|of course, admittedly|o
 imstande|able, capable (imstande sein: to be able to)|o
 wirksam|effective|o
 wiederum|again; on the other hand, in turn|o;o
+institution|institution (die, pl. Institutionen)|o
 ökonomisch|economic|o
 spiegeln|to reflect; sich spiegeln: to be reflected|v;n
 argumentieren|to argue, to reason|v
@@ -6838,6 +6849,7 @@ technologisch|technological|o
 institutionell|institutional|o
 beständig|constant, stable|o
 absolvieren|to complete, to graduate from|v
+fürstin|princess, ruling prince's wife (die, pl. Fürstinnen)|o
 empor|up, upward (literary)|o
 gesellschaftlich|social, societal|o
 derzeitig|current, present|o
@@ -6845,37 +6857,48 @@ ukrainisch|Ukrainian|o
 kulturell|cultural|o
 bewältigen|to cope with, to manage (a challenge)|v
 preußisch|Prussian|o
+reform|reform (die, pl. Reformen)|o
 sogleich|at once, immediately|o
 wahrhaftig|truly, indeed|o
+ansatz|approach, starting point (der, pl. Ansätze)|o
+volkswirtschaft|national economy, economics (die, pl. Volkswirtschaften)|o
 weitgehend|largely, to a great extent|o
 ärgerlich|annoying; annoyed|o;o
+eurozone|eurozone (die, no pl.)|o
 übermäßig|excessive, excessively|o
 jeweilig|respective|o
 syrisch|Syrian|o
 unwillkürlich|involuntary, instinctive|o
 muslimisch|Muslim|o
+empfindung|sensation, feeling (die, pl. Empfindungen)|o
 bilateral|bilateral|o
 jährig|-year-old (combining form, e.g. zehnjährig)|o
 radikaler|a radical, an extremist (nominalized adj.); more radical (comparative)|o;o
 allerlei|all sorts of, various|o
 gänzlich|complete, entire; completely|o;o
 herab|down, downward|o
+eingeborene|native (person) (der/die, pl. Eingeborenen)|o
 niederländisch|Dutch|o
 nuklear|nuclear|o
 nahezu|almost, nearly|o
 fossil|fossil, fossilized; fossil (das, pl. Fossilien)|o;o
 infolgedessen|as a result, consequently|o
 lateinisch|Latin|o
+miene|facial expression, look (die, pl. Mienen)|o
 tschechisch|Czech|o
+regime|regime (das, pl. Regime)|o
 sowjetisch|Soviet|o
 durchschnittlich|average; on average|o;o
+geistlich|spiritual, ecclesiastical|o
 überwiegend|predominant, predominantly; mostly|o;o
 horchen|to listen closely, to eavesdrop|v
 quantitativ|quantitative|o
 nicken|to nod|v
 vorziehen|to prefer (zog vor, vorgezogen); to pull forward, to bring forward|v;v
+einkommen|income (das, pl. Einkommen)|o
 namentlich|by name; in particular, especially|o;o
 strukturell|structural|o
+entwicklungsland|developing country (das, pl. Entwicklungsländer)|o
 ungültig|invalid|o
 augenblicklich|immediate, immediately; at the moment, currently|o;o
 infolge|as a result of, owing to|o
@@ -6895,15 +6918,19 @@ ethnisch|ethnic|o
 künftig|future; in future|o;o
 verschärfen|to intensify, to tighten (a law)|v
 usw|etc. (= und so weiter)|o
+ansteigen|to rise, to increase (stieg an, angestiegen, ist)|v
 widerspiegeln|to reflect, to mirror|v
+umfassen|to comprise, to include|v
 gleichgültig|indifferent|o
 hinab|down, downward|o
 landwirtschaftlich|agricultural|o
 autoritär|authoritarian|o
 steil|steep|o
+mehrheit|majority (die, pl. Mehrheiten)|o
 zucken|to twitch, to flinch|v
 etablieren|to establish; sich etablieren: to become established|v;n
 gleichsam|as it were, so to speak|o
+verlag|publishing house (der, pl. Verlage)|o
 zeitgenössisch|contemporary|o
 unaufhörlich|incessant, incessantly|o
 augenscheinlich|apparent, evident; apparently|o;o
@@ -6911,6 +6938,9 @@ schmal|narrow|o
 belaufen|to run up to, to total; sich belaufen auf: to amount to (beläuft, belief, belaufen)|v;n
 zentral|central|o
 bedingen|to cause, to necessitate; to condition (a prerequisite)|v;v
+vorlage|template, draft; bill, proposal (die, pl. Vorlagen)|o;o
+tätigkeit|activity, occupation (die, pl. Tätigkeiten)|o
+währung|currency (die, pl. Währungen)|o
 drittens|thirdly|o
 gleiten|to glide, to slide (glitt, geglitten, ist)|v
 hastig|hasty, hastily|o
@@ -6918,27 +6948,36 @@ tüchtig|capable, able; thorough, really (colloq. intensifier)|o;o
 beträchtlich|considerable|o
 anlässlich|on the occasion of|o
 nationalistisch|nationalist|o
+faktor|factor (der, pl. Faktoren)|o
 irakisch|Iraqi|o
+trend|trend (der, pl. Trends)|o
 dänisch|Danish|o
+innovation|innovation (die, pl. Innovationen)|o
+zentralbank|central bank (die, pl. Zentralbanken)|o
 addieren|to add, to add up|v
 multiplizieren|to multiply|v
+apotheker|pharmacist (der, pl. Apotheker)|o
 dreißig|thirty|o
 eifrig|eager, zealous|o
 ungeachtet|regardless of, notwithstanding|o
 humanitär|humanitarian|o
 mittelalterlich|medieval|o
 schmerzlich|painful|o
+haupt|head (literary) (das, pl. Häupter)|o
 zwangsläufig|inevitable, inevitably|o
 städtisch|urban, municipal|o
+erstmals|for the first time|o
 entfallen|to be omitted, to not apply; to fall to (a share) (entfällt, entfiel, entfallen, ist)|v;v
 freudig|joyful, happy|o
 interagieren|to interact|v
+inflation|inflation (die, pl. Inflationen)|o
 archäologisch|archaeological|o
 ebenda|in the same place (ibid.)|o
 deutschsprachig|German-speaking|o
 dortig|that is there, of that place|o
 ägyptisch|Egyptian|o
 vorzüglich|excellent, exquisite|o
+wähler|voter (der, pl. Wähler)|o
 kollektiv|collective|o
 böhmische|Bohemian (declined form)|o
 inmitten|in the midst of, amid|o
@@ -6947,63 +6986,102 @@ temporär|temporary|o
 feierlich|solemn, ceremonial|o
 unverzichtbar|indispensable, essential|o
 sonstig|other, additional|o
+kommission|commission (die, pl. Kommissionen)|o
 agieren|to act, to operate|v
+verbesserung|improvement (die, pl. Verbesserungen)|o
 visuell|visual|o
+weltwirtschaft|world economy (die, no pl.)|o
 akademisch|academic|o
 vergeblich|futile, in vain|o
 literarisch|literary|o
 mangelnd|lacking, insufficient|o
 niet|rivet (der, pl. Niete)|o
+beschäftigung|employment, occupation (die, pl. Beschäftigungen)|o
 multilateral|multilateral|o
 unzureichend|insufficient, inadequate|o
 einschränken|to restrict, to limit|v
+europäer|European (person) (der, pl. Europäer)|o
+rezession|recession (die, pl. Rezessionen)|o
 zunehmen|to increase, to grow (nimmt zu, nahm zu, zugenommen); to put on weight|v;v
 zugänglich|accessible|o
 republikanisch|republican|o
 unvermeidlich|unavoidable, inevitable|o
 bedeutsam|significant, meaningful|o
 seitens|on the part of, by|o
+leser|reader (der, pl. Leser)|o
 bisherig|previous, existing so far|o
 verweisen|to refer (auf/an: to); to expel, to dismiss (verwies, verwiesen)|v;v
 ideologisch|ideological|o
 tendenziell|tending, in tendency; broadly|o;o
 gutmütig|good-natured|o
+wohlstand|prosperity (der, no pl.)|o
 pakistanisch|Pakistani|o
+beifall|applause (der, no pl.)|o
+industrie|industry (die, pl. Industrien)|o
+infrastruktur|infrastructure (die, pl. Infrastrukturen)|o
 verheerend|devastating|o
 parallel|parallel|o
+erregung|excitement, agitation (die, pl. Erregungen)|o
 fünfzig|fifty|o
 titeln|to title, to headline (a newspaper article)|v
 zivil|civilian, civil|o
 unweigerlich|inevitable, inevitably|o
+billion|trillion, 10^12 (not "billion") (die, pl. Billionen)|o
+kapital|capital, funds (das, pl. Kapitalien)|o
+kaufmann|merchant, businessman (der, pl. Kaufleute)|o
+korruption|corruption (die, no pl.)|o
+landwirtschaft|agriculture (die, no pl.)|o
+wandel|change, transformation (der, no pl.)|o
 lauschen|to listen (to), to eavesdrop|v
 sozialistisch|socialist|o
+notwendigkeit|necessity (die, pl. Notwendigkeiten)|o
 innovativ|innovative|o
+anreiz|incentive (der, pl. Anreize)|o
+einführung|introduction (die, pl. Einführungen)|o
+stabilität|stability (die, no pl.)|o
 bleich|pale|o
 seinerseits|for his part, on his part|o
 starr|rigid, stiff|o
 populistisch|populist|o
 eindämmen|to contain, to curb|v
+entschluss|decision, resolution (der, pl. Entschlüsse)|o
 glänzen|to shine, to gleam|v
 thun|to do (archaic spelling)|v
+fläche|area, surface (die, pl. Flächen)|o
 erkennbar|recognizable, discernible|o
+finanzierung|financing, funding (die, pl. Finanzierungen)|o
+gründung|founding, establishment (die, pl. Gründungen)|o
 promovieren|to earn a doctorate, to do a PhD|v
+fortwährend|continual, constant|o
 säkular|secular|o
 nachdenklich|thoughtful, reflective|o
+ungleichheit|inequality (die, pl. Ungleichheiten)|o
 norwegisch|Norwegian|o
+dasein|existence (das, no pl.)|o
+integration|integration (die, no pl.)|o
+zusammenbruch|collapse, breakdown (der, pl. Zusammenbrüche)|o
 divers|diverse; various|o;o
 vierzig|forty|o
+ökonom|economist (der, pl. Ökonomen)|o
 grundsätzlich|fundamental; basically, in principle|o;o
 offenkundig|obvious, evident|o
 strömen|to stream, to pour (of people, liquid)|v
+dienstleistung|service (die, pl. Dienstleistungen)|o
 geopolitisch|geopolitical|o
 spöttisch|mocking, sarcastic|o
 vortrefflich|excellent, splendid|o
+darstellung|depiction, representation (die, pl. Darstellungen)|o
 kreieren|to create|v
+anwendung|application, use (die, pl. Anwendungen)|o
+untergraben|to undermine (untergräbt, untergrub, untergraben)|v
+überdies|moreover, besides|o
 besinnen|sich besinnen (auf): to recall, to reflect (besann, besonnen)|o
 innig|intimate, deep (feeling)|o
+pariser|Parisian (der, pl. Pariser)|o
 weihen|to consecrate, to ordain|v
 benachbart|neighbouring, adjacent|o
 dominieren|to dominate|v
+engagement|commitment, involvement (das, pl. Engagements)|o
 orthodox|orthodox|o
 steinern|made of stone, stony|o
 trüben|to cloud, to dim; to mar|v;v
@@ -7019,6 +7097,7 @@ portugiesisch|Portuguese|o
 individuell|individual|o
 katastrophal|catastrophic|o
 philosophisch|philosophical|o
+hervorbringen|to produce, to bring forth (brachte hervor, hervorgebracht)|v
 schüren|to stoke, to fuel (a fire, conflict)|v
 entzückt|delighted|o
 erröten|to blush|v
@@ -7026,11 +7105,14 @@ unbestimmt|indefinite, undetermined|o
 verstummen|to fall silent|v
 radikal|radical|o
 mangeln|to be lacking, to be short of (impers., es mangelt an)|v
+aufbau|building up, structure (der, pl. Aufbauten)|o
+hinausgehen|to go beyond, to exceed; to go out (ging hinaus, hinausgegangen, ist)|v;v
 behaglich|cosy, comfortable|o
 verächtlich|contemptuous, scornful; contemptible|o;o
 südwestlich|southwestern|o
 einheitlich|uniform, consistent|o
 zugehen|to walk towards (ging zu, zugegangen, ist); to close, to shut; to happen, to go on|v;v;v
+emission|emission (die, pl. Emissionen)|o
 ausgeglichen|balanced, even-tempered|o
 hüllen|to wrap, to envelop|v
 schiitisch|Shia, Shiite|o
@@ -7044,14 +7126,22 @@ rumänisch|Romanian|o
 formulieren|to formulate, to word|v
 kläglich|pathetic, miserable; pitiful|o;o
 münden|to flow into, to lead into (in: a river, road); to result in|v;v
+erhöhung|increase, raise (die, pl. Erhöhungen)|o
+erzählung|story, narrative (die, pl. Erzählungen)|o
+unabhängigkeit|independence (die, no pl.)|o
+übergang|transition, crossing (der, pl. Übergänge)|o
 via|via, by way of|o
 spezialisieren|to specialize; sich spezialisieren auf: to specialize in|v;n
 vorwiegend|predominantly, mainly|o
+schaffung|creation (die, no pl.)|o
+zinssatz|interest rate (der, pl. Zinssätze)|o
 gleichmäßig|even, uniform, uniformly|o
 glühend|glowing; burning, fervent|o;o
 urkundlich|documented, on record|o
 klinisch|clinical|o
 schrumpfen|to shrink|v
+hingegen|on the other hand, whereas|o
+ökonomie|economics, economy (die, pl. Ökonomien)|o
 belgisch|Belgian|o
 milde|mild, gentle|o
 nordwestlich|northwestern|o
@@ -7059,17 +7149,24 @@ südöstlich|southeastern|o
 verwundern|to surprise, to astonish; sich verwundern: to be surprised|v;n
 stetig|steady, continuous, continuously|o
 schädlich|harmful|o
+republikaner|republican (der, pl. Republikaner)|o
+verwendung|use, application (die, pl. Verwendungen)|o
 motivieren|to motivate|v
 bewerten|to evaluate, to assess; to rate|v;v
 grundlegend|fundamental, basic|o
 kognitiv|cognitive|o
 resultierend|resulting|o
+jedesmal|every time|o
+umfeld|environment, surroundings (das, pl. Umfelder)|o
+zeitraum|period, timespan (der, pl. Zeiträume)|o
 einerseits|on the one hand|o
 bürgerlich|civic, civil; middle-class, bourgeois|o;o
 nordöstlich|northeastern|o
 schwanken|to sway, to fluctuate|v
 seitwärts|sideways|o
 vorig|previous, last|o
+nord|north (der, no pl.)|o
+palästinenser|Palestinian (der, pl. Palästinenser)|o
 befindlich|located, situated|o
 erstrecken|to extend; sich erstrecken: to stretch, to range|v;n
 nachgewiesen|proven, verified|o
@@ -7077,6 +7174,8 @@ problematisch|problematic|o
 transparent|transparent|o
 parlamentarisch|parliamentary|o
 erlassen|to issue (a decree, law); to remit, to waive (a debt) (erlässt, erließ, erlassen)|v;v
+akteur|actor, player, agent (der, pl. Akteure)|o
+yacht|yacht (die, pl. Yachten)|o
 bestatten|to bury, to inter|v
 maßgeblich|decisive, authoritative; significantly|o;o
 ihrerseits|for her/their part|o
@@ -7084,19 +7183,45 @@ mathematisch|mathematical|o
 schmücken|to decorate, to adorn|v
 unzufrieden|dissatisfied, unhappy|o
 zierlich|delicate, petite|o
+arbeitnehmer|employee (der, pl. Arbeitnehmer)|o
+geldpolitik|monetary policy (die, no pl.)|o
+menschenrecht|human right (das, pl. Menschenrechte)|o
+ministerpräsident|prime minister, minister-president (der, pl. Ministerpräsidenten)|o
+plattform|platform (die, pl. Plattformen)|o
+umfang|extent, scope; circumference (der, pl. Umfänge)|o;o
+verlauf|course, progression (der, pl. Verläufe)|o
 makroökonomisch|macroeconomic|o
 mobilisieren|to mobilize|v
 vorbeigehen|to go past, to pass by (ging vorbei, vorbeigegangen, ist)|v
+ausschließlich|exclusively, only|o
+außenpolitik|foreign policy (die, no pl.)|o
+hinblick|im Hinblick auf: with regard to, in view of|n
+islam|Islam (der, no pl.)|o
+weltbank|World Bank (die, no pl.)|o
 vergoldet|gilded, gold-plated|o
 ausdrücklich|explicit, explicitly|o
+auseinandersetzung|argument, dispute; engagement with (die, pl. Auseinandersetzungen)|o;o
+grundsatz|principle (der, pl. Grundsätze)|o
+intervention|intervention (die, pl. Interventionen)|o
+philosoph|philosopher (der, pl. Philosophen)|o
+unsicherheit|uncertainty, insecurity (die, pl. Unsicherheiten)|o
+zweig|branch, twig (der, pl. Zweige)|o
 konstant|constant|o
 ergänzen|to complete, to supplement; to add|v;v
 atomar|atomic, nuclear|o
 dynamisch|dynamic|o
 sorgsam|careful, carefully|o
 äußerlich|external, outward|o
+ausstatten|to equip, to furnish|v
+defizit|deficit (das, pl. Defizite)|o
+muslim|Muslim (der, pl. Muslime)|o
+parameter|parameter (der, pl. Parameter)|o
+zuweilen|sometimes, occasionally|o
 umwandeln|to convert, to transform|v
 gerechtfertigt|justified|o
+amtszeit|term of office (die, pl. Amtszeiten)|o
+kutscher|coachman (der, pl. Kutscher)|o
+rückgang|decline, decrease (der, pl. Rückgänge)|o
 ausweiten|to expand, to extend|v
 faktisch|actual, de facto; in fact|o;o
 subtrahieren|to subtract|v
@@ -7107,6 +7232,7 @@ verbeugen|sich verbeugen: to bow|n
 afghanisch|Afghan|o
 hierzu|on this, regarding this|o
 instabil|unstable|o
+quartiermeister|quartermaster (der, pl. Quartiermeister)|o
 diesjährig|this year's|o
 verbleibend|remaining|o
 systematisch|systematic|o
@@ -7114,13 +7240,24 @@ verhängen|to impose (a penalty, sentence); to drape, to curtain|v;v
 ethisch|ethical|o
 inbetriebnahme|commissioning, start-up (die, pl. Inbetriebnahmen)|o
 physikalisch|physical (relating to physics)|o
+gattin|wife, spouse (die, pl. Gattinnen)|o
+schauspiel|play, drama; spectacle (das, pl. Schauspiele)|o;o
+verlegenheit|embarrassment (die, pl. Verlegenheiten)|o
 populär|popular|o
 kühn|bold, daring|o
 schwatzen|to chat, to gossip|v
 indirekt|indirect, indirectly|o
 progressiv|progressive|o
+anerkannt|recognized, acknowledged|o
+behauptung|claim, assertion (die, pl. Behauptungen)|o
+export|export (der, pl. Exporte)|o
+hervorrufen|to cause, to provoke (rief hervor, hervorgerufen)|v
 kanadisch|Canadian|o
 langjährig|long-standing, of many years|o
+fonds|fund (der, pl. Fonds)|o
+notenbank|central bank, issuing bank (die, pl. Notenbanken)|o
+umsetzung|implementation (die, pl. Umsetzungen)|o
+zugrunde|zugrunde gehen: to perish, to be ruined; zugrunde liegen: to underlie|n;n
 energisch|energetic, vigorous|o
 trüb|dull, murky; gloomy|o;o
 widerwärtig|disgusting, repulsive|o
@@ -7131,6 +7268,9 @@ nachlassen|to ease off, to let up (lässt nach, ließ nach, nachgelassen)|v
 brasilianisch|Brazilian|o
 informell|informal|o
 legitim|legitimate|o
+elite|elite (die, pl. Eliten)|o
+pampa|pampas (die, no pl.)|o
+rubel|ruble (der, pl. Rubel)|o
 mobile|mobile (declined form of mobil)|o
 produktiv|productive|o
 päpstlich|papal|o
@@ -7138,29 +7278,40 @@ armenisch|Armenian|o
 terroristisch|terrorist|o
 behutsam|careful, cautious, carefully|o
 ermüden|to tire, to fatigue|v
+klima|climate (das, pl. Klimate)|o
+wechselkurs|exchange rate (der, pl. Wechselkurse)|o
 demnach|accordingly, therefore|o
 fiskalisch|fiscal|o
 fortan|from now on, henceforth|o
 prägen|to shape, to mould; to mint, to coin|v;v
 rational|rational|o
 verankern|to anchor, to enshrine (in law)|v
+evolution|evolution (die, no pl.)|o
 anlächeln|to smile at|v
 befestigen|to fasten, to secure; to fortify|v;v
 bestürzt|dismayed, shocked|o
 ernstlich|serious, seriously, earnest, earnestly|o
 ängstigen|to frighten; sich ängstigen: to be afraid|v;n
 verzeichnen|to record, to register (a change, increase)|v
+neigung|inclination, tendency (die, pl. Neigungen)|o
+veröffentlichung|publication (die, pl. Veröffentlichungen)|o
 theologisch|theological|o
 geographisch|geographical|o
 optimistisch|optimistic|o
 entstammen|to originate from, to stem from|v
 spezifisch|specific|o
 islamistisch|Islamist|o
+bestandteil|component, part (der, pl. Bestandteile)|o
+gewässer|body of water, waters (das, pl. Gewässer)|o
+herrlichkeit|splendor, glory (die, pl. Herrlichkeiten)|o
+merkmal|characteristic, feature (das, pl. Merkmale)|o
+stellvertreter|deputy, representative (der, pl. Stellvertreter)|o
 abwechselnd|alternating, alternately, by turns|o
 bleichen|to bleach; to fade|v;v
 folglich|consequently, therefore|o
 fremdsprachig|foreign-language|o
 mittelfristig|medium-term|o
+abhängigkeit|dependence, dependency (die, pl. Abhängigkeiten)|o
 implizieren|to imply|v
 beitragen|to contribute (trägt bei, trug bei, beigetragen)|v
 chronisch|chronic|o
@@ -7172,6 +7323,10 @@ mager|lean, thin; meagre|o;o
 neuerlich|renewed, repeated; once again|o;o
 sichtlich|visible, visibly; evident, evidently|o;o
 verheiraten|to marry off; sich verheiraten: to get married|v;n
+arbeitskraft|workforce; worker (die, pl. Arbeitskräfte)|o;o
+kommunistisch|communist|o
+norm|norm, standard (die, pl. Normen)|o
+zärtlichkeit|tenderness (die, pl. Zärtlichkeiten)|o
 eingeweiht|initiated, in the know|o
 koordinieren|to coordinate|v
 gekennzeichnet|marked, characterized|o
@@ -7179,6 +7334,12 @@ schätzungsweise|approximately, an estimated|o
 spätestens|at the latest|o
 fränkisch|Franconian; Frankish|o;o
 juristisch|legal, juridical|o
+bekämpfung|combating, fight against (die, no pl.)|o
+daraufhin|thereupon, as a result|o
+herbeiführen|to bring about|v
+nutzung|use, utilization (die, pl. Nutzungen)|o
+sanktion|sanction (die, pl. Sanktionen)|o
+verein|club, association (der, pl. Vereine)|o
 alternd|aging|o
 ansässig|resident, based|o
 autonom|autonomous|o
@@ -7194,12 +7355,17 @@ wahrlich|truly, verily|o
 primär|primary|o
 verlagern|to shift, to relocate|v
 vertiefen|to deepen; sich vertiefen in: to immerse oneself in|v;n
+anleihe|loan, bond (die, pl. Anleihen)|o
+betrachtung|observation, consideration (die, pl. Betrachtungen)|o
+statistik|statistics (die, pl. Statistiken)|o
 erkunden|to explore, to reconnoitre|v
 konzipieren|to conceive, to design|v
 transatlantisch|transatlantic|o
 bestreben|to strive, to endeavour (sich bestreben)|v
 fundamental|fundamental|o
 mittler|mediator, intermediary (der, pl. Mittler)|o
+unterdessen|meanwhile|o
+unterhalb|below, underneath|o
 beliebig|any, whichever; arbitrary|o;o
 hochwertig|high-quality|o
 kirchlich|ecclesiastical, church-related|o
@@ -7212,12 +7378,23 @@ rosig|rosy, pink|o
 verhelfen|to help (someone) to get, to achieve (something) (verhilft, verhalf, verholfen)|v
 vereinfachen|to simplify|v
 verwalten|to administer, to manage|v
+auflage|edition; condition, requirement (die, pl. Auflagen)|o;o
+bündnis|alliance (das, pl. Bündnisse)|o
+definition|definition (die, pl. Definitionen)|o
+franke|Frank (historical); Franconian (der, pl. Franken)|o;o
+koalition|coalition (die, pl. Koalitionen)|o
+süd|south (der, no pl.)|o
 auffordern|to ask, to invite; to call on, to order|v;v
 beherbergen|to house, to accommodate|v
 bücken|sich bücken: to bend down, to stoop|n
 unlängst|recently, not long ago|o
 zubereiten|to prepare (food)|v
+bezeichnung|term, designation (die, pl. Bezeichnungen)|o
 formell|formal|o
+kathedrale|cathedral (die, pl. Kathedralen)|o
+mittelalter|Middle Ages (das, no pl.)|o
+prokurist|authorized signatory, company officer (der, pl. Prokuristen)|o
+verbreitung|spread, dissemination (die, no pl.)|o
 vorherig|previous, prior|o
 byzantinisch|Byzantine|o
 deportieren|to deport|v
@@ -7231,13 +7408,18 @@ schaukeln|to swing, to rock|v
 schimmern|to shimmer, to glimmer|v
 schweifen|to roam, to wander (literary)|v
 unnütz|useless|o
+ellbogen|elbow (der, pl. Ellbogen)|o
+stärkung|strengthening (die, pl. Stärkungen)|o
 befürworten|to advocate, to support (a proposal)|v
 circa|approximately, about|o
 voraussichtlich|expected, anticipated; presumably|o;o
 herkömmlich|conventional, traditional|o
 inhaftiert|imprisoned, detained|o
 insofern|insofar, in that respect; insofar as|o;o
+bakterie|bacterium (die, pl. Bakterien)|o
+erwärmung|warming (die, no pl.)|o
 intuitiv|intuitive|o
+unternehmer|entrepreneur, businessman (der, pl. Unternehmer)|o
 sunnitisch|Sunni|o
 berechtigen|to entitle, to authorize|v
 betrübt|sad, saddened|o
@@ -7246,10 +7428,21 @@ hochgradig|highly, to a high degree|o
 konkurrieren|to compete|v
 schwinden|to dwindle, to fade, to wane (schwand, geschwunden, ist)|v
 ununterbrochen|continuous, continuously, uninterrupted|o
+brennstoff|fuel (der, pl. Brennstoffe)|o
+liebenswürdig|amiable, kind|o
+mitteilung|message, notification (die, pl. Mitteilungen)|o
+mittelpunkt|center, focal point (der, pl. Mittelpunkte)|o
+molekül|molecule (das, pl. Moleküle)|o
+vierzehn|fourteen|o
+überlegung|consideration, reflection (die, pl. Überlegungen)|o
 einseitig|one-sided, unilateral|o
 germanisch|Germanic|o
 ironischerweise|ironically|o
 kontraproduktiv|counterproductive|o
+after|anus (der, pl. After)|o
+bevorstehend|upcoming, imminent|o
+erkrankung|illness, disease (die, pl. Erkrankungen)|o
+oftmals|often|o
 gängig|common, current, prevalent|o
 beruhend|based (auf: on)|o
 dermaßen|to such an extent, so|v
@@ -7266,11 +7459,28 @@ webpräsenz|web presence, website (die, pl. Webpräsenzen)|o
 ausreichen|to be enough, to suffice|v
 ausschauen|to look (seem) (colloq.); ausschauen nach: to look out for|v;n
 zurückbleiben|to stay behind, to be left behind (blieb zurück, zurückgeblieben, ist)|v
+anschauung|view, perception (die, pl. Anschauungen)|o
+einschränkung|restriction, limitation (die, pl. Einschränkungen)|o
+galgen|gallows (der, pl. Galgen)|o
+säule|column, pillar (die, pl. Säulen)|o
+unterliegen|to be subject to; to lose, to be defeated (unterlag, unterlegen, ist)|v;v
+untersuchungsrichter|investigating judge (der, pl. Untersuchungsrichter)|o
+vollziehen|to carry out, to execute (vollzog, vollzogen)|v
 verwurzeln|to root, to become rooted; sich verwurzeln: to take root|v;n
 kurdisch|Kurdish|o
 anheizen|to heat up, to fire up (fig., tensions)|v
 experimentieren|to experiment|v
 letztere|the latter|o
+anlangen|to arrive, to reach|v
+beobachter|observer (der, pl. Beobachter)|o
+epidemie|epidemic (die, pl. Epidemien)|o
+fußboden|floor (der, pl. Fußböden)|o
+herstellung|production, manufacture (die, no pl.)|o
+management|management (das, no pl.)|o
+minderheit|minority (die, pl. Minderheiten)|o
+organismus|organism (der, pl. Organismen)|o
+reiz|stimulus; charm, appeal (der, pl. Reize)|o;o
+voraussetzung|precondition, prerequisite (die, pl. Voraussetzungen)|o
 akzeptabel|acceptable|o
 bemächtigen|sich bemächtigen: to seize, to take control of (gen.)|n
 erwägen|to consider, to contemplate (erwog, erwogen)|v
@@ -7288,6 +7498,17 @@ pädagogisch|pedagogical, educational|o
 abzüglich|less, minus (deducting)|o
 gotisch|Gothic|o
 nominal|nominal|o
+bewunderung|admiration (die, no pl.)|o
+ernährung|nutrition, diet (die, no pl.)|o
+frühjahr|spring (das, pl. Frühjahre)|o
+kapazität|capacity (die, pl. Kapazitäten)|o
+kontext|context (der, pl. Kontexte)|o
+mitgliedsstaat|member state (der, pl. Mitgliedsstaaten)|o
+ost|east (der, no pl.)|o
+prognose|forecast, prognosis (die, pl. Prognosen)|o
+teilnahme|participation (die, no pl.)|o
+vereinigung|union, association (die, pl. Vereinigungen)|o
+wahrnehmung|perception (die, pl. Wahrnehmungen)|o
 formal|formal|o
 polizeioberrat|senior police officer, a rank (der, pl. Polizeioberräte)|o
 strikt|strict, strictly|o
@@ -7299,6 +7520,10 @@ komponieren|to compose (music)|v
 lieblich|lovely, sweet (taste, scenery)|o
 stürmisch|stormy; turbulent, impetuous|o;o
 unpassend|inappropriate, unsuitable|o
+bereitschaft|readiness, willingness (die, no pl.)|o
+dialog|dialogue (der, pl. Dialoge)|o
+hochschule|university, college (die, pl. Hochschulen)|o
+umfrage|survey, poll (die, pl. Umfragen)|o
 libanesisch|Lebanese|o
 exportieren|to export|v
 feministisch|feminist|o
@@ -7308,6 +7533,10 @@ regulieren|to regulate|v
 bestehend|existing|o
 forsch|brisk, bold; assertive, assertively|o;o
 virtuell|virtual|o
+anschein|appearance, semblance (der, no pl.)|o
+begeisterung|enthusiasm (die, no pl.)|o
+verbraucher|consumer (der, pl. Verbraucher)|o
+verringerung|reduction, decrease (die, pl. Verringerungen)|o
 importieren|to import|v
 weltlich|worldly, secular|o
 abmildern|to soften, to mitigate|v
@@ -7320,6 +7549,12 @@ ungestüm|impetuous, impetuously, vehement|o
 unverändert|unchanged|o
 integrieren|to integrate|v
 kapitalistisch|capitalist|o
+administration|administration (die, pl. Administrationen)|o
+bettler|beggar (der, pl. Bettler)|o
+entstehung|origin, formation (die, no pl.)|o
+ersparnis|savings (die, pl. Ersparnisse)|o
+konsum|consumption (der, no pl.)|o
+schnelligkeit|speed, swiftness (die, no pl.)|o
 entnehmen|to take (from); to gather, to infer (from a text) (entnimmt, entnahm, entnommen)|v;v
 erschweren|to make more difficult, to complicate|v
 exzessiv|excessive|o
@@ -7337,6 +7572,10 @@ militant|militant|o
 zusammenleben|to live together|v
 regulär|regular|o
 verschlechtern|to worsen; sich verschlechtern: to deteriorate|v;n
+beschränkung|restriction, limitation (die, pl. Beschränkungen)|o
+demokrat|democrat (der, pl. Demokraten)|o
+erweiterung|extension, expansion (die, pl. Erweiterungen)|o
+inschrift|inscription (die, pl. Inschriften)|o
 bewohnen|to inhabit, to live in|v
 bläulich|bluish|o
 dämpfen|to muffle, to dampen; to steam (cooking)|v;v
@@ -7352,6 +7591,12 @@ schleudern|to hurl, to fling; to skid (of a car)|v;v
 verweilen|to linger, to stay (literary)|v
 robust|robust, sturdy|o
 tschau|bye, ciao (colloq.)|o
+achse|axis, axle (die, pl. Achsen)|o
+bundesstaat|federal state (der, pl. Bundesstaaten)|o
+fund|find, discovery (der, pl. Funde)|o
+stadtteil|city district, neighborhood (der, pl. Stadtteile)|o
+strömung|current, flow; movement (die, pl. Strömungen)|o;o
+terrasse|terrace, patio (die, pl. Terrassen)|o
 exponentiell|exponential|o
 gnom|gnome (der, pl. Gnome)|o
 spürbar|noticeable, perceptible|o
@@ -7365,12 +7610,23 @@ restaurieren|to restore (art, a building)|v
 romanisch|Romance (languages); Romanesque (architecture)|o;o
 sechzig|sixty|o
 seelisch|psychological, emotional (of the soul)|o
+besorgnis|concern, worry (die, pl. Besorgnisse)|o
+bürgerkrieg|civil war (der, pl. Bürgerkriege)|o
+festival|festival (das, pl. Festivals)|o
+gebrauch|use, usage; customs, traditions (der, pl. Gebräuche)|o;o
+opposition|opposition (die, no pl.)|o
+schwerpunkt|focus, main emphasis (der, pl. Schwerpunkte)|o
 kroatisch|Croatian|o
 normdatum|authority record (das, pl. Normdaten)|o
 sog|suction; undertow, pull (fig.) (der, pl. Soge)|o;o
 ungleich|unequal; incomparably, far (intensifier before a comparative)|o;o
 zweieinhalb|two and a half|o
 nachschauen|to check, to look up; to look after (someone leaving)|v;v
+anhand|by means of, on the basis of|o
+nachteil|disadvantage (der, pl. Nachteile)|o
+pforte|gate, portal (die, pl. Pforten)|o
+sicherheitsrat|Security Council (der, no pl.)|o
+siedlung|settlement (die, pl. Siedlungen)|o
 materiell|material|o
 auffallend|striking, strikingly, conspicuous|o
 binnen|within (a period of time)|o
@@ -7382,12 +7638,34 @@ unbewusst|unconscious, unconsciously|o
 undeutlich|unclear, unclearly, indistinct|o
 ungemein|extraordinary, immensely|o
 viertens|fourthly|o
+auffassung|view, understanding, interpretation (die, pl. Auffassungen)|o
+bereitstellen|to provide, to make available|v
+bilanz|balance sheet; outcome, result (die, pl. Bilanzen)|o;o
+maßstab|scale, standard (der, pl. Maßstäbe)|o
+mechanismus|mechanism (der, pl. Mechanismen)|o
+ochse|ox (der, pl. Ochsen)|o
+schätzung|estimate, estimation (die, pl. Schätzungen)|o
+wichtigkeit|importance (die, no pl.)|o
 vernetzen|to network, to connect; sich vernetzen: to network (people)|v;n
 minimal|minimal, minimally|o
 skeptisch|skeptical|o
 vermeintlich|supposed, supposedly, alleged|o
 quadratisch|square, quadratic|o
 verzieren|to decorate, to adorn|v
+aktivist|activist (der, pl. Aktivisten)|o
+balken|beam (der, pl. Balken)|o
+edelmann|nobleman (der, pl. Edelleute)|o
+geldpolitisch|monetary-policy|o
+genuss|enjoyment, pleasure (der, pl. Genüsse)|o
+gesichtsausdruck|facial expression (der, pl. Gesichtsausdrücke)|o
+gesundheitswesen|healthcare system (das, no pl.)|o
+gewissermaßen|so to speak, in a sense|o
+hutmacher|hatter (der, pl. Hutmacher)|o
+komponist|composer (der, pl. Komponisten)|o
+misstrauen|distrust, suspicion (das, no pl.)|o
+porträt|portrait (das, pl. Porträts)|o
+umfangreich|extensive, comprehensive|o
+zweihundert|two hundred|o
 baltisch|Baltic|o
 abstrakt|abstract|o
 anblicken|to look at|v
@@ -7414,10 +7692,33 @@ umfassend|comprehensive|o
 unbegrenzt|unlimited|o
 fragil|fragile|o
 hochrangig|high-ranking|o
+bewertung|assessment, evaluation (die, pl. Bewertungen)|o
+dreieck|triangle (das, pl. Dreiecke)|o
+gleichermaßen|equally, likewise|o
+interaktion|interaction (die, pl. Interaktionen)|o
+olympisch|Olympic|o
+steigerung|increase (die, pl. Steigerungen)|o
+unternehmung|enterprise, undertaking (die, pl. Unternehmungen)|o
+vermögenswert|asset (der, pl. Vermögenswerte)|o
+zahllos|countless|o
+äußerung|statement, remark (die, pl. Äußerungen)|o
 signifikant|significant|o
 vielfältig|diverse, varied|o
 lockern|to loosen; to relax (rules); sich lockern: to loosen up|v;v;n
 erzwingen|to force, to compel (erzwang, erzwungen)|v
+aufrechterhalten|to maintain, to uphold (hielt aufrecht, aufrechterhalten)|v
+fabrikant|manufacturer, factory owner (der, pl. Fabrikanten)|o
+forum|forum (das, pl. Foren)|o
+gouvernante|governess (die, pl. Gouvernanten)|o
+größtenteils|for the most part|o
+herbei|over here, this way|o
+mehrfach|multiple, several times|o
+mitgliedschaft|membership (die, no pl.)|o
+mitunter|sometimes, occasionally|o
+präsidentschaft|presidency (die, no pl.)|o
+regierungschef|head of government (der, pl. Regierungschefs)|o
+souveränität|sovereignty (die, no pl.)|o
+vorzimmer|antechamber, anteroom (das, pl. Vorzimmer)|o
 anderer|another, other one (declined form)|o
 ineinander|into each other, into one another|o
 irdisch|earthly, worldly|o
@@ -7435,6 +7736,15 @@ expansiv|expansive, expansionary|o
 organisch|organic|o
 renommieren|to boast, to brag|v
 tropisch|tropical|o
+arbeitsmarkt|labor market (der, pl. Arbeitsmärkte)|o
+beteiligung|participation; stake, share (die, pl. Beteiligungen)|o;o
+gattung|genus, species; genre (die, pl. Gattungen)|o;o
+gleichung|equation (die, pl. Gleichungen)|o
+hierauf|thereupon, after this|o
+interpretation|interpretation (die, pl. Interpretationen)|o
+streitkraft|armed force (die, pl. Streitkräfte)|o
+territorium|territory (das, pl. Territorien)|o
+zugunsten|in favor of|o
 albanisch|Albanian|o
 kandidieren|to run, to be a candidate (für: for)|v
 umschauen|sich umschauen: to look around|n
@@ -7456,6 +7766,13 @@ ersichtlich|apparent, evident|o
 reinlich|clean, tidy|o
 unnatürlich|unnatural|o
 wehmütig|wistful, melancholy|o
+anfällig|susceptible, prone|o
+bayer|Bavarian (person) (der, pl. Bayern)|o
+israeli|Israeli (person) (der, pl. Israelis)|o
+lebensstandard|standard of living (der, no pl.)|o
+protein|protein (das, pl. Proteine)|o
+verdeck|top, hood (of a car or carriage) (das, pl. Verdecke)|o
+vorhersage|forecast, prediction (die, pl. Vorhersagen)|o
 schildern|to describe, to portray|v
 siedeln|to settle (colonize)|v
 unrealistisch|unrealistic|o
@@ -7472,6 +7789,21 @@ minimieren|to minimize|v
 multinational|multinational|o
 slowenisch|Slovenian, Slovene|o
 souverän|sovereign; confident, assured|o;o
+eifer|zeal, eagerness (der, no pl.)|o
+erzbischof|archbishop (der, pl. Erzbischöfe)|o
+fassung|version; composure; socket (die, pl. Fassungen)|o;o;o
+gesundheitssystem|healthcare system (das, pl. Gesundheitssysteme)|o
+ideologie|ideology (die, pl. Ideologien)|o
+komponente|component (die, pl. Komponenten)|o
+konsens|consensus (der, no pl.)|o
+periode|period (die, pl. Perioden)|o
+pflaster|plaster, band-aid; pavement (das, pl. Pflaster)|o;o
+planung|planning (die, pl. Planungen)|o
+quadrat|square, shape (das, pl. Quadrate)|o
+vielfach|multiple, manifold|o
+wappen|coat of arms (das, pl. Wappen)|o
+wettbewerbsfähigkeit|competitiveness (die, no pl.)|o
+zeitlang|eine Zeitlang: for a while|n
 antisemitisch|antisemitic|o
 gliedern|to structure, to organize (into parts)|v
 linear|linear|o
@@ -7500,6 +7832,21 @@ erkranken|to fall ill, to become sick|v
 festigen|to strengthen, to consolidate|v
 unkonventionell|unconventional|o
 wiederbeleben|to revive, to resuscitate|v
+ablehnung|rejection, refusal (die, pl. Ablehnungen)|o
+altstadt|old town (die, pl. Altstädte)|o
+amme|wet nurse, nanny (die, pl. Ammen)|o
+belieben|to wish, to please (formal); nach Belieben: as you like, at your discretion|v;n
+einigung|agreement, settlement (die, pl. Einigungen)|o
+fakultät|faculty, university division; factorial, math (die, pl. Fakultäten)|o;o
+import|import (der, pl. Importe)|o
+konzern|corporation, group of companies (der, pl. Konzerne)|o
+mithilfe|with the help of|o
+nunmehr|now, from now on|o
+szenario|scenario (das, pl. Szenarien)|o
+verteilung|distribution (die, pl. Verteilungen)|o
+vorantreiben|to push forward, to drive forward (trieb voran, vorangetrieben)|v
+wiederaufbau|reconstruction (der, no pl.)|o
+zurücklegen|to put aside, to save; to cover, a distance|v;v
 auslachen|to laugh at|v
 ausstoßen|to let out (a cry, a sigh) (stößt aus, stieß aus, ausgestoßen); to expel|v;v
 erlernen|to learn, to acquire (a skill)|v
@@ -7521,6 +7868,23 @@ entspringen|to originate, to spring from (entsprang, entsprungen, ist)|v
 ermutigend|encouraging|o
 osteuropäisch|Eastern European|o
 symbolisch|symbolic|o
+beibehalten|to retain, to keep (behielt bei, beibehalten)|v
+diktatur|dictatorship (die, pl. Diktaturen)|o
+einklang|im Einklang mit: in accordance with, in harmony with|n
+elektron|electron (das, pl. Elektronen)|o
+entgegengesetzt|opposite|o
+gemüt|disposition, temperament; mind, heart (das, pl. Gemüter)|o;o
+gestaltung|design, shaping (die, pl. Gestaltungen)|o
+glied|limb; link, chain (das, pl. Glieder)|o;o
+kooperation|cooperation (die, pl. Kooperationen)|o
+oberhalb|above, on top of|o
+schiffbrüchig|shipwrecked|o
+tendenz|tendency, trend (die, pl. Tendenzen)|o
+variante|variant (die, pl. Varianten)|o
+vorzug|preference; advantage, merit (der, pl. Vorzüge)|o;o
+zuhörer|listener (der, pl. Zuhörer)|o
+öffnung|opening (die, pl. Öffnungen)|o
+ökosystem|ecosystem (das, pl. Ökosysteme)|o
 ausschöpfen|to use up fully, to exhaust (resources)|v
 blendend|dazzling, brilliant|o
 eiligst|hastily, posthaste|o
@@ -7546,6 +7910,15 @@ fortgeschritten|advanced|o
 protestantisch|Protestant|o
 spektakulär|spectacular|o
 statistisch|statistical|o
+adel|nobility (der, no pl.)|o
+anleger|investor (der, pl. Anleger)|o
+baukunst|architecture (die, no pl.)|o
+gutsbesitzer|estate owner, landowner (der, pl. Gutsbesitzer)|o
+gymnasium|secondary school, academic track (das, pl. Gymnasien)|o
+impfstoff|vaccine (der, pl. Impfstoffe)|o
+mitgliedstaat|member state (der, pl. Mitgliedstaaten)|o
+vorgang|process, procedure (der, pl. Vorgänge)|o
+vorgänger|predecessor (der, pl. Vorgänger)|o
 inhaltlich|in terms of content, substantive|o
 pragmatisch|pragmatic|o
 anhaltend|persistent, continuous|o
@@ -7572,6 +7945,15 @@ unbefangen|unbiased, impartial; natural, uninhibited|o;o
 ungestört|undisturbed|o
 verharren|to remain, to persist (in a state)|v
 verhältnismäßig|relatively, comparatively|o
+gerichtsdiener|court usher, bailiff (der, pl. Gerichtsdiener)|o
+hausfrau|housewife (die, pl. Hausfrauen)|o
+hersteller|manufacturer, maker (der, pl. Hersteller)|o
+qualvoll|agonizing, painful|o
+schiffbruch|shipwreck (der, pl. Schiffbrüche)|o
+terrain|terrain (das, pl. Terrains)|o
+unzufriedenheit|dissatisfaction (die, no pl.)|o
+verwalter|administrator, manager (der, pl. Verwalter)|o
+wiederherstellung|restoration (die, no pl.)|o
 entfalten|to unfold; to develop (talents)|v;v
 irrational|irrational|o
 krönen|to crown|v
@@ -7586,6 +7968,22 @@ akut|acute, urgent|o
 destabilisieren|to destabilize|v
 optisch|optical, visual|o
 separat|separate|o
+andernfalls|otherwise|o
+annäherung|approach, rapprochement (die, pl. Annäherungen)|o
+atlantisch|Atlantic|o
+ausweitung|expansion, extension (die, pl. Ausweitungen)|o
+befriedigung|satisfaction (die, no pl.)|o
+ensemble|ensemble (das, pl. Ensembles)|o
+gebärde|gesture (die, pl. Gebärden)|o
+landwirt|farmer (der, pl. Landwirte)|o
+nahrungsmittel|food, foodstuff (das, pl. Nahrungsmittel)|o
+regelung|regulation, arrangement (die, pl. Regelungen)|o
+siebenunddreißigste|thirty-seventh|o
+stillstand|standstill (der, no pl.)|o
+subvention|subsidy (die, pl. Subventionen)|o
+untereinander|among each other, among one another|o
+vergleichbar|comparable|o
+zügel|rein (der, pl. Zügel)|o
 abrupt|abrupt|o
 eingliedern|to integrate, to incorporate|v
 optimal|optimal|o
@@ -7622,6 +8020,18 @@ zugehörig|belonging (to), affiliated|o
 moderieren|to host (a show); to moderate|v;v
 undenkbar|unthinkable|o
 werben|to advertise; to recruit; to woo (wirbt, warb, geworben)|v;v;v
+aneinander|to one another, together|o
+auflösung|dissolution, resolution (die, pl. Auflösungen)|o
+ausgleich|compensation, balance (der, pl. Ausgleiche)|o
+befürchtung|fear, apprehension (die, pl. Befürchtungen)|o
+erforschung|exploration, research (die, no pl.)|o
+erstemal|the first time|o
+senkung|lowering, reduction (die, pl. Senkungen)|o
+unordnung|disorder, mess (die, no pl.)|o
+vorübergehen|to pass by (ging vorüber, vorübergegangen, ist)|v
+widerwille|reluctance, aversion (der, no pl.)|o
+zumal|especially since, particularly as|o
+übernahme|takeover, acquisition (die, pl. Übernahmen)|o
 dominant|dominant|o
 orientieren|to orient; sich orientieren: to get one's bearings|v;n
 provisorisch|provisional, temporary|o
@@ -7633,6 +8043,16 @@ extremistisch|extremist|o
 stagnieren|to stagnate|v
 zurücknehmen|to take back (nimmt zurück, nahm zurück, zurückgenommen)|v
 zuwenden|to turn towards (wandte zu, zugewandt); sich zuwenden: to turn to|v;n
+beben|tremor, earthquake (das, pl. Beben)|o
+belagerung|siege (die, pl. Belagerungen)|o
+börse|stock exchange (die, pl. Börsen)|o
+diplomat|diplomat (der, pl. Diplomaten)|o
+kinderfrau|nanny, nurse (die, pl. Kinderfrauen)|o
+laub|foliage, leaves (das, no pl.)|o
+offenheit|openness (die, no pl.)|o
+todesfall|death, case of death (der, pl. Todesfälle)|o
+ungleichgewicht|imbalance (das, pl. Ungleichgewichte)|o
+zunahme|increase (die, pl. Zunahmen)|o
 alarmierend|alarming|o
 betätigen|to operate, to activate; sich betätigen: to be active, to busy oneself|v;n
 maximieren|to maximize|v
@@ -7668,6 +8088,23 @@ einbezogen|included, incorporated|o
 interaktiv|interactive|o
 irrelevant|irrelevant|o
 vage|vague|o
+augenbraue|eyebrow (die, pl. Augenbrauen)|o
+befreiung|liberation (die, no pl.)|o
+bekanntschaft|acquaintance (die, pl. Bekanntschaften)|o
+bereitstellung|provision, making available (die, no pl.)|o
+gesichtszug|facial feature (der, pl. Gesichtszüge)|o
+index|index (der, pl. Indizes)|o
+kriterium|criterion (das, pl. Kriterien)|o
+niedergang|decline (der, no pl.)|o
+sonnenstrahl|sunbeam, ray of sunlight (der, pl. Sonnenstrahlen)|o
+strumpf|stocking (der, pl. Strümpfe)|o
+these|thesis (die, pl. Thesen)|o
+verzögerung|delay (die, pl. Verzögerungen)|o
+vielzahl|multitude, large number (die, no pl.)|o
+vordergrund|foreground (der, no pl.)|o
+weithin|widely, largely|o
+widerspruch|contradiction, objection (der, pl. Widersprüche)|o
+überlegenheit|superiority (die, no pl.)|o
 befahren|to travel on, to drive along (befährt, befuhr, befahren)|v
 hinken|to limp|v
 mindern|to lessen, to reduce|v
@@ -7681,6 +8118,21 @@ fortschrittlich|progressive|o
 paradoxerweise|paradoxically|o
 repräsentativ|representative|o
 verarmen|to become impoverished|v
+bisweilen|sometimes, occasionally|o
+gefangenschaft|captivity (die, no pl.)|o
+gerichtshof|court of law, tribunal (der, pl. Gerichtshöfe)|o
+grässlich|horrible, dreadful|o
+halbinsel|peninsula (die, pl. Halbinseln)|o
+herauf|up here, upwards|o
+herausziehen|to pull out, to extract (zog heraus, herausgezogen)|v
+historiker|historian (der, pl. Historiker)|o
+lokomotive|locomotive (die, pl. Lokomotiven)|o
+preuße|Prussian, person (der, pl. Preußen)|o
+rechtsstaatlichkeit|rule of law (die, no pl.)|o
+rohstoff|raw material (der, pl. Rohstoffe)|o
+spaltung|split, division (die, pl. Spaltungen)|o
+übersteigen|to exceed, to surpass (übersteigt, überstieg, überstiegen)|v
+überziehen|to overdraw, an account; to cover over (überzieht, überzog, überzogen)|v;v
 abwägen|to weigh up, to consider carefully (wog ab, abgewogen)|v
 allgegenwärtig|omnipresent, ubiquitous|o
 artig|well-behaved, good (of children)|o
@@ -7723,11 +8175,23 @@ nachschlagen|to look up (in a book) (schlägt nach, schlug nach, nachgeschlagen)
 tendieren|to tend, to lean (towards)|v
 vorfinden|to find (on arrival) (fand vor, vorgefunden)|v
 woraus|from which, out of which; from what|o;o
+abhandlung|treatise, essay (die, pl. Abhandlungen)|o
+ankleiden|to dress, someone; sich ankleiden: to get dressed|v;n
 beunruhigend|worrying, alarming|o
 bewährt|proven, tried and tested|o
+bewältigung|coping with, mastering (die, no pl.)|o
 dementsprechend|accordingly, correspondingly|o
 demografisch|demographic|o
+diktator|dictator (der, pl. Diktatoren)|o
+ernennung|appointment, to a position (die, pl. Ernennungen)|o
 fiskalpolitisch|relating to fiscal policy, fiscal|o
+lehnstuhl|armchair (der, pl. Lehnstühle)|o
+mandat|mandate (das, pl. Mandate)|o
+referendum|referendum (das, pl. Referenden)|o
+sense|scythe (die, pl. Sensen)|o
+urkunde|document, certificate, deed (die, pl. Urkunden)|o
+wahrhaft|truly, genuinely|o
+wirtschaftspolitik|economic policy (die, no pl.)|o
 überhöht|excessive, inflated|o
 übersiedeln|to relocate, to move (to a new place)|v
 englischsprachig|English-speaking|o
@@ -7763,6 +8227,23 @@ versperren|to block, to barricade|v
 vollends|completely, entirely|o
 willigen|to consent, to agree (archaic form of einwilligen)|v
 zuversichtlich|confident, optimistic|o
+abermals|once again|o
+ausbau|expansion, development (der, no pl.)|o
+bauwerk|building, structure (das, pl. Bauwerke)|o
+breitengrad|degree of latitude, latitude (der, pl. Breitengrade)|o
+durchlaufen|to go through, to undergo (durchläuft, durchlief, durchlaufen)|v
+fraktion|parliamentary group, faction (die, pl. Fraktionen)|o
+gefolge|entourage, retinue (das, pl. Gefolge)|o
+glöckner|bell ringer (der, pl. Glöckner)|o
+hecke|hedge (die, pl. Hecken)|o
+laufbahn|career (die, pl. Laufbahnen)|o
+lexikon|lexicon, encyclopedia (das, pl. Lexika)|o
+mast|mast, pole (der, pl. Masten); fattening, feeding (die, no pl.)|o;o
+matrix|matrix (die, pl. Matrizen)|o
+missionär|missionary (der, pl. Missionare)|o
+murmeltier|marmot (das, pl. Murmeltiere)|o
+raupe|caterpillar (die, pl. Raupen)|o
+weltbevölkerung|world population (die, no pl.)|o
 biblisch|biblical|o
 konstruieren|to construct|v
 modernisieren|to modernize|v
@@ -7770,6 +8251,7 @@ schwindend|dwindling, diminishing|o
 unausweichlich|inevitable, unavoidable|o
 föderal|federal|o
 katalanisch|Catalan|o
+verdrängen|to displace, to push out; to repress (psychology)|v;v
 zynisch|cynical|o
 empirisch|empirical|o
 entern|to board (a ship)|v
@@ -7778,10 +8260,33 @@ gemeinschaftlich|joint, communal|o
 operativ|operational; surgical|o;o
 rassistisch|racist|o
 thematisieren|to address, to raise (a topic)|v
+abschwung|downturn, decline (der, pl. Abschwünge)|o
+aufklärung|enlightenment; education, sex education; clarification (die, no pl.)|o;o;o
+ausführung|execution, implementation; version, design (die, pl. Ausführungen)|o;o
 ausrotten|to exterminate, to eradicate|v
+behinderung|disability; obstruction (die, pl. Behinderungen)|o;o
+bekenntnis|confession, creed (das, pl. Bekenntnisse)|o
 berüchtigt|notorious|o
+deflation|deflation (die, no pl.)|o
+demütigung|humiliation (die, pl. Demütigungen)|o
+erwägung|consideration, deliberation (die, pl. Erwägungen)|o
+festland|mainland (das, no pl.)|o
 gegenteilig|opposite, contrary|o
+gähnen|to yawn|v
+kabinett|cabinet, government; cabinet, furniture (das, pl. Kabinette)|o;o
+kohlenstoff|carbon (der, no pl.)|o
+landstraße|country road, highway (die, pl. Landstraßen)|o
+lateinamerikanisch|Latin American|o
+lebenserwartung|life expectancy (die, no pl.)|o
+nachdruck|emphasis; reprint (der, pl. Nachdrucke)|o;o
 nachträglich|subsequent, belated|o
+rendite|yield, return, financial (die, pl. Renditen)|o
+schotte|Scot (der, pl. Schotten)|o
+staatsschuld|national debt (die, pl. Staatsschulden)|o
+steuerzahler|taxpayer (der, pl. Steuerzahler)|o
+sympathie|sympathy, liking (die, pl. Sympathien)|o
+vorherrschend|predominant, prevailing|o
+überblick|overview (der, pl. Überblicke)|o
 beanspruchen|to claim; to demand, to take up (time, resources)|v;v
 dividieren|to divide (math)|v
 gell|right?, isn't it? (regional tag question)|o
@@ -7836,6 +8341,32 @@ isländisch|Icelandic|o
 nachdrücklich|emphatic, forceful|o
 verbindlich|binding; friendly, obliging|o;o
 überregional|beyond one region, national in scope|o
+abneigung|aversion, dislike (die, pl. Abneigungen)|o
+anforderung|requirement, demand (die, pl. Anforderungen)|o
+anleitung|instructions, guide (die, pl. Anleitungen)|o
+anliegen|matter, concern, request (das, pl. Anliegen)|o
+aufseher|supervisor, overseer (der, pl. Aufseher)|o
+bundesrepublik|federal republic (die, pl. Bundesrepubliken)|o
+demonstrant|demonstrator, protester (der, pl. Demonstranten)|o
+dämmerung|dawn, dusk, twilight (die, no pl.)|o
+eroberung|conquest (die, pl. Eroberungen)|o
+führungskraft|executive, manager (die, pl. Führungskräfte)|o
+führungsrolle|leading role, leadership role (die, pl. Führungsrollen)|o
+gemäßigt|moderate|o
+generalsekretär|secretary-general (der, pl. Generalsekretäre)|o
+logo|logo (das, pl. Logos)|o
+modernisierung|modernization (die, pl. Modernisierungen)|o
+ortschaft|village, locality (die, pl. Ortschaften)|o
+prozentpunkt|percentage point (der, pl. Prozentpunkte)|o
+schlechterdings|absolutely, simply|o
+stillschweigen|silence, secrecy (das, no pl.); to remain silent|o;v
+synagoge|synagogue (die, pl. Synagogen)|o
+teilung|division, partition (die, pl. Teilungen)|o
+unterbrechung|interruption (die, pl. Unterbrechungen)|o
+unterlassen|to refrain from, to omit (unterlässt, unterließ, unterlassen)|v
+wirtschaftskrise|economic crisis (die, pl. Wirtschaftskrisen)|o
+zumute|wie ist dir zumute?: how are you feeling?|n
+übereinkunft|agreement (die, pl. Übereinkünfte)|o
 analog|analogous; analog (not digital)|o;o
 einstimmig|unanimous|o
 fehlleiten|to misdirect, to misguide|v
@@ -7852,8 +8383,29 @@ zehnte|tenth|o
 ästhetisch|aesthetic|o
 magnetisch|magnetic|o
 objektiv|objective|o
+aufschwung|upswing, boom (der, pl. Aufschwünge)|o
+auslegung|interpretation (die, pl. Auslegungen)|o
+autonomie|autonomy (die, no pl.)|o
+effizienz|efficiency (die, no pl.)|o
+einigermaßen|somewhat, fairly|o
+enthüllung|revelation, unveiling (die, pl. Enthüllungen)|o
+entwicklungshilfe|development aid (die, no pl.)|o
+finanzminister|finance minister (der, pl. Finanzminister)|o
+glaubwürdig|credible, believable|o
+hervorgehen|to emerge, to result from (ging hervor, hervorgegangen, ist)|v
 initiieren|to initiate|v
+komposition|composition (die, pl. Kompositionen)|o
+männchen|male, animal; little man (das, pl. Männchen)|o;o
+nominierung|nomination (die, pl. Nominierungen)|o
+paarmal|a few times, several times|o
+praktik|practice, method (die, pl. Praktiken)|o
+unterdrückung|suppression, oppression (die, no pl.)|o
+vertretung|representation; substitute (die, pl. Vertretungen)|o;o
 verwerfen|to reject, to discard (verwirft, verwarf, verworfen)|v
+volumen|volume (das, pl. Volumina)|o
+wahlkreis|electoral district, constituency (der, pl. Wahlkreise)|o
+wiederholung|repetition (die, pl. Wiederholungen)|o
+wiewohl|although|o
 überbewertet|overvalued, overrated|o
 ausgewogen|balanced|o
 belehren|to instruct; to lecture (patronizingly)|v;v
@@ -7893,6 +8445,17 @@ regulatorisch|regulatory|o
 tolerieren|to tolerate|v
 unvollständig|incomplete|o
 verwehren|to deny, to refuse (someone something)|v
+barriere|barrier (die, pl. Barrieren)|o
+begründung|justification, reasoning (die, pl. Begründungen)|o
+denkmal|monument (das, pl. Denkmäler)|o
+gedankengang|train of thought (der, pl. Gedankengänge)|o
+herrenhaus|manor house (das, pl. Herrenhäuser)|o
+inland|domestic country, home territory (das, no pl.)|o
+landkreis|rural district, county (der, pl. Landkreise)|o
+publikation|publication (die, pl. Publikationen)|o
+steuerung|control, steering (die, pl. Steuerungen)|o
+transformation|transformation (die, pl. Transformationen)|o
+überkommen|to overcome, to come over, a feeling (überkam, überkommen)|v
 ausgerüstet|equipped|o
 florieren|to flourish, to thrive|v
 prinzipiell|in principle, fundamentally|o
@@ -7930,28 +8493,50 @@ beweglich|mobile, movable, agile|o
 brausen|to roar (wind, water); to shower (bathe)|v;v
 dreist|brazen, impudent|o
 drohend|threatening|o
+dürr|barren, arid; skinny|o;o
+ehemals|formerly|o
+einfall|idea, notion; invasion (der, pl. Einfälle)|o;o
+einsicht|insight; understanding (die, pl. Einsichten)|o;o
+einwanderung|immigration (die, no pl.)|o
 erwählt|chosen, elect|o
+herantreten|to approach, to step up to (tritt heran, trat heran, herangetreten, ist)|v
+hinterteil|rear end, backside (das, pl. Hinterteile)|o
 ironisch|ironic|o
 irreführend|misleading|o
 lehne|backrest, armrest; support, rest (die, pl. Lehnen)|o;o
+list|cunning, ruse (die, pl. Listen)|o
 majestätisch|majestic|o
 mobil|mobile|o
+parlamentswahl|parliamentary election (die, pl. Parlamentswahlen)|o
+patent|patent (das, pl. Patente)|o
 pfui|ugh!, yuck! (expressing disgust)|o
+reduzierung|reduction (die, pl. Reduzierungen)|o
 reizbar|irritable|o
+resolution|resolution (die, pl. Resolutionen)|o
 schläfrig|sleepy, drowsy|o
+schwerfällig|clumsy, ponderous|o
+skulptur|sculpture (die, pl. Skulpturen)|o
 spähen|to peer, to peek, to scout|v
+stagnation|stagnation (die, no pl.)|o
+stätte|site, place (die, pl. Stätten)|o
+takt|beat, rhythm; tact (der, pl. Takte)|o;o
 theil|part, portion|o
 umständlich|cumbersome, long-winded|o
 unbequem|uncomfortable; inconvenient|o;o
 unregelmäßig|irregular|o
+unterziehen|sich unterziehen: to undergo (unterzog, unterzogen)|n
 unvergleichlich|incomparable|o
 unzweifelhaft|undoubted, doubtless|o
+verbrauch|consumption (der, no pl.)|o
 verfilmen|to film, to adapt (a book) for film|v
 verhüllen|to veil, to cover, to conceal|v
 vernehmbar|audible, perceptible|o
 verzehren|to consume (eat or drink); to consume, to devour (figurative)|v;v
 währen|to last, to endure (literary)|v
+zivilgesellschaft|civil society (die, no pl.)|o
+zunichte|zunichte machen: to ruin, to destroy; zunichte werden: to come to nothing|n;n
 überdrüssig|weary of, tired of|o
+überliefern|to hand down, to pass on, a tradition|v
 atemberaubend|breathtaking|o
 unerwünscht|unwanted, undesirable|o
 ungünstig|unfavorable|o
@@ -7966,6 +8551,38 @@ astronomisch|astronomical|o
 ausdehnen|to expand, to extend|v
 litauisch|Lithuanian|o
 rigoros|rigorous, strict|o
+ableiten|to derive, to deduce|v
+abt|abbot (der, pl. Äbte)|o
+abwertung|devaluation (die, pl. Abwertungen)|o
+allesamt|all together, one and all|o
+anspielung|allusion, hint (die, pl. Anspielungen)|o
+ausgleichen|to balance out, to compensate (glich aus, ausgeglichen)|v
+befürworter|advocate, supporter (der, pl. Befürworter)|o
+beleuchtung|lighting, illumination (die, pl. Beleuchtungen)|o
+beratung|consultation, advice (die, pl. Beratungen)|o
+diskriminierung|discrimination (die, no pl.)|o
+ebensowenig|just as little, likewise not|o
+frankfurter|person from Frankfurt; Frankfurter, sausage (der, pl. Frankfurter)|o;o
+gebüsch|bushes, shrubbery (das, pl. Gebüsche)|o
+gletscher|glacier (der, pl. Gletscher)|o
+grafschaft|county, earldom (die, pl. Grafschaften)|o
+größenordnung|order of magnitude (die, pl. Größenordnungen)|o
+hypothese|hypothesis (die, pl. Hypothesen)|o
+laterne|lantern, street lamp (die, pl. Laternen)|o
+mittelschicht|middle class (die, no pl.)|o
+münchner|person from Munich; of Munich (der, pl. Münchner)|o;o
+niederlegen|to lay down, to put down; to resign|v;v
+notar|notary (der, pl. Notare)|o
+passage|passage (die, pl. Passagen)|o
+popularität|popularity (die, no pl.)|o
+quartal|quarter, of a year (das, pl. Quartale)|o
+sparmaßnahme|austerity measure (die, pl. Sparmaßnahmen)|o
+tausendmal|a thousand times|o
+tribüne|grandstand, tribune (die, pl. Tribünen)|o
+verschuldung|indebtedness, debt (die, no pl.)|o
+vorbringen|to put forward, to raise, an argument (brachte vor, vorgebracht)|v
+wahlkampf|election campaign (der, pl. Wahlkämpfe)|o
+zerstreuung|distraction, dispersal (die, pl. Zerstreuungen)|o
 heutig|today's, present-day|o
 maschinell|mechanical, by machine|o
 ungehindert|unhindered, unimpeded|o
@@ -8006,6 +8623,34 @@ walten|to prevail, to reign (literary)|v
 weiser|wiser (comparative); wise (ein weiser Mann: a wise man)|o;o
 wühlen|to dig, to rummage; to root around (animals)|v;v
 zehren|to live off, to draw on (resources); zehren an: to wear down, to sap|v;n
+absehbar|foreseeable|o
+ambition|ambition (die, pl. Ambitionen)|o
+atelier|studio, artist's (das, pl. Ateliers)|o
+außenpolitisch|relating to foreign policy|o
+betonung|emphasis, stress (die, pl. Betonungen)|o
+bündel|bundle (das, pl. Bündel)|o
+durchmesser|diameter (der, pl. Durchmesser)|o
+expansion|expansion (die, pl. Expansionen)|o
+flinte|shotgun, rifle (die, pl. Flinten)|o
+gebirge|mountains, mountain range (das, pl. Gebirge)|o
+grundschule|elementary school (die, pl. Grundschulen)|o
+hunderttausend|hundred thousand|o
+hürde|hurdle (die, pl. Hürden)|o
+lebensweise|way of life, lifestyle (die, pl. Lebensweisen)|o
+messung|measurement (die, pl. Messungen)|o
+misserfolg|failure (der, pl. Misserfolge)|o
+nebeneinander|side by side|o
+schlucht|gorge, ravine (die, pl. Schluchten)|o
+schulzimmer|classroom (das, pl. Schulzimmer)|o
+spielraum|leeway, room for maneuver (der, pl. Spielräume)|o
+terroranschlag|terrorist attack (der, pl. Terroranschläge)|o
+vogt|bailiff, reeve (der, pl. Vögte)|o
+vorhalle|entrance hall, vestibule (die, pl. Vorhallen)|o
+weitaus|by far, considerably|o
+welthandelsorganisation|World Trade Organization (die, no pl.)|o
+wohlbefinden|well-being (das, no pl.)|o
+zuwider|contrary to, against; jemandem zuwider sein: to be repugnant to someone|o;n
+übertreffen|to surpass, to exceed (übertrifft, übertraf, übertroffen)|v
 alias|alias, also known as|o
 arktisch|arctic|o
 bereisen|to travel through, to tour (a country)|v
@@ -8053,6 +8698,43 @@ neuartig|novel, of a new kind|o
 verdreifachen|to triple|v
 verschleiern|to veil, to obscure, to cover up|v
 zögerlich|hesitant|o
+abbau|reduction, dismantling; mining, extraction (der, no pl.)|o;o
+alltag|everyday life (der, no pl.)|o
+ausbeutung|exploitation (die, no pl.)|o
+auslegen|to interpret; to lay out, to display|v;v
+aussprache|pronunciation; discussion (die, pl. Aussprachen)|o;o
+außenminister|foreign minister (der, pl. Außenminister)|o
+becken|basin; pelvis (das, pl. Becken)|o;o
+besetzung|occupation, military; cast, of a play (die, pl. Besetzungen)|o;o
+differenz|difference (die, pl. Differenzen)|o
+dilemma|dilemma (das, pl. Dilemmas)|o
+dunst|haze, mist (der, pl. Dünste)|o
+empörung|outrage, indignation (die, no pl.)|o
+extremist|extremist (der, pl. Extremisten)|o
+flexibilität|flexibility (die, no pl.)|o
+fotografie|photography; photograph (die, pl. Fotografien)|o;o
+geschick|skill; fate (das, no pl.)|o;o
+gremium|committee, body (das, pl. Gremien)|o
+harmonie|harmony (die, pl. Harmonien)|o
+heftigkeit|intensity, vehemence (die, no pl.)|o
+holocaust|mass destruction; (der Holocaust) the Holocaust (der, no pl.)|o;o
+häuschen|little house, cottage (das, pl. Häuschen)|o
+konstruktion|construction (die, pl. Konstruktionen)|o
+lump|scoundrel, rascal (der, pl. Lumpen)|o
+meeresspiegel|sea level (der, no pl.)|o
+moschee|mosque (die, pl. Moscheen)|o
+notwendigerweise|necessarily|o
+sichtweise|perspective, viewpoint (die, pl. Sichtweisen)|o
+toleranz|tolerance (die, no pl.)|o
+triumph|triumph (der, pl. Triumphe)|o
+vorherrschaft|supremacy, dominance (die, no pl.)|o
+vorliebe|preference, fondness (die, pl. Vorlieben)|o
+weide|pasture, meadow; willow, tree (die, pl. Weiden)|o;o
+weltordnung|world order (die, no pl.)|o
+wohlbekannt|well-known|o
+zyklus|cycle (der, pl. Zyklen)|o
+übereinstimmen|to agree, to correspond|v
+üblicherweise|usually, customarily|o
 beheimaten|to be home to, to be native to (a region)|v
 bolivianisch|Bolivian|o
 finanzpolitisch|relating to financial policy|o
@@ -8113,6 +8795,34 @@ horizontal|horizontal|o
 industrialisieren|to industrialize|v
 undurchsichtig|opaque; obscure, non-transparent (plan)|o;o
 unpopulär|unpopular|o
+abschaffung|abolition (die, no pl.)|o
+abscheu|disgust, abhorrence (der, no pl.)|o
+abstammung|descent, ancestry (die, no pl.)|o
+achtzehn|eighteen|o
+berücksichtigung|consideration, taking into account (die, no pl.)|o
+bildnis|portrait, image (das, pl. Bildnisse)|o
+einbeziehen|to include, to involve (bezog ein, einbezogen)|v
+eitelkeit|vanity (die, pl. Eitelkeiten)|o
+erhaltung|preservation, conservation (die, no pl.)|o
+essay|essay (der, pl. Essays)|o
+format|format (das, pl. Formate)|o
+herausgeben|to publish, to edit; to give back, change (gibt heraus, gab heraus, herausgegeben)|v;v
+irgendwelcher|some, any|o
+kreditgeber|lender, creditor (der, pl. Kreditgeber)|o
+lebensjahr|year of life (das, pl. Lebensjahre)|o
+nachtwache|night watch (die, pl. Nachtwachen)|o
+neuerung|innovation, novelty (die, pl. Neuerungen)|o
+niederlassung|branch, settlement (die, pl. Niederlassungen)|o
+orientierung|orientation (die, no pl.)|o
+postkutsche|stagecoach (die, pl. Postkutschen)|o
+sonnensystem|solar system (das, pl. Sonnensysteme)|o
+straßenecke|street corner (die, pl. Straßenecken)|o
+versöhnung|reconciliation (die, pl. Versöhnungen)|o
+viertelstunde|quarter of an hour (die, pl. Viertelstunden)|o
+vorhersagen|to predict, to forecast|v
+vornherein|von vornherein: from the outset, from the start|n
+wiedergeben|to reproduce, to render; to give back (gibt wieder, gab wieder, wiedergegeben)|v;v
+überarbeiten|to revise, to rework|v
 analytisch|analytical|o
 begeistern|to excite, to thrill, to inspire enthusiasm in|v
 bewerkstelligen|to manage, to bring about, to accomplish|v
@@ -8150,6 +8860,50 @@ slawisch|Slavic|o
 unbegründet|unfounded, baseless|o
 unwirksam|ineffective, invalid|o
 verheißen|to promise, to augur (literary) (verhieß, verheißen)|v
+abbauen|to dismantle, to reduce; to mine|v;v
+aberglaube|superstition (der, no pl.)|o
+abtei|abbey (die, pl. Abteien)|o
+alltäglich|everyday, ordinary|o
+asyl|asylum (das, no pl.)|o
+ausgangspunkt|starting point (der, pl. Ausgangspunkte)|o
+base|base, chemistry; (dated) female cousin (die, pl. Basen)|o;o
+bedingt|conditional, limited|o
+beurteilung|assessment, judgment (die, pl. Beurteilungen)|o
+bucklig|hunchbacked|o
+bundesregierung|federal government (die, no pl.)|o
+dienstbote|servant (der, pl. Dienstboten)|o
+dirigent|conductor, orchestra (der, pl. Dirigenten)|o
+dreihundert|three hundred|o
+entgegenkommen|to accommodate, to meet halfway (kam entgegen, entgegengekommen, ist)|v
+exil|exile (das, no pl.)|o
+fünfundzwanzig|twenty-five|o
+gesetzgebung|legislation (die, no pl.)|o
+getreide|grain, cereal crops (das, no pl.)|o
+gewahren|to notice, to perceive, literary|v
+herankommen|to approach, to get near (kam heran, herangekommen, ist)|v
+hundertmal|a hundred times|o
+härte|hardness; severity (die, no pl.)|o;o
+kompetenz|competence, authority (die, pl. Kompetenzen)|o
+landsmann|compatriot, fellow countryman (der, pl. Landsleute)|o
+maßregel|measure, regulation (die, pl. Maßregeln)|o
+meisterschaft|championship; mastery (die, pl. Meisterschaften)|o;o
+menschenleben|human life (das, pl. Menschenleben)|o
+nordwesten|northwest (der, no pl.)|o
+redner|speaker, orator (der, pl. Redner)|o
+report|report (der, pl. Reports)|o
+schimpanse|chimpanzee (der, pl. Schimpansen)|o
+schwingung|vibration, oscillation (die, pl. Schwingungen)|o
+sparpolitik|austerity policy (die, no pl.)|o
+spektrum|spectrum (das, pl. Spektren)|o
+streitigkeit|dispute (die, pl. Streitigkeiten)|o
+ungerechtigkeit|injustice (die, pl. Ungerechtigkeiten)|o
+vorgehensweise|approach, procedure (die, pl. Vorgehensweisen)|o
+vorhof|forecourt; atrium, heart (der, pl. Vorhöfe)|o;o
+widerstreben|reluctance, aversion (das, no pl.); to be repugnant to, to go against someone's will|o;v
+wärterin|female attendant, keeper (die, pl. Wärterinnen)|o
+wörterbuch|dictionary (das, pl. Wörterbücher)|o
+zweitausend|two thousand|o
+überfluss|abundance, excess (der, no pl.)|o
 andeuten|to hint at, to suggest|v
 anerkennen|to recognize, to acknowledge (erkannte an, anerkannt)|v
 ansagen|to announce|v
@@ -8223,6 +8977,49 @@ schädigen|to damage, to harm|v
 statisch|static|o
 unilateral|unilateral|o
 verwundbar|vulnerable|o
+ablösen|to replace, to relieve, someone; to detach|v;v
+aktienmarkt|stock market (der, pl. Aktienmärkte)|o
+alsbald|soon, forthwith|o
+anatomie|anatomy (die, no pl.)|o
+ausdauer|endurance, stamina (die, no pl.)|o
+ausgenommen|except, excluded|o
+ausstattung|equipment, furnishing (die, pl. Ausstattungen)|o
+bayerisch|Bavarian|o
+beseitigung|removal, elimination (die, no pl.)|o
+blei|lead, metal (das, no pl.)|o
+charta|charter (die, pl. Chartas)|o
+denkbar|conceivable, imaginable|o
+distrikt|district (der, pl. Distrikte)|o
+eingabe|input; petition (die, pl. Eingaben)|o;o
+eröffnung|opening (die, pl. Eröffnungen)|o
+finanz|finance; (pl.) finances (die, pl. Finanzen)|o;o
+frist|deadline, time limit (die, pl. Fristen)|o
+fusion|merger, fusion (die, pl. Fusionen)|o
+gedränge|crowd, crush, throng (das, no pl.)|o
+geschäftsmodell|business model (das, pl. Geschäftsmodelle)|o
+grafik|graphic, illustration (die, pl. Grafiken)|o
+hilfsmittel|aid, tool, resource (das, pl. Hilfsmittel)|o
+kahn|boat, barge (der, pl. Kähne)|o
+kante|edge (die, pl. Kanten)|o
+konsument|consumer (der, pl. Konsumenten)|o
+kopfkissen|pillow (das, pl. Kopfkissen)|o
+marktwirtschaft|market economy (die, no pl.)|o
+mitgliedsland|member country (das, pl. Mitgliedsländer)|o
+moos|moss (das, pl. Moose)|o
+nebenzimmer|adjoining room (das, pl. Nebenzimmer)|o
+ostküste|east coast (die, pl. Ostküsten)|o
+physiker|physicist (der, pl. Physiker)|o
+stube|living room, parlor (die, pl. Stuben)|o
+transaktion|transaction (die, pl. Transaktionen)|o
+verordnung|regulation, decree (die, pl. Verordnungen)|o
+vorbehalt|reservation, proviso (der, pl. Vorbehalte)|o
+vordringen|to advance, to push forward (drang vor, vorgedrungen, ist)|v
+walzer|waltz (der, pl. Walzer)|o
+wirksamkeit|effectiveness (die, no pl.)|o
+währenddessen|meanwhile|o
+zurückhaltung|restraint, reserve (die, no pl.)|o
+übereinander|on top of each other|o
+überschuss|surplus (der, pl. Überschüsse)|o
 indogermanisch|Indo-European (linguistics)|o
 meditieren|to meditate|v
 postsowjetisch|post-Soviet|o
@@ -8303,6 +9100,58 @@ zeitig|early, in good time|o
 zerschmettern|to smash, to shatter|v
 zivilgesellschaftlich|civil-society|o
 zweierlei|two kinds of, two different (things)|o
+abitur|German school-leaving exam (das, no pl.)|o
+achsel|shoulder; armpit (die, pl. Achseln)|o;o
+afrikaner|African, person (der, pl. Afrikaner)|o
+ausrichtung|orientation, alignment (die, pl. Ausrichtungen)|o
+bankier|banker (der, pl. Bankiers)|o
+besonderheit|peculiarity, special feature (die, pl. Besonderheiten)|o
+biographie|biography (die, pl. Biographien)|o
+branntwein|spirits, brandy (der, pl. Branntweine)|o
+darlehen|loan (das, pl. Darlehen)|o
+droschke|horse-drawn cab, droshky (die, pl. Droschken)|o
+dynastie|dynasty (die, pl. Dynastien)|o
+ehebruch|adultery (der, no pl.)|o
+eiche|oak, tree (die, pl. Eichen)|o
+engländerin|Englishwoman (die, pl. Engländerinnen)|o
+ertrag|yield, proceeds (der, pl. Erträge)|o
+esszimmer|dining room (das, pl. Esszimmer)|o
+fassade|facade (die, pl. Fassaden)|o
+fehlschlag|failure, setback (der, pl. Fehlschläge)|o
+fertigkeit|skill, proficiency (die, pl. Fertigkeiten)|o
+fiskalpolitik|fiscal policy (die, no pl.)|o
+fragment|fragment (das, pl. Fragmente)|o
+fußgänger|pedestrian (der, pl. Fußgänger)|o
+gemahlin|wife, consort (die, pl. Gemahlinnen)|o
+gewissheit|certainty (die, no pl.)|o
+gewölbe|vault, vaulted ceiling (das, pl. Gewölbe)|o
+gulden|guilder, currency (der, pl. Gulden)|o
+heiterkeit|cheerfulness; laughter, amusement (die, no pl.)|o;o
+hörbar|audible|o
+konfrontation|confrontation (die, pl. Konfrontationen)|o
+liebkosung|caress (die, pl. Liebkosungen)|o
+londoner|Londoner; of London (der, pl. Londoner)|o;o
+markgraf|margrave (der, pl. Markgrafen)|o
+martern|to torment, to torture|v
+moderator|moderator, host, TV or radio (der, pl. Moderatoren)|o
+mündung|mouth, of a river; muzzle, of a gun (die, pl. Mündungen)|o;o
+neid|envy (der, no pl.)|o
+nische|niche (die, pl. Nischen)|o
+ohnmacht|unconsciousness, faint; powerlessness (die, no pl.)|o;o
+rivale|rival (der, pl. Rivalen)|o
+schreck|fright, scare (der, pl. Schrecke)|o
+seide|silk (die, no pl.)|o
+südwesten|southwest (der, no pl.)|o
+tagesordnung|agenda (die, pl. Tagesordnungen)|o
+typischerweise|typically|o
+töchterchen|little daughter (das, pl. Töchterchen)|o
+umbenennen|to rename (benannte um, umbenannt)|v
+unmenge|vast amount, huge quantity (die, pl. Unmengen)|o
+unterstreichen|to underline; to emphasize (unterstrich, unterstrichen)|v;v
+variation|variation (die, pl. Variationen)|o
+weisung|instruction, directive (die, pl. Weisungen)|o
+zumeist|mostly, for the most part|o
+übereinkommen|agreement (das, pl. Übereinkommen)|o
 basteln|to tinker, to do crafts|v
 dazugehörig|belonging to it, associated, accompanying|o
 flämisch|Flemish|o
@@ -8335,6 +9184,49 @@ subjektiv|subjective|o
 unverheiratet|unmarried|o
 urban|urban|o
 wippen|to rock, to bob, to seesaw|v
+ableitung|derivation; deduction (die, pl. Ableitungen)|o;o
+allerhand|all sorts of things, quite a lot|o
+angabe|statement, specification (die, pl. Angaben)|o
+anmerkung|note, remark, annotation (die, pl. Anmerkungen)|o
+arsenal|arsenal (das, pl. Arsenale)|o
+asteroid|asteroid (der, pl. Asteroiden)|o
+aufwand|effort, expenditure (der, no pl.)|o
+austragen|to carry out, to hold, an event; to deliver (trägt aus, trug aus, ausgetragen)|v;v
+autorin|female author (die, pl. Autorinnen)|o
+beendigung|termination, ending (die, no pl.)|o
+beistand|support, assistance (der, no pl.)|o
+besitzung|possession, estate (die, pl. Besitzungen)|o
+einhaltung|compliance, observance (die, no pl.)|o
+entschlüpfen|to slip away, to escape|v
+entwickler|developer (der, pl. Entwickler)|o
+errichtung|construction, establishment (die, no pl.)|o
+fernsehserie|TV series (die, pl. Fernsehserien)|o
+gehoben|elevated, refined|o
+genauigkeit|accuracy, precision (die, no pl.)|o
+herausbringen|to bring out, to publish; to find out (brachte heraus, herausgebracht)|v;v
+hervortreten|to emerge, to stand out (tritt hervor, trat hervor, hervorgetreten, ist)|v
+heu|hay (das, no pl.)|o
+höchstwahrscheinlich|most likely, in all probability|o
+instanz|authority, instance, legal (die, pl. Instanzen)|o
+kriegsende|end of the war (das, no pl.)|o
+krug|jug, pitcher; pub (der, pl. Krüge)|o;o
+lebensqualität|quality of life (die, no pl.)|o
+manuskript|manuscript (das, pl. Manuskripte)|o
+marketing|marketing (das, no pl.)|o
+meinesgleichen|people like me, my kind|o
+pelz|fur (der, pl. Pelze)|o
+roma|Roma, Romani people (die, pl.)|o
+rute|rod, switch (die, pl. Ruten)|o
+saite|string, instrument (die, pl. Saiten)|o
+schlussendlich|finally, ultimately|o
+seefahrer|seafarer, navigator (der, pl. Seefahrer)|o
+sekretär|secretary (der, pl. Sekretäre)|o
+straßenbahn|tram, streetcar (die, pl. Straßenbahnen)|o
+trostlos|bleak, desolate|o
+umhin|nicht umhin können: to not be able to help, to be unable to avoid|n
+wasserstoff|hydrogen (der, no pl.)|o
+wohlergehen|well-being, welfare (das, no pl.)|o
+überlieferung|tradition, transmission (die, pl. Überlieferungen)|o
 abfliegen|to take off, to fly out (flog ab, abgeflogen, ist)|v
 anderweitig|other, alternative; elsewhere, otherwise|o;o
 anprobieren|to try on|v
@@ -8441,6 +9333,68 @@ verleiten|to lead astray, to tempt (into)|v
 verschlüsselt|encrypted|o
 versklaven|to enslave|v
 zerlegen|to take apart, to disassemble|v
+abbildung|illustration, figure (die, pl. Abbildungen)|o
+abweichung|deviation (die, pl. Abweichungen)|o
+aktionär|shareholder (der, pl. Aktionäre)|o
+ankündigung|announcement (die, pl. Ankündigungen)|o
+ausarbeiten|to work out, to elaborate|v
+ausbauen|to expand, to extend|v
+australier|Australian, person (der, pl. Australier)|o
+außenwelt|outside world (die, no pl.)|o
+beziehungsweise|or, respectively|o
+blitzen|to flash, to lighten, weather|v
+chronik|chronicle (die, pl. Chroniken)|o
+darbieten|to present, to offer, a performance (bot dar, dargeboten)|v
+deutung|interpretation (die, pl. Deutungen)|o
+durchsetzung|enforcement, implementation (die, no pl.)|o
+ebbe|low tide, ebb (die, pl. Ebben)|o
+einflussreich|influential|o
+frauenzimmer|woman, wench, dated (das, pl. Frauenzimmer)|o
+fußspitze|tiptoe, toe (die, pl. Fußspitzen)|o
+fußweg|footpath, sidewalk (der, pl. Fußwege)|o
+führungspersönlichkeit|leading figure, leader personality (die, pl. Führungspersönlichkeiten)|o
+gasthof|inn, guesthouse (der, pl. Gasthöfe)|o
+geländer|railing, banister (das, pl. Geländer)|o
+gesinnung|attitude, disposition, mindset (die, pl. Gesinnungen)|o
+getriebe|gearbox, transmission (das, pl. Getriebe)|o
+handvoll|handful (die, pl. Handvoll)|o
+handwerk|craft, trade (das, pl. Handwerke)|o
+heimatstadt|hometown (die, pl. Heimatstädte)|o
+herabhängen|to hang down (hing herab, herabgehangen)|v
+kalorie|calorie (die, pl. Kalorien)|o
+kirchendiener|church attendant, verger (der, pl. Kirchendiener)|o
+marmor|marble (der, no pl.)|o
+missbrauch|abuse, misuse (der, pl. Missbräuche)|o
+mustern|to scrutinize, to examine; to pattern|v;v
+mutation|mutation (die, pl. Mutationen)|o
+orgel|organ, instrument (die, pl. Orgeln)|o
+paradigma|paradigm (das, pl. Paradigmen)|o
+peripherie|periphery (die, pl. Peripherien)|o
+polster|cushion, padding (das, pl. Polster)|o
+potential|potential (das, pl. Potentiale)|o
+qualifikation|qualification (die, pl. Qualifikationen)|o
+rechtsextrem|far-right, right-wing extremist|o
+redensart|saying, idiom, figure of speech (die, pl. Redensarten)|o
+richtlinie|guideline, directive (die, pl. Richtlinien)|o
+saum|hem, seam (der, pl. Säume)|o
+schemel|stool (der, pl. Schemel)|o
+schuldner|debtor (der, pl. Schuldner)|o
+schöpfung|creation (die, pl. Schöpfungen)|o
+skizze|sketch (die, pl. Skizzen)|o
+spore|spore (die, pl. Sporen)|o
+stabilisierung|stabilization (die, no pl.)|o
+szenarium|scenario (das, pl. Szenarien)|o
+vorhergehend|preceding, previous|o
+vorschein|zum Vorschein kommen: to come to light, to appear|n
+weibchen|female, animal (das, pl. Weibchen)|o
+wertpapier|security, bond, financial (das, pl. Wertpapiere)|o
+westküste|west coast (die, pl. Westküsten)|o
+wiege|cradle (die, pl. Wiegen)|o
+zimmerherr|lodger, male tenant (der, pl. Zimmerherren)|o
+zimmermann|carpenter (der, pl. Zimmerleute)|o
+zufriedenheit|satisfaction, contentment (die, no pl.)|o
+zugeständnis|concession (das, pl. Zugeständnisse)|o
+zweifelsohne|undoubtedly, without a doubt|o
 betreffend|concerning, regarding|o
 eisern|iron, made of iron; iron-willed|o;o
 malerisch|picturesque|o
@@ -8477,6 +9431,58 @@ inflationär|inflationary|o
 konzertiert|concerted (a concerted effort)|o
 unrechtmäßig|unlawful, illegitimate|o
 unvollkommen|imperfect|o
+ansprache|speech, address (die, pl. Ansprachen)|o
+aufforderung|request, demand (die, pl. Aufforderungen)|o
+ausdehnung|expansion, extent (die, pl. Ausdehnungen)|o
+balance|balance (die, no pl.)|o
+baumeister|master builder, architect (der, pl. Baumeister)|o
+befugnis|authority, power, legal (die, pl. Befugnisse)|o
+begebenheit|event, incident (die, pl. Begebenheiten)|o
+brüstung|parapet, balustrade (die, pl. Brüstungen)|o
+bürokratie|bureaucracy (die, pl. Bürokratien)|o
+durchführung|execution, implementation (die, pl. Durchführungen)|o
+eigenständig|independent, autonomous|o
+einmischung|interference, meddling (die, pl. Einmischungen)|o
+erfinder|inventor (der, pl. Erfinder)|o
+fertigstellen|to complete, to finish|v
+fläschchen|small bottle, vial (das, pl. Fläschchen)|o
+folie|foil, film, plastic (die, pl. Folien)|o
+gehorsam|obedience (der, no pl.)|o
+gesamtnachfrage|aggregate demand (die, no pl.)|o
+gleichstellung|equality, equal treatment (die, pl. Gleichstellungen)|o
+handbuch|manual, handbook (das, pl. Handbücher)|o
+handelsabkommen|trade agreement (das, pl. Handelsabkommen)|o
+herausgeber|editor, publisher (der, pl. Herausgeber)|o
+herzchen|little heart, sweetheart (das, pl. Herzchen)|o
+hierarchie|hierarchy (die, pl. Hierarchien)|o
+innenpolitisch|domestic, relating to internal politics|o
+kurde|Kurd (der, pl. Kurden)|o
+lebensraum|living space; habitat (der, pl. Lebensräume)|o;o
+monopol|monopoly (das, pl. Monopole)|o
+nachweis|proof, evidence (der, pl. Nachweise)|o
+pazifisch|Pacific|o
+population|population (die, pl. Populationen)|o
+präsentation|presentation (die, pl. Präsentationen)|o
+pyramide|pyramid (die, pl. Pyramiden)|o
+rascheln|to rustle|v
+rechtfertigung|justification (die, pl. Rechtfertigungen)|o
+rücktritt|resignation; retreat (der, pl. Rücktritte)|o;o
+schauplatz|scene, setting (der, pl. Schauplätze)|o
+schläfe|temple (anatomy) (die, pl. Schläfen)|o
+schulbildung|schooling, education (die, no pl.)|o
+schwiegermutter|mother-in-law (die, pl. Schwiegermütter)|o
+serbe|Serb (der, pl. Serben)|o
+sicherheitspolitik|security policy (die, no pl.)|o
+stadium|stage, phase (das, pl. Stadien)|o
+stroh|straw (das, no pl.)|o
+umstellung|changeover, adjustment (die, pl. Umstellungen)|o
+unterlippe|lower lip (die, pl. Unterlippen)|o
+vermittlung|mediation; agency, placement (die, pl. Vermittlungen)|o;o
+verschiebung|shift, postponement (die, pl. Verschiebungen)|o
+vorfeld|run-up, preliminary period; apron (airport) (das, pl. Vorfelder)|o;o
+vorteilhaft|advantageous, favourable|o
+westfale|Westphalian, person from Westphalia (der, pl. Westfalen)|o
+zehnmal|ten times|o
 administrativ|administrative|o
 dürftig|meager, poor, scanty|o
 eingefroren|frozen|o
@@ -8583,6 +9589,77 @@ zurückdenken|to think back (dachte zurück, zurückgedacht)|v
 zustehen|to be entitled to, to be due to (stand zu, zugestanden)|v
 zuwinken|to wave to|v
 zügeln|to rein in, to curb|v
+adlige|noble, aristocrat (der/die, pl. Adligen)|o
+akzeptanz|acceptance (die, no pl.)|o
+anbetreffen|to concern, regard; was ... anbetrifft: as regards ...|v;n
+atlas|atlas (der, pl. Atlanten)|o
+auferlegen|to impose|v
+aufhebung|abolition, repeal (die, pl. Aufhebungen)|o
+aufstrebend|rising, up-and-coming|o
+ausscheiden|to drop out, retire; to secrete (schied aus, ausgeschieden, ist)|v;v
+beschleunigung|acceleration (die, pl. Beschleunigungen)|o
+billard|billiards, pool (das, no pl.)|o
+braue|eyebrow (die, pl. Brauen)|o
+brise|breeze (die, pl. Brisen)|o
+degen|sword, rapier (der, pl. Degen)|o
+dialekt|dialect (der, pl. Dialekte)|o
+dividende|dividend (die, pl. Dividenden)|o
+dreitausend|three thousand|o
+dreizehn|thirteen|o
+ebensogut|just as well|o
+edition|edition (die, pl. Editionen)|o
+eigenkapital|equity, own capital (das, no pl.)|o
+einher|along (with verbs of motion, e.g. einhergehen)|o
+entwicklungsziel|development goal (das, pl. Entwicklungsziele)|o
+erschöpfung|exhaustion (die, no pl.)|o
+erwerb|acquisition; earnings (der, pl. Erwerbe)|o;o
+feindseligkeit|hostility (die, pl. Feindseligkeiten)|o
+großmacht|great power (die, pl. Großmächte)|o
+hervorheben|to emphasize, highlight (hob hervor, hervorgehoben)|v
+heuchelei|hypocrisy (die, pl. Heucheleien)|o
+hineingehen|to go in, enter (ging hinein, hineingegangen, ist)|v
+jahrgang|age group; vintage, year (der, pl. Jahrgänge)|o;o
+karikatur|caricature, cartoon (die, pl. Karikaturen)|o
+katalog|catalogue (der, pl. Kataloge)|o
+keim|germ, seed (der, pl. Keime)|o
+kommentator|commentator (der, pl. Kommentatoren)|o
+koordination|coordination (die, pl. Koordinationen)|o
+krankenversicherung|health insurance (die, pl. Krankenversicherungen)|o
+kreuzzug|crusade (der, pl. Kreuzzüge)|o
+landstreicher|vagrant, tramp (der, pl. Landstreicher)|o
+lebzeit|lifetime (die, pl. Lebzeiten)|o
+machthaber|ruler, person in power (der, pl. Machthaber)|o
+magd|maid, maidservant (die, pl. Mägde)|o
+mikrobe|microbe (die, pl. Mikroben)|o
+monarchie|monarchy (die, pl. Monarchien)|o
+mäher|mower (der, pl. Mäher)|o
+nachkriegszeit|postwar period (die, no pl.)|o
+nationalbibliothek|national library (die, pl. Nationalbibliotheken)|o
+naturforscher|naturalist (der, pl. Naturforscher)|o
+naturwissenschaft|natural science (die, pl. Naturwissenschaften)|o
+ortsteil|district, part of a town (der, pl. Ortsteile)|o
+pflegerin|carer, nurse (die, pl. Pflegerinnen)|o
+pol|pole (der, pl. Pole)|o
+residenz|residence (die, pl. Residenzen)|o
+schrittweise|step by step, gradual|o
+schürze|apron (die, pl. Schürzen)|o
+staatsausgabe|government expenditure (die, pl. Staatsausgaben)|o
+steuereinnahme|tax revenue (die, pl. Steuereinnahmen)|o
+stocken|to falter, stall|v
+trio|trio (das, pl. Trios)|o
+umbauen|to rebuild, convert, renovate|v
+viermal|four times|o
+weber|weaver (der, pl. Weber)|o
+weizen|wheat (der, no pl.)|o
+wendepunkt|turning point (der, pl. Wendepunkte)|o
+widerlegen|to refute, disprove|v
+wiederwahl|re-election (die, pl. Wiederwahlen)|o
+windstoß|gust of wind (der, pl. Windstöße)|o
+wonne|bliss, delight (die, pl. Wonnen)|o
+würdevoll|dignified|o
+zigeuner|Gypsy, Roma (dated) (der, pl. Zigeuner)|o
+überprüfung|review, check (die, pl. Überprüfungen)|o
+überzieher|overcoat (der, pl. Überzieher)|o
 abdrucken|to print, to reprint (an article)|v
 aufbürden|to burden (someone with), to saddle with|v
 chilenisch|Chilean|o
@@ -8622,6 +9699,68 @@ volkswirtschaftlich|economic (of the national economy)|o
 widerwillig|reluctant, reluctantly|o
 wohlhabend|wealthy, well-off|o
 zehnjährige|ten-year-old (person); ten-year|o;o
+alleinig|sole, exclusive|o
+allemal|every time; definitely|o;o
+analogie|analogy (die, pl. Analogien)|o
+atemlos|breathless|o
+ausschnitt|excerpt, section; neckline (der, pl. Ausschnitte)|o;o
+bahnsteig|platform (railway) (der, pl. Bahnsteige)|o
+bescheidenheit|modesty (die, no pl.)|o
+bildungssystem|education system (das, pl. Bildungssysteme)|o
+binnenmarkt|internal market (der, pl. Binnenmärkte)|o
+echtzeit|real time (die, no pl.)|o
+einleitung|introduction (die, pl. Einleitungen)|o
+eskalation|escalation (die, pl. Eskalationen)|o
+establishment|establishment (das, no pl.)|o
+feedback|feedback (das, no pl.)|o
+feuchtigkeit|moisture, humidity (die, no pl.)|o
+filter|filter (der, pl. Filter)|o
+fürsorge|care, welfare (die, no pl.)|o
+gesundheitszustand|state of health (der, pl. Gesundheitszustände)|o
+grenzenlos|boundless, limitless|o
+großmut|generosity, magnanimity (die, no pl.)|o
+gruppierung|grouping, faction (die, pl. Gruppierungen)|o
+hagel|hail (der, no pl.)|o
+hierüber|about this, on this|o
+hinterfragen|to question, scrutinize|v
+hochentwickelt|highly developed|o
+indikator|indicator (der, pl. Indikatoren)|o
+inhaber|owner, holder (der, pl. Inhaber)|o
+innenraum|interior (der, pl. Innenräume)|o
+jurist|lawyer, legal scholar (der, pl. Juristen)|o
+kammerdiener|valet (der, pl. Kammerdiener)|o
+konvention|convention (die, pl. Konventionen)|o
+korn|grain (das, pl. Körner)|o
+kreislauf|cycle; circulation (der, pl. Kreisläufe)|o;o
+letzt|last, final|o
+lieferkette|supply chain (die, pl. Lieferketten)|o
+menschenmenge|crowd (die, pl. Menschenmengen)|o
+motivation|motivation (die, pl. Motivationen)|o
+musical|musical (das, pl. Musicals)|o
+muttersprache|mother tongue, native language (die, pl. Muttersprachen)|o
+niederlassen|to settle; sich niederlassen: to settle down (ließ nieder, niedergelassen)|v;n
+pipeline|pipeline (die, pl. Pipelines)|o
+prozentsatz|percentage (der, pl. Prozentsätze)|o
+pult|desk, lectern (das, pl. Pulte)|o
+rahmenbedingung|framework condition, parameter (die, pl. Rahmenbedingungen)|o
+repräsentant|representative (der, pl. Repräsentanten)|o
+rückgrat|spine, backbone (das, pl. Rückgrate)|o
+schnepfe|snipe (bird) (die, pl. Schnepfen)|o
+sehne|tendon (die, pl. Sehnen)|o
+sozialleistung|social benefit (die, pl. Sozialleistungen)|o
+spalte|column; crack, fissure (die, pl. Spalten)|o;o
+tasten|to feel, grope; to key, type|v;v
+teufelskreis|vicious circle (der, pl. Teufelskreise)|o
+unannehmlichkeit|inconvenience, trouble (die, pl. Unannehmlichkeiten)|o
+unbehagen|unease, discomfort (das, no pl.)|o
+volksrepublik|people's republic (die, pl. Volksrepubliken)|o
+vorsitz|chairmanship, presidency (der, no pl.)|o
+wirtschaftswissenschaftler|economist (der, pl. Wirtschaftswissenschaftler)|o
+wölbung|curve, bulge; vault (die, pl. Wölbungen)|o;o
+zensur|censorship; grade, mark (school) (die, pl. Zensuren)|o;o
+zusammensetzung|composition (die, pl. Zusammensetzungen)|o
+zuteil|zuteil werden: to be granted, bestowed|n
+zutragen|to carry to; sich zutragen: to happen, occur (trägt zu, trug zu, zugetragen)|v;n
 attackieren|to attack|v
 ausbessern|to repair, to mend|v
 bannen|to banish, to ward off (a danger); to captivate|v;v
@@ -8630,6 +9769,7 @@ befriedigend|satisfactory|o
 beiderseitig|mutual, on both sides|o
 bieder|conventional, straitlaced, square|o
 blöken|to bleat (sheep, goats)|v
+bombardieren|to bomb, to bombard|v
 dekorativ|decorative|o
 derlei|such, of that kind|o
 donnern|to thunder|v
@@ -8734,6 +9874,88 @@ kontinental|continental|o
 schuften|to slog, to toil|v
 unberechenbar|unpredictable|o
 überschüssig|surplus, excess|o
+abschlagen|to knock off; to refuse, decline (schlägt ab, schlug ab, abgeschlagen)|v;v
+achttausend|eight thousand|o
+allerliebst|most beloved; lovely, adorable|o;o
+alsdann|then, thereupon|o
+andeutung|hint, indication (die, pl. Andeutungen)|o
+ausübung|exercise, practice of a profession or right (die, no pl.)|o
+bandbreite|bandwidth; range (die, pl. Bandbreiten)|o;o
+begabung|talent, gift (die, pl. Begabungen)|o
+beisetzen|to bury, inter|v
+bequemlichkeit|comfort, convenience (die, pl. Bequemlichkeiten)|o
+besitztum|property, possession (das, pl. Besitztümer)|o
+blitzstrahl|flash of lightning (der, pl. Blitzstrahlen)|o
+buße|penance, fine (die, pl. Bußen)|o
+diplom|diploma (das, pl. Diplome)|o
+dokumentation|documentation (die, pl. Dokumentationen)|o
+duo|duo (das, pl. Duos)|o
+durchweg|throughout, without exception|o
+einbildung|imagination; conceit, vanity (die, pl. Einbildungen)|o;o
+eingeweide|entrails, intestines (die, pl.)|o
+einzelnachweis|individual reference, citation (der, pl. Einzelnachweise)|o
+energiequelle|energy source (die, pl. Energiequellen)|o
+erliegen|to succumb to; zum Erliegen kommen: to come to a standstill (erlag, erlegen, ist)|v;n
+erneuerung|renewal (die, pl. Erneuerungen)|o
+familienleben|family life (das, no pl.)|o
+filmemacher|filmmaker (der, pl. Filmemacher)|o
+formation|formation (die, pl. Formationen)|o
+fundament|foundation (das, pl. Fundamente)|o
+gegebenheit|circumstance, fact (die, pl. Gegebenheiten)|o
+gliedmaße|limb (die, pl. Gliedmaßen)|o
+glockenzeichen|bell signal (das, pl. Glockenzeichen)|o
+groll|grudge, resentment (der, no pl.)|o
+handbewegung|hand movement, gesture (die, pl. Handbewegungen)|o
+handlungsweise|way of acting, conduct (die, pl. Handlungsweisen)|o
+heimatland|homeland (das, pl. Heimatländer)|o
+infektionskrankheit|infectious disease (die, pl. Infektionskrankheiten)|o
+innenstadt|city centre, downtown (die, pl. Innenstädte)|o
+jahrestag|anniversary (der, pl. Jahrestage)|o
+kiel|keel (der, pl. Kiele)|o
+kinderzimmer|children's room, nursery (das, pl. Kinderzimmer)|o
+klassenzimmer|classroom (das, pl. Klassenzimmer)|o
+kommune|municipality; commune (die, pl. Kommunen)|o;o
+kontor|trading office, counting house (das, pl. Kontore)|o
+landtag|state parliament (der, pl. Landtage)|o
+lebensstil|lifestyle (der, pl. Lebensstile)|o
+lieferant|supplier (der, pl. Lieferanten)|o
+madonna|Madonna, image of the Virgin Mary (die, pl. Madonnen)|o
+mondlicht|moonlight (das, no pl.)|o
+neugeboren|newborn|o
+oberhand|upper hand (die, no pl.)|o
+promotion|doctorate; promotion (die, pl. Promotionen)|o;o
+psyche|psyche (die, pl. Psychen)|o
+reisetasche|travel bag (die, pl. Reisetaschen)|o
+relief|relief, raised design (das, pl. Reliefs)|o
+riemen|strap; oar (der, pl. Riemen)|o;o
+schließung|closure (die, pl. Schließungen)|o
+schwankung|fluctuation (die, pl. Schwankungen)|o
+sinnbild|symbol, emblem (das, pl. Sinnbilder)|o
+skala|scale (die, pl. Skalen)|o
+sonnenlicht|sunlight (das, no pl.)|o
+spektakel|spectacle (das, pl. Spektakel)|o
+spielsache|toy (die, pl. Spielsachen)|o
+terminal|terminal (das, pl. Terminals)|o
+trinkwasser|drinking water (das, no pl.)|o
+trupp|troop, squad (der, pl. Trupps)|o
+umbau|conversion, renovation (der, pl. Umbauten)|o
+universitätsviertel|university quarter, district (das, pl. Universitätsviertel)|o
+unmöglichkeit|impossibility (die, pl. Unmöglichkeiten)|o
+vakuum|vacuum (das, pl. Vakuen)|o
+verabschiedung|farewell; passing of a law (die, pl. Verabschiedungen)|o;o
+verarbeitung|processing (die, pl. Verarbeitungen)|o
+verehrung|veneration, admiration (die, no pl.)|o
+verfall|decline, decay (der, no pl.)|o
+verfließen|to elapse, pass, of time (verfloss, verflossen, ist)|v
+verneigen|to bow, chiefly reflexive: sich verneigen|v
+vorderseite|front side (die, pl. Vorderseiten)|o
+vorführung|presentation, screening, demonstration (die, pl. Vorführungen)|o
+weigerung|refusal (die, pl. Weigerungen)|o
+wiedervereinigung|reunification (die, no pl.)|o
+wirtschaftsleistung|economic performance, output (die, pl. Wirtschaftsleistungen)|o
+wohnhaus|residential building (das, pl. Wohnhäuser)|o
+wollust|lust, voluptuousness (die, pl. Wollüste)|o
+überfahrt|crossing, by boat (die, pl. Überfahrten)|o
 adaptieren|to adapt|v
 alljährlich|annual, yearly|o
 anzapfen|to tap (a keg, a resource)|v
@@ -8855,6 +10077,85 @@ zusammenschlagen|to beat up (schlägt zusammen, schlug zusammen, zusammengeschla
 zusammentreffen|to meet (trifft zusammen, traf zusammen, zusammengetroffen, ist); to coincide|v;v
 zwölfte|twelfth|o
 überragen|to tower over, to surpass|v
+abbruch|demolition; cancellation (der, pl. Abbrüche)|o;o
+abtreibung|abortion (die, pl. Abtreibungen)|o
+abwehr|defence (die, no pl.)|o
+aluminium|aluminium (das, no pl.)|o
+anbau|cultivation; annex, extension (der, pl. Anbauten)|o;o
+angeboren|innate, congenital|o
+attraktivität|attractiveness (die, no pl.)|o
+aufrechterhaltung|maintenance, upholding (die, no pl.)|o
+aufständisch|rebellious, insurgent|o
+ausschluss|exclusion (der, pl. Ausschlüsse)|o
+bann|spell, ban; excommunication (der, no pl.)|o;o
+banner|banner (das, pl. Banner)|o
+befehlshaber|commander (der, pl. Befehlshaber)|o
+begrenzung|limitation, boundary (die, pl. Begrenzungen)|o
+behälter|container (der, pl. Behälter)|o
+beihilfe|subsidy, aid; abetting, in law (die, pl. Beihilfen)|o;o
+bettdecke|blanket, duvet (die, pl. Bettdecken)|o
+blickwinkel|viewpoint, angle (der, pl. Blickwinkel)|o
+bogenschütze|archer (der, pl. Bogenschützen)|o
+büste|bust, sculpture or chest (die, pl. Büsten)|o
+denkweise|way of thinking, mindset (die, pl. Denkweisen)|o
+direktinvestition|direct investment (die, pl. Direktinvestitionen)|o
+dunkelrot|dark red|o
+einigkeit|unity, agreement (die, no pl.)|o
+einschätzung|assessment, estimation (die, pl. Einschätzungen)|o
+entfremdung|alienation (die, no pl.)|o
+epoche|epoch, era (die, pl. Epochen)|o
+erbin|heiress (die, pl. Erbinnen)|o
+eurokrise|euro crisis (die, no pl.)|o
+fetzen|scrap, shred, rag (der, pl. Fetzen)|o
+fiktion|fiction (die, pl. Fiktionen)|o
+formulierung|wording, phrasing (die, pl. Formulierungen)|o
+freilassung|release (die, pl. Freilassungen)|o
+gefäß|vessel, container; blood vessel (das, pl. Gefäße)|o;o
+generalversammlung|general assembly (die, pl. Generalversammlungen)|o
+genfer|of Geneva, invariable adjective; a person from Geneva (der, pl. Genfer)|o;o
+grundstein|foundation stone, cornerstone (der, pl. Grundsteine)|o
+hautfarbe|skin colour (die, pl. Hautfarben)|o
+hintereinander|one after another|o
+hirte|shepherd (der, pl. Hirten)|o
+interessanterweise|interestingly|o
+judentum|Judaism; Jewry (das, no pl.)|o;o
+kontrast|contrast (der, pl. Kontraste)|o
+koralle|coral (die, pl. Korallen)|o
+kraftwerk|power plant (das, pl. Kraftwerke)|o
+krebszelle|cancer cell (die, pl. Krebszellen)|o
+lebensunterhalt|livelihood (der, no pl.)|o
+leinwand|canvas; cinema screen (die, pl. Leinwände)|o;o
+leipziger|of Leipzig, invariable adjective; a person from Leipzig (der, pl. Leipziger)|o;o
+miliz|militia (die, pl. Milizen)|o
+nervensystem|nervous system (das, pl. Nervensysteme)|o
+niedergeschlagen|dejected, downcast|o
+panorama|panorama (das, pl. Panoramen)|o
+petition|petition (die, pl. Petitionen)|o
+pfahl|stake, post, pile (der, pl. Pfähle)|o
+plateau|plateau (das, pl. Plateaus)|o
+privatisierung|privatization (die, pl. Privatisierungen)|o
+privatsektor|private sector (der, no pl.)|o
+realwirtschaft|real economy (die, no pl.)|o
+regierungsführung|governance (die, no pl.)|o
+schema|scheme, diagram, pattern (das, pl. Schemata)|o
+tabak|tobacco (der, no pl.)|o
+taille|waist (die, pl. Taillen)|o
+teleskop|telescope (das, pl. Teleskope)|o
+umlauf|circulation (der, pl. Umläufe)|o
+umriss|outline (der, pl. Umrisse)|o
+verhinderung|prevention (die, no pl.)|o
+verknüpfung|link, connection (die, pl. Verknüpfungen)|o
+vernichtung|destruction, annihilation (die, no pl.)|o
+versäumnis|omission, failure to do something (das, pl. Versäumnisse)|o
+verzerrung|distortion (die, pl. Verzerrungen)|o
+voranbringen|to advance, move forward (brachte voran, vorangebracht)|v
+weimarer|of Weimar, invariable adjective; a person from Weimar (der, pl. Weimarer)|o;o
+weiterentwicklung|further development (die, pl. Weiterentwicklungen)|o
+wirbel|vortex, whirl; vertebra (der, pl. Wirbel)|o;o
+zehntausend|ten thousand|o
+zugute|zugute kommen: to benefit; sich etwas zugute halten: to pride oneself on|n;n
+zusammensein|to be together (war zusammen, zusammengewesen, ist); get-together, time together (das)|v;o
+überwindung|overcoming, effort (die, no pl.)|o
 einjährige|one-year-old; annual, one-year|o;o
 elektromagnetisch|electromagnetic|o
 essentiell|essential|o
@@ -8925,6 +10226,109 @@ studentisch|student, relating to students|o
 städtebaulich|urban planning, relating to|o
 verschenken|to give away (as a gift)|v
 wachstumsfördernd|growth-promoting|o
+abbilden|to depict, represent|v
+aktienkurs|share price (der, pl. Aktienkurse)|o
+anbruch|onset, beginning (der, no pl.)|o
+anfrage|inquiry, request (die, pl. Anfragen)|o
+animation|animation (die, pl. Animationen)|o
+anschicken|sich anschicken: to get ready to, to prepare to|n
+argumentation|argumentation, reasoning (die, pl. Argumentationen)|o
+artillerie|artillery (die, no pl.)|o
+auslöser|trigger; shutter release, camera (der, pl. Auslöser)|o;o
+ausrottung|extermination, eradication (die, no pl.)|o
+automatisierung|automation (die, no pl.)|o
+backenbart|sideburns, side-whiskers (der, pl. Backenbärte)|o
+besichtigung|viewing, inspection, tour (die, pl. Besichtigungen)|o
+beton|concrete (der, no pl.)|o
+betreiber|operator (der, pl. Betreiber)|o
+bevorstehen|to be imminent, be ahead (stand bevor, bevorgestanden)|v
+blockade|blockade (die, pl. Blockaden)|o
+bote|messenger (der, pl. Boten)|o
+debüt|debut (das, pl. Debüts)|o
+dokumentarfilm|documentary film (der, pl. Dokumentarfilme)|o
+einblick|insight (der, pl. Einblicke)|o
+entbindung|childbirth, delivery (die, pl. Entbindungen)|o
+entgegenwirken|to counteract|v
+erfolglos|unsuccessful|o
+familienmitglied|family member (das, pl. Familienmitglieder)|o
+folgendermaßen|as follows|o
+freihandelsabkommen|free trade agreement (das, pl. Freihandelsabkommen)|o
+gastgeber|host (der, pl. Gastgeber)|o
+geheul|howling (das, no pl.)|o
+gelübde|vow (das, pl. Gelübde)|o
+gemeinwohl|common good (das, no pl.)|o
+genre|genre (das, pl. Genres)|o
+gospel|gospel music (der, pl. Gospels)|o
+greis|old man (der, pl. Greise)|o
+groschen|penny, small coin (der, pl. Groschen)|o
+großstadt|big city (die, pl. Großstädte)|o
+grube|pit, mine (die, pl. Gruben)|o
+hafer|oats (der, no pl.)|o
+hang|slope; tendency, inclination (der, pl. Hänge)|o;o
+hauptstraße|main street, main road (die, pl. Hauptstraßen)|o
+herrichten|to prepare, get ready|v
+hinabsteigen|to descend (stieg hinab, hinabgestiegen, ist)|v
+immobilienpreis|property price (der, pl. Immobilienpreise)|o
+intuition|intuition (die, pl. Intuitionen)|o
+jahrtausend|millennium (das, pl. Jahrtausende)|o
+journalistin|female journalist (die, pl. Journalistinnen)|o
+jubiläum|anniversary, jubilee (das, pl. Jubiläen)|o
+kaiserreich|empire (das, pl. Kaiserreiche)|o
+kandidatur|candidacy (die, pl. Kandidaturen)|o
+kanzel|pulpit; cockpit (die, pl. Kanzeln)|o;o
+knecht|farmhand, servant (der, pl. Knechte)|o
+krampf|cramp, spasm (der, pl. Krämpfe)|o
+kriegsmacht|military power (die, pl. Kriegsmächte)|o
+kölner|of Cologne, invariable adjective; a person from Cologne (der, pl. Kölner)|o;o
+lichtstrahl|ray of light (der, pl. Lichtstrahlen)|o
+lärmend|noisy|o
+lüften|to air, ventilate; to lift, a secret|v;v
+mahl|meal (das, pl. Mahle)|o
+meditation|meditation (die, pl. Meditationen)|o
+menschenfleisch|human flesh (das, no pl.)|o
+mitbegründer|co-founder (der, pl. Mitbegründer)|o
+mithin|therefore, thus|o
+nationalversammlung|national assembly (die, pl. Nationalversammlungen)|o
+neuzeit|modern era (die, no pl.)|o
+osmanisch|Ottoman|o
+paradox|paradox (das, pl. Paradoxe); paradoxical|o;o
+peitsche|whip (die, pl. Peitschen)|o
+piano|piano (das, pl. Pianos)|o
+podium|podium, platform (das, pl. Podien)|o
+prager|of Prague, invariable adjective; a person from Prague (der, pl. Prager)|o;o
+reflexion|reflection, thought (die, pl. Reflexionen)|o
+röte|redness (die, no pl.)|o
+schilling|schilling, currency (der, pl. Schilling)|o
+schnur|cord, string (die, pl. Schnüre)|o
+schuldenkrise|debt crisis (die, pl. Schuldenkrisen)|o
+schwan|swan (der, pl. Schwäne)|o
+selbständig|independent, self-employed|o
+selektion|selection (die, pl. Selektionen)|o
+silbe|syllable (die, pl. Silben)|o
+sorglos|carefree|o
+sozialdemokrat|social democrat (der, pl. Sozialdemokraten)|o
+tabelle|table, chart (die, pl. Tabellen)|o
+teilbar|divisible|o
+todesopfer|fatality, death toll (das, pl. Todesopfer)|o
+transportmittel|means of transport (das, pl. Transportmittel)|o
+untergrund|underground; subsoil (der, no pl.)|o;o
+unternehmertum|entrepreneurship (das, no pl.)|o
+unterscheidung|distinction (die, pl. Unterscheidungen)|o
+unterteilen|to subdivide|v
+vertreibung|expulsion (die, pl. Vertreibungen)|o
+verwandlung|transformation (die, pl. Verwandlungen)|o
+volksabstimmung|referendum (die, pl. Volksabstimmungen)|o
+vorderteil|front part (das, pl. Vorderteile)|o
+vorkehrung|precaution (die, pl. Vorkehrungen)|o
+weltmacht|world power (die, pl. Weltmächte)|o
+widerhall|echo (der, no pl.)|o
+wipfel|treetop (der, pl. Wipfel)|o
+wirtschaftsentwicklung|economic development (die, no pl.)|o
+wohingegen|whereas|o
+würfel|cube; die, dice (der, pl. Würfel)|o;o
+zeitweise|temporarily, at times|o
+zugegen|zugegen sein: to be present|n
+zwischenraum|gap, space between (der, pl. Zwischenräume)|o
 abrunden|to round off, to round down|v
 anprangern|to denounce, to condemn publicly|v
 beschneiden|to trim, to prune; to curtail, to cut back (rights, resources) (beschnitt, beschnitten)|v;v
@@ -9040,6 +10444,105 @@ unparteiisch|impartial, unbiased|o
 verfeinern|to refine|v
 wisch|scrap of paper, document (colloq.) (der, pl. Wische)|o
 zersplittern|to shatter, to splinter|v
+abbild|image, likeness (das, pl. Abbilder)|o
+abendbrot|evening meal, supper (das, no pl.)|o
+abrufdatum|date accessed, date retrieved (das, pl. Abrufdaten)|o
+alliierte|ally, allied person (der/die, pl. Alliierten)|o
+alphabet|alphabet (das, pl. Alphabete)|o
+anspannung|tension, strain (die, pl. Anspannungen)|o
+areal|area, territory (das, pl. Areale)|o
+artist|circus or variety performer (der, pl. Artisten)|o
+aufbruch|departure; new beginning (der, no pl.)|o;o
+auffällig|conspicuous, striking|o
+aussöhnung|reconciliation (die, pl. Aussöhnungen)|o
+automobil|automobile, car (das, pl. Automobile)|o
+banknote|banknote (die, pl. Banknoten)|o
+barrel|barrel, oil (das, pl. Barrel)|o
+beleg|proof, receipt (der, pl. Belege)|o
+binnennachfrage|domestic demand (die, no pl.)|o
+biologe|biologist (der, pl. Biologen)|o
+bistum|diocese, bishopric (das, pl. Bistümer)|o
+brustkrebs|breast cancer (der, no pl.)|o
+chemiker|chemist (der, pl. Chemiker)|o
+direktorin|female director (die, pl. Direktorinnen)|o
+diskurs|discourse (der, pl. Diskurse)|o
+dreharbeiten|filming, shooting a film (die, pl.)|o
+effektivität|effectiveness (die, no pl.)|o
+ehepaar|married couple (das, pl. Ehepaare)|o
+eigensinn|stubbornness, obstinacy (der, no pl.)|o
+einfließen|to flow in; to be incorporated (floss ein, eingeflossen, ist)|v;v
+einkunft|income, revenue (die, pl. Einkünfte)|o
+einwanderer|immigrant (der, pl. Einwanderer)|o
+ekel|disgust (der, no pl.)|o
+empfänger|recipient; receiver, device (der, pl. Empfänger)|o;o
+erdgas|natural gas (das, no pl.)|o
+faser|fibre (die, pl. Fasern)|o
+funktionär|functionary, official (der, pl. Funktionäre)|o
+gegeneinander|against each other|o
+gesetzgeber|legislator (der, pl. Gesetzgeber)|o
+ghetto|ghetto (das, pl. Ghettos)|o
+gipfeltreffen|summit meeting (das, pl. Gipfeltreffen)|o
+grotte|grotto (die, pl. Grotten)|o
+hacke|heel; hoe, mattock (die, pl. Hacken)|o;o
+handelskrieg|trade war (der, pl. Handelskriege)|o
+herangehensweise|approach (die, pl. Herangehensweisen)|o
+herüber|over here, across|o
+hinterkopf|back of the head (der, pl. Hinterköpfe)|o
+höchststand|record high, peak (der, pl. Höchststände)|o
+installation|installation (die, pl. Installationen)|o
+interessengruppe|interest group (die, pl. Interessengruppen)|o
+islamist|Islamist (der, pl. Islamisten)|o
+klinke|door handle, latch (die, pl. Klinken)|o
+kommode|chest of drawers (die, pl. Kommoden)|o
+langeweile|boredom (die, no pl.)|o
+lebensbedingung|living condition (die, pl. Lebensbedingungen)|o
+leuchter|candlestick, chandelier (der, pl. Leuchter)|o
+nachtlager|night's lodging, camp (das, pl. Nachtlager)|o
+nationalmannschaft|national team (die, pl. Nationalmannschaften)|o
+nationalpark|national park (der, pl. Nationalparks)|o
+neubau|new building (der, pl. Neubauten)|o
+nichtsdestoweniger|nevertheless|o
+nobelpreis|Nobel Prize (der, pl. Nobelpreise)|o
+oberrichter|chief judge (der, pl. Oberrichter)|o
+pollen|pollen (der, no pl.)|o
+pressefreiheit|press freedom (die, no pl.)|o
+privatperson|private individual (die, pl. Privatpersonen)|o
+rapide|rapid|o
+redaktion|editorial team, editorial office (die, pl. Redaktionen)|o
+reformation|reformation (die, pl. Reformationen)|o
+register|register (das, pl. Register)|o
+ritze|crack, crevice (die, pl. Ritzen)|o
+robbe|seal, animal (die, pl. Robben)|o
+rumpf|trunk, body; hull (der, pl. Rümpfe)|o;o
+sandbank|sandbank (die, pl. Sandbänke)|o
+schiit|Shiite (der, pl. Schiiten)|o
+schriftstellerin|female writer, author (die, pl. Schriftstellerinnen)|o
+schwabe|Swabian (der, pl. Schwaben)|o
+seminar|seminar (das, pl. Seminare)|o
+stoffwechsel|metabolism (der, no pl.)|o
+supermacht|superpower (die, pl. Supermächte)|o
+tau|dew (der, no pl.); rope, cable (das, pl. Taue)|o;o
+taufe|baptism (die, pl. Taufen)|o
+tötung|killing (die, pl. Tötungen)|o
+unterstellen|to subordinate, place under; to assume, impute|v;v
+uraufführung|premiere, first performance (die, pl. Uraufführungen)|o
+verheiratung|marrying off, marriage (die, pl. Verheiratungen)|o
+verzeichnis|list, index, directory (das, pl. Verzeichnisse)|o
+vierundzwanzig|twenty-four|o
+volltext|full text (der, pl. Volltexte)|o
+vormarsch|advance, military (der, no pl.)|o
+vorrang|priority, precedence (der, no pl.)|o
+vorstadt|suburb (die, pl. Vorstädte)|o
+völkermord|genocide (der, no pl.)|o
+völkerrecht|international law (das, no pl.)|o
+waffenstillstand|ceasefire, armistice (der, pl. Waffenstillstände)|o
+weiterentwickeln|to develop further|v
+widerstandskraft|power of resistance, resilience (die, no pl.)|o
+zehntausende|tens of thousands (die, pl.)|o
+zeigefinger|index finger (der, pl. Zeigefinger)|o
+zufluchtsort|refuge, place of refuge (der, pl. Zufluchtsorte)|o
+zuordnen|to assign, allocate|v
+übersetzer|translator (der, pl. Übersetzer)|o
 abgegrenzt|delimited, defined, separate|o
 abwerten|to devalue|v
 aufgewendet|expended, spent (effort, time, money)|o
@@ -9152,6 +10655,142 @@ schlittern|to skid, to slide|v
 tappen|to grope, to shuffle, to feel one's way|v
 uneins|at odds, in disagreement|o
 vertauschen|to swap, to mix up|v
+abrüstung|disarmament (die, no pl.)|o
+abteil|compartment, train (das, pl. Abteile)|o
+aktionsplan|action plan (der, pl. Aktionspläne)|o
+andacht|devotion, prayer service (die, pl. Andachten)|o
+andernorts|elsewhere|o
+ankern|to anchor|v
+ankömmling|newcomer, arrival (der, pl. Ankömmlinge)|o
+anstoß|impetus, kickoff; offence (der, pl. Anstöße)|o;o
+appell|appeal, roll call (der, pl. Appelle)|o
+arbeitsgruppe|working group (die, pl. Arbeitsgruppen)|o
+arrangement|arrangement (das, pl. Arrangements)|o
+asiat|Asian, person (der, pl. Asiaten)|o
+asthma|asthma (das, no pl.)|o
+augenschein|appearance; in Augenschein nehmen: to inspect (der, no pl.)|o;n
+ausspruch|saying, remark (der, pl. Aussprüche)|o
+balustrade|balustrade (die, pl. Balustraden)|o
+baronin|baroness (die, pl. Baroninnen)|o
+bedienung|service; operation, of a machine (die, no pl.)|o;o
+behagen|to please, suit; comfort, ease (das)|v;o
+beruhigung|calming, reassurance (die, no pl.)|o
+beschädigung|damage (die, pl. Beschädigungen)|o
+betreuung|care, supervision (die, no pl.)|o
+bosheit|malice, spite (die, pl. Bosheiten)|o
+buschwerk|shrubbery, bushes (das, no pl.)|o
+dampfboot|steamboat (das, pl. Dampfboote)|o
+darauffolgend|following, subsequent|o
+dreizehnte|thirteenth|o
+durchgang|passage, passageway (der, pl. Durchgänge)|o
+einlage|deposit, bank; insert; interlude (die, pl. Einlagen)|o;o;o
+einverständnis|agreement, consent (das, no pl.)|o
+einzug|moving in; entry, procession (der, pl. Einzüge)|o;o
+entwicklungsbank|development bank (die, pl. Entwicklungsbanken)|o
+erdöl|petroleum, oil (das, no pl.)|o
+erhebung|survey; elevation; uprising (die, pl. Erhebungen)|o;o;o
+feldzug|campaign, military (der, pl. Feldzüge)|o
+fernrohr|telescope (das, pl. Fernrohre)|o
+forschungsergebnis|research finding (das, pl. Forschungsergebnisse)|o
+freihandel|free trade (der, no pl.)|o
+freisprechung|acquittal (die, pl. Freisprechungen)|o
+freispruch|acquittal (der, pl. Freisprüche)|o
+fußpfad|footpath (der, pl. Fußpfade)|o
+färbung|colouring, tint (die, pl. Färbungen)|o
+gebilde|structure, formation (das, pl. Gebilde)|o
+geldgeber|financial backer, funder (der, pl. Geldgeber)|o
+gemeinsamkeit|commonality, something in common (die, pl. Gemeinsamkeiten)|o
+gemisch|mixture (das, pl. Gemische)|o
+gerichtsverfahren|court proceedings, trial (das, pl. Gerichtsverfahren)|o
+gesichtsfarbe|complexion (die, pl. Gesichtsfarben)|o
+gestein|rock, geology (das, pl. Gesteine)|o
+gewerbe|trade, business (das, pl. Gewerbe)|o
+giebel|gable (der, pl. Giebel)|o
+gleichwohl|nevertheless|o
+gottheit|deity, divinity (die, pl. Gottheiten)|o
+halbdunkel|semi-darkness, twilight (das, no pl.)|o
+halstuch|scarf, neckerchief (das, pl. Halstücher)|o
+hausflur|hallway, entrance hall (der, pl. Hausflure)|o
+haushaltspolitik|budget policy, fiscal policy (die, no pl.)|o
+herabsteigen|to descend (stieg herab, herabgestiegen, ist)|v
+herausbekommen|to find out; to get change back (bekam heraus, herausbekommen)|v;v
+hernach|afterwards|o
+hochland|highlands (das, pl. Hochländer)|o
+hurrikan|hurricane (der, pl. Hurrikane)|o
+häufigkeit|frequency (die, no pl.)|o
+immerfort|continually, constantly|o
+innenminister|interior minister (der, pl. Innenminister)|o
+intensität|intensity (die, no pl.)|o
+isolation|isolation (die, no pl.)|o
+jahrzehntelang|lasting decades, for decades|o
+kessel|kettle, boiler; basin, geographic (der, pl. Kessel)|o;o
+kilogramm|kilogram (das, pl. Kilogramm)|o
+kirchhof|churchyard, cemetery (der, pl. Kirchhöfe)|o
+kohlenstoffemission|carbon emission (die, pl. Kohlenstoffemissionen)|o
+kralle|claw (die, pl. Krallen)|o
+kreditaufnahme|borrowing, taking out a loan (die, pl. Kreditaufnahmen)|o
+kreide|chalk (die, no pl.)|o
+kriegsführung|warfare, conduct of war (die, no pl.)|o
+kränkung|insult, hurt feelings (die, pl. Kränkungen)|o
+krönung|coronation (die, pl. Krönungen)|o
+kunstvoll|artistic, elaborate|o
+leiterin|female leader, manager (die, pl. Leiterinnen)|o
+luftzug|draught, draft of air (der, pl. Luftzüge)|o
+länderei|estate, landed property (die, pl. Ländereien)|o
+machbar|feasible, doable|o
+manier|manner, style; manners, pl. (die, pl. Manieren)|o;o
+mehl|flour (das, no pl.)|o
+mehrzahl|majority; plural, grammar (die, no pl.)|o;o
+meinetwillen|um meinetwillen: for my sake|n
+minimum|minimum (das, pl. Minima)|o
+mitmensch|fellow human being (der, pl. Mitmenschen)|o
+mitwirkung|participation, involvement (die, no pl.)|o
+mähne|mane (die, pl. Mähnen)|o
+nervenzelle|nerve cell (die, pl. Nervenzellen)|o
+neuausrichtung|realignment, reorientation (die, pl. Neuausrichtungen)|o
+pantoffel|slipper (der, pl. Pantoffeln)|o
+plünderung|plundering, looting (die, pl. Plünderungen)|o
+prävention|prevention (die, no pl.)|o
+revue|revue, variety show (die, pl. Revuen)|o
+rundgang|tour, round (der, pl. Rundgänge)|o
+sammler|collector (der, pl. Sammler)|o
+schall|sound (der, no pl.)|o
+schaufel|shovel (die, pl. Schaufeln)|o
+schielen|to squint; to covet, eye enviously|v;v
+schlummer|slumber (der, no pl.)|o
+selbstachtung|self-respect (die, no pl.)|o
+slogan|slogan (der, pl. Slogans)|o
+sozialist|socialist (der, pl. Sozialisten)|o
+spekulation|speculation (die, pl. Spekulationen)|o
+spielfilm|feature film (der, pl. Spielfilme)|o
+steigung|incline, gradient (die, pl. Steigungen)|o
+support|support, technical (der, no pl.)|o
+syndrom|syndrome (das, pl. Syndrome)|o
+taschenbuch|paperback book (das, pl. Taschenbücher)|o
+trunk|drink, draught (der, pl. Trünke)|o
+typus|type (der, pl. Typen)|o
+umstrukturierung|restructuring (die, pl. Umstrukturierungen)|o
+untergebene|subordinate, person (der/die, pl. Untergebenen)|o
+vergleichsweise|comparatively|o
+verlängerung|extension (die, pl. Verlängerungen)|o
+verschmutzung|pollution (die, no pl.)|o
+verschärfung|intensification, tightening (die, pl. Verschärfungen)|o
+verstoß|violation, infringement (der, pl. Verstöße)|o
+verwandtschaft|relatives, kinship (die, pl. Verwandtschaften)|o
+verwirklichung|realization, implementation (die, pl. Verwirklichungen)|o
+volkspartei|people's party (die, pl. Volksparteien)|o
+vorhandensein|existence, presence (das, no pl.)|o
+vorreiter|pioneer, trailblazer (der, pl. Vorreiter)|o
+vorsichtsmaßregel|precaution (die, pl. Vorsichtsmaßregeln)|o
+vorstellungskraft|imagination, power of imagination (die, no pl.)|o
+wanken|to stagger, totter|v
+wettbewerbsfähig|competitive|o
+widerstandsfähigkeit|resilience, resistance (die, no pl.)|o
+windenergie|wind energy (die, no pl.)|o
+zauberin|sorceress (die, pl. Zauberinnen)|o
+zufluss|inflow (der, pl. Zuflüsse)|o
+zweifelhaft|doubtful|o
+zweitgrößte|second-largest|o
 abstoßend|repulsive, repugnant|o
 achtundvierzig|forty-eight|o
 akkurat|accurate, precise|o
@@ -9313,6 +10952,132 @@ vibrieren|to vibrate|v
 vielseitig|versatile, many-sided|o
 wehrlos|defenseless|o
 zugespitzt|sharpened, pointed; intensified, come to a head|o;o
+abgelegen|remote, secluded|o
+abgewinnen|to derive, gain from (gewann ab, abgewonnen)|v
+acker|field (der, pl. Äcker)|o
+aggression|aggression (die, pl. Aggressionen)|o
+anekdote|anecdote (die, pl. Anekdoten)|o
+anfüllen|to fill up|v
+anmut|grace, elegance (die, no pl.)|o
+anrede|form of address, salutation (die, pl. Anreden)|o
+anstand|decency, propriety (der, no pl.)|o
+armutsgrenze|poverty line (die, pl. Armutsgrenzen)|o
+aufsichtsbehörde|regulatory authority (die, pl. Aufsichtsbehörden)|o
+augenmerk|attention, focus (das, no pl.)|o
+ausfahren|to drive out, take for a drive (fährt aus, fuhr aus, ausgefahren, ist)|v
+ausgrenzung|exclusion, marginalization (die, pl. Ausgrenzungen)|o
+auster|oyster (die, pl. Austern)|o
+außenministerium|foreign ministry (das, pl. Außenministerien)|o
+bankensystem|banking system (das, pl. Bankensysteme)|o
+bauart|design, construction type (die, pl. Bauarten)|o
+beispiellos|unprecedented|o
+bestenfalls|at best|o
+birke|birch tree (die, pl. Birken)|o
+bruchteil|fraction (der, pl. Bruchteile)|o
+buchdruckerkunst|art of printing, typography (die, no pl.)|o
+bürokrat|bureaucrat (der, pl. Bürokraten)|o
+dekret|decree (das, pl. Dekrete)|o
+dreimaster|three-master, ship (der, pl. Dreimaster)|o
+einberufen|to convene, summon; to draft, conscript (berief ein, einberufen)|v;v
+einbinden|to integrate, incorporate (band ein, eingebunden)|v
+einreise|entry, entering a country (die, pl. Einreisen)|o
+elfenbein|ivory (das, no pl.)|o
+ergänzung|addition, supplement (die, pl. Ergänzungen)|o
+fertigung|manufacturing, production (die, no pl.)|o
+flechten|to braid, plait, weave (flicht, flocht, geflochten)|v
+flüchtlingskrise|refugee crisis (die, pl. Flüchtlingskrisen)|o
+fortkommen|to get on, make progress (kam fort, fortgekommen, ist)|v
+gegenstück|counterpart (das, pl. Gegenstücke)|o
+gegenüberliegend|opposite, facing|o
+gemeinwesen|community, commonwealth (das, pl. Gemeinwesen)|o
+gerichtsschreiber|court clerk (der, pl. Gerichtsschreiber)|o
+gesundheitsfürsorge|health care (die, no pl.)|o
+glühbirne|light bulb (die, pl. Glühbirnen)|o
+grabstein|gravestone (der, pl. Grabsteine)|o
+grammatik|grammar (die, pl. Grammatiken)|o
+grimasse|grimace (die, pl. Grimassen)|o
+halbkreis|semicircle (der, pl. Halbkreise)|o
+handelspartner|trading partner (der, pl. Handelspartner)|o
+handhabung|handling (die, no pl.)|o
+hilflosigkeit|helplessness (die, no pl.)|o
+hungersnot|famine (die, pl. Hungersnöte)|o
+imperator|emperor (der, pl. Imperatoren)|o
+jazzmusiker|jazz musician (der, pl. Jazzmusiker)|o
+kernwaffe|nuclear weapon (die, pl. Kernwaffen)|o
+konversation|conversation (die, pl. Konversationen)|o
+kupfer|copper (das, no pl.)|o
+köpfchen|little head (das, pl. Köpfchen)|o
+kürzung|cut, reduction (die, pl. Kürzungen)|o
+landgut|estate, country estate (das, pl. Landgüter)|o
+lebensdauer|lifespan (die, no pl.)|o
+lehrstuhl|professorship, chair (der, pl. Lehrstühle)|o
+manipulation|manipulation (die, pl. Manipulationen)|o
+mikroskop|microscope (das, pl. Mikroskope)|o
+mondenschein|moonlight, poetic (der, no pl.)|o
+mythologie|mythology (die, pl. Mythologien)|o
+nachsicht|leniency, indulgence (die, no pl.)|o
+nationalstaat|nation state (der, pl. Nationalstaaten)|o
+neuerdings|recently, of late|o
+normalisierung|normalization (die, pl. Normalisierungen)|o
+normalität|normality (die, no pl.)|o
+nährstoff|nutrient (der, pl. Nährstoffe)|o
+order|order, instruction (die, pl. Orders)|o
+originaltitel|original title (der, pl. Originaltitel)|o
+pascha|pasha (der, pl. Paschas)|o
+pastete|pie, pâté (die, pl. Pasteten)|o
+phantom|phantom (das, pl. Phantome)|o
+porzellan|porcelain, china (das, no pl.)|o
+pose|pose (die, pl. Posen)|o
+protagonist|protagonist (der, pl. Protagonisten)|o
+psychiatrie|psychiatry (die, no pl.)|o
+putsch|coup, putsch (der, pl. Putsche)|o
+rabbiner|rabbi (der, pl. Rabbiner)|o
+reaktor|reactor (der, pl. Reaktoren)|o
+referenz|reference (die, pl. Referenzen)|o
+rindfleisch|beef (das, no pl.)|o
+ruß|soot (der, no pl.)|o
+rücksichtsvoll|considerate|o
+schaffner|conductor, ticket inspector (der, pl. Schaffner)|o
+scheide|vagina; sheath, scabbard (die, pl. Scheiden)|o;o
+schenkel|thigh (der, pl. Schenkel)|o
+schiedsrichter|referee, umpire (der, pl. Schiedsrichter)|o
+schlagzeuger|drummer (der, pl. Schlagzeuger)|o
+schleife|bow, loop (die, pl. Schleifen)|o
+schleuse|lock, sluice (die, pl. Schleusen)|o
+schuldenlast|debt burden (die, no pl.)|o
+schwiegervater|father-in-law (der, pl. Schwiegerväter)|o
+schwärmerei|enthusiasm, infatuation (die, pl. Schwärmereien)|o
+schädigung|harm, damage (die, pl. Schädigungen)|o
+siedler|settler (der, pl. Siedler)|o
+solar|solar|o
+speicher|storage, memory; granary, loft (der, pl. Speicher)|o;o
+sphäre|sphere (die, pl. Sphären)|o
+stempel|stamp (der, pl. Stempel)|o
+symmetrie|symmetry (die, pl. Symmetrien)|o
+synthese|synthesis (die, pl. Synthesen)|o
+tadel|reprimand, blame (der, pl. Tadel)|o
+talk|talk show (der, no pl.)|o
+treppenhaus|stairwell, staircase (das, pl. Treppenhäuser)|o
+umweltschutz|environmental protection (der, no pl.)|o
+unheil|disaster, calamity (das, no pl.)|o
+verfechter|advocate, champion (der, pl. Verfechter)|o
+verhaltensweise|behaviour, way of behaving (die, pl. Verhaltensweisen)|o
+vermeidung|avoidance (die, no pl.)|o
+vermögenspreis|asset price (der, pl. Vermögenspreise)|o
+violine|violin (die, pl. Violinen)|o
+vornehm|distinguished, noble, elegant|o
+wahlrecht|right to vote, suffrage (das, no pl.)|o
+wahlsieg|election victory (der, pl. Wahlsiege)|o
+wartezimmer|waiting room (das, pl. Wartezimmer)|o
+wehr|defence, resistance (die, no pl.); weir, dam (das, pl. Wehre)|o;o
+wiederwählen|to re-elect|v
+wunschdenken|wishful thinking (das, no pl.)|o
+zunutze|sich etwas zunutze machen: to make use of something|o
+zusammenkunft|gathering, meeting (die, pl. Zusammenkünfte)|o
+zuschuss|subsidy, grant (der, pl. Zuschüsse)|o
+zwanzigmal|twenty times|o
+überfordern|to overwhelm, overburden|v
+übersicht|overview (die, pl. Übersichten)|o
 animieren|to encourage, to prompt; to animate|v;v
 annektieren|to annex|v
 autodidaktisch|self-taught, autodidactic|o
@@ -9512,6 +11277,150 @@ zurückhaltend|reserved, reticent|o
 zusammenfassend|in summary, to sum up|o
 öd|desolate, dreary|o
 übergewichtig|overweight|o
+abrufbar|available, retrievable|o
+abschwächung|weakening, easing (die, pl. Abschwächungen)|o
+akkord|chord, music; piecework (der, pl. Akkorde)|o;o
+allgemeinheit|general public; generality (die, no pl.)|o;o
+anbieter|provider, supplier (der, pl. Anbieter)|o
+anfangsbuchstabe|initial letter (der, pl. Anfangsbuchstaben)|o
+angrenzend|adjacent, bordering|o
+anhäufung|accumulation (die, pl. Anhäufungen)|o
+badeort|seaside resort, spa town (der, pl. Badeorte)|o
+bahnstrecke|railway line (die, pl. Bahnstrecken)|o
+bankensektor|banking sector (der, no pl.)|o
+beifällig|approving|o
+beinhaus|ossuary, charnel house (das, pl. Beinhäuser)|o
+bergbau|mining (der, no pl.)|o
+bevölkerungsgruppe|population group (die, pl. Bevölkerungsgruppen)|o
+bildhauer|sculptor (der, pl. Bildhauer)|o
+biografie|biography (die, pl. Biografien)|o
+blutvergießen|bloodshed (das, no pl.)|o
+boulevard|boulevard (der, pl. Boulevards)|o
+chorrock|surplice (der, pl. Chorröcke)|o
+demokratisierung|democratization (die, no pl.)|o
+diesbezüglich|regarding this, in this respect|o
+dreiviertel|three-quarters|o
+ebensoviel|just as much|o
+eigenart|peculiarity, characteristic (die, pl. Eigenarten)|o
+einsturz|collapse (der, pl. Einstürze)|o
+enzym|enzyme (das, pl. Enzyme)|o
+errungenschaft|achievement (die, pl. Errungenschaften)|o
+favorit|favourite (der, pl. Favoriten)|o
+fensterbrett|windowsill (das, pl. Fensterbretter)|o
+fertigstellung|completion (die, no pl.)|o
+feststellung|determination, finding, statement (die, pl. Feststellungen)|o
+final|final, concluding|o
+folgezeit|period that follows, aftermath (die, no pl.)|o
+freitreppe|outdoor staircase, flight of steps (die, pl. Freitreppen)|o
+fremdvolk|foreign people, alien nation (das, pl. Fremdvölker)|o
+friedensabkommen|peace agreement (das, pl. Friedensabkommen)|o
+friedensprozess|peace process (der, no pl.)|o
+fährte|trail, track (die, pl. Fährten)|o
+fühlbar|noticeable, palpable|o
+fünftausend|five thousand|o
+gamasche|gaiter, legging (die, pl. Gamaschen)|o
+gebein|bones, remains (das, pl. Gebeine)|o
+gebühr|fee, charge (die, pl. Gebühren)|o
+gefieder|plumage, feathers (das, no pl.)|o
+gegenüberstehen|to face, be opposed to (stand gegenüber, gegenübergestanden)|v
+gemahl|husband, consort (der, pl. Gemahle)|o
+gestade|shore, strand, literary (das, pl. Gestade)|o
+gewissensbiss|pang of conscience (der, pl. Gewissensbisse)|o
+gewölbt|vaulted, curved|o
+gleichmütig|calm, even-tempered|o
+großzügigkeit|generosity (die, no pl.)|o
+gummi|rubber (das, no pl.)|o
+hausherr|head of household, landlord (der, pl. Hausherren)|o
+hereinkommen|to come in (kam herein, hereingekommen, ist)|v
+hernieder|down, downward|o
+herzogtum|duchy (das, pl. Herzogtümer)|o
+igel|hedgehog (der, pl. Igel)|o
+immerdar|forever, evermore|o
+immunsystem|immune system (das, pl. Immunsysteme)|o
+konkurrent|competitor (der, pl. Konkurrenten)|o
+kopfüber|headfirst, headlong|o
+krater|crater (der, pl. Krater)|o
+kriegsverbrechen|war crime (das, pl. Kriegsverbrechen)|o
+kult|cult (der, pl. Kulte)|o
+kurfürst|prince-elector (der, pl. Kurfürsten)|o
+launenhaft|moody, capricious|o
+lautlos|silent, noiseless|o
+lehrplan|curriculum (der, pl. Lehrpläne)|o
+meridian|meridian (der, pl. Meridiane)|o
+mitarbeit|collaboration, cooperation (die, no pl.)|o
+mitsamt|together with|o
+mittelklasse|middle class (die, no pl.)|o
+napf|bowl, dish (der, pl. Näpfe)|o
+narrativ|narrative (das, pl. Narrative)|o
+nationalist|nationalist (der, pl. Nationalisten)|o
+nationalität|nationality (die, pl. Nationalitäten)|o
+nationalsozialist|National Socialist, Nazi (der, pl. Nationalsozialisten)|o
+naturschutz|nature conservation (der, no pl.)|o
+nebenrolle|supporting role (die, pl. Nebenrollen)|o
+palette|palette; range (die, pl. Paletten)|o;o
+passion|passion; suffering of Christ (die, pl. Passionen)|o;o
+pfeiler|pillar (der, pl. Pfeiler)|o
+pinsel|paintbrush (der, pl. Pinsel)|o
+problemlos|problem-free, smooth|o
+präzedenzfall|precedent (der, pl. Präzedenzfälle)|o
+rangliste|ranking, league table (die, pl. Ranglisten)|o
+regent|ruler, regent (der, pl. Regenten)|o
+reinheit|purity (die, no pl.)|o
+rohstoffpreis|commodity price (der, pl. Rohstoffpreise)|o
+saatgut|seed, seed stock (das, no pl.)|o
+schiffen|to sail, poetic; to piss, vulgar|v;v
+schilf|reed (das, no pl.)|o
+schizophrenie|schizophrenia (die, no pl.)|o
+schlafrock|dressing gown (der, pl. Schlafröcke)|o
+schriftstück|document (das, pl. Schriftstücke)|o
+seinerzeit|at the time, in those days|o
+selbstwertgefühl|self-esteem (das, no pl.)|o
+sozialwissenschaft|social science (die, pl. Sozialwissenschaften)|o
+spielregel|rule of the game (die, pl. Spielregeln)|o
+spitzenpolitiker|top politician (der, pl. Spitzenpolitiker)|o
+staatspräsident|head of state, president (der, pl. Staatspräsidenten)|o
+stammzelle|stem cell (die, pl. Stammzellen)|o
+strafpredigt|lecture, telling-off (die, pl. Strafpredigten)|o
+strafverfolgung|criminal prosecution (die, no pl.)|o
+strauß|bouquet, bunch of flowers; ostrich (der, pl. Sträuße)|o;o
+swing|swing, music or golf (der, no pl.)|o
+säbel|sabre (der, pl. Säbel)|o
+südosten|southeast (der, no pl.)|o
+tabu|taboo (das, pl. Tabus)|o
+tenor|tenor, voice; gist of a statement (der, pl. Tenöre)|o;o
+tischler|carpenter, joiner (der, pl. Tischler)|o
+todesangst|mortal fear, dread (die, pl. Todesängste)|o
+tonfall|tone of voice (der, no pl.)|o
+tournee|tour (die, pl. Tourneen)|o
+umweltzerstörung|environmental destruction (die, no pl.)|o
+unterernährung|malnutrition (die, no pl.)|o
+unterlegen|inferior, outmatched, to someone (dat.)|o
+urknall|Big Bang (der, no pl.)|o
+verbindlichkeit|obligation; liability; friendliness (die, pl. Verbindlichkeiten)|o;o;o
+vergnügung|amusement, entertainment (die, pl. Vergnügungen)|o
+verlagerung|shift, relocation (die, pl. Verlagerungen)|o
+versprechung|promise (die, pl. Versprechungen)|o
+verteidigungsausgabe|defence spending (die, pl. Verteidigungsausgaben)|o
+vertiefung|deepening; hollow, indentation (die, pl. Vertiefungen)|o;o
+verwerfung|fault, geological; rejection (die, pl. Verwerfungen)|o;o
+veto|veto (das, pl. Vetos)|o
+viertelmeile|quarter mile (die, pl. Viertelmeilen)|o
+vonnöten|vonnöten sein: to be necessary|n
+vorläufer|precursor, forerunner (der, pl. Vorläufer)|o
+vorschau|preview (die, pl. Vorschauen)|o
+vorspiel|prelude; foreplay (das, pl. Vorspiele)|o;o
+wenngleich|although|o
+wettrennen|race (das, pl. Wettrennen)|o
+wiederaufnahme|resumption (die, pl. Wiederaufnahmen)|o
+wiedergeburt|rebirth, reincarnation (die, pl. Wiedergeburten)|o
+wohlwollen|goodwill, benevolence (das, no pl.)|o
+wohnsitz|residence, domicile (der, pl. Wohnsitze)|o
+zubehör|accessories (das, no pl.)|o
+zugabe|encore; bonus, extra (die, pl. Zugaben)|o;o
+zusammenbringen|to bring together (brachte zusammen, zusammengebracht)|v
+zusammenhalt|cohesion, solidarity (der, no pl.)|o
+zusammenschluss|merger, union (der, pl. Zusammenschlüsse)|o
+zylinder|cylinder; top hat (der, pl. Zylinder)|o;o
 abendländisch|Western, occidental|o
 abwegig|absurd, far-fetched|o
 adäquat|adequate|o
@@ -9670,6 +11579,66 @@ verwahren|to keep safe, to store; sich verwahren gegen: to protest against|v;n
 vorgelagert|situated in front of, offshore; upstream (in a process)|o;o
 wetteifern|to compete, to vie (with)|v
 zuzüglich|plus, in addition to|o
+privatunternehmen|private enterprise (das, pl. Privatunternehmen)|o
+pumpe|pump (die, pl. Pumpen)|o
+python|python (der, pl. Pythons)|o
+pächter|tenant, leaseholder (der, pl. Pächter)|o
+reduktion|reduction (die, pl. Reduktionen)|o
+refrain|refrain, chorus (der, pl. Refrains)|o
+regelrecht|regular, downright|o
+rektor|headmaster, rector (der, pl. Rektoren)|o
+rentner|pensioner (der, pl. Rentner)|o
+reputation|reputation (die, no pl.)|o
+rezeptor|receptor (der, pl. Rezeptoren)|o
+riegel|bolt, bar (der, pl. Riegel)|o
+schlagzeug|drum kit, drums (das, pl. Schlagzeuge)|o
+schleim|slime, mucus (der, no pl.)|o
+schnabel|beak (der, pl. Schnäbel)|o
+schulzeit|school days, schooltime (die, no pl.)|o
+schwerkraft|gravity (die, no pl.)|o
+schäfer|shepherd (der, pl. Schäfer)|o
+sechshundert|six hundred|o
+selbstverwaltung|self-government (die, no pl.)|o
+seligkeit|bliss, blessedness (die, no pl.)|o
+seltsamerweise|strangely enough|o
+sicherheitskraft|security force, security personnel (die, pl. Sicherheitskräfte)|o
+sicherstellung|securing, safeguarding (die, no pl.)|o
+ski|ski (der, pl. Ski)|o
+smart|smart, clever|o
+sold|soldier's pay, wages (der, no pl.)|o
+sonnenschirm|parasol (der, pl. Sonnenschirme)|o
+stammbaum|family tree (der, pl. Stammbäume)|o
+stellenweise|in places, here and there|o
+steuerbord|starboard (das, no pl.)|o
+strudel|whirlpool, vortex; strudel (der, pl. Strudel)|o;o
+tick|tic, quirk (der, pl. Ticks)|o
+trauung|wedding ceremony (die, pl. Trauungen)|o
+turbulenz|turbulence (die, pl. Turbulenzen)|o
+umliegend|surrounding|o
+umsatz|turnover, sales revenue (der, pl. Umsätze)|o
+umzäunung|fencing, enclosure (die, pl. Umzäunungen)|o
+unterbringung|accommodation, housing (die, no pl.)|o
+untermauern|to substantiate, back up|v
+uran|uranium (das, no pl.)|o
+vegetation|vegetation (die, no pl.)|o
+verb|verb (das, pl. Verben)|o
+verbund|alliance, network, association (der, pl. Verbünde)|o
+verfasser|author (der, pl. Verfasser)|o
+verschiedenheit|difference, diversity (die, pl. Verschiedenheiten)|o
+videospiel|video game (das, pl. Videospiele)|o
+vielerorts|in many places|o
+vorzugsweise|preferably|o
+weiden|to graze|v
+welken|to wilt, wither|v
+wirtschaftswissenschaft|economics (die, pl. Wirtschaftswissenschaften)|o
+zerfall|decay, disintegration (der, no pl.)|o
+ziffer|digit, numeral (die, pl. Ziffern)|o
+zusatz|addition, additive (der, pl. Zusätze)|o
+zutage|zutage treten, zutage kommen: to come to light|o
+zuweisen|to assign, allocate (wies zu, zugewiesen)|v
+ärmchen|little arm (das, pl. Ärmchen)|o
+überführung|transfer; overpass, flyover; conviction (die, pl. Überführungen)|o;o;o
+überladen|to overload (überlädt, überlud, überladen); overloaded, excessive|v;o
 abträglich|detrimental, harmful|o
 altägyptisch|Ancient Egyptian|o
 bisexuell|bisexual|o
@@ -10362,26 +12331,61 @@ zusteuern|zusteuern auf: to head for, to steer towards; to contribute|n;v
 zwiebel|onion (die, pl. Zwiebeln)|o
 öde|dreary, desolate; wasteland (die, pl. Öden)|o;o
 überwältigen|to overwhelm, to overpower|v
+absprache|agreement, arrangement (die, pl. Absprachen); in Absprache mit: in consultation with|o;n
+anklang|appeal, approval (der, no pl.); Anklang finden: to meet with approval|o;n
+anlehnung|in Anlehnung an: following, modelled on (die, pl. Anlehnungen)|n
+beachtung|attention, notice (die, no pl.); Beachtung finden: to attract attention|o;n
+besinnung|consciousness, senses (die, no pl.); reflection|o;o
+deckmantel|cover, pretext (der, pl. Deckmäntel)|o
+einbeziehung|inclusion, involvement (die, pl. Einbeziehungen)|o
+endeffekt|im Endeffekt: in the end, ultimately (der, pl. Endeffekte)|n
+ernstfall|emergency (der, pl. Ernstfälle); im Ernstfall: if it comes to it|o;n
+fettnäpfchen|ins Fettnäpfchen treten: to put one's foot in it (das, pl. Fettnäpfchen)|n
+fug|mit Fug und Recht: with good reason, rightly (der, no pl.)|n
+handumdrehen|im Handumdrehen: in no time, in a flash (das, no pl.)|n
+herzenslust|nach Herzenslust: to one's heart's content (die, no pl.)|n
+hintertreffen|ins Hintertreffen geraten: to fall behind (das, no pl.)|o
+hochtouren|auf Hochtouren: at full speed, flat out (die, pl.)|n
+klartext|plain text (der, no pl.); im Klartext: in plain language, to put it bluntly|o;n
+nachhinein|im Nachhinein: in hindsight, afterwards (das, no pl.)|n
+pate|godfather, sponsor (der, pl. Paten); Pate stehen: to be the model for|o;n
+prüfstand|test bench (der, pl. Prüfstände); auf dem Prüfstand: under scrutiny|o;n
+rechenschaft|account, accountability (die, no pl.); zur Rechenschaft ziehen: to hold to account|o;n
+stegreif|aus dem Stegreif: off the cuff, impromptu (der, no pl.)|n
+vergessenheit|oblivion (die, no pl.); in Vergessenheit geraten: to fall into oblivion|o;n
+verlaub|mit Verlaub: with respect, if I may say so (der, no pl.)|n
+verzug|delay, arrears (der, no pl.); in Verzug geraten: to fall behind (with payments)|o;n
+vorangehen|to go ahead, to lead the way; to make progress (ging voran, vorangegangen, ist)|v;v
+vorhinein|im Vorhinein: in advance, beforehand (das, no pl.)|n
+zweifelsfall|case of doubt (der, pl. Zweifelsfälle); im Zweifelsfall: if in doubt|o;n
 abstimmen|to vote; to coordinate|v;v
 abwenden|to avert; sich abwenden: to turn away|v;n
 angepisst|pissed off (vulg.)|o
 anhaben|to have on, to wear (hat an, hatte an, angehabt)|v
 ansteckend|contagious|o
+anstrengung|effort (die, pl. Anstrengungen)|o
 antik|antique|o
 apokalypse|apocalypse (die, pl. Apokalypsen)|o
+arena|arena (die, pl. Arenen)|o
 aspekt|aspect (der, pl. Aspekte)|o
+aufführung|performance (die, pl. Aufführungen)|o
 ausgeflippt|freaked out (colloq.)|o
 ausländische|foreign|o
+ballett|ballet (das, pl. Ballette)|o
 bang|scared, anxious|o
 begleiter|companion, escort (der, pl. Begleiter)|o
+belassen|to leave (as it is) (belässt, beließ, belassen)|v
 belohnt|rewarded|o
 benutz|use! (informal)|o
 besen|broom (der, pl. Besen)|o
 bewerbung|application (die, pl. Bewerbungen)|o
+bullshit|bullshit (der, no pl.)|o
+busen|bosom, breasts (der, pl. Busen)|o
 canyon|canyon (der, pl. Canyons)|o
 dauerhaft|permanent, lasting|o
 demonstration|demonstration (die, pl. Demonstrationen)|o
 derart|so, to such an extent|o
+durchatmen|to breathe deeply|v
 durchsetzen|to push through; sich durchsetzen: to prevail|v;n
 dämliche|stupid|o
 eigentliche|actual, real|o
@@ -10391,6 +12395,7 @@ erkältung|cold (illness) (die, pl. Erkältungen)|o
 europäische|European|o
 expedition|expedition (die, pl. Expeditionen)|o
 finanzen|finances (die, pl.)|o
+forscher|researcher (der, pl. Forscher)|o
 gedeckt|covered; set (table)|o;o
 gehirnerschütterung|concussion (die, pl. Gehirnerschütterungen)|o
 geknackt|cracked|o
@@ -10404,43 +12409,61 @@ haushälterin|housekeeper (die, pl. Haushälterinnen)|o
 heft|exercise book (das, pl. Hefte); issue|o;o
 heiter|cheerful; bright|o;o
 helle|bright, light|o
+hervorragende|excellent|o
 hindurch|through|o
 hingehören|to belong (somewhere)|v
+hirsch|deer, stag (der, pl. Hirsche)|o
 homosexuell|homosexual|o
+honey|honey (term of endearment)|o
 huch|oops, oh|o
+hysterisch|hysterical|o
 häh|huh?|o
 höflichkeit|politeness (die, pl. Höflichkeiten)|o
 hörer|receiver (der, pl. Hörer); listener|o;o
 individuum|individual (das, pl. Individuen)|o
 jazz|jazz (der, no pl.)|o
+kategorie|category (die, pl. Kategorien)|o
 kommende|coming, next|o
 kostbare|precious|o
 köter|mutt, cur (der, pl. Köter)|o
 laser|laser (der, pl. Laser)|o
+latein|Latin (das, no pl.)|o
 letztlich|in the end, ultimately|o
+luder|hussy, minx (das, pl. Luder)|o
+mailand|Milan|o
+maximal|maximum; at most|o;o
 meckern|to moan, to grumble|v
 minderjährig|underage, minor|o
+mitgemacht|taken part|o
 moms|mom's|o
+monatelang|for months|o
 mordkommission|homicide squad (die, pl. Mordkommissionen)|o
 nanny|nanny (die, pl. Nannys)|o
 nervensäge|pain in the neck (die, pl. Nervensägen)|o
 neuanfang|fresh start (der, pl. Neuanfänge)|o
+notarzt|emergency doctor (der, pl. Notärzte)|o
 orchester|orchestra (das, pl. Orchester)|o
 pakt|pact (der, pl. Pakte)|o
 papagei|parrot (der, pl. Papageien)|o
 parlament|parliament (das, pl. Parlamente)|o
 partnerschaft|partnership (die, pl. Partnerschaften)|o
 piepsen|to beep, to squeak|v
+plakat|poster (das, pl. Plakate)|o
 protest|protest (der, pl. Proteste)|o
 psychologische|psychological|o
+pärchen|couple (das, pl. Pärchen)|o
 rechtsanwalt|lawyer (der, pl. Rechtsanwälte)|o
 reihen|rows (pl. of die Reihe); to line up|o;v
+reihenfolge|order, sequence (die, pl. Reihenfolgen)|o
 romantik|romance (die, no pl.)|o
+ruine|ruin (die, pl. Ruinen)|o
+schleier|veil (der, pl. Schleier)|o
 schwiegersohn|son-in-law (der, pl. Schwiegersöhne)|o
 schwindler|swindler, liar (der, pl. Schwindler)|o
 seltene|rare|o
 senf|mustard (der, no pl.)|o
 seuche|epidemic, plague (die, pl. Seuchen)|o
+stückchen|little piece (das, pl. Stückchen)|o
 tagelang|for days|o
 terror|terror (der, no pl.)|o
 trümmer|rubble, debris (die, pl.)|o
@@ -10448,19 +12471,16 @@ tyrann|tyrant (der, pl. Tyrannen)|o
 tätowierung|tattoo (die, pl. Tätowierungen)|o
 umweg|detour (der, pl. Umwege)|o
 unterschlupf|shelter, hideout (der, pl. Unterschlupfe)|o
+vaterland|fatherland (das, pl. Vaterländer)|o
+verfolgung|pursuit (die, pl. Verfolgungen); persecution|o;o
 vernünftige|sensible|o
 verteidiger|defender (der, pl. Verteidiger); defence lawyer|o;o
 verwaltung|administration (die, pl. Verwaltungen)|o
+verwirrung|confusion (die, pl. Verwirrungen)|o
 vorausgesetzt|provided (that)|o
 vorbeischauen|to drop by|v
 weitergeben|to pass on (gibt weiter, gab weiter, weitergegeben)|v
-anstrengung|effort (die, pl. Anstrengungen)|o
-reihenfolge|order, sequence (die, pl. Reihenfolgen)|o
-arena|arena (die, pl. Arenen)|o
-ballett|ballet (das, pl. Ballette)|o
-bullshit|bullshit (der, no pl.)|o
-luder|hussy, minx (das, pl. Luder)|o
-forscher|researcher (der, pl. Forscher)|o
-honey|honey (term of endearment)|o
-verfolgung|pursuit (die, pl. Verfolgungen); persecution|o;o
+wiederherstellen|to restore|v
+übergabe|handover (die, pl. Übergaben)|o
+überschritten|exceeded; crossed|o;o
 s|it ('s, short for es: geht's, gibt's)|f3s

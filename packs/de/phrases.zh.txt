@@ -1,0 +1,677 @@
+# What each German phrase in `phrases.txt` means, in Mandarin.
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`. Hand-written,
+# like the files it translates; dictgen only carries it into the manifest
+# (`register --file phrases.zh`). The patterns must not change and the sense
+# count must match `phrases.en.txt`.
+
+# ---- Frames around another word: `*` is a gap of up to four words.
+um * zu|为了 (+ 不定式)
+ohne * zu|不 (做某事) 而
+statt * zu|而不是 (做某事)
+anstatt * zu|而不是 (做某事)
+sowohl * als auch|既…又…
+entweder * oder|要么…要么…
+weder * noch|既不…也不…
+je * desto|越…越…
+je * umso|越…越…
+nicht nur * sondern auch|不仅…而且…
+zwar * aber|虽然…但是…, 确实…但是…
+es kommt auf * an|取决于
+# ---- es: the subject that is not there. `gibt es` is found through the key forms.
+es gibt|有, 存在
+es geht um|关于, 涉及的是
+es handelt sich um|涉及的是, 关系到
+es kommt darauf an|要看情况
+es tut mir leid|对不起
+tut mir leid|(我) 很抱歉
+es lohnt sich|值得
+es fällt mir schwer|我觉得很难
+es ist mir egal|我不在乎
+das ist mir egal|我不在乎
+es macht nichts|没关系
+macht nichts|没事, 没关系
+es eilig haben|赶时间
+es sich leisten|(能) 负担得起
+# ---- Negation and repetition, where the words mislead.
+nicht mehr|不再, 不再是
+nicht einmal|甚至不, 连…都不
+nicht mal|甚至不
+gar nicht|根本不, 一点也不
+gar nichts|什么都没有, 一点也没有
+überhaupt nicht|根本不, 完全不
+überhaupt nichts|什么都没有, 完全没有
+immer noch|仍然, 还是
+noch einmal|再一次, 再
+noch mal|再一次, 再
+schon wieder|又, 又来了
+immer wieder|一次又一次, 反复
+# ---- Quantities.
+ein paar|几个 (不是 "一对")
+ein bisschen|一点, 一点点
+ein wenig|一点
+eine Menge|很多 (的)
+so ein|这样的一个, 如此的
+so etwas|这样的事, 诸如此类的事情
+was für|什么样的; 多么 (!)
+wie viel|多少
+# ---- Connectives and adverbials.
+zum Beispiel|例如, 比如
+auf jeden Fall|无论如何, 一定
+auf keinen Fall|绝不, 无论如何都不
+im Gegenteil|相反
+in der Tat|的确, 事实上
+vor allem|首先, 尤其是
+nach wie vor|依然, 一如既往
+und zwar|也就是说, 确切地说
+das heißt|也就是说, 即
+im Grunde|基本上, 归根结底
+im Allgemeinen|一般来说
+im Großen und Ganzen|总的来说
+unter anderem|除其他外, 其中包括
+unter uns|咱们私下说
+ohne weiteres|轻而易举地, 毫不费力地
+auf diese Weise|以这种方式
+so gut wie|几乎, 实际上
+wie gesagt|如前所述
+statt dessen|取而代之, 反而
+auf einmal|突然; 一下子
+mit einem Mal|突然, 一下子
+zum ersten Mal|第一次
+zum letzten Mal|最后一次
+zum Glück|幸运的是, 幸好
+zum Schluss|最后, 终于
+im Moment|此刻, 目前
+im Augenblick|此刻, 目前
+in letzter Zeit|最近, 近来
+seit langem|很久以来
+vor kurzem|最近, 不久前
+eines Tages|有一天
+ab und zu|偶尔, 有时
+ab und an|偶尔, 有时
+hin und wieder|偶尔, 有时
+hin und her|来回地, 反复地
+nach und nach|逐渐地, 一点一点地
+von Tag zu Tag|一天天地
+Schritt für Schritt|一步一步地
+von Anfang an|从一开始
+von nun an|从现在起
+ab jetzt|从现在起
+ab sofort|从现在起, 即刻起
+bis jetzt|到目前为止, 迄今为止
+bis dahin|到那时为止, 在那之前
+im Voraus|提前
+im Freien|在户外
+im Laufe|在…过程中
+im Gegensatz zu|与…相反
+im Vergleich zu|与…相比
+in Bezug auf|关于, 就…而言
+auf der Stelle|当场, 立刻
+an deiner Stelle|如果我是你
+an Ihrer Stelle|如果我是您 (正式); 处于她的位置, 处于他们的位置
+an meiner Stelle|处于我的位置
+mit Absicht|故意地
+aus Versehen|不小心, 无意中
+um jeden Preis|不惜一切代价
+zu Fuß|步行; (zu Füßen) 在…脚边
+zu Hause|在家
+nach Hause|回家 (朝家的方向)
+von zu Hause|从家里
+in Ordnung|好的, 没问题
+alles in Ordnung|一切都好
+in Ruhe|安静地, 从容地
+zu Ende|结束了, 完成了
+auf dem Laufenden|了解最新情况的, 消息灵通的
+meiner Meinung nach|依我看, 在我看来
+meiner Ansicht nach|在我看来
+# ---- Replies and formulas.
+guten Morgen|早上好
+guten Tag|你好, 日安
+guten Abend|晚上好
+gute Nacht|晚安
+auf Wiedersehen|再见
+bis morgen|明天见
+bis bald|回头见, 一会儿见
+vielen Dank|非常感谢
+danke schön|谢谢
+bitte schön|不客气; 给您
+bitte sehr|不客气; 给您
+gern geschehen|不客气
+keine Ahnung|不知道, 毫无头绪
+keine Sorge|别担心
+keine Angst|别害怕, 别担心
+na ja|嗯, 好吧
+na und|那又怎样
+na gut|好吧
+ach so|哦, 原来如此
+wie bitte|你说什么?, 抱歉?
+was ist los|怎么了, 发生什么事了
+wie geht es|你好吗 (过得怎么样)
+wie immer|和往常一样
+alles Gute|一切顺利, 万事如意
+viel Glück|祝你好运
+viel Spaß|玩得开心
+herzlichen Glückwunsch|恭喜
+Gott sei Dank|谢天谢地
+mein Gott|我的天哪
+um Gottes willen|看在上帝的份上
+um Himmels willen|看在老天的份上
+zum Teufel|见鬼去吧; 到底, 究竟
+lass mich in Ruhe|别烦我, 让我一个人待着
+halt den Mund|闭嘴
+kurz und gut|总之, 简而言之
+# ---- Light-verb idioms, cited as a dictionary does; the verb-second forms (`hat Angst`) come from the key forms.
+Angst haben|害怕
+Recht haben|有道理, 说得对
+Unrecht haben|错了, 不对
+Lust haben|想做某事, 有兴致
+Glück haben|幸运, 走运
+Pech haben|倒霉, 不走运
+Hunger haben|饿了
+Durst haben|渴了
+schuld sein|有责任, 是…的错
+Spaß machen|好玩, 有趣
+Spaß haben|玩得开心
+Sorgen machen|担心 (sich Sorgen machen: 感到担忧)
+Gedanken machen|思考, 担心 (sich Gedanken machen)
+Mühe geben|努力 (sich Mühe geben)
+Bescheid wissen|知道 (这件事), 了解情况
+Bescheid sagen|告知 (某人)
+Fragen stellen|提问题
+eine Frage stellen|提一个问题
+eine Entscheidung treffen|做决定
+eine Rolle spielen|起作用, 很重要
+keine Rolle spielen|不重要
+Platz nehmen|就座
+Abschied nehmen|告别
+ernst nehmen|认真对待
+Rücksicht nehmen|体谅, 照顾
+in Kauf nehmen|接受, 容忍
+auf den Arm nehmen|开玩笑, 捉弄
+im Stich lassen|抛弃, 不管不顾
+in Ruhe lassen|不去打扰
+zur Verfügung stehen|可供使用, 可用
+zur Verfügung stellen|提供, 供…使用
+zu Ende gehen|结束
+ums Leben kommen|丧生, 死亡
+ums Leben|(丧) 性命
+zur Welt kommen|出生
+ins Bett gehen|去睡觉
+zu Bett gehen|去睡觉
+schlafen gehen|去睡觉
+spazieren gehen|去散步
+einkaufen gehen|去购物
+zu Mittag essen|吃午饭
+zu Abend essen|吃晚饭
+zu tun haben|与…有关; 忙碌
+nichts zu tun haben|与…无关
+den Mund halten|闭嘴, 保持沉默
+Wort halten|信守诺言
+Schritt halten|跟上步伐
+Gas geben|加速, 踩油门
+in Kraft treten|生效, 实施
+in Kraft setzen|使生效, 颁布实施
+außer Kraft setzen|废除, 使失效
+zur Folge haben|导致, 造成…后果
+zum Ausdruck bringen|表达, 表露
+zum Ausdruck kommen|得到表达, 显现出来
+in Anspruch nehmen|利用, 占用 (时间, 资源)
+in Angriff nehmen|着手处理, 开始着手
+in Betracht ziehen|考虑, 纳入考虑
+in Betracht kommen|有可能, 值得考虑
+in Erwägung ziehen|考虑
+unter Beweis stellen|证明, 证实
+unter Druck setzen|施加压力
+in Frage stellen|质疑
+in Frage kommen|有可能, 符合条件
+außer Frage stehen|毋庸置疑
+zur Diskussion stehen|正在讨论中
+zur Debatte stehen|有待讨论
+zur Rede stellen|质问, 追究责任
+in Erfüllung gehen|实现, 成真
+in Erscheinung treten|显现, 崭露头角
+in Kontakt treten|取得联系
+in Verbindung stehen|有联系, 有关联
+in Verbindung bringen|使…联系起来, 使…有关联
+in Einklang bringen|使…一致, 使…协调
+in Einklang stehen|一致, 相符
+in Gang setzen|启动, 使运转起来
+in Gang kommen|启动起来, 开始运转
+in Bewegung setzen|使…运转起来
+in Bewegung bringen|使…运转起来
+ins Leben rufen|创立, 发起
+zum Stillstand kommen|停滞, 停顿
+zum Stillstand bringen|使…停滞
+zum Vorschein kommen|显现出来, 出现
+zum Abschluss bringen|使…结束, 完成
+zur Sprache kommen|被提及, 被讨论
+zur Sprache bringen|提出, 提起
+in Vergessenheit geraten|被遗忘, 淡出记忆
+in Erinnerung bleiben|被铭记, 留在记忆中
+in Erinnerung rufen|使…想起, 提醒
+in Not geraten|陷入困境, 陷入贫困
+in Schwierigkeiten geraten|陷入困难
+in Gefahr geraten|陷入危险
+in Panik geraten|陷入恐慌
+in Verzug geraten|落后, 拖欠
+außer Acht lassen|忽视, 不予考虑
+Rechnung tragen|考虑到, 顾及
+Stellung beziehen|表明立场
+Abstand nehmen|放弃, 打消…念头
+Anstoß nehmen|感到被冒犯
+Anteil nehmen|关心, 表示同情
+Einfluss nehmen|施加影响
+Bezug nehmen|提及, 参照
+zur Kenntnis nehmen|知悉, 注意到
+Notiz nehmen|注意到
+Platz machen|腾出地方, 让位
+Schluss machen|结束, 分手
+Anklage erheben|提起诉讼, 起诉
+Einspruch erheben|提出异议, 提出反对
+Einwände erheben|提出异议
+Bedenken äußern|表达担忧
+Druck ausüben|施加压力
+Einfluss ausüben|施加影响
+Zurückhaltung üben|保持克制
+Vorsicht walten lassen|保持谨慎
+freien Lauf lassen|放任, 让…自由发挥
+im Dunkeln lassen|蒙在鼓里
+im Regen stehen lassen|弃之不顾, 不管不顾
+auf sich warten lassen|迟迟不来, 姗姗来迟
+auf sich beruhen lassen|让…就此作罢
+zu wünschen übrig lassen|有待改进, 不尽如人意
+Anwendung finden|被应用, 适用
+Berücksichtigung finden|被纳入考虑
+Beachtung finden|引起注意, 受到关注
+Zustimmung finden|获得认同
+Anklang finden|获得认同, 引起共鸣
+Ausdruck finden|得到体现
+Gehör finden|被倾听, 被听取
+Abstand halten|保持距离
+die Stellung halten|坚守阵地
+Ordnung halten|维持秩序, 保持整洁
+Rede und Antwort stehen|作出解释, 负责说明
+auf die Probe stellen|考验
+Schlange stehen|排队
+Pate stehen|作为灵感来源, 资助
+im Mittelpunkt stehen|成为关注焦点
+im Vordergrund stehen|处于主要地位, 优先
+im Widerspruch stehen|相矛盾, 冲突
+im Zusammenhang stehen|有关联, 相关
+zur Seite stehen|支持, 从旁协助
+auf dem Spiel stehen|处于危险之中, 攸关
+auf dem Prüfstand stehen|受到检验, 受到审查
+unter Beobachtung stehen|受到监视
+zur Wahl stehen|作为候选人, 参选
+infrage stellen|质疑
+infrage kommen|有可能, 符合条件
+zur Rechenschaft ziehen|追究责任
+zur Verantwortung ziehen|追究责任
+zur Kasse bitten|让…付钱, 让…埋单
+ins Visier nehmen|瞄准, 盯上
+ins Auge fassen|考虑, 打算
+ins Auge springen|引人注目, 显而易见
+ins Auge gehen|弄巧成拙, 出岔子
+ins Gewicht fallen|起作用, 有分量
+ins Wasser fallen|落空, 泡汤
+ins Stocken geraten|陷入停滞, 停摆
+ins Hintertreffen geraten|落后, 处于劣势
+ins Wanken geraten|动摇, 摇摇欲坠
+ins Rollen bringen|使…启动, 推动起来
+auf Hochtouren laufen|全力运转, 如火如荼
+auf den Punkt bringen|概括, 一语中的
+in Anlehnung an|仿照, 参照
+in Absprache mit|与…商定, 经…协商
+in Zusammenarbeit mit|与…合作
+in Anbetracht|鉴于, 考虑到
+im Namen von|以…的名义, 代表
+im Auftrag von|受…委托, 代表
+im Hinblick auf|着眼于, 关于
+im Zuge von|在…过程中, 作为…的一部分
+im Zusammenhang mit|与…相关
+im Rahmen|在…框架内, 作为…的一部分
+im Rahmen von|在…框架内, 作为…的一部分
+unter der Voraussetzung|以…为条件, 前提是
+unter Berücksichtigung|考虑到
+unter Ausschluss|排除…在外
+unter Vorsitz|由…主持, 在…主席领导下
+unter Mitwirkung|在…参与下
+warten auf|等待
+hoffen auf|期望, 盼望
+verweisen auf|提及, 指向
+achten auf|留意, 注意
+verzichten auf|放弃
+reagieren auf|对…作出反应
+antworten auf|回答, 答复
+basieren auf|基于
+beruhen auf|基于, 建立在…之上
+drängen auf|催促, 力促
+dringen auf|坚持要求, 力求
+setzen auf|押注于, 指望
+vertrauen auf|信任, 依赖
+schwören auf|坚信, 笃信
+sorgen für|照顾, 确保
+sprechen für|支持, 有利于
+plädieren für|主张, 呼吁
+werben für|宣传, 推广
+bürgen für|担保
+bestehen auf|坚持
+bestehen aus|由…组成
+bestehen in|在于
+verurteilen zu|判处
+überreden zu|说服去做, 劝说
+ermutigen zu|鼓励
+gratulieren zu|祝贺
+beitragen zu|促成, 对…有贡献
+neigen zu|倾向于, 易于
+tendieren zu|趋向于
+passen zu|适合, 与…相配
+zählen zu|属于, 位列
+dienen als|充当, 用作
+fungieren als|担任, 起…作用
+gelten als|被视为, 被认为是
+sich erweisen als|证明是, 结果是
+auftreten als|以…身份出现, 充当
+leiden an|患有, 受…之苦
+leiden unter|遭受, 因…而痛苦
+zweifeln an|怀疑
+glauben an|相信
+scheitern an|因…而失败
+mangeln an|缺乏
+fehlen an|缺少
+profitieren von|从…中受益
+ausgehen von|假设, 以…为出发点
+befreien von|使…摆脱, 解放
+trennen von|使…分开
+sich freuen auf|期待
+sich freuen über|为…感到高兴
+sich ärgern über|为…生气
+sich wundern über|对…感到惊讶
+sich beschweren über|抱怨
+sich bewerben um|申请
+sich bemühen um|努力争取
+sich sorgen um|为…担心
+sich kümmern um|照顾, 关心
+sich interessieren für|对…感兴趣
+sich entscheiden für|决定选择
+sich verlassen auf|依赖, 信赖
+sich einigen auf|就…达成一致
+sich beziehen auf|提及, 指的是
+sich stützen auf|依据, 以…为依据
+sich konzentrieren auf|专注于
+sich gewöhnen an|习惯于
+sich erinnern an|记得
+sich wenden an|求助于, 向…求助
+sich halten an|遵守, 坚持
+sich klammern an|紧抓不放
+sich beteiligen an|参与
+sich orientieren an|以…为准则, 以…为榜样
+sich befassen mit|处理, 关注
+sich beschäftigen mit|从事, 忙于
+sich unterhalten über|谈论
+sich beklagen über|抱怨
+sich empören über|对…感到愤慨
+sich vertiefen in|沉浸于, 专心于
+sich fügen in|顺从, 屈从于
+sich aus dem Staub machen|溜走, 开溜
+sich die Mühe machen|不辞辛劳去做
+sich Zeit lassen|慢慢来, 不着急
+sich verabschieden von|向…告别
+sich erholen von|从…中恢复
+sich befreien von|摆脱
+sich ernähren von|以…为食, 靠…为生
+sich unterscheiden von|与…不同
+sich distanzieren von|与…划清界限
+sich zu Wort melden|要求发言
+die Nase voll haben|受够了, 厌烦了
+den Kopf verlieren|失去理智, 惊慌失措
+die Nerven verlieren|失去冷静
+den Verstand verlieren|失去理智, 发疯
+das Gleichgewicht verlieren|失去平衡
+die Fassung verlieren|失去镇定
+die Geduld verlieren|失去耐心
+kein Blatt vor den Mund nehmen|直言不讳
+kalte Füße bekommen|临阵退缩, 打退堂鼓
+einen Schreck bekommen|受到惊吓
+recht bekommen|被证明是对的
+auf die Nerven gehen|惹人心烦, 让人厌烦
+außer sich sein|忘乎所以, 失去自控
+zumute sein|有…的心情, 感觉如何
+auf der Hut sein|保持警惕
+am Ende sein|精疲力竭, 山穷水尽
+am Zug sein|轮到某人, 该某人行动了
+an der Reihe sein|轮到某人
+dran sein|轮到某人
+im Recht sein|占理, 有道理
+im Unrecht sein|理亏, 没道理
+im Bilde sein|知情, 了解情况
+im Irrtum sein|弄错了
+im Zweifel sein|心存疑虑
+in guten Händen sein|在可靠的人手中
+gut drauf sein|心情好
+sauer sein|生气, 不满
+pleite sein|破产了, 身无分文
+Mumm haben|有胆量, 有勇气
+die Nase vorn haben|领先, 占优势
+einen Kater haben|宿醉
+Schwein haben|走运, 运气好
+Schiss haben|害怕, 心虚
+Dampf ablassen|发泄情绪
+den Nagel auf den Kopf treffen|一针见血, 说到点子上
+ins Fettnäpfchen treten|说错话, 闯祸
+Hals über Kopf|匆匆忙忙, 慌慌张张
+auf Nummer sicher gehen|求稳, 不冒险
+mit gutem Beispiel vorangehen|以身作则
+einen Strich durch die Rechnung machen|打乱某人的计划
+die Augen öffnen|使…看清真相, 启发某人
+ins Gesicht sagen|当面对某人说
+den Rücken stärken|支持, 撑腰
+den Kopf in den Sand stecken|逃避现实, 把头埋进沙子里
+Öl ins Feuer gießen|火上浇油
+die Flinte ins Korn werfen|放弃, 认输
+den Löffel abgeben|死去, 翘辫子
+die Kurve kriegen|扭转局面, 及时调整过来
+das Kind mit dem Bade ausschütten|把孩子和洗澡水一起倒掉, 因噎废食
+die Zügel in die Hand nehmen|掌握主动权, 执掌大权
+das Ruder übernehmen|掌舵, 接管领导
+das Steuer übernehmen|掌控方向盘, 掌握主导权
+die Zeichen der Zeit erkennen|认清时代的征兆
+auf der Strecke bleiben|被忽视, 被落下
+in Fahrt kommen|开始活跃起来, 进入状态
+in Schwung kommen|开始活跃起来, 渐入佳境
+in Schwung bringen|使…活跃起来
+in Mode sein|流行
+in Mode kommen|开始流行
+aus der Mode kommen|过时, 不再流行
+außer Atem sein|喘不过气
+zu sich kommen|苏醒, 恢复知觉
+zu Wort kommen|获得发言机会
+zu Ohren kommen|传到某人耳中, 听说
+zur Sache kommen|言归正传
+zur Vernunft kommen|恢复理智
+zur Ruhe kommen|平静下来, 安定下来
+zur Besinnung kommen|恢复理智, 苏醒过来
+in Kraft bleiben|继续有效
+zur Genüge|绰绰有余, 充分地
+im Klartext|说白了, 直截了当地说
+im Zweifelsfall|如有疑问
+im Ernstfall|遇到紧急情况时
+im Grunde genommen|基本上, 归根结底
+im Nu|转眼间, 一瞬间
+im Handumdrehen|眨眼之间, 一转眼
+im Keim ersticken|扼杀在萌芽状态
+im Verborgenen|秘密地, 隐秘地
+im Visier haben|瞄准, 盯上
+im Blick haben|关注, 留意
+im Auge haben|惦记着, 留意
+im Auge behalten|留意, 牢记
+im Kopf haben|记在心里, 惦记着
+im Sinn haben|心中想着, 打算
+auf dem Herzen haben|心里惦记着, 想要说的话
+nicht zuletzt|尤其是, 部分原因是
+nicht umsonst|并非没有原因
+nicht ohne Grund|并非没有理由
+allem Anschein nach|看起来, 显然
+aller Wahrscheinlichkeit nach|很可能, 十有八九
+dem Anschein nach|看起来, 表面上
+im Übrigen|此外, 顺便说一句
+im Nachhinein|事后看来, 事后
+im Vorfeld|在…之前, 事先
+im Vorhinein|提前, 预先
+im Endeffekt|最终, 归根结底
+im Ergebnis|结果是, 总之
+im Wesentlichen|本质上, 基本上
+im Einzelnen|详细地, 逐一地
+im Prinzip|原则上
+in erster Linie|首先, 主要
+in zweiter Linie|其次
+in letzter Instanz|最终, 作为最后手段
+in diesem Sinne|从这个意义上说, 有鉴于此
+in diesem Zusammenhang|在这方面, 在这一背景下
+vor diesem Hintergrund|在这一背景下
+angesichts dessen|鉴于此
+sofern nicht|除非
+es sei denn|除非
+umso mehr|更加, 尤为
+umso weniger|更不, 越发不
+geschweige denn|更不用说
+ganz zu schweigen von|更不用提
+mit anderen Worten|换句话说
+anders gesagt|换个说法, 换句话说
+besser gesagt|或者更准确地说
+mehr oder weniger|或多或少
+nach Möglichkeit|如果可能的话
+nicht zu vergessen|别忘了, 更不要忘记
+unter Vorbehalt|有保留地, 附条件地
+unter der Bedingung|以…为条件
+unter Umständen|可能, 在某些情况下
+unter keinen Umständen|无论如何都不, 绝不
+von vornherein|从一开始
+von Haus aus|天生, 本来
+von Grund auf|从头开始, 彻底地
+von Natur aus|天生地
+an sich|本身, 其实
+an und für sich|其实, 严格来说
+für sich genommen|单独来看
+alles in allem|总而言之
+nach Angaben von|根据…的说法
+laut Angaben|据称, 据报道
+wie es heißt|据说, 俗话说
+Berichten zufolge|据报道
+nach eigenen Angaben|据某人自己所说
+nicht von der Hand zu weisen|不容否认, 不能排除
+auf der Hand liegen|显而易见
+außer Zweifel stehen|毋庸置疑
+ohne Zweifel|毫无疑问
+wie dem auch sei|不管怎样, 无论如何
+was auch immer|无论什么
+wer auch immer|无论是谁
+wo auch immer|无论哪里
+wie auch immer|无论如何, 不管怎样
+egal was|无论什么
+egal wer|无论是谁
+egal wie|无论怎样
+komme was wolle|无论发生什么, 不管怎样
+von mir aus|就我而言, 没问题
+nicht von ungefähr|并非偶然, 事出有因
+mit Sicherheit|肯定, 确实无疑
+mit größter Wahrscheinlichkeit|极有可能
+mit Verlaub|恕我直言, 请允许我说
+mit Nachdruck|强调地, 坚决地
+ein für alle Mal|一劳永逸地
+auf immer und ewig|永远, 天长地久
+bis auf weiteres|直到另行通知, 暂时
+zugunsten von|有利于, 为了…的利益
+anhand von|依据, 借助
+anstelle von|代替, 取代
+im Sinne|本着…的精神, 为了…
+im Sinne von|在…意义上
+im Zeichen|以…为标志, 带着…的印记
+unter dem Zeichen|以…为标志
+unter dem Motto|以…为口号, 本着…的主题
+unter Einbeziehung|包括, 纳入…
+unter Beteiligung von|有…参与
+unter dem Deckmantel|打着…的幌子
+unter dem Vorwand|以…为借口
+unter falscher Flagge|冒充, 打着虚假的旗号
+unter der Hand|私下地, 暗中
+über Bord werfen|抛弃, 丢弃
+über die Bühne gehen|顺利进行, 举行
+über den Tisch ziehen|欺骗, 占便宜
+über den Haufen werfen|打乱, 破坏 (计划)
+über kurz oder lang|迟早
+über Nacht|一夜之间
+von oben bis unten|从上到下
+von Kopf bis Fuß|从头到脚
+von Zeit zu Zeit|时不时, 偶尔
+von Fall zu Fall|视情况而定, 逐案处理
+von Mal zu Mal|逐渐, 一次比一次
+von Mund zu Mund|口耳相传
+von klein auf|从小, 自幼
+auf Umwegen|绕道, 间接地
+auf direktem Weg|直接地, 径直
+auf halbem Weg|半路上, 到一半
+auf den Weg bringen|启动, 使…得以推进
+Hand in Hand gehen|携手并进
+nach Herzenslust|尽情地, 随心所欲地
+mit Leib und Seele|全心全意地
+mit Sack und Pack|带着全部家当
+mit Fug und Recht|理所当然地, 有充分理由地
+mit offenen Armen|张开双臂, 热烈地
+mit knapper Not|险些, 勉强
+mit vereinten Kräften|齐心协力地
+mit gutem Grund|有充分理由
+Gott bewahre|千万不要, 上天保佑
+Gott behüte|千万别, 上天保佑
+so Gott will|如果上天允许的话
+nichts für ungut|请别介意, 不是故意的
+nichts zu danken|不客气, 不用谢
+zum Wohl|干杯, 祝健康
+auf dein Wohl|敬你, 干杯
+guten Appetit|祝你用餐愉快
+Schwamm drüber|过去的就让它过去吧
+Kopf hoch|振作起来, 别灰心
+pass auf dich auf|照顾好自己
+sei so gut|劳驾, 行行好
+sei mir nicht böse|别生我的气
+nimm es mir nicht übel|别见怪, 别往心里去
+so * dass|如此…以至于
+so * wie|像…一样
+kaum * als|刚…就
+je * je|越…越…
+nicht * sondern|不是…而是…
+ob * oder|无论是…还是…
+wenn * auch|尽管, 虽然
+genug * um zu|足够…去
+genauso * wie|和…一样
+ebenso * wie|同样…如
+lieber * als|宁愿…也不
+eher * als|更倾向于…而不是, 与其…不如
+nicht so * dass|没有…到…的地步
+zum Vorteil|有利于, 对…有利
+zum Nachteil|不利于, 对…不利
+im Dienste|为…服务, 效力于
+im Interesse|符合…的利益, 为了…的利益
+auf Kosten|以…为代价, 由…承担费用
+auf eigene Kosten|自费
+auf eigene Gefahr|自担风险
+auf eigene Faust|自作主张, 独自行动
+auf eigene Rechnung|自负盈亏, 自己承担
+aus eigener Kraft|凭自己的力量
+aus freien Stücken|自愿地, 出于自愿
+aus heiterem Himmel|晴天霹雳, 突如其来
+aus dem Nichts|凭空, 从无到有
+aus dem Stegreif|即兴地, 临场发挥
+aus erster Hand|第一手的, 直接得来的
+aus gutem Grund|有充分理由
+aus Mangel an|由于缺乏
+aus Rücksicht auf|出于对…的考虑
+zum Schein|假装地, 做做样子
+zum Spaß|为了好玩, 开玩笑地
+zum Trotz|不顾, 尽管
+zum Vergnügen|为了消遣, 为了享受
+um ein Haar|差一点, 险些
+um keinen Preis|无论如何都不, 绝不
+bis zuletzt|直到最后
+auf gut Glück|碰运气, 听天由命

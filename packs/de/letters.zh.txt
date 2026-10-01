@@ -1,0 +1,60 @@
+# Tinta — what the German letters sound like, for a reader of Chinese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: sun, article (Arabic's al-), end, start,
+#            lastsyllable (the last vowel of several), between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Mandarin sounds and pinyin.
+a||像拼音的 a，如“爸”；在两个辅音前读得短
+b||近似拼音的 b，但声带振动
+b|end|词尾读 p：ab 读作“ap”
+c||ch 和 ck 以外很少见；外来词中多读 k
+c|beforefront|读 ts，近似拼音的 c
+d||近似拼音的 d，但声带振动
+d|end|词尾读 t：Hund 读作“hunt”
+e||长音像“诶”，不滑向 i；短音像拼音 ie 里的 e
+e|end|词尾是很弱的“呃”，近似轻声
+e|lastsyllable|最后一个音节里是很弱的“呃”：gehen 读作“GEH-en”，Tage 读作“TAH-ge”
+f||像拼音的 f
+g||近似拼音的 g，但声带振动；从不读 j
+g|end|词尾读 k：Tag 读作“tahk”
+g|end+after:i|常见词尾 -ig 读 ich 音（近似拼音的 x），不读 k：König、zwanzig、wichtig
+h||像拼音的 h，但更轻，只是出气
+h|aftervowel|在元音后通常不发音，表示前面的元音是长音
+i||长音像拼音的 i，如“衣”；短音更松更短
+j||像拼音的 y，如“呀”
+k||送气的 k，像拼音的 k
+l||像拼音的 l，在词尾也保持清楚
+m||像拼音的 m
+n||像拼音的 n
+o||长音像纯 o，不滑向 u；短音口型更开
+p||送气的 p，像拼音的 p
+q||只出现在 qu 中，读 kv
+r||在喉咙后部发出，像轻轻漱口的声音
+r|end|词尾近似短短的“呃”：Bier 读作“bee-e”
+s||像拼音的 s
+s|beforevowel|在元音前读浊音 z，声带振动，不是拼音的 z
+t||送气的 t，像拼音的 t
+u||长音像拼音的 u，如“乌”；短音更松更短
+v||读 f；一些外来词中读 v
+w||读 v：上齿轻碰下唇，声带振动
+x||读 ks
+y||像 ü：近似拼音的 ü
+z||读 ts，近似拼音的 c，词首也是如此
+ä||像拼音 ie 里的 e；长音时口型更开
+ö||发“诶”时把嘴唇撮圆
+ü||像拼音的 ü，如“鱼”
+ß||读 s，前面的元音是长音
+sch||近似拼音的 sh，但嘴唇撮圆
+ch||在 a、o、u 后，从喉咙后部摩擦，近似拼音的 h；其他位置近似拼音的 x
+ck||读 k；前面的元音是短音
+ei||像“爱”，拼音的 ai
+ie||像拼音的 i，长音
+au||像“奥”，拼音的 ao
+eu||近似“哦一”，拼音 oi 的连读
+äu||近似“哦一”，与 eu 相同
+st||词首读 scht，近似“sh”加 t
+sp||词首读 schp，近似“sh”加 p
+chs||读 ks：sechs、wachsen；不是 ch 音加 s
