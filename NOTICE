@@ -255,3 +255,31 @@ notice travels with the data, as the licence asks. That notice reads:
   not be used in advertising or otherwise to promote the sale, use or other
   dealings in these Data Files or Software without prior written
   authorization of the copyright holder.
+
+
+7. Character parts, Mandarin — GNU LGPL 3.0 or later
+----------------------------------------------------
+
+Files:  app/public/packs/zh/parts.txt
+
+Derived from:
+  Make Me a Hanzi, dictionary.txt, by Shaunak Kishore and its contributors —
+    https://github.com/skishore/makemeahanzi (commit bddc96d4)
+  itself derived from Unihan and CJKlib.
+  Licensed under the GNU Lesser General Public License, version 3 or (at
+  your option) any later version — https://www.gnu.org/licenses/lgpl-3.0.html
+
+The file says, for every character of the Mandarin pack the source has and
+for every part those characters name, what the character is built from (an
+Ideographic Description Sequence), whether it is a picture, a compound of
+meanings, or a meaning part plus a sound part, which part is which, the
+source's short English note on it, and — only for a character the pack has
+no headword of its own for — the source's English definition. The rows are
+the source's fields, selected and not rewritten; the file's header says so,
+with the date of the change, as the licence asks of a modified copy.
+
+It is kept apart from every other file and is itself licensed LGPL 3.0 or
+later. The full texts of the GNU LGPL and of the GNU GPL it supplements are in
+the file's own header, so that they travel with the data. The file is plain
+text and is its own source. The application reads it as data; nothing else in
+the application is derived from it.

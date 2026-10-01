@@ -1,6 +1,6 @@
 {
   "id": "zh",
-  "version": "1.1.101",
+  "version": "1.1.102",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -116,6 +116,11 @@
       "path": "letters.pt.txt",
       "license": "unencumbered",
       "sha256": "c2bf17a6b5d29fc88fddab8a45f1b81eb05c87ff3126a821006c0fa0c6130b92"
+    },
+    "parts": {
+      "path": "parts.txt",
+      "license": "LGPL-3.0-or-later",
+      "sha256": "76981db7a9d98f26258856eb29b6503a491b9624bbe7ce127cb48bf404359653"
     }
   }
 }
