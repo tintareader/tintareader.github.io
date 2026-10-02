@@ -1,0 +1,111 @@
+# Stories shown on first run for French: three, one per level, easiest first.
+#
+# Written for this app, not taken from a corpus. Each one is set somewhere
+# French is spoken and turns on a custom the narrator, a visitor, gets wrong:
+# stopping at two bises where they give three, then going in for a bise where a
+# handshake was coming (the south of France); finding the fève in the galette
+# des rois and hiding it (France); getting up to leave after the first of the
+# three glasses of ataya (Senegal). The reader meets the surprise in the story;
+# the note in their own language (stories.<meta>.txt) explains it afterwards.
+#
+# `## n|level|place|key`: the story's number; the level it is written for, as
+# the number of most frequent words a reader knows (a reader who knows them
+# knows at least 90% of its running words, names and all — stories.test.ts);
+# the region it is set in; and its key word as written in the text, which the
+# note names and the reader can click to find. The title follows, then the text.
+#
+# All three are in standard written French. The third is set in Dakar, where
+# French is the language of school and office and Wolof the language of the
+# street: its two Wolof words, ataya and teranga, are the ones Senegalese French
+# uses as French, and each has its card (extraWords in config/fr.mjs).
+#
+# The narrator has no stated gender and no stated country, so nothing agrees
+# with them: no past participle after être or after a direct object me (m'a
+# appris à faire la bise and m'a mis la couronne, whose m' is indirect; never
+# m'a invitée or je suis arrivée), and no adjective of theirs (prêt, assis).
+#
+# The old sample (the Saturday market) is a test fixture now:
+# src/testing/samples/fr.txt. sample.txt stays in the pack for apps from before
+# stories, which do not read this file.
+
+## 1|500|FR|bise
+Deux ou trois ?
+À Paris, une amie m'a appris à faire la bise. Pour dire bonjour, on se fait deux bises, une sur chaque joue. C'est tout.
+
+Cet été, je vais avec elle dans le Sud, chez ses parents. Sa mère ouvre la porte.
+
+— Bonjour ! Entrez, entrez !
+
+Je lui fais la bise : une, deux… et c'est fini. Mais non ! Elle vient encore vers moi, et nos têtes se touchent.
+
+— Oh, pardon !
+
+Mon amie rit.
+
+— Ici, c'est trois !
+
+Puis son père arrive. Cette fois, je compte dans ma tête : une, deux, trois. Je vais vers lui… et il me tend la main.
+
+— Mon père, lui, il ne fait pas la bise, dit mon amie. Il serre la main à tout le monde !
+
+## 2|1500|FR|fève
+La galette des rois
+Le premier dimanche de janvier, toute la famille de mon amie Julie était à table, et moi aussi. Au milieu de la table, il y avait une grande galette, avec une couronne en papier dessus.
+
+— Léo, sous la table ! a dit la mère de Julie.
+
+Léo, le plus petit, a six ans. Il s'est mis sous la table en riant. Je ne comprenais pas. La mère a coupé la galette, puis elle a demandé :
+
+— Cette part, c'est pour qui ?
+
+— Pour grand-père ! a crié le petit, sous la table.
+
+— Et celle-ci ?
+
+— Pour Julie !
+
+Et ainsi de suite, jusqu'à la dernière part, pour moi. Julie m'a expliqué : comme Léo ne voit pas les parts, personne ne peut choisir la sienne.
+
+C'était très bon. Mais tout à coup, j'ai senti quelque chose de dur sous mes dents. Une pierre ? Un morceau d'assiette ? J'ai failli l'avaler. Je ne voulais pas déranger, alors je l'ai sorti de ma bouche sans bruit, et je l'ai gardé dans ma main.
+
+Autour de la table, tout le monde mangeait sans rien dire, en regardant les autres.
+
+— Alors, qui l'a ? a demandé le grand-père.
+
+Personne n'a répondu. La mère a cherché partout, sur la table et par terre.
+
+— Ce n'est pas possible ! Il n'y avait pas de fève ? Je retourne à la boulangerie demain !
+
+Alors j'ai ouvert la main. Dedans, il y avait un tout petit chat blanc, en porcelaine.
+
+— La fève ! a crié Léo. Pourquoi tu l'as cachée ?
+
+Tout le monde a ri, et Julie m'a mis la couronne sur la tête.
+
+— Bravo ! a dit le grand-père. Et l'année prochaine, c'est toi qui achètes la galette.
+
+## 3|4000|SN|ataya
+Le troisième verre
+À Dakar, je logeais chez la famille de mon collègue Ibrahima. Un après-midi, après le déjeuner, son petit frère a sorti un petit fourneau à charbon, une théière bleue et des verres minuscules. Tout le monde s'est assis à l'ombre, dans la cour.
+
+— Tu vas goûter notre ataya, m'a dit Ibrahima.
+
+Le petit frère a fait bouillir le thé vert longtemps, avec un peu de sucre. Puis il a commencé un drôle de jeu : il versait le thé d'un verre dans l'autre, de très haut, sans en perdre une goutte, encore et encore, jusqu'à ce qu'une épaisse mousse blanche monte dans chaque verre. Ça a pris presque une demi-heure.
+
+Enfin, il m'a donné le premier verre. Le thé était brûlant, très fort, et si amer que j'ai fait une grimace. Tout le monde a ri. J'ai bu jusqu'à la dernière goutte, j'ai remercié tout le monde et j'ai pris mon sac. J'avais un rendez-vous en ville à cinq heures, et il était déjà quatre heures.
+
+— Tu pars ? a demandé la mère d'Ibrahima. Mais ce n'était que le premier !
+
+— Le premier ?
+
+— Il y en a trois, a expliqué Ibrahima. Le premier est amer comme la mort, le deuxième est doux comme la vie, et le troisième est sucré comme l'amour. Tu ne vas pas partir avant l'amour, quand même ?
+
+J'ai regardé ma montre, puis les visages autour de moi, et j'ai posé mon sac par terre.
+
+Le petit frère a ajouté de l'eau, de la menthe fraîche et beaucoup plus de sucre, et le jeu des verres a recommencé. Personne n'était pressé. Des voisins passaient, s'asseyaient un moment, prenaient un verre et repartaient. On a parlé de football, de la pluie qui ne venait pas, du mariage d'une cousine. Le deuxième verre était doux, en effet, et le troisième, plein de menthe, presque trop sucré.
+
+— Chez nous, on ne laisse jamais partir un invité trop vite, a dit la mère. C'est la teranga.
+
+Il était six heures quand j'ai enfin trouvé un taxi. Au rendez-vous, l'homme que je devais rencontrer n'était pas encore arrivé. Il est venu une demi-heure après moi.
+
+— Excusez-moi, a-t-il dit. Ma femme avait préparé l'ataya, et je ne pouvais pas partir avant le troisième verre.

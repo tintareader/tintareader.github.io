@@ -55,7 +55,7 @@ ihr|vous (pl., tutoiement); lui, à elle (dat.); son, sa, leur (possessif)|f2s2p
 nein|non|o
 habe|j'ai|f1s
 an|à, sur, contre; à, vers; an sein: être allumé|o;o;n
-meine|ma, mes (fém. ; pl.); je pense, je veux dire|o;f1s
+meine|mon, ma, mes; je pense, je veux dire|o;f1s
 bin|je suis|f1s
 noch|encore, toujours; encore, de plus; noch nicht: pas encore|o;o;n
 nur|seulement, juste; (dans les questions) donc, bien|o;o
@@ -102,7 +102,7 @@ muss|je dois ; il/elle doit|f1s;f3s
 viel|beaucoup|o
 will|je veux ; il/elle veut|f1s;f3s
 ihnen|leur, à eux (dat.); (Ihnen) vous, à vous (vouvoiement)|o;f2s2p
-geht|va; marche, fonctionne; es geht um: il s'agit de; es geht: ça va, ça marche|f3s;o;n;n
+geht|va; marche, fonctionne; es geht um: il s'agit de; es geht: ça va, ça marche; (geht doch!) voilà, tu vois, ça marche|f3s;o;n;n;o
 wo|où|o
 etwas|quelque chose; un peu|o;o
 oh|oh|o
@@ -143,7 +143,7 @@ okay|d'accord, OK|o
 müssen|devoir, falloir (muss, musste, gemusst)|o
 wissen|savoir (weiß, wusste, gewusst); savoir, connaissances (das, sans pl.)|v;o
 andere|autre, différent|o
-meinen|penser, vouloir dire; mon (masc. acc.)|v;o
+meinen|penser, vouloir dire; mon, mes (masc. acc. ; dat. pl.)|v;o
 soll|doit, est censé|o
 werde|je vais, je -rai (futur); je deviens|f1s;f1s
 brauchen|avoir besoin de|v
@@ -272,7 +272,7 @@ essen|manger (isst, aß, gegessen); nourriture, repas (das, pl. Essen)|v;o
 mädchen|fille, jeune fille (das, pl. Mädchen)|o
 wegen|à cause de|o
 stimmen|être juste, être vrai; voter; voix (pl. de die Stimme); stimmt: c'est vrai, exact|v;v;o;n
-kleine|petit, gamin; petit|o;o
+kleine|petit; petit, gamin (der/die Kleine)|o;o
 hin|là-bas (en s'éloignant de celui qui parle); hin und her: de long en large, dans tous les sens|o;n
 abend|soir (der, pl. Abende); guten Abend: bonsoir|o;n
 laufen|courir; marcher, aller à pied; marcher, fonctionner (läuft, lief, gelaufen, ist)|v;v;v
@@ -2771,7 +2771,7 @@ zombie|zombie (der, pl. Zombies)|o
 funk|radio (der, sans pl.)|o
 japan|Japon|o
 museum|musée (das, pl. Museen)|o
-grüß|grüß dich: salut; salue !, dis bonjour ! (tutoiement)|n;o
+grüß|grüß dich: salut; grüß Gott: bonjour (Autriche, Allemagne du Sud); salue !, dis bonjour ! (tutoiement)|n;n;o
 hurensohn|fils de pute (der, pl. Hurensöhne)|o
 mögliche|possible|o
 pinkeln|faire pipi (fam.)|v
@@ -3667,7 +3667,7 @@ segeln|faire de la voile|v
 beunruhigt|inquiet|o
 muskel|muscle (der, pl. Muskeln)|o
 angemessen|approprié, adéquat|o
-zurückrufen|rappeler (au téléphone) (rief zurück, zurückgerufen)|v
+zurückrufen|rappeler (au téléphone) (rief zurück, zurückgerufen); crier en retour, répondre (à voix haute)|v;v
 fuchs|renard (der, pl. Füchse)|o
 frech|insolent, effronté|o
 geschieden|divorcé|o
@@ -12493,3 +12493,11 @@ nachfrage|demande (die, pl. Nachfragen); renseignement|o;o
 überbrücken|surmonter, combler (un écart), faire la soudure (überbrückte, überbrückt)|v
 festspiele|festival (die, pl.)|o
 einköpfen|marquer de la tête (köpfte ein, eingeköpft)|v
+kaffeehaus|café (l'établissement, surtout à Vienne) (das, pl. Kaffeehäuser)|o
+melange|melange (café viennois au lait mousseux) (die, pl. Melangen)|o
+jänner|janvier (Autriche) (der, pl. Jänner)|o
+schaum|mousse, écume (der, pl. Schäume)|o
+duzen|tutoyer|v
+siezen|vouvoyer|v
+start-up|start-up, jeune pousse (das, pl. Start-ups)|o
+weihnachtsfeier|fête de Noël (au travail, dans une association) (die, pl. Weihnachtsfeiern)|o

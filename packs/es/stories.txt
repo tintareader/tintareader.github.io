@@ -1,0 +1,100 @@
+# Stories shown on first run for Spanish: three, one per level, easiest first.
+#
+# Written for this app, not taken from a corpus. Each one is set somewhere
+# Spanish is spoken and turns on a custom the narrator, a visitor, gets wrong:
+# getting up from the table before the sobremesa (Spain), taking the bread off
+# an ofrenda (Mexico), saying "gracias" to the mate (Argentina). The reader
+# meets the surprise in the story; the note in their own language
+# (stories.<meta>.txt) explains it afterwards.
+#
+# `## n|level|place|key`: the story's number; the level it is written for, as
+# the number of most frequent words a reader knows (a reader who knows them
+# knows at least 90% of its running words, names and all — stories.test.ts);
+# the region it is set in; and its key word as written in the text, which the
+# note names and the reader can click to find. The title follows, then the text.
+#
+# The narrator has no stated gender, so no adjective agrees with them. The
+# third story keeps Argentina's vos where Argentines speak (decís, querés,
+# tomá); the narrator, a visitor, does not use it.
+#
+# The old sample (Marta at the market) is a test fixture now:
+# src/testing/samples/es.txt. sample.txt stays in the pack for apps from before
+# stories, which do not read this file.
+
+## 1|500|ES|sobremesa
+La cena a las diez
+Son las siete y tengo hambre.
+
+—¿Cuándo vamos a comer? —le pregunto a mi amiga.
+
+—A las diez —dice ella.
+
+—¿A las diez de la noche? ¡Es muy tarde!
+
+—No, aquí es así. Comimos a las tres, ¿no?
+
+Es verdad. Aquí la comida es a las tres, y la cena, muy tarde.
+
+Por la noche, en casa de mi amiga, hay mucha gente en la mesa. Hablamos, comemos y bebemos. Después ya no queda nada, y me levanto.
+
+—¿A dónde vas? —me pregunta mi amiga.
+
+—¿No nos vamos?
+
+—¡Qué va! Ahora viene la sobremesa.
+
+Nadie se levanta. Todos hablan y hablan. A la una de la mañana, todavía estamos allí.
+
+## 2|1500|MX|ofrenda
+La ofrenda
+Mi amiga Lupe me invitó a su casa el primero de noviembre. Al entrar, vi una mesa grande llena de flores naranjas, velas y fotos. En las fotos había personas mayores: sus abuelos, un tío y una vecina.
+
+—Es la ofrenda —me dijo Lupe—. Mañana es el Día de Muertos.
+
+En la mesa también había comida: pan, fruta, un plato de mole, una botella de tequila y unos cigarros.
+
+—¿Tu abuelo fumaba? —le pregunté.
+
+—Muchísimo —contestó ella, riéndose—. Y le encantaba el mole de mi mamá.
+
+Yo tenía hambre, y el pan olía muy bien. Tomé un pedazo.
+
+—¡No! —gritó Lupe—. Ese pan no es para ti. Es para mi abuelo.
+
+Me dio mucha vergüenza, pero todos se rieron.
+
+—Esta noche vienen nuestros muertos a visitarnos —me explicó su mamá—. Hacen un viaje muy largo, y llegan con hambre y con sed. Por eso les dejamos agua, sal y lo que más les gustaba. Las flores les marcan el camino.
+
+—Entonces no es un día triste —dije yo.
+
+—No. Es una fiesta. Los recordamos y les hacemos compañía.
+
+Dos días después, la familia se sentó a comer la comida de la ofrenda. Por fin probé el pan.
+
+—¿Qué tal? —me preguntó Lupe.
+
+—Está un poco seco…
+
+—Claro —dijo su mamá—. Los muertos ya se llevaron el sabor.
+
+## 3|4000|AR|mate
+Un mate en la oficina
+En mi primer día de trabajo en Buenos Aires, a media mañana, Martín puso sobre la mesa un termo, un paquete de yerba y un mate: una calabaza pequeña con una bombilla de metal. Llenó la calabaza de yerba, echó un poco de agua caliente y tomó él primero. Después volvió a llenarlo y se lo pasó a Sofía.
+
+Sofía tomó hasta el final, hizo un ruido con la bombilla y le devolvió el mate. Martín lo llenó otra vez y se lo dio a otro compañero. Así, dando vueltas alrededor de la mesa, el mate llegó hasta mí.
+
+Estaba amargo y muy caliente. Lo tomé despacio, porque no quería ofender a nadie, y se lo devolví a Martín con una sonrisa:
+
+—Gracias.
+
+El mate siguió dando vueltas, pero ya no volvió a mí. Pasó una ronda, y otra. Pensé que había hecho algo mal. Tal vez había tardado demasiado. O tal vez habían visto mi cara cuando lo probé.
+
+Al final no aguanté más y le pregunté a Sofía, en voz baja, por qué no me daban más.
+
+—Porque dijiste «gracias» —me contestó, riéndose—. Acá, cuando decís «gracias», quiere decir que ya no querés más.
+
+Martín me pasó el mate otra vez.
+
+—Tomá. Y no te quedes hablando con el mate en la mano, ¿eh? Que no es un micrófono.
+
+Desde aquel día, solo digo «gracias» cuando de verdad no quiero más.

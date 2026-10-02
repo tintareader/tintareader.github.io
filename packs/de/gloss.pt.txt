@@ -55,7 +55,7 @@ ihr|vocês (informal); lhe, a ela (dat.); seu, dela, deles (possessivo)|f2s2p;o;
 nein|não|o
 habe|eu tenho|f1s
 an|em, junto a; a, para; an sein: estar ligado|o;o;n
-meine|minha, meus, minhas (fem.; pl.); eu acho, quero dizer|o;f1s
+meine|meu, minha, meus, minhas; eu acho, quero dizer|o;f1s
 bin|eu sou, eu estou|f1s
 noch|ainda; mais, além disso; noch nicht: ainda não|o;o;n
 nur|só, apenas; (em perguntas) afinal, será que|o;o
@@ -102,7 +102,7 @@ muss|eu devo, eu tenho que; ele/ela deve|f1s;f3s
 viel|muito|o
 will|eu quero; ele/ela quer|f1s;f3s
 ihnen|lhes, a eles (dat.); (Ihnen) ao senhor, à senhora (formal)|o;f2s2p
-geht|vai; funciona; es geht um: trata-se de; es geht: vai indo, dá para levar|f3s;o;n;n
+geht|vai; funciona; es geht um: trata-se de; es geht: vai indo, dá para levar; (geht doch!) viu só, deu certo, aí está|f3s;o;n;n;o
 wo|onde|o
 etwas|algo, alguma coisa; um pouco|o;o
 oh|oh|o
@@ -143,7 +143,7 @@ okay|ok, tudo bem|o
 müssen|dever, ter que (muss, musste, gemusst)|o
 wissen|saber (um fato) (weiß, wusste, gewusst); conhecimento, saber (das, sem pl.)|v;o
 andere|outro, diferente|o
-meinen|querer dizer, achar; meu (masc. acus.)|v;o
+meinen|querer dizer, achar; meu, meus (masc. acus.; dat. pl.)|v;o
 soll|deve, tem de|o
 werde|eu vou (futuro); eu fico, eu me torno|f1s;f1s
 brauchen|precisar de|v
@@ -272,7 +272,7 @@ essen|comer (isst, aß, gegessen); comida, refeição (das, pl. Essen)|v;o
 mädchen|menina, moça (das, pl. Mädchen)|o
 wegen|por causa de|o
 stimmen|estar certo, ser verdade; votar; vozes (pl. de die Stimme); stimmt: é verdade, isso mesmo|v;v;o;n
-kleine|pequeno, pequena (criança); pequeno|o;o
+kleine|pequeno; pequenino, criança (der/die Kleine)|o;o
 hin|para lá (afastando-se de quem fala); hin und her: para lá e para cá|o;n
 abend|noite, fim de tarde (der, pl. Abende); guten Abend: boa noite|o;n
 laufen|correr; andar, caminhar; funcionar, rolar (läuft, lief, gelaufen, ist)|v;v;v
@@ -2024,7 +2024,7 @@ zombie|zumbi (der, pl. Zombies)|o
 funk|rádio (der, sem pl.)|o
 japan|Japão|o
 museum|museu (das, pl. Museen)|o
-grüß|grüß dich: oi, olá; mande lembranças!, cumprimente!|n;o
+grüß|grüß dich: oi, olá; grüß Gott: olá, bom dia (Áustria, sul da Alemanha); mande lembranças!, cumprimente!|n;n;o
 hurensohn|filho da puta (der, pl. Hurensöhne)|o
 mögliche|possível|o
 pinkeln|fazer xixi (informal)|v
@@ -2920,7 +2920,7 @@ segeln|velejar|v
 beunruhigt|preocupado|o
 muskel|músculo (der, pl. Muskeln)|o
 angemessen|adequado, apropriado|o
-zurückrufen|ligar de volta (rief zurück, zurückgerufen)|v
+zurückrufen|ligar de volta (rief zurück, zurückgerufen); gritar de volta, responder (em voz alta)|v;v
 fuchs|raposa (der, pl. Füchse)|o
 frech|atrevido, insolente|o
 geschieden|divorciado|o
@@ -12493,3 +12493,11 @@ nachfrage|procura, demanda (die, pl. Nachfragen); consulta|o;o
 überbrücken|superar, transpor (uma lacuna), aguentar (überbrückte, überbrückt)|v
 festspiele|festival (die, pl.)|o
 einköpfen|marcar de cabeça (köpfte ein, eingeköpft)|v
+kaffeehaus|café (o estabelecimento, sobretudo em Viena) (das, pl. Kaffeehäuser)|o
+melange|melange (café vienense com leite espumado) (die, pl. Melangen)|o
+jänner|janeiro (Áustria) (der, pl. Jänner)|o
+schaum|espuma (der, pl. Schäume)|o
+duzen|tratar alguém por du (de modo informal, como você)|v
+siezen|tratar alguém por Sie (de modo formal, como o senhor, a senhora)|v
+start-up|startup, empresa iniciante (das, pl. Start-ups)|o
+weihnachtsfeier|festa de Natal (da empresa, de um clube) (die, pl. Weihnachtsfeiern)|o

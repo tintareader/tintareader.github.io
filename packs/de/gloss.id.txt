@@ -54,7 +54,7 @@ ihr|kalian (akrab); dia, kepadanya (perempuan, datif); -nya, milik mereka (poses
 nein|tidak, bukan|o
 habe|aku punya|f1s
 an|di, pada; ke; an sein: menyala (hidup)|o;o;n
-meine|milikku (feminin; jamak); maksudku|o;f1s
+meine|milikku; maksudku|o;f1s
 bin|aku adalah|f1s
 noch|masih, belum; lagi, lainnya; noch nicht: belum|o;o;n
 da|di sana; lalu; karena|o;o;o
@@ -100,7 +100,7 @@ muss|aku harus; dia harus|f1s;f3s
 viel|banyak|o
 will|aku mau; dia mau|f1s;f3s
 ihnen|mereka, kepada mereka (datif); (Ihnen) Anda, kepada Anda (formal)|o;f2s2p
-geht|pergi; berfungsi; es geht um: ini tentang; es geht: keadaannya, tidak apa-apa|f3s;o;n;n
+geht|pergi; berfungsi; es geht um: ini tentang; es geht: keadaannya, tidak apa-apa; (geht doch!) nah kan, tuh bisa|f3s;o;n;n;o
 wo|di mana|o
 etwas|sesuatu; agak, sedikit|o;o
 oh|oh|o
@@ -140,7 +140,7 @@ okay|oke|o
 müssen|harus (muss, musste, gemusst)|o
 wissen|tahu (fakta) (weiß, wusste, gewusst); pengetahuan (das, no pl.)|v;o
 andere|lain, berbeda|o
-meinen|bermaksud, berpendapat; milikku (maskulin akusatif)|v;o
+meinen|bermaksud, berpendapat; milikku (maskulin akusatif; datif jamak)|v;o
 soll|seharusnya, katanya harus|o
 werde|aku akan; aku menjadi|f1s;f1s
 brauchen|membutuhkan, perlu|v
@@ -268,7 +268,7 @@ essen|makan (isst, aß, gegessen); makanan (das, pl. Essen)|v;o
 mädchen|anak perempuan, gadis (das, pl. Mädchen)|o
 wegen|karena, gara-gara|o
 stimmen|benar; memilih (dalam pemungutan suara); suara-suara (jamak dari die Stimme); stimmt: betul|v;v;o;n
-kleine|si kecil, anak; kecil|o;o
+kleine|kecil; si kecil, anak (der/die Kleine)|o;o
 hin|ke sana (menjauhi pembicara); hin und her: bolak-balik|o;n
 abend|malam, sore (der, pl. Abende); guten Abend: selamat malam|o;n
 laufen|berlari; berjalan; berjalan, berfungsi (läuft, lief, gelaufen, ist)|v;v;v
@@ -2761,7 +2761,7 @@ zombie|zombi (der, pl. Zombies)|o
 funk|radio (der, no pl.)|o
 japan|Jepang|o
 museum|museum (das, pl. Museen)|o
-grüß|grüß dich: hai; sampaikan salam!|n;o
+grüß|grüß dich: hai; grüß Gott: halo, selamat pagi/siang (Austria, Jerman selatan); sampaikan salam!|n;n;o
 hurensohn|anak haram (makian) (der, pl. Hurensöhne)|o
 mögliche|mungkin|o
 pinkeln|pipis (cakapan)|v
@@ -3657,7 +3657,7 @@ segeln|berlayar|v
 beunruhigt|gelisah|o
 muskel|otot (der, pl. Muskeln)|o
 angemessen|pantas|o
-zurückrufen|menelepon balik (rief zurück, zurückgerufen)|v
+zurückrufen|menelepon balik (rief zurück, zurückgerufen); balas berseru, menjawab dengan berteriak|v;v
 fuchs|rubah (der, pl. Füchse)|o
 frech|kurang ajar|o
 geschieden|bercerai|o
@@ -11753,7 +11753,7 @@ greis|pria tua (der, pl. Greise)|o
 groschen|uang receh, koin kecil (der, pl. Groschen)|o
 großstadt|kota besar (die, pl. Großstädte)|o
 grube|lubang, tambang (die, pl. Gruben)|o
-hafer|oat, gandum kuda (der, no pl.)|o
+hafer|haver, oat (der, no pl.)|o
 hang|lereng; kecenderungan (der, pl. Hänge)|o;o
 hauptstraße|jalan utama (die, pl. Hauptstraßen)|o
 herrichten|menyiapkan, merapikan|v
@@ -12493,3 +12493,11 @@ nachfrage|permintaan (die, pl. Nachfragen); pertanyaan|o;o
 überbrücken|menjembatani, mengatasi sementara (überbrückte, überbrückt)|v
 festspiele|festival (die, pl.)|o
 einköpfen|menyundul masuk (gol) (köpfte ein, eingeköpft)|v
+kaffeehaus|kafe, kedai kopi (terutama di Wina) (das, pl. Kaffeehäuser)|o
+melange|melange (kopi khas Wina dengan susu berbusa) (die, pl. Melangen)|o
+jänner|Januari (Austria) (der, pl. Jänner)|o
+schaum|busa, buih (der, pl. Schäume)|o
+duzen|menyapa dengan du (sapaan akrab, seperti kamu)|v
+siezen|menyapa dengan Sie (sapaan hormat, seperti Anda)|v
+start-up|perusahaan rintisan, startup (das, pl. Start-ups)|o
+weihnachtsfeier|pesta Natal (di kantor, di klub) (die, pl. Weihnachtsfeiern)|o

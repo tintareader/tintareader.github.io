@@ -1,0 +1,132 @@
+# Stories shown on first run for German: three, one per level, easiest first.
+#
+# Written for this app, not taken from a corpus. Each one is set somewhere
+# German is spoken and turns on a custom the narrator, a visitor, gets wrong:
+# hammering on a Sunday, when shops are shut and noisy work waits for Monday
+# (Germany); waiting for a bill the waiter will not bring until asked
+# (Vienna); saying du to the head of a department (Germany). The reader
+# meets the surprise in the story; the note in their own language
+# (stories.<meta>.txt) explains it afterwards.
+#
+# `## n|level|place|key`: the story's number; the level it is written for, as
+# the number of most frequent words a reader knows (a reader who knows them
+# knows at least 90% of its running words, names and all — stories.test.ts);
+# the region it is set in; and its key word as written in the text, which the
+# note names and the reader can click to find. The title follows, then the text.
+#
+# The narrator has no stated gender, so no noun or adjective names them (no
+# Kollege/Kollegin, no der/die Neue). The first story keeps to the top 500,
+# where the subtitle list leaves out Sonntag itself (it ranks in the 4,000).
+# The second is Austrian German where Vienna's coffee house speaks it: Jänner
+# for January, Grüß Gott, Herr Ober, a Melange; the pack teaches Germany's
+# standard (de-DE), so Jänner and Melange are band-5 entries that say Austrian.
+# The third uses duzen and siezen, the verbs for saying du and Sie, and keeps
+# the old office's Sie in single quotes inside Jana's speech.
+#
+# The old sample (Lena at the market) is a test fixture now:
+# src/testing/samples/de.txt. sample.txt stays in the pack for apps from before
+# stories, which do not read this file.
+
+## 1|500|DE|Ruhe
+Am Sonntag
+Heute ist Sonntag, und ich habe nichts mehr zu essen. Also gehe ich in die Stadt.
+
+Aber alles ist zu. Niemand ist da.
+
+„Warum ist alles zu?“, frage ich einen Mann.
+
+„Heute ist doch Sonntag“, sagt er. „Da ist hier fast alles zu.“
+
+„Und wo bekomme ich jetzt etwas zu essen?“
+
+Er lacht. „Morgen.“
+
+Zu Hause will ich wenigstens etwas tun, und ich hole einen Hammer.
+
+Da kommt jemand an die Tür. Es ist die alte Frau von oben.
+
+„Hallo! Was machen Sie denn da? Das ist so laut!“
+
+„Ich hänge ein Bild auf.“
+
+„Heute? Am Sonntag ist doch Ruhe!“
+
+„Oh, das wusste ich nicht. Tut mir leid.“
+
+Sie sieht mich an. „Haben Sie schon gegessen?“
+
+„Nein. Es ist ja alles zu.“
+
+„Dann kommen Sie doch zu uns. Es gibt Kaffee und Kuchen.“
+
+So esse ich doch noch etwas – in aller Ruhe.
+
+## 2|1500|AT|Kaffeehaus
+Im Kaffeehaus
+Es ist Jänner, und Wien ist kalt und grau. An meinem ersten Tag gehe ich in ein altes Kaffeehaus. Drinnen ist es warm und still. Die kleinen Tische sind aus Stein, an den Wänden hängen alte Bilder, und überall liegen Zeitungen.
+
+Ein Kellner in einem schwarzen Anzug kommt an meinen Tisch.
+
+„Grüß Gott. Was darf es sein?“
+
+„Einen Kaffee, bitte.“
+
+„Eine Melange?“
+
+Ich weiß nicht, was das ist, aber ich sage ja. Der Kaffee kommt mit einem Glas Wasser. Ich habe kein Wasser bestellt, aber ich trinke es trotzdem. Die Melange ist gut: Kaffee mit viel heißer Milch und Schaum.
+
+Neben mir sitzt ein alter Herr und liest in aller Ruhe Zeitung. Seine Tasse ist schon lange leer.
+
+Nach einer halben Stunde ist meine Tasse auch leer. Ich möchte zahlen. Ich schaue zum Kellner. Er kommt, bringt mir ein neues Glas Wasser und geht wieder.
+
+Ich warte. Fünf Minuten, zehn Minuten. Er geht hin und her, aber nie zu mir. Hat er mich vergessen? Ist er böse auf mich?
+
+Am Ende frage ich den alten Herrn: „Entschuldigung, wie bekommt man hier die Rechnung?“
+
+Er schaut von seiner Zeitung auf. „Das müssen Sie sagen. Rufen Sie einfach: ‚Herr Ober, zahlen, bitte!‘“
+
+„Und wenn ich nichts sage?“
+
+„Dann bringt er Ihnen Wasser, bis Sie gehen. Hier kann man mit einem Kaffee den ganzen Tag sitzen. Ich sitze seit neun Uhr hier.“ Er lacht. „Der Ober will Sie nicht wegschicken. Das wäre unhöflich.“
+
+Also rufe ich: „Herr Ober, zahlen, bitte!“
+
+„Komme gleich!“, ruft er zurück. Zehn Minuten später ist er da.
+
+Am nächsten Tag komme ich wieder. Diesmal bringe ich ein Buch mit, und ich sage lange gar nichts.
+
+## 3|4000|DE|duzen
+Du oder Sie?
+Meine erste Stelle in Deutschland war in einem kleinen Start-up in Berlin. Dort sagten alle „du“ zueinander, sogar die Chefin. Am ersten Tag siezte ich sie noch höflich, und sie lachte. „Bitte nicht! Bei uns duzen sich alle.“
+
+Ein Jahr später wechselte ich zu einer alten Firma in Stuttgart, die seit hundert Jahren Maschinen baut. Am ersten Morgen stand in der Küche ein älterer Herr und machte sich einen Kaffee. Ich gab ihm die Hand.
+
+„Hallo, ich bin neu hier. Und wie heißt du?“
+
+Er sah mich lange an, und es wurde ganz still in der Küche.
+
+„Lorenz“, sagte er schließlich. „Ich leite diese Abteilung.“
+
+Ich wurde rot und sagte nichts mehr. In der Mittagspause erklärte mir meine Kollegin Jana, was passiert war.
+
+„Hier sagen wir ‚Sie‘, vor allem zu den Älteren. Herr Lorenz ist seit dreißig Jahren in der Firma, und ich sieze ihn auch nach fünf Jahren noch.“
+
+„Und wann darf man ‚du‘ sagen?“
+
+„Wenn er es dir anbietet. Das Du bietet der Ältere an, oder der Chef – nicht umgekehrt. Und wer einmal ‚du‘ sagt, sagt so schnell nicht wieder ‚Sie‘.“
+
+Von da an siezte ich alle, auch Jana, bis sie lachte. „Du kannst mich ruhig duzen. So alt bin ich nun auch wieder nicht!“
+
+Die Monate vergingen. Auf der Weihnachtsfeier kam Herr Lorenz mit zwei Gläsern Sekt zu mir.
+
+„Wir arbeiten jetzt fast ein Jahr zusammen“, sagte er. „Ich bin der Klaus.“
+
+Wir stießen an. Ich war so gerührt, dass ich sagte: „Vielen Dank, Herr Lorenz.“
+
+Er seufzte. „Klaus. Versuchen wir es noch einmal.“
+
+Am Montag traf ich ihn wieder in der Küche, vor dem ersten Kaffee.
+
+„Guten Morgen, Herr … äh, Klaus!“
+
+Er lachte und gab mir einen Kaffee. „Na also.“

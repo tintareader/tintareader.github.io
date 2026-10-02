@@ -16,7 +16,7 @@
 # contributors, itself derived from Unihan (https://www.unicode.org/charts/unihan.html) and
 # CJKlib (https://github.com/cburgmer/cjklib).
 #
-# Modified by Tinta on 2026-10-01: the rows cut to the characters of the
+# Modified by Tinta on 2026-10-02: the rows cut to the characters of the
 # Mandarin pack and the parts they name; the fields matches and radical
 # dropped; pinyin, decomposition, etymology and definition written as
 # |-separated columns, the definition kept only where noted above.
@@ -2014,6 +2014,7 @@
 娑|suō|⿱沙女|pictophonetic|女|沙|woman|to dance, to frolic; to lounge; to saunter
 娘|niáng|⿰女良|pictophonetic|女|良|woman|
 娛|yú|⿰女吳|pictophonetic|女|吳|woman|
+娥|é|⿰女我|pictophonetic|女|我|woman|
 娱|yú|⿰女吴|pictophonetic|女|吴|woman|
 娶|qǔ|⿱取女|ideographic|||To take 取 a wife 女; 取 also provides the pronunciation|
 婁|lóu|⿱母女|ideographic|||A daughter 女 looking up at her mother 母|a constellation; to wear; surname
@@ -2036,6 +2037,7 @@
 嫌|xián|⿰女兼|pictophonetic|女|兼|woman|
 嫡|dí|⿰女啇|pictophonetic|女|啇|woman|
 嫣|yān|⿰女焉|pictophonetic|女|焉|woman|
+嫦|cháng|⿰女常|pictophonetic|女|常|woman|
 嬌|jiāo|⿰女喬|pictophonetic|女|喬|woman|
 嬰|yīng|⿱賏女|pictophonetic|女||woman|
 嬷|mā|⿰女麽|pictophonetic|女|麽|woman|
@@ -3030,6 +3032,7 @@
 某|mǒu|⿱甘木|ideographic|||The sweet 甘 fruit of a certain tree 木|
 染|rǎn|⿱氿木|ideographic|||Water 氵 and wine 九 mixed in a wooden 木 bowl|
 柔|róu|⿱矛木|ideographic|||Wood 木 so soft it can be cut 矛|
+柚|yòu|⿰木由|pictophonetic|木|由|tree|
 柜|guì|⿰木巨|pictophonetic|木|巨|wood|
 柠|níng|⿰木宁|pictophonetic|木|宁|tree|
 查|chá|⿱木旦|||||

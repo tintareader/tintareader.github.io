@@ -272,7 +272,7 @@ stimmen|||v;v;npl;interj
 essen|||v;nn
 mädchen|||nn
 wegen|||
-kleine||klein|
+kleine||klein|adj;nm
 hin|||
 abend|||nm;interj
 laufen|||
@@ -443,7 +443,7 @@ gefallen|||v;nm;adj
 seite|||nf;nf
 verstanden||verstehen|
 verlieren|||
-ruhe|||nf;interj
+ruhe|||nf;v
 lachen|||
 schreiben|||
 erzählt||erzählen|
@@ -2005,7 +2005,7 @@ gezwungen||zwingen|
 perfekte||perfekt|
 privat|||
 explosion|||nf
-langen||lang|
+langen||lang|v;v;adj
 prüfen|||
 geburt|||nf
 gekriegt||kriegen|
@@ -12487,3 +12487,11 @@ festspiele|5||npl
 einköpfen|5||v
 nachfragen|||
 s||es|bound
+kaffeehaus|5||nn
+melange|5||nf
+jänner|5||nm
+schaum|5||nm
+duzen|5||v
+siezen|5||v
+start-up|5||nn
+weihnachtsfeier|5||nf

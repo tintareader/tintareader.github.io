@@ -51,7 +51,7 @@ können|能，可以 (kann, konnte, gekonnt)|o
 ihr|你们 (非正式); 她，给她 (第三格); 她的，他们的 (所有格)|f2s2p;o;o
 nein|不，不是|o
 habe|我有|f1s
-meine|我的 (女性；复数); 我是说|o;f1s
+meine|我的; 我是说|o;f1s
 bin|我是|f1s
 nur|只，仅仅; (用于疑问句)到底，究竟|o;o
 da|那里; 那么，于是; 因为，既然|o;o;o
@@ -129,7 +129,7 @@ okay|好的|o
 müssen|必须 (muss, musste, gemusst)|o
 wissen|知道 (事实) (weiß, wusste, gewusst); 知识 (das, 无复数)|v;o
 andere|其他的，不同的|o
-meinen|意思是，认为; 我的 (男性第四格)|v;o
+meinen|意思是，认为; 我的 (男性第四格；复数第三格)|v;o
 soll|应该|o
 werde|我将要; 我变成|f1s;f1s
 brauchen|需要|v
@@ -236,7 +236,7 @@ herr|先生 (der, 复数 Herren); 绅士; 主 (上帝)|o;o;o
 essen|吃 (isst, aß, gegessen); 食物，饭 (das, 复数 Essen)|v;o
 mädchen|女孩 (das, 复数 Mädchen)|o
 wegen|因为，由于|o
-kleine|小家伙，小孩; 小的|o;o
+kleine|小的; 小家伙，小孩 (der/die Kleine)|o;o
 laufen|跑; 走; 运行，进行 (läuft, lief, gelaufen, ist)|v;v;v
 spielen|玩，演奏|v
 verdammt|该死的|o
@@ -3458,7 +3458,7 @@ muskel|肌肉 (der, 复数 Muskeln)|o
 analysieren|分析|v
 angemessen|适当的|o
 morden|谋杀|v
-zurückrufen|回电 (rief zurück, zurückgerufen)|v
+zurückrufen|回电 (rief zurück, zurückgerufen); 回喊，高声回答|v;v
 fuchs|狐狸 (der, 复数 Füchse)|o
 frech|厚脸皮的|o
 geschieden|离婚的|o
@@ -3981,7 +3981,7 @@ an|在...旁，在...上; 向; an sein: 开着 (开关打开)|o;o;n
 noch|还，仍然; 另外，更; noch nicht: 还没|o;o;n
 um|围绕，大约; 在 (几点); um zu: 为了|o;o;n
 nach|在...之后; 去 (地名); 根据; nach Hause: 回家|o;v;o;n
-geht|走，去; 行得通; es geht um: 是关于; es geht: 还过得去，还好|f3s;o;n;n
+geht|走，去; 行得通; es geht um: 是关于; es geht: 还过得去，还好; (geht doch!) 你看，这不就行了|f3s;o;n;n;o
 mann|男人 (der, 复数 Männer); 丈夫; Mann!: 天哪！，老兄！|o;o;n
 mehr|更多; nicht mehr: 不再|o;n
 immer|总是; noch immer: 仍然|o;n
@@ -4200,7 +4200,7 @@ umziehen|搬家 (zog um, umgezogen, ist); sich umziehen: 换衣服|v;n
 frohe|快乐的; frohe Weihnachten: 圣诞快乐|o;n
 appetit|胃口 (der, 无复数); guten Appetit: 祝用餐愉快|o;n
 versehen|aus Versehen: 不小心; 提供 (versieht, versah, versehen)|n;v
-grüß|grüß dich: 你好; 问好！|n;o
+grüß|grüß dich: 你好; grüß Gott: 你好，日安 (奥地利、德国南部用语); 问好！|n;n;o
 begeben|sich begeben: 前往 (begibt, begab, begeben)|n
 anlegen|穿上; 投资; sich anlegen mit: 与...争执|v;v;n
 eile|匆忙 (die, 无复数); in Eile: 匆忙中|o;n
@@ -12494,3 +12494,11 @@ nachfrage|需求 (die, 复数 Nachfragen); 询问|o;o
 überbrücken|弥合, 渡过 (难关) (überbrückte, überbrückt)|v
 festspiele|艺术节 (die, 复数)|o
 einköpfen|头球攻入 (köpfte ein, eingeköpft)|v
+kaffeehaus|咖啡馆 (尤指维也纳的老式咖啡馆) (das, 复数 Kaffeehäuser)|o
+melange|维也纳奶泡咖啡 (die, 复数 Melangen)|o
+jänner|一月 (奥地利用语) (der, 复数 Jänner)|o
+schaum|泡沫 (der, 复数 Schäume)|o
+duzen|以 du（你）相称|v
+siezen|以 Sie（您）相称|v
+start-up|初创公司 (das, 复数 Start-ups)|o
+weihnachtsfeier|圣诞聚会 (公司或社团的) (die, 复数 Weihnachtsfeiern)|o

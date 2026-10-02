@@ -1,0 +1,136 @@
+# Stories shown on first run for Indonesian: three, one per level, easiest first.
+#
+# Written for this app, not taken from a corpus. Each one is set somewhere
+# Indonesian is spoken and turns on a custom the narrator, a visitor, gets
+# wrong: asking for beras (uncooked rice) at the table, in a village in Java;
+# planning a Lebaran holiday in Jakarta while the whole city goes home (mudik);
+# planning a beach day in Bali on Nyepi, the Day of Silence. The reader meets
+# the surprise in the story; the note in their own language
+# (stories.<meta>.txt) explains it afterwards.
+#
+# `## n|level|place|key`: the story's number; the level it is written for, as
+# the number of most frequent words a reader knows (a reader who knows them
+# knows at least 90% of its running words, names and all — stories.test.ts);
+# the region it is set in (all three in Indonesia: Java, Jakarta, Bali); and
+# its key word as written in the text, which the note names and the reader can
+# click to find. The title follows, then the text.
+#
+# Standard Indonesian, the everyday written kind rather than the formal: the
+# narrator says saya, friends say kamu, a host says Anda to a guest, and a
+# little colloquial speech stays in the dialogue where people would use it
+# (bikin, bilang, kan, Nak). No regional language; the Balinese words in story
+# 3 (Nyepi, ogoh-ogoh, pecalang) are the ones Indonesian itself uses for them.
+# Indonesian marks no gender, so nothing in the stories says who the narrator
+# is.
+#
+# The old sample (Budi at the market) is a test fixture now:
+# src/testing/samples/id.txt. sample.txt stays in the pack for apps from before
+# stories, which do not read this file.
+
+## 1|500|ID|nasi
+Belum makan
+Saya sedang tinggal di rumah keluarga teman saya di Jawa, jauh dari kota.
+
+Pagi itu, kami berjalan ke belakang rumah.
+
+"Ini padi," kata teman saya.
+
+Di rumah, ibunya menunjukkan sesuatu di tangannya.
+
+"Ini beras," katanya. "Dari padi kami sendiri."
+
+Lalu kami makan bersama. Ada banyak makanan, dan semuanya luar biasa. Saya makan, makan, dan makan, tapi saya masih mau lagi.
+
+"Ibu, boleh saya minta beras lagi?"
+
+Semua orang tertawa.
+
+"Yang itu belum bisa dimakan, Nak!" kata ibunya.
+
+Kata teman saya, "Waktu masih di tanah, namanya padi. Waktu belum dimasak, namanya beras. Kalau sudah siap dimakan, namanya nasi."
+
+"Jadi, saya minta nasi lagi."
+
+"Nah, itu baru benar!"
+
+Malamnya, ibu teman saya bertanya, "Sudah makan?"
+
+"Sudah. Tadi di kota saya makan roti."
+
+"Roti? Itu bukan makan. Belum makan nasi, berarti belum makan!"
+
+Dan dia memberi saya makan lagi.
+
+Hari itu, saya makan tiga kali. Tapi kata ibu teman saya, hanya dua.
+
+## 2|1500|ID|mudik
+Lebaran di Jakarta
+Seminggu sebelum Lebaran, semua orang di kantor saya hanya bicara tentang satu hal: tiket.
+
+"Kamu mudik ke mana?" tanya Rina, teman kerja saya.
+
+"Saya tidak mudik. Keluarga saya terlalu jauh. Saya di Jakarta saja."
+
+"Lebaran di Jakarta?" Dia melihat saya dengan aneh. "Ya sudah. Hati-hati, ya."
+
+Saya tidak mengerti kenapa saya harus hati-hati. Saya punya rencana besar: tidur sampai siang, makan di tempat Pak Ali di depan rumah, potong rambut, dan membawa baju kotor ke tempat cuci baju. Semua hal yang biasanya tidak bisa saya lakukan.
+
+Pada hari pertama, saya bangun jam sepuluh. Di luar, tenang sekali. Jalan besar di depan rumah kosong. Tidak ada mobil, tidak ada orang, tidak ada suara.
+
+Saya pergi ke tempat Pak Ali. Tutup. Ada kertas di pintunya: "Mudik. Buka lagi seminggu setelah Lebaran."
+
+Tempat potong rambut juga tutup. Tempat cuci baju juga. Ibu yang biasa membersihkan rumah saya sudah pulang juga, sejak tiga hari yang lalu.
+
+Saya menelepon Rina. "Semua orang pergi ke mana?"
+
+"Pulang kampung," katanya, tertawa. "Banyak orang di sini datang dari daerah. Setahun sekali, mereka pulang ke keluarganya. Sudah saya bilang, kan?"
+
+Malam itu, saya makan roti di kamar, sendirian di kota dengan sepuluh juta orang.
+
+Seminggu kemudian, Jakarta penuh lagi. Pak Ali sudah buka, dan dia memberi saya kue dari kampungnya.
+
+"Tahun depan, kamu ikut saya mudik ke Solo," kata Rina.
+
+"Berapa jam?"
+
+"Enam jam, kalau jalannya lancar."
+
+"Kalau macet?"
+
+Dia tertawa. "Itu juga mudik."
+
+## 3|4000|ID|Nyepi
+Sehari tanpa suara
+Saya tiba di Bali pada sore hari dengan satu rencana: besok pagi, pantai.
+
+Di jalan dari bandara, sopir taksi bertanya, "Sudah siap untuk Nyepi?"
+
+"Nyepi?"
+
+"Besok," katanya. "Nanti malam ada ogoh-ogoh. Jangan sampai ketinggalan."
+
+Di penginapan, Bu Ketut, pemiliknya, memberi saya kunci kamar, sebotol air, dan sebuah senter kecil.
+
+"Senter? Untuk apa?"
+
+"Untuk besok. Besok Nyepi, tahun baru kami. Dari jam enam pagi sampai jam enam pagi berikutnya, tidak ada yang keluar rumah. Tidak boleh menyalakan lampu atau api, tidak boleh bekerja, tidak boleh bepergian, tidak boleh bersenang-senang. Senternya hanya kalau benar-benar perlu, dan tirainya harus ditutup."
+
+"Tapi saya mau ke pantai."
+
+Bu Ketut tersenyum. "Pantainya juga Nyepi."
+
+"Saya kan bukan orang Bali."
+
+"Tamu juga ikut. Bandara pun tutup sehari penuh. Tidak ada pesawat yang datang atau pergi. Pecalang, penjaga desa, akan berjaga di jalan, dan kalau Anda keluar, mereka akan meminta Anda kembali ke kamar. Dengan sopan, tentu saja."
+
+Malam itu, saya melihat ogoh-ogoh. Patung-patung raksasa berbentuk setan, dengan mata melotot dan taring panjang, diangkat di atas bambu oleh anak-anak muda desa. Ada gamelan, obor, dan teriakan. Semua orang keluar ke jalan. Di akhir malam, beberapa ogoh-ogoh dibakar.
+
+"Kenapa ramai sekali?" tanya saya kepada anak Bu Ketut.
+
+"Untuk mengusir roh jahat," jawabnya. "Malam ini kita bikin ribut supaya mereka pergi. Besok kita diam. Kalau mereka kembali, mereka pikir pulau ini kosong, lalu pergi lagi."
+
+Keesokan harinya, Bali diam. Tidak ada motor, tidak ada musik, tidak ada suara mesin. Hanya burung, dan beberapa anjing yang sepertinya tidak tahu bahwa hari itu Nyepi. Saya membaca, tidur, dan makan nasi yang sudah disiapkan Bu Ketut kemarin. Saya bahkan tidak berbicara, karena tidak ada orang untuk diajak bicara.
+
+Malamnya, saya membuka tirai sedikit. Seluruh pulau gelap. Di atas, langit penuh bintang, lebih banyak daripada yang pernah saya lihat selama hidup saya.
+
+Sehari setelah Nyepi, akhirnya saya pergi ke pantai. Pantainya penuh orang, motor, pedagang, dan musik dari kafe. Indah sekali. Tetapi, entah kenapa, saya sedikit rindu pada hari yang sunyi itu.

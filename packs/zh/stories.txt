@@ -1,0 +1,145 @@
+# Stories shown on first run for Mandarin: three, one per level, easiest first.
+#
+# Written for this app, not taken from a corpus. Each one is set somewhere
+# Mandarin is spoken and turns on a custom the narrator, a visitor, gets wrong:
+# taking 吃饭了吗 for an invitation (mainland China), putting 400 yuan in a
+# white envelope for a wedding (mainland China), expecting a quiet night of
+# mooncakes and 嫦娥 at Mid-Autumn and finding the street barbecuing (Taiwan).
+# The reader meets the surprise in the story; the note in their own language
+# (stories.<meta>.txt) explains it afterwards.
+#
+# `## n|level|place|key`: the story's number; the level it is written for, as
+# the number of most frequent words a reader knows (a reader who knows them
+# knows at least 90% of its running words, names and all — stories.test.ts);
+# the region it is set in; and its key word as written in the text, which the
+# note names and the reader can click to find. The title follows, then the text.
+#
+# **Written in simplified characters, all three.** The pack is one dictionary in
+# two scripts, and a reader who reads traditional sees these through
+# `inScript`, word by word, like any other text — so the Taiwan story is stored
+# simplified too and reads in traditional for a reader who chose Taiwan. Two
+# things follow from that conversion, and the third story is written around
+# them: the aspect marker 着 stays 着 in the traditional view (著 is an entry of
+# its own, corrections/zh.variants.txt), where Taiwan writes 著, so the story
+# has no 着; and 一只 would come out 一只, not 一隻, so it has no 只 as a
+# measure word either. Every story was read through in traditional before it
+# was committed.
+#
+# **The key word is one segment.** The greeting is as often 吃了吗, but that is
+# three words to the segmenter, and the note sends the reader to one; 吃饭了吗
+# is as natural and its key, 吃饭, is a word.
+#
+# **The Taiwan story speaks Taiwan's Mandarin** where it differs and is common:
+# 机车 for the scooters (the mainland says 摩托车 or 电动车), 念书 for studying,
+# 吃吃看, and 啦 at the end of 真的啦 and 不会啦. Its dialogue is in 「」, as
+# Taiwan writes it; the mainland stories use “ ”. It avoids words read
+# differently there (期待 is qídài in Taiwan, and the pack carries one
+# reading).
+#
+# Story 2 writes sums of money in figures (400块), as they are written in
+# China, and the digit it turns on in characters (四), as it is spoken. The
+# narrator has no stated gender; Mandarin gives a first person none anyway.
+#
+# The old sample (周末的早上, a weekend morning at the market) is a test fixture now:
+# src/testing/samples/zh.txt. sample.txt stays in the pack for apps from before
+# stories, which do not read this file.
+
+## 1|500|CN|吃饭
+吃饭了吗？
+我来中国三天了。今天中午，我在家门口看见一个老奶奶。
+
+“你好！”她笑着问我，“吃饭了吗？”
+
+“还没有。”我说。
+
+我很高兴。她要请我吃饭吗？我站在那儿等着。她也看着我。
+
+“那快去吃吧！”她说完就走了。
+
+我一个人站在那儿，不知道发生了什么事。
+
+第二天，我又看见了她。
+
+“吃饭了吗？”她问。
+
+“吃了！”我说。
+
+“好，好。”她笑了。
+
+其实我没吃。可是我不想再站在那儿等了。
+
+## 2|1500|CN|红包
+红包
+我在中国学习。最近，一个中国朋友要结婚了，他请我去参加婚礼。
+
+我问我的老师：“参加中国人的婚礼，要送什么礼物？”
+
+“不用买礼物，”老师说，“给红包就行了。”
+
+“红包是什么？”
+
+“就是一个红色的信封，里面放钱。”
+
+那天晚上，我在家里只找到了一个白色的。我觉得白的也很好看，很干净。我在里面放了400块钱，还在上面写了：“祝你们幸福！”
+
+第二天，我拿给老师看。老师看了一眼，就说：“不行，不行！家里有人去世，才用白的。”
+
+“那钱呢？400块不够吗？”
+
+“不是钱多钱少的问题。‘四’听起来像‘死’。人家结婚，你送一个‘死’？”
+
+我的脸马上就红了。
+
+下课以后，老师带我去买了一个真正的红包，很漂亮。
+
+“放多少好？”我问。
+
+“600、800都可以。‘八’听起来像‘发’，大家都喜欢。”
+
+婚礼那天，我把红包交给了我的朋友。
+
+晚上，老师打电话问我：“你最后放了多少？”
+
+“888。”
+
+“这么多？”
+
+“您说八好，我就放了三个八。”
+
+老师笑了半天：“这次你的朋友真的要发了。”
+
+## 3|4000|TW|烤肉
+中秋节的烟
+去年九月，我在台湾念书。中秋节快到了，我一直在等这一天。来台湾以前，我在书上读过嫦娥的故事：很久很久以前，她吃了一种药，飞到了月亮上，从此一个人住在那儿，只有兔子陪她。所以我想，中秋节的晚上，大家一定会坐在一起，一边吃月饼，一边看月亮，讲嫦娥的故事。
+
+中秋节的前一天，室友小美问我：「明天你要不要跟我们一起烤肉？」
+
+「烤肉？」我以为我听错了。「不是要看月亮吗？」
+
+「对啊，」她说，「一边烤肉一边看月亮。」
+
+第二天下午，我跟她去超市买东西。超市里的人多得不得了，每个人都买了很多肉、香肠、玉米和烤肉酱。门口还有好多柚子。
+
+天一黑，我们家楼下就热闹起来了。楼下的机车都被推到了一边，邻居们把烤肉的东西都拿了出来，一直摆到了马路上。街上到处都是烟，到处都是烤肉的味道。有人放音乐，有人大声聊天，小孩子跑来跑去。楼上的阿姨拿了很多肉过来：「来，吃吃看！」对面的叔叔也送来了几根香肠。桌子上当然也有月饼，可是好像没有人有时间吃。
+
+我问小美：「中秋节为什么要烤肉？」
+
+她想了想：「好像是因为以前电视上有一个烤肉酱的广告吧。」
+
+「广告？」我不敢相信。
+
+「真的啦。不过现在大家都这样过，已经变成习惯了。」
+
+这时候，几个小孩跑了过来，他们头上都戴了一顶绿色的帽子。我仔细一看，原来是柚子皮。
+
+「那是什么？」
+
+「柚子帽啊。吃了柚子，把皮戴在头上。我小时候也戴过。」
+
+一个小女孩跑过来，把她的柚子帽戴在了我的头上。大家都笑了。
+
+快十点的时候，我终于有时间看月亮了。可是烟太大，月亮看不太清楚。
+
+「嫦娥一个人在上面，一定很寂寞吧。」我说。
+
+小美给了我一根刚烤好的香肠：「不会啦。这么香，她说不定也想下来一起烤肉呢。」

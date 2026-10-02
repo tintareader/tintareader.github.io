@@ -1,0 +1,143 @@
+# Stories shown on first run for English: three, one per level, easiest first.
+#
+# Written for this app, not taken from a corpus. Each one is set somewhere
+# English is spoken and turns on a custom the narrator, a visitor, gets wrong:
+# not saying "sorry" when someone else bumps into you (the UK), answering "How
+# are you?" as if it were a question (the US), arriving with an empty plate when
+# asked to "bring a plate" (Australia). The reader meets the surprise in the
+# story; the note in their own language (stories.<meta>.txt) explains it
+# afterwards.
+#
+# `## n|level|place|key`: the story's number; the level it is written for, as
+# the number of most frequent words a reader knows (a reader who knows them
+# knows at least 90% of its running words, names and all — stories.test.ts);
+# the region it is set in; and its key word as written in the text, which the
+# note names and the reader can click to find. The title follows, then the text.
+#
+# Each story is in the English of its place, words and spelling: the first
+# British (bus stop, coat, "Cold today, isn't it?"), the second American
+# (apartment, elevator, neighbor, favorite), the third Australian, which spells
+# as British English does (colour, realised) and says arvo, esky and prawns.
+# The voice reading them aloud is the reader's chosen variety, not the story's.
+#
+# The narrator has no stated gender and no stated country.
+#
+# The old sample (Anna's day at work) is a test fixture now:
+# src/testing/samples/en.txt. sample.txt stays in the pack for apps from before
+# stories, which do not read this file.
+
+## 1|500|GB|sorry
+At the bus stop
+It's morning, and it's raining. I'm waiting for the bus with my friend Tom.
+
+An old woman comes and stands next to us.
+
+"Cold today, isn't it?" she says.
+
+"Yes," I say. "Very cold."
+
+"Still, it could be worse."
+
+That's all she says. My friend tells me, "People here don't really want to talk about the weather. It's just a way to say hello."
+
+Then a man runs to the stop with a big bag, and his bag hits my arm.
+
+"Sorry!" he says.
+
+I say nothing. My friend looks at me.
+
+"Say sorry," he tells me.
+
+"Me? Why? He hit me!"
+
+"I know. But here, you both say sorry."
+
+"But I didn't do anything!"
+
+"It doesn't matter."
+
+The bus comes. We get on, and I sit down. A woman sits down next to me, on my coat.
+
+"Sorry," I say.
+
+Tom laughs. "Good. Now you're one of us."
+
+## 2|1500|US|Fine
+How are you?
+On my first morning in Chicago, I went to a little coffee shop near my new apartment. The young man behind the counter gave me a big smile.
+
+"Hi! How are you today?"
+
+Nobody had asked me that in a long time, so I told him. I told him that my flight was eleven hours long, that the airline had lost my bag, that the street outside my window was so noisy I couldn't sleep, and that I missed my family.
+
+He kept smiling, but his eyes moved to the people waiting behind me.
+
+"Oh, wow. Sorry to hear that," he said. "So, what can I get you?"
+
+Later, in the elevator, a neighbor with a little dog got in.
+
+"Hey, how's it going?" she asked.
+
+"Well," I began, "it's kind of a long story—"
+
+But the doors opened, and she was already walking away. "Have a nice day!"
+
+That evening I had dinner with my friend Kate, who has lived here for years, at her favorite restaurant. I told her about my day.
+
+"Everybody asks me how I am," I said, "but nobody wants to hear the answer."
+
+Kate laughed. "Because it isn't really a question. It's just another way to say hi. You say 'Fine, thanks, how are you?' and that's it. The real answer is for your friends."
+
+So the next morning I was ready.
+
+"Hi! How are you today?"
+
+"Fine, thanks. How are you?"
+
+"Good, thanks! What can I get you?"
+
+Two seconds. Perfect.
+
+A week later I got sick and went to see a doctor. She came in, sat down and smiled at me.
+
+"So, how are you?"
+
+"Fine, thanks. How are you?"
+
+She looked at me over her glasses. "Then why are you here?"
+
+## 3|4000|AU|plate
+Bring a plate
+My first Christmas in Australia was nothing like the ones I knew. There was no snow, no fire, no dark afternoons. In Sydney, Christmas comes in summer, and that year it was thirty-four degrees.
+
+A few weeks before, my colleague Sarah had invited me for lunch on Christmas Day.
+
+"My family's coming, and a few friends who are a long way from home," she said. "Nothing fancy. Just bring a plate."
+
+I thought that was a little strange. Sarah had a lovely house, and surely she had enough plates. But perhaps a lot of people were coming. I didn't want to arrive with something cheap, so I went into the city and bought a beautiful white plate with a gold edge. I even had it wrapped as a gift.
+
+On Christmas morning I put on my best shirt and caught the train. In the street outside Sarah's house, people were getting out of their cars, and every one of them was carrying something: a bowl of salad, a tray of cold prawns, a whole ham, a big plastic box full of ice and beer, which I later learned is an esky. One man was carrying a cake under a tea towel, very carefully, as if it were a baby.
+
+I was carrying my gift. It was then that I began to worry.
+
+Sarah opened the door in a Santa hat. "Merry Christmas! Come in, come in."
+
+"Merry Christmas," I said, and gave her the gift. "I brought a plate."
+
+She opened it, looked at the plate for a long moment, and then at me. Then she laughed, kindly.
+
+"Oh, that's lovely. Thank you. But when we say 'bring a plate', we mean a plate with something on it. Food. Everyone brings something to share."
+
+I wanted to disappear. My face must have been the colour of the prawns.
+
+"Don't worry," she said. "It happens to someone every year. And actually, you're just in time. Nobody brought anything to put the pav on."
+
+The cake under the tea towel turned out to be a pavlova: a big white cloud of meringue covered in cream and fresh fruit. It sat on my plate in the middle of the table, and all afternoon people kept saying what a nice plate it was.
+
+We ate outside under a tree: prawns, ham, salads, mangoes and cherries, and then the pavlova. After lunch the younger ones played cricket in the backyard, and Sarah's uncle took it far more seriously than anyone else. Later we drove to the beach for a swim, and nobody seemed to find it strange to spend Christmas in the sea.
+
+As I was leaving, Sarah gave me a box of leftover ham.
+
+"Come round tomorrow arvo," she said. "We're watching the cricket. BYO."
+
+I had no idea what that meant. But this time, I asked.

@@ -1,0 +1,130 @@
+# Stories shown on first run for Arabic: three, one per level, easiest first.
+#
+# Written for this app, not taken from a corpus. Each one is set somewhere
+# Arabic is spoken and turns on a custom the narrator, a visitor, gets wrong:
+# saying "thank you" to the host who keeps refilling the small coffee cup, and
+# not knowing that you shake it to say enough (the Gulf); telling the
+# musaharati, who drums through the street before dawn in Ramadan, that people
+# are trying to sleep (Cairo); looking round the flat for a nail when a
+# neighbour says "مسمار جحا" (Amman). The reader meets the surprise in the
+# story; the note in their own language (stories.<meta>.txt) explains it
+# afterwards.
+#
+# `## n|level|place|key`: the story's number; the level it is written for, as
+# the number of most frequent words a reader knows (a reader who knows them
+# knows at least 90% of its running words, names and all — stories.test.ts);
+# the region it is set in; and its key word as written in the text, which the
+# note names and the reader can click to find. The title follows, then the text.
+#
+# **Modern Standard Arabic, written as a newspaper writes it: without the short
+# vowels.** The only marks are the tanween of an adverb or object in -an
+# (قليلًا، أولًا، شيئًا), which the old sample also kept, a shadda where a
+# learner would otherwise misread a word that matters (عمّان, not عُمان; وحّد),
+# and the one kasra of a shortened verb (لم يأتِ). Full vowelling was turned
+# down because it is not what a reader will meet anywhere else, and because the
+# card already gives each headword with its vowels written and in Latin letters
+# (readings.txt, either romanisation): the analyser strips the marks before it
+# looks a word up, so a marked spelling and a bare one reach the same card.
+#
+# Dialogue is in Modern Standard Arabic, as a learner reads it, with one
+# exception that is the point of its story: the musaharati in story 2 calls in
+# Egyptian Arabic, «اصحى يا نايم وحّد الدايم» ("wake up, sleeper, declare the
+# Eternal one"), and the names he calls are Egyptian (يا أبو سمير, where the
+# standard language says يا أبا سمير). The call has no comma before وحّد,
+# because a phrase is not matched across one. Its three colloquial words have
+# entries marked (colloq.), and the whole line is a phrase on the card.
+#
+# The narrator has no stated gender, so nothing agrees with them: no adjective
+# or participle on the narrator, and nobody speaks to them in the imperative,
+# which Arabic marks for gender (تعالَ/تعالي). Where someone tells them what to
+# do it is a subjunctive after أن, which is spelled the same for both (أن
+# تشتري). Story 1 avoids the word for "guest" for the same reason; in story 2 the
+# musaharati's «يا ضيفنا» is what a caller says to any guest.
+#
+# The old sample (Ahmad's day in town) is a test fixture now:
+# src/testing/samples/ar.txt. sample.txt stays in the pack for apps from before
+# stories, which do not read this file.
+
+## 1|500|AE|فنجان
+فنجان آخر
+ذهبت مع صديقي إلى بيت أبيه. كان البيت كبيرًا وجميلًا. جلسنا في غرفة كبيرة، وجاء والده بالقهوة.
+
+وضع قليلًا منها في فنجان صغير، وأعطاني الفنجان. شربته، فأعطاني واحدًا آخر.
+
+قلت: «شكرًا!»
+
+قال: «أهلًا وسهلًا!» وأعطاني واحدًا آخر.
+
+شربت، وشربت، وشربت. كان الرجل سعيدًا، وأنا أيضًا. ولكن بعد ساعة، نظرت إلى صديقي وقلت له: «ساعدني! لا أريد المزيد، ولكنه لا يتوقف! ماذا أفعل؟»
+
+ضحك صديقي. أخذ فنجانه وهزه قليلًا، هكذا، ثم أعطاه لوالده.
+
+قال لي: «هكذا نقول: يكفي، شكرًا.»
+
+ففعلت مثله، فأخذ الرجل فنجاني، وذهب.
+
+بعد ذلك، في غرفتي، لم يأتِ النوم حتى الصباح.
+
+## 2|1500|EG|المسحراتي
+صوت في الليل
+كنت في القاهرة في شهر رمضان، عند عائلة صديقي. طوال اليوم لا يأكلون ولا يشربون، وفي المساء تجلس العائلة كلها حول الطاولة. في أول ليلة أكلنا كثيرًا، وتحدثنا حتى منتصف الليل، ثم ذهبت إلى النوم.
+
+بعد ساعتين، استيقظت على صوت غريب في الشارع، ثم سمعت رجلًا يصيح:
+
+«اصحى يا نايم وحّد الدايم!»
+
+ثم: «يا أبو سمير! يا أم سمير!»
+
+هل حدث شيء؟ هل هناك مشكلة؟ فتحت النافذة، فرأيت في الشارع رجلًا يحمل طبلة صغيرة، وحوله بعض الأطفال.
+
+قلت له: «من فضلك، الناس يريدون النوم!»
+
+نظر إلي الرجل وضحك: «أعرف. لهذا أنا هنا!»
+
+ثم سمعت صديقي يضحك. كان عند باب غرفتي، وكانت العائلة كلها مستيقظة، وأمه في المطبخ.
+
+قال: «هذا المسحراتي. يمر في شارعنا كل ليلة في هذا الشهر، ويوقظ الناس للسحور، قبل الفجر. الأكل جاهز، هيا!»
+
+كانت الساعة الثالثة. جلسنا وأكلنا الفول والبيض، وشربنا الشاي.
+
+قلت: «ولكن عندكم هواتف. لماذا تحتاجون إلى رجل بطبلة؟»
+
+فكر صديقي قليلًا، ثم قال: «الهاتف لا يعرف أسماءنا. أما هو، فيعرفها كلها.»
+
+وفي آخر ليلة من رمضان، كنت أنتظره قبل أن يأتي. وقف الرجل تحت نافذتنا، وبين الأسماء سمعت اسمًا جديدًا: «وأنت يا ضيفنا!»
+
+## 3|4000|JO|مسمار
+مسمار جحا
+استأجرت شقة صغيرة في عمّان. كانت جميلة ورخيصة، وكان صاحبها رجلًا لطيفًا. في غرفة النوم كانت هناك خزانة كبيرة وقديمة.
+
+قال لي: «هذه الخزانة لي. ليس عندي مكان لها الآن، وسآخذها قريبًا. لن تزعجك أبدًا.»
+
+بعد ثلاثة أيام، طرق الباب.
+
+«آسف، أحتاج إلى شيء من الخزانة.»
+
+دخل، وفتح الخزانة، وأخذ منها ورقة. ثم جلس في المطبخ وشرب الشاي معي، وقال لي: «النباتات تحتاج إلى ماء أكثر.»
+
+بعد أسبوع جاء مرة أخرى. هذه المرة أخذ قميصًا من الخزانة، ثم نظر حوله وقال: «السرير ليس في مكانه الصحيح. مكانه تحت النافذة.»
+
+وبعد ذلك كان يأتي كل بضعة أيام: مرة في الصباح، ومرة وقت الغداء، ومرة في العاشرة ليلًا. وكل مرة يأخذ شيئًا صغيرًا من الخزانة، ويترك لي نصيحة كبيرة.
+
+أخبرت جارتي بذلك، فضحكت وقالت: «هذا مسمار جحا!»
+
+«أي مسمار؟» في المساء نظرت إلى كل جدران الشقة، ولم أجد أي مسمار.
+
+في اليوم التالي سألتها مرة أخرى، فروت لي القصة:
+
+«باع جحا بيته، ولكنه قال للرجل الذي اشتراه: البيت لك، إلا مسمارًا واحدًا في الحائط. هذا المسمار يبقى لي. ووافق الرجل، فالمسمار صغير. وبعد أيام طرق جحا الباب: جئت لأطمئن على مسماري. ثم جاء وقت الغداء، وجلس يأكل مع العائلة بجانب مسماره. ثم جاء في الليل، ونام تحته. وفي النهاية جاء بحمار ميت وربطه بالمسمار. فترك الرجل البيت لجحا، وهرب.»
+
+ثم قالت: «الخزانة هي مسماره. نقول "مسمار جحا" عن حجة صغيرة يتركها شخص لكي يبقى في حياتك.»
+
+«وماذا أفعل؟»
+
+«الحل أن تشتري المسمار.»
+
+في المرة التالية، دفعت له ثمن الخزانة. كان سعيدًا جدًا، وأخذ المال، وشكرني.
+
+وبعد أسبوع، طرق الباب مرة أخرى.
+
+«آسف... أظن أنني نسيت مظلتي على الشرفة.»

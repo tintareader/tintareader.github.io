@@ -1,0 +1,164 @@
+# Stories shown on first run for Portuguese: three, one per level, easiest first.
+#
+# Written for this app, not taken from a corpus. Each one is set somewhere
+# Portuguese is spoken and turns on a custom the narrator, a visitor, gets
+# wrong: asking for a big coffee, turning one down and reaching for money when a
+# cafezinho is offered (Brazil); talking on when the room falls silent for fado,
+# after failing to get saudade into one word (Lisbon); arriving in black at New
+# Year on Copacabana, where most people wear white, jump seven waves and give
+# flowers to Iemanjá (Rio de Janeiro). The reader meets the surprise in the
+# story; the note in their own language (stories.<meta>.txt) explains it
+# afterwards.
+#
+# `## n|level|place|key`: the story's number; the level it is written for, as
+# the number of most frequent words a reader knows (a reader who knows them
+# knows at least 90% of its running words, names and all — stories.test.ts);
+# the region it is set in; and its key word as written in the text, which the
+# note names and the reader can click to find. The title follows, then the text.
+#
+# Each story is in the Portuguese of its place. The first and third are
+# Brazilian, as the pack is: você, a gente, the pronoun before the verb (ela me
+# dá), todo mundo. The second is European Portuguese, as Lisbon speaks it, in
+# forms the pack has: tu with its own verb (estás, gostas, sabes), the pronoun
+# after the verb (convidou-me, levou-me, escrevi-lhe), a + the infinitive for
+# an action under way (uma mulher a cantar, continuava a pensar), perceber for
+# "understand", toda a gente, a meio de, até ao, and the article before a first
+# name (a Inês). The voice reading them aloud is the reader's chosen variety,
+# not the story's.
+#
+# The narrator has no stated gender, so nothing agrees with them: no obrigado
+# or obrigada, no adjective on the narrator.
+#
+# The old sample (the Saturday market) is a test fixture now:
+# src/testing/samples/pt.txt. sample.txt stays in the pack for apps from before
+# stories, which do not read this file.
+
+## 1|500|BR|cafezinho
+Um cafezinho
+Hoje é o meu primeiro dia no trabalho novo. De manhã, uma mulher vem falar comigo.
+
+— Bom dia! Quer um cafezinho?
+
+— Quero, sim.
+
+Ela me dá um café muito pequeno, forte e muito doce.
+
+— Posso tomar um grande? — pergunto.
+
+Ela ri.
+
+— Grande? Aqui não. Aqui é cafezinho.
+
+Às dez, um homem passa com mais um. Depois, mais um. Às quatro, uma mulher vem com outro.
+
+— Agora não — digo.
+
+Ela não entende.
+
+— Não quer? Mas é cafezinho!
+
+Então eu tomo.
+
+Depois do trabalho, vou comprar uma camisa. Na loja, o homem diz:
+
+— Um cafezinho?
+
+Eu tomo e quero pagar.
+
+— Quanto é?
+
+— Nada! Aqui não se paga cafezinho.
+
+Às duas da manhã, ainda não consigo dormir.
+
+## 2|1500|PT|saudade
+Uma noite de fado
+Na minha primeira semana em Lisboa, a minha vizinha Inês convidou-me para jantar. Enquanto ela cozinhava, ouvíamos uma música antiga: uma mulher a cantar, com uma voz muito triste e muito bonita.
+
+— O que é isto? — perguntei.
+
+— É fado.
+
+— E o que diz?
+
+— Fala de saudade.
+
+— Saudade? O que quer dizer?
+
+Ela pensou um pouco.
+
+— É quando estás longe de alguém de quem gostas, e pensas nessa pessoa, e dói. Mas também é bom, porque gostas dela.
+
+— Então é tristeza.
+
+— Não é bem isso.
+
+— É amor?
+
+— Também não. É um bocadinho das duas coisas.
+
+— E como se diz numa palavra só?
+
+— Não se diz. Saudade é saudade.
+
+No fim de semana, ela levou-me a uma casa de fados, numa rua antiga. A sala era pequena e escura, com uma vela em cada mesa. Pedimos vinho e comemos. Ao lado, dois homens com guitarras esperavam.
+
+Eu continuava a pensar na palavra.
+
+— E esta música, também é sobre isso? — perguntei à Inês. — E aquela de antes? E se...
+
+Nesse momento, as luzes baixaram, e um senhor disse em voz alta:
+
+— Silêncio, que se vai cantar o fado!
+
+Toda a gente se calou. Os empregados pararam onde estavam. Eu fiquei de boca aberta, a meio da frase.
+
+Uma mulher de preto começou a cantar, de olhos fechados. Eu não percebi as palavras todas, mas percebi alguma coisa. Ninguém se mexeu até ao fim.
+
+Depois, a Inês perguntou-me:
+
+— Então? Já sabes o que é saudade?
+
+— Acho que ainda não.
+
+Um mês depois, já em casa, ouvi aquele fado outra vez. Pensei na Inês e na sala escura. Escrevi-lhe uma mensagem: «Já sei o que é saudade.»
+
+Ela respondeu: «Eu sei. Também tenho saudades tuas.»
+
+## 3|4000|BR|Iemanjá
+Sete ondas
+Era o meu primeiro Réveillon no Brasil, e eu tinha comprado roupa nova para a festa: calça preta, camisa preta, sapatos pretos. Elegante, pensei.
+
+Às dez da noite, desci até a praia de Copacabana com a família do meu amigo Tiago. Havia mais de dois milhões de pessoas na areia, e quase todas estavam de branco. Camisas brancas, vestidos brancos, chapéus brancos, até os cachorros. No meio daquele mar branco, eu era a única mancha preta.
+
+— Você veio de preto? — disse o Tiago, rindo. — No Réveillon?
+
+— Qual é o problema com o preto?
+
+— Preto não dá sorte. Aqui a gente entra no ano novo de branco, para ter paz.
+
+A mãe dele tirou uma camisa branca da bolsa.
+
+— Eu sempre trago uma a mais — disse ela. — Todo ano aparece um gringo.
+
+Vesti a camisa ali mesmo. A irmã do Tiago me contou que muita gente também escolhe com cuidado a cor da roupa íntima: amarela, para ter dinheiro; vermelha, para encontrar um amor. Eu não disse de que cor era a minha.
+
+Perto da água, as pessoas acendiam velas na areia e jogavam flores brancas nas ondas. Alguns empurravam barquinhos cheios de flores, perfume e espelhos para dentro do mar.
+
+— É para Iemanjá — explicou a mãe do Tiago. — A rainha do mar. A gente leva presentes e pede proteção para o ano que vem. Se o mar levar as flores, ela aceitou.
+
+Vi uma flor branca voltar com a onda até os meus pés. Ia pegá-la, mas a mãe do Tiago segurou o meu braço.
+
+— Deixa. O mar sabe o que faz.
+
+Na virada, o céu sobre a praia explodiu em fogos de todas as cores. Durante mais de dez minutos, ninguém conseguiu falar. Depois, todo mundo se abraçou, até quem não se conhecia, e repetia: "Feliz ano novo!"
+
+Então o Tiago me puxou para a água.
+
+— Agora, as sete ondas! Você pula sete ondas e faz um pedido em cada uma.
+
+Pulei a primeira e pedi saúde. Pulei a segunda e pedi trabalho. Na terceira, pedi viagens. Depois disso, já não sabia o que pedir, e uma onda enorme me derrubou. Saí do mar com água da cabeça aos pés, de camisa branca e calça preta.
+
+— Iemanjá gostou de você — disse a mãe do Tiago. — Agora você é de casa.
+
+Já não lembro bem dos sete pedidos. Só sei que, no ano seguinte, voltei para Copacabana. De branco, da cabeça aos pés.

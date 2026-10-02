@@ -54,7 +54,7 @@ ihr|you (pl., informal); her, to her (dat.); her, their (possessive)|f2s2p;o;o
 nein|no|o
 habe|I have|f1s
 an|at, on; to; an sein: to be on (switched on)|o;o;n
-meine|my (fem.; pl.); I mean|o;f1s
+meine|my; I mean|o;f1s
 bin|I am|f1s
 noch|still, yet; else, more; noch nicht: not yet|o;o;n
 nur|only, just; (in questions) on earth, ever|o;o
@@ -101,7 +101,7 @@ muss|I must, I have to; he/she/it must|f1s;f3s
 viel|much, a lot|o
 will|I want; he/she/it wants|f1s;f3s
 ihnen|them, to them (dat.); (Ihnen) you, to you (formal)|o;f2s2p
-geht|goes; works; es geht um: it is about; es geht: things are going, it's all right|f3s;o;n;n
+geht|goes; works; es geht um: it is about; es geht: things are going, it's all right; (geht doch!) there you go, see, it works|f3s;o;n;n;o
 wo|where|o
 etwas|something; somewhat, a little|o;o
 oh|oh|o
@@ -143,7 +143,7 @@ okay|okay|o
 müssen|must, to have to (muss, musste, gemusst)|o
 wissen|to know (a fact) (weiß, wusste, gewusst); knowledge (das, no pl.)|v;o
 andere|other, different|o
-meinen|to mean, to think; my (masc. acc.)|v;o
+meinen|to mean, to think; my (masc. acc.; dat. pl.)|v;o
 soll|should, is supposed to|o
 werde|I will; I become|f1s;f1s
 brauchen|to need|v
@@ -277,7 +277,7 @@ stimmen|to be right, to be true; to vote; voices (pl. of die Stimme); stimmt: th
 essen|to eat (isst, aß, gegessen); food, meal (das, pl. Essen)|v;o
 mädchen|girl (das, pl. Mädchen)|o
 wegen|because of|o
-kleine|little one, kid; small|o;o
+kleine|small, little; little one, kid (der/die Kleine)|o;o
 hin|there (away from the speaker); hin und her: back and forth|o;n
 abend|evening (der, pl. Abende); guten Abend: good evening|o;n
 laufen|to run; to walk; to go, to work (läuft, lief, gelaufen, ist)|v;v;v
@@ -2830,7 +2830,7 @@ zombie|zombie (der, pl. Zombies)|o
 funk|radio (der, no pl.)|o
 japan|Japan|o
 museum|museum (das, pl. Museen)|o
-grüß|grüß dich: hi; say hello!|n;o
+grüß|grüß dich: hi; grüß Gott: hello, good day (Austria, southern Germany); say hello!|n;n;o
 hurensohn|son of a bitch (der, pl. Hurensöhne)|o
 mögliche|possible|o
 begeben|sich begeben: to go, to proceed (begibt, begab, begeben)|n
@@ -3743,7 +3743,7 @@ muskel|muscle (der, pl. Muskeln)|o
 analysieren|to analyse|v
 angemessen|appropriate|o
 morden|to murder|v
-zurückrufen|to call back (rief zurück, zurückgerufen)|v
+zurückrufen|to call back (rief zurück, zurückgerufen); to shout back, to call back (in reply)|v;v
 fuchs|fox (der, pl. Füchse)|o
 frech|cheeky|o
 geschieden|divorced|o
@@ -12492,3 +12492,11 @@ festspiele|festival (die, pl.)|o
 einköpfen|to head in (a goal) (köpfte ein, eingeköpft)|v
 nachfragen|to ask, to inquire|v
 s|it ('s, short for es: geht's, gibt's)|f3s
+kaffeehaus|coffee house, café (esp. in Vienna) (das, pl. Kaffeehäuser)|o
+melange|melange (Viennese coffee with frothed milk) (die, pl. Melangen)|o
+jänner|January (Austria) (der, pl. Jänner)|o
+schaum|foam, froth (der, pl. Schäume)|o
+duzen|to say du to someone, to be on first-name terms|v
+siezen|to say Sie to someone, to address formally|v
+start-up|start-up (young company) (das, pl. Start-ups)|o
+weihnachtsfeier|Christmas party (at work, in a club) (die, pl. Weihnachtsfeiern)|o

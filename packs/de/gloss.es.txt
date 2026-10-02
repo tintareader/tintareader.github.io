@@ -54,7 +54,7 @@ ihr|vosotros (informal); le, a ella (dat.); su (de ella, de ellos)|f2s2p;o;o
 nein|no|o
 habe|yo tengo, yo he|f1s
 an|en, junto a; a, hacia; an sein: estar encendido|o;o;n
-meine|mi, mis (fem.; pl.); yo opino, quiero decir|o;f1s
+meine|mi, mis; yo opino, quiero decir|o;f1s
 bin|yo soy, yo estoy|f1s
 noch|todavía, aún; más, además; noch nicht: todavía no|o;o;n
 da|ahí, allí; entonces; como, ya que|o;o;o
@@ -100,7 +100,7 @@ muss|yo debo, tengo que; él/ella debe|f1s;f3s
 viel|mucho|o
 will|yo quiero; él/ella quiere|f1s;f3s
 ihnen|les, a ellos (dat.); (Ihnen) le, a usted (formal)|o;f2s2p
-geht|va; funciona; es geht um: se trata de; es geht: va bien, se puede|f3s;o;n;n
+geht|va; funciona; es geht um: se trata de; es geht: va bien, se puede; (geht doch!) ahí está, ¿ves?, funciona|f3s;o;n;n;o
 wo|dónde|o
 etwas|algo; un poco|o;o
 oh|oh|o
@@ -140,7 +140,7 @@ okay|vale, de acuerdo|o
 müssen|deber, tener que (muss, musste, gemusst)|o
 wissen|saber (un hecho) (weiß, wusste, gewusst); saber, conocimiento (das, sin pl.)|v;o
 andere|otro, distinto|o
-meinen|querer decir, opinar; mi (masc. acus.)|v;o
+meinen|querer decir, opinar; mi, mis (masc. acus.; dat. pl.)|v;o
 soll|debe, tiene que (según otro)|o
 werde|yo voy a, futuro (yo + -ré); me vuelvo|f1s;f1s
 brauchen|necesitar|v
@@ -269,7 +269,7 @@ essen|comer (isst, aß, gegessen); comida (das, pl. Essen)|v;o
 mädchen|chica, niña (das, pl. Mädchen)|o
 wegen|por, a causa de|o
 stimmen|ser cierto, ser correcto; votar; voces (pl. de die Stimme); stimmt: es verdad, correcto|v;v;o;n
-kleine|pequeño, niño; pequeño|o;o
+kleine|pequeño; pequeño, niño (der/die Kleine)|o;o
 hin|allá (lejos del hablante); hin und her: de un lado a otro|o;n
 abend|tarde, noche (der, pl. Abende); guten Abend: buenas tardes, buenas noches|o;n
 laufen|correr; andar, caminar; ir, funcionar (läuft, lief, gelaufen, ist)|v;v;v
@@ -2273,7 +2273,7 @@ zombie|zombi (der, pl. Zombies)|o
 funk|radio (der, sin pl.)|o
 japan|Japón|o
 museum|museo (das, pl. Museen)|o
-grüß|grüß dich: hola; ¡saluda! (informal)|n;o
+grüß|grüß dich: hola; grüß Gott: hola, buenos días (Austria, sur de Alemania); ¡saluda! (informal)|n;n;o
 hurensohn|hijo de puta (der, pl. Hurensöhne)|o
 mögliche|posible|o
 pinkeln|mear, hacer pis (coloq.)|v
@@ -2923,7 +2923,7 @@ segeln|navegar (a vela)|v
 beunruhigt|preocupado, inquieto|o
 muskel|músculo (der, pl. Muskeln)|o
 angemessen|adecuado, apropiado|o
-zurückrufen|devolver la llamada (rief zurück, zurückgerufen)|v
+zurückrufen|devolver la llamada (rief zurück, zurückgerufen); responder gritando, contestar a voces|v;v
 fuchs|zorro (der, pl. Füchse)|o
 frech|descarado, fresco|o
 geschieden|divorciado|o
@@ -12493,3 +12493,11 @@ nachfrage|demanda (die, pl. Nachfragen); consulta|o;o
 überbrücken|salvar, superar (una brecha), sortear (überbrückte, überbrückt)|v
 festspiele|festival (die, pl.)|o
 einköpfen|marcar de cabeza (köpfte ein, eingeköpft)|v
+kaffeehaus|café (el local, sobre todo en Viena) (das, pl. Kaffeehäuser)|o
+melange|melange (café vienés con leche espumada) (die, pl. Melangen)|o
+jänner|enero (Austria) (der, pl. Jänner)|o
+schaum|espuma (der, pl. Schäume)|o
+duzen|tutear, tratar de tú|v
+siezen|tratar de usted|v
+start-up|startup, empresa emergente (das, pl. Start-ups)|o
+weihnachtsfeier|fiesta de Navidad (de la empresa, de un club) (die, pl. Weihnachtsfeiern)|o
