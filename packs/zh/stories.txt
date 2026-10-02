@@ -25,9 +25,10 @@
 # measure word either. Every story was read through in traditional before it
 # was committed.
 #
-# **The key word is one segment.** The greeting is as often 吃了吗, but that is
-# three words to the segmenter, and the note sends the reader to one; 吃饭了吗
-# is as natural and its key, 吃饭, is a word.
+# **The key is the whole greeting, 吃饭了吗**, purple wherever it stands, and
+# its head word 吃饭 is what a click on the note selects (`## 1|…|吃饭了吗|吃饭`).
+# The greeting is as often 吃了吗, but the story uses one form so the key is
+# the same four characters each time.
 #
 # **The Taiwan story speaks Taiwan's Mandarin** where it differs and is common:
 # 机车 for the scooters (the mainland says 摩托车 or 电动车), 念书 for studying,
@@ -44,7 +45,7 @@
 # src/testing/samples/zh.txt. sample.txt stays in the pack for apps from before
 # stories, which do not read this file.
 
-## 1|500|CN|吃饭
+## 1|500|CN|吃饭了吗|吃饭
 吃饭了吗？
 我来中国三天了。今天中午，我在家门口看见一个老奶奶。
 
