@@ -40,7 +40,6 @@ qu'|que, o qual|o
 pour|para (finalidade)|o
 ai|eu tenho|f1s
 n'|não (com pas)|o
-être|ser, estar|v
 des|dos, das, alguns, algumas (de+les)|o
 qui|quem; que, o qual (sujeito)|o;o
 mais|mas|o
@@ -49,7 +48,6 @@ nous|nós|f1p
 avoir|ter|v
 elle|ela|f3s
 me|me, para mim|o
-bien|bem (adv.); de fato, realmente; bien sûr: claro, com certeza|o;o;n
 si|se; tão; sim (depois de uma negação)|o;o;o
 faire|fazer|v
 tout|tudo, todo; muito, bem (adv.); tout de suite: imediatamente, já|o;o;n
@@ -83,7 +81,6 @@ comme|como|o
 sais|(um fato) eu sei, você sabe|f1s
 son|seu, dele, dela; som (s.m.)|o;o
 vouloir|querer|v
-devoir|ter de, dever; dever (dinheiro)|v;v
 dit|dito; ele/ela diz|f3s;f3s
 ton|seu, teu (sing.)|o
 veux|eu quero, você quer|f1s
@@ -221,7 +218,6 @@ laisser|deixar (para trás); deixar, permitir|v;v
 problème|problema|o
 aucun|nenhum|o
 tuer|matar|v
-celui|aquele, o (m.)|o
 nouveau|novo (diferente, outro); de nouveau: de novo|o;n
 soir|noite, fim de tarde|o
 cela|isso (forma plena de ça)|o
@@ -552,7 +548,6 @@ faux|falso, errado; falso, falsificado|o;o
 es-tu|você é, está? (sing.)|f2s2p
 ensuite|depois, em seguida|o
 oublié|esquecido|o
-rire|rir|v
 idiot|idiota (pessoa); idiota, tolo|o;o
 doute|dúvida; sans doute: provavelmente; eu duvido; ele/ela duvida|o;n;f1s;f3s
 malade|doente|o
@@ -747,7 +742,6 @@ ailleurs|em outro lugar; d'ailleurs: aliás|o;n
 voler|roubar; voar|v;v
 surprise|surpresa|o
 liste|lista|o
-celui-là|aquele|o
 magnifique|magnífico, lindo|o
 présent|presente, atual|o
 contrôle|controle; verificação, fiscalização; eu controlo; ele/ela controla|o;o;f1s;f3s
@@ -918,7 +912,6 @@ projet|projeto, plano|o
 allez-vous|vocês vão, o senhor vai? (pl., formal)|f2s2p
 parier|apostar|v
 cuisine|cozinha; culinária, comida; eu cozinho; ele/ela cozinha|o;o;f1s;f3s
-celui-ci|este|o
 contact|contato|o
 centre|centro|o
 compagnie|companhia (estar com alguém); empresa|o;o
@@ -1930,7 +1923,6 @@ réserve|reserva; depósito, despensa|o;o
 escalier|escada|o
 gratuit|grátis, gratuito|o
 tenu|segurado, mantido|o
-choir|cair (literário)|v
 goûter|provar, experimentar|v
 auprès|auprès de: junto a, perto de|n
 cinglé|pirado, doido|o
@@ -3536,7 +3528,6 @@ drame|drama|o
 foire|feira|o
 auquel|ao qual|o
 éveillé|acordado|o
-quelqu'un|alguém|o
 graine|semente|o
 sportif|esportivo; esportista|o;o
 maquillage|maquiagem|o
@@ -4476,7 +4467,6 @@ fibre|fibra|o
 olive|azeitona|o
 banal|banal, comum|o
 rime|rima|o
-alentour|ao redor, nas redondezas (literário)|o
 baraque|barraco; casa, cafofo|o;o
 éthique|ética; ético|o;o
 patienter|esperar, aguardar|v
@@ -4733,7 +4723,6 @@ outre|além de; en outre: além disso|o;n
 rhume|resfriado|o
 clôture|cerca; encerramento|o;o
 loup-garou|lobisomem|o
-remordre|morder de novo|v
 sapin|pinheiro|o
 renaître|renascer|v
 trauma|trauma|o
@@ -13601,3 +13590,39 @@ fève|figurinha escondida na galette des rois (como a fava do bolo-rei); fava|o;
 ataya|ataya (chá verde senegalês com hortelã e açúcar, servido em três rodadas)|o
 teranga|teranga (hospitalidade senegalesa; palavra do uolofe)|o
 théière|bule de chá|o
+sommes|somos, estamos; somas (pl. de somme)|f1p;o
+avions|tínhamos; aviões (pl. de avion)|f1p;o
+vis|vivo, vives (sing.); vi, viste (literário); parafuso (s.)|f1s;f1s;o
+marre|en avoir marre: estar de saco cheio, estar farto; j'en ai marre: estou de saco cheio|n;n
+souris|rato, camundongo; sorrio, sorris (sing.); sorria!|o;f1s;o
+chut|psiu!, silêncio!|o
+fonds|fundos, fundo; acervo (de uma biblioteca, um museu)|o;o
+plu|agradado, gostado (ça t'a plu ?: você gostou?); chovido (il a plu)|o;o
+espèces|espécies, tipos; en espèces: em dinheiro, em espécie|o;n
+compromis|acordo, meio-termo; comprometido|o;o
+frites|batatas fritas|o
+échecs|xadrez; fracassos|o;o
+pourvu|pourvu que: desde que, contanto que; tomara que; provido (de)|n;o;o
+fins|fins, propósitos; à des fins de: para fins de; finais; finos, delgados (m. pl.)|o;n;o;o
+parcours|percurso, trajeto; trajetória (de vida); percorro|o;o;f1s
+flippant|assustador, sinistro, de dar medo|o
+environs|arredores, região; aux environs de: por volta de, cerca de|o;n
+jumelles|binóculo; gêmeas|o;o
+alentours|arredores, região; aux alentours de: por volta de, cerca de|o;n
+recours|recurso; avoir recours à: recorrer a; recurso (jurídico), apelação|o;n;o
+remords|remorso|o
+soutiens|apoio, apoias (sing.); apoios (pl. de soutien)|f1s;f3s
+pâtes|massa, macarrão; massas, pastas|o;o
+servante|criada, empregada|o
+mépris|desprezo, desdém|o
+vivres|víveres, mantimentos|o
+duchesse|duquesa|o
+clément|ameno (clima); clemente, indulgente|o;o
+bien|bem (adv.); de fato, realmente; bien sûr: claro, com certeza; bem (n.); biens: bens, propriedades|o;o;n;o;n
+être|ser, estar; ser (n.)|v;o
+devoir|ter de, dever; dever (dinheiro); dever (n.); devoirs: dever de casa, lição de casa|v;v;o;n
+celui|aquele, o que (m.); celle: aquela, a que (f.); ceux, celles: aqueles, os que, as que|o;n;n
+rire|rir; riso, risada (n.)|v;o
+celui-là|aquele, esse (m.); celle-là: aquela, essa (f.); ceux-là, celles-là: aqueles, esses|o;n;n
+celui-ci|este (m.); celle-ci: esta (f.); ceux-ci, celles-ci: estes, estas|o;n;n
+quelqu'un|alguém; alguém (em perguntas); quelques-uns: alguns, uns poucos|o;o;n

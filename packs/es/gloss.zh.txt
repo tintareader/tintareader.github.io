@@ -30,14 +30,12 @@ los|(阳性复数定冠词); 他们, 它们 (作宾语)|o;o
 te|你 (作宾语); 你自己|f2s2p;o
 con|和…一起, 用|o
 para|为了, 以便; 他/她/它停下; 停！|o;f3s;o
-ser|是 (身份, 特征)|v
 hacer|做, 制作|v
 está|(状态, 位置) 他/她/它在, 您在, 他/她/它是, 您是|f3s
 mi|我的|o
 pero|但是|o
 sí|是, 对|o
 si|如果|o
-bien|好, 很好|o
 eso|那, 那个 (中性)|o
 su|他的, 她的, 它的, 他们的, 您的|o
 las|(阴性复数定冠词); 她们, 它们 (作宾语)|o;o
@@ -48,7 +46,6 @@ bueno|好的; 嗯…, 那么… (填充词)|o;o
 todo|全部, 一切|o
 decir|说, 告诉|v
 tener|有|v
-poder|能, 可以|v
 del|…的 (de + el)|o
 como|像, 作为; 我吃|o;f1s
 aquí|这里|o
@@ -146,7 +143,6 @@ gustar|使喜欢 (me gusta = 我喜欢)|v
 encontrar|找到; encontrarse: 碰面, 感觉|v;n
 noche|夜晚, 晚上|o
 dejar|留下, 丢下; 让, 允许; dejar de: 停止 (做某事); 放弃, 戒掉|v;v;n;v
-dios|上帝, 神|o
 hace|他/她/它做, 制作; …以前; hace falta: 需要; (天气) 天… (hace frío: 天冷)|f3s;o;n;f3s
 has|你已经 (助动词, 构成完成时)|f2s2p
 amigo|朋友|o
@@ -391,7 +387,6 @@ coche|汽车|o
 difícil|困难的, 难的|o
 beber|喝|v
 fin|结束, 终点; por fin: 终于|o;n
-esposa|妻子|o
 cuidado|小心, 照顾 (¡cuidado!: 小心！)|o
 cuerpo|身体|o
 bastante|足够; 相当, 挺|o;o
@@ -1531,7 +1526,6 @@ material|材料|o
 votar|投票|v
 tribunal|法院, 法庭|o
 conexión|连接, 联系|o
-adecuar|使适应, 使合适|v
 acceso|进入, 通道|o
 oscuridad|黑暗|o
 comienzo|开始, 开端|o
@@ -2187,7 +2181,6 @@ apreciar|欣赏, 感激; 重视|v;v
 calmar|使平静, 安抚|v
 calla|安静！; 他/她/它沉默|o;f3s
 doce|十二|o
-apropiar|据为己有|v
 comparar|比较|v
 reacción|反应|o
 ensayo|排练; 散文, 论文; 试验|o;o;o
@@ -2370,7 +2363,6 @@ monje|僧侣, 修士; 修女 (阴性)|o;o
 literalmente|字面上, 真的|o
 aprecio|尊重, 好评; 我欣赏|o;f1s
 condado|县|o
-ultimar|完成, 敲定; 杀死 (拉美用法)|v;v
 sacrificio|牺牲|o
 solitario|孤独的|o
 tripulación|机组人员, 船员|o
@@ -2547,7 +2539,6 @@ egoísta|自私的|o
 guión|剧本; 连字符|o;o
 interrogar|审问, 讯问|v
 célula|细胞|o
-duque|公爵|o
 ajustar|调整|v
 sinceramente|真诚地, 老实说|o
 raíz|根; a raíz de: 由于, 在…之后|o;n
@@ -2915,7 +2906,6 @@ cumplido|恭维, 赞美|o
 condena|判刑, 定罪|o
 once|十一|o
 presa|猎物; 水坝|o;o
-destinar|分配, 派驻|v
 aparato|装置, 设备|o
 revés|挫折; al revés: 反过来, 相反|o;n
 acelerar|加速|v
@@ -2939,7 +2929,6 @@ década|十年|o
 ponerlo|放它|v
 desmayar|晕倒|v
 fabricar|制造|v
-cuñado|姐夫, 妹夫, 大伯子, 小叔子|o
 autor|作者; 肇事者, 凶手|o;o
 instrumento|工具, 乐器|o
 mosca|苍蝇|o
@@ -3615,7 +3604,6 @@ consuelo|安慰|o
 llamarla|给她打电话, 叫她|v
 sabiduría|智慧|o
 repartir|分发, 分配|v
-linear|线性的|o
 terriblemente|非常, 极其|o
 sos|你是 (voseo 用法)|f2s2p
 preocuparme|我担心|v
@@ -3658,7 +3646,6 @@ matarnos|杀了我们|v
 taco|墨西哥卷饼; 脏话; 鞋跟|o;o;o
 canalla|无赖, 恶棍|o
 cojo|瘸的|o
-suegro|岳父, 公公|o
 incorrecto|不正确的|o
 danza|舞蹈|o
 deberia|我/他/她应该|f1s
@@ -3833,7 +3820,6 @@ periodo|时期, 期间|o
 insinuar|暗示|v
 tabaco|烟草|o
 desafiar|挑战, 违抗|v
-victimar|杀害, 使受害|v
 coordenadas|坐标|o
 automóvil|汽车|o
 descartar|排除, 丢弃|v
@@ -4639,7 +4625,6 @@ arteria|动脉|o
 significativo|重要的, 有意义的|o
 calibre|口径|o
 ciervo|鹿|o
-colorar|着色|v
 rompecabezas|拼图, 谜题|o
 frustrar|挫败, 使受挫|v
 dramático|戏剧性的|o
@@ -13473,3 +13458,64 @@ tomá|拿着！(voseo 用法)|o
 bombilla|灯泡; 喝马黛茶用的金属吸管|o;o
 calabaza|南瓜; 葫芦 (也指喝马黛茶的葫芦杯)|o;o
 fruta|水果 (苹果, 橙子, 香蕉等)|o
+fuera|外面, 在外; fuera de: 在……之外; 出去!, 滚出去!; 是, 去 (ser, ir 的虚拟式)|o;n;o;f3s
+ven|来! (venir); 他们看见, 你们看见 (复数, ver)|o;f3p
+fui|我是 (过去); 我去了|f1s;f1s
+ello|它, 那 (中性); por ello: 因此; para ello: 为此|f3s;n;n
+fueron|他们是, 你们是 (复数, 过去); 他们去了, 你们去了 (复数)|f3p;f3p
+divertido|好玩, 有趣, 逗乐; 觉得好笑的|o;o
+ocupado|忙, 忙碌; 被占用, 有人|o;o
+fuiste|你是 (过去); 你去了|f2s2p;f2s2p
+encantado|很高兴认识你; 非常高兴; 着了魔的, 被施了魔法的|o;o;o
+privado|私人的, 私有的; 被剥夺的|o;o
+viva|万岁!, 好哇!; 活着的 (阴性); 但愿活着 (vivir 的虚拟式)|o;o;o
+debido|应有的, 适当的; debido a: 由于, 因为; 欠下的|o;n;o
+dispuesto|愿意的, 准备好的; estar dispuesto a: 愿意|o;n
+despierta|醒着的 (阴性); 醒醒!; 他/她醒来|o;o;f3s
+fuimos|我们是 (过去); 我们去了|f1p;f1p
+aburrido|无聊的, 乏味的; 感到无聊的|o;o
+dura|硬的, 坚韧的 (阴性); 它持续|o;f3s
+adecuado|合适的, 恰当的, 对的|o
+fuese|是 (ser 的虚拟式); 去 (ir 的虚拟式)|f3s;o
+fueras|你是 (ser 的虚拟式); 你去 (ir 的虚拟式)|f2s2p;f2s2p
+felicidades|恭喜!; 生日快乐!|o;o
+crea|相信, 认为 (creer 的虚拟式); 他/她创造 (crear)|o;f3s
+consigo|和他, 和她, 和自己, 和您, 和他们 (一起); 我得到, 我设法做到 (conseguir)|o;f1s
+zorra|雌狐; 婊子 (粗口)|o;o
+apropiado|适当的, 合适的|o
+creas|你相信 (creer 的虚拟式); 你创造 (crear)|f2s2p;f2s2p
+comprometido|订了婚的; 投入的, 有担当的; 受到危害的|o;o;o
+enfrente|对面; enfrente de: 在……对面, 在……前面|o;n
+sed|渴, 口渴; tener sed: 口渴|o;n
+destinado|注定的; estar destinado a: 注定要; 被派驻的, 被分配的|o;n;o
+medias|长筒袜, 连裤袜; 袜子 (拉丁美洲); a medias: 一半, 不彻底|o;o;n
+educado|有礼貌的, 有教养的; 受过教育的|o;o
+encubierto|卧底的; 隐蔽的, 秘密的; 被掩盖的|o;o;o
+honrado|诚实的, 正直的; 感到荣幸的|o;o
+celos|嫉妒, 醋意; tener celos: 吃醋, 嫉妒; dar celos: 让人吃醋|o;n;n
+opuesto|相反的, 对面的; 反对的|o;o
+fuéramos|我们是 (ser 的虚拟式); 我们去 (ir 的虚拟式)|f1p;f1p
+crean|他们相信 (creer 的虚拟式); 他们创造 (crear)|f3p;f3p
+lentes|眼镜 (拉丁美洲); 镜片, 透镜; lentes de contacto: 隐形眼镜|o;o;n
+determinado|某个, 特定的, 既定的; 坚定的, 果断的|o;o
+escondidas|a escondidas: 偷偷地, 背着人; 被藏起来的 (阴性复数)|n;o
+cruce|交叉口, 路口, 十字路口; (让)他/她穿过|o;f3s
+colorado|红的, 脸红的; ponerse colorado: 脸红|o;n
+alrededores|周围, 郊区; en los alrededores: 在附近|o;n
+mudarte|搬家|v
+adecuadamente|恰当地, 适当地|o
+cargador|充电器; 弹匣|o;o
+racial|种族的|o
+rehusar|拒绝|v
+remar|划船|v
+chuleta|排骨, 肉排|o
+rígido|僵硬的, 刚性的|o
+coleccionista|收藏家|o
+ser|是 (身份, 特征); 存在, 生物 (名词); seres humanos: 人类|v;o;n
+bien|好, 很好; 善, 好处 (名词); bienes: 财产, 财物, 资产|o;o;n
+poder|能, 能够; 权力 (名词)|v;o
+dios|上帝; 神; 女神 (阴性)|o;o;o
+esposa|妻子; esposas: 手铐|o;n
+duque|公爵; 公爵夫人, 女公爵 (阴性)|o;o
+cuñado|姐夫, 妹夫, 大伯, 小叔; 嫂子, 弟媳, 姑子, 小姨子 (阴性)|o;o
+suegro|岳父, 公公; 岳母, 婆婆 (阴性)|o;o

@@ -40,7 +40,6 @@ qu'|引导从句 (连词), …的 (关系代词)|o
 pour|为了 (目的)|o
 ai|我有|f1s
 n'|不 (与 pas 连用)|o
-être|是, 存在|v
 des|一些 (de+les), …的|o
 qui|谁; …的 (关系代词, 作主语)|o;o
 mais|但是|o
@@ -49,7 +48,6 @@ nous|我们|f1p
 avoir|有|v
 elle|她|f3s
 me|我, 给我 (作宾语)|o
-bien|好, 很好 (副词); 确实, 的确; bien sûr: 当然|o;o;n
 si|如果; 那么, 如此; 不, 是的 (用于回答否定问句)|o;o;o
 faire|做, 制作|v
 tout|全部, 一切; 很, 十分 (副词); tout de suite: 马上, 立刻|o;o;n
@@ -83,7 +81,6 @@ comme|像, 作为|o
 sais|(事实) 我/你知道|f1s
 son|他的, 她的, 它的; 声音 (名词)|o;o
 vouloir|想要|v
-devoir|必须, 应该; 欠|v;v
 dit|说过的, 所说的; 他/她/它说|f3s;f3s
 ton|你的 (单数)|o
 veux|我/你想要|f1s
@@ -221,7 +218,6 @@ laisser|留下; 让|v;v
 problème|问题|o
 aucun|没有任何, 一个也没有|o
 tuer|杀|v
-celui|那个 (阳性)|o
 nouveau|新的 (不同的, 另一个); de nouveau: 再次|o;n
 soir|晚上|o
 cela|那, 那个 (ça 的完整形式)|o
@@ -552,7 +548,6 @@ faux|错误的, 不对的; 假的|o;o
 es-tu|你是…吗 (单数)|f2s2p
 ensuite|然后, 接着|o
 oublié|被忘记的|o
-rire|笑|v
 idiot|白痴, 傻瓜; 愚蠢的|o;o
 doute|怀疑; sans doute: 很可能; 我怀疑; 他/她怀疑|o;n;f1s;f3s
 malade|生病的|o
@@ -747,7 +742,6 @@ ailleurs|别处; d'ailleurs: 此外|o;n
 voler|偷; 飞|v;v
 surprise|惊喜, 惊讶|o
 liste|名单, 清单|o
-celui-là|那一个|o
 magnifique|壮丽的, 极美的|o
 présent|现在的, 在场的|o
 contrôle|控制; 检查; 我控制; 他/她控制|o;o;f1s;f3s
@@ -918,7 +912,6 @@ projet|项目, 计划|o
 allez-vous|你们要去…吗, 您要去…吗 (复数或尊称)|f2s2p
 parier|打赌|v
 cuisine|厨房; 烹饪; 我做饭; 他/她做饭|o;o;f1s;f3s
-celui-ci|这一个|o
 contact|联系, 接触|o
 centre|中心|o
 compagnie|陪伴; 公司|o;o
@@ -1928,7 +1921,6 @@ réserve|储备; 储藏室|o;o
 escalier|楼梯|o
 gratuit|免费的|o
 tenu|被拿着的, 被维持的|o
-choir|跌落 (书面语)|v
 goûter|品尝|v
 auprès|auprès de: 在…旁边, 向|n
 cinglé|疯的, 疯疯癫癫的|o
@@ -3530,7 +3522,6 @@ drame|戏剧, 悲剧|o
 foire|集市, 交易会|o
 auquel|向那个, 对于那个 (关系词)|o
 éveillé|醒着的|o
-quelqu'un|某人, 有人|o
 graine|种子|o
 sportif|爱运动的; 运动员|o;o
 maquillage|化妆|o
@@ -4466,7 +4457,6 @@ fibre|纤维|o
 olive|橄榄|o
 banal|平庸的, 普通的|o
 rime|韵|o
-alentour|在周围 (书面语)|o
 baraque|棚屋; 房子 (口语)|o;o
 éthique|伦理; 伦理的|o;o
 patienter|耐心等待|v
@@ -4721,7 +4711,6 @@ outre|除…之外; en outre: 此外|o;n
 rhume|感冒|o
 clôture|围栏; 结束, 闭幕|o;o
 loup-garou|狼人|o
-remordre|再咬|v
 sapin|冷杉|o
 renaître|重生|v
 trauma|创伤|o
@@ -13601,3 +13590,39 @@ fève|国王饼里藏的小瓷偶; 蚕豆|o;o
 ataya|ataya (塞内加尔绿茶, 加薄荷和糖, 分三轮喝)|o
 teranga|teranga (塞内加尔式的好客; 沃洛夫语词)|o
 théière|茶壶|o
+sommes|我们是; 总数, 金额 (somme 的复数)|f1p;o
+avions|我们曾有; 飞机 (avion 的复数)|f1p;o
+vis|我住, 你住 (单数); 我看见了, 你看见了 (书面语); 螺丝 (名词)|f1s;f1s;o
+marre|en avoir marre: 受够了, 烦透了; j'en ai marre: 我受够了|n;n
+souris|老鼠, 鼠标; 我微笑, 你微笑 (单数); 笑一笑!|o;f1s;o
+chut|嘘!, 安静!|o
+fonds|资金, 基金; 馆藏 (图书馆, 博物馆的)|o;o
+plu|喜欢 (ça t'a plu ?: 你喜欢吗?); 下过雨 (il a plu)|o;o
+espèces|物种, 种类; en espèces: 用现金|o;n
+compromis|妥协, 折中; 受损害的, 受牵连的|o;o
+frites|薯条|o
+échecs|国际象棋; 失败|o;o
+pourvu|pourvu que: 只要; 但愿; 具备的 (有……的)|n;o;o
+fins|目的; à des fins de: 为了……的目的; 结尾, 末尾; 细的, 薄的 (阳性复数)|o;n;o;o
+parcours|路线, 路程; 经历, 人生道路; 我走遍|o;o;f1s
+flippant|吓人的, 毛骨悚然的|o
+environs|附近, 周边; aux environs de: 大约, 在……左右|o;n
+jumelles|双筒望远镜; 双胞胎 (女)|o;o
+alentours|附近, 周边; aux alentours de: 大约, 在……左右|o;n
+recours|求助, 手段; avoir recours à: 求助于, 诉诸; 上诉 (法律)|o;n;o
+remords|悔恨, 内疚|o
+soutiens|我支持, 你支持 (单数); 支持 (soutien 的复数)|f1s;f3s
+pâtes|意大利面; 面团, 糊状物|o;o
+servante|女仆, 女佣|o
+mépris|蔑视, 轻视|o
+vivres|食物, 粮食供应|o
+duchesse|公爵夫人|o
+clément|温和的 (气候); 宽容的|o;o
+bien|好, 很好 (副词); 确实, 的确; bien sûr: 当然; 善, 好处 (名词); biens: 财产, 财物|o;o;n;o;n
+être|是, 在, 存在; 生命, 存在物 (名词)|v;o
+devoir|必须, 应该; 欠 (钱); 义务, 职责 (名词); devoirs: 家庭作业|v;v;o;n
+celui|那个 (阳性); celle: 那个 (阴性); ceux, celles: 那些|o;n;n
+rire|笑; 笑声 (名词)|v;o
+celui-là|那一个 (阳性); celle-là: 那一个 (阴性); ceux-là, celles-là: 那些|o;n;n
+celui-ci|这一个 (阳性); celle-ci: 这一个 (阴性); ceux-ci, celles-ci: 这些|o;n;n
+quelqu'un|某人, 有人; 任何人 (疑问句中); quelques-uns: 几个, 一些|o;o;n

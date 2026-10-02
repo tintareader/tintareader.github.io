@@ -34,18 +34,18 @@ qu'||que|bound
 pour|||
 ai||avoir|
 n'||ne|bound
-être|||
 des|||
+être|||
 qui|||
 mais|||
+faire|||
 dans|||
 nous|||
-avoir|||
 elle|||
+avoir|||
 me|||
 bien|||
 si|||
-faire|||
 tout|||
 du||de,le|contr
 y|||
@@ -54,12 +54,12 @@ non|||
 t'||te|bound
 avec|||
 plus|||
-fait||faire|nm
 mon|||
 m'||me|bound
 te|||
-au||à,le|contr
 dire|||
+au||à,le|contr
+fait||faire|nm
 moi|||
 s'||se,si|bound
 oui|||
@@ -72,20 +72,20 @@ sur|||
 quoi|||
 pouvoir|||
 votre|||
-voir|||
 se|||
 comme|||
 sais||savoir|
+voir|||
 son|||
 vouloir|||
 devoir|||
-dit||dire|
 ton|||
 veux||vouloir|
 ici|||
 ma||mon|
 toi|||
 est-ce|||
+dit||dire|
 lui|||
 savoir|||
 venir|||
@@ -96,8 +96,8 @@ où|||
 là|||
 rien|||
 cette||ce|
-penser|||
 sont||être|
+penser|||
 quand|||
 peux||pouvoir|
 avez||avoir|
@@ -143,8 +143,8 @@ encore|||
 besoin|||nm
 homme|||nm
 mes||mon|
-vie|||nf
 sûr|||
+vie|||nf
 leur|||
 avait||avoir|
 accord|||nm
@@ -182,12 +182,12 @@ essayer|||
 avais||avoir|
 dieu|||nm
 connaître|||
-sortir|||
 crois||croire|
 après|||
 aux||à,les|contr
-partir|||
+sortir|||
 ouais|||
+partir|||
 ok|||
 mal|||nm
 chez|||
@@ -205,12 +205,12 @@ chercher|||
 enfant|||nmf
 demander|||
 gens|||nm
+voilà|||
 passé||passer|nm
 heure|||nf
 maison|||nf
 rester|||
 ca||ça|
-voilà|||
 dernier|||
 tenir|||
 laisser|||
@@ -225,7 +225,6 @@ premier|||
 nom|||nm
 passer|||
 toute||tout|
-donner|||
 raison|||nf
 reste||rester|nm
 monsieur|||nm
@@ -234,19 +233,20 @@ salut|||
 commencer|||
 moment|||nm
 argent|||nm
-plaire|||
 truc|||nm
 bonjour|||
 trouvé||trouver|
+donner|||
 moins|||
+plaire|||
 maman|||nf
 passe||passer|
 air|||nm
-revenir|||
 papa|||nm
 entre|||
 travailler|||
 affaire|||nf
+revenir|||
 famille|||nf
 main|||nf
 peur|||nf
@@ -272,6 +272,7 @@ porte|||nf;v;v
 fou|||
 minute|||nf
 pris||prendre|
+sommes||être,somme|
 manger|||
 meilleur|||
 rendre|||
@@ -288,7 +289,6 @@ elles|||
 aujourd'hui|||
 demain|||
 hein|||
-fini||finir|
 entendu||entendre|
 tard|||
 puis|||
@@ -302,6 +302,7 @@ souvenir|||nm
 chéri|||nm
 frère|||nm
 super|||
+fini||finir|
 contre|||
 espérer|||
 ensemble|||
@@ -309,6 +310,7 @@ demande|||nf
 semaine|||nf
 importer|||
 amour|||nm
+partie|||nf
 gros|||
 occuper|||
 sang|||nm
@@ -319,13 +321,12 @@ vivre|||
 cas|||nm
 sous|||
 continuer|||
-entrer|||
 perdu||perdre|
 tué||tuer|
-partie|||nf
 mauvais|||
 genre|||nm
 aide|||nf
+entrer|||
 type|||nm
 police|||nf
 seulement|||
@@ -359,6 +360,7 @@ compte|||nm
 compris||comprendre|
 droit|||nm
 arme|||nf
+sauver|||
 belle||beau|
 ni|||
 train|||nm
@@ -386,18 +388,14 @@ tellement|||
 heureux|||
 adorer|||
 eau|||nf
-sauver|||
 envoyer|||
 pardon|||nm
 venu||venir|
-montrer|||
 suite|||nf
 cause|||nf
 là-bas|||
 vers|||nm
-tomber|||
 devant|||
-fin|||nf
 prier|||
 changer|||
 enfin|||
@@ -409,9 +407,12 @@ rappeler|||
 parti||partir|
 photo|||nf
 bureau|||nm
+montrer|||
 loin|||
 boulot|||nm
+fin|||nf
 as-tu||avoir|
+tomber|||
 possible|||
 donne||donner|
 aura||avoir|
@@ -419,6 +420,7 @@ docteur|||nm
 répondre|||
 plutôt|||
 chef|||nm
+finir|||
 école|||nf
 jeu|||nm
 hier|||
@@ -450,7 +452,6 @@ propre|||
 plan|||nm
 parent|||nm
 marche|||nf
-finir|||
 guerre|||nf
 servir|||
 près|||
@@ -459,7 +460,6 @@ agir|||
 agent|||nm
 dessus|||
 mariage|||nm
-rencontrer|||
 chien|||nm
 boire|||
 vas-y||aller|
@@ -480,6 +480,7 @@ ben|||
 capitaine|||nm
 tirer|||
 foutre|||
+rencontrer|||
 envie|||nf
 porter|||
 ordre|||nm
@@ -518,7 +519,6 @@ autant|||
 carte|||nf
 protéger|||
 secret|||nm
-sauf|||
 facile|||
 lire|||
 difficile|||
@@ -526,6 +526,7 @@ terminer|||
 meurtre|||nm
 apporter|||
 préparer|||
+sorte|||nf
 quatre|||num
 route|||nf
 faute|||nf;nf;prep
@@ -579,13 +580,13 @@ ceci|||
 million|||nm
 jeter|||
 voulu||vouloir|
-sorte|||nf
 supposer|||
 envoyé||envoyer|
 simple|||
 copain|||nm
 café|||nm
 client|||nm
+sauf|||
 hôpital|||nm
 écrit||écrire|
 tôt|||
@@ -665,7 +666,6 @@ honneur|||nm
 sale|||
 clé|||nf
 rendez-vous|||nm
-fond|||nm
 joue|||nf
 ancien|||
 certain|||
@@ -678,7 +678,7 @@ loi|||nf
 blanc|||
 libre|||
 assurer|||
-coucher|||
+choisir|||
 soeur||sœur|nf
 voyage|||nm;v;v
 messieurs||monsieur|nm
@@ -707,6 +707,7 @@ dossier|||nm
 remettre|||
 excuse|||nf
 stupide|||
+boîte|||nf
 noël|||nm
 âge|||nm
 pote|||nm
@@ -723,9 +724,7 @@ amoureux|||
 réfléchir|||
 créer|||
 armée|||nf
-choisi||choisir|
 abandonner|||
-réussi||réussir|
 blessé||blesser|
 patient|||nm
 dix|||num
@@ -735,6 +734,7 @@ cheval|||nm
 invité|||nm
 empêcher|||
 fermer|||
+paraître|||
 froid|||
 clair|||
 compter|||
@@ -759,6 +759,7 @@ neuf|||
 anniversaire|||nm
 con|||nm
 veux-tu||vouloir|
+réussi||réussir|
 simplement|||
 sympa|||
 craindre|||
@@ -773,10 +774,9 @@ décidé||décider|
 refuser|||
 dangereux|||
 baiser|||nm
-sourire|||nm
+coucher|||
 complètement|||
 dos|||nm
-espèce|||nf
 public|||
 paix|||nf
 ravi|||
@@ -785,8 +785,10 @@ fier|||
 impression|||nf
 chanson|||nf
 mener|||
+montre|||nf
 arrêté||arrêter|
 présenter|||
+mission|||nf
 journal|||nm
 témoin|||nm
 okay||ok|
@@ -808,19 +810,19 @@ autour|||
 prévoir|||
 faim|||nf
 exact|||
+fond|||nm
 promettre|||
 camp|||nm
 excuser|||
+sortie|||nf
 décision|||nf
 arrière|||nm
 colère|||nf
 papier|||nm
-boîte|||nf
 décider|||
 proche|||
 forme|||nf;adj
 coin|||nm
-paraître|||
 dégager|||
 gagné||gagner|
 or|||nm
@@ -834,7 +836,6 @@ su||savoir|
 soldat|||nm
 gauche|||
 tranquille|||
-mission|||nf
 âme|||nf
 professeur|||nm
 visite|||nf;v;v
@@ -849,21 +850,20 @@ bar|||nm
 dedans|||
 information|||nf
 poste|||nm
-choisir|||
 prouver|||
 chacun|||
 offre|||nf;v;v
 allez-y||aller|
 surveiller|||
 juge|||nm;v;v
-épouser|||
 drogue|||nf
 signifier|||
 intéressant|||
-montre|||nf
 soleil|||nm
 touche|||nf
+tombe|||nf
 mur|||nm
+espèce|||nf
 blague|||nf;v;v
 déjeuner|||nm
 manquer|||
@@ -880,10 +880,10 @@ classe|||nf
 danger|||nm
 enquête|||nf;v;v
 bleu|||
+voie|||nf
 sentiment|||nm
 responsable|||
 trou|||nm
-sortie|||nf
 souffrir|||
 but|||nm
 animal|||nm
@@ -913,9 +913,11 @@ chat|||nm
 bord|||nm
 merveilleux|||
 gueule|||nf
+épouser|||
 réunion|||nf
 tiré||tirer|
 tourner|||
+choisi||choisir|
 projet|||nm
 allez-vous||aller|
 parier|||
@@ -944,13 +946,13 @@ bête|||nf
 lu||lire|
 excellent|||
 fiche|||nf
+revenu||revenir|
 faites-vous||faire|
 appartement|||nm
 spécial|||
 pourtant|||
 change|||nm
 droite|||nf
-tombe|||nf
 respirer|||
 travers|||nm
 horrible|||
@@ -1020,7 +1022,7 @@ payé||payer|
 action|||nf;nf
 obligé||obliger|
 brûler|||
-environ|||
+entrée|||nf
 inutile|||
 peuple|||nm
 trace|||nf
@@ -1032,7 +1034,6 @@ découvert||découvrir|adj;nm
 enfuir|||
 pierre|||nf
 silence|||nm
-voie|||nf
 commandant|||nm
 connu||connaître|
 construire|||
@@ -1063,6 +1064,7 @@ est-elle||être|
 prise|||nf;nf;adj
 assis||asseoir|
 félicitation|||nf
+sourire|||nm
 gérer|||
 enceinte|||
 nettoyer|||
@@ -1079,6 +1081,7 @@ match|||nm
 charge|||nf;nf;nf
 impliquer|||
 zone|||nf
+rencontre|||nf;v;v
 traiter|||
 ridicule|||
 approche|||nf;v;v;v
@@ -1090,7 +1093,6 @@ connard|||nm
 morceau|||nm
 note|||nf;nf;nf
 innocent|||
-entrée|||nf
 dent|||nf
 réparer|||
 vin|||nm
@@ -1116,6 +1118,7 @@ coûter|||
 mise|||nf;nf;nf;nf;v
 partager|||
 disparaître|||
+environ|||
 couleur|||nf
 poisson|||nm
 arbre|||nm
@@ -1154,7 +1157,6 @@ réaliser|||
 utilisé||utiliser|
 attirer|||
 pose||poser|
-revenu||revenir|
 asseyez-vous||asseoir|
 nécessaire|||
 nord|||nm
@@ -1167,6 +1169,7 @@ voisin|||nm
 terrain|||nm
 oreille|||nf
 occupé||occuper|
+donnée|||nf
 tante|||nf
 séparer|||
 conversation|||nf
@@ -1182,6 +1185,7 @@ solution|||nf
 régler|||
 oiseau|||nm
 tombé||tomber|
+avions||avoir,avion|
 huit|||num
 fuir|||
 sud|||nm
@@ -1238,7 +1242,7 @@ fantôme|||nm
 menace|||nf;v;v
 vacance|||nf
 pousser|||
-rencontre|||nf;v;v
+vis||vivre,voir|
 unité|||nf
 intention|||nf
 charmant|||
@@ -1296,6 +1300,7 @@ art|||nm
 entreprise|||nf
 gay|||
 beauté|||nf
+épouse||épouser|nf;v;v
 retenir|||
 contacter|||
 acte|||nm
@@ -1334,12 +1339,12 @@ considérer|||
 bu||boire|
 permis|||nm
 tais-toi||taire|
+réussir|||
 après-midi|||nm
 imbécile|||nm
 adieu|||
 assieds-toi||asseoir|
 date|||nf
-marrer|||
 parmi|||
 remplacer|||
 bonheur|||nm
@@ -1365,6 +1370,7 @@ militaire|||adj;nm
 atteindre|||
 inventer|||
 lors|||
+pensée|||nf
 dis-lui||dire|
 regard|||nm
 russe|||
@@ -1386,6 +1392,7 @@ interroger|||
 proposer|||
 suis-je||être|
 interdit|||
+couche|||nf
 étudier|||
 foutu||foutre|
 démon|||nm
@@ -1415,8 +1422,6 @@ chasse|||nf
 prudent|||
 procureur|||nm
 formidable|||
-épouse||épouser|nf;v;v
-réussir|||
 troisième|||
 tribunal|||nm
 inconnu|||
@@ -1454,6 +1459,7 @@ lait|||nm
 professionnel|||
 amusant|||
 joueur|||nm
+marre|||adv
 pain|||nm
 foi|||nf
 paie|||nf
@@ -1734,7 +1740,6 @@ filmer|||
 adorable|||
 chèque|||nm
 voyager|||
-soutien|||nm
 guérir|||
 observer|||
 intéressé||intéresser|
@@ -1762,7 +1767,6 @@ véritable|||
 indien|||
 remplir|||
 puce|||nf
-tendre|||
 annonce|||nf;v;v
 forêt|||nf
 bouton|||nm
@@ -1799,7 +1803,6 @@ zéro|||num
 usine|||nf
 viser|||
 inquiet|||
-dépenser|||
 dépêche-toi||dépêcher|
 crever|||
 amitié|||nf
@@ -1817,6 +1820,7 @@ confier|||
 cardiaque|||
 agence|||nf
 brisé||briser|
+souris|||nf
 sauvage|||
 romantique|||
 mêler|||
@@ -1854,7 +1858,6 @@ valise|||nf
 jury|||nm
 uniforme|||nm
 lundi|||nm
-couche|||nf
 maintenir|||
 gang|||nm
 gardé||garder|
@@ -1904,7 +1907,6 @@ original|||
 venger|||
 rayon|||nm
 désir|||nm
-échec|||nm
 spéciale||spécial|
 document|||nm
 tâche|||nf
@@ -1938,7 +1940,6 @@ réserve|||nf
 escalier|||nm
 gratuit|||
 tenu||tenir|
-choir|||
 goûter|||
 auprès|||
 cinglé|||
@@ -2021,6 +2022,7 @@ illégal|||
 pousse||pousser|
 révéler|||
 rentrée|||nf
+tendre|||
 crâne|||nm
 rapprocher|||
 masque|||nm
@@ -2030,6 +2032,7 @@ quiconque|||
 otage|||nm
 vole||voler|
 piscine|||nf
+soutien|||nm
 accueillir|||
 lâche-moi||lâcher|
 témoigner|||
@@ -2038,7 +2041,6 @@ conférence|||nf;nf
 sucre|||nm
 chanceux|||
 virus|||nm
-voiler|||
 réellement|||
 critique|||nf
 fichu|||
@@ -2059,11 +2061,11 @@ chouette|||nf
 origine|||nf
 manteau|||nm
 dépasser|||
+chut|||interj
 larme|||nf
 raccrocher|||
 porc|||nm
 moquer|||
-botter|||
 croyez-moi||croire|
 élément|||nm
 mile|||nm
@@ -2183,11 +2185,13 @@ communauté|||nf
 réglé||régler|
 extraordinaire|||
 cérémonie|||nf
+botte|||nf
 front|||nm
 brave|||
 jus|||nm
 dragon|||nm
 rompu||rompre|
+dépenser|||
 région|||nf
 obliger|||
 kilomètre|||nm
@@ -2229,6 +2233,7 @@ alliance|||nf
 jouet|||nm
 rompre|||
 unir|||
+fonds|||nm
 ménage|||nm
 promener|||
 rêvé||rêver|
@@ -2381,7 +2386,6 @@ domaine|||nm;nm
 jugement|||nm
 lion|||nm
 relever|||
-flipper|||
 appelle-moi||appeler|
 figure|||nf;nf;v
 fidèle|||
@@ -2395,7 +2399,6 @@ oeuvre||œuvre|nf;nf
 passager|||nm
 cercle|||nm
 portée|||nf
-jumeau|||nm
 rang|||nm
 palais|||nm
 orange|||nf
@@ -2431,7 +2434,6 @@ vilain|||
 piano|||nm
 excitant|||
 signature|||nf
-boiter|||
 nucléaire|||
 raisonnable|||
 publier|||
@@ -2464,7 +2466,6 @@ lentement|||
 large|||
 accomplir|||
 dénoncer|||
-parcourir|||
 scénario|||nm
 foncer|||
 disparition|||nf
@@ -2534,6 +2535,7 @@ fait-il||faire|
 tradition|||nf
 agression|||nf
 huile|||nf
+échec|||nm
 grimper|||
 télévision|||nf
 signaler|||
@@ -2542,7 +2544,6 @@ repose||reposer|
 câble|||nm
 carrément|||
 drogué|||nm
-compromettre|||
 producteur|||nm
 appart|||nm
 tatouage|||nm
@@ -2559,7 +2560,6 @@ assise||asseoir|
 foot|||nm
 nier|||
 dégoûtant|||
-ruiner|||
 disponible|||
 patience|||nf
 connecter|||
@@ -2619,7 +2619,6 @@ invite||inviter|
 complice|||nm;adj
 elle-même|||
 établir|||
-pensée|||nf
 livraison|||nf
 mental|||
 marqué||marquer|
@@ -2710,7 +2709,6 @@ chanteur|||nm
 national|||
 trafic|||nm
 compétition|||nf
-donnée|||nf
 batterie|||nf
 adaptation|||nf
 craquer|||
@@ -2768,6 +2766,7 @@ caractère|||nm
 ouvrier|||nm
 branche|||nf
 drapeau|||nm
+plu||plaire,pleuvoir|
 masse|||nf
 eue||avoir|
 absent|||
@@ -2863,6 +2862,7 @@ langage|||nm
 invisible|||
 portrait|||nm
 jour-là||jour|
+tendu||tendre|
 zombie|||nm
 commandement|||nm
 douloureux|||
@@ -2882,6 +2882,7 @@ pénis|||nm
 crois-tu||croire|
 décoller|||
 chrétien|||
+mater|||
 voyou|||nm
 révolution|||nf
 casino|||nm
@@ -2941,7 +2942,6 @@ fabrique||fabriquer|
 rejoint||rejoindre|
 taisez-vous||taire|
 dépêche||dépêcher|
-parer|||
 bougie|||nf
 solitaire|||
 interrogatoire|||nm
@@ -3016,7 +3016,6 @@ identifié||identifier|
 manipuler|||
 restant|||
 buter|||
-duc|||nm
 timide|||
 tordu|||
 consulter|||
@@ -3033,7 +3032,6 @@ statue|||nf
 amateur|||nm
 congrès|||nm
 détends-toi||détendre|
-frit|||
 pratiquement|||
 immense|||
 budget|||nm
@@ -3075,7 +3073,6 @@ insecte|||nm
 mail|||nm
 planifier|||
 dépêcher|||
-financer|||
 autopsie|||nf
 biscuit|||nm
 montre-moi||montrer|
@@ -3120,7 +3117,6 @@ accéder|||
 harceler|||
 soupçonner|||
 badge|||nm
-coordonner|||
 représentant|||nm
 défoncé||défoncer|
 publicité|||nf
@@ -3129,6 +3125,7 @@ grec|||
 ordonner|||
 sel|||nm
 chapitre|||nm
+jumeau|||nm
 dis-leur||dire|
 regardant||regarder|
 riz|||nm
@@ -3151,6 +3148,7 @@ définitivement|||
 bracelet|||nm
 fréquence|||nf
 environnement|||nm
+flipper|||
 baron|||nm
 traverse||traverser|
 adversaire|||nm
@@ -3234,7 +3232,6 @@ détecteur|||nm
 héritage|||nm
 localiser|||
 ecoute-moi||écouter|
-mat|||
 inconscient|||
 affecter|||
 voile|||
@@ -3293,6 +3290,7 @@ calcul|||nm
 drap|||nm
 musicien|||nm
 planche|||nf
+ruiner|||
 fragile|||
 effrayer|||
 supprimer|||
@@ -3306,6 +3304,7 @@ enlèvement|||nm
 assumer|||
 funérailles|||nf
 plume|||nf
+ruine|||nf
 légitime|||
 chaos|||nm
 spatial|||
@@ -3358,6 +3357,7 @@ exciter|||
 cheville|||nf
 discuté||discuter|
 mouton|||nm
+coordonnée|||nf
 extraterrestre|||nm
 introduire|||
 remarquable|||
@@ -3374,6 +3374,8 @@ avril|||nm
 massage|||nm
 boue|||nf
 aîné|||nm
+dépense|||nf
+parcourir|||
 pipi|||nm
 cran|||nm
 tv|||nf
@@ -3546,13 +3548,13 @@ entrain|||nm
 sms|||nm
 structure|||nf
 suprême|||
-pâte|||nf
 était-il||être|
 festival|||nm
 rappelle-toi||rappeler|
 distraire|||
 drame|||nm
 foire|||nf
+espèces|||nf
 auquel||à,lequel|contr
 éveillé|||
 quelqu'un|||
@@ -3586,7 +3588,6 @@ mettez-vous||mettre|
 exposition|||nf
 mou|||
 patate|||nf
-tendu||tendre|
 évanoui||évanouir|
 punition|||nf
 grossesse|||nf
@@ -3633,6 +3634,7 @@ crainte|||nf
 fondation|||nf
 vulnérable|||
 immunité|||nf
+compromis|||nm
 minimum|||nm
 serait-ce||être|
 terriblement|||
@@ -3763,6 +3765,7 @@ passez-moi||passer|
 profondeur|||nf
 formulaire|||nm
 novembre|||nm
+finance|||nf
 opéra|||nm
 combattant|||nm
 prends-le||prendre|
@@ -3779,9 +3782,9 @@ sobre|||
 quête|||nf
 touriste|||nm
 allant||aller|
-mater|||
 fringues|||nf
 batte|||nf
+botter|||
 clou|||nm
 tennis|||nm
 brique|||nf
@@ -3825,7 +3828,6 @@ périmètre|||nm
 argument|||nm
 espionner|||
 terrifié|||
-méprendre|||
 bizarrement|||
 météo|||nf
 char|||nm
@@ -3840,6 +3842,7 @@ vanter|||
 aurait-il||avoir|
 contenter|||
 désordre|||nm
+duc|||nm
 refait||refaire|
 transmission|||nf
 décharge|||nf
@@ -3859,6 +3862,7 @@ spécialité|||nf
 raciste|||
 terreur|||nf
 tournoi|||nm
+frites|||nf
 ambition|||nf
 étrangler|||
 dépose||déposer|
@@ -3880,7 +3884,6 @@ portail|||nm
 rajouter|||
 accroche-toi||accrocher|
 grille|||nf
-servant||servir|
 sous-vêtement|||nm
 volontiers|||
 relié||relier|
@@ -3954,7 +3957,6 @@ poésie|||nf
 endurer|||
 sauvetage|||nm
 martial|||
-pourvoir|||
 gentiment|||
 orchestre|||nm
 soumettre|||
@@ -3974,6 +3976,7 @@ svp|||
 août|||nm
 verdict|||nm
 électronique|||
+échecs|||nm
 gai|||
 col|||nm
 latin|||
@@ -4316,7 +4319,6 @@ atterrissage|||nm
 hache|||nf
 imiter|||
 jusque-là|||
-botte|||nf
 camionnette|||nf
 pelle|||nf
 atroce|||
@@ -4325,6 +4327,7 @@ soie|||nf
 fusion|||nf
 remplaçant|||nm
 emporté||emporter|
+pourvu|||conj
 accroche||accrocher|
 injection|||nf
 tenez-vous||tenir|
@@ -4396,6 +4399,7 @@ agité||agiter|
 prétexte|||nm
 crevette|||nf
 authentique|||
+financer|||
 bowling|||nm
 dévoué|||
 éditeur|||nm
@@ -4432,9 +4436,11 @@ céréales|||nf
 naze|||
 expédition|||nf
 presser|||
+fins|||nf
 coréen|||
 brouillard|||nm
 corriger|||
+compromettre|||
 occupez-vous||occuper|
 oses-tu||oser|
 cinquante|||num
@@ -4455,7 +4461,6 @@ battue||battre|
 empêché||empêcher|
 précieuse||précieux|
 programmé|||
-réfugier|||
 décrit||décrire|
 coupée||couper|
 strict|||
@@ -4464,6 +4469,7 @@ allure|||nf
 thérapeute|||nm
 insinuer|||
 lecteur|||nm
+mat|||
 puzzle|||nm
 raide|||
 vaste|||
@@ -4495,14 +4501,12 @@ apprêter|||
 caca|||nm
 désespoir|||nm
 enseignant|||nm
-recourir|||
 pré|||nm
 scout|||nm
 fibre|||nf
 olive|||nf
 banal|||
 rime|||nf
-alentour|||
 baraque|||nf
 éthique|||nf
 patienter|||
@@ -4563,6 +4567,7 @@ ruban|||nm
 syndrome|||nm
 armoire|||nf
 horizon|||nm
+parcours|||nm
 hanté||hanter|
 dis-le-moi||dire|
 faciliter|||
@@ -4706,6 +4711,7 @@ bonnet|||nm
 étroit|||
 réservation|||nf
 lourde||lourd|
+flippant|||adj
 raclée|||nf
 versé||verser|
 duel|||nm
@@ -4713,7 +4719,6 @@ trousse|||nf
 artifice|||nm
 charbon|||nm
 media||média|nm
-ruine|||nf
 timing|||nm
 chômage|||nm
 handicapé|||nm
@@ -4722,6 +4727,7 @@ aspirer|||
 slip|||nm
 hanter|||
 paysage|||nm
+environs|||nm
 tiens-toi||tenir|
 belle-mère|||nf
 bâtir|||
@@ -4760,7 +4766,6 @@ outre|||
 rhume|||nm
 clôture|||nf
 loup-garou|||nm
-remordre|||
 sapin|||nm
 renaître|||
 trauma||traumatisme|nm
@@ -4841,6 +4846,7 @@ agenda|||nm
 intimider|||
 larguer|||
 inculper|||
+réfugié|||nm
 coût|||nm
 invention|||nf
 burger|||nm
@@ -4871,6 +4877,7 @@ nouille|||nf
 prépare-toi||préparer|
 waouh|||
 venez-vous||venir|
+jumelles|||nf
 vieillard|||nm
 indic|||nm
 démission|||nf
@@ -4919,6 +4926,7 @@ passionnant|||
 réduction|||nf
 dirigé||diriger|
 cerise|||nf
+alentours|||nm
 défaire|||
 régulièrement|||
 subtil|||
@@ -4977,6 +4985,7 @@ viens-tu||venir|
 cellulaire|||
 hangar|||nm
 composer|||
+recours|||nm
 régner|||
 aggraver|||
 impuissant|||
@@ -5012,6 +5021,7 @@ paralysé|||
 paumé|||
 adopté||adopter|
 évanouir|||
+remords|||nm
 revivre|||
 conspiration|||nf
 constante|||nf
@@ -5263,6 +5273,7 @@ trafiquer|||
 três||très|
 isoler|||
 homard|||nm
+soutiens||soutenir,soutien|
 biper|||
 hilarant|||
 promu|||
@@ -5293,6 +5304,7 @@ dj|||nm
 fiction|||nf
 global|||
 prescrire|||
+pâtes|||nf
 accidentellement|||
 était-elle||être|
 naviguer|||
@@ -5411,7 +5423,6 @@ ramassé||ramasser|
 lin|||nm
 petit-enfant|||nm
 crédible|||
-dépense|||nf
 sang-froid|||nm
 compétent|||
 escorter|||
@@ -5498,6 +5509,7 @@ résistant|||
 crêpe|||nf
 écharpe|||nf
 globe|||nm
+pâte|||nf
 est-ce-que||est-ce|
 localisé||localiser|
 trinquer|||
@@ -5542,6 +5554,7 @@ chorale|||nf
 protester|||
 vortex|||nm
 culte|||nm
+marrer|||
 carreau|||nm
 enthousiaste|||
 convenable|||
@@ -5654,6 +5667,7 @@ culpabiliser|||
 permanente|||nf
 sélection|||nf
 lâche-le||lâcher|
+méprendre|||
 prends-en||prendre|
 caser|||
 embarrassé||embarrasser|
@@ -5793,6 +5807,7 @@ chronique|||nf
 élan|||nm
 jadis|||
 reposez-vous||reposer|
+servante|||nf
 malle|||nf
 mathématique|||nf
 vétérinaire|||nm
@@ -5811,6 +5826,7 @@ morveux|||nm
 combine|||nf
 insensible|||
 scorpion|||nm
+servant||servir|
 corporel|||
 égratignure|||nf
 interprète|||nm
@@ -5829,6 +5845,7 @@ coquille|||nf
 jours-ci||jour|
 mutuel|||
 canot|||nm
+mépris|||nm
 coffre-fort|||nm
 concret|||
 dissimuler|||
@@ -5845,6 +5862,7 @@ communiqué|||nm
 protéine|||nf
 rabbin|||nm
 triangle|||nm
+vivres|||nm
 médoc|||nm
 norme|||nf
 tenant||tenir|
@@ -5964,6 +5982,7 @@ poignard|||nm
 simulation|||nf
 prélever|||
 présidentiel|||
+duchesse|||nf
 funèbre|||
 gigantesque|||
 interrompu||interrompre|
@@ -5988,6 +6007,7 @@ malaise|||nm
 soumis||soumettre|
 compteur|||nm
 haler|||
+frit|||
 bousillé||bousiller|
 équation|||nf
 fondu||fondre|
@@ -6368,7 +6388,6 @@ délibérément|||
 pop-corn|||nm
 prévisible|||
 clientèle|||nf
-finance|||nf
 insulté||insulter|
 requis||requérir|
 tracé|||nm
@@ -6524,6 +6543,7 @@ oculaire|||
 berner|||
 vocation|||nf
 balise|||nf
+boiter|||
 chantant||chanter|
 formel|||
 malsain|||
@@ -6584,6 +6604,9 @@ actualité|||nf
 élargir|||
 indication|||nf
 indistinct|||
+clément|||
+baptême|||nm
+épine|||nf
 écrier|5||
 réforme|||nf
 monétaire|||
@@ -8435,7 +8458,6 @@ adroitement|5||
 agenouiller|||
 bureaucrate|||nmf
 charrette|||nf
-coordonnée|||nf
 décomposer|||
 détériorer|||
 empirique|||
@@ -8692,7 +8714,6 @@ sécuritaire|||
 valide|||
 abondamment|||
 astronomique|||
-baptême|||nm
 carolingien|5||
 charbonnier|5||nm
 clairière|||nf
@@ -10746,7 +10767,6 @@ tapisser|5||
 tonalité|||nf
 voilé||voiler|
 vénérable|||
-épine|||nf
 aggravant|5||
 alternance|5||nf
 bombarder|||
@@ -10868,7 +10888,6 @@ renom|||nm
 richement|5||
 rotonde|5||nf
 réaménager|5||
-réfugié|||nm
 réintégrer|||
 sacrement|||nm
 saisonnier|||
@@ -13591,6 +13610,12 @@ vêtir|||
 qualificatif|5||adj
 quatorzième|5||
 torride|||
+voiler|||
+parer|||
+coordonner|||
+pourvoir|||
+réfugier|||
+recourir|||
 fève|5||nf
 ataya|5||nm
 teranga|5||nf

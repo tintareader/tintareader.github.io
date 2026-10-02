@@ -26,7 +26,6 @@ está|(état, lieu) est; tu es, vous êtes|f3s;f2s2p
 uma|une (f.); une (nombre)|o;o
 se|se (réfléchi, réciproque); si|o;o
 com|avec|o
-ser|être (identité, caractéristique)|v
 por|par, à travers; à cause de; pour (en échange); par (por hora, por dia)|o;o;o;o
 ele|il, lui|f3s
 isso|ça, cela (seul, sans nom)|o
@@ -36,7 +35,6 @@ me|me, moi|o
 mas|mais|o
 fazer|faire|v
 como|comment; comme; je mange|o;o;f1s
-bem|bien; assez, vraiment|o;o
 ter|avoir; ter que: devoir, falloir|v;n
 da|de la (de+a)|o
 meu|mon, le mien (m.)|o
@@ -110,7 +108,6 @@ posso|je peux|f1s
 acho|je pense, je trouve|f1s
 sobre|sur, au sujet de|o
 mim|moi (après une préposition)|o
-dever|devoir (obligation); devoir (de l'argent)|o;v
 porque|parce que|o
 coisa|chose|o
 pensar|penser, réfléchir|v
@@ -4598,7 +4595,6 @@ orar|prier|v
 coordenar|coordonner|v
 terça|mardi|o
 imenso|immense|o
-cunhado|beau-frère|o
 agressivo|agressif|o
 boato|rumeur|o
 pousar|atterrir, se poser|v
@@ -5339,7 +5335,6 @@ relevante|pertinent|o
 fortaleza|forteresse|o
 piranha|piranha; salope (injurieux)|o;o
 grosseiro|grossier|o
-noticiar|annoncer (une nouvelle), rapporter|v
 palestra|conférence, exposé|o
 chifre|corne|o
 espionar|espionner|v
@@ -13528,8 +13523,6 @@ cafezinho|petit café noir serré, souvent sucré, offert aux invités|o
 fado|fado (chanson portugaise de la nostalgie); destin|o;o
 réveillon|Saint-Sylvestre, réveillon du Nouvel An (la nuit et sa fête)|o
 iemanjá|Iemanjá (Yemoja), déesse de la mer des religions afro-brésiliennes|o
-virada|retournement, revirement; passage à la nouvelle année (minuit, le soir du 31 décembre)|o;o
-fogo|feu; fogos: feux d'artifice|o;n
 dona|madame (titre devant un prénom : Dona Maria); propriétaire (f.), maîtresse de maison (a dona da casa)|o;o
 meia-noite|minuit|o
 meio-dia|midi|o
@@ -13555,3 +13548,45 @@ mal-entendido|malentendu|o
 bem-vindo|bienvenu|o
 bem-estar|bien-être|o
 pão-duro|radin, pingre; radin, grippe-sou (personne)|o;o
+fora|dehors; lá fora: dehors, là-dehors; fora de: hors de, en dehors de; dehors !, sors !; avait été, était allé (plus-que-parfait littéraire de ser, ir)|o;n;n;o;f3s
+fui|j'ai été, je fus; je suis allé, j'allai|f1s;f1s
+foram|ils ont été, vous avez été (pl.); ils sont allés, vous êtes allés (pl.)|f3p;f3p
+fosse|fût, était (subjonctif de ser); allât (subjonctif de ir)|f3s;o
+sozinho|seul, tout seul|o
+sente|il/elle sent, vous sentez (sentir); asseyez-vous ! (sente-se, sentar)|f3s;o
+vendo|voyant (ver); je vends (vender)|o;f1s
+fomos|nous avons été; nous sommes allés|f1p;f1p
+viram|ils ont vu, vous avez vu (pl., ver); ils tournent, ils deviennent (virar)|f3p;f3p
+vimos|nous avons vu (ver); nous venons (vir)|f1p;f1p
+milhares|milliers; milhares de: des milliers de|o;n
+valeu|merci !, super ! (Brésil, familier); a valu|o;f3s
+puxa|mince !, ouah !, la vache ! (puxa vida!); il/elle tire|o;f3s
+virem|(quand ils) verront (ver); (pour qu'ils) viennent (vir); tournez ! (pl., virar)|o;v;o
+sentem|ils sentent, vous sentez (pl., sentir); asseyez-vous ! (pl., sentem-se, sentar)|f3p;o
+cadela|chienne; chienne, salope (insulte)|o;o
+empregada|femme de ménage, bonne; employée (f.)|o;o
+formos|(quand, si) nous serons (ser); (quand, si) nous irons (ir)|f1p;f1p
+calcinha|culotte, petite culotte|o
+virei|j'ai tourné, je suis devenu (virar); je viendrai (vir)|f1s;f1s
+mordida|morsure|o
+vindas|boas-vindas: bienvenue (n.); venues (f. pl.)|n;o
+tomara|pourvu que oui !, espérons-le; tomara que: pourvu que; avait pris (littéraire)|f1s;n;f3s
+algemas|menottes|o
+gracinha|mignon, chou; que gracinha!: comme c'est mignon !|o;n
+dera|quem me dera!: si seulement !; avait donné (littéraire)|n;f3s
+quadrinhos|bandes dessinées, BD; histórias em quadrinhos: bandes dessinées (Brésil)|o;n
+camisinha|préservatif, capote (Brésil)|o
+pertences|affaires, effets personnels|o
+cais|quai|o
+pegadinha|piège, astuce; farce, blague (Brésil)|o;o
+juros|intérêts (d'argent)|o
+sã|saine (f.); sã e salva: saine et sauve|o;n
+bombardeio|bombardement|o
+foste|tu as été (Portugal); tu es allé (Portugal)|f2s2p;f2s2p
+filipino|philippin|o
+ser|être (identité, caractéristique); être (n.); seres humanos: êtres humains|v;o;n
+bem|bien; assez, vraiment; bien (n.); bens: biens, possessions, propriété|o;o;o;n
+dever|devoir, falloir; devoir (de l'argent); devoir (n.); deveres de casa: devoirs|o;v;o;n
+fogo|feu; fogos: feu d'artifice|o;n
+cunhado|beau-frère; belle-sœur (f.)|o;o
+virada|retournement, revirement; passage à la nouvelle année (minuit de la Saint-Sylvestre)|o;o

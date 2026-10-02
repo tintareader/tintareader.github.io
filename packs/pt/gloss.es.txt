@@ -26,7 +26,6 @@ está|(estado, lugar) está; (usted) está, estás|f3s;f2s2p
 uma|una (f.); una (número)|o;o
 se|se (reflexivo, recíproco); si|o;o
 com|con|o
-ser|ser (identidad, característica)|v
 por|por, a través de; a causa de; por (a cambio); por (por hora, por día)|o;o;o;o
 ele|él|f3s
 isso|eso (solo, sin sustantivo)|o
@@ -36,7 +35,6 @@ me|me, a mí|o
 mas|pero|o
 fazer|hacer|v
 como|cómo; como; (yo) como|o;o;f1s
-bem|bien; bastante, muy|o;o
 ter|tener; ter que: tener que|v;n
 da|de la (de+a)|o
 meu|mi, mío (m.)|o
@@ -110,7 +108,6 @@ posso|(yo) puedo|f1s
 acho|(yo) creo, me parece|f1s
 sobre|sobre, acerca de|o
 mim|mí (tras preposición)|o
-dever|deber (obligación); deber (dinero)|o;v
 porque|porque|o
 coisa|cosa|o
 pensar|pensar|v
@@ -3101,7 +3098,6 @@ orar|orar, rezar|v
 coordenar|coordinar|v
 terça|martes|o
 imenso|inmenso|o
-cunhado|cuñado|o
 agressivo|agresivo|o
 boato|rumor|o
 pousar|aterrizar, posarse|v
@@ -4342,7 +4338,6 @@ relevante|relevante|o
 fortaleza|fortaleza|o
 piranha|piraña; zorra (ofensivo)|o;o
 grosseiro|grosero, burdo|o
-noticiar|informar (noticias)|v
 palestra|charla, conferencia|o
 chifre|cuerno|o
 espionar|espiar|v
@@ -13528,8 +13523,6 @@ cafezinho|café solo pequeño y fuerte, a menudo dulce, que se ofrece a las visi
 fado|fado (canción portuguesa de la nostalgia); destino|o;o
 réveillon|Nochevieja, fin de año (la noche y su fiesta)|o
 iemanjá|Yemayá (Iemanjá), diosa del mar en las religiones afrobrasileñas|o
-virada|vuelco, remontada; paso de año (la medianoche de Nochevieja)|o;o
-fogo|fuego; fogos: fuegos artificiales|o;n
 dona|doña, señora (tratamiento ante el nombre: Dona Maria); dueña, señora de la casa (a dona da casa)|o;o
 meia-noite|medianoche|o
 meio-dia|mediodía|o
@@ -13555,3 +13548,45 @@ mal-entendido|malentendido|o
 bem-vindo|bienvenido|o
 bem-estar|bienestar|o
 pão-duro|tacaño; tacaño, agarrado (persona)|o;o
+fora|fuera, afuera; lá fora: afuera, allá afuera; fora de: fuera de; ¡fuera!, ¡vete!; había sido, había ido (pluscuamperfecto literario de ser, ir)|o;n;n;o;f3s
+fui|fui (ser); fui (ir)|f1s;f1s
+foram|fueron, ustedes fueron (pl., ser); fueron, ustedes fueron (pl., ir)|f3p;f3p
+fosse|fuera, fuese (subjuntivo de ser); fuera, fuese (subjuntivo de ir)|f3s;o
+sozinho|solo, a solas, por sí mismo|o
+sente|siente, usted siente (sentir); ¡siéntese! (sente-se, sentar)|f3s;o
+vendo|viendo (ver); vendo (vender)|o;f1s
+fomos|fuimos (ser); fuimos (ir)|f1p;f1p
+viram|vieron, ustedes vieron (pl., ver); giran, se vuelven (virar)|f3p;f3p
+vimos|vimos (ver); venimos (vir)|f1p;f1p
+milhares|miles, millares; milhares de: miles de|o;n
+valeu|¡gracias!, ¡vale! (Brasil, informal); valió|o;f3s
+puxa|¡caramba!, ¡vaya!, ¡híjole! (puxa vida!); él/ella jala, tira|o;f3s
+virem|(cuando) vean (ver); (que ellos) vengan (vir); ¡giren! (pl., virar)|o;v;o
+sentem|sienten, ustedes sienten (pl., sentir); ¡siéntense! (pl., sentem-se, sentar)|f3p;o
+cadela|perra (animal); perra, zorra (insulto)|o;o
+empregada|empleada doméstica, criada; empleada (f.)|o;o
+formos|(cuando, si) seamos (ser); (cuando, si) vayamos (ir)|f1p;f1p
+calcinha|calzones, bragas|o
+virei|giré, me volví (virar); vendré (vir)|f1s;f1s
+mordida|mordida, mordisco|o
+vindas|boas-vindas: bienvenida (s.); venidas (f. pl.)|n;o
+tomara|¡ojalá!; tomara que: ojalá que; había tomado (literario)|f1s;n;f3s
+algemas|esposas|o
+gracinha|cosita, monada; que gracinha!: ¡qué lindo!|o;n
+dera|quem me dera!: ¡ojalá!, ¡quién pudiera!; había dado (literario)|n;f3s
+quadrinhos|cómics, historietas; histórias em quadrinhos: historietas, cómics (Brasil)|o;n
+camisinha|condón (Brasil)|o
+pertences|pertenencias|o
+cais|muelle, embarcadero|o
+pegadinha|truco, trampa; broma (Brasil)|o;o
+juros|intereses (de dinero)|o
+sã|sana (f.); sã e salva: sana y salva|o;n
+bombardeio|bombardeo|o
+foste|fuiste (Portugal, ser); fuiste (Portugal, ir)|f2s2p;f2s2p
+filipino|filipino|o
+ser|ser (identidad, característica); ser (n.); seres humanos: seres humanos|v;o;n
+bem|bien; bastante, muy; bien (n.); bens: bienes, posesiones, propiedades|o;o;o;n
+dever|deber, tener que; deber (dinero); deber (n.); deveres de casa: deberes, tarea|o;v;o;n
+fogo|fuego; fogos: fuegos artificiales|o;n
+cunhado|cuñado; cuñada (f.)|o;o
+virada|giro, vuelco; paso de año (medianoche de Nochevieja)|o;o

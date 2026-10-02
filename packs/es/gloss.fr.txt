@@ -30,14 +30,12 @@ los|les (m. pl.); les (complément)|o;o
 te|te, toi; te (réfléchi)|f2s2p;o
 con|avec|o
 para|pour (but), afin de; il/elle s'arrête, arrête; arrête !|o;f3s;o
-ser|être (identité, caractéristique)|v
 hacer|faire|v
 está|(état, lieu) il/elle est, vous êtes (vouvoiement)|f3s
 mi|mon, ma|o
 pero|mais|o
 sí|oui|o
 si|si|o
-bien|bien|o
 eso|cela, ça (neutre)|o
 su|son, sa, leur, votre (vouvoiement)|o
 las|les (f. pl.); les (complément)|o;o
@@ -48,7 +46,6 @@ bueno|bon; bon…, eh bien… (hésitation)|o;o
 todo|tout|o
 decir|dire|v
 tener|avoir|v
-poder|pouvoir|v
 del|du (de + el)|o
 como|comme; je mange|o;f1s
 aquí|ici|o
@@ -144,7 +141,6 @@ gustar|plaire (me gusta = j'aime ça)|v
 encontrar|trouver; encontrarse: se rencontrer, se sentir|v;n
 noche|nuit, soir|o
 dejar|laisser; laisser, permettre; dejar de: arrêter (de faire); abandonner, arrêter|v;v;n;v
-dios|Dieu|o
 hace|il/elle fait; il y a (temps écoulé); hace falta: il faut; il fait (météo)|f3s;o;n;f3s
 has|tu as (auxiliaire)|f2s2p
 amigo|ami|o
@@ -387,7 +383,6 @@ coche|voiture|o
 difícil|difficile|o
 beber|boire|v
 fin|fin; por fin: enfin|o;n
-esposa|épouse, femme|o
 cuidado|soin, attention (¡cuidado!: attention !)|o
 cuerpo|corps|o
 bastante|assez; assez, plutôt|o;o
@@ -1520,7 +1515,6 @@ material|matériel, matériau|o
 votar|voter|v
 tribunal|tribunal|o
 conexión|connexion|o
-adecuar|adapter|v
 acceso|accès|o
 oscuridad|obscurité|o
 comienzo|début|o
@@ -2172,7 +2166,6 @@ apreciar|apprécier; estimer|v;v
 calmar|calmer|v
 calla|tais-toi !; il/elle se tait|o;f3s
 doce|douze|o
-apropiar|approprier|v
 comparar|comparer|v
 reacción|réaction|o
 ensayo|répétition; essai (texte); essai, test|o;o;o
@@ -2524,7 +2517,6 @@ egoísta|égoïste|o
 guión|scénario; trait d'union|o;o
 interrogar|interroger|v
 célula|cellule|o
-duque|duc|o
 ajustar|ajuster|v
 sinceramente|sincèrement|o
 raíz|racine; a raíz de: à la suite de|o;n
@@ -2881,7 +2873,6 @@ cumplido|compliment|o
 condena|peine, condamnation|o
 once|onze|o
 presa|proie; barrage|o;o
-destinar|affecter, destiner|v
 aparato|appareil|o
 revés|revers; al revés: à l'envers|o;n
 acelerar|accélérer|v
@@ -2905,7 +2896,6 @@ década|décennie|o
 ponerlo|le mettre|v
 desmayar|s'évanouir|v
 fabricar|fabriquer|v
-cuñado|beau-frère|o
 autor|auteur; auteur (d'un crime)|o;o
 instrumento|instrument|o
 mosca|mouche|o
@@ -3577,7 +3567,6 @@ consuelo|réconfort, consolation|o
 llamarla|l'appeler|v
 sabiduría|sagesse|o
 repartir|distribuer, répartir|v
-linear|linéaire|o
 terriblemente|terriblement|o
 sos|tu es (voseo)|f2s2p
 preocuparme|m'inquiéter|v
@@ -3620,7 +3609,6 @@ matarnos|nous tuer|v
 taco|taco; gros mot; talon|o;o;o
 canalla|canaille, crapule|o
 cojo|boiteux|o
-suegro|beau-père|o
 incorrecto|incorrect|o
 danza|danse (art)|o
 deberia|je devrais, il/elle devrait|f1s
@@ -3795,7 +3783,6 @@ periodo|période|o
 insinuar|insinuer|v
 tabaco|tabac|o
 desafiar|défier|v
-victimar|tuer|v
 coordenadas|coordonnées|o
 automóvil|automobile, voiture|o
 descartar|écarter, exclure|v
@@ -4598,7 +4585,6 @@ arteria|artère|o
 significativo|significatif|o
 calibre|calibre|o
 ciervo|cerf|o
-colorar|colorer|v
 rompecabezas|puzzle, casse-tête|o
 frustrar|frustrer, faire échouer|v
 dramático|dramatique|o
@@ -13382,7 +13368,6 @@ móvil|portable (téléphone) (Espagne); mobile (motif)|o;o
 billete|billet, ticket (Espagne); billet de banque|o;o
 teta|nichon, néné (familier)|o
 pasta|pâtes; fric, oseille (familier)|o;o
-ultimar|finaliser; tuer, achever (Amérique latine)|v;v
 tele|télé (familier)|o
 boleto|billet, ticket (Amérique latine)|o
 onda|onde; ambiance, vibe (familier)|o;o
@@ -13473,3 +13458,64 @@ tomá|tiens ! (voseo)|o
 bombilla|ampoule; paille en métal pour boire le maté|o;o
 calabaza|citrouille; calebasse (aussi la tasse du maté)|o;o
 fruta|fruit (à manger : pommes, oranges, bananes)|o
+fuera|dehors; fuera de: hors de, en dehors de; dehors !, sors !; fût, allât (subjonctif de ser, ir)|o;n;o;f3s
+ven|viens ! (venir); ils voient, vous voyez (pl., ver)|o;f3p
+fui|j'ai été, je fus; je suis allé, j'allai|f1s;f1s
+ello|cela, ça (neutre); por ello: c'est pourquoi, donc; para ello: pour cela|f3s;n;n
+fueron|ils ont été, vous avez été (pl.); ils sont allés, vous êtes allés (pl.)|f3p;f3p
+divertido|amusant, drôle; amusé|o;o
+ocupado|occupé, affairé; occupé, pris (place, lieu)|o;o
+fuiste|tu as été; tu es allé|f2s2p;f2s2p
+encantado|enchanté (de vous connaître); ravi; enchanté, ensorcelé|o;o;o
+privado|privé; privé (de), démuni|o;o
+viva|vive !, hourra !; vivante (f.); qu'il vive (subjonctif de vivir)|o;o;o
+debido|dû, convenable; debido a: dû à, à cause de; dû (argent)|o;n;o
+dispuesto|disposé, prêt; estar dispuesto a: être disposé à|o;n
+despierta|éveillée (f.); réveille-toi !; il/elle se réveille|o;o;f3s
+fuimos|nous avons été; nous sommes allés|f1p;f1p
+aburrido|ennuyeux; qui s'ennuie|o;o
+dura|dure, solide (f.); ça dure|o;f3s
+adecuado|adéquat, approprié, qui convient|o
+fuese|fût, était (subjonctif de ser); allât (subjonctif de ir)|f3s;o
+fueras|tu étais (subjonctif de ser); tu allais (subjonctif de ir)|f2s2p;f2s2p
+felicidades|félicitations !; joyeux anniversaire !|o;o
+crea|croie, pense (subjonctif de creer); il/elle crée (crear)|o;f3s
+consigo|avec lui, avec elle, avec soi, avec vous (vouvoiement), avec eux; j'obtiens, je réussis à (conseguir)|o;f1s
+zorra|renarde; salope (insulte vulgaire)|o;o
+apropiado|approprié, adéquat|o
+creas|tu croies (subjonctif de creer); tu crées (crear)|f2s2p;f2s2p
+comprometido|fiancé; engagé; compromis|o;o;o
+enfrente|en face; enfrente de: en face de, devant|o;n
+sed|soif; tener sed: avoir soif|o;n
+destinado|destiné; estar destinado a: être destiné à; affecté, muté|o;n;o
+medias|bas, collants; chaussettes (Amérique latine); a medias: à moitié|o;o;n
+educado|poli, bien élevé; instruit|o;o
+encubierto|infiltré (agent); secret, dissimulé; étouffé (affaire)|o;o;o
+honrado|honnête, intègre; honoré|o;o
+celos|jalousie; tener celos: être jaloux; dar celos: rendre jaloux|o;n;n
+opuesto|opposé, contraire; opposé (à)|o;o
+fuéramos|nous étions (subjonctif de ser); nous allions (subjonctif de ir)|f1p;f1p
+crean|ils croient (subjonctif de creer); ils créent (crear)|f3p;f3p
+lentes|lunettes (Amérique latine); lentilles, verres; lentes de contacto: lentilles de contact|o;o;n
+determinado|certain, précis, donné; déterminé, résolu|o;o
+escondidas|a escondidas: en cachette, dans le dos de quelqu'un; cachées (f. pl.)|n;o
+cruce|croisement, carrefour, intersection; (qu')il/elle traverse|o;f3s
+colorado|rouge, empourpré; ponerse colorado: rougir|o;n
+alrededores|environs, alentours; en los alrededores: dans les environs, à proximité|o;n
+mudarte|déménager|v
+adecuadamente|correctement, convenablement|o
+cargador|chargeur; chargeur (d'arme)|o;o
+racial|racial|o
+rehusar|refuser|v
+remar|ramer|v
+chuleta|côtelette|o
+rígido|rigide, raide|o
+coleccionista|collectionneur|o
+ser|être (identité, caractéristique); être (n.); seres humanos: êtres humains|v;o;n
+bien|bien, bon; bien (n.); bienes: biens, propriété, patrimoine|o;o;n
+poder|pouvoir, être capable de; pouvoir (n.)|v;o
+dios|Dieu; dieu; déesse (f.)|o;o;o
+esposa|épouse, femme; esposas: menottes|o;n
+duque|duc; duchesse (f.)|o;o
+cuñado|beau-frère; belle-sœur (f.)|o;o
+suegro|beau-père; belle-mère (f.)|o;o
