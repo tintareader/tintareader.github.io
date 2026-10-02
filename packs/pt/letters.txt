@@ -12,8 +12,10 @@
 #   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
 #            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
 #            heavy (an emphatic consonant)
-#   sounds   a pair's number of sounds where it is the same in every word; empty where it
-#            changes with the word (the card then says only that the letters are read together)
+#   sounds   a pair's number of sounds where it is the same wherever the letters are read as one;
+#            empty where it changes with the word, or where the letters often straddle two parts
+#            of a word the cut cannot see (en mishap, de bisschen); the card then says only
+#            that the letters are read together
 #
 # The pairs are the ones Portuguese spelling reads as one sound: lh, nh, ch, rr,
 # ss and qu, and the three nasal diphthongs ão, õe and ãe. The sounds are those of

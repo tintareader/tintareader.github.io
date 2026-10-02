@@ -1,6 +1,6 @@
 {
   "id": "de",
-  "version": "1.0.102",
+  "version": "1.0.105",
   "variety": "de-DE",
   "files": {
     "lex": {
@@ -81,32 +81,32 @@
     "letters": {
       "path": "letters.txt",
       "license": "unencumbered",
-      "sha256": "10c0b5304f0b36699169e9776ed1aaee13d636f51201cc32188e7f4d3d5eb215"
+      "sha256": "dc6c9ca53e23fc54654c12664b94ca7c12f30537b4088e429363f20245006e19"
     },
     "letters.en": {
       "path": "letters.en.txt",
       "license": "unencumbered",
-      "sha256": "803f072ff569531224027084a9899f9accb2de4f1f12527896ca2689f8b392fe"
+      "sha256": "a6da0e4d8557f64811241f3afd40af0cbe1f43035bd895bf4b874a2a9f96a6fa"
     },
     "letters.es": {
       "path": "letters.es.txt",
       "license": "unencumbered",
-      "sha256": "97c6b944082cf08c32e2a5a8991dbee2c22d947e1a3ae22b8f41c96e7ebb3dd8"
+      "sha256": "69d3fb328f8b709a7efa9e7f8d0a968c5af559094068841410b7112ead5e4ad0"
     },
     "letters.fr": {
       "path": "letters.fr.txt",
       "license": "unencumbered",
-      "sha256": "408d8643f4f1847595a40bced14db17cef02563dbafe015e6a0a93c4c42ff753"
+      "sha256": "dd45b15afa5b17a67a14e9db0ac4a59fa8d3f40c57a21f91f989f8334ddad2a5"
     },
     "letters.id": {
       "path": "letters.id.txt",
       "license": "unencumbered",
-      "sha256": "39aa15c1a976b4082cd32a1cb9b45b8a54bc1cdd1a753e855f393391aa137567"
+      "sha256": "2c43e93aed376179ab5f0258852f90a83dc76b64c4d28b2a8b2e530c9b5adb8d"
     },
     "letters.pt": {
       "path": "letters.pt.txt",
       "license": "unencumbered",
-      "sha256": "fec412476bef58ac8410b864fb4e6c8f4b8d41ddc49efc93722cbadc2ae8c9fa"
+      "sha256": "3e1168e87972baa1fab68db70dbe5b142665477931907eb3bc6e12617eb6eeb9"
     },
     "gloss.zh": {
       "path": "gloss.zh.txt",
@@ -116,7 +116,7 @@
     "letters.zh": {
       "path": "letters.zh.txt",
       "license": "unencumbered",
-      "sha256": "11d257a0598f945fc9f75947b57177aeaf1979112ecf8f076376f2004e85a8e7"
+      "sha256": "72602e4d73025cfa5494533faf3c67626fe4caf3bf2953c20f698fe345b3b2f6"
     },
     "phrases.zh": {
       "path": "phrases.zh.txt",

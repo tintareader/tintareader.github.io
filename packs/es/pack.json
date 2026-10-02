@@ -1,6 +1,6 @@
 {
   "id": "es",
-  "version": "1.1.82",
+  "version": "1.1.83",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -80,7 +80,7 @@
     "letters": {
       "path": "letters.txt",
       "license": "unencumbered",
-      "sha256": "f256e43deb76537e3a04be71dc45f4e5612e2c62b88d0dbf40342217dc0a0564"
+      "sha256": "52f918c117c598ad56ed1ac63b54a4dba969e7c4f2eb524109d563287447c09e"
     },
     "letters.en": {
       "path": "letters.en.txt",

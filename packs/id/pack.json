@@ -1,6 +1,6 @@
 {
   "id": "id",
-  "version": "1.1.98",
+  "version": "1.1.99",
   "minApp": "0.2.5",
   "files": {
     "lex": {
@@ -76,7 +76,7 @@
     "letters": {
       "path": "letters.txt",
       "license": "unencumbered",
-      "sha256": "81bd0084a7e45ad4554a9f25c632d65ed17ac9096bdc356345cded7555f111fd"
+      "sha256": "80ec1fbc5beeb8ffd8f6e90a50e13c052cd54a2bbfb084198e89d7cd5c147474"
     },
     "letters.en": {
       "path": "letters.en.txt",

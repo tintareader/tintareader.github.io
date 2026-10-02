@@ -12,8 +12,10 @@
 #   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
 #            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
 #            heavy (an emphatic consonant)
-#   sounds   a pair's number of sounds where it is the same in every word; empty where it
-#            changes with the word (the card then says only that the letters are read together)
+#   sounds   a pair's number of sounds where it is the same wherever the letters are read as one;
+#            empty where it changes with the word, or where the letters often straddle two parts
+#            of a word the cut cannot see (en mishap, de bisschen); the card then says only
+#            that the letters are read together
 #
 # French spells one sound with several letters more often than any other pack
 # here, so it has the most pairs. The nasal vowels (on, an, en, in, ain, ein, oin)
@@ -21,7 +23,10 @@
 # `bonne` and `bone` are not, which is what the `closed` flag says. `ez` is a pair
 # only at the end of a word (chez, parlez). `tion` (nation, addition) reads
 # sjɔ̃, not the plain t a letter-by-letter cut would give it; its own `after:s`
-# note says why `question` keeps a plain t instead. Everything subtler — the
+# note says why `question` keeps a plain t instead, and its `before:s` note why a
+# verb's `étions` does too (the noun `nations` is sjɔ̃; no letter tells them
+# apart). Before a vowel or nn its o is not nasal (national, traditionnel), which
+# is one sound more, so it carries no count. Everything subtler — the
 # silent final consonants, `ent` in a verb — is for the notes.
 a|letter|a||||a|ami|vowel
 b|letter|bé||||b|bon|
@@ -71,7 +76,7 @@ ez|pair|||||e|chez|vowel,front,end|1
 er|pair|||||e|parler|vowel,front,end|
 où|pair|||||u|où|vowel|1
 œu|pair|||||œ|cœur|vowel|1
-tion|pair|||||sjɔ̃|nation||3
+tion|pair|||||sjɔ̃|nation||
 é|also|||||e|été|vowel,front
 è|also|||||ɛ|mère|vowel,front
 ê|also|||||ɛ|être|vowel,front

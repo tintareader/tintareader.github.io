@@ -10,8 +10,10 @@
 #   example  a common word with it, as the dictionary keys it
 #   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
 #            closed (a pair refused before a vowel or a doubled letter); end (only at the tail)
-#   sounds   a pair's number of sounds where it is the same in every word; empty where it
-#            changes with the word (the card then says only that the letters are read together)
+#   sounds   a pair's number of sounds where it is the same wherever the letters are read as one;
+#            empty where it changes with the word, or where the letters often straddle two parts
+#            of a word the cut cannot see (en mishap, de bisschen); the card then says only
+#            that the letters are read together
 #
 # The pairs are kept to the ones German spelling reads as a unit without
 # exception worth a learner's while: sch, ch, ck, ei, ie, au, eu, äu, and st
@@ -41,7 +43,7 @@ o|letter|o||||o|oma|vowel
 p|letter|pe||||p|post|
 q|letter|ku||||k|quelle|
 r|letter|er||||ʁ|rot|
-s|letter|es||||z|sonne|
+s|letter|es||||s|glas|
 t|letter|te||||t|tag|
 u|letter|u||||u|uhr|vowel
 v|letter|vau||||f|vater|
@@ -53,13 +55,13 @@ z|letter|zet||||ts|zeit|
 ö|letter|ö||||ø|schön|vowel,front
 ü|letter|ü||||y|über|vowel,front
 ß|letter|eszett||||s|straße|
-sch|pair|||||ʃ|schule||1
+sch|pair|||||ʃ|schule||
 ch|pair|||||x/ç|buch||1
 ck|pair|||||k|zucker||1
-ei|pair|||||aɪ|eis|vowel|1
+ei|pair|||||aɪ|eis|vowel|
 ie|pair|||||iː|liebe|vowel,front|
 au|pair|||||aʊ|haus|vowel|1
 eu|pair|||||ɔʏ|heute|vowel|
-äu|pair|||||ɔʏ|träumen|vowel|1
+äu|pair|||||ɔʏ|träumen|vowel|
 st|pair|||||ʃt|stadt|start|2
 sp|pair|||||ʃp|spielen|start|2
