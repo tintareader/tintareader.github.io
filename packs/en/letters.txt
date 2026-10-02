@@ -2,7 +2,7 @@
 # This project's own work, derived from no third-party source: unencumbered.
 # What each letter sounds like is said per reader, in letters.<meta>.txt.
 #
-# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags|sounds
 #   key      the unit, lower case; a word is cut into these longest first
 #   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
 #   name     the letter's name in English
@@ -12,6 +12,8 @@
 #   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
 #            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
 #            heavy (an emphatic consonant)
+#   sounds   a pair's number of sounds where it is the same in every word; empty where it
+#            changes with the word (the card then says only that the letters are read together)
 #
 # English spells sounds less regularly than any other pack here, so the pairs are
 # kept to the ones that read the same way nearly everywhere: th, sh, ch, ph, wh,
@@ -48,18 +50,18 @@ w|letter|double-u||||w|water|
 x|letter|ex||||ks|box|
 y|letter|wy||||j|yes|front
 z|letter|zed||||z|zero|
-th|pair|||||θ|think|
-sh|pair|||||ʃ|she|
-ch|pair|||||tʃ|child|
-ph|pair|||||f|phone|
-wh|pair|||||w|what|
-ck|pair|||||k|back|
-ng|pair|||||ŋ|sing|
-qu|pair|||||kw|quick|
-ee|pair|||||iː|see|vowel,front
-oo|pair|||||uː|food|vowel
-igh|pair|||||aɪ|light|vowel
-tion|pair|||||ʃən|nation|
-tch|pair|||||tʃ|watch|
-dge|pair|||||dʒ|bridge|
-ough|pair|||||uː|through|vowel
+th|pair|||||θ|think||1
+sh|pair|||||ʃ|she||1
+ch|pair|||||tʃ|child||1
+ph|pair|||||f|phone||1
+wh|pair|||||w|what||1
+ck|pair|||||k|back||1
+ng|pair|||||ŋ|sing||
+qu|pair|||||kw|quick||
+ee|pair|||||iː|see|vowel,front|1
+oo|pair|||||uː|food|vowel|1
+igh|pair|||||aɪ|light|vowel|1
+tion|pair|||||ʃən|nation||
+tch|pair|||||tʃ|watch||1
+dge|pair|||||dʒ|bridge||1
+ough|pair|||||uː|through|vowel|

@@ -2,7 +2,7 @@
 # This project's own work, derived from no third-party source: unencumbered.
 # What each letter sounds like is said per reader, in letters.<meta>.txt.
 #
-# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags|sounds
 #   key      the unit, lower case; a word is cut into these longest first
 #   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
 #   name     the letter's name in French
@@ -12,6 +12,8 @@
 #   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
 #            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
 #            heavy (an emphatic consonant)
+#   sounds   a pair's number of sounds where it is the same in every word; empty where it
+#            changes with the word (the card then says only that the letters are read together)
 #
 # French spells one sound with several letters more often than any other pack
 # here, so it has the most pairs. The nasal vowels (on, an, en, in, ain, ein, oin)
@@ -47,29 +49,29 @@ w|letter|double vé||||w|week-end|
 x|letter|ixe||||ks|taxi|
 y|letter|i grec||||i|stylo|vowel,front
 z|letter|zède||||z|zéro|
-eau|pair|||||o|eau|vowel,front
-ou|pair|||||u|nous|vowel
-au|pair|||||o|aussi|vowel
-ai|pair|||||ɛ|mais|vowel
-ei|pair|||||ɛ|neige|vowel,front
-oi|pair|||||wa|moi|vowel
-eu|pair|||||ø|deux|vowel,front
-ch|pair|||||ʃ|chat|
-gn|pair|||||ɲ|montagne|
-qu|pair|||||k|qui|
-ph|pair|||||f|photo|
-ain|pair|||||ɛ̃|pain|vowel,closed
-ein|pair|||||ɛ̃|plein|vowel,front,closed
-oin|pair|||||wɛ̃|loin|vowel,closed
-on|pair|||||ɔ̃|bon|vowel,closed
-an|pair|||||ɑ̃|grand|vowel,closed
-en|pair|||||ɑ̃|enfant|vowel,front,closed
-in|pair|||||ɛ̃|fin|vowel,front,closed
-ez|pair|||||e|chez|vowel,front,end
-er|pair|||||e|parler|vowel,front,end
-où|pair|||||u|où|vowel
-œu|pair|||||œ|cœur|vowel
-tion|pair|||||sjɔ̃|nation|
+eau|pair|||||o|eau|vowel,front|1
+ou|pair|||||u|nous|vowel|1
+au|pair|||||o|aussi|vowel|1
+ai|pair|||||ɛ|mais|vowel|1
+ei|pair|||||ɛ|neige|vowel,front|1
+oi|pair|||||wa|moi|vowel|
+eu|pair|||||ø|deux|vowel,front|1
+ch|pair|||||ʃ|chat||1
+gn|pair|||||ɲ|montagne||
+qu|pair|||||k|qui||
+ph|pair|||||f|photo||1
+ain|pair|||||ɛ̃|pain|vowel,closed|1
+ein|pair|||||ɛ̃|plein|vowel,front,closed|1
+oin|pair|||||wɛ̃|loin|vowel,closed|2
+on|pair|||||ɔ̃|bon|vowel,closed|1
+an|pair|||||ɑ̃|grand|vowel,closed|1
+en|pair|||||ɑ̃|enfant|vowel,front,closed|
+in|pair|||||ɛ̃|fin|vowel,front,closed|1
+ez|pair|||||e|chez|vowel,front,end|1
+er|pair|||||e|parler|vowel,front,end|
+où|pair|||||u|où|vowel|1
+œu|pair|||||œ|cœur|vowel|1
+tion|pair|||||sjɔ̃|nation||3
 é|also|||||e|été|vowel,front
 è|also|||||ɛ|mère|vowel,front
 ê|also|||||ɛ|être|vowel,front

@@ -2,7 +2,7 @@
 # This project's own work, derived from no third-party source: unencumbered.
 # What each letter sounds like is said per reader, in letters.<meta>.txt.
 #
-# key|group|name|name_plain|rom|rom_plain|ipa|example|flags
+# key|group|name|name_plain|rom|rom_plain|ipa|example|flags|sounds
 #   key      the unit, lower case; a word is cut into these longest first
 #   group    letter (the alphabet), pair (letters read as one), also (beyond the alphabet)
 #   name     the letter's name in Portuguese
@@ -12,6 +12,8 @@
 #   flags    vowel; front (a vowel that softens c and g before it: e, i, y); start (a pair only at the head of a word);
 #            closed (a pair refused before a vowel or a doubled letter); end (only at the tail);
 #            heavy (an emphatic consonant)
+#   sounds   a pair's number of sounds where it is the same in every word; empty where it
+#            changes with the word (the card then says only that the letters are read together)
 #
 # The pairs are the ones Portuguese spelling reads as one sound: lh, nh, ch, rr,
 # ss and qu, and the three nasal diphthongs ão, õe and ãe. The sounds are those of
@@ -43,15 +45,15 @@ w|letter|dáblio||||w|web|
 x|letter|xis||||ʃ|peixe|
 y|letter|ípsilon||||i||vowel,front
 z|letter|zê||||z|zero|
-lh|pair|||||ʎ|filho|
-nh|pair|||||ɲ|vinho|
-ch|pair|||||ʃ|chuva|
-rr|pair|||||ʁ|carro|
-ss|pair|||||s|passar|
-qu|pair|||||k|quem|
-ão|pair|||||ɐ̃w|não|vowel
-õe|pair|||||õj|põe|vowel
-ãe|pair|||||ɐ̃j|mãe|vowel
+lh|pair|||||ʎ|filho||1
+nh|pair|||||ɲ|vinho||1
+ch|pair|||||ʃ|chuva||1
+rr|pair|||||ʁ|carro||1
+ss|pair|||||s|passar||1
+qu|pair|||||k|quem||
+ão|pair|||||ɐ̃w|não|vowel|1
+õe|pair|||||õj|põe|vowel|1
+ãe|pair|||||ɐ̃j|mãe|vowel|1
 á|also|||||a|lá|vowel
 à|also|||||a|às|vowel
 â|also|||||ɐ|câmera|vowel

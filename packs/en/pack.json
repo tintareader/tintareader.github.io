@@ -1,6 +1,6 @@
 {
   "id": "en",
-  "version": "1.0.161",
+  "version": "1.0.162",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -90,37 +90,37 @@
     "letters": {
       "path": "letters.txt",
       "license": "unencumbered",
-      "sha256": "7e7313294ee117b160cf064a2bc1bea530afccd77fb69cee545202b360d39470"
+      "sha256": "407b3ca811c9c1e92d615686da9464d375d7e94ae22292574e68b011678b1a07"
     },
     "letters.en": {
       "path": "letters.en.txt",
       "license": "unencumbered",
-      "sha256": "b0d4ce1b7b6a8f1250672d107c3e4bf624eb0d9c58e0b2173bf1af44405e00d9"
+      "sha256": "fd9f0f52ef830258f6ad38fc747079b31a1ac2e66254a988e3a081fd4c1b2620"
     },
     "letters.es": {
       "path": "letters.es.txt",
       "license": "unencumbered",
-      "sha256": "5601383f79ed1a6121d4d1daec6c750966b9c13c235e60539c1e1935aaab2c52"
+      "sha256": "49efda1676cb537e1540f2e3a343fd8bef750aba77649456f7d16cbbdf105888"
     },
     "letters.fr": {
       "path": "letters.fr.txt",
       "license": "unencumbered",
-      "sha256": "3165b2c7c2716d1e5f559912ad24bd5eb5189c9ddd78f84915e8f58cc498fc86"
+      "sha256": "c6619339d37e5674d013e799d88e43239d273d685e09791f22854f5ad72788af"
     },
     "letters.id": {
       "path": "letters.id.txt",
       "license": "unencumbered",
-      "sha256": "8f0e01994660ee3d37edfca8e2c2d5d4bed1b7e3851e8e2a8d34bcc5f6d713ff"
+      "sha256": "d41ca67d469f4b6759fa10402c918b9a9ece8c4de00a2d34c6dcb5c3e7e8b247"
     },
     "letters.pt": {
       "path": "letters.pt.txt",
       "license": "unencumbered",
-      "sha256": "08e1528d75f1a5d47bafd7f79728e89265c47411123c7438d9cd3fae1cfbc61a"
+      "sha256": "e8de65aad3af253b792da54aec32da250d249578a3a64f871c33b04dbedaca86"
     },
     "letters.zh": {
       "path": "letters.zh.txt",
       "license": "unencumbered",
-      "sha256": "a1062ef8cef9d93ac84bf6bd4c7efb06bbfa745762eb2588d1ebb6bd2f23d620"
+      "sha256": "8e56fd6fa1cd372013f7ca6f962e4a7d454355ea152be4de0b566d5b20be3f4d"
     },
     "define.en": {
       "path": "define.en.txt",
