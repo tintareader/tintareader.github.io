@@ -1,6 +1,6 @@
 {
   "id": "id",
-  "version": "1.1.101",
+  "version": "1.1.102",
   "minApp": "0.2.5",
   "files": {
     "lex": {
@@ -17,6 +17,11 @@
       "path": "ranks.txt",
       "license": "CC-BY-SA-4.0",
       "sha256": "9c3358f94576540f98de0d603e12e8b313b786bdcd98b6634a3efe0b71851973"
+    },
+    "learner": {
+      "path": "learner.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d294abea9ebdf7d6f432021dca9b099b7a2b819c9b05e56af86d65cf602dedcc"
     },
     "sample": {
       "path": "sample.txt",

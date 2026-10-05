@@ -1,6 +1,6 @@
 {
   "id": "zh",
-  "version": "1.1.106",
+  "version": "1.1.107",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -16,6 +16,11 @@
       "path": "ranks.txt",
       "license": "CC-BY-SA-4.0",
       "sha256": "04670742a854718535b395dd0c3d233a24bb3b9f25fc1d406158c15e24900147"
+    },
+    "learner": {
+      "path": "learner.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "12c0a759c47407c11704c679a6e8c9645421f7c30f1c422b2336f203114cb153"
     },
     "readings": {
       "path": "readings.txt",

@@ -1,6 +1,6 @@
 {
   "id": "pt",
-  "version": "1.1.60",
+  "version": "1.1.61",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -16,6 +16,11 @@
       "path": "ranks.txt",
       "license": "CC-BY-SA-4.0",
       "sha256": "056fbf78e40a71a1963b79df6f0be303fb4d1c978f96072b50f1305ea0c3e5d6"
+    },
+    "learner": {
+      "path": "learner.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "64bf6fe69d76c3f7233b36578af64fafbea83f055c26a5d181105c4967ae949c"
     },
     "lemmas": {
       "path": "lemmas.txt",

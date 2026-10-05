@@ -127,6 +127,7 @@ licence travels with the file if it is redistributed on its own.
 -----------------------------------------
 
 Files:  app/public/packs/*/ranks.txt
+        app/public/packs/*/learner.txt
 
 Derived from:
   hermitdave/FrequencyWords — https://github.com/hermitdave/FrequencyWords
@@ -153,6 +154,14 @@ CC BY-SA source; the resulting file stays CC BY-SA 4.0 with both credited.
 The Arabic pack's ranks also derive from the source in section 3a, which
 decided which spellings count towards which word; both are CC BY-SA 4.0, so
 the two are compatible and may share a file, and its header credits both.
+
+Each pack's learner.txt names the words a learner's level brings forward of
+their corpus rank: everyday words from a concept list written for this
+project (tools/measure/lib/learner-core.ts), kept only where they beat the
+rank above, and for Mandarin the rank recounted from the same list's counts
+where its segmenter had glued a word to its neighbour (一件 counted for 件).
+Both are compared with or derived from this source, so the files carry its
+licence.
 
 These files are themselves licensed CC BY-SA 4.0.
 
