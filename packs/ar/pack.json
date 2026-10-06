@@ -1,6 +1,6 @@
 {
   "id": "ar",
-  "version": "1.0.56",
+  "version": "1.0.57",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -17,11 +17,6 @@
       "license": "CC-BY-SA-4.0",
       "sha256": "f43baf442aee7a014a09e2dd8065345e759e78c7bda59241e10a9200da1b527c"
     },
-    "learner": {
-      "path": "learner.txt",
-      "license": "CC-BY-SA-4.0",
-      "sha256": "2fddc226a863d365da68cf7405de52a3a9f614d14fc7edce45639075299377b9"
-    },
     "lemmas": {
       "path": "lemmas.txt",
       "license": "CC-BY-SA-4.0",
@@ -30,7 +25,12 @@
     "readings": {
       "path": "readings.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "f41462430eea4e17f14b0fa562db86f4a1900861acf7494c888943b20add7e8a"
+      "sha256": "75d1ef418fa693334e0f9fdf6036f8485da196011a95536869e6cbc72ae7e017"
+    },
+    "learner": {
+      "path": "learner.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2fddc226a863d365da68cf7405de52a3a9f614d14fc7edce45639075299377b9"
     },
     "sample": {
       "path": "sample.txt",
