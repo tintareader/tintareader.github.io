@@ -6,7 +6,7 @@
 #            e, i and the like), beforevowel, aftervowel. The engine works out
 #            where a letter stands; the first context with a note wins.
 # Written for this reader, not translated: comparisons are to Indonesian words.
-ا||a panjang, seperti a dalam bapak tetapi lebih lama; di awal kata, vokal pendek
+ا||a panjang, seperti a dalam bapak tetapi lebih lama; lebih tebal, mendekati o, di samping huruf tebal, q atau r; di awal kata, vokal pendek
 ا|start|di awal kata, tempat vokal pendek (a, i, atau u), bukan ā panjang
 ا|article|a dari al-, kata sandang: dibaca di awal kalimat, hilang setelah vokal (fi l-bayt)
 ا|end|ā panjang di akhir kata (hunā); setelah huruf terakhir kata benda sering menulis akhiran -an (kitāban, "sebuah buku")
@@ -14,22 +14,22 @@
 ت||t, seperti dalam tahu
 ث||s dengan ujung lidah di antara gigi, seperti ṡa saat mengaji
 ج||j, seperti dalam jalan; g, seperti dalam gula, di Mesir
-ح||h yang kuat dan berdesah dari tenggorokan, seperti ḥa saat mengaji
+ح||h yang serak dan berbisik, didorong dari tenggorokan yang dijepit, seperti ḥa saat mengaji; bukan h biasa dalam hari
 خ||kh, seperti dalam khusus atau akhir
 د||d, seperti dalam dua
 ذ||z dengan ujung lidah di antara gigi, seperti żal saat mengaji
-ر||r yang digetarkan, seperti r dalam raja
+ر||r dengan satu ketukan lidah, seperti r dalam pari; digetarkan seperti r dalam raja bila bertasydid
 ز||z, seperti dalam zaman
 س||s, seperti dalam sapu
 ش||sy, seperti dalam syarat
-ص||s yang berat: s dengan pangkal lidah terangkat
-ض||d yang berat: d dengan pangkal lidah terangkat
-ط||t yang berat: t dengan pangkal lidah terangkat
-ظ||ż yang berat: lidah di antara gigi, pangkal lidah terangkat
-ع||tekanan rapat di dalam tenggorokan, seperti ʿain saat mengaji
+ص||s yang tebal: s dengan pangkal lidah terangkat; vokal di sebelahnya ikut tebal, a terdengar mendekati o
+ض||d yang tebal: d dengan pangkal lidah terangkat; vokal di sebelahnya ikut tebal, a terdengar mendekati o
+ط||t yang tebal: t dengan pangkal lidah terangkat; vokal di sebelahnya ikut tebal, a terdengar mendekati o
+ظ||ż yang tebal: lidah di antara gigi, pangkal lidah terangkat, vokal di sebelahnya ikut tebal; banyak orang mengucapkannya z tebal
+ع||pasangan bersuara dari ح: tenggorokan dijepit sambil bersuara, seperti ʿain saat mengaji
 غ||gh, bunyi seperti berkumur, seperti dalam ghaib
 ف||f, seperti dalam fajar
-ق||k yang diucapkan jauh di belakang, dekat tenggorokan
+ق||k yang diucapkan jauh di belakang, pangkal lidah menempel pada anak tekak, bukan di tenggorokan; vokal di sebelahnya ikut tebal
 ك||k, seperti dalam kaki
 ل||l, seperti dalam lampu
 ل|sun|l dari al-, kata sandang, yang berbunyi seperti huruf sesudahnya: asy-syams, bukan al-syams
@@ -45,15 +45,15 @@
 آ||hentian napas, lalu a panjang
 ؤ||hentian napas, ditulis di atas wāw
 ئ||hentian napas, ditulis di atas yāʾ
-ة||a di akhir kata; t bila diikuti akhiran
-ى||a panjang, seperti a dalam bapak tetapi lama; hanya di akhir kata
-َ||a pendek, seperti dalam apa, pada huruf di bawahnya (fathah)
+ة||-a di akhir kata (madrasa; dibaca h saat waqaf ketika mengaji); -at bila diikuti akhiran atau kata benda lain (madrasatī, "sekolahku")
+ى||a panjang, hanya di akhir kata: ي tanpa titik (ʻalā, "di atas")
+َ||a pendek, seperti dalam apa, pada huruf di bawahnya (fathah); lebih tebal, mendekati o, di samping huruf tebal, q atau r
 ُ||u pendek, seperti dalam ibu, pada huruf di bawahnya (dhammah)
 ِ||i pendek, seperti dalam ini, pada huruf di atasnya (kasrah)
 ْ||tanpa vokal: huruf yang memakainya menutup suku kata (sukun)
-ّ||huruf dibaca dua kali, ditahan sejenak (tasydid)
+ّ||huruf dibaca ganda (tasydid): ditahan sejenak lebih lama, seperti ll dalam Allah
 ً||-an di akhir kata (syukran); biasanya ditulis dengan alif sesudahnya
-ٌ||-un di akhir kata: akhiran kata benda yang tidak tentu
+ٌ||-un di akhir kata: akhiran kata benda yang tidak tentu (kitābun, "sebuah buku")
 ٍ||-in di akhir kata: akhiran yang sama sesudah kata depan
 # A tile's label for the two marks that have no sound of their own
 ْ|tile|tanpa vokal

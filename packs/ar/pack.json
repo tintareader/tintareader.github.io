@@ -1,6 +1,6 @@
 {
   "id": "ar",
-  "version": "1.0.57",
+  "version": "1.0.63",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -25,7 +25,7 @@
     "readings": {
       "path": "readings.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "75d1ef418fa693334e0f9fdf6036f8485da196011a95536869e6cbc72ae7e017"
+      "sha256": "bd7659c6ad3670dbca3c66fdb3a896ada6a5a3e9336f01734f1682b45a06d8a4"
     },
     "learner": {
       "path": "learner.txt",
@@ -95,27 +95,27 @@
     "letters.en": {
       "path": "letters.en.txt",
       "license": "unencumbered",
-      "sha256": "a62fbd0ac489c0e73c207e9bbfa459513d6e71072f4abcaad091b7814f19fa03"
+      "sha256": "74e35cbac8240cff937fc317f5cb0696795f8c668393d148381f6b38bc5374e8"
     },
     "letters.es": {
       "path": "letters.es.txt",
       "license": "unencumbered",
-      "sha256": "0f0f03e7ea354edae7c5a7ca113cf50bd8ba736a4f73af9e45c3a7d1bf3c9af8"
+      "sha256": "4998e4dfa3af3a76fdb790e425a999bc10395897d590c7c7bf0783c9b90f133e"
     },
     "letters.fr": {
       "path": "letters.fr.txt",
       "license": "unencumbered",
-      "sha256": "27f8bb75a7499371a2838d2c897bd6237522c54a45b1b04bfa1f596628bc2f50"
+      "sha256": "000c927b11d44d509c633f7260366367a4fabb8d87066aec00b0c564093a2b27"
     },
     "letters.id": {
       "path": "letters.id.txt",
       "license": "unencumbered",
-      "sha256": "68e23184f133d933978a3ec60788313d348922364f613e50efb204df252632af"
+      "sha256": "f2511872f2ebb0eebecfa3659e922d6e085ce8da386c098abe3a48f1ee25c10e"
     },
     "letters.pt": {
       "path": "letters.pt.txt",
       "license": "unencumbered",
-      "sha256": "c32006bfb84a18903df04c50c60408d2ea13069d03e54fa18b4a90688ca183ef"
+      "sha256": "1aac640d8221962a2b4792956b730c3462f367d7c08a09e9dca0c26fda94acbf"
     },
     "stories": {
       "path": "stories.txt",
