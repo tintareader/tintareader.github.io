@@ -1,6 +1,6 @@
 {
   "id": "ar",
-  "version": "1.0.64",
+  "version": "1.0.66",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -100,22 +100,22 @@
     "letters.es": {
       "path": "letters.es.txt",
       "license": "unencumbered",
-      "sha256": "4998e4dfa3af3a76fdb790e425a999bc10395897d590c7c7bf0783c9b90f133e"
+      "sha256": "625462b1516966a8bc76a51007ae5c7757cac18042434b496ee80a4a28320d3b"
     },
     "letters.fr": {
       "path": "letters.fr.txt",
       "license": "unencumbered",
-      "sha256": "000c927b11d44d509c633f7260366367a4fabb8d87066aec00b0c564093a2b27"
+      "sha256": "900f7f731402c27f124c814afb44d13bad68c8fb2a1b0eeac73d4b5956628be9"
     },
     "letters.id": {
       "path": "letters.id.txt",
       "license": "unencumbered",
-      "sha256": "f2511872f2ebb0eebecfa3659e922d6e085ce8da386c098abe3a48f1ee25c10e"
+      "sha256": "c1a4fa43d4e0f8affeda27ff53bc7f0d17f073f006bbd693d331a791aab8f819"
     },
     "letters.pt": {
       "path": "letters.pt.txt",
       "license": "unencumbered",
-      "sha256": "1aac640d8221962a2b4792956b730c3462f367d7c08a09e9dca0c26fda94acbf"
+      "sha256": "30b7228bba6bc5f126461b97e6ab1ac0178f94ed9a81e9858de8e28859715ab6"
     },
     "stories": {
       "path": "stories.txt",
@@ -151,6 +151,26 @@
       "path": "stories.zh.txt",
       "license": "unencumbered",
       "sha256": "ec201742abba51c839011e7f8bbf2f63185ab6d85979f68273a8cd63deed214e"
+    },
+    "names": {
+      "path": "names.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "755b4f811abf26eb308ef243ff207c701b867850a9516d15714b0db370f698ba"
+    },
+    "homographs": {
+      "path": "homographs.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "56c099cf49bb4684d228069d7718d972050168b99aedcacdc09e8500d7ac3083"
+    },
+    "latin": {
+      "path": "latin.txt",
+      "license": "CC0-1.0",
+      "sha256": "3afb81ff4d3eee82e11fda593d561ff5e28abd38b661737e6b6c898ccaa743fd"
+    },
+    "loans": {
+      "path": "loans.txt",
+      "license": "unencumbered",
+      "sha256": "4445309d121e1db3275a3fb98c9a214787a8a9876a0ea6f62312e6d6b54be58d"
     }
   }
 }

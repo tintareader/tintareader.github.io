@@ -114,7 +114,8 @@ project's own work.
 
 Pronunciation data, Arabic — CC BY-SA 4.0
 
-Files:  app/public/packs/ar/readings.txt
+Files:  app/public/packs/ar/readings.txt, app/public/packs/ar/names.txt,
+        app/public/packs/ar/homographs.txt
 
 Derived from the same Wiktionary extract, CC BY-SA 4.0: each headword written
 with its short vowels, as Wiktionary's canonical form gives it, one per
@@ -124,7 +125,20 @@ itself licensed CC BY-SA 4.0, and is kept apart from lemmas.txt, which carries
 its own attribution, and from the glosses of section 4. The readings in
 app/tools/dictgen/corrections/ar.readings.txt, for words Wiktionary has no
 vowelled entry for, are this project's own work, and are shipped in the same
-file under the same licence.
+file under the same licence. names.txt is the same extract's names (people,
+places) with their short vowels, for words the pack has no entry for, under
+the same licence. homographs.txt is the same extract's second reading of
+a word that is both a verb and a noun, and verbal nouns' readings, under the
+same licence.
+
+Names in Latin letters, Arabic — CC0 1.0
+
+Files:  app/public/packs/ar/latin.txt
+
+Foreign names written in Arabic script with the Latin spelling they are known
+by, made by pairing the words of the Arabic and English labels Wikidata
+(www.wikidata.org) gives people. Wikidata's data is released under CC0 1.0;
+this file carries no obligation, and is kept apart from the CC BY-SA files.
 
 Word selection, Arabic — counted from the Tanzil Quran text, not shipped
 
