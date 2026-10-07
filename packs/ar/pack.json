@@ -1,6 +1,6 @@
 {
   "id": "ar",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -95,7 +95,7 @@
     "letters.en": {
       "path": "letters.en.txt",
       "license": "unencumbered",
-      "sha256": "74e35cbac8240cff937fc317f5cb0696795f8c668393d148381f6b38bc5374e8"
+      "sha256": "efeb4f552c076eaf714945e08e0188ac1d78b3af509f7d25181ec387aa46bd5c"
     },
     "letters.es": {
       "path": "letters.es.txt",
