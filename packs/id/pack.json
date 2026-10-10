@@ -1,12 +1,12 @@
 {
   "id": "id",
-  "version": "1.1.140",
+  "version": "1.1.141",
   "minApp": "0.2.5",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "96bc9d9b5adb86bb6bd921293c3de9a4ccfb6218a3ae0daa13e59fa730f38a35"
+      "sha256": "6d5f3a43e90124d2cf9011dd3142e5b69abecc277b2ad93fd61d112ef62e049c"
     },
     "gloss.en": {
       "path": "gloss.en.txt",

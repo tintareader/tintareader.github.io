@@ -1,26 +1,26 @@
 {
   "id": "pt",
-  "version": "1.1.92",
+  "version": "1.1.97",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "7217f11100cc343ed3263e809bed116bdf10ffb5d2ce85d842a7efd7b5693b57"
+      "sha256": "1344ff110e6071709785bcf626c133f3caa3088f804a1ac308769b611cc8e99c"
     },
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "8613310a16b380bd612dbd17eb88567d2dae9cab8d8a10095fb39cfa6c83b9e0"
+      "sha256": "f2dcfc85ab6ebdd3a70caef283cf4c75a74e7c437b7afa1bc26f7b4d43c5fde7"
     },
     "ranks": {
       "path": "ranks.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "93ab89d531bbc926de4ea9c3851c32ee81671bf66fb2d8609a28f2ee589b3c7f"
+      "sha256": "4b6ca6be4d54fceb25b0cd2252e54f3cc57092ed518021541feda0c5c04d2d8e"
     },
     "lemmas": {
       "path": "lemmas.txt",
       "license": "ODbL-1.0",
-      "sha256": "effe51d514036688a0c2cc1fa0528b699d7346813140d17cd9ba8a64566adc72"
+      "sha256": "f26921c3b95d1c74f8ad5be4265027e1ad991878176fe5b18a078873ed51509b"
     },
     "learner": {
       "path": "learner.txt",
@@ -50,12 +50,12 @@
     "gloss.id": {
       "path": "gloss.id.txt",
       "license": "unencumbered",
-      "sha256": "7e26a5316d0e1b9285afe2beebdb873ea591f11775ffb07cfa806ac5b5ffbe5f"
+      "sha256": "93407d9f53497e35e881ca65efe9de5eeff759438becf6052ca37a359cdfb741"
     },
     "gloss.es": {
       "path": "gloss.es.txt",
       "license": "unencumbered",
-      "sha256": "4829c03ae5f9b2e4f51171bbe99ccb993d008891e6839ebf6dba96977edb009c"
+      "sha256": "a1b613d1dd5db3e301b6289f621ac35369e4675a3e5e35a26bbeddd27c2414dc"
     },
     "phrases.es": {
       "path": "phrases.es.txt",
@@ -70,7 +70,7 @@
     "gloss.fr": {
       "path": "gloss.fr.txt",
       "license": "unencumbered",
-      "sha256": "ae8e7395aa2271fe8b654f33176b17f29dcfd93c7bcfe060f93406be5bb80e88"
+      "sha256": "5aa66ae43779c2fc1d4a7453f676e66a213445fd30e0aec9e612eb67e7a1aa7e"
     },
     "letters": {
       "path": "letters.txt",
