@@ -107,7 +107,7 @@
 نظر|regarder (ينظُر، نظر); vue, regard (pl. أنظار)|v;o
 أخذ|prendre (يأخُذ، أخذ)|v
 حقا|vraiment|o
-مثل|comme, tel que; proverbe, exemple (مَثَل، pl. أمثال); مثلا: par exemple; représenter, jouer (un rôle) (II, يمثل، تمثيل)|o;o;n;v
+مثل|comme, tel que; proverbe, exemple (مَثَل، pl. أمثال); مثلا: par exemple; représenter (II, يمثل، تمثيل); jouer (un rôle)|o;o;n;v;v
 ل|pour, à (appartenance : لي à moi); pour, afin de (+ verbe); que (+ verbe : لنذهب allons-y)|o;o;o
 أيضا|aussi, également|o
 حصل|obtenir (+ على ; يحصُل، حصول); arriver, se produire|v;v
@@ -238,7 +238,7 @@
 بيت|maison, foyer (pl. بيوت); vers (poésie ; pl. أبيات)|o;o
 متأكد|sûr, certain|o
 شرطة|police|o
-وصل|arriver, atteindre (يصِل، وصول); relier, déposer (quelqu'un en voiture) (II, يوصل، توصيل)|v;v
+وصل|arriver, atteindre (يصِل، وصول); relier, connecter (II, يوصل، توصيل); déposer en voiture|v;v;v
 فكرة|idée (pl. أفكار)|o
 لعنة|malédiction; اللعنة: merde !, bon sang|o;n
 قليلا|un peu|o
@@ -384,7 +384,7 @@
 جانب|côté (pl. جوانب); إلى جانب: à côté de, en plus de; جانبا: de côté|o;n;n
 كأن|comme si (+ nom ou pronom : كأنه comme s'il)|o
 رائعة|merveilleuse, super (f.); chef-d'œuvre (pl. روائع)|o;o
-رجاء|s'il te plaît; espoir, demande|o;o
+رجاء|s'il vous plaît; espoir; demande|o;o;o
 الأرض|la terre, le monde; le sol, le plancher|o;o
 أمل|espoir (pl. آمال); espérer (يأمُل، أمل); Amal (prénom)|o;v;o
 مجنون|fou, cinglé; fou, aliéné (pl. مجانين)|o;o
@@ -465,7 +465,7 @@
 مهمة|mission, tâche (pl. مهام); importante (f.)|o;o
 ذات|soi, essence; بالذات: en particulier, précisément; ayant, doté de (f. de ذو); ذات مرة: une fois|o;n;o;n
 حرب|guerre (pl. حروب)|o
-تناول|manger, prendre (un repas) (VI, يتناول، تناول); prendre (un médicament), traiter de|v;v
+تناول|manger, prendre (un repas) (VI, يتناول، تناول); prendre (un médicament); aborder (un sujet)|v;v;v
 استمر|continuer (X, يستمر، استمرار)|v
 ملبس|vêtement (pl. ملابس)|o
 بينما|pendant que, tandis que|o
@@ -561,7 +561,7 @@
 ميل|mille (distance) (pl. أميال); penchant, tendance (pl. ميول)|o;o
 استحق|mériter (X, يستحق، استحقاق); يستحق: valoir (la peine)|v;n
 ينبغي|il faut, devoir (ينبغي أن، ينبغي عليك tu devrais)|o
-وهى|et elle, alors qu'elle (= وهي)|o
+وهى|et elle, alors qu'elle (graphie négligée de وهي)|o
 قوي|fort, puissant (pl. أقوياء)|o
 ليل|nuit|o
 ميلاد|naissance; عيد ميلاد: anniversaire|o;n
@@ -593,7 +593,7 @@
 وحدة|unité; solitude; unité, union|o;o;o
 حي|vivant (pl. أحياء); quartier (pl. أحياء)|o;o
 مخدر|drogue, stupéfiant (مخدرات drogues); anesthésique; drogué, engourdi|o;o;o
-أبى|refuser (يأبى، إباء); mon père (= أبي)|v;o
+أبى|refuser (يأبى، إباء); mon père (graphie négligée de أبي)|v;o
 عجب|étonnement, émerveillement; لا عجب: pas étonnant|o;n
 حماية|protection|o
 رحلة|voyage, trajet, vol|o
@@ -652,7 +652,7 @@
 ثان|deuxième, second (الثاني); autre|o;o
 خمسة|cinq (avec un nom masculin ; خمس avec un féminin)|o
 انتبه|faire attention, prendre garde, remarquer (VIII, ينتبه، انتباه)|v
-سن|âge; dent (pl. أسنان); promulguer (une loi), aiguiser (يسُن، سن)|o;o;v
+سن|âge; dent (pl. أسنان); promulguer (une loi) (يسُن، سن); aiguiser|o;o;v;v
 أمريكي|Américain (pl. أمريكان، أمريكيون)|o
 آمن|sûr, sans danger; croire (IV, يؤمن، إيمان)|o;v
 قريب|proche, près; parent (pl. أقارب)|o;o
@@ -841,7 +841,7 @@
 التقى|rencontrer (+ ب; VIII, يلتقي، التقاء)|v
 مرح|gaieté, amusement; gai, joyeux (مرِح)|o;o
 شقة|appartement (pl. شقق)|o
-عقد|contrat, accord (pl. عقود); décennie; collier (عِقد); tenir (une réunion), nouer (يعقِد، عقد)|o;o;o;v
+عقد|contrat, accord (pl. عقود); décennie; collier (عِقد); tenir (une réunion) (يعقِد، عقد); faire (un nœud)|o;o;o;v;v
 محظوظ|chanceux|o
 تأخر|être en retard, être retardé (V, يتأخر، تأخر); retard|v;o
 سماء|ciel|o
@@ -852,7 +852,7 @@
 محتمل|possible, probable; supportable|o;o
 شدة|intensité, gravité, force; épreuve, difficulté; بشدة: beaucoup, fortement|o;o;n
 طاقة|énergie; capacité|o;o
-صف|rangée, file (pl. صفوف); classe; aligner, garer (يصُف، صف)|o;o;v
+صف|rang, file (pl. صفوف); classe, salle de classe; aligner (يصُف، صف); garer (une voiture)|o;o;v;v
 هان|être facile, être sans importance (يهون، هوان)|v
 ويل|malheur (ويل لك malheur à toi); Will (prénom)|o;o
 راهن|parier (III, يراهن، مراهنة); actuel, présent (الوضع الراهن le statu quo)|v;o
@@ -909,7 +909,7 @@
 بشر|êtres humains, humanité; annoncer une bonne nouvelle (II, يبشر، تبشير)|o;v
 شمس|soleil (pl. شموس)|o
 معنى|sens, signification (pl. معان)|o
-حكم|jugement, verdict, peine (pl. أحكام); pouvoir, gouvernement; arbitre (حَكَم); gouverner, juger, condamner (يحكُم، حكم)|o;o;o;v
+حكم|jugement, verdict, peine (pl. أحكام); règle, gouvernement; arbitre (حَكَم); régner, gouverner (يحكُم، حكم); juger, condamner|o;o;o;v;v
 كاميرا|caméra, appareil photo|o
 ذو|ayant, doté de, à (ذو معنى qui a du sens ; f. ذات)|o
 قتال|combat, lutte|o
@@ -982,7 +982,7 @@
 غد|demain (الغد)|o
 واجه|affronter, faire face à (III, يواجه، مواجهة)|v
 السنة|l'année; la Sunna (la pratique du Prophète)|o;o
-اعترف|avouer, admettre, reconnaître (VIII, يعترف، اعتراف)|v
+اعترف|avouer, admettre (VIII, يعترف، اعتراف); reconnaître (un État, un droit)|v;v
 بكثير|beaucoup, de loin (أفضل بكثير bien meilleur)|o
 حيال|au sujet de, face à (ماذا ستفعل حيال … que vas-tu faire au sujet de …)|o
 تحكم|contrôler, maîtriser (+ ب، في; V, يتحكم، تحكم); contrôle|v;o
@@ -1008,7 +1008,7 @@
 بكى|pleurer (يبكي، بكاء)|v
 تحول|se transformer en, devenir (+ إلى; V, يتحول، تحول); transformation, changement|v;o
 قاض|juge (القاضي، pl. قضاة)|o
-فصل|chapitre, section (pl. فصول); saison; séparer, renvoyer, licencier (يفصِل، فصل)|o;o;v
+فصل|chapitre, section (pl. فصول); saison; séparer (يفصِل، فصل); renvoyer, licencier (d'un emploi)|o;o;v;v
 متجر|magasin, boutique (pl. متاجر)|o
 جمع|rassembler, collecter (يجمَع، جمع); pluriel (grammaire)|v;o
 تفقد|inspecter, vérifier (V, يتفقد، تفقد); tu perds, elle perd (تفقِد)|v;f2s2p
@@ -1047,7 +1047,7 @@
 سابقة|précédent; antécédent (judiciaire) (pl. سوابق); précédente (f.)|o;o;o
 فشل|échouer (يفشَل، فشل); échec|v;o
 إلينا|à nous, vers nous|o
-تابع|suivre, continuer, poursuivre (III, يتابع، متابعة); partisan, adepte (pl. أتباع); appartenant à, relevant de (+ ل)|v;o;o
+تابع|suivre, se tenir au courant de (III, يتابع، متابعة); continuer, poursuivre; partisan (pl. أتباع); appartenant à (+ ل)|v;v;o;o
 مفقود|disparu, perdu|o
 طرق|frapper (à la porte) (يطرُق، طرق); routes, chemins (pl. de طريق)|v;o
 فجأة|soudain, tout à coup|o
@@ -1076,7 +1076,7 @@
 مار|passant (pl. مارة); saint (titre chrétien : مار جرجس saint Georges)|o;o
 استغرق|prendre (du temps), durer (X, يستغرق، استغراق)|v
 سابقا|auparavant, avant, autrefois|o
-رد|répondre, rendre (يرُد، رد); réponse, réaction (pl. ردود)|v;o
+رد|répondre (يرُد، رد); rendre, renvoyer; réponse (pl. ردود)|v;v;o
 كنيسة|église (pl. كنائس)|o
 مجلس|conseil (pl. مجالس); salon|o;o
 تصوير|tournage, prise de vue, photographie|o
@@ -1094,7 +1094,7 @@
 مخطئ|dans l'erreur (أنت مخطئ tu te trompes)|o
 أمريكا|Amérique|o
 كلية|faculté, collège; rein (كُلية، pl. كلى)|o;o
-التقط|ramasser, prendre (une photo), attraper (VIII, يلتقط، التقاط)|v
+التقط|ramasser, attraper (VIII, يلتقط، التقاط); prendre (une photo)|v;v
 مصاب|blessé; atteint, malade (+ ب)|o;o
 قفز|sauter (يقفِز، قفز)|v
 تخلى|renoncer à, abandonner (+ عن; V, يتخلى، تخلي)|v
@@ -1133,7 +1133,7 @@
 موسم|saison (pl. مواسم)|o
 عار|honte, déshonneur; nu (عارٍ)|o;o
 باق|restant, qui reste (الباقي le reste)|o
-وقف|se tenir debout, s'arrêter (يقِف، وقوف); bien de mainmorte, waqf (pl. أوقاف)|v;o
+وقف|se tenir debout (يقِف، وقوف); s'arrêter, cesser; bien de mainmorte, waqf (pl. أوقاف)|v;v;o
 هوية|identité; carte d'identité (بطاقة الهوية)|o;o
 عصابة|gang, bande; bandeau, bandage|o;o
 دواء|médicament (pl. أدوية)|o
@@ -1260,7 +1260,7 @@
 واجب|devoir, obligation; devoirs (scolaires); nécessaire, obligatoire|o;o;o
 ظلام|obscurité, noir|o
 أسماء|noms (pl. de اسم); Asmaa (prénom)|o;o
-بحرية|marine; librement (ب + حرية)|o;o
+بحرية|marine; naval, maritime, marin (adj., f.); librement (ب + حرية)|o;o;o
 شخصي|personnel, privé|o
 طرف|côté, bout, bord (pl. أطراف); partie (dans un litige ou un accord); من طرف: de la part de, de|o;o;n
 إخراج|sortie, retrait; mise en scène (d'un film)|o;o
@@ -1297,7 +1297,7 @@
 أنزل|descendre (qqch), baisser, déposer (IV, ينزل، إنزال); je descends (أنزِل)|v;f1s
 ممارسة|pratique, exercice|o
 أطول|plus long, le plus long, plus grand|o
-أصغر|plus petit, le plus petit, plus jeune, le plus jeune|o
+أصغر|plus petit, le plus petit; plus jeune, le plus jeune|o;o
 مخلوق|créature, être|o
 وسيلة|moyen (pl. وسائل)|o
 تقبل|accepter (V, يتقبل، تقبل); tu acceptes, elle accepte (تقبَل)|v;f2s2p
@@ -1326,7 +1326,7 @@
 خمر|vin, alcool (pl. خمور)|o
 بيرة|bière|o
 أداء|performance, interprétation|o
-كريم|généreux, noble (pl. كرماء); crème (cosmétique)|o;o
+كريم|généreux, bon (pl. كرماء); crème (lotion); Karim (prénom)|o;o;o
 مسار|chemin, parcours, trajectoire|o
 استسلم|se rendre, abandonner (X, يستسلم، استسلام)|v
 جيل|génération (pl. أجيال); gel|o;o
@@ -1377,7 +1377,7 @@
 ابتنى|bâtir (VIII, يبتني، ابتناء)|v
 عاصفة|tempête (pl. عواصف)|o
 تحية|salutation, salut; تحياتي: salutations, amitiés|o;n
-أميرة|princesse|o
+أميرة|princesse; Amira (prénom)|o;o
 ثوب|robe, vêtement, tunique (pl. ثياب، أثواب)|o
 متن|على متن: à bord; texte (pl. متون)|n;o
 ملعون|maudit|o
@@ -1393,7 +1393,7 @@
 هيئة|organisme, autorité, commission; apparence, forme|o;o
 قلة|manque, pénurie; quelques-uns, une minorité (قلة من quelques)|o;o
 ساحر|magicien, sorcier (pl. سحرة); charmant, envoûtant|o;o
-مالك|propriétaire (pl. ملاك); qu'est-ce que tu as ? (ما لك)|o;o
+مالك|propriétaire (pl. ملاك); qu'est-ce que tu as ? (ما لك); Malik (prénom)|o;o;o
 وطن|patrie, pays (pl. أوطان)|o
 جوار|voisinage, environs; بجوار: à côté de|o;n
 طوارئ|urgence, urgences (حالة طوارئ état d'urgence)|o
@@ -1629,7 +1629,7 @@
 خصوصا|surtout, en particulier|o
 أكتب|j'écris|f1s
 بر|terre (par voie de terre : برا); piété, bonté (بر الوالدين)|o;o
-طرح|poser, soulever (une question), lancer (يطرَح، طرح); soustraction|v;o
+طرح|soulever, poser (une question) (يطرَح، طرح); jeter; soustraction|v;v;o
 نوبة|crise, accès (نوبة قلبية crise cardiaque); service, tour de garde|o;o
 آمنة|sûre (f.); Amina (prénom)|o;o
 غذاء|nourriture, alimentation; déjeuner (= غداء)|o;o
@@ -1683,7 +1683,7 @@
 ماما|maman (fam.)|o
 لازم|nécessaire; il faut, devoir (fam. : لازم أروح je dois y aller)|o;o
 مقدار|quantité, mesure, degré (pl. مقادير)|o
-فارس|chevalier, cavalier (pl. فرسان); Perse (بلاد فارس)|o;o
+فارس|chevalier, cavalier (pl. فرسان); Perse (بلاد فارس); Fares (prénom)|o;o;o
 موجة|vague (pl. أمواج)|o
 مطلوب|recherché, requis, demandé|o
 عبقري|génie (pl. عباقرة); génial|o;o
@@ -1937,14 +1937,14 @@
 تحذير|avertissement|o
 حشرة|insecte, bestiole|o
 شديدة|forte, intense, sévère (f.)|o
-سئ|mauvais (= سيئ)|o
+سئ|mauvais (graphie négligée de سيئ)|o
 مقدمة|introduction, préface; avant, devant|o;o
 أقود|je conduis, je mène|f1s
 فاتن|charmant, envoûtant, superbe|o
 تهرب|se dérober à, esquiver (+ من; V, يتهرب، تهرب); tu t'enfuis, elle s'enfuit (تهرُب)|v;f2s2p
 خداع|tromperie, supercherie|o
 سقف|plafond, toit (pl. أسقف)|o
-قانونية|légale, licite; légalité|o;o
+قانونية|légal, licite (f.); légalité|o;o
 إعداد|préparation, mise en place|o
 وزارة|ministère|o
 المدعي|le plaignant, le demandeur; المدعي العام: le procureur|o;n
@@ -1952,7 +1952,7 @@
 إطار|cadre (pl. أطر); pneu; cadre (contexte)|o;o;o
 نجاة|survie, sauvetage, salut|o
 تجاهل|ignorer (VI, يتجاهل، تجاهل)|v
-أري|je montre (أُري); je vois (= أرى)|f1s;f1s
+أري|je vois (graphie négligée de أرى); je montre (أُري)|f1s;f1s
 آكل|je mange; mangeur (آكل لحوم البشر cannibale)|f1s;o
 عاصمة|capitale (pl. عواصم)|o
 ضريبة|impôt, taxe (pl. ضرائب)|o
@@ -2025,9 +2025,9 @@
 عالمية|mondiale, internationale (f. ; الحرب العالمية : guerre mondiale)|o
 ملعب|terrain de jeu, stade, terrain (pl. ملاعب)|o
 صحفي|journaliste; de presse (مؤتمر صحفي conférence de presse)|o;o
-اقل|moins (= أقل)|o
+اقل|moins (graphie négligée de أقل)|o
 توافق|s'accorder, correspondre, être compatible (VI, يتوافق، توافق); accord, compatibilité|v;o
-شريف|honorable, honnête, noble (pl. شرفاء); shérif|o;o
+شريف|honorable, honnête, noble (pl. شرفاء); shérif; Sharif, Sherif (prénom)|o;o;o
 حفظ|garder, préserver, sauvegarder (يحفَظ، حفظ); mémoriser, apprendre par cœur|v;v
 رضيع|bébé, nourrisson (pl. رضع)|o
 فرنسية|française (f.); le français (la langue)|o;o
@@ -2175,7 +2175,7 @@
 لحد|tombe (لَحد); jusqu'à (fam., = حتى)|o;o
 أوروبا|Europe|o
 مت|meurs ! (impératif de مات); je suis mort, tu es mort (مُتُّ، مُتَّ)|o;f1s
-بشئ|(ب + شيء) avec quelque chose, au sujet de quelque chose (= بشيء)|o
+بشئ|(ب + شيء) avec quelque chose, à propos de quelque chose (graphie négligée de بشيء)|o
 سروال|pantalon (pl. سراويل)|o
 مدين|redevable, endetté (أنا مدين لك je te dois); débiteur|o;o
 دافئ|chaud, tiède|o
@@ -2291,11 +2291,11 @@
 رقمي|numérique; mon numéro|o;o
 عمود|colonne, pilier, poteau (pl. أعمدة)|o
 مستودع|entrepôt, dépôt, réserve (pl. مستودعات)|o
-سماعي|à l'oreille, auditif; appris par l'oreille|o;o
+سماعي|m'entendre, pour m'entendre (سماع + ي: هل يمكنك سماعي tu peux m'entendre ?); à l'oreille, auditif; appris à l'oreille|o;o;o
 ظهيرة|midi|o
 مهرج|clown, bouffon|o
 غربي|occidental, de l'ouest|o
-أخرس|muet (f. خرساء، pl. خرس); tais-toi ! (أخرس : silence)|o;o
+أخرس|tais-toi ! (graphie négligée de اخرس); muet (f. خرساء، pl. خرس)|o;o
 انسحب|se retirer, battre en retraite (VII, ينسحب، انسحاب)|v
 اليابان|Japon|o
 تضمن|inclure, contenir (V, يتضمن، تضمن); tu garantis; elle garantit|v;f2s2p;f3s
@@ -2366,7 +2366,7 @@
 خمسون|cinquante|o
 ثنائي|duo, paire, couple; double, bilatéral|o;o
 أحرز|marquer, obtenir, faire (des progrès) (IV, يحرز، إحراز)|v
-احمق|sot, idiot; stupide (f. حمقاء، pl. حمقى)|o;o
+احمق|imbécile, idiot; stupide (f. حمقاء، pl. حمقى) (graphie négligée de أحمق)|o;o
 عظم|os (pl. عظام)|o
 رقيق|délicat, doux, fin; esclaves|o;o
 صينية|plateau (pl. صواني); chinoise (f.)|o;o
@@ -2441,7 +2441,7 @@
 أفعى|serpent, vipère (pl. أفاع)|o
 راج|être populaire, être demandé (يروج، رواج)|v
 تعيين|nomination (à un poste); affectation|o;o
-أهدأ|plus calme; je me calme|o;f1s
+أهدأ|calme-toi ! (graphie négligée de اهدأ); plus calme, plus tranquille; je me calme|o;o;f1s
 اختفاء|disparition|o
 حساسية|sensibilité; allergie|o;o
 ثبت|être prouvé, être établi (يثبُت، ثبوت); fixer, attacher, installer (II, يثبت، تثبيت)|v;v
@@ -2458,7 +2458,7 @@
 مقهى|café (pl. مقاه)|o
 بعث|envoyer (يبعَث، بعث); résurrection; Baas (parti)|v;o;o
 بيئة|environnement|o
-تدمر|détruit; tu détruis; Palmyre|o;f2s2p;o
+تدمر|être détruit (V, يتدمر، تدمر); tu détruis, elle détruit (تدمِّر); Palmyre|v;f2s2p;o
 تشريح|autopsie; dissection, anatomie|o;o
 عاود|reprendre, recommencer (III, يعاود، معاودة)|v
 مجاور|voisin, adjacent, d'à côté|o
@@ -2551,7 +2551,7 @@
 فاخر|luxueux, de luxe, de première classe|o
 مرأب|garage|o
 إرادة|volonté|o
-أخوة|frères (pl. de أخ); fraternité (أخوة)|o;o
+أخوة|frères (pl. de أخ; graphie négligée de إخوة); fraternité (أُخوّة)|o;o
 التهم|dévorer, engloutir (VIII, يلتهم، التهام); les accusations (pl. de تهمة)|v;o
 العيون|les yeux|o
 مليار|milliard|o
@@ -2580,7 +2580,7 @@
 تمثل|tu représentes; elle représente, cela représente; consister en, s'incarner (V, يتمثل، تمثل)|f2s2p;f3s;v
 ضائع|perdu|o
 التزام|engagement, obligation|o
-أبق|reste !, garde (أبق بعيدا reste à l'écart)|o
+أبق|reste ! (graphie négligée de ابق: أبق بعيدا reste à distance); garde ! (impératif de أبقى)|o;o
 إخلاء|évacuation, libération des lieux; إخلاء سبيل: remise en liberté|o;n
 دق|frapper, sonner, battre (يدُق، دق); minute (fam., = دقيقة)|v;o
 وين|où (fam., = أين)|o
@@ -2652,7 +2652,7 @@
 رج|secouer (يرُج، رج)|v
 حثالة|racaille, lie|o
 بيان|déclaration, communiqué|o
-مضطرة|forcée, obligée, contrainte|o
+مضطرة|forcée, obligée, devant (f.)|o
 اضطراب|trouble, perturbation; agitation, troubles|o;o
 موهوب|talentueux, doué|o
 انهيار|effondrement; dépression (انهيار عصبي dépression nerveuse)|o;o
@@ -2681,7 +2681,7 @@
 بدل|au lieu de (بدلا من); indemnité, allocation; changer, échanger (II, يبدل، تبديل)|o;o;v
 رمي|lancer, tir|o
 تفاوض|négociation; négocier (VI, يتفاوض، تفاوض)|o;v
-مزيفة|faux, contrefait, falsifié|o
+مزيفة|fausse, falsifiée, contrefaite (f.)|o
 بسكويت|biscuits, gâteaux secs|o
 نفايات|déchets, ordures|o
 نقدا|en espèces, en liquide|o
@@ -2719,7 +2719,7 @@
 إبعاد|éloignement, mise à l'écart; expulsion|o;o
 هوائي|antenne; aérien, d'air|o;o
 دول|pays, États (pl. de دولة); ces, ceux-ci (fam., = هؤلاء)|o;o
-إئتمان|crédit (بطاقة ائتمان : carte de crédit)|o
+إئتمان|crédit (بطاقة ائتمان: carte de crédit) (graphie négligée de ائتمان)|o
 إنشاء|construction, fondation, création|o
 محب|aimant, qui aime; amoureux, fan (pl. محبون)|o;o
 تسع|neuf (avec un nom féminin); tu contiens, cela contient (يسع)|o;f2s2p
@@ -2772,7 +2772,7 @@
 خصوصية|vie privée, intimité; particularité|o;o
 سد|barrage (pl. سدود); boucher, obstruer (يسُد، سد); سد الدين: rembourser une dette|o;v;n
 مبدأ|principe (pl. مبادئ)|o
-حساسة|sensible|o
+حساسة|sensible (f.)|o
 عائلي|familial, domestique|o
 طعن|poignarder (يطعَن، طعن); faire appel, contester (une décision)|v;v
 مجد|gloire (pl. أمجاد); glorifier (II, يمجد، تمجيد)|o;v
@@ -2788,7 +2788,7 @@
 مشرف|superviseur, responsable; honorable (مشرّف)|o;o
 طن|tonne (pl. أطنان)|o
 العراق|Irak|o
-خاطيء|faux, erroné; pécheur|o;o
+خاطيء|faux, erroné; pécheur (graphie négligée de خاطئ)|o;o
 كلبة|chienne (femelle du chien ; aussi une injure)|o
 محزن|triste, attristant|o
 معيشة|vie, subsistance (غرفة المعيشة salon)|o
@@ -2800,7 +2800,7 @@
 ورقي|en papier, de papier|o
 جني|djinn, génie; récolte, cueillette|o;o
 فرن|four; boulangerie (pl. أفران)|o;o
-أسمك|ton nom (= اسمك); plus épais|o;o
+أسمك|ton nom (graphie négligée de اسمك); plus épais|o;o
 ممتلئ|plein, rempli; potelé, rond|o;o
 لغم|mine (pl. ألغام)|o
 حجة|argument, prétexte, excuse (pl. حجج); pèlerine, Hajja|o;o
@@ -2877,7 +2877,7 @@
 ملح|sel (pl. أملاح)|o
 تصحيح|correction|o
 كوم|tas, pile (pl. أكوام); .com (point com)|o;o
-سواك|siwak (bâtonnet pour nettoyer les dents); autre que toi (= سواك)|o;o
+سواك|autre que toi, sauf toi (سوى + ك); siwak (bâtonnet pour se nettoyer les dents)|o;o
 مأساة|tragédie (pl. مآس)|o
 أجاد|maîtriser, exceller en (IV, يجيد، إجادة)|v
 أكاديمية|académie; académique (f.)|o;o
@@ -2891,13 +2891,13 @@
 جاب|parcourir, sillonner (يجوب، جوب); apporter, ramener (fam., = أحضر)|v;v
 فذلك|alors c'est, donc c'est (ف + ذلك)|o
 ضم|inclure, ajouter, joindre; serrer dans ses bras (يضُم، ضم)|v;v
-مفاجئة|soudaine (f.); surprise (= مفاجأة)|o;o
+مفاجئة|soudaine (f.); surprise (graphie négligée de مفاجأة)|o;o
 عجز|incapacité, impuissance; déficit, manque; être incapable de (يعجِز، عجز)|o;o;v
 ذيل|queue (pl. ذيول)|o
-خطا|marcher, faire un pas (يخطو، خطو); erreur (= خطأ)|v;o
+خطا|erreur, faute (graphie négligée de خطأ); faire un pas, marcher (يخطو، خطو)|o;v
 شعوري|mes sentiments; émotionnel, conscient|o;o
 عش|nid (pl. أعشاش); vis ! (عش حياتك vis ta vie)|o;o
-لاشئ|rien (= لا شيء)|o
+لاشئ|rien (graphie négligée de لا شيء)|o
 مخافة|crainte (مخافة أن de peur que)|o
 سياتل|Seattle|o
 طازج|frais|o
@@ -2933,7 +2933,7 @@
 أيسر|gauche (côté); plus facile|o;o
 شرطية|policière; conditionnelle (f.)|o;o
 ذخيرة|munitions|o
-فار|souris (= فأر); bouillir (يفور، فوران)|o;v
+فار|souris (graphie négligée de فأر); bouillir (يفور، فوران)|o;v
 دفتر|cahier, carnet (pl. دفاتر)|o
 منديل|mouchoir (pl. مناديل)|o
 النفسية|psychologique (f.); état d'esprit, moral|o;o
@@ -3039,7 +3039,7 @@
 ترفض|tu refuses; elle refuse|f2s2p;f3s
 جنى|récolter, cueillir, gagner (يجني، جني)|v
 عون|aide, secours; assistant, auxiliaire (pl. أعوان)|o;o
-امس|hier (= أمس)|o
+امس|hier (graphie négligée de أمس)|o
 لاوس|Laos|o
 أجنبي|étranger (adj.); étranger (personne) (pl. أجانب)|o;o
 تنقل|se déplacer, circuler (V, يتنقل، تنقل); tu déplaces, tu transfères (تنقل)|v;f2s2p
@@ -3133,7 +3133,7 @@
 مسجل|enregistré, inscrit; magnétophone|o;o
 تخزين|stockage|o
 نظم|organiser, arranger (II, ينظم، تنظيم); systèmes (pl. de نظام)|v;o
-الشرقية|oriental, de l'est; l'orientale (celle de l'est)|o;o
+الشرقية|oriental (f.); l'orientale|o;o
 الأسد|le lion; Lion (signe); al-Assad (nom propre)|o;o;o
 راعى|tenir compte de, respecter; prendre soin de (III, يراعي، مراعاة)|v;v
 ضباب|brouillard, brume|o
@@ -3150,7 +3150,7 @@
 جودة|qualité|o
 صفراء|jaune (f.); bile|o;o
 جرأة|audace, courage, culot|o
-كلم|parler à, adresser la parole à (II, يكلم، تكليم); blessures (كلوم)|v;o
+كلم|parler à (II, يكلم، تكليم); blessure (pl. كلوم)|v;o
 أطاق|supporter, endurer (IV, يطيق، إطاقة); لا أطيق: je ne supporte pas|v;n
 جمل|chameau (pl. جمال); phrases (pl. de جملة)|o;o
 فضي|argenté, en argent|o
@@ -5367,7 +5367,7 @@
 سكوتش|scotch (whisky); ruban adhésif, scotch (fam.)|o;o
 مغادر|partant, sur le départ|o
 خلسة|furtivement, en cachette|o
-سلامتك|bon rétablissement !, à tes souhaits (litt. ta santé)|o
+سلامتك|prompt rétablissement !, j'espère que tu vas bien (lit. ta santé)|o
 عارم|irrésistible, déferlant|o
 قافلة|convoi, caravane (pl. قوافل)|o
 قالب|moule, modèle (pl. قوالب); pain, barre, gâteau (قالب صابون : pain de savon)|o;o
@@ -5622,7 +5622,7 @@
 بوس|bisou (fam.); patron (fam.)|o;o
 سويسري|suisse|o
 متعفن|pourri, moisi|o
-وفاء|loyauté, fidélité; accomplissement (d'une promesse)|o;o
+وفاء|loyauté, fidélité; accomplissement (d'une promesse); Wafaa (prénom)|o;o;o
 وه|oh, ah|o
 أنش|pouce (unité) (fam., = إنش)|o
 در|perles; tourne ! (impératif)|o;o
@@ -5720,7 +5720,7 @@
 اجتياز|passage, franchissement, réussite (اجتياز الامتحان : réussir l'examen)|o
 فيرمونت|Vermont|o
 كاثوليكي|catholique|o
-للإنطلاق|pour partir, pour le lancement (ل + انطلاق)|v
+للإنطلاق|pour partir, pour le lancement (ل + انطلاق) (graphie négligée de للانطلاق)|v
 مصداقية|crédibilité|o
 ابتعاد|éloignement, fait de s'éloigner|o
 باهر|éblouissant, brillant, spectaculaire|o
@@ -5775,7 +5775,7 @@
 مشرط|scalpel (pl. مشارط)|o
 معتمد|agréé, homologué, certifié; dépendant (de) (معتمد على)|o;o
 نقش|gravure, inscription (pl. نقوش); graver, sculpter (ينقُش، نقش)|o;v
-ابتسام|sourire (le fait de sourire)|o
+ابتسام|fait de sourire; Ibtisam (prénom)|o;o
 تماشى|aller de pair avec, être en accord avec (VI, يتماشى، تماشي)|v
 جأش|رباطة الجأش: sang-froid, maîtrise de soi|n
 مسز|Mrs, Madame (fam.)|o
@@ -5833,7 +5833,7 @@
 مسقط|Mascate; مسقط رأس: lieu de naissance|o;n
 وصي|tuteur, curateur, exécuteur testamentaire (pl. أوصياء)|o
 مشورة|conseil, avis|o
-أرجوحة|balançoire, hamac (pl. أراجيح)|o
+أرجوحة|balançoire (pl. أراجيح); hamac|o;o
 اعتزم|avoir l'intention de, décider de (VIII, يعتزم، اعتزام)|v
 تنح|écarte-toi !, retire-toi ! (impératif)|o
 عسر|difficulté, gêne; عسر الهضم: indigestion|o;n
@@ -5998,7 +5998,7 @@
 متماسكة|cohérente, soudée, ferme|o
 أصلى|original, authentique (= أصلي)|o
 تتويج|couronnement, sacre|o
-تسائلت|je me suis demandé; tu t'es demandé; elle s'est demandé|f1s;f2s2p;f3s
+تسائلت|je me suis demandé; tu t'es demandé; elle s'est demandé (graphie négligée de تساءلت)|f1s;f2s2p;f3s
 خاطب|s'adresser à, parler à (III, يخاطب، مخاطبة); prétendant, fiancé|v;o
 إسباني|espagnol; Espagnol (pl. إسبان)|o;o
 ترابط|cohérence, interconnexion; être interconnecté (VI, يترابط، ترابط)|o;v
@@ -6063,7 +6063,7 @@
 حجاب|voile, écran, barrière (pl. حجب)|o
 هارلم|Harlem|o
 هد|démolir, abattre (يهُد، هد)|v
-اسرائيل|Israël|o
+اسرائيل|Israël (graphie négligée de إسرائيل)|o
 سخف|sottise, absurdité, bêtise|o
 شاسع|vaste, immense|o
 مناوبة|garde, tour de service|o
@@ -6208,7 +6208,7 @@
 وظيفي|professionnel, fonctionnel (المسار الوظيفي : parcours professionnel)|o
 بصر|vue (pl. أبصار); لمح البصر: un clin d'œil|o;n
 ديزل|diesel|o
-شعرى|poétique (= شعري); mes cheveux (= شعري)|o;o
+شعرى|mes cheveux (= شعري); poétique (= شعري)|o;o
 شوربة|soupe|o
 ماوس|souris (ordinateur)|o
 مطلع|informé, au courant (+ على); début (مطلع الشهر : le début du mois); lever (du soleil)|o;o;o
@@ -6245,7 +6245,7 @@
 مطارد|poursuivant; traqué, en fuite|o;o
 مغري|tentant, séduisant, alléchant|o
 الميزان|balance (pl. موازين); Balance (signe)|o;o
-قوام|stature, consistance; modération, équilibre|o;o
+قوام|silhouette, corpulence, stature; consistance, texture; modération, équilibre|o;o;o
 مفوض|commissaire; habilité, délégué|o;o
 هجم|attaquer, charger (+ على) (يهجُم، هجوم)|v
 أفيون|opium|o
@@ -6319,7 +6319,7 @@
 محتجزة|détenue, retenue (captive)|o
 انحرف|dévier, faire une embardée, s'égarer (VII, ينحرف، انحراف)|v
 شورت|short|o
-مشحون|chargé, expédié; tendu (atmosphère)|o;o
+مشحون|chargé (de); embarqué (cargaison); tendu (atmosphère)|o;o;o
 هالوين|Halloween|o
 آس|as (cartes); myrte|o;o
 بترول|pétrole|o
@@ -6823,7 +6823,7 @@
 اقتصر|se limiter, se borner (+ على) (VIII, يقتصر، اقتصار)|v
 المدمرة|le destroyer (navire de guerre); destructrice|o;o
 تايوان|Taïwan|o
-تجرا|oser (V, يتجرأ، تجرؤ)|v
+تجرا|oser (V, يتجرأ، تجرؤ) (graphie négligée de تجرأ)|v
 تشتت|distraction, dispersion; se disperser, être distrait (V, يتشتت، تشتت)|o;v
 أميرال|amiral|o
 إقرار|aveu, reconnaissance; déclaration (الإقرار الضريبي : déclaration d'impôts)|o;o
@@ -6952,7 +6952,7 @@
 زووم|zoom|o
 طحلب|algue, mousse (pl. طحالب : algues)|o
 مزور|falsifié, faux; faussaire|o;o
-ممسحة|serpillière, paillasson|o
+ممسحة|serpillière, balai à franges; paillasson (ممسحة الأرجل)|o;o
 مه|chut !, arrête !; quoi ? (fam.)|o;o
 أبجدية|alphabet|o
 ألفية|millénaire|o
@@ -7011,7 +7011,7 @@
 شريفة|honorable, honnête, noble; Charifa (prénom)|o;o
 طرفة|plaisanterie, anecdote; clignement (طرفة عين: un clin d'œil)|o;o
 فرضية|hypothèse, supposition|o
-مصاصو|suceurs (مصاصو الدماء: vampires)|o
+مصاصو|ceux qui sucent (m. pl.); مصاصو الدماء / مصاصو دماء: vampires|o;n
 أولمبي|olympique|o
 برمودا|les Bermudes|o
 ساحق|écrasant (أغلبية ساحقة: majorité écrasante)|o
@@ -7297,7 +7297,7 @@
 انجلى|s'éclaircir, se dissiper (VII, ينجلي، انجلاء)|v
 سندويتش|sandwich|o
 كاز|kérosène, pétrole lampant (fam.)|o
-كرتوني|en carton (علبة كرتونية: boîte en carton)|o
+كرتوني|en carton (adj.) (علبة كرتونية: boîte en carton); de dessin animé, animé (رسوم كرتونية: dessins animés)|o;o
 متحضر|civilisé|o
 متقنة|habile, parfaite, bien faite|o
 مهوس|obsédé (= مهووس)|o
@@ -7456,7 +7456,7 @@
 يومئذ|ce jour-là|o
 لئن|certes si, si vraiment|o
 تاب|se repentir (يتوب، توبة); revenir vers, accueillir le repentir (de Dieu)|v;v
-شهيد|témoin (pl. شهداء); martyr|o;o
+شهيد|martyr (pl. شهداء); témoin|o;o
 بينة|preuve évidente (pl. بينات)|o
 بصير|clairvoyant, qui voit tout; perspicace|o;o
 ذل|humiliation, avilissement; être humilié (يذِل، ذل)|o;v
@@ -7470,7 +7470,7 @@
 أشرك|donner des associés à Dieu, être polythéiste (IV, يشرك، إشراك); associer, faire participer|v;v
 أضل|égarer, induire en erreur (IV, يضل، إضلال)|v
 توكل|s'en remettre à, placer sa confiance en (V, يتوكل، توكل)|v
-محسن|bienfaiteur, qui fait le bien|o
+محسن|bienfaiteur, celui qui fait le bien; Mohsen (prénom)|o;o
 مكر|ruse, machination; ruser, comploter (يمكُر، مكر)|o;v
 اهتدى|être guidé, trouver le droit chemin (VIII, يهتدي، اهتداء)|v
 استكبر|s'enorgueillir, se montrer arrogant (X, يستكبر، استكبار)|v
@@ -7501,7 +7501,7 @@
 منكر|le mal, mauvaise action; qui nie, qui rejette|o;o
 مهتد|bien guidé|o
 أمات|faire mourir (IV, يميت، إماتة)|v
-مصدق|qui confirme (ce qui précède); qui croit, croyant|o;o
+مصدق|qui croit (لست مصدقا: je n'arrive pas à y croire); certifié, ratifié (مصدق عليه); qui confirme (ce qui précède), celui qui affirme|o;o;o
 مكذب|négateur, celui qui traite la vérité de mensonge|o
 منذر|avertisseur|o
 وذر|laisser, délaisser (seulement au présent et à l'impératif : يذر، ذر)|v
@@ -7514,18 +7514,18 @@
 تأويل|interprétation; accomplissement, issue finale|o;o
 تفكر|réfléchir, méditer (V, يتفكر، تفكر)|v
 تقوى|crainte de Dieu, piété|o
-هاد|guide|o
+هاد|ce, celui-ci (fam., levantin/marocain, = هذا); guide|o;o
 جادل|discuter, disputer (III, يجادل، جدال)|v
 أوفى|remplir, tenir (une promesse), donner pleinement (IV, يوفي، إيفاء)|v
-تنزيل|révélation, descente|o
+تنزيل|téléchargement; abaissement, descente, déchargement; révélation, envoi d'en haut|o;o;o
 حليم|indulgent, clément|o
 زعم|prétendre, alléguer (يزعُم، زعم); prétention, allégation|v;o
 نذر|vœu (pl. نذور); faire un vœu (ينذُر، نذر); avertissements, avertisseurs (pl. de نذير)|o;v;o
-هاجر|émigrer (III, يهاجر، هجرة)|v
+هاجر|émigrer (III, يهاجر، هجرة); Hajar (prénom)|v;o
 وعظ|exhorter, sermonner (يعِظ، وعظ)|v
 حرث|terre labourée, cultures; labourer (يحرُث، حرث)|o;v
 خاسرون|perdants, ceux qui perdent|o
-دعاء|invocation, prière (pl. أدعية); appel|o;o
+دعاء|supplication, prière (pl. أدعية); appel; Doaa (prénom)|o;o;o
 طهر|être pur, être propre (يطهُر، طهارة); pureté; purifier (II, يطهر، تطهير)|v;o;v
 فسق|s'égarer, pécher (يفسُق، فسق); perversité, péché|v;o
 مسرف|prodigue, qui dépasse les limites|o
@@ -7553,7 +7553,7 @@
 طغى|transgresser, dépasser les bornes (يطغى، طغيان)|v
 غيب|l'invisible, le mystère; absence|o;o
 لدن|présence, auprès de; من لدن: de la part de|o;n
-نكح|épouser (ينكِح، نكاح)|v
+نكح|épouser (terme religieux, juridique) (ينكِح، نكاح); baiser (vulgaire)|v;v
 أعراب|Arabes bédouins, Arabes du désert|o
 اصطفى|choisir, élire (VIII, يصطفي، اصطفاء)|v
 جهر|dire à haute voix, rendre public (يجهَر، جهر); haute voix, franchise|v;o
@@ -7564,11 +7564,11 @@
 صدقة|charité, aumône volontaire|o
 طمع|avidité; espoir, désir; espérer, convoiter (يطمَع، طمع)|o;o;v
 قرآن|Coran; récitation|o;o
-مبشر|annonciateur de bonnes nouvelles|o
+مبشر|prometteur, encourageant (نتائج مبشرة: résultats prometteurs); porteur de bonne nouvelle; missionnaire|o;o;o
 نفر|groupe de personnes, troupe (pl. أنفار); partir en campagne (ينفِر، نفير); fuir, éviter (نفور)|o;v;v
 هلك|périr, être anéanti (يهلِك، هلاك)|v
 بخل|être avare, lésiner (يبخَل، بخل); avarice|v;o
-بشير|porteur de bonne nouvelle, héraut|o
+بشير|porteur de bonnes nouvelles, héraut; Bashir (prénom)|o;o
 تالله|par Dieu ! (serment)|o
 تبارك|être béni, être exalté (V); تبارك الله: béni soit Dieu|v;n
 تتقوا|vous craignez Dieu, vous vous prémunissez|f2s2p
@@ -7593,21 +7593,21 @@
 تنذر|tu avertis; elle avertit|f2s2p;f3s
 حسرة|regret, affliction|o
 حفيظ|gardien, protecteur|o
-خلاق|part, portion; le Créateur (un nom de Dieu)|o;o
+خلاق|créatif; le Créateur (un nom de Dieu); part, portion|o;o;o
 زاغ|dévier, s'écarter (يزيغ، زيغ)|v
 زبر|écritures, livres (pl. de زبور); morceaux, blocs (de fer)|o;o
 سعير|brasier, feu de l'enfer|o
 صفا|être pur, être clair (يصفو، صفاء); الصفا: Safa (colline de La Mecque)|v;n
 طاف|faire le tour, tourner autour (يطوف، طواف); survenir|v;v
 طيبات|bonnes choses, choses saines|o
-فؤاد|cœur (pl. أفئدة)|o
+فؤاد|cœur (pl. أفئدة); Fouad (prénom)|o;o
 قعد|s'asseoir (يقعُد، قعود); rester en arrière|v;v
 مثقال|poids; مثقال ذرة: le poids d'un atome|o;n
 ناصرين|soutiens, défenseurs (pl.)|o
 أثيم|pécheur, coupable|o
 أعوج|tordu (f. عوجاء، pl. عوج)|o
 أنبت|faire pousser, faire germer (IV, ينبت، إنبات)|v
-أهدى|mieux guidé; offrir un cadeau (IV, يهدي، إهداء)|o;v
+أهدى|offrir (en cadeau), faire cadeau de (IV, يهدي، إهداء); dédicacer (un livre, une chanson); mieux guidé|v;v;o
 اتبعوه|suivez-le ! (pl.); ils l'ont suivi|o;f3p
 بخس|léser, frauder sur la mesure (يبخَس، بخس); dérisoire, vil (prix)|v;o
 برز|sortir, apparaître (يبرُز، بروز)|v
@@ -7624,14 +7624,14 @@
 ضلالة|égarement, erreur|o
 عاذ|chercher refuge (+ ب) (يعوذ، عوذ); أعوذ بالله: je cherche refuge auprès de Dieu|v;n
 عاكف|assidu (au culte), en retraite spirituelle|o
-غابر|celui qui reste en arrière|o
+غابر|révolu, passé (الزمن الغابر: les temps anciens); celui qui reste en arrière|o;o
 مآب|retour final, destination (bonne ou mauvaise)|o
 مبصر|visible, clair; qui voit|o;o
 متكئ|accoudé, allongé|o
 متكبر|arrogant, orgueilleux; le Superbe (un nom de Dieu)|o;o
-محضر|amené, rendu présent; procès-verbal, compte rendu (d'une réunion)|o;o
+محضر|procès-verbal, rapport, compte rendu (d'une réunion); amené, rendu présent|o;o
 مرد|retour, fait de repousser; لا مرد له: qu'on ne peut repousser|o;n
-مطهر|purifié, pur|o
+مطهر|désinfectant, antiseptique; purifié, pur; purgatoire|o;o;o
 منيب|qui revient (à Dieu) repentant|o
 مهاد|lit, couche; berceau|o;o
 ناقة|chamelle (pl. نوق)|f3s
@@ -7643,14 +7643,14 @@
 اعبدوه|adorez-le ! (pl.)|o
 بغي|transgression, oppression; femme de mauvaise vie|o;o
 بهتان|calomnie, diffamation|o
-حاج|argumenter contre, disputer (III, يحاج، محاجة); pèlerin (pl. حجاج)|v;o
+حاج|pèlerin, hadji (pl. حجاج); titre de respect pour un homme âgé (يا حاج); discuter avec, contester (III, يحاج، محاجة)|o;o;v
 حلال|licite, permis, halal|o
 خر|tomber, s'effondrer (يخِر، خرور)|v
 رءوسهم|leurs têtes|o
 راحم|miséricordieux (أرحم الراحمين: le plus miséricordieux des miséricordieux)|o
 رازق|pourvoyeur, celui qui accorde la subsistance (خير الرازقين: le meilleur des pourvoyeurs)|o
 رجيم|maudit, banni (litt. lapidé)|o
-زكي|pur, vertueux|o
+زكي|pur, vertueux; parfumé (رائحة زكية: une douce odeur); Zaki (prénom)|o;o;o
 ظهير|soutien, allié|o
 عداوة|inimitié, hostilité|o
 غل|rancœur, haine; entrave, carcan (pl. أغلال)|o;o
@@ -7664,11 +7664,11 @@
 قهار|le Dominateur suprême, l'Irrésistible (un nom de Dieu)|o
 مدكر|celui qui réfléchit, celui qui se souvient|o
 مكرم|honoré|o
-منير|lumineux, éclairant|o
+منير|brillant, lumineux; Mounir (prénom)|o;o
 ند|égal, rival (pl. أنداد)|o
 نكونن|nous serons assurément (emphatique)|f1p
-نهى|interdire, défendre (+ عن) (ينهى، نهي)|v
-أحبط|rendre vain, annuler (IV, يحبط، إحباط)|v
+نهى|interdire, défendre (+ عن) (ينهى، نهي); interdiction (النهي عن المنكر); Noha (prénom)|v;o;o
+أحبط|faire échouer, déjouer (IV, يحبط، إحباط); frustrer, décourager; annuler, rendre nul|v;v;v
 أفئدة|cœurs|o
 أفاض|déverser, déborder (IV, يفيض، إفاضة); déferler, repartir|v;v
 ائتوني|amenez-moi !; venez à moi ! (pl.)|o;o
@@ -7755,7 +7755,7 @@
 رجفة|tremblement de terre, secousse|o
 شعيرة|rite, symbole sacré (pl. شعائر)|o
 شهاب|étoile filante, flamme (pl. شهب)|o
-صبار|très patient, endurant; cactus|o;o
+صبار|cactus; aloès (aloe vera); très patient, constant|o;o;o
 صفح|pardonner, passer outre (يصفَح، صفح); pardon|v;o
 صلح|réconciliation, accord de paix; être bon, être vertueux (يصلُح، صلاح)|o;v
 صلصال|argile sèche et sonore|o
@@ -7788,9 +7788,9 @@
 ممتر|douteur|o
 ممنون|reconnaissant, obligé; غير ممنون: intarissable, ininterrompu|o;n
 موقنين|certains, fermement convaincus (pl.)|o
-ميسر|jeux de hasard; facilité, rendu facile|o;o
+ميسر|facile, facilité, abordable (قرض ميسر: prêt à conditions avantageuses); jeu d'argent, jeu de hasard|o;o
 نرينك|Nous te montrons; Nous te montrerons|f1p;f1p
-نسف|pulvériser, disperser (ينسِف، نسف); dynamitage|v;o
+نسف|faire sauter, démolir (ينسِف، نسف); disperser, balayer; dynamitage|v;v;o
 نفور|aversion, fuite|o
 هاتوا|apportez !, produisez ! (pl.)|o
 يعظكم|vous exhorte (pl.); il vous exhorte|o;f3s
@@ -7801,7 +7801,7 @@
 أعجمي|non-arabe, étranger; non arabe (du langage) (pl. أعاجم)|o;o
 أغوى|égarer, séduire (IV, يغوي، إغواء)|v
 أفاء|attribuer comme butin (IV, يفيء، إفاءة)|v
-ألحد|dévier, devenir athée (IV, يلحد، إلحاد); dénaturer|v;v
+ألحد|devenir athée (IV, يلحد، إلحاد); dévier; déformer|v;v;v
 أمسكوهن|gardez-les (f.) !, retenez-les ! (pl.)|o
 أنعام|bétail, troupeaux (chameaux, bovins, ovins et caprins)|o
 أوجس|ressentir, éprouver (la peur) (IV, يوجس، إيجاس)|v
@@ -7851,7 +7851,7 @@
 حطاما|débris, tiges brisées|o
 حفيظا|gardien, protecteur|o
 حمأ|boue noire|o
-حواري|disciple, apôtre (de Jésus) (الحواريون: les apôtres)|o
+حواري|de dialogue, de discussion (adj.) (برنامج حواري: talk-show); ruelles, petites rues (pl. de حارة); disciple, apôtre (de Jésus) (الحواريون: les disciples)|o;o;o
 خذوهم|saisissez-les !, prenez-les ! (pl.)|o
 خرص|deviner, conjecturer; mentir (يخرُص، خرص)|v;v
 خسارا|perte, ruine|o
@@ -7865,7 +7865,7 @@
 رجزا|châtiment, fléau; souillure|o;o
 ردوها|rapportez-la ! (pl.); ils l'ont rendue|o;f3p
 رزقناهم|Nous leur avons accordé leur subsistance|f1p
-رغد|abondance, aisance; رغدا: librement, à satiété|o;n
+رغد|abondance, aisance; رغدا: librement, en abondance; Raghad (prénom)|o;n;o
 زقوم|Zaqqoum (arbre de l'Enfer)|o
 زكى|purifier (II, يزكي، تزكية); croître, être pur (يزكو، زكاء)|v;v
 زلفة|proximité|o
@@ -7874,12 +7874,12 @@
 سندس|soie fine|o
 شرع|commencer (يشرَع، شروع); instituer, prescrire (يشرَع، شرع); loi, loi religieuse|v;v;o
 شفع|intercéder (+ ل) (يشفَع، شفاعة)|v
-شيعة|partisans, parti; les chiites|o;o
+شيعة|les chiites; partisans, parti|o;o
 صافات|rangées en files; (oiseaux) aux ailes déployées (f. pl.)|o;o
-صرصر|cafard, grillon; glacial et mugissant (vent)|o;o
+صرصر|cafard; grillon; vent glacial et mugissant|o;o;o
 صنم|idole (pl. أصنام)|o
 ضاق|devenir étroit, serré (يضيق، ضيق); ضاق ذرعا: ne plus en pouvoir|v;n
-ضياء|lumière, éclat|o
+ضياء|lumière, éclat; Diaa (prénom)|o;o
 طوى|plier, enrouler (يطوي، طي); Touwa (vallée sacrée)|v;o
 عادون|transgresseurs (pl.)|o
 عاصم|protecteur, celui qui préserve; Asim (prénom)|o;o
@@ -7890,7 +7890,7 @@
 عير|caravane|o
 غار|grotte (pl. غيران); s'infiltrer dans le sol (eau) (يغور، غور); être jaloux (يغار، غيرة)|o;v;v
 غدو|matins, petit matin|o
-غض|baisser (le regard, la voix) (يغُض، غض); frais, tendre|v;o
+غض|baisser (le regard, la voix) (يغُض، غض); غض النظر / غض الطرف: fermer les yeux sur, passer sur (+ عن); frais, tendre|v;n;o
 غيث|pluie|o
 فصدوا|et ils ont barré la route (aux autres), et ils se sont détournés|o
 قانت|dévotement obéissant (à Dieu)|o
@@ -7909,7 +7909,7 @@
 مدرار|abondant, torrentiel (pluie)|o
 مرج|pré, prairie (pl. مروج); laisser couler, mêler (يمرُج، مرج)|o;v
 مرسى|mouillage, port; accostage, arrivée|o;o
-مسنون|façonné, altéré (boue); aiguisé|o;o
+مسنون|personnes âgées (pl. de مسن); aiguisé; façonné, modelé (boue)|o;o;o
 مسوم|marqué; en pâture (chevaux)|o;o
 مشأمة|la gauche, le mauvais présage (أصحاب المشأمة: les gens de la gauche)|o
 مشركات|femmes polythéistes|o
@@ -7929,16 +7929,16 @@
 ميقات|temps fixé, rendez-vous (pl. مواقيت)|o
 ميمنة|côté droit; flanc droit; أصحاب الميمنة: les gens de la droite|o;o;n
 نؤته|Nous lui donnons|f1p
-ناصية|toupet, mèche frontale; front (pl. نواص)|o;o
+ناصية|coin de rue; mèche de devant; front (pl. نواص)|o;o;o
 نافق|être hypocrite (III, ينافق، نفاق)|v
 نتلوها|Nous les récitons|f1p
 نتوفينك|Nous te rappelons à Nous (par la mort)|f1p
 نذقه|Nous lui faisons goûter|f1p
 نزغ|semer la discorde (ينزَغ، نزغ); suggestion maléfique|v;o
 نشور|résurrection|o
-نقض|rompre (un engagement, un traité), défaire (ينقُض، نقض)|v
+نقض|rompre (un engagement, un traité), défaire (ينقُض، نقض); حق النقض: veto|v;n
 نكالا|châtiment exemplaire, exemple dissuasif|o
-هدى|guider (يهدي، هداية); bonne direction, guidance|v;o
+هدى|guider (يهدي، هداية); guidage, direction; Huda (prénom)|v;o;o
 هين|facile, léger, insignifiant|o
 وثن|idole (pl. أوثان)|o
 وزع|distribuer (II, يوزع، توزيع); retenir, maintenir en rangs (يزَع، وزع); inspirer, rendre capable (IV, يوزع، إيزاع)|v;v;v
@@ -7949,7 +7949,7 @@
 يردوكم|(ils) vous font revenir en arrière, vous ramènent|o
 يسومونكم|ils vous infligent, ils vous font subir|f3p
 يكذبوك|(ils) te traitent de menteur, te démentent|o
-ذمة|protection, pacte; conscience, responsabilité (في ذمة: sous la garde de)|o;o
+ذمة|protection, pacte; conscience; responsabilité, obligation (في ذمة: à la charge de)|o;o;o
 رمان|grenade (fruit)|o
 زلزل|secouer, ébranler (يزلزل، زلزلة)|v
 طوفان|déluge, inondation|o
@@ -8023,7 +8023,7 @@
 فارغ|vide; vacant, libre|o;o
 إصلاح|réparation; réforme|o;o
 تشغيل|fonctionnement, mise en marche; emploi|o;o
-محيط|océan; environnement, circonférence|o;o
+محيط|océan; alentours, environnement; circonférence|o;o;o
 وكالة|agence|o
 حافلة|bus, autobus|o
 ركب|monter (à cheval, dans un véhicule) (يركَب، ركوب); genoux (pl. de ركبة)|v;o
@@ -8153,7 +8153,7 @@
 حالما|dès que|o
 نصيحة|conseil (pl. نصائح)|o
 بيانات|données (pl. de بيان)|o
-تجاوز|dépasser, franchir, surmonter (VI, يتجاوز، تجاوز); doubler (un véhicule)|v;v
+تجاوز|dépasser, excéder (VI, يتجاوز، تجاوز); surmonter; doubler|v;v;v
 صعوبة|difficulté; بصعوبة: difficilement|o;n
 ريح|vent (pl. رياح)|o
 كرسي|chaise (pl. كراسي)|o
@@ -8289,7 +8289,7 @@
 لقطة|plan, prise de vue, prise (au tournage)|o
 رعب|terreur, horreur, effroi|o
 عقوبة|punition, peine, sanction|o
-أصمت|je me tais; tais-toi ! (= اصمت)|f1s;o
+أصمت|tais-toi !, silence ! (graphie négligée de اصمت); je me tais|o;f1s
 خضراء|verte (f.)|o
 عهد|époque, règne, temps (pl. عهود); engagement, promesse, pacte|o;o
 ماس|diamant, diamants|o
@@ -8474,7 +8474,7 @@
 وماهو|et qu'est-ce que (= و + ما هو)|o
 حامية|garnison; chaude, vive (f.); protectrice (f.)|o;o;o
 فاصلة|virgule; décisif, qui sépare|o;o
-مصاصين|suceurs (مصاصين الدماء: vampires)|o
+مصاصين|ceux qui sucent (m. pl.); مصاصين الدماء / مصاصين دماء: vampires|o;n
 مصيدة|piège (مصيدة فئران: tapette à souris) (pl. مصائد)|o
 استلقاء|fait de s'allonger|o
 انحراف|déviation, perversion; délinquance|o;o
@@ -8527,7 +8527,7 @@
 حماسة|enthousiasme, zèle, excitation|o
 رصيد|solde (d'un compte); crédit (téléphonique)|o;o
 معاكس|opposé, inverse, contraire|o
-نبوة|prophétie (pl. نبوءات)|o
+نبوة|prophétie (pl. نبوءات); qualité de prophète|o;o
 التصرفات|comportement, agissements|o
 تشويه|défiguration, déformation; diffamation|o;o
 صادر|émis, provenant (de); sortant|o;o
@@ -8610,7 +8610,7 @@
 طاغية|tyran, despote (pl. طغاة)|o
 مكتمل|complet, achevé|o
 بدني|physique, corporel (اللياقة البدنية: condition physique)|o
-دلك|masser, frotter (يدلُك، دلك); massage|v;o
+دلك|cela (graphie négligée de ذلك); masser, frotter (يدلُك، دلك); massage|o;v;o
 سلمي|pacifique|o
 قامو|ils se sont levés, ils ont fait (= قاموا)|f3p
 كرنفال|carnaval|o
@@ -10907,7 +10907,7 @@
 أوريغامي|origami|o
 استلهم|s'inspirer de (X, يستلهم، استلهام)|v
 انسجم|être en harmonie, s'entendre (VII, ينسجم، انسجام)|v
-بربر|Berbères|o
+بربر|Berbères (peut offenser ; أمازيغ est préféré)|o
 تخليص|dédouanement, libération; sauvetage|o;o
 ترددات|fréquences|o
 تسابق|faire la course, rivaliser (VI, يتسابق، تسابق)|v

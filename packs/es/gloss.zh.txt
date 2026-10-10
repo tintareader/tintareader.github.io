@@ -81,7 +81,7 @@ sé|(事实) 我知道|f1s
 nos|我们 (作宾语); 我们自己|o;o
 nada|什么也没有; 一点也不 (用于否定动词后); nada más: 只, 仅仅|o;o;n
 cómo|怎么？, 如何？|o
-deber|必须, 应该; 欠; 作业 (deberes)|o;v;o
+deber|必须, 应该; 欠; 义务 (名词); deberes: 家庭作业|v;v;o;n
 mucho|很多, 非常|o
 he|我已经 (助动词, 构成完成时)|f1s
 hablar|说话, 讲|v
@@ -89,7 +89,7 @@ tiene|他/她/它有, 您有|f3s
 puedo|我能, 我可以|f1s
 ella|她|f3s
 quiero|我想要|f1s
-fue|他/她/它曾是, 您曾是; 他/她/它去了, 您去了; fue a: 去了|f3s;o;n
+fue|他/她/它曾是, 您曾是; 他/她/它去了, 您去了; fue a: 去了|f3s;f3s;n
 gracias|谢谢|o
 era|(身份, 特征) 他/她/它(过去)是; 我(过去)是|f3s;f1s
 soy|(身份, 特征) 我是|f1s
@@ -163,7 +163,7 @@ llegar|到达; 达到|v;v
 salir|出去, 离开; 结果 (好或坏); 花费, 总计|v;v;v
 alguien|某人|o
 poco|少, 很少|o
-padre|父亲|o
+padre|父亲; padres: 父母|o;n
 cosas|东西, 事情|o
 siempre|总是|o
 hasta|直到, 到; 甚至|o;o
@@ -196,7 +196,7 @@ nadie|没有人|o
 debe|他/她/它必须, 应该|f3s
 niño|孩子, 男孩; 女孩 (阴性)|o;o
 pasa|发生; 进来！; 他/她/它经过; 他/她/它度过 (时间)|f3s;o;f3s;f3s
-tal|这样的|o
+tal|这样的; tal vez: 也许, 或许; qué tal: 你好吗？, 怎么样？|o;n;n
 entender|理解, 明白|v
 momento|时刻, 片刻|o
 nuevo|新的|o
@@ -282,7 +282,7 @@ comer|吃|v
 malo|坏的|o
 cualquiera|任何, 任何人|o
 eh|嘿, 喂|o
-cuenta|账单, 账户; darse cuenta: 意识到; 他/她/它数, 讲述; 数！, 说！|o;n;f3s;o
+cuenta|账单; 账户; darse cuenta: 意识到; 他/她/它讲述; 他/她/它数; 讲吧！; 数！|o;o;n;f3s;f3s;o;o
 familia|家庭, 家人|o
 dicho|说过的, 讲过的|f3s
 cuánto|多少？|o
@@ -302,7 +302,7 @@ muerto|死的|o
 loco|疯的|o
 ustedes|你们|f2s2p
 grande|大的; 伟大的|o;o
-tratar|对待; 试图 (tratar de)|v;v
+tratar|对待; tratar de: 试图; tratarse de: 涉及, 关于|v;n;n
 dormir|睡觉; dormirse: 睡着|v;n
 preguntar|问|v
 caso|情况, 案件; hacer caso: 理会, 听从; me caso: 我要结婚了|o;n;n
@@ -375,7 +375,7 @@ hey|嘿|o
 bajo|在…下面; 低的, 矮的; 我下去, 我降低|o;o;f1s
 realidad|现实; en realidad: 实际上|o;n
 miedo|恐惧; tener miedo: 害怕|o;n
-deja|留下！, 让 (deja: 别管了, 住手); 他/她/它留下, 离开; 他/她/它让, 允许|o;f3s;f3s
+deja|离开！, 别管！; 让！; 他/她/它离开, 留下; 他/她/它允许, 让|o;o;f3s;f3s
 mantener|保持, 维持|v
 justo|公平的, 公正的; 正好, 恰恰|o;o
 escucha|听着！; 他/她/它听; se escucha: 听得见|o;f3s;n
@@ -387,7 +387,7 @@ coche|汽车|o
 difícil|困难的, 难的|o
 beber|喝|v
 fin|结束, 终点; por fin: 终于|o;n
-cuidado|小心, 照顾 (¡cuidado!: 小心！)|o
+cuidado|照料, 小心; 当心！, 小心！ (用于感叹); tener cuidado: 小心|o;o;n
 cuerpo|身体|o
 bastante|足够; 相当, 挺|o;o
 adelante|向前; ¡adelante!: 请进！|o;n
@@ -418,7 +418,7 @@ primer|第一 (用于阳性名词前)|o
 cuatro|四|o
 mas|但是 (书面语; 注意与 más 区别)|o
 tocar|触摸; 演奏 (乐器); 轮到 (me toca)|v;v;v
-toma|拿着！; 给你; 他/她/它拿|o;o;f3s
+toma|拿着！; 给你; 他/她/它拿; 夺取, 占领; toma de decisiones: 决策|o;o;f3s;o;n
 allá|那边|o
 oportunidad|机会|o
 teléfono|电话|o
@@ -426,11 +426,11 @@ arriba|上面, 楼上|o
 final|结尾, 结局; 最后的|o;o
 muchacho|男孩, 小伙子; 女孩, 姑娘 (阴性)|o;o
 robar|偷, 抢|v
-mayor|更大的, 年纪更大的; 主要的|o;o
+mayor|更大的; 年纪更大的; 主要的|o;o;o
 bebé|婴儿|o
 decidir|决定|v
 sangre|血|o
-medio|一半; 中间; 手段; 媒体 (medios)|o;o;o;o
+medio|一半; 中间; 手段; medios: 媒体|o;o;o;n
 disparar|射击, 开枪|v
 luz|光, 灯|o
 vuelta|返回; 转弯, 圈; dar la vuelta: 转身, 掉头|o;o;n
@@ -448,7 +448,7 @@ echar|扔; 倒 (液体); echar de menos: 想念; echar a: 开始 (做某事); ec
 subir|上去, 爬; 提高; 上传, 发布 (网上)|v;v;v
 habitación|房间, 卧室|o
 orden|命令; 顺序|o;o
-vete|走开！, 出去！|o
+vete|走开！, 滚出去！; (虚拟式) 他/她/它否决|o;f3s
 culpa|过错, 责任; tener la culpa: 应负责任, 该怪; 他/她/它责怪|o;n;f3s
 libro|书|o
 ok|好, 行|o
@@ -466,7 +466,7 @@ correcto|正确的|o
 abajo|下面, 楼下|o
 bonito|漂亮的, 好看的|o
 divertir|使开心; divertirse: 玩得开心|v;n
-modo|方式, 方法 (de todos modos: 无论如何)|o
+modo|方式, 方法; de todos modos: 无论如何|o;n
 queda|还剩下, 留下|f3s
 alto|高的; 大声的; 站住！|o;o;o
 foto|照片|o
@@ -508,7 +508,7 @@ mil|千|o
 sueño|梦; 困意; 我梦见|o;o;f1s
 calle|街道|o
 joder|操, 性交 (粗俗); 他妈的！, 该死！ (粗俗, 西班牙用法)|v;o
-noticia|一条消息 (noticias: 新闻)|o
+noticia|消息, 新闻; noticias: 新闻|o;n
 meter|放进, 插入; meterse: 卷入, 进入|v;n
 paso|步, 脚步; 通道; 我经过, 我路过; 我度过 (时间)|o;o;f1s;f1s
 coger|拿, 抓住, 赶上; 性交, 操 (粗俗, 拉美用法)|v;v
@@ -524,7 +524,7 @@ oficina|办公室|o
 humano|人类的, 人|o
 peor|更坏的, 最坏的|o
 desear|希望, 想要|v
-tranquilo|平静的, 安静的 (¡tranquilo!: 别紧张)|o
+tranquilo|平静的, 安静的; 放松！, 别紧张！ (用于感叹)|o;o
 cama|床|o
 vender|卖|v
 lejos|远, 很远|o
@@ -543,7 +543,7 @@ servir|服务, 端上 (饭菜); 有用|v;v
 país|国家|o
 derecho|权利; 法律, 法学; 直的, 笔直地|o;o;o
 romper|打破, 弄坏|v
-bastar|足够 (basta: 够了)|v
+bastar|足够; basta: 够了！, 停！|v;n
 perdonar|原谅, 宽恕|v
 además|此外, 而且|o
 rey|国王|o
@@ -683,7 +683,7 @@ sino|而是|o
 aire|空气|o
 decisión|决定|o
 vosotros|你们 (复数, 仅西班牙用; 拉美用 ustedes)|f2s2p
-disculpa|道歉 (disculpa: 打扰一下, 对不起)|o
+disculpa|道歉; 对不起！, 劳驾！ (用于感叹)|o;o
 tirar|扔; 拉; 扔掉|v;v;v
 rojo|红色的|o
 jamás|从不, 永远不|o
@@ -701,8 +701,8 @@ tienda|商店|o
 obtener|获得, 得到|v
 hotel|酒店, 旅馆|o
 pelo|头发|o
-haz|做！|f3s
-gusto|味道, 品味; 乐趣, 愉快; mucho gusto: 很高兴认识你|o;o;n
+haz|做！, 制作！; 光束; 一捆, 一束|f3s;o;o
+gusto|味道; 愉快, 乐趣; mucho gusto: 很高兴认识你; 我讨人喜欢 (te gusto, 你喜欢我)|o;o;n;f1s
 edad|年龄|o
 maestro|老师; 大师|o;o
 esconder|藏; esconderse: 躲藏|v;n
@@ -850,11 +850,11 @@ sorpresa|惊喜, 惊讶|o
 regla|规则; 尺子|o;o
 acá|这里 (拉美用法)|o
 inteligente|聪明的|o
-apuesto|英俊的; 我打赌|o;f1s
+apuesto|我打赌; 英俊的|f1s;o
 siéntate|坐下！|o
 silencio|沉默, 安静|o
 triste|悲伤的|o
-despierto|醒着的|o
+despierto|醒着的; 我醒来|o;f1s
 edificio|建筑物, 大楼|o
 herido|受伤的|o
 vámonos|我们走吧！|o
@@ -887,7 +887,7 @@ cumplir|履行, 完成; 满 (岁)|v;v
 espacio|空间, 太空|o
 teniente|中尉|o
 permiso|许可; con permiso: 借过, 失陪|o;n
-caliente|热的, 温暖的|o
+caliente|热的, 温暖的; 性感的, 欲火焚身的 (指人, 口语)|o;o
 guardar|保存, 保管; 收起来|v;v
 delante|在前面; delante de: 在…前面|o;n
 simple|简单的|o
@@ -970,7 +970,7 @@ privar|剥夺|v
 esperanza|希望|o
 manejar|处理, 操作; 开车 (拉美用法)|v;v
 compartir|分享|v
-diferencia|差别|o
+diferencia|差别; a diferencia de: 与…不同|o;n
 respirar|呼吸|v
 zapato|鞋|o
 discutir|争吵; 讨论|v;v
@@ -987,7 +987,7 @@ limpiar|打扫, 清洁|v
 busca|找！, 搜索; 他/她/它寻找|o;f3s
 especie|种类; 物种|o;o
 tarjeta|卡, 卡片|o
-reina|女王, 王后|o
+reina|女王; 他/她/它统治, 盛行|o;f3s
 estudio|学习, 研究; 工作室, 演播室; 我学习|o;o;f1s
 izquierda|左边|o
 chino|中国的, 中国人, 汉语|o
@@ -1123,8 +1123,8 @@ hacerte|对你做, 让你|v
 detalle|细节|o
 vistazo|一瞥; echar un vistazo: 看一眼|o;n
 interior|内部, 室内的|o
-marcha|行进; 挡 (汽车); en marcha: 在进行中, 运转中; se marcha: 离开, 走了|o;o;n;n
-comandante|指挥官, 少校|o
+marcha|行进, 游行; 挡位; en marcha: 进行中; se marcha: 他/她/它离开|o;o;n;n
+comandante|指挥官; 少校 (陆军军衔)|o;o
 americano|美国的, 美洲的, 美国人|o
 doble|双倍的|o
 acabado|完成的, 结束的|o
@@ -1175,7 +1175,7 @@ responsable|负责的|o
 admitir|承认|v
 quedarme|我留下|v
 agarrar|抓住|v
-huella|脚印; 痕迹, 指纹|o;o
+huella|脚印; 痕迹; 指纹|o;o;o
 nueve|九|o
 definitivamente|绝对, 肯定|o
 diente|牙齿|o
@@ -1225,7 +1225,7 @@ nariz|鼻子|o
 emergencia|紧急情况|o
 cubrir|覆盖, 遮盖|v
 pedido|订单, 请求; 被要求的|o;o
-larga|长的 (阴性)|o
+larga|长的 (阴性); a la larga: 从长远看|o;n
 embarazada|怀孕的|o
 justicia|正义, 司法|o
 archivo|文件; 档案|o;o
@@ -1269,7 +1269,7 @@ tiro|射击, 枪击; 投掷, 踢球|o;o
 ruso|俄罗斯的, 俄语|o
 evidencia|证据|o
 resulta|结果是, 原来|f3s
-toca|轮到你了; 他/她/它触摸|f3s;f3s
+toca|轮到 (某人); 他/她/它触摸; 他/她/它演奏 (乐器)|f3s;f3s;f3s
 confianza|信任, 信心|o
 distinto|不同的, 有区别的; 各种各样的|o;o
 encerrar|关起来, 锁住|v
@@ -1335,13 +1335,13 @@ escalera|楼梯; 梯子|o;o
 pan|面包|o
 príncipe|王子|o
 playa|海滩|o
-coño|屄 (粗俗); 该死 (西班牙用法)|o;o
+coño|该死！, 他妈的！ (粗俗, 西班牙用法); 女性阴部 (粗俗)|o;o
 cinta|胶带, 录音带; 丝带|o;o
 pecho|胸部; 乳房|o;o
 fuente|喷泉; 来源|o;o
 nacional|国家的, 全国的|o
 celebrar|庆祝; 举行 (会议)|v;v
-socio|合伙人, 会员|o
+socio|伙伴; 会员|o;o
 detente|站住！|o
 show|演出, 节目|o
 autobús|公共汽车|o
@@ -1386,7 +1386,7 @@ inventar|发明, 编造|v
 propiedad|财产, 所有权|o
 pastel|蛋糕; 馅饼|o;o
 señoría|阁下, 法官大人|o
-seguramente|肯定, 大概|o
+seguramente|很可能, 大概|o
 papi|爸爸 (口语)|o
 pez|鱼 (活的)|o
 naturaleza|自然, 本性|o
@@ -1423,11 +1423,11 @@ valiente|勇敢的|o
 universo|宇宙|o
 ciego|瞎的, 盲人|o
 princesa|公主|o
-gana|他/她/它赢; 欲望 (tener ganas de: 想要)|f3s;o
+gana|他/她/它赢; 欲望; tener ganas de: 想要|f3s;o;n
 belleza|美丽, 美|o
 pollo|鸡, 鸡肉|o
 científico|科学家; 科学的|o;o
-sujeto|主体, 主语; 家伙|o;o
+sujeto|主语, 主体; 家伙; 被固定的, 被抓住的; sujeto a: 受…约束|o;o;o;n
 jardín|花园|o
 descanso|休息|o
 apoyo|支持; 我支持|o;f1s
@@ -1445,7 +1445,7 @@ tarea|任务; 家庭作业|o;o
 pensamiento|思想, 念头|o
 olvídalo|算了吧！, 忘了它吧！|o
 prisionero|囚犯, 俘虏|o
-jurado|陪审团|o
+jurado|陪审团; 宣誓过的|o;o
 computador|电脑 (拉美用法)|o
 pago|付款; 我付款|o;f1s
 dejarlo|放下它, 算了|v
@@ -1505,7 +1505,7 @@ grandioso|宏伟的, 壮丽的|o
 pérdida|损失, 丧失|o
 salvaje|野生的, 野蛮的|o
 acostumbrar|使习惯; acostumbrarse a: 习惯于|v;n
-cuesta|它花费, 它值; 斜坡|f3s;o
+cuesta|它值 (多少钱); 对 (某人) 来说困难; 斜坡|f3s;f3s;o
 pretender|打算, 企图|v
 pintura|画, 绘画; 油漆, 颜料|o;o
 copia|副本, 复制品|o
@@ -1528,7 +1528,7 @@ tribunal|法院, 法庭|o
 conexión|连接, 联系|o
 acceso|进入, 通道|o
 oscuridad|黑暗|o
-comienzo|开始, 开端|o
+comienzo|开始; 我开始|o;f1s
 teatro|剧院, 戏剧|o
 registrar|登记, 记录; 搜查|v;v
 entrevista|采访, 面试|o
@@ -1558,7 +1558,7 @@ vencer|战胜, 击败; 到期|v;v
 creerlo|相信这件事|v
 callar|沉默, 不说话; callarse: 闭嘴|v;n
 proceso|过程; 审判, 诉讼|o;o
-corto|短的|o
+corto|短的; 我剪|o;f1s
 lengua|舌头; 语言|o;o
 indicar|指出, 表明|v
 lobo|狼|o
@@ -1629,7 +1629,7 @@ intentarlo|试一试|v
 esquina|拐角, 街角|o
 provocar|引起, 激怒|v
 acusado|被告|o
-revista|杂志|o
+revista|杂志; 检阅, 检查; pasar revista: 检阅, 检查|o;o;n
 valer|值; vale: 好的, 行 (西班牙用法)|v;n
 bendecir|祝福, 保佑|v
 vestir|给…穿衣; vestirse: 穿衣服|v;n
@@ -1673,7 +1673,7 @@ atractivo|有吸引力的|o
 cura|神父; 治疗, 疗法; 他/她/它治愈|o;o;f3s
 fotografía|照片; 摄影|o;o
 cobarde|懦夫; 胆小的|o;o
-harto|厌烦的; estar harto: 受够了|o;n
+harto|厌烦, 受够; estar harto: 受够了; 很, 非常多 (口语, 拉丁美洲)|o;n;o
 arrancar|发动 (引擎); 撕下, 扯掉|v;v
 delicioso|美味的|o
 deprisa|快, 匆忙|o
@@ -1687,11 +1687,11 @@ fútbol|足球|o
 olor|气味|o
 civil|民事的, 公民的; 平民|o;o
 gloria|荣耀|o
-firme|坚定的, 稳固的|o
+firme|牢固的, 稳定的; 签字！ (usted); (虚拟式) 他/她/它签字|o;o;f3s
 torre|塔|o
 instituto|研究所, 学院; 中学|o;o
 anterior|以前的, 前面的|o
-toque|触摸, 碰|o
+toque|触碰; (虚拟式) 我触碰, 他/她/它触碰; 摸！ (usted)|o;f1s;o
 wow|哇|o
 apestar|发臭|v
 interrumpir|打断|v
@@ -1720,7 +1720,7 @@ secuestrar|绑架; 劫持|v;v
 nieve|雪|o
 marcar|标记; 拨号; 进球, 得分|v;v;v
 obvio|明显的|o
-empleo|工作, 就业|o
+empleo|工作, 职业; 使用; 我使用|o;o;f1s
 solución|解决办法|o
 mama|妈妈; 乳房|o;o
 mundial|世界的, 全球的|o
@@ -1744,7 +1744,7 @@ saca|拿出来！; 他/她/它取出|o;f3s
 destrozar|毁坏, 破坏|v
 uniforme|制服|o
 comprometer|连累, 危及; comprometerse: 承诺, 保证|v;n
-contado|数过的; al contado: 用现金|o;n
+contado|讲述过的; 数过的; al contado: 付现金|o;o;n
 gira|巡回演出, 巡游; 他/她/它转动, 旋转|o;f3s
 relájate|放松！|o
 siéntese|请坐 (您, 尊称)|o
@@ -1816,7 +1816,7 @@ charla|聊天, 讲座|o
 combate|战斗|o
 cuyo|其, 他的 (关系形容词)|o
 inteligencia|智力, 情报|o
-abrigo|大衣|o
+abrigo|外套; 庇护, 避难所; 我庇护, 我怀有 (希望)|o;o;f1s
 lavar|洗|v
 cómodo|舒适的|o
 explosión|爆炸|o
@@ -1962,7 +1962,7 @@ encontrarlo|找到它, 找到他|v
 exterior|外面的, 外部|o
 preguntarle|问他, 问她|v
 suicidio|自杀|o
-saco|袋子, 麻袋; 西装外套 (拉美用法)|o;o
+saco|袋子, 麻袋; 外套, 夹克 (拉丁美洲); 我取出|o;o;f1s
 popular|受欢迎的, 大众的|o
 okay|好的|o
 saludo|问候|o
@@ -1995,11 +1995,11 @@ cristal|玻璃; 水晶|o;o
 tropa|军队, 部队|o
 traidor|叛徒|o
 juguete|玩具|o
-práctica|练习, 实践|o
+práctica|实践, 练习; 实用的 (阴性)|o;o
 dejarte|离开你, 留下你; 让你|v;v
 adorable|可爱的, 讨人喜欢的|o
 condenado|被判刑的, 该死的|o
-aviso|通知, 警告; 我通知, 我警告|o;f1s
+aviso|通知, 警告; 我警告, 我通知|o;f1s
 traducción|翻译|o
 disponible|可用的, 有空的|o
 circunstancia|情况, 环境|o
@@ -2035,7 +2035,7 @@ básicamente|基本上|o
 retroceder|后退, 撤退|v
 tratado|条约; 被处理的, 被对待的|o;o
 elegante|优雅的, 时髦的|o
-parado|站着的; 失业的 (西班牙用法)|o;o
+parado|站着的 (拉丁美洲); 停止的, 静止的; 失业的 (西班牙); bien parado: 结果不错; mal parado: 结果不好|o;o;o;n;n
 conferencia|讲座; 会议|o;o
 quita|拿走！; 他/她/它拿走, 去掉|o;f3s
 extraordinario|非凡的, 特别的|o
@@ -2146,7 +2146,7 @@ serlo|是这样, 成为这样的人|v
 suelta|放开！; 松的 (阴性)|o;o
 impedir|阻止|v
 experimento|实验|o
-física|物理学|o
+física|物理学; 身体的 (阴性)|o;o
 veneno|毒药, 毒液|o
 amanecer|黎明, 拂晓; 天亮|o;v
 forense|法医的; 法医|o;o
@@ -2163,7 +2163,7 @@ comentario|评论, 言论|o
 emocionante|令人激动的|o
 muro|墙 (独立或户外的; 房间的墙叫 pared)|o
 atar|绑, 系|v
-ronda|一轮; 巡逻|o;o
+ronda|一轮; 巡逻; 大约达到 (某个数字); 他/她/它游荡, 萦绕|o;o;f3s;f3s
 brillar|发光, 闪耀|v
 recurso|资源; último recurso: 最后手段|o;n
 consciente|意识到的, 有知觉的|o
@@ -2222,7 +2222,7 @@ muera|愿我/他/她死 (虚拟式)|f1s
 negativo|否定的, 负面的|o
 coma|昏迷 (医学); 吃！(您), 让他/她/它吃 (虚拟式); 逗号|o;o;o
 colina|小山, 丘陵|o
-clínica|诊所|o
+clínica|诊所; 临床的 (阴性)|o;o
 exagerar|夸张|v
 ambiente|气氛, 环境|o
 primavera|春天|o
@@ -2238,7 +2238,7 @@ socorro|救命！; 援助|o;o
 rescate|营救; 赎金|o;o
 dígale|告诉他/她 (您, 尊称)|o
 templo|寺庙, 神殿|o
-fijar|固定, 确定|v
+fijar|固定, 确定; fijarse en: 注意到, 留意|v;n
 junta|委员会, 理事会|o
 ponerte|(你) 穿上; (你) 变得; ponerte a: (你) 开始|v;v;n
 muévanse|动起来！, 快走！|o
@@ -2252,7 +2252,7 @@ túnel|隧道|o
 bandera|旗子, 国旗|o
 discúlpeme|请原谅, 对不起 (您, 尊称)|o
 guía|向导, 导游; 指南|o;o
-pasta|面食, 意大利面; 钱 (口语)|o;o
+pasta|意大利面; 面团, 钱 (口语); 糊状物|o;o;o
 territorio|领土|o
 rastrear|追踪|v
 queja|抱怨, 投诉; se queja: 抱怨|o;n
@@ -2260,7 +2260,7 @@ ave|鸟, 禽|o
 verlos|见到他们|v
 fabuloso|极好的|o
 museo|博物馆|o
-ésto|这 (esto 的旧拼法)|o
+ésto|这个 (esto 的拼写错误)|o
 superficie|表面|o
 discusión|争吵; 讨论|o;o
 terapia|治疗, 疗法|o
@@ -2290,7 +2290,7 @@ darles|给他们|v
 signo|符号, 迹象|o
 abra|打开！(您); 愿我/他打开 (虚拟式)|o;f1s
 hundir|使沉没, 沉|v
-técnica|技术, 技巧|o
+técnica|技术; 技术的 (阴性)|o;o
 máscara|面具|o
 experimentar|体验, 经历; 做实验|v;v
 patear|踢|v
@@ -2391,8 +2391,8 @@ almorzar|吃午饭|v
 cometido|犯下的|o
 candidato|候选人|o
 salto|跳跃|o
-pinta|样子, 外表; 品脱|o;o
-mate|马黛茶; 将死 (国际象棋)|o;o
+pinta|样子, 外表; 品脱; 他/她/它画, 描绘; pinta bien: 看起来不错; pinta mal: 看起来不妙|o;o;f3s;n;n
+mate|(虚拟式) 他/她/它杀死, 我杀死; 马黛茶 (草本饮品); 将死 (国际象棋)|f3s;o;o
 generoso|慷慨的|o
 emperador|皇帝|o
 agotar|耗尽, 用完|v
@@ -2428,7 +2428,7 @@ boleto|票 (拉美用法)|o
 gasto|开支, 花费|o
 amado|心爱的|o
 onda|波, 波浪; 氛围, 感觉 (口语)|o;o
-haberle|(助动词) 对他/她已经…|v
+haberle|已对他/她…… (助动词)|v
 biblia|圣经|o
 alegre|快乐的, 开朗的|o
 hamburguesa|汉堡包|o
@@ -2441,7 +2441,7 @@ alcance|范围, 射程|o
 flota|舰队|o
 huh|哈？|o
 tatuaje|纹身|o
-figura|形状, 人物|o
+figura|形象, 人物; 他/她/它出现, 列在其中|o;f3s
 plaza|广场; 位置, 名额|o;o
 apellido|姓|o
 nervio|神经|o
@@ -2475,8 +2475,8 @@ cuéntame|告诉我|o
 novela|小说; 电视剧|o;o
 secreta|秘密的 (阴性)|o
 comisaría|警察局|o
-pulso|脉搏|o
-haberse|(自复动词的助动词) 已经…|v
+pulso|脉搏; a pulso: 凭自己的努力, 靠硬撑|o;n
+haberse|已对自己…… (助动词)|v
 temporal|暂时的; 暴风雨|o;o
 cuídate|保重|o
 patrulla|巡逻|o
@@ -2554,7 +2554,7 @@ digno|值得的; 有尊严的|o;o
 timar|诈骗, 骗|v
 falla|缺陷, 故障; 他/她/它失败|o;f3s
 influencia|影响|o
-liga|联赛, 联盟; 橡皮筋|o;o
+liga|联赛, 联盟; 橡皮筋; 他/她/它捆绑, 连接|o;o;f3s
 armada|海军; 武装的 (阴性)|o;o
 partida|一局, 比赛; 出发|o;o
 honrar|尊敬, 使荣耀|v
@@ -2562,7 +2562,7 @@ capital|首都; 资本|o;o
 activar|激活, 启动|v
 excelencia|卓越; 阁下|o;o
 viudo|鳏夫; 寡妇 (阴性)|o;o
-tender|晾, 晒; tender a: 倾向于; 伸出 (手); 设下 (圈套)|v;n;v;v
+tender|晾 (衣服); tender a: 倾向于; 伸出 (手); 设置 (陷阱)|v;n;v;v
 sorprendente|令人惊讶的|o
 disfraz|服装, 伪装|o
 expresión|表达, 表情|o
@@ -2634,7 +2634,7 @@ gerente|经理|o
 pulmón|肺|o
 potencial|潜在的, 潜力|o
 matemática|数学|o
-caída|跌倒, 下降|o
+caída|跌落, 下降; 落下的 (阴性)|o;o
 patada|踢|o
 educar|教育, 培养|v
 sacrificar|牺牲|v
@@ -2754,7 +2754,7 @@ multitud|人群|o
 fijo|固定的, 永久的|o
 as|王牌, A 牌|o
 idioma|语言 (西班牙语, 英语…)|o
-pico|山峰; 鸟嘴; 一点儿|o;o;o
+pico|山峰, 峰顶; 鸟嘴; y pico: 多一点, 零头|o;o;n
 huésped|住客, 房客|o
 verificar|核实, 检查|v
 mayo|五月|o
@@ -2778,7 +2778,7 @@ proceder|进行, 着手; 合适, 妥当|v;v
 inmunidad|豁免权, 免疫力|o
 fase|阶段|o
 buscarlo|找他, 找它|v
-puesta|落下, 日落; 放置|o;o
+puesta|放置的, 开着的 (阴性); puesta de sol / puesta del sol: 日落; puesta en marcha: 启动, 开办; 安置, 设立|o;n;n;o
 vital|至关重要的|o
 caramelo|糖果|o
 llamarlo|叫他, 给他打电话, 称它|v
@@ -2839,7 +2839,7 @@ sentencia|判决|o
 transformar|改变, 转变|v
 americana|美国的, 美国人 (阴性)|o
 corbata|领带|o
-costado|身体侧面, 肋部|o
+costado|花费了 (costar); 侧面, 身体的一侧|f3s;o
 drama|戏剧, 闹剧|o
 policia|警察局, 警方; 警察|o;o
 apartar|挪开, 分开|v
@@ -2848,7 +2848,7 @@ cima|山顶, 顶峰|o
 mascota|宠物; 吉祥物|o;o
 chaval|小伙子, 孩子 (西班牙用法, 口语)|o
 suelto|松的, 散的; 零钱|o;o
-juzgado|法院|o
+juzgado|法庭; 被审判的|o;o
 mantente|保持|o
 investigador|调查员; 研究员|o;o
 jaula|笼子|o
@@ -2902,7 +2902,7 @@ pisar|踩, 踏|v
 plazo|期限; 分期付款|o;o
 atascar|堵塞, 卡住|v
 completar|完成|v
-cumplido|恭维, 赞美|o
+cumplido|已履行的, 已完成的; 恭维|o;o
 condena|判刑, 定罪|o
 once|十一|o
 presa|猎物; 水坝|o;o
@@ -2919,9 +2919,9 @@ festival|节日, 艺术节|o
 destrucción|破坏, 毁灭|o
 bicho|虫子, 小动物|o
 porno|色情片|o
-olvido|遗忘; 疏忽|o;o
+olvido|健忘; 疏忽; 我忘记|o;o;f1s
 desperdiciar|浪费|v
-química|化学|o
+química|化学; 化学的 (阴性)|o;o
 conflicto|冲突|o
 historial|记录, 履历|o
 quemado|烧焦的, 烧伤的|o
@@ -2985,7 +2985,7 @@ sufrido|遭受的|o
 usarlo|使用它|v
 píldora|药丸|o
 averiguarlo|弄清楚它|v
-lanza|长矛|o
+lanza|长矛; 他/她/它投掷, 发射|o;f3s
 solicitud|申请; 请求|o;o
 moverse|动, 动起来|v
 técnicamente|技术上, 严格来说|o
@@ -3027,8 +3027,8 @@ grita|他/她/它喊叫; 喊！|f3s;o
 academia|学院, 培训学校|o
 probarlo|试一试它, 证明它|v
 psiquiatra|精神科医生|o
-sobra|剩余, 剩下的; de sobra: 绰绰有余|o;n
-mear|撒尿|v
+sobra|它有剩余, 绰绰有余; 剩余物; de sobra: 绰绰有余|f3s;o;n
+mear|撒尿 (口语)|v
 arco|拱门; 弓|o;o
 rota|破的, 坏的 (阴性)|o
 satélite|卫星|o
@@ -3083,7 +3083,7 @@ horno|烤箱|o
 increíblemente|难以置信地|o
 astuto|狡猾的, 精明的|o
 ví|我看见了|f1s
-retrasado|延误的; 落后的|o;o
+retrasado|延误的; 落后的; 智力迟钝的 (冒犯)|o;o;o
 rama|树枝|o
 inicial|最初的|o
 monte|山|o
@@ -3149,7 +3149,7 @@ injusto|不公平的|o
 corresponder|相符, 对应; 该由…负责|v;v
 comando|突击队员; 命令|o;o
 fallo|失败, 故障; 判决|o;o
-comportar|表现, 举止|v
+comportar|带来, 意味着; comportarse: 表现|v;n
 civilización|文明|o
 polla|鸡巴, 阴茎 (粗俗)|o
 dosis|剂量|o
@@ -3174,7 +3174,7 @@ combinación|组合|o
 almohada|枕头|o
 hígado|肝|o
 remoto|遥远的, 远程的|o
-capullo|花蕾, 茧; 蠢货, 混蛋 (粗俗, 西班牙用法)|o;o
+capullo|花蕾; 茧; 蠢货, 混蛋 (粗俗, 西班牙用法)|o;o;o
 heredero|继承人|o
 inusual|不寻常的|o
 munición|弹药|o
@@ -3239,11 +3239,11 @@ lazo|蝴蝶结; 圈, 套索; 纽带|o;o;o
 graduación|毕业|o
 envío|货物; 寄送|o;o
 matón|恶棍, 恶霸|o
-portar|携带|v
+portar|携带, 佩戴; portarse: 表现|v;n
 ejecución|执行, 处决|o
-largar|放出, 放开|v
+largar|放出, 释放; largarse: 走开, 溜走|v;n
 oírlo|听见它, 听见他|v
-saque|发球 (体育)|o
+saque|发球 (体育); (虚拟式) 我取出, 他/她/它取出; 取出！ (usted)|o;f1s;o
 pañuelo|手帕, 纸巾; 围巾, 头巾|o;o
 fanático|粉丝, 迷; 狂热分子|o;o
 trasladar|搬, 调动|v
@@ -3473,7 +3473,7 @@ tumor|肿瘤|o
 embajada|大使馆|o
 malentendido|误会|o
 unirse|加入|v
-enfermar|生病, 使生病|v
+enfermar|生病; 使生病|v;v
 creativo|有创造力的|o
 silencioso|安静的|o
 saluda|他/她/它打招呼; 打个招呼！|f3s;o
@@ -3514,7 +3514,7 @@ estarlo|是那样, 处于那种状态|v
 preguntarme|我想知道, 自问|v
 na|没什么 (nada 的缩写)|o
 barón|男爵|o
-jodidamente|他妈的, 该死地|o
+jodidamente|他妈的, 该死地 (粗俗)|o
 bloque|块, 街区|o
 húmedo|潮湿的|o
 euro|欧元|o
@@ -3835,7 +3835,7 @@ derramar|洒, 溅出|v
 severo|严重的, 严厉的|o
 terapeuta|治疗师|o
 ajedrez|国际象棋|o
-cabrear|惹恼, 激怒|v
+cabrear|惹火, 气死 (口语)|v
 estrellar|撞毁, 砸碎|v
 bono|奖金, 代金券|o
 mocoso|小屁孩, 毛孩子|o
@@ -3963,8 +3963,8 @@ supuestamente|据说, 假定|o
 veredicto|裁决|o
 marqués|侯爵|o
 revisión|审查, 检查|o
-dejarnos|离开我们, 留下我们|v
-déjanos|让我们静一静！, 离开我们！|o
+dejarnos|丢下我们; 让我们|v;v
+déjanos|丢下我们吧！; 让我们吧!|o;o
 millonario|百万富翁|o
 granero|谷仓|o
 atrasar|推迟, 拨慢|v
@@ -3996,7 +3996,7 @@ cualidad|品质, 特质|o
 humillar|羞辱|v
 convención|大会, 惯例|o
 valorar|重视, 珍惜|v
-lunar|痣|o
+lunar|痣; 月球的，月亮的|o;o
 envejecer|变老, 衰老|v
 categoría|类别, 范畴|o
 concéntrate|集中注意力！|o
@@ -4028,7 +4028,7 @@ marcharse|离开, 走掉|v
 distinguir|区分, 辨认出|v
 hervir|沸腾, 煮开|v
 caravana|车队, 房车; 堵车|o;o
-picar|叮, 发痒; 切碎|v;v
+picar|蜇，咬(昆虫); 发痒; 切碎; 辣(带辣味)|v;v;v;v
 tambor|鼓|o
 convertirme|(我)变成|v
 secuestrador|绑匪|o
@@ -4063,7 +4063,7 @@ sofisticar|使精致, 使复杂化|v
 justamente|恰恰, 正是|o
 procesar|处理; 起诉|v;v
 sangriento|血腥的|o
-zapatilla|拖鞋, 运动鞋|o
+zapatilla|拖鞋; 运动鞋|o;o
 obispo|主教|o
 aah|啊|o
 descuento|折扣|o
@@ -4074,7 +4074,7 @@ desafortunado|不幸的|o
 filete|牛排, 肉片|o
 extraer|提取, 拔出|v
 antigüedad|古代; 古董|o;o
-cruzado|交叉的; 十字军东征|o;o
+cruzado|交叉的; 十字军战士|o;o
 disminuir|减少, 降低|v
 realista|现实的|o
 cobertura|覆盖范围, 报道|o
@@ -4148,7 +4148,7 @@ pásame|递给我！|o
 puñetazo|一拳|o
 billón|万亿 (10^12)|o
 atleta|运动员|o
-encontrarnos|(我们)碰面|v
+encontrarnos|碰面; 找到我们|v;v
 tribal|部落的|o
 cállese|安静！(您)|o
 perímetro|周边, 周长|o
@@ -4204,9 +4204,9 @@ déme|给我！(您)|o
 er|呃|o
 salvación|拯救, 救赎|o
 baloncesto|篮球|o
-cobra|眼镜蛇|o
+cobra|他/她收费，领取报酬; 眼镜蛇(蛇)|f3s;o
 disfrazar|伪装, 乔装|v
-vientre|腹部, 子宫|o
+vientre|肚子; 子宫|o;o
 mirarme|看我|v
 creador|创造者|o
 emborrachar|喝醉, 灌醉|v
@@ -4227,7 +4227,7 @@ pulgada|英寸|o
 psíquico|通灵的, 心灵的|o
 algodón|棉花|o
 sexto|第六|o
-persecución|追捕, 迫害|o
+persecución|追捕，追击; 迫害|o;o
 entusiasmo|热情|o
 manejo|操作, 处理; 驾驶|o;o
 jet|喷气式飞机|o
@@ -4239,7 +4239,7 @@ salvarme|救我|v
 boom|繁荣, 热潮|o
 peluca|假发|o
 esencia|本质, 精华|o
-navaja|折刀, 剃刀|o
+navaja|折叠小刀，袖珍刀; 剃刀|o;o
 renuncia|辞职|o
 cuna|摇篮|o
 postura|姿势; 立场|o;o
@@ -4262,7 +4262,7 @@ atrevido|大胆的|o
 dominio|掌握, 精通; 领域, 领地|o;o
 ferrocarril|铁路|o
 captura|捕获, 抓获|o
-delantera|领先位置|o
+delantera|领先位置(在前面); 前部(阴性)|o;o
 tomarme|(我)拿, 吃, 喝|v
 terrestre|陆地的, 地球的|o
 industrial|工业的|o
@@ -4296,7 +4296,7 @@ maniobra|操纵, 策略|o
 callejero|街头的, 流浪的|o
 pagarle|付钱给他/她|v
 pescador|渔夫|o
-dejarlos|留下他们, 离开他们|v
+dejarlos|丢下他们; 让他们|v;v
 usualmente|通常|o
 sacarla|把它拿出来 (阴性)|v
 externo|外部的|o
@@ -4353,7 +4353,7 @@ asilo|庇护, 收容所|o
 enganchar|钩住, 挂上|v
 póngase|穿上！(您)|o
 demostración|演示, 证明|o
-doncella|少女, 侍女|o
+doncella|少女; 女佣(仆人)|o;o
 reparación|修理|o
 buzón|信箱|o
 pecador|罪人|o
@@ -4389,7 +4389,7 @@ pala|铲子|o
 dorada|金色的 (阴性)|o
 llevarle|给他/她带去|v
 provisión|供应, 储备|o
-déjate|别闹了, 住手|o
+déjate|让自己...吧！; déjate de: 别闹了，住手|o;n
 tour|游览, 巡回|o
 hermanito|小弟弟|o
 verga|鸡巴 (粗俗)|o
@@ -4512,7 +4512,7 @@ empresario|企业家, 商人|o
 fundamental|根本的, 基本的|o
 bésame|吻我！|o
 recomendación|推荐, 建议|o
-déjale|让他/她|o
+déjale|让他，让她; 别管他，别管她|o;o
 suplicar|恳求, 哀求|v
 baúl|大箱子, 箱|o
 cambiarme|(我)换衣服, 改变自己|v
@@ -4531,7 +4531,7 @@ evacuar|疏散, 撤离|v
 juvenil|青少年的|o
 superficial|肤浅的, 表面的|o
 penique|便士|o
-habernos|(我们)已经 (助动词)|o
+habernos|已经...自己，已经...我们(助动词)|v
 perturbar|扰乱, 使不安|v
 ponme|给我, 把我放|o
 matarle|杀死他/她|v
@@ -4607,7 +4607,7 @@ independencia|独立|o
 sobredosis|过量服用|o
 diseñador|设计师|o
 santuario|圣所, 避难所|o
-estrado|证人席|o
+estrado|证人席; 讲台，平台|o;o
 impaciente|不耐烦的|o
 cuan|多么 (用于感叹句)|o
 representación|代表; 演出|o;o
@@ -4636,7 +4636,7 @@ esperma|精子, 精液|o
 fluido|流体, 流畅的|o
 fundar|建立, 创办|v
 alias|别名, 化名|o
-pica|发痒, 刺痛|f3s
+pica|发痒; 蜇，咬; 辣(带辣味)|f3s;f3s;f3s
 atómico|原子的|o
 trapo|抹布, 破布|o
 excursión|远足, 短途旅行|o
@@ -4699,7 +4699,7 @@ telefono|电话|o
 espina|刺; 鱼刺|o;o
 coreano|韩国的, 朝鲜的|o
 reactor|反应堆|o
-lava|熔岩|o
+lava|他/她洗; 洗！; 熔岩|f3s;o;o
 mutuo|相互的|o
 tapar|盖上, 堵住|v
 residuo|残留物, 废物|o
@@ -4709,7 +4709,7 @@ madrugada|凌晨|o
 escolta|护卫, 保镖|o
 sácalo|拿出来！|o
 unico|唯一的; 独特的|o;o
-recado|口信, 差事|o
+recado|口信; 差事|o;o
 champagne|香槟|o
 sutil|微妙的|o
 laurel|月桂|o
@@ -4745,7 +4745,7 @@ tablero|板, 棋盘|o
 bombardeo|轰炸|o
 sesenta|六十|o
 animador|主持人, 表演者|o
-ático|阁楼, 顶层公寓|o
+ático|阁楼; 顶层公寓，顶楼住宅|o;o
 inquilino|房客|o
 chisme|八卦, 闲话|o
 volcán|火山|o
@@ -4763,7 +4763,7 @@ remordimiento|悔恨|o
 chiquillo|小孩|o
 deténganse|站住！(复数)|o
 acondicionado|调节好的; aire acondicionado: 空调|o;n
-antorcha|火炬|o
+antorcha|火炬(带火焰)|o
 exhibición|展览, 表演|o
 pirámide|金字塔|o
 fundador|创始人|o
@@ -4772,12 +4772,12 @@ comprobarlo|核实它|v
 muslo|大腿|o
 barbacoa|烧烤|o
 finanzas|财务, 金融|o
-recta|直线|o
+recta|直的(阴性); 直线|o;o
 llévalo|拿走它！, 带上它！|o
 correa|带子, 狗绳|o
 interponer|插入, 介入; 提出 (诉讼)|v;v
 seducir|诱惑, 勾引|v
-helada|霜冻|o
+helada|冻住的，冰冷的(阴性); 霜冻|o;o
 innecesario|不必要的|o
 resfriado|感冒|o
 suicidarse|自杀|v
@@ -4814,7 +4814,7 @@ modificar|修改|v
 poste|柱子, 杆|o
 tarado|白痴, 蠢货 (比 imbécil 更重)|o
 improvisar|即兴发挥|v
-negativa|拒绝|o
+negativa|否定的(阴性); 拒绝|o;o
 evolucionar|进化, 发展|v
 pulsera|手链, 腕带|o
 mandíbula|下巴, 颌|o
@@ -4834,7 +4834,7 @@ observador|观察者|o
 ramo|花束; 部门, 领域|o;o
 revolver|搅拌, 翻找|v
 constitución|宪法, 体质|o
-cuota|费用, 份额|o
+cuota|会费，分期付款; 配额，份额|o;o
 sabés|你知道 (voseo 用法)|f2s2p
 peinado|发型|o
 todopoderoso|全能的|o
@@ -5010,7 +5010,7 @@ sustituir|代替, 替换|v
 batallón|营 (军队编制)|o
 carbono|碳|o
 moverte|(你)动起来, 挪动|v
-caña|甘蔗, 芦苇; 一小杯啤酒|o;o
+caña|甘蔗，芦苇; 一小杯啤酒(西班牙)|o;o
 potente|强劲的, 效力强的|o
 semestre|学期|o
 liar|卷 (烟); 搞乱|v;v
@@ -5074,7 +5074,7 @@ resolverlo|解决它|v
 domicilio|住址|o
 lila|丁香, 淡紫色|o
 mineral|矿物|o
-moreno|深色头发的, 皮肤黝黑的|o
+moreno|深色头发的; 皮肤黝黑的，晒黑的|o;o
 moverme|(我)动起来, 挪动|v
 calificación|成绩, 评级|o
 gimnasia|体操|o
@@ -5120,7 +5120,7 @@ acercarme|(我)靠近|v
 contribuir|贡献|v
 metálico|金属的|o
 lateral|侧面的, 旁边的|o
-dicha|幸福, 喜悦|o
+dicha|所说的，上述的(阴性); 幸福，极乐|f3s;o
 plátano|香蕉, 大蕉|o
 trama|情节|o
 cintura|腰|o
@@ -5192,7 +5192,7 @@ desvanecer|消失, 消散|v
 tumbar|打倒, 推倒|v
 válido|有效的|o
 desprecio|蔑视|o
-mola|真酷 (口语)|f3s
+mola|很酷(西班牙，口语)|f3s
 secar|弄干, 擦干|v
 encuesta|调查, 民意测验|o
 paramédico|急救员|o
@@ -5232,7 +5232,7 @@ unirme|(我)加入|v
 anomalía|异常|o
 imponer|强加, 施加|v
 merecido|应得的|o
-párate|站起来！|o
+párate|站起来!(拉丁美洲); 停下!|o;o
 chile|辣椒|o
 conteste|请回答！(您)|o
 hazle|对他做！, 对她做！|f3s
@@ -5267,7 +5267,7 @@ mirarlo|看它, 看他|v
 cartero|邮递员|o
 porción|一份, 部分|o
 proteína|蛋白质|o
-torno|车床|o
+torno|车床; en torno a: 围绕，大约|o;n
 burdel|妓院|o
 verso|诗句|o
 pro|好处, 优点|o
@@ -5346,7 +5346,7 @@ documentación|文件, 证件|o
 arca|方舟, 箱子|o
 quiebra|破产|o
 pagarme|付钱给我|v
-colectivo|集体的; 公交车|o;o
+colectivo|集体的; 公共汽车(阿根廷)|o;o
 insensible|冷漠的; 麻木的|o;o
 víbora|毒蛇|o
 ponla|把它放下 (阴性)|o
@@ -5449,7 +5449,7 @@ yanqui|美国佬, 美国人|o
 apelación|上诉|o
 trío|三人组|o
 resentimiento|怨恨|o
-canasta|篮子; 篮筐 (篮球)|o;o
+canasta|篮子，大筐; 篮筐(篮球)|o;o
 bollo|小圆面包|o
 concentrarme|(我)集中注意力|v
 encárgate|你来处理！|o
@@ -5458,7 +5458,7 @@ legión|军团|o
 apartado|章节; 邮政信箱|o;o
 sinceridad|真诚|o
 finca|庄园, 农场|o
-rellenar|填写, 重新装满|v
+rellenar|填写(表格); 重新装满，加满; 填塞(食物)|v;v;v
 lastimarte|伤害你|v
 traslado|调动, 转移|o
 reemplazo|替代|o
@@ -5532,7 +5532,7 @@ tejer|编织, 织|v
 alabado|受赞美的|o
 camarote|船舱|o
 intimidar|恐吓|v
-pasarlo|度过 (一段时光); pasarlo bien: 玩得开心|v;n
+pasarlo|度过它，传递它; pasarlo bien: 玩得开心; pasarlo mal: 过得不好|v;n;n
 vibración|振动|o
 simpatía|亲切, 好感|o
 átomo|原子|o
@@ -5564,7 +5564,7 @@ prometedor|有前途的|o
 tos|咳嗽|o
 dondequiera|无论哪里|o
 tazón|碗|o
-corteza|树皮, 外壳|o
+corteza|树皮; 外皮(面包的，地球的); 果皮|o;o;o
 transmisor|发射器|o
 propaganda|宣传|o
 infernal|地狱般的|o
@@ -5751,10 +5751,10 @@ niñez|童年|o
 parrilla|烤架|o
 pegamento|胶水|o
 voluntariamente|自愿地|o
-casual|偶然的, 随意的|o
+casual|偶然的，意外的; 休闲的(衣服，风格)|o;o
 fosa|坑, 墓穴|o
 volverme|(我)变得; (我)转身|v;v
-empeñar|典当|v
+empeñar|典当; empeñarse en: 坚持，决意|v;n
 estafar|诈骗|v
 besarme|吻我|v
 dese|请您给自己…！(您)|o
@@ -6018,7 +6018,7 @@ record|纪录 (最好成绩)|o
 agresor|攻击者|o
 dispararme|朝我开枪|v
 frecuente|频繁的|o
-pabellón|馆, 病房|o
+pabellón|亭，展馆; 病区，侧楼(医院的，监狱的)|o;o
 lima|锉刀; 青柠|o;o
 abdomen|腹部|o
 afirmativo|肯定的|o
@@ -6027,7 +6027,7 @@ funeraria|殡仪馆|o
 tómala|拿着！(阴性)|o
 zoo|动物园|o
 banca|银行业; 长凳|o;o
-échale|试一试！|o
+échale|扔给他/她/它!，加一点！; échale un vistazo / échale un ojo: 看一眼; 加油!(墨西哥)|o;n;o
 grifo|水龙头|o
 tacaño|吝啬的|o
 creíble|可信的|o
@@ -6078,12 +6078,12 @@ carnaval|狂欢节|o
 dieciséis|十六|o
 grandote|大块头的|o
 eje|轴|o
-invertido|倒置的, 颠倒的|o
+invertido|被投资的; 倒转的，颠倒的|o;o
 quejarte|(你)抱怨|v
 alejarte|(你)走开, 远离|v
 canciller|总理, 外交部长|o
 corro|我跑|f1s
-llanta|轮胎, 轮辋|o
+llanta|轮胎(拉丁美洲); 轮辋(西班牙)|o;o
 puntuación|得分; 标点|o;o
 buenísimo|好极了|o
 quiza|也许|o
@@ -6263,7 +6263,7 @@ creciente|增长的, 上升的|o
 esquivar|躲开, 避开|v
 inscripción|登记, 报名; 铭文|o;o
 hipótesis|假设|o
-tocarla|碰她, 演奏它|v
+tocarla|摸她，摸它; 演奏它(音乐)|v;v
 cartón|纸板; 纸盒|o;o
 flauta|长笛|o
 fotografiar|拍照, 拍摄|v
@@ -6337,7 +6337,7 @@ encargarse|负责, 照管|v
 esmeralda|祖母绿|o
 trazar|画, 描绘; 策划|v;v
 ajuste|调整; 结算, 和解|o;o
-benéfico|慈善的, 有益的|o
+benéfico|慈善的，公益的; 有益的|o;o
 consciencia|意识, 知觉; 良心|o;o
 coyote|郊狼|o
 comestible|可食用的|o
@@ -6574,7 +6574,7 @@ decreto|法令|o
 coalición|联盟, 联合政府|o
 prosperidad|繁荣|o
 importación|进口|o
-relativo|相对的; 有关的, 关于 (relativo a)|o;o
+relativo|相对的; relativo a: 有关，涉及|o;n
 iraní|伊朗的, 伊朗人|o
 ambiental|环境的|o
 consenso|共识|o
@@ -6601,7 +6601,7 @@ acreedor|债权人|o
 energética|能源的 (如 política energética)|o
 situado|位于…的|o
 desempeño|履行, 表现 (职务, 角色)|o
-incorporar|纳入, 加入; 坐起来 (incorporarse); 加入, 入职 (incorporarse a)|v;v;v
+incorporar|合并，加入; 坐起来(incorporarse); incorporarse a: 加入|v;v;n
 gobernante|统治者, 执政者; 执政的|o;o
 franquista|佛朗哥派的, 佛朗哥分子|o
 generalizar|概括, 一概而论; 普及, 蔓延 (generalizarse)|v;v
@@ -6652,7 +6652,7 @@ plus|奖金, 额外补贴|o
 castellano|卡斯蒂利亚语, 西班牙语|o
 inversionista|投资者|o
 parlamentario|议会的; 议员|o;o
-protagonizar|主演; 担任主角, 成为焦点|v;v
+protagonizar|主演，担任主角; 处于中心，卷入|v;v
 integral|全面的, 完整的; 全麦的 (面包); 积分 (微积分)|o;o;o
 caracterizar|刻画, 使具有特征|v
 perteneciente|属于…的|o
@@ -6691,7 +6691,7 @@ titulado|名为…的; 毕业的, 有学位的|o;o
 innovador|创新的; 创新者|o;o
 reinado|统治时期, 在位|o
 véase|参见 (交叉引用)|o
-sumar|加, 合计; 加入 (sumarse a)|v;v
+sumar|相加，加总; sumarse a: 加入，添加到|v;n
 solidaridad|团结, 声援|o
 renovable|可再生的|o
 políticamente|政治上|o
@@ -6824,7 +6824,7 @@ residir|居住; 在于|v;v
 geográfico|地理的|o
 conserva|罐头食品, 腌制品|o
 sucesivamente|相继地; y así sucesivamente: 等等, 依此类推|o;n
-optar|选择; 申请, 争取 (optar a)|v;v
+optar|选择，挑选; optar a: 申请，竞争|v;n
 bizantino|拜占庭的|o
 islote|小岛|o
 latinoamericano|拉丁美洲的, 拉美人|o
@@ -6880,7 +6880,7 @@ exclusivamente|仅仅, 专门地|o
 guionista|编剧|o
 nominal|名义上的|o
 surgimiento|出现, 兴起|o
-decena|大约十, 十个 (decenas de: 几十个)|o
+decena|约十，十个; decenas de: 几十个|o;n
 aventurero|冒险家; 爱冒险的|o;o
 ampliamente|广泛地|o
 sistémico|系统性的|o
@@ -6891,7 +6891,7 @@ redacción|写作, 起草; 编辑部; 作文|o;o;o
 susurro|低语, 耳语|o
 equivaler|相当于, 等于|v
 cochero|车夫|o
-restar|减去; 减少, 淡化 (restar importancia)|v;v
+restar|减去; 拿走; restar importancia: 淡化; 剩下，余下|v;v;n;v
 colaborador|合作者, 撰稿人|o
 colonial|殖民的|o
 desdichado|不幸的, 可怜的; 可怜人|o;o
@@ -7015,7 +7015,7 @@ movilidad|流动性|o
 multinacional|跨国的, 跨国公司|o
 presentador|主持人|o
 flamenco|弗拉明戈; 佛兰德的; 火烈鸟|o;o;o
-ende|(por ende) 因此|o
+ende|por ende: 因此，所以|n
 arrecife|礁石|o
 discriminación|歧视|o
 futbolista|足球运动员|o
@@ -7048,7 +7048,7 @@ marítimo|海上的, 海洋的|o
 boliviano|玻利维亚的, 玻利维亚人|o
 chimpancé|黑猩猩|o
 consentir|同意, 允许; 溺爱 (孩子)|v;v
-contraer|感染 (疾病), 欠下 (债务); 承担; 结婚 (contraer matrimonio)|v;v;v
+contraer|染上(疾病，债务); 承担; contraer matrimonio: 结婚|v;v;n
 estrechar|使变窄; 拥抱, 紧握; estrechar la mano: 握手|v;v;n
 normativa|规章, 法规|o
 antología|选集|o
@@ -7101,7 +7101,7 @@ coherente|连贯的, 一致的|o
 autismo|自闭症|o
 correlación|相关性|o
 doctrina|教义, 学说|o
-hostelero|旅店老板|o
+hostelero|酒店老板，餐馆老板; 餐饮住宿业的|o;o
 húngaro|匈牙利的, 匈牙利人|o
 proveniente|来自…的|o
 subrayar|在…下画线, 强调|v
@@ -7191,7 +7191,7 @@ concretamente|具体地|o
 desastroso|灾难性的|o
 estatus|地位|o
 pianista|钢琴家|o
-referente|参照标准; 关于 (referente a)|o;o
+referente|基准，参照点; referente a: 关于，有关|o;n
 delegación|代表团; 分支机构|o;o
 excavación|挖掘|o
 mapuche|马普切人, 马普切的|o
@@ -7481,7 +7481,7 @@ persa|波斯的, 波斯人|o
 propagación|传播, 蔓延|o
 argelino|阿尔及利亚的, 阿尔及利亚人|o
 comparable|可比的, 比得上的|o
-erigir|建立, 竖立; 自封为, 充当 (erigirse en)|v;v
+erigir|建立，建造; erigirse en: 自封为|v;n
 levantamiento|起义, 暴动; 举起, 抬起|o;o
 repertorio|全部曲目, 保留剧目|o
 logaritmo|对数|o
@@ -7740,7 +7740,7 @@ enriquecer|使丰富; 发财, 致富 (enriquecerse)|v;v
 erosionar|侵蚀|v
 escalada|升级, 加剧; 攀登, 攀岩|o;o
 espanto|恐惧, 惊恐|o
-expensas|(a expensas de) 以…为代价, 由…承担费用|o
+expensas|a expensas de: 以...为代价|n
 ráfaga|一阵 (风); 一阵 (枪火), 连射|o;o
 alternativo|替代的, 另类的|o
 canalizar|疏导, 引导|v
@@ -7928,7 +7928,7 @@ homólogo|对应的人, 同行; 对等的, 同源的|o;o
 industrialización|工业化|o
 mensual|每月的|o
 planificar|计划, 规划|v
-pos|追随, 在…之后 (en pos de)|o
+pos|en pos de: 追寻，追随|n
 predominante|主导的, 占优势的|o
 recopilar|汇编, 收集|v
 rotación|旋转, 轮换; 人员流动, 周转|o;o
@@ -8016,7 +8016,7 @@ intersección|交叉, 交叉口|o
 minería|采矿业|o
 sindicalista|工会会员, 工会活动家|o
 surcoreano|韩国的, 韩国人|o
-vicioso|恶性的 (循环); 堕落的|o;o
+vicioso|堕落的，放荡的; círculo vicioso: 恶性循环|o;n
 afroamericano|非裔美国人, 非裔美国人的|o
 anatomía|解剖学|o
 idear|构思, 设计|v
@@ -8346,7 +8346,7 @@ apremiante|紧迫的|o
 arbitrario|任意的, 专断的|o
 carril|车道; 轨道|o;o
 casamentero|媒人|o
-cofre|箱子, 宝箱; 汽车后备箱|o;o
+cofre|箱子，宝箱; 引擎盖(汽车，墨西哥)|o;o
 colisión|碰撞|o
 desfase|差距, 滞后, 脱节|o
 drones|无人机|o
@@ -8425,7 +8425,7 @@ pedagogía|教育学, 教学法|o
 publicitario|广告的, 宣传的|o
 restrictivo|限制性的|o
 retornar|返回, 回来|v
-alojar|安置, 提供住宿; 接待, 容纳|v;v
+alojar|安置，容纳; 接待; alojarse en: 住在|v;v;n
 antiguamente|从前, 过去|o
 bélico|战争的, 好战的|o
 diván|长沙发, 躺椅|o
@@ -8860,7 +8860,7 @@ reactivar|使复苏, 重新激活|v
 sake|清酒|o
 sucumbir|屈服, 死亡|v
 supremacía|至高无上, 霸权|o
-abate|神父, 教士|o
+abate|神父，修道院长; 他/她击落，打倒; se abate sobre: 袭向，降临到|o;f3s;n
 ansia|渴望; 焦虑|o;o
 benigno|良性的; 温和的|o;o
 brusco|突然的; 粗鲁的, 生硬的|o;o
@@ -8906,7 +8906,7 @@ insolvente|无力偿债的|o
 lésbico|女同性恋的 (形容词)|o
 origami|折纸|o
 oxitocina|催产素|o
-pintada|涂鸦|o
+pintada|被涂的(阴性); 涂鸦|o;o
 poético|诗意的, 诗的|o
 póker|扑克|o
 replicar|反驳, 回嘴; 复制|v;v
@@ -9087,7 +9087,7 @@ arribar|到达; 抵港|v;v
 autobiografía|自传|o
 bajel|船只|o
 barbero|理发师|o
-boliche|保龄球馆; 夜总会|o;o
+boliche|保龄球馆; 夜总会(阿根廷，乌拉圭)|o;o
 celada|埋伏, 陷阱; 中世纪头盔|o;o
 consola|控制台, 游戏机|o
 cripta|地下墓室|o
@@ -9108,7 +9108,7 @@ mandamiento|戒律|o
 modernista|现代主义的, 现代主义者|o
 ochocientos|八百|o
 palco|包厢 (剧院)|o
-pardiez|天哪!, 我的天!|o
+pardiez|天哪!，老天!(过时)|o
 pedagogo|教育家, 教师|o
 porcelana|瓷器|o
 párpado|眼皮|o
@@ -9145,7 +9145,7 @@ millar|一千|o
 necrópolis|墓地, 古墓群|o
 nostalgia|怀旧, 乡愁|o
 opresión|压迫|o
-ordenada|纵坐标; 整齐的, 有条理的 (阴性)|o;o
+ordenada|整齐的，有序的; 被排列的，被安排的; 纵坐标，y坐标|o;o;o
 peatón|行人|o
 permanentemente|永久地|o
 prefacio|序言|o
@@ -9379,7 +9379,7 @@ asemejar|相似, 像 (常用 asemejarse a)|v
 camarilla|小集团, 帮派|o
 clandestinidad|秘密状态; 地下 (生活, 活动)|o;o
 cojín|靠垫|o
-concurrir|出席, 参加; 同时发生, 汇合|v;v
+concurrir|出席; 同时发生，汇集; 参选(选举中)，参赛|v;v;v
 consulado|领事馆|o
 deducción|推论, 推断, 扣除|o
 demoniaco|恶魔的|o
@@ -9439,7 +9439,7 @@ monopólico|垄断的|o
 métrica|格律 (诗); 度量, 指标|o;o
 pesticida|杀虫剂|o
 poblacional|人口的 (形容词)|o
-precipitar|加速, 促成; 抛下, 扔下; 沉淀 (化学)|v;v;v
+precipitar|加速，引发; 猛地扔下; 仓促行事，贸然行动(precipitarse); 沉淀(化学)|v;v;v;v
 preservación|保护, 保存|o
 primacía|首要地位|o
 proyectil|抛射物, 导弹|o
@@ -9509,7 +9509,7 @@ paradójicamente|矛盾的是, 自相矛盾地|o
 pender|悬挂|v
 perdición|毁灭, 堕落; 沉沦 (宗教)|o;o
 pique|较劲, 怨气; irse a pique: 沉没|o;n
-podre|脓, 腐烂物|o
+podre|我将能够(podré 去掉重音); 脓，腐烂|f1s;o
 polémico|有争议的|o
 pupila|瞳孔|o
 raso|缎子; 平坦的, 晴朗的; al raso: 在露天|o;o;n
@@ -9619,7 +9619,7 @@ tosco|粗糙的, 粗陋的|o
 verdor|翠绿, 青葱|o
 alzar|举起, 抬起|v
 amazónico|亚马孙的|o
-apoderar|授权 (apoderarse de: 夺取, 占据)|v
+apoderar|授权，委托; apoderarse de: 夺取，接管|v;n
 bolchevique|布尔什维克|o
 cardiovascular|心血管的|o
 commodities|大宗商品, 原材料|o
@@ -9886,7 +9886,7 @@ intolerancia|不宽容, 不耐受|o
 lírico|抒情的|o
 machacar|捣碎, 砸碎; 唠叨, 反复讲|v;v
 manufacturar|制造|v
-mariquita|瓢虫|o
+mariquita|瓢虫; 娘娘腔，女气的男人(冒犯)|o;o
 mercader|商人|o
 mestizo|混血的, 混血儿|o
 mirador|观景台, 瞭望台|o
@@ -10057,7 +10057,7 @@ polución|污染|o
 predominantemente|主要地|o
 saldar|结清, 偿还|v
 tala|砍伐, 伐木|o
-trillón|百万兆 (10^18; 美式 quintillion)|o
+trillón|百京(10^18，一百万个百万个百万)|o
 visceral|发自内心的, 本能的|o
 admiración|钦佩, 赞赏|o
 anuario|年鉴, 纪念册|o
@@ -10331,7 +10331,7 @@ exactitud|精确|o
 follaje|枝叶|o
 ilusorio|虚幻的|o
 implorar|恳求, 哀求|v
-impregnar|浸透|v
+impregnar|浸透，渗入，使饱和|v
 imprescindible|必不可少的|o
 inquisitivo|好奇的, 爱追问的|o
 insolente|无礼的, 傲慢的|o
@@ -10769,12 +10769,12 @@ surrealista|超现实的; 超现实主义者|o;o
 telómero|端粒|o
 termita|白蚁|o
 turbina|涡轮机|o
-tópico|陈词滥调; 局部的 (外用)|o;o
+tópico|陈词滥调，老生常谈; 外用的(药); 话题，主题(拉丁美洲)|o;o;o
 túnica|长袍|o
 urbanístico|城市规划的|o
 acueducto|渡槽, 高架水道|o
 agobiar|使不堪重负|v
-alistar|征募, 登记; alistarse: 做好准备|v;n
+alistar|征召入伍，参军; 准备好，预备(拉丁美洲)|v;v
 antieuropeo|反欧洲的|o
 aplacar|平息, 安抚|v
 benedictino|本笃会的|o
@@ -10952,7 +10952,7 @@ podio|领奖台|o
 psicoanalítico|精神分析的|o
 regar|浇水, 灌溉|v
 rezagada|落后的 (阴性); 掉队者|o;o
-ría|河口湾|o
+ría|(愿)我笑，(愿)他/她笑; 笑吧!(usted); 河口湾，狭长海湾|f1s;o;o
 sopesar|权衡|v
 terminación|结束, 完成; 收尾, 做工|o;o
 vidriera|彩色玻璃窗; 橱窗|o;o
@@ -11025,7 +11025,7 @@ ortopédico|矫形的|o
 palillo|牙签; 筷子; 鼓槌|o;o;o
 palmo|一拃; palmo a palmo: 一点一点地|o;n
 peculiaridad|特点|o
-pendejadas|蠢事, 胡扯 (口语)|o
+pendejadas|蠢事，废话(粗俗，拉丁美洲)|o
 predeterminar|预先确定|v
 priorato|小修道院|o
 privación|剥夺, 匮乏|o
@@ -11357,7 +11357,7 @@ fulminar|击倒, 击毙; fulminar con la mirada: 怒目而视|v;n
 gaveta|抽屉|o
 gotear|滴, 漏水|v
 gravamen|税, 捐税; (财产上的) 负担, 抵押|o;o
-hinchada|球迷 (总称)|o
+hinchada|球迷，支持者(球队的); 肿的(阴性)|o;o
 humildemente|谦卑地|o
 infringir|违反, 触犯 (规定)|v
 injuria|侮辱, 辱骂; 诽谤|o;o
@@ -11379,7 +11379,7 @@ ochocientas|八百 (阴性)|o
 ondulación|起伏, 波浪; 涟漪|o;o
 opcional|可选的|o
 paramilitar|准军事的|o
-pegada|拳击力, 打击力|o
+pegada|粘住的，贴上的(阴性); 一拳，击打力|o;o
 penetración|穿透, 渗透|o
 pesquisa|调查, 侦查|o
 poscomunistas|后共产主义的|o
@@ -11591,7 +11591,7 @@ mundano|世俗的; 社交界的 (形容词)|o;o
 muéstreme|给我看看 (您)|o
 nanotecnología|纳米技术|o
 nanómetro|纳米|o
-nel|不 (口语, = no)|o
+nel|不，不行(墨西哥，口语)|o
 oleaje|浪涌, 海浪|o
 ondear|飘扬, 飘动|v
 osado|大胆的|o
@@ -11608,7 +11608,7 @@ rapto|绑架, 诱拐; 一阵冲动, 狂喜|o;o
 receso|休会, 休息|o
 recreativo|娱乐的|o
 recreo|课间休息; 娱乐|o;o
-recámara|卧室; 弹膛|o;o
+recámara|卧室(墨西哥); 弹膛(枪的)|o;o
 reiniciar|重新开始, 重启|v
 repisa|搁板, 突出部分; 壁炉台|o;o
 resoplar|喷鼻息, 喘粗气|v
@@ -11746,7 +11746,7 @@ clientelismo|庇护主义, 裙带关系|o
 clítoris|阴蒂|o
 colorido|色彩鲜艳的; 色彩, 着色|o;o
 colágeno|胶原蛋白|o
-complaciente|殷勤的, 随和的; 自满的|o;o
+complaciente|乐于助人的，通融的; 纵容的|o;o
 condicionalidad|附加条件|o
 conocedor|行家, 鉴赏家; 熟悉的, 内行的|o;o
 consecuentemente|因此|o
@@ -11793,7 +11793,7 @@ obsesivo|强迫性的, 着魔的|o
 ortogonal|正交的|o
 paludismo|疟疾|o
 paralelismo|相似之处, 平行|o
-pasiva|被动语态|o
+pasiva|被动的(阴性); 被动语态|o;o
 patinaje|滑冰|o
 pesquero|渔业的 (形容词); 渔船|o;o
 plantel|全体人员, 团队; 球队阵容 (体育)|o;o
@@ -11966,7 +11966,7 @@ doblaje|配音|o
 dotación|人员配备, 全体船员; 拨款, 配给|o;o
 empatar|打平, 平局|v
 gema|宝石|o
-gilipolleces|胡扯, 屁话 (口语)|o
+gilipolleces|废话，胡扯(粗俗，西班牙)|o
 grabadora|录音机|o
 homenajear|向…致敬, 表彰|v
 incoherente|不连贯的, 语无伦次的|o
@@ -12162,7 +12162,7 @@ reticente|不情愿的|o
 retumbar|轰鸣, 回响|v
 revisionista|修正主义的, 修正主义者|o
 romá|罗姆人, 罗姆的|o
-ruda|芸香|o
+ruda|粗鲁的，粗糙的(阴性); 芸香(植物)|o;o
 rudimentario|初级的, 简陋的|o
 sacra|神圣的 (阴性)|o
 secuenciación|测序|o
@@ -12268,7 +12268,7 @@ camero|一米三五宽的 (床的尺寸)|o
 candente|炽热的; 热门的, 迫切的 (问题)|o;o
 cariñosamente|亲切地, 深情地|o
 chillido|尖叫|o
-chingar|操 (粗俗, 墨西哥用法); 搞砸, 毁掉, 烦扰 (口语)|v;v
+chingar|操(粗俗，墨西哥); 搞砸，毁掉(口语); 烦扰，纠缠(口语)|v;v;v
 cohibir|拘束, 使不自在|v
 cojear|跛行, 一瘸一拐|v
 comprimido|药片; 压缩的|o;o
@@ -12654,7 +12654,7 @@ faena|活儿, 家务; 工作; 卑鄙的伎俩|o;o;o
 faldón|(外衣的) 下摆, 衣摆|o
 fango|泥浆, 泥潭|o
 flequillo|刘海|o
-follón|乱子, 混乱; 吵闹, 争吵 (口语)|o;o
+follón|乱子，混乱(西班牙，口语); 争吵(西班牙，口语)|o;o
 forcejear|挣扎, 扭打|v
 fundido|熔化的; 淡入淡出 (电影); 烧坏的|o;o;o
 grava|碎石|o
@@ -12688,7 +12688,7 @@ ramen|拉面|o
 rebosar|溢出, 充满|v
 refrescante|清爽的, 提神的|o
 regordete|胖乎乎的|o
-retar|挑战; 责骂|v;v
+retar|挑战，激; 责骂(阿根廷，智利，乌拉圭)|v;v
 riquísimo|非常美味的; 非常富有的|o;o
 riña|争吵, 打架|o
 ronco|嘶哑的, 沙哑的|o
@@ -12891,7 +12891,7 @@ apremiar|催促, 敦促; 紧迫|v;v
 apóstata|叛教者|o
 ardientemente|热烈地, 热情地|o
 argonauta|阿尔戈英雄|o
-aventar|扬 (谷物); 扔, 抛|v;v
+aventar|扔，抛(拉丁美洲); 扬谷|v;v
 azafata|空姐; 女接待员|o;o
 bajeza|卑鄙, 卑劣行为|o
 ballesta|弩|o
@@ -12963,7 +12963,7 @@ leonado|黄褐色的|o
 loza|陶器, 瓷器|o
 macabro|恐怖的, 阴森的|o
 malditamente|该死地, 极其|o
-manteca|猪油; 黄油|o;o
+manteca|猪油; 黄油(阿根廷，乌拉圭)|o;o
 migaja|碎屑, 面包屑|o
 mimbre|柳条|o
 miramiento|顾虑, 体谅|o
@@ -13196,7 +13196,7 @@ sentaos|坐下！ (复数, 西班牙用法)|o
 deciros|告诉你们 (复数, 西班牙用法)|v
 asentir|同意, 赞同 (常指点头)|v
 busto|半身像 (雕塑); 胸部|o;o
-corrido|拉上的 (窗帘), 连续的; 科里多 (墨西哥民谣); 难为情的 (旧时用法)|o;o;o
+corrido|跑过了(correr); 拉上的(窗帘); 连续的，接连的; 科里多(墨西哥民谣); 难为情的(过时)|f3s;o;o;o;o
 impedido|受阻的, 被阻止的; 残疾的 (旧时用法)|o;o
 criptografía|密码学|o
 cuadrangular|四边形的; 本垒打 (棒球)|o;o
@@ -13250,7 +13250,7 @@ pujar|竞价, 出价; 使劲, 用力|v;v
 refinanciación|再融资|o
 remodelar|改建, 翻新|v
 rociar|喷洒, 洒|v
-rodada|车辙|o
+rodada|被拍摄的(阴性); 车辙，轮胎印|o;o
 romanización|罗马化, 拉丁化|o
 rótula|膝盖骨|o
 sabotaje|蓄意破坏|o
@@ -13338,7 +13338,7 @@ descomunal|巨大的|o
 desengañar|使醒悟, 使看清真相|v
 despreocupado|无忧无虑的, 不在乎的|o
 destinatario|收件人, 接收者|o
-didáctica|教学法|o
+didáctica|教学法，教学方法论; 教学的，有教育意义的(阴性)|o;o
 dolorosamente|痛苦地|o
 déle|给他/她 (usted)|o
 díganle|告诉他/她！ (复数)|o
@@ -13464,12 +13464,12 @@ fui|我是 (过去); 我去了|f1s;f1s
 ello|它, 那 (中性); por ello: 因此; para ello: 为此|f3s;n;n
 fueron|他们是, 你们是 (复数, 过去); 他们去了, 你们去了 (复数)|f3p;f3p
 divertido|好玩, 有趣, 逗乐; 觉得好笑的|o;o
-ocupado|忙, 忙碌; 被占用, 有人|o;o
+ocupado|忙碌的; 被占用的; 已处理的 (ocuparse de)|o;o;o
 fuiste|你是 (过去); 你去了|f2s2p;f2s2p
 encantado|很高兴认识你; 非常高兴; 着了魔的, 被施了魔法的|o;o;o
 privado|私人的, 私有的; 被剥夺的|o;o
 viva|万岁!, 好哇!; 活着的 (阴性); 但愿活着 (vivir 的虚拟式)|o;o;o
-debido|应有的, 适当的; debido a: 由于, 因为; 欠下的|o;n;o
+debido|应有的, 适当的; debido a: 由于, 因为; 所欠的; 曾不得不, 本应 (用于 haber 之后)|o;n;o;f3s
 dispuesto|愿意的, 准备好的; estar dispuesto a: 愿意|o;n
 despierta|醒着的 (阴性); 醒醒!; 他/她醒来|o;o;f3s
 fuimos|我们是 (过去); 我们去了|f1p;f1p
@@ -13485,10 +13485,10 @@ zorra|雌狐; 婊子 (粗口)|o;o
 apropiado|适当的, 合适的|o
 creas|你相信 (creer 的虚拟式); 你创造 (crear)|f2s2p;f2s2p
 comprometido|订了婚的; 投入的, 有担当的; 受到危害的|o;o;o
-enfrente|对面; enfrente de: 在……对面, 在……前面|o;n
+enfrente|对面的; enfrente de: 在…对面, 在…前面; (虚拟式) 他/她/它面对|o;n;f3s
 sed|渴, 口渴; tener sed: 口渴|o;n
 destinado|注定的; estar destinado a: 注定要; 被派驻的, 被分配的|o;n;o
-medias|长筒袜, 连裤袜; 袜子 (拉丁美洲); a medias: 一半, 不彻底|o;o;n
+medias|长筒袜, 连裤袜; 袜子 (拉丁美洲); a medias: 一半一半, 不彻底; 中间的, 平均的 (阴性复数)|o;o;n;o
 educado|有礼貌的, 有教养的; 受过教育的|o;o
 encubierto|卧底的; 隐蔽的, 秘密的; 被掩盖的|o;o;o
 honrado|诚实的, 正直的; 感到荣幸的|o;o
@@ -16200,3 +16200,27 @@ farmacológico|药理学的|o
 fibrosis|纤维化|o
 girasol|向日葵|o
 glamour|魅力, 光鲜|o
+oye|喂！, 听着！ (用于引起注意); 他/她/它听见|o;f3s
+demonios|恶魔, 魔鬼; 见鬼！, 该死！ (用于强调: qué demonios)|o;o
+diablos|见鬼！, 该死！ (用于强调: qué diablos); 魔鬼|o;o
+viste|你看见了; 他/她/它穿 (vestir)|f2s2p;f3s
+perra|母狗; 对女性的粗俗侮辱|o;o
+nena|宝贝 (昵称); 小女孩|o;o
+oiga|劳驾！, 听着！ (用于引起注意, usted); (虚拟式) 他/她/它听见|o;f3s
+decidido|已决定的; 坚决的, 果断的; estar decidido a: 决心要|o;o;n
+oigan|听着！, 喂！ (用于引起一群人注意); (虚拟式) 他们听见, 你们听见 (复数)|o;f3p
+china|中国 (国家); 中国的 (阴性); 瓷器|o;o;o
+complicado|复杂的, 困难的|o
+entrado|进入了的; bien entrado: 已深入 (某个时期) 之中|o;n
+arreglado|已修好的, 已安排好的; 整洁的, 打扮好的; 应付过去了 (se las ha arreglado, 他/她应付过去了)|o;o;o
+suba|(虚拟式) 他/她/它上升, 我上升; 上涨 (阿根廷, 乌拉圭)|f3s;o
+amada|心爱的人, 爱人 (阴性); 被爱的 (阴性)|o;o
+pervertido|变态者; 变态的, 堕落的|o;o
+arriesgado|冒险的, 危险的; 大胆的; 被冒险的|o;o;o
+doña|Doña (女子名字前的尊称)|f3s
+botones|纽扣; 行李员|o;o
+estimado|估计的; 受尊敬的; 亲爱的 (信的开头: Estimado señor)|o;o;o
+descuida|别担心！; 他/她/它疏忽|o;f3s
+perras|母狗 (复数); 对女性的粗俗侮辱 (复数); 钱 (西班牙, 口语)|o;o;o
+subas|(虚拟式) 你上升; 上涨 (阿根廷, 乌拉圭)|f2s2p;o
+quiebre|断裂, 破裂 (主要用于拉丁美洲); (虚拟式) 他/她/它打破|o;f3s

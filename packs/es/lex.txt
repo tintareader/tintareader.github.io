@@ -47,8 +47,8 @@ del||de,el|contr
 como|||
 aquí|||
 haber|||
-ver|||
 al||a,el|contr
+ver|||
 más|||
 ir|||
 le|||
@@ -168,7 +168,6 @@ siempre|||
 hasta|||
 ahí|||
 seguir|||
-oír|||
 hecho|||nm
 años|||nm
 antes|||
@@ -237,13 +236,14 @@ mamá|||nf
 nombre|||nm
 luego|||
 papá|||nm
-entrar|||
 hoy|||
 tres|||
 empezar|||
 mirar|||
 buscar|||
 dije||decir|
+entrar|||
+oye||oír|
 último|||
 mío|||
 quedar|||
@@ -341,6 +341,7 @@ durante|||
 ocurrir|||
 llama||llamar|
 mes|||nm
+oír|||
 palabra|||nf
 suceder|||
 arma|||nf
@@ -371,7 +372,6 @@ comprar|||
 agua|||nf
 esposa||esposo|nf
 clase|||nf
-perro|||nm
 cara|||nf
 segundo|||nm
 hey|||
@@ -433,7 +433,6 @@ muchacho|||nm
 robar|||
 mayor|||
 bebé|||nm
-decidir|||
 sangre|||nf
 disparar|||
 luz|||nf
@@ -447,10 +446,8 @@ cuanto|||
 e|||
 plan|||nm
 escuela|||nf
-diablo|||nm
 sonar|||
 echar|||
-subir|||
 habitación|||nf
 vete||ir|
 culpa|||nf
@@ -460,7 +457,6 @@ medio|||
 ok|||
 recuerdo|||nm
 confiar|||
-demonio|||nm
 comida|||nf
 trata||tratar|
 santo|||
@@ -488,8 +484,10 @@ puta|||nf
 par|||nm
 hermoso|||
 idiota|||
+subir|||
 aquel|||
 dame||dar|
+perro|||nm
 andar|||
 equivocar|||
 blanco|||
@@ -539,6 +537,7 @@ asesino|||nm
 seis|||
 lindo|||
 agente|||nm
+decidir|||
 disculpar|||
 seguridad|||nf
 especial|||
@@ -562,6 +561,7 @@ aceptar|||
 pueblo|||nm
 acerca|||
 fuerza|||nf
+demonios||demonio|
 meter|||
 cambio|||nm
 duro|||
@@ -593,8 +593,8 @@ presidente|||nm
 cuarto|||nm
 temer|||
 pienso||pensar|
+diablos||diablo|
 abogado|||nm
-arreglar|||
 ambos|||
 señorita|||nf
 diez|||
@@ -630,7 +630,6 @@ trato|||nm
 volar|||
 tuyo|||
 probar|||
-amar|||
 suyo|||
 línea|||nf
 información|||nf
@@ -658,6 +657,7 @@ bailar|||
 frente|||nmf
 golpear|||
 mostrar|||
+arreglar|||
 baño|||nm
 sexo|||nm
 odio|||nm
@@ -674,6 +674,7 @@ profesor|||nm
 atención|||nf
 luchar|||
 responder|||
+amar|||
 soler|||
 canción|||nf
 boca|||nf
@@ -770,9 +771,9 @@ señal|||nf
 cortar|||
 programa|||nm
 broma|||nf
+viste||ver|
 ataque|||nm
 soldado|||nm
-don|||nm
 horrible|||
 pase||pasar|
 peligroso|||
@@ -828,6 +829,7 @@ contacto|||nm
 molestar|||
 reconocer|||
 consejo|||nm
+don|||nm
 revisar|||
 acción|||nf
 huir|||
@@ -960,7 +962,6 @@ enamorado|||
 causa|||nf
 falso|||
 encantado|||adj
-nene|||nm
 alegrar|||
 mayoría|||nf
 energía|||nf
@@ -998,7 +999,6 @@ privado|||adj
 reina|||nf
 estudio|||nm
 izquierda|||nf
-chino|||
 mencionar|||
 máquina|||nf
 temprano|||
@@ -1058,6 +1058,7 @@ apuesto|||
 irse||ir|
 pesar|||
 salida|||nf
+perra||perro|
 muestra||mostrar|
 radio|||nf
 ejemplo|||nm
@@ -1133,6 +1134,7 @@ vacío|||
 hacerte||hacer|
 detalle|||nm
 vistazo|||nm
+nena||nene|
 interior|||
 marcha|||nf
 comandante|||nm
@@ -1144,6 +1146,7 @@ soñar|||
 marca|||nf
 colgar|||
 bello|||
+diablo|||nm
 estudiante|||nm
 batalla|||nf
 sur|||nm
@@ -1273,7 +1276,6 @@ criminal|||
 taxi|||nm
 ganado|||nm
 profesional|||
-complicar|||
 um|||
 contrario|||nm
 local|||nm
@@ -1341,10 +1343,12 @@ cadáver|||nm
 aburrido|||adj
 solamente|||
 medicina|||nf
+oiga||oír|
 desastre|||nm
 tercero|||
 correo|||nm
 contrato|||nm
+decidido||decidir|
 acto|||nm
 cabello|||nm
 involucrar|||
@@ -1439,6 +1443,7 @@ estan||estar|
 social|||
 sombrero|||nm
 valiente|||
+oigan||oír|
 universo|||nm
 ciego|||
 princesa|||nf
@@ -1482,7 +1487,6 @@ apuesta|||nf
 uso|||nm
 empujar|||
 declaración|||nf
-arriesgar|||
 carretera|||nf
 avanzar|||
 empleado|||nm
@@ -1560,6 +1564,7 @@ escenario|||nm
 mirada|||nf
 almuerzo|||nm
 identificar|||
+demonio|||nm
 llámame||llamar|
 búsqueda|||nf
 original|||
@@ -1593,6 +1598,7 @@ firma|||nf
 homicidio|||nm
 soltar|||
 legal|||
+china||chino|
 lección|||nf
 secundario|||
 video|||nm
@@ -1679,6 +1685,7 @@ celoso|||
 tv|||nf
 afortunado|||
 tamaño|||nm
+chino|||
 paquete|||nm
 desconocido|||
 emoción|||nf
@@ -1787,6 +1794,7 @@ reino|||nm
 asistente|||nm
 casarse||casar|
 tercer|||
+arriesgar|||
 centavo|||nm
 esclavo|||nm
 recién|||
@@ -1794,6 +1802,7 @@ compromiso|||nm
 taza|||nf
 producto|||nm
 clave|||nf
+complicado||complicar|
 aparte|||
 hombro|||nm
 evento|||nm
@@ -1942,7 +1951,6 @@ whisky|||nm
 magnífico|||
 llevarte||llevar|
 maravilla|||nf
-botón|||nm
 sostener|||
 actividad|||nf
 palacio|||nm
@@ -2397,6 +2405,7 @@ solitario|||
 tripulación|||nf
 alimento|||nm
 tele|||nf
+tio|||nm
 custodia|||nf
 alquiler|||nm
 ayudarla||ayudar|
@@ -2425,6 +2434,7 @@ pinta|||nf
 mate|||nm
 generoso|||
 emperador|||nm
+angel||ángel|nm
 agotar|||
 acusación|||nf
 gasolina|||nf
@@ -2449,6 +2459,7 @@ típico|||
 procedimiento|||nm
 sentada||sentar|
 instante|||nm
+complicar|||
 recientemente|||adv
 lamentar|||
 dividir|||
@@ -2479,6 +2490,7 @@ vendedor|||nm
 nombrar|||
 chef|||nmf
 mínimo|||
+entrado||entrar|
 patata|||nf
 cartera|||nf
 milímetro|||nm
@@ -2513,6 +2525,7 @@ hambriento|||
 cierre|||nm
 gallina|||nf
 unión|||nf
+botón|||nm
 tenerlo||tener|
 borde|||nm;adj
 delicado|||
@@ -2604,7 +2617,6 @@ pluma|||nf
 texto|||nm
 cogido||coger|
 sed|||nf
-tio|||nm
 cojones|||nm
 uña|||nf
 lealtad|||nf
@@ -2617,6 +2629,7 @@ interpretar|||
 arroz|||nm
 resistencia|||nf
 alianza|||nf
+arreglado||arreglar|
 reciente|||
 físico|||adj;nm;nm
 llamarte||llamar|
@@ -3026,6 +3039,7 @@ remedio|||nm
 crítica|||nf
 sello|||nm
 cómoda||cómodo|
+nene|||nm
 tráeme||traer|
 guiar|||
 sacarlo||sacar|
@@ -3035,7 +3049,6 @@ tabla|||nf
 estable|||
 mueble|||nm
 deprimir|||
-pervertir|||
 pillo|||nm
 septiembre|||nm
 referencia|||nf
@@ -3182,6 +3195,7 @@ comando|||nm
 fallo|||nm
 comportar|||
 civilización|||nf
+suba||subir|
 polla|||nf
 dosis|||nf
 invertir|||
@@ -3221,7 +3235,6 @@ pila|||nf
 profesión|||nf
 octubre|||nm
 sentirme||sentir|
-estimar|||
 dificil||difícil|
 ingreso|||nm
 sacarte||sacar|
@@ -3270,6 +3283,7 @@ infección|||nf
 mantenerlo||mantener|
 conseguirlo||conseguir|
 lazo|||nm
+numero||número|nm
 graduación|||nf
 envío|||nm
 matón|||nm
@@ -3365,6 +3379,7 @@ autopista|||nf
 dieta|||nf
 sindicato|||nm
 fortaleza|||nf
+sra|||nf
 actualmente|||adv
 celos|||nm
 riqueza|||nf
@@ -3436,7 +3451,6 @@ comedor|||nm
 rancho|||nm
 provenir|||
 sígueme||seguir|
-sra|||nf
 marrón|||
 rival|||nmf
 cretino|||nm
@@ -3466,7 +3480,6 @@ opuesto|||adj
 certificado|||nm
 chiflado|||
 generalmente|||adv
-numero||número|nm
 comercio|||nm
 humilde|||
 homosexual|||
@@ -3552,7 +3565,9 @@ diciembre|||nm
 estarlo||estar|
 preguntarme||preguntar|
 na|||
+oido||oído|nm
 barón|||nm
+amada||amar|
 jodidamente|||adv
 bloque|||nm
 húmedo|||
@@ -3630,6 +3645,7 @@ transportar|||
 telegrama|||nm
 norteamericano|||
 echarle||echar|
+pervertido||pervertir|
 cosecha|||nf
 avenida|||nf
 seriamente|||adv
@@ -3755,7 +3771,6 @@ justificar|||
 latir|||
 distraer|||
 increible||increíble|
-oido||oído|nm
 rehabilitación|||nf
 fracasado|||
 polo|||nm
@@ -3770,7 +3785,6 @@ ayudarlos||ayudar|
 chimenea|||nf
 dolar||dólar|nm
 rapido||rápido|
-angel||ángel|nm
 portero|||nm
 brigada|||nf
 asistencia|||nf
@@ -3802,6 +3816,7 @@ negociación|||nf
 patria|||nf
 apagado|||
 muñeco|||nm
+amiguito|||nm
 esencial|||
 excitante|||
 villano|||nm
@@ -3812,12 +3827,14 @@ levante||levantar|
 pesa||pesar|
 lance||lanzar|
 agallas|||nf
+arriesgado||arriesgar|
 estrecho|||
 sentirlo||sentir|
 verlas||ver|
 ascender|||
 bancario|||
 cortes||corte|
+doña||don|
 derrota|||nf
 coco|||nm
 pintor|||nm
@@ -3997,7 +4014,6 @@ bandeja|||nf
 basada||basar|
 olvidarlo||olvidar|
 astronauta|||nmf
-descuidar|||
 ladrillo|||nm
 ohh|||
 film|||nm
@@ -4022,6 +4038,7 @@ compensar|||
 garra|||nf
 oírte||oír|
 descargar|||
+botones||botón|
 supermercado|||nm
 halar|||
 oriente|||nm
@@ -4046,7 +4063,7 @@ cualidad|||nf
 humillar|||
 convención|||nf
 valorar|||
-lunar|||nm
+lunar|||nm;adj
 envejecer|||
 categoría|||nf
 concéntrate||concentrar|
@@ -4067,6 +4084,7 @@ refresco|||nm
 cesar|||
 gallo|||nm
 sostén|||nm
+chofer|||nm
 inmenso|||
 predecir|||
 drogadicto|||nm
@@ -4105,6 +4123,7 @@ intruso|||nm
 febrero|||nm
 diplomático|||
 felicitar|||
+niñita|||nf
 plaga|||nf
 intervenir|||
 acontecimiento|||nm
@@ -4113,7 +4132,7 @@ sofisticar|||
 justamente|||
 procesar|||
 sangriento|||
-zapatilla|||nf
+zapatilla|||nf;nf
 obispo|||nm
 aah|||
 descuento|||nm
@@ -4180,7 +4199,6 @@ crudo|||
 quitarle||quitar|
 republicano|||
 claridad|||nf
-chofer|||nm
 set|||nm
 tomarlo||tomar|
 establo|||nm
@@ -4237,7 +4255,6 @@ cuadrado|||
 tronco|||nm
 calendario|||nm
 idéntico|||
-amiguito|||nm
 ignorante|||
 paisaje|||nm
 presentarte||presentar|
@@ -4255,9 +4272,9 @@ déme||dar|
 er|||
 salvación|||nf
 baloncesto|||nm
-cobra|||nf
+cobra|||v;nf
 disfrazar|||
-vientre|||nm
+vientre|||nm;nm
 mirarme||mirar|
 creador|||nm
 emborrachar|||
@@ -4278,7 +4295,7 @@ pulgada|||nf
 psíquico|||
 algodón|||nm
 sexto|||
-persecución|||nf
+persecución|||nf;nf
 entusiasmo|||nm
 manejo|||nm
 jet|||nm
@@ -4290,7 +4307,7 @@ salvarme||salvar|
 boom|||nm
 peluca|||nf
 esencia|||nf
-navaja|||nf
+navaja|||nf;nf
 renuncia|||nf
 cuna|||nf
 postura|||nf
@@ -4313,7 +4330,7 @@ atrevido|||
 dominio|||nm
 ferrocarril|||nm
 captura|||nf
-delantera|||nf
+delantera|||nf;adj
 tomarme||tomar|
 terrestre|||
 industrial|||
@@ -4330,7 +4347,6 @@ langosta|||nf
 ginebra|||nf
 insignificante|||
 hongo|||nm
-quebrar|||
 ordinario|||
 acostarse||acostar|
 guardaespaldas|||nmf
@@ -4400,12 +4416,11 @@ corporal|||
 cajero|||nm
 inquieto|||
 revólver|||nm
-niñita|||nf
 asilo|||nm
 enganchar|||
 póngase||poner|
 demostración|||nf
-doncella|||nf
+doncella|||nf;nf
 reparación|||nf
 buzón|||nm
 pecador|||nm
@@ -4477,6 +4492,7 @@ ayudarles||ayudar|
 tendencia|||nf
 modesto|||
 imperial|||
+estimado||estimar|
 imprimir|||
 altar|||nm
 gorila|||nm
@@ -4539,6 +4555,7 @@ mutuamente|||
 delta|||nm
 refugiado|||nm
 cógelo||coger|
+telefono||teléfono|nm
 altamente|||
 ocuparme||ocupar|
 adopción|||nf
@@ -4650,6 +4667,7 @@ sandwich|||nm
 intervención|||nf
 violador|||nm
 oponente|||nmf
+quebrar|||
 mátalo||matar|
 cariñoso|||
 gratitud|||nf
@@ -4659,7 +4677,7 @@ independencia|||nf
 sobredosis|||nf
 diseñador|||nm
 santuario|||nm
-estrado|||nm
+estrado|||nm;nm
 impaciente|||
 cuan||cuán|adv
 representación|||nf
@@ -4752,11 +4770,10 @@ cacería|||nf
 selección|||nf
 honestidad|||nf
 amabilidad|||nf
-telefono||teléfono|nm
 espina|||nf
 coreano|||
 reactor|||nm
-lava|||nf
+lava|||v;v;nf
 mutuo|||
 tapar|||
 residuo|||nm
@@ -4766,7 +4783,7 @@ madrugada|||nf
 escolta|||nmf
 sácalo||sacar|
 unico||único|
-recado|||nm
+recado|||nm;nm
 champagne|||nm
 sutil|||
 laurel|||nm
@@ -4803,7 +4820,7 @@ tablero|||nm
 bombardeo|||nm
 sesenta|||
 animador|||nm
-ático|||nm
+ático|||nm;nm
 inquilino|||nm
 chisme|||nm
 volcán|||nm
@@ -4830,12 +4847,12 @@ comprobarlo||comprobar|
 muslo|||nm
 barbacoa|||nf
 finanzas|||nf
-recta|||nf
+recta|||adj;nf
 llévalo||llevar|
 correa|||nf
 interponer|||
 seducir|||
-helada|||nf
+helada|||adj;nf
 innecesario|||
 resfriado|||nm
 suicidarse||suicidar|
@@ -4872,7 +4889,7 @@ modificar|||
 poste|||nm
 tarado|||
 improvisar|||
-negativa|||nf
+negativa|||adj;nf
 evolucionar|||
 pulsera|||nf
 mandíbula|||nf
@@ -4892,7 +4909,7 @@ observador|||nm
 ramo|||nm
 revolver|||
 constitución|||nf
-cuota|||nf
+cuota|||nf;nf
 sabés||saber|
 peinado|||nm
 todopoderoso|||
@@ -4961,6 +4978,7 @@ florecer|||
 parásito|||nm
 quito||quitar|
 sensacional|||
+descuida||descuidar|
 karma|||nm
 pelicula||película|nf
 comprueba||comprobar|
@@ -5033,6 +5051,7 @@ provecho|||nm
 terco|||
 celestial|||
 despiadado|||
+perras||perro|
 detector|||nm
 rechazo|||nm
 financiar|||
@@ -5070,7 +5089,7 @@ sustituir|||
 batallón|||nm
 carbono|||nm
 moverte||mover|
-caña|||nf
+caña|||nf;nf
 potente|||
 semestre|||nm
 liar|||
@@ -5180,7 +5199,7 @@ acercarme||acercar|
 contribuir|||
 metálico|||
 lateral|||
-dicha|||nf
+dicha|||adj;nf
 plátano|||nm
 trama|||nf
 cintura|||nf
@@ -5268,6 +5287,7 @@ revelación|||nf
 comprarte||comprar|
 duende|||nm
 hábil|||
+estimar|||
 farmacéutico|||nm
 resaca|||nf
 conocerlos||conocer|
@@ -5327,7 +5347,7 @@ mirarlo||mirar|
 cartero|||nm
 porción|||nf
 proteína|||nf
-torno|||nm
+torno|||nm;prep
 burdel|||nm
 verso|||nm
 pro|||nm
@@ -5406,11 +5426,12 @@ documentación|||nf
 arca|||nf
 quiebra|||nf
 pagarme||pagar|
-colectivo|||nm
+colectivo|||adj;nm
 insensible|||
 víbora|||nf
 ponla||poner|
 rupias|||
+hombrecito|||nm
 traficar|||
 remolque|||nm
 recurrir|||
@@ -5510,7 +5531,7 @@ yanqui|||
 apelación|||nf
 trío|||nm
 resentimiento|||nm
-canasta|||nf
+canasta|||nf;nf
 bollo|||nm
 concentrarme||concentrar|
 encárgate||encargar|
@@ -5625,7 +5646,7 @@ prometedor|||
 tos|||nf
 dondequiera|||
 tazón|||nm
-corteza|||nf
+corteza|||nf;nf;nf
 transmisor|||nm
 propaganda|||nf
 infernal|||
@@ -5791,7 +5812,6 @@ concebir|||
 cuidarte||cuidar|
 martini|||nm
 recompensar|||
-hombrecito|||nm
 molestarme||molestar|
 resolución|||nf
 tornillo|||nm
@@ -5894,6 +5914,7 @@ compositor|||nm
 calefacción|||nf
 diligencia|||nf
 mostaza|||nf
+osito||oso|nm
 cómic|||nm
 capitana||capitán|
 deslizar|||
@@ -6084,7 +6105,7 @@ record||récord|nm
 agresor|||nm
 dispararme||disparar|
 frecuente|||
-pabellón|||nm
+pabellón|||nm;nm
 lima|||nf
 abdomen|||nm
 afirmativo|||
@@ -6094,6 +6115,7 @@ tómala||tomar|
 zoo|||nm
 banca|||nf
 échale||echar|
+nino||niño|nm
 grifo|||nm
 tacaño|||
 creíble|||
@@ -6149,7 +6171,7 @@ quejarte||quejar|
 alejarte||alejar|
 canciller|||nm
 corro||correr|
-llanta|||nf
+llanta|||nf;nf
 puntuación|||nf
 buenísimo|||
 quiza||quizá|
@@ -6219,6 +6241,7 @@ raptar|||
 moción|||nf
 milicia|||nf
 rosado|||
+conejito|||nm
 reliquia|||nf
 aléjese||alejar|
 vainilla|||nf
@@ -6420,6 +6443,7 @@ vestirme||vestir|
 aportar|||
 magistrado|||nm
 secta|||nf
+gatita||gato|nf
 irritante|||
 jugoso|||
 violeta|||
@@ -6569,22 +6593,6 @@ rosquilla|||nf
 sastre|||nm
 viola||violar|
 créanme||creer|
-dote|||nf
-estima|||nf
-relajarme||relajar|
-reposo|||nm
-satisfactorio|||
-serial|||nm
-codicia|||nf
-mudarte||mudar|
-adecuadamente|||adv
-cargador|||nm
-racial|||
-rehusar|||
-remar|||
-chuleta|||nf
-rígido|||
-coleccionista|||nmf
 monetario|||
 climático|||
 exclamar|5||
@@ -6682,7 +6690,7 @@ divisa|||nf
 autónomo|||
 incertidumbre|||nf
 minoría|||nf
-acreedor|5||nm
+acreedor|||nm
 energética||energético|
 situado||situar|
 desempeño|||nm
@@ -6700,9 +6708,9 @@ multilateral|5||
 proporción|||nf
 cuadrada||cuadrado|
 presupuestario|5||
-neurona|5||nf
+neurona|||nf
 chileno|||
-parámetro|5||nm
+parámetro|||nm
 bilateral|||
 electrón|||nm
 superávit|5||nm
@@ -6763,7 +6771,7 @@ instancia|||nf
 albergar|||
 arqueológico|||
 alano|5||nm
-sigla|5||nf
+sigla|||nf
 cuenca|||nf
 militante|||nmf
 autoritario|||
@@ -6965,12 +6973,12 @@ exclusivamente|||
 guionista|||nmf
 nominal|||
 surgimiento|||nm
-decena|5||nf
+decena|||nf;nf
 aventurero|||nm
 ampliamente|||
 sistémico|5||
 cápita|5||nf
-manifestante|5||nmf
+manifestante|||nmf
 capacitación|||nf
 redacción|||nf
 susurro|||nm
@@ -7081,7 +7089,7 @@ audiovisual|5||
 barroco|5||
 flexibilidad|||nf
 discapacidad|||nf
-opositor|5||nm
+opositor|||nm
 proteccionismo|5||nm
 marginal|||
 recolectar|||
@@ -7140,7 +7148,7 @@ antología|5||nf
 incierto|||
 sociología|||nf
 descontento|||nm;adj
-aldeano|5||nm
+aldeano|||nm
 catedrático|||nm
 gentilhombre|5||nm
 preferencia|||nf
@@ -7186,7 +7194,7 @@ coherente|||
 autismo|||nm
 correlación|||nf
 doctrina|||nf
-hostelero|5||nm
+hostelero|5||nm;adj
 húngaro|||
 proveniente|||
 subrayar|5||
@@ -7201,7 +7209,7 @@ geometría|||nf
 multimedia|5||
 ciclista|||nmf;adj
 diagrama|||nm
-deudor|5||nm;adj
+deudor|||nm;adj
 exigencia|||nf
 ciudadanía|||nf
 escaño|||nm
@@ -7212,7 +7220,7 @@ grabador|||nm
 licenciatura|||nf
 mención|||nf
 narrar|5||
-prestación|5||nf
+prestación|||nf
 contagio|||nm
 transfronterizo|5||
 apelar|||
@@ -7401,7 +7409,7 @@ náufrago|||nm
 plática|||nf
 vivamente|5||
 asturiano|5||
-hectárea|5||nf
+hectárea|||nf
 influyente|||
 solista|||nmf
 asno|||nm
@@ -7419,7 +7427,7 @@ denso|||
 diámetro|||nm
 microscopio|||nm
 nominación|||nf
-nutriente|5||nm
+nutriente|||nm
 relieve|||nm
 arrugar|||
 carcajada|||nf
@@ -7439,7 +7447,7 @@ apresuradamente|||
 azote|||nm
 biodiversidad|5||nf
 estocada|||nf
-sollozo|5||nm
+sollozo|||nm
 factible|||
 fusilar|||
 mentalidad|||nf
@@ -7523,7 +7531,7 @@ superpotencia|5||nf
 tardío|||
 bursátil|5||
 contención|||nf
-dividendo|5||nm
+dividendo|||nm
 recorte|||nm
 butaca|||nf
 disimular|||
@@ -7657,7 +7665,7 @@ mármol|||nm
 paréntesis|||nm
 directiva|||nf
 eludir|||
-guerrillero|5||nm
+guerrillero|||nm
 mueca|||nf
 quinientos|||
 televisivo|||
@@ -7681,7 +7689,7 @@ doctoral|5||
 ejecutiva|||nf
 gótico|||
 normando|5||
-peseta|5||nf
+peseta|||nf
 poblado|||nm;adj
 reinar|||
 resaltar|||
@@ -7700,7 +7708,7 @@ llevada||llevar|
 predecible|||
 embalse|||nm
 sexualidad|||nf
-telecomunicación|5||nf
+telecomunicación|||nf
 desventaja|||nf
 erradicar|||
 sabueso|||nm
@@ -7733,7 +7741,7 @@ recaudación|||nf
 sureste|||nm
 virrey|||nm
 andino|5||
-dígito|5||nm
+dígito|||nm
 factorial|||nm
 funcional|||
 libertario|5||
@@ -7745,7 +7753,7 @@ frialdad|||nf
 jadear|||
 radicar|5||
 rector|||nm;adj
-caloría|5||nf
+caloría|||nf
 caricatura|||nf
 infeccioso|||
 sensorial|||
@@ -7791,7 +7799,7 @@ evocar|||
 macizo|||nm;adj
 obesidad|||nf
 fotográfico|||
-legislador|5||nm
+legislador|||nm
 licenciar|5||
 paterno|||
 amnistía|||nf
@@ -7806,7 +7814,7 @@ inconscientemente|||
 involuntariamente|||
 ogro|||nm
 polarización|5||nf
-tiniebla|5||nf
+tiniebla|||nf
 trance|||nm
 transcurso|||nm
 aceleración|||nf
@@ -7834,7 +7842,7 @@ caudal|5||nm
 consecución|5||nf
 desestabilizar|5||
 distorsión|||nf
-elector|5||nm
+elector|||nm
 inflexión|||nf
 planetario|||adj;nm
 pre|||
@@ -7842,7 +7850,7 @@ prólogo|||nm
 vegetación|||nf
 almacenamiento|||nm
 centenar|||nm
-cimiento|5||nm
+cimiento|||nm
 ratificar|5||
 agrario|5||
 aventurar|5||
@@ -8136,7 +8144,7 @@ democratización|5||nf
 desmantelar|||
 enérgico|||
 exceder|||
-fundamentalista|5||nmf
+fundamentalista|||nmf
 hallazgo|||nm
 inherente|||
 normalización|5||nf
@@ -8328,9 +8336,9 @@ remuneración|||nf
 tau|||nf
 colono|||nmf
 consecutivo|||
-contaminante|5||nm
+contaminante|||nm
 deliberar|||
-electrodo|5||nm
+electrodo|||nm
 eurobono|5||nm
 hambruna|||nf
 jefatura|||nf
@@ -8433,7 +8441,7 @@ apremiante|||
 arbitrario|||
 carril|||nm
 casamentero|5||nm
-cofre|||nm
+cofre|||nm;nm
 colisión|||nf
 desfase|5||nm
 drones|||nm
@@ -8460,14 +8468,14 @@ mayoritariamente|5||
 patrocinar|||
 retroalimentación|||nf
 vertiente|5||nf
-vítor|5||nm
+vítor|||nm
 asimétrico|5||
 invocar|||
 predominar|5||
 simétrico|5||
 turbulencia|||nf
 amarrar|||
-bujía|5||nf
+bujía|||nf
 compasivo|||
 debacle|||nf
 deforestación|5||nf
@@ -8486,7 +8494,7 @@ prodigioso|||
 profesar|5||
 píxel|5||nm
 sollozar|||
-tentáculo|5||nm
+tentáculo|||nm
 timidez|||nf
 acuático|||
 alegar|||
@@ -8516,7 +8524,7 @@ alojar|||
 antiguamente|||
 bélico|5||
 diván|||nm
-estrago|5||nm
+estrago|||nm
 honorífico|5||
 incidencia|5||nf
 inmueble|||nm
@@ -8885,7 +8893,7 @@ cualificar|||
 firmeza|||nf
 icono|||nm
 importador|5||nmf
-insurgente|5||nmf
+insurgente|||nmf
 mail|||nm
 peligrosamente|||
 renombrado|||
@@ -8901,7 +8909,7 @@ controvertir|||
 coronación|||nf
 emperatriz|||nf
 finito|||
-fotón|5||nm
+fotón|||nm
 goleta|||nf
 incompatible|5||
 insulina|||nf
@@ -8949,7 +8957,7 @@ reactivar|||
 sake|||nm
 sucumbir|||
 supremacía|||nf
-abate|||nm
+abate|||nm;v;v
 ansia|||nf
 benigno|||
 brusco|||
@@ -8983,7 +8991,7 @@ sencillez|||nf
 temible|||
 topónimo|5||nm
 tranvía|||nm
-utensilio|5||nm
+utensilio|||nm
 arduo|||
 aversión|||nf
 azulejo|||nm
@@ -8995,7 +9003,7 @@ insolvente|5||
 lésbico|||
 origami|||nm
 oxitocina|5||nf
-pintada|||nf
+pintada|||adj;nf
 poético|||
 póker|||nm
 replicar|||
@@ -9027,9 +9035,9 @@ arremeter|5||
 byte|5||nm
 comercializar|5||
 contiguo|||
-despojo|5||nm
+despojo|||nm
 examinando||examinar|
-grada|5||nf
+grada|||nf
 levita|5||nf
 liberalizar|5||
 lomo|||nm
@@ -9111,7 +9119,7 @@ neutralidad|||nf
 nocivo|5||
 operando|||v;nm
 platicar|||
-puntilla|5||nf
+puntilla|||nf
 recodo|5||nm
 relatividad|||nf
 remontar|||
@@ -9176,7 +9184,7 @@ arribar|5||
 autobiografía|||nf
 bajel|5||nm
 barbero|||nm
-boliche|||nm
+boliche|||nm;nm
 celada|5||nf
 consola|||nf
 cripta|||nf
@@ -9185,7 +9193,7 @@ cómodamente|||
 decidme||decir|
 digitalización|5||nf
 encallar|5||
-escama|5||nf
+escama|||nf
 espesor|||nm
 extrañamente|||
 formulador|5||nm
@@ -9200,7 +9208,7 @@ palco|||nm
 pardiez|5||interj
 pedagogo|5||nmf
 porcelana|||nf
-párpado|5||nm
+párpado|||nm
 recomendado|||
 regencia|5||nf
 severidad|||nf
@@ -9234,7 +9242,7 @@ millar|||nm
 necrópolis|5||nf
 nostalgia|||nf
 opresión|||nf
-ordenada|||nf
+ordenada|||adj;adj;nf
 peatón|||nm
 permanentemente|||
 prefacio|5||nm
@@ -9411,7 +9419,7 @@ vestimenta|||nf
 vigorosamente|5||
 yihad|||nf
 anhelo|||nm
-anticuerpo|5||nm
+anticuerpo|||nm
 arista|5||nf
 ascensión|||nf
 canónigo|5||nm
@@ -9479,7 +9487,7 @@ emm|||interj
 encogiéndose|5|encoger|
 escarlata|||
 estremecimiento|5||nm
-estribo|5||nm
+estribo|||nm
 geógrafo|5||nm
 hipocampo|5||nm
 historieta|||nf
@@ -9488,7 +9496,7 @@ imponente|||
 inaccesible|||
 incrustar|||
 inmensamente|||
-ion|5||nm
+ion|||nm
 ladear|5||
 magnate|||nmf
 obediente|||
@@ -9566,7 +9574,7 @@ acuarela|5||nf
 aeródromo|||nm
 aleta|||nf
 alforja|5||nf
-aminoácido|5||nm
+aminoácido|||nm
 antecámara|5||nf
 antisemita|||
 astro|||nm
@@ -9598,7 +9606,7 @@ paradójicamente|5||
 pender|5||
 perdición|||nf
 pique|||nm
-podre|||nf
+podre|||v;nf
 polémico|||
 pupila|||nf
 raso|||nm
@@ -9685,7 +9693,7 @@ circundante|||
 deponer|5||
 diantre|5||interj
 dorso|||nm
-espuela|5||nf
+espuela|||nf
 estática|||nf
 expresivo|5||
 extraviar|||
@@ -9729,7 +9737,7 @@ malla|||nf
 mecenas|||nmf
 migrar|5||
 máter|5||nf
-neutrón|5||nm
+neutrón|||nm
 obediencia|||nf
 papal|||
 polímero|||nm
@@ -9752,7 +9760,7 @@ contorno|||nm
 copyright|5||nm
 depreciar|5||
 descontrolar|||
-directriz|5||nf
+directriz|||nf
 ecuestre|5||
 equipamiento|||nm
 evadir|||
@@ -9779,7 +9787,7 @@ vetar|5||
 achicar|5||
 acortar|||
 amplificar|5||
-amígdala|5||nf
+amígdala|||nf
 anverso|5||nm
 artificio|||nm
 aspereza|5||nf
@@ -9855,7 +9863,7 @@ especialización|||nf
 firmante|5||nmf
 flector|5||
 frontón|5||nm
-glóbulo|5||nm
+glóbulo|||nm
 harén|||nm
 incesante|||
 incidir|5||
@@ -9868,7 +9876,7 @@ místico|||
 nanopartícula|5||nf
 ocio|||nm
 perturbador|||
-poblador|5||nm
+poblador|||nm
 silenciar|||
 sintaxis|5||nf
 transversal|||
@@ -9938,7 +9946,7 @@ olfato|||nm
 ondular|5||
 optimización|5||nf
 ovario|||nm
-patilla|5||nf
+patilla|||nf
 peldaño|||nm
 penicilina|||nf
 peregrinación|||nf
@@ -9975,7 +9983,7 @@ intolerancia|||nf
 lírico|5||
 machacar|||
 manufacturar|5||
-mariquita|||nf
+mariquita|||nf;nf
 mercader|||nm
 mestizo|||
 mirador|||nm
@@ -10141,7 +10149,7 @@ intrigar|||
 lingüista|5||nmf
 neoliberalismo|5||nm
 nutrir|5||
-penuria|5||nf
+penuria|||nf
 polución|||nf
 predominantemente|5||
 saldar|||
@@ -10165,7 +10173,7 @@ empeoramiento|5||nm
 enjambre|||nm
 enmendar|||
 escaneo|||nm
-especificación|5||nf
+especificación|||nf
 expiatorio|||
 falacia|5||nf
 feudal|||
@@ -10178,7 +10186,7 @@ incomodidad|||nf
 incorporarse|5|incorporar|
 inflamación|||nf
 inflexible|||
-inmediación|5||nf
+inmediación|||nf
 laureado|5||
 leonés|5||
 mecha|||nf
@@ -10223,7 +10231,7 @@ deslumbrar|5||
 desproveer|5||
 encomendar|||
 envergadura|||nf
-escrúpulo|5||nm
+escrúpulo|||nm
 estratégicamente|||
 forro|||nm
 gaita|||nf
@@ -10307,13 +10315,13 @@ superponer|5||
 unilateralismo|5||nm
 unánime|||
 valija|||nf
-vatio|5||nm
+vatio|||nm
 ventajoso|||
 yugoslavo|5||
 adaptable|5||
 alférez|||nm
 andén|||nm
-antidepresivo|5||nm
+antidepresivo|||nm
 apilar|||
 barcelonés|5||
 beneplácito|5||nm
@@ -10361,7 +10369,7 @@ purga|||nf
 radicalismo|5||nm
 rebote|||nm
 recobrar|||
-rublo|5||nm
+rublo|||nm
 súbito|||
 temático|||
 unanimidad|||nf
@@ -10382,7 +10390,7 @@ brida|5||nf
 brújula|||nf
 cabaret|||nm
 cachalote|5||nm
-canapé|5||nm
+canapé|||nm
 capitel|5||nm
 casaca|||nf
 cautivar|||
@@ -10632,7 +10640,7 @@ recibidor|||nm
 reclame||reclamar|
 responsabilizar|5||
 risita|||nf
-sandez|5||nf
+sandez|||nf
 segregación|||nf
 sentenciar|||
 sinagoga|||nf
@@ -10827,7 +10835,7 @@ cuantificar|5||
 cáliz|||nm
 descriptivo|5||
 desobedecer|||
-emigrante|5||nmf
+emigrante|||nmf
 emparentar|||
 enchufar|||
 estadísticamente|||
@@ -10858,7 +10866,7 @@ surrealista|||
 telómero|5||nm
 termita|||nf
 turbina|||nf
-tópico|||nm
+tópico|||nm;adj;nm
 túnica|||nf
 urbanístico|5||
 acueducto|||nm
@@ -11026,7 +11034,7 @@ sobrenombre|||nm
 telecentros|5||nm
 trasbordador|||nm
 vejez|||nf
-voltio|5||nm
+voltio|||nm
 éxodo|||nm
 absorción|||nf
 desbaratar|5||
@@ -11041,7 +11049,7 @@ podio|||nm
 psicoanalítico|5||
 regar|||
 rezagada|5||
-ría|||nf
+ría|||v;v;nf
 sopesar|||
 terminación|||nf
 vidriera|||nf
@@ -11057,7 +11065,7 @@ apego|||nm
 arcón|||nm
 astucia|||nf
 aviar|||
-barrote|5||nm
+barrote|||nm
 batán|5||nm
 biosfera|5||nf
 bipolar|||
@@ -11421,7 +11429,7 @@ cancerígeno|5||
 canela|||nf
 carabina|||nf
 coexistencia|5||nf
-colonizador|5||nm
+colonizador|||nm
 cordial|||
 cricket|||nm
 cuestionario|||nm
@@ -11430,7 +11438,7 @@ democratizar|5||
 deparar|5||
 desdeñoso|5||
 desgarrar|||
-designio|5||nm
+designio|||nm
 deslumbrante|||
 detestable|||
 enredo|||nm
@@ -11446,7 +11454,7 @@ fulminar|5||
 gaveta|||nf
 gotear|||
 gravamen|5||nm
-hinchada|||nf
+hinchada|||nf;adj
 humildemente|||
 infringir|||
 injuria|5||nf
@@ -11468,7 +11476,7 @@ ochocientas|5|ochocientos|
 ondulación|5||nf
 opcional|||
 paramilitar|5||
-pegada|||nf
+pegada|||adj;nf
 penetración|||nf
 pesquisa|5||nf
 poscomunistas|5||
@@ -11673,7 +11681,7 @@ lastimero|5||
 librado||librar|
 litera|||nf
 machista|||
-malhechor|5||nm
+malhechor|||nm
 memorable|||
 microorganismo|5||nm
 mundano|||
@@ -11697,7 +11705,7 @@ rapto|||nm
 receso|||nm
 recreativo|||
 recreo|||nm
-recámara|||nf
+recámara|||nf;nf
 reiniciar|||
 repisa|||nf
 resoplar|5||
@@ -11882,7 +11890,7 @@ obsesivo|||
 ortogonal|5||
 paludismo|5||nm
 paralelismo|5||nm
-pasiva|||nf
+pasiva|||adj;nf
 patinaje|||nm
 pesquero|||
 plantel|5||nm
@@ -11917,7 +11925,7 @@ atribuible|5||
 bache|||nm
 caldero|||nm
 caníbal|||nmf
-carbohidrato|5||nm
+carbohidrato|||nm
 cazarrecompensas|||nmf
 colaborativa|5|colaborativo|
 conglomerado|||nm
@@ -11966,7 +11974,7 @@ lupa|||nf
 maltrato|||nm
 maqui|5||nmf
 muflón|5||nm
-naipe|5||nm
+naipe|||nm
 nasal|||
 ninjas||ninja|nmf
 nomas|||
@@ -11983,7 +11991,7 @@ pera|||nf
 perdonadme||perdonar|
 pereza|||nf
 perilla|||nf
-perseguidor|5||nm
+perseguidor|||nm
 persistentemente|5||
 polinizador|5||nm
 poseído||poseer|
@@ -12124,7 +12132,7 @@ naveta|5||nf
 opresivo|5||
 ordenamiento|5||nm
 papiro|5||nm
-partisano|5||nm
+partisano|||nm
 pilastra|5||nf
 presuntamente|||
 publicitar|5||
@@ -12158,7 +12166,7 @@ auspicio|5||nm
 azufre|||nm
 batear|||
 birmano|5||
-braza|5||nf
+braza|||nf
 cauto|||
 cebra|||nf
 centralización|5||nf
@@ -12254,7 +12262,7 @@ reticente|||
 retumbar|5||
 revisionista|5||
 romá|5||nmf
-ruda|||nf
+ruda|||adj;nf
 rudimentario|||
 sacra|5||
 secuenciación|5||nf
@@ -12277,7 +12285,7 @@ vals|||nm
 valuación|5||nf
 vertebral|||
 victoriano|||
-villancico|5||nm
+villancico|||nm
 vivacidad|5||nf
 ícono|||nm
 acérquese||acercar|
@@ -12287,7 +12295,7 @@ arbolar|5||
 archivero|5||nm
 atasco|||nm
 augurio|||nm
-baya|5||nf
+baya|||nf
 bulevar|||nm
 camisón|||nm
 capear|5||
@@ -12297,13 +12305,13 @@ cloaca|||nf
 cochino|||nm
 codirigir|5||
 concitar|5||
-conciudadano|5||nm
+conciudadano|||nm
 conexo|5||
 criptografía|5||nf
 cuadrangular|5||
 culinario|||
 cuénteme||contar|
-cántico|5||nm
+cántico|||nm
 decodificar|||v
 demandante|||nmf
 desamparado|||
@@ -12358,7 +12366,7 @@ refinanciación|5||nf
 remarcar|5||v
 remodelar|||
 rociar|||
-rodada|5||nf
+rodada|5||adj;nf
 romanización|5||nf
 rótula|||nf
 sabotaje|||nm
@@ -12436,7 +12444,6 @@ caprichosamente|5||
 cataclismo|||nm
 cenit|5||nm
 chasquido|||nm
-conejito|||nm
 conformación|5||nf
 consistentemente|5||
 contemplación|||nf
@@ -12456,7 +12463,7 @@ descomunal|||
 desengañar|5||
 despreocupado|5||
 destinatario|||nm
-didáctica|5||nf
+didáctica|5||nf;adj
 dolorosamente|||
 déle||dar|
 díganle||decir|
@@ -12731,7 +12738,7 @@ antebrazo|||nm
 anticipación|||nf
 aporrear|5||
 apropiación|||nf
-arcada|5||nf
+arcada|||nf
 arenisca|5||nf
 armonioso|5||
 asentimiento|5||nm
@@ -12855,7 +12862,7 @@ paliativo|5||nm
 palmear|5||
 parisiense|5||nmf
 pelvis|||nf
-pincelada|5||nf
+pincelada|||nf
 pliego|5||nm
 plumaje|||nm
 popó|||nm
@@ -12918,7 +12925,7 @@ impulsivo|||adj
 incumbir|5||
 instauración|5||nf
 instigar|5||v
-jeroglífico|5||nm
+jeroglífico|||nm
 júnior|||nmf
 loable|||adj
 lumínico|5||adj
@@ -13055,7 +13062,7 @@ atrayente|||
 atípico|5||
 autosuficiente|||
 avellana|||nf
-averiguación|5||nf
+averiguación|||nf
 ayudadme||ayudar|
 bergantín|5||nm
 bogar|5||
@@ -13095,7 +13102,7 @@ efímero|||
 encarecidamente|||
 enjugar|5||
 entreabierta|5||
-espora|5||nf
+espora|||nf
 estúpidamente|||
 fallida|5|fallido|
 familiaridad|||nf
@@ -13318,7 +13325,7 @@ afrentar|5||
 agujerear|5||
 alféizar|5||nm
 almohadilla|||nf
-altibajo|5||nm
+altibajo|||nm
 amorosamente|5||
 anteponer|5||
 antígeno|5||nm
@@ -13383,7 +13390,7 @@ equitativamente|5||
 errante|||
 esgrimir|5||
 espasmo|||nm
-espermatozoide|5||nm
+espermatozoide|||nm
 esquivo|5||
 estribillo|||nm
 exorcismo|||nm
@@ -13394,7 +13401,6 @@ fecundo|5||
 feromonas|||nf
 fervor|||nm
 fiero|||
-gatita||gato|nf
 genetista|5||nmf
 halago|||nm
 hangar|||nm
@@ -13432,7 +13438,7 @@ míster|||nm
 nata|||nf
 nerviosamente|5||
 nitroglicerina|||nf
-nudillo|5||nm
+nudillo|||nm
 oblicuamente|5||
 orgía|||nf
 oída|5||nf
@@ -13448,13 +13454,13 @@ postrar|5||
 practicamente||prácticamente|adv
 presencial|5||
 pretor|5||nm
-preámbulo|5||nm
+preámbulo|||nm
 pronombre|5||nm
 prospecto|||nm
 psicosis|||nf
 purgar|||
 racionalizar|5||
-ramificación|5||nf
+ramificación|||nf
 rapida||rápido|adj
 rasa|5|raso|
 rastrillo|||nm
@@ -13731,7 +13737,7 @@ faena|||nf
 faldón|5||nm
 fango|||nm
 flequillo|||nm
-follón|||nm
+follón|||nm;nm
 forcejear|5||
 fundido||fundir|
 garage||garaje|nm
@@ -13775,7 +13781,6 @@ misticismo|||nm
 mucosa|||nf
 negatividad|||nf
 neoyorquino|||nm
-nino||niño|nm
 nublado||nublar|
 nítido|5||
 ovillo|5||nm
@@ -13891,8 +13896,8 @@ motora||motor|
 motriz|5||
 neblina|||nf
 nerds||nerd|nmf
-neutrino|5||nm
-norteño|5||nm
+neutrino|||nm
+norteño|||nm
 notificación|||nf
 ocurrencia|||nf
 offshore|5||
@@ -13946,7 +13951,7 @@ atemorizar|5||
 atenerse|||
 auspiciar|5||
 babear|||
-baldosa|5||nf
+baldosa|||nf
 bastarda||bastardo|
 bowling|||nm
 cerezo|||nm
@@ -13970,7 +13975,7 @@ exilar|5||
 extrapolar|5||
 fenotipo|5||nm
 filtrado||filtrar|nm
-flexión|5||nf
+flexión|||nf
 frenesí|||nm
 gramatical|5||
 guardarropa|||nm
@@ -14040,7 +14045,7 @@ berrinche|||nm
 blancuzco|5||
 bocanada|||nf
 brebaje|||nm
-buceador|5||nm
+buceador|||nm
 camboyano|5||nm
 carretilla|||nf
 carrizal|5||nm
@@ -14064,10 +14069,10 @@ coqueto|5||
 cordialmente|||
 corredera|5||nf
 cosmología|||nf
-cosmético|5||nm
+cosmético|||nm
 culminación|||nf
 cultivador|5||nm
-cántaro|5||nm
+cántaro|||nm
 deflector|||nm
 desaliento|5||nm
 desaprobar|5||
@@ -14135,7 +14140,7 @@ jorobado|||nm
 lanzador|||nm
 lastimosamente|5||
 linfático|5||
-lingote|5||nm
+lingote|||nm
 lluvioso|||
 lustroso|5||
 magnetismo|||nm
@@ -14159,10 +14164,10 @@ míralos||mirar|
 narcotraficante|||nmf
 naviero|5||nm
 neurocirujano|||nm
-nódulo|5||nm
+nódulo|||nm
 obsequiar|5||
 ociosidad|5||nf
-ojito|5|ojo|nm
+ojito||ojo|nm
 olvídense||olvidar|
 oportunamente|5||
 pasividad|5||nf
@@ -14179,7 +14184,7 @@ psique|||nf
 pudiente|5||
 puntualmente|||
 póster|||nm
-quehacer|5||nm
+quehacer|||nm
 radiólogo|5||nm
 rapar|5||
 ratonera|||nf
@@ -14287,7 +14292,7 @@ hipo|||nm
 hobby|||nm
 imaginaria||imaginario|
 imparcialidad|||nf
-inconsistencia|5||nf
+inconsistencia|||nf
 inconstitucional|5||
 inservible|||
 intentémoslo||intentar|
@@ -14302,7 +14307,7 @@ longevo|5||
 mandarín|||nm
 manten||mantener|
 manualmente|||
-mejillón|5||nm
+mejillón|||nm
 metrópolis|||nf
 moco|||nm
 monotonía|||nf
@@ -14612,7 +14617,7 @@ futurista|||adj
 gabardina|||nf
 gatear|||
 gesticular|5||
-glúteo|5||nm
+glúteo|||nm
 gozoso|5||
 gradar|5||v
 guerrera||guerrero|nf
@@ -14633,7 +14638,7 @@ instrumentación|5||nf
 introspección|5||nf
 irascible|||
 irreparable|||
-isótopo|5||nm
+isótopo|||nm
 juguetón|||
 lakota|5||nmf
 lame||lamer|
@@ -14645,9 +14650,9 @@ macabro|||
 maldicion||maldición|nf
 malditamente|||
 mambo|||nm
-manteca|||nf
+manteca|||nf;nf
 matador|||nm
-migaja|5||nf
+migaja|||nf
 mimbre|||nm
 miramiento|5||nm
 misericordioso|||
@@ -14826,7 +14831,7 @@ talego|5||nm
 telemedicina|5||nf
 teorizar|5||v
 terapéutica|||nf
-terma|5||nf
+terma|||nf
 termo|||nm
 transpirar|5||v
 triunvirato|5||nm
@@ -14875,7 +14880,7 @@ descongelar|||v
 desertor|||nm
 diabético|||nm
 diafragma|||nm
-dignatario|5||nm
+dignatario|||nm
 durmiente|||
 electricista|||nmf
 elegía|||nf
@@ -14883,7 +14888,7 @@ embalaje|||nm
 empece||empezar|
 equitación|||nf
 escurridizo|||adj
-espárrago|5||nm
+espárrago|||nm
 estigmatizar|5||v
 falsificador|||nm
 fantastico||fantástico|adj
@@ -14945,7 +14950,7 @@ subyacen|5||
 surfista|||nmf
 swing|||nm
 trailer||tráiler|nm
-transgresión|5||nf
+transgresión|||nf
 tuiteó|5||
 turbera|5||nf
 tweet|||nm
@@ -14974,7 +14979,7 @@ anejo|5||adj
 antesala|5||nf
 anticipo|||nm
 antifaz|5||nm
-anunciante|5||nmf
+anunciante|||nmf
 apegada|||
 apiñar|5||v
 aplomo|5||nm
@@ -15044,7 +15049,7 @@ díjome|5|decir|
 ebullición|||nf
 echada||echar|
 efusión|5||nf
-electrodoméstico|5||nm
+electrodoméstico|||nm
 embriagar|5||
 empatizar|5||v
 encolerizar|5||
@@ -15087,7 +15092,7 @@ inconfundible|||
 indisposición|5||nf
 ineptitud|5||nf
 inhabitable|||
-inhibición|5||nf
+inhibición|||nf
 inmovilizar|5||v
 insensatez|||nf
 insignificancia|5||nf
@@ -15133,7 +15138,7 @@ orfebre|5||nmf
 palabrería|||nf
 palangana|5||nf
 paleontólogo|5||nm
-pantufla|5||nf
+pantufla|||nf
 pedante|||adj
 pelliza|5||nf
 pepinillo|||nm
@@ -15153,7 +15158,7 @@ propagandístico|5||adj
 provinciano|||
 punzada|||nf
 péptido|5||nm
-rastra|5||nf
+rastra|||nf
 rebosante|||
 recibimiento|||nm
 recomponer|||v
@@ -15247,7 +15252,7 @@ conexion||conexión|nf
 constreñir|5||v
 convergente|5||adj
 cornudo|||nm
-cortafuego|5||nm
+cortafuego|||nm
 cosmovisión|5||nf
 cuartil|5||nm
 curvo|5||adj
@@ -15316,7 +15321,7 @@ preconcebidas|5||adj
 preservativo|||nm
 pretencioso|||adj
 provisorio|5||adj
-pulsación|5||nf
+pulsación|||nf
 rancio|||adj
 recapitular|5||v
 rectilíneo|5||adj
@@ -15396,7 +15401,7 @@ estribación|5||nf
 eufemismo|||nm
 factorización|5||nf
 favorablemente|5||adv
-fechoría|5||nf
+fechoría|||nf
 fobia|||nf
 hazla||hacer|
 herpes|||nm
@@ -15409,7 +15414,7 @@ inactividad|||nf
 incondicionalmente|||adv
 indulgencia|||nf
 interestatal|||adj
-isleño|5||nm
+isleño|||nm
 jarabe|||nm
 jubilarse|||v
 judio||judío|nm
@@ -15476,7 +15481,7 @@ apolítico|5||adj
 aprensión|5||nf
 arriar|5||v
 arrinconar|5||v
-ascua|5||nf
+ascua|||nf
 aseo|||nm
 axila|||nf
 azucar||azúcar|nm
@@ -15607,7 +15612,7 @@ multicelular|5||adj
 multijugador|5||adj
 netamente|5||adv
 neurología|||nf
-novillo|5||nm
+novillo|||nm
 nótese|5|notar|
 obstinadamente|5||adv
 oxidación|5||nf
@@ -15618,7 +15623,7 @@ pastelillo|||nm
 paternal|||adj
 pepita|||nf
 percibo||percibir|
-perdigón|5||nm
+perdigón|||nm
 perno|||nm
 perspicacia|||nf
 pistón|||nm
@@ -15747,7 +15752,7 @@ iónico|5||adj
 kilometros||kilómetro|nm
 levántame||levantar|v
 llamémosla|5|llamar|v
-lugareño|5||nm
+lugareño|||nm
 lúcido|||adj
 maderero|5||adj
 malva|5||nf
@@ -15866,7 +15871,7 @@ rótulo|5||nm
 sedar|||v
 sprint|||nm
 timo|||nm
-tribulación|5||nf
+tribulación|||nf
 tributar|5||v
 trio||trío|nm
 vacuno|5||adj
@@ -15975,7 +15980,7 @@ empotrar|5||v
 ensordecedor|||adj
 epidémico|5||adj
 epítome|5||nm
-esbirro|5||nm
+esbirro|||nm
 esquiador|5||nm
 estera|5||nf
 estrepitoso|5||adj
@@ -16002,7 +16007,7 @@ gravitación|5||nf
 graznido|5||nm
 guisado|||nm
 gustosamente|||adv
-haba|5||nf
+haba|||nf
 hato|5||nm
 hexagonal|5||adj
 hexágono|5||nm
@@ -16060,10 +16065,9 @@ neurosis|||nf
 newtoniano|5||adj
 nutria|||nf
 oloroso|||adj
-opiáceo|5||nm
+opiáceo|||nm
 opresor|||nm
 orgullosamente|||adv
-osito||oso|nm
 papilla|||nf
 parcialidad|5||nf
 pastelero|||nm
@@ -16160,7 +16164,7 @@ calificativo|5||nm
 californiano|5||adj
 casete|||nm
 castidad|||nf
-catacumba|5||nf
+catacumba|||nf
 cautivador|5||adj
 compatibilidad|||nf
 concéntrico|5||adj
@@ -16190,6 +16194,26 @@ ejercitar|||
 encubrir|||
 lente|||nmf
 privar|||
+subas||subir|
+quiebre||quebrar|
+pervertir|||
+descuidar|||
+dote|||nf
+estima|||nf
+relajarme||relajar|
+reposo|||nm
+satisfactorio|||
+serial|||nm
+codicia|||nf
+mudarte||mudar|
+adecuadamente|||adv
+cargador|||nm
+racial|||
+rehusar|||
+remar|||
+chuleta|||nf
+rígido|||
+coleccionista|||nmf
 sobremesa|5||nf
 mole|5||nm
 tomá|5|tomar|

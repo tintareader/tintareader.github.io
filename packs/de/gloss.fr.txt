@@ -299,7 +299,7 @@ moment|moment (der, pl. Momente); Moment!: un instant !|o;n
 ganze|entier, tout|o
 genug|assez|o
 fühlen|sentir, ressentir|v
-scheiße|merde (die, sans pl.); connerie|o;o
+scheiße|merde (vulg.) (die, sans pl.); connerie (vulg.)|o;o
 familie|famille (die, pl. Familien)|o
 gegen|contre; vers (heure)|o;o
 klein|petit|o
@@ -332,7 +332,7 @@ allein|seul|o
 beim|chez le, en (faisant) (bei+dem)|o
 weit|loin; large|o;o
 gefunden|trouvé|o
-lieben|aimer|v
+lieben|aimer; cher (forme de lieb)|v;o
 zeigen|montrer|v
 hilfe|aide (die, pl. Hilfen); Hilfe!: au secours !|o;n
 ne|non; hein ? (fam.); un, une (fam.)|o;o;o
@@ -391,7 +391,7 @@ idee|idée (die, pl. Ideen)|o
 bereit|prêt|o
 verschwinden|disparaître (verschwand, verschwunden, ist); verschwinde!: dégage !|v;n
 waffe|arme (die, pl. Waffen)|o
-krieg|guerre (der, pl. Kriege)|o
+krieg|guerre (der, pl. Kriege); je reçois, j'obtiens (fam.)|o;f1s
 tod|mort (der, pl. Tode)|o
 schwester|sœur (die, pl. Schwestern); infirmière|o;o
 monat|mois (der, pl. Monate)|o
@@ -435,7 +435,7 @@ teufel|diable (der, pl. Teufel)|o
 verloren|perdu|o
 je|jamais (déjà); chacun, par; je … desto: plus … plus|o;o;n
 woher|d'où|o
-bestimmt|certainement, sûrement; certain, déterminé|o;o
+bestimmt|certainement, sûrement; certain, précis; déterminé (par), destiné (à)|o;o;o
 mama|maman|o
 wagen|voiture, chariot (der, pl. Wagen); oser|o;v
 gefallen|plaire (gefällt, gefiel, gefallen); service, faveur (der, pl. Gefallen); tombé|v;o;o
@@ -443,14 +443,14 @@ gefallen|plaire (gefällt, gefiel, gefallen); service, faveur (der, pl. Gefallen
 seite|côté (die, pl. Seiten); page|o;o
 verstanden|compris|o
 ruhe|calme, silence, repos (die, sans pl.); lass mich in Ruhe: laisse-moi tranquille|o;n
-schreiben|écrire (schrieb, geschrieben)|v
+schreiben|écrire (schrieb, geschrieben); lettre, écrit (das, pl. Schreiben)|v;o
 erzählt|raconté|o
 verlieren|perdre (verlor, verloren)|v
 stunden|heures (pl. de die Stunde)|o
 tragen|porter (vêtement) (trägt, trug, getragen); porter, transporter|v;v
 oben|en haut; à l'étage|o;o
 gestern|hier|o
-lachen|rire|v
+lachen|rire; rire (nom) (das, sans pl.)|v;o
 art|sorte, genre (die, pl. Arten); façon, manière|o;o
 endlich|enfin|o
 he|hé|o
@@ -561,7 +561,7 @@ telefon|téléphone (das, pl. Telefone)|o
 arzt|médecin (der, pl. Ärzte)|o
 versprechen|promettre (verspricht, versprach, versprochen); promesse (das, pl. Versprechen)|v;o
 erfahren|apprendre, découvrir (erfährt, erfuhr, erfahren); expérimenté|v;o
-bitten|demander, prier (bat, gebeten)|v
+bitten|demander, prier (bat, gebeten); demandes, prières (pl. de die Bitte)|v;o
 ändern|changer, modifier|v
 wohin|où (direction)|o
 außer|sauf, à part|o
@@ -569,9 +569,9 @@ fliegen|voler, prendre l'avion (flog, geflogen, ist)|v
 zuerst|d'abord|o
 aufhören|arrêter, cesser|v
 wahrscheinlich|probablement|o
-arsch|cul (der, pl. Ärsche)|o
+arsch|cul (vulg.) (der, pl. Ärsche)|o
 aussehen|avoir l'air, paraître (sieht aus, sah aus, ausgesehen); apparence (das, sans pl.)|v;o
-gewinnen|gagner (gewann, gewonnen)|v
+gewinnen|gagner (gewann, gewonnen); obtenir, gagner en|v;v
 fehler|erreur, faute (der, pl. Fehler)|o
 beginnen|commencer (begann, begonnen)|v
 dollar|dollar (der, pl. Dollar)|o
@@ -604,7 +604,7 @@ leider|malheureusement|o
 umbringen|tuer (brachte um, umgebracht)|v
 foto|photo (das, pl. Fotos)|o
 million|million (die, pl. Millionen)|o
-scheiß|merde, de merde (fam.); putain de|o;o
+scheiß|merde, putain de (vulg.); foutu (vulg.)|o;o
 stück|morceau (das, pl. Stücke); pièce (de théâtre)|o;o
 hölle|enfer (die, sans pl.)|o
 doktor|docteur (der, pl. Doktoren)|o
@@ -685,7 +685,7 @@ zukunft|avenir (die, sans pl.)|o
 gefängnis|prison (das, pl. Gefängnisse)|o
 pferd|cheval (das, pl. Pferde)|o
 verletzt|blessé|o
-getroffen|rencontré; touché, atteint|o;o
+getroffen|rencontré; touché; pris (une décision, un accord)|o;o;o
 kraft|force (die, pl. Kräfte)|o
 drüben|là-bas, de l'autre côté|o
 verkaufen|vendre|v
@@ -705,7 +705,7 @@ agent|agent (der, pl. Agenten)|o
 bezahlen|payer|v
 passieren|arriver, se passer (ist)|v
 eher|plutôt; plus tôt|o;o
-ansehen|regarder; regarder (un film) (sieht an, sah an, angesehen)|v;v
+ansehen|regarder; visionner (sieht an, sah an, angesehen); réputation, considération (das, sans pl.)|v;v;o
 team|équipe (das, pl. Teams)|o
 drehen|tourner; tourner (un film)|v;v
 versuch|tentative, essai (der, pl. Versuche); expérience|o;o
@@ -844,7 +844,7 @@ benutzt|utilisé|o
 riechen|sentir (odeur) (roch, gerochen)|v
 weinen|pleurer|v
 geliebt|aimé; bien-aimé|o;o
-arschloch|connard, trou du cul (das, pl. Arschlöcher)|o
+arschloch|trou du cul, connard (vulg.) (das, pl. Arschlöcher)|o
 möglichkeit|possibilité, occasion (die, pl. Möglichkeiten)|o
 gerettet|sauvé|o
 rennen|courir (rannte, gerannt, ist); course (das, pl. Rennen)|v;o
@@ -884,7 +884,7 @@ spüren|sentir, ressentir|v
 preis|prix (der, pl. Preise); prix (récompense)|o;o
 bieten|offrir (bot, geboten)|v
 gesetz|loi (das, pl. Gesetze)|o
-klappe|halt die Klappe: ferme-la; clapet, couvercle (die, pl. Klappen)|n;o
+klappe|halt die Klappe: ferme-la (grossier); clapet, couvercle (die, pl. Klappen)|n;o
 herum|autour|o
 rolle|rôle (die, pl. Rollen); rouleau; keine Rolle spielen: ne pas avoir d'importance|o;o;n
 gleiche|même|o
@@ -909,7 +909,7 @@ reise|voyage (die, pl. Reisen)|o
 gewonnen|gagné|o
 wein|vin (der, pl. Weine)|o
 beruhigen|calmer; sich beruhigen: se calmer|v;n
-leiden|souffrir (litt, gelitten); nicht leiden können: ne pas supporter|v;n
+leiden|souffrir (litt, gelitten); nicht leiden können: ne pas supporter; souffrance (das, pl. Leiden); mal, maladie|v;n;o;o
 treten|donner un coup de pied; marcher, poser le pied (tritt, trat, getreten)|v;v
 irgendwann|un jour ou l'autre|o
 müde|fatigué|o
@@ -1021,7 +1021,7 @@ links|à gauche; liens (pl. de der Link)|o;o
 professor|professeur (d'université) (der, pl. Professoren)|o
 kennenlernen|faire la connaissance de, rencontrer|v
 verzeihen|pardonner (verzieh, verziehen)|v
-haut|peau (die, pl. Häute); frappe, cogne|o;o
+haut|peau (die, pl. Häute); il/elle frappe|o;f3s
 leise|doux, silencieux; doucement, à voix basse|o;o
 anruf|appel (téléphonique) (der, pl. Anrufe)|o
 selber|soi-même, moi-même, toi-même… (fam.)|o
@@ -1072,7 +1072,7 @@ fbi|FBI|o
 drink|verre, boisson (der, pl. Drinks)|o
 wand|mur (die, pl. Wände)|o
 gold|or (das, sans pl.)|o
-akte|dossier (die, pl. Akten)|o
+akte|dossier (die, pl. Akten); actes (pl. de der Akt)|o;o
 nachdenken|réfléchir (dachte nach, nachgedacht)|v
 stein|pierre (der, pl. Steine)|o
 springen|sauter (sprang, gesprungen, ist)|v
@@ -1129,7 +1129,7 @@ mädel|fille, gamine (das, pl. Mädels)|o
 rat|conseil (der, pl. Ratschläge); conseil (assemblée), conseiller (pl. Räte)|o;o
 königin|reine (die, pl. Königinnen)|o
 sheriff|shérif|o
-ball|ballon, balle (der, pl. Bälle)|o
+ball|balle, ballon (der, pl. Bälle); bal (danse)|o;o
 angriff|attaque (der, pl. Angriffe)|o
 untertitel|sous-titre (der, pl. Untertitel)|o
 nahe|proche, près|o
@@ -1177,7 +1177,7 @@ fantastisch|fantastique|o
 worauf|sur quoi, à quoi|o
 gebeten|demandé, prié|o
 dorf|village (das, pl. Dörfer)|o
-gelten|être valable; compter, passer pour (gilt, galt, gegolten)|v;v
+gelten|être valable; compter (gilt, galt, gegolten); gelten als: être considéré comme, passer pour|v;v;n
 achtung|attention !; respect, estime (die, sans pl.)|o;o
 lieutenant|lieutenant|o
 glückwunsch|félicitations (der, pl. Glückwünsche); herzlichen Glückwunsch: toutes mes félicitations|o;n
@@ -1192,7 +1192,7 @@ dritte|troisième|o
 messer|couteau (das, pl. Messer)|o
 verbrechen|crime (das, pl. Verbrechen)|o
 position|position (die, pl. Positionen)|o
-verlangen|exiger, demander|v
+verlangen|exiger, demander; désir, envie (das, sans pl.)|v;o
 falsche|faux, mauvais|o
 blau|bleu; soûl (fam.)|o;o
 wild|sauvage|o
@@ -1237,7 +1237,7 @@ erschießen|abattre, fusiller (erschoss, erschossen)|v
 gewusst|su|o
 vorne|devant, à l'avant|o
 stopp|stop !|o
-schlampe|salope, pute (die, pl. Schlampen)|o
+schlampe|salope, garce (vulg., injurieux) (die, pl. Schlampen)|o
 unsinn|bêtises, absurdités (der, sans pl.)|o
 brennen|brûler (brannte, gebrannt)|v
 rauchen|fumer|v
@@ -1307,7 +1307,7 @@ gang|couloir (der, pl. Gänge); démarche, allure; vitesse (d'une voiture); in G
 stern|étoile (der, pl. Sterne)|o
 sorry|pardon, désolé|o
 unterschied|différence (der, pl. Unterschiede)|o
-lauten|être, dire (d'un texte); wie lautet: quel est|v;n
+lauten|être, dire (des mots); wie lautet: quel est, comment dit; fort, bruyant (forme de laut)|v;n;o
 bus|bus, autobus (der, pl. Busse)|o
 falle|piège (die, pl. Fallen); je tombe|o;f1s
 daher|c'est pourquoi, donc; de là|o;o
@@ -1375,7 +1375,7 @@ offenbar|apparemment|o
 vertrag|contrat (der, pl. Verträge)|o
 lüge|mensonge (die, pl. Lügen)|o
 au|aïe, ouïe|o
-maul|gueule (das, pl. Mäuler); halt's Maul: ta gueule|o;n
+maul|gueule (das, pl. Mäuler); halt's Maul: ta gueule (grossier)|o;n
 angetan|fait (à)|o
 beeil|beeil dich: dépêche-toi|n
 zeitpunkt|moment (der, pl. Zeitpunkte)|o
@@ -1393,8 +1393,8 @@ termin|rendez-vous (der, pl. Termine)|o
 richten|diriger, orienter; juger|v;v
 verantwortung|responsabilité (die, pl. Verantwortungen)|o
 großvater|grand-père (der, pl. Großväter)|o
-wart|vous étiez (pl.)|f2s2p
-irre|fou, dingue; fou (personne)|o;o
+wart|vous étiez (pl.); attends ! (fam.)|f2s2p;o
+irre|fou, dément; fou (personne); in die Irre: sur une fausse piste (in die Irre führen: induire en erreur)|o;o;n
 pause|pause (die, pl. Pausen)|o
 gestellt|mis, posé; posé (une question)|o;o
 greifen|saisir, attraper (griff, gegriffen)|v
@@ -1444,7 +1444,7 @@ schweigen|se taire (schwieg, geschwiegen); silence (das, sans pl.)|v;o
 beweis|preuve (der, pl. Beweise)|o
 einheit|unité (die, pl. Einheiten); unité, union|o;o
 hintern|derrière, fesses (der, pl. Hintern)|o
-gehalten|tenu, gardé; arrêté|o;o
+gehalten|tenu, gardé; arrêté; considéré, pris (für … gehalten)|o;o;o
 wachsen|grandir, pousser (wächst, wuchs, gewachsen, ist)|v
 bad|bain (das, pl. Bäder); salle de bains|o;o
 vampir|vampire (der, pl. Vampire)|o
@@ -1471,9 +1471,9 @@ entschuldigt|excusé; excusez-moi (pl.)|o;o
 daraus|en, de cela|o
 verfolgt|suivi, poursuivi|o
 england|Angleterre|o
-scharf|tranchant, aiguisé; épicé, piquant; emballé par (fam.)|o;o;o
+scharf|tranchant, aiguisé; épicé, piquant; scharf auf: très envieux de (fam.)|o;o;n
 rechnung|facture, addition (die, pl. Rechnungen); calcul|o;o
-fräulein|mademoiselle (das, pl. Fräulein); jeune fille|o;o
+fräulein|mademoiselle (vieilli) (das, pl. Fräulein); jeune fille (vieilli)|o;o
 beeilen|sich beeilen: se dépêcher|n
 brust|poitrine (die, pl. Brüste); sein|o;o
 wundervoll|merveilleux|o
@@ -1516,7 +1516,7 @@ jener|ce, celui-là|o
 entführt|enlevé, kidnappé|o
 weiße|blanc|o
 griff|poignée, prise (der, pl. Griffe); saisit (je/il/elle saisit, passé)|o;o
-achten|respecter; achten auf: faire attention à|v;n
+achten|respecter; achten auf: faire attention à; huitième|v;n;o
 mitglied|membre (das, pl. Mitglieder)|o
 stoppen|arrêter, stopper|v
 schneiden|couper (schnitt, geschnitten)|v
@@ -1534,7 +1534,7 @@ hauen|frapper, cogner (fam.)|v
 umgehen|umgehen mit: gérer, savoir s'y prendre avec (ging um, umgegangen, ist); contourner, éviter|n;v
 längst|depuis longtemps|o
 merkwürdig|étrange, bizarre|o
-irren|sich irren: se tromper|n
+irren|sich irren: se tromper; errer; fou, dément (forme de irre)|n;v;o
 drüber|dessus, là-dessus (fam.)|o
 solch|tel|o
 strand|plage (der, pl. Strände)|o
@@ -1657,7 +1657,7 @@ aufmachen|ouvrir|v
 verhindern|empêcher|v
 interessieren|intéresser; sich interessieren für: s'intéresser à|v;n
 zweimal|deux fois|o
-bastard|bâtard, salaud (der, pl. Bastarde)|o
+bastard|bâtard (injurieux) (der, pl. Bastarde)|o
 schutz|protection (der, sans pl.)|o
 sonntag|dimanche (der, pl. Sonntage)|o
 doc|doc, toubib|o
@@ -1755,7 +1755,7 @@ schild|panneau, pancarte (das, pl. Schilder); bouclier (der, pl. Schilde)|o;o
 fahrer|conducteur, chauffeur (der, pl. Fahrer)|o
 beobachtet|observé|o
 talent|talent (das, pl. Talente)|o
-geb|donne ! (fam.)|o
+geb|je donne (fam.); donne ! (non standard)|f1s;o
 enttäuscht|déçu|o
 spuren|traces (pl. de die Spur)|o
 theater|théâtre (das, pl. Theater); cinéma, histoires (fig.)|o;o
@@ -1767,7 +1767,7 @@ stich|piqûre (der, pl. Stiche); coup de couteau; point (de couture); im Stich l
 knochen|os (der, pl. Knochen)|o
 ebenso|tout aussi, également|o
 trage|je porte; civière, brancard (die, pl. Tragen)|f1s;o
-verlässt|quitte|o
+verlässt|il/elle quitte, abandonne; tu quittes, tu abandonnes|f3s;f2s2p
 dennoch|néanmoins, pourtant|o
 klären|clarifier, régler|v
 anbieten|offrir, proposer (bot an, angeboten)|v
@@ -1821,7 +1821,7 @@ post|courrier, poste (die, sans pl.)|o
 mitgenommen|emmené, emporté|o
 hemd|chemise (das, pl. Hemden)|o
 dumme|bête, stupide|o
-tritt|coup de pied (der, pl. Tritte); marche, donne un coup de pied|o;o
+tritt|coup de pied (der, pl. Tritte); il/elle marche, met le pied; il/elle donne un coup de pied|o;f3s;f3s
 samstag|samedi (der, pl. Samstage)|o
 irgendein|un quelconque, n'importe quel|o
 magie|magie (die, sans pl.)|o
@@ -1861,7 +1861,7 @@ antun|faire (à quelqu'un) (tat an, angetan)|v
 üben|s'entraîner, s'exercer|v
 unterstützung|soutien (die, pl. Unterstützungen)|o
 verbrennen|brûler (verbrannte, verbrannt)|v
-ausgezeichnet|excellent|o
+ausgezeichnet|excellent; récompensé, décoré|o;o
 norden|nord (der, sans pl.)|o
 möglicherweise|peut-être, éventuellement|o
 definitiv|définitivement, sans aucun doute|o
@@ -1872,7 +1872,7 @@ beruf|métier, profession (der, pl. Berufe)|o
 abends|le soir|o
 vernichten|anéantir, détruire|v
 kohle|charbon (die, pl. Kohlen); fric (fam.)|o;o
-hure|pute (die, pl. Huren)|o
+hure|pute (vulg., injurieux) (die, pl. Huren)|o
 cousin|cousin (der, pl. Cousins)|o
 treppe|escalier (die, pl. Treppen)|o
 schönheit|beauté (die, pl. Schönheiten)|o
@@ -1929,7 +1929,7 @@ lügner|menteur (der, pl. Lügner)|o
 medizin|médecine, médicament (die, pl. Medizinen)|o
 prozess|procès (der, pl. Prozesse); processus|o;o
 alarm|alarme (der, pl. Alarme)|o
-verwirrt|confus, perplexe|o
+verwirrt|confus, troublé; il/elle embrouille|o;f3s
 amen|amen|o
 eng|étroit; serré; proche|o;o;o
 fan|fan (der, pl. Fans)|o
@@ -2093,7 +2093,7 @@ opfern|sacrifier|v
 entfernen|enlever, retirer; sich entfernen: s'éloigner|v;n
 gehts|wie gehts: comment ça va (fam.)|n
 herrschen|régner; prévaloir|v;v
-wonach|après quoi|o
+wonach|après quoi, pour quoi ; d'après lequel|o;o
 unterhaltung|conversation (die, pl. Unterhaltungen); divertissement|o;o
 angenehm|agréable; angenehm!: enchanté !|o;n
 geschmack|goût (der, pl. Geschmäcker)|o
@@ -2121,7 +2121,7 @@ cop|flic (der, pl. Cops)|o
 ausgeben|dépenser (gibt aus, gab aus, ausgegeben); sich ausgeben als: se faire passer pour|v;n
 wahren|vrai, véritable; préserver|o;v
 anschauen|regarder|v
-dauernd|constamment, sans arrêt|o
+dauernd|constamment; durable, permanent|o;o
 doppelt|double; deux fois|o;o
 behauptet|affirmé, prétendu|o
 erheben|lever; sich erheben: se lever (erhob, erhoben)|v;n
@@ -2201,7 +2201,7 @@ riesig|énorme, gigantesque|o
 fliege|mouche (die, pl. Fliegen); nœud papillon; je vole|o;o;f1s
 loslassen|lâcher (lässt los, ließ los, losgelassen)|v
 auseinander|séparé, à part|o
-schnitt|coupe, coupure (der, pl. Schnitte); im Schnitt: en moyenne|o;n
+schnitt|coupe, coupure (der, pl. Schnitte); im Schnitt: en moyenne; je coupai, il/elle coupa (passé)|o;n;f1s
 steuern|piloter, diriger; impôts (pl. de die Steuer)|v;o
 romantisch|romantique|o
 künstler|artiste (der, pl. Künstler)|o
@@ -2276,7 +2276,7 @@ füllen|remplir|v
 christus|le Christ|o
 politik|politique (die, sans pl.); politique (ligne de conduite)|o;o
 befehlen|ordonner, commander (befiehlt, befahl, befohlen)|v
-zurecht|à juste titre, correctement|o
+zurecht|(dans zurechtkommen) se débrouiller, s'en sortir ; (dans zurechtfinden) s'orienter ; comme il faut, en place|v;v;o
 malen|peindre|v
 vertreten|représenter; remplacer (vertritt, vertrat, vertreten)|v;v
 cops|flics (pl. de der Cop)|o
@@ -2299,7 +2299,7 @@ dämonen|démons (pl. de der Dämon)|o
 tränen|larmes (pl. de die Träne)|o
 volle|plein|o
 negativ|négatif|o
-decken|couvrir; den Tisch decken: mettre la table|v;n
+decken|couvrir; den Tisch decken: mettre la table; sich decken: coïncider, correspondre|v;n;n
 eingehen|entrer dans, aborder; accepter; dépérir (plantes) (ging ein, eingegangen, ist)|v;v;v
 besiegen|vaincre|v
 happy|content, heureux (fam.)|o
@@ -2312,7 +2312,7 @@ bye|salut, bye|o
 heimat|patrie, pays natal (die, pl. Heimaten)|o
 flehen|supplier, implorer|v
 cent|centime (der, pl. Cent)|o
-gewohnt|habitué; habituel|o;o
+gewohnt|habitué; habituel; habité|o;o;o
 schlacht|bataille (die, pl. Schlachten)|o
 abgemacht|d'accord !, marché conclu|o
 mitmachen|participer|v
@@ -2335,7 +2335,7 @@ versichern|assurer, garantir; assurer (contrat d'assurance)|v;v
 begonnen|commencé|o
 mai|mai (der, pl. Maie)|o
 kreuz|croix (das, pl. Kreuze); bas du dos|o;o
-auftritt|apparition, représentation (der, pl. Auftritte)|o
+auftritt|apparition, représentation (der, pl. Auftritte); il/elle apparaît, se produit|o;f3s
 gelandet|atterri|o
 täuschen|tromper; sich täuschen: se tromper|v;n
 beschlossen|décidé|o
@@ -2433,7 +2433,7 @@ korrekt|correct|o
 osten|est (der, sans pl.)|o
 weglaufen|s'enfuir, se sauver (läuft weg, lief weg, weggelaufen, ist)|v
 mum|maman|o
-reifen|pneu (der, pl. Reifen); mûrir|o;v
+reifen|pneu (der, pl. Reifen); cerceau; mûrir; mûr (forme de reif)|o;o;v;o
 durchgemacht|traversé, enduré|o
 informiert|informé|o
 informieren|informer|v
@@ -2452,7 +2452,7 @@ sicherlich|certainement|o
 öffentlichkeit|public (die, sans pl.)|o
 verstärkung|renforts (die, pl. Verstärkungen)|o
 verlaufen|se dérouler (verläuft, verlief, verlaufen, ist); sich verlaufen: se perdre|v;n
-indianer|Amérindien, Indien d'Amérique (der, pl. Indianer)|o
+indianer|Amérindien, Indien (aujourd'hui souvent évité) (der, pl. Indianer)|o
 keks|biscuit, gâteau sec (der, pl. Kekse)|o
 jo|ouais (fam.)|o
 blasen|souffler (bläst, blies, geblasen); bulles (pl. de die Blase)|v;o
@@ -2468,7 +2468,7 @@ aussteigen|descendre (d'un véhicule) (stieg aus, ausgestiegen, ist)|v
 ciao|salut, ciao|o
 ausruhen|sich ausruhen: se reposer|n
 donnerstag|jeudi (der, pl. Donnerstage)|o
-probe|répétition (die, pl. Proben); échantillon, test|o;o
+probe|répétition (die, pl. Proben); échantillon; essai, épreuve|o;o;o
 lektion|leçon (die, pl. Lektionen)|o
 schaff|j'y arrive (fam.)|f1s
 dämlich|bête, débile|o
@@ -2487,7 +2487,7 @@ wüste|désert (die, pl. Wüsten)|o
 training|entraînement (das, pl. Trainings)|o
 viertel|quart (das, pl. Viertel); quartier|o;o
 klamotten|fringues, vêtements (fam.) (die, pl.)|o
-heil|indemne, intact; salut|o;o
+heil|indemne, intact; salut, bien-être (das, sans pl.); salut (salut nazi)|o;o;o
 wissenschaftler|scientifique, chercheur (der, pl. Wissenschaftler)|o
 drum|c'est pour ça (fam.)|o
 verteidigung|défense (die, pl. Verteidigungen)|o
@@ -2526,7 +2526,7 @@ hass|haine (der, sans pl.)|o
 posten|poste, place (der, pl. Posten); publier (en ligne)|o;v
 rund|rond; environ, à peu près|o;o
 seil|corde (das, pl. Seile)|o
-verdienst|gains, salaire (der, pl. Verdienste); mérite (das, pl. Verdienste)|o;o
+verdienst|revenu, gain (der, pl. Verdienste); mérite (das, pl. Verdienste); tu gagnes, tu mérites|o;o;f2s2p
 verwandeln|transformer, changer en|v
 motiv|mobile (das, pl. Motive); sujet, motif|o;o
 identifizieren|identifier|v
@@ -2577,7 +2577,7 @@ daneben|à côté; à côté de la plaque|o;o
 summe|somme (die, pl. Summen)|o
 gabe|don, talent (die, pl. Gaben)|o
 hundert|cent|o
-scheiden|divorcer, séparer (schied, geschieden); sich scheiden lassen: divorcer|v;n
+scheiden|divorcer (schied, geschieden); sich scheiden lassen: divorcer; quitter, se séparer (aus dem Amt scheiden: quitter ses fonctions)|v;n;v
 wundern|étonner; sich wundern: s'étonner, se demander|v;n
 widerlich|dégoûtant, répugnant|o
 wertvoll|précieux, de valeur|o
@@ -2615,7 +2615,7 @@ käfig|cage (der, pl. Käfige)|o
 staatsanwalt|procureur (der, pl. Staatsanwälte)|o
 hässlich|laid|o
 angezogen|habillé; attiré|o;o
-penner|clochard, SDF (der, pl. Penner)|o
+penner|clochard, vagabond (fam., péjoratif) (der, pl. Penner)|o
 weich|mou, doux|o
 hauptmann|capitaine (der, pl. Hauptleute)|o
 stellung|position, poste (die, pl. Stellungen)|o
@@ -2772,7 +2772,7 @@ funk|radio (der, sans pl.)|o
 japan|Japon|o
 museum|musée (das, pl. Museen)|o
 grüß|grüß dich: salut; grüß Gott: bonjour (Autriche, Allemagne du Sud); salue !, dis bonjour ! (tutoiement)|n;n;o
-hurensohn|fils de pute (der, pl. Hurensöhne)|o
+hurensohn|fils de pute (vulg.) (der, pl. Hurensöhne)|o
 mögliche|possible|o
 pinkeln|faire pipi (fam.)|v
 begeben|sich begeben: se rendre (begibt, begab, begeben)|n
@@ -2860,10 +2860,10 @@ note|note (scolaire) (die, pl. Noten); note (de musique)|o;o
 stift|stylo, crayon (der, pl. Stifte)|o
 besucher|visiteur (der, pl. Besucher)|o
 gestanden|avoué; été debout|o;o
-schütze|tireur (der, pl. Schützen); Sagittaire|o;o
+schütze|tireur (der, pl. Schützen); Sagittaire; je protège; qu'il/elle protège|o;o;f1s;f3s
 ergreifen|saisir, empoigner (ergriff, ergriffen)|v
 hubschrauber|hélicoptère (der, pl. Hubschrauber)|o
-unterlagen|documents, papiers (pl. de die Unterlage)|o
+unterlagen|documents, papiers (pl. de die Unterlage); ils étaient soumis à; ils succombèrent à, ils perdirent contre|o;f3p;f3p
 kette|chaîne (die, pl. Ketten); collier|o;o
 interessante|intéressant|o
 wovor|de quoi|o
@@ -2909,10 +2909,10 @@ ausgesucht|choisi|o
 spielzeug|jouet (das, pl. Spielzeuge)|o
 sender|chaîne, station (der, pl. Sender); émetteur|o;o
 deck|pont (d'un navire) (das, pl. Decks)|o
-dritt|zu dritt: à trois|n
+dritt|zu dritt: à trois, en groupe de trois|n
 höchstens|tout au plus, au maximum|o
 narr|fou, bouffon (der, pl. Narren)|o
-scheißegal|das ist mir scheißegal: j'en ai rien à foutre|n
+scheißegal|das ist mir scheißegal: je m'en fous complètement (vulg.)|n
 geirrt|trompé|o
 außen|dehors, à l'extérieur|o
 betrug|fraude, escroquerie (der, sans pl.); s'élevait à (passé de betragen)|o;f3s
@@ -3076,9 +3076,9 @@ gefangene|prisonnier (der/die, pl. Gefangenen)|o
 unterschrift|signature (die, pl. Unterschriften)|o
 küste|côte (die, pl. Küsten)|o
 pflanzen|plantes (pl. de die Pflanze)|o
-handel|commerce (der, sans pl.)|o
+handel|commerce (der, sans pl.); marché, accord|o;o
 dünn|mince|o
-parkplatz|parking, place de stationnement (der, pl. Parkplätze)|o
+parkplatz|parking (der, pl. Parkplätze); place de stationnement|o;o
 mommy|maman|o
 jahrelang|pendant des années|o
 männlich|mâle; masculin|o;o
@@ -3428,7 +3428,7 @@ daumen|pouce (der, pl. Daumen)|o
 reiche|riche|o
 testament|testament (das, pl. Testamente)|o
 übernachten|passer la nuit|v
-weichen|céder, reculer (wich, gewichen, ist)|v
+weichen|céder, reculer (wich, gewichen, ist); mou (forme de weich)|v;o
 batterie|pile, batterie (die, pl. Batterien)|o
 sachte|doucement|o
 aufspüren|dépister, retrouver|v
@@ -3588,7 +3588,7 @@ lokal|bistrot, restaurant (das, pl. Lokale); local|o;o
 mylord|milord|o
 nebenbei|au passage, soit dit en passant; à côté|o;o
 geleistet|accompli, fourni|o
-entgehen|échapper à (entging, entgangen, ist)|v
+entgehen|échapper (entging, entgangen, ist); (d'une chose) échapper à l'attention ; sich entgehen lassen: laisser passer, rater|v;v;n
 doof|bête, idiot|o
 leuchten|briller, luire|v
 zwischenzeit|in der Zwischenzeit: entre-temps|n
@@ -3875,7 +3875,7 @@ pissen|pisser (vulg.)|v
 chirurg|chirurgien (der, pl. Chirurgen)|o
 fette|gras|o
 aufsteigen|monter, s'élever; monter (dans, sur) (stieg auf, aufgestiegen, ist)|v;v
-beziehen|mettre des draps (sur un lit); percevoir, recevoir; sich beziehen auf: se référer à (bezog, bezogen)|v;v;n
+beziehen|recevoir, obtenir (bezog, bezogen); sich beziehen auf: se rapporter à; emménager dans (un logement); mettre une housse à (un lit)|v;n;v;v
 zwang|contrainte (der, pl. Zwänge); força, contraignit (je/il/elle, passé)|o;o
 besoffen|bourré, soûl (fam.)|o
 irgendeiner|quelqu'un, n'importe qui|o
@@ -3889,7 +3889,7 @@ vermutung|supposition, hypothèse (die, pl. Vermutungen)|o
 buchstabe|lettre (de l'alphabet) (der, pl. Buchstaben)|o
 hergebracht|amené ici|o
 gepackt|emballé, fait (valise); empoigné, saisi|o;o
-just|justement, précisément|o
+just|justement, précisément (littéraire)|o
 furchtbare|terrible, affreux|o
 qualität|qualité (die, pl. Qualitäten)|o
 verhör|interrogatoire (das, pl. Verhöre)|o
@@ -3911,7 +3911,7 @@ shuttle|navette (der, pl. Shuttles)|o
 verbreiten|répandre, diffuser|v
 ersparen|épargner|v
 illusion|illusion (die, pl. Illusionen)|o
-scheitern|échouer (ist)|v
+scheitern|échouer (ist); échec (das, sans pl.)|v;o
 box|boîte (die, pl. Boxen); enceinte|o;o
 jury|jury (die, pl. Jurys)|o
 ausgedacht|inventé, imaginé|o
@@ -3997,7 +3997,7 @@ summt|fredonne, bourdonne|o
 bezaubernd|ravissant, charmant|o
 reif|mûr; mature|o;o
 verlobte|fiancé, fiancée (der/die, pl. Verlobten)|o
-shit|merde (fam.)|o
+shit|merde (vulg.)|o
 trip|voyage, trip (der, pl. Trips)|o
 aufwachsen|grandir (wuchs auf, aufgewachsen, ist)|v
 musiker|musicien (der, pl. Musiker)|o
@@ -4787,7 +4787,7 @@ vermutet|soupçonné, supposé|o
 honig|miel (der, sans pl.)|o
 überrest|reste, vestige (der, pl. Überreste)|o
 göttin|déesse (die, pl. Göttinnen)|o
-stillen|allaiter; étancher, apaiser|v;v
+stillen|calme, silencieux (forme de still); allaiter; étancher, apaiser|o;v;v
 verkehrt|faux, à l'envers|o
 bewahrt|conservé, gardé|o
 gefüllt|rempli, farci|o
@@ -5373,7 +5373,7 @@ mexikanisch|mexicain|o
 militärisch|militaire|o
 missbrauchen|abuser de, maltraiter; faire mauvais usage de|v;v
 mysteriös|mystérieux|o
-nahen|approcher|v
+nahen|approcher, s'approcher; proche (forme de nah)|v;o
 nudel|nouille (die, pl. Nudeln); pâtes (au pl.)|o;o
 obere|supérieur, du haut|o
 perle|perle (die, pl. Perlen); perle (de verre, de collier)|o;o
@@ -5496,7 +5496,7 @@ axt|hache (die, pl. Äxte)|o
 kneipe|bistrot, bar (die, pl. Kneipen)|o
 verlorene|perdu|o
 investieren|investir|v
-sehnen|sich sehnen nach: aspirer à, se languir de; tendons|n;o
+sehnen|sich sehnen nach: aspirer à, se languir de; tendons (pl. de die Sehne)|n;o
 unterzeichnen|signer|v
 ausgelöscht|anéanti, effacé|o
 ressource|ressource (die, pl. Ressourcen)|o
@@ -5516,7 +5516,7 @@ griechisch|grec|o
 hässliche|laid|o
 andenken|souvenir (das, pl. Andenken)|o
 gate|porte d'embarquement (das, pl. Gates)|o
-saufen|picoler, boire (animaux) (säuft, soff, gesoffen)|v
+saufen|picoler, boire beaucoup (fam.) (säuft, soff, gesoffen); boire (animaux)|v;v
 anhängen|attacher, accrocher; mettre (un crime) sur le dos de|v;v
 flamme|flamme (die, pl. Flammen)|o
 zustimmung|approbation, accord (die, pl. Zustimmungen)|o
@@ -5620,7 +5620,7 @@ benommen|étourdi, sonné|o
 durchsuchungsbefehl|mandat de perquisition (der, pl. Durchsuchungsbefehle)|o
 erpressen|faire chanter, extorquer|v
 fliegende|volant|o
-flittchen|traînée, salope (das, pl. Flittchen)|o
+flittchen|dévergondée, traînée (péjoratif) (das, pl. Flittchen)|o
 grundlage|base, fondement (die, pl. Grundlagen)|o
 och|oh (fam.)|o
 sherry|xérès, sherry (der, pl. Sherrys)|o
@@ -6213,7 +6213,7 @@ einatmen|inspirer, inhaler|v
 eingriff|intervention (der, pl. Eingriffe); opération (chirurgicale)|o;o
 gewahrsam|garde à vue, détention (der, sans pl.)|o
 hinterhalt|embuscade (der, pl. Hinterhalte)|o
-schlampen|salopes, traînées (pl. de die Schlampe)|o
+schlampen|salopes (vulg., injurieux) (pl. de die Schlampe)|o
 bearbeiten|travailler, retoucher, traiter|v
 katholisch|catholique|o
 parfüm|parfum (das, pl. Parfüms)|o
@@ -6362,7 +6362,7 @@ rauswerfen|jeter dehors, virer (fam.)|v
 begräbnis|enterrement (das, pl. Begräbnisse)|o
 bemühung|effort (die, pl. Bemühungen)|o
 center|centre (das, pl. Center)|o
-dienstmädchen|bonne, domestique (das, pl. Dienstmädchen)|o
+dienstmädchen|bonne, domestique (vieilli) (das, pl. Dienstmädchen)|o
 gierig|avide, cupide|o
 meinerseits|de mon côté; ganz meinerseits: tout le plaisir est pour moi|o;n
 verführen|séduire|v
@@ -6510,7 +6510,7 @@ einsehen|reconnaître, comprendre (sieht ein, sah ein, eingesehen)|v
 weiche|doux, mou|o
 berechnung|calcul (die, pl. Berechnungen)|o
 reinlegen|rouler, avoir (fam.)|v
-rind|bœuf, vache (das, pl. Rinder); viande de bœuf|o;o
+rind|bovin, bœuf (das, pl. Rinder); viande de bœuf|o;o
 bildschirm|écran (der, pl. Bildschirme)|o
 bucht|baie (die, pl. Buchten)|o
 eminenz|Éminence (die, pl. Eminenzen)|o
@@ -6535,7 +6535,7 @@ einmalig|unique; ponctuel, unique (une seule fois)|o;o
 annähernd|approximativement, presque|o
 eichhörnchen|écureuil (das, pl. Eichhörnchen)|o
 gewebe|tissu (biologique) (das, pl. Gewebe); tissu, étoffe|o;o
-sternzeit|date stellaire (die, sans pl.)|o
+sternzeit|temps sidéral (die, sans pl.); date stellaire (Star Trek)|o;o
 unterschätzt|sous-estimé|o
 mühle|moulin (die, pl. Mühlen)|o
 poker|poker (das, sans pl.)|o
@@ -6695,7 +6695,7 @@ verliebte|amoureux; amoureux (les amants)|o;o
 anstalt|établissement, institution (die, pl. Anstalten)|o
 gelähmt|paralysé|o
 gesendet|envoyé; diffusé|o;o
-verfügen|verfügen über: disposer de|n
+verfügen|verfügen über: disposer de; décréter, ordonner|n;v
 verständigen|prévenir; sich verständigen: communiquer, se comprendre|v;n
 elektronische|électronique|o
 lutschen|sucer|v
@@ -7101,7 +7101,7 @@ reihenfolge|ordre (die, pl. Reihenfolgen)|o
 arena|arène (die, pl. Arenen)|o
 ballett|ballet (das, pl. Ballette)|o
 bullshit|conneries (der, sans pl.)|o
-luder|garce, coquine (das, pl. Luder)|o
+luder|garce, coquine (péjoratif) (das, pl. Luder)|o
 forscher|chercheur (der, pl. Forscher)|o
 honey|chéri, chérie (terme affectueux)|o
 verfolgung|poursuite (die, pl. Verfolgungen); persécution|o;o
@@ -7203,7 +7203,7 @@ s|il, ça ('s, forme courte de es : geht's, gibt's)|f3s
 gross|grand, haut|o
 ernennen|nommer, désigner (ernannte, ernannt)|v
 reizen|irriter, agacer; tenter, stimuler|v;v
-notieren|noter, inscrire|v
+notieren|noter, inscrire; être coté (d'actions, à un prix)|v;v
 demütigen|humilier|v
 veranlassen|provoquer, inciter (à faire quelque chose)|v
 ergehen|être rendu, être publié (d'un ordre); se passer, aller (impers.) (erging, ergangen, ist)|v;v
@@ -7227,13 +7227,13 @@ irisch|irlandais|o
 vermieten|louer, donner en location|v
 beruhen|se fonder, reposer (auf : sur)|v
 uralt|très ancien, immémorial|o
-verschreiben|prescrire; sich verschreiben: faire une erreur de plume (verschrieb, verschrieben)|v;n
+verschreiben|prescrire; sich verschreiben: faire un lapsus calami (verschrieb, verschrieben); se consacrer (à) (sich … verschreiben)|v;n;v
 beschlagnahmen|confisquer, saisir|v
 enthüllen|révéler, dévoiler|v
 heikel|délicat, épineux (d'une situation)|o
 versenken|couler, saborder (un navire); submerger|v;v
 beabsichtigen|avoir l'intention de|v
-erwidern|répondre, rétorquer|v
+erwidern|répondre, répliquer; rendre, répondre à (un salut, un sentiment)|v;v
 befassen|concerner; sich befassen mit: s'occuper de, traiter de|v;n
 ermutigen|encourager|v
 ausgraben|déterrer, fouiller (gräbt aus, grub aus, ausgegraben)|v
@@ -7309,7 +7309,7 @@ beschämen|faire honte à, embarrasser|v
 beeinträchtigen|nuire à, affecter négativement|v
 rekrutieren|recruter|v
 sympathisch|sympathique, agréable|o
-entsetzen|horrifier; sich entsetzen: être horrifié|v;n
+entsetzen|horrifier; sich entsetzen: être horrifié; horreur, effroi (das, sans pl.)|v;n;o
 erhoffen|sich erhoffen: espérer, souhaiter|n
 schlank|mince, svelte|o
 berücksichtigen|prendre en compte, considérer|v
@@ -7525,7 +7525,7 @@ benachbart|voisin, adjacent|o
 dominieren|dominer|v
 orthodox|orthodoxe|o
 steinern|en pierre, pierreux|o
-trüben|troubler, obscurcir; gâcher|v;v
+trüben|troubler, ternir; gâcher; sombre, trouble (forme de trüb)|v;v;o
 unbeweglich|immobile|o
 zornig|furieux, courroucé|o
 flexibel|flexible|o
@@ -7671,7 +7671,7 @@ entstammen|provenir de, être issu de|v
 spezifisch|spécifique|o
 islamistisch|islamiste|o
 abwechselnd|alternant, alternativement, à tour de rôle|o
-bleichen|décolorer; pâlir|v;v
+bleichen|pâle (forme de bleich); blanchir, décolorer; se décolorer|o;v;v
 folglich|par conséquent|o
 fremdsprachig|en langue étrangère|o
 mittelfristig|à moyen terme|o
@@ -9490,7 +9490,7 @@ bezwingen|vaincre, surmonter|v
 blindlings|aveuglément|o
 blähen|ballonner, distendre; sich blähen : se gonfler, se bomber|v;n
 blödsinnig|stupide, idiot|o
-dato|à ce jour (généralement bis dato)|v
+dato|bis dato: à ce jour, jusqu'ici|n
 derb|grossier, cru; robuste|o;o
 desillusionieren|désillusionner|v
 destruktiv|destructeur|o
@@ -9826,7 +9826,7 @@ verlinken|lier, créer un lien hypertexte|v
 verrostet|rouillé|o
 verworren|confus, embrouillé|o
 weck|réveille-toi !|o
-weibisch|efféminé|o
+weibisch|efféminé (péjoratif)|o
 weißlich|blanchâtre|o
 wohlig|douillet, agréable|o
 wund|endolori, à vif (peau)|o
@@ -10390,7 +10390,7 @@ subtropisch|subtropical|o
 unbestritten|incontesté|o
 verunsichern|déstabiliser, ébranler|v
 vorausschauend|prévoyant, clairvoyant|o
-saß|était assis(e) (je; il/elle)|o
+saß|je m'assis, j'étais assis; il/elle s'assit, il/elle était assis(e)|f1s;f3s
 letzterer|ce dernier|o
 elle|cubitus, os de l'avant-bras; aune, ancienne unité de longueur (die, pl. Ellen)|o;o
 allmächtig|tout-puissant, omnipotent|o
@@ -10863,14 +10863,14 @@ herauf|vers le haut, par ici|o
 herausziehen|sortir, extraire (zog heraus, herausgezogen)|v
 historiker|historien (der, pl. Historiker)|o
 lokomotive|locomotive (die, pl. Lokomotiven)|o
-preuße|Prussien, personne (der, pl. Preußen)|o
+preuße|Prussien (personne) (der, pl. Preußen)|o
 rechtsstaatlichkeit|État de droit (die, no pl.)|o
 rohstoff|matière première (der, pl. Rohstoffe)|o
 spaltung|scission, division (die, pl. Spaltungen)|o
 übersteigen|dépasser, excéder (übersteigt, überstieg, überstiegen)|v
-überziehen|mettre à découvert, un compte; recouvrir (überzieht, überzog, überzogen)|v;v
+überziehen|mettre à découvert (un compte) (überzieht, überzog, überzogen); recouvrir, enduire|v;v
 abhandlung|traité, essai (die, pl. Abhandlungen)|o
-ankleiden|habiller, quelqu'un; sich ankleiden: s'habiller|v;n
+ankleiden|habiller (quelqu'un); sich ankleiden: s'habiller|v;n
 bewältigung|maîtrise, gestion (die, no pl.)|o
 diktator|dictateur (der, pl. Diktatoren)|o
 ernennung|nomination, à un poste (die, pl. Ernennungen)|o
@@ -10958,7 +10958,7 @@ finanzminister|ministre des Finances (der, pl. Finanzminister)|o
 glaubwürdig|crédible|o
 hervorgehen|ressortir, résulter de (ging hervor, hervorgegangen, ist)|v
 komposition|composition (die, pl. Kompositionen)|o
-männchen|mâle, animal; petit homme (das, pl. Männchen)|o;o
+männchen|mâle (animal) (das, pl. Männchen); petit bonhomme|o;o
 nominierung|nomination (die, pl. Nominierungen)|o
 paarmal|quelques fois, plusieurs fois|o
 praktik|pratique, méthode (die, pl. Praktiken)|o
@@ -11025,7 +11025,7 @@ niederlegen|déposer, poser; démissionner|v;v
 notar|notaire (der, pl. Notare)|o
 passage|passage (die, pl. Passagen)|o
 popularität|popularité (die, no pl.)|o
-quartal|trimestre, d'une année (das, pl. Quartale)|o
+quartal|trimestre (de l'année) (das, pl. Quartale)|o
 sparmaßnahme|mesure d'austérité (die, pl. Sparmaßnahmen)|o
 tausendmal|mille fois|o
 tribüne|tribune, gradin (die, pl. Tribünen)|o
@@ -11041,7 +11041,7 @@ betonung|accent, insistance (die, pl. Betonungen)|o
 bündel|paquet, fagot (das, pl. Bündel)|o
 durchmesser|diamètre (der, pl. Durchmesser)|o
 expansion|expansion (die, pl. Expansionen)|o
-flinte|fusil de chasse, carabine (die, pl. Flinten)|o
+flinte|fusil de chasse (die, pl. Flinten)|o
 gebirge|montagnes, chaîne de montagnes (das, pl. Gebirge)|o
 grundschule|école primaire (die, pl. Grundschulen)|o
 hunderttausend|cent mille|o
@@ -11068,7 +11068,7 @@ auslegen|interpréter; disposer, exposer|v;v
 aussprache|prononciation; discussion (die, pl. Aussprachen)|o;o
 außenminister|ministre des Affaires étrangères (der, pl. Außenminister)|o
 becken|bassin, cuvette; bassin (anatomie) (das, pl. Becken)|o;o
-besetzung|occupation, militaire; distribution, d'une pièce (die, pl. Besetzungen)|o;o
+besetzung|occupation (militaire) (die, pl. Besetzungen); distribution (d'une pièce)|o;o
 differenz|différence (die, pl. Differenzen)|o
 dilemma|dilemme (das, pl. Dilemmas)|o
 dunst|brume, brouillard léger (der, pl. Dünste)|o
@@ -11080,7 +11080,7 @@ geschick|habileté, adresse; destin, sort (das, no pl.)|o;o
 gremium|comité, organe (das, pl. Gremien)|o
 harmonie|harmonie (die, pl. Harmonien)|o
 heftigkeit|intensité, véhémence (die, no pl.)|o
-holocaust|destruction massive; (der Holocaust) la Shoah (der, no pl.)|o;o
+holocaust|la Shoah, l'Holocauste (der, sans pl.); holocauste, destruction massive|o;o
 häuschen|petite maison, chaumière (das, pl. Häuschen)|o
 konstruktion|construction (die, pl. Konstruktionen)|o
 lump|canaille, vaurien (der, pl. Lumpen)|o
@@ -11092,7 +11092,7 @@ toleranz|tolérance (die, no pl.)|o
 triumph|triomphe (der, pl. Triumphe)|o
 vorherrschaft|suprématie, domination (die, no pl.)|o
 vorliebe|préférence, prédilection (die, pl. Vorlieben)|o
-weide|pâturage, pré; saule, arbre (die, pl. Weiden)|o;o
+weide|pâturage, pré (die, pl. Weiden); saule (arbre)|o;o
 weltordnung|ordre mondial (die, no pl.)|o
 wohlbekannt|bien connu|o
 zyklus|cycle (der, pl. Zyklen)|o
@@ -11132,20 +11132,20 @@ abtei|abbaye (die, pl. Abteien)|o
 alltäglich|quotidien, banal|o
 asyl|asile (das, no pl.)|o
 ausgangspunkt|point de départ (der, pl. Ausgangspunkte)|o
-base|base, chimie; (vieilli) cousine (die, pl. Basen)|o;o
+base|base (chimie) (die, pl. Basen); (vieilli) cousine|o;o
 bedingt|conditionnel, limité|o
 beurteilung|évaluation, jugement (die, pl. Beurteilungen)|o
 bucklig|bossu|o
 bundesregierung|gouvernement fédéral (die, no pl.)|o
 dienstbote|domestique (der, pl. Dienstboten)|o
-dirigent|chef d'orchestre (der, pl. Dirigenten)|o
+dirigent|chef (d'orchestre) (der, pl. Dirigenten)|o
 dreihundert|trois cents|o
 entgegenkommen|faire des concessions, trouver un compromis (kam entgegen, entgegengekommen, ist)|v
 exil|exil (das, no pl.)|o
 fünfundzwanzig|vingt-cinq|o
 gesetzgebung|législation (die, no pl.)|o
 getreide|céréales, grain (das, no pl.)|o
-gewahren|apercevoir, remarquer, littéraire|v
+gewahren|remarquer, percevoir (littéraire)|v
 herankommen|s'approcher (kam heran, herangekommen, ist)|v
 hundertmal|cent fois|o
 härte|dureté; sévérité (die, no pl.)|o;o
@@ -11170,7 +11170,7 @@ wärterin|gardienne, surveillante (die, pl. Wärterinnen)|o
 wörterbuch|dictionnaire (das, pl. Wörterbücher)|o
 zweitausend|deux mille|o
 überfluss|abondance, excès (der, no pl.)|o
-ablösen|remplacer, relever, quelqu'un; détacher|v;v
+ablösen|remplacer, relever (quelqu'un); détacher|v;v
 aktienmarkt|marché boursier (der, pl. Aktienmärkte)|o
 alsbald|bientôt, sous peu|o
 anatomie|anatomie (die, no pl.)|o
@@ -11215,7 +11215,7 @@ zurückhaltung|retenue, réserve (die, no pl.)|o
 überschuss|excédent, surplus (der, pl. Überschüsse)|o
 abitur|baccalauréat allemand (das, no pl.)|o
 achsel|épaule; aisselle (die, pl. Achseln)|o;o
-afrikaner|Africain, personne (der, pl. Afrikaner)|o
+afrikaner|Africain (personne) (der, pl. Afrikaner)|o
 ausrichtung|orientation, alignement (die, pl. Ausrichtungen)|o
 bankier|banquier (der, pl. Bankiers)|o
 besonderheit|particularité (die, pl. Besonderheiten)|o
@@ -11225,7 +11225,7 @@ darlehen|prêt (das, pl. Darlehen)|o
 droschke|fiacre (die, pl. Droschken)|o
 dynastie|dynastie (die, pl. Dynastien)|o
 ehebruch|adultère (der, no pl.)|o
-eiche|chêne, arbre (die, pl. Eichen)|o
+eiche|chêne (arbre) (die, pl. Eichen)|o
 engländerin|Anglaise (die, pl. Engländerinnen)|o
 ertrag|rendement, produit (der, pl. Erträge)|o
 esszimmer|salle à manger (das, pl. Esszimmer)|o
@@ -11247,7 +11247,7 @@ londoner|Londonien; londonien (der, pl. Londoner)|o;o
 markgraf|margrave (der, pl. Markgrafen)|o
 martern|tourmenter, torturer|v
 moderator|animateur, présentateur, TV ou radio (der, pl. Moderatoren)|o
-mündung|embouchure, d'un fleuve; bouche, d'une arme (die, pl. Mündungen)|o;o
+mündung|embouchure (d'un fleuve) (die, pl. Mündungen); bouche (d'une arme)|o;o
 neid|envie, jalousie (der, no pl.)|o
 nische|niche (die, pl. Nischen)|o
 ohnmacht|évanouissement, perte de connaissance; impuissance (die, no pl.)|o;o
@@ -11314,17 +11314,17 @@ aktionär|actionnaire (der, pl. Aktionäre)|o
 ankündigung|annonce (die, pl. Ankündigungen)|o
 ausarbeiten|élaborer, mettre au point|v
 ausbauen|agrandir, développer|v
-australier|Australien, personne (der, pl. Australier)|o
+australier|Australien (personne) (der, pl. Australier)|o
 außenwelt|monde extérieur (die, no pl.)|o
 beziehungsweise|ou, respectivement|o
-blitzen|faire des éclairs, temps|v
+blitzen|lancer des éclairs; (foudre) éclairer|v;v
 chronik|chronique (die, pl. Chroniken)|o
 darbieten|présenter, offrir, un spectacle (bot dar, dargeboten)|v
 deutung|interprétation (die, pl. Deutungen)|o
 durchsetzung|application, mise en œuvre (die, no pl.)|o
 ebbe|marée basse (die, pl. Ebben)|o
 einflussreich|influent|o
-frauenzimmer|femme, bonne femme, vieilli (das, pl. Frauenzimmer)|o
+frauenzimmer|femme (vieilli, péjoratif) (das, pl. Frauenzimmer)|o
 fußspitze|pointe du pied, orteil (die, pl. Fußspitzen)|o
 fußweg|chemin piétonnier, trottoir (der, pl. Fußwege)|o
 führungspersönlichkeit|personnalité dirigeante, chef de file (die, pl. Führungspersönlichkeiten)|o
@@ -11361,7 +11361,7 @@ stabilisierung|stabilisation (die, no pl.)|o
 szenarium|scénario (das, pl. Szenarien)|o
 vorhergehend|précédent, antérieur|o
 vorschein|zum Vorschein kommen: apparaître, se révéler|n
-weibchen|femelle, animal (das, pl. Weibchen)|o
+weibchen|femelle (animal) (das, pl. Weibchen)|o
 wertpapier|titre, valeur mobilière (das, pl. Wertpapiere)|o
 westküste|côte ouest (die, pl. Westküsten)|o
 wiege|berceau (die, pl. Wiegen)|o
@@ -11490,7 +11490,7 @@ wiederwahl|réélection (die, pl. Wiederwahlen)|o
 windstoß|rafale de vent (der, pl. Windstöße)|o
 wonne|bonheur, délice (die, pl. Wonnen)|o
 würdevoll|digne|o
-zigeuner|gitan, rom (vieilli) (der, pl. Zigeuner)|o
+zigeuner|Tsigane (injurieux) (der, pl. Zigeuner)|o
 überprüfung|vérification, contrôle (die, pl. Überprüfungen)|o
 überzieher|pardessus (der, pl. Überzieher)|o
 alleinig|unique, exclusif|o
@@ -11567,7 +11567,7 @@ beisetzen|enterrer, inhumer|v
 bequemlichkeit|confort, commodité (die, pl. Bequemlichkeiten)|o
 besitztum|propriété, bien (das, pl. Besitztümer)|o
 blitzstrahl|éclair (der, pl. Blitzstrahlen)|o
-buße|pénitence, amende (die, pl. Bußen)|o
+buße|pénitence (die, pl. Bußen); amende|o;o
 diplom|diplôme (das, pl. Diplome)|o
 dokumentation|documentation (die, pl. Dokumentationen)|o
 duo|duo (das, pl. Duos)|o
@@ -11652,7 +11652,7 @@ banner|bannière (das, pl. Banner)|o
 befehlshaber|commandant (der, pl. Befehlshaber)|o
 begrenzung|limitation, limite (die, pl. Begrenzungen)|o
 behälter|récipient (der, pl. Behälter)|o
-beihilfe|subvention, aide; complicité, en droit (die, pl. Beihilfen)|o;o
+beihilfe|aide, subvention (die, pl. Beihilfen); complicité (droit)|o;o
 bettdecke|couverture, couette (die, pl. Bettdecken)|o
 blickwinkel|point de vue, angle (der, pl. Blickwinkel)|o
 bogenschütze|archer (der, pl. Bogenschützen)|o
@@ -11711,7 +11711,7 @@ verzerrung|distorsion (die, pl. Verzerrungen)|o
 voranbringen|faire avancer (brachte voran, vorangebracht)|v
 weimarer|de Weimar, adjectif invariable; habitant de Weimar (der, pl. Weimarer)|o;o
 weiterentwicklung|développement ultérieur (die, pl. Weiterentwicklungen)|o
-wirbel|tourbillon; vertèbre (der, pl. Wirbel)|o;o
+wirbel|tourbillon (der, pl. Wirbel); remue-ménage, agitation; vertèbre|o;o;o
 zehntausend|dix mille|o
 zugute|zugute kommen: profiter à; sich etwas zugute halten: se vanter de|n;n
 zusammensein|être ensemble (war zusammen, zusammengewesen, ist); réunion, moment passé ensemble (das)|v;o
@@ -11772,7 +11772,7 @@ kriegsmacht|puissance militaire (die, pl. Kriegsmächte)|o
 kölner|de Cologne, adjectif invariable; habitant de Cologne (der, pl. Kölner)|o;o
 lichtstrahl|rayon de lumière (der, pl. Lichtstrahlen)|o
 lärmend|bruyant|o
-lüften|aérer, ventiler; dévoiler, un secret|v;v
+lüften|aérer, ventiler; dévoiler (un secret)|v;v
 mahl|repas (das, pl. Mahle)|o
 meditation|méditation (die, pl. Meditationen)|o
 menschenfleisch|chair humaine (das, no pl.)|o
@@ -11887,7 +11887,7 @@ redaktion|rédaction (die, pl. Redaktionen)|o
 reformation|réforme, Réforme (die, pl. Reformationen)|o
 register|registre (das, pl. Register)|o
 ritze|fissure, fente (die, pl. Ritzen)|o
-robbe|phoque (die, pl. Robben)|o
+robbe|phoque (animal) (die, pl. Robben)|o
 rumpf|tronc, corps; coque (der, pl. Rümpfe)|o;o
 sandbank|banc de sable (die, pl. Sandbänke)|o
 schiit|chiite (der, pl. Schiiten)|o
@@ -11905,7 +11905,7 @@ verheiratung|mariage (die, pl. Verheiratungen)|o
 verzeichnis|liste, répertoire (das, pl. Verzeichnisse)|o
 vierundzwanzig|vingt-quatre|o
 volltext|texte intégral (der, pl. Volltexte)|o
-vormarsch|avancée, militaire (der, no pl.)|o
+vormarsch|avance (militaire) (der, sans pl.)|o
 vorrang|priorité, préséance (der, no pl.)|o
 vorstadt|banlieue (die, pl. Vorstädte)|o
 völkermord|génocide (der, no pl.)|o
@@ -11929,13 +11929,13 @@ anstoß|impulsion, coup d'envoi; offense (der, pl. Anstöße)|o;o
 appell|appel, rassemblement (der, pl. Appelle)|o
 arbeitsgruppe|groupe de travail (die, pl. Arbeitsgruppen)|o
 arrangement|arrangement (das, pl. Arrangements)|o
-asiat|Asiatique, personne (der, pl. Asiaten)|o
+asiat|Asiatique (personne) (der, pl. Asiaten)|o
 asthma|asthme (das, no pl.)|o
 augenschein|apparence; in Augenschein nehmen: inspecter (der, no pl.)|o;n
 ausspruch|parole, remarque (der, pl. Aussprüche)|o
 balustrade|balustrade (die, pl. Balustraden)|o
 baronin|baronne (die, pl. Baroninnen)|o
-bedienung|service; utilisation, d'une machine (die, no pl.)|o;o
+bedienung|service (die, sans pl.); utilisation (d'une machine)|o;o
 behagen|plaire, convenir; confort, aise (das)|v;o
 beruhigung|apaisement, réconfort (die, no pl.)|o
 beschädigung|dommage, dégât (die, pl. Beschädigungen)|o
@@ -11952,7 +11952,7 @@ einzug|déménagement, entrée dans un logement; entrée, procession (der, pl. E
 entwicklungsbank|banque de développement (die, pl. Entwicklungsbanken)|o
 erdöl|pétrole (das, no pl.)|o
 erhebung|enquête, sondage; élévation; soulèvement (die, pl. Erhebungen)|o;o;o
-feldzug|campagne, militaire (der, pl. Feldzüge)|o
+feldzug|campagne (militaire) (der, pl. Feldzüge)|o
 fernrohr|télescope, longue-vue (das, pl. Fernrohre)|o
 forschungsergebnis|résultat de recherche (das, pl. Forschungsergebnisse)|o
 freihandel|libre-échange (der, no pl.)|o
@@ -12033,7 +12033,7 @@ taschenbuch|livre de poche (das, pl. Taschenbücher)|o
 trunk|boisson, breuvage (der, pl. Trünke)|o
 typus|type (der, pl. Typen)|o
 umstrukturierung|restructuration (die, pl. Umstrukturierungen)|o
-untergebene|subordonné (der/die, pl. Untergebenen)|o
+untergebene|subordonné (personne) (der/die, pl. Untergebenen)|o
 vergleichsweise|comparativement, relativement|o
 verlängerung|prolongation (die, pl. Verlängerungen)|o
 verschmutzung|pollution (die, no pl.)|o
@@ -12108,14 +12108,14 @@ jazzmusiker|musicien de jazz (der, pl. Jazzmusiker)|o
 kernwaffe|arme nucléaire (die, pl. Kernwaffen)|o
 konversation|conversation (die, pl. Konversationen)|o
 kupfer|cuivre (das, no pl.)|o
-köpfchen|petite tête (das, pl. Köpfchen)|o
+köpfchen|petite tête (das, pl. Köpfchen); jugeote, cervelle (fam.)|o;o
 kürzung|coupe, réduction (die, pl. Kürzungen)|o
 landgut|domaine, propriété rurale (das, pl. Landgüter)|o
 lebensdauer|durée de vie (die, no pl.)|o
 lehrstuhl|chaire universitaire (der, pl. Lehrstühle)|o
 manipulation|manipulation (die, pl. Manipulationen)|o
 mikroskop|microscope (das, pl. Mikroskope)|o
-mondenschein|clair de lune, poétique (der, no pl.)|o
+mondenschein|clair de lune (poétique) (der, sans pl.)|o
 mythologie|mythologie (die, pl. Mythologien)|o
 nachsicht|indulgence (die, no pl.)|o
 nationalstaat|État-nation (der, pl. Nationalstaaten)|o
@@ -12182,7 +12182,7 @@ zwanzigmal|vingt fois|o
 übersicht|aperçu, vue d'ensemble (die, pl. Übersichten)|o
 abrufbar|disponible, accessible|o
 abschwächung|affaiblissement, ralentissement (die, pl. Abschwächungen)|o
-akkord|accord, musique; travail à la pièce (der, pl. Akkorde)|o;o
+akkord|accord (musique) (der, pl. Akkorde); travail à la pièce|o;o
 allgemeinheit|grand public; généralité (die, no pl.)|o;o
 anbieter|fournisseur (der, pl. Anbieter)|o
 anfangsbuchstabe|lettre initiale (der, pl. Anfangsbuchstaben)|o
@@ -12227,7 +12227,7 @@ gebühr|frais, redevance (die, pl. Gebühren)|o
 gefieder|plumage (das, no pl.)|o
 gegenüberstehen|faire face à, être opposé à (stand gegenüber, gegenübergestanden)|v
 gemahl|époux, consort (der, pl. Gemahle)|o
-gestade|rivage, littéraire (das, pl. Gestade)|o
+gestade|rivage, grève (littéraire) (das, pl. Gestade)|o
 gewissensbiss|remords (der, pl. Gewissensbisse)|o
 gewölbt|voûté, courbé|o
 gleichmütig|calme, imperturbable|o
@@ -12271,7 +12271,7 @@ regent|régent, souverain (der, pl. Regenten)|o
 reinheit|pureté (die, no pl.)|o
 rohstoffpreis|prix des matières premières (der, pl. Rohstoffpreise)|o
 saatgut|semence (das, no pl.)|o
-schiffen|naviguer, poétique; pisser, vulgaire|v;v
+schiffen|pisser (vulg.); naviguer (vieilli)|v;v
 schilf|roseau (das, no pl.)|o
 schizophrenie|schizophrénie (die, no pl.)|o
 schlafrock|robe de chambre (der, pl. Schlafröcke)|o
@@ -12330,7 +12330,7 @@ python|python (der, pl. Pythons)|o
 pächter|locataire, fermier (der, pl. Pächter)|o
 reduktion|réduction (die, pl. Reduktionen)|o
 refrain|refrain (der, pl. Refrains)|o
-regelrecht|véritable, carrément|o
+regelrecht|véritable, franc; en règle|o;o
 rektor|recteur, directeur (der, pl. Rektoren)|o
 rentner|retraité (der, pl. Rentner)|o
 reputation|réputation (die, no pl.)|o
@@ -12427,7 +12427,7 @@ erschieß|abats-le ! (tutoiement); je tire (fam.)|o;f1s
 erzähl|raconte ! (tutoiement); je raconte (fam.)|o;f1s
 fahr|conduis !, roule ! (tutoiement); je conduis (fam.)|o;f1s
 fass|tonneau (das, pl. Fässer); touche ! (tutoiement); je touche (fam.)|o;o;f1s
-find|je trouve (fam.); trouve ! (tutoiement); je trouve (fam.)|f1s;o;f1s
+find|je trouve (fam.); trouve ! (fam.)|f1s;o
 flieg|vole ! (tutoiement); je vole (fam.)|o;f1s
 frag|demande ! (tutoiement); je demande (fam.)|o;f1s
 geh|va ! (tutoiement); je vais (fam.)|o;f1s
@@ -12465,7 +12465,7 @@ schnapp|attrape ! (tutoiement); j'attrape (fam.)|o;f1s
 schneid|coupe ! (tutoiement); je coupe (fam.)|o;f1s
 schrei|cri (der, pl. Schreie); crie ! (tutoiement); je crie (fam.)|o;o;f1s
 schreib|écris ! (tutoiement); j'écris (fam.)|o;f1s
-setz|assieds-toi !, mets ! (tutoiement); setz dich: assieds-toi; je m'assieds, je mets (fam.)|o;n;f1s
+setz|pose !, mets ! (familier); setz dich: assieds-toi; je pose, je mets (fam.)|o;n;f1s
 sing|chante ! (tutoiement); je chante (fam.)|o;f1s
 sitz|siège (der, pl. Sitze); assis ! (tutoiement); je m'assieds (fam.)|o;o;f1s
 spar|économise ! (tutoiement); j'économise (fam.)|o;f1s
@@ -16811,3 +16811,74 @@ wohnheim|résidence universitaire, foyer (das, pl. Wohnheime)|o
 ölpest|marée noire (die, no pl.)|o
 öltröpfchen|gouttelette d'huile (das, pl. Öltröpfchen)|o
 übertretung|infraction, violation (die, pl. Übertretungen)|o
+weniger|moins; moins (soustraction)|o;o
+lauter|rien que, pur (devant un nom); plus fort|o;o
+bestes|le meilleur; son possible (sein Bestes)|o;o
+süßer|doux, sucré, plus doux ; chéri, mon chou (en apostrophe)|o;o
+heiliger|saint (ein Heiliger); saint, sacré|o;o
+vereinigten|unis; Vereinigten Staaten: les États-Unis; Vereinigten Königreich / Vereinigten Königreichs: le Royaume-Uni; ils unirent|o;n;n;f3p
+zweiter|deuxième, second|o
+wolle|laine (die, sans pl.); il/elle veuille, je veuille (style indirect)|o;f3s
+fremder|étranger (ein Fremder); étranger, bizarre, inconnu|o;o
+achte|huitième; je respecte; achte auf: fais attention à|o;f1s;n
+loser|perdant (fam.) (der, pl. Loser); lâche (forme de lose)|o;o
+herrschaften|mesdames et messieurs (meine Herrschaften); domination, règne (pl. de die Herrschaft)|o;o
+geliebter|amant (ein Geliebter); aimé, bien-aimé|o;o
+kürze|brièveté (die, sans pl.); in Kürze: sous peu, bientôt; je raccourcis|o;n;f1s
+schoß|giron, genoux (der, pl. Schöße); je tirai, il/elle tira (ancienne orthographe de schoss)|o;f1s
+weste|gilet (die, pl. Westen); weiße Weste: casier vierge|o;n
+wärme|chaleur (die, sans pl.); je chauffe, je réchauffe|o;f1s
+verlobter|fiancé (ein Verlobter); fiancé (promis en mariage)|o;o
+mais|maïs (der, sans pl.)|o
+dauer|durée (die, sans pl.); auf Dauer: à long terme, durablement|o;n
+anstelle|à la place de (+ gén.)|o
+bekannter|connaissance, ami (ein Bekannter); connu, célèbre; plus connu|o;o;o
+abreise|départ (die, pl. Abreisen)|o
+schweiß|sueur (der, sans pl.)|o
+schuft|canaille, crapule (der, pl. Schufte)|o
+letzter|dernier|o
+bedacht|prudent, réfléchi; darauf bedacht: soucieux de, désireux de; considéré (de bedenken)|o;n;o
+rast|pause, halte (en voyage) (die, pl. Rasten); il/elle fonce, file à toute allure|o;f3s
+begabt|doué, talentueux|o
+begehrt|recherché, demandé, convoité|o
+puste|souffle, haleine (fam.) (die, sans pl.); außer Puste: à bout de souffle|o;n
+sekte|secte (die, pl. Sekten)|o
+beschämt|honteux|o
+angestellter|employé, commis (ein Angestellter)|o
+verwandter|parent (ein Verwandter); apparenté|o;o
+berechtigt|autorisé (à), en droit (de); justifié|o;o
+überholt|dépassé, périmé; doublé; révisé à fond|o;o;o
+gekonnt|habile, magistral; pu (participe passé de können)|o;o
+vergnügt|joyeux, de bonne humeur|o
+floß|radeau (das, pl. Flöße); il/elle coula (ancienne orthographe de floss)|o;f3s
+kröten|crapauds (pl. de die Kröte); argent, fric (fam.)|o;o
+zustande|zustande kommen: se réaliser, avoir lieu; zustande bringen: réussir à faire, accomplir|n;n
+geborgen|en sécurité, à l'abri; sauvé, récupéré|o;o
+linker|gauche (main, côté); de gauche ; homme de gauche (ein Linker)|o;o;o
+lumpen|chiffon, haillons (der, pl. Lumpen); canailles (pl. de der Lump)|o;o
+ältester|le plus vieux, l'aîné|o
+siebte|septième|o
+pole|Polonais (personne) (der, pl. Polen)|o
+vergebens|en vain|o
+dürre|sécheresse (die, pl. Dürren); sec, aride; maigre|o;o;o
+überzogen|excessif, exagéré; à découvert; recouvert, enduit|o;o;o
+ferner|en outre, de plus; plus lointain, plus éloigné|o;o
+starre|rigide, raide (forme de starr); rigidité (die, sans pl.); je fixe du regard|o;o;f1s
+sankt|Saint, St (devant un nom)|o
+franken|franc (der, pl. Franken); Franconie (région); Francs, Franconiens (pl. de der Franke)|o;o;o
+teils|en partie; teils … teils: en partie … en partie|o;n
+gläubiger|créancier (der, pl. Gläubiger); croyant (ein Gläubiger); religieux, pieux (forme de gläubig)|o;o;o
+distanziert|distant, réservé; sich distanzieren von: prendre ses distances avec|o;n
+gewandt|habile, adroit; tourné (participe passé de wenden)|o;o
+klaue|griffe, serre (die, pl. Klauen); je pique, je vole (fam.)|o;f1s
+verlies|oubliette, cachot (das, pl. Verliese)|o
+anstieg|hausse, augmentation (der, pl. Anstiege); montée; il/elle monta, augmenta|o;o;f3s
+vereinigte|uni; Vereinigte Königreich: le Royaume-Uni; Vereinigte Staaten: les États-Unis; il/elle unit|o;n;n;f3s
+stütze|appui, soutien (die, pl. Stützen); je soutiens|o;f1s
+fülle|abondance, richesse (die, sans pl.); in Hülle und Fülle: en abondance; je remplis|o;n;f1s
+beamter|fonctionnaire (ein Beamter)|o
+anlaß|occasion (ancienne orthographe de Anlass) (der, pl. Anlässe); motif|o;o
+aufschrei|cri (der, pl. Aufschreie); tollé|o;o
+absage|refus, rejet (die, pl. Absagen); annulation|o;o
+reisender|voyageur, passager (ein Reisender)|o
+bleiche|pâle (forme de bleich); je blanchis|o;f1s

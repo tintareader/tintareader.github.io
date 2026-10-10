@@ -233,7 +233,7 @@ silakan|请 (请便)|o
 tolong|请; 帮助|o;v
 maaf|对不起; 劳驾、借过 (引起注意或借道)|o;o
 terima|接受、收到|v
-kasih|给; 爱、慈爱|v;o
+kasih|给 (口语); 情感, 爱|v;o
 terima kasih|谢谢|o
 selamat|平安、安全; 恭喜; ……好 (用于问候: selamat pagi = 早上好)|o;o;o
 nama|名字|o
@@ -268,7 +268,7 @@ tanya|问|v
 jawab|回答|v
 minta|要求、请求; minta maaf: 道歉|v;n
 pikir|想、思考|v
-rasa|感觉、味道; 感到、觉得|o;v
+rasa|感觉; 味道, 滋味; 感到|o;o;v
 ingat|记得、想起|v
 lupa|忘记|v
 harap|希望; 请 (用于告示和正式请求: harap tenang = 请安静)|v;o
@@ -477,7 +477,7 @@ gula-gula|糖果|o
 garam|盐|o
 minyak|油; 食用油|o;o
 sayur|蔬菜; 菜汤、蔬菜菜肴|o;o
-bawang|葱头、蒜|o
+bawang|洋葱, 小葱头|o
 cabai|辣椒|o
 sambal|辣椒酱|o
 kopi|咖啡|o
@@ -548,7 +548,7 @@ lahir|出生|v
 tumbuh|生长|v
 nikah|结婚|v
 cinta|爱|o
-sayang|亲爱的; 疼爱、爱; 可惜|o;o;o
+sayang|亲爱的, 宝贝; 爱, 疼爱; 感情, 疼惜; 可惜|o;v;o;o
 benci|恨、讨厌|v
 percaya|相信、信任|v
 yakin|确信、肯定|o
@@ -644,7 +644,7 @@ sibuk|忙|o
 santai|悠闲、放松|o
 serius|认真、严肃; 真的?、当真? (用于问句)|o;o
 lucu|好笑、滑稽; 可爱|o;o
-seru|刺激的、精彩的 (口语)|o
+seru|刺激的, 好玩的 (口语); 呼喊, 叫喊|o;v
 tugas|任务、作业|o
 ilmu|知识、科学|o
 alat|工具、设备|o
@@ -1215,7 +1215,7 @@ konflik|冲突|o
 krisis|危机|o
 korupsi|腐败|o
 tuhan|上帝、神|o
-allah|真主 (伊斯兰教)|o
+allah|真主, 上帝|o
 doa|祈祷; 为……祈祷 (mendoakan)|o;v
 sembah|崇拜、叩拜|v
 puasa|斋戒、禁食; 斋戒|v;o
@@ -1453,7 +1453,7 @@ halo|你好、喂|o
 yuk|来吧、走吧 (口语)|o
 mantap|棒、牢靠 (口语)|o
 keren|酷、帅 (口语)|o
-asyik|好玩、入迷 (口语)|o
+asyik|好玩, 很棒 (口语); 专注, 入迷|o;o
 galau|心烦意乱、纠结 (口语)|o
 ribet|麻烦、复杂 (口语); 挑剔、爱折腾 (指人)|o;o
 obrol|聊天|v
@@ -1579,7 +1579,7 @@ segala|一切、各种|o
 mundur|后退; 辞职、下台|o;v
 barang|东西、物品; 货物|o;o
 agak|有点、稍微|o
-awak|我 (方言); 船员、机组人员|f1s;o
+awak|船员; 我 (地区用法)|o;f1s
 benda|物体、东西|o
 mengenai|关于; 击中、打中 (目标); 涉及、适用于 (dikenai: 被施以)|o;v;v
 saling|互相|o
@@ -1639,7 +1639,7 @@ tewas|丧生、死亡|o
 keparat|该死的、混蛋 (粗俗)|o
 kesepakatan|协议|o
 lu|你 (雅加达俚语)|f2s2p
-pelacur|妓女 (粗俗)|o
+pelacur|妓女|o
 pangeran|王子|o
 peluru|子弹|o
 binatang|动物|o
@@ -1703,12 +1703,12 @@ lelaki|男人、男性|o
 super|超级|o
 target|目标|o
 jenderal|将军|o
-jalang|野的; 贱人、荡妇 (粗俗)|o;o
+jalang|婊子, 淫妇 (粗俗); 野性的|o;o
 rusia|俄罗斯|o
 india|印度|o
 letnan|中尉|o
 yesus|耶稣|o
-kena|碰到、受到; 遭殃、倒霉|v;v
+kena|被击中, 受到影响; 击中 (目标); 惹上麻烦|v;v;v
 tanggal|日期; 脱落 (指牙齿、纽扣)|o;v
 bro|兄弟 (俚语)|o
 lelucon|笑话|o
@@ -1753,7 +1753,7 @@ nakal|淘气|o
 won|韩元|o
 cina|中国、中国的 (指人时在印尼常含贬义, 宜用 Tionghoa)|o
 kolonel|上校|o
-kemudi|舵、方向盘|o
+kemudi|方向盘, 舵; 驾驶, 掌舵 (mengemudi)|o;v
 liar|野生的、野的|o
 balas|回复、回应; 报复|o;o
 perancis|法国|o
@@ -1954,7 +1954,7 @@ oppa|哥哥、男友 (韩语称呼, 常见于韩剧语境)|o
 culik|绑架|o
 seragam|制服|o
 peristiwa|事件|o
-sidik|指纹|o
+sidik|调查; 调查, 侦查 (menyidik)|o;v
 murni|纯的|o
 meksiko|墨西哥|o
 pil|药丸|o
@@ -2075,7 +2075,7 @@ tradisi|传统|o
 baja|钢|o
 ngomong|说话、讲 (口语)|o
 ngomong-ngomong|顺便说一下 (口语)|o
-samar|模糊的、隐约的|o
+samar|模糊, 隐约, 昏暗; 伪装的|o;o
 total|总共、总计|o
 tahap|阶段|o
 perduli|在乎、关心 (peduli 的另一拼写)|o
@@ -2115,7 +2115,7 @@ nampak|看起来、显得 (口语, 即 tampak)|o
 unik|独特|o
 berisik|吵闹|o
 setir|方向盘; 开车|o;v
-bajak|海盗、劫持|o
+bajak|劫持, 盗版; 犁; bajak laut: 海盗|v;o;n
 serangga|昆虫|o
 inap|过夜、住宿|o
 kendara|驾驶、骑|o
@@ -2146,7 +2146,7 @@ sejenak|片刻|o
 modern|现代的|o
 tembus|穿透、刺穿; 突破、超过 (某数字)|v;v
 wabah|流行病、疫情|o
-cacat|缺陷; 残疾的|o;o
+cacat|缺陷; 残疾 (指人, 现多避免使用, 带冒犯性)|o;o
 liat|看 (口语, 即 lihat)|o
 bravo|好极了|o
 status|地位、状态|o
@@ -2238,7 +2238,7 @@ ambulans|救护车|o
 final|决赛、最终的|o
 lega|宽慰、松了口气; 宽敞|o;o
 ngobrol|聊天 (口语)|o
-sinting|疯了、精神失常|o
+sinting|疯狂, 神经病 (口语)|o
 peradaban|文明|o
 jus|果汁|o
 bunyi|声音; 措辞、内容 (指文本)|o;o
@@ -2262,7 +2262,7 @@ terobsesi|着迷、痴迷|o
 upaya|努力、尝试|o
 semenjak|自从|o
 tukar|交换|o
-kutu|虱子、跳蚤; kutu buku: 书呆子|o;n
+kutu|虱子, 跳蚤; kutu buku: 书呆子, 书虫|o;n
 bagaikan|好像、如同|o
 dongeng|童话、民间故事|o
 buronan|逃犯|o
@@ -2277,7 +2277,7 @@ plastik|塑料; 塑料袋 (口语)|o;o
 dewi|女神|o
 seniman|艺术家|o
 ceo|首席执行官 (CEO)|o
-pemadam|消防队、灭火器|o
+pemadam|灭火器; 消防员; pemadam kebakaran: 消防队|o;o;n
 ceroboh|粗心、鲁莽|o
 aset|资产|o
 tamat|完结、剧终 (指故事、节目); 毕业、读完|o;v
@@ -2298,7 +2298,7 @@ ras|种族|o
 festival|节日、节庆|o
 hina|侮辱、鄙视; 卑贱、可鄙|o;o
 ronde|回合|o
-bak|像、如同 (口语); 水池、水缸; (皮卡的) 货斗; mobil bak: 皮卡车|o;o;o;n
+bak|像, 如同 (书面语); 水槽, 水箱; 敞开的货斗 (皮卡的); mobil bak: 皮卡车|o;o;o;n
 amunisi|弹药|o
 grand|盛大的、大|o
 show|表演、节目|o
@@ -2393,7 +2393,7 @@ bagasi|行李; 后备箱|o;o
 rinci|详细列出|o
 andal|可靠的|o
 sains|科学|o
-waris|继承人、遗产|o
+waris|继承人; 遗产|o;o
 perisai|盾牌|o
 koleksi|收藏|o
 laki|男、男人; 丈夫 (口语)|o;o
@@ -2436,7 +2436,7 @@ romawi|罗马的|o
 kencang|快; 紧; 强劲; 响亮|o;o;o;o
 vagina|阴道|o
 sekian|就这些、到此为止|o
-jas|西装|o
+jas|外套, 上衣 (西装外套, 实验服); jas hujan: 雨衣|o;n
 jubah|长袍|o
 daki|攀登; 污垢 (皮肤上)|o;o
 patuh|听话、顺从|o
@@ -2467,7 +2467,7 @@ frekuensi|频率|o
 erat|紧密|o
 pink|粉红色|o
 burger|汉堡|o
-cabut|拔出; 撤销; 离开、溜走|o;o;o
+cabut|拔出; 撤销; 走人, 溜 (俚语)|v;v;v
 incar|瞄准、盯上|o
 rudal|导弹|o
 klaim|声称、索赔|o
@@ -2693,7 +2693,7 @@ kesalahpahaman|误会|o
 macan|老虎|o
 cabul|淫秽、下流|o
 belati|匕首|o
-lahan|土地、地块; 慢 (古, 如 perlahan)|o;o
+lahan|土地, 地块|o
 preman|流氓、地痞; 便衣的 (指服装)|o;o
 injak|踩|o
 memar|淤伤|o
@@ -2719,11 +2719,11 @@ hemat|节俭、节省|o
 rayu|奉承、引诱|o
 ilusi|幻觉|o
 tegas|坚决、果断|o
-takluk|屈服、征服|o
+takluk|屈服, 投降; 被制服的, 被征服的|v;o
 dekade|十年|o
 kerumunan|人群|o
 bubar|解散、散会; 解散、瓦解 (指团体)|o;v
-mode|模式、时尚|o
+mode|模式; 时尚|o;o
 lekas|快、赶快|o
 kelak|将来、日后|o
 gangster|黑帮分子|o
@@ -2740,7 +2740,7 @@ aktris|女演员|o
 timpa|砸中、压到; 降临 (指灾祸)|v;v
 kemah|帐篷、营地|o
 suri|王后; 榜样 (suri teladan)|o;o
-kelamin|生殖器、性别|o
+kelamin|生殖器; 性别 (男或女); jenis kelamin: 性别|o;o;n
 label|标签|o
 regu|小队、班|o
 wahai|啊! (呼唤感叹词)|o
@@ -2883,7 +2883,7 @@ olimpiade|奥运会|o
 hantam|猛击|o
 lemon|柠檬|o
 parfum|香水|o
-tengok|看、探望 (口语)|o
+tengok|看 (口语); 探望, 看望 (口语)|v;v
 perkosa|强奸|o
 kampret|该死 (轻度粗口)|o
 mall|购物中心|o
@@ -2986,7 +2986,7 @@ pasifik|太平洋|o
 kuba|古巴|o
 prestasi|成就|o
 poker|扑克|o
-sangkut|挂住、牵涉|o
+sangkut|被卡住, 被挂住 (在某物上); 涉及, 牵涉|v;v
 ganas|凶猛、恶性的|o
 masturbasi|手淫|o
 pijat|按摩|o
@@ -3152,7 +3152,7 @@ mempelai|新娘、新郎|o
 bakteri|细菌|o
 parade|游行|o
 administrasi|行政、管理|o
-hela|拉、拖; 叹气|o;o
+hela|拉, 拖; menghela napas / hela napas: 叹气|v;n
 serap|吸收|o
 penggal|砍头、截断|o
 sukacita|喜悦|o
@@ -3326,7 +3326,7 @@ sunyi|寂静的、安静的|o
 kolom|栏、列、专栏|o
 ironis|讽刺的|o
 ala|…式、仿照…的风格|o
-kafir|异教徒、不信者|o
+kafir|异教徒, 不信教者 (常带冒犯性)|o
 pm|总理 (缩写)|o
 lusin|打 (十二个, 同 selusin)|o
 penguntit|跟踪者|o
@@ -4036,7 +4036,7 @@ camkan|记住、注意 (祈使)|o
 prima|一流的、极好的|o
 limun|柠檬汽水、汽水 (旧)|o
 tarif|费率、关税|o
-atletik|田径、运动的|o
+atletik|田径|o
 lereng|山坡、斜坡|o
 sentiasa|总是、始终 (马来语拼写, 同 senantiasa)|o
 tumbang|倒下、倒塌|o
@@ -4049,7 +4049,7 @@ seruling|笛子|o
 enzim|酶|o
 renung|沉思、深思|o
 virtual|虚拟的|o
-acuh|在意、理会 (tak acuh: 漠不关心)|o
+acuh|在乎，理会; acuh tak acuh / tak acuh / tidak acuh: 漠不关心; 冷漠，疏远(口语)|v;n;o
 steroid|类固醇|o
 orientasi|方向、取向、入职培训|o
 obeng|螺丝刀|o
@@ -4214,7 +4214,7 @@ bundar|圆的|o
 optik|光学的|o
 pukau|迷住|o
 resume|摘要;简历|o;o
-igau|说梦话、胡言乱语|o
+igau|说梦话; 说胡话，神志不清|v;v
 resah|不安的、焦虑的|o
 kondominium|公寓|o
 sarden|沙丁鱼|o
@@ -4234,7 +4234,7 @@ gapai|伸手够|o
 pawai|游行|o
 hambar|淡而无味的|o
 fasih|流利的|o
-gerangan|究竟、到底 (诗歌用语)|o
+gerangan|究竟，到底(用于疑问句: siapa gerangan = 到底是谁); 或许(文学用语)|o;o
 ekstasi|摇头丸 (毒品)|o
 khotbah|布道、讲道|o
 puri|宫殿、城堡|o
@@ -4326,7 +4326,7 @@ infrastruktur|基础设施|o
 sumbu|灯芯、导火线;轴;sumbu pendek: 脾气暴躁 (口语)|o;o;n
 pekik|尖叫、呼喊|o
 variabel|变量|o
-daur|循环 (daur ulang)|o
+daur|周期，循环; daur ulang: 回收，循环再利用|o;n
 laris|畅销的、抢手的 (商品)|o
 terlantar|被遗弃的、无人照顾的|o
 tercela|可耻的|o
@@ -4512,8 +4512,8 @@ propinsi|省 (同 provinsi)|o
 cuka|醋|o
 replika|复制品|o
 manset|袖口|o
-kisar|范围、旋转|o
-pacu|鞭策、竞赛|o
+kisar|范围; 旋转，转动|o;v
+pacu|赛跑(马、船); 策励，加速|o;v
 antusiasme|热情|o
 aluminium|铝|o
 rontok|脱落 (头发/树叶)|o
@@ -4525,7 +4525,7 @@ skizofrenia|精神分裂症|o
 pangkuan|大腿上、怀里 (坐在别人腿上)|o
 bertekuk|屈服、投降 (bertekuk lutut)|o
 ubi|红薯、块茎|o
-setapak|小路 (jalan setapak)|o
+setapak|一步|o
 ngotot|死缠烂打、固执坚持 (口语)|o
 harmonis|和谐的|o
 merana|受苦、憔悴|o
@@ -4589,7 +4589,7 @@ tesis|论文|o
 kerucut|圆锥|o
 perangko|邮票|o
 otentik|真正的、正宗的|o
-seteru|宿敌、对头|o
+seteru|敌人，对手; berseteru: 不和，结仇; perseteruan: 宿怨，冲突|o;n;n
 kultus|邪教、崇拜|o
 bahama|巴哈马|o
 wahana|载体、工具;游乐设施 (游乐园)|o;o
@@ -4663,7 +4663,7 @@ gembong|头目、首领|o
 getah|树液、树脂|o
 ajal|死期、大限|o
 silikon|硅胶;硅 (元素)|o;o
-rasul|使者、先知 (伊斯兰教)|o
+rasul|使者，先知，使徒|o
 gemar|喜欢、爱好|o
 dekorasi|装饰|o
 dentang|当当声、钟声|o
@@ -4791,7 +4791,7 @@ kolektif|集体的|o
 kismis|葡萄干|o
 serdadu|士兵|o
 streaming|流媒体、直播|o
-reformasi|改革|o
+reformasi|改革(也指1998年后的改革时期); 宗教改革(新教)|o;o
 gejolak|动荡、波动|o
 ion|离子|o
 kuas|画笔、刷子|o
@@ -4960,7 +4960,7 @@ kasut|鞋 (书面语/诗歌用语)|o
 termos|保温瓶|o
 ekspos|曝光、揭露|o
 progresif|进步的、渐进的|o
-tindih|重叠、压住|o
+tindih|压住，压在上面; tumpang tindih: 重叠，交叠|v;n
 elok|美丽的、好的|o
 juragan|老板、东家|o
 luhur|崇高的、高尚的|o
@@ -5036,7 +5036,7 @@ ringkas|简洁的、简短的|o
 yordania|约旦|o
 safari|野生动物观光|o
 arsenal|军火库|o
-jajak|民意调查 (jajak pendapat)|o
+jajak|试探，探索; jajak pendapat: 民意调查，民调|v;n
 pencet|按、摁 (按钮)|o
 ulama|伊斯兰学者|o
 sengketa|纠纷、争端|o
@@ -5068,7 +5068,7 @@ idaman|理想的、梦寐以求的 (wanita idaman)|o
 lapak|摊位|o
 labil|情绪不稳定的|o
 konversi|转换|o
-papar|展示、阐述|o
+papar|陈述，阐明; 暴露(于)|v;v
 visioner|有远见的|o
 fraksi|党团、派系 (政治)|o
 bebal|愚笨的、迟钝的|o
@@ -5317,7 +5317,7 @@ kemajuan|进步|o
 keuangan|财务、金融|o
 kebutuhan|需要、需求|o
 kedamaian|和平、安宁|o
-kepentingan|利益、重要性|o
+kepentingan|利益, 权益; 重要性|o;o
 kesedihan|悲伤|o
 kegagalan|失败|o
 kedinginan|冷、受冻|v
@@ -5588,7 +5588,7 @@ pemilih|选民;挑剔的|o;o
 penanda|标记|o
 pendengar|听众|o
 penyelundup|走私者|o
-pencuci|清洗机、洗涤|o
+pencuci|清洗者，清洁剂; pencuci mulut: 甜点|o;n
 penyelidik|调查员|o
 pesaing|竞争对手|o
 pemindai|扫描仪|o
@@ -5649,7 +5649,7 @@ penghibur|艺人;安慰|o;o
 pengadilan|法院、审判|o
 penerbangan|航班、航空|o
 pengalaman|经验、经历|o
-pemakaman|葬礼、墓地|o
+pemakaman|葬礼, 安葬; 墓地|o;o
 pemikiran|思想、想法|o
 penghargaan|奖项;赞赏|o;o
 penjelasan|解释|o
@@ -5726,7 +5726,7 @@ pengarahan|简报、指导|o
 pembedahan|手术|o
 penyerahan|移交、投降|o
 pemesanan|预订、订购|o
-penggalangan|动员、募捐|o
+penggalangan|动员，号召; penggalangan dana: 筹款|o;n
 pengisian|填充、充电|o
 pemujaan|崇拜|o
 pembatalan|取消|o
@@ -6373,7 +6373,7 @@ terisolasi|被孤立的、被隔离的|o
 terkecil|最小的|o
 tergores|被划伤的|o
 tergeletak|横躺着的|o
-terbelakang|落后的、(指人) 智力迟钝的 (贬义)|o
+terbelakang|落后，欠发达; 智力障碍(指人，现因具冒犯性而避免使用)|o;o
 terbebas|获得自由的、被解放|o
 tertanam|种下的、嵌入的|o
 terkaya|最富有的|o
@@ -6536,7 +6536,7 @@ bekerja|工作|v
 berpikir|想、思考|v
 berbicara|说话、谈话|v
 berhasil|成功|v
-berdua|我们俩、两人一起|o
+berdua|两人一起，两者都，成双|o
 berarti|意思是、意味着;有意义的|v;o
 berjalan|走路、步行;进行、运行 (指过程)|v;v
 bermain|玩、玩耍|v
@@ -6561,13 +6561,13 @@ bernama|名叫、叫作|o
 bersumpah|发誓、宣誓|v
 berasal|来自、源于|v
 berhubungan|有关、有联系|v
-bertanggung|负责 (bertanggung jawab)|v
+bertanggung|bertanggung jawab: 负责|n
 bermaksud|打算、有意|v
 berharga|宝贵的、有价值的|o
 berbuat|做、干|v
 bercinta|做爱|v
 berteriak|喊叫、大叫|v
-berterima|接受 (berterima kasih)|v
+berterima|berterima kasih: 感谢, 感激|n
 berlari|跑|v
 berdoa|祈祷|v
 bersiap|准备|v
@@ -6608,7 +6608,7 @@ bertugas|值勤、当班|v
 bersinar|发光、照耀|v
 berduka|哀悼、悲伤|v
 bernafas|呼吸|v
-bertingkah|捣乱、举止古怪|v
+bertingkah|表现，举止(像); 捣乱，炫耀|v;v
 berpisah|分开、分离;分手 (指情侣)|v;v
 berdansa|跳舞|v
 berlutut|跪下|v
@@ -6616,7 +6616,7 @@ bercerita|讲故事|v
 berisi|装有、包含|v
 bermasalah|有问题的|o
 bertempur|战斗、作战|v
-bertiga|我们三个|o
+bertiga|三人一起, 三人组|o
 berlayar|航行|v
 bertambah|增加|v
 berbakat|有天赋的|o
@@ -6724,7 +6724,7 @@ beserta|连同、与……一起|o
 bermanfaat|有益的、有用的|o
 berpegang|坚持、抓住|v
 berkomitmen|坚定投入的、有承诺的|o
-berempat|我们四个|o
+berempat|四人一起，四人全体|o
 berdiam|居住、停留;berdiam diri: 保持沉默|v;n
 berkelas|有品位的、高档的|o
 berpacaran|谈恋爱|v
@@ -6879,7 +6879,7 @@ mengalahkan|打败|v
 menempatkan|安置、放置|v
 membicarakan|谈论、讨论|v
 menyedihkan|令人伤心的、可怜的|o
-mengeluarkan|拿出、发出、花费|v
+mengeluarkan|拿出; 发出, 发布; 花 (钱)|v;v;v
 menyebabkan|导致、引起|v
 menjalankan|运行、执行|v
 melupakan|忘记|v
@@ -6989,7 +6989,7 @@ mengantarkan|送达;护送|v;v
 menyatukan|使团结、统一|v
 mempekerjakan|雇用|v
 membangunkan|叫醒|v
-mengundurkan|推迟;辞职|v;v
+mengundurkan|推迟, 延后; mengundurkan diri: 辞职, 退出|v;n
 membuatkan|为……做|v
 mengamankan|保护、确保安全;扣押、拘留 (指警方)|v;v
 membelikan|为……买|v
@@ -7014,7 +7014,7 @@ menerbangkan|放飞、驾驶 (飞行物)|v
 meluncurkan|发射、推出|v
 melumpuhkan|使瘫痪、使失去能力|v
 menyimpulkan|总结、得出结论|v
-meneruskan|继续、转交|v
+meneruskan|继续; 转交，转发|v;v
 menumpahkan|泼洒、洒出;倾吐 (感情)|v;v
 memalsukan|伪造、篡改|v
 melainkan|而是|o
@@ -7022,7 +7022,7 @@ memaksakan|强加、强迫|v
 mewujudkan|实现|v
 menggerakkan|移动、推动|v
 memulihkan|恢复、修复|v
-merendahkan|贬低、降低|v
+merendahkan|贬低，羞辱; 降低|v;v
 mendiskusikan|讨论|v
 menggelikan|好笑的;怕痒的、令人发痒的|o;o
 memusnahkan|歼灭、消灭|v
@@ -7202,7 +7202,7 @@ mendapat|得到、收到|v
 ceritakan|讲述|v
 mendarat|着陆、登陆|v
 berbatu|多石的|o
-melepas|脱下、放开|v
+melepas|脱下 (衣服, 鞋子); 放开, 释放|v;v
 sepotong|一块、一片|o
 alami|自然的;经历|o;v
 apakah|吗 (疑问标记);是否|g;o
@@ -7251,7 +7251,7 @@ iring-iringan|队伍、车队|o
 orang-orangan|稻草人;假人、人像|o;o
 semata-mata|仅仅、纯粹|o
 sebenarnya|其实、事实上;真正的那个|o;o
-seharusnya|本应该、本来应该 (但没有)|o
+seharusnya|应该, 理应; 本应 (但没有)|o;o
 sepertinya|似乎、看来|f3s
 akhirnya|终于、最后|o
 sebaiknya|最好|f3s
@@ -7876,7 +7876,7 @@ syafa'at|说情、代求|o
 terjerumus|陷入、误入歧途|v
 kolesterol|胆固醇|o
 relawan|志愿者|o
-serbuk|粉末;花粉|o;o
+serbuk|粉末; serbuk sari: 花粉|o;n
 sterilisasi|消毒、绝育|o
 transformator|变压器|o
 loop|循环、环路|o
@@ -8775,12 +8775,12 @@ dipersonalisasi|被个性化|v
 diwafatkan|被取走生命、去世|v
 diyat|血金、伤害赔偿金|o
 goncangan|震动、冲击|o
-hujatan|亵渎、谩骂|o
+hujatan|辱骂，诋毁，严厉批评; 亵渎|o;o
 magma|岩浆|o
 manna|吗哪 (天降食物)|o
 menaungi|庇护、遮蔽;统辖、管理|v;v
 menghardik|呵斥、厉声责骂|v
-menyandangkan|授予、挂上|v
+menyandangkan|授予(头衔、奖项); 挎在肩上|v;v
 mihrab|米哈拉布 (礼拜朝向壁龛)|o
 penangkaran|人工繁育;繁育场|o;o
 ridha|真主的喜悦、认可;满意、甘心|o;o
@@ -8954,7 +8954,7 @@ tuas|杠杆|o
 array|数组|o
 balada|民谣、叙事曲|o
 generik|通用的|o
-kakanda|哥哥、亲爱的 (敬称)|o
+kakanda|兄长，姐姐(正式、敬称); 亲爱的(对丈夫或情人)|o;o
 merambat|蔓延、攀爬 (指植物或火)|v
 nikotin|尼古丁|o
 perkusi|打击乐|o
@@ -9018,7 +9018,7 @@ pipih|扁平的|o
 sumberdaya|资源|o
 tiroid|甲状腺|o
 bangau|鹭、鹳|o
-bas|公共汽车|o
+bas|低音(嗓音、乐器); 公共汽车(马来语)|o;o
 inkubasi|孵化、潜伏期|o
 kastor|蓖麻、脚轮|o
 mancur|喷出、涌出;air mancur: 喷泉|v;n
@@ -9105,7 +9105,7 @@ iuran|会费、缴款|o
 kentara|明显的|o
 kobalt|钴|o
 kolumnis|专栏作家|o
-kondusif|有利的|o
+kondusif|有利的; 平静，可控(指局势)|o;o
 konsolidasi|巩固、整合|o
 liberalisme|自由主义|o
 malware|恶意软件|o
@@ -9126,7 +9126,7 @@ reunifikasi|重新统一|o
 sektoral|部门的、行业的|o
 start-up|初创企业|o
 statistika|统计学|o
-tampuk|果蒂;权柄|o;o
+tampuk|(权力、领导的)大权; (果实的)果柄|o;o
 teologis|神学的|o
 terdegradasi|退化的;降级的|o;o
 triwulan|季度|o
@@ -9185,7 +9185,7 @@ diaspora|海外侨民|o
 halogen|卤素|o
 invasif|侵入性的|o
 istiadat|习俗、传统 (adat istiadat)|o
-keling|铆钉|o
+keling|铆钉; 印度人，南印度人(过时，现具冒犯性)|o;o
 kromatid|染色单体|o
 mamogram|乳房X光片|o
 menelaah|研究、审查|v
@@ -9242,7 +9242,7 @@ dihalau|被赶走|v
 diperolok-olokkan|被嘲弄|v
 dirham|迪拉姆|o
 diridhai|为真主所喜悦、蒙认可|v
-disandangkan|被授予、被挂上|v
+disandangkan|被授予(头衔、奖项); 被挎在肩上|v;v
 eksponensial|指数的|o
 fidyah|罚赎 (补偿未尽的宗教义务)|o
 gerai|摊位、门店、柜台|o
@@ -9535,7 +9535,7 @@ stabilisasi|稳定化|o
 stimulan|兴奋剂|o
 yodium|碘|o
 agonis|激动剂|o
-berengsek|差劲的、该死的 (粗俗);混蛋、无赖 (粗俗)|o;o
+berengsek|糟糕的, 该死的 (粗俗); 混蛋, 浑蛋 (粗俗)|o;o
 charter|包租、宪章|o
 elips|椭圆|o
 feodal|封建的|o
@@ -9570,7 +9570,7 @@ sakramen|圣礼|o
 sekuritas|证券|o
 simultan|同时的|o
 sonikasi|超声处理|o
-sundal|妓女、婊子 (粗俗, 贬义)|o
+sundal|妓女, 婊子 (冒犯)|o
 terapeutik|治疗性的|o
 ambigu|模棱两可的|o
 antiretroviral|抗逆转录病毒的|o
@@ -9812,7 +9812,7 @@ sirih|蒌叶、槟榔叶|o
 biodata|个人履历、简介|o
 titah|圣旨、御令|o
 tang|钳子、老虎钳|o
-punggawa|朝臣、王室官员|o
+punggawa|王室官员，朝臣; 球员，成员(球队或职员)|o;o
 sayembara|比赛、竞赛 (有奖)|o
 tara|相等、匹敌;tiada tara: 无与伦比|o;n
 intan|钻石|o
@@ -10243,7 +10243,7 @@ titian|独木桥、木板桥|o
 verba|动词|o
 akh|啊、唉|o
 dirundung|被困扰、遭受 (…折磨)|o
-jadah|haram jadah: 杂种 (骂人话)|n
+jadah|糯米糕(爪哇语); haram jadah: 私生子(粗俗)|o;n
 musti|必须 (口语, = mesti)|o
 nda|不、没有 (口语, = tidak)|o
 nibung|尼邦棕榈|o
@@ -10383,7 +10383,7 @@ menanjak|爬坡、上坡;上升 (指事业、价格)|v;v
 menubruk|撞上、碰撞;扑向|v;v
 nagasari|香蕉糕 (蒸香蕉米糕)|o
 pelik|复杂的、错综的|o
-tandas|彻底地、完全地 (常用 habis tandas);厕所|o;o
+tandas|强调，坚定地说(引语后: tandas dia = 他/她强调); 彻底，完全(通常 habis tandas); 厕所(马来语)|v;o;o
 tempoyak|发酵榴莲酱|o
 tumpuan|支点、立足点;寄托 (希望)|o;o
 jongkok|蹲着的;蹲|o;v
@@ -10567,7 +10567,7 @@ pedukuhan|小村落|o
 pegal|酸痛的、僵硬的 (指肌肉)|o
 pitam|naik pitam: 勃然大怒|n
 waswas|忧虑的、担心的 (= was-was)|o
-cebol|侏儒|o
+cebol|侏儒(指人时具冒犯性)|o
 kesurupan|被附身的 (鬼魂)|o
 menggelepar|挣扎、扑腾、翻滚|v
 menyibak|拨开 (头发、帘子)、推开|v
@@ -10626,7 +10626,7 @@ dukacita|悲伤、哀痛;哀悼、慰问|o;o
 guk|汪 (狗叫声)|o
 jamban|茅厕、厕所|o
 kepalan|拳头|o
-lori|卡车、货车;铁路货车|o;o
+lori|轨道货车，手推车(轻便铁路上); 卡车(马来语)|o;o
 meledek|取笑、嘲弄|v
 merisaukan|担心、忧虑;令人担忧的|v;o
 metaforis|隐喻的|o
@@ -10884,7 +10884,7 @@ sempoa|算盘|o
 separatis|分裂分子|o
 serong|倾斜的、歪斜的;不忠的 (指感情)|o;o
 simposium|研讨会|o
-sipit|细长的、眯缝眼的 (指眼睛, 用于人时可含贬义)|o
+sipit|眯缝眼的，眼睛细长的|o
 spekulatif|投机的、推测性的|o
 stator|定子|o
 stunting|发育迟缓 (儿童)|o
@@ -12568,7 +12568,7 @@ sakit keras|病重的|o
 tukang cukur|理发师|o
 lemari es|冰箱|o
 sapu tangan|手帕|o
-ikan mas|金鱼;鲤鱼|o;o
+ikan mas|鲤鱼; 金鱼|o;o
 pendek kata|总之、简而言之|o
 tenaga kerja|劳动力;劳工|o;o
 hati kecil|内心深处、内心的声音|o

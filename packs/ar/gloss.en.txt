@@ -106,7 +106,7 @@
 نظر|to look (at) (ينظُر، نظر); sight, view (pl. أنظار)|v;o
 أخذ|to take (يأخُذ، أخذ)|v
 حقا|really, truly|o
-مثل|like, as, such as; proverb, example (مَثَل، pl. أمثال); مثلا: for example; to represent, to act (a role) (II, يمثل، تمثيل)|o;o;n;v
+مثل|like, as, such as; proverb, example (مَثَل، pl. أمثال); مثلا: for example; to represent (II, يمثل، تمثيل); to act (a role)|o;o;n;v;v
 ل|for, to (belonging: لي mine); in order to (+ verb); let (+ verb: لنذهب let's go)|o;o;o
 أيضا|also, too|o
 حصل|to get, to obtain (+ على; يحصُل، حصول); to happen, to occur|v;v
@@ -237,7 +237,7 @@
 بيت|house, home (pl. بيوت); verse (pl. أبيات)|o;o
 متأكد|sure, certain|o
 شرطة|police|o
-وصل|to arrive, to reach (يصِل، وصول); to connect, to give a lift (II, يوصل، توصيل)|v;v
+وصل|to arrive, to reach (يصِل، وصول); to connect (II, يوصل، توصيل); to give a lift|v;v;v
 فكرة|idea (pl. أفكار)|o
 لعنة|curse; اللعنة: damn it!, damn|o;n
 قليلا|a little, a bit|o
@@ -383,7 +383,7 @@
 جانب|side (pl. جوانب); إلى جانب: beside, besides; جانبا: aside|o;n;n
 كأن|as if, as though (+ noun or pronoun: كأنه as if he)|o
 رائعة|wonderful, great (f.); masterpiece (pl. روائع)|o;o
-رجاء|please; hope, request|o;o
+رجاء|please; hope; request|o;o;o
 الأرض|the earth, the world; the ground, the floor|o;o
 أمل|hope (pl. آمال); to hope (يأمُل، أمل); Amal (name)|o;v;o
 مجنون|crazy, mad; madman (pl. مجانين)|o;o
@@ -464,7 +464,7 @@
 مهمة|mission, task (pl. مهام); important (f.)|o;o
 ذات|self, essence; بالذات: in particular, exactly; having, with (f. of ذو); ذات مرة: once, one time|o;n;o;n
 حرب|war (pl. حروب)|o
-تناول|to eat, to have (a meal) (VI, يتناول، تناول); to take (medicine), to deal with|v;v
+تناول|to eat, to have (a meal) (VI, يتناول، تناول); to take (medicine); to deal with (a topic)|v;v;v
 استمر|to continue, to go on (X, يستمر، استمرار)|v
 ملبس|clothing, garment (pl. ملابس)|o
 بينما|while, whereas|o
@@ -560,7 +560,7 @@
 ميل|mile (pl. أميال); inclination, tendency (pl. ميول)|o;o
 استحق|to deserve (X, يستحق، استحقاق); يستحق: to be worth (it)|v;n
 ينبغي|should, ought to (ينبغي أن، ينبغي عليك you should)|o
-وهى|and she, while she (= وهي)|o
+وهى|and she, while she (careless spelling of وهي)|o
 قوي|strong, powerful (pl. أقوياء)|o
 ليل|night, night-time|o
 ميلاد|birth; عيد ميلاد: birthday|o;n
@@ -592,7 +592,7 @@
 وحدة|unit; loneliness, being alone; unity|o;o;o
 حي|alive, living (pl. أحياء); neighbourhood, quarter (pl. أحياء)|o;o
 مخدر|drug, narcotic (مخدرات drugs); anaesthetic; drugged, numb|o;o;o
-أبى|to refuse (يأبى، إباء); my father (= أبي)|v;o
+أبى|to refuse (يأبى، إباء); my father (careless spelling of أبي)|v;o
 عجب|wonder, amazement; لا عجب: no wonder|o;n
 حماية|protection|o
 رحلة|trip, journey, flight|o
@@ -651,7 +651,7 @@
 ثان|second (الثاني); another, other|o;o
 خمسة|five (with a masculine noun; خمس with a feminine)|o
 انتبه|to pay attention, to watch out, to notice (VIII, ينتبه، انتباه)|v
-سن|age; tooth (pl. أسنان); to enact (a law), to sharpen (يسُن، سن)|o;o;v
+سن|age; tooth (pl. أسنان); to enact (a law) (يسُن، سن); to sharpen|o;o;v;v
 أمريكي|American (pl. أمريكان، أمريكيون)|o
 آمن|safe, secure; to believe (IV, يؤمن، إيمان)|o;v
 قريب|near, close; relative (pl. أقارب)|o;o
@@ -840,7 +840,7 @@
 التقى|to meet (+ ب; VIII, يلتقي، التقاء)|v
 مرح|fun, merriment; cheerful, merry (مرِح)|o;o
 شقة|apartment, flat (pl. شقق)|o
-عقد|contract, deal (pl. عقود); decade; necklace (عِقد); to hold (a meeting), to tie (يعقِد، عقد)|o;o;o;v
+عقد|contract, deal (pl. عقود); decade; necklace (عِقد); to hold (a meeting) (يعقِد، عقد); to tie (a knot)|o;o;o;v;v
 محظوظ|lucky|o
 تأخر|to be late, to be delayed (V, يتأخر، تأخر); delay, lateness|v;o
 سماء|sky, heaven|o
@@ -851,7 +851,7 @@
 محتمل|possible, probable, likely; bearable|o;o
 شدة|intensity, severity, force; hardship; بشدة: very much, strongly|o;o;n
 طاقة|energy, power; capacity|o;o
-صف|row, line (pl. صفوف); class, classroom; to line up, to park (يصُف، صف)|o;o;v
+صف|row, line (pl. صفوف); class, classroom; to line up (يصُف، صف); to park (a car)|o;o;v;v
 هان|to be easy, to be of little account (يهون، هوان)|v
 ويل|woe (ويل لك woe to you); Will (name)|o;o
 راهن|to bet (III, يراهن، مراهنة); current, present (الوضع الراهن the status quo)|v;o
@@ -908,7 +908,7 @@
 بشر|human beings, mankind; to bring good news (II, يبشر، تبشير)|o;v
 شمس|sun (pl. شموس)|o
 معنى|meaning, sense (pl. معان)|o
-حكم|judgement, verdict, sentence (pl. أحكام); rule, government; referee (حَكَم); to rule, to judge, to sentence (يحكُم، حكم)|o;o;o;v
+حكم|judgement, verdict, sentence (pl. أحكام); rule, government; referee (حَكَم); to rule, to govern (يحكُم، حكم); to judge, to sentence|o;o;o;v;v
 كاميرا|camera|o
 ذو|having, possessing, with (ذو معنى meaningful; f. ذات)|o
 قتال|fighting, combat|o
@@ -981,7 +981,7 @@
 غد|tomorrow (الغد)|o
 واجه|to face, to confront (III, يواجه، مواجهة)|v
 السنة|the year; the Sunna (the Prophet's practice)|o;o
-اعترف|to confess, to admit, to recognise (VIII, يعترف، اعتراف)|v
+اعترف|to confess, to admit (VIII, يعترف، اعتراف); to recognise (a state, a right)|v;v
 بكثير|much, by far (أفضل بكثير much better)|o
 حيال|concerning, about (ماذا ستفعل حيال … what will you do about …)|o
 تحكم|to control (+ ب، في; V, يتحكم، تحكم); control|v;o
@@ -1007,7 +1007,7 @@
 بكى|to cry, to weep (يبكي، بكاء)|v
 تحول|to turn into, to change into (+ إلى; V, يتحول، تحول); transformation, change|v;o
 قاض|judge (القاضي، pl. قضاة)|o
-فصل|chapter, section (pl. فصول); season; to separate, to fire, to dismiss (يفصِل، فصل)|o;o;v
+فصل|chapter, section (pl. فصول); season; to separate (يفصِل، فصل); to fire, to dismiss (from a job)|o;o;v;v
 متجر|shop, store (pl. متاجر)|o
 جمع|to collect, to gather (يجمَع، جمع); plural (grammar)|v;o
 تفقد|to check, to inspect (V, يتفقد، تفقد); you lose, she loses (تفقِد)|v;f2s2p
@@ -1046,7 +1046,7 @@
 سابقة|precedent; previous record (criminal) (pl. سوابق); previous (f.)|o;o;o
 فشل|to fail (يفشَل، فشل); failure|v;o
 إلينا|to us, towards us|o
-تابع|to follow, to continue, to go on (III, يتابع، متابعة); follower (pl. أتباع); belonging to (+ ل)|v;o;o
+تابع|to follow, to keep up with (III, يتابع، متابعة); to continue, to go on; follower (pl. أتباع); belonging to (+ ل)|v;v;o;o
 مفقود|missing, lost|o
 طرق|to knock (يطرُق، طرق); roads, ways (pl. of طريق)|v;o
 فجأة|suddenly|o
@@ -1075,7 +1075,7 @@
 مار|passer-by, passing (pl. مارة); Saint (Christian title: مار جرجس Saint George)|o;o
 استغرق|to take (time), to last (X, يستغرق، استغراق)|v
 سابقا|previously, before, formerly|o
-رد|to reply, to answer, to give back (يرُد، رد); reply, response (pl. ردود)|v;o
+رد|to reply, to answer (يرُد، رد); to give back, to return; reply, response (pl. ردود)|v;v;o
 كنيسة|church (pl. كنائس)|o
 مجلس|council, board (pl. مجالس); sitting room|o;o
 تصوير|filming, shooting, photography|o
@@ -1093,7 +1093,7 @@
 مخطئ|wrong, mistaken (أنت مخطئ you're wrong)|o
 أمريكا|America|o
 كلية|college, faculty; kidney (كُلية، pl. كلى)|o;o
-التقط|to pick up, to take (a photo), to catch (VIII, يلتقط، التقاط)|v
+التقط|to pick up, to catch (VIII, يلتقط، التقاط); to take (a photo)|v;v
 مصاب|injured, wounded; infected, sick (+ ب)|o;o
 قفز|to jump (يقفِز، قفز)|v
 تخلى|to give up, to abandon (+ عن; V, يتخلى، تخلي)|v
@@ -1132,7 +1132,7 @@
 موسم|season (pl. مواسم)|o
 عار|shame, disgrace; naked (عارٍ)|o;o
 باق|remaining, staying (الباقي the rest)|o
-وقف|to stand, to stop (يقِف، وقوف); endowment (pl. أوقاف)|v;o
+وقف|to stand (يقِف، وقوف); to stop, to halt; endowment (pl. أوقاف)|v;v;o
 هوية|identity; ID card (بطاقة الهوية)|o;o
 عصابة|gang; blindfold, bandage|o;o
 دواء|medicine, drug (pl. أدوية)|o
@@ -1259,7 +1259,7 @@
 واجب|duty, obligation; homework; necessary, obligatory|o;o;o
 ظلام|darkness, dark|o
 أسماء|names (pl. of اسم); Asmaa (name)|o;o
-بحرية|navy; freely (ب + حرية)|o;o
+بحرية|navy; naval, marine, sea (adj., f.); freely (ب + حرية)|o;o;o
 شر|evil, harm (pl. شرور)|o
 حاليا|currently, now, at present|o
 تفصيل|detail (pl. تفاصيل); بالتفصيل: in detail|o;n
@@ -1329,7 +1329,7 @@
 فارغ|empty; vacant, free|o;o
 إصلاح|repair, fixing; reform|o;o
 تشغيل|running, operation, turning on; employment|o;o
-محيط|ocean; surroundings, circumference|o;o
+محيط|ocean; surroundings, environment; circumference|o;o;o
 وكالة|agency|o
 حافلة|bus|o
 ركب|to ride, to get in, to board (يركَب، ركوب); knees (pl. of ركبة)|v;o
@@ -1459,7 +1459,7 @@
 حالما|as soon as|o
 نصيحة|advice (pl. نصائح)|o
 بيانات|data (pl. of بيان)|o
-تجاوز|to go beyond, to exceed, to get over (VI, يتجاوز، تجاوز); to overtake|v;v
+تجاوز|to go beyond, to exceed (VI, يتجاوز، تجاوز); to get over; to overtake|v;v;v
 صعوبة|difficulty; بصعوبة: with difficulty|o;n
 ريح|wind (pl. رياح)|o
 كرسي|chair (pl. كراسي)|o
@@ -1546,7 +1546,7 @@
 أنزل|to bring down, to lower, to drop off (IV, ينزل، إنزال); I go down (أنزِل)|v;f1s
 ممارسة|practice, exercise|o
 أطول|longer, longest, taller|o
-أصغر|smaller, smallest, younger, youngest|o
+أصغر|smaller, smallest; younger, youngest|o;o
 مخلوق|creature, being|o
 وسيلة|means, way (pl. وسائل)|o
 تقبل|to accept (V, يتقبل، تقبل); you accept, she accepts (تقبَل)|v;f2s2p
@@ -1575,7 +1575,7 @@
 خمر|wine, alcohol (pl. خمور)|o
 بيرة|beer|o
 أداء|performance|o
-كريم|generous, kind (pl. كرماء); cream (lotion)|o;o
+كريم|generous, kind (pl. كرماء); cream (lotion); Karim (name)|o;o;o
 مسار|path, course, track|o
 استسلم|to surrender, to give up (X, يستسلم، استسلام)|v
 جيل|generation (pl. أجيال); gel|o;o
@@ -1626,7 +1626,7 @@
 ابتنى|to build (VIII, يبتني، ابتناء)|v
 عاصفة|storm (pl. عواصف)|o
 تحية|greeting, salute; تحياتي: regards, best wishes|o;n
-أميرة|princess|o
+أميرة|princess; Amira (name)|o;o
 ثوب|dress, garment, robe (pl. ثياب، أثواب)|o
 متن|على متن: aboard, on board; text (pl. متون)|n;o
 ملعون|damned, cursed|o
@@ -1642,7 +1642,7 @@
 هيئة|body, authority, commission; appearance, form|o;o
 قلة|lack, shortage; a few, a minority (قلة من a few)|o;o
 ساحر|magician, wizard (pl. سحرة); charming, enchanting|o;o
-مالك|owner (pl. ملاك); what's wrong with you? (ما لك)|o;o
+مالك|owner (pl. ملاك); what's wrong with you? (ما لك); Malik (name)|o;o;o
 وطن|homeland, country (pl. أوطان)|o
 جوار|neighbourhood, vicinity; بجوار: next to|o;n
 طوارئ|emergency, emergencies (حالة طوارئ state of emergency)|o
@@ -1878,7 +1878,7 @@
 خصوصا|especially, particularly|o
 أكتب|I write|f1s
 بر|land (by land: برا); righteousness, kindness (بر الوالدين)|o;o
-طرح|to raise, to put forward (a question), to throw (يطرَح، طرح); subtraction|v;o
+طرح|to raise, to put forward (a question) (يطرَح، طرح); to throw; subtraction|v;v;o
 نوبة|attack, fit (نوبة قلبية heart attack); shift, turn|o;o
 آمنة|safe (f.); Amina (name)|o;o
 غذاء|food, nourishment; lunch (= غداء)|o;o
@@ -1932,7 +1932,7 @@
 ماما|mum, mummy (colloq.)|o
 لازم|necessary; must, have to (colloq.: لازم أروح I have to go)|o;o
 مقدار|amount, quantity, extent (pl. مقادير)|o
-فارس|knight, horseman (pl. فرسان); Persia (بلاد فارس)|o;o
+فارس|knight, horseman (pl. فرسان); Persia (بلاد فارس); Fares (name)|o;o;o
 موجة|wave (pl. أمواج)|o
 مطلوب|wanted, required, needed|o
 عبقري|genius (pl. عباقرة); brilliant|o;o
@@ -2186,14 +2186,14 @@
 تحذير|warning|o
 حشرة|insect, bug|o
 شديدة|severe, intense, strong (f.)|o
-سئ|bad (= سيئ)|o
+سئ|bad (careless spelling of سيئ)|o
 مقدمة|introduction, preface; front|o;o
 أقود|I drive, I lead|f1s
 فاتن|charming, enchanting, gorgeous|o
 تهرب|to evade, to dodge (+ من; V, يتهرب، تهرب); you run away, she runs away (تهرُب)|v;f2s2p
 خداع|deception, deceit, trickery|o
 سقف|ceiling, roof (pl. أسقف)|o
-قانونية|legal, lawful; legality|o;o
+قانونية|legal, lawful (f.); legality|o;o
 إعداد|preparation, setting up|o
 وزارة|ministry, department|o
 المدعي|the plaintiff, the claimant; المدعي العام: the prosecutor, the district attorney|o;n
@@ -2201,7 +2201,7 @@
 إطار|frame (pl. أطر); tyre; framework|o;o;o
 نجاة|survival, rescue, escape|o
 تجاهل|to ignore (VI, يتجاهل، تجاهل)|v
-أري|I show (أُري); I see (= أرى)|f1s;f1s
+أري|I see (careless spelling of أرى); I show (أُري)|f1s;f1s
 آكل|I eat; eater (آكل لحوم البشر cannibal)|f1s;o
 عاصمة|capital (city) (pl. عواصم)|o
 ضريبة|tax (pl. ضرائب)|o
@@ -2274,9 +2274,9 @@
 عالمية|international, worldwide (f.; الحرب العالمية: world war)|o
 ملعب|playground, stadium, pitch (pl. ملاعب)|o
 صحفي|journalist; press (adj.) (مؤتمر صحفي press conference)|o;o
-اقل|less, fewer (= أقل)|o
+اقل|less, fewer (careless spelling of أقل)|o
 توافق|to agree, to match, to be compatible (VI, يتوافق، توافق); agreement, compatibility|v;o
-شريف|honourable, honest, noble (pl. شرفاء); sheriff|o;o
+شريف|honourable, honest, noble (pl. شرفاء); sheriff; Sharif, Sherif (name)|o;o;o
 حفظ|to keep, to preserve, to save (يحفَظ، حفظ); to memorise, to learn by heart|v;v
 رضيع|baby, infant (pl. رضع)|o
 فرنسية|French (f.); French (the language)|o;o
@@ -2424,7 +2424,7 @@
 لحد|grave (لَحد); up to, until (colloq., = حتى)|o;o
 أوروبا|Europe|o
 مت|die! (command of مات); I died, you died (مُتُّ، مُتَّ)|o;f1s
-بشئ|(ب + شيء) with something, about something (= بشيء)|o
+بشئ|(ب + شيء) with something, about something (careless spelling of بشيء)|o
 سروال|trousers, pants (pl. سراويل)|o
 مدين|indebted, owing (أنا مدين لك I owe you); debtor|o;o
 دافئ|warm|o
@@ -2595,7 +2595,7 @@
 لقطة|shot, snapshot, take (in filming)|o
 رعب|terror, horror, fright|o
 عقوبة|punishment, penalty, sentence|o
-أصمت|I'm silent; be quiet! (= اصمت)|f1s;o
+أصمت|be quiet!, shut up! (careless spelling of اصمت); I'm silent|o;f1s
 خضراء|green (f.)|o
 عهد|era, reign, time (pl. عهود); pledge, promise, covenant|o;o
 ماس|diamond, diamonds|o
@@ -2790,11 +2790,11 @@
 رقمي|digital; my number|o;o
 عمود|column, pillar, post (pl. أعمدة)|o
 مستودع|warehouse, depot, storeroom (pl. مستودعات)|o
-سماعي|by ear, auditory; learned by hearing|o;o
+سماعي|hearing me, to hear me (سماع + ي: هل يمكنك سماعي can you hear me?); by ear, auditory; learned by hearing|o;o;o
 ظهيرة|noon, midday|o
 مهرج|clown, jester|o
 غربي|western, Western|o
-أخرس|mute, dumb (f. خرساء، pl. خرس); shut up! (أخرس: be quiet)|o;o
+أخرس|shut up! (careless spelling of اخرس); mute, dumb (f. خرساء، pl. خرس)|o;o
 انسحب|to withdraw, to pull out, to retreat (VII, ينسحب، انسحاب)|v
 اليابان|Japan|o
 تضمن|to include, to contain (V, يتضمن، تضمن); you guarantee; she guarantees|v;f2s2p;f3s
@@ -2866,7 +2866,7 @@
 خمسون|fifty|o
 ثنائي|duo, pair, couple; dual, bilateral|o;o
 أحرز|to score, to achieve, to make (progress) (IV, يحرز، إحراز)|v
-احمق|fool, idiot; stupid (f. حمقاء، pl. حمقى)|o;o
+احمق|fool, idiot; stupid (f. حمقاء، pl. حمقى) (careless spelling of أحمق)|o;o
 عظم|bone (pl. عظام)|o
 رقيق|delicate, gentle, thin; slaves|o;o
 صينية|tray (pl. صواني); Chinese (f.)|o;o
@@ -2941,7 +2941,7 @@
 أفعى|snake, viper (pl. أفاع)|o
 راج|to be popular, to be in demand (يروج، رواج)|v
 تعيين|appointment (to a post); assignment|o;o
-أهدأ|calmer, quieter; I calm down|o;f1s
+أهدأ|calm down! (careless spelling of اهدأ); calmer, quieter; I calm down|o;o;f1s
 اختفاء|disappearance|o
 حساسية|sensitivity; allergy|o;o
 ثبت|to be proven, to be established (يثبُت، ثبوت); to fix, to fasten, to install (II, يثبت، تثبيت)|v;v
@@ -2958,7 +2958,7 @@
 مقهى|café, coffee shop (pl. مقاه)|o
 بعث|to send (يبعَث، بعث); resurrection; Baath (party)|v;o;o
 بيئة|environment|o
-تدمر|destroyed; you destroy; Palmyra|o;f2s2p;o
+تدمر|to be destroyed (V, يتدمر، تدمر); you destroy, she destroys (تدمِّر); Palmyra|v;f2s2p;o
 تشريح|autopsy; dissection, anatomy|o;o
 عاود|to resume, to go back to, to do again (III, يعاود، معاودة)|v
 مجاور|neighbouring, adjacent, next door|o
@@ -3051,7 +3051,7 @@
 فاخر|luxurious, fancy, first-class|o
 مرأب|garage|o
 إرادة|will, willpower|o
-أخوة|brothers (pl. of أخ); brotherhood (أخوة)|o;o
+أخوة|brothers (pl. of أخ; careless spelling of إخوة); brotherhood (أُخوّة)|o;o
 التهم|to devour, to gulp down (VIII, يلتهم، التهام); the charges (pl. of تهمة)|v;o
 العيون|the eyes|o
 مليار|billion|o
@@ -3080,7 +3080,7 @@
 تمثل|you represent; she represents, it represents; to consist in, to be embodied (V, يتمثل، تمثل)|f2s2p;f3s;v
 ضائع|lost|o
 التزام|commitment, obligation|o
-أبق|stay!, keep (أبق بعيدا stay away)|o
+أبق|stay! (careless spelling of ابق: أبق بعيدا stay away); keep! (command of أبقى)|o;o
 إخلاء|evacuation, vacating; إخلاء سبيل: release|o;n
 دق|to knock, to ring, to beat (يدُق، دق); minute (colloq., = دقيقة)|v;o
 وين|where (colloq., = أين)|o
@@ -3153,7 +3153,7 @@
 رج|to shake (يرُج، رج)|v
 حثالة|scum, dregs|o
 بيان|statement, announcement, declaration|o
-مضطرة|forced, obliged, having to|o
+مضطرة|forced, obliged, having to (f.)|o
 اضطراب|disorder, disturbance; unrest|o;o
 موهوب|talented, gifted|o
 انهيار|collapse; breakdown (انهيار عصبي nervous breakdown)|o;o
@@ -3182,7 +3182,7 @@
 بدل|instead of (بدلا من); allowance; to change, to swap (II, يبدل، تبديل)|o;o;v
 رمي|throwing, shooting|o
 تفاوض|negotiation; to negotiate (VI, يتفاوض، تفاوض)|o;v
-مزيفة|fake, forged, counterfeit|o
+مزيفة|fake, forged, counterfeit (f.)|o
 بسكويت|biscuits, cookies|o
 نفايات|rubbish, waste, garbage|o
 نقدا|in cash|o
@@ -3220,7 +3220,7 @@
 إبعاد|keeping away, removal; deportation|o;o
 هوائي|antenna, aerial; air (adj.), aerial|o;o
 دول|countries, states (pl. of دولة); these (colloq., = هؤلاء)|o;o
-إئتمان|credit (بطاقة ائتمان: credit card)|o
+إئتمان|credit (بطاقة ائتمان: credit card) (careless spelling of ائتمان)|o
 إنشاء|construction, establishment, creation|o
 محب|loving, fond of; lover, fan (pl. محبون)|o;o
 تسع|nine (with a feminine noun); you hold, it holds (يسع)|o;f2s2p
@@ -3273,7 +3273,7 @@
 خصوصية|privacy; peculiarity|o;o
 سد|dam (pl. سدود); to block, to plug (يسُد، سد); سد الدين: to pay back a debt|o;v;n
 مبدأ|principle (pl. مبادئ)|o
-حساسة|sensitive|o
+حساسة|sensitive (f.)|o
 عائلي|family (adj.), domestic|o
 سنا|(in) age (سنًّا, from سن: أكبر سنا older, أصغر سنا younger); brightness, gleam|o;o
 طعن|to stab (يطعَن، طعن); to appeal, to challenge (a ruling)|v;v
@@ -3290,7 +3290,7 @@
 مشرف|supervisor; honourable (مشرّف)|o;o
 طن|ton (pl. أطنان)|o
 العراق|Iraq|o
-خاطيء|wrong, mistaken; sinner|o;o
+خاطيء|wrong, mistaken; sinner (careless spelling of خاطئ)|o;o
 كلبة|bitch (female dog; also an insult)|o
 محزن|sad, saddening|o
 معيشة|living, livelihood (غرفة المعيشة living room)|o
@@ -3302,7 +3302,7 @@
 ورقي|paper (adj.), made of paper|o
 جني|jinn, genie; harvest, reaping|o;o
 فرن|oven; bakery (pl. أفران)|o;o
-أسمك|your name (= اسمك); thicker|o;o
+أسمك|your name (careless spelling of اسمك); thicker|o;o
 ممتلئ|full, filled; plump|o;o
 لغم|mine, landmine (pl. ألغام)|o
 حجة|argument, pretext, excuse (pl. حجج); pilgrim woman, Hajja|o;o
@@ -3379,7 +3379,7 @@
 ملح|salt (pl. أملاح)|o
 تصحيح|correction, correcting|o
 كوم|pile, heap (pl. أكوام); .com (dot com)|o;o
-سواك|siwak (tooth-cleaning stick); other than you (= سواك)|o;o
+سواك|other than you, except you (سوى + ك); siwak (tooth-cleaning stick)|o;o
 مأساة|tragedy (pl. مآس)|o
 أجاد|to be good at, to master (IV, يجيد، إجادة)|v
 أكاديمية|academy; academic (f.)|o;o
@@ -3393,13 +3393,13 @@
 جاب|to roam, to travel through (يجوب، جوب); to bring (colloq., = أحضر)|v;v
 فذلك|then that (is), so that is (ف + ذلك)|o
 ضم|to include, to add, to join; to hug (يضُم، ضم)|v;v
-مفاجئة|sudden (f.); surprise (= مفاجأة)|o;o
+مفاجئة|sudden (f.); surprise (careless spelling of مفاجأة)|o;o
 عجز|inability, helplessness; deficit, shortfall; to be unable to (يعجِز، عجز)|o;o;v
 ذيل|tail (pl. ذيول)|o
-خطا|to step, to walk (يخطو، خطو); mistake (= خطأ)|v;o
+خطا|mistake, error (careless spelling of خطأ); to step, to walk (يخطو، خطو)|o;v
 شعوري|my feelings; emotional, conscious|o;o
 عش|nest (pl. أعشاش); live! (عش حياتك live your life)|o;o
-لاشئ|nothing (= لا شيء)|o
+لاشئ|nothing (careless spelling of لا شيء)|o
 مخافة|fear (مخافة أن for fear that)|o
 سياتل|Seattle|o
 طازج|fresh|o
@@ -3435,7 +3435,7 @@
 أيسر|left (side); easier|o;o
 شرطية|policewoman; conditional (f.)|o;o
 ذخيرة|ammunition|o
-فار|mouse (= فأر); to boil (يفور، فوران)|o;v
+فار|mouse (careless spelling of فأر); to boil (يفور، فوران)|o;v
 دفتر|notebook (pl. دفاتر)|o
 منديل|handkerchief, tissue (pl. مناديل)|o
 النفسية|psychological (f.); state of mind, mental state|o;o
@@ -3541,7 +3541,7 @@
 ترفض|you refuse; she refuses|f2s2p;f3s
 جنى|to reap, to harvest, to earn (يجني، جني)|v
 عون|help, aid; assistant (pl. أعوان)|o;o
-امس|yesterday (= أمس)|o
+امس|yesterday (careless spelling of أمس)|o
 لاوس|Laos|o
 أجنبي|foreign; foreigner (pl. أجانب)|o;o
 تنقل|to move about, to travel around (V, يتنقل، تنقل); you move, you transfer (تنقل)|v;f2s2p
@@ -3635,7 +3635,7 @@
 مسجل|registered, recorded; tape recorder|o;o
 تخزين|storage, storing|o
 نظم|to organise, to arrange (II, ينظم، تنظيم); systems (pl. of نظام)|v;o
-الشرقية|eastern; the eastern (one)|o;o
+الشرقية|eastern (f.); the eastern (one)|o;o
 الأسد|the lion; Leo; al-Assad (name)|o;o;o
 راعى|to take into account, to observe; to look after (III, يراعي، مراعاة)|v;v
 ضباب|fog, mist|o
@@ -3652,7 +3652,7 @@
 جودة|quality|o
 صفراء|yellow (f.); bile|o;o
 جرأة|courage, boldness, nerve|o
-كلم|to speak to, to talk to (II, يكلم، تكليم); wounds (كلوم)|v;o
+كلم|to speak to, to talk to (II, يكلم، تكليم); wound (pl. كلوم)|v;o
 أطاق|to bear, to stand (IV, يطيق، إطاقة); لا أطيق: I can't stand|v;n
 جمل|camel (pl. جمال); sentences (pl. of جملة)|o;o
 فضي|silver (adj.)|o
@@ -5874,7 +5874,7 @@
 سكوتش|Scotch (whisky); sticky tape (colloq.)|o;o
 مغادر|leaving, departing|o
 خلسة|stealthily, secretly, on the sly|o
-سلامتك|get well soon!, bless you (lit. your safety)|o
+سلامتك|get well soon!, I hope you're all right (lit. your safety)|o
 عارم|overwhelming, sweeping|o
 قافلة|convoy, caravan (pl. قوافل)|o
 قالب|mould, template (pl. قوالب); block, bar, cake (قالب صابون: bar of soap)|o;o
@@ -6129,7 +6129,7 @@
 بوس|kiss (colloq.); boss (colloq.)|o;o
 سويسري|Swiss|o
 متعفن|rotten, mouldy|o
-وفاء|loyalty, faithfulness; fulfilment (of a promise)|o;o
+وفاء|loyalty, faithfulness; fulfilment (of a promise); Wafaa (name)|o;o;o
 وه|oh, ah|o
 أنش|inch (colloq., = إنش)|o
 در|pearls; turn! (command)|o;o
@@ -6227,7 +6227,7 @@
 اجتياز|passing, crossing, getting through (اجتياز الامتحان: passing the exam)|o
 فيرمونت|Vermont|o
 كاثوليكي|Catholic|o
-للإنطلاق|to set off, for the launch (ل + انطلاق)|v
+للإنطلاق|to set off, for the launch (ل + انطلاق) (careless spelling of للانطلاق)|v
 مصداقية|credibility|o
 ابتعاد|moving away, distancing, staying away|o
 باهر|dazzling, brilliant, spectacular|o
@@ -6277,7 +6277,7 @@
 وماهو|and what is (= و + ما هو)|o
 حامية|garrison; hot, heated (f.); protector (f.)|o;o;o
 فاصلة|comma; dividing, decisive|o;o
-مصاصين|suckers (مصاصين الدماء: vampires)|o
+مصاصين|those who suck (m. pl.); مصاصين الدماء / مصاصين دماء: vampires|o;n
 مصيدة|trap (مصيدة فئران: mousetrap) (pl. مصائد)|o
 استلقاء|lying down|o
 انحراف|deviation, perversion; delinquency|o;o
@@ -6330,7 +6330,7 @@
 حماسة|enthusiasm, zeal, excitement|o
 رصيد|balance (of an account); (phone) credit|o;o
 معاكس|opposite, reverse, contrary|o
-نبوة|prophecy (pl. نبوءات)|o
+نبوة|prophecy (pl. نبوءات); prophethood|o;o
 التصرفات|behaviour, actions|o
 تشويه|disfigurement, distortion; defamation|o;o
 صادر|issued, coming (from); outgoing|o;o
@@ -6414,7 +6414,7 @@
 طاغية|tyrant, despot (pl. طغاة)|o
 مكتمل|complete, completed|o
 بدني|physical, bodily (اللياقة البدنية: physical fitness)|o
-دلك|to massage, to rub (يدلُك، دلك); massage|v;o
+دلك|that (careless spelling of ذلك); to massage, to rub (يدلُك، دلك); massage|o;v;o
 سلمي|peaceful|o
 قامو|they stood up, they did (= قاموا)|f3p
 كرنفال|carnival|o
@@ -6532,7 +6532,7 @@
 مشرط|scalpel (pl. مشارط)|o
 معتمد|accredited, approved, certified; dependent (on) (معتمد على)|o;o
 نقش|engraving, inscription (pl. نقوش); to engrave, to carve (ينقُش، نقش)|o;v
-ابتسام|smiling|o
+ابتسام|smiling; Ibtisam (name)|o;o
 تماشى|to go along with, to be in line with (VI, يتماشى، تماشي)|v
 جأش|رباطة الجأش: composure, self-control|n
 مسز|Mrs (colloq.)|o
@@ -6590,7 +6590,7 @@
 مسقط|Muscat; مسقط رأس: birthplace|o;n
 وصي|guardian, trustee, executor (pl. أوصياء)|o
 مشورة|advice, counsel|o
-أرجوحة|swing, hammock (pl. أراجيح)|o
+أرجوحة|swing (pl. أراجيح); hammock|o;o
 اعتزم|to intend, to resolve (VIII, يعتزم، اعتزام)|v
 تنح|step aside!, stand down! (command)|o
 عسر|difficulty, hardship; عسر الهضم: indigestion|o;n
@@ -6755,7 +6755,7 @@
 متماسكة|cohesive, holding together, firm|o
 أصلى|original, genuine (= أصلي)|o
 تتويج|coronation, crowning|o
-تسائلت|I wondered, I asked myself; you wondered; she wondered|f1s;f2s2p;f3s
+تسائلت|I wondered, I asked myself; you wondered; she wondered (careless spelling of تساءلت)|f1s;f2s2p;f3s
 خاطب|to address, to speak to (III, يخاطب، مخاطبة); suitor, fiancé|v;o
 إسباني|Spanish; Spaniard (pl. إسبان)|o;o
 ترابط|coherence, interconnection; to be interconnected (VI, يترابط، ترابط)|o;v
@@ -6820,7 +6820,7 @@
 حجاب|veil, screen, barrier (pl. حجب)|o
 هارلم|Harlem|o
 هد|to demolish, to tear down (يهُد، هد)|v
-اسرائيل|Israel|o
+اسرائيل|Israel (careless spelling of إسرائيل)|o
 سخف|silliness, nonsense, absurdity|o
 شاسع|vast, immense|o
 مناوبة|shift, turn on duty|o
@@ -6964,7 +6964,7 @@
 وظيفي|job, career, functional (المسار الوظيفي: career path)|o
 بصر|sight, vision, eyesight (pl. أبصار); لمح البصر: the blink of an eye|o;n
 ديزل|diesel|o
-شعرى|poetic (= شعري); my hair (= شعري)|o;o
+شعرى|my hair (= شعري); poetic (= شعري)|o;o
 شوربة|soup|o
 ماوس|mouse (computer)|o
 مطلع|informed, aware (+ على); beginning, start (مطلع الشهر: the start of the month); rising (of the sun)|o;o;o
@@ -7001,7 +7001,7 @@
 مطارد|pursuer, chaser; hunted, on the run|o;o
 مغري|tempting, seductive, alluring|o
 الميزان|scales, balance (pl. موازين); Libra|o;o
-قوام|stature, consistency; moderation, balance|o;o
+قوام|figure, build, stature; consistency, texture; moderation, balance|o;o;o
 مفوض|commissioner; authorised, delegated|o;o
 هجم|to attack, to charge (+ على) (يهجُم، هجوم)|v
 أفيون|opium|o
@@ -7075,7 +7075,7 @@
 محتجزة|detained, held (captive)|o
 انحرف|to deviate, to swerve, to go astray (VII, ينحرف، انحراف)|v
 شورت|shorts|o
-مشحون|charged, loaded, shipped; tense (atmosphere)|o;o
+مشحون|charged, loaded (with); shipped (cargo); tense (atmosphere)|o;o;o
 هالوين|Halloween|o
 آس|ace (cards); myrtle|o;o
 بترول|petroleum, oil|o
@@ -7579,7 +7579,7 @@
 اقتصر|to be limited, to be confined (+ على) (VIII, يقتصر، اقتصار)|v
 المدمرة|the destroyer (warship); destructive|o;o
 تايوان|Taiwan|o
-تجرا|to dare (V, يتجرأ، تجرؤ)|v
+تجرا|to dare (V, يتجرأ، تجرؤ) (careless spelling of تجرأ)|v
 تشتت|distraction, dispersion; to be scattered, to be distracted (V, يتشتت، تشتت)|o;v
 أميرال|admiral|o
 إقرار|admission, acknowledgement; declaration (الإقرار الضريبي: tax return)|o;o
@@ -7709,7 +7709,7 @@
 زووم|zoom|o
 طحلب|alga, moss (pl. طحالب: algae, seaweed)|o
 مزور|forged, fake; forger|o;o
-ممسحة|mop, doormat|o
+ممسحة|mop, wiper; doormat (ممسحة الأرجل)|o;o
 مه|hush!, stop!; what? (colloq.)|o;o
 أبجدية|alphabet|o
 ألفية|millennium|o
@@ -7768,7 +7768,7 @@
 شريفة|honourable, honest, noble; Sharifa (name)|o;o
 طرفة|joke, anecdote; blink (طرفة عين: the blink of an eye)|o;o
 فرضية|hypothesis, assumption|o
-مصاصو|suckers (مصاصو الدماء: vampires)|o
+مصاصو|those who suck (m. pl.); مصاصو الدماء / مصاصو دماء: vampires|o;n
 أولمبي|Olympic|o
 برمودا|Bermuda|o
 ساحق|crushing, overwhelming (أغلبية ساحقة: overwhelming majority)|o
@@ -8054,7 +8054,7 @@
 انجلى|to become clear, to clear up, to be dispelled (VII, ينجلي، انجلاء)|v
 سندويتش|sandwich|o
 كاز|kerosene, gas (colloq.)|o
-كرتوني|cardboard (adj.) (علبة كرتونية: cardboard box)|o
+كرتوني|cardboard (adj.) (علبة كرتونية: cardboard box); cartoon, animated (رسوم كرتونية: cartoons)|o;o
 متحضر|civilised|o
 متقنة|skilful, perfect, well-made|o
 مهوس|obsessed (= مهووس)|o
@@ -8214,7 +8214,7 @@
 يومئذ|on that day|o
 لئن|surely if, if indeed|o
 تاب|to repent (يتوب، توبة); to relent, to accept repentance (of God)|v;v
-شهيد|witness (pl. شهداء); martyr|o;o
+شهيد|martyr (pl. شهداء); witness|o;o
 تنمية|development (economic, human)|o
 بينة|clear proof, evidence (pl. بينات)|o
 بصير|all-seeing, seeing; insightful|o;o
@@ -8230,7 +8230,7 @@
 أشرك|to associate partners with God, to be a polytheist (IV, يشرك، إشراك); to make a partner of|v;v
 أضل|to lead astray, to mislead (IV, يضل، إضلال)|v
 توكل|to rely on, to put one's trust in (V, يتوكل، توكل)|v
-محسن|doer of good, benefactor|o
+محسن|doer of good, benefactor; Mohsen (name)|o;o
 مكر|scheming, plotting; to scheme, to plot (يمكُر، مكر)|o;v
 اهتدى|to be guided, to find the right way (VIII, يهتدي، اهتداء)|v
 تلخص|to boil down to, to be summarized (V, يتلخص، تلخص)|v
@@ -8269,7 +8269,7 @@
 منكر|wrong, evil deed; denying, rejecting|o;o
 مهتد|rightly guided|o
 أمات|to cause to die, to put to death (IV, يميت، إماتة)|v
-مصدق|confirming (what came before); one who affirms, believer|o;o
+مصدق|believing (لست مصدقا: I can't believe it); certified, ratified (مصدق عليه); confirming (what came before), one who affirms|o;o;o
 مكذب|denier, one who calls the truth a lie|o
 منذر|warner|o
 وذر|to leave, to let alone (only present and imperative: يذر، ذر)|v
@@ -8289,7 +8289,7 @@
 تأويل|interpretation; fulfilment, final outcome|o;o
 تفكر|to reflect, to ponder (V, يتفكر، تفكر)|v
 تقوى|God-consciousness, piety|o
-هاد|guide|o
+هاد|this (colloq., Levantine/Moroccan, = هذا); guide|o;o
 صادرات|exports|o
 تفاوت|disparity, variation; to vary, to differ (VI, يتفاوت، تفاوت)|o;v
 تنظيمية|organizational, regulatory (f.)|o
@@ -8297,11 +8297,11 @@
 مرجع|reference, source, authority (pl. مراجع); return (to God), the place one returns to|o;o
 عولمة|globalization|o
 أوفى|to fulfil, to keep (a promise), to give in full (IV, يوفي، إيفاء)|v
-تنزيل|revelation, sending down|o
+تنزيل|download; lowering, bringing down, unloading; revelation, sending down|o;o;o
 حليم|forbearing, clement|o
 زعم|to claim, to allege (يزعُم، زعم); claim|v;o
 نذر|vow (pl. نذور); to vow (ينذُر، نذر); warnings, warners (pl. of نذير)|o;v;o
-هاجر|to emigrate (III, يهاجر، هجرة)|v
+هاجر|to emigrate (III, يهاجر، هجرة); Hajar (name)|v;o
 وعظ|to admonish, to exhort (يعِظ، وعظ)|v
 ازدهار|prosperity, flourishing|o
 مستدامة|sustainable (f.)|o
@@ -8309,7 +8309,7 @@
 ضريبية|tax, fiscal (f.)|o
 حرث|tilled land, crops; to till (يحرُث، حرث)|o;v
 خاسرون|losers, those who lose|o
-دعاء|supplication, prayer (pl. أدعية); call|o;o
+دعاء|supplication, prayer (pl. أدعية); call; Doaa (name)|o;o;o
 طهر|to be pure, to be clean (يطهُر، طهارة); purity; to purify (II, يطهر، تطهير)|v;o;v
 فسق|to go astray, to be sinful (يفسُق، فسق); wickedness, sin|v;o
 مسرف|extravagant, one who exceeds bounds|o
@@ -8351,7 +8351,7 @@
 غيب|the unseen; absence|o;o
 لدن|presence, near; من لدن: from (the presence of)|o;n
 ليبرالية|liberalism|o
-نكح|to marry (ينكِح، نكاح)|v
+نكح|to marry (religious, legal term) (ينكِح، نكاح); to fuck (vulgar)|v;v
 إمارة|emirate; principality|o;o
 تباطؤ|slowdown, deceleration|o
 تقشف|austerity|o
@@ -8377,7 +8377,7 @@
 صدقة|charity, voluntary alms|o
 طمع|greed; hope, longing; to hope for, to covet (يطمَع، طمع)|o;o;v
 قرآن|Quran; recitation|o;o
-مبشر|one who gives good news|o
+مبشر|promising, encouraging (نتائج مبشرة: promising results); bringer of good news; missionary|o;o;o
 نفر|group of people, band (pl. أنفار); to go forth (ينفِر، نفير); to flee, to shun (نفور)|o;v;v
 هلك|to perish, to be destroyed (يهلِك، هلاك)|v
 ناجمة|resulting, arising (f.)|o
@@ -8398,7 +8398,7 @@
 شيوعا|commonly (as in أكثر شيوعا: most common)|o
 مسبوق|preceded; غير مسبوق: unprecedented|o;n
 بخل|to be stingy, to be miserly (يبخَل، بخل); stinginess|v;o
-بشير|bringer of glad tidings, herald|o
+بشير|bringer of glad tidings, herald; Bashir (name)|o;o
 تالله|by God! (oath)|o
 تبارك|to be blessed, to be exalted (V); تبارك الله: blessed is God|v;n
 تتقوا|you (pl.) fear God, you guard against|f2s2p
@@ -8445,14 +8445,14 @@
 تنذر|you warn; she warns|f2s2p;f3s
 حسرة|regret, anguish|o
 حفيظ|guardian, keeper|o
-خلاق|share, portion; the Creator (a name of God)|o;o
+خلاق|creative; the Creator (a name of God); share, portion|o;o;o
 زاغ|to deviate, to swerve (يزيغ، زيغ)|v
 زبر|scriptures, books (pl. of زبور); pieces, blocks (of iron)|o;o
 سعير|blaze, hellfire|o
 صفا|to be pure, to be clear (يصفو، صفاء); الصفا: Safa (hill in Mecca)|v;n
 طاف|to go round, to circumambulate (يطوف، طواف); to come upon|v;v
 طيبات|good things, wholesome things|o
-فؤاد|heart (pl. أفئدة)|o
+فؤاد|heart (pl. أفئدة); Fouad (name)|o;o
 قعد|to sit (يقعُد، قعود); to stay behind|v;v
 مثقال|weight; مثقال ذرة: an atom's weight|o;n
 ناصرين|helpers (pl.)|o
@@ -8485,7 +8485,7 @@
 أثيم|sinner, sinful|o
 أعوج|crooked (f. عوجاء، pl. عوج)|o
 أنبت|to cause to grow, to make sprout (IV, ينبت، إنبات)|v
-أهدى|better guided; to give a gift (IV, يهدي، إهداء)|o;v
+أهدى|to give (as a gift), to present (IV, يهدي، إهداء); to dedicate (a book, a song); better guided|v;v;o
 اتبعوه|follow him! (pl.); they followed him|o;f3p
 بخس|to cheat, to give short measure (يبخَس، بخس); paltry, low (price)|v;o
 برز|to come out, to appear (يبرُز، بروز)|v
@@ -8503,14 +8503,14 @@
 ضلالة|error, going astray|o
 عاذ|to seek refuge (+ ب) (يعوذ، عوذ); أعوذ بالله: I seek refuge in God|v;n
 عاكف|devoted (to worship), staying in retreat|o
-غابر|one who stays behind|o
+غابر|bygone, past (الزمن الغابر: bygone times); one who stays behind|o;o
 مآب|final return, destination (good or bad)|o
 مبصر|visible, clear; seeing|o;o
 متكئ|reclining, leaning|o
 متكبر|arrogant, proud; the Supreme (a name of God)|o;o
-محضر|brought forth, made present; record, minutes (of a meeting)|o;o
+محضر|record, report, minutes (of a meeting); brought forth, made present|o;o
 مرد|return, averting; لا مرد له: which cannot be turned back|o;n
-مطهر|purified, pure|o
+مطهر|disinfectant, antiseptic; purified, pure; purgatory|o;o;o
 منيب|turning (to God) in repentance|o
 مهاد|resting place, bed; cradle|o;o
 ناقة|she-camel (pl. نوق)|f3s
@@ -8537,14 +8537,14 @@
 اعبدوه|worship him! (pl.)|o
 بغي|transgression, oppression; unchaste woman|o;o
 بهتان|slander, calumny|o
-حاج|to argue with, to dispute (III, يحاج، محاجة); pilgrim (pl. حجاج)|v;o
+حاج|pilgrim, hajji (pl. حجاج); title of respect for an older man (يا حاج); to argue with, to dispute (III, يحاج، محاجة)|o;o;v
 حلال|lawful, permitted, halal|o
 خر|to fall down, to collapse (يخِر، خرور)|v
 رءوسهم|their heads|o
 راحم|merciful (أرحم الراحمين: the Most Merciful of the merciful)|o
 رازق|provider, sustainer (خير الرازقين: the best of providers)|o
 رجيم|accursed, outcast (lit. stoned)|o
-زكي|pure, righteous|o
+زكي|pure, righteous; fragrant (رائحة زكية: a sweet smell); Zaki (name)|o;o;o
 ظهير|helper, supporter|o
 عداوة|enmity, hostility|o
 غل|rancour, hatred; shackle (pl. أغلال)|o;o
@@ -8558,10 +8558,10 @@
 قهار|the Subduer, the Irresistible (a name of God)|o
 مدكر|one who takes heed, one who remembers|o
 مكرم|honoured|o
-منير|shining, illuminating|o
+منير|shining, illuminating; Mounir (name)|o;o
 ند|equal, rival (pl. أنداد)|o
 نكونن|we will surely be (emphatic)|f1p
-نهى|to forbid, to prohibit (+ عن) (ينهى، نهي)|v
+نهى|to forbid, to prohibit (+ عن) (ينهى، نهي); prohibition, forbidding (النهي عن المنكر); Noha (name)|v;o;o
 انحباس|retention, blockage; انحباس حراري: global warming|o;n
 افتتح|to open, to inaugurate (VIII, يفتتح، افتتاح)|v
 استراتيجي|strategic|o
@@ -8597,7 +8597,7 @@
 سل|tuberculosis; to draw (a sword) (يسِل، سل)|o;v
 الشام|the Levant, Syria|o
 بكالوريوس|bachelor's degree|o
-أحبط|to make void, to nullify (IV, يحبط، إحباط)|v
+أحبط|to foil, to thwart (IV, يحبط، إحباط); to frustrate, to discourage; to make void, to nullify|v;v;v
 أفئدة|hearts|o
 أفاض|to pour forth, to overflow (IV, يفيض، إفاضة); to press on, to depart|v;v
 ائتوني|bring me!; come to me! (pl.)|o;o
@@ -8740,7 +8740,7 @@
 رجفة|earthquake, tremor|o
 شعيرة|rite, sacred symbol (pl. شعائر)|o
 شهاب|shooting star, flame (pl. شهب)|o
-صبار|very patient, steadfast; cactus|o;o
+صبار|cactus; aloe (aloe vera); very patient, steadfast|o;o;o
 صفح|to forgive, to overlook (يصفَح، صفح); forgiveness|v;o
 صلح|reconciliation, peace settlement; to be good, to be righteous (يصلُح، صلاح)|o;v
 صلصال|dry ringing clay|o
@@ -8774,9 +8774,9 @@
 ممنون|grateful, obliged; غير ممنون: unfailing, never cut off|o;n
 منام|sleep; dream|o;o
 موقنين|certain, firmly convinced (pl.)|o
-ميسر|gambling, game of chance; made easy|o;o
+ميسر|easy, made easy, affordable (قرض ميسر: soft loan); gambling, game of chance|o;o
 نرينك|We show you; We will show you|f1p;f1p
-نسف|to blow away, to scatter (ينسِف، نسف); blasting|v;o
+نسف|to blow up, to demolish (ينسِف، نسف); to blow away, to scatter; blasting|v;v;o
 نسق|order, system (pl. أنساق); to arrange (ينسُق، نسق)|o;v
 نفور|aversion, flight, running away|o
 هاتوا|bring! produce! (pl.)|o
@@ -8914,7 +8914,7 @@
 أعجمي|non-Arab, foreign; non-Arabic (of speech) (pl. أعاجم)|o;o
 أغوى|to lead astray, to seduce (IV, يغوي، إغواء)|v
 أفاء|to give as spoils (IV, يفيء، إفاءة)|v
-ألحد|to deviate, to become an atheist (IV, يلحد، إلحاد); to distort|v;v
+ألحد|to become an atheist (IV, يلحد، إلحاد); to deviate; to distort|v;v;v
 أمسكوهن|keep them (f.)! retain them! (pl.)|o
 أنعام|livestock, cattle (camels, cattle, sheep and goats)|o
 أوجس|to sense, to feel (fear) (IV, يوجس، إيجاس)|v
@@ -8968,7 +8968,7 @@
 حطاما|debris, broken stalks|o
 حفيظا|guardian, keeper|o
 حمأ|black mud|o
-حواري|disciple, apostle (of Jesus) (الحواريون: the disciples)|o
+حواري|talk, dialogue (adj.) (برنامج حواري: talk show); alleys, backstreets (pl. of حارة); disciple, apostle (of Jesus) (الحواريون: the disciples)|o;o;o
 خذوهم|seize them! take them! (pl.)|o
 خرص|to guess, to conjecture; to lie (يخرُص، خرص)|v;v
 خسارا|loss, ruin|o
@@ -8985,7 +8985,7 @@
 رجم|to stone (يرجُم، رجم)|v
 ردوها|bring it back! (pl.); they returned it|o;f3p
 رزقناهم|We provided them|f1p
-رغد|plenty, ease; رغدا: freely, abundantly|o;n
+رغد|plenty, ease; رغدا: freely, abundantly; Raghad (name)|o;n;o
 رهط|group, clan|o
 زخرف|to decorate, to ornament (Q, يزخرف، زخرفة)|v
 زقوم|Zaqqum (a tree of Hell)|o
@@ -8997,12 +8997,12 @@
 سندس|fine silk|o
 شرع|to begin (يشرَع، شروع); to ordain, to prescribe (يشرَع، شرع); law, religious law|v;v;o
 شفع|to intercede (+ ل) (يشفَع، شفاعة)|v
-شيعة|followers, party; the Shia|o;o
+شيعة|the Shia, Shiites; followers, party|o;o
 صافات|ranged in rows; (birds) with outspread wings (f. pl.)|o;o
-صرصر|cockroach, cricket; roaring cold (wind)|o;o
+صرصر|cockroach; cricket; roaring cold (wind)|o;o;o
 صنم|idol (pl. أصنام)|o
 ضاق|to become narrow, tight (يضيق، ضيق); ضاق ذرعا: to be unable to cope|v;n
-ضياء|light, radiance|o
+ضياء|light, radiance; Diaa (name)|o;o
 طوى|to fold, to roll up (يطوي، طي); Tuwa (sacred valley)|v;o
 عادون|transgressors (pl.)|o
 عاصم|protector, one who shields; Asim (name)|o;o
@@ -9013,7 +9013,7 @@
 عير|caravan|o
 غار|cave (pl. غيران); to sink (of water) (يغور، غور); to be jealous (يغار، غيرة)|o;v;v
 غدو|mornings, early morning|o
-غض|to lower (the gaze, the voice) (يغُض، غض); fresh, tender|v;o
+غض|to lower (the gaze, the voice) (يغُض، غض); غض النظر / غض الطرف: to overlook, to turn a blind eye (+ عن); fresh, tender|v;n;o
 غيث|rain|o
 فصدوا|and they barred (others), and they turned away|o
 قانت|devoutly obedient (to God)|o
@@ -9033,7 +9033,7 @@
 مدرار|pouring, abundant (of rain)|o
 مرج|meadow (pl. مروج); to let flow, to mix (يمرُج، مرج)|o;v
 مرسى|anchorage, harbour; berthing, landing|o;o
-مسنون|moulded, altered (of mud); sharpened|o;o
+مسنون|elderly people (pl. of مسن); sharpened; moulded, altered (of mud)|o;o;o
 مسوم|marked, branded; grazing (of horses)|o;o
 مشأمة|the left, ill omen (أصحاب المشأمة: the companions of the left)|o
 مشرب|drinking place; taste, inclination (pl. مشارب)|o;o
@@ -9054,16 +9054,16 @@
 ميقات|appointed time (pl. مواقيت)|o
 ميمنة|right side; right flank; أصحاب الميمنة: the companions of the right|o;o;n
 نؤته|We give him|f1p
-ناصية|forelock; forehead (pl. نواص)|o;o
+ناصية|street corner; forelock; forehead (pl. نواص)|o;o;o
 نافق|to be a hypocrite (III, ينافق، نفاق)|v
 نتلوها|We recite them|f1p
 نتوفينك|We take you (in death)|f1p
 نذقه|We make him taste|f1p
 نزغ|to sow discord (ينزَغ، نزغ); evil prompting|v;o
 نشور|resurrection, rising from the dead|o
-نقض|to break (a pledge, a treaty), to undo (ينقُض، نقض)|v
+نقض|to break (a pledge, a treaty), to undo (ينقُض، نقض); حق النقض: veto|v;n
 نكالا|exemplary punishment, deterrent example|o
-هدى|to guide (يهدي، هداية); guidance|v;o
+هدى|to guide (يهدي، هداية); guidance; Huda (name)|v;o;o
 هين|easy, light, trivial|o
 وثن|idol (pl. أوثان)|o
 وزع|to distribute (II, يوزع، توزيع); to restrain, to keep in ranks (يزَع، وزع); to inspire, to enable (IV, يوزع، إيزاع)|v;v;v
@@ -9338,7 +9338,7 @@
 خزن|to store, to stockpile (يخزُن، خزن)|v
 خصام|quarrel, dispute|o
 ذرعا|capacity, strength; ضاق ذرعا: to run out of patience|o;n
-ذمة|protection, covenant; conscience, liability (في ذمة: in the care of)|o;o
+ذمة|protection, covenant; conscience; liability, obligation (في ذمة: in the care of)|o;o;o
 رباع|four at a time; fourfold|o;o
 ربت|to pat (II, يربت، تربيت); it (f.) swelled, grew|v;f3s
 ربوة|hill, elevation (pl. ربى)|o
@@ -10899,7 +10899,7 @@
 أوريغامي|origami|o
 استلهم|to draw inspiration from (X, يستلهم، استلهام)|v
 انسجم|to be harmonious, to get along (VII, ينسجم، انسجام)|v
-بربر|Berbers|o
+بربر|Berbers (can offend; أمازيغ is preferred)|o
 تخليص|clearance, release; rescuing|o;o
 ترددات|frequencies|o
 تسابق|to race, to compete (VI, يتسابق، تسابق)|v

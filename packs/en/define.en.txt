@@ -176,7 +176,7 @@ once|one time; formerly, in the past; as soon as, when; at once: immediately, at
 bit|a bit: a little; a small piece of something; (the past form of 'bite')|n;o;o
 laugh|to make sounds that show you think something is funny; the sound you make when you think something is funny|v;o
 ready|prepared and able to do something now|o
-guess|to give an answer without being sure it is right; I guess: I suppose|v;n
+guess|to say what you think is true without knowing for sure; I guess: I suppose; a guess, an answer you give without being sure|v;n;o
 pretty|attractive, nice to look at; fairly, quite (used before an adjective)|o;o
 wife|the woman a person is married to|o
 drink|to take liquid into your mouth and swallow it; liquid that is swallowed|v;o
@@ -211,10 +211,10 @@ check|to look at something to make sure it is correct; to look at something in o
 um|(used when pausing to think while speaking)|o
 soon|in a short time from now; as soon as: immediately when; sooner or later: eventually|o;n;n
 close|to shut something; near, not far away|v;o
-question|something asked in order to get information; a matter, an issue to be discussed; to ask someone something, or to doubt it|o;o;v
+question|a sentence that asks for an answer; a matter or problem to think about; to ask someone questions; to feel that something may not be true|o;o;v;v
 saying|the -ing form of say; a well-known phrase that expresses wisdom, a proverb|o;o
 lie|to say something you know is not true; to be in or move into a flat position, resting on a surface; a statement that is not true|v;v;o
-few|not many, a small number|o
+few|not many; a few: some, several|o;n
 heart|the organ in your chest that pumps blood; feelings, love; the centre of something (the heart of the city); by heart: from memory; at heart: basically, really|o;o;o;n;n
 lady|a polite word for a woman|o
 buy|to get something by paying money for it|v
@@ -257,7 +257,7 @@ working|the -ing form of work; functioning, operating correctly; having a job, e
 pick|to take hold of something and lift it; to choose one thing from a group; pick up: to lift, to collect, to answer (the phone), to learn; pick on: to bully, to criticise unfairly|v;v;n;n
 crazy|mad, behaving in a strange or wild way|o
 write|to put words or letters on a surface using a pen or similar tool|v
-stand|to be upright on your feet; to bear, to tolerate; stand for: to represent, to be short for, to tolerate; stand out: to be noticeable; stand up for: to defend; stand by: to wait ready, to support|v;v;n;n;n;n
+stand|to be on your feet; to bear, to tolerate; stand for: to represent, to be short for, to tolerate; stand out: to be noticeable; stand up for: to defend; stand by: to wait ready, to support; a stand, a table or frame for showing or holding things (a fruit stand, a music stand); the stands, rows of seats for watching a game|v;v;n;n;n;n;o;o
 save|to rescue someone or something from danger; to keep something for later use|v;v
 game|an activity played for fun, often with rules; a match between two players or teams; wild animals hunted for food or sport|o;o;o
 exactly|precisely, with no difference at all; (used to agree completely with what was just said)|o;o
@@ -311,7 +311,7 @@ cause|the reason something happens; because (informal); to make something happen
 important|mattering a great deal, deserving attention|o
 line|a long thin mark; a queue of people waiting; a row of words (a line of text); a telephone connection; words that an actor says|o;o;o;o;o
 trust|to believe that someone is honest or reliable; a belief that someone is honest or reliable|v;o
-cut|to divide or make a mark in something with a sharp tool; cut off: to disconnect, to isolate, to interrupt; cut out: to remove a piece with scissors or a knife, to stop (doing something); cut down: to fell (a tree), to reduce|v;n;n;n
+cut|to open or divide something with a knife or sharp edge; cut off: to disconnect, to isolate, to interrupt; cut out: to remove by cutting, to stop (doing something); cut down: to fell (a tree), to reduce; a cut, a wound; a cut, a reduction (tax cuts)|v;n;n;n;o;o
 least|the smallest amount (the least I can do); at least: at the minimum, no fewer than; at least: anyway, if nothing else|o;n;n
 wear|to have clothes or jewellery on your body; wear out: to become useless through use, to exhaust; wear off: to fade gradually (an effect)|v;n;n
 trouble|difficulty, problems; to bother or worry someone|o;v
@@ -332,7 +332,7 @@ pass|to move past something, or move from one person or place to another; to suc
 city|a large town where many people live|o
 truth|what is actually true, the facts|o
 sell|to give something to someone in exchange for money; sell out: to have none left to sell, or to betray one's principles for money|v;n
-pull|to move something towards you by gripping it; pull over: to stop at the side of the road; pull off: to succeed in (something difficult); pull up: to stop (a vehicle), to raise|v;n;n;n
+pull|to hold something and move it towards you; pull over: to stop at the side of the road; pull off: to succeed in (something difficult); pull up: to stop (a vehicle), to raise; a pull, the act of drawing something towards you; a pull, an attraction (the pull of the city)|v;n;n;n;o;o
 blood|the red liquid that flows through the body|o
 finish|to come to the end of something, to complete it|v
 behind|at the back of something; late (behind schedule); supporting someone or something|o;o;o
@@ -357,9 +357,9 @@ half|one of two equal parts of something|o
 drop|to let something fall, or to fall; a small round amount of liquid; drop off: to deliver on the way, to fall asleep; drop in: to visit informally; drop out: to leave (school, a race)|v;o;n;n;n
 bed|a piece of furniture you sleep on|o
 either|one or the other of two things|o
-cry|to weep, to produce tears; to shout, to call out|v;v
+cry|to have tears coming from your eyes, to weep; to shout, to call out; a cry, a shout|v;v;o
 country|a nation, a land with its own government; the countryside, land away from cities|o;o
-figure|a shape, or a number; to work something out, to calculate; figure out: to work out, to understand|o;v;n
+figure|a written number, an amount; a shape, a person's body (her figure); a person (a public figure); to think, to suppose (I figure); to find the answer by thinking or counting; figure out: to work out, to understand|o;o;o;v;v;n
 front|the part facing forward, or facing you; in front of: before|o;n
 learn|to gain knowledge or a skill through study or experience|v
 whoa|(used to express surprise, or to tell someone to slow down or stop)|o
@@ -374,7 +374,7 @@ felt|(the past form of 'feel'); a thick cloth made of pressed wool; felt like: w
 jesus|(exclamation of surprise or annoyance); the central figure of the Christian religion|g;o
 given|(the past participle of 'give'); given up: stopped trying, quit; given that: considering that|o;n;n
 smell|to sense with the nose; odour; to give off an odour (it smells good)|v;o;v
-general|affecting everyone, not detailed; a senior army officer|o;o
+general|affecting everyone, widespread; not detailed, broad (a general idea); in general: usually, as a whole; General, senior army officer|o;o;n;o
 study|to learn about; room for working; a piece of research into a subject|v;o;o
 worse|more bad, less good (the comparative of 'bad'); more ill (feeling worse)|o;o
 deep|going a long way down; hard to understand; intense, strongly felt (deep love, deep trouble)|o;o;o
@@ -437,7 +437,7 @@ republican|of a republic; a member of one of the two main political parties in t
 organise|to arrange things in order, or to plan an event (British spelling of organize)|o
 make-up|colours and creams put on the face to look more attractive (another spelling of makeup)|o
 practise|to do something repeatedly to improve at it (British spelling of the verb practice)|o
-dove|bird like a small pigeon, a sign of peace; jumped head-first into water (past of dive, American)|o;o
+dove|a bird like a small pigeon, a sign of peace; dove, past of dive (American); a person who favours peace or a soft policy, opposite of a hawk|o;o;o
 swedish|of Sweden; the language of Sweden|o;o
 offence|an act that breaks the law, or that upsets someone (British spelling of offense)|o
 arabic|of the Arabs; the language of the Arabs|o;o
@@ -470,7 +470,7 @@ lockdowns|periods when people must stay indoors and movement is restricted (plur
 lodging|place to stay, rented room; staying somewhere temporarily (present participle of lodge)|o;o
 pleading|begging; begging earnestly, or arguing a case in court (present participle of plead)|o;o
 winding|twisting, curving (a winding road); turning or twisting something (present participle of wind)|o;o
-conditioning|training; a system that cools and controls the air in a building (air conditioning)|o;o
+conditioning|training; air conditioning; conditioning, making something depend on a condition (conditioning aid on reform)|o;o;o
 alt|alternative (alt-rock, alt-right); a key on a computer keyboard used with other keys for extra functions (Alt key)|o;o
 sim|a small card in a phone that identifies it to the network (SIM card); simulation|o;o
 curling|forming into a curved or coiled shape (present participle of curl); winter sport with stones on ice|o;o
@@ -549,7 +549,7 @@ will|(marks the future: I will go); strong determination, the power to choose; a
 yeah|yes (informal)|o
 got|(past of "get") obtained, received; have got: to have; have got to: must (I've got to go); got up: rose (from bed), stood up; got out: left, escaped; got back: returned; got rid of: removed, threw away; got over: recovered from; got away: escaped; got on: boarded, got along; got off: left (a bus, a train); got through: survived, finished, reached by telephone; got used to: became accustomed to|o;n;n;n;n;n;n;n;n;n;n;n;n
 okay|all right, fine, yes|o
-as|like, similar to; while, at the same time as; in the role of (work as a teacher); because (as it was late, we left); as if / as though: in a way that suggests; as for: concerning|o;o;o;o;n;n
+as|in the same way as, like; as (in comparisons: as tall as, as soon as); as (while); as (in the role of: work as a teacher); as, because (as it was late, we left); as if / as though: in a way that suggests; as for: concerning|o;o;o;o;o;n;n
 good|of high quality; kind, well-behaved; pleasant, enjoyable; goods: things for sale; for good: permanently; no good: useless, bad; fine, all right (said as a reply: Good, thanks!)|o;o;o;n;n;n;o
 let|to allow; let down: to disappoint, to fail someone, to lower (let down one's guard); let go: to release, to stop holding; let in: to allow to enter; let out: to utter (a sigh, a cry), to release; let alone: and certainly not|v;n;n;n;n;n
 make|to create, to produce; to force someone to do something; make up: to invent (a story), to form, to become friends again, to decide (make up one's mind); make up for: to compensate for; make out: to see or hear with difficulty, to understand, to kiss; make sure: to check, to ensure; make sense: to be understandable, to be logical; make fun of: to mock, to laugh at; make the most of: to use as well as possible; to earn (money); to cause to be (it makes me happy)|v;v;n;n;n;n;n;n;n;v;v
@@ -575,7 +575,7 @@ guy|a man; (guys) people, of either sex|o;o
 day|a period of 24 hours; daytime, the time when it is light, not night|o;o
 little|small; a bit, a small amount|o;o
 please|(used to ask for something politely)|o
-should|ought to|o
+should|(used to say what is right or a good idea to do); (before its subject) if (should you need help, call)|o;o
 sorry|(said when apologising); feeling pity or sadness for someone|o;o
 off|away, from a place or surface; switched off, not working; not at work (a day off); gone bad (used of food); cancelled (the wedding is off); reduced (20% off)|o;o;o;o;o;o
 am|(a form of "be") I am|f1s
@@ -732,3 +732,102 @@ savour|to enjoy the taste of something slowly and fully|o
 spectre|a ghost, or something frightening that may happen|o
 colourful|full of bright colours, interesting and lively|o
 splendour|great beauty that makes people admire it|o
+united|joined together as one (the United States, the United Nations); (the past form of "unite") joined together|o;o
+return|to come back, to go back; to give back; a return, coming back (on his return)|v;v;o
+sigh|to breathe out slowly from tiredness or relief; a sigh, a long breath out showing tiredness or relief|v;o
+hurry|to move quickly, to rush; hurry up: to be quicker, hurry up!; hurry, haste (in a hurry)|v;n;o
+chuckle|to laugh quietly; a chuckle, a quiet laugh|v;o
+win|to come first, to beat others; a win, a victory|v;o
+scream|to cry out loudly in fear or pain; a scream, a loud cry of fear or pain|v;o
+kiss|to touch with the lips; a kiss, a touch with the lips|v;o
+wake|to stop sleeping, to rouse; wake up: to stop sleeping, to wake someone; in the wake of: after, as a result of; wake, the track left behind a moving ship|v;n;n;o
+meeting|a gathering arranged to discuss something; meeting, coming together with someone|o;o
+bet|to risk money on a result; I bet: I'm sure; a bet, money risked on a result|v;n;o
+grunt|to make a low rough sound; a grunt, a low rough sound|v;o
+count|to say numbers in order; to matter; count on: to rely on; a count, a total (the vote count); Count, a nobleman (the Count of Monte Cristo)|v;v;n;o;o
+knock|to hit, to strike a door; a knock (at the door)|v;o
+arrest|to take into custody; an arrest, taking a person away because of a crime|v;o
+push|to press away from you; to urge; a push, a movement of pressing away; a push, a big effort (the push for reform)|v;v;o;o
+building|a structure with walls and a roof; building, putting something together from parts|o;o
+reach|to arrive at; to stretch out to touch; reach, how far one can stretch (out of reach)|v;v;o
+burn|to be on fire, to destroy with fire; a burn, an injury from fire or heat|v;o
+visit|to go and see someone or somewhere; a visit, a time spent going to see someone or somewhere|v;o
+kick|to strike with the foot; a kick, a strike with the foot|v;o
+jump|to push yourself off the ground; a jump, a movement up off the ground; a jump, a sudden rise (a jump in prices)|v;o;o
+escape|to get away, to break free; an escape, getting away from a place or danger|v;o
+mention|to say briefly, to refer to; not to mention: and also, besides; a mention, a short reference to something|v;n;o
+groan|to make a low sound of pain or complaint; a groan, a low sound of pain or complaint|v;o
+smile|to turn the mouth up in pleasure; a smile, a happy look with the mouth turned up|v;o
+travel|to go from place to place; travel, journeys (air travel, on his travels)|v;o
+shout|to say very loudly; a shout, a very loud call|v;o
+fill|to make full; fill in: to complete (a form), to substitute for someone; fill out: to complete (a form); one's fill, as much as one wants (eat your fill)|v;n;n;o
+release|to set free; to make public; a release, setting free (the release of prisoners); a release, something made public (a press release)|v;v;o;o
+wash|to clean with water; a wash, an act of cleaning with water; the wash, clothes being washed (in the wash)|v;o;o
+yell|to shout loudly; a yell, a loud shout|v;o
+shake|to move quickly to and fro; a shake (a shake of the head)|v;o
+hunt|to chase in order to kill or catch; to search for; a hunt, a search|v;v;o
+chase|to run after in order to catch; a chase, running after someone to catch them|v;o
+claim|to say something is true; to demand as yours; a claim, a statement that something is true; a claim, a demand, a right (a claim to the throne)|v;v;o;o
+bite|to cut with the teeth; a bite, a mouthful (have a bite); a bite, a wound from teeth or a sting|v;o;o
+whisper|to speak very quietly; a whisper, a very quiet way of speaking|v;o
+spread|to open out; to reach more places; spread, spreading (the spread of a disease)|v;v;o
+mix|to put together into one; to combine; mix up: to confuse (one thing with another); a mix, a mixture|v;v;n;o
+meaning|what a word or act stands for; meaning, intending to do or say something|o;o
+cough|to push air out of the throat with a sharp sound; a cough, a sharp sound of air pushed out of the throat|v;o
+struggle|to fight or try hard against difficulty; a struggle, a hard fight or effort|v;o
+transfer|to move from one place or person to another; a transfer, a move from one place or person to another|v;o
+rescue|to save from danger; a rescue, saving someone from danger|v;o
+sob|to cry with catching breath; a sob, a loud catching breath while crying|v;o
+capture|to take prisoner, to catch; capture, catching (the capture of the city)|v;o
+hug|to hold close in the arms; a hug, holding someone close in the arms|v;o
+flow|to move steadily like water; a flow, a steady movement like water|v;o
+launch|to send off; to start something new; a launch, the sending off or start of something new|v;v;o
+spit|to force liquid from the mouth; spit, saliva; a spit, a rod for roasting meat|v;o;o
+slap|to hit with the open hand; a slap, a hit with the open hand|v;o
+slide|to move smoothly over a surface; a slide, a decline (a slide into war); a slide (in a playground, in a presentation)|v;o;o
+collapse|to fall down suddenly; to fail completely; a collapse, a sudden fall or failure|v;v;o
+pat|to touch gently with the flat hand; a pat (a pat on the back)|v;o
+burst|to break open suddenly; burst into: to begin suddenly (tears, laughter), to enter suddenly; burst out: to begin suddenly (laughing, crying), to exclaim; a burst (a burst of anger)|v;n;n;o
+divide|to split into parts; to share out; a divide, a split, a gap (the urban-rural divide)|v;v;o
+embrace|to hold in the arms; to take up gladly; an embrace, a hold in the arms|v;v;o
+worship|to pray to and honour God; to admire greatly; worship, praying and honouring (a place of worship); your worship: sir (old title of respect)|v;v;o;n
+rumbling|(deep rolling sound like thunder); rumbling, making a deep rolling sound; rumbling, continuing as low discontent (doubts rumbling for years)|g;o;o
+murmur|to speak in a low soft voice; a murmur, a low soft voice|v;o
+resolve|to settle a problem; to decide firmly; resolve, determination|v;v;o
+fold|to bend one part over another; a fold, a crease|v;o
+cleaner|a person or substance that cleans; cleaner, more clean|o;o
+moan|to make a low sound of pain; to complain; a moan, a low sound of pain or complaint|v;v;o
+forge|to make a false copy of; to shape metal by heating; a forge, a blacksmith's workshop|v;v;o
+dispatch|to send off; to deal with quickly; a dispatch, an official message or report|v;v;o
+blink|to shut and open the eyes quickly; a blink (in the blink of an eye)|v;o
+sip|to drink in small mouthfuls; a sip, a small mouthful of drink|v;o
+decline|to refuse politely; to fall in number or strength; a decline, a fall (a decline in prices)|v;v;o
+grasp|to take firm hold of; to understand; a grasp, a firm hold; grasp, understanding (a good grasp of English)|v;v;o;o
+gaze|to look long and steadily; a gaze, a long steady look|v;o
+manufacture|to make goods in large amounts; manufacture, the making of goods|v;o
+sparkle|to shine with small flashes of light; a sparkle, a small flash of light|v;o
+nod|to move the head down and up in agreement; a nod, a movement of the head down and up|v;o
+wink|to close and open one eye as a signal; a wink, a quick closing and opening of one eye|v;o
+revolt|to rise against those in power; to disgust; a revolt, an uprising|v;v;o
+stocking|a close-fitting covering for the leg; stocking, filling with goods (stocking the shelves)|o;o
+thrust|to push hard and suddenly; a thrust, a hard push; thrust, driving force (of an engine)|v;o;o
+blush|to go red in the face from shame; a blush, a red colour in the face from shame|v;o
+bind|to tie up; to hold together; a bind, a difficult situation (in a bind)|v;v;o
+clapping|(sound of hands struck together); clapping, hitting the hands together|g;o
+caress|to touch gently and lovingly; a caress, a gentle loving touch|v;o
+coo|(soft low sound of a dove); to speak softly and lovingly; COO, chief operating officer|g;v;o
+grin|to smile broadly; a grin, a broad smile|v;o
+export|to sell goods to another country; export, goods sold to another country (exports)|v;o
+spur|to encourage, to prompt; a spur, a sharp point (on a rider's heel); spur of the moment: suddenly, without planning|v;o;n
+huff|to blow out air in annoyance; in a huff: offended, sulking; a huff, a breath out in annoyance|v;n;o
+decrease|to become or make less; a decrease, a fall in number or amount|v;o
+binding|legally required to be obeyed; binding, tying or fastening together|o;o
+listing|a list, entry in a list; listing, naming in a list (listing the options)|o;o
+rendering|interpretation, performance; an image generated by computer; rendering, giving or making something|o;o;o
+costing|an estimate of cost; costing, having a price of|o;o
+topping|a layer put on top of food; excellent (colloq.); topping, coming first in (topping the list); topping, putting on top (topping it with nuts)|o;o;o;o
+striving|effort; striving, trying very hard|o;o
+musing|reflection; musing, thinking quietly and at length|o;o
+undoing|ruin, downfall; undoing, opening what was tied or fastened|o;o
+brooding|gloomy and thoughtful; menacing; brooding, sitting on eggs or thinking sadly|o;o;o
+spacing|the distance left between things; spacing, placing at intervals (spacing out births)|o;o

@@ -40,7 +40,7 @@ qu'|引导从句 (连词), …的 (关系代词)|o
 pour|为了 (目的)|o
 ai|我有|f1s
 n'|不 (与 pas 连用)|o
-des|一些 (de+les), …的|o
+des|一些 (un 的复数: des livres); 的 (属于, 来自) (de+les)|o;o
 qui|谁; …的 (关系代词, 作主语)|o;o
 mais|但是|o
 dans|在…里, 在…内|o
@@ -175,7 +175,7 @@ ami|朋友; petit ami: 男朋友; petite amie: 女朋友|o;n;n
 parce|因为 (parce que)|o
 avant|在…之前|o
 fille|女孩; 女儿|o;o
-trop|太, 太多|o
+trop|太 (用在形容词前: trop cher); 太多|o;o
 quelqu'|某人 (用于 quelqu'un)|o
 an|年, 岁 (计数)|o
 père|父亲|o
@@ -257,7 +257,7 @@ devenir|成为, 变成|v
 jusque|直到|o
 mec|家伙, 哥们 (口语)|o
 voiture|汽车|o
-gars|小伙子, 家伙|o
+gars|小伙子, 家伙 (口语)|o
 travail|工作, 活儿|o
 dû|不得不 (devoir 的过去分词); 欠下的|f3s;o
 fils|儿子|o
@@ -325,13 +325,13 @@ partie|部分; 一局, 比赛; 已离开的 (阴性)|o;o;o
 mauvais|坏的, 不好的|o
 genre|种类, 类型|o
 aide|帮助; 我帮助; 他/她帮助; à l'aide de: 借助, 使用|o;f1s;f3s;n
-type|家伙 (口语); 类型|o;o
+type|家伙, 哥们 (口语); 类型, 种类|o;o
 police|警察|o
 seulement|只, 仅仅|o
 ouvrir|打开|v
 bébé|婴儿|o
 car|因为 (连接分句); 长途汽车|o;o
-point|点, 要点; 句点, 圆点; sur le point de: 即将; faire le point: 总结, 盘点|o;o;n;n
+point|点, 分; 小点; 毫不 (ne ... point); sur le point de: 即将, 正要; faire le point: 总结现状, 盘点|o;o;o;n;n
 ville|城市, 城镇|o
 mois|月|o
 oublier|忘记|v
@@ -356,7 +356,7 @@ dormir|睡觉|v
 plein|满的; plein de: 很多|o;n
 compte|账户; 我数; 他/她数; se rendre compte: 意识到; tenir compte de: 考虑到|o;f1s;f3s;n;n
 compris|明白的, 理解的; 包括|o;o
-droit|权利; 直的; 法律 (学科: faire du droit 学法律)|o;o;o
+droit|权利; 右边的 (不是左: le bras droit); 直的; 法学 (学科: faire du droit)|o;o;o;o
 arme|武器|o
 belle|美丽的 (阴性)|o
 ni|也不, 既不|o
@@ -392,7 +392,7 @@ montrer|给…看, 展示|v
 suite|继续, 后续; tout de suite: 马上|o;n
 cause|原因; à cause de: 因为, 由于; 我造成; 他/她造成|o;n;f1s;f3s
 là-bas|那边, 那里|o
-vers|朝, 向; 诗句|o;o
+vers|朝, 向; 大约 (时间); 诗句|o;o;o
 tomber|掉下, 摔倒|v
 devant|在…前面|o
 fin|结束, 末尾|o
@@ -446,7 +446,7 @@ joli|漂亮的|o
 propre|自己的; 干净的|o;o
 plan|计划|o
 parent|父母; 亲戚|o;o
-marche|运转, 管用; 台阶, 步行|f3s;o
+marche|行得通 (ça marche); 步行, 行军; 台阶|f3s;o;o
 finir|结束, 完成; finir par: 最终 (做某事)|v;n
 guerre|战争|o
 servir|服务, 端上; 有用; se servir de: 使用|v;v;n
@@ -455,7 +455,7 @@ fête|聚会; 节日; 我庆祝; 他/她庆祝|o;o;f1s;f3s
 agir|行动; il s'agit de: 涉及, 关于|v;n
 agent|代理人, 警员|o
 dessus|在上面; au-dessus: 在…上方|o;n
-mariage|婚姻, 婚礼|o
+mariage|婚姻; 婚礼|o;o
 rencontrer|遇见|v
 chien|狗|o
 boire|喝|v
@@ -463,7 +463,7 @@ vas-y|去吧!, 来吧|o
 content|满意的, 高兴的|o
 gentil|和蔼的, 友善的|o
 battre|打, 击败; se battre: 打架|v;n
-livre|书 (阳性名词); 磅 (阴性名词)|o;o
+livre|书 (阳性名词); 磅 (阴性名词); 他/她交付, 递交|o;o;f3s
 marier|为…主持婚礼; se marier: 结婚|v;n
 appelé|被叫作的, 被召唤的|o
 noir|黑色的|o
@@ -493,12 +493,12 @@ expliquer|解释|v
 suivre|跟随; 上 (课程), 参加|v;v
 certains|一些, 某些人|o
 ressembler|像, 相似|v
-cours|课, 课程; 我/你跑; au cours de: 在…期间; en cours: 进行中; en cours de: 正在…中|o;f1s;n;n;n
+cours|课, 课程; 价格, 行情; 我/你跑; au cours de: 在……期间; en cours: 进行中; en cours de: 正在……过程中|o;o;f1s;n;n;n
 instant|瞬间, 片刻|o
 tour|转, 轮到 (阳性名词); 塔 (阴性名词)|o;o
 retourner|回去, 返回|v
 bientôt|很快; à bientôt: 回头见|o;n
-peine|痛苦, 麻烦; à peine: 几乎不|o;n
+peine|麻烦, 努力; 悲伤; 刑罚, 判决 (peine de prison); à peine: 几乎不, 刚刚; pas la peine: 不必, 不值得|o;o;o;n;n
 moyen|手段, 办法; 平均的|o;o
 cinq|五|o
 prison|监狱|o
@@ -535,7 +535,7 @@ parfois|有时|o
 esprit|精神, 头脑|o
 vendre|卖|v
 abord|d'abord: 首先, 起初|n
-flic|警察 (口语)|o
+flic|警察, 条子 (口语)|o
 bizarre|奇怪的|o
 dollar|美元|o
 détester|讨厌, 憎恨|v
@@ -572,7 +572,7 @@ ceci|这, 这个|o
 million|百万|o
 jeter|扔|v
 voulu|想要的 (过去分词)|o
-sorte|种类|o
+sorte|种类, 类型; de la sorte: 这样, 如此; faire en sorte de: 设法确保|o;n;n
 supposer|假设, 猜想|v
 envoyé|寄出的, 派遣的|o
 simple|简单的|o
@@ -647,7 +647,7 @@ réveiller|叫醒 (某人)|v
 plait|s'il vous plaît: 请|n
 pareil|一样的, 相同的|o
 médecin|医生|o
-sort|命运, 魔咒; 他/她出去; 他/她拿出|o;f3s;f3s
+sort|命运; 咒语 (jeter un sort); 他/她出去; 他/她拿出|o;o;f3s;f3s
 monter|上去, 爬; 上车, 登上 (交通工具)|v;v
 bois|木头, 树林; 我/你喝|o;f1s
 sinon|否则; 如果不|o;o
@@ -671,7 +671,7 @@ loi|法律|o
 blanc|白色的|o
 libre|自由的, 有空的|o
 assurer|保证, 向…确保; 为…投保; 确保; s'assurer: 核实, 确定; 很棒, 靠得住 (口语)|v;v;v;n;v
-coucher|躺下, 睡; se coucher: 上床睡觉; coucher de soleil: 日落|v;n;n
+coucher|躺下, 睡觉; se coucher: 上床睡觉; coucher de soleil / coucher du soleil: 日落; 就寝时间 (名词)|v;n;n;o
 soeur|姐妹|o
 voyage|旅行; 我旅行; 他/她旅行|o;f1s;f3s
 messieurs|先生们|o
@@ -787,12 +787,12 @@ censé|应该, 理应|o
 absolument|绝对地|o
 normal|正常的|o
 dame|女士|o
-bordel|乱七八糟; 妓院|o;o
+bordel|一团糟 (粗俗); 妓院|o;o
 personnel|员工, 人员; 个人的|o;o
 jurer|发誓|v
 ennemi|敌人|o
 avion|飞机|o
-lever|举起, 抬起; se lever: 起床, 站起来|v;n
+lever|抬起, 举起; se lever: 起床; 起床 (名词); lever du jour / lever du soleil: 黎明, 日出|v;n;o;n
 signe|迹象, 标志; 我签字; 他/她签字|o;f1s;f3s
 prince|王子; 公主 (阴性)|o;o
 intéresser|使感兴趣|v
@@ -877,14 +877,14 @@ responsable|负责的|o
 trou|洞|o
 sortie|出口; 外出; 已离开的, 出去了的 (阴性)|o;o;o
 souffrir|受苦|v
-but|目标, 目的|o
+but|目标, 目的; 他/她喝了|o;f3s
 animal|动物|o
 souhaiter|希望, 祝愿|v
 doucement|轻轻地, 慢慢地|o
 triste|悲伤的|o
 arrivée|到达; 到达了的 (阴性)|o;o
 tue|他/她/它杀|f3s
-don|天赋, 礼物|o
+don|礼物, 天赋; 捐赠 (faire un don)|o;o
 mignon|可爱的|o
 capable|有能力的|o
 fais-tu|你在做…吗 (单数)|f2s2p
@@ -904,7 +904,7 @@ rejoindre|加入, 与…会合|v
 chat|猫|o
 bord|边, 边缘; à bord: 在船上, 在机上|o;n
 merveilleux|精彩的, 奇妙的|o
-gueule|嘴 (动物的); ta gueule: 闭嘴|o;n
+gueule|嘴 (动物的); 脸, 嘴脸 (粗俗); gueule de bois: 宿醉; ta gueule: 闭嘴 (粗俗)|o;o;n;n
 réunion|会议|o
 tiré|拉出的; 被射击的|o;o
 tourner|转动, 转弯; 拍摄 (电影)|v;v
@@ -923,7 +923,7 @@ test|测试|o
 prévenir|通知, 警告|v
 sacré|神圣的; 该死的 (用于名词前)|o;o
 télé|电视|o
-doux|柔软的, 甜的, 温和的|o
+doux|软的; 温柔的, 温和的; 甜的|o;o;o
 moi-même|我自己|o
 debout|站着, 起床了|o
 bière|啤酒|o
@@ -951,7 +951,7 @@ course|赛跑; 差事, 购物|o;o
 répéter|重复|v
 enfer|地狱|o
 couper|切, 剪|v
-pute|妓女, 婊子 (粗俗)|o
+pute|妓女 (粗俗, 冒犯)|o
 base|基础, 基地|o
 pouvez-vous|你们能…吗, 您能…吗 (复数或尊称)|f2s2p
 intelligent|聪明的|o
@@ -978,7 +978,7 @@ vit|他/她住, 他/她活着|f3s
 machine|机器|o
 lieutenant|中尉|o
 caméra|摄像机|o
-adresse|地址|o
+adresse|地址; 灵巧, 技巧; 他/她致词, 对……说|o;o;f3s
 tire|我拉, 开枪; 他/她拉, 开枪|f1s;f3s
 société|社会; 公司|o;o
 fleur|花|o
@@ -988,7 +988,7 @@ mérite|功劳, 优点; 我应得; 他/她应得|o;f1s;f3s
 pardonner|原谅|v
 remarquer|注意到|v
 fenêtre|窗户|o
-connerie|胡说八道, 蠢事 (粗俗)|o
+connerie|蠢话, 胡说八道 (粗俗)|o
 monstre|怪物|o
 milieu|中间; 环境|o;o
 officier|军官|o
@@ -1022,11 +1022,11 @@ découvert|被发现的; 透支|o;o
 enfuir|s'enfuir: 逃跑|n
 pierre|石头|o
 silence|寂静, 沉默|o
-voie|车道, 轨道, 道路|o
+voie|车道, 轨道, 道路; (愿) 我看见; (愿) 他/她看见|o;f1s;f3s
 commandant|指挥官, 司令|o
 connu|(人, 地方) 已知的, 认识的; 著名的|o;o
 construire|建造|v
-allée|车道, 走道; 已走了的 (阴性)|o;o
+allée|小径, 车道; 过道; 去了 (阴性)|o;o;o
 peau|皮肤|o
 bande|帮派, 一伙; 带子, 条; bande dessinée: 连环画|o;o;n
 position|位置, 立场|o
@@ -1050,7 +1050,7 @@ grandir|长大|v
 recommencer|重新开始|v
 fatigué|累的|o
 est-elle|她是…吗|f3s
-prise|插座; 抓握; 被拿走的 (阴性)|o;o;o
+prise|抓取, 捕获; 插座; 抓握; 被拿走的 (阴性)|o;o;o;o
 assis|坐着的|o
 félicitation|祝贺|o
 gérer|管理|v
@@ -1076,7 +1076,7 @@ poursuivre|追赶; 起诉; 继续|v;v;v
 ecoutez|听着! (复数或尊称)|o
 départ|出发, 离开|o
 douleur|疼痛|o
-connard|混蛋, 傻逼 (粗俗)|o
+connard|混蛋, 蠢货 (粗俗)|o
 morceau|块, 片|o
 note|笔记, 音符; 分数; 账单|o;o;o
 innocent|无辜的|o
@@ -1198,7 +1198,7 @@ débarrasser|摆脱; 收拾 (桌子)|v;v
 respecter|尊重, 遵守|v
 couteau|刀|o
 avancer|前进|v
-salope|婊子, 贱人 (粗俗)|o
+salope|对女性的粗俗辱骂 (粗俗, 冒犯)|o
 accompagner|陪同|v
 peux-tu|你能…吗 (单数)|f2s2p
 réalité|现实|o
@@ -1241,7 +1241,7 @@ sexuel|性的|o
 gâteau|蛋糕|o
 ha|哈|o
 contrôler|检查; 控制|v;v
-policier|警察; 侦探的 (roman policier 侦探小说)|o;o
+policier|警察; 警察的 (形容词); roman policier: 侦探小说|o;o;n
 nerveux|紧张的|o
 crise|危机|o
 mémoire|记忆, 记忆力|o
@@ -1249,14 +1249,14 @@ marrant|好笑的, 有趣的|o
 nature|自然, 大自然|o
 blessure|伤, 伤口|o
 sexy|性感的|o
-salaud|混蛋, 王八蛋|o
+salaud|混蛋, 坏蛋 (粗俗)|o
 double|双的, 双倍的|o
 étage|楼层|o
 champ|田地, 田野|o
 restaurant|餐馆, 饭店|o
 île|岛, 岛屿|o
 marié|已婚的|o
-étudiant|学生, 大学生|o
+étudiant|大学生; 在学习的|o;o
 différence|差别, 不同|o
 coupe|切, 剪; 杯, 奖杯; 我切, 我剪; 他/她切, 他/她剪|o;o;f1s;f3s
 renvoyer|退回, 送回; 解雇|v;v
@@ -1273,7 +1273,7 @@ immédiatement|立即, 马上|o
 finalement|最后, 终于|o
 enfoiré|混蛋, 王八蛋 (粗俗)|o
 principal|主要的|o
-taille|尺寸, 身材; 腰|o;o
+taille|尺寸, 身材; 腰; de taille: 相当大的; 他/她修剪, 切|o;o;n;f3s
 puissant|强大的, 有力的|o
 star|明星|o
 conseiller|建议, 劝告; 顾问|v;o
@@ -1303,14 +1303,14 @@ approcher|靠近, 接近|v
 week-end|周末|o
 pont|桥|o
 sonner|响, 按铃|v
-bus|公共汽车|o
+bus|公共汽车; 我/你喝了|o;f1s
 mériter|应得, 值得|v
 lâcher|松开, 放开|v
 malin|聪明的, 狡猾的|o
 mariée|已婚的 (阴性); 新娘|o;o
 signal|信号|o
 donnez-moi|给我 (复数或尊称)|o
-fiancé|未婚夫; 订了婚的; 未婚妻, 订了婚的 (阴性)|o;o;o
+fiancé|未婚夫; 已订婚的; 未婚妻 (阴性); 已订婚的 (阴性)|o;o;o;o
 dure|硬的, 困难的 (阴性); 它持续|o;f3s
 utile|有用的|o
 goût|味道, 品味|o
@@ -1357,7 +1357,7 @@ lors|lors de: 在…时候, 在…期间|n
 dis-lui|告诉他, 告诉她|o
 regard|目光, 眼神|o
 russe|俄罗斯的, 俄语|o
-employé|职员, 雇员|o
+employé|职员; 被使用的|o;o
 rentré|回家了的|o
 terme|术语, 期限; mettre un terme à: 结束, 终止|o;n
 ennuyer|使厌烦; s'ennuyer: 感到无聊|v;n
@@ -1376,7 +1376,7 @@ proposer|建议; 提供|v;v
 suis-je|我是…吗|f1s
 interdit|禁止的|o
 étudier|学习, 研究|v
-foutu|该死的; 完蛋了的|o;o
+foutu|该死的 (粗俗); 完蛋的|o;o
 démon|魔鬼, 恶魔|o
 médicament|药, 药物|o
 commettre|犯 (罪, 错)|v
@@ -1416,9 +1416,9 @@ joie|欢乐, 喜悦|o
 sein|乳房; au sein de: 在…内部|o;n
 shérif|警长|o
 reposer|休息; 放回|v;v
-élève|学生, 小学生|o
+élève|学生; 他/她抚养, 提高; 上升, 达到 (s'élever)|o;f3s;f3s
 élevé|高的; 被抚养长大的|o;o
-failli|j'ai failli: 我差点儿|n
+failli|(与 avoir 连用) 差点; j'ai failli: 我差点|o;n
 joindre|联系上, 找到; 连接, 附上|v;v
 étude|学习, 研究|o
 leçon|课, 教训|o
@@ -1435,7 +1435,7 @@ traverser|穿过, 横穿|v
 mètre|米|o
 bref|简短的; 总之|o;o
 direct|直接的; en direct: 直播|o;n
-assistant|助手, 助理|o
+assistant|助手; 在场的, 目睹的|o;o
 sais-tu|你知道…吗 (单数)|f2s2p
 lait|奶, 牛奶|o
 professionnel|职业的, 专业的|o
@@ -1490,7 +1490,7 @@ jardin|花园|o
 haïr|憎恨, 痛恨|v
 génie|天才|o
 plage|海滩|o
-cesser|停止|v
+cesser|停止; cessez-le-feu: 停火|v;n
 fouiller|搜查, 翻找|v
 mesure|尺寸, 措施, 衡量; dans la mesure où: 在…范围内, 既然; être en mesure de: 能够; au fur et à mesure: 逐渐地, 随着|o;n;n;n
 vitesse|速度; 挡 (汽车)|o;o
@@ -1499,7 +1499,7 @@ complet|完整的, 满的|o
 remonter|重新上去, 回升; remonter à: 追溯到|v;n
 saison|季节|o
 cinéma|电影院, 电影|o
-flingue|枪 (口语)|o
+flingue|枪 (俚语)|o
 folie|疯狂|o
 lié|有关联的, 连在一起的|o
 vendu|卖掉的|o
@@ -1539,7 +1539,7 @@ adn|DNA, 脱氧核糖核酸|o
 brillant|发亮的; 出色的|o;o
 effort|努力|o
 propriétaire|所有者, 房东|o
-lance|我扔; 他/她扔|f1s;f3s
+lance|我投掷; 他/她投掷; 长矛|f1s;f3s;o
 cri|喊叫, 叫声|o
 fermé|关着的|o
 au-dessus|在上面|o
@@ -1548,7 +1548,7 @@ ranger|整理, 收拾|v
 maire|市长|o
 trompe|我欺骗; 他/她欺骗; se tromper: 弄错|f1s;f3s;n
 caché|隐藏的|o
-règle|规则; 尺子|o;o
+règle|规则; 尺子; 他/她解决|o;o;f3s
 mode|时尚 (阴性名词); 方式, 模式 (阳性名词)|o;o
 déplacer|移动, 搬迁; se déplacer: 走动, 出行|v;n
 file|队列; 我飞奔; 他/她飞奔|o;f1s;f3s
@@ -1561,7 +1561,7 @@ violer|强奸; 违反, 侵犯|v;v
 jeté|扔掉的|o
 ombre|影子, 阴影|o
 également|也; 同样地|o;o
-mine|矿; 脸色, 神色|o;o
+mine|矿; 神色, 气色; 他/她破坏, 削弱|o;o;f3s
 particulier|特别的, 个别的; en particulier: 尤其|o;n
 traitement|治疗, 处理|o
 samedi|星期六|o
@@ -1633,7 +1633,7 @@ siège|座位; 总部|o;o
 emploi|就业, 职位; emploi du temps: 时间表, 课程表|o;n
 filer|溜走, 飞奔; 纺; 给 (口语)|v;v;v
 soutenir|支持|v
-conduit|他/她开车; 管道|f3s;o
+conduit|他/她驾驶; 被驾驶的, 被带领的; 管道|f3s;o;o
 social|社会的|o
 pur|纯的, 纯洁的|o
 fais-le|做吧, 去做|f3s
@@ -1725,9 +1725,9 @@ observer|观察|v
 intéressé|感兴趣的|o
 soigner|治疗, 照顾|v
 personnage|人物, 角色|o
-marine|海军|o
+marine|海军; 海的, 海洋的; bleu marine: 藏青色|o;o;n
 fruit|水果, 果实; fruits de mer: 海鲜|o;n
-semblant|faire semblant: 假装|n
+semblant|un semblant de: 一点表象; faire semblant: 假装|n;n
 physique|身体的, 物理的; 物理学|o;o
 augmenter|增加|v
 rêver|做梦, 梦想|v
@@ -1776,7 +1776,7 @@ appuyer|按, 压; 倚靠|v;v
 violence|暴力|o
 identifier|识别, 确认身份|v
 éteindre|关掉, 熄灭|v
-différents|各种各样的|o
+différents|各种各样的; 不同的|o;o
 cloche|钟, 铃|o
 terroriste|恐怖分子|o
 enfermé|被关起来的|o
@@ -1856,7 +1856,7 @@ analyse|分析|o
 lac|湖|o
 barre|杆, 棒; 舵; barre-toi: 滚开, 走开; se barrer: 溜走, 离开|o;o;n;n
 réfléchi|经过深思熟虑的|o
-couille|睾丸, 蛋 (粗俗)|o
+couille|睾丸 (粗俗)|o
 facilement|容易地|o
 réseau|网络|o
 technique|技术, 技巧; 技术的|o;o
@@ -1880,7 +1880,7 @@ repos|休息|o
 secrétaire|秘书|o
 alerte|警报|o
 participer|参加|v
-débile|弱智的, 可悲的 (口语)|o
+débile|愚蠢的, 可怜的 (口语)|o
 reconnu|被认出的, 被承认的|o
 frontière|边境, 国界|o
 arrestation|逮捕|o
@@ -1891,7 +1891,7 @@ désir|欲望, 愿望|o
 échec|失败|o
 spéciale|特别的 (阴性)|o
 document|文件|o
-tâche|任务|o
+tâche|任务; 他/她尽力|o;f3s
 chasser|打猎; 赶走|v;v
 fer|铁|o
 navire|船, 舰|o
@@ -1931,7 +1931,7 @@ bénir|祝福, 保佑|v
 discussion|讨论|o
 pub|广告; 酒吧|o;o
 mortel|致命的; 会死的|o;o
-gare|火车站|o
+gare|火车站; gare à: 小心|o;n
 réaction|反应|o
 ambulance|救护车|o
 château|城堡|o
@@ -1945,7 +1945,7 @@ possibilité|可能性|o
 doc|医生 (docteur 的口语缩略)|o
 courageux|勇敢的|o
 blond|金发的|o
-plaque|板, 牌; 警徽|o;o
+plaque|板, 牌; 徽章; plaque tournante: 枢纽; à côté de la plaque: 偏离目标 (口语)|o;o;n;n
 sain|健康的|o
 couloir|走廊|o
 cesse|sans cesse: 不停地; 他/她停止|n;f3s
@@ -1958,7 +1958,7 @@ liquide|液体; 现金|o;o
 péché|罪孽|o
 option|选项|o
 enterré|被埋葬的|o
-souffle|呼吸, 气息|o
+souffle|呼吸, 气息; 他/她吹; 吹!|o;f3s;o
 sous-titrage|字幕制作|o
 pourri|腐烂的|o
 idéal|理想的|o
@@ -1972,7 +1972,7 @@ placé|被放置的|o
 dette|债务|o
 abruti|蠢货, 傻瓜|o
 tenté|受诱惑的; 尝试过的|o;o
-ballon|气球; 足球|o;o
+ballon|气球; 球 (足球, 篮球)|o;o
 copie|复制品, 副本|o
 minuit|午夜|o
 effacer|擦掉, 抹去|v
@@ -2007,7 +2007,7 @@ crâne|头骨|o
 rapprocher|使靠近; se rapprocher: 靠近, 接近|v;n
 masque|面具, 口罩|o
 matériel|设备, 器材; 物质的|o;o
-emmerde|麻烦事 (粗俗); 我惹烦 (粗俗); 他/她惹烦 (粗俗)|o;f1s;f3s
+emmerde|麻烦 (粗俗); 我惹恼 (某人) (粗俗); 他/她惹恼 (某人) (粗俗)|o;f1s;f3s
 quiconque|任何人|o
 otage|人质|o
 vole|我偷; 他/她偷; 我飞; 他/她飞|f1s;f3s;f1s;f3s
@@ -2056,7 +2056,7 @@ sec|干的|o
 bye|拜拜|o
 pourriez-vous|你们能…吗, 您能…吗 (复数或尊称)|f2s2p
 essence|汽油; 本质|o;o
-bite|鸡巴 (粗俗)|o
+bite|阴茎 (粗俗)|o
 coller|粘, 贴|v
 lendemain|第二天|o
 coach|教练|o
@@ -2070,7 +2070,7 @@ contenir|包含, 容纳|v
 ordure|垃圾; 人渣|o;o
 troupe|部队; 剧团|o;o
 magazine|杂志|o
-tournée|一轮 (请喝酒); 巡回, 巡演|o;o
+tournée|一轮; 巡回; 被转动的 (阴性)|o;o;o
 menacé|受到威胁的|o
 chair|肉体, 肉|o
 étape|阶段, 步骤|o
@@ -2084,18 +2084,18 @@ mentionner|提到|v
 produire|生产, 产生|v
 admirer|钦佩, 欣赏|v
 forcément|必然, 一定|o
-reconnaissant|感激的|o
+reconnaissant|感激的; 承认的, 认出的|o;o
 améliorer|改善, 提高|v
 punir|惩罚|v
 vive|…万岁; 活泼的 (阴性)|o;o
-foule|人群|o
+foule|人群; une foule de: 大量|o;n
 ascenseur|电梯|o
 océan|海洋|o
 rouler|滚动; 行驶|v;v
 volant|方向盘; 飞行的 (soucoupe volante 飞碟)|o;o
 attaché|系住的, 连着的|o
 visiter|参观, 游览|v
-concours|比赛, 竞赛|o
+concours|比赛, 竞赛; 帮助, 支持|o;o
 monté|上去了的|o
 chou|卷心菜; 亲爱的|o;o
 soudain|突然; 突然的|o;o
@@ -2108,7 +2108,7 @@ opportunité|机会|o
 enfance|童年|o
 remonte|我重新上去; 他/她重新上去|f1s;f3s
 prénom|名字|o
-empire|帝国; 情况变得更糟 (ça empire)|o;f3s
+empire|帝国; ça empire: 越来越糟|o;n
 écran|屏幕|o
 tien|你的 (单数)|o
 jaune|黄色的|o
@@ -2129,7 +2129,7 @@ convenir|适合; 商定|v;v
 impressionnant|令人印象深刻的|o
 gaffe|失言, 失误; faire gaffe: 当心, 小心|o;n
 italien|意大利的, 意大利语|o
-dispute|争吵|o
+dispute|争吵; 他/她争吵|o;f3s
 bonbon|糖果|o
 diamant|钻石|o
 entretien|面试, 会谈; 维护, 保养|o;o
@@ -2138,11 +2138,11 @@ hiver|冬天|o
 mystère|谜, 神秘|o
 grand-chose|pas grand-chose: 没多少, 没什么|n
 technologie|技术|o
-pile|电池; 正好, 准时|o;o
+pile|电池; 一叠, 一堆; 正好, 准时|o;o;o
 rembourser|偿还, 退款|v
 poubelle|垃圾桶|o
 provoquer|引起, 造成; 挑衅|v;v
-tenue|服装, 穿着|o
+tenue|服装; 被保持的 (阴性); 举止, 风度|o;o;o
 patte|爪子, 腿 (动物的)|o
 interrompre|打断|v
 poule|母鸡|o
@@ -2159,7 +2159,7 @@ furieux|狂怒的|o
 classique|经典的, 古典的|o
 démissionner|辞职|v
 emprunter|借; 走 (某条路)|v;v
-gagnant|获胜者|o
+gagnant|获胜者; 获胜的|o;o
 gant|手套|o
 communauté|社区, 团体|o
 réglé|解决了的, 安排好的|o
@@ -2180,7 +2180,7 @@ séance|会议, 一次 (活动); 场次 (电影)|o;o
 positif|积极的, 正面的|o
 surface|表面|o
 récompense|奖赏, 报酬|o
-comte|伯爵; 伯爵夫人 (阴性)|o;o
+comte|伯爵 (头衔)|o
 plante|植物|o
 dis-tu|你说…吗 (单数)|f2s2p
 vierge|处女; 空白的|o;o
@@ -2215,7 +2215,7 @@ ménage|家务; 家庭|o;o
 promener|遛 (狗); se promener: 散步|v;n
 rêvé|梦到的, 梦想中的|o
 enquêter|调查|v
-rencard|约会, 碰头|o
+rencard|约会, 碰头 (口语)|o
 informer|通知, 告知|v
 enregistrement|录音, 录制|o
 réduire|减少|v
@@ -2297,8 +2297,8 @@ au-delà|超出, 在…之外|o
 endormi|睡着的|o
 prévenu|被告知的; 被告|o;o
 regardez-moi|看着我 (复数或尊称)|o
-veille|前一天; 前夕|o;o
-taré|疯的, 脑子有毛病的; 疯的, 脑子有毛病的 (阴性)|o;o
+veille|前一天; 前夕; 他/她守护, 照看|o;o;f3s
+taré|疯疯癫癫的 (口语); 疯疯癫癫的 (阴性) (口语)|o;o
 haine|仇恨, 憎恨|o
 ficher|登记, 建档; s'en ficher: 不在乎|v;n
 milliard|十亿|o
@@ -2345,7 +2345,7 @@ amant|情人|o
 traître|叛徒|o
 principe|原则|o
 lâchez-moi|放开我 (复数或尊称)|o
-traite|我对待; 他/她对待; 交易|f1s;f3s;o
+traite|我对待; 他/她对待; 贩卖 (人口)|f1s;f3s;o
 vengeance|复仇|o
 élever|抚养, 养育|v
 bloqué|卡住的, 被堵住的|o
@@ -2354,7 +2354,7 @@ allons-nous|我们要去…吗|f1p
 convaincu|确信的|o
 voyant|指示灯, 警示灯; 看见的|o;o
 ticket|票|o
-risqué|有风险的|o
+risqué|有风险的; 被冒险的|o;o
 glisser|滑, 滑动|v
 plonger|跳水, 潜入|v
 domaine|领域; 庄园, 地产|o;o
@@ -2363,9 +2363,9 @@ lion|狮子|o
 relever|扶起, 捡起; 记下, 指出|v;v
 flipper|抓狂, 惊慌 (口语); 弹球机|v;o
 appelle-moi|给我打电话, 叫我|o
-figure|脸; 人物, 图形; figure-toi: 你想想看, 信不信由你|o;o;n
+figure|脸; 人物, 图形; cas de figure: 情形, 情景; 他/她出现, 列入; figure-toi: 你想想, 信不信由你|o;o;n;f3s;n
 fidèle|忠诚的|o
-piger|明白, 懂 (口语)|v
+piger|懂了, 明白 (口语)|v
 génération|一代, 世代|o
 mordre|咬|v
 section|部分, 科|o
@@ -2374,7 +2374,7 @@ oeuvre|作品; mettre en oeuvre: 实施|o;n
 âgé|年老的, …岁的|o
 passager|乘客|o
 cercle|圆, 圈子|o
-portée|射程, 能及范围; 一窝 (幼崽)|o;o
+portée|范围, 射程; 一窝 (幼崽); 被携带的 (阴性)|o;o;o
 jumeau|双胞胎|o
 rang|排, 等级|o
 palais|宫殿|o
@@ -2392,7 +2392,7 @@ connait|他/她认识, 他/她熟悉 (人, 地方)|f3s
 proposé|被提议的|o
 couvert|被覆盖的; 餐具|o;o
 digne|值得的, 配得上的|o
-bouffe|吃的, 饭 (口语)|o
+bouffe|吃的, 饭 (口语); 他/她吃, 狼吞虎咽 (口语)|o;f3s
 vingt|二十|o
 surprendre|使惊讶, 撞见|v
 noble|高贵的, 贵族|o
@@ -2409,7 +2409,7 @@ monnaie|零钱; 货币|o;o
 tarte|馅饼, 果挞|o
 vilain|淘气的; 丑的|o;o
 piano|钢琴|o
-excitant|令人兴奋的|o
+excitant|令人兴奋的; 刺激的, 撩起的|o;o
 signature|签名|o
 boiter|跛行|v
 nucléaire|核的|o
@@ -2422,7 +2422,7 @@ davantage|更多|o
 matière|科目; 材料, 物质|o;o
 audience|庭审, 听证会; 观众, 听众|o;o
 louer|租; 赞扬|v;v
-balance|秤, 天平|o
+balance|天平, 秤; 差额 (贸易的, 收支的); 我摇摆, 我扔; 他/她摇摆, 扔|o;o;f1s;f3s
 auteur|作者|o
 quant|quant à: 至于|n
 intervenir|介入, 干预|v
@@ -2476,7 +2476,7 @@ fumée|烟|o
 lève-toi|起来|o
 poussé|被推的|o
 péter|放屁; 弄坏, 爆开|v;v
-boucle|环, 圈; 卷发; boucle-la: 闭嘴|o;o;n
+boucle|环, 圈; 卷发; 扣环; boucle-la: 闭嘴|o;o;o;n
 précieux|珍贵的|o
 poison|毒药|o
 poussière|灰尘|o
@@ -2615,7 +2615,7 @@ ivre|醉的|o
 tissu|布料; 组织 (生物)|o;o
 poumon|肺|o
 actuel|当前的, 现在的 (不是"实际的")|o
-fixer|固定, 确定; 盯着看|v;v
+fixer|确定 (日期, 价格); 固定, 系上; 盯着看|v;v;v
 sourd|聋的|o
 instruction|指示, 说明|o
 manuel|手工的, 手动的; 教科书|o;o
@@ -2657,7 +2657,7 @@ dessiner|画, 绘制|v
 transporter|运输, 搬运|v
 reparler|再谈|v
 bienvenu|受欢迎的 (形容词; soyez le bienvenu)|o
-garce|贱人, 婊子|o
+garce|对女性的辱骂 (冒犯)|o
 était-ce|那是…吗|f3s
 charme|魅力|o
 junior|年少的, 青年组|o
@@ -2688,7 +2688,7 @@ chanteur|歌手|o
 national|国家的, 全国的|o
 trafic|交通; 非法买卖|o;o
 compétition|比赛, 竞争|o
-donnée|数据, 已知条件|o
+donnée|数据, 一项数据; 被给予的 (阴性)|o;o
 batterie|电池; 架子鼓|o;o
 adaptation|适应, 改编|o
 craquer|破裂; 崩溃, 屈服|v;v
@@ -2749,7 +2749,7 @@ masse|大量, 团, 块|o
 eue|有过的 (avoir 的过去分词, 阴性)|f3s
 absent|缺席的, 不在的|o
 sous-sol|地下室|o
-baise|我操; 他/她操 (粗俗)|f1s;f3s
+baise|我操 (粗俗); 他/她操 (粗俗)|f1s;f3s
 poudre|粉末|o
 élu|当选的|o
 canard|鸭子|o
@@ -2766,7 +2766,7 @@ ouah|哇; 汪汪 (狗叫)|o;o
 remède|药, 疗法|o
 piquer|蜇, 刺; 偷 (口语)|v;v
 déterminer|确定, 决定|v
-remise|折扣; 棚屋, 杂物间|o;o
+remise|折扣; 棚屋; 颁发, 交付 (remise des prix, des clés); 被交付的, 放回的 (阴性); remise en question / remise en cause: 质疑, 重新审视|o;o;o;o;n
 fréquenter|交往, 常去|v
 patrouille|巡逻|o
 religion|宗教|o
@@ -2809,7 +2809,7 @@ ministère|部 (政府部门)|o
 interview|采访|o
 accueil|接待, 欢迎|o
 habituel|惯常的, 平常的|o
-taule|监狱, 牢房 (俚语)|o
+taule|监狱, 号子 (俚语)|o
 collection|收藏, 系列|o
 sacrifier|牺牲|v
 commerce|贸易, 商业; 商店, 生意|o;o
@@ -2827,7 +2827,7 @@ foie|肝|o
 stylo|钢笔, 笔|o
 clef|钥匙|o
 plastique|塑料|o
-partant|愿意参加的, 乐意的|o
+partant|愿意的, 乐意的; 出发的, 离开的; en partant de: 从……出发|o;o;n
 lecture|阅读 (不是"讲座")|o
 exécution|执行, 处决|o
 conçu|设计的|o
@@ -2883,7 +2883,7 @@ cimetière|墓地|o
 rage|狂怒|o
 déchirer|撕破|v
 amiral|海军上将|o
-prime|奖金|o
+prime|奖金; 保险费; 奖赏, 赏金|o;o;o
 poème|诗|o
 exposé|暴露的, 展出的; 报告, 讲解|o;o
 manche|袖子 (阴性名词); 柄, 把手 (阳性名词)|o;o
@@ -2904,7 +2904,7 @@ merveille|奇迹, 奇观|o
 envisager|考虑, 设想 (做某事)|v
 ruiné|破产的, 毁了的|o
 veine|静脉|o
-salopard|混蛋, 卑鄙小人 (粗俗)|o
+salopard|混蛋, 王八蛋 (粗俗)|o
 repasser|再来, 再经过; 熨烫|v;v
 conclusion|结论|o
 vider|倒空, 清空|v
@@ -2916,7 +2916,7 @@ fabrique|工厂; 我制造; 他/她制造|o;f1s;f3s
 rejoint|加入了的, 会合的|o
 taisez-vous|安静, 闭嘴 (复数或尊称的命令式)|o
 dépêche|快讯, 急件; 快点!|o;o
-parer|挡开, 防御|v
+parer|挡开，格挡; 装饰，打扮; 预防，应对 (parer à)|v;v;v
 bougie|蜡烛|o
 solitaire|孤独的; 独居的, 单独的|o;o
 interrogatoire|审讯|o
@@ -2933,7 +2933,7 @@ retiré|退出的, 隐居的|o
 quart|四分之一, 一刻钟|o
 électricité|电|o
 câlin|拥抱, 搂抱|o
-comporter|se comporter: 表现, 举止|n
+comporter|包括, 包含; se comporter: 表现, 举止|v;n
 guider|引导|v
 gênant|尴尬的, 令人难堪的|o
 repris|收回的, 恢复的|o
@@ -2951,7 +2951,7 @@ accent|口音|o
 muscle|肌肉|o
 racheter|买回; 赎罪, 弥补|v;v
 peser|称重, 重达|v
-impôt|税 (所得税)|o
+impôt|税 (直接税, 对收入或财产)|o
 basé|基于的, 驻扎在|o
 loué|租来的; 受赞扬的|o;o
 anonyme|匿名的|o
@@ -2981,7 +2981,7 @@ culpabilité|内疚, 罪责|o
 envoler|s'envoler: 飞走|n
 mannequin|模特 (时装); 人体模型|o;o
 tandis|tandis que: 而, 当…时|n
-volée|飞行, 一群飞鸟; 被偷的 (阴性)|o;o
+volée|被偷的 (阴性); 齐射; 一群 (鸟), 一段 (楼梯)|o;o;o
 adapter|改编, 使适应|v
 aïe|哎哟|o
 stable|稳定的 (形容词)|o
@@ -3016,7 +3016,7 @@ lot|一批; 奖品|o;o
 processus|过程|o
 menu|菜单|o
 boucher|屠夫, 肉店老板; 堵住, 塞住|o;v
-dessert|甜点|o
+dessert|甜点; 他/她/它损害, 对……不利|o;f3s
 affirmer|断言, 声称|v
 chaussette|袜子|o
 intelligence|智力|o
@@ -3062,7 +3062,7 @@ cadre|框架; 高管, 干部; 环境, 背景|o;o;o
 regret|遗憾, 后悔|o
 scandale|丑闻|o
 mélange|混合物|o
-centrale|发电站|o
+centrale|中心的 (阴性); 发电站|o;o
 enseigne|招牌; 我教; 他/她教|o;f1s;f3s
 familier|熟悉的|o
 brigade|小队, 大队|o
@@ -3093,7 +3093,7 @@ harceler|骚扰|v
 soupçonner|怀疑|v
 badge|徽章, 胸牌|o
 coordonner|协调|v
-représentant|代表|o
+représentant|代表; 代表的|o;o
 défoncé|被砸烂的; 嗨了的, 吸毒后迷幻的 (俚语)|o;o
 publicité|广告|o
 vais-je|我要…吗|f1s
@@ -3128,7 +3128,7 @@ traverse|我穿过; 他/她穿过|f1s;f3s
 adversaire|对手|o
 réalisateur|导演 (电影)|o
 laissez-nous|让我们走, 别管我们 (复数或尊称的命令式)|o
-renseigner|告知, 指路|v
+renseigner|告知, 指路; se renseigner: 打听, 查询|v;n
 connaissez-vous|你们认识…吗, 您认识…吗 (人, 地方; 复数或尊称)|f2s2p
 four|烤箱|o
 musical|音乐的|o
@@ -3158,16 +3158,16 @@ possession|拥有, 财产|o
 détecter|检测, 发现|v
 cogner|敲, 撞|v
 chimique|化学的|o
-nommer|命名, 任命|v
+nommer|命名; 任命|v;v
 chagrin|悲伤|o
 population|人口|o
 immobilier|房地产|o
 ordonné|被命令的; 整齐的, 有条理的|o;o
 sincèrement|真诚地|o
 préoccuper|使担忧|v
-enfoncer|推进, 撞开|v
+enfoncer|打入, 插进; 撞开 (门)|v;v
 révérend|牧师, 神父|o
-bagnole|车 (口语)|o
+bagnole|车, 破车 (口语)|o
 sirène|警笛; 美人鱼|o;o
 confus|混乱的, 模糊的; 尴尬的, 不好意思的|o;o
 noté|记下的|o
@@ -3247,13 +3247,13 @@ rein|肾|o
 effondrer|s'effondrer: 倒塌, 崩溃|n
 résolu|已解决的; 坚决的|o;o
 pétrole|石油|o
-enveloppe|信封|o
+enveloppe|信封; 预算, 拨款 (资金的); 他/她/它包裹, 笼罩|o;o;f3s
 traduire|翻译|v
 alpha|阿尔法 (希腊字母 α)|o
 allonger|加长, 延长; s'allonger: 躺下|v;n
 misérable|悲惨的, 可怜的|o
 téléphonique|电话的 (形容词)|o
-choper|抓住, 逮住 (口语)|v
+choper|逮住, 抓到 (口语)|v
 flèche|箭|o
 répandre|散布, 传播|v
 précisément|准确地, 恰恰|o
@@ -3267,21 +3267,21 @@ supprimer|删除, 取消|v
 comparer|比较|v
 circuit|电路, 线路|o
 inhabituel|不寻常的|o
-planque|藏身处|o
+planque|藏身处; 轻松差事 (口语)|o;o
 nan|不 (口语)|o
 saleté|污垢, 脏东西|o
 enlèvement|绑架; 移除, 清除|o;o
-assumer|承担, 坦然接受|v
+assumer|承担, 接受, 承认|v
 funérailles|葬礼 (正式, 国葬或隆重的)|o
 plume|羽毛; 笔|o;o
 légitime|合法的, 正当的|o
 chaos|混乱|o
 spatial|太空的, 空间的 (形容词)|o
-bouleversé|心烦意乱的, 震惊的|o
+bouleversé|震惊的, 深受打击的; 被弄得天翻地覆的, 被打乱的|o;o
 relâcher|释放, 放松|v
 résistance|抵抗, 阻力|o
 resto|餐馆 (口语简称)|o
-perdant|失败者|o
+perdant|输家; 失败的|o;o
 effectivement|的确, 确实如此|o
 dernièrement|最近|o
 diffuser|播放, 传播|v
@@ -3299,7 +3299,7 @@ anéantir|消灭, 摧毁|v
 marchand|商人|o
 vitre|窗玻璃|o
 secondaire|次要的, 中等的|o
-conte|故事, 童话|o
+conte|故事, 童话; 他/她讲述|o;f3s
 juillet|七月|o
 déchiré|撕破的|o
 va-t-on|我们要…吗|f1p
@@ -3352,14 +3352,14 @@ brise|微风; 我打破; 他/她打破|o;f1s;f3s
 saucisse|香肠|o
 torturer|拷打, 折磨|v
 sécher|弄干, 晒干; 逃 (课)|v;v
-fixe|固定的; 我固定; 他/她固定|o;f1s;f3s
+fixe|固定的; 我确定, 我盯着看; 他/她确定, 盯着看|o;f1s;f3s
 habillé|穿好衣服的|o
 déborder|溢出|v
 infiltrer|渗透, 潜入|v
 revanche|报复, 复仇; en revanche: 另一方面|o;n
 rarement|很少|o
 préparez-vous|准备好 (复数或尊称的命令式)|o
-affiche|海报|o
+affiche|海报; 他/她/它展示, 显示|o;f3s
 pipe|烟斗|o
 contrarié|不高兴的, 恼火的|o
 luxe|奢华|o
@@ -3383,15 +3383,15 @@ munition|弹药|o
 vodka|伏特加|o
 compétence|能力, 技能|o
 entraîneur|教练 (球队的)|o
-destinée|命运|o
+destinée|注定的, 打算给的 (阴性); 命运|o;o
 papillon|蝴蝶|o
 talon|脚后跟, 鞋跟|o
 cuir|皮革|o
 gêné|尴尬的|o
 ancêtre|祖先|o
-balade|散步, 兜风|o
+balade|散步, 兜风; 他/她闲逛, 溜达|o;f3s
 fillette|小女孩|o
-rate|脾脏; 我错过; 他/她错过|o;f1s;f3s
+rate|我错过; 他/她错过; 脾|f1s;f3s;o
 maths|数学|o
 vital|至关重要的|o
 inscrit|已注册的; 写着的|o;o
@@ -3399,7 +3399,7 @@ paysan|农民|o
 interdire|禁止|v
 deuil|哀悼, 服丧|o
 occupe-toi|occupe-toi de: 照顾, 负责|n
-opposé|相反的|o
+opposé|相反的; 反对的|o;o
 malentendu|误会|o
 excellence|卓越|o
 travailleur|工人, 劳动者; 勤劳的|o;o
@@ -3431,8 +3431,8 @@ fois-ci|cette fois-ci: 这一次|n
 nièce|侄女, 外甥女|o
 trente|三十|o
 toile|画布; 网|o;o
-blé|小麦; 钱 (俚语)|o;o
-usage|使用, 习俗|o
+blé|小麦; 钱 (口语)|o;o
+usage|使用; 习惯, 惯例|o;o
 violet|紫色的|o
 tragique|悲剧性的|o
 biologique|生物的|o
@@ -3441,13 +3441,13 @@ souhait|愿望|o
 bidon|罐, 桶; 假的 (口语)|o;o
 pensant|思考的|o
 rituel|仪式|o
-canal|频道, 运河|o
+canal|频道, 渠道; 运河 (水道)|o;o
 acide|酸|o
 menotte|手铐|o
 pension|寄宿公寓; 养老金|o;o
 cuisinier|厨师|o
 suspendu|悬挂的, 暂停的|o
-crève|我死; 他/她死 (口语); 被扎破的|f1s;f3s;o
+crève|我死 (口语); 他/她死 (口语); 爆裂|f1s;f3s;o
 routine|惯例, 日常|o
 favori|最喜欢的, 夺冠热门|o
 repousser|推回, 击退; 推迟|v;v
@@ -3456,7 +3456,7 @@ machin|玩意儿 (口语)|o
 dalle|石板; que dalle: 什么也没有 (俚语)|o;n
 cigare|雪茄|o
 amusez-vous|玩得开心 (复数或尊称的命令式)|o
-estime|尊重|o
+estime|尊重, 敬重; 我认为, 我估计; 他/她认为, 估计|o;f1s;f3s
 vain|徒劳的|o
 filé|纺成的; 溜走的 (口语)|o;o
 tactique|策略; 战术的|o;o
@@ -3529,7 +3529,7 @@ alcoolique|酗酒者, 酒精的|o
 approuver|赞成, 批准|v
 comparé|比较过的|o
 circulation|交通|o
-demeure|住所, 宅邸 (正式)|o
+demeure|住所, 住宅 (正式); 我留下, 我住; 他/她/它留在, 住在|o;f1s;f3s
 fermier|农场主, 农民|o
 gym|健身房, 体育课 (口语简称)|o
 lancement|发射, 发布|o
@@ -3609,7 +3609,7 @@ flatter|奉承|v
 débuter|开始, 起步|v
 différemment|不同地|o
 agressif|有攻击性的|o
-contenu|内容|o
+contenu|内容; 被包含的, 被抑制的|o;o
 description|描述|o
 escroc|骗子|o
 coupure|割伤, 伤口; 停电|o;o
@@ -3651,7 +3651,7 @@ célébrité|名气; 名人|o;o
 ligue|联盟|o
 perle|珍珠|o
 détenir|持有, 拘留|v
-pince|钳子; 夹子|o;o
+pince|钳子; 夹子; 钳, 螯|o;o;o
 bénédiction|祝福|o
 écrasé|被压碎的, 被车轧的|o
 soupçon|怀疑|o
@@ -3661,11 +3661,11 @@ intimité|隐私|o
 baigner|给…洗澡, 浸泡|v
 marteau|锤子|o
 surmonter|克服|v
-fauché|没钱的, 穷光蛋的 (口语)|o
+fauché|身无分文的, 破产的; 被撞倒的, 被撞飞的|o;o
 solaire|太阳的|o
 dimension|维度, 尺寸|o
 assassinat|暗杀, 谋杀|o
-laid|丑的, 难看的 (正式)|o
+laid|丑的, 难看的|o
 avait-il|他当时有…吗|f3s
 soir-là|ce soir-là: 那天晚上|n
 laser|激光|o
@@ -3674,7 +3674,7 @@ infecté|被感染的|o
 pourrais-tu|你能…吗 (单数)|f2s2p
 barrière|栅栏, 障碍|o
 colonie|殖民地|o
-aperçu|一瞥, 概况|o
+aperçu|一瞥, 概览; 被看到的, 被察觉的|o;o
 détacher|解开, 分离|v
 parles-tu|你说…吗 (单数)|f2s2p
 achat|购买|o
@@ -3707,7 +3707,7 @@ refuge|避难所|o
 dérouler|se dérouler: 发生, 进行|n
 filet|网|o
 par-dessus|在…上面, 越过|o
-qualifié|有资格的, 合格的|o
+qualifié|合格的, 有资质的; 被称为的, 被形容为的|o;o
 recruter|招募|v
 aspect|方面, 外观|o
 branché|时髦的; 插上电的|o;o
@@ -3722,12 +3722,12 @@ déplacé|被移动的; 不合适的, 不得体的|o;o
 gaspiller|浪费|v
 mets-toi|你站到…, 你把自己置于… (命令式)|o
 osé|敢做的 (过去分词); 大胆的|o;o
-surprenant|令人惊讶的|o
+surprenant|令人惊讶的; 撞见 (某人), 使吃惊|o;o
 passez-moi|把…递给我 (复数或尊称)|o
 profondeur|深度|o
 formulaire|表格|o
 novembre|十一月|o
-combattant|战士, 斗士|o
+combattant|战士; 战斗的|o;o
 prends-le|拿着它 (命令式)|o
 renverser|打翻, 撞倒; 推翻|v;v
 chantier|工地|o
@@ -3743,8 +3743,8 @@ quête|寻求, 探寻|o
 touriste|游客|o
 allant|去 (现在分词)|o
 mater|偷看, 盯着看 (口语); 制服, 镇压|v;v
-fringues|衣服 (口语)|o
-batte|球棒 (棒球, 板球)|o
+fringues|衣服, 行头 (口语)|o
+batte|球棒 (棒球, 板球); (愿) 我战斗, 我打; (愿) 他/她战斗, 打|o;f1s;f3s
 clou|钉子; 精彩之处, 亮点|o;o
 tennis|网球|o
 brique|砖|o
@@ -3842,7 +3842,7 @@ carnet|小笔记本; 一本票|o;o
 portail|大门, 门户|o
 rajouter|再加, 追加|v
 accroche-toi|抓紧, 坚持住|o
-grille|格栅, 铁栅门|o
+grille|格子, 栅栏门; 铁栅, 栏杆|o;o
 servant|服务 (现在分词)|o
 sous-vêtement|内衣|o
 volontiers|乐意地|o
@@ -3854,9 +3854,9 @@ radiation|辐射|o
 grenouille|青蛙|o
 porteur|搬运工, 携带者|o
 distribuer|分发|v
-montant|金额|o
+montant|金额; 上升的, 上涨的|o;o
 serre|温室; 我握紧, 挤压; 他/她握紧, 挤压|o;f1s;f3s
-embarrassant|令人尴尬的|o
+embarrassant|令人尴尬的; 碍事的, 笨重的|o;o
 barrage|水坝; 路障|o;o
 cow-boy|牛仔|o
 insulter|侮辱|v
@@ -3879,12 +3879,12 @@ dizaine|十来个|o
 fondre|融化|v
 vice-président|副总统, 副主席|o
 développement|发展|o
-montée|攀登, 上升|o
+montée|攀登, 上升; 上去了 (阴性)|o;o
 pénétrer|进入, 穿透|v
 pourboire|小费|o
 entraîné|训练有素的; 被拖走的|o;o
-jetée|码头, 防波堤|o
-loge|包厢 (剧院); 门房, 小屋|o;o
+jetée|被扔的 (阴性); 防波堤, 码头|o;o
+loge|包厢 (剧院); 小屋, 门房; 我住宿, 我安置; 他/她/它住宿, 安置|o;o;f1s;f3s
 humilier|羞辱|v
 tomate|西红柿|o
 cinquième|第五|o
@@ -3917,7 +3917,7 @@ poésie|诗歌|o
 endurer|忍受|v
 sauvetage|救援|o
 martial|军事的, 武术的|o
-pourvoir|供养, 填补 (职位)|v
+pourvoir|提供，配备 (以); 负责，处理 (pourvoir à); 填补 (职位)|v;v;v
 gentiment|友善地|o
 orchestre|管弦乐队|o
 soumettre|提交, 使服从|v
@@ -3953,7 +3953,7 @@ bingo|宾果游戏, 中了!|o
 honorable|可敬的, 体面的|o
 relier|连接|v
 nous-mêmes|我们自己|o
-faille|缺陷, 漏洞|o
+faille|缺陷, 裂缝; (愿) 有必要|o;f3s
 identique|相同的|o
 peint|涂了漆的, 画的|o
 relecture|校对|o
@@ -3969,11 +3969,11 @@ inspiration|灵感|o
 eux-mêmes|他们自己|o
 nichon|奶子 (粗俗)|o
 révélé|被揭露的|o
-meuf|女人, 妞 (俚语)|o
+meuf|女人, 妞 (口语)|o
 fun|好玩的, 乐趣 (口语)|o
 cocaïne|可卡因|o
 relais|接力, 中继|o
-retenue|留校 (处罚); 克制|o;o
+retenue|留校; 克制; 扣除 (工资的); 被留住的, 被保留的, 被选中的 (阴性)|o;o;o;o
 villa|别墅|o
 vainqueur|胜利者 (比赛的)|o
 intuition|直觉|o
@@ -3982,7 +3982,7 @@ monseigneur|大人, 阁下|o
 capter|接收 (信号)|v
 bien-aimé|心爱的|o
 perturbé|心神不宁的|o
-came|毒品, 货 (俚语)|o
+came|毒品，大麻 (俚语)|o
 récolte|收成|o
 boucler|扣上; 完成, 了结|v;v
 certes|诚然|o
@@ -4017,7 +4017,7 @@ fatal|致命的|o
 généralement|通常|o
 barreau|(笼子的) 栏杆; 律师界|o;o
 vieillir|变老|v
-brun|棕色的, 深色头发的|o
+brun|棕色的; 深色头发的|o;o
 divorcé|离婚的|o
 pratiquer|练习, 从事|v
 poster|邮寄, 发布|v
@@ -4048,13 +4048,13 @@ politicien|政客|o
 cuisse|大腿|o
 incroyablement|难以置信地|o
 grange|谷仓|o
-promo|促销 (口语)|o
+promo|特价优惠; 同届生，班级 (学生)|o;o
 appât|诱饵|o
 conserver|保存, 保留|v
 enfreindre|违反 (规定)|v
 spécialement|特别地|o
 prêté|借出的|o
-trait|线条, 特征|o
+trait|线条，笔画; 特征，特点|o;o
 marron|棕色的; 栗子|o;o
 prenant|拿 (现在分词)|o
 championnat|锦标赛|o
@@ -4083,19 +4083,19 @@ primaire|初级的, 小学的|o
 tolérer|容忍|v
 jazz|爵士乐|o
 chiot|小狗|o
-défilé|游行, 队列; 峡谷|o;o
+défilé|游行, 列队; 峡谷; 列队走过的|o;o;o
 inscrire|写下; 注册, 报名|v;v
 largué|被甩的 (口语)|o
 psychologique|心理的|o
 relevé|拾起的; 读数, 清单|o;o
 précaution|预防措施|o
-piqûre|打针, 叮咬|o
+piqûre|注射，打针; 叮，咬|o;o
 certificat|证书|o
 âne|驴|o
 gangster|匪徒|o
 barman|酒保|o
 crayon|铅笔|o
-merdique|烂透的, 垃圾的 (粗俗)|o
+merdique|糟透的，烂透的 (粗俗)|o
 minuscule|极小的|o
 nettoyage|清洁|o
 boxe|拳击|o
@@ -4107,7 +4107,7 @@ fardeau|负担|o
 balancé|摇摆的; 扔掉的 (口语)|o;o
 ci|这 (用于 celui-ci, ce…-ci)|o
 concierge|看门人|o
-dérangé|精神错乱的, 被打扰的|o
+dérangé|被打扰的，受困扰的; 精神失常的，疯狂的|o;o
 district|区|o
 coiffure|发型|o
 hypothèse|假设|o
@@ -4148,7 +4148,7 @@ réservoir|油箱, 水箱, 水库|o
 tonnerre|雷|o
 parrain|教父|o
 séquence|序列, 片段|o
-donnez-lui|给他 (复数或尊称)|o
+donnez-lui|给他，给她 (复数，敬称)|o
 script|剧本, 脚本|o
 trempé|湿透的|o
 définir|定义|v
@@ -4189,20 +4189,20 @@ physiquement|身体上|o
 retomber|再次跌落|v
 étiquette|标签|o
 évolution|演变, 进化|o
-joint|附上的; 连接的|o;o
+joint|附上的; 连接的; 大麻烟卷|o;o;o
 crochet|钩子|o
 grippe|流感|o
 satisfaire|使满意|v
 canne|手杖|o
 détresse|困境, 痛苦|o
 effacé|被抹去的|o
-exemplaire|(书的) 一本, 一期|o
+exemplaire|一本 (书)，一期; 模范的|o;o
 messager|信使|o
 applaudissement|掌声|o
 guéri|痊愈的|o
 générateur|发电机|o
 atout|优势, 王牌|o
-fumier|粪肥; 混蛋 (骂人话)|o;o
+fumier|粪肥; 混蛋 (粗俗)|o;o
 soi-disant|所谓的; 据说|o;o
 arrogant|傲慢的|o
 assommer|打晕|v
@@ -4219,7 +4219,7 @@ migraine|偏头痛|o
 parasite|寄生虫|o
 verser|倒, 浇; 缴付, 存入|v;v
 intégrer|融入, 整合; 加入|v;v
-républicain|共和党人, 共和派的|o
+républicain|共和的，共和党人|o
 retarder|推迟, 耽搁|v
 grognement|咆哮, 哼声|o
 séduire|引诱; 吸引, 迷住|v;v
@@ -4235,7 +4235,7 @@ hockey|曲棍球, 冰球|o
 progresser|进步|v
 richesse|财富|o
 supermarché|超市|o
-borne|界碑, 终端机|o
+borne|界标，界桩; 终端机，自助亭; dépasser les bornes: 太过分|o;o;n
 colocataire|室友, 合租人|o
 évoquer|提起, 唤起|v
 contaminer|污染, 感染|v
@@ -4251,10 +4251,10 @@ premièrement|首先|o
 diabolique|邪恶的, 恶魔般的|o
 cheminée|壁炉, 烟囱|o
 sauveur|救世主, 救星|o
-gilet|背心, 马甲; 背心 (如救生衣, 反光背心)|o;o
+gilet|开襟毛衣; 马甲，西装背心; 背心 (防弹背心，救生衣)|o;o;o
 frein|刹车|o
 calibre|口径|o
-paperasse|文书工作 (口语)|o
+paperasse|文书工作, 繁文缛节|o
 rentrant|回家 (现在分词)|o
 municipal|市的, 市政的|o
 institut|研究所, 学院|o
@@ -4273,7 +4273,7 @@ atterrissage|着陆|o
 hache|斧头|o
 imiter|模仿|v
 jusque-là|在那之前; 到那里为止|o;o
-botte|靴子; 捆, 束|o;o
+botte|靴子; 一束; à la botte de: 受……控制|o;o;n
 camionnette|小货车|o
 pelle|铲子|o
 atroce|残暴的, 可怕的|o
@@ -4289,7 +4289,7 @@ tranquillement|安静地|o
 ivrogne|酒鬼|o
 assassiner|谋杀|v
 halte|停止, 停下|o
-aimant|磁铁|o
+aimant|磁铁; 深情的|o;o
 deux-là|ces deux-là: 那两个人|n
 foudre|闪电, 雷击|o
 modeste|谦虚的, 朴素的|o
@@ -4322,7 +4322,7 @@ turc|土耳其的, 土耳其语|o
 capital|资本; 至关重要的|o;o
 casquette|鸭舌帽|o
 brûlure|烧伤|o
-levée|(邮件的) 收取; 抬起, 解除|o;o
+levée|收取; 抬起, 解除; 被抬起的 (阴性)|o;o;o
 valable|有效的|o
 anomalie|异常|o
 dispositif|装置, 部署|o
@@ -4346,7 +4346,7 @@ hétéro|异性恋的 (口语)|o
 inattendu|意外的|o
 passionné|热情的|o
 rançon|赎金|o
-clandestin|秘密的, 非法的|o
+clandestin|秘密的，地下的; 非法的 (指移民，工人)|o;o
 agité|躁动不安的|o
 prétexte|借口|o
 crevette|虾|o
@@ -4365,8 +4365,8 @@ exercer|锻炼; 从事, 行使|v;v
 logiciel|软件|o
 troupeau|畜群, 羊群|o
 fondé|创立的; 有根据的|o;o
-croyant|信徒|o
-foutaise|胡说八道 (粗俗)|o
+croyant|信徒; 相信的|o;o
+foutaise|废话，胡扯 (口语)|o
 sénat|参议院|o
 diagnostic|诊断|o
 dites-nous|告诉我们 (复数或尊称)|o
@@ -4384,7 +4384,7 @@ arc|弓; 拱|o;o
 encaisser|兑现, 收款; 承受 (打击)|v;v
 beignet|甜甜圈, 油炸面团|o
 céréales|麦片|o
-naze|烂的, 没用的 (口语)|o
+naze|烂的，没用的 (口语); 累坏的，精疲力竭的 (口语)|o;o
 expédition|远征, 探险; 发货|o;o
 presser|压, 挤; se presser: 赶紧|v;n
 coréen|韩国的, 朝鲜的|o
@@ -4420,7 +4420,7 @@ thérapeute|治疗师|o
 insinuer|暗示, 影射|v
 lecteur|读者; 播放器|o;o
 puzzle|拼图|o
-raide|僵硬的, 陡峭的|o
+raide|僵硬的; 陡峭的; 直的 (指头发)|o;o;o
 vaste|广阔的|o
 attirant|有吸引力的|o
 cd|CD 光盘|o
@@ -4467,7 +4467,7 @@ rude|艰苦的, 严酷的|o
 griffe|爪子|o
 carburant|燃料|o
 comique|滑稽的, 喜剧的|o
-délivrer|交付, 颁发; 解救|v;v
+délivrer|解救，释放; 签发 (证件); 传达 (消息)|v;v;v
 dévoiler|揭开, 揭露|v
 tapé|打字的; 被打的|o;o
 vaccin|疫苗|o
@@ -4495,7 +4495,7 @@ pacte|条约, 协定|o
 fumé|熏制的|o
 coquin|淘气的|o
 seau|桶|o
-grouiller|se grouiller: 赶快 (口语)|n
+grouiller|成群涌动，挤满; se grouiller: 赶快 (口语)|v;n
 projeter|计划; 投射, 放映|v;v
 suicidé|自杀者|o
 animé|热闹的, 生动的|o
@@ -4512,7 +4512,7 @@ cœurs|心 (复数)|o
 préparation|准备|o
 siffler|吹口哨|v
 noeud|结|o
-pédale|踏板|o
+pédale|踏板; 对男同性恋者的冒犯称呼|o;o
 ruban|丝带|o
 syndrome|综合征|o
 armoire|衣柜|o
@@ -4561,13 +4561,13 @@ poussez-vous|让开 (复数或尊称)|o
 vocal|声音的|o
 énigme|谜|o
 chewing-gum|口香糖|o
-vachement|非常, 超级 (口语)|o
+vachement|真的，非常 (口语)|o
 lessive|洗衣; 洗衣粉|o;o
 éternellement|永远|o
 fraise|草莓|o
 sens-tu|你感觉到吗 (单数)|f2s2p
 durée|持续时间|o
-gelée|果冻; 霜|o;o
+gelée|果冻; 霜冻; 被冻住的 (阴性)|o;o;o
 gémissement|呻吟|o
 hallucination|幻觉|o
 amer|苦的|o
@@ -4590,7 +4590,7 @@ cuillère|勺子|o
 faillite|破产|o
 bruyant|吵闹的|o
 égalité|平等|o
-pognon|钱 (俚语)|o
+pognon|钱，票子 (口语)|o
 gérant|经理 (商店, 企业的)|o
 répugnant|令人作呕的|o
 déshabiller|脱衣服|v
@@ -4600,7 +4600,7 @@ assurez-vous|确保 (复数或尊称)|o
 jambon|火腿|o
 honoré|荣幸的|o
 sacrément|该死地, 非常 (口语)|o
-gonzesse|妞, 娘们 (俚语)|o
+gonzesse|妞，姑娘 (口语)|o
 honteux|可耻的|o
 aire|区域|o
 ampoule|灯泡; 水泡|o;o
@@ -4628,7 +4628,7 @@ artificiel|人造的|o
 vaincu|被打败的|o
 centimètre|厘米|o
 vestiaire|更衣室|o
-chiotte|厕所 (粗俗)|o
+chiotte|厕所，茅房 (粗俗)|o
 mécanique|机械的|o
 débutant|初学者|o
 ski|滑雪|o
@@ -4639,7 +4639,7 @@ autographe|亲笔签名|o
 athlète|运动员|o
 limousine|豪华轿车|o
 trajectoire|轨迹|o
-commune|市镇|o
+commune|镇, 市镇; 共同的, 共有的 (阴性)|o;o
 barré|划掉的|o
 scellé|密封的|o
 fédération|联邦, 联合会|o
@@ -4652,7 +4652,7 @@ repose-toi|休息吧 (单数)|o
 claquer|砰地关上|v
 falaise|悬崖|o
 lécher|舔|v
-acquis|获得的|o
+acquis|获得的; 既得成果, 既得权利 (名词)|o;o
 bonnet|毛线帽|o
 étroit|狭窄的|o
 réservation|预订|o
@@ -4682,12 +4682,12 @@ addition|账单; 加法|o;o
 émeute|暴乱|o
 béton|混凝土|o
 coca|可乐|o
-emmerder|惹恼, 烦 (粗俗)|v
+emmerder|惹恼, 烦死 (粗俗)|v
 particule|粒子|o
 croisière|游轮旅行|o
 sonde|探测器|o
 croyance|信仰|o
-tronche|脸, 嘴脸 (俚语)|o
+tronche|脸，面孔 (口语)|o
 nage|游泳; 我游泳; 他/她游泳|o;f1s;f3s
 pic|山峰; à pic: 正是时候|o;n
 expulser|驱逐|v
@@ -4747,7 +4747,7 @@ rédiger|撰写, 起草|v
 gin|金酒|o
 vont-ils|他们去吗|f3p
 réviser|复习, 修订|v
-collant|黏的; 黏人的|o;o
+collant|黏的; 黏人的; 连裤袜|o;o;o
 manoir|庄园宅邸|o
 transpirer|出汗|v
 architecte|建筑师|o
@@ -4772,7 +4772,7 @@ volume|音量, 体积|o
 qg|总部 (quartier général)|o
 accroché|挂着的, 钩住的|o
 activer|激活|v
-dégueu|恶心的 (口语)|o
+dégueu|恶心的，令人作呕的 (口语)|o
 billard|台球|o
 rival|对手|o
 roche|岩石|o
@@ -4872,14 +4872,14 @@ subtil|微妙的|o
 voisinage|邻近地区, 街坊|o
 delta|三角洲|o
 guérison|痊愈|o
-clope|香烟 (口语)|o
+clope|香烟，烟 (口语)|o
 optimiste|乐观的|o
 distorsion|扭曲, 失真|o
 fragment|碎片|o
 vérification|核实|o
 accordé|给予的|o
 consister|在于, 由…组成|v
-réclame|广告; 我要求; 他/她要求|o;f1s;f3s
+réclame|我要求; 他/她要求; 广告 (过时)|f1s;f3s;o
 déplacement|出行, 出差|o
 préliminaire|初步的|o
 proximité|接近|o
@@ -4968,7 +4968,7 @@ petit-ami|男朋友|o
 saboter|破坏, 蓄意破坏|v
 tonton|叔叔, 舅舅 (儿语)|o
 va-t-en|走开, 滚开|o
-vicieux|邪恶的, 恶毒的; 狡诈的|o;o
+vicieux|堕落的，变态的; 狡猾的，阴险的; cercle vicieux: 恶性循环|o;o;n
 annuel|每年的, 年度的|o
 extrait|摘录, 节选|o
 reportage|报道, 新闻报道|o
@@ -5097,7 +5097,7 @@ balayer|扫, 清扫|v
 opérationnel|可运作的, 投入使用的|o
 soi-même|自己, 亲自 (强调)|o
 tracer|画, 描绘; 追踪|v;v
-comporte|我表现, 我举止 (代动词 se comporter); 他/她表现, 他/她举止|f1s;f3s
+comporte|包括，包含; se comporte: 他/她表现; me comporte: 我表现|f3s;n;n
 tambour|鼓|o
 battement|跳动, 拍打|o
 intégrité|正直, 完整性|o
@@ -5112,7 +5112,7 @@ crotte|(动物的) 粪便, 屎|o
 curé|本堂神父, 教区神父|o
 institution|机构, 制度|o
 investi|投入的, 投资的|o
-maternelle|幼儿园|o
+maternelle|母亲的, 母性的 (阴性); 幼儿园|o;o
 ridiculiser|嘲笑, 使出丑|v
 email|电子邮件|o
 ingrat|忘恩负义的; 吃力不讨好的|o;o
@@ -5154,7 +5154,7 @@ flûte|长笛|o
 entrainement|训练|o
 flux|流, 流动|o
 averti|被警告的, 已知情的; 内行的, 有见识的|o;o
-branler|s'en branler: 根本不在乎 (粗俗)|n
+branler|s'en branler: 完全不在乎 (粗俗)|n
 sûreté|安全|o
 infliger|施加, 使遭受|v
 schéma|图表, 示意图|o
@@ -5172,7 +5172,7 @@ rigolo|有趣的, 好笑的 (口语)|o
 regardez-vous|看看你们自己 (对你们/您说的命令式)|o
 entrepreneur|承包商; 企业家|o;o
 mere|母亲|o
-distrait|心不在焉的|o
+distrait|心不在焉的; 被逗乐的, 被消遣的|o;o
 livreur|送货员|o
 cure|疗程, 治疗|o
 glorieux|光荣的|o
@@ -5249,7 +5249,7 @@ disperser|驱散, 分散|v
 sophistiqué|复杂精密的, 精致的|o
 regardez-le|看他 (对你们/您说的命令式)|o
 étincelle|火花|o
-démocrate|民主党人|o
+démocrate|民主派人士，民主党人|o
 pertinent|相关的, 中肯的|o
 soupirer|叹气|v
 fourré|有馅的, 塞满的; 灌木丛|o;o
@@ -5345,7 +5345,7 @@ enjeu|赌注, 利害关系|o
 gâchette|扳机|o
 canadien|加拿大的|o
 minou|小猫咪|o
-barrer|拦住, 堵住; 划掉|v;v
+barrer|堵住，封锁; 划掉; 溜走，走人 (se barrer) (口语)|v;v;v
 consoler|安慰|v
 mouchard|告密者, 线人|o
 occupation|占领, 事务, 工作|o
@@ -5353,7 +5353,7 @@ ramassé|捡起的|o
 lin|亚麻布|o
 petit-enfant|孙子女, 外孙子女|o
 crédible|可信的|o
-dépense|开支, 花费|o
+dépense|开支; 我花 (钱); 他/她花 (钱)|o;f1s;f3s
 sang-froid|冷静, 镇定|o
 compétent|有能力的, 称职的|o
 escorter|护送|v
@@ -5388,7 +5388,7 @@ aidez-nous|帮帮我们 (对你们/您说的命令式)|o
 laissez-les|别管他们, 放开他们 (对你们/您说的命令式)|o
 recouvert|被覆盖的|o
 suédois|瑞典的, 瑞典语|o
-camping|露营地|o
+camping|露营地; 露营 (活动)|o;o
 camper|露营|v
 observé|被观察的|o
 contexte|背景, 上下文|o
@@ -5401,10 +5401,10 @@ consultation|咨询, 诊疗|o
 immatriculation|(车辆) 注册, 车牌号|o
 modifié|修改过的|o
 primitif|原始的|o
-revenant|鬼魂, 归来者|o
+revenant|鬼魂，幽灵; 回来的，归来的|o;o
 tampon|印章; 卫生棉条|o;o
 devons-nous|我们必须…吗|f1p
-pair|同辈, 同等的人|o
+pair|同等的人，同辈; 偶数的 (指数字); de pair: 并肩 (aller de pair)|o;o;n
 puant|发臭的|o
 implant|植入物|o
 pet|屁|o
@@ -5431,7 +5431,7 @@ rédacteur|编辑, 撰稿人|o
 canyon|峡谷|o
 civilisé|文明的|o
 querelle|争吵|o
-avancée|进展, 突破|o
+avancée|进展, 突破; 前移的, 推进的 (阴性)|o;o
 inquiétant|令人担忧的|o
 servez-vous|请自便, 请随便取用 (对你们/您说的命令式)|o
 invincible|不可战胜的|o
@@ -5488,7 +5488,7 @@ carreau|瓷砖, 地砖; 窗玻璃|o;o
 enthousiaste|热情的|o
 convenable|合适的, 得体的|o
 fais-toi|让自己…, 给自己…|o
-ouf|呼, 好险|o
+ouf|呼，总算; 疯狂的，离谱的 (俚语)|o;o
 tirée|被拉的 (阴性)|o
 localisation|定位, 位置|o
 toutefois|然而, 不过 (正式)|o
@@ -5574,16 +5574,16 @@ confiture|果酱|o
 mijoter|炖, 用文火煮; 暗中策划|v;v
 prometteur|有前途的|o
 propager|传播, 扩散|v
-demandez-lui|问他 (对你们/您说的命令式)|o
+demandez-lui|问他，问她 (复数，敬称)|o
 jardinier|园丁|o
 peluche|毛绒玩具|o
-bouchée|一口|o
+bouchée|一口; qu'une bouchée: 轻而易举地对付 (n'en faire qu'une bouchée); pour une bouchée de pain: 以极低的价格|o;n;n
 démasquer|揭穿, 揭露|v
 déployer|部署, 展开|v
 commode|方便的; 五斗柜|o;o
 chauffage|暖气, 供暖|o
 couvent|修道院, 女修道院|o
-merdeux|糟糕的, 烂的 (粗俗)|o
+merdeux|糟糕的, 烂透的 (粗俗)|o
 torpille|鱼雷|o
 irresponsable|不负责任的|o
 neutre|中立的, 中性的|o
@@ -5591,10 +5591,10 @@ déduire|推断; 扣除|v;v
 diffusion|播出, 广播|o
 filtre|过滤器|o
 nœud|结|o
-culpabiliser|使感到内疚|v
+culpabiliser|感到内疚; 使 (某人) 内疚|v;v
 permanente|烫发|o
 sélection|选择, 挑选|o
-lâche-le|放开他|o
+lâche-le|放开他，放开它|o
 prends-en|拿一些|o
 caser|塞进, 安置; 把…嫁出去|v;v
 embarrassé|尴尬的, 为难的|o
@@ -5632,7 +5632,7 @@ inacceptable|不可接受的|o
 kidnappeur|绑匪|o
 comble|le comble: 忍无可忍的极点, 最后一根稻草|n
 contagieux|传染的|o
-sympathie|好感, 同情|o
+sympathie|好感，亲切感; 同情|o;o
 trêve|休战|o
 cubain|古巴的|o
 visa|签证|o
@@ -5654,7 +5654,7 @@ meute|一群 (狗, 狼)|o
 obligatoire|必须的, 强制的|o
 contraint|被迫的, 受限的|o
 pin|松树|o
-toubib|医生, 大夫 (口语)|o
+toubib|医生，大夫 (口语)|o
 ému|感动的|o
 lycéen|高中生|o
 œuvres|作品|o
@@ -5725,7 +5725,7 @@ implication|牵连, 参与|o
 berceau|摇篮|o
 chalet|木屋, 小别墅|o
 manuscrit|手稿|o
-bander|用绷带包扎; 勃起 (粗俗)|v;v
+bander|包扎; 勃起 (粗俗)|v;v
 réconcilier|使和解|v
 gramme|克|o
 décapiter|斩首|v
@@ -5734,7 +5734,7 @@ chronique|慢性的; 专栏|o;o
 jadis|从前, 昔日|o
 reposez-vous|休息吧 (对你们/您说的命令式)|o
 malle|大箱子, 行李箱|o
-mathématique|数学|o
+mathématique|数学的; 数学|o;o
 vétérinaire|兽医|o
 désespérément|绝望地, 拼命地|o
 écartez-vous|往后退, 让开 (对你们/您说的命令式)|o
@@ -5764,7 +5764,7 @@ humiliant|令人羞辱的|o
 zero|零|o
 brune|棕发的 (阴性)|o
 klaxon|汽车喇叭|o
-méprise|误会, 错误|o
+méprise|我轻视; 他/她轻视; 误会，误解|f1s;f3s;o
 coquille|贝壳, 蛋壳; 印刷错误, 错字|o;o
 jours-ci|ces jours-ci: 这些天, 近来|n
 mutuel|相互的|o
@@ -5780,7 +5780,7 @@ pécheur|罪人|o
 intrusion|闯入, 侵入|o
 scandaleux|可耻的, 令人愤慨的|o
 évier|水槽|o
-ménager|照顾, 不为难; 安排|v;v
+ménager|对……手下留情，爱惜; 安排，筹划; 家庭的，家用的|v;v;o
 communiqué|公报, 新闻稿|o
 protéine|蛋白质|o
 rabbin|拉比|o
@@ -5849,7 +5849,7 @@ hystérique|歇斯底里的|o
 menaçant|威胁的, 吓人的|o
 aurais-tu|你会有…吗 (单数, 条件式)|f2s2p
 tarif|价格, 费率|o
-blouse|工作服, 罩衫|o
+blouse|工作服，罩衫，白大褂; 女式衬衫|o;o
 loisir|休闲, 空闲|o
 branleur|懒鬼, 废物 (粗俗)|o
 spectre|幽灵; 光谱|o;o
@@ -5903,7 +5903,7 @@ poignard|匕首|o
 simulation|模拟|o
 prélever|采样, 抽取|v
 présidentiel|总统的|o
-funèbre|葬礼的, 阴郁的|o
+funèbre|丧葬的; 阴沉的，哀伤的|o;o
 gigantesque|巨大的|o
 interrompu|被打断的|o
 tablette|平板电脑; 板 (巧克力)|o;o
@@ -5931,9 +5931,9 @@ bousillé|毁坏的, 坏掉的|o
 équation|方程|o
 fondu|融化的|o
 justicier|义警, 伸张正义者|o
-fais-lui|给他做, 让他|f3s
+fais-lui|让他，让她 (做某事); 为他，为她 (做某事)|o;f3s
 humilié|受辱的|o
-informe|不成形的|o
+informe|我通知; 他/她通知; 无定形的，不成形的|f1s;f3s;o
 freiner|刹车|v
 moutarde|芥末|o
 natal|出生的, 故乡的|o
@@ -6075,7 +6075,7 @@ dégénéré|堕落的, 退化的|o
 comparaison|比较|o
 creux|空心的|o
 peuvent-ils|他们能…吗|f3p
-sieur|先生|o
+sieur|先生 (用于姓名前，法律或旧时用法)|o
 souche|树桩; 菌株, 毒株|o;o
 surf|冲浪|o
 fonder|创建, 建立|v
@@ -6092,11 +6092,11 @@ stérile|不育的, 无菌的|o
 boulet|脚镣铁球; 累赘|o;o
 sournois|阴险的, 狡猾的|o
 interdiction|禁止, 禁令|o
-raisonner|劝说, 跟…讲道理|v
+raisonner|推理，思考; 劝说，讲道理|v;v
 terminal|终端, 航站楼|o
 éjecter|弹出, 逐出|v
 messire|大人, 阁下 (古)|o
-digitale|数字的 (阴性)|o
+digitale|数字的 (阴性); empreinte digitale: 指纹|o;n
 testicule|睾丸|o
 choquer|使震惊|v
 marchant|走着|o
@@ -6198,7 +6198,7 @@ imprudent|鲁莽的, 轻率的|o
 collaboration|合作, 协作|o
 parlement|议会, 国会|o
 pédophile|恋童癖者|o
-subit|他/她遭受, 他/她经历|f3s
+subit|他/她遭受，承受; 突然的|f3s;o
 corrompre|使腐败, 贿赂, 腐蚀|v
 crapaud|蟾蜍, 癞蛤蟆|o
 mutant|突变体, 变种人|o
@@ -6219,7 +6219,7 @@ mature|成熟的|o
 rebours|compte à rebours: 倒计时|n
 bouffon|小丑, 滑稽的人|o
 prenez-vous|你们拿吗, 您拿吗 (复数或尊称)|f2s2p
-relaxe|无罪释放, 宣告无罪|o
+relaxe|放松点! (relaxe-toi); 放松的，悠闲的 (口语); 无罪释放 (法律)|o;o;o
 nécessité|必要, 必需|o
 poire|梨|o
 actionnaire|股东|o
@@ -6242,7 +6242,7 @@ marketing|市场营销|o
 léguer|遗赠, 传给|v
 pourcentage|百分比|o
 chandelle|蜡烛 (细长的)|o
-ducon|蠢货, 傻逼 (粗俗)|o
+ducon|蠢货，混蛋 (粗俗)|o
 érection|勃起|o
 trappe|活板门, 暗门|o
 désirez-vous|你们想要, 您想要 (复数或尊称)|f2s2p
@@ -6292,7 +6292,7 @@ douille|灯头, 插座; 弹壳|o;o
 effondré|倒塌的, 崩溃的|o
 tic|抽搐, 习惯性动作|o
 catalogue|目录, 商品目录|o
-opératoire|手术的, 术后的|o
+opératoire|手术的，操作的; bloc opératoire: 手术室|o;n
 brochure|小册子|o
 melon|甜瓜|o
 apprenti|学徒|o
@@ -6426,7 +6426,7 @@ allons-nous-en|我们走吧|o
 consommer|消费, 消耗|v
 delà|au-delà: 超过, 在…之外|n
 égyptien|埃及的|o
-emmerdeur|讨厌鬼 (口语)|o
+emmerdeur|讨厌鬼, 烦人精 (粗俗)|o
 esthétique|美学的, 美观的|o
 extinction|灭绝|o
 compréhensif|通情达理的, 体谅人的|o
@@ -6546,7 +6546,7 @@ mondialisation|全球化|o
 littéraire|文学的|o
 gouvernance|治理|o
 iranien|伊朗的|o
-énergétique|能源的, 能量的|o
+énergétique|能源的，与能量有关的|o
 technologique|技术的|o
 arrondissement|区 (城市或省的行政区)|o
 considérable|相当大的, 重大的|o
@@ -6575,7 +6575,7 @@ socialiste|社会主义的, 社会党的|o
 patrimoine|遗产; 财产, 资产|o;o
 favorable|有利的, 赞成的|o
 compositeur|作曲家|o
-métrage|胶片长度; court/long métrage: 短片/故事片|o;n
+métrage|长度，片长 (影片); court métrage: 短片; long métrage: 长片，故事片|o;n;n
 relativement|相对地|o
 agricole|农业的|o
 relatif|相对的; 与…有关的|o;o
@@ -6702,7 +6702,7 @@ quasi|几乎, 准-|o
 restriction|限制|o
 véritablement|真正地, 确实|o
 archéologique|考古的|o
-succéder|继承, 接替|v
+succéder|接在后面，继之而来; 继承 (王位，职位)|v;v
 nationalisme|民族主义|o
 fonctionnement|运作, 运转|o
 congolais|刚果的|o
@@ -6752,7 +6752,7 @@ diplomatie|外交|o
 législation|立法, 法律|o
 créativité|创造力|o
 exploitation|剥削, 开采; 经营, 运营 (企业); 农场|o;o;o
-ores|已经 (用于 d'ores et déjà)|o
+ores|d'ores et déjà: 从现在起已经|n
 corral|畜栏|o
 viable|可行的, 能存活的|o
 arménien|亚美尼亚的|o
@@ -6787,7 +6787,7 @@ graphique|图表 (阳性名词); 图形的, 平面的 (形容词)|o;o
 mention|提及; 评语, 等级 (学位成绩)|o;o
 regrouper|集合, 归并|v
 conventionnel|常规的, 传统的|o
-d'œuvre|劳动力 (用于 main-d'œuvre); 杰作 (用于 chef-d'œuvre)|o;o
+d'œuvre|main-d'œuvre: 劳动力，人力; chef-d'œuvre: 杰作|n;n
 génome|基因组|o
 migration|迁徙, 移民|o
 équivalent|相等的, 等同物|o
@@ -6979,7 +6979,7 @@ sélectionné|入选的|o
 voûte|拱顶, 穹顶|o
 dépendant|依赖的, 从属的|o
 emplir|充满, 装满 (书面语)|v
-relief|地形, 地势|o
+relief|地势 (地形)，地貌; mettre en relief: 突出，强调|o;n
 encourageant|鼓舞人心的|o
 illustré|有插图的|o
 élargissement|拓宽, 扩大|o
@@ -7077,7 +7077,7 @@ transatlantique|跨大西洋的|o
 doctrine|学说, 教义|o
 froidement|冷淡地, 冷静地|o
 hostilité|敌意|o
-statu|(用于 statu quo) 现状|o
+statu|statu quo: 现状|n
 homologue|对应的人, 对口人员|o
 lanterne|灯笼, 提灯|o
 périphérie|外围, 郊区|o
@@ -7176,7 +7176,7 @@ revendiquer|要求, 声称拥有|v
 assembler|组装, 集合|v
 immigrant|移民 (刚到达的)|o
 conjoint|配偶 (阳性名词); 共同的|o;o
-dessinateur|画家, 漫画家; 制图员|o;o
+dessinateur|插画家，漫画家; 制图员|o;o
 exclusivement|专门地, 唯一地|o
 gaieté|快活, 欢乐|o
 pourparler|谈判, 会谈 (常用复数 pourparlers)|o
@@ -7216,7 +7216,7 @@ tunisien|突尼斯的|o
 démuni|贫困的, 一无所有的|o
 répartir|分配, 分摊|v
 seigneurie|领地, 领主权|o
-berline|四轮马车; 轿车|o;o
+berline|轿车; 柏林马车 (四轮马车)|o;o
 contrée|地区, 地方|o
 cottage|乡间小屋|o
 détenteur|持有人|o
@@ -7577,7 +7577,7 @@ conformément|依照, 按照|o
 racial|种族的|o
 traditionnellement|传统上|o
 infortuné|不幸的, 倒霉的|o
-optique|光学的; 光学, 观点 (阴性名词)|o;o
+optique|光学的; 光学 (阴性名词); 视角，观点 (阴性名词)|o;o;o
 sabot|木鞋; 蹄|o;o
 suppression|取消, 废除; 裁员|o;o
 tardif|迟来的, 晚的|o
@@ -7597,7 +7597,7 @@ couronné|加冕的|o
 crépuscule|黄昏, 暮色|o
 débiteur|债务人|o
 félicité|至福, 幸福|o
-intégrant|组成部分的 (faire partie intégrante: 是…不可分割的一部分)|o
+intégrant|整合的; 不可分割的; faire partie intégrante: 是不可分割的一部分|o;o;n
 jouissance|享受, 快乐; 使用权, 占有 (法律)|o;o
 marquant|引人注目的, 难忘的|o
 éradiquer|根除|v
@@ -7766,7 +7766,7 @@ renommé|著名的|o
 réédition|再版, 重印|o
 adroit|灵巧的, 熟练的|o
 charmé|着迷的, 很高兴的|o
-dépourvu|缺乏…的, 没有…的|o
+dépourvu|缺乏的，没有的; au dépourvu: 措手不及，出其不意|o;n
 entame|他/她开始, 我开始|f3s
 glissant|滑的|o
 pilori|颈手枷, 示众柱|o
@@ -7945,7 +7945,7 @@ vietnamien|越南的|o
 accomplissement|完成, 实现|o
 anémique|贫血的; 疲软的, 无力的|o;o
 collectionneur|收藏家|o
-gallo|加洛语 (布列塔尼东部的罗曼语)|o
+gallo|高卢- (用于复合词，如 gallo-romain，高卢罗马的); 加洛语 (布列塔尼东部的罗曼语)|o;o
 procession|宗教游行, 列队行进|o
 recouvrir|覆盖, 掩盖; 收回 (债款)|v;v
 rectangle|长方形, 矩形|o
@@ -7976,7 +7976,7 @@ multiplication|乘法; 增多, 激增|o;o
 naval|海军的, 航海的|o
 obésité|肥胖|o
 éminent|杰出的, 卓越的|o
-intégrale|积分 (数学)|o
+intégrale|完整的，全部的，未删节的 (阴性); 全集，全套 (阴性名词); 积分 (数学)|o;o;o
 réalisable|可实现的, 可行的|o
 aucunement|毫不, 绝不 (与 ne 连用)|o
 faillir|差点, 几乎 (做某事); 失败, 未尽 (职责)|v;v
@@ -8032,7 +8032,7 @@ astre|星体, 天体|o
 consul|领事|o
 enquérir|打听, 询问 (s'enquérir)|v
 expansionniste|扩张主义的|o
-facto|(de facto) 事实上的|o
+facto|de facto: 事实上的，实际上|n
 focaliser|集中, 聚焦|v
 gouffre|深渊|o
 guet|监视, 看守; faire le guet: 放哨|o;n
@@ -8043,7 +8043,7 @@ saillie|突出部分, 凸缘; 妙语, 俏皮话|o;o
 tirage|印数, 发行量; 抽签, 开奖|o;o
 écueil|暗礁; 陷阱, 障碍|o;o
 étourdi|头晕的, 发懵的; 冒失的, 粗心的|o;o
-bis|附号, 之二 (门牌: 12 bis); 再来一个!|o;o
+bis|之二 (用于地址，12 bis = 12之二); 再来一次!; 第二次的，重复的|o;o;o
 chanoine|议事司铎 (神职人员)|o
 imprimante|打印机|o
 parution|出版, 发行|o
@@ -8058,7 +8058,7 @@ moderniser|使现代化|v
 retable|祭坛装饰屏|o
 schiste|页岩, 片岩|o
 castillan|卡斯蒂利亚语 (西班牙语)|o
-fur|(au fur et à mesure) 随着, 逐步地|o
+fur|au fur et à mesure: 随着进展，逐步|n
 indépendamment|独立地; indépendamment de: 不论, 不管|o;n
 multitude|大量, 众多|o
 recteur|校长, 学区区长|o
@@ -8192,7 +8192,7 @@ centré|以…为中心的, 集中的|o
 comportemental|行为的|o
 demandeur|申请人, 寻求者; 原告|o;o
 doter|配备, 赋予|v
-dépens|(aux dépens de) 以…为代价, 损害…的利益|o
+dépens|aux dépens de: 以……为代价|n
 emblème|标志, 象征|o
 hémisphère|半球|o
 visualiser|使可视化, 显示|v
@@ -8253,7 +8253,7 @@ postérieur|以后的, 后来的; 后部的|o;o
 pourpre|深红色, 紫红色|o
 précipité|匆忙的; 草率的|o;o
 recenser|统计, 普查; 列出|v;v
-signifiant|能指 (语言学)|o
+signifiant|有意义的，表示……意思的; 能指 (语言学)|o;o
 stupéfaction|惊愕|o
 timidement|羞怯地|o
 trot|小跑|o
@@ -8292,7 +8292,7 @@ exponentiel|指数的|o
 frémissant|颤抖的|o
 hutte|小屋, 棚屋|o
 involontairement|无意中, 不自觉地|o
-livrée|制服 (仆人)|o
+livrée|已送达的，已交付的 (阴性); 制服 (仆人的号衣)|o;o
 manier|操作, 运用|v
 méridien|子午线, 经线|o
 replier|折叠; se replier: 撤退, 退缩|v;n
@@ -8301,13 +8301,13 @@ révélateur|揭示性的, 说明问题的|o
 sociologue|社会学家|o
 suffoquer|窒息|v
 touffe|簇, 丛|o
-zélandais|新西兰的 (Nouvelle-Zélande)|o
+zélandais|新西兰的，新西兰人 (用于 néo-zélandais)|o
 épargnant|储户, 投资者|o
 binaire|二进制的, 二元的|o
 chômeur|失业者|o
 fréquent|频繁的|o
 irrationnel|非理性的|o
-magner|(se magner) 赶紧, 快点|v
+magner|(se magner) 赶快，快点 (口语)|v
 signataire|签署人, 签字方|o
 attesté|有据可查的, 得到证实的|o
 clavier|键盘|o
@@ -8373,7 +8373,7 @@ féodal|封建的|o
 gisait|他/她躺着 (死去或病倒)|f3s
 hideux|丑陋的, 可怕的|o
 inaction|无所作为|o
-induire|导致, 引起; 推断|v;v
+induire|引起，导致; 推断; induire en erreur: 误导|v;v;n
 innombrable|无数的|o
 inutilement|徒劳地, 不必要地|o
 linéaire|线性的|o
@@ -8473,7 +8473,7 @@ pontifical|教皇的|o
 primate|灵长类动物|o
 promulguer|颁布, 公布|v
 puiser|汲取, 从…取|v
-renflouement|纾困, 救助, 打捞 (沉船)|o
+renflouement|救助资金，纾困; 重新浮起 (船只)|o;o
 rente|年金, 定期收入; 租金 (经济学)|o;o
 réinventer|重新发明, 重塑|v
 saga|传奇, 家族史诗|o
@@ -8514,7 +8514,7 @@ endiguer|遏制, 控制|v
 enluminure|手抄本装饰画|o
 mortier|迫击炮, 灰浆, 研钵|o
 notaire|公证人|o
-polluant|污染物|o
+polluant|污染的; 污染物|o;o
 réorganiser|重组, 改组|v
 spécialiser|(se spécialiser) 专攻, 专门从事|v
 chaotique|混乱的|o
@@ -8526,7 +8526,7 @@ abaisser|降低, 减少|v
 amasser|积聚, 堆积|v
 baronnet|从男爵|o
 cachot|地牢, 牢房|o
-causant|健谈的; 说话的|o;o
+causant|引起的; 爱说话的; 正在说话的|o;o;o
 châle|披肩|o
 commençant|开始的|o
 denier|德尼耶 (古钱币); 钱, 资金 (复数)|o;o
@@ -8573,13 +8573,13 @@ antichambre|前厅, 候见室|o
 cohérence|一致性, 连贯性|o
 conjointement|共同地|o
 conjoncture|经济形势, 时局|o
-crique|小海湾|o
+crique|小海湾，小港湾|o
 dépouiller|剥夺, 抢劫; 查阅, 清点 (邮件, 选票)|v;v
 essoufflé|气喘吁吁的|o
 extase|狂喜, 陶醉|o
 gazon|草坪, 草皮|o
 harpon|鱼叉|o
-livide|面色苍白的, 死灰色的|o
+livide|惨白的，面无人色的|o
 lièvre|野兔|o
 lyonnais|里昂的|o
 nutrition|营养|o
@@ -8595,7 +8595,7 @@ tôle|金属薄板, 铁皮|o
 vassal|附庸, 诸侯|o
 égarer|放错地方, 弄丢; 使误入歧途; s'égarer: 迷路|v;v;n
 accompagnement|陪伴, 支持; 伴奏|o;o
-aval|(en aval) 下游; 担保, 认可|o;o
+aval|支持，认可; en aval: 下游，后续环节|o;n
 concitoyen|同胞|o
 disponibilité|可用性, 有空|o
 exercé|熟练的, 训练有素的; 行使的|o;o
@@ -8645,7 +8645,7 @@ annexion|吞并|o
 assouplir|放宽 (规定); 使柔软|v;v
 canaliser|引导, 疏导|v
 commercialiser|推向市场, 销售|v
-deçà|(en deçà de) 低于, 不及|o
+deçà|en deçà: 在……以内，未达到|n
 encouragement|鼓励|o
 humilité|谦逊|o
 illimité|无限的|o
@@ -8814,7 +8814,7 @@ folklorique|民间的, 民俗的 (形容词)|o
 géographe|地理学家|o
 incompatible|不相容的, 不兼容的|o
 instantanément|立即, 瞬间|o
-metteur|(metteur en scène) 导演|o
+metteur|metteur en scène: 导演|n
 minéral|矿物, 矿物的|o
 palmier|棕榈树|o
 promoteur|房地产开发商; 发起人, 推动者|o;o
@@ -8850,7 +8850,7 @@ déréglementation|放松管制|o
 dévot|虔诚的|o
 embargo|禁运|o
 feindre|假装|v
-flamber|燃烧, 熊熊燃烧|v
+flamber|熊熊燃烧，烧起来; 暴涨 (指价格)|v;v
 hurlant|嚎叫的, 尖叫的|o
 hésitant|犹豫的|o
 immobilité|静止, 不动|o
@@ -8876,7 +8876,7 @@ malaria|疟疾|o
 ornement|装饰, 饰物|o
 resserrer|收紧, 拉紧|v
 réorganisation|重组, 改组|o
-épinière|(moelle épinière) 脊髓|o
+épinière|moelle épinière: 脊髓|n
 albanais|阿尔巴尼亚的|o
 astronomie|天文学|o
 auditif|听觉的 (形容词)|o
@@ -8936,7 +8936,7 @@ frémissement|颤动, 战栗; 沙沙声|o;o
 haineux|充满仇恨的|o
 impraticable|无法通行的; 不可行的|o;o
 impérieux|专横的; 紧迫的, 迫切的|o;o
-incitant|激励措施, 刺激因素|o
+incitant|鼓励的，催促的; 激励措施|o;o
 incompétence|无能, 不称职|o
 indexer|编索引, 与…挂钩|v
 influer|(influer sur) 影响|v
@@ -9165,7 +9165,7 @@ stationner|停车; 驻扎|v;v
 tartine|涂黄油 (或果酱) 的面包片|o
 vacarme|喧闹, 吵闹声|o
 verset|(经文的) 节|o
-égide|(sous l'égide de) 在…的庇护下|o
+égide|庇护，保护; sous l'égide: 在……的庇护之下|o;n
 épaisseur|厚度|o
 étirer|拉长, 伸展|v
 apôtre|使徒|o
@@ -9215,9 +9215,9 @@ geôlier|狱卒|o
 goélette|纵帆船|o
 gueux|乞丐, 穷鬼|o
 hirondelle|燕子|o
-honoris|(honoris causa) 荣誉 (学位)|o
+honoris|honoris causa: 名誉的 (学位)|n
 hormis|除了|o
-hôtellerie|客栈; 酒店业|o;o
+hôtellerie|旅馆业，酒店业; 客栈，旅店|o;o
 inaccessible|无法到达的, 难以接近的|o
 inerte|不动的, 无生气的|o
 miséricorde|慈悲, 怜悯|o
@@ -9242,7 +9242,7 @@ tabou|禁忌|o
 télépathe|有心灵感应的人|o
 uruguayen|乌拉圭的|o
 alsacien|阿尔萨斯的|o
-amont|(en amont) 在上游; 事先|o;o
+amont|en amont: 上游，事先 (流程的较早阶段)|n
 azote|氮|o
 basculer|翻倒, 倾覆; 转变, 切换|v;v
 clarté|清晰; 光亮, 明亮|o;o
@@ -9495,7 +9495,7 @@ fanatique|狂热的; 狂热分子|o;o
 glucose|葡萄糖|o
 guérilla|游击战; 游击队|o;o
 imprimeur|印刷商, 印刷厂|o
-imprimé|印刷的; 印刷表格, 印花布料|o;o
+imprimé|印刷的; 印刷表格; 印花布|o;o;o
 kazakh|哈萨克的|o
 liquider|清算, 清仓; 除掉, 摆脱|v;v
 localement|在当地, 局部地|o
@@ -9549,7 +9549,7 @@ frôler|擦过, 轻触; 险些, 接近|v;v
 glissement|滑动, 转变|o
 greffier|书记员|o
 houle|涌浪|o
-illuminé|被照亮的; 幻想家, 神秘主义者 (阳性名词)|o;o
+illuminé|被照亮的; 狂热分子, 空想家 (阳性名词)|o;o
 impatienter|不耐烦 (s'impatienter)|v
 inimaginable|难以想象的|o
 instruit|有学问的, 受过教育的|o
@@ -9603,7 +9603,7 @@ maximiser|最大化|v
 napoléonien|拿破仑的|o
 orthographe|拼写|o
 pittoresque|风景如画的|o
-priori|(a priori) 原则上, 乍看之下|o
+priori|a priori: 原则上，乍一看|n
 ressortissant|侨民, (某国) 国民|o
 rééquilibrer|重新平衡|v
 souscrire|订阅, 认购; 投保, 办理 (贷款); 赞同|v;v;v
@@ -9735,7 +9735,7 @@ nuance|细微差别, 色调|o
 pornographique|色情的|o
 refonte|改版, 重塑|o
 révolu|过去的, 已逝的|o
-sapeur|工兵; (sapeur-pompier) 消防员|o;o
+sapeur|工兵; sapeur-pompier: 消防员|o;n
 seigneurial|领主的, 贵族气派的|o
 solidaire|团结的, 互助的; 负连带责任的|o;o
 solidité|坚固, 牢固|o
@@ -9811,7 +9811,7 @@ arrogance|傲慢|o
 assiégé|被围困的|o
 calculatrice|计算器|o
 classer|分类, 排名; 归档; 结案|v;v;v
-cuite|煮熟的 (阴性); prendre une cuite: 喝得烂醉|o;n
+cuite|煮熟的 (阴性); 酩酊大醉 (口语); prendre une cuite: 喝醉 (口语)|o;o;n
 diagonale|对角线|o
 déni|否认, 否定|o
 endosser|承担 (责任); 穿上 (衣服); 背书 (支票)|v;v;v
@@ -9939,7 +9939,7 @@ maternité|母性, 母亲身份; 妇产医院|o;o
 onglet|标签页, 选项卡|o
 patio|天井, 内院|o
 phoque|海豹|o
-poursuivant|追赶者; 原告|o;o
+poursuivant|继续的，追赶的; 追赶者; 原告|o;o;o
 prélude|前奏曲, 序幕|o
 redoubler|加剧, 加倍; 留级|v;v
 remarquablement|显著地, 出色地|o
@@ -10202,7 +10202,7 @@ médiation|调解, 斡旋|o
 phosphore|磷|o
 pluriel|复数; 多元的|o;o
 polymère|聚合物|o
-rebondir|弹起, 反弹; 重新振作, 出现新转折|v;v
+rebondir|弹起; 重振，恢复; 出现新转折 (指故事，案件)|v;v;v
 responsabilisation|使负起责任, 赋权|o
 substitut|替代品, 代用品|o
 tweets|推文 (复数)|o
@@ -10612,7 +10612,7 @@ couvercle|盖子|o
 culminer|达到顶峰|v
 côtoyer|与…接触, 与…为伍; 沿着|v;v
 démarrage|启动, 开始|o
-déprécier|贬值, 贬低|v
+déprécier|使贬值，降低价值; 贬低，诋毁|v;v
 effronté|厚颜无耻的, 放肆的|o
 escalader|攀登|v
 faiblir|变弱, 衰退|v
@@ -10639,7 +10639,7 @@ palpiter|跳动, 颤动|v
 paume|手掌|o
 percher|栖息|v
 photosynthèse|光合作用|o
-pli|褶, 折痕; 信件, 信封; prendre le pli: 养成习惯|o;o;n
+pli|折痕，褶皱; 信件，信封; prendre le pli: 养成习惯|o;o;n
 profiler|使成流线型; se profiler: 显现, 逼近|v;n
 prérogative|特权|o
 ravissement|狂喜, 陶醉|o
@@ -10648,7 +10648,7 @@ respectueusement|恭敬地|o
 rêne|缰绳|o
 scélérat|恶棍, 坏蛋|o
 senteur|香味, 香气|o
-signalement|(人的) 外貌特征|o
+signalement|特征描述 (人的外貌); 举报 (向当局)|o;o
 sociologique|社会学的|o
 soumission|服从, 屈服; 投标|o;o
 streaming|流媒体|o
@@ -10965,7 +10965,7 @@ discorde|不和, 纠纷|o
 distiller|蒸馏|v
 déficient|有缺陷的, 不足的|o
 dévier|偏离, 转向; 使改道|v;v
-ferré|钉了掌的; 包了铁的; 精通…的 (口语); voie ferrée: 铁路|o;o;o;n
+ferré|铁路的 (形容词); 钉了铁掌的; 包铁头的; 精通 (口语); voie ferrée: 铁路线|o;o;o;o;n
 hébraïque|希伯来的|o
 injustifié|不合理的, 无正当理由的|o
 intra|intra-muros: 城内, 城墙之内|n
@@ -11028,7 +11028,7 @@ réitérer|重申, 重复|v
 sauvegarde|保护, 维护; (计算机) 备份|o;o
 socioéconomique|社会经济的|o
 solder|打折出售; 结清 (账目); se solder par: 以…告终|v;v;n
-suspens|悬念|o
+suspens|悬念; en suspens: 悬而未决，未解决|o;n
 séquencer|测序, 排序|v
 sérotonine|血清素|o
 totaliser|合计, 总计|v
@@ -11041,7 +11041,7 @@ autodidacte|自学成才的 (人)|o
 ayahuasca|死藤水|o
 cerner|包围, 围住; 把握, 弄清|v;v
 cintre|衣架|o
-commanditaire|赞助商, 出资人|o
+commanditaire|赞助者，出资人; 幕后主使，指使者 (指犯罪)|o;o
 conquis|被征服的; 被折服的|o;o
 constellation|星座|o
 désamorcer|拆除引信, 化解|v
@@ -11813,7 +11813,7 @@ zigzag|之字形, 锯齿形|o
 équitation|骑马, 马术|o
 évangéliste|福音传道者, 福音书作者|o
 adaptable|可适应的, 可调整的|o
-affilé|锋利的, 磨快的|o
+affilé|锋利的，磨快的; d'affilée: 连续地，一口气|o;n
 ambiant|周围的, 环境的; 普遍的, 盛行的|o;o
 banjo|班卓琴|o
 bondé|挤满的, 拥挤的|o
@@ -11945,7 +11945,7 @@ férocité|凶猛, 残暴|o
 grand'chose|许多, 大不了的事; pas grand'chose: 没什么, 没多少|o;n
 grièvement|严重地 (受伤)|o
 groupé|成组的, 聚集的|o
-grue|起重机, 鹤; 妓女 (口语)|o;o
+grue|起重机 (机器)，鹤 (鸟); 妓女，荡妇 (过时，冒犯)|o;o
 guirlande|花环; 彩带, 金银丝带|o;o
 gérable|可管理的, 可控的|o
 hennissement|马嘶声|o
@@ -12343,7 +12343,7 @@ biche|母鹿; ma biche: 亲爱的|o;n
 bide|肚子, 大肚腩 (口语); 失败, 惨败 (口语)|o;o
 bocal|广口瓶|o
 bonobos|倭黑猩猩|o
-braque|我瞄准, 他/她 (用武器) 瞄准, 对准; 短毛猎犬 (阳性名词)|f1s;o
+braque|我瞄准; 他/她瞄准，指向 (武器); 我抢劫; 他/她抢劫 (银行); 指示猎犬 (阳性名词)|f1s;f3s;f1s;f3s;o
 camer|se camer: 吸毒, 嗑药 (口语)|n
 cartilage|软骨|o
 chorégraphie|编舞|o
@@ -12483,7 +12483,7 @@ jaquette|(书的) 护封; 燕尾服, 晨礼服|o;o
 lanière|皮条, 带子|o
 magnifiquement|壮丽地, 极好地|o
 mansarde|阁楼间, 顶楼小屋|o
-marmot|小孩, 小家伙|o
+marmot|小鬼，小孩 (口语)|o
 massue|大头棒, 棍棒|o
 masure|破屋, 棚屋|o
 mollet|小腿肚; œuf mollet: 溏心蛋|o;n
@@ -12523,7 +12523,7 @@ vénération|崇敬, 敬仰|o
 équiper|装备, 配备|v
 étager|分层排列, 错开|v
 absoudre|赦免, 宽恕|v
-confondu|(被) 混淆的, 弄错的; 目瞪口呆的|o;o
+confondu|被误认 (为)，混淆的; 目瞪口呆的; 合计的，总共的 (toutes catégories confondues)|o;o;o
 croc|獠牙, 尖牙; 钩子|o;o
 cuirassé|战列舰 (阳性名词); 装甲的 (形容词)|o;o
 envahisseur|侵略者|o
@@ -12608,7 +12608,7 @@ naïveté|天真, 幼稚|o
 oblong|长方形的, 椭圆形的|o
 oranger|橙树|o
 outillage|工具, 设备|o
-outrage|凌辱, 侮辱|o
+outrage|侮辱，冒犯; 有伤风化 (对礼仪)|o;o
 parfumer|使芳香, 洒香水; 给…调味|v;v
 parsemé|撒满的, 点缀着的|o
 passeur|摆渡人; 偷渡蛇头|o;o
@@ -12637,7 +12637,7 @@ tréteau|支架, 搁凳|o
 tuf|凝灰岩|o
 tunique|长袍, 束腰外衣|o
 verve|才气, 风趣|o
-ébullition|沸点; en ébullition: 沸腾, 骚动|o;n
+ébullition|沸腾; en ébullition: 沸腾，动荡不安|o;n
 étrier|马镫|o
 aveuglement|(思想上的) 盲目, 执迷|o
 dérision|嘲弄, 嘲笑|o
@@ -12811,7 +12811,7 @@ bécassine|沙锥鸟; 傻姑娘 (口语)|o;o
 cataracte|白内障; 瀑布|o;o
 chambranle|门框, 窗框|o
 chandelier|烛台|o
-chaudement|暖和地 (穿衣御寒)|o
+chaudement|穿得暖和地 (穿着，御寒); 热情地，由衷地 (推荐，称赞)|o;o
 commodément|方便地, 舒适地|o
 conifère|针叶树|o
 consigné|禁止外出的 (在营房, 学校); 寄存的 (行李)|o;o
@@ -12961,7 +12961,7 @@ haï|被憎恨的, 被厌恶的|o
 hiéroglyphe|象形文字|o
 hochement|hochement de tête: 点头, 摇头|n
 hérisson|刺猬|o
-idiome|语言, 方言|o
+idiome|语言，方言|o
 imperméable|雨衣 (阳性名词); 防水的 (形容词)|o;o
 inconvenant|不得体的, 不合适的|o
 ineffable|难以言表的|o
@@ -13026,7 +13026,7 @@ nageant|游着泳 (游泳时)|o
 oseille|酸模; 钱, 票子 (口语)|o;o
 ramification|分支, 支脉|o
 vertébré|脊椎动物|o
-catin|娼妓, 荡妇 (粗俗)|o
+catin|妓女，荡妇 (过时，冒犯)|o
 dock|码头, 船坞|o
 fusiller|枪决|v
 givre|霜, 白霜|o
@@ -13387,7 +13387,7 @@ disloquer|使脱臼; 使解体|v;v
 dompter|驯服; 制服, 克服|v;v
 drapé|有褶裥的; 褶裥 (阳性名词)|o;o
 débouler|冲下来, 猛冲进来|v
-dérivation|分流, 派生; 支路, 旁道|o;o
+dérivation|改道，分流 (河流，交通); 派生，推导 (语法，数学); 旁路|o;o;o
 désaltérer|解渴; se désaltérer: 解渴 (自己)|v;n
 désinvolte|随随便便的, 满不在乎的|o
 dévisser|拧下, 旋开|v
@@ -13611,7 +13611,7 @@ jumelles|双筒望远镜; 双胞胎 (女)|o;o
 alentours|附近, 周边; aux alentours de: 大约, 在……左右|o;n
 recours|求助, 手段; avoir recours à: 求助于, 诉诸; 上诉 (法律)|o;n;o
 remords|悔恨, 内疚|o
-soutiens|我支持, 你支持 (单数); 支持 (soutien 的复数)|f1s;f3s
+soutiens|我支持, 你支持 (单数); 支持者, 后盾 (soutien 的复数)|f1s;o
 pâtes|意大利面; 面团, 糊状物|o;o
 servante|女仆, 女佣|o
 mépris|蔑视, 轻视|o
@@ -15047,7 +15047,7 @@ embellir|美化, 改善|v
 entraide|互助|o
 falsification|伪造, 篡改|o
 fiduciaire|信托的; 信用的|o;o
-fuseau|纺锤; 滑雪裤; 时区 (fuseau horaire)|o;o;o
+fuseau|纺锤; 滑雪裤; fuseau horaire: 时区|o;o;n
 germer|发芽, 萌芽|v
 horloger|钟表匠|o
 humanoïde|类人的, 类人机器人|o
@@ -16194,3 +16194,53 @@ accusateur|指责的; 控告者|o;o
 additif|添加剂|o
 affairer|s'affairer: 忙碌, 忙得团团转|n
 aigrette|白鹭; 羽冠|o;o
+mets|我/你放; 放!; 菜肴|f1s;o;o
+voyons|我们看看; 我们看见; 得了吧!, 真是的!|o;f1p;o
+commis|犯下的 (罪行, 错误); 店员, 助手|o;o
+bel|美丽的, 英俊的 (用在元音前); bel et bien: 确确实实, 真的|o;n
+blonde|金发的 (阴性); 金发女郎; 淡啤酒|o;o;o
+travaux|工作, 作品; 施工, 道路施工; 研究|o;o;o
+foutue|该死的 (阴性) (粗俗); 完蛋的 (阴性)|o;o
+vues|景色, 风景; 看法, 观点; 被看见的 (阴性复数)|o;o;o
+foutus|该死的 (阳性复数) (粗俗); 完蛋的 (阳性复数)|o;o
+crevé|爆了的, 扎破的; 累坏了, 筋疲力尽的 (口语); 死了的 (口语)|o;o;o
+chienne|母狗; 该死的, 糟糕的 (chienne de vie) (口语); fils de chienne: 狗娘养的 (粗俗)|o;o;n
+conne|对愚蠢女人的粗俗辱骂 (粗俗); 愚蠢的 (阴性) (粗俗)|o;o
+béni|受祝福的; pain béni: 天赐之物|o;n
+reins|肾; 腰, 后腰|o;o
+débordé|忙不过来的, 应接不暇的; 溢出的|o;o
+parties|部分; 局, 比赛; 当事方 (争端, 合同的), 各方; 离开了 (阴性复数)|o;o;o;o
+adapté|合适的, 适宜的; 被改编的, 被调整的|o;o
+favoris|最喜欢的; 络腮胡, 鬓角|o;o
+masses|大量, 一大堆; 群众, 平民百姓|o;o
+regretté|被惋惜的, 被怀念的; 已故的 (去世)|o;o
+baronne|男爵夫人|o
+héritière|女继承人|o
+cochonne|下流的, 色情的, 淫荡的 (口语); 邋遢女人 (阴性)|o;o
+confesse|我忏悔; 他/她忏悔; aller à confesse: 去告解|f1s;f3s;n
+frangine|姐妹, 姐姐|o
+miches|圆面包; 屁股 (俚语)|o;o
+fourre|我塞, 我乱塞; 他/她塞, 乱塞; fourre-tout: 杂物袋, 大杂烩|f1s;f3s;n
+selles|马鞍; 粪便 (医学)|o;o
+tigresse|母老虎; 凶悍的女人|o;o
+sus|我/你知道过; en sus: 此外, 另外|f1s;n
+fiché|被警方记录在案的; 被插入的, 被钉入的|o;o
+marquise|女侯爵; 雨篷, 遮檐 (入口上方)|o;o
+ménagère|家庭主妇; 家庭的, 家用的 (阴性)|o;o
+couturière|女裁缝|o
+pellicules|胶卷; 头皮屑|o;o
+abords|周围, 附近; aux abords de: 在……周围, 靠近|o;n
+prétendue|所谓的, 自称的 (阴性)|o
+prétendus|所谓的, 自称的 (阳性复数)|o
+branlée|痛打, 一顿揍 (粗俗)|o
+écolière|女学生|o
+braille|我大喊大叫; 他/她大喊大叫; 盲文 (盲人用的凸点文字)|f1s;f3s;o
+croque|我嚼, 我咬; 他/她嚼, 咬; croque-mort: 殡仪员; croque-monsieur: 火腿芝士烤三明治|f1s;f3s;n;n
+berne|en berne: 降半旗, 萎靡; 他/她愚弄, 欺骗|n;f3s
+bestiaux|牲畜|o
+signifié|意味着; 被正式通知的|o;o
+filleule|教女|o
+craintes|担心, 恐惧|o
+rangées|排, 行; 被整理好的, 被收好的 (阴性复数)|o;o
+laves|熔岩, 熔岩流; 你洗 (单数)|o;f2s2p
+retombées|后果, 影响, 附带成果; 又掉下来的 (阴性复数)|o;o

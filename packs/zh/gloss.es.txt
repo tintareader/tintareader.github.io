@@ -77,7 +77,7 @@
 不会|no ir a (futuro); no poder, no saber (hacer)|o;o
 事|asunto, cosa (que atender)|o
 自己|uno mismo, propio|o
-着|(acción o estado que dura); aferrarse, apego (zhuó) (budista); ponerse, llevar puesto (zhuó)|g;v.b;v
+着|(estado en curso); (tras un verbo) lograr el resultado (找着: encontrar, 猜着: adivinar) (zháo); contraer, verse afectado (着凉: resfriarse) (zháo); ponerse, vestir (zhuó); aferrarse, apego (zhuó) (budismo)|g;o;v;v;v.b
 告诉|decir, contar (a alguien)|v
 过|(experiencia: haber hecho alguna vez); cruzar, pasar; pasar (el tiempo), celebrar|g;v;v
 已经|ya|o
@@ -146,7 +146,7 @@
 然后|luego, después|o
 看看|echar un vistazo|v
 地方|lugar, sitio|o
-将|ir a (futuro, formal); dirigir, llevar consigo (clásico)|o;v.c
+将|futuro, habrá de (formal); como 把, pasa el objeto delante del verbo (formal: 将门关上); guiar, llevar consigo (clásico)|o;o;v.c
 没事|no es nada, no pasa nada; estar bien, ileso; estar libre (sin nada que hacer)|f3s;v;v
 一定|seguro, sin falta; cierto (grado, cantidad)|o;o
 希望|esperar, desear; esperanza|v;o
@@ -277,7 +277,7 @@
 如何|cómo, de qué manera (formal)|o
 到底|al final, a fin de cuentas; (¿qué demonios…?)|o;g
 最后|último, final; al final|o;o
-小姐|señorita|o
+小姐|señorita, joven; anfitriona, prostituta (jerga)|o;o
 上帝|Dios|o
 正在|(estar haciendo en este momento)|g
 它们|ellos, ellas (cosas)|f3p
@@ -569,7 +569,7 @@
 晚安|buenas noches|o
 解释|explicar; explicación|v;o
 全部|todo, la totalidad|o
-靠|depender de; apoyarse en; cerca de|v;v;o
+靠|depender de; apoyarse en; cerca de; ¡mierda!, ¡carajo! (vulgar)|v;v;o;o
 呆|quedarse, estar sin más; atontado, alelado|v;o
 起|(tras un verbo: arriba, empezar a); levantarse, alzarse; (从…起) a partir de; (V + 得起 / 不起) poder / no poder permitirse (买得起); (clasificador: casos, incidentes)|g;v;o;o;g
 突然|de repente; repentino|o;o
@@ -767,7 +767,7 @@
 错误|error, equivocación; equivocado|o;o
 人生|la vida (de uno), la vida vivida|o
 攻击|atacar; ataque|v;o
-跟着|seguir, ir detrás; en consecuencia|v;o
+跟着|seguir, ir detrás; justo después, luego; junto con eso|v;o;o
 杀死|matar, acabar con|v
 钥匙|llave|o
 叔叔|tío (hermano menor del padre); señor|o;o
@@ -920,7 +920,7 @@
 经历|pasar por, vivir; experiencia|v;o
 属于|pertenecer a|v
 饿|hambriento; pasar hambre|o;v
-什|(en 什么: qué)|g
+什|什么: qué|n
 威胁|amenazar; amenaza|v;o
 可不是|¿verdad que sí?, exacto|o
 怪|raro, extraño; culpar|o;v
@@ -1257,7 +1257,7 @@
 命|vida; destino; ordenar|o;o;v
 周围|alrededor, los alrededores|o
 无聊|aburrido (algo); aburrido (alguien)|o;o
-说明|explicar; instrucciones|v;o
+说明|explicar; demostrar, indicar (que); explicación, instrucciones|v;v;o
 浪费|desperdiciar, malgastar|v
 怪物|monstruo, bicho raro|o
 靠近|acercarse a; cerca|v;o
@@ -1292,7 +1292,7 @@
 船长|capitán (de barco)|o
 盯|mirar fijamente, vigilar|v
 离婚|divorciarse; divorcio|v;o
-技术|tecnología, técnica, destreza|o
+技术|tecnología; técnica, habilidad|o;o
 警长|sheriff, jefe de policía|o
 同学|compañero de clase|o
 天使|ángel|o
@@ -1465,14 +1465,14 @@
 政治|política; político|o;o
 邪恶|malvado, perverso|o
 从不|nunca (por norma)|o
-动手|ponerse manos a la obra; ponerle la mano encima a alguien|v;v
+动手|ponerse manos a la obra; golpear, llegar a los golpes|v;v
 转|girar, dar la vuelta; transmitir, pasar|v;v
 取消|cancelar, anular|v
 玩意|cosa, chisme|o
 班|clase, turno; servicio regular (de transporte)|o;o
 条|(clasificador: cosas largas y delgadas); punto, artículo|g;o
 搞砸|echar a perder, fastidiar|v
-废话|tonterías, palabrería; charla trivial; ¡obvio!, ¡no me digas!|o;o;o
+废话|tonterías, disparates; charla inútil, cháchara; ¡obvio!, ¡no me digas!|o;o;o
 猪|cerdo|o
 观众|público, espectadores|o
 成员|miembro|o
@@ -1721,7 +1721,7 @@
 赶|darse prisa; ahuyentar; alcanzar (un tren)|v;v;v
 位|(clasificador: personas, cortés); posición, puesto|g;o
 老鼠|rata, ratón|o
-他妈|maldito, joder (intensificador vulgar)|o
+他妈|maldito, puto (intensificador vulgar); su madre|o;o
 展示|exhibir, mostrar|v
 箱子|caja, maleta, baúl|o
 重复|repetir; repetido|v;o
@@ -1910,7 +1910,7 @@
 尖叫|gritar, chillar|v
 擦|limpiar, frotar|v
 圣诞节|Navidad|o
-爵士|sir, lord; jazz|o;o
+爵士|Sir (título de caballero), caballero; jazz|o;o
 冠军|campeón, primer puesto|o
 按照|según, conforme a|o
 摆脱|librarse de, deshacerse de|v
@@ -1925,7 +1925,7 @@
 醒|despertarse; despejarse (de la borrachera)|v;v
 有所|algo, en cierta medida|o
 树|árbol|o
-大叔|tío, señor (hombre mayor); amigo|o;o
+大叔|tío (hombre mayor), señor|o
 广告|anuncio|o
 伙伴|compañero, socio|o
 半|medio, semi-|o
@@ -2095,7 +2095,7 @@
 分析|analizar; análisis|v;o
 微笑|sonreír; una sonrisa|v;o
 建筑|edificio; arquitectura|o;o
-额|frente; cuota|o;o
+额|(duda: eh, ah); frente; cupo|g;o;o
 情人|amante, enamorado|o
 年龄|edad (en años)|o
 降落|aterrizar, descender|v
@@ -2172,7 +2172,7 @@
 道路|carretera, camino; el camino (figurado)|o;o
 公开|público, abierto; hacer público|o;v
 文化|cultura|o
-慰|(en 安慰: consolar)|g
+慰|安慰: consolar|n
 至于|en cuanto a; llegar al punto de|o;o
 黄金|oro|o
 去死吧|vete al infierno, muérete|o
@@ -2297,7 +2297,7 @@
 实话|la verdad, palabras sinceras|o
 活下去|seguir viviendo, sobrevivir|v
 砸|destrozar, romper; fracasar|v;v
-滚出去|fuera de aquí|o
+滚出去|lárgate (grosero)|o
 美味|delicioso; un manjar|o;o
 荣誉|honor, gloria|o
 机|máquina; oportunidad; avión|o;o;o
@@ -2377,7 +2377,7 @@
 烦|harto, fastidiado; molestar|o;v
 各|cada, cada uno de|o
 地下室|sótano|o
-佬|(tipo, tío: 阔佬)|g
+佬|(sufijo para hombre, tipo, a menudo despectivo: 乡巴佬, 美国佬)|g
 侦探|detective|o
 最新|lo último, el más reciente|o
 加州|California|o
@@ -2387,7 +2387,7 @@
 协助|ayudar, colaborar|v
 贾|Jia (apellido)|o
 难以|difícil de (难以相信)|o
-神经|nervio; los nervios|o;o
+神经|nervio; loco, chiflado (coloq.)|o;o
 警察局|comisaría, departamento de policía|o
 取|tomar, ir a buscar; obtener|v;v
 星星|estrella|o
@@ -2462,7 +2462,7 @@
 费|tarifa, gasto; gastar|o;v
 欺负|intimidar, meterse con|v
 断|romperse, partirse; cortar|v;v
-森|(en 森林: bosque)|g
+森|森林: bosque|n
 只好|no tener más remedio que|v
 饼干|galleta|o
 舞台|escenario (de teatro)|o
@@ -2543,7 +2543,7 @@
 借口|excusa, pretexto|o
 女巫|bruja|o
 寂寞|solo, solitario|o
-欧|(en 欧洲: Europa)|g
+欧|欧洲: Europa|n
 泡|remojar, infusionar; burbuja|v;o
 纳粹|los nazis|o
 脏|sucio, mugriento|o
@@ -2605,7 +2605,7 @@
 衬衫|camisa|o
 坏事|algo malo, fechoría|o
 就是说|es decir, o sea|o
-维|(en 维持: mantener)|g
+维|维持: mantener|n
 会长|presidente (de una asociación)|o
 理想|ideal; un ideal|o;o
 棒极了|¡genial!, estupendo|o
@@ -2653,7 +2653,7 @@
 春天|primavera|o
 皇后|emperatriz, reina consorte|o
 拜访|visitar, hacer una visita|v
-撒|esparcir, soltar|v
+撒|esparcir, rociar (sǎ); soltar, lanzar (una red)|v;v
 瞒|ocultar (algo a alguien)|v
 捡|recoger (del suelo)|v
 智慧|sabiduría, inteligencia|o
@@ -2674,7 +2674,7 @@
 善良|bondadoso, bueno|o
 骗人|engañar a la gente; ¡no me digas!, estás de broma|v;f2s2p
 前辈|veterano, mayor (en el oficio)|o
-屁|pedo; tonterías, chorradas|o;o
+屁|pedo; tonterías, disparates (vulgar)|o;o
 散步|dar un paseo, pasear|v
 否认|negar|v
 丝|seda; hilo, pizca|o;o
@@ -2744,7 +2744,7 @@
 新来|recién llegado, nuevo|o
 单位|unidad; centro de trabajo|o;o
 囚犯|preso, recluso|o
-戏|obra de teatro, drama; actuar|o;v
+戏|obra, drama, espectáculo; escena (de una película u obra)|o;o
 波|ola, onda|o
 贴|pegar; pegado a, muy cerca|v;o
 被告|el acusado|o
@@ -2791,7 +2791,7 @@
 认出|reconocer, distinguir|v
 保存|conservar, guardar|v
 钩|gancho, anzuelo; enganchar|o;v
-老子|tu padre (yo, con arrogancia)|o
+老子|yo (grosero, dicho con arrogancia: literalmente "tu viejo"); Laozi, el filósofo taoísta (Lǎozǐ)|f1s;o
 悲剧|tragedia|o
 遵守|cumplir, respetar (normas)|v
 韩国|Corea del Sur|o
@@ -2805,7 +2805,7 @@
 同伴|compañero|o
 强壮|fuerte, robusto|o
 打倒|abajo…, derrocar|o
-要不然|si no, de lo contrario|o
+要不然|de lo contrario, si no (coloquial)|o
 合同|contrato|o
 片|loncha, trozo; (clasificador: cosas planas, películas)|o;g
 用不着|no hace falta|o
@@ -2841,10 +2841,10 @@
 保姆|niñera, empleada del hogar|o
 赛|partido, competición; competir|o;v
 人才|talento, persona capaz|o
-简|breve, simplificado|o
+简|(en nombres extranjeros) Jane; breve, simplificado|o;o
 进步|progreso; progresar, mejorar|o;v
 冒犯|ofender|v
-分子|elemento, miembro (de un grupo)|o
+分子|miembro, elemento (de un grupo); molécula (fēnzǐ)|o;o
 相机|cámara|o
 蛮|bastante (coloquial); tosco, bruto|o;o
 贼|ladrón; taimado|o;o
@@ -2878,7 +2878,7 @@
 困扰|molestar, preocupar|v
 哪怕|aunque, aun si|o
 冷静下来|calmarse|v
-哈罗|hola (al teléfono)|o
+哈罗|hola (informal)|o
 扯|tirar, rasgar; decir tonterías|v;v
 燃烧|arder, quemar|v
 唱片|disco, álbum|o
@@ -2898,7 +2898,7 @@
 爆发|estallar, entrar en erupción|v
 对话|diálogo, conversación|o
 电话号码|número de teléfono|o
-读书|estudiar; leer en voz alta|v;v
+读书|estudiar, ir a la escuela; leer (libros); leer en voz alta|v;v;v
 无线电|radio (el medio)|o
 会见|reunirse con (formalmente)|v
 那就好|entonces, muy bien|o
@@ -2911,7 +2911,7 @@
 抓紧|agarrar con fuerza; no perder tiempo|v;v
 饶|perdonar, dejar ir|v
 价格|precio|o
-蛤|almeja|o
+蛤|¿eh?, ¿qué? (há) (uso taiwanés); almeja|o;o
 感动|conmover, emocionar|v
 冰箱|nevera, refrigerador|o
 图|imagen, diagrama; buscar, aspirar a|o;v
@@ -2941,7 +2941,7 @@
 棒球|béisbol|o
 一家人|una familia, toda la familia|o
 上帝保佑|que Dios te bendiga|o
-弹|bala, proyectil; tocar (un instrumento de cuerda) (tán)|o;v
+弹|bala, proyectil; tocar (el piano, la guitarra) (tán); hacer rebotar, pulsar (tán)|o;v;v
 稍后|dentro de poco, un poco más tarde|o
 符合|ajustarse a, cumplir con|v
 选举|elecciones; elegir|o;v
@@ -2990,7 +2990,7 @@
 表|reloj (de pulsera); formulario, tabla; expresar|o;o;v
 赶上|alcanzar; toparse con|v;v
 呦|(¡oh!, ¡eh!)|g
-林|bosque|o
+林|Lin (apellido); bosque, arboleda|o;o
 鲨鱼|tiburón|o
 本事|capacidad, habilidad|o
 鬼魂|fantasma, espíritu|o
@@ -3027,7 +3027,7 @@
 得了吧|anda ya, venga ya|o
 皇帝|emperador|o
 迟|tarde; lento|o;o
-谓|(en 所谓: llamar, el llamado)|g
+谓|所谓: así llamado|n
 哭泣|llorar, sollozar|v
 爆|reventar, estallar|v
 冲动|impulso; impulsivo|o;o
@@ -3183,7 +3183,7 @@
 行不行|¿vale?, ¿te parece bien?|o
 砰|(¡pum!, ¡paf!)|g
 亲吻|besar|v
-嘴巴|boca, morro|o
+嘴巴|boca (coloquial)|o
 载|transportar (un vehículo); registrar (zǎi)|v;v
 器|aparato, utensilio|o
 影子|sombra; reflejo|o;o
@@ -3251,7 +3251,7 @@
 皇上|Su Majestad, el emperador|o
 数学|matemáticas|o
 福|buena fortuna, bendición|o
-调|trasladar, cambiar; melodía, tono|v;o
+调|trasladar, transferir; melodía, tono; ajustar (tiáo)|v;o;v
 大小|tamaño|o
 会面|verse, reunirse|v
 升|subir, ascender; litro|v;o
@@ -3317,7 +3317,7 @@
 过夜|pasar la noche|v
 出席|asistir, estar presente en|v
 宽恕|perdonar, indultar|v
-苏|Su (apellido); revivir (en 苏醒)|o;v
+苏|Su (apellido); 苏醒: volver en sí, despertar|o;n
 获取|obtener, adquirir|v
 搜|buscar, registrar, cachear|v
 味|sabor; olor (en compuestos)|o;o
@@ -3340,7 +3340,7 @@
 接吻|besarse|v
 播放|reproducir (audio o vídeo), emitir|v
 月球|la Luna (el astro)|o
-讽|(en 讽刺: satirizar)|g
+讽|讽刺: satirizar, burlarse|n
 冰淇淋|helado|o
 得知|enterarse de|v
 收入|ingresos; recibir, ingresar|o;v
@@ -3375,7 +3375,7 @@
 武士|guerrero, samurái|o
 身材|figura, complexión|o
 查出|averiguar, detectar|v
-蚁|(en 蚂蚁: hormiga)|g
+蚁|蚂蚁: hormiga|n
 上司|superior, jefe|o
 企图|intentar; intento|v;o
 啊哈|(¡ajá!)|g
@@ -4007,7 +4007,7 @@
 罚款|multa, sanción; multar|o;v
 透过|a través de, por medio de|o
 出局|quedar eliminado, estar fuera|v
-蝇|(en 苍蝇: mosca)|g
+蝇|苍蝇: mosca|n
 贱|barato, bajo; despreciable|o;o
 还没|todavía no|o
 追查|investigar, rastrear|v
@@ -4042,7 +4042,7 @@
 夏威夷|Hawái|o
 巫师|mago, hechicero|o
 专注|concentrarse en; absorto|v;o
-别提|ni lo menciones|o
+别提|ni lo menciones, no preguntes|o
 希腊|Grecia|o
 排队|hacer cola|v
 接收|recibir; hacerse cargo de|v;v
@@ -4083,7 +4083,7 @@
 交通|tráfico; transporte|o;o
 土豆|papa, patata|o
 审讯|interrogar; interrogatorio|v;o
-放屁|tirarse un pedo; tonterías, pamplinas|v;o
+放屁|echarse un pedo; tonterías, disparates (vulgar)|v;o
 概念|concepto, noción|o
 汽油|gasolina|o
 瑞士|Suiza|o
@@ -4129,7 +4129,7 @@
 索|exigir, pedir; cuerda|v;o
 今后|de ahora en adelante, en el futuro|o
 可乐|cola, refresco de cola|o
-咧|(partícula final dialectal)|g
+咧|(partícula dialectal de final de oración); mostrar los dientes, torcer los labios (liě)|g;v
 得分|anotar; puntuación|v;o
 抬|levantar, cargar (entre varios)|v
 深入|a fondo, profundo|o
@@ -4420,7 +4420,7 @@
 车库|garaje|o
 命名|nombrar, bautizar|v
 核心|núcleo, el meollo|o
-扁|plano; dar una paliza|o;v
+扁|plano, aplastado; golpear, dar una paliza (coloquial)|o;v
 改天|otro día|o
 有利|ventajoso, favorable|o
 眼光|visión, criterio|o
@@ -4511,8 +4511,8 @@
 无礼|grosero, maleducado|o
 过敏|alergia; ser alérgico|o;v
 传达|transmitir, comunicar (un mensaje)|v
-愈|curarse; cuanto más… (愈…愈)|v;o
-笆|(en 篱笆: cerca, valla)|g
+愈|cuanto más… (愈…愈); sanar|o;v
+笆|篱笆: cerca|n
 振作|reponerse, animarse|v
 杀戮|matanza, masacre|o
 洞穴|cueva, caverna|o
@@ -4776,8 +4776,8 @@
 没命|perder la vida; desesperadamente|v;o
 着迷|estar fascinado, enganchado|v
 功课|tareas escolares, deberes|o
-嫌疑犯|el acusado, presunto delincuente|o
-屌|polla, verga (vulgar); de puta madre, chingón|o;o
+嫌疑犯|presunto delincuente, sospechoso|o
+屌|pene (vulgar); genial, buenísimo (vulgar)|o;o
 出动|salir, ser enviado|v
 模糊|borroso, vago|o
 物|cosa, objeto|o
@@ -4842,14 +4842,14 @@
 棘手|espinoso, delicado|o
 言|palabras, habla; decir|o;v
 传闻|rumor, se dice que|o
-希|(en 希望: esperar)|g
+希|希望: esperar, desear|n
 极度|extremadamente, sumamente|o
 活该|te lo mereces, bien merecido|f3s
 轻轻|suavemente, con delicadeza|o
 逻辑|lógica|o
 无罪|inocente, no culpable|o
 极端|extremo; un extremo|o;o
-片子|película; toma|o;o
+片子|película; radiografía (imagen)|o;o
 好日子|buenos tiempos; un día feliz|o;o
 拳击|boxeo|o
 接通|pasar la llamada, conectar|v
@@ -5018,7 +5018,7 @@
 热闹|animado, bullicioso; espectáculo, jaleo|o;o
 整|entero, completo; arreglar, ordenar|o;v
 活力|vitalidad, energía|o
-小弟弟|hermanito|o
+小弟弟|hermanito; niño (dicho a un niño); pene (eufemismo)|o;o;o
 超出|superar, sobrepasar|v
 叹气|suspirar|v
 太平洋|el Pacífico|o
@@ -5127,7 +5127,7 @@
 运转|funcionar, girar (una máquina)|v
 不合|no encajar, no llevarse bien con|o
 丧失|perder|v
-牌子|letrero, marca|o
+牌子|letrero, placa; marca|o;o
 碰上|toparse con, encontrarse con|v
 身旁|al lado de uno|o
 坚定|firme, resuelto|o
@@ -5173,7 +5173,7 @@
 彩虹|arcoíris|o
 美军|el ejército estadounidense|o
 荡|balancearse, mecerse|v
-同行|del mismo oficio, colega|o
+同行|del mismo oficio; viajar juntos (tóngxíng)|o;v
 定义|definición; definir|o;v
 晒|poner al sol, secar al sol; broncearse|v;v
 乌鸦|cuervo|o
@@ -5229,7 +5229,7 @@
 颗|(clasificador: cosas pequeñas y redondas)|g
 成果|resultado, logro|o
 换成|convertir en, cambiar por|v
-胡|(a la ligera, sin sentido: 胡说, 胡闹)|g
+胡|Hu (apellido); sin ton ni son, descabelladamente (胡说, 胡闹)|o;o
 装满|llenar|v
 运输|transportar; transporte|v;o
 两样|dos cosas distintas|o
@@ -5299,7 +5299,7 @@
 系列|serie, conjunto|o
 虚弱|débil, frágil|o
 土耳其|Turquía|o
-宁可|preferir, antes que|o
+宁可|preferir, más vale que|o
 求救|pedir auxilio|v
 沉重|pesado, agobiante|o
 窝|nido, guarida; encubrir, dar cobijo a|o;v
@@ -5319,7 +5319,7 @@
 血统|linaje, ascendencia|o
 先知|profeta|o
 同伙|cómplice, compinche|o
-正当|legítimo, adecuado|o
+正当|legítimo, apropiado (zhèngdàng); justo cuando, en pleno|o;o
 水晶|cristal (de roca)|o
 世间|en este mundo, en la tierra|o
 怜悯|compadecer; compasión|v;o
@@ -5366,7 +5366,7 @@
 事务|asuntos, gestiones|o
 喘气|jadear, recobrar el aliento|v
 失|perder; fracasar|v;v
-委|(encargar, designar: 委托, 委员会)|g
+委|encomendar, nombrar; comité (abreviatura de 委员会)|v;o
 亲生|propio (de sangre)|o
 大婶|tía, señora (mujer mayor)|o
 小宝贝|cariñito, tesoro|o
@@ -5417,7 +5417,7 @@
 装修|reformar, decorar|v
 软|blando; débil|o;o
 阴道|vagina|o
-屁眼|culo, ojete|o
+屁眼|ano, culo (vulgar)|o
 老人家|anciano, los mayores|o
 别理|no hagas caso, ignóralo|o
 救世主|salvador, mesías|o
@@ -5428,7 +5428,7 @@
 信徒|creyente, seguidor|o
 得救|salvarse, ser rescatado|v
 拳|puño; puñetazo; boxeo, arte marcial|o;o;o
-放假|tener vacaciones, tener días libres|v
+放假|tener vacaciones, tener día libre|v
 无效|inválido, sin efecto|o
 朝着|hacia, en dirección a|o
 水管|tubería de agua, manguera|o
@@ -5685,7 +5685,7 @@
 寡妇|viuda|o
 收买|comprar, sobornar|v
 男子汉|un hombre de verdad|o
-盒|caja, estuche (en compuestos)|o
+盒|caja, estuche (en compuestos); (clasificador: cajas, paquetes)|o;g
 遍|por todas partes; (clasificador: veces, de principio a fin)|o;g
 中枪|recibir un disparo|v
 创建|fundar, crear|v
@@ -5753,7 +5753,7 @@
 日语|japonés (el idioma)|o
 松鼠|ardilla|o
 校园|campus, recinto escolar|o
-母狗|perra|o
+母狗|perra; perra, dicho de una mujer (vulgar)|o;o
 聋|sordo|o
 飞翔|volar, planear|v
 制片|producción cinematográfica; productor|o;o
@@ -5798,7 +5798,7 @@
 冯|Feng (apellido)|o
 商场|centro comercial, mercado|o
 履行|cumplir, llevar a cabo|v
-支撑|apuntalar, aguantar|v
+支撑|apuntalar, sostener; aguantar, resistir|v;v
 火车站|estación de tren|o
 烂摊子|desbarajuste, desastre|o
 瑞典|Suecia|o
@@ -5818,12 +5818,12 @@
 同胞|compatriota|o
 女仆|criada, sirvienta|o
 情节|trama (de una historia); las circunstancias|o;o
-英|destacado, heroico; británico (英国)|o;o
+英|Gran Bretaña, británico (abreviatura de 英国); sobresaliente, heroico|o;o
 兼|ocupar dos cargos a la vez; y además|v;o
 哲学|filosofía|o
 情报局|servicio de inteligencia|o
 罕见|raro, poco común|o
-老板娘|dueña, la mujer del jefe|o
+老板娘|dueña, jefa; la esposa del jefe|o;o
 调情|coquetear, flirtear|v
 谜|acertijo, misterio|o
 迫不及待|no poder esperar, con impaciencia|o
@@ -5933,7 +5933,7 @@
 卫生间|baño, aseo|o
 差一点|por poco|o
 谈恋爱|tener una relación, salir con alguien|v
-贱货|zorra, cosa barata (insulto)|o
+贱货|zorra, puta (vulgar); mercancía barata|o;o
 长相|físico, aspecto|o
 阁楼|desván, buhardilla|o
 协调|coordinar; armonioso|v;o
@@ -6123,7 +6123,7 @@
 冲浪|hacer surf; surf|v;o
 出示|mostrar, presentar (un documento)|v
 天地|cielo y tierra; mundo propio|o;o
-摘|recoger, arrancar; extraer|v;v
+摘|recoger, cortar; quitarse (lentes, un sombrero, una mascarilla); extraer|v;v;v
 方位|orientación, dirección|o
 时速|velocidad por hora|o
 未必|no necesariamente|o
@@ -6196,7 +6196,7 @@
 一丝|un rastro de, un ápice de|o
 凡人|persona corriente, mortal|o
 性生活|vida sexual|o
-研究所|instituto de investigación; posgrado|o;o
+研究所|instituto de investigación; posgrado (uso taiwanés)|o;o
 脏话|palabrota, lenguaje soez|o
 舍|renunciar a, desprenderse de|v
 零件|pieza, componente|o
@@ -6284,7 +6284,7 @@
 灭亡|perecer, ser aniquilado|v
 响起|sonar, resonar|v
 囚禁|encarcelar, tener cautivo|v
-容|contener, permitir; aspecto|v;o
+容|contener, caber; permitir, tolerar; aspecto|v;v;o
 材|material, madera; talento|o;o
 看得见|poder ver|o
 通向|llevar a, conducir a|v
@@ -6429,7 +6429,7 @@
 局势|situación (política o militar)|o
 应用|aplicar; aplicación|v;o
 破裂|romperse, fracturarse|v
-表格|formulario, tabla|o
+表格|formulario; tabla|o;o
 贴心|atento, considerado|o
 举止|porte, modales|o
 发光|emitir luz, brillar|v
@@ -6482,7 +6482,7 @@
 存档|guardar (un archivo), archivar; archivo|v;o
 财政|finanzas públicas|o
 一齐|juntos, a la vez|o
-几多|cuántos, cuánto (coloquial)|o
+几多|cuántos, cuánto (cantonés)|o
 乘以|multiplicado por|o
 资本|capital (dinero)|o
 央行|banco central|o
@@ -6567,7 +6567,7 @@
 决策|decisión; tomar decisiones políticas|o;v
 函数|función (matemáticas)|o
 进程|proceso, curso|o
-今次|esta vez (coloquial)|o
+今次|esta vez (cantonés)|o
 催产素|oxitocina|o
 单车|bicicleta|o
 商会|cámara de comercio|o
@@ -6628,7 +6628,7 @@
 棵|(clasificador: árboles, plantas)|g
 环保|protección del medio ambiente; ecológico|o;o
 百分之|... por ciento|o
-程式|programa (informático)|o
+程式|programa (software) (uso taiwanés)|o
 脱欧|Brexit; salir de la UE|o;v
 讲到|hablar de, mencionar|v
 削弱|debilitar|v
@@ -6872,7 +6872,7 @@
 爪牙|lacayo, secuaz|o
 生态|ecología|o
 盼望|anhelar, esperar con ilusión|v
-网路|red; internet|o;o
+网路|red (uso taiwanés); internet (uso taiwanés)|o;o
 选区|circunscripción electoral|o
 装甲车|vehículo blindado|o
 包容|tolerar, ser inclusivo|v
@@ -6937,7 +6937,7 @@
 构建|construir, edificar|v
 运营|operar, gestionar|v
 指数|índice; exponente|o;o
-栏位|campo (de un formulario o tabla)|o
+栏位|campo (de un formulario o tabla) (uso taiwanés)|o
 实体|entidad|o
 笼罩|envolver, cubrir|v
 认知|cognición|o
@@ -7155,7 +7155,7 @@
 如下|como sigue|o
 密钥|clave (criptográfica)|o
 此前|antes de esto, previamente|o
-公尺|metro|o
+公尺|metro (uso taiwanés)|o
 孤立|aislado; aislar|o;v
 近期|próximamente; reciente|o;o
 温和|templado, suave|o
@@ -7227,7 +7227,7 @@
 镇压|reprimir, sofocar|v
 气势|ímpetu, porte imponente|o
 证券|valores (financieros)|o
-数位|digital; dígito|o;o
+数位|digital (uso taiwanés); dígito, posición (en un número)|o;o
 巅峰|cima, cumbre|o
 席卷|arrasar, extenderse por|v
 议程|orden del día|o
@@ -7281,7 +7281,7 @@
 动态|dinámico; novedades, noticias|o;o
 叉乘|producto vectorial|o
 曲线|curva|o
-有够|muy, realmente (coloquial)|o
+有够|realmente, tan (uso taiwanés)|o
 毛豆|edamame, soja verde|o
 热量|calor; calorías|o;o
 甲烷|metano|o
@@ -7519,7 +7519,7 @@
 执导|dirigir (una película)|v
 灵活|flexible, ágil|o
 理事会|consejo, junta directiva|o
-感应|inducción; percibir, responder|o;v
+感应|percibir, responder; inducción (física)|v;o
 房价|precio de la vivienda|o
 暗自|en secreto, para sus adentros|o
 食尸鬼|necrófago, gul|o
@@ -7706,7 +7706,7 @@
 刹那|instante, momento|o
 卫队|guardia, escolta|o
 皇朝|dinastía imperial|o
-软体|software|o
+软体|software (uso taiwanés)|o
 面向|dar a, estar de cara a; dirigido a|v;o
 强国|gran potencia|o
 之际|en el momento de, con ocasión de|o
@@ -7963,7 +7963,7 @@
 坚固|sólido, resistente|o
 填写|rellenar (un formulario)|v
 增幅|crecimiento, tasa de aumento|o
-士多啤梨|fresa (coloquial, = 草莓)|o
+士多啤梨|fresa (cantonés, = 草莓)|o
 外科|cirugía (departamento)|o
 外观|aspecto, exterior|o
 多巴胺|dopamina|o
@@ -8125,7 +8125,7 @@
 推论|inferencia, deducción|o
 提倡|promover, abogar por|v
 插秧|trasplantar plantones de arroz|v
-揾食|ganarse la vida (coloquial, = 谋生)|v
+揾食|ganarse la vida (cantonés, = 谋生)|v
 搞好|hacer bien, sacar adelante|v
 搞怪|hacer el payaso|v
 搭建|montar, levantar|v
@@ -8176,7 +8176,7 @@
 未经|sin (permiso, aprobación)|o
 本体论|ontología|o
 机智|ingenioso, avispado|o
-机率|probabilidad|o
+机率|probabilidad, posibilidad (uso taiwanés)|o
 杀菌剂|fungicida, germicida|o
 杀虫剂|insecticida|o
 杂技|acrobacias|o
@@ -8332,7 +8332,7 @@
 粗口|palabrotas, lenguaje soez|o
 粗暴|brusco, brutal|o
 粗略|aproximado, somero|o
-粟米|maíz|o
+粟米|maíz, elote (cantonés)|o
 精华|esencia, lo mejor; sérum|o;o
 糖浆|jarabe, sirope|o
 繁忙|ajetreado, atareado|o
@@ -8399,7 +8399,7 @@
 荧光|fluorescencia|o
 荷尔蒙|hormona|o
 获救|ser rescatado|v
-萤幕|pantalla|o
+萤幕|pantalla (uso taiwanés)|o
 营业|estar abierto, atender al público|v
 营业额|volumen de negocio, facturación|o
 营养|nutrición|o
@@ -8935,7 +8935,7 @@
 放入|meter, introducir|v
 无懈可击|impecable, intachable|o
 有助|ayudar, contribuir a|v
-柳丁|naranja (fruta)|o
+柳丁|naranja (fruta) (uso taiwanés)|o
 梅花|flor de ciruelo|o
 梨子|pera|o
 水泥|cemento|o
@@ -9077,7 +9077,7 @@
 大一|primer año (de universidad), novato|o
 本体|cuerpo principal; noúmeno, la cosa en sí|o;o
 极右翼|extrema derecha|o
-灵光|luz divina, chispa de inspiración; listo, eficaz (coloquial)|o;o
+灵光|luz divina, halo; chispa de inspiración; listo, eficaz (coloquial)|o;o;o
 狮鹫|grifo|o
 郑重|solemne, serio|o
 隐约|tenue, vago|o
@@ -9161,7 +9161,7 @@
 试卷|hoja de examen|o
 顺差|superávit comercial|o
 三级|tercer nivel, grado tres; para adultos (película)|o;o
-他娘的|maldita sea (coloquial)|o
+他娘的|maldita sea (vulgar)|o
 分割|dividir, partir|v
 另有|tener otro, también hay|v
 围攻|sitiar, asediar; atacar en grupo a|v;v
@@ -9187,7 +9187,7 @@
 为首|encabezado por, liderado por|o
 字体|fuente, tipo de letra|o
 开设|abrir, establecer|v
-机车|locomotora; moto|o;o
+机车|locomotora; motocicleta (uso taiwanés)|o;o
 空运|transporte aéreo, puente aéreo|o
 野生|salvaje|o
 销量|volumen de ventas|o
@@ -9327,7 +9327,7 @@
 分布式|distribuido|o
 应有|debido, adecuado; debería tener|o;o
 搭载|llevar, estar equipado con|v
-牛顿|newton (unidad de fuerza)|o
+牛顿|Isaac Newton, el físico; newton (unidad de fuerza)|o;o
 站台|andén|o
 舰艇|buque de guerra|o
 不清|poco claro|o
@@ -9442,7 +9442,7 @@
 同分异构|isomería|o
 吞并|anexionar, engullir|v
 嘻嘻|jiji (risita)|o
-回馈|devolver, retribuir; retroalimentación|v;o
+回馈|devolver, retribuir; retroalimentación (uso taiwanés)|v;o
 圈圈|círculo, anillo|o
 大拇指|pulgar|o
 天荒地老|hasta el fin de los tiempos|o
@@ -9487,7 +9487,7 @@
 满满|lleno, rebosante|o
 漏掉|omitir, pasar por alto|v
 漏油|fuga de aceite; perder aceite|o;v
-演算法|algoritmo|o
+演算法|algoritmo (uso taiwanés)|o
 演绎|deducir; interpretar (un papel)|v;v
 照亮|iluminar|v
 熟知|conocer bien|v
@@ -9517,7 +9517,7 @@
 虚无|la nada, el vacío|o
 螺旋|espiral, hélice|o
 螺杆|tornillo (varilla roscada)|o
-西元前|a. C., antes de nuestra era|o
+西元前|a. C., antes de la era común (uso taiwanés)|o
 议论|comentar, hablar de; comentarios|v;o
 调教|adiestrar, formar|v
 轻微|leve, menor|o
@@ -9862,7 +9862,7 @@
 塑料|plástico|o
 期限|plazo, fecha límite|o
 两岸|ambas orillas; ambos lados del estrecho de Taiwán|o;o
-九天|los cielos más altos|o
+九天|nueve días; los cielos más altos|o;o
 二进制|binario|o
 人称|persona (gramática); conocido como|o;o
 全速|a toda velocidad|o
@@ -9999,7 +9999,7 @@
 两栖|anfibio|o
 印记|marca, huella|o
 厚度|grosor|o
-哈拉|charlar, echar un rato de plática (coloquial)|v
+哈拉|charlar, platicar (uso taiwanés)|v
 对准|apuntar a, alinear|v
 就任|asumir el cargo|v
 广大|vasto; amplias (masas)|o;o
@@ -10383,7 +10383,7 @@
 王妃|princesa consorte|o
 编制|elaborar, redactar; plantilla (de personal)|v;o
 装载|cargar (mercancía)|v
-起司|queso|o
+起司|queso (uso taiwanés)|o
 陷于|caer en, verse atrapado en|v
 顾不上|no tener tiempo para, no poder atender a|v
 题材|tema, asunto|o
@@ -10436,7 +10436,7 @@
 优质|de alta calidad|o
 伤残|discapacitado; herido e incapacitado|o;o
 伤者|herido|o
-伺服器|servidor|o
+伺服器|servidor (uso taiwanés)|o
 余下|restante, lo que queda|o
 余地|margen, espacio|o
 依次|por turno, sucesivamente|o
@@ -10576,7 +10576,7 @@
 最远|lo más lejano|o
 有生之年|en vida de uno|o
 有轨电车|tranvía|o
-朱古力|chocolate|o
+朱古力|chocolate (cantonés)|o
 架设|instalar, tender (un puente, una red)|v
 桃花|flor de melocotonero|o
 棕榈|palmera|o
@@ -10597,7 +10597,7 @@
 渐近线|asíntota|o
 温泉|aguas termales|o
 渴求|anhelar, ansiar|v
-滑鼠|ratón (computadora)|o
+滑鼠|ratón (de computadora) (uso taiwanés)|o
 滚动|rodar; desplazar (la pantalla)|v;v
 潜伏|acechar, estar al acecho|v
 点击率|tasa de clics|o
@@ -10640,7 +10640,7 @@
 移位|desplazar, desplazarse|v
 移开|apartar, retirar|v
 稀有|raro, escaso|o
-程式员|programador|o
+程式员|programador (uso taiwanés)|o
 窃窃私语|cuchichear, susurrar|v
 笑脸|cara sonriente|o
 等边三角形|triángulo equilátero|o
@@ -10711,7 +10711,7 @@
 闭门造车|trabajar aislado, de espaldas a la realidad|v
 阴暗|oscuro, sombrío|o
 阻抗|impedancia|o
-阿嬷|abuelita (coloquial)|o
+阿嬷|abuela (uso taiwanés)|o
 阿爸|papá (coloquial)|o
 除去|quitar, eliminar; salvo, además de|v;o
 雨林|selva tropical|o
@@ -10836,7 +10836,7 @@
 体质|complexión, constitución física|o
 借着|por medio de, aprovechando|o
 克隆|clonar; clon|v;o
-公车|autobús|o
+公车|autobús; auto oficial (vehículo del gobierno)|o;o
 原子能|energía atómica|o
 告示牌|tablón de anuncios, letrero|o
 垮台|derrumbarse, caer del poder|v
@@ -11048,7 +11048,7 @@
 战绩|éxito militar, historial (de victorias)|o
 放走|dejar ir, soltar|v
 日趋|día a día, cada vez más|o
-相助|ayudarse, prestar ayuda|v
+相助|acudir en ayuda de alguien, ayudar|v
 纲领|programa, principio rector|o
 脚踏|pedal; reposapiés|o;o
 良机|buena oportunidad|o
@@ -11056,7 +11056,7 @@
 传教士|misionero|o
 分叉|bifurcación; bifurcarse|o;v
 巢穴|guarida, nido|o
-影集|serie de televisión; álbum de fotos|o;o
+影集|serie de televisión (uso taiwanés); álbum de fotos|o;o
 捕获|capturar|v
 末端|extremo, punta|o
 栖息地|hábitat|o
@@ -11165,7 +11165,7 @@
 告辞|despedirse|v
 城区|zona urbana|o
 大吃一惊|quedarse atónito|v
-常务|habitual; permanente (comité)|o;o
+常务|permanente (comité), ejecutivo; asuntos de rutina|o;o
 抖动|temblar, sacudir|v
 改名|cambiar de nombre|v
 攻破|romper las defensas, tomar|v
@@ -11244,7 +11244,7 @@
 河谷|valle fluvial|o
 法西斯主义|fascismo|o
 爆弹|bomba|o
-犊子|ternero; 滚犊子: lárgate (coloquial)|o;n
+犊子|ternero; 滚犊子: lárgate (grosero)|o;n
 相近|parecido, cercano|o
 维生素|vitamina|o
 肆意|desenfrenado, sin freno|o
@@ -11349,7 +11349,7 @@
 地质|geología|o
 幽暗|oscuro, sombrío|o
 志愿|aspiración, deseo; voluntario|o;o
-捷运|metro, transporte rápido|o
+捷运|metro, transporte rápido (uso taiwanés)|o
 授课|dar clases, enseñar|v
 放在心上|tomar a pecho, preocuparse por|v
 月初|principios de mes|o
@@ -11475,7 +11475,7 @@
 发车|salida (de autobús, tren)|o
 地域|región, territorio|o
 坦然|tranquilo, sereno|o
-堂堂|digno, imponente; a plena luz del día|o;o
+堂堂|digno, imponente; (ante un título) nada menos que, precisamente|o;o
 市值|valor de mercado|o
 年幼|de corta edad|o
 幸亏|afortunadamente, por suerte|o
@@ -11668,7 +11668,7 @@
 招致|provocar, acarrear|v
 提早|antes de lo previsto, con antelación|o
 摇摇欲坠|tambaleante, a punto de derrumbarse|o
-核子|núcleo; nuclear|o;o
+核子|nuclear; nucleón (física)|o;o
 检察|fiscalizar, procesar; de la fiscalía|v;o
 植根于|arraigado en|o
 氨基酸|aminoácido|o
@@ -11826,7 +11826,7 @@
 也罢|está bien, qué más da; ya sea … o|o;o
 凶猛|feroz, fiero|o
 吃力|arduo, costoso|o
-员警|agente de policía|o
+员警|policía, agente (uso taiwanés)|o
 哀嚎|gemir, aullar|v
 弓箭手|arquero|o
 成品|producto terminado|o
@@ -12227,7 +12227,7 @@
 悄悄|en silencio, a escondidas|o
 灌输|inculcar, adoctrinar|v
 火气|genio, ira|o
-狗日的|(coloquial) hijo de puta|o
+狗日的|hijo de puta, cabrón (vulgar)|o
 相见|verse, encontrarse|v
 纵横|a lo largo y ancho de; moverse a sus anchas|o;v
 触动|tocar, conmover|v
@@ -12429,7 +12429,7 @@
 谦虚|modesto|o
 里外|dentro y fuera|o
 风声|ruido del viento; rumores, noticias|o;o
-飞弹|misil|o
+飞弹|misil (uso taiwanés)|o
 飞舞|revolotear, danzar en el aire|v
 上浮|flotar hacia arriba; subir|v;v
 倾泻|caer a raudales|v
@@ -12607,7 +12607,7 @@
 不紧不慢|sin prisa, a paso constante|o
 九成|noventa por ciento|o
 争夺战|lucha, batalla por|o
-伯母|tía (esposa del hermano mayor del padre)|o
+伯母|tía (esposa del hermano mayor del padre); señora (cortés, a la madre de un amigo)|o;o
 傍晚|atardecer, anochecer|o
 全军|todo el ejército|o
 利器|arma afilada; herramienta útil|o;o
@@ -12769,7 +12769,7 @@
 打磨|pulir, esmerilar|v
 抛开|dejar de lado, desechar|v
 擦拭|limpiar, frotar|v
-替身|doble, sustituto, chivo expiatorio|o
+替身|suplente, doble; chivo expiatorio|o;o
 树干|tronco (de árbol)|o
 残缺|incompleto, fragmentario|o
 毒素|toxina|o
@@ -13019,7 +13019,7 @@
 遮天蔽日|que tapa el cielo, abrumador|o
 两手|ambas manos; doble estrategia|o;o
 依附|depender de, arrimarse a|v
-俯瞰|contemplar desde lo alto, dominar (con la vista)|v
+俯瞰|mirar desde arriba, dominar (una vista)|v
 健壮|robusto, fuerte|o
 光圈|halo, aro de luz; apertura (de diafragma)|o;o
 几样|varias clases|o
@@ -13704,7 +13704,7 @@
 朗读|leer en voz alta|v
 洋相|espectáculo; 出洋相: hacer el ridículo|o;n
 常委会|comité permanente|o
-服务区|área de servicio (en la autopista)|o
+服务区|área de servicio (en una autopista); zona de cobertura (de una red móvil)|o;o
 具名|firmar, figurar con el nombre|v
 冷冷清清|desierto y silencioso, desolado|o
 界碑|mojón fronterizo|o
@@ -13742,7 +13742,7 @@
 届|sesión, mandato, promoción (de graduados); vencer (un plazo); (clasificador: sesiones, promociones)|o;v;g
 判|juzgar, sentenciar|v
 甚|muy, sumamente|o
-致|enviar, causar; fino, delicado|v;o
+致|enviar, extender (saludos); causar, provocar; fino, delicado|v;v;o
 准|preciso, exacto; permitir|o;v
 歇|descansar, parar|v
 步|paso|o
@@ -13754,7 +13754,7 @@
 滴|gota; gotear; (clasificador: gotas)|o;v;g
 食|comida; comer|o;v
 鲸|ballena|o
-丫|horquilla, bifurcación; chica|o;o
+丫|ese cabrón, tú cabrón (vulgar, jerga de Beijing); horquilla; muchacha|o;o;o
 窗|ventana|o
 果|fruta; resultado|o;o
 搂|abrazar|v
@@ -13943,7 +13943,7 @@
 移|mover, trasladar|v
 瓜|melón, calabaza|o
 裤|pantalones|o
-余|excedente, restante|o
+余|excedente, restante; más de (después de un número)|o;o
 浪|ola; desenfrenado|o;o
 署|oficina gubernamental; firmar|o;v
 轰|retumbar; bombardear; echar, expulsar|v;v;v
@@ -13953,7 +13953,7 @@
 咳|toser|v
 首|cabeza; primero; (clasificador: canciones)|o;o;g
 争|luchar por, disputar|v
-折|romper, doblar; descuento|v;o
+折|romper, quebrar; doblar; descuento|v;v;o
 萎|marchitarse|v
 鼠|ratón, rata|o
 捣|machacar; armar lío|v;v
@@ -13986,15 +13986,15 @@
 链|cadena|o
 瘾|adicción, ansia|o
 碍|estorbar, obstaculizar|v
-赖|depender de; negar, echar la culpa; quedarse, negarse a irse|v;v;v
+赖|culpar, ser culpa de uno; aferrarse, negarse a irse; negar (una deuda), desdecirse; depender de|v;v;v;v
 率|tasa, proporción; dirigir, encabezar (shuài)|o;v
 厨|cocina; cocinero|o;o
 肝|hígado|o
 锅|olla, sartén, wok; (clasificador: ollas llenas)|o;g
 须|deber, tener que; barba|o;o
-徐|despacio, suavemente|o
+徐|Xu (apellido); lentamente, con suavidad|o;o
 百|cien|o
-洪|inundación; vasto|o;o
+洪|Hong (apellido); inundación; vasto|o;o;o
 麻|cáñamo; entumecido|o;o
 掌|palma de la mano; estar a cargo de|o;v
 绳|cuerda, soga|o
@@ -14015,7 +14015,7 @@
 社|sociedad, asociación|o
 荷|loto; llevar una carga (hè)|o;v
 杂|mezclado, variado|o
-郑|郑重: solemne, serio|n
+郑|Zheng (apellido); 郑重: solemne, serio|o;n
 弟|hermano menor|o
 臣|funcionario, súbdito|o
 居|vivir, residir|v
@@ -14084,7 +14084,7 @@
 肩|hombro|o
 阶|escalón, peldaño; rango|o;o
 易|fácil; cambiar|o;v
-梁|viga; puente|o;o
+梁|Liang (apellido); viga, travesaño; puente|o;o;o
 浓|espeso, denso, fuerte|o
 醋|vinagre; celos (en el amor)|o;o
 采|recoger, cosechar; adoptar|v;v
@@ -14099,7 +14099,7 @@
 世|mundo; generación, época|o;o
 柳|sauce|o
 萝|planta rastrera (como en 萝卜 rábano)|o
-萧|desolado, lúgubre|o
+萧|Xiao (apellido); desolado, sombrío|o;o
 柴|leña; seco y duro (la carne)|o;o
 裕|abundante, acomodado|o
 俊|guapo, apuesto|o
@@ -14140,7 +14140,7 @@
 钢|acero|o
 勤|diligente, trabajador; con frecuencia|o;o
 壮|fuerte, robusto|o
-孙|nieto|o
+孙|Sun (apellido); nieto|o;o
 故|razón, causa; antiguo, anterior; por eso, así que (clásico)|o;o;o.c
 棋|ajedrez, juego de tablero|o
 眶|cuenca del ojo|o
@@ -14172,7 +14172,7 @@
 瘤|tumor, bulto|o
 删|borrar, recortar|v
 甭|no hace falta, no (coloquial, = 不用)|o
-陆|tierra firme; seis (liù) (formal)|o;o
+陆|Lu (apellido); tierra firme; seis (liù) (formal)|o;o;o
 微|diminuto, leve; micro-|o;o
 紫|morado, violeta|o
 菌|bacteria, hongo|o
@@ -14202,7 +14202,7 @@
 哲|sabio; filosofía|o;o
 湮|caer en el olvido, quedar sepultado|v
 盗|robar; bandido|v;o
-谭|relato, charla|o
+谭|Tan (apellido); relato, charla|o;o
 展|desplegar, exhibir|v
 拥|abrazar; aglomerarse|v;v
 碳|carbono|o
@@ -14253,7 +14253,7 @@
 狭|estrecho|o
 击|golpear|v
 嚷|gritar, vociferar|v
-蝴|(en 蝴蝶: mariposa)|g
+蝴|蝴蝶: mariposa|n
 哑|mudo; ronco|o;o
 识|conocer, reconocer; conciencia (budista)|v;o.b
 嘎|cuac, crujido (sonido)|o
@@ -14265,7 +14265,7 @@
 伫|quedarse quieto, permanecer de pie|v
 囊|bolsa, saco|o
 始|empezar|v
-婊|(en 婊子: zorra, puta)|g
+婊|婊子: perra (vulgar)|n
 限|límite; limitar|o;v
 嗜|ser adicto a, ansiar|v
 胀|hincharse, dilatarse|v
@@ -14294,19 +14294,19 @@
 衰|decaer, debilitarse|v
 霜|escarcha|o
 框|marco; enmarcar, recuadrar|o;v
-沮|(en 沮丧: abatido)|g
+沮|沮丧: abatido|n
 皇|emperador, imperial|o
 荐|recomendar|v
 汪|guau (ladrido); vasto (agua); charco|o;o;o
 瘸|cojo|o
-昆|(en 昆虫: insecto)|g
+昆|昆虫: insecto|n
 泣|llorar|v
 浸|remojar, sumergir|v
 攀|trepar, escalar|v
 泪|lágrima|o
 嘶|relinchar, silbar; ronco|v;o
 鉴|espejo; reflexionar sobre|o;v
-陛|(en 陛下: Su Majestad)|g
+陛|陛下: Su Majestad|n
 惩|castigar|v
 徒|seguidor, discípulo; en vano|o;o
 模|modelo, patrón|o
@@ -14329,7 +14329,7 @@
 竖|vertical; poner derecho|o;v
 耕|arar, cultivar|v
 臂|brazo|o
-啤|(en 啤酒: cerveza)|g
+啤|啤酒: cerveza|n
 武|militar, marcial|o
 沧|azul oscuro (del mar)|o
 粮|grano, alimento|o
@@ -14371,7 +14371,7 @@
 卒|soldado, peón; morir|o;v
 怨|resentir; queja, agravio; culpar|v;o;v
 愁|preocupación, pena|o
-揾|buscar (coloquial, = 找)|v
+揾|buscar (cantonés, = 找)|v
 校|escuela; revisar, cotejar (jiào)|o;v
 允|permitir|v
 崖|acantilado|o
@@ -14386,9 +14386,9 @@
 洲|continente; islote|o;o
 捕|atrapar, detener|v
 氧|oxígeno|o
-纪|registro; época, disciplina|o;o
+纪|registro; era, época; disciplina|o;o;o
 触|tocar, entrar en contacto|v
-丈|marido; diez pies (medida)|o;o
+丈|diez pies (unidad de longitud, unos 3,3 m); 丈夫: esposo|o;n
 巢|nido, guarida|o
 涌|brotar, manar a borbotones|v
 秃|calvo, pelado|o
@@ -14435,7 +14435,7 @@
 嘻|ji, ji (risa)|o
 腻|grasiento; harto, aburrido|o;o
 驶|conducir, navegar|v
-矛|lanza; contradicción (矛盾)|o;o
+矛|lanza; 矛盾: contradicción|o;n
 胎|feto; neumático|o;o
 津|saliva; transbordador, vado|o;o
 译|traducir|v
@@ -14443,7 +14443,7 @@
 穴|cueva, agujero|o
 鳄|cocodrilo|o
 努|esforzarse|v
-乎|(en 似乎, 几乎: al parecer, casi)|g
+乎|似乎: al parecer; 几乎: casi|n;n
 介|estar entre; importar, molestar|v;v
 淋|empapar, rociar|v
 睫|pestaña|o
@@ -14461,7 +14461,7 @@
 谴|condenar, reprochar|v
 遏|contener, frenar|v
 锤|martillo; martillear, golpear|o;v
-骚|perturbar; coqueto|v;o
+骚|coqueta, ligera de cascos (vulgar); molestar, perturbar|o;v
 功|mérito, logro; destreza|o;o
 樱|cerezo (flor)|o
 氏|clan, apellido|o
@@ -14598,7 +14598,7 @@
 宴|banquete, festín|o
 毅|resuelto, firme|o
 焉|cómo, dónde (clásico); acto seguido|o;o
-镖|dardo, arma arrojadiza (en 保镖)|o
+镖|dardo, arma arrojadiza; 保镖: guardaespaldas|o;n
 颖|listo, talentoso|o
 景|paisaje, vista; situación|o;o
 积|acumular, amontonar|v
@@ -14608,14 +14608,14 @@
 亡|morir, perecer; huir|v;v
 掣|tirar de, contener|v
 棉|algodón|o
-狸|(en 狐狸: zorro)|g
+狸|狐狸: zorro|n
 矩|regla, escuadra (en 规矩)|o
 籍|registro, censo; lugar de origen; afiliación|o;o;o
 违|violar, desobedecer|v
 酿|elaborar (bebidas), fermentar|v
 齿|diente|o
 良|bueno|o
-芒|arista (de la espiga), rayo (de luz)|o
+芒|rayo (de luz); arista, punta afilada|o;o
 葱|cebolleta|o
 喉|garganta|o
 悟|darse cuenta, despertar|v
@@ -14632,13 +14632,13 @@
 酗|beber en exceso|v
 妃|concubina imperial, princesa|o
 镶|incrustar, engastar|v
-医|médico, curar|o
+医|medicina, médico; doctor; tratar, curar|o;o;v
 拘|detener, restringir|v
 桃|melocotón, durazno|o
 拱|arco; arquear; hozar|o;v;v
 贩|vender, traficar; comerciante|v;o
 馒|pan al vapor|o
-尉|oficial (de rango medio)|o
+尉|oficial subalterno (teniente, capitán)|o
 庞|enorme; rostro|o;o
 溢|desbordarse|v
 疾|enfermedad; veloz|o;o
@@ -14657,7 +14657,7 @@
 骆|camello (como en 骆驼)|o
 函|carta; función (matemáticas)|o;o
 寒|frío; pobre|o;o
-欺|engañar, intimidar|v
+欺|engañar; intimidar, abusar|v;v
 诧|sorprendido, asombrado|o
 遣|enviar, despachar|v
 雕|tallar, esculpir; águila|v;o
@@ -14805,7 +14805,7 @@
 蓬|esponjoso, desgreñado|o
 锋|filo, punta; vanguardia|o;o
 窒|ahogar, asfixiar|v
-飙|torbellino; dispararse, subir de golpe|o;v
+飙|elevarse, dispararse; correr (un auto), ir a toda velocidad; torbellino|v;v;o
 匙|cuchara; llave (钥匙)|o;o
 咄|agresivo, prepotente; ¡bah!|o;o
 境|frontera; circunstancias|o;o
@@ -14813,7 +14813,7 @@
 棺|ataúd|o
 滞|estancado, lento|o
 澄|claro, límpido; aclarar|o;v
-申|declarar, solicitar|v
+申|exponer; solicitar|v;v
 眈|虎视眈眈: acechar como un tigre|n
 诱|atraer, tentar|v
 谦|modesto, humilde|o
@@ -14854,13 +14854,13 @@
 享|disfrutar, gozar de|v
 亵|obsceno, irreverente|o
 仰|mirar hacia arriba; admirar|v;v
-企|planear; empresa|v;o
+企|empresa, negocio; anhelar, aspirar a|o;v
 伟|grande, grandioso|o
 伺|servir, atender; acechar|v;v
-佣|contratar; comisión|v;o
+佣|sirviente (yōng); contratar (yōng); comisión|o;v;o
 侃|charlar, parlotear|v
 侄|sobrino, sobrina (hijo del hermano)|o
-侏|(en 侏儒: enano)|g
+侏|侏儒: enano|n
 侥|侥幸: por suerte, de chiripa|n
 侦|detectar, investigar|v
 侮|insultar, humillar|v
@@ -14889,7 +14889,7 @@
 凰|fénix (hembra)|o
 凸|convexo, saliente|o
 刊|publicación periódica; imprimir|o;v
-刹|(en 刹车: freno); un instante (chà); tierra, reino (chà) (budista)|g;o;o.b
+刹|刹车: freno; un instante (chà); tierra, reino (chà) (budista)|n;o;o.b
 剔|escoger, quitar|v
 剿|exterminar, reprimir (bandidos)|v
 务|asunto, tarea; deber|o;o
@@ -14919,18 +14919,18 @@
 叙|narrar, relatar; charlar|v;v
 叨|parlotear, dar la lata|v
 吟|salmodiar, recitar|v
-吩|(en 吩咐: ordenar)|g
+吩|吩咐: instruir|n
 吭|decir palabra, hacer ruido (吭声)|v
 启|abrir; empezar|v;v
-呻|(en 呻吟: gemir)|g
-咆|(en 咆哮: rugir)|g
+呻|呻吟: gemir|n
+咆|咆哮: rugir|n
 咎|culpa, falta|o
-咐|(en 吩咐: ordenar)|g
-咙|(en 喉咙: garganta)|g
+咐|吩咐: instruir|n
+咙|喉咙: garganta|n
 咨|consultar, pedir consejo|v
 咫|咫尺: muy cerca|n
 哏|chiste, ocurrencia|o
-哮|(en 咆哮: rugir); resuello|g;o
+哮|咆哮: rugir; sibilancia|n;o
 哺|alimentar, amamantar|v
 售|vender|v
 唾|saliva, escupitajo; escupir|o;v
@@ -14939,7 +14939,7 @@
 喻|metáfora, analogía; explicar|o;v
 嗓|garganta, voz|o
 嗤|burlarse, mofarse|v
-嗽|(en 咳嗽: toser)|g
+嗽|咳嗽: toser|n
 嘱|encargar, instruir|v
 嘲|burlarse de, mofarse de|v
 噩|terrible, de mal agüero|o
@@ -14952,17 +14952,17 @@
 囤|acaparar, almacenar|v
 固|sólido, firme; terco|o;o
 圃|huerto, vivero|o
-圾|(en 垃圾: basura)|g
+圾|垃圾: basura|n
 址|sitio, dirección|o
 坍|derrumbarse|v
 坞|dique, dársena|o
 坯|pieza sin cocer, pieza en bruto; embrión|o;o
-垃|(en 垃圾: basura)|g
+垃|垃圾: basura|n
 垄|caballón (en un campo); monopolio|o;o
 培|cultivar, fomentar|v
 堪|soportar, ser capaz de|v
 塑|moldear; plástico|v;o
-墅|(en 别墅: chalé, villa)|g
+墅|别墅: villa|n
 增|aumentar, añadir|v
 墟|ruinas|o
 壑|barranco, quebrada|o
@@ -14982,7 +14982,7 @@
 娇|delicado, encantador; mimado|o;o
 娱|divertir; entretenimiento|v;o
 婢|criada|o
-婪|(en 贪婪: codicioso)|g
+婪|贪婪: codicioso|n
 婴|bebé, lactante|o
 婿|yerno; marido|o;o
 媒|medio; casamentero|o;o
@@ -15003,11 +15003,11 @@
 寂|silencioso, solitario|o
 寓|residir; residencia; insinuar, contener (un sentido)|v;o;v
 寝|dormir, dormitorio|o
-寞|(en 寂寞: solitario)|g
+寞|寂寞: solitario|n
 寡|poco, escaso; viudo|o;o
 寥|escaso, poco; vacío|o;o
-尬|(en 尴尬: incómodo)|g
-尴|(en 尴尬: incómodo)|g
+尬|尴尬: incómodo|n
+尴|尴尬: incómodo|n
 屈|doblegar, someterse; agraviado|v;o
 屉|cajón|o
 屹|屹立: erguirse, alzarse|n
@@ -15061,13 +15061,13 @@
 悖|contrario; perverso|o;o
 悚|asustado|o
 悦|contento, encantado|o
-悯|(en 怜悯: compadecer)|g
+悯|怜悯: compadecer|n
 悸|palpitación, sobresalto|o
 惋|lamentar, compadecerse|v
 惕|alerta, cauteloso|o
 惚|恍惚: aturdido, como en trance|n
 惜|apreciar, valorar; lamentar|v;v
-惫|(en 疲惫: agotado)|g
+惫|疲惫: agotado|n
 惭|avergonzado|o
 惮|temer|v
 惶|pánico, alarma|o
@@ -15076,12 +15076,12 @@
 愕|atónito, pasmado|o
 愚|tonto, necio|o
 愤|indignado, furioso|o
-慨|(en 慷慨: generoso, apasionado)|g
+慨|慷慨: generoso, vehemente|n
 愧|avergonzado|o
 慑|temer; imponer respeto, intimidar|v;v
 慕|admirar, anhelar|v
 慧|sabiduría, inteligencia|o
-慷|(en 慷慨: generoso, apasionado)|g
+慷|慷慨: generoso, vehemente|n
 憎|odiar, detestar|v
 憾|pesar, decepción duradera|o
 懈|flojo, descuidado|o
@@ -15092,7 +15092,7 @@
 扩|ampliar, extender|v
 扰|molestar, acosar|v
 扼|agarrar, estrangular; controlar|v;v
-抉|(en 抉择: elegir)|g
+抉|抉择: elegir|n
 抑|contener, reprimir|v
 抚|consolar; acariciar|v;v
 抨|atacar (de palabra), criticar|v
@@ -15105,7 +15105,7 @@
 拯|salvar, rescatar|v
 捍|defender, proteger|v
 捺|apretar, contener|v
-授|entregar, enseñar|v
+授|dar, conferir; enseñar|v;v
 措|medida, paso; disponer|o;v
 援|ayudar; tirar de|v;v
 搀|sostener del brazo; mezclar|v;v
@@ -15139,7 +15139,7 @@
 构|construir; estructura|v;o
 析|analizar, dividir|v
 枢|eje, centro|o
-柠|(en 柠檬: limón)|g
+柠|柠檬: limón|n
 栅|valla, verja|o
 栈|almacén, posada; camino de tablones|o;o
 栖|posarse, habitar|v
@@ -15155,14 +15155,14 @@
 棱|arista, borde|o
 椎|vértebra|o
 概|general, aproximado; resumen|o;o
-榄|(en 橄榄: aceituna)|g
+榄|橄榄: aceituna|n
 榈|棕榈: palmera|n
-榴|(en 手榴弹: granada de mano; 石榴 granada)|g
+榴|手榴弹: granada; 石榴: granada (fruta)|n;n
 槛|umbral; barandilla (jiàn)|o;o
-槟|(en 香槟: champán)|g
-橄|(en 橄榄: aceituna)|g
+槟|香槟: champaña (bīn)|n
+橄|橄榄: aceituna|n
 橘|mandarina|o
-檬|(en 柠檬: limón)|g
+檬|柠檬: limón|n
 歧|bifurcado, divergente; diferente|o;o
 歹|malo, malvado|o
 歼|aniquilar, exterminar|v
@@ -15173,7 +15173,7 @@
 毋|no, no hace falta|f3s
 毗|contiguo, adyacente|o
 毫|pelo fino; lo más mínimo|o;o
-氓|(en 流氓: gamberro, matón)|g
+氓|流氓: gamberro (máng)|n
 氛|ambiente, atmósfera|o
 污|sucio; contaminar|o;v
 汰|descartar, eliminar|v
@@ -15197,7 +15197,7 @@
 涯|orilla, límite (生涯 carrera)|o
 涵|contener, incluir|v
 淆|confuso, mezclado|o
-淇|(en 冰淇淋: helado)|g
+淇|冰淇淋: helado|n
 渊|abismo, aguas profundas|o
 渎|profanar, faltar al respeto|v
 渐|poco a poco, gradualmente|o
@@ -15223,9 +15223,9 @@
 潇|潇洒: desenvuelto, con estilo|n
 澎|embravecido (el agua)|o
 澜|ola grande, oleaje|o
-澳|bahía, ensenada (澳洲 Australia)|o
+澳|Macao (abreviatura de 澳门); Australia (abreviatura de 澳洲); bahía, ensenada|o;o;o
 濒|estar al borde de|v
-瀑|(en 瀑布: cascada)|g
+瀑|瀑布: cascada|n
 瀚|vasto|o
 灼|quemar, abrasar|v
 灾|desastre, calamidad|o
@@ -15246,7 +15246,7 @@
 熔|fundir|v
 燥|seco|o
 牲|ganado; sacrificio|o;o
-牺|(en 牺牲: sacrificar)|g
+牺|牺牲: sacrificar|n
 犀|rinoceronte|o
 犊|ternero|o
 狈|狼狈: en apuros|n
@@ -15259,18 +15259,18 @@
 猖|desenfrenado, desmandado|o
 猝|súbito, repentino|o
 猢|mono (como en 猢狲)|o
-猩|(en 猩猩: simio, orangután); escarlata|g;o
+猩|猩猩: simio; escarlata|n;o
 猾|astuto, taimado|o
 獠|feroz, fiero; colmillo (獠牙)|o;o
 玄|misterioso, profundo; negro|o;o
-玫|(en 玫瑰: rosa)|g
+玫|玫瑰: rosa|n
 珑|玲珑: exquisito, primoroso|n
 琉|vidriado (como en 琉璃)|o
 琢|tallar, pulir (jade); 琢磨: reflexionar, darle vueltas|v;n
 琥|ámbar (como en 琥珀)|o
 瑚|coral (como en 珊瑚)|o
 瑜|瑜伽: yoga; brillo del jade, excelencia|n;o
-瑰|(en 玫瑰: rosa); maravilloso|g;o
+瑰|玫瑰: rosa; maravilloso|n;o
 璀|璀璨: brillante, resplandeciente|n
 璧|disco de jade|o
 璨|brillante, resplandeciente|o
@@ -15287,7 +15287,7 @@
 疮|llaga, herida|o
 疲|cansado, agotado|o
 痍|herida, lesión|o
-痪|(en 瘫痪: paralizado)|g
+痪|瘫痪: paralizado|n
 痹|entumecimiento, parálisis|o
 瘟|peste, pestilencia|o
 盈|lleno, colmado; excedente|o;o
@@ -15321,7 +15321,7 @@
 秩|orden, secuencia|o
 稀|raro, escaso; aguado, ralo|o;o
 稚|joven, infantil|o
-稽|(en 滑稽: cómico)|g
+稽|滑稽: cómico|n
 究|indagar, investigar|v
 穹|bóveda, cúpula; cielo|o;o
 窿|窟窿: agujero; 穹窿: cúpula|n;n
@@ -15347,7 +15347,7 @@
 纷|numeroso, confuso|o
 绅|hidalgo, caballero|o
 绌|insuficiente, inferior|o
-绍|presentar, continuar|v
+绍|presentar; continuar, seguir|v;v
 绎|desentrañar, deducir (演绎)|v
 络|red, malla|o
 统|unificar, mandar; sistema|v;o
@@ -15371,7 +15371,7 @@
 耀|brillar, deslumbrar|v
 耦|acoplamiento (耦合)|o
 耸|elevarse, erguirse; encogerse de hombros|v;v
-耽|demorar, entregarse a|v
+耽|retrasar, demorar; entregarse a|v;v
 耿|recto, honrado; inquieto|o;o
 聆|escuchar|v
 聘|contratar|v
@@ -15380,21 +15380,21 @@
 肆|desenfrenado, desmedido; tienda|o;o
 肢|miembro, extremidad|o
 肤|piel|o
-肪|(en 脂肪: grasa)|g
+肪|脂肪: grasa|n
 育|criar, educar|v
 肴|platos de carne, comida cocinada|o
 胁|amenazar; costado|v;o
-胞|útero; compatriota|o;o
+胞|de los mismos padres; compatriota; célula; útero|o;o;o;o
 胧|朦胧: brumoso, tenue|n
 胰|páncreas|o
-胳|(en 胳膊: brazo)|g
+胳|胳膊: brazo|n
 脂|grasa, sebo|o
 脯|carne seca; pecho (胸脯) (pú)|o;o
 腐|podrido, corrupto; tofu|o;o
 腑|órganos internos, vísceras|o
 腥|olor a pescado, olor a sangre|o
 腺|glándula|o
-膊|(en 胳膊: brazo)|g
+膊|胳膊: brazo|n
 膨|hincharse, expandirse|v
 膺|pecho; recibir|o;v
 臾|须臾: un instante|n
@@ -15403,59 +15403,59 @@
 舶|buque de altura|o
 艰|difícil, arduo|o
 芜|cubierto de maleza; desordenado|o;o
-芝|(en 芝麻: sésamo)|g
+芝|芝麻: sésamo|n
 芦|junco, caña|o
 芯|núcleo, mecha; chip|o;o
 苍|verde oscuro, gris; vasto|o;o
 苟|descuidado, a la ligera; si|o;o
-苹|(en 苹果: manzana)|g
+苹|苹果: manzana|n
 茁|robusto, lozano (茁壮)|o
 茄|berenjena; (en 雪茄: puro, cigarro) (jiā)|o;o
 茅|paja para techar, carrizo|o
-茉|(en 茉莉: jazmín)|g
+茉|茉莉: jazmín|n
 茫|vasto, inmenso; desorientado|o;o
 荧|tenue, titilante; fluorescente|o;o
 荼|hierba amarga; envenenar|o;v
 莅|llegar, asistir (莅临)|v
-莓|(en 草莓: fresa)|g
+莓|草莓: fresa; baya|n;o
 莞|sonreír|v
 莽|imprudente; hierba espesa|o;o
 萃|reunir; colección|v;o
-萄|(en 葡萄: uva)|g
+萄|葡萄: uva|n
 萤|luciérnaga|o
 萦|enroscarse, rondar|v
-葡|(en 葡萄: uva)|g
+葡|葡萄: uva|n
 葫|葫芦: calabaza|n
 蒲|espadaña, junco|o
 蓄|acumular, ahorrar|v
 蔑|despreciar, desdeñar|v
 蔬|verduras, hortalizas|o
 蔽|cubrir, resguardar, ocultar|v
-蕉|(en 香蕉: plátano, banana)|g
+蕉|香蕉: plátano|n
 蕴|contener, guardar; agregado, skandha (budista)|v;o.b
 薪|sueldo, salario; leña|o;o
 薯|papa, patata, ñame|o
-蘑|(en 蘑菇: seta, hongo)|g
+蘑|蘑菇: hongo|n
 虑|considerar; preocupación|v;o
 蚀|erosionar, corroer|v
-蚂|(en 蚂蚁: hormiga)|g
+蚂|蚂蚁: hormiga (mǎ)|n
 蛟|dragón de las aguas|o
 蜃|espejismo|o
 蜕|mudar la piel|v
-蜘|(en 蜘蛛: araña)|g
+蜘|蜘蛛: araña|n
 蜥|lagarto (como en 蜥蜴)|o
 蜴|lagarto (como en 蜥蜴)|o
-蝙|(en 蝙蝠: murciélago)|g
-蝠|(en 蝙蝠: murciélago)|g
+蝙|蝙蝠: murciélago|n
+蝠|蝙蝠: murciélago|n
 蝾|tritón (como en 蝾螈)|o
-螂|(en 蟑螂: cucaracha)|g
+螂|蟑螂: cucaracha|n
 螃|螃蟹: cangrejo|n
 螈|tritón (como en 蝾螈)|o
 融|derretirse; fundirse, mezclar; finanzas|v;v;o
 螳|螳螂: mantis religiosa|n
 螺|caracol, concha en espiral; tornillo|o;o
 蟆|蛤蟆: sapo, rana|n
-蟑|(en 蟑螂: cucaracha)|g
+蟑|蟑螂: cucaracha|n
 蟒|pitón|o
 蠵|蠵龟: tortuga boba|n
 衅|riña, provocación (挑衅)|o
@@ -15497,8 +15497,8 @@
 谬|absurdo, erróneo|o
 譬|ejemplo; por ejemplo (譬如)|o;o
 豁|abierto, despejado; jugarse el todo (豁出去)|o;v
-豚|(en 海豚: delfín); cerdo|g;o
-豫|(en 犹豫: dudar, vacilar)|g
+豚|海豚: delfín; cerdo|n;o
+豫|犹豫: dudar|n
 豺|chacal|o
 貌|aspecto, apariencia|o
 责|deber, responsabilidad; culpar|o;v
@@ -15507,7 +15507,7 @@
 贯|atravesar, recorrer; lugar de origen (como en 籍贯)|v;o
 贸|comercio|o
 贿|sobornar|v
-赂|(en 贿赂: sobornar)|g
+赂|贿赂: sobornar|n
 资|fondos, recursos; cualificación|o;o
 赅|completo, conciso|o
 赠|regalar, obsequiar|v
@@ -15591,7 +15591,7 @@
 霄|cielo, firmamento|o
 霆|trueno|o
 霹|霹雳: rayo|n
-革|cuero; reformar, expulsar|o;v
+革|cuero; reformar, cambiar; expulsar, destituir (de un cargo)|o;v;v
 韧|resistente, flexible|o
 顷|momento, instante; hectárea (公顷)|o;o
 顽|terco; travieso|o;o
@@ -15599,7 +15599,7 @@
 颊|mejilla|o
 频|frecuencia; repetidamente|o;o
 飓|huracán (飓风)|o
-饪|(en 烹饪: cocina, cocinar)|g
+饪|烹饪: cocina, arte de cocinar|n
 馈|ofrecer, dar; retroalimentación (反馈)|v;o
 驭|conducir, controlar|v
 驯|domar; manso|v;o

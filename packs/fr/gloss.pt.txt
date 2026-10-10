@@ -40,7 +40,7 @@ qu'|que, o qual|o
 pour|para (finalidade)|o
 ai|eu tenho|f1s
 n'|não (com pas)|o
-des|dos, das, alguns, algumas (de+les)|o
+des|uns, umas (plural de un: des livres); dos, das (de+les)|o;o
 qui|quem; que, o qual (sujeito)|o;o
 mais|mas|o
 dans|em, dentro de (um lugar)|o
@@ -175,7 +175,7 @@ ami|amigo; petit ami: namorado; petite amie: namorada|o;n;n
 parce|porque (parce que)|o
 avant|antes|o
 fille|menina, moça; filha|o;o
-trop|demais|o
+trop|demais (antes de um adjetivo: trop cher); demais, muitos demais|o;o
 quelqu'|alguém (em quelqu'un)|o
 an|ano (contado)|o
 père|pai|o
@@ -255,9 +255,9 @@ ah|ah|o
 idée|ideia|o
 devenir|tornar-se, virar|v
 jusque|até|o
-mec|cara, sujeito|o
+mec|cara, sujeito (coloq.)|o
 voiture|carro|o
-gars|rapaz, cara|o
+gars|rapaz, cara (coloq.)|o
 travail|trabalho, emprego|o
 dû|teve que, tido que (j'ai dû); devido|f3s;o
 fils|filho|o
@@ -325,13 +325,13 @@ partie|parte (de um todo); partida, rodada; ida, que foi embora (f.)|o;o;o
 mauvais|ruim, mau|o
 genre|tipo, gênero|o
 aide|ajuda; eu ajudo; ele/ela ajuda; à l'aide de: com a ajuda de, usando|o;f1s;f3s;n
-type|cara, sujeito; tipo|o;o
+type|cara, sujeito (coloq.); tipo, espécie|o;o
 police|polícia|o
 seulement|só, somente|o
 ouvrir|abrir|v
 bébé|bebê|o
 car|pois, porque (ligando orações); ônibus de viagem|o;o
-point|ponto; ponto (sinal); sur le point de: prestes a; faire le point: fazer um balanço|o;o;n;n
+point|ponto; pontinho; de modo algum (ne ... point); sur le point de: prestes a; faire le point: fazer um balanço|o;o;o;n;n
 ville|cidade|o
 mois|mês|o
 oublier|esquecer|v
@@ -344,7 +344,7 @@ endroit|lugar, local|o
 laisse|deixa!; eu deixo; ele/ela deixa|o;f1s;f3s
 chaque|cada|o
 sembler|parecer|v
-putain|porra, merda (vulgar); puta (vulgar)|o;o
+putain|porra, merda (vulgar); prostituta (vulgar)|o;o
 retrouver|reencontrar, achar de novo; encontrar-se com; se retrouver: acabar, ir parar (em)|v;v;n
 perdre|perder|v
 parlé|falado|o
@@ -356,7 +356,7 @@ dormir|dormir|v
 plein|cheio; plein de: muitos, um monte de|o;n
 compte|conta; eu conto; ele/ela conta; se rendre compte: perceber; tenir compte de: levar em conta|o;f1s;f3s;n;n
 compris|entendido; incluído|o;o
-droit|direito (prerrogativa); reto; direito (a disciplina: faire du droit)|o;o;o
+droit|direito (prerrogativa); direito (não esquerdo: le bras droit); reto; direito (a matéria: faire du droit)|o;o;o;o
 arme|arma|o
 belle|bonita, linda|o
 ni|nem|o
@@ -392,7 +392,7 @@ montrer|mostrar|v
 suite|continuação; tout de suite: já, imediatamente|o;n
 cause|causa; à cause de: por causa de; eu causo; ele/ela causa|o;n;f1s;f3s
 là-bas|lá, ali longe|o
-vers|em direção a, para; verso|o;o
+vers|em direção a; por volta de (hora); verso|o;o;o
 tomber|cair|v
 devant|na frente de|o
 fin|fim|o
@@ -446,7 +446,7 @@ joli|bonito|o
 propre|próprio; limpo|o;o
 plan|plano|o
 parent|pai ou mãe; parente|o;o
-marche|funciona; degrau, caminhada|f3s;o
+marche|funciona (ça marche); caminhada, marcha; degrau (de escada)|f3s;o;o
 finir|terminar, acabar; finir par: acabar (fazendo)|v;n
 guerre|guerra|o
 servir|servir; ser útil; se servir de: usar|v;v;n
@@ -455,7 +455,7 @@ fête|festa; festival, festa popular; eu comemoro; ele/ela comemora|o;o;f1s;f3s
 agir|agir; il s'agit de: trata-se de|v;n
 agent|agente, policial|o
 dessus|em cima; au-dessus: acima|o;n
-mariage|casamento|o
+mariage|casamento; cerimônia de casamento|o;o
 rencontrer|encontrar, conhecer|v
 chien|cachorro|o
 boire|beber|v
@@ -463,7 +463,7 @@ vas-y|vai!, vai em frente|o
 content|contente|o
 gentil|gentil, legal|o
 battre|bater em, vencer; se battre: brigar, lutar|v;n
-livre|livro (s.m.); libra (s.f.)|o;o
+livre|livro (s.m.); libra (s.f.); ele/ela entrega|o;o;f3s
 marier|casar (celebrar); se marier: casar-se|v;n
 appelé|chamado|o
 noir|preto, negro|o
@@ -493,12 +493,12 @@ expliquer|explicar|v
 suivre|seguir; fazer (um curso), frequentar|v;v
 certains|alguns, certos|o
 ressembler|parecer-se com|v
-cours|aula, curso; eu corro, você corre; au cours de: durante; en cours: em andamento; en cours de: em processo de|o;f1s;n;n;n
+cours|aula, curso; preço, cotação; eu/você corro; au cours de: durante; en cours: em andamento; en cours de: em vias de|o;o;f1s;n;n;n
 instant|instante|o
 tour|volta, vez (s.m.); torre (s.f.)|o;o
 retourner|voltar, retornar|v
 bientôt|logo, em breve; à bientôt: até logo|o;n
-peine|pena, tristeza; à peine: mal, quase não|o;n
+peine|dificuldade, esforço; tristeza; pena, sentença (peine de prison); à peine: mal, quase não; pas la peine: não precisa, não vale a pena|o;o;o;n;n
 moyen|meio, jeito; médio|o;o
 cinq|cinco|o
 prison|prisão, cadeia|o
@@ -572,7 +572,7 @@ ceci|isto|o
 million|milhão|o
 jeter|jogar, atirar|v
 voulu|querido, desejado|o
-sorte|tipo, espécie|o
+sorte|tipo, espécie; de la sorte: dessa maneira; faire en sorte de: providenciar, garantir que|o;n;n
 supposer|supor|v
 envoyé|enviado|o
 simple|simples|o
@@ -615,7 +615,7 @@ obtenir|conseguir, obter|v
 appris|aprendido; ensinado|o;o
 sac|bolsa, saco|o
 laisse-moi|deixa eu, me deixa|o
-cul|bunda, rabo (vulgar)|o
+cul|bunda, traseiro (vulgar)|o
 enlever|tirar, remover; sequestrar|v;v
 mien|meu (o que me pertence)|o
 changé|mudado|o
@@ -647,7 +647,7 @@ réveiller|acordar (alguém)|v
 plait|s'il vous plaît: por favor|n
 pareil|igual, parecido|o
 médecin|médico|o
-sort|destino, feitiço; ele/ela sai; ele/ela tira, tira para fora|o;f3s;f3s
+sort|destino; feitiço (jeter un sort); ele/ela sai; ele/ela tira, traz para fora|o;o;f3s;f3s
 monter|subir; subir, entrar (num veículo)|v;v
 bois|madeira, bosque; eu bebo, você bebe|o;f1s
 sinon|senão; se não|o;o
@@ -671,7 +671,7 @@ loi|lei|o
 blanc|branco|o
 libre|livre|o
 assurer|garantir, assegurar; fazer seguro de; assegurar, cuidar de; s'assurer: certificar-se; mandar bem (coloq.)|v;v;v;n;v
-coucher|deitar-se, dormir; se coucher: ir para a cama; coucher de soleil: pôr do sol|v;n;n
+coucher|deitar, dormir; se coucher: ir para a cama; coucher de soleil / coucher du soleil: pôr do sol; hora de dormir (s.)|v;n;n;o
 soeur|irmã|o
 voyage|viagem; eu viajo; ele/ela viaja|o;f1s;f3s
 messieurs|senhores|o
@@ -787,12 +787,12 @@ censé|supostamente, que deveria|o
 absolument|absolutamente|o
 normal|normal|o
 dame|senhora, dama|o
-bordel|zona, bagunça (coloq.); bordel, prostíbulo|o;o
+bordel|bagunça (vulgar); bordel|o;o
 personnel|pessoal, funcionários; pessoal (adj.)|o;o
 jurer|jurar|v
 ennemi|inimigo|o
 avion|avião|o
-lever|levantar, erguer; se lever: levantar-se|v;n
+lever|levantar, erguer; se lever: levantar-se; o levantar-se (s.); lever du jour / lever du soleil: amanhecer, nascer do sol|v;n;o;n
 signe|sinal; eu assino; ele/ela assina|o;f1s;f3s
 prince|príncipe; princesa (f.)|o;o
 intéresser|interessar|v
@@ -877,14 +877,14 @@ responsable|responsável|o
 trou|buraco|o
 sortie|saída; passeio; saída, que saiu (f.)|o;o;o
 souffrir|sofrer|v
-but|objetivo, meta|o
+but|gol, objetivo; ele/ela bebeu|o;f3s
 animal|animal|o
 souhaiter|desejar|v
 doucement|devagar, com delicadeza|o
 triste|triste|o
 arrivée|chegada; chegada, que chegou (f.)|o;o
 tue|ele/ela mata|f3s
-don|dom, talento|o
+don|dom, talento; doação (faire un don)|o;o
 mignon|fofo, bonitinho|o
 capable|capaz|o
 fais-tu|você está fazendo? (sing.)|f2s2p
@@ -904,7 +904,7 @@ rejoindre|juntar-se a, encontrar|v
 chat|gato|o
 bord|borda, beira; à bord: a bordo|o;n
 merveilleux|maravilhoso|o
-gueule|boca (de animal); ta gueule: cala a boca (vulgar)|o;n
+gueule|boca (de animal); cara, fuça (vulgar); gueule de bois: ressaca; ta gueule: cala a boca (vulgar)|o;o;n;n
 réunion|reunião|o
 tiré|puxado; atirado|o;o
 tourner|virar, girar; filmar, rodar (um filme)|v;v
@@ -923,7 +923,7 @@ test|teste|o
 prévenir|avisar|v
 sacré|sagrado; maldito, danado (antes do substantivo)|o;o
 télé|TV|o
-doux|macio, doce, suave|o
+doux|macio; gentil, suave; doce|o;o;o
 moi-même|eu mesmo|o
 debout|de pé, em pé|o
 bière|cerveja|o
@@ -951,7 +951,7 @@ course|corrida; tarefa, compra (na rua)|o;o
 répéter|repetir|v
 enfer|inferno|o
 couper|cortar|v
-pute|puta (vulgar)|o
+pute|prostituta (vulgar, ofensivo)|o
 base|base|o
 pouvez-vous|vocês podem, o senhor pode? (pl., formal)|f2s2p
 intelligent|inteligente|o
@@ -978,7 +978,7 @@ vit|ele/ela vive|f3s
 machine|máquina|o
 lieutenant|tenente|o
 caméra|câmera|o
-adresse|endereço|o
+adresse|endereço; habilidade, destreza; ele/ela dirige-se a|o;o;f3s
 tire|eu puxo, atiro; ele/ela puxa, atira|f1s;f3s
 société|sociedade; empresa|o;o
 fleur|flor|o
@@ -988,7 +988,7 @@ mérite|mérito; eu mereço; ele/ela merece|o;f1s;f3s
 pardonner|perdoar|v
 remarquer|notar, reparar|v
 fenêtre|janela|o
-connerie|besteira, merda (vulgar)|o
+connerie|besteira, bobagem (vulgar)|o
 monstre|monstro|o
 milieu|meio; ambiente, meio|o;o
 officier|oficial|o
@@ -1022,11 +1022,11 @@ découvert|descoberto; cheque especial, saldo negativo|o;o
 enfuir|s'enfuir: fugir|n
 pierre|pedra|o
 silence|silêncio|o
-voie|faixa, via, caminho|o
+voie|pista, via, caminho; (que) eu veja; (que) ele/ela veja|o;f1s;f3s
 commandant|comandante|o
 connu|(uma pessoa, um lugar) conhecido; famoso|o;o
 construire|construir|v
-allée|alameda, corredor; ida, que foi (f.)|o;o
+allée|alameda, caminho de entrada; corredor; ido (f.)|o;o;o
 peau|pele|o
 bande|bando, gangue; faixa, fita; bande dessinée: história em quadrinhos|o;o;n
 position|posição|o
@@ -1050,7 +1050,7 @@ grandir|crescer|v
 recommencer|recomeçar|v
 fatigué|cansado|o
 est-elle|ela é, está?|f3s
-prise|tomada; pegada; tomada, pega (f.)|o;o;o
+prise|tomada, captura; tomada (elétrica); pegada; tomada (f.)|o;o;o;o
 assis|sentado|o
 félicitation|parabéns, felicitação|o
 gérer|gerenciar, administrar|v
@@ -1076,7 +1076,7 @@ poursuivre|perseguir; processar; continuar|v;v;v
 ecoutez|escutem!, escute! (pl., formal)|o
 départ|partida, saída|o
 douleur|dor|o
-connard|babaca, cuzão (vulgar)|o
+connard|babaca, idiota (vulgar)|o
 morceau|pedaço|o
 note|anotação, nota; nota (escolar); conta|o;o;o
 innocent|inocente|o
@@ -1198,7 +1198,7 @@ débarrasser|livrar-se de; tirar (a mesa)|v;v
 respecter|respeitar|v
 couteau|faca|o
 avancer|avançar|v
-salope|vadia, vagabunda (vulgar)|o
+salope|insulto vulgar contra uma mulher (vulgar, ofensivo)|o
 accompagner|acompanhar|v
 peux-tu|você pode? (sing.)|f2s2p
 réalité|realidade|o
@@ -1241,7 +1241,7 @@ sexuel|sexual|o
 gâteau|bolo|o
 ha|ha|o
 contrôler|fiscalizar, verificar; controlar|v;v
-policier|policial; policial (roman policier)|o;o
+policier|policial; policial (adj.); roman policier: romance policial|o;o;n
 nerveux|nervoso|o
 crise|crise|o
 mémoire|memória (a faculdade)|o
@@ -1249,14 +1249,14 @@ marrant|engraçado, divertido|o
 nature|natureza|o
 blessure|ferimento, lesão|o
 sexy|sexy|o
-salaud|canalha, safado (vulgar)|o
+salaud|canalha, desgraçado (vulgar)|o
 double|duplo|o
 étage|andar|o
 champ|campo|o
 restaurant|restaurante|o
 île|ilha|o
 marié|casado|o
-étudiant|estudante|o
+étudiant|estudante; que estuda|o;o
 différence|diferença|o
 coupe|corte; taça, copa; eu corto; ele/ela corta|o;o;f1s;f3s
 renvoyer|mandar de volta, devolver; demitir|v;v
@@ -1273,7 +1273,7 @@ immédiatement|imediatamente|o
 finalement|no fim, afinal|o
 enfoiré|filho da puta, cuzão (vulgar)|o
 principal|principal|o
-taille|tamanho; cintura|o;o
+taille|tamanho; cintura; de taille: considerável; ele/ela corta, apara|o;o;n;f3s
 puissant|poderoso|o
 star|estrela (celebridade)|o
 conseiller|aconselhar; conselheiro|v;o
@@ -1303,14 +1303,14 @@ approcher|aproximar-se|v
 week-end|fim de semana|o
 pont|ponte|o
 sonner|tocar (campainha, telefone)|v
-bus|ônibus|o
+bus|ônibus; eu/você bebi, bebeste|o;f1s
 mériter|merecer|v
 lâcher|soltar, largar|v
 malin|esperto, astuto|o
 mariée|casada; noiva|o;o
 signal|sinal|o
 donnez-moi|deem-me, me dê (pl., formal)|o
-fiancé|noivo; noivo, comprometido; noiva, comprometida (f.)|o;o;o
+fiancé|noivo; comprometido; noiva (f.); comprometida (f.)|o;o;o;o
 dure|dura; dura (ele/ela dura, continua)|o;f3s
 utile|útil|o
 goût|gosto, sabor|o
@@ -1357,7 +1357,7 @@ lors|lors de: durante, na ocasião de|n
 dis-lui|diz para ele, diz para ela|o
 regard|olhar|o
 russe|russo|o
-employé|funcionário, empregado|o
+employé|empregado; usado, empregado|o;o
 rentré|voltado para casa|o
 terme|termo; mettre un terme à: pôr fim a|o;n
 ennuyer|entediar, chatear; s'ennuyer: entediar-se|v;n
@@ -1376,7 +1376,7 @@ proposer|sugerir, propor; oferecer|v;v
 suis-je|eu sou, estou?|f1s
 interdit|proibido|o
 étudier|estudar|v
-foutu|maldito, desgraçado (vulgar); ferrado, acabado|o;o
+foutu|maldito (vulgar); perdido, ferrado|o;o
 démon|demônio|o
 médicament|remédio|o
 commettre|cometer|v
@@ -1416,9 +1416,9 @@ joie|alegria|o
 sein|seio; au sein de: no seio de, dentro de|o;n
 shérif|xerife|o
 reposer|descansar; recolocar, pôr de volta|v;v
-élève|aluno|o
+élève|aluno; ele/ela cria, eleva; sobe, chega a (s'élever)|o;f3s;f3s
 élevé|elevado, alto; criado, educado|o;o
-failli|j'ai failli: quase (eu quase)|n
+failli|(com avoir) quase; j'ai failli: eu quase|o;n
 joindre|contatar, falar com; juntar, anexar|v;v
 étude|estudo|o
 leçon|lição|o
@@ -1435,7 +1435,7 @@ traverser|atravessar|v
 mètre|metro|o
 bref|breve; enfim, em resumo|o;o
 direct|direto; en direct: ao vivo|o;n
-assistant|assistente|o
+assistant|assistente; presente, que assiste|o;o
 sais-tu|(um fato) você sabe? (sing.)|f2s2p
 lait|leite|o
 professionnel|profissional|o
@@ -1490,7 +1490,7 @@ jardin|jardim|o
 haïr|odiar|v
 génie|gênio|o
 plage|praia|o
-cesser|cessar, parar|v
+cesser|cessar; cessez-le-feu: cessar-fogo|v;n
 fouiller|revistar, vasculhar|v
 mesure|medida; dans la mesure où: na medida em que; être en mesure de: estar em condições de; au fur et à mesure: aos poucos, à medida que|o;n;n;n
 vitesse|velocidade; marcha (do carro)|o;o
@@ -1499,7 +1499,7 @@ complet|completo, lotado|o
 remonter|subir de novo; remonter à: remontar a, datar de|v;n
 saison|estação, temporada|o
 cinéma|cinema|o
-flingue|arma, berro (coloq.)|o
+flingue|arma, pistola (gíria)|o
 folie|loucura|o
 lié|ligado|o
 vendu|vendido|o
@@ -1539,7 +1539,7 @@ adn|DNA|o
 brillant|brilhante (que brilha); brilhante, excelente|o;o
 effort|esforço|o
 propriétaire|dono, proprietário|o
-lance|eu lanço; ele/ela lança|f1s;f3s
+lance|eu lanço; ele/ela lança; lança|f1s;f3s;o
 cri|grito|o
 fermé|fechado|o
 au-dessus|acima|o
@@ -1549,7 +1549,7 @@ ranger|arrumar, guardar|v
 maire|prefeito|o
 trompe|eu engano; ele/ela engana; se tromper: enganar-se|f1s;f3s;n
 caché|escondido|o
-règle|regra; régua|o;o
+règle|regra; régua; ele/ela resolve, acerta|o;o;f3s
 mode|moda (s.f.); modo (s.m.)|o;o
 déplacer|deslocar, mudar de lugar; se déplacer: locomover-se|v;n
 file|fila; eu saio correndo; ele/ela sai correndo|o;f1s;f3s
@@ -1562,7 +1562,7 @@ violer|estuprar; violar|v;v
 jeté|jogado|o
 ombre|sombra|o
 également|também; igualmente|o;o
-mine|mina; cara, expressão|o;o
+mine|mina; aparência, cara; ele/ela mina, solapa|o;o;f3s
 particulier|particular; en particulier: em particular|o;n
 traitement|tratamento|o
 samedi|sábado|o
@@ -1634,7 +1634,7 @@ siège|assento; sede|o;o
 emploi|emprego; emploi du temps: horário|o;n
 filer|sair correndo; fiar; dar, passar (coloq.)|v;v;v
 soutenir|apoiar|v
-conduit|ele/ela dirige; duto|f3s;o
+conduit|ele/ela dirige; conduzido, levado; conduto|f3s;o;o
 social|social|o
 pur|puro|o
 fais-le|faça isso|f3s
@@ -1726,9 +1726,9 @@ observer|observar|v
 intéressé|interessado|o
 soigner|tratar, cuidar de|v
 personnage|personagem|o
-marine|marinha|o
+marine|marinha; marinho, do mar; bleu marine: azul-marinho|o;o;n
 fruit|fruta; fruits de mer: frutos do mar|o;n
-semblant|faire semblant: fingir|n
+semblant|un semblant de: uma aparência de; faire semblant: fingir|n;n
 physique|físico; física|o;o
 augmenter|aumentar|v
 rêver|sonhar|v
@@ -1777,7 +1777,7 @@ appuyer|apertar; apoiar-se|v;v
 violence|violência|o
 identifier|identificar|v
 éteindre|desligar, apagar|v
-différents|diversos, vários|o
+différents|vários; diferentes|o;o
 cloche|sino|o
 terroriste|terrorista|o
 enfermé|trancado|o
@@ -1827,7 +1827,7 @@ enlevé|retirado; sequestrado|o;o
 arracher|arrancar|v
 choc|choque|o
 rumeur|boato|o
-nana|mina, garota (coloq.)|o
+nana|garota, mina (coloq.)|o
 gorge|garganta|o
 geste|gesto|o
 démarrer|dar partida, arrancar|v
@@ -1857,7 +1857,7 @@ analyse|análise|o
 lac|lago|o
 barre|barra; leme; barre-toi: some daqui, vaza; se barrer: vazar, cair fora|o;o;n;n
 réfléchi|pensado|o
-couille|saco, bola (testículo) (vulgar)|o
+couille|bolas, testículo (vulgar)|o
 facilement|facilmente|o
 réseau|rede|o
 technique|técnica; técnico|o;o
@@ -1881,7 +1881,7 @@ repos|descanso|o
 secrétaire|secretário|o
 alerte|alerta|o
 participer|participar|v
-débile|débil, ridículo|o
+débile|idiota, patético (coloq.)|o
 reconnu|reconhecido|o
 frontière|fronteira|o
 arrestation|prisão, detenção|o
@@ -1892,7 +1892,7 @@ désir|desejo|o
 échec|fracasso|o
 spéciale|especial|o
 document|documento|o
-tâche|tarefa|o
+tâche|tarefa; ele/ela tenta|o;f3s
 chasser|caçar; expulsar, espantar|v;v
 fer|ferro|o
 navire|navio|o
@@ -1933,7 +1933,7 @@ bénir|abençoar|v
 discussion|discussão, conversa|o
 pub|propaganda, anúncio; pub, bar|o;o
 mortel|mortal, letal; mortal|o;o
-gare|estação de trem|o
+gare|estação de trem; gare à: cuidado com|o;n
 réaction|reação|o
 ambulance|ambulância|o
 château|castelo|o
@@ -1947,7 +1947,7 @@ possibilité|possibilidade|o
 doc|doutor (abrev. coloq. de docteur)|o
 courageux|corajoso|o
 blond|loiro|o
-plaque|placa; distintivo|o;o
+plaque|placa; distintivo; plaque tournante: centro, ponto de ligação; à côté de la plaque: errar o alvo (coloq.)|o;o;n;n
 sain|saudável|o
 couloir|corredor|o
 cesse|sans cesse: sem parar; ele/ela para|n;f3s
@@ -1960,7 +1960,7 @@ liquide|líquido; dinheiro vivo|o;o
 péché|pecado|o
 option|opção|o
 enterré|enterrado|o
-souffle|fôlego, sopro|o
+souffle|fôlego, sopro; ele/ela sopra; sopre!|o;f3s;o
 sous-titrage|legendagem|o
 pourri|podre|o
 idéal|ideal|o
@@ -1974,7 +1974,7 @@ placé|colocado|o
 dette|dívida|o
 abruti|imbecil, idiota|o
 tenté|tentado (seduzido); tentado|o;o
-ballon|balão; bola (de futebol)|o;o
+ballon|balão; bola (de futebol, de basquete)|o;o
 copie|cópia|o
 minuit|meia-noite|o
 effacer|apagar|v
@@ -2009,7 +2009,7 @@ crâne|crânio|o
 rapprocher|aproximar; se rapprocher: aproximar-se|v;n
 masque|máscara|o
 matériel|equipamento; material|o;o
-emmerde|encheção, pepino (vulgar); eu encho o saco (vulgar); ele/ela enche o saco (vulgar)|o;f1s;f3s
+emmerde|chateação, problema (vulgar); eu enchi o saco de (alguém) (vulgar); ele/ela enche o saco de (alguém) (vulgar)|o;f1s;f3s
 quiconque|qualquer um, quem quer que|o
 otage|refém|o
 vole|eu roubo; ele/ela rouba; eu voo; ele/ela voa|f1s;f3s;f1s;f3s
@@ -2058,7 +2058,7 @@ sec|seco|o
 bye|tchau|o
 pourriez-vous|vocês poderiam, o senhor poderia? (pl., formal)|f2s2p
 essence|gasolina; essência|o;o
-bite|pau, pinto (vulgar)|o
+bite|pau, pênis (vulgar)|o
 coller|colar, grudar|v
 lendemain|o dia seguinte|o
 coach|treinador|o
@@ -2072,7 +2072,7 @@ contenir|conter|v
 ordure|lixo; canalha, escroto|o;o
 troupe|tropa; trupe|o;o
 magazine|revista|o
-tournée|rodada; turnê|o;o
+tournée|rodada; turnê; virada (f.)|o;o;o
 menacé|ameaçado|o
 chair|carne (do corpo)|o
 étape|etapa|o
@@ -2086,18 +2086,18 @@ mentionner|mencionar|v
 produire|produzir|v
 admirer|admirar|v
 forcément|necessariamente, inevitavelmente|o
-reconnaissant|grato|o
+reconnaissant|agradecido; que reconhece, que admite|o;o
 améliorer|melhorar|v
 punir|punir|v
 vive|viva; viva, animada (f.)|o;o
-foule|multidão|o
+foule|multidão; une foule de: um monte de|o;n
 ascenseur|elevador|o
 océan|oceano|o
 rouler|rolar; rodar, andar (de carro)|v;v
 volant|volante; voador (soucoupe volante)|o;o
 attaché|preso, amarrado|o
 visiter|visitar|v
-concours|concurso, competição|o
+concours|concurso, competição; ajuda, apoio|o;o
 monté|subido|o
 chou|repolho; querido, amor|o;o
 soudain|de repente; repentino|o;o
@@ -2110,7 +2110,7 @@ opportunité|oportunidade|o
 enfance|infância|o
 remonte|eu subo de novo; ele/ela sobe de novo|f1s;f3s
 prénom|nome (de batismo), primeiro nome|o
-empire|império; piora (ça empire)|o;f3s
+empire|império; ça empire: está piorando|o;n
 écran|tela|o
 tien|seu, teu (sing.)|o
 jaune|amarelo|o
@@ -2131,7 +2131,7 @@ convenir|convir, servir; combinar|v;v
 impressionnant|impressionante|o
 gaffe|gafe, mancada; faire gaffe: tomar cuidado|o;n
 italien|italiano|o
-dispute|briga, discussão|o
+dispute|discussão, briga; ele/ela discute|o;f3s
 bonbon|bala, doce|o
 diamant|diamante|o
 entretien|entrevista; manutenção|o;o
@@ -2140,11 +2140,11 @@ hiver|inverno|o
 mystère|mistério|o
 grand-chose|pas grand-chose: não muita coisa|n
 technologie|tecnologia|o
-pile|pilha, bateria; em ponto, exatamente|o;o
+pile|pilha, bateria; pilha, monte; exatamente, em ponto|o;o;o
 rembourser|reembolsar, pagar de volta|v
 poubelle|lixeira|o
 provoquer|causar, provocar; provocar (alguém)|v;v
-tenue|roupa, traje|o
+tenue|roupa, traje; mantida (f.); modos, comportamento|o;o;o
 patte|pata|o
 interrompre|interromper|v
 poule|galinha|o
@@ -2161,7 +2161,7 @@ furieux|furioso|o
 classique|clássico|o
 démissionner|pedir demissão|v
 emprunter|pegar emprestado; pegar (um caminho)|v;v
-gagnant|vencedor|o
+gagnant|vencedor; que vence|o;o
 gant|luva|o
 communauté|comunidade|o
 réglé|resolvido, acertado|o
@@ -2182,7 +2182,7 @@ séance|sessão; sessão (de cinema)|o;o
 positif|positivo|o
 surface|superfície|o
 récompense|recompensa|o
-comte|conde; condessa (f.)|o;o
+comte|conde (título)|o
 plante|planta|o
 dis-tu|você diz? (sing.)|f2s2p
 vierge|virgem; em branco|o;o
@@ -2217,7 +2217,7 @@ ménage|faxina, tarefas domésticas; casal, lar|o;o
 promener|passear com (um cachorro); se promener: passear|v;n
 rêvé|sonhado|o
 enquêter|investigar|v
-rencard|encontro (coloq.)|o
+rencard|encontro marcado (coloq.)|o
 informer|informar|v
 enregistrement|gravação|o
 réduire|reduzir|v
@@ -2299,8 +2299,8 @@ au-delà|além|o
 endormi|adormecido|o
 prévenu|avisado; réu|o;o
 regardez-moi|olhem para mim, olhe para mim (pl., formal)|o
-veille|véspera; vigília, véspera|o;o
-taré|pirado, doido; pirada, doida (f.)|o;o
+veille|dia anterior; véspera; ele/ela vela, vigia|o;o;f3s
+taré|doido, pirado (coloq.); doida, pirada (f.) (coloq.)|o;o
 haine|ódio|o
 ficher|fichar, cadastrar; s'en ficher: não estar nem aí|v;n
 milliard|bilhão|o
@@ -2348,7 +2348,7 @@ amant|amante|o
 traître|traidor|o
 principe|princípio|o
 lâchez-moi|me soltem, me solte (pl., formal)|o
-traite|eu trato; ele/ela trata; letra de câmbio, prestação|f1s;f3s;o
+traite|eu trato; ele/ela trata; tráfico (de pessoas)|f1s;f3s;o
 vengeance|vingança|o
 élever|criar, educar|v
 bloqué|travado, bloqueado|o
@@ -2357,7 +2357,7 @@ allons-nous|nós vamos?|f1p
 convaincu|convencido|o
 voyant|luz de alerta; que vê, vidente|o;o
 ticket|bilhete, tíquete|o
-risqué|arriscado|o
+risqué|arriscado; arriscado (que se arriscou)|o;o
 glisser|escorregar, deslizar|v
 plonger|mergulhar|v
 domaine|área, campo; propriedade, fazenda|o;o
@@ -2366,7 +2366,7 @@ lion|leão|o
 relever|levantar, recolher; anotar, observar|v;v
 flipper|surtar, pirar; fliperama|v;o
 appelle-moi|me liga, me chama|o
-figure|rosto; figura; figure-toi: imagina só, acredite se quiser|o;o;n
+figure|rosto; figura; cas de figure: cenário, situação; ele/ela aparece, consta; figure-toi: imagine, acredite ou não|o;o;n;f3s;n
 fidèle|fiel|o
 piger|sacar, entender (coloq.)|v
 génération|geração|o
@@ -2377,7 +2377,7 @@ oeuvre|obra; mettre en oeuvre: pôr em prática, implementar|o;n
 âgé|idoso, velho|o
 passager|passageiro|o
 cercle|círculo|o
-portée|alcance; ninhada|o;o
+portée|alcance; ninhada; carregada (f.)|o;o;o
 jumeau|gêmeo|o
 rang|fileira, posição|o
 palais|palácio|o
@@ -2395,7 +2395,7 @@ connait|(uma pessoa, um lugar) ele/ela conhece|f3s
 proposé|sugerido, proposto|o
 couvert|coberto; talheres|o;o
 digne|digno|o
-bouffe|comida, rango (coloq.)|o
+bouffe|comida, rango (coloq.); ele/ela come, devora (coloq.)|o;f3s
 vingt|vinte|o
 surprendre|surpreender|v
 noble|nobre|o
@@ -2412,7 +2412,7 @@ monnaie|troco; moeda|o;o
 tarte|torta|o
 vilain|levado, malcriado; feio|o;o
 piano|piano|o
-excitant|empolgante|o
+excitant|empolgante; que excita, que estimula|o;o
 signature|assinatura|o
 boiter|mancar|v
 nucléaire|nuclear|o
@@ -2425,7 +2425,7 @@ davantage|mais|o
 matière|matéria, disciplina; material|o;o
 audience|audiência (no tribunal); público, audiência|o;o
 louer|alugar; louvar, elogiar|v;v
-balance|balança|o
+balance|balança; balança (comercial, de pagamentos); eu balanço, eu jogo fora; ele/ela balança, joga fora|o;o;f1s;f3s
 auteur|autor|o
 quant|quant à: quanto a|n
 intervenir|intervir|v
@@ -2479,7 +2479,7 @@ fumée|fumaça|o
 lève-toi|levanta|o
 poussé|empurrado|o
 péter|peidar; arrebentar, quebrar|v;v
-boucle|laço, volta; cacho; boucle-la: cala a boca|o;o;n
+boucle|laço, volta; cacho; fivela; boucle-la: cala a boca|o;o;o;n
 précieux|precioso|o
 poison|veneno|o
 poussière|poeira|o
@@ -2618,7 +2618,7 @@ ivre|bêbado|o
 tissu|tecido (pano); tecido (do corpo)|o;o
 poumon|pulmão|o
 actuel|atual|o
-fixer|fixar; encarar, olhar fixo|v;v
+fixer|fixar (uma data, um preço); prender, afixar; encarar|v;v;v
 sourd|surdo|o
 instruction|instrução|o
 manuel|manual (adj.); livro didático|o;o
@@ -2660,7 +2660,7 @@ dessiner|desenhar|v
 transporter|transportar|v
 reparler|voltar a falar de|v
 bienvenu|bem-vindo (adj.; soyez le bienvenu)|o
-garce|vaca, megera (vulgar)|o
+garce|insulto contra uma mulher (ofensivo)|o
 était-ce|era isso?|f3s
 charme|charme|o
 junior|júnior|o
@@ -2691,7 +2691,7 @@ chanteur|cantor|o
 national|nacional|o
 trafic|trânsito; tráfico|o;o
 compétition|competição|o
-donnée|dado|o
+donnée|dado, informação; dada (f.)|o;o
 batterie|bateria (elétrica); bateria (instrumento)|o;o
 adaptation|adaptação|o
 craquer|estalar, rachar; ceder, não resistir|v;v
@@ -2752,7 +2752,7 @@ masse|massa, volume|o
 eue|tida|f3s
 absent|ausente|o
 sous-sol|porão, subsolo|o
-baise|eu fodo (vulgar); ele/ela fode (vulgar)|f1s;f3s
+baise|eu transo (vulgar); ele/ela transa (vulgar)|f1s;f3s
 poudre|pó|o
 élu|eleito|o
 canard|pato|o
@@ -2769,7 +2769,7 @@ ouah|uau; au-au (cachorro)|o;o
 remède|remédio|o
 piquer|picar; roubar, afanar (coloq.)|v;v
 déterminer|determinar|v
-remise|desconto; galpão, depósito|o;o
+remise|desconto; galpão; entrega (remise des prix, des clés); entregue, recolocada (f.); remise en question / remise en cause: questionamento|o;o;o;o;n
 fréquenter|frequentar, andar com|v
 patrouille|patrulha|o
 religion|religião|o
@@ -2812,7 +2812,7 @@ ministère|ministério|o
 interview|entrevista|o
 accueil|acolhida, recepção|o
 habituel|habitual|o
-taule|xadrez, cana (coloq.)|o
+taule|cadeia, xadrez (gíria)|o
 collection|coleção|o
 sacrifier|sacrificar|v
 commerce|comércio; loja, negócio|o;o
@@ -2830,7 +2830,7 @@ foie|fígado|o
 stylo|caneta|o
 clef|chave|o
 plastique|plástico|o
-partant|disposto, topa|o
+partant|disposto, topando; que parte, saindo; en partant de: partindo de|o;o;n
 lecture|leitura|o
 exécution|execução|o
 conçu|projetado, concebido|o
@@ -2887,7 +2887,7 @@ cimetière|cemitério|o
 rage|raiva, fúria|o
 déchirer|rasgar|v
 amiral|almirante|o
-prime|bônus, prêmio|o
+prime|bônus; prêmio (de seguro); recompensa|o;o;o
 poème|poema|o
 exposé|exposto; apresentação, exposição|o;o
 manche|manga (s.f.); cabo (s.m.)|o;o
@@ -2908,7 +2908,7 @@ merveille|maravilha|o
 envisager|considerar, cogitar|v
 ruiné|arruinado|o
 veine|veia|o
-salopard|canalha, safado|o
+salopard|desgraçado, canalha (vulgar)|o
 repasser|passar de novo; passar (roupa)|v;v
 conclusion|conclusão|o
 vider|esvaziar|v
@@ -2920,7 +2920,7 @@ fabrique|fábrica; eu fabrico; ele/ela fabrica|o;f1s;f3s
 rejoint|juntado, reencontrado|o
 taisez-vous|calem-se, fique quieto (pl., formal)|o
 dépêche|despacho, telegrama; depressa!|o;o
-parer|evitar, aparar (um golpe)|v
+parer|aparar, desviar; enfeitar, adornar; precaver-se contra, lidar com (parer à)|v;v;v
 bougie|vela|o
 solitaire|solitário (que se sente só); solitário|o;o
 interrogatoire|interrogatório|o
@@ -2937,7 +2937,7 @@ retiré|retirado|o
 quart|quarto (a quarta parte)|o
 électricité|eletricidade|o
 câlin|carinho, chamego|o
-comporter|se comporter: comportar-se|n
+comporter|incluir, compreender; se comporter: comportar-se|v;n
 guider|guiar|v
 gênant|constrangedor, incômodo|o
 repris|retomado|o
@@ -2955,7 +2955,7 @@ accent|sotaque|o
 muscle|músculo|o
 racheter|comprar de volta; redimir|v;v
 peser|pesar|v
-impôt|imposto|o
+impôt|imposto (direto, sobre renda ou propriedade)|o
 basé|baseado|o
 loué|alugado; louvado, elogiado|o;o
 anonyme|anônimo|o
@@ -2986,7 +2986,7 @@ culpabilité|culpa|o
 envoler|s'envoler: levantar voo, voar|n
 mannequin|modelo (de moda); manequim|o;o
 tandis|tandis que: enquanto|n
-volée|voo, revoada; roubada (f.)|o;o
+volée|roubada (f.); voleio; revoada (de aves), lance (de escada)|o;o;o
 adapter|adaptar|v
 aïe|ai|o
 stable|estável|o
@@ -2994,7 +2994,7 @@ tigre|tigre|o
 identifié|identificado|o
 manipuler|manipular; manusear|v;v
 restant|restante|o
-buter|apagar, matar (coloq.); tropeçar|v;v
+buter|matar, apagar (gíria); tropeçar|v;v
 duc|duque|o
 timide|tímido|o
 tordu|torcido; torto|o;o
@@ -3022,7 +3022,7 @@ lot|lote; prêmio|o;o
 processus|processo|o
 menu|cardápio, menu|o
 boucher|açougueiro; tapar, entupir|o;v
-dessert|sobremesa|o
+dessert|sobremesa; ele/ela/isso prejudica|o;f3s
 affirmer|afirmar|v
 chaussette|meia|o
 intelligence|inteligência|o
@@ -3068,7 +3068,7 @@ cadre|moldura; executivo; ambiente, contexto|o;o;o
 regret|arrependimento|o
 scandale|escândalo|o
 mélange|mistura|o
-centrale|usina|o
+centrale|central (f.); usina de energia|o;o
 enseigne|placa, letreiro; eu ensino; ele/ela ensina|o;f1s;f3s
 familier|familiar|o
 brigade|brigada, esquadrão|o
@@ -3099,7 +3099,7 @@ harceler|assediar|v
 soupçonner|suspeitar|v
 badge|crachá|o
 coordonner|coordenar|v
-représentant|representante|o
+représentant|representante; que representa|o;o
 défoncé|arrebentado; chapado|o;o
 publicité|publicidade|o
 vais-je|eu vou?|f1s
@@ -3134,7 +3134,7 @@ traverse|eu atravesso; ele/ela atravessa|f1s;f3s
 adversaire|adversário|o
 réalisateur|diretor (de cinema)|o
 laissez-nous|deixem-nos, deixe-nos (pl., formal)|o
-renseigner|informar, orientar|v
+renseigner|informar, orientar; se renseigner: informar-se, pedir informações|v;n
 connaissez-vous|(uma pessoa, um lugar) vocês conhecem, o senhor conhece? (pl., formal)|f2s2p
 four|forno|o
 musical|musical|o
@@ -3164,16 +3164,16 @@ possession|posse|o
 détecter|detectar|v
 cogner|bater, dar pancada|v
 chimique|químico|o
-nommer|nomear|v
+nommer|nomear, chamar; designar|v;v
 chagrin|tristeza, desgosto|o
 population|população|o
 immobilier|imobiliário|o
 ordonné|ordenado; arrumado, organizado|o;o
 sincèrement|sinceramente|o
 préoccuper|preocupar|v
-enfoncer|enfiar, arrombar|v
+enfoncer|enfiar, cravar; arrombar (uma porta)|v;v
 révérend|reverendo|o
-bagnole|carro, carango (coloq.)|o
+bagnole|carro (coloq.)|o
 sirène|sirene; sereia|o;o
 confus|confuso; sem graça, envergonhado|o;o
 noté|anotado|o
@@ -3253,7 +3253,7 @@ rein|rim|o
 effondrer|s'effondrer: desabar, desmoronar|n
 résolu|resolvido; determinado, decidido|o;o
 pétrole|petróleo|o
-enveloppe|envelope|o
+enveloppe|envelope; verba (orçamento, de recursos); ele/ela/isso envolve, cobre|o;o;f3s
 traduire|traduzir|v
 alpha|alfa|o
 allonger|alongar, esticar; s'allonger: deitar-se|v;n
@@ -3273,21 +3273,21 @@ supprimer|apagar, eliminar|v
 comparer|comparar|v
 circuit|circuito|o
 inhabituel|incomum|o
-planque|esconderijo|o
+planque|esconderijo; moleza, emprego tranquilo (coloq.)|o;o
 nan|não, nem|o
 saleté|sujeira|o
 enlèvement|sequestro, rapto; remoção|o;o
-assumer|assumir|v
+assumer|assumir, aceitar, admitir|v
 funérailles|funeral (formal, de Estado ou solene)|o
 plume|pena; caneta (de pena)|o;o
 légitime|legítimo|o
 chaos|caos|o
 spatial|espacial|o
-bouleversé|abalado, transtornado|o
+bouleversé|devastado, abalado; virado de cabeça para baixo, transtornado|o;o
 relâcher|soltar, libertar|v
 résistance|resistência|o
 resto|restaurante (abrev. coloq.)|o
-perdant|perdedor|o
+perdant|perdedor; que perde|o;o
 effectivement|de fato, isso mesmo|o
 dernièrement|ultimamente|o
 diffuser|transmitir|v
@@ -3305,7 +3305,7 @@ anéantir|aniquilar|v
 marchand|comerciante, mercador|o
 vitre|vidro (de janela)|o
 secondaire|secundário|o
-conte|conto|o
+conte|conto, história; ele/ela conta, relata|o;f3s
 juillet|julho|o
 déchiré|rasgado|o
 va-t-on|nós vamos?|f1p
@@ -3358,14 +3358,14 @@ brise|brisa; eu quebro; ele/ela quebra|o;f1s;f3s
 saucisse|salsicha|o
 torturer|torturar|v
 sécher|secar; matar (aula)|v;v
-fixe|fixo; eu fixo; ele/ela fixa|o;f1s;f3s
+fixe|fixo; eu fixo, eu encaro; ele/ela fixa, encara|o;f1s;f3s
 habillé|vestido|o
 déborder|transbordar|v
 infiltrer|infiltrar|v
 revanche|revanche; en revanche: por outro lado|o;n
 rarement|raramente|o
 préparez-vous|preparem-se, prepare-se (pl., formal)|o
-affiche|cartaz|o
+affiche|cartaz; ele/ela/isso exibe, mostra|o;f3s
 pipe|cachimbo|o
 contrarié|chateado, contrariado|o
 luxe|luxo|o
@@ -3389,15 +3389,15 @@ munition|munição|o
 vodka|vodca|o
 compétence|competência, habilidade|o
 entraîneur|treinador|o
-destinée|destino|o
+destinée|destinada (f.); destino|o;o
 papillon|borboleta|o
 talon|calcanhar, salto|o
 cuir|couro|o
 gêné|constrangido, sem graça|o
 ancêtre|antepassado|o
-balade|passeio|o
+balade|passeio, volta; ele/ela passeia, anda por aí|o;f3s
 fillette|menininha|o
-rate|baço; eu erro, perco; ele/ela erra, perde|o;f1s;f3s
+rate|eu erro; ele/ela erra; baço|f1s;f3s;o
 maths|matemática|o
 vital|vital|o
 inscrit|inscrito, matriculado; escrito|o;o
@@ -3405,7 +3405,7 @@ paysan|camponês|o
 interdire|proibir|v
 deuil|luto|o
 occupe-toi|occupe-toi de: cuide de|n
-opposé|oposto|o
+opposé|oposto; contrário, contra|o;o
 malentendu|mal-entendido|o
 excellence|excelência|o
 travailleur|trabalhador (pessoa); trabalhador, esforçado|o;o
@@ -3419,7 +3419,7 @@ accro|viciado|o
 judiciaire|judicial|o
 poignet|pulso|o
 mâle|macho|o
-merder|fazer merda, estragar (vulgar)|v
+merder|dar merda, fracassar (vulgar)|v
 héritier|herdeiro|o
 marquer|marcar; marcar (gol, ponto)|v;v
 navette|ônibus de translado, transporte|o
@@ -3437,8 +3437,8 @@ fois-ci|cette fois-ci: desta vez|n
 nièce|sobrinha|o
 trente|trinta|o
 toile|tela; teia|o;o
-blé|trigo; grana|o;o
-usage|uso, costume|o
+blé|trigo; grana (coloq.)|o;o
+usage|uso; costume, prática|o;o
 violet|roxo, violeta|o
 tragique|trágico|o
 biologique|biológico|o
@@ -3447,13 +3447,13 @@ souhait|desejo|o
 bidon|galão, lata; falso, de mentira|o;o
 pensant|pensando|o
 rituel|ritual|o
-canal|canal|o
+canal|canal, calha; canal (via navegável)|o;o
 acide|ácido|o
 menotte|algema|o
 pension|pensão (hospedagem); pensão, aposentadoria|o;o
 cuisinier|cozinheiro|o
 suspendu|suspenso, pendurado|o
-crève|eu morro; ele/ela morre; furado|f1s;f3s;o
+crève|eu morro (coloq.); ele/ela morre (coloq.); estourou|f1s;f3s;o
 routine|rotina|o
 favori|favorito|o
 repousser|empurrar, repelir; adiar|v;v
@@ -3462,7 +3462,7 @@ machin|troço, coisa|o
 dalle|laje; que dalle: nada, porra nenhuma|o;n
 cigare|charuto|o
 amusez-vous|divirtam-se|o
-estime|estima|o
+estime|estima; eu considero, eu calculo; ele/ela considera, calcula|o;f1s;f3s
 vain|vão, inútil|o
 filé|fiado; saído correndo|o;o
 tactique|tática; tático|o;o
@@ -3535,7 +3535,7 @@ alcoolique|alcoólatra|o
 approuver|aprovar|v
 comparé|comparado|o
 circulation|trânsito|o
-demeure|residência, morada (formal)|o
+demeure|residência, morada (formal); eu permaneço, eu moro; ele/ela/isso permanece, mora|o;f1s;f3s
 fermier|fazendeiro|o
 gym|academia, educação física (abrev. coloq.)|o
 lancement|lançamento|o
@@ -3615,7 +3615,7 @@ flatter|lisonjear, bajular|v
 débuter|começar, estrear|v
 différemment|de modo diferente|o
 agressif|agressivo|o
-contenu|conteúdo|o
+contenu|conteúdo; contido, reprimido|o;o
 description|descrição|o
 escroc|vigarista|o
 coupure|corte, talho; queda de energia|o;o
@@ -3637,7 +3637,7 @@ fatigue|cansaço|o
 investissement|investimento|o
 plafond|teto|o
 noter|anotar; dar nota|v;v
-chiant|chato, um saco (vulgar)|o
+chiant|chato, irritante (vulgar)|o
 moustache|bigode|o
 soudainement|de repente|o
 engin|aparelho, máquina|o
@@ -3657,7 +3657,7 @@ célébrité|fama; celebridade|o;o
 ligue|liga|o
 perle|pérola|o
 détenir|deter, manter|v
-pince|alicate; pinça, grampo|o;o
+pince|alicate; grampo; garra, pinça|o;o;o
 bénédiction|bênção|o
 écrasé|esmagado, atropelado|o
 soupçon|suspeita|o
@@ -3667,12 +3667,12 @@ intimité|privacidade|o
 baigner|banhar|v
 marteau|martelo|o
 surmonter|superar|v
-fauché|duro, liso (sem dinheiro)|o
+fauché|duro, sem grana; atropelado, derrubado|o;o
 connaitre|conhecer|v
 solaire|solar|o
 dimension|dimensão|o
 assassinat|assassinato|o
-laid|feio (formal)|o
+laid|feio, desagradável de ver|o
 avait-il|ele tinha?|f3s
 soir-là|ce soir-là: naquela noite|n
 laser|laser|o
@@ -3681,7 +3681,7 @@ infecté|infectado|o
 pourrais-tu|você poderia? (sing.)|f2s2p
 barrière|barreira|o
 colonie|colônia|o
-aperçu|vislumbre, visão geral|o
+aperçu|olhada, visão geral; visto, notado|o;o
 détacher|soltar, desamarrar|v
 parles-tu|você fala? (sing.)|f2s2p
 achat|compra|o
@@ -3714,7 +3714,7 @@ refuge|refúgio, abrigo|o
 dérouler|se dérouler: acontecer, desenrolar-se|n
 filet|rede|o
 par-dessus|por cima|o
-qualifié|qualificado|o
+qualifié|qualificado; qualificado, chamado|o;o
 recruter|recrutar|v
 aspect|aspecto|o
 branché|na moda; ligado (na tomada)|o;o
@@ -3729,12 +3729,12 @@ déplacé|deslocado; inadequado, fora de lugar|o;o
 gaspiller|desperdiçar|v
 mets-toi|coloque-se, fique|o
 osé|ousado (verbo); ousado, atrevido|o;o
-surprenant|surpreendente|o
+surprenant|surpreendente; que flagra, que surpreende (alguém)|o;o
 passez-moi|passem-me, me passe (pl., formal)|o
 profondeur|profundidade|o
 formulaire|formulário|o
 novembre|novembro|o
-combattant|combatente|o
+combattant|combatente; que combate|o;o
 prends-le|pega isso|o
 renverser|derrubar; virar, capotar|v;v
 chantier|canteiro de obras|o
@@ -3751,7 +3751,7 @@ touriste|turista|o
 allant|indo|o
 mater|secar, comer com os olhos (coloq.); domar, subjugar|v;v
 fringues|roupas, trapos (coloq.)|o
-batte|taco (de beisebol, críquete)|o
+batte|taco (de beisebol, de críquete); (que) eu lute, eu bata; (que) ele/ela lute, bata|o;f1s;f3s
 clou|prego; ponto alto|o;o
 tennis|tênis|o
 brique|tijolo|o
@@ -3849,7 +3849,7 @@ carnet|caderninho; talão (de bilhetes)|o;o
 portail|portão, portal|o
 rajouter|acrescentar mais|v
 accroche-toi|aguenta firme|o
-grille|grade, portão|o
+grille|grade, grelha; grade, barras|o;o
 servant|servindo|o
 sous-vêtement|roupa íntima|o
 volontiers|com prazer|o
@@ -3861,9 +3861,9 @@ radiation|radiação|o
 grenouille|sapo, rã|o
 porteur|portador, carregador|o
 distribuer|distribuir|v
-montant|montante, valor|o
+montant|valor, montante; que sobe, ascendente|o;o
 serre|estufa; eu aperto; ele/ela aperta|o;f1s;f3s
-embarrassant|constrangedor|o
+embarrassant|constrangedor; incômodo, que atrapalha|o;o
 barrage|barragem, represa; barreira policial|o;o
 cow-boy|caubói|o
 insulter|insultar|v
@@ -3886,12 +3886,12 @@ dizaine|cerca de dez, dezena|o
 fondre|derreter|v
 vice-président|vice-presidente|o
 développement|desenvolvimento|o
-montée|subida|o
+montée|subida, ascensão; subida (f.)|o;o
 pénétrer|penetrar, entrar|v
 pourboire|gorjeta|o
 entraîné|treinado; arrastado|o;o
-jetée|píer, molhe|o
-loge|camarote; portaria, loja|o;o
+jetée|jogada (f.); quebra-mar, molhe|o;o
+loge|camarote (de teatro); cabana; eu hospedo, eu fico; ele/ela/isso hospeda, fica|o;o;f1s;f3s
 humilier|humilhar|v
 tomate|tomate|o
 cinquième|quinto|o
@@ -3924,7 +3924,7 @@ poésie|poesia|o
 endurer|suportar|v
 sauvetage|resgate|o
 martial|marcial|o
-pourvoir|prover, preencher (um cargo)|v
+pourvoir|prover, equipar (com); cuidar de, providenciar (pourvoir à); preencher (um cargo)|v;v;v
 gentiment|gentilmente|o
 orchestre|orquestra|o
 soumettre|submeter|v
@@ -3960,7 +3960,7 @@ bingo|bingo|o
 honorable|honrado, honroso|o
 relier|ligar, conectar|v
 nous-mêmes|nós mesmos|o
-faille|falha|o
+faille|falha, defeito; (que) seja preciso|o;f3s
 identique|idêntico|o
 peint|pintado|o
 relecture|revisão|o
@@ -3976,11 +3976,11 @@ inspiration|inspiração|o
 eux-mêmes|eles mesmos|o
 nichon|peito, teta (vulgar)|o
 révélé|revelado|o
-meuf|mulher, mina (gíria)|o
+meuf|mulher, mina (coloq.)|o
 fun|divertido, legal|o
 cocaïne|cocaína|o
 relais|revezamento, retransmissor|o
-retenue|detenção (castigo escolar); comedimento, contenção|o;o
+retenue|detenção (na escola); contenção; desconto (do salário); retida, guardada, selecionada (f.)|o;o;o;o
 villa|mansão, casa de campo|o
 vainqueur|vencedor|o
 intuition|intuição|o
@@ -3989,7 +3989,7 @@ monseigneur|monsenhor, meu senhor|o
 capter|captar, pegar (sinal)|v
 bien-aimé|amado, bem-amado|o
 perturbé|perturbado|o
-came|droga, bagulho (gíria)|o
+came|droga, maconha (gíria)|o
 récolte|colheita|o
 boucler|afivelar; concluir, fechar|v;v
 certes|é verdade que, certamente|o
@@ -4024,7 +4024,7 @@ fatal|fatal|o
 généralement|geralmente|o
 barreau|barra (de jaula); a Ordem dos Advogados|o;o
 vieillir|envelhecer|v
-brun|castanho, moreno|o
+brun|marrom; de cabelo escuro|o;o
 divorcé|divorciado|o
 pratiquer|praticar|v
 poster|postar, pôr no correio|v
@@ -4055,13 +4055,13 @@ politicien|político|o
 cuisse|coxa|o
 incroyablement|incrivelmente|o
 grange|celeiro|o
-promo|promoção|o
+promo|oferta especial; turma, ano (de estudantes)|o;o
 appât|isca|o
 conserver|conservar, guardar|v
 enfreindre|infringir, violar|v
 spécialement|especialmente|o
 prêté|emprestado|o
-trait|traço|o
+trait|linha, traço; característica, traço|o;o
 marron|marrom; castanha|o;o
 prenant|tomando|o
 championnat|campeonato|o
@@ -4090,20 +4090,20 @@ primaire|primário|o
 tolérer|tolerar|v
 jazz|jazz|o
 chiot|filhote de cachorro|o
-défilé|desfile; desfiladeiro|o;o
+défilé|desfile, procissão; desfiladeiro; desfilado|o;o;o
 inscrire|anotar, inscrever; matricular|v;v
 largué|largado, dispensado|o
 psychologique|psicológico|o
 peut-etre|talvez|o
 relevé|recolhido; leitura (de medidor), extrato|o;o
 précaution|precaução|o
-piqûre|injeção, picada|o
+piqûre|injeção; picada, mordida|o;o
 certificat|certificado|o
 âne|burro, jumento|o
 gangster|gângster|o
 barman|barman|o
 crayon|lápis|o
-merdique|uma merda, porcaria (vulgar)|o
+merdique|uma merda, péssimo (vulgar)|o
 minuscule|minúsculo|o
 nettoyage|limpeza|o
 boxe|boxe|o
@@ -4115,7 +4115,7 @@ fardeau|fardo|o
 balancé|balançado; jogado|o;o
 ci|este (em celui-ci, ce…-ci)|o
 concierge|zelador, porteiro|o
-dérangé|perturbado, desequilibrado|o
+dérangé|perturbado, incomodado; transtornado, desequilibrado|o;o
 district|distrito|o
 coiffure|penteado|o
 hypothèse|hipótese|o
@@ -4156,7 +4156,7 @@ réservoir|tanque, reservatório|o
 tonnerre|trovão|o
 parrain|padrinho|o
 séquence|sequência|o
-donnez-lui|deem a ele, dê a ele (pl., formal)|o
+donnez-lui|deem a ele, deem a ela (plural, formal)|o
 script|roteiro|o
 trempé|encharcado|o
 définir|definir|v
@@ -4197,20 +4197,20 @@ physiquement|fisicamente|o
 retomber|cair de novo|v
 étiquette|etiqueta|o
 évolution|evolução|o
-joint|anexado; juntado|o;o
+joint|anexo; unido; baseado (de maconha)|o;o;o
 crochet|gancho|o
 grippe|gripe|o
 satisfaire|satisfazer|v
 canne|bengala|o
 détresse|aflição|o
 effacé|apagado|o
-exemplaire|exemplar|o
+exemplaire|exemplar (de um livro), número; exemplar|o;o
 messager|mensageiro|o
 applaudissement|aplauso|o
 guéri|curado|o
 générateur|gerador|o
 atout|trunfo|o
-fumier|esterco; canalha (vulgar)|o;o
+fumier|esterco; desgraçado (vulgar)|o;o
 soi-disant|suposto, pretenso; supostamente|o;o
 arrogant|arrogante|o
 assommer|nocautear, apagar|v
@@ -4243,7 +4243,7 @@ hockey|hóquei|o
 progresser|progredir|v
 richesse|riqueza|o
 supermarché|supermercado|o
-borne|marco, terminal|o
+borne|marco, poste de limite; terminal, quiosque; dépasser les bornes: passar dos limites|o;o;n
 colocataire|colega de quarto, quem divide o apartamento|o
 évoquer|mencionar, evocar|v
 contaminer|contaminar|v
@@ -4259,10 +4259,10 @@ premièrement|em primeiro lugar|o
 diabolique|diabólico|o
 cheminée|lareira, chaminé|o
 sauveur|salvador|o
-gilet|colete; colete, camiseta|o;o
+gilet|cardigã; colete; colete (colete à prova de balas, colete salva-vidas)|o;o;o
 frein|freio|o
 calibre|calibre|o
-paperasse|papelada|o
+paperasse|papelada, burocracia|o
 rentrant|voltando para casa|o
 municipal|municipal|o
 institut|instituto|o
@@ -4281,7 +4281,7 @@ atterrissage|pouso, aterrissagem|o
 hache|machado|o
 imiter|imitar|v
 jusque-là|até então; até lá|o;o
-botte|bota; maço, feixe|o;o
+botte|bota; maço; à la botte de: sob o domínio de|o;o;n
 camionnette|van, caminhonete|o
 pelle|pá|o
 atroce|atroz, horrível|o
@@ -4297,7 +4297,7 @@ tranquillement|tranquilamente|o
 ivrogne|bêbado, beberrão|o
 assassiner|assassinar|v
 halte|parada, alto|o
-aimant|ímã|o
+aimant|ímã; carinhoso|o;o
 deux-là|ces deux-là: aqueles dois|n
 foudre|raio|o
 modeste|modesto|o
@@ -4332,7 +4332,7 @@ capital|capital (dinheiro); crucial, capital|o;o
 pére|pai|o
 casquette|boné|o
 brûlure|queimadura|o
-levée|coleta; levantamento, suspensão|o;o
+levée|coleta; levantamento; levantada (f.)|o;o;o
 valable|válido|o
 anomalie|anomalia|o
 dispositif|dispositivo, sistema|o
@@ -4356,7 +4356,7 @@ hétéro|hétero|o
 inattendu|inesperado|o
 passionné|apaixonado|o
 rançon|resgate|o
-clandestin|clandestino|o
+clandestin|clandestino, secreto; ilegal (de imigrante, trabalhador)|o;o
 agité|agitado, inquieto|o
 prétexte|pretexto, desculpa|o
 crevette|camarão|o
@@ -4375,8 +4375,8 @@ exercer|exercer; praticar|v;v
 logiciel|software, programa|o
 troupeau|rebanho, manada|o
 fondé|fundado; justificado|o;o
-croyant|crente, fiel|o
-foutaise|besteira, merda (vulgar)|o
+croyant|crente; que crê|o;o
+foutaise|besteira, bobagem (coloq.)|o
 sénat|senado|o
 diagnostic|diagnóstico|o
 dites-nous|digam-nos, diga-nos (pl., formal)|o
@@ -4394,7 +4394,7 @@ arc|arco (arma); arco (arquitetura)|o;o
 encaisser|receber, descontar; aguentar (um golpe)|v;v
 beignet|sonho, rosquinha|o
 céréales|cereal|o
-naze|uma porcaria, inútil (coloq.)|o
+naze|ruim, inútil (coloq.); exausto, morto de cansaço (coloq.)|o;o
 expédition|expedição; remessa, envio|o;o
 presser|apertar, espremer; se presser: apressar-se|v;n
 coréen|coreano|o
@@ -4430,7 +4430,7 @@ thérapeute|terapeuta|o
 insinuer|insinuar|v
 lecteur|leitor; aparelho (de CD, DVD)|o;o
 puzzle|quebra-cabeça|o
-raide|rígido, íngreme|o
+raide|rígido; íngreme; liso (de cabelo)|o;o;o
 vaste|vasto|o
 attirant|atraente|o
 cd|CD|o
@@ -4477,7 +4477,7 @@ rude|duro, rigoroso|o
 griffe|garra|o
 carburant|combustível|o
 comique|cômico, engraçado|o
-délivrer|entregar, emitir; libertar|v;v
+délivrer|libertar, soltar; emitir (um documento); entregar (uma mensagem)|v;v;v
 dévoiler|revelar, desvendar|v
 tapé|digitado; batido|o;o
 vaccin|vacina|o
@@ -4505,7 +4505,7 @@ pacte|pacto|o
 fumé|defumado|o
 coquin|safado, levado|o
 seau|balde|o
-grouiller|se grouiller: se mexer, andar logo|n
+grouiller|fervilhar, pulular; se grouiller: andar logo, se apressar (coloq.)|v;n
 projeter|planejar; projetar|v;v
 suicidé|suicida (vítima)|o
 animé|animado|o
@@ -4522,7 +4522,7 @@ cœurs|corações|o
 préparation|preparação|o
 siffler|assobiar|v
 noeud|nó|o
-pédale|pedal|o
+pédale|pedal; termo ofensivo para um homem gay|o;o
 ruban|fita|o
 syndrome|síndrome|o
 armoire|guarda-roupa|o
@@ -4571,13 +4571,13 @@ poussez-vous|afastem-se, chegue para lá (pl., formal)|o
 vocal|vocal|o
 énigme|enigma, charada|o
 chewing-gum|chiclete|o
-vachement|pra caramba (coloq.)|o
+vachement|muito, bem (coloq.)|o
 lessive|roupa para lavar; sabão em pó|o;o
 éternellement|eternamente|o
 fraise|morango|o
 sens-tu|você sente? (sing.)|f2s2p
 durée|duração|o
-gelée|gelatina, geleia; geada|o;o
+gelée|geleia; geada; congelada (f.)|o;o;o
 gémissement|gemido|o
 hallucination|alucinação|o
 amer|amargo|o
@@ -4600,7 +4600,7 @@ cuillère|colher|o
 faillite|falência|o
 bruyant|barulhento|o
 égalité|igualdade|o
-pognon|grana (coloq.)|o
+pognon|grana, dinheiro (coloq.)|o
 gérant|gerente|o
 répugnant|repugnante|o
 déshabiller|despir|v
@@ -4610,7 +4610,7 @@ assurez-vous|certifiquem-se, certifique-se (pl., formal)|o
 jambon|presunto|o
 honoré|honrado|o
 sacrément|pra caramba, muito|o
-gonzesse|mina, gata (coloq.)|o
+gonzesse|garota, mina (coloq.)|o
 honteux|vergonhoso|o
 aire|área|o
 ampoule|lâmpada; bolha|o;o
@@ -4651,7 +4651,7 @@ autographe|autógrafo|o
 athlète|atleta|o
 limousine|limusine|o
 trajectoire|trajetória|o
-commune|município|o
+commune|município, comuna; comum, compartilhada (f.)|o;o
 barré|riscado|o
 scellé|lacrado, selado|o
 fédération|federação|o
@@ -4664,7 +4664,7 @@ repose-toi|descansa|o
 claquer|bater (a porta)|v
 falaise|penhasco, falésia|o
 lécher|lamber|v
-acquis|adquirido|o
+acquis|adquirido; conquistas, direitos adquiridos (s.)|o;o
 bonnet|gorro|o
 étroit|estreito|o
 réservation|reserva|o
@@ -4760,7 +4760,7 @@ rédiger|redigir|v
 gin|gim|o
 vont-ils|eles vão?|f3p
 réviser|revisar, estudar para prova|v
-collant|grudento; pegajoso, grudento (pessoa)|o;o
+collant|grudento; grudento, chato; meia-calça|o;o;o
 manoir|mansão, solar|o
 transpirer|suar|v
 architecte|arquiteto|o
@@ -4785,7 +4785,7 @@ volume|volume|o
 qg|QG|o
 accroché|pendurado, preso|o
 activer|ativar|v
-dégueu|nojento (coloq.)|o
+dégueu|nojento, asqueroso (coloq.)|o
 billard|bilhar, sinuca|o
 rival|rival|o
 roche|rocha, pedra|o
@@ -4894,7 +4894,7 @@ fragment|fragmento|o
 vérification|verificação|o
 accordé|concedido|o
 consister|consistir|v
-réclame|propaganda; eu exijo, reclamo; ele/ela exige, reclama|o;f1s;f3s
+réclame|eu exijo; ele/ela exige; anúncio, propaganda (antiquado)|f1s;f3s;o
 déplacement|deslocamento, viagem|o
 préliminaire|preliminar|o
 proximité|proximidade|o
@@ -4983,7 +4983,7 @@ petit-ami|namorado|o
 saboter|sabotar|v
 tonton|titio|o
 va-t-en|vai embora|o
-vicieux|cruel, malvado; ardiloso|o;o
+vicieux|depravado, pervertido; astuto, dissimulado; cercle vicieux: círculo vicioso|o;o;n
 annuel|anual|o
 extrait|trecho, extrato|o
 reportage|reportagem|o
@@ -5113,7 +5113,7 @@ balayer|varrer|v
 opérationnel|operacional|o
 soi-même|si mesmo, por si mesmo|o
 tracer|traçar, desenhar; rastrear|v;v
-comporte|eu me comporto; ele/ela se comporta|f1s;f3s
+comporte|inclui, compreende; se comporte: ele/ela se comporta; me comporte: eu me comporto|f3s;n;n
 tambour|tambor|o
 battement|batida|o
 intégrité|integridade|o
@@ -5128,7 +5128,7 @@ crotte|cocô (de animal)|o
 curé|padre, pároco|o
 institution|instituição|o
 investi|investido|o
-maternelle|pré-escola|o
+maternelle|materna (f.); pré-escola|o;o
 ridiculiser|ridicularizar|v
 email|e-mail|o
 ingrat|ingrato; ingrato (trabalho)|o;o
@@ -5170,7 +5170,7 @@ flûte|flauta|o
 entrainement|treino|o
 flux|fluxo|o
 averti|avisado, alertado; informado, entendido|o;o
-branler|s'en branler: não estar nem aí (vulgar)|n
+branler|s'en branler: estar pouco se fodendo (vulgar)|n
 sûreté|segurança|o
 infliger|infligir|v
 schéma|diagrama, esquema|o
@@ -5188,7 +5188,7 @@ rigolo|engraçado, divertido (coloq.)|o
 regardez-vous|olhem para vocês (pl., formal)|o
 entrepreneur|empreiteiro; empreendedor|o;o
 mere|mãe|o
-distrait|distraído|o
+distrait|distraído; entretido, divertido|o;o
 livreur|entregador|o
 cure|tratamento|o
 glorieux|glorioso|o
@@ -5361,7 +5361,7 @@ enjeu|o que está em jogo|o
 gâchette|gatilho|o
 canadien|canadense|o
 minou|gatinho|o
-barrer|bloquear; riscar|v;v
+barrer|bloquear; riscar; ir embora, vazar (se barrer) (coloq.)|v;v;v
 consoler|consolar|v
 mouchard|dedo-duro|o
 occupation|ocupação|o
@@ -5369,7 +5369,7 @@ ramassé|recolhido|o
 lin|linho|o
 petit-enfant|neto|o
 crédible|crível, convincente|o
-dépense|despesa, gasto|o
+dépense|despesa; eu gasto; ele/ela gasta|o;f1s;f3s
 sang-froid|sangue-frio, calma|o
 compétent|competente|o
 escorter|escoltar|v
@@ -5404,7 +5404,7 @@ aidez-nous|ajudem-nos, ajude-nos (pl., formal)|o
 laissez-les|deixem-nos, deixe-os (pl., formal)|o
 recouvert|coberto|o
 suédois|sueco|o
-camping|camping, área de acampamento|o
+camping|local de acampamento; camping (a atividade)|o;o
 camper|acampar|v
 observé|observado|o
 contexte|contexto|o
@@ -5417,10 +5417,10 @@ consultation|consulta|o
 immatriculation|emplacamento, placa (de veículo)|o
 modifié|modificado|o
 primitif|primitivo|o
-revenant|fantasma, assombração|o
+revenant|fantasma, aparição; que volta, que retorna|o;o
 tampon|carimbo; absorvente interno|o;o
 devons-nous|nós devemos?|f1p
-pair|par, igual|o
+pair|par, igual; par (de um número); de pair: de mãos dadas (aller de pair)|o;o;n
 puant|fedorento|o
 implant|implante|o
 pet|pum, peido|o
@@ -5447,7 +5447,7 @@ rédacteur|redator, editor|o
 canyon|cânion|o
 civilisé|civilizado|o
 querelle|briga, disputa|o
-avancée|avanço|o
+avancée|avanço, progresso; adiantada, avançada (f.)|o;o
 inquiétant|preocupante|o
 servez-vous|sirvam-se, sirva-se (pl., formal)|o
 invincible|invencível|o
@@ -5504,7 +5504,7 @@ carreau|azulejo, ladrilho; vidraça|o;o
 enthousiaste|entusiasmado|o
 convenable|adequado, decente|o
 fais-toi|faça-se, fique|o
-ouf|ufa|o
+ouf|ufa; doido, maluco (gíria)|o;o
 tirée|puxada|o
 localisation|localização|o
 toutefois|todavia, no entanto (formal)|o
@@ -5590,16 +5590,16 @@ confiture|geleia|o
 mijoter|cozinhar em fogo brando; tramar, armar|v;v
 prometteur|promissor|o
 propager|propagar, espalhar|v
-demandez-lui|perguntem a ele, pergunte a ele (pl., formal)|o
+demandez-lui|peçam a ele, peçam a ela (plural, formal)|o
 jardinier|jardineiro|o
 peluche|bicho de pelúcia|o
-bouchée|bocado|o
+bouchée|bocado; qu'une bouchée: fazer algo com a maior facilidade (n'en faire qu'une bouchée); pour une bouchée de pain: por uma ninharia|o;n;n
 démasquer|desmascarar|v
 déployer|posicionar, mobilizar|v
 commode|prático, conveniente; cômoda|o;o
 chauffage|aquecimento|o
 couvent|convento|o
-merdeux|de merda (vulgar)|o
+merdeux|uma merda, porcaria (vulgar)|o
 torpille|torpedo|o
 irresponsable|irresponsável|o
 neutre|neutro|o
@@ -5607,10 +5607,10 @@ déduire|deduzir; descontar, deduzir|v;v
 diffusion|transmissão|o
 filtre|filtro|o
 nœud|nó|o
-culpabiliser|fazer sentir culpa|v
+culpabiliser|sentir-se culpado; fazer (alguém) se sentir culpado|v;v
 permanente|permanente (no cabelo)|o
 sélection|seleção|o
-lâche-le|solta ele|o
+lâche-le|solte ele, solte isso|o
 prends-en|pega um pouco|o
 caser|encaixar; arranjar casamento para|v;v
 embarrassé|constrangido, sem jeito|o
@@ -5648,7 +5648,7 @@ inacceptable|inaceitável|o
 kidnappeur|sequestrador|o
 comble|le comble: a gota d'água|n
 contagieux|contagioso|o
-sympathie|simpatia|o
+sympathie|simpatia, afeição; solidariedade, compaixão|o;o
 trêve|trégua|o
 cubain|cubano|o
 visa|visto|o
@@ -5670,7 +5670,7 @@ meute|matilha|o
 obligatoire|obrigatório|o
 contraint|obrigado, forçado|o
 pin|pinheiro|o
-toubib|doutor, médico (coloq.)|o
+toubib|médico, doutor (coloq.)|o
 ému|emocionado, comovido|o
 lycéen|aluno do ensino médio|o
 œuvres|obras|o
@@ -5750,7 +5750,7 @@ chronique|crônico; coluna (de jornal)|o;o
 jadis|antigamente, outrora|o
 reposez-vous|descansem, descanse (pl., formal)|o
 malle|baú|o
-mathématique|matemática|o
+mathématique|matemático; matemática|o;o
 vétérinaire|veterinário|o
 désespérément|desesperadamente|o
 écartez-vous|afastem-se, afaste-se (pl., formal)|o
@@ -5780,7 +5780,7 @@ humiliant|humilhante|o
 zero|zero|o
 brune|morena|o
 klaxon|buzina|o
-méprise|engano, equívoco|o
+méprise|eu desprezo; ele/ela despreza; engano|f1s;f3s;o
 coquille|concha, casca; erro de digitação|o;o
 jours-ci|ces jours-ci: nestes dias, ultimamente|n
 mutuel|mútuo|o
@@ -5796,7 +5796,7 @@ pécheur|pecador|o
 intrusion|intrusão|o
 scandaleux|escandaloso|o
 évier|pia|o
-ménager|poupar, pegar leve com; preparar, arranjar|v;v
+ménager|poupar, ter consideração com; organizar, preparar; doméstico, do lar|v;v;o
 communiqué|comunicado (à imprensa)|o
 protéine|proteína|o
 rabbin|rabino|o
@@ -5865,9 +5865,9 @@ hystérique|histérico|o
 menaçant|ameaçador|o
 aurais-tu|você teria? (sing.)|f2s2p
 tarif|tarifa, preço|o
-blouse|avental, jaleco|o
+blouse|jaleco, guarda-pó, avental; blusa|o;o
 loisir|lazer|o
-branleur|vagabundo, punheteiro (vulgar)|o
+branleur|preguiçoso, vagabundo (vulgar)|o
 spectre|espectro, fantasma; espectro|o;o
 supposition|suposição|o
 télécommande|controle remoto|o
@@ -5919,7 +5919,7 @@ poignard|punhal|o
 simulation|simulação|o
 prélever|colher uma amostra de|v
 présidentiel|presidencial|o
-funèbre|fúnebre|o
+funèbre|fúnebre; sombrio, lúgubre|o;o
 gigantesque|gigantesco|o
 interrompu|interrompido|o
 tablette|tablet; barra (de chocolate)|o;o
@@ -5947,9 +5947,9 @@ bousillé|detonado, estragado|o
 équation|equação|o
 fondu|derretido|o
 justicier|justiceiro|o
-fais-lui|faz com ele, faz ele|f3s
+fais-lui|faça ele, faça ela (fazer algo); faça (algo) para ele, para ela|o;f3s
 humilié|humilhado|o
-informe|disforme|o
+informe|eu informo; ele/ela informa; informe, sem forma|f1s;f3s;o
 freiner|frear|v
 moutarde|mostarda|o
 natal|natal|o
@@ -6092,7 +6092,7 @@ comparaison|comparação|o
 creux|oco|o
 envoye|enviado|o
 peuvent-ils|eles podem?|f3p
-sieur|senhor|o
+sieur|senhor (diante de um nome, em uso jurídico ou antigo)|o
 souche|toco; cepa|o;o
 surf|surfe|o
 fonder|fundar|v
@@ -6109,11 +6109,11 @@ stérile|estéril|o
 boulet|bola de ferro; fardo, peso morto|o;o
 sournois|dissimulado, sonso|o
 interdiction|proibição|o
-raisonner|chamar à razão|v
+raisonner|raciocinar; argumentar com, fazer ouvir a razão|v;v
 terminal|terminal|o
 éjecter|ejetar|v
 messire|meu senhor (arcaico)|o
-digitale|digital|o
+digitale|digital (f.); empreinte digitale: impressão digital|o;n
 testicule|testículo|o
 choquer|chocar|v
 marchant|andando|o
@@ -6215,7 +6215,7 @@ imprudent|imprudente|o
 collaboration|colaboração|o
 parlement|parlamento|o
 pédophile|pedófilo|o
-subit|ele/ela sofre, passa por|f3s
+subit|ele/ela sofre, suporta; repentino|f3s;o
 corrompre|corromper|v
 crapaud|sapo|o
 mutant|mutante|o
@@ -6236,7 +6236,7 @@ mature|maduro|o
 rebours|compte à rebours: contagem regressiva|n
 bouffon|bufão, palhaço|o
 prenez-vous|vocês tomam, o senhor toma? (pl., formal)|f2s2p
-relaxe|absolvição|o
+relaxe|relaxe! (relaxe-toi); relaxado, tranquilo (coloq.); absolvição (jurídico)|o;o;o
 nécessité|necessidade|o
 poire|pera|o
 actionnaire|acionista|o
@@ -6259,7 +6259,7 @@ marketing|marketing|o
 léguer|legar, deixar de herança|v
 pourcentage|porcentagem|o
 chandelle|vela (longa e fina)|o
-ducon|babaca, imbecil (vulgar)|o
+ducon|babaca, otário (vulgar)|o
 érection|ereção|o
 trappe|alçapão|o
 désirez-vous|vocês desejam, o senhor deseja? (pl., formal)|f2s2p
@@ -6309,7 +6309,7 @@ douille|soquete; cápsula (de bala)|o;o
 effondré|desabado|o
 tic|tique|o
 catalogue|catálogo|o
-opératoire|operatório, pós-operatório|o
+opératoire|operatório; bloc opératoire: centro cirúrgico|o;n
 brochure|folheto|o
 melon|melão|o
 apprenti|aprendiz|o
@@ -6445,7 +6445,7 @@ allons-nous-en|vamos embora|o
 consommer|consumir|v
 delà|au-delà: além|n
 égyptien|egípcio|o
-emmerdeur|chato, mala (vulgar)|o
+emmerdeur|chato, pentelho (vulgar)|o
 esthétique|estético|o
 extinction|extinção|o
 compréhensif|compreensivo|o
@@ -6566,7 +6566,7 @@ mondialisation|globalização|o
 littéraire|literário|o
 gouvernance|governança|o
 iranien|iraniano|o
-énergétique|energético|o
+énergétique|energético, relativo à energia|o
 technologique|tecnológico|o
 arrondissement|distrito (de uma cidade ou departamento)|o
 considérable|considerável|o
@@ -6595,7 +6595,7 @@ socialiste|socialista|o
 patrimoine|patrimônio (cultural); patrimônio, bens|o;o
 favorable|favorável|o
 compositeur|compositor|o
-métrage|metragem; court/long métrage: curta/longa-metragem|o;n
+métrage|metragem, comprimento (de filme); court métrage: curta-metragem; long métrage: longa-metragem|o;n;n
 relativement|relativamente|o
 agricole|agrícola|o
 relatif|relativo; referente a|o;o
@@ -6722,7 +6722,7 @@ quasi|quase|o
 restriction|restrição|o
 véritablement|verdadeiramente|o
 archéologique|arqueológico|o
-succéder|suceder|v
+succéder|suceder, vir depois de; suceder (a um trono, um cargo)|v;v
 nationalisme|nacionalismo|o
 fonctionnement|funcionamento|o
 congolais|congolês|o
@@ -6772,7 +6772,7 @@ diplomatie|diplomacia|o
 législation|legislação|o
 créativité|criatividade|o
 exploitation|exploração; exploração, operação (de um negócio); propriedade agrícola|o;o;o
-ores|(em d'ores et déjà) desde já|o
+ores|d'ores et déjà: desde já|n
 corral|curral|o
 viable|viável|o
 arménien|armênio|o
@@ -6807,7 +6807,7 @@ graphique|gráfico (s.m.); gráfico (adj.)|o;o
 mention|menção; conceito, distinção (num diploma)|o;o
 regrouper|reagrupar, reunir|v
 conventionnel|convencional|o
-d'œuvre|(em main-d'œuvre) mão de obra; (em chef-d'œuvre) obra-prima|o;o
+d'œuvre|main-d'œuvre: mão de obra; chef-d'œuvre: obra-prima|n;n
 génome|genoma|o
 migration|migração|o
 équivalent|equivalente|o
@@ -6999,7 +6999,7 @@ sélectionné|selecionado|o
 voûte|abóbada, arco|o
 dépendant|dependente|o
 emplir|encher (literário)|v
-relief|relevo|o
+relief|relevo (do terreno), terreno; mettre en relief: destacar, realçar|o;n
 encourageant|encorajador|o
 illustré|ilustrado|o
 élargissement|alargamento, ampliação|o
@@ -7097,7 +7097,7 @@ transatlantique|transatlântico|o
 doctrine|doutrina|o
 froidement|friamente|o
 hostilité|hostilidade|o
-statu|(em statu quo) status quo|o
+statu|statu quo: status quo|n
 homologue|homólogo, equivalente|o
 lanterne|lanterna|o
 périphérie|periferia|o
@@ -7196,7 +7196,7 @@ revendiquer|reivindicar|v
 assembler|montar, juntar|v
 immigrant|imigrante (recém-chegado)|o
 conjoint|cônjuge (s.m.); conjunto|o;o
-dessinateur|desenhista, cartunista; projetista|o;o
+dessinateur|ilustrador, cartunista; desenhista técnico|o;o
 exclusivement|exclusivamente|o
 gaieté|alegria|o
 pourparler|negociações (geralm. pourparlers)|o
@@ -7236,7 +7236,7 @@ tunisien|tunisiano|o
 démuni|desamparado, carente|o
 répartir|distribuir, repartir|v
 seigneurie|senhorio, domínio feudal|o
-berline|berlinda (carruagem); sedã|o;o
+berline|sedã; berlinda (carruagem)|o;o
 contrée|região, terra|o
 cottage|chalé, casa de campo|o
 détenteur|detentor|o
@@ -7597,7 +7597,7 @@ conformément|conforme, de acordo (com)|o
 racial|racial|o
 traditionnellement|tradicionalmente|o
 infortuné|infeliz, desafortunado|o
-optique|óptico; óptica, perspectiva (s.f.)|o;o
+optique|óptico; óptica (nf); perspectiva, ponto de vista (nf)|o;o;o
 sabot|tamanco; casco|o;o
 suppression|supressão, abolição; corte (de vagas)|o;o
 tardif|tardio|o
@@ -7617,7 +7617,7 @@ couronné|coroado|o
 crépuscule|crepúsculo|o
 débiteur|devedor|o
 félicité|felicidade, bem-aventurança|o
-intégrant|integrante (faire partie intégrante: fazer parte integrante)|o
+intégrant|integrante; integral; faire partie intégrante: fazer parte integrante|o;o;n
 jouissance|prazer, gozo; usufruto, posse (jurídico)|o;o
 marquant|marcante|o
 éradiquer|erradicar|v
@@ -7786,7 +7786,7 @@ renommé|renomado, famoso|o
 réédition|reedição|o
 adroit|hábil, habilidoso|o
 charmé|encantado|o
-dépourvu|desprovido (de)|o
+dépourvu|desprovido, carente (de); au dépourvu: desprevenido, de surpresa|o;n
 entame|ele/ela começa, eu começo|f3s
 glissant|escorregadio|o
 pilori|pelourinho|o
@@ -7965,7 +7965,7 @@ vietnamien|vietnamita|o
 accomplissement|realização|o
 anémique|anêmico; fraco, fraquinho|o;o
 collectionneur|colecionador|o
-gallo|galo (língua românica do leste da Bretanha)|o
+gallo|galo- (em compostos como gallo-romain, galo-romano); galo (língua românica do leste da Bretanha)|o;o
 procession|procissão|o
 recouvrir|cobrir, recobrir; recuperar, cobrar (uma dívida)|v;v
 rectangle|retângulo|o
@@ -7996,7 +7996,7 @@ multiplication|multiplicação; proliferação|o;o
 naval|naval|o
 obésité|obesidade|o
 éminent|eminente, ilustre|o
-intégrale|integral (matemática)|o
+intégrale|completa, integral, sem cortes (f.); obras completas, coleção completa (nf); integral (mat.)|o;o;o
 réalisable|realizável, viável|o
 aucunement|de modo algum (com ne)|o
 faillir|quase (fazer algo); falhar|v;v
@@ -8052,7 +8052,7 @@ astre|astro|o
 consul|cônsul|o
 enquérir|informar-se, perguntar (s'enquérir)|v
 expansionniste|expansionista|o
-facto|(de facto) de fato|o
+facto|de facto: de fato, na prática|n
 focaliser|focar, concentrar|v
 gouffre|abismo|o
 guet|vigia; faire le guet: ficar de vigia|o;n
@@ -8063,7 +8063,7 @@ saillie|saliência; tirada espirituosa|o;o
 tirage|tiragem; sorteio|o;o
 écueil|recife; armadilha, obstáculo|o;o
 étourdi|atordoado; distraído, avoado|o;o
-bis|A (em endereços: 12 bis); bis!|o;o
+bis|bis (em endereços, 12 bis = 12a); bis!; segundo, repetido|o;o;o
 chanoine|cônego|o
 imprimante|impressora|o
 parution|publicação, lançamento|o
@@ -8078,7 +8078,7 @@ moderniser|modernizar|v
 retable|retábulo|o
 schiste|xisto|o
 castillan|castelhano (espanhol)|o
-fur|(au fur et à mesure) à medida que, aos poucos|o
+fur|au fur et à mesure: à medida que, aos poucos|n
 indépendamment|independentemente; indépendamment de: independentemente de|o;n
 multitude|multidão, grande número|o
 recteur|reitor|o
@@ -8212,7 +8212,7 @@ centré|centrado, focado|o
 comportemental|comportamental|o
 demandeur|requerente, candidato; autor (da ação), demandante|o;o
 doter|equipar, dotar|v
-dépens|(aux dépens de) à custa de|o
+dépens|aux dépens de: à custa de|n
 emblème|emblema|o
 hémisphère|hemisfério|o
 visualiser|visualizar, exibir|v
@@ -8273,7 +8273,7 @@ postérieur|posterior, ulterior; traseiro, posterior|o;o
 pourpre|púrpura, carmesim|o
 précipité|apressado; precipitado|o;o
 recenser|recensear; inventariar, listar|v;v
-signifiant|significante (linguística)|o
+signifiant|significativo, que significa; significante (linguística)|o;o
 stupéfaction|estupefação, assombro|o
 timidement|timidamente|o
 trot|trote|o
@@ -8312,7 +8312,7 @@ exponentiel|exponencial|o
 frémissant|trêmulo, fremente|o
 hutte|choupana, cabana|o
 involontairement|involuntariamente|o
-livrée|libré|o
+livrée|entregue (f.); libré|o;o
 manier|manejar, manusear|v
 méridien|meridiano|o
 replier|dobrar; se replier: recuar, retirar-se|v;n
@@ -8321,13 +8321,13 @@ révélateur|revelador|o
 sociologue|sociólogo|o
 suffoquer|sufocar|v
 touffe|tufo, moita|o
-zélandais|neozelandês, zelandês (em Nouvelle-Zélande)|o
+zélandais|neozelandês, da Nova Zelândia (em néo-zélandais)|o
 épargnant|poupador, investidor|o
 binaire|binário|o
 chômeur|desempregado|o
 fréquent|frequente|o
 irrationnel|irracional|o
-magner|(se magner) andar logo, apressar-se|v
+magner|(se magner) se apressar, andar logo (coloq.)|v
 signataire|signatário|o
 attesté|atestado, documentado|o
 clavier|teclado|o
@@ -8393,7 +8393,7 @@ féodal|feudal|o
 gisait|ele/ela jazia (morto, doente)|f3s
 hideux|hediondo, horroroso|o
 inaction|inação|o
-induire|induzir, levar a; inferir|v;v
+induire|induzir, levar a; inferir; induire en erreur: induzir ao erro, enganar|v;v;n
 innombrable|inumerável, incontável|o
 inutilement|inutilmente|o
 linéaire|linear|o
@@ -8493,7 +8493,7 @@ pontifical|pontifício, papal|o
 primate|primata|o
 promulguer|promulgar|v
 puiser|tirar (de), recorrer a|v
-renflouement|resgate financeiro, reflutuação|o
+renflouement|resgate financeiro; reflutuação (de um navio)|o;o
 rente|renda, anuidade; renda (economia)|o;o
 réinventer|reinventar|v
 saga|saga|o
@@ -8534,7 +8534,7 @@ endiguer|conter, deter|v
 enluminure|iluminura|o
 mortier|argamassa, morteiro|o
 notaire|tabelião|o
-polluant|poluente|o
+polluant|poluente; poluente (substância)|o;o
 réorganiser|reorganizar|v
 spécialiser|(se spécialiser) especializar-se|v
 chaotique|caótico|o
@@ -8546,7 +8546,7 @@ abaisser|abaixar, reduzir|v
 amasser|acumular, amontoar|v
 baronnet|baronete|o
 cachot|masmorra, calabouço|o
-causant|falante, conversador; falando|o;o
+causant|que causa; tagarela; que fala|o;o;o
 châle|xale|o
 commençant|começando|o
 denier|denário (moeda antiga); dinheiro, recursos (pl.)|o;o
@@ -8593,13 +8593,13 @@ antichambre|antecâmara, sala de espera|o
 cohérence|coerência|o
 conjointement|conjuntamente|o
 conjoncture|conjuntura|o
-crique|enseada|o
+crique|enseada, angra|o
 dépouiller|despojar, roubar; examinar (correspondência), apurar (votos)|v;v
 essoufflé|sem fôlego|o
 extase|êxtase|o
 gazon|gramado, grama|o
 harpon|arpão|o
-livide|lívido|o
+livide|lívido, pálido como um morto|o
 lièvre|lebre|o
 lyonnais|lionês|o
 nutrition|nutrição|o
@@ -8615,7 +8615,7 @@ tôle|chapa de metal|o
 vassal|vassalo|o
 égarer|extraviar, perder; desencaminhar; s'égarer: perder-se|v;v;n
 accompagnement|apoio, acompanhamento; acompanhamento (musical)|o;o
-aval|(en aval) rio abaixo; aval, aprovação|o;o
+aval|aval, aprovação; en aval: rio abaixo, adiante no processo|o;n
 concitoyen|concidadão|o
 disponibilité|disponibilidade|o
 exercé|experiente, treinado; exercido|o;o
@@ -8666,7 +8666,7 @@ annexion|anexação|o
 assouplir|flexibilizar (regras); tornar flexível|v;v
 canaliser|canalizar|v
 commercialiser|comercializar|v
-deçà|(en deçà de) aquém de|o
+deçà|en deçà: abaixo, aquém|n
 encouragement|incentivo, encorajamento|o
 humilité|humildade|o
 illimité|ilimitado|o
@@ -8835,7 +8835,7 @@ folklorique|folclórico|o
 géographe|geógrafo|o
 incompatible|incompatível|o
 instantanément|instantaneamente|o
-metteur|(metteur en scène) diretor|o
+metteur|metteur en scène: diretor|n
 minéral|mineral|o
 palmier|palmeira|o
 promoteur|incorporador imobiliário; promotor|o;o
@@ -8871,7 +8871,7 @@ déréglementation|desregulamentação|o
 dévot|devoto, beato|o
 embargo|embargo|o
 feindre|fingir|v
-flamber|arder, pegar fogo|v
+flamber|arder, queimar; disparar (de preços)|v;v
 hurlant|uivando, gritando|o
 hésitant|hesitante|o
 immobilité|imobilidade|o
@@ -8897,7 +8897,7 @@ malaria|malária|o
 ornement|ornamento|o
 resserrer|apertar, estreitar|v
 réorganisation|reorganização|o
-épinière|(moelle épinière) espinhal (medula)|o
+épinière|moelle épinière: medula espinhal|n
 albanais|albanês|o
 astronomie|astronomia|o
 auditif|auditivo|o
@@ -8957,7 +8957,7 @@ frémissement|estremecimento, tremor; farfalhar, sussurro|o;o
 haineux|odioso, cheio de ódio|o
 impraticable|intransitável; impraticável|o;o
 impérieux|imperioso, autoritário; urgente, premente|o;o
-incitant|incentivo|o
+incitant|que incentiva, que estimula; incentivo|o;o
 incompétence|incompetência|o
 indexer|indexar, vincular (a)|v
 influer|(influer sur) influir em, afetar|v
@@ -9187,7 +9187,7 @@ stationner|estacionar; estar estacionado (tropas)|v;v
 tartine|fatia de pão com manteiga (ou geleia)|o
 vacarme|barulheira, algazarra|o
 verset|versículo|o
-égide|(sous l'égide de) sob a égide de|o
+égide|égide, proteção; sous l'égide: sob a égide de|o;n
 épaisseur|espessura|o
 étirer|esticar|v
 apôtre|apóstolo|o
@@ -9237,9 +9237,9 @@ geôlier|carcereiro|o
 goélette|escuna|o
 gueux|mendigo, miserável|o
 hirondelle|andorinha|o
-honoris|(honoris causa) honorário (título)|o
+honoris|honoris causa: honorário (título)|n
 hormis|exceto, salvo|o
-hôtellerie|hospedaria, estalagem; hotelaria|o;o
+hôtellerie|setor hoteleiro, hotelaria; estalagem, hospedaria|o;o
 inaccessible|inacessível|o
 inerte|inerte, sem vida|o
 miséricorde|misericórdia|o
@@ -9264,7 +9264,7 @@ tabou|tabu|o
 télépathe|telepata|o
 uruguayen|uruguaio|o
 alsacien|alsaciano|o
-amont|(en amont) rio acima; de antemão, antes|o;o
+amont|en amont: rio acima, antes (mais cedo num processo)|n
 azote|nitrogênio|o
 basculer|tombar, virar; mudar, passar (para)|v;v
 clarté|clareza; luz, claridade|o;o
@@ -9517,7 +9517,7 @@ fanatique|fanático; fanático (pessoa)|o;o
 glucose|glicose|o
 guérilla|guerrilha (luta); guerrilha (grupo)|o;o
 imprimeur|impressor, gráfica|o
-imprimé|impresso; formulário impresso, estampa|o;o
+imprimé|impresso; formulário impresso; estampado (tecido)|o;o;o
 kazakh|cazaque|o
 liquider|liquidar; livrar-se de|v;v
 localement|localmente|o
@@ -9571,7 +9571,7 @@ frôler|roçar; chegar perto de, beirar|v;v
 glissement|deslizamento, mudança|o
 greffier|escrivão|o
 houle|ondulação (do mar)|o
-illuminé|iluminado; visionário, iluminado (s.m.)|o;o
+illuminé|iluminado; iluminado, visionário (s.m.)|o;o
 impatienter|impacientar-se (s'impatienter)|v
 inimaginable|inimaginável|o
 instruit|instruído, culto|o
@@ -9625,7 +9625,7 @@ maximiser|maximizar|v
 napoléonien|napoleônico|o
 orthographe|ortografia|o
 pittoresque|pitoresco|o
-priori|(a priori) em princípio, à primeira vista|o
+priori|a priori: em princípio, à primeira vista|n
 ressortissant|cidadão, nacional (de um país)|o
 rééquilibrer|reequilibrar|v
 souscrire|assinar, subscrever; contratar (seguro, empréstimo); endossar, aprovar|v;v;v
@@ -9757,7 +9757,7 @@ nuance|nuance, matiz|o
 pornographique|pornográfico|o
 refonte|reformulação|o
 révolu|passado, acabado|o
-sapeur|sapador; (sapeur-pompier) bombeiro|o;o
+sapeur|sapador; sapeur-pompier: bombeiro|o;n
 seigneurial|senhorial|o
 solidaire|solidário; solidariamente responsável|o;o
 solidité|solidez|o
@@ -9833,7 +9833,7 @@ arrogance|arrogância|o
 assiégé|sitiado|o
 calculatrice|calculadora|o
 classer|classificar; arquivar; arquivar (um caso)|v;v;v
-cuite|cozida; prendre une cuite: tomar um porre|o;n
+cuite|cozida (f.); bebedeira (coloq.); prendre une cuite: encher a cara (coloq.)|o;o;n
 diagonale|diagonal|o
 déni|negação|o
 endosser|assumir (responsabilidade); vestir; endossar (um cheque)|v;v;v
@@ -9961,7 +9961,7 @@ maternité|maternidade; maternidade (hospital)|o;o
 onglet|aba|o
 patio|pátio|o
 phoque|foca|o
-poursuivant|perseguidor; autor da ação, querelante|o;o
+poursuivant|que continua, que persegue; perseguidor; autor (de ação judicial)|o;o;o
 prélude|prelúdio|o
 redoubler|redobrar, intensificar; repetir de ano|v;v
 remarquablement|notavelmente|o
@@ -10225,7 +10225,7 @@ médiation|mediação|o
 phosphore|fósforo|o
 pluriel|plural; pluralista|o;o
 polymère|polímero|o
-rebondir|quicar; dar a volta por cima, ter uma reviravolta|v;v
+rebondir|quicar; dar a volta por cima, se recuperar; tomar um novo rumo (de uma história, um caso)|v;v;v
 responsabilisation|responsabilização, empoderamento|o
 substitut|substituto|o
 tweets|tuítes|o
@@ -10637,7 +10637,7 @@ couvercle|tampa|o
 culminer|culminar, atingir o auge|v
 côtoyer|conviver com; margear, correr ao longo de|v;v
 démarrage|arranque, lançamento|o
-déprécier|depreciar, desvalorizar|v
+déprécier|depreciar, baixar o valor de; menosprezar, depreciar|v;v
 effronté|atrevido, descarado|o
 escalader|escalar|v
 faiblir|enfraquecer, fraquejar|v
@@ -10673,7 +10673,7 @@ respectueusement|respeitosamente|o
 rêne|rédea|o
 scélérat|celerado, canalha|o
 senteur|aroma, fragrância|o
-signalement|descrição (de uma pessoa)|o
+signalement|descrição (de uma pessoa); denúncia (às autoridades)|o;o
 sociologique|sociológico|o
 soumission|submissão; proposta (em licitação)|o;o
 streaming|streaming|o
@@ -10990,7 +10990,7 @@ discorde|discórdia|o
 distiller|destilar|v
 déficient|deficiente|o
 dévier|desviar-se; desviar|v;v
-ferré|ferrado (cavalo); com ponta de ferro; craque, entendido (coloq.); voie ferrée: ferrovia|o;o;o;n
+ferré|ferroviário (adj.); ferrado; com ponta de ferro; versado em (coloq.); voie ferrée: linha de trem|o;o;o;o;n
 hébraïque|hebraico|o
 injustifié|injustificado|o
 intra|intra-muros: dentro dos muros da cidade|n
@@ -11053,7 +11053,7 @@ réitérer|reiterar|v
 sauvegarde|salvaguarda; backup (informática)|o;o
 socioéconomique|socioeconômico|o
 solder|liquidar, vender com desconto; quitar (uma conta); se solder par: resultar em|v;v;n
-suspens|suspense|o
+suspens|suspense; en suspens: pendente, não resolvido|o;n
 séquencer|sequenciar|v
 sérotonine|serotonina|o
 totaliser|totalizar|v
@@ -11066,7 +11066,7 @@ autodidacte|autodidata|o
 ayahuasca|ayahuasca|o
 cerner|cercar, rodear; delimitar, entender|v;v
 cintre|cabide|o
-commanditaire|patrocinador, financiador|o
+commanditaire|patrocinador, financiador; mandante, quem encomendou (de um crime)|o;o
 conquis|conquistado; conquistado, convencido|o;o
 constellation|constelação|o
 désamorcer|desarmar (uma bomba), neutralizar|v
@@ -11839,7 +11839,7 @@ zigzag|zigue-zague|o
 équitation|equitação|o
 évangéliste|evangelista|o
 adaptable|adaptável|o
-affilé|afiado|o
+affilé|afiado, amolado; d'affilée: seguido, de uma vez|o;n
 ambiant|ambiente, circundante; reinante, predominante|o;o
 banjo|banjo|o
 bondé|lotado, abarrotado|o
@@ -11971,7 +11971,7 @@ férocité|ferocidade|o
 grand'chose|muita coisa; pas grand'chose: não muita coisa, quase nada|o;n
 grièvement|gravemente (ferido)|o
 groupé|agrupado|o
-grue|guindaste, grua (máquina), grou (ave); prostituta, piranha (vulgar)|o;o
+grue|guindaste (máquina), grou (ave); prostituta, piranha (antiquado, ofensivo)|o;o
 guirlande|guirlanda; festão (de Natal)|o;o
 gérable|administrável, controlável|o
 hennissement|relincho|o
@@ -12369,7 +12369,7 @@ biche|corça; ma biche: meu bem|o;n
 bide|barriga, pança (coloq.); fracasso (coloq.)|o;o
 bocal|pote de vidro|o
 bonobos|bonobos|o
-braque|eu miro, ele/ela mira, aponta (uma arma); perdigueiro (cão) (s.m.)|f1s;o
+braque|eu aponto; ele/ela aponta (uma arma); eu assalto; ele/ela assalta (um banco); perdigueiro (cão) (nm)|f1s;f3s;f1s;f3s;o
 camer|se camer: drogar-se, ficar chapado (coloq.)|n
 cartilage|cartilagem|o
 chorégraphie|coreografia|o
@@ -12509,7 +12509,7 @@ jaquette|sobrecapa (de livro); fraque|o;o
 lanière|tira, correia|o
 magnifiquement|magnificamente|o
 mansarde|mansarda, água-furtada|o
-marmot|pirralho, garoto|o
+marmot|pirralho, moleque (coloq.)|o
 massue|clava, porrete|o
 masure|casebre, barraco|o
 mollet|panturrilha; œuf mollet: ovo cozido mole|o;n
@@ -12549,7 +12549,7 @@ vénération|veneração|o
 équiper|equipar|v
 étager|escalonar, dispor em níveis|v
 absoudre|absolver|v
-confondu|confundido (com); estupefato, pasmo|o;o
+confondu|confundido (com), enganado; atônito, pasmo; todos juntos, no conjunto (toutes catégories confondues)|o;o;o
 croc|presa (dente); gancho|o;o
 cuirassé|encouraçado (s.m.); blindado (adj.)|o;o
 envahisseur|invasor|o
@@ -12634,7 +12634,7 @@ naïveté|ingenuidade|o
 oblong|oblongo|o
 oranger|laranjeira|o
 outillage|ferramental, equipamento|o
-outrage|ultraje, insulto|o
+outrage|insulto, afronta; ultraje (ao pudor)|o;o
 parfumer|perfumar; aromatizar, dar sabor a|v;v
 parsemé|salpicado, semeado (de)|o
 passeur|barqueiro; coiote, atravessador (de pessoas)|o;o
@@ -12663,7 +12663,7 @@ tréteau|cavalete|o
 tuf|tufo (rocha)|o
 tunique|túnica|o
 verve|verve|o
-ébullition|ebulição; en ébullition: fervendo, em efervescência|o;n
+ébullition|ebulição, fervura; en ébullition: fervendo, em efervescência|o;n
 étrier|estribo|o
 aveuglement|cegueira (da mente), ilusão|o
 dérision|escárnio, zombaria|o
@@ -12837,7 +12837,7 @@ bécassine|narceja; moça bobinha (coloq.)|o;o
 cataracte|catarata (nos olhos); catarata, cachoeira|o;o
 chambranle|batente, marco (de porta, de janela)|o
 chandelier|castiçal|o
-chaudement|bem agasalhado|o
+chaudement|bem agasalhado (vestido, contra o frio); calorosamente (recomendado, aplaudido)|o;o
 commodément|comodamente, confortavelmente|o
 conifère|conífera|o
 consigné|detido (no quartel, na escola); guardado (no guarda-volumes)|o;o
@@ -12987,7 +12987,7 @@ haï|odiado|o
 hiéroglyphe|hieróglifo|o
 hochement|hochement de tête: aceno de cabeça|n
 hérisson|ouriço|o
-idiome|idioma, língua|o
+idiome|língua, dialeto|o
 imperméable|capa de chuva (s.m.); impermeável (adj.)|o;o
 inconvenant|inconveniente, impróprio|o
 ineffable|inefável|o
@@ -13052,7 +13052,7 @@ nageant|nadando|o
 oseille|azedinha; grana (coloq.)|o;o
 ramification|ramificação|o
 vertébré|vertebrado|o
-catin|prostituta, vagabunda (antiquado)|o
+catin|prostituta, rameira (antiquado, ofensivo)|o
 dock|doca|o
 fusiller|fuzilar|v
 givre|geada|o
@@ -13413,7 +13413,7 @@ disloquer|deslocar; desmantelar|v;v
 dompter|domar; dominar|v;v
 drapé|drapeado; drapeado (s.m.)|o;o
 débouler|despencar, irromper|v
-dérivation|desvio, derivação; ponte de safena, desvio (cirurgia)|o;o
+dérivation|desvio (de um rio, do trânsito); derivação (gramática, mat.); contorno|o;o;o
 désaltérer|matar a sede; se désaltérer: matar a sede|v;n
 désinvolte|descontraído, displicente|o
 dévisser|desparafusar|v
@@ -13611,7 +13611,7 @@ jumelles|binóculo; gêmeas|o;o
 alentours|arredores, região; aux alentours de: por volta de, cerca de|o;n
 recours|recurso; avoir recours à: recorrer a; recurso (jurídico), apelação|o;n;o
 remords|remorso|o
-soutiens|apoio, apoias (sing.); apoios (pl. de soutien)|f1s;f3s
+soutiens|eu apoio, você apoia (sing.); apoiadores, defensores (plural de soutien)|f1s;o
 pâtes|massa, macarrão; massas, pastas|o;o
 servante|criada, empregada|o
 mépris|desprezo, desdém|o
@@ -15047,7 +15047,7 @@ embellir|embelezar, melhorar|v
 entraide|ajuda mútua|o
 falsification|falsificação, adulteração|o
 fiduciaire|fiduciário; de confiança (adj.)|o;o
-fuseau|fuso; calça de esqui; fuso horário (fuseau horaire)|o;o;o
+fuseau|fuso; calça de esqui; fuseau horaire: fuso horário|o;o;n
 germer|germinar, brotar|v
 horloger|relojoeiro|o
 humanoïde|humanoide|o
@@ -16194,3 +16194,53 @@ accusateur|acusador; acusador|o;o
 additif|aditivo|o
 affairer|s'affairer: azafamar-se, ocupar-se|n
 aigrette|garça-branca; penacho|o;o
+mets|eu/você coloco, coloca; coloque!; prato, iguaria|f1s;o;o
+voyons|vejamos; vemos; ora, vamos!, sério?|o;f1p;o
+commis|cometido (um crime, um erro); balconista, auxiliar|o;o
+bel|belo, bonito (antes de vogal); bel et bien: de fato, realmente|o;n
+blonde|loira (f.); loira (mulher); cerveja lager|o;o;o
+travaux|trabalhos, obras; obras (de construção), obras na estrada; pesquisas, estudos|o;o;o
+foutue|maldita (f.) (vulgar); perdida, ferrada (f.)|o;o
+vues|vistas, paisagens; opiniões, pontos de vista; vistas (f. pl.)|o;o;o
+foutus|malditos (m. pl.) (vulgar); perdidos, ferrados (m. pl.)|o;o
+crevé|estourado, furado; exausto, morto de cansaço (coloq.); morto (coloq.)|o;o;o
+chienne|cadela; maldita, desgraçada (chienne de vie) (coloq.); fils de chienne: filho da puta (vulgar)|o;o;n
+conne|insulto vulgar contra uma mulher boba (vulgar); boba (f.) (vulgar)|o;o
+béni|abençoado; pain béni: bênção, presente dos céus|o;n
+reins|rins; lombar, parte baixa das costas|o;o
+débordé|atolado, sobrecarregado de trabalho; transbordado|o;o
+parties|partes; rodadas, partidas; partes (numa disputa, num contrato), lados; idas, que foram embora (f. pl.)|o;o;o;o
+adapté|adequado, apropriado; adaptado|o;o
+favoris|favoritos; costeletas|o;o
+masses|montes, quantidade; as massas, o povo|o;o
+regretté|lamentado, saudoso; falecido|o;o
+baronne|baronesa|o
+héritière|herdeira|o
+cochonne|suja, obscena, safada (coloq.); porca, desleixada (f.)|o;o
+confesse|eu confesso; ele/ela confessa; aller à confesse: ir se confessar|f1s;f3s;n
+frangine|irmã, mana|o
+miches|pães redondos; bunda, nádegas (gíria)|o;o
+fourre|eu enfio, eu soco; ele/ela enfia, soca; fourre-tout: bolsa grande, coisa que serve para tudo|f1s;f3s;n
+selles|selas; fezes, excrementos (médico)|o;o
+tigresse|tigresa; mulher feroz|o;o
+sus|eu/você soube; en sus: além disso, por cima|f1s;n
+fiché|fichado (pela polícia); cravado, enfiado|o;o
+marquise|marquesa; marquise (cobertura sobre uma entrada)|o;o
+ménagère|dona de casa; doméstica, do lar (f.)|o;o
+couturière|costureira|o
+pellicules|filmes, rolos de filme; caspa|o;o
+abords|arredores, acessos; aux abords de: nos arredores de, perto de|o;n
+prétendue|suposta, assim chamada (f.)|o
+prétendus|supostos, assim chamados (m. pl.)|o
+branlée|surra, sova (vulgar)|o
+écolière|estudante, aluna de escola|o
+braille|eu berro, eu grito; ele/ela berra, grita; braille (escrita em relevo para cegos)|f1s;f3s;o
+croque|eu mastigo, eu mordo; ele/ela mastiga, morde; croque-mort: agente funerário; croque-monsieur: sanduíche quente de presunto e queijo|f1s;f3s;n;n
+berne|en berne: a meio mastro, em baixa; ele/ela engana, ludibria|n;f3s
+bestiaux|gado|o
+signifié|significado; notificado, comunicado formalmente|o;o
+filleule|afilhada|o
+craintes|temores, receios|o
+rangées|fileiras; arrumadas, guardadas (f. pl.)|o;o
+laves|lava, rios de lava; você lava (sing.)|o;f2s2p
+retombées|repercussões, consequências, efeitos colaterais; caídas de novo (f. pl.)|o;o

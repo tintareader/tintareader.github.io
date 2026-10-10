@@ -2,6 +2,6 @@
 
 The Tinta web app, served by GitHub Pages at https://tintareader.com.
 
-Built from commit `91a32d17` of the (private) app repository by
+Built from commit `4dd3b4a1` of the (private) app repository by
 `tools/publish/site.ts`. Generated in full on every publish; do not hand-edit.
 The privacy policy is at https://tintareader.com/privacy.html.

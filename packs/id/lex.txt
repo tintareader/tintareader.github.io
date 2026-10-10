@@ -46,7 +46,7 @@ mana|||
 mana-mana|||adv.
 bagaimana|||
 mengapa||apa|
-kenapa||napa|
+kenapa|||
 kapan|||
 kapan-kapan|||adv.
 berapa||apa|
@@ -123,7 +123,7 @@ suka|||v.;adv.
 tahu|||v.;n.
 kenal|||
 paham|||
-mengerti||ngerti|
+mengerti||arti|
 arti|||
 juga|||
 hanya|||
@@ -262,7 +262,7 @@ tanya|||
 jawab|||
 minta|||
 pikir|||
-rasa|||n.;v.
+rasa|||n.;n.;v.
 ingat|||
 lupa|||
 harap|||
@@ -542,7 +542,7 @@ lahir|||
 tumbuh|||
 nikah|||
 cinta|||
-sayang|||adj.;n.;interj.
+sayang|||adj.;v.;n.;interj.
 benci|||
 percaya|||
 yakin|||adj.
@@ -638,7 +638,7 @@ sibuk|||adj.
 santai|||adj.
 serius|||adj.;interj.
 lucu|||
-seru|||adj.
+seru|||adj.;v.
 tugas|||
 ilmu|||
 alat|||
@@ -719,7 +719,7 @@ pindah|||
 diam|||adj.;v.
 diam-diam|||adv.
 tinggal|||
-berangkat||angkat|
+berangkat|||
 lewat|||prep.;v.;prep.
 ikut|||
 antar|||v.;prep.
@@ -1448,7 +1448,7 @@ halo|||
 yuk|||
 mantap|||
 keren|||adj.
-asyik|||adj.
+asyik|||adj.;adj.
 galau|||
 ribet|||
 obrol|||
@@ -1574,7 +1574,7 @@ segala|||
 mundur|||
 barang|||
 agak|||
-awak|||pron.;n.
+awak|||n.;pron.
 benda|||
 mengenai||kena|
 saling|||
@@ -1698,7 +1698,7 @@ lelaki|||
 super|||
 target|||
 jenderal|||
-jalang|||adj.;n.
+jalang|||n.;adj.
 rusia|||
 india|||
 letnan|||
@@ -1929,7 +1929,7 @@ sasaran|||
 kaisar|||
 derita|||
 kuil|||
-perlahan||lahan|
+perlahan|||
 pensiun|||
 senior|||
 duka|||
@@ -2070,7 +2070,7 @@ tradisi|||
 baja|||
 ngomong|||
 ngomong-ngomong|||adv.
-samar|||adj.
+samar|||adj.;adj.
 total|||
 tahap|||
 perduli|||
@@ -5812,7 +5812,7 @@ perlombaan||lomba|
 persidangan||sidang|
 perceraian||cerai|
 persimpangan||simpang|
-percuma||cuma|
+percuma|||
 perkiraan||kira|
 perburuan||buru|
 pertunangan||tunangan|
@@ -5979,7 +5979,7 @@ pujian||puji|
 penculikan||penculik|
 tuntutan||tuntut|
 masukan||masuk|
-penawaran||penawar|
+penawaran||tawar|
 pesanan||pesan|
 pacaran||pacar|
 tunjukan||tunjuk|
@@ -6031,7 +6031,7 @@ terjemahan||terjemah|
 jangkauan||jangkau|
 tampilan||tampil|
 kawanan||kawan|
-pelarian||pelari|
+pelarian||lari|
 dorongan||dorong|
 ramalan||ramal|
 kumpulan||kumpul|
@@ -6089,7 +6089,7 @@ lemparan||lempar|
 pembersihan||pembersih|
 pembelaan||pembela|
 gabungan||gabung|
-pendapatan||pendapat|
+pendapatan||dapat|
 simpanan||simpan|
 penyembuhan||penyembuh|
 tabungan||tabung|
@@ -6469,7 +6469,7 @@ menembaki||tembak|
 meracuni||racun|
 menemani||teman|
 menandai||tanda|
-menanggapi||anggap|
+menanggapi||tanggap|
 meniduri||tidur|
 menyusuri||susur|
 mencurigai||curiga|
@@ -6477,7 +6477,7 @@ mewarisi||waris|
 menjelajahi||jelajah|
 mengurusi||urus|
 memerangi||perang|
-menuruti||urut|
+menuruti||turut|
 mengencani||kencan|
 membohongi||bohong|
 mendapati||dapat|
@@ -6756,7 +6756,7 @@ bersyarat||syarat|
 bertekad||tekad|
 berjabat||jabat|
 bercahaya||cahaya|
-berevolusi||revolusi|
+berevolusi||evolusi|
 bersiul||siul|
 berbelok||belok|
 bermakna||makna|
@@ -6855,7 +6855,7 @@ menyelamatkan||selamat|
 menyenangkan||senang|
 membiarkan||biar|
 membutuhkan||butuh|
-menunjukkan||unjuk|
+menunjukkan||tunjuk|
 menghancurkan||hancur|
 memikirkan||pikir|
 memutuskan||putus|
@@ -7197,7 +7197,7 @@ mendapat||dapat|v.
 ceritakan||cerita|v.
 mendarat||darat|v.
 berbatu||batu|adj.
-melepas||lepas|v.
+melepas||lepas|v.;v.
 sepotong||potong|n.
 alami||alam|adj.;v.
 apakah||apa|part.;conj.
@@ -7246,7 +7246,7 @@ iring-iringan|||n.
 orang-orangan|||n.;n.
 semata-mata|||adv.
 sebenarnya|||adv.;adj.
-seharusnya|||adv.
+seharusnya|||adv.;adv.
 sepertinya|||adv.
 akhirnya|||adv.
 sebaiknya|||adv.
@@ -8775,7 +8775,7 @@ magma|||
 manna|||
 menaungi|||v.
 menghardik||hardik|v.
-menyandangkan|||v.
+menyandangkan|||v.;v.
 mihrab|||
 penangkaran|||
 ridha|||
@@ -8949,7 +8949,7 @@ tuas|||
 array|||
 balada|||
 generik|||
-kakanda||kakak|n.
+kakanda||kakak|n.;n.
 merambat|||v.
 nikotin|||
 perkusi|||
@@ -9237,7 +9237,7 @@ dihalau|||v.
 diperolok-olokkan|||v.
 dirham|||
 diridhai|||v.
-disandangkan|||v.
+disandangkan|||v.;v.
 eksponensial|||
 fidyah|||
 gerai|||
@@ -12790,7 +12790,7 @@ seseorang||orang|
 apapun||apa|
 selama||lama|
 secara||cara|
-meninggal||tinggal|
+meninggal|||
 menarik||tarik|adj.;v.;v.
 kedua||dua|
 ketiga||tiga|
@@ -12799,8 +12799,8 @@ menyerah||serah|
 semalam||malam|
 seharian||hari|
 sejujurnya||jujur|
-sedangkan||sedang|
-seakan||akan|
+sedangkan|||
+seakan|||
 seketika||ketika|
 selagi||lagi|
 sekadar||kadar|
@@ -12809,7 +12809,7 @@ bagaimanapun||bagaimana|
 untungnya||untung|
 pokoknya||pokok|
 makanya||maka|
-sekalipun||sekali|
+sekalipun|||
 soalnya||soal|
 benah|||v.;v.
 penentuan||tentu|n.

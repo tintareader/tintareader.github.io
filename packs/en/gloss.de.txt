@@ -81,7 +81,7 @@ look|schauen; schau! (Aufmerksamkeit); Blick; Aussehen, Ausdruck; look for: such
 've|(haben: I've seen, you've gone)|g
 got|got, Vergangenheitsform von get; have got: haben; have got to: müssen (I've got to go); got up: stand auf (aus dem Bett), erhob sich; got out: ging, entkam; got back: kehrte zurück; got rid of: entfernte, warf weg; got over: erholte sich von; got away: entkam; got on: stieg ein, verstand sich; got off: stieg aus (Bus, Zug); got through: überlebte, wurde fertig, erreichte telefonisch; got used to: gewöhnte sich an|o;n;n;n;n;n;n;n;n;n;n;n;n
 okay|okay, in Ordnung|o
-as|als, wie; während; als (in der Rolle: work as a teacher); da, weil (as it was late, we left); as if / as though: so, als ob; as for: was … betrifft|o;o;o;o;n;n
+as|als, wie; as (in comparisons: as tall as, as soon as) (Vergleich: so groß wie, sobald); as (while) (während); as (in the role of: work as a teacher) (als: als Lehrer arbeiten); as, because (as it was late, we left) (da, weil); as if / as though: als ob, als wenn; as for: was ... betrifft, bezüglich|o;o;o;o;o;n;n
 take|nehmen; take over: übernehmen; take on: annehmen (Arbeit, Verantwortung), einstellen, antreten gegen, annehmen (ein Aussehen, eine Eigenschaft); take off: ausziehen (Kleidung), abheben, weggehen; take out: herausnehmen (aus einer Tasche), entfernen, jemanden ausführen; take back: zurücknehmen (Gesagtes), zurückgeben (Waren); take after: ähneln, kommen nach (einem Elternteil); take place: stattfinden; take part: teilnehmen; take care of: sich kümmern um, erledigen; take advantage of: nutzen (eine Chance), ausnutzen; take it easy: sich entspannen, sich beruhigen; brauchen (Zeit, Mühe: it takes an hour); fahren mit (Bus, Zug); annehmen (Job, Rat, Karte); bringen oder führen (irgendwohin); nehmen (Dusche, Foto, Blick)|v;n;n;n;n;n;n;n;n;n;n;n;v;v;v;v;v
 good|gut, von hoher Qualität; gut, lieb, artig; gut, angenehm, schön; goods: Waren; for good: für immer; no good: nutzlos, schlecht; gut, in Ordnung (als Antwort: Good, thanks!)|o;o;o;n;n;n;o
 let|lassen, erlauben; let down: enttäuschen, im Stich lassen, senken (let down one's guard); let go: loslassen, freilassen; let in: hereinlassen; let out: ausstoßen (Seufzer, Schrei), freilassen; let alone: geschweige denn|v;n;n;n;n;n
@@ -143,7 +143,7 @@ guy|Kerl, Typ; (guys) Leute (beide Geschlechter)|o;o
 day|Tag, Zeitraum von 24 Stunden; Tag, Tageszeit, nicht Nacht|o;o
 little|klein; ein bisschen|o;o
 please|bitte (höfliche Bitte)|o
-should|sollte, müsste|o
+should|sollte, müsste; (before its subject) if (should you need help, call) (vor dem Subjekt: falls, sollte)|o;o
 said|Vergangenheitsform von say|o
 sorry|Entschuldigung (sich entschuldigen); leid (Mitleid empfinden)|o;o
 off|weg, fort (von einem Ort oder einer Fläche); aus, ausgeschaltet; frei, nicht bei der Arbeit (a day off); verdorben (von Essen); abgesagt (the wedding is off); ermäßigt (20% off)|o;o;o;o;o;o
@@ -316,7 +316,7 @@ once|einmal, ein Mal; einst, früher; sobald, wenn erst; at once: sofort, gleich
 bit|a bit: ein bisschen; Stückchen, kleines Stück; biss, Vergangenheit von bite|n;o;o
 laugh|lachen; Lachen|v;o
 ready|bereit, fertig|o
-guess|raten, schätzen; I guess: ich nehme an|v;n
+guess|raten, schätzen; I guess: ich nehme an, vermutlich; Vermutung, Schätzung|v;n;o
 pretty|hübsch, schön; ziemlich|o;o
 wife|Ehefrau, Frau|o
 drink|trinken; Getränk|v;o
@@ -353,10 +353,10 @@ check|überprüfen; nachsehen; Rechnung; check out: ansehen, untersuchen, ausche
 um|ähm (zögernd)|o
 soon|bald; as soon as: sobald; sooner or later: früher oder später|o;n;n
 close|schließen, zumachen; nah|v;o
-question|Frage; Frage, Angelegenheit; infrage stellen, befragen, bezweifeln|o;o;v
+question|Frage; Frage, Angelegenheit, Problem; befragen, ausfragen; infrage stellen, bezweifeln|o;o;v;v
 saying|Sagen; Redensart, Sprichwort|o;o
 lie|lügen, die Unwahrheit sagen; sich hinlegen, liegen; Lüge|v;v;o
-few|wenige, nicht viele|o
+few|wenige, nicht viele; a few: einige, ein paar|o;n
 heart|Herz, Organ, das Blut pumpt; Herz, Gefühle, Liebe; Mitte, Zentrum (the heart of the city); by heart: auswendig; at heart: im Grunde, eigentlich|o;o;o;n;n
 couldn|(konnte nicht, könnte nicht, in couldn't)|g
 lady|Dame, Frau|o
@@ -401,7 +401,7 @@ working|arbeitend, -ing-Form von work; funktionierend; berufstätig|o;o;o
 pick|abholen, aufheben; aussuchen, wählen; pick up: aufheben, abholen, abnehmen (das Telefon), lernen; pick on: schikanieren, ungerecht kritisieren|v;v;n;n
 crazy|verrückt|o
 write|schreiben|v
-stand|stehen; ertragen, aushalten; stand for: stehen für, bedeuten, dulden; stand out: auffallen; stand up for: eintreten für, verteidigen; stand by: bereitstehen, unterstützen|v;v;n;n;n;n
+stand|stehen; ertragen, aushalten; stand for: bedeuten, stehen für, ertragen; stand out: auffallen, hervorstechen; stand up for: verteidigen, eintreten für; stand by: bereitstehen, zu jemandem halten; Stand, Verkaufsstand, Ständer (a fruit stand, a music stand); the stands, Tribüne, Zuschauerränge|v;v;n;n;n;n;o;o
 save|retten; sparen, aufheben|v;v
 game|Spiel, Beschäftigung zum Vergnügen; Spiel, Wettkampf; Wild, gejagte Tiere|o;o;o
 exactly|genau, präzise; genau! (zustimmend)|o;o
@@ -457,7 +457,7 @@ cause|Ursache, Grund; weil (ugs.); verursachen|o;o;v
 important|wichtig|o
 line|Linie, langer dünner Strich; Schlange, Warteschlange; Zeile (a line of text); Leitung, Telefonverbindung; Text, Worte eines Schauspielers|o;o;o;o;o
 trust|vertrauen; Vertrauen|v;o
-cut|schneiden; cut off: abtrennen, isolieren, unterbrechen; cut out: ausschneiden, aufhören (mit etwas); cut down: fällen (einen Baum), verringern|v;n;n;n
+cut|schneiden; cut off: abtrennen, abschneiden, unterbrechen; cut out: ausschneiden, aufhören mit; cut down: fällen, kürzen, reduzieren; Schnitt, Wunde; Kürzung, Senkung (tax cuts)|v;n;n;n;o;o
 least|geringste, kleinste Menge (the least I can do); at least: mindestens, nicht weniger als; at least: wenigstens, immerhin|o;n;n
 wear|tragen; wear out: abnutzen, erschöpfen; wear off: allmählich nachlassen (eine Wirkung)|v;n;n
 trouble|Ärger, Schwierigkeiten, Probleme; stören, belästigen|o;v
@@ -478,7 +478,7 @@ pass|vorbeigehen, passieren; bestehen (eine Prüfung); pass away: sterben; verab
 city|Stadt, Großstadt|o
 truth|Wahrheit|o
 sell|verkaufen; sell out: ausverkaufen, Prinzipien für Geld verraten|v;n
-pull|ziehen; pull over: am Straßenrand anhalten; pull off: schaffen (etwas Schwieriges); pull up: anhalten (ein Fahrzeug), hochziehen|v;n;n;n
+pull|ziehen; pull over: am Straßenrand anhalten; pull off: schaffen, zustande bringen; pull up: anhalten, hochziehen; Zug, Ruck; Anziehungskraft (the pull of the city)|v;n;n;n;o;o
 blood|Blut|o
 finish|beenden, fertig werden|v
 behind|hinter, am Ende von; im Rückstand (behind schedule); hinter, unterstützend|o;o;o
@@ -504,9 +504,9 @@ half|Hälfte, halb|o
 drop|fallen lassen; Tropfen; drop off: unterwegs abliefern, einschlafen; drop in: vorbeischauen; drop out: abbrechen (Schule, ein Rennen)|v;o;n;n;n
 bed|Bett|o
 either|entweder, jeder von beiden|o
-cry|weinen; rufen, schreien|v;v
+cry|weinen; schreien, rufen; Schrei, Ruf|v;v;o
 country|Land, eine Nation; Land, ländliche Gegend|o;o
-figure|Figur, Form oder Zahl; ausrechnen; figure out: herausfinden, verstehen|o;v;n
+figure|Zahl, Ziffer, Betrag; Figur, Gestalt, Körper (her figure); Persönlichkeit, Gestalt (a public figure); denken, schätzen, annehmen (I figure); ausrechnen, berechnen; figure out: herausfinden, verstehen|o;o;o;v;v;n
 front|Vorderseite; in front of: vor|o;n
 learn|lernen|v
 whoa|whoa (Überraschung; langsamer)|o
@@ -514,11 +514,11 @@ bye|tschüss, auf Wiedersehen|o
 telling|erzählend, sagend, -ing-Form von tell|o
 honey|Honig (süßes Lebensmittel); Schatz, Liebling (Anrede)|o;o
 wonder|sich fragen; Staunen, Wunder; no wonder: kein Wunder, es überrascht nicht|v;o;n
-return|zurückkommen, zurückgehen; zurückgeben|v;v
+return|zurückkommen, zurückgehen; zurückgeben; Rückkehr (on his return)|v;v;o
 stupid|dumm, töricht|o
-sigh|seufzen, langsam ausatmen aus Müdigkeit oder Erleichterung|v
+sigh|vor Müdigkeit oder Erleichterung langsam ausatmen, seufzen; Seufzer|v;o
 sort|Art, Sorte; sortieren, ordnen; sort out: klären, lösen|o;v;n
-hurry|sich beeilen; hurry up: schneller machen, beeil dich!|v;n
+hurry|sich beeilen, eilen; hurry up: sich beeilen, schneller machen, beeil dich!; Eile (in a hurry)|v;n;o
 hot|heiß, von hoher Temperatur; scharf, würzig; attraktiv, heiß|o;o;o
 news|Nachrichten, Berichte über aktuelle Ereignisse|o
 food|Essen, Nahrung|o
@@ -526,7 +526,7 @@ date|Datum, Tag des Monats; Date, romantisches Treffen; ausgehen mit|o;o;v
 follow|folgen, nachgehen; verstehen|v;v
 decide|entscheiden, sich entschließen|v
 full|voll, so viel wie möglich fassend; vollständig, ganz|o;o
-early|früh, vor der üblichen Zeit|o
+early|vor der üblichen Zeit, früh; am Anfang, früh (early in the morning, the early 1990s)|o;o
 lord|Adliger, Lord; (großgeschrieben) Gott, Herr|o;o
 picture|Bild, Foto; Film|o;o
 black|schwarz, von der dunkelsten Farbe; dunkelhäutig, afrikanischer Herkunft|o;o
@@ -541,8 +541,8 @@ funny|lustig, zum Lachen; seltsam, verdächtig|o;o
 stick|kleben, haften, festsitzen; Stock, dünnes Stück Holz; stick to: bleiben bei, sich halten an; stick around: dableiben; stick out: herausragen, auffallen|v;o;n;n;n
 grow|wachsen, größer werden; anbauen; allmählich werden; grow up: erwachsen werden; grow into: hineinwachsen, mit der Zeit werden|v;v;v;n;n
 captain|Kapitän, Hauptmann, Anführer eines Schiffs, Teams oder einer Einheit|o
-chuckle|leise lachen, kichern|v
-hang|aufhängen, hängen; hängen, erhängen; hang out: abhängen, Zeit verbringen; hang on: warten, Moment; hang up: auflegen; hang in there: durchhalten, nicht aufgeben|v;v;n;n;n;n
+chuckle|leise lachen, kichern; leises Lachen, Kichern|v;o
+hang|aufhängen, hängen; hängen, erhängen; hang out: Zeit verbringen, abhängen (ugs.); hang on: warten; hang up: auflegen; hang in there: durchhalten, nicht aufgeben; get the hang of: den Dreh herausbekommen|v;v;n;n;n;n;n
 human|Mensch; menschlich|o;o
 em|(in 'em) sie, ihnen (ugs.)|o
 safe|sicher, außer Gefahr; Safe, Tresor für Wertsachen|o;o
@@ -563,7 +563,7 @@ state|Staat, Regierung; Zustand; erklären, förmlich sagen|o;o;v
 company|Firma, Unternehmen; Gesellschaft, Beisammensein|o;o
 force|Kraft, Gewalt; zwingen; Streitmacht, bewaffnete Truppe|o;v;o
 fly|fliegen; Fliege, kleines Insekt|v;o
-win|gewinnen, siegen|v
+win|gewinnen, siegen; Gewinn, Sieg|v;o
 shouldn|(in shouldn't) sollte nicht, sollten nicht|o
 running|rennend, laufend; in Betrieb, laufend; running out of: keinen Vorrat mehr habend von|o;o;n
 white|weiß, von der Farbe des Schnees; hellhäutig, europäischer Herkunft|o;o
@@ -571,7 +571,7 @@ alright|in Ordnung, okay (= all right)|o
 million|1.000.000|o
 piece|Stück, Teil eines Ganzen; einzelner Gegenstand|o;o
 ma|(in ma'am) gnädige Frau; Mama (ugs.)|o;o
-scream|schreien, laut aufschreien vor Angst oder Schmerz|v
+scream|laut vor Angst oder Schmerz schreien; Schrei|v;o
 gentleman|Herr, höfliche Bezeichnung für einen Mann|o
 perfect|perfekt, fehlerlos, genau richtig|o
 beat|schlagen, wiederholt hauen; besiegen; Rhythmus, Takt|v;v;o
@@ -581,7 +581,7 @@ anybody|irgendjemand, jeder|o
 secret|geheim, vor anderen verborgen; Geheimnis|o;o
 bitch|(abwertend) gehässige Frau; Hündin; meckern, jammern|o;o;v
 ass|(vulg.) Arsch, Hintern; Dummkopf; Esel|o;o;o
-kiss|küssen, mit den Lippen berühren|v
+kiss|küssen; Kuss|v;o
 shoot|schießen, eine Waffe abfeuern; filmen, drehen|v;v
 special|besonders, nicht gewöhnlich, für einen Zweck bestimmt|o
 attack|angreifen, Gewalt anwenden gegen; Anfall, plötzliche Erkrankung|v;o
@@ -592,7 +592,7 @@ sick|krank, unwohl; ekelhaft; sick of: satt, überdrüssig|o;o;n
 poor|arm, mit wenig Geld; arm, bemitleidenswert; schlecht, von geringer Qualität|o;o;o
 perhaps|vielleicht, möglicherweise|o
 report|Bericht, Darstellung von etwas; melden, offiziell mitteilen|o;v
-wake|aufwachen, wecken; wake up: aufwachen, jemanden wecken|v;n
+wake|aufwachen, wecken; wake up: aufwachen, aufwecken; in the wake of: nach, infolge von; Kielwasser|v;n;n;o
 serious|ernst, nicht scherzend; schwer, gravierend|o;o
 voice|Stimme, Laut, den ein Mensch beim Sprechen macht|o
 sense|Bedeutung, Sinn; gesunder Menschenverstand; Sinn, Fähigkeit zu fühlen; spüren, wahrnehmen; make sense: Sinn ergeben, verständlich sein, logisch sein|o;o;o;v;n
@@ -604,7 +604,7 @@ explain|erklären, verdeutlichen, begründen|v
 earth|Erde, Welt; Erde, Boden; what on earth / why on earth / how on earth / where on earth / who on earth: um alles in der Welt, überhaupt (zur Betonung)|o;o;n
 past|Vergangenheit, Zeit vor jetzt; vorbei, an ... vorbei|o;o
 mistake|Fehler, etwas falsch Gemachtes|o
-meeting|Treffen, Besprechung, Sitzung|o
+meeting|Treffen, Besprechung, Sitzung; meeting, -ing-Form von meet|o;o
 possible|möglich|o
 strong|stark, kräftig|o
 arm|Arm, Körperglied von der Schulter bis zur Hand; bewaffnen, mit Waffen versorgen|o;v
@@ -640,7 +640,7 @@ clean|sauber, schmutzfrei; reinigen, putzen|o;v
 act|handeln, etwas tun; spielen, eine Rolle darstellen; Tat, Gesetz|v;v;o
 dress|Kleid, von Frauen getragenes Kleidungsstück; anziehen, ankleiden|o;v
 evening|Abend, Ende des Tages vor der Nacht|o
-bet|wetten, Geld auf ein Ergebnis riskieren; I bet: ich bin sicher|v;n
+bet|um Geld wetten; I bet: ich bin sicher, ich wette; Wette|v;n;o
 ship|Schiff, großes Boot; versenden, Waren schicken|o;v
 allow|erlauben, zulassen, gestatten|v
 sex|Geschlecht, männlich oder weiblich; Sex, körperlicher Akt zwischen Menschen|o;o
@@ -653,7 +653,7 @@ letter|Brief, schriftliche Nachricht; Buchstabe, Zeichen für einen Laut|o;o
 rather|stattdessen, lieber; ziemlich, recht; rather than: statt, anstatt; would rather: lieber wollen, vorziehen|o;o;n;n
 steal|stehlen, ohne Erlaubnis nehmen|v
 felt|fühlte, Vergangenheit von feel; Filz, dicker Stoff aus gepresster Wolle; felt like: wollte (tun oder haben), kam vor wie|o;o;n
-grunt|grunzen, einen tiefen rauen Laut machen|v
+grunt|grunzen, brummen; Grunzen, Brummen|v;o
 protect|schützen, vor Schaden bewahren|v
 cover|bedecken, etwas darüberlegen; behandeln, einschließen; Schutz, Deckung|v;v;o
 join|sich anschließen, zusammenkommen mit; beitreten, Mitglied werden|v;v
@@ -661,11 +661,11 @@ sing|singen, mit der Stimme Musik machen|v
 ball|Ball, runder Gegenstand für Spiele; Ball, festlicher Tanz|o;o
 quiet|leise, ruhig, mit wenig oder keinem Lärm; ruhig, nicht belebt|o;o
 law|Gesetz, vom Staat erlassene Regel; die Polizei|o;o
-count|zählen, Zahlen der Reihe nach sagen; zählen, wichtig sein; count on: sich verlassen auf|v;v;n
+count|zählen; wichtig sein, zählen; count on: sich verlassen auf; Zählung, Gesamtzahl (the vote count); Count, Graf (the Count of Monte Cristo)|v;v;n;o;o
 somewhere|irgendwo, irgendwohin|o
 train|Zug, Schienenfahrzeug; ausbilden, üben, trainieren|o;v
 enjoy|genießen, Freude haben an|v
-knock|klopfen, an eine Tür schlagen|v
+knock|klopfen, schlagen; Klopfen (at the door)|v;o
 jesus|(Ausruf der Überraschung oder des Ärgers); Jesus Christus, zentrale Gestalt des Christentums|g;o
 coffee|Kaffee, heißes Getränk aus gerösteten Bohnen|o
 test|Test, Prüfung von Qualität oder Wissen; ausprobieren, testen|o;v
@@ -696,35 +696,35 @@ ooh|oh (Ausruf der Überraschung oder des Vergnügens)|g
 class|Klasse, gemeinsam unterrichtete Gruppe; Unterrichtsstunde; soziale Schicht; Klasse, Qualität|o;o;o;o
 mark|Fleck, Strich, Spur auf etwas; benoten; markieren, die Position zeigen von|o;v;v
 choice|Wahl, das Auswählen; Auswahl, verfügbare Möglichkeit|o;o
-arrest|verhaften, festnehmen|v
+arrest|verhaften, festnehmen; Verhaftung, Festnahme|v;o
 card|Karte, steifes Papier für Mitteilungen, Spiele oder Zahlung|o
 imagine|sich vorstellen, ein Bild im Kopf formen; annehmen, vermuten|v;v
 joke|Witz, etwas, das Menschen zum Lachen bringen soll; scherzen, spaßen|o;v
 system|System, Gefüge zusammenhängender Teile oder Regeln|o
 wonderful|wunderbar, außerordentlich gut|o
 mad|wütend, zornig; verrückt, wahnsinnig|o;o
-push|schieben, drücken; drängen|v;v
+push|schieben, drücken; drängen, antreiben; Stoß, Schub; große Anstrengung, Vorstoß (the push for reform)|v;v;o;o
 absolutely|absolut, völlig; (als Antwort) auf jeden Fall|o;o
 ride|reiten, fahren, auf einem Pferd oder in einem Fahrzeug reisen; Fahrt|v;o
 drug|Medikament, Arznei; Droge, illegale Substanz|o;o
 present|gegenwärtig, jetzig; Geschenk; vorstellen, zeigen; anwesend|o;o;v;o
 smell|riechen, mit der Nase wahrnehmen; Geruch; duften, riechen (it smells good)|v;o;v
-building|Gebäude, Bauwerk mit Wänden und Dach|o
+building|Gebäude; building, -ing-Form von build|o;o
 yesterday|gestern, der Tag vor heute|o
 box|Kiste, Schachtel, Behälter mit geraden Seiten; boxen, mit den Fäusten kämpfen|o;v
 mess|Unordnung, Durcheinander; Schlamassel, Ärger; mess up: verderben, vermasseln; mess with: sich anlegen mit, herumpfuschen an|o;o;n;n
 president|Präsident, Präsidentin, Oberhaupt eines Landes oder einer Firma|o
 darling|Liebling, Schatz, Kosewort für einen geliebten Menschen|o
 share|teilen, mit anderen aufteilen; Anteil; Aktie, Anteil an einem Unternehmen|v;o;o
-reach|erreichen, ankommen bei; sich strecken nach, greifen nach|v;v
-burn|brennen, verbrennen, mit Feuer zerstören|v
+reach|erreichen, ankommen in; die Hand ausstrecken, greifen; Reichweite (out of reach)|v;v;o
+burn|brennen, verbrennen; Verbrennung, Brandwunde|v;o
 leg|Bein, Gliedmaße zum Stehen und Gehen|o
 forgive|vergeben, verzeihen, aufhören zu beschuldigen|v
 worth|wert, den Wert habend von; wert, verdienend|o;o
 pain|Schmerz, unangenehmes Gefühl durch Verletzung oder Krankheit|o
 message|Nachricht, jemandem gesendete Information|o
 swear|schwören, feierlich versprechen; fluchen, derbe Wörter benutzen|v;v
-visit|besuchen, jemanden oder einen Ort aufsuchen|v
+visit|besuchen; Besuch|v;o
 build|bauen, aus Teilen zusammensetzen|v
 fish|Fisch, im Wasser lebendes Tier; angeln, fischen|o;v
 american|amerikanisch, aus den USA; Amerikaner, Person aus den USA|o;o
@@ -738,7 +738,7 @@ wedding|Hochzeit, Zeremonie, bei der zwei Menschen heiraten|o
 court|Gericht, Ort, wo Rechtsfälle verhandelt werden; Hof, königlicher Haushalt; umwerben|o;o;v
 none|keine, kein einziger|o
 amazing|erstaunlich, großartig, sehr beeindruckend|o
-general|allgemein, alle betreffend, nicht detailliert; General, hoher Offizier|o;o
+general|allgemein, weit verbreitet; ungenau, grob (a general idea); in general: im Allgemeinen, meistens; General, hoher Offizier der Armee|o;o;n;o
 chief|Anführer, Chef; Haupt-, wichtigste|o;o
 dark|dunkel, ohne Licht; dunkel, tief in der Farbe; düster|o;o;o
 strange|seltsam, ungewöhnlich, unvertraut; fremd, unbekannt|o;o
@@ -746,7 +746,7 @@ station|Bahnhof, Haltestelle für Züge; Wache, Sender (Polizei, Rundfunk); gas 
 goodbye|(beim Abschied gesagt) auf Wiedersehen|g
 fear|Angst, durch Gefahr ausgelöstes Gefühl; fürchten, Angst haben vor|o;v
 near|nah, in der Nähe, nicht weit entfernt|o
-kick|treten, mit dem Fuß stoßen|v
+kick|mit dem Fuß treten; Tritt, Fußtritt|v;o
 wall|Wand, senkrechte Seite eines Raums oder Gebäudes; Mauer, Barriere|o;o
 brain|Gehirn, Denkorgan im Kopf; Verstand, Intelligenz|o;o
 arrive|ankommen, einen Ort erreichen|v
@@ -778,7 +778,7 @@ hotel|Hotel, Gebäude, in dem Reisende gegen Bezahlung übernachten|o
 deep|tief, weit nach unten reichend; tiefgründig, schwer zu verstehen; tief, intensiv, stark empfunden (deep love, deep trouble)|o;o;o
 idiot|Idiot, Dummkopf, jemand, der ohne Verstand handelt|o
 short|kurz, klein; kurz, von geringer Dauer; shorts: kurze Hose; in short: kurzum, zusammengefasst; short of: knapp an, ohne genug von|o;o;n;n;n
-jump|springen, sich vom Boden abstoßen|v
+jump|springen; Sprung; plötzlicher Anstieg (a jump in prices)|v;o;o
 table|Tisch, flache Platte auf Beinen; Tabelle, Liste von Zahlen in Reihen|o;o
 buddy|Kumpel, Freund (ugs.)|o
 birthday|Geburtstag, jährlich gefeierter Tag der Geburt|o
@@ -818,7 +818,7 @@ seven|7|o
 clothes|Kleidung, Kleider, am Körper getragene Dinge|o
 respect|Respekt, Achtung vor dem Wert eines anderen; respektieren, mit Achtung behandeln|o;v
 smoke|Rauch, graue Wolke von einem Feuer; rauchen, Tabakrauch einatmen|o;v
-escape|entkommen, fliehen, sich befreien|v
+escape|entkommen, fliehen; Flucht|v;o
 window|Fenster, Öffnung in einer Wand mit Glas|o
 hasn|(in hasn't) hat nicht|f3s
 boat|Boot, kleines Wasserfahrzeug|o
@@ -843,7 +843,7 @@ seriously|ernsthaft, ernst; wirklich, im Ernst|o;o
 forever|für immer, endlos|o
 entire|ganz, vollständig|o
 space|Raum, Platz, Lücke; Weltraum, Gebiet jenseits der Erde|o;o
-mention|erwähnen, kurz sagen, sich beziehen auf; not to mention: ganz zu schweigen von, außerdem|v;n
+mention|erwähnen, nennen; not to mention: ganz zu schweigen von, außerdem; Erwähnung|v;n;o
 gasp|nach Luft schnappen, vor Schreck scharf einatmen|v
 track|Pfad, Weg, Bahn; Titel, aufgenommenes Lied; verfolgen; keep track of: im Blick behalten, Aufzeichnungen führen über; Spuren, am Boden hinterlassene Zeichen; Gleis, Schienen|o;o;v;n;o;o
 across|über, quer über, von einer Seite zur anderen|o
@@ -869,16 +869,16 @@ sea|Meer, See, große Salzwasserfläche|o
 contact|Kontakt aufnehmen mit; Verbindung, Kontakt zwischen Menschen|v;o
 killer|Mörder, Killer, Person, die tötet|o
 grab|packen, ergreifen, plötzlich festhalten|v
-groan|stöhnen, ächzen, einen tiefen Laut des Schmerzes oder der Klage machen|v
+groan|vor Schmerz oder Verdruss stöhnen; Stöhnen|v;o
 witness|Zeuge, Zeugin, Person, die etwas geschehen sah; Zeuge sein, miterleben|o;v
 relationship|Beziehung, Verbindung zwischen zwei Menschen; Liebesbeziehung|o;o
 sitting|sitzend, auf einem Sitz ruhend|o
 radio|Radio, Gerät, das Sendungen empfängt; Rundfunk, Senden über Wellen|o;o
 decision|Entscheidung, getroffene Wahl|o
-remain|bleiben, übrig bleiben|v
+remain|bleiben, übrig bleiben; the remains, Überreste, Rest (of a meal, a body)|v;o
 lunch|Mittagessen, Mahlzeit in der Mitte des Tages|o
 field|Feld, offenes Land für Anbau oder Sport; Fachgebiet, Studienbereich|o;o
-smile|lächeln, den Mund vor Freude nach oben ziehen|v
+smile|lächeln; Lächeln|v;o
 peace|Frieden, Freiheit von Krieg; Ruhe|o;o
 cat|Katze, kleines pelziges Haustier|o
 government|Regierung, Gruppe, die ein Land regiert|o
@@ -889,7 +889,7 @@ tough|schwierig, schwer zu schaffen; zäh, stark, nicht leicht zu verletzen|o;o
 enemy|Feind, Person oder Land, die gegen einen kämpft|o
 memory|Gedächtnis, Fähigkeit sich zu erinnern; Erinnerung, etwas Erinnertes|o;o
 concern|Sorge; betreffen, sich handeln um, mit etwas zu tun haben|o;v
-travel|reisen, von Ort zu Ort fahren|v
+travel|reisen; Reisen, Fahrten (air travel, on his travels)|v;o
 teacher|Lehrer, Lehrerin, Person, deren Beruf das Unterrichten ist|o
 position|Position, Platz, wo etwas ist; Stelle, Job; Standpunkt, vertretene Meinung|o;o;o
 lawyer|Anwalt, Anwältin, in Rechtsfragen ausgebildete Person|o
@@ -918,7 +918,7 @@ afternoon|Nachmittag, Zeit zwischen Mittag und Abend|o
 personal|persönlich, einer Person gehörend, privat|o
 difficult|schwierig, nicht leicht, Anstrengung erfordernd|o
 proud|stolz, zufrieden mit dem, was man selbst oder die Seinen getan haben|o
-shout|rufen, schreien, sehr laut sagen|v
+shout|rufen, schreien; Ruf, Schrei|v;o
 church|Kirche, Gebäude für christlichen Gottesdienst|o
 tea|Tee, heißes Getränk aus Blättern|o
 slow|langsam, lange dauernd, nicht schnell|o
@@ -930,7 +930,7 @@ public|öffentlich, für alle offen; die Öffentlichkeit, die Menschen allgemein
 base|Unterteil, Fundament; Stützpunkt, Militärlager; based in / based on: ansässig in, beruhend auf|o;o;n
 angry|wütend, verärgert, stark missbilligend|o
 file|Akte, Ordner mit Papieren oder Daten; ablegen, ordnungsgemäß einsortieren; Feile, Werkzeug zum Glätten|o;v;o
-bear|Bär, großes schweres Wildtier; tragen, ertragen|o;v
+bear|Bär; tragen, haben (bear a weight, bear a name); ertragen, aushalten (can't bear it)|o;v;v
 sad|traurig, unglücklich|o
 cross|überqueren, von einer Seite zur anderen gehen; verärgert; Kreuz, Form aus zwei Linien|v;o;o
 match|Spiel, Wettkampf zwischen zwei Seiten; Streichholz, kleines Holz, das Feuer macht; gleichkommen, passen zu|o;o;v
@@ -945,7 +945,7 @@ taste|Geschmack; schmecken, Geschmack wahrnehmen; Geschmack, Stilempfinden|o;v;o
 suspect|Verdächtiger, Verdächtige, für schuldig gehaltene Person; vermuten, für wahrscheinlich halten (I suspect he lied); verdächtigen, misstrauen|o;v;v
 queen|Königin, Herrscherin; Königin, Frau eines Königs|o;o
 plane|Flugzeug; Ebene, flache Fläche|o;o
-sake|(for the sake of) Wohl, Zweck, um ... willen|o
+sake|Wohl, Interesse (for your sake); for the sake of: um ... willen, zugunsten von; for God's sake / for heaven's sake: um Gottes willen (Ausruf des Ärgers oder der Dringlichkeit)|o;n;n
 mm|mm (Laut der Zustimmung oder des Nachdenkens)|g
 standing|stehend, aufrecht auf den Füßen|o
 island|Insel, von Wasser umgebenes Land|o
@@ -960,8 +960,8 @@ screw|Schraube, Befestigungsteil aus Metall mit Gewinde; schrauben, damit befest
 pop|Knall, plötzliches kleines Geräusch; Popmusik; Papa (ugs.); platzen, knallen|o;o;o;v
 boyfriend|Freund, männlicher Liebespartner|o
 mm-hmm|mhm (Laut für ja)|g
-fill|füllen, voll machen; fill in: ausfüllen (ein Formular), einspringen für jemanden; fill out: ausfüllen (ein Formular)|v;n;n
-within|innerhalb, vor Ablauf von|o
+fill|füllen, voll machen; fill in: ausfüllen, vertreten; fill out: ausfüllen; so viel, wie man will (eat your fill)|v;n;n;o
+within|innerhalb, in; innerhalb von, binnen (within a week)|o;o
 beg|flehen, inständig bitten; betteln, auf der Straße um Geld bitten|v;v
 pleasure|Vergnügen, Freude, Gefühl des Genusses|o
 vote|wählen, abstimmen, bei einer Wahl entscheiden; Stimme, so getroffene Wahl|v;o
@@ -1025,9 +1025,9 @@ jail|Gefängnis|o
 member|Mitglied, Person, die zu einer Gruppe gehört|o
 cost|Kosten, zu zahlender Preis; kosten, einen Preis haben|o;v
 address|Adresse, Anschrift, wo jemand wohnt; ansprechen, sich wenden an; angehen, sich befassen mit|o;v;v
-spirit|Seele, Geist; Geist, Gespenst; Stimmung, Mut|o;o;o
+spirit|Seele, Geist; Gespenst, Geist; Stimmung, Laune (in good spirits); Mut, Schwung|o;o;o;o
 guest|Gast, eingeladene oder übernachtende Person|o
-release|freilassen, befreien; veröffentlichen, bekannt machen|v;v
+release|freilassen, befreien; veröffentlichen; Freilassung (the release of prisoners); Veröffentlichung (a press release)|v;v;o;o
 manage|schaffen, es fertigbringen; leiten, verantwortlich sein für|v;v
 stone|Stein, harter mineralischer Stoff; Steinchen, kleiner Fels|o;o
 la|(gesungene Silbe) la|o
@@ -1059,7 +1059,7 @@ race|Rennen, Wettlauf; Volksgruppe, Abstammungsgruppe; rasen, schnell rennen|o;o
 battle|Schlacht, Kampf zwischen Streitkräften|o
 laughter|Gelächter, Lachen|o
 mountain|Berg, sehr hoher Hügel|o
-wash|waschen, mit Wasser reinigen|v
+wash|waschen; Wäsche, Waschen; the wash, Wäsche, schmutzige Wäsche (in the wash)|v;o;o
 level|Niveau, Stufe, erreichte Höhe oder Standard; eben, flach|o;o
 whose|wessen, dessen|o
 final|letzte, am Ende; Finale, entscheidendes Spiel|o;o
@@ -1081,8 +1081,8 @@ summer|Sommer, wärmste Jahreszeit|o
 magic|Magie, Zauber, Macht, Unmögliches zu tun; Zaubertricks, scheinbar unmögliche Kunststücke|o;o
 dirty|schmutzig, nicht sauber; derb, unanständig|o;o
 colonel|Oberst, hoher Offizier der Armee|o
-camp|Lager, Platz zum Übernachten in Zelten; zelten, campen|o;v
-yell|schreien, laut rufen|v
+camp|Zeltlager; zelten; Lager, Gruppe, Partei in einem Streit|o;v;o
+yell|laut schreien; Schrei|v;o
 holding|haltend, in den Händen haltend; holding on: warten, festhalten|o;n
 remind|erinnern, jemanden etwas ins Gedächtnis rufen|v
 immediately|sofort, unverzüglich|o
@@ -1106,14 +1106,14 @@ er|äh (Laut des Zögerns)|g
 color|Farbe, Rot, Blau, Grün und die übrigen; färben, einfärben|o;v
 rid|get rid of: loswerden, sich befreien von; befreien von|n;v
 result|Ergebnis, Folge, was aus etwas folgt; Ergebnis eines Tests|o;o
-crap|(vulg.) Mist, Quatsch, Unsinn; Kot|o;o
+crap|(vulg.) Mist, Quatsch; (vulg.) Kot, Scheiße|o;o
 yo|(ugs. Gruß oder Ruf, um Aufmerksamkeit zu erregen) yo|g
 grand|großartig, beeindruckend, auf feine Art groß; Riese, tausend Dollar (ugs.)|o;o
 sky|Himmel, Raum über der Erde|o
 warm|warm, leicht heiß; herzlich, freundlich|o;o
-piss|(vulg.) pissen, urinieren; pissed off: angepisst, verärgert|v;n
+piss|(vulg.) pinkeln; pissed off: verärgert, angepisst (derb); (vulg.) Urin, das Pinkeln (take a piss); take the piss: (brit., vulg.) verarschen|v;n;o;n
 worst|schlechteste, am schlechtesten|o
-shake|schütteln, zittern, schnell hin und her bewegen|v
+shake|schnell hin und her bewegen, schütteln; Schütteln (a shake of the head)|v;o
 aah|aah (Schrei der Angst oder des Schmerzes)|g
 low|niedrig, nahe am Boden; gering, klein in der Menge; tief im Klang|o;o;o
 challenge|Herausforderung, schwere Aufgabe, die einen testet; anzweifeln, herausfordern|o;v
@@ -1131,7 +1131,7 @@ shh|pst (Aufforderung zur Ruhe)|g
 conversation|Gespräch, Unterhaltung zwischen Menschen|o
 nervous|nervös, ängstlich, leicht zu erschrecken|o
 themselves|sich selbst, sie selbst (reflexiv von they)|o
-hunt|jagen, verfolgen, um zu töten oder zu fangen; suchen|v;v
+hunt|jagen; suchen; Jagd, Suche|v;v;o
 hire|einstellen, jemanden zum Arbeiten bezahlen; mieten, für eine Zeit gegen Bezahlung nutzen|v;v
 discuss|besprechen, diskutieren, mit anderen darüber reden|v
 copy|Kopie, Abbild, etwas, das einem anderen gleicht; kopieren, nachmachen; Exemplar eines Buches oder einer Zeitung|o;v;o
@@ -1139,7 +1139,7 @@ leader|Anführer, Anführerin, Leiter, Person, der andere folgen|o
 rose|Rose, Blume mit Dornen am Stiel; stieg, Vergangenheit von rise|o;o
 hadn|(in hadn't) verneinte Form von had|o
 tape|Klebeband, Band, Streifen aus klebrigem Material; Aufnahme; aufnehmen|o;o;v
-chase|jagen, verfolgen, hinterherrennen, um zu fangen|v
+chase|jagen, verfolgen; Verfolgungsjagd|v;o
 gas|Gas, luftähnliche Substanz; Benzin (amerik.)|o;o
 egg|Ei, ovales, von einem Vogel gelegtes Objekt|o
 bone|Knochen, hartes Stück des Skeletts|o
@@ -1155,7 +1155,7 @@ further|weiter, in größerer Entfernung oder größerem Maß; weitere, zusätzl
 correct|richtig, korrekt, ohne Fehler; berichtigen, korrigieren|o;v
 otherwise|andernfalls, sonst; in anderer Hinsicht, ansonsten|o;o
 pray|beten, zu Gott sprechen|v
-freak|Sonderling, seltsame Person oder Sache; freak out: ausflippen, die Kontrolle verlieren|o;n
+freak|seltsamer Mensch, seltsame Sache; freak out: ausrasten (ugs.), die Kontrolle verlieren; höchst ungewöhnlich und unerwartet (a freak accident)|o;n;o
 awesome|geil, großartig, sehr beeindruckend (ugs.)|o
 monster|Monster, großes furchterregendes Wesen; Unmensch, grausamer Mensch|o;o
 prince|Prinz, Sohn eines Königs oder einer Königin|o
@@ -1175,14 +1175,14 @@ folk|Leute, Menschen im Allgemeinen; einfache Leute; Volksmusik|o;o;o
 nose|Nase, Teil des Gesichts zum Riechen|o
 target|Ziel, Zielscheibe, das, worauf gezielt wird; Ziel, zu erreichendes Ergebnis|o;o
 driver|Fahrer, Fahrerin, Person, die fährt|o
-crash|krachen, heftig aufprallen und beschädigt werden; Krach, lautes Geräusch beim Zerbrechen|v;o
+crash|heftig aufprallen und beschädigt werden; lauter Krach; Unfall, bei dem ein Fahrzeug gegen etwas prallt (a car crash)|v;o;o
 plant|Pflanze, im Boden wachsendes Lebewesen; Fabrik, Werk; pflanzen, in den Boden setzen|o;o;v
 bullet|Kugel, Geschoss, kleines Metallstück, das aus einer Waffe abgefeuert wird|o
 corner|Ecke, Punkt, an dem sich zwei Linien oder Straßen treffen|o
 energy|Energie, Kraft zum Arbeiten; Schwung, Lebendigkeit|o;o
 guilty|schuldig, Unrecht begangen habend; schuldbewusst, sich im Unrecht fühlend|o;o
 apart|getrennt, voneinander entfernt; apart from: abgesehen von, außer|o;n
-bunch|Bündel, Strauß, Gruppe von Dingen, die zusammen gehalten werden oder wachsen|o
+bunch|Bündel, Strauß, Büschel; a bunch of: (ugs.) eine Menge|o;n
 empty|leer, nichts enthaltend; leeren, alles herausnehmen aus|o;v
 writing|Schrift, Geschriebenes, auf Papier gebrachte Wörter|o
 danger|Gefahr, Möglichkeit eines Schadens|o
@@ -1205,7 +1205,7 @@ indeed|tatsächlich, in der Tat, wirklich|o
 wild|wild, in der Natur lebend, nicht gezähmt; unbändig, unkontrolliert|o;o
 fellow|Kerl, Bursche; Mit-, zur selben Gruppe gehörend|o;o
 refuse|ablehnen, verweigern, nein sagen zu|v
-claim|behaupten, sagen, etwas sei wahr; beanspruchen, als sein Eigen fordern|v;v
+claim|behaupten; beanspruchen, fordern; Behauptung; Anspruch, Forderung, Recht (a claim to the throne)|v;v;o;o
 character|Charakter, Wesen eines Menschen; Figur, Person in einer Geschichte; Zeichen, Buchstabe|o;o;o
 opportunity|Gelegenheit, Chance, etwas Gutes zu tun|o
 apologize|sich entschuldigen, Entschuldigung sagen|v
@@ -1262,7 +1262,7 @@ bottom|Boden, unterster Teil; Hintern, Po|o;o
 closer|näher|o
 damage|Schaden, einer Sache zugefügtes Leid; beschädigen, schaden|o;v
 shooting|Schießen, Abfeuern einer Waffe; Erschießen, Töten durch Schüsse|o;o
-bite|beißen, mit den Zähnen schneiden|v
+bite|mit den Zähnen beißen; Bissen, Happen (have a bite); Biss, Stich|v;o;o
 approach|sich nähern, herankommen; Ansatz, Art, an etwas heranzugehen|v;o
 interview|Interview, Vorstellungsgespräch, Treffen, bei dem jemand befragt wird; befragen, interviewen|o;v
 nature|Natur, die physische Welt der Pflanzen und Tiere; Wesen, Charakter eines Menschen|o;o
@@ -1306,7 +1306,7 @@ chair|Stuhl, Sitz für eine Person mit Lehne; Vorsitzender, Person, die eine Sit
 plenty|reichlich, so viel wie nötig und mehr|o
 page|Seite, eine Seite eines Blattes in einem Buch|o
 excellent|ausgezeichnet, hervorragend, außerordentlich gut|o
-asshole|(vulg.) Arschloch, verachtenswerte Person; After|o;o
+asshole|(vulg.) Arschloch; (vulg.) After, Arschloch|o;o
 bless|segnen, Gott um Gunst bitten für; bless you: Gesundheit (höfliche Wendung nach dem Niesen)|v;n
 fuckin|(vulg.) = fucking, zur Betonung|o
 unite|vereinen, zusammenfügen|v
@@ -1317,7 +1317,7 @@ main|Haupt-, wichtigste|o
 hill|Hügel, erhöhtes Stück Land, niedriger als ein Berg|o
 request|bitten um, höflich verlangen; Bitte, höfliches Ersuchen|v;o
 whoever|wer auch immer, jeder, der|o
-post|Stelle, Posten, Position; Post, Briefsendungen; Pfosten, aufrechte Stange; mit der Post schicken|o;o;o;v
+post|Stelle, Posten; Post; Pfosten, Pfahl; mit der Post schicken; online stellen, posten (post a photo)|o;o;o;v;v
 minister|Minister, Leiter eines Regierungsressorts; Geistlicher, Pfarrer, Kirchenvorsteher|o;o
 bridge|Brücke, Bauwerk, das eine Straße über Wasser führt|o
 bullshit|(vulg.) Quatsch, Lügen; (vulg.) belügen, anlügen|o;v
@@ -1328,7 +1328,7 @@ although|obwohl, trotz der Tatsache, dass|o
 rob|berauben, ausrauben, mit Gewalt oder Drohung wegnehmen|v
 breath|Atem, in die Lungen aufgenommene Luft|o
 lesson|Unterrichtsstunde, Lektion; Lehre, aus Erfahrung Gelerntes|o;o
-dick|(vulg.) Schwanz, Penis; Mistkerl, verachtenswerter Mann|o;o
+dick|(vulg.) Schwanz, Penis; (vulg.) Mistkerl, Arsch|o;o
 market|Markt, Ort, an dem Waren verkauft werden; Markt, Nachfrage nach Waren|o;o
 career|Karriere, Berufslaufbahn in einem Arbeitsfeld|o
 emergency|Notfall, plötzliche Gefahr, die sofortiges Handeln erfordert|o
@@ -1362,7 +1362,7 @@ advice|Rat, Ratschlag, Meinung dazu, was jemand tun sollte|o
 dump|abladen, fallen lassen und zurücklassen; Müllhalde, Ort für Abfall; Schluss machen mit, eine Beziehung beenden mit|v;o;v
 noise|Lärm, Geräusch, lauter oder unerwünschter Schall|o
 term|Begriff, Bezeichnung für etwas; Zeitraum, Zeitspanne; Bedingung einer Vereinbarung; in terms of: in Bezug auf, hinsichtlich|o;o;o;n
-whisper|flüstern, sehr leise sprechen|v
+whisper|flüstern; Flüstern|v;o
 rush|eilen, sich beeilen; Ansturm, plötzliche Bewegung vieler Menschen|v;o
 nor|und nicht, noch|o
 drag|schleifen, ziehen, am Boden entlangziehen; etwas Langweiliges (ugs.)|v;o
@@ -1391,7 +1391,7 @@ thief|Dieb, Diebin, Person, die stiehlt|o
 rent|Miete, Geld für die Nutzung einer Wohnung; mieten, vermieten, dies zahlen oder nehmen|o;v
 century|Jahrhundert, 100 Jahre|o
 credit|Anerkennung, Lob für das, was man getan hat; Kredit, jetzt kaufen und später zahlen|o;o
-spread|ausbreiten, öffnen; sich verbreiten, mehr Orte erreichen|v;v
+spread|ausbreiten, öffnen; sich ausbreiten; Ausbreitung, Verbreitung (the spread of a disease)|v;v;o
 super|super, ausgezeichnet; sehr (ugs.)|o;o
 research|Forschung, sorgfältige Untersuchung, um Tatsachen herauszufinden|o
 warn|warnen, auf eine drohende Gefahr hinweisen|v
@@ -1445,7 +1445,7 @@ prisoner|Gefangener, Gefangene, eingesperrte Person|o
 earn|verdienen, durch Arbeit bekommen; verdienen, sich verdient machen|v;v
 nonsense|Unsinn, Wörter oder Verhalten ohne Sinn|o
 whistle|Pfiff, hoher Ton durch Blasen; pfeifen, ihn erzeugen; Pfeife, kleines Instrument zum Pfeifen|o;v;o
-mix|mischen, zu einem zusammenfügen; vermengen, verbinden; mix up: verwechseln (eine Sache mit einer anderen)|v;v;n
+mix|zusammenmischen; vermischen, kombinieren; mix up: verwechseln; Mischung|v;v;n;o
 contract|Vertrag, schriftliche Vereinbarung; sich zusammenziehen, kleiner oder enger machen|o;v
 original|ursprünglich, erste, früheste; originell, neu und nicht kopiert|o;o
 confuse|verwirren, unklar machen; verwechseln, eines für das andere halten|v;v
@@ -1464,7 +1464,7 @@ honestly|ehrlich, wahrheitsgemäß; (zur Betonung) ehrlich gesagt, wirklich|o;o
 bro|Bruder, Kumpel (ugs.)|o
 image|Bild, Abbild; Image, Eindruck, wie etwas von anderen gesehen wird|o;o
 society|Gesellschaft, zusammenlebende Menschen; Verein, Klub oder Gruppe|o;o
-spare|übrig, zusätzlich, für den Bedarf aufgehoben; entbehren, hergeben; verschonen, vor Schaden bewahren|o;v;v
+spare|überzählig, Ersatz-, für den Bedarf aufgehoben; entbehren können, erübrigen (time, money); verschonen|o;v;v
 breathing|atmend, Luft ein- und ausatmend|o
 repeat|wiederholen, nochmals sagen oder tun|v
 sweetie|Schatz, Liebling (Anrede im Gespräch)|o
@@ -1486,7 +1486,7 @@ poison|Gift, Substanz, die beim Aufnehmen tötet oder schadet|o
 roger|(im Funk) verstanden, Nachricht empfangen|o
 customer|Kunde, Kundin, Person, die in einem Geschäft kauft|o
 universe|Universum, Weltall, alles, was im Raum existiert|o
-meaning|Bedeutung, wofür ein Wort oder eine Handlung steht|o
+meaning|Bedeutung, wofür ein Wort oder eine Handlung steht; Meinen, -ing-Form von mean|o;o
 bright|hell, viel Licht gebend; klug, aufgeweckt; leuchtend, kräftig in der Farbe|o;o;o
 indian|indisch, aus Indien; indianisch, von den Urvölkern Amerikas (veraltet, oft abwertend)|o;o
 dr|Dr., Abkürzung für Doktor|o
@@ -1570,7 +1570,7 @@ arrange|ordnen, anordnen; planen, organisieren|v;v
 mister|Herr (Anrede für einen Mann)|o
 ancient|antik, uralt; sehr alt|o;o
 value|Wert; schätzen|o;v
-cough|husten|v
+cough|husten; Husten|v;o
 direct|direkt, gerade; leiten, lenken|o;v
 lake|See|o
 co|Co., Abkürzung für Firma (Company)|o
@@ -1603,7 +1603,7 @@ handsome|gutaussehend (von einem Mann)|o
 mayor|Bürgermeister|o
 indistinct|(Untertitelhinweis) unverständlich|o
 deny|leugnen, bestreiten; verweigern|v;v
-site|Ort, an dem etwas liegt oder gebaut wird|o
+site|Ort, Gelände, Stelle; Website|o;o
 require|brauchen, benötigen; verlangen, vorschreiben|v;v
 supply|liefern, versorgen; Vorrat|v;o
 knee|Knie|o
@@ -1612,7 +1612,7 @@ official|offiziell, amtlich; Beamter, Funktionär|o;o
 trace|Spur; aufspüren|o;v
 growl|Knurren|o
 lower|tiefer; herunterlassen, senken|o;v
-struggle|kämpfen, sich abmühen|v
+struggle|kämpfen, sich abmühen; Kampf, Mühe|v;o
 square|Quadrat; Platz|o;o
 bike|Fahrrad oder Motorrad|o
 weather|Wetter|o
@@ -1637,7 +1637,7 @@ borrow|ausleihen, sich leihen|v
 slowly|langsam|o
 spanish|spanisch; Spanisch|o;o
 journey|Reise|o
-transfer|übertragen, verlegen, überweisen|v
+transfer|von einem Ort oder einer Person zum anderen bringen, übertragen; Überweisung, Versetzung, Transfer|v;o
 ocean|Ozean, Weltmeer|o
 sugar|Zucker|o
 map|Karte, Landkarte|o
@@ -1647,7 +1647,7 @@ excite|aufregen, begeistern|v
 shoulder|Schulter|o
 liar|Lügner|o
 easily|leicht, mühelos|o
-rescue|retten|v
+rescue|aus Gefahr retten; Rettung|v;o
 intend|beabsichtigen, vorhaben|v
 insane|wahnsinnig, verrückt|o
 wet|nass|o
@@ -1700,7 +1700,7 @@ showing|Zeigen, Vorführen; Vorführung eines Films|o;o
 insist|bestehen auf, beharren|v
 develop|entwickeln, sich entwickeln; bebauen|v;v
 circle|Kreis; Freundeskreis|o;o
-secretary|Sekretär, Sekretärin; Minister, Abteilungsleiter|o;o
+secretary|Sekretär, Sekretärin; Minister, Ministerin|o;o
 newspaper|Zeitung|o
 genius|Genie|o
 bark|Bellen; Rinde|o;o
@@ -1722,7 +1722,7 @@ sudden|plötzlich|o
 bleep|(kurzer hoher Ton, der ein derbes Wort überdeckt)|g
 defense|Verteidigung; Verteidigung des Angeklagten|o;o
 period|Zeitraum; Regelblutung, Periode; Punkt|o;o;o
-accuse|beschuldigen, anklagen|v
+accuse|beschuldigen, anklagen; the accused: der Angeklagte, die Angeklagte|v;n
 vehicle|Fahrzeug|o
 effort|Anstrengung, Mühe; Versuch|o;o
 bug|Insekt, Käfer; Programmfehler; Wanze; ärgern|o;o;o;v
@@ -1744,7 +1744,7 @@ barely|kaum, gerade so|o
 diamond|Diamant|o
 engage|fesseln, beschäftigen (Aufmerksamkeit); einstellen, anstellen; engage in: sich beteiligen an; engage with: sich befassen mit|v;v;n;n
 disease|Krankheit (bei Menschen, Tieren oder Pflanzen)|o
-sob|schluchzen|v
+sob|schluchzen; Schluchzer|v;o
 betray|verraten, hintergehen|v
 yard|Hof, Grundstück; Yard (Längenmaß, 0,9 m)|o;o
 goin|going (ugs. Schreibweise)|o
@@ -1785,7 +1785,7 @@ chocolate|Schokolade|o
 royal|königlich|o
 expert|Experte, Fachmann|o
 text|Text; SMS, Kurznachricht; eine SMS schicken|o;o;v
-capture|gefangen nehmen, fassen|v
+capture|gefangen nehmen, fangen; Eroberung, Gefangennahme (the capture of the city)|v;o
 witch|Hexe|o
 honour|honour, britische Schreibweise von honor|o
 chick|Küken; Mädchen, junge Frau (ugs., oft abwertend)|o;o
@@ -1844,7 +1844,7 @@ pilot|Pilot|o
 delicious|köstlich, lecker|o
 proper|richtig, angemessen; echt, ordentlich|o;o
 defeat|besiegen, schlagen; Niederlage|v;o
-hug|umarmen|v
+hug|umarmen; Umarmung|v;o
 swim|schwimmen|v
 lad|Junge, junger Mann (brit.)|o
 advantage|Vorteil; take advantage of: ausnutzen (eine Gelegenheit), ausbeuten|o;n
@@ -1884,7 +1884,7 @@ treatment|Behandlung; Umgang mit jemandem|o;o
 useless|nutzlos; unfähig, hoffnungslos|o;o
 pour|gießen, schütten; stark regnen|v;v
 clever|klug, schlau|o
-nerve|Nerv; Mut; Frechheit|o;o;o
+nerve|Nerv; Mut; Frechheit, Dreistigkeit (the nerve to ask)|o;o;o
 apple|Apfel|o
 performance|Aufführung, Auftritt; Leistung|o;o
 changing|sich verändernd|o
@@ -1977,7 +1977,7 @@ candy|Süßigkeiten (amerik.)|o
 pride|Stolz; Hochmut, Überheblichkeit|o;o
 heh|(kurzes Lachen)|g
 toast|Toast; Trinkspruch|o;o
-flow|fließen|v
+flow|fließen; Fluss, Strom|v;o
 insult|beleidigen; Beleidigung|v;o
 suffering|Leid, Leiden|o
 section|Abschnitt, Teil|o
@@ -2018,7 +2018,7 @@ express|ausdrücken, äußern; Schnellzug, Eilbeförderung|v;o
 capable|fähig, imstande; tüchtig|o;o
 progress|Fortschritt, Vorankommen; Verbesserung|o;o
 zone|Zone, Bereich|o
-literally|buchstäblich, wörtlich|o
+literally|wirklich, im wörtlichen Sinn; Wort für Wort, wörtlich|o;o
 junior|jünger, rangniedriger|o
 deeply|tief; zutiefst, sehr stark|o;o
 bull|Stier, Bulle|o
@@ -2106,7 +2106,7 @@ frame|Rahmen; Gerüst, Gestell; jemandem etwas anhängen|o;o;v
 propose|vorschlagen; einen Heiratsantrag machen|v;v
 april|April|o
 string|Schnur; Saite|o;o
-launch|starten, vom Stapel lassen; einführen, ins Leben rufen|v;v
+launch|abschießen, in Gang setzen; etwas Neues beginnen, auf den Markt bringen; Start, Markteinführung|v;v;o
 precious|wertvoll, kostbar; geliebt, teuer|o;o
 youth|Jugend; Jugendlicher, junger Mann|o;o
 negative|verneinend; pessimistisch; negativ (Befund)|o;o;o
@@ -2157,7 +2157,7 @@ thy|(veraltet) dein|o
 friendly|freundlich|o
 estate|Anwesen, Gut; Nachlass|o;o
 robbery|Raub|o
-spit|spucken|v
+spit|spucken; Spucke, Speichel; Spieß, Bratspieß|v;o;o
 cave|Höhle|o
 cock|(vulg.) Schwanz, Penis; Hahn|o;o
 alert|wachsam, aufmerksam; Alarm|o;o
@@ -2167,7 +2167,7 @@ salt|Salz|o
 expose|freilegen, aussetzen; enthüllen, aufdecken|v;v
 flag|Flagge, Fahne; markieren (zur Beachtung)|o;v
 policy|Politik, Richtlinie; Versicherungspolice|o;o
-slap|ohrfeigen, mit der flachen Hand schlagen|v
+slap|mit der flachen Hand schlagen, ohrfeigen; Klaps, Ohrfeige|v;o
 maid|Dienstmädchen, Hausangestellte|o
 pa|Papa, Vater (ugs.)|o
 thunder|Donner|o
@@ -2377,7 +2377,7 @@ crystal|Kristall; Kristall (feste Form)|o;o
 impressive|beeindruckend|o
 bee|Biene|o
 pitch|Spielfeld, Platz; Tonhöhe; werfen; anpreisen|o;o;v;v
-pussy|(vulg.) Fotze; Mieze (Kindersprache)|o;o
+pussy|(vulg.) Möse, Fotze; Mieze (Kindersprache); (vulg.) Feigling, Weichei|o;o;o
 adventure|Abenteuer|o
 deck|Deck; Kartenspiel|o;o
 attract|anziehen; interessieren, reizen|v;v
@@ -2464,7 +2464,7 @@ occasion|Gelegenheit, Anlass; besonderes Ereignis|o;o
 passenger|Passagier, Fahrgast|o
 exhaust|erschöpfen, ermüden; Abgase|v;o
 producer|Hersteller, Produzent; Produzent (Film, Show)|o;o
-slide|gleiten, rutschen|v
+slide|gleiten, rutschen; Abstieg, Niedergang (a slide into war); Rutsche, Folie (in a playground, in a presentation)|v;o;o
 division|Teilung, Aufteilung; Uneinigkeit; Division|o;o;o
 refer|(refer to) sich beziehen auf, erwähnen; verweisen an|v;v
 fox|Fuchs|o
@@ -2510,7 +2510,7 @@ flee|fliehen, flüchten|v
 improve|verbessern, besser werden|v
 shelter|Schutz, Unterkunft|o
 tend|neigen zu, dazu tendieren; sich kümmern um|v;v
-collapse|einstürzen, zusammenbrechen; scheitern|v;v
+collapse|plötzlich einstürzen, zusammenbrechen; völlig scheitern; Einsturz, Zusammenbruch|v;v;o
 ad|Anzeige, Werbung|o
 passport|Reisepass|o
 bush|Busch, Strauch; Buschland|o;o
@@ -2539,7 +2539,7 @@ depress|deprimieren, traurig machen; niederdrücken|v;v
 toe|Zeh|o
 commissioner|Kommissar, hoher Beamter|o
 confession|Geständnis|o
-trunk|Stamm; Reisekoffer, Truhe; Rüssel|o;o;o
+trunk|Baumstamm; großer Reisekoffer, Truhe; Rüssel; Kofferraum (amerik.; brit. boot)|o;o;o;o
 stable|stabil, beständig; Stall|o;o
 terribly|sehr, äußerst; schrecklich schlecht|o;o
 bum|Hintern (brit.); Landstreicher (amerik.)|o;o
@@ -2584,7 +2584,7 @@ fetch|holen|v
 yup|yup, andere Schreibweise von yep|o
 rocket|Rakete|o
 purse|Geldbeutel, Portemonnaie; Handtasche (amerik.)|o;o
-scale|Maßstab, Ausmaß; Skala; Schuppe|o;o;o
+scale|Ausmaß, Größenordnung; Skala, Maßstab; Schuppe; Waage (bathroom scales)|o;o;o;o
 pile|Haufen, Stapel; aufhäufen|o;v
 organization|Organisation; Ordnung, Organisieren|o;o
 hop|auf einem Bein hüpfen; hüpfen|v;v
@@ -2601,7 +2601,7 @@ ding|(heller Klingelton)|g
 poem|Gedicht|o
 pole|Stange, Mast; Pol|o;o
 gentle|sanft, behutsam|o
-meter|Zähler, Messgerät; Meter (amerik.)|o;o
+meter|Meter, 100 cm; Zähler, Messgerät|o;o
 personality|Persönlichkeit, Charakter; Prominenter|o;o
 advise|raten, beraten|v
 injure|verletzen|v
@@ -2688,7 +2688,7 @@ frankly|offen gesagt, ehrlich|o
 festival|Fest, Festival|o
 pulse|Puls|o
 average|Durchschnitt; durchschnittlich, gewöhnlich|o;o
-pat|tätscheln, klopfen|v
+pat|mit der flachen Hand sanft berühren, tätscheln; Klaps (a pat on the back)|v;o
 everyday|alltäglich|o
 generous|großzügig; reichlich|o;o
 indicate|zeigen auf, hinweisen; anzeigen, andeuten|v;v
@@ -2735,7 +2735,7 @@ judgment|Urteil; Urteilsvermögen|o;o
 seed|Same, Samenkorn|o
 compromise|Kompromiss; gefährden, kompromittieren|o;v
 bake|backen|v
-boil|kochen, sieden|v
+boil|kochen, sieden; Siedepunkt, Kochen (bring to the boil)|v;o
 appearance|Aussehen, Erscheinung; Auftreten|o;o
 feature|Gesichtszug; Merkmal, Besonderheit|o;o
 foster|in Pflege nehmen, aufziehen; fördern|v;v
@@ -2769,7 +2769,7 @@ humiliate|demütigen, bloßstellen|v
 pro|Profi; Pro, Argument dafür|o;o
 react|reagieren|v
 minor|geringer, unbedeutend; Minderjährige(r)|o;o
-burst|platzen, aufbrechen; burst into: plötzlich ausbrechen in (Tränen, Gelächter), hereinplatzen; burst out: plötzlich losprusten (lachen, weinen), ausrufen|v;n;n
+burst|plötzlich aufplatzen, platzen; burst into: plötzlich ausbrechen in (tears, laughter), hineinplatzen; burst out: plötzlich anfangen zu (laughing, crying), ausrufen; Ausbruch (a burst of anger)|v;n;n;o
 shore|Küste, Ufer|o
 officially|offiziell, amtlich|o
 superior|überlegen, höher gestellt; Vorgesetzte(r)|o;o
@@ -2802,7 +2802,7 @@ native|gebürtig, einheimisch; angeboren, natürlich|o;o
 cable|Kabel, Seil; Telegramm|o;o
 prick|(vulg.) Arschloch; (vulg.) Schwanz; stechen, einstechen|o;o;v
 vanish|verschwinden|v
-con|betrügen, reinlegen; Knacki, Sträfling (ugs.)|v;o
+con|jemanden um Geld betrügen; Knacki (ugs.), Sträfling; Gegenargument (pros and cons)|v;o;o
 unlike|anders als, im Gegensatz zu; untypisch für|o;o
 relation|Beziehung, Zusammenhang; Verwandte(r)|o;o
 convict|verurteilen, für schuldig erklären; Strafgefangene(r)|v;o
@@ -2812,7 +2812,7 @@ kit|Ausrüstung, Set, Bausatz|o
 steak|Steak|o
 thus|so, auf diese Weise; also, folglich|o;o
 await|erwarten, warten auf|v
-divide|teilen, trennen; aufteilen, verteilen|v;v
+divide|in Teile teilen; verteilen; Kluft, Spaltung (the urban-rural divide)|v;v;o
 swell|anschwellen, wachsen; Dünung|v;o
 instinct|Instinkt|o
 cowboy|Cowboy|o
@@ -2876,7 +2876,7 @@ privilege|Privileg, Vorrecht|o
 publish|veröffentlichen, herausgeben|v
 farewell|(beim Abschied) lebe wohl, auf Wiedersehen|o
 raid|Überfall, Razzia; überfallen, eine Razzia durchführen|o;v
-weed|Unkraut; Gras, Marihuana (ugs.)|o;o
+weed|Unkraut; Gras, Marihuana (ugs.); jäten, Unkraut entfernen; weed out: aussortieren (unerwünschte Leute oder Dinge)|o;o;v;n
 chirp|(kurzer hoher Vogelruf) zwitschern|g
 satellite|Satellit; Mond|o;o
 deposit|Anzahlung, Kaution; einzahlen, ablegen|o;v
@@ -2906,7 +2906,7 @@ rely|sich verlassen, vertrauen; rely on: sich verlassen auf, angewiesen sein auf
 fulfill|erfüllen (ein Versprechen), einhalten; erfüllen (ein Bedürfnis), befriedigen|v;v
 sync|synchron; synchronisieren|o;v
 missile|Rakete, Geschoss|o
-dine|zu Abend essen, speisen|v
+dine|zu Abend essen, speisen; dining room: Esszimmer|v;n
 curtain|Vorhang, Gardine|o
 humanity|Menschheit; Menschlichkeit|o;o
 reverse|rückwärts fahren, umkehren; Gegenteil|v;o
@@ -2935,7 +2935,7 @@ necklace|Halskette|o
 conflict|Konflikt, Streit; Kampf|o;o
 journalist|Journalist|o
 vessel|Schiff; Gefäß; Blutgefäß|o;o;o
-embrace|umarmen; bereitwillig annehmen|v;v
+embrace|in die Arme nehmen; gern annehmen, aufgreifen; Umarmung|v;v;o
 twelve|zwölf|o
 corn|Getreide; Mais (amerik.)|o;o
 quote|zitieren; Kostenvoranschlag, Angebot|v;o
@@ -3072,7 +3072,7 @@ wagon|Wagen, Fuhrwerk; Güterwagen|o;o
 sailor|Seemann, Matrose|o
 helpful|hilfreich|o
 bloke|Kerl, Typ (brit.)|o
-worship|anbeten, verehren; bewundern, vergöttern|v;v
+worship|beten und Gott ehren; sehr bewundern, verehren; Gottesdienst, Anbetung (a place of worship); your worship: Euer Gnaden (veraltet; Ehrentitel)|v;v;o;n
 clan|Clan, Sippe|o
 dressing|Dressing, Salatsoße; Verband|o;o
 supper|Abendessen, Abendbrot|o
@@ -3162,7 +3162,7 @@ chin|Kinn|o
 appropriate|angemessen, passend; sich aneignen|o;v
 chime|(Läuten einer Glocke)|g
 fist|Faust|o
-broad|breit; allgemein, grob|o;o
+broad|breit; allgemein, grob; Frau (veraltet; amerik. Slang, abwertend)|o;o;o
 wealth|Reichtum, Vermögen|o
 fond|fond of: mögen, gernhaben; liebevoll, zärtlich|n;o
 bunny|Hase, Häschen (Kindersprache)|o
@@ -3194,7 +3194,7 @@ ram|Widder; rammen|o;v
 counter|Theke, Ladentisch; entgegenwirken, kontern|o;v
 covering|Decke, Hülle, Schicht|o
 ditch|Graben; loswerden|o;v
-cart|Karren, Wagen|o
+cart|offener Wagen, von einem Tier gezogen; Handwagen, Einkaufswagen (a shopping cart)|o;o
 teenager|Teenager, Jugendliche(r)|o
 recruit|anwerben; Rekrut, Neumitglied|v;o
 raw|roh; naturbelassen, unbearbeitet; wund|o;o;o
@@ -3205,7 +3205,7 @@ conquer|erobern, besiegen|v
 catching|(bei Krankheit) ansteckend|o
 budget|Budget, Haushalt; günstig, billig|o;o
 phase|Phase, Stadium|o
-shrink|schrumpfen, kleiner werden; zurückschrecken|v;v
+shrink|schrumpfen; vor Angst zurückweichen; Psychiater (ugs.)|v;v;o
 remarkable|bemerkenswert|o
 cooperate|zusammenarbeiten, kooperieren|v
 disguise|verkleiden, tarnen; Verkleidung|v;o
@@ -3226,7 +3226,7 @@ reception|Empfang, Aufnahme; Empfang, Feier; Rezeption|o;o;o
 ritual|Ritual|o
 barn|Scheune|o
 currently|derzeit, zurzeit|o
-rumbling|(tiefes rollendes Geräusch wie Donner)|g
+rumbling|(tiefes rollendes Geräusch wie Donner); rumpelnd, grollend; anhaltend, als leise Unzufriedenheit (doubts rumbling for years)|g;o;o
 stream|Bach; Strom, Fluss|o;o
 shooter|Schütze|o
 scheme|Plan, Intrige|o
@@ -3264,7 +3264,7 @@ rap|Rap; scharfes kurzes Klopfen|o;o
 booze|Alkohol, Schnaps (ugs.)|o
 racing|Rennsport, Wettrennen|o
 flirt|flirten|v
-clothe|kleiden, einkleiden|v
+clothe|kleiden, mit Kleidung versorgen; clothing: Kleidung|v;n
 freezing|eiskalt, frostig; gefrierend|o;o
 suspend|aufhängen; aussetzen, unterbrechen; suspendieren, vorübergehend ausschließen|v;v;v
 pierce|durchbohren, durchstechen|v
@@ -3381,7 +3381,7 @@ irish|irisch|o
 nanny|Kindermädchen|o
 october|Oktober|o
 scandal|Skandal; Klatsch, Gerede|o;o
-chart|Tabelle, Diagramm, Seekarte|o
+chart|Tabelle, Diagramm; Seekarte|o;o
 euro|Euro|o
 amongst|unter, inmitten|o
 persuade|überreden, überzeugen|v
@@ -3414,7 +3414,7 @@ bait|Köder; ködern, locken|o;v
 sniffle|schniefen|v
 sting|stechen; stechender Schmerz|v;o
 tomato|Tomate|o
-murmur|murmeln|v
+murmur|leise und sanft sprechen, murmeln; Murmeln|v;o
 northern|nördlich|o
 nowadays|heutzutage|o
 drift|treiben, getrieben werden; ziellos umherziehen|v;v
@@ -3470,9 +3470,9 @@ smack|schlagen, klatschen; Klatschen, Schlag|v;o
 draft|Entwurf; Einberufung|o;o
 ham|Schinken|o
 poster|Plakat, Poster|o
-resolve|lösen, klären; beschließen, entschlossen sein|v;v
+resolve|ein Problem lösen; fest beschließen; Entschlossenheit|v;v;o
 pad|Polster, Pad; Block, Notizblock|o;o
-fold|falten|v
+fold|falten, umbiegen; Falte, Kniff|v;o
 absurd|absurd, lächerlich|o
 villain|Schurke, Bösewicht; Bösewicht (in einer Geschichte)|o;o
 unlock|aufschließen|v
@@ -3489,7 +3489,7 @@ receipt|Quittung, Beleg|o
 overcome|überwinden, besiegen; überwältigt werden|v;v
 theft|Diebstahl|o
 adore|innig lieben, verehren; sehr mögen|v;v
-cleaner|Reiniger, Putzkraft, Reinigungsmittel|o
+cleaner|Reiniger, Reinigungsmittel; sauberer|o;o
 frustrate|vereiteln, frustrieren|v
 feast|Festmahl, Festessen|o
 cabinet|Schrank; Kabinett|o;o
@@ -3727,7 +3727,7 @@ harbor|Hafen; beherbergen, Unterschlupf gewähren|o;v
 breach|Verletzung, Bruch; Bresche, Lücke|o;o
 gesture|Geste, Handbewegung; Geste, Zeichen|o;o
 pledge|Gelöbnis, Versprechen; geloben, versprechen|o;v
-moan|stöhnen; jammern, klagen|v;v
+moan|vor Schmerz leise stöhnen; sich beschweren, jammern; Stöhnen, Gejammer|v;v;o
 gathering|Versammlung, Treffen|o
 gag|knebeln; Witz, Gag|v;o
 ahem|(Räuspern, um Aufmerksamkeit zu erregen) hm, ähm|g
@@ -3779,7 +3779,7 @@ repay|zurückzahlen|v
 sustain|aufrechterhalten, stützen; erleiden|v;v
 auction|Auktion, Versteigerung|o
 knot|Knoten; Knoten (Seemeile pro Stunde)|o;o
-forge|fälschen; schmieden|v;v
+forge|fälschen; Metall durch Erhitzen formen, schmieden; Schmiede|v;v;o
 condemn|verurteilen, verdammen; verurteilen (zu einer Strafe)|v;v
 ms|Ms., Anrede für eine Frau, die nicht angibt, ob sie verheiratet ist|o
 corporate|Unternehmens-, Firmen-|o
@@ -4053,7 +4053,7 @@ violet|Veilchen; violett|o;o
 mushroom|Pilz, Champignon; wie Pilze aus dem Boden schießen|o;v
 observation|Beobachtung; Bemerkung|o;o
 underestimate|unterschätzen|v
-dispatch|abschicken, versenden; rasch erledigen|v;v
+dispatch|abschicken, versenden; schnell erledigen; Depesche, amtliche Meldung|v;v;o
 generally|im Allgemeinen, meist; allgemein, von den meisten; ganz allgemein|o;o;o
 cloth|Stoff, Tuch; Lappen|o;o
 secretly|heimlich|o
@@ -4100,7 +4100,7 @@ grain|Korn, Getreide; Körnchen; Maserung|o;o;o
 tasty|lecker, schmackhaft|o
 mademoiselle|Mademoiselle (französische Anrede für eine unverheiratete Frau)|o
 asian|asiatisch|o
-blink|blinzeln|v
+blink|schnell die Augen schließen und öffnen, blinzeln; Blinzeln (in the blink of an eye)|v;o
 presume|annehmen, vermuten; sich erdreisten, sich herausnehmen|v;v
 pregnancy|Schwangerschaft|o
 carrot|Karotte, Möhre|o
@@ -4307,7 +4307,7 @@ ivy|Efeu|o
 fabric|Stoff, Gewebe; Gefüge, Struktur|o;o
 accountant|Buchhalter, Wirtschaftsprüfer|o
 reign|Herrschaft, Regentschaft; herrschen, regieren|o;v
-sip|nippen, schlückchenweise trinken|v
+sip|in kleinen Schlucken trinken; Schluck|v;o
 sniper|Scharfschütze|o
 ha-ha|haha (Lachen)|g
 unlikely|unwahrscheinlich; kaum glaubhaft|o;o
@@ -4359,7 +4359,7 @@ intern|Praktikant; internieren|o;v
 errand|Besorgung, Botengang|o
 countess|Gräfin; Gräfin|o;o
 whew|puh (Laut der Erleichterung)|g
-decline|ablehnen, höflich ablehnen; zurückgehen, nachlassen|v;v
+decline|höflich ablehnen; an Zahl oder Stärke abnehmen, zurückgehen; Rückgang (a decline in prices)|v;v;o
 immortal|unsterblich; unvergessen|o;o
 font|Schriftart, Schrift|o
 venture|Wagnis, Unternehmung; sich wagen|o;v
@@ -4472,7 +4472,7 @@ evolution|Evolution, Entwicklung|o
 notion|Vorstellung, Idee|o
 blond|blond|o
 injection|Spritze, Injektion|o
-grasp|ergreifen, packen; begreifen, verstehen|v;v
+grasp|fest ergreifen; verstehen, begreifen; fester Griff; Verständnis (a good grasp of English)|v;v;o;o
 horny|geil (ugs.)|o
 suitable|geeignet, passend|o
 examination|Untersuchung, Prüfung; Prüfung, Examen|o;o
@@ -4633,7 +4633,7 @@ moonlight|Mondlicht|o
 comet|Komet|o
 granddaughter|Enkelin|o
 lira|Lira (frühere italienische Währung); Lira (türkische Währung)|o;o
-gaze|starren, schauen|v
+gaze|lange und ruhig blicken; langer, ruhiger Blick|v;o
 digital|digital, Ziffern-; digital|o;o
 attic|Dachboden|o
 jr|Jr. (junior, hinter dem Namen des Sohnes)|o
@@ -4660,7 +4660,7 @@ junkie|Junkie, Drogensüchtiger (ugs., abwertend); Süchtiger (adrenaline junkie
 tutor|Nachhilfelehrer, Tutor|o
 lifestyle|Lebensstil|o
 'it|it (Druckfehler für it: es)|f3s
-manufacture|herstellen, fertigen|v
+manufacture|Waren in großen Mengen herstellen; Herstellung, Fertigung|v;o
 sinner|Sünder|o
 cracker|Cracker, Kräcker; Knallbonbon|o;o
 interior|Innenseite, Inneres; im Landesinneren|o;o
@@ -4736,7 +4736,7 @@ forensics|Forensik, Kriminaltechnik|o
 refresh|erfrischen; aktualisieren, auffrischen|v;v
 outcome|Ergebnis, Ausgang|o
 verify|überprüfen, bestätigen|v
-dove|Taube (Friedenssymbol); tauchte (Vergangenheit von dive, amerik.)|o;o
+dove|Taube, Friedenssymbol; dove, Vergangenheit von dive (amerik.); Taube (Befürworter von Frieden oder weicher Politik, Gegenteil von hawk)|o;o;o
 carrier|Träger, Überbringer; Flugzeugträger|o;o
 postpone|verschieben, aufschieben|v
 voyage|Reise, Seereise|o
@@ -4901,7 +4901,7 @@ info|Info, Information (ugs.)|o
 mold|Schimmel; Form, Gussform|o;o
 motherfuckers|verachtenswerte Menschen, Mistkerle (vulg.)|o
 artificial|künstlich; unecht, gekünstelt|o;o
-sparkle|funkeln, glitzern|v
+sparkle|funkeln, glitzern; Funkeln, Glitzern|v;o
 utter|völlig, vollkommen; äußern, aussprechen|o;v
 instructor|Ausbilder, Lehrer|o
 detention|Haft, Gewahrsam; Nachsitzen|o;o
@@ -4992,7 +4992,7 @@ hitch|festmachen, anhängen; Haken, Schwierigkeit|v;o
 waltz|Walzer|o
 betrayal|Verrat|o
 bunk|Etagenbett, Koje; Quatsch, Unsinn|o;o
-nod|nicken|v
+nod|zustimmend den Kopf nicken; Nicken|v;o
 doe|Hirschkuh, Häsin|o
 forensic|forensisch, kriminaltechnisch; gerichtlich|o;o
 backpack|Rucksack|o
@@ -5191,7 +5191,7 @@ category|Kategorie|o
 flare|Aufflackern, Lichtschein; Leuchtsignal, Signalrakete|o;o
 potion|Zaubertrank, Heiltrank|o
 barber|Herrenfriseur|o
-wink|zwinkern|v
+wink|zwinkern, mit einem Auge als Zeichen blinzeln; Zwinkern|v;o
 atomic|atomar, Atom-; nuklear|o;o
 neighbourhood|Nachbarschaft, Viertel (brit. Schreibweise von neighborhood)|o
 immigrant|Einwanderer|o
@@ -5220,7 +5220,7 @@ perish|umkommen, sterben; verderben, vergehen|v;v
 adoption|Adoption; Übernahme, Annahme|o;o
 lighten|erleichtern, aufhellen|v
 jackass|Dummkopf, Esel (ugs.); männlicher Esel|o;o
-revolt|rebellieren, sich auflehnen; anwidern, abstoßen|v;v
+revolt|sich gegen die Mächtigen erheben; anwidern, empören; Aufstand, Revolte|v;v;o
 cheerful|fröhlich, heiter|o
 acceptable|akzeptabel, annehmbar|o
 clamor|Lärm, Geschrei|g
@@ -5256,7 +5256,7 @@ compartment|Fach, Abteil|o
 ruthless|skrupellos, rücksichtslos|o
 crappy|beschissen, miserabel (vulg.)|o
 scold|ausschimpfen, tadeln|v
-stocking|Strumpf|o
+stocking|Strumpf; stocking, Auffüllen mit Waren (stocking the shelves)|o;o
 cant|can't (Druckfehler für can't: kann nicht)|o
 sh|pst (Aufforderung zur Ruhe)|g
 brothel|Bordell|o
@@ -5321,7 +5321,7 @@ enable|ermöglichen, befähigen|v
 tribute|Tribut, Anerkennung, Würdigung; Tribut (Abgabe eines besiegten Volkes)|o;o
 aspirin|Aspirin|o
 cheerleader|Cheerleader|o
-thrust|stoßen, stecken|v
+thrust|heftig und plötzlich stoßen; Stoß; Schub, Antriebskraft (of an engine)|v;o;o
 liberal|liberal, aufgeschlossen; großzügig|o;o
 cuban|kubanisch|o
 plumber|Klempner, Installateur|o
@@ -5371,7 +5371,7 @@ irrelevant|irrelevant, unerheblich|o
 poppy|Mohn, Mohnblume|o
 thorn|Dorn, Stachel|o
 carpenter|Zimmermann, Tischler|o
-blush|erröten, rot werden|v
+blush|vor Scham rot werden, erröten; Erröten|v;o
 disciple|Jünger, Schüler, Anhänger|o
 perfection|Perfektion, Vollkommenheit|o
 abort|abbrechen; abtreiben|v;v
@@ -5531,7 +5531,7 @@ strangely|seltsam, merkwürdigerweise|o
 wrinkle|Falte, Runzel|o
 'er|(in der Rede) sie, ihr, ihre|o
 batch|Stapel, Schwung, Charge|o
-bind|binden, fesseln; zusammenhalten, verbinden|v;v
+bind|zusammenbinden, fesseln; zusammenhalten; Zwickmühle, schwierige Lage (in a bind)|v;v;o
 handkerchief|Taschentuch|o
 flashlight|Taschenlampe (amerik.)|o
 authentic|authentisch, echt|o
@@ -5627,7 +5627,7 @@ restrict|beschränken, einschränken|v
 fiber|Faser; Ballaststoffe|o;o
 runaway|Ausreißer, Flüchtling; außer Kontrolle geraten, ausgerissen|o;o
 sow|säen; Sau|v;o
-clapping|(Geräusch zusammenschlagender Hände) Klatschen|g
+clapping|(Geräusch zusammenschlagender Hände); clapping, -ing-Form von clap|g;o
 psychiatric|psychiatrisch|o
 compensation|Entschädigung, Schadenersatz|o
 roughly|ungefähr, etwa; grob, unsanft|o;o
@@ -5805,7 +5805,7 @@ bbc|BBC, britischer Rundfunk|o
 hull|Schiffsrumpf; Hülse, Schale|o;o
 raft|Floß|o
 moose|Elch|o
-caress|streicheln, liebkosen|v
+caress|sanft und liebevoll berühren, streicheln; Liebkosung, Streicheln|v;o
 scroll|Schriftrolle; scrollen|o;v
 mercury|Quecksilber; Merkur|o;o
 revive|wiederbeleben, neu beleben|v
@@ -5907,7 +5907,7 @@ gestapo|Gestapo, Geheime Staatspolizei|o
 trim|stutzen, beschneiden; ordentlich, gepflegt|v;o
 intrude|eindringen, stören|v
 knuckle|Fingerknöchel|o
-coo|(sanfter tiefer Laut einer Taube) Gurren; gurren, säuseln|g;v
+coo|(sanfter tiefer Laut einer Taube); zärtlich flüstern, girren; COO, Chief Operating Officer, Betriebsleiter|g;v;o
 supportive|unterstützend, hilfsbereit|o
 cuddle|kuscheln, liebkosen, in den Arm nehmen|v
 deprive|berauben, vorenthalten|v
@@ -6514,7 +6514,7 @@ homecoming|Heimkehr, Rückkehr|o
 swelling|Schwellung|o
 knob|Knauf, Knopf; Beule, Knubbel|o;o
 crumb|Krümel, Brösel|o
-grin|grinsen|v
+grin|breit lächeln, grinsen; Grinsen|v;o
 masturbate|masturbieren, onanieren|v
 christianity|Christentum|o
 breakup|Trennung, Beziehungsende; Zerfall, Auseinanderbrechen|o;o
@@ -6626,7 +6626,7 @@ fiscal|fiskalisch, steuerlich|o
 eurozone|Eurozone, Euroraum|o
 inflation|Inflation; Aufblasen|o;o
 deficit|Defizit, Fehlbetrag|o
-export|exportieren, ausführen|v
+export|Waren in ein anderes Land verkaufen, exportieren; export, ins Ausland verkaufte Waren, Exportgüter (exports)|v;o
 stability|Stabilität|o
 debut|Debüt|o
 anti|gegen, anti|o
@@ -6816,7 +6816,7 @@ restructuring|Umstrukturierung, Sanierung|o
 incorporate|aufnehmen, einbeziehen|v
 narrative|Erzählung, Schilderung|o
 domain|Bereich, Gebiet; Herrschaftsbereich, Domäne|o;o
-spur|anspornen, antreiben|v
+spur|ermutigen, anspornen; Sporn (am Reiterstiefel); spur of the moment: spontan, ohne Planung|v;o;n
 axis|Achse; Koordinatenachse; Achse, Bündnis|o;o;o
 malaria|Malaria|o
 diversity|Vielfalt|o
@@ -7033,14 +7033,14 @@ linguistic|sprachwissenschaftlich, linguistisch|o
 affordable|erschwinglich|o
 née|geborene|o
 reliance|Abhängigkeit, Verlass|o
-huff|schnauben, verärgert pusten; in a huff: beleidigt, eingeschnappt|v;n
+huff|aus Verärgerung schnaufen; in a huff: beleidigt, eingeschnappt; verärgertes Schnaufen|v;n;o
 autonomy|Autonomie, Selbstbestimmung|o
 minimize|minimieren, auf ein Mindestmaß verringern|v
 furrow|runzeln (Stirn); Furche, tiefe Falte|v;o
 openness|Offenheit; Aufgeschlossenheit|o;o
 policymaking|Politikgestaltung|o
 preference|Vorliebe, Präferenz; Vorzugsbehandlung|o;o
-decrease|abnehmen, verringern|v
+decrease|abnehmen, verringern; Abnahme, Rückgang|v;o
 prosperous|wohlhabend, erfolgreich|o
 array|große Auswahl, Anordnung|o
 consolidate|festigen, stärken; zusammenlegen|v;v
@@ -7186,7 +7186,7 @@ unify|vereinen, vereinheitlichen|v
 astonishment|Erstaunen, Verblüffung|o
 exploration|Erkundung, Forschungsreise; Untersuchung|o;o
 dioxide|Dioxid (zum Beispiel Kohlendioxid)|o
-binding|verbindlich, bindend|o
+binding|rechtlich verbindlich; binding, -ing-Form von bind|o;o
 subsidiary|Tochtergesellschaft|o
 threshold|Schwelle, Grenzwert; Türschwelle|o;o
 crouch|kauern, sich ducken|v
@@ -7445,7 +7445,7 @@ guitarist|Gitarrist|o
 mindset|Denkweise, Einstellung|o
 anthology|Anthologie, Sammlung|o
 arsenal|Arsenal, Waffenlager|o
-catalog|Katalog, Verzeichnis|o
+catalog|vollständige Liste von Gegenständen, Katalog; auflisten, der Reihe nach erfassen|o;v
 denounce|anprangern, verurteilen|v
 grit|Splitt, Sand; Mut, Durchhaltevermögen; zusammenbeißen (Zähne)|o;o;v
 meltdown|Zusammenbruch; Kernschmelze|o;o
@@ -7989,7 +7989,7 @@ configuration|Konfiguration, Anordnung|o
 deportation|Abschiebung, Ausweisung|o
 empirical|empirisch|o
 innocently|unschuldig; naiv, arglos|o;o
-listing|Liste, Eintrag|o
+listing|Liste, Eintrag in einer Liste; listing, das Aufzählen in einer Liste (listing the options)|o;o
 trifle|Kleinigkeit, Bagatelle; a trifle: ein wenig, etwas; trifle with: auf die leichte Schulter nehmen, spielen mit; Trifle (Schichtdessert)|o;n;n;o
 usher|führen, geleiten; einleiten (eine neue Ära)|v;v
 benign|harmlos, gutmütig; gutartig|o;o
@@ -8425,7 +8425,7 @@ hone|schärfen, wetzen; verfeinern (eine Fähigkeit)|v;v
 intersect|sich schneiden, kreuzen|v
 legislator|Gesetzgeber, Abgeordneter|o
 linkage|Verbindung, Verknüpfung|o
-rendering|Interpretation, Wiedergabe; Rendering, computergenerierte Darstellung|o;o
+rendering|Deutung, Darbietung; Computergrafik, Rendering; rendering, -ing-Form von render|o;o;o
 revision|Änderung, Überarbeitung; Wiederholen des Lernstoffs, Prüfungsvorbereitung|o;o
 rugby|Rugby|o
 splice|spleißen, verbinden|v
@@ -8765,7 +8765,7 @@ millennials|Millennials, Generation Y (1981–1996 Geborene)|o
 muscular|muskulös; Muskel-|o;o
 outward|äußerlich, nach außen|o
 oxytocin|Oxytocin, Bindungshormon|o
-parting|Trennung, Abschied; Scheitel|o;o
+parting|Trennung, Abschied; Scheitel; parting with: sich trennen von, aufgeben|o;o;n
 periodic|periodisch, in Abständen auftretend|o
 perk|Vergünstigung, Zusatzleistung; perk up: munter werden, aufleben|o;n
 precarious|prekär, unsicher, gefährlich|o
@@ -8810,7 +8810,7 @@ visualization|Vorstellungsbild; Visualisierung, grafische Darstellung|o;o
 approximate|ungefähr, annähernd richtig|o
 bayonet|Bajonett|o
 ceramic|keramisch, aus gebranntem Ton|o
-conditioning|Training, Konditionierung; Klimatisierung|o;o
+conditioning|Training, Konditionierung; Klimaanlage, Klimatisierung; conditioning, etwas von einer Bedingung abhängig machen (conditioning aid on reform)|o;o;o
 confidently|selbstbewusst, zuversichtlich|o
 consequential|folgenreich, bedeutend; daraus folgend|o;o
 correspondent|Korrespondent, Berichterstatter|o
@@ -9766,7 +9766,7 @@ stowaway|blinder Passagier|o
 unhealthy|ungesund; krank|o;o
 viewpoint|Standpunkt, Sichtweise|o
 aluminium|Aluminium, britische Schreibweise von aluminum|o
-anal|anal, After-; pedantisch, kleinlich|o;o
+anal|den After betreffend, anal; übertrieben pingelig (ugs.)|o;o
 biotechnology|Biotechnologie|o
 bristle|Borste; aufbrausen, sich sträuben; bristle with: strotzen vor, wimmeln von|o;v;n
 cipher|Chiffre, Geheimschrift; Null, unbedeutende Person|o;o
@@ -9906,7 +9906,7 @@ cheaply|billig, günstig|o
 combatant|Kämpfer, Kombattant|o
 commute|pendeln; umwandeln, mildern (Strafe)|v;v
 conjecture|Vermutung; vermuten|o;v
-costing|Kostenvoranschlag, Kalkulation|o
+costing|Kostenschätzung, Kalkulation; costing, -ing-Form von cost|o;o
 democratize|demokratisieren|v
 epiphany|plötzliche Erkenntnis; Dreikönigsfest (6. Januar)|o;o
 estrogen|Östrogen|o
@@ -10884,7 +10884,7 @@ husky|rau, heiser (Stimme); Schlittenhund, Husky; kräftig, stämmig|o;o;o
 imperil|gefährden, in Gefahr bringen|v
 internationalization|Internationalisierung; Anpassung von Software an andere Sprachen|o;o
 intestine|Darm|o
-invalid|ungültig, unzulässig; Invalide, Kranker|o;o
+invalid|ungültig, nicht akzeptabel; durch Krankheit geschwächter Mensch, Invalide (veraltet, kann abwertend sein)|o;o
 lightweight|leicht; unbedeutende Person, Leichtgewicht|o;o
 loathe|verabscheuen, hassen|v
 managerial|Management-, leitend|o
@@ -10943,7 +10943,7 @@ emergent|aufkommend, sich entwickelnd|o
 enchanter|Zauberer|o
 epidemiology|Epidemiologie|o
 favourable|favourable, britische Schreibweise von favorable|o
-fook|fook, Variante von fuck (ugs., = fuck)|o
+fook|(vulg.) fuck (irische und nordenglische Schreibung)|o
 forearm|Unterarm|o
 frenzy|Raserei, Taumel|o
 gamers|Spieler von Videospielen, Plural von gamer|o
@@ -11054,7 +11054,7 @@ solemnity|Feierlichkeit, Ernst|o
 straddle|rittlings sitzen auf, überspannen|v
 swoop|herabstoßen, niederstürzen; plötzlicher Überfall|v;o
 talkie|früher Tonfilm|o
-topping|Belag, Garnierung; hervorragend, prima (ugs.)|o;o
+topping|Belag, Garnierung; hervorragend, prima (ugs.); Anführen (einer Liste) (topping the list); Bestreuen, Belegen (topping it with nuts)|o;o;o;o
 unwarranted|ungerechtfertigt|o
 wad|dickes Bündel (Papier, Geld)|o
 watery|wässrig; dünn, schwach|o;o
@@ -11414,7 +11414,7 @@ spec|Spezifikation (ugs.); on spec: auf gut Glück|o;n
 statutory|gesetzlich vorgeschrieben|o
 steppe|Steppe|o
 stratum|Schicht|o
-striving|Streben, Bemühen|o
+striving|Bemühen, Anstrengung; striving, -ing-Form von strive|o;o
 subfamily|Unterfamilie|o
 symbolism|Symbolik|o
 termination|Beendigung, Ende; Kündigung, Entlassung|o;o
@@ -12070,7 +12070,7 @@ malignant|bösartig; boshaft|o;o
 mildly|leicht, mild; sanft|o;o
 morbid|morbid, krankhaft düster|o
 multisite|an mehreren Standorten|o
-musing|Nachsinnen, Grübelei|o
+musing|Nachdenken, Grübelei; musing, -ing-Form von muse|o;o
 nab|schnappen, erwischen (ugs.)|v
 observance|Befolgung, Einhaltung; religiöser Brauch|o;o
 orangutan|Orang-Utan|o
@@ -13864,7 +13864,7 @@ sunscreen|Sonnencreme|o
 sympathizer|Sympathisant|o
 symptomatic|symptomatisch; bezeichnend|o;o
 teamwork|Teamarbeit|o
-therapeutics|Therapeutik, Heilkunde|o
+therapeutics|Zweig der Medizin, der Krankheiten behandelt, Therapeutik; Behandlungen, Medikamente (antifungal therapeutics)|o;o
 thicken|eindicken, dicker werden|v
 thylacine|Beutelwolf, Tasmanischer Tiger|o
 timeframe|Zeitrahmen|o
@@ -13872,7 +13872,7 @@ tortoise|Landschildkröte|o
 unattainable|unerreichbar|o
 unbuckle|aufschnallen|v
 uncompromising|kompromisslos|o
-undoing|Verderben, Untergang|o
+undoing|Verderben, Untergang; undoing, -ing-Form von undo|o;o
 unearth|ausgraben; aufdecken|v;v
 unroll|abrollen, entrollen|v
 uphill|bergauf; mühsam|o;o
@@ -13901,7 +13901,7 @@ bloodline|Abstammungslinie, Blutlinie|o
 blot|Fleck, Makel; aufsaugen; blot out: verdecken, auslöschen|o;v;n
 borderline|Grenzfall-, an der Grenze; gerade noch akzeptabel|o;o
 brevity|Kürze|o
-brooding|grüblerisch, düster; bedrohlich|o;o
+brooding|düster und nachdenklich; bedrohlich; brooding, -ing-Form von brood|o;o;o
 caramel|Karamell; Toffee|o;o
 carp|Karpfen; nörgeln|o;v
 chasm|Kluft, Schlucht; große Lücke|o;o
@@ -14272,7 +14272,7 @@ scavenge|durchstöbern, Brauchbares sammeln; sich von Aas ernähren|v;v
 shoal|Untiefe, Sandbank; Fischschwarm|o;o
 skilful|geschickt|o
 socialization|Sozialisation, Sozialisierung|o
-spacing|Abstand, Zwischenraum|o
+spacing|Abstand zwischen Dingen; spacing, in Abständen anordnen (spacing out births)|o;o
 storeroom|Lagerraum, Abstellkammer|o
 stuffy|stickig, muffig; spießig, steif|o;o
 surmise|vermuten, mutmaßen|v
@@ -14622,7 +14622,7 @@ fisted|tight-fisted: geizig, knauserig; ham-fisted: ungeschickt, plump|n;n
 foreboding|böse Vorahnung|o
 forthe|für die (zusammengeschrieben)|o
 frigid|eiskalt; frostig, kühl|o;o
-git|Mistkerl, Blödmann (brit., ugs.)|o
+git|unangenehmer Mensch, Idiot (brit., ugs.); bekommen (Dialektschreibung von get)|o;v
 harmonica|Mundharmonika|o
 heterogeneous|heterogen, uneinheitlich|o
 homestead|Gehöft, Bauernhof|o
@@ -15568,7 +15568,7 @@ rollercoaster|Achterbahn; Auf und Ab|o;o
 saturation|Sättigung; Farbsättigung|o;o
 scalpel|Skalpell|o
 shaker|Shaker, Streuer|o
-siding|Nebengleis, Abstellgleis; Außenverkleidung|o;o
+siding|kurzes Nebengleis; Außenverkleidung einer Wand; siding with: Partei ergreifen für|o;o;n
 sinus|Nasennebenhöhle|o
 skateboard|Skateboard|o
 snob|Snob|o
@@ -16119,3 +16119,4 @@ creator|Schöpfer, Urheber; the Creator: Gott, der Schöpfer|o;n
 midterm|Mitte (einer Amtszeit oder eines Schulhalbjahrs); Zwischenwahl (USA)|o;o
 communion|Holy Communion: Abendmahl, heilige Kommunion; Verbundenheit, innige Gemeinschaft|n;o
 mottle|mottled: gefleckt, gesprenkelt|n
+united|vereint, vereinigt (the United States: die Vereinigten Staaten; the United Nations: die Vereinten Nationen); vereinte, vereint (Vergangenheit von unite)|o;o

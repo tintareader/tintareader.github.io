@@ -318,7 +318,6 @@ bevor|||
 all|||
 einmal|||
 rufen|||
-wenig|||
 woche|||nf
 auge|||nn
 halt|||
@@ -332,7 +331,7 @@ allein|||
 beim||bei,dem|contr
 weit|||
 gefunden||finden|
-lieben|||
+lieben|||v;adj
 zeigen|||
 hilfe|||nf;interj
 ne|||
@@ -373,12 +372,12 @@ hoffen|||
 hi|||
 nett|||
 später|||
-schaffen|||
 stellen|||
 einzige|||
 ende|||nn
 wichtig|||
 wort|||nn
+schaffen|||
 schlecht|||
 neu|||
 darauf|||
@@ -391,7 +390,7 @@ idee|||nf
 bereit|||
 verschwinden|||
 waffe|||nf
-krieg|||nm
+krieg|||nm;v
 tod|||nm
 schwester|||nf;nf
 monat|||nm
@@ -408,11 +407,11 @@ verlassen|||
 fallen|||
 tochter|||nf
 trinken|||
-alt|||
 fast|||
 hinter|||
 erzählen|||
 runter|||
+alt|||
 ruhig|||
 geschichte|||nf;nf
 eigene|||
@@ -430,6 +429,7 @@ darum|||
 kümmern|||
 falsch|||
 drin|||
+wenig|||
 sogar|||
 teufel|||nm
 verloren||verlieren|
@@ -444,8 +444,8 @@ seite|||nf;nf
 verstanden||verstehen|
 verlieren|||
 ruhe|||nf;v
-lachen|||
-schreiben|||
+lachen|||v;nn
+schreiben|||v;nn
 erzählt||erzählen|
 stunden||stunde|npl
 tragen|||
@@ -477,9 +477,9 @@ deshalb|||
 fangen|||
 wünschen|||
 schau||schauen|
-teil|||nm
 zimmer|||nn
 ah|||
+teil|||nm
 spaß|||nm;nm;v
 vier|||
 getötet||töten|
@@ -557,9 +557,8 @@ könig|||nm
 kaum|||
 leicht|||
 irgendwas|||
-laut|||
 rede|||nf;v
-bitten|||
+bitten|||v;npl
 sondern|||
 telefon|||nn
 arzt|||nm
@@ -574,7 +573,7 @@ aufhören|||
 wahrscheinlich|||
 arsch|||nm
 aussehen|||v;nn
-gewinnen|||
+gewinnen|||v;v
 fehler|||nm
 beginnen|||
 jung|||
@@ -600,7 +599,6 @@ bereits|||
 sechs|||
 direkt|||
 sekunde|||nf
-dauern|||
 geschäft|||nn;nn
 lieb|||
 ruf||rufen|v;nm;v
@@ -618,6 +616,7 @@ kumpel|||nm
 wert|||adj;nm
 tja|||
 überall|||
+dauern|||
 himmel|||nm;nm
 traum|||nm
 singen|||
@@ -650,10 +649,10 @@ total|||
 person|||nf
 kaffee|||nm
 öffnen|||
-schießen|||
 großartig|||
 hübsch|||
 richtige||richtig|
+laut|||
 suche|||nf;v
 zwar|||
 arm|||adj;nm
@@ -661,7 +660,6 @@ vorstellen|||
 hol||holen|
 lügen|||
 wahl|||nf;nf
-süß|||
 onkel|||nm
 witz|||nm
 nah|||
@@ -676,6 +674,7 @@ gebracht||bringen|
 tagen||tag|
 körper|||nm
 damals|||
+schießen|||
 interessiert|||
 nachdem|||
 gegangen||gehen|
@@ -687,6 +686,7 @@ irgendwo|||
 genauso|||
 genommen||nehmen|
 zukunft|||nf
+weniger||wenig|
 gefängnis|||nn
 pferd|||nn
 verletzt|||
@@ -710,7 +710,7 @@ agent|||nm
 bezahlen|||
 passieren|||
 eher|||
-ansehen|||
+ansehen|||v;v;nn
 team|||nn
 drehen|||
 versuch|||nm;nm
@@ -766,7 +766,7 @@ kosten|||v;npl
 information|||nf
 anwalt|||nm
 meinung|||nf
-setz||setzen|
+setz||setzen|v;v;v
 gehören|||
 ma|||
 antworten|||
@@ -783,6 +783,7 @@ ziel|||nn;nn
 hotel|||nn
 ähm|||
 idiot|||nm
+süß|||
 halb|||
 verzeihung|||interj;nf
 zeig||zeigen|
@@ -798,7 +799,6 @@ versprochen||versprechen|
 denk||denken|
 umgebracht||umbringen|
 verraten|||
-sieben|||
 geschenk|||nn
 nötig|||
 handy|||nn
@@ -816,10 +816,10 @@ seltsam|||
 absolut|||
 erhalten|||
 anfang|||nm
+sieben|||
 seele|||nf
 kampf|||nm
 nähe|||nf;adv
-bekannt|||
 verdammte||verdammt|
 steigen|||
 präsident|||nm
@@ -851,9 +851,9 @@ tasche|||nf;nf
 dagegen|||
 blöd|||
 benutzt||benutzen|
-geliebt||lieben|
 arschloch|||nn
 möglichkeit|||nf
+bekannt|||
 zieh||ziehen|
 gerettet||retten|
 rennen|||v;nn
@@ -913,9 +913,10 @@ schuh|||nm
 zuhause|||nn;adv
 bestehen|||
 bar|||nf;adv
-leiden|||
+leiden|||v;v;nn;nn
 erledigen|||
 beschützen|||
+geliebt||lieben|
 reise|||nf
 rücken|||nm;v
 gewonnen||gewinnen|
@@ -1081,14 +1082,13 @@ situation|||nf
 verhalten|||nn;v
 befinden|||
 naja|||
-vergeben|||
 armee|||nf
 zeitung|||nf
 fbi|||
 drink|||nm
 wand|||nf
 gold|||nn
-akte|||nf
+akte|||nf;npl
 nachdenken|||
 stein|||nm
 springen|||
@@ -1113,6 +1113,7 @@ herrn||herr|
 zerstören|||
 hose|||nf
 nervös|||
+vergeben|||
 überrascht||überraschen|
 mark|||nf;nn
 schlechte||schlecht|
@@ -1150,7 +1151,7 @@ hau||hauen|
 königin|||nf
 gucken|||
 sheriff|||
-ball|||nm
+ball|||nm;nm
 angriff|||nm
 untertitel|||nm
 frag||fragen|
@@ -1198,7 +1199,7 @@ worauf|||
 gebeten||bitten|
 dorf|||nn
 klug|||
-gelten|||
+gelten|||v;v;v
 achtung|||interj;nf
 lieutenant|||
 glückwunsch|||nm;interj
@@ -1213,7 +1214,7 @@ klopfen|||
 dritte|||
 messer|||nn
 position|||nf
-verlangen|||
+verlangen|||v;nn
 falsche||falsch|
 blau|||
 wild|||
@@ -1324,7 +1325,7 @@ gang|||nm;nm;nm;adv
 stern|||nm
 sorry|||
 unterschied|||nm
-lauten|||
+lauten|||v;v;adj
 bus|||nm
 falle|||nf;v
 verpasst||verpassen|
@@ -1414,12 +1415,11 @@ termin|||nm
 richten|||
 verantwortung|||nf
 großvater|||nm
-wart||sein|
-irre|||adj;nm
+wart||sein|v;v
+irre|||adj;nm;adv
 pause|||nf
 gestellt||stellen|
 gesamte|||
-fern|||
 hauen|||
 schloss||schließen|nn;nn;v
 regen|||nm;v
@@ -1437,7 +1437,6 @@ gebaut||bauen|
 begleiten|||
 bombe|||nf
 hasst||hassen|
-zustand|||nm
 deutsche||deutsch|
 versteh||verstehen|
 schlau|||
@@ -1446,7 +1445,6 @@ langweilig|||
 erklärt||erklären|
 frisch|||
 entdeckt||entdecken|
-achten|||
 folge|||nf;nf;v
 ertragen|||
 gelaufen||laufen|
@@ -1479,6 +1477,7 @@ behandeln|||
 auftauchen|||
 geplant||planen|
 gewissen|||nn
+fern|||
 erwähnt||erwähnen|
 anscheinend|||
 garten|||nm
@@ -1524,6 +1523,7 @@ getrunken||trinken|
 unterschreiben|||
 wahre||wahr|
 tatsache|||nf
+zustand|||nm
 star|||nm
 erlaubt||erlauben|
 überzeugt||überzeugen|
@@ -1555,7 +1555,7 @@ erklärung|||nf;nf
 umgehen|||
 längst|||
 merkwürdig|||
-irren|||
+irren|||v;v;adj
 drüber|||
 solch|||
 strand|||nm
@@ -1636,7 +1636,6 @@ grab|||nn
 projekt|||nn
 zigarette|||nf
 planen|||
-zweit|||
 rechte||recht|adj;npl
 pistole|||nf
 rache|||nf
@@ -1703,6 +1702,7 @@ knie|||nn
 kunst|||nf
 französisch|||
 medikament|||nn
+lauter||laut|
 linke|||
 weshalb|||
 ergebnis|||nn
@@ -1751,7 +1751,6 @@ getrennt||trennen|
 begraben|||
 blöde||blöd|
 schatten|||nm
-angestellt||anstellen|
 daten|||npl;v
 gemein|||
 gnade|||nf
@@ -1781,7 +1780,7 @@ schild|||nn;nm
 fahrer|||nm
 beobachtet||beobachten|
 talent|||nn
-geb||geben|
+geb||geben|v;v
 enttäuscht||enttäuschen|
 spuren||spur|npl
 theater|||nn;nn
@@ -1792,7 +1791,8 @@ stich|||nm;nm;nm;v
 knochen|||nm
 ebenso|||
 trage||tragen|v;nf
-verlässt||verlassen|
+bestes||gut|
+verlässt||verlassen|v;v
 bewusst|||
 fordern|||
 dennoch|||
@@ -1851,14 +1851,14 @@ post|||nf
 mitgenommen||mitnehmen|
 hemd|||nn
 dumme||dumm|
-tritt||treten|nm;v
+tritt||treten|nm;v;v
 samstag|||nm
 irgendein|||
 magie|||nf
 besitz|||nm
 priester|||nm
 einladen|||
-klauen|||
+achten|||v;v;adj
 irgendeine||irgendein|
 gegenteil|||nn;adv
 gehofft||hoffen|
@@ -1907,6 +1907,7 @@ vernichten|||
 kohle|||nf;nf
 hure|||nf
 cousin|||nm
+angestellt||anstellen|
 treppe|||nf
 schönheit|||nf
 ebenfalls|||
@@ -1933,7 +1934,6 @@ elle|||nf
 stürzen|||
 bauch|||nm
 sexy|||
-verlobt|||
 erlaubnis|||nf
 jacke|||nf
 beerdigung|||nf
@@ -1947,11 +1947,10 @@ herauszufinden||herausfinden|
 praktisch|||
 inzwischen|||
 sparen|||
-west|||
-heilig|||
 winter|||nm
 presse|||nf
 geduld|||nf
+klauen|||
 hä|||
 lecker|||
 usa|||
@@ -1963,7 +1962,7 @@ lügner|||nm
 medizin|||nf
 prozess|||nm;nm
 alarm|||nm
-verwirrt|||
+verwirrt|||adj;v
 amen|||
 eng|||
 fan|||nm
@@ -2102,7 +2101,6 @@ freiwillig|||
 nehm||nehmen|
 harte||hart|
 geisel|||nf
-anstellen|||
 hinterher|||
 eindeutig|||
 menschlich|||
@@ -2169,6 +2167,7 @@ betrogen||betrügen|
 inspektor|||nm
 verabschieden|||
 besucht||besuchen|
+süßer||süß|
 loswerden|||
 grenzen||grenze|npl;npl
 null|||
@@ -2206,7 +2205,6 @@ stil|||nm
 nenn||nennen|
 lippe|||nf
 anteil|||nm
-fremd|||
 gelegt||legen|
 beeilung|||
 beibringen|||
@@ -2235,7 +2233,7 @@ verhandeln|||
 fliege|||nf;nf;v
 loslassen|||
 auseinander|||
-schnitt|||nm;adv
+schnitt|||nm;adv;nm
 romantisch|||
 künstler|||nm
 erfüllen|||
@@ -2253,7 +2251,6 @@ störung|||nf;nf
 oberst|||nm
 brille|||nf
 ausweis|||nm
-fließen|||
 kopie|||nf
 wiederkommen|||
 kreis|||nm;nm
@@ -2304,10 +2301,10 @@ fähig|||
 löwe|||nm
 überfallen|||
 hammer|||nm;interj
+verlobt|||
 begeistert|||
 momentan|||
 internet|||nn
-füllen|||
 christus|||
 politik|||nf;nf
 befehlen|||
@@ -2336,7 +2333,7 @@ dämonen||dämon|npl
 tränen||träne|npl
 volle||voll|
 negativ|||
-decken|||
+decken|||v;v;v
 eingehen|||
 besiegen|||
 happy|||
@@ -2358,7 +2355,6 @@ mitmachen|||
 hmm|||
 erschreckt||erschrecken|
 behandlung|||nf
-starren|||
 kalifornien|||
 stimmung|||nf;nf
 erwähnen|||
@@ -2371,9 +2367,8 @@ rakete|||nf
 holz|||nn
 versichern|||
 begonnen||beginnen|
-mai|||nm
 kreuz|||nn;nn
-auftritt|||nm
+auftritt|||nm;v
 gelandet||landen|
 täuschen|||
 beschlossen||beschließen|
@@ -2414,7 +2409,7 @@ stattdessen|||
 dinger||ding|npl
 treu|||
 bergen||berg|v;npl
-reifen|||nm;v
+reifen|||nm;nm;v;adj
 aufgefallen||auffallen|
 bedanken|||
 nützlich|||
@@ -2478,6 +2473,7 @@ verzichten|||
 schreibtisch|||nm
 universum|||nn
 zeuge|||nm
+west|||
 klient|||nm
 korrekt|||
 osten|||nm
@@ -2516,7 +2512,8 @@ aussteigen|||
 ciao|||
 schieß||schießen|
 donnerstag|||nm
-probe|||nf;nf
+zweit|||
+probe|||nf;nf;nf
 lektion|||nf
 schaff||schaffen|
 verzeih||verzeihen|
@@ -2538,9 +2535,10 @@ training|||nn
 schreib||schreiben|
 viertel|||nn;nn
 klamotten|||npl
-heil|||adj;interj
+heil|||adj;nn;interj
 wissenschaftler|||nm
 drum||darum|
+fließen|||
 verteidigung|||nf
 abnehmen|||
 beeilt||beeilen|
@@ -2563,6 +2561,7 @@ sport|||nm
 huh|||
 jäger|||nm
 kommandant|||nm
+anstellen|||
 reagieren|||
 rad|||nn;nn
 ho|||
@@ -2574,7 +2573,7 @@ empfehlen|||
 hass|||nm
 rund|||
 seil|||nn
-verdienst|||nm;nn
+verdienst|||nm;nn;v
 verwandeln|||
 motiv|||nn;nn
 identifizieren|||
@@ -2592,6 +2591,7 @@ meinetwegen|||
 verhandlung|||nf;nf
 diener|||nm
 spieler|||nm
+starren|||
 wehren|||
 trocken|||
 hirn|||nn
@@ -2628,7 +2628,7 @@ daneben|||
 summe|||nf
 gabe|||nf
 hundert|||
-scheiden|||
+scheiden|||v;v;v
 widerlich|||
 wertvoll|||
 unglück|||nn;nn
@@ -2647,6 +2647,7 @@ rauskommen|||
 sitz||sitzen|nm;v;v
 geruch|||nm
 rosa|||
+füllen|||
 regnen|||
 höhe|||nf;nf;adv
 profi|||nm
@@ -2657,7 +2658,6 @@ segnen|||
 gedächtnis|||nn
 technik|||nf;nf
 kanone|||nf
-sinken|||
 verkauf|||nm
 wirklichkeit|||nf
 bestraft||bestrafen|
@@ -2831,7 +2831,6 @@ museum|||nn
 grüß||grüßen|
 hurensohn|||nm
 mögliche||möglich|
-begeben|||
 spring||springen|
 gebet|||nn
 scheinbar|||
@@ -2843,7 +2842,6 @@ jugend|||nf
 zurückgeben|||
 benzin|||nn
 nix||nichts|
-vereinigen|||
 mauer|||nf
 abschluss|||nm;nm
 eingestellt||einstellen|
@@ -2879,6 +2877,7 @@ clown|||nm
 bande|||nf
 tradition|||nf
 weswegen|||
+sinken|||
 geringste||gering|
 gentleman|||
 dunkle||dunkel|
@@ -2919,9 +2918,9 @@ note|||nf;nf
 stift|||nm
 besucher|||nm
 gestanden||gestehen,stehen|
-schütze|||nm;nm
+schütze|||nm;nm;v;v
 hubschrauber|||nm
-unterlagen|||npl
+unterlagen|||npl;v;v
 kette|||nf;nf
 interessante||interessant|
 wovor|||
@@ -2953,6 +2952,7 @@ flotte|||nf
 gemütlich|||
 versetzt||versetzen|
 spruch|||nm
+heiliger||heilig|nm;adj
 kultur|||nf
 reiß||reißen|
 bibliothek|||nf
@@ -3012,12 +3012,13 @@ umso|||
 bedauern|||v;nn
 unhöflich|||
 rezept|||nn;nn
+mai|||nm
 alien|||nm
 einbruch|||nm
 durchmachen|||
 getragen||tragen|
 narbe|||nf
-entgehen|||
+entgehen|||v;v;v
 zugreifen|||
 ausnahme|||nf
 botschafter|||nm
@@ -3037,7 +3038,9 @@ wiegen|||
 vorschrift|||nf
 aufzeichnung|||nf;nf
 elefant|||nm
+vereinigten||vereinigen|adj;npl;nn;v
 vergiftet||vergiften|
+zweiter||zweit|
 versaut||versauen|
 badezimmer|||nn
 kehle|||nf
@@ -3103,7 +3106,6 @@ stop|||
 schlimme||schlimm|
 bestrafen|||
 leere||leer|adj;nf
-herrschaft|||nf
 königliche||königlich|
 zaun|||nm
 deuten|||
@@ -3127,10 +3129,10 @@ cowboy|||nm
 gefangene||gefangen|nm
 unterschrift|||nf
 küste|||nf
-handel|||nm
+handel|||nm;nm
 verlass||verlassen|
 dünn|||
-parkplatz|||nm
+parkplatz|||nm;nm
 mommy|||
 jahrelang|||
 männlich|||
@@ -3233,6 +3235,7 @@ orten|||
 hitze|||nf
 tv|||
 fröhliche||fröhlich|
+wolle||wollen|nf;v
 fleck|||nm
 hupen|||
 probier||probieren|
@@ -3363,7 +3366,6 @@ abgeholt||abholen|
 narren||narr|npl;v
 tiefe||tief|nf;adj
 bestimmte||bestimmt|
-lose||los|
 engländer|||nm
 verkehr|||nm
 gebissen||beißen|
@@ -3377,7 +3379,7 @@ knacken|||
 gesang|||nm
 brand|||nm
 muster|||nn
-beziehen|||
+beziehen|||v;v;v;v
 eingeschlafen||einschlafen|
 überfahren|||
 produkt|||nn
@@ -3400,7 +3402,7 @@ ekelhaft|||
 explodiert||explodieren|
 gewaltig|||
 eigenartig|||
-weichen|||
+weichen|||v;adj
 besetzt||besetzen|
 kleben|||
 teenager|||nm
@@ -3493,6 +3495,8 @@ daumen|||nm
 reiche||reich|
 testament|||nn
 übernachten|||
+begeben|||
+fremder||fremd|nm;adj
 batterie|||nf
 sachte|||
 aufspüren|||
@@ -3535,12 +3539,10 @@ erbärmlich|||
 gründlich|||
 existenz|||nf
 football|||
-verwandt|||
 ohnmächtig|||
 heb||heben|
 entsprechen|||
 eimer|||nm
-abreisen|||
 gütig|||
 salz|||nn
 unfair|||
@@ -3587,7 +3589,6 @@ erbe|||nm;nn
 geheilt||heilen|
 wal|||nm
 wettbewerb|||nm
-absagen|||
 datei|||nf
 übernommen||übernehmen|
 mars|||
@@ -3622,13 +3623,13 @@ gelächter|||nn
 whisky|||nm
 einspruch|||nm
 erklär||erklären|
+heilig|||
 rausgehen|||
 bestand||bestehen|nm;nm;v
 kaution|||nf;nf
 verurteilen|||
 frucht|||nf
 gesessen||sitzen|
-kürzen|||
 salat|||nm;nm
 lade||laden|v;nf
 spinner|||nm
@@ -3686,7 +3687,6 @@ biene|||nf
 schnaps|||nm
 gefickt||ficken|
 moskau|||
-wärmen|||
 blutung|||nf
 gestoßen||stoßen|
 passend|||
@@ -3738,6 +3738,7 @@ bargeld|||nn
 segeln|||
 beunruhigt||beunruhigen|
 muskel|||nm
+achte||achten|adj;v;v
 analysieren|||
 angemessen|||
 morden|||
@@ -3824,7 +3825,6 @@ klinge|||nf
 zusammenhang|||nm
 beileid|||nn;interj
 unschuld|||nf
-polen|||
 abziehen|||
 betrieb|||nm;nm;adj
 lautsprecher|||nm
@@ -3862,6 +3862,7 @@ antreten|||
 oje|||
 bohne|||nf
 episode|||nf
+fremd|||
 krankenstation|||nf
 leine|||nf;nf
 set|||nn
@@ -3951,6 +3952,7 @@ pissen|||
 chirurg|||nm
 fette||fett|
 aufsteigen|||
+absagen|||
 lecken|||
 zwang||zwingen|nm;v
 besoffen|||
@@ -3989,7 +3991,7 @@ verbreiten|||
 verkünden|||
 ersparen|||
 illusion|||nf
-scheitern|||
+scheitern|||v;nn
 box|||nf;nf
 jury|||nf
 ausgedacht||ausdenken|
@@ -4218,7 +4220,7 @@ profil|||nn
 riskiert||riskieren|
 ausrede|||nf
 kühl|||
-verfügen|||
+verfügen|||v;v
 verhindert||verhindern|
 darling|||
 tüte|||nf
@@ -4274,6 +4276,7 @@ sowohl|||
 geste|||nf
 spritze|||nf;nf
 einzelheit|||nf
+loser||lose|nm;adj
 beantragen|||
 begleitet||begleiten|
 genehmigung|||nf
@@ -4354,7 +4357,7 @@ ablenkung|||nf
 unerwartet|||
 beschleunigen|||
 sonnenuntergang|||nm
-stillen|||
+stillen|||adj;v;v
 käufer|||nm
 krach|||nm;nm
 zukommen|||
@@ -4371,6 +4374,7 @@ römer|||nm
 miese||mies|
 verbündete|||nm
 gnädig|||
+verwandt|||
 cola|||nf
 kammer|||nf
 verdorben||verderben|
@@ -4420,6 +4424,7 @@ ketten||kette|npl
 gefälscht||fälschen|
 begehren|||v;nn
 fotografieren|||
+herrschaften||herrschaft|npl;npl
 inwiefern|||
 konflikt|||nm
 angefasst||anfassen|
@@ -4460,6 +4465,7 @@ tschuldigung||entschuldigung|
 flitterwochen|||npl
 verursachen|||
 fahrstuhl|||nm
+geliebter||geliebt|nm;adj
 ignoriert||ignorieren|
 transportieren|||
 autorität|||nf
@@ -4538,6 +4544,7 @@ reizen|||
 ewige||ewig|
 kolonie|||nf
 entdeckung|||nf
+polen|||
 aufklären|||
 hahn|||nm;nm
 mittlere|||
@@ -4563,7 +4570,7 @@ provozieren|||
 standort|||nm
 verachten|||
 erobern|||
-notieren|||
+notieren|||v;v
 beneiden|||
 gefeiert||feiern|
 offene||offen|
@@ -4675,7 +4682,6 @@ knarren||knarre|v;npl
 schalen||schale|npl;npl
 äußere|||adj;nn
 betten||bett|npl
-link|||nm
 winkel|||nm;nm
 austausch|||nm
 neigen|||
@@ -4713,6 +4719,7 @@ eifersucht|||nf
 freilassen|||
 januar|||nm
 kranke||krank|
+kürze||kürzen|nf;adv;v
 mysteriöse||mysteriös|
 brite|||nm
 empfehlung|||nf
@@ -4922,6 +4929,7 @@ flüchtig|||
 flüssigkeit|||nf
 wärter|||nm
 bißchen||bisschen|
+schoß||schießen|nm;v
 serviert||servieren|
 dimension|||nf
 fluß||fluss|
@@ -4978,6 +4986,7 @@ verletzte||verletzt|
 behindert||behindern|
 dreckige||dreckig|
 ernte|||nf
+weste|||nf;nf
 ideal|||
 kennzeichen|||nn;nn
 outfit|||nn
@@ -4997,6 +5006,7 @@ erschienen||erscheinen|
 funktion|||nf
 klemme|||nf;nf;adj
 min|||
+wärme||wärmen|nf;v
 ausleihen|||
 äußern|||
 igitt|||
@@ -5054,7 +5064,6 @@ firmen||firma|npl
 lagerhaus|||nn
 hindernis|||nn
 fickt||ficken|
-sekt|||nm
 stumm|||
 wissenschaftliche||wissenschaftlich|
 einrichten|||
@@ -5145,7 +5154,6 @@ edle||edel|
 griechisch|||
 hässliche||hässlich|
 kopieren|||
-stützen|||
 andenken|||nn
 definieren|||
 gate|||nn
@@ -5185,7 +5193,6 @@ scherzen|||
 profitieren|||
 verkleidet||verkleiden|
 verspäten|||
-pusten|||
 wachmann|||nm
 kreativ|||
 ordnen|||
@@ -5234,6 +5241,7 @@ verirrt||verirren|
 lebende||lebend|
 schmutzige||schmutzig|
 unerträglich|||
+abreisen|||
 eingreifen|||
 gesammelt||sammeln|
 entscheidend|||
@@ -5305,7 +5313,7 @@ bruch|||nm;nm
 dynamit|||nn
 sonnenschein|||nm
 uralt|||
-verschreiben|||
+verschreiben|||v;v;v
 aufgelegt||auflegen|
 biegen|||
 bräutigam|||nm
@@ -5473,7 +5481,7 @@ auserwählt||auserwählen|
 hierbei|||
 talentiert|||
 anfänger|||nm
-erwidern|||
+erwidern|||v;v
 reue|||nf
 rhythmus|||nm
 stipendium|||nn
@@ -5671,7 +5679,6 @@ zerrissen||zerreißen|
 erhoben||erheben|
 ermordung|||nf
 hinüber|||
-kröte|||nf
 zauberei|||nf
 biss||beißen|nm;v
 budget|||nn
@@ -5714,6 +5721,7 @@ auszeichnung|||nf
 gegenzug|||
 ire|||nm
 parade|||nf
+verlobter||verlobt|nm;adj
 alkoholiker|||nm
 altar|||nm
 auspacken|||
@@ -5768,7 +5776,6 @@ anständige||anständig|
 befriedigen|||
 chemikalie|||nf
 gezeichnet||zeichnen|
-gläubig|||
 historische||historisch|
 körperverletzung|||nf
 pink|||
@@ -5842,6 +5849,7 @@ angesetzt||ansetzen|
 studentin|||nf
 schriftlich|||
 bösewicht|||nm
+herrschaft|||nf
 unverzüglich|||
 verhören|||
 volltreffer|||nm
@@ -6010,6 +6018,7 @@ maulwurf|||nm
 rauszufinden||rausfinden|
 wertvolle||wertvoll|
 zerquetschen|||
+mais|||nm
 taube|||nf;adj
 trieb||treiben|nm;v
 feder|||nf;nf
@@ -6021,6 +6030,7 @@ bewirken|||
 eingebildet||einbilden|
 mörderin|||nf
 wanne|||nf
+dauer|||nf;adv
 drogendealer|||nm
 verbessert||verbessern|
 vertraute||vertraut|nm;adj
@@ -6032,6 +6042,7 @@ commissioner|||
 gescheitert||scheitern|
 inner|||adj
 kragen|||nm
+anstelle|||
 plane|||nf;v
 reizende||reizend|
 valentinstag|||nm
@@ -6111,6 +6122,7 @@ wodurch|||
 antrieb|||nm;nm
 armut|||nf
 aufwecken|||
+bekannter||bekannt|nm;adj;adj
 einwand|||nm
 vorsprechen|||
 zahlung|||nf
@@ -6150,7 +6162,6 @@ fotografiert||fotografieren|
 gekleidet||kleiden|
 hierfür|||
 immerzu|||
-schweißen|||
 sprichwort|||nn
 vergeltung|||nf
 aufgestellt||aufstellen|
@@ -6197,6 +6208,7 @@ wandeln|||
 polieren|||
 rockmusik|||nf
 undankbar|||
+link|||nm
 seither|||
 stoß|||nm;nm
 tennis|||nn
@@ -6244,6 +6256,7 @@ strasse||straße|
 unzählige||unzählig|
 anbetracht|||
 platziert||platzieren|
+abreise|||nf
 dates||date|npl
 farbig|||
 hamburg|||
@@ -6591,6 +6604,7 @@ nerv|||nm
 poesie|||nf
 sattel|||nm
 staatliche||staatlich|
+stützen|||
 belastet||belasten|
 geprügelt||prügeln|
 hingelegt||hinlegen|
@@ -6651,6 +6665,7 @@ bösartig|||
 geschluckt||schlucken|
 großeltern|||npl
 komplikation|||nf
+schweiß|||nm
 selbstvertrauen|||nn
 übereinstimmung|||nf;nf
 aufgehängt||aufhängen|
@@ -6664,6 +6679,7 @@ fackel|||nf
 jägerin|||nf
 justiz|||nf
 neapel|||
+schuft|||nm
 sofortige||sofortig|
 erfassen|||
 regiment|||nn
@@ -6716,7 +6732,7 @@ ritt||reiten|nm;v
 tickt||ticken|
 versiegelt||versiegeln|
 abgeschaltet||abschalten|
-entsetzen|||
+entsetzen|||v;v;nn
 erscheinung|||nf;nf
 marquis|||nm
 raubüberfall|||nm
@@ -6791,19 +6807,6 @@ auffliegen|||
 gegenleistung|||nf
 helfer|||nm
 jämmerlich|||
-strafen|||v
-täuschung|||nf
-verwirren|||
-zitat|||nn
-zurückverfolgen|||
-hauptrolle|||nf
-inszenieren|||
-jetzige||jetzig|
-klingel|||nf
-roh|||
-toben|||
-verurteilung|||nf
-verwöhnt||verwöhnen|
 wirtschaftlich|||
 großbritannien|||
 abrufen|||
@@ -7204,7 +7207,7 @@ aufwertung|5||nf;nf
 orthodox|5||
 professorin|||nf
 steinern|5||
-trüben|||
+trüben|||v;v;adj
 unbeweglich|||
 zornig|||
 abfahren|||
@@ -7502,7 +7505,7 @@ herrlichkeit|||nf
 merkmal|||nn
 stellvertreter|||nm
 abwechselnd|||
-bleichen|||
+bleichen|||adj;v;v
 deregulierung|5||nf
 folglich|||
 fremdsprachig|5||
@@ -8842,6 +8845,7 @@ entern|||
 freiheitlich|5||
 gemeinschaftlich|5||
 inklusion|5||nf
+inszenieren|||
 operativ|||
 rassistisch|||
 revolte|||nf
@@ -15176,7 +15180,7 @@ mysteriös|||
 mästen|||v
 mörtel|||nm
 nacktheit|||nf
-nahen|5||
+nahen|5||v;adj
 neuheit|5||nf
 nichtigkeit|5||nf;nf
 nudel|||nf;nf
@@ -15236,6 +15240,7 @@ spornen|5||v
 staatlich|||
 stadtviertel|5||nn
 sterblich|||
+strafen|||v
 strahl|||nm;nm
 stramm|||adj;adj;adj
 streifzug|5||nm
@@ -16796,6 +16801,72 @@ finanziert||finanzieren|
 gesandt||senden|
 gesunden||gesund|
 legion|||nf
+letzter|5||
+bedacht|5|bedenken|
+rast|5|rasen|nf;v
+begabt|||
+begehrt|5|begehren|
+puste|||nf;adj
+sekte|||nf
+beschämt|5|beschämen|
+angestellter||angestellt|nm
+verwandter||verwandt|nm;adj
+berechtigt|5|berechtigen|
+überholt|5|überholen|
+gekonnt||können|
+vergnügt|5|vergnügen|
+floß||fließen|nn;v
+kröten||kröte|npl;npl
+zustande|||
+geborgen|5|bergen|
+linker||link|adj;adj;nm
+lumpen|5|lump|nm;npl
+ältester||alt|
+siebte||sieben|
+pole|||nm
+vergebens|||
+dürre|5|dürr|nf;adj;adj
+überzogen|5|überziehen|
+ferner||fern|
+starre||starren|adj;nf;v
+sankt|||
+franken|5|franke|nm;nn;npl
+teils|||
+gläubiger||gläubig|nm;nm;adj
+distanziert|5|distanzieren|adj;v
+gewandt|5|wenden|
+klaue||klauen|nf;v
+verlies|||nn
+anstieg|5|ansteigen|nm;nm;v
+vereinigte||vereinigen|adj;nn;npl;v
+stütze||stützen|nf;v
+fülle||füllen|nf;adv;v
+beamter|||nm
+anlaß|||nm;nm
+aufschrei|||nm;nm
+absage|||nf;nf
+reisender||reisen|nm
+bleiche||bleichen|adj;v
+vereinigen|||
+lose||los|
+kürzen|||
+wärmen|||
+sekt|||nm
+pusten|||
+kröte|||nf
+gläubig|||
+schweißen|||
+täuschung|||nf
+verwirren|||
+zitat|||nn
+zurückverfolgen|||
+hauptrolle|||nf
+jetzige||jetzig|
+klingel|||nf
+roh|||
+toben|||
+verurteilung|||nf
+verwöhnt||verwöhnen|
 s||es|bound
 kaffeehaus|5||nn
 melange|5||nf

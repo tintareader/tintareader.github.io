@@ -77,7 +77,7 @@
 不会|will not; cannot, does not know how to|o;o
 事|matter, thing (to deal with)|o
 自己|oneself, own|o
-着|(ongoing state); to cling to, attachment (zhuó) (Buddhist); to put on, to wear (zhuó)|g;v.b;v
+着|(ongoing state); (after a verb) reaching the result, managing to (找着: to find, 猜着: to guess right) (zháo); to catch, to be affected by (着凉: to catch a cold) (zháo); to put on, to wear (zhuó); to cling to, attachment (zhuó) (Buddhist)|g;o;v;v;v.b
 告诉|to tell (someone)|v
 过|(has ever done, experienced); to cross, to pass; to spend (time), to celebrate|g;v;v
 已经|already|o
@@ -146,7 +146,7 @@
 然后|then, after that|o
 看看|to have a look|v
 地方|place|o
-将|will, shall (formal); to lead, to take along (Classical)|o;v.c
+将|will, shall (formal); as 把, moves the object in front of the verb (formal: 将门关上); to lead, to take along (Classical)|o;o;v.c
 没事|it's nothing, never mind; to be all right, unhurt; to be free (nothing to do)|f3s;v;v
 一定|certainly, definitely; a certain (degree, amount)|o;o
 希望|to hope; hope|v;o
@@ -277,7 +277,7 @@
 如何|how, in what way (formal)|o
 到底|in the end, after all; (what on earth…?)|o;g
 最后|last, final; in the end|o;o
-小姐|miss, young lady|o
+小姐|miss, young lady; hostess, prostitute (slang)|o;o
 上帝|God|o
 正在|(in the middle of doing)|g
 它们|they, them (things)|f3p
@@ -569,7 +569,7 @@
 晚安|goodnight|o
 解释|to explain; explanation|v;o
 全部|all of it, the whole lot|o
-靠|to rely on; to lean on; close to|v;v;o
+靠|to rely on; to lean on; close to; damn!, crap! (vulgar)|v;v;o;o
 呆|to stay, to hang around; blank, dazed|v;o
 起|(after a verb: up, starting to); to rise, to get up; (从…起) from … on; (V + 得起 / 不起) can / can't afford (买得起); (measure word: cases, incidents)|g;v;o;o;g
 突然|suddenly; sudden|o;o
@@ -767,7 +767,7 @@
 错误|mistake, error; mistaken|o;o
 人生|one's life, life as lived|o
 攻击|to attack; an attack|v;o
-跟着|to follow along; accordingly|v;o
+跟着|to follow along; right after, then; along with it|v;o;o
 杀死|to kill, to kill off|v
 钥匙|key|o
 叔叔|uncle (father's younger brother); mister|o;o
@@ -920,7 +920,7 @@
 经历|to go through; experience|v;o
 属于|to belong to|v
 饿|hungry; to starve|o;v
-什|(in 什么: what)|g
+什|什么: what|n
 威胁|to threaten; a threat|v;o
 可不是|isn't that right, exactly|o
 怪|strange, odd; to blame|o;v
@@ -1258,7 +1258,7 @@
 命|life; fate; to order|o;o;v
 周围|surroundings, round about|o
 无聊|boring; bored|o;o
-说明|to explain; instructions|v;o
+说明|to explain; to show, to indicate (that); explanation, instructions|v;v;o
 浪费|to waste|v
 怪物|monster, freak|o
 靠近|to get close to; near|v;o
@@ -1293,7 +1293,7 @@
 船长|captain (of a ship)|o
 盯|to stare at, to keep an eye on|v
 离婚|to get divorced; divorce|v;o
-技术|technology, technique, skill|o
+技术|technology; technique, skill|o;o
 警长|sheriff, chief of police|o
 同学|classmate, fellow student|o
 天使|angel|o
@@ -1466,14 +1466,14 @@
 政治|politics; political|o;o
 邪恶|evil, wicked|o
 从不|never (as a rule)|o
-动手|to get started; to lay hands on|v;v
+动手|to get started; to hit, to come to blows|v;v
 转|to turn, to turn round; to pass on|v;v
 取消|to cancel, to call off|v
 玩意|thing, gadget|o
 班|class, shift; scheduled service|o;o
 条|(measure word: long thin things); item|g;o
 搞砸|to mess up, to botch|v
-废话|nonsense, rubbish; small talk; obviously!, no kidding|o;o;o
+废话|nonsense, rubbish; pointless talk, idle chatter; obviously!, no kidding|o;o;o
 猪|pig|o
 观众|audience, viewers|o
 成员|member|o
@@ -1722,7 +1722,7 @@
 赶|to hurry; to drive away; to catch (a train)|v;v;v
 位|(measure word: people, polite); position|g;o
 老鼠|rat, mouse|o
-他妈|damn, bloody (vulgar intensifier)|o
+他妈|damn, bloody (vulgar intensifier); his mother|o;o
 展示|to put on display, to exhibit|v
 箱子|box, case, trunk|o
 重复|to repeat; repeated|v;o
@@ -1911,7 +1911,7 @@
 尖叫|to scream, to shriek|v
 擦|to wipe, to rub|v
 圣诞节|Christmas|o
-爵士|sir, lord; jazz|o;o
+爵士|Sir (a knight's title), knight; jazz|o;o
 冠军|champion, first place|o
 按照|according to, in line with|o
 摆脱|to shake off, to get rid of|v
@@ -1926,7 +1926,7 @@
 醒|to wake up; to sober up|v;v
 有所|somewhat, to some extent|o
 树|tree|o
-大叔|uncle (an older man); mate|o;o
+大叔|uncle (an older man), mister|o
 广告|advertisement|o
 伙伴|partner, companion|o
 半|half, semi-|o
@@ -2096,7 +2096,7 @@
 分析|to analyse; analysis|v;o
 微笑|to smile; a smile|v;o
 建筑|building; architecture|o;o
-额|forehead; quota|o;o
+额|(hesitation: er, um); forehead; quota|g;o;o
 情人|lover, sweetheart|o
 年龄|age (in years)|o
 降落|to land, to come down|v
@@ -2173,7 +2173,7 @@
 道路|road; the path (figurative)|o;o
 公开|public, open; to make public|o;v
 文化|culture|o
-慰|(in 安慰: to comfort)|g
+慰|安慰: to comfort|n
 至于|as for; to the point of|o;o
 黄金|gold|o
 去死吧|go to hell, drop dead|o
@@ -2298,7 +2298,7 @@
 实话|the truth, honest words|o
 活下去|to go on living, to survive|v
 砸|to smash; to fall through|v;v
-滚出去|get out|o
+滚出去|get out (rude)|o
 美味|delicious; a delicacy|o;o
 荣誉|honour, glory|o
 机|machine; opportunity; aircraft|o;o;o
@@ -2378,7 +2378,7 @@
 烦|annoyed, fed up; to bother|o;v
 各|each, every one of|o
 地下室|basement, cellar|o
-佬|(chap, bloke: 阔佬)|g
+佬|(suffix for a man, guy, often derogatory: 乡巴佬, 美国佬)|g
 侦探|detective|o
 最新|latest, newest|o
 加州|California|o
@@ -2388,7 +2388,7 @@
 协助|to assist, to help out|v
 贾|Jia (a surname)|o
 难以|hard to (难以相信)|o
-神经|nerve; nerves|o;o
+神经|nerve; crazy, nuts (colloq.)|o;o
 警察局|police department, the station|o
 取|to take, to fetch; to obtain|v;v
 星星|star|o
@@ -2463,7 +2463,7 @@
 费|fee, charge; to use up|o;v
 欺负|to bully, to pick on|v
 断|to break off, to snap; to cut off|v;v
-森|(in 森林: forest)|g
+森|森林: forest|n
 只好|to have to settle for|v
 饼干|biscuit, cracker|o
 舞台|stage (in a theatre)|o
@@ -2544,7 +2544,7 @@
 借口|excuse, pretext|o
 女巫|witch|o
 寂寞|lonely, lonesome|o
-欧|(in 欧洲: Europe)|g
+欧|欧洲: Europe|n
 泡|to soak, to steep; bubble|v;o
 纳粹|the Nazis|o
 脏|dirty, filthy|o
@@ -2606,7 +2606,7 @@
 衬衫|shirt|o
 坏事|a bad thing, wrongdoing|o
 就是说|in other words, meaning|o
-维|(in 维持: to maintain)|g
+维|维持: to maintain|n
 会长|president, chairman (of an association)|o
 理想|ideal; an ideal|o;o
 棒极了|brilliant!, terrific|o
@@ -2654,7 +2654,7 @@
 春天|spring (the season)|o
 皇后|empress, queen consort|o
 拜访|to pay a visit to, to call on|v
-撒|to scatter, to let go|v
+撒|to scatter, to sprinkle (sǎ); to let go, to cast (a net)|v;v
 瞒|to keep (someone) in the dark|v
 捡|to pick up (off the ground)|v
 智慧|wisdom, intelligence|o
@@ -2675,7 +2675,7 @@
 善良|kind-hearted, good|o
 骗人|to fool people; you're kidding|v;f2s2p
 前辈|senior, an elder in one's field|o
-屁|fart; rubbish, nonsense|o;o
+屁|fart; rubbish, nonsense (vulgar)|o;o
 散步|to go for a walk, to stroll|v
 否认|to deny|v
 丝|silk; a thread, a trace|o;o
@@ -2745,7 +2745,7 @@
 新来|newly arrived, new here|o
 单位|unit; work unit|o;o
 囚犯|prisoner, inmate|o
-戏|play, drama; to act|o;v
+戏|play, drama, show; scene (in a film or play)|o;o
 波|wave|o
 贴|to stick on, to paste; close to|v;o
 被告|the defendant, the accused|o
@@ -2792,7 +2792,7 @@
 认出|to recognise, to make out|v
 保存|to preserve, to keep|v
 钩|hook; to hook|o;v
-老子|your old man (I, arrogantly)|o
+老子|I, me (rude, said arrogantly: literally "your old man"); Laozi, the Taoist philosopher (Lǎozǐ)|f1s;o
 悲剧|tragedy|o
 遵守|to abide by, to observe (rules)|v
 韩国|South Korea|o
@@ -2806,7 +2806,7 @@
 同伴|companion, mate|o
 强壮|strong, sturdy|o
 打倒|down with, to overthrow|o
-要不然|or it'll be a case of, failing that|o
+要不然|otherwise, or else (colloquial)|o
 合同|contract|o
 片|slice, piece; (measure word: flat things, films)|o;g
 用不着|no need to, there's no call for|o
@@ -2842,10 +2842,10 @@
 保姆|nanny, housekeeper|o
 赛|match, contest; to compete|o;v
 人才|talent, a capable person|o
-简|brief, simplified|o
+简|(in foreign names) Jane; brief, simplified|o;o
 进步|progress; to improve|o;v
 冒犯|to offend, to give offence|v
-分子|element, member (of a group)|o
+分子|element, member (of a group); molecule (fēnzǐ)|o;o
 相机|camera|o
 蛮|quite, pretty (colloquial); rough|o;o
 贼|thief; sneaky|o;o
@@ -2879,7 +2879,7 @@
 困扰|to trouble, to bother|v
 哪怕|even if, no matter if|o
 冷静下来|to calm down|v
-哈罗|hello (on the telephone)|o
+哈罗|hello (casual)|o
 扯|to pull, to tear; to talk nonsense|v;v
 燃烧|to burn, to blaze|v
 唱片|record, album|o
@@ -2899,7 +2899,7 @@
 爆发|to break out, to erupt|v
 对话|dialogue, conversation|o
 电话号码|telephone number|o
-读书|to study; to read aloud|v;v
+读书|to study, to go to school; to read (books); to read aloud|v;v;v
 无线电|radio (the medium)|o
 会见|to meet with (formally)|v
 那就好|that's good then|o
@@ -2912,7 +2912,7 @@
 抓紧|to grab hold of; to lose no time|v;v
 饶|to spare, to let off|v
 价格|price|o
-蛤|clam|o
+蛤|huh?, what? (há) (Taiwanese usage); clam|o;o
 感动|to move, to touch (emotionally)|v
 冰箱|fridge|o
 图|picture, diagram; to seek|o;v
@@ -2942,7 +2942,7 @@
 棒球|baseball|o
 一家人|a family, the whole family|o
 上帝保佑|God bless|o
-弹|bullet, shell; to pluck (an instrument) (tán)|o;v
+弹|bullet, shell; to play (the piano, the guitar) (tán); to flick, to bounce (tán)|o;v;v
 稍后|shortly, a little later|o
 符合|to fit, to match up with|v
 选举|election; to elect|o;v
@@ -2991,7 +2991,7 @@
 表|watch; form, table; to express|o;o;v
 赶上|to catch up with; to run into|v;v
 呦|(oh, hey)|g
-林|forest, woods|o
+林|Lin (a surname); forest, woods|o;o
 鲨鱼|shark|o
 本事|ability, know-how|o
 鬼魂|ghost, spirit|o
@@ -3028,7 +3028,7 @@
 得了吧|come off it, give over|o
 皇帝|emperor|o
 迟|late; slow|o;o
-谓|(in 所谓: to call, so-called)|g
+谓|所谓: so-called|n
 哭泣|to weep, to sob|v
 爆|to burst, to blow up|v
 冲动|impulse; impulsive|o;o
@@ -3184,7 +3184,7 @@
 行不行|will that do?, all right?|o
 砰|(bang, thud)|g
 亲吻|to kiss|v
-嘴巴|mouth, gob|o
+嘴巴|mouth (colloquial)|o
 载|to carry (of a vehicle); to record (zǎi)|v;v
 器|device, implement|o
 影子|shadow; reflection|o;o
@@ -3252,7 +3252,7 @@
 皇上|His Majesty, the Emperor|o
 数学|mathematics|o
 福|good fortune, blessing|o
-调|to transfer, to shift; tune, key|v;o
+调|to transfer, to shift; tune, key; to adjust (tiáo)|v;o;v
 大小|size|o
 会面|to meet up, to have a meeting|v
 升|to rise, to be promoted; litre|v;o
@@ -3318,7 +3318,7 @@
 过夜|to spend the night|v
 出席|to attend, to be present at|v
 宽恕|to forgive, to pardon|v
-苏|Su (a surname); to revive (in 苏醒)|o;v
+苏|Su (a surname); 苏醒: to revive, to come round|o;n
 获取|to obtain, to acquire|v
 搜|to search, to frisk|v
 味|taste; smell (in compounds)|o;o
@@ -3338,10 +3338,10 @@
 停车场|car park|o
 杀人犯|murderer|o
 假期|holiday, vacation|o
-接吻|to kiss each other, to snog|v
+接吻|to kiss each other|v
 播放|to play (audio or video), to broadcast|v
 月球|the moon (as a body)|o
-讽|(in 讽刺: to satirise)|g
+讽|讽刺: to satirise, to mock|n
 冰淇淋|ice cream|o
 得知|to learn of, to find out|v
 收入|income; to take in|o;v
@@ -3376,7 +3376,7 @@
 武士|warrior, samurai|o
 身材|figure, build|o
 查出|to find out, to detect|v
-蚁|(in 蚂蚁: ant)|g
+蚁|蚂蚁: ant|n
 上司|superior, boss|o
 企图|to attempt; an attempt|v;o
 啊哈|(aha)|g
@@ -4008,7 +4008,7 @@
 罚款|fine, penalty; to fine|o;v
 透过|through, by means of|o
 出局|to be out, to be knocked out|v
-蝇|(in 苍蝇: fly)|g
+蝇|苍蝇: fly|n
 贱|cheap, lowly; contemptible|o;o
 还没|not yet|o
 追查|to investigate, to trace|v
@@ -4043,7 +4043,7 @@
 夏威夷|Hawaii|o
 巫师|wizard, sorcerer|o
 专注|to focus on; absorbed|v;o
-别提|don't even mention it|o
+别提|don't bring it up, don't ask|o
 希腊|Greece|o
 排队|to queue up|v
 接收|to receive; to take over|v;v
@@ -4084,7 +4084,7 @@
 交通|traffic; transport|o;o
 土豆|potato|o
 审讯|to interrogate; interrogation|v;o
-放屁|to fart; rubbish, nonsense|v;o
+放屁|to fart; rubbish, nonsense (vulgar)|v;o
 概念|concept, notion|o
 汽油|petrol|o
 瑞士|Switzerland|o
@@ -4130,7 +4130,7 @@
 索|to demand, to ask for; rope|v;o
 今后|from now on, in future|o
 可乐|cola|o
-咧|(dialectal sentence particle)|g
+咧|(dialectal sentence particle); to grin, to draw back the lips (liě)|g;v
 得分|to score; a score|v;o
 抬|to lift, to carry (with others)|v
 深入|deep into, thorough|o
@@ -4421,7 +4421,7 @@
 车库|garage|o
 命名|to name, to christen|v
 核心|core, the heart of it|o
-扁|flat; to beat up|o;v
+扁|flat; to beat up (slang)|o;v
 改天|another day, some other time|o
 有利|advantageous, favourable|o
 眼光|vision, judgement|o
@@ -4512,8 +4512,8 @@
 无礼|rude, ill-mannered|o
 过敏|allergy; to be allergic|o;v
 传达|to convey, to pass on (a message)|v
-愈|to heal; the more… (愈…愈)|v;o
-笆|(in 篱笆: fence)|g
+愈|the more… (愈…愈); to heal|o;v
+笆|篱笆: fence|n
 振作|to pull oneself together, to cheer up|v
 杀戮|slaughter, killing|o
 洞穴|cave, cavern|o
@@ -4777,8 +4777,8 @@
 没命|to lose one's life; desperately|v;o
 着迷|to be fascinated, hooked|v
 功课|schoolwork, homework|o
-嫌疑犯|the accused, a suspected offender|o
-屌|dick (vulgar); badass|o;o
+嫌疑犯|a suspected offender, a suspect|o
+屌|dick (vulgar); badass, awesome (vulgar)|o;o
 出动|to set out, to be dispatched|v
 模糊|blurred, vague|o
 物|thing, object|o
@@ -4843,14 +4843,14 @@
 棘手|thorny, tricky|o
 言|words, speech; to say|o;v
 传闻|hearsay, it is rumoured|o
-希|(in 希望: to hope)|g
+希|希望: to hope|n
 极度|extremely, utterly|o
 活该|serves you right|f3s
 轻轻|lightly, gently|o
 逻辑|logic|o
 无罪|innocent, not guilty|o
 极端|extreme; an extreme|o;o
-片子|film; a shot|o;o
+片子|film; X-ray (image)|o;o
 好日子|good times; a happy day|o;o
 拳击|boxing|o
 接通|to put through, to connect|v
@@ -5019,7 +5019,7 @@
 热闹|lively, bustling; a spectacle|o;o
 整|whole, entire; to sort out|o;v
 活力|vitality, energy|o
-小弟弟|kid brother|o
+小弟弟|kid brother; little boy (said to a child); penis (euphemism)|o;o;o
 超出|to exceed, to go beyond|v
 叹气|to sigh|v
 太平洋|the Pacific|o
@@ -5128,7 +5128,7 @@
 运转|to run, to turn (of machinery)|v
 不合|not to fit, to be at odds with|o
 丧失|to lose, to forfeit|v
-牌子|sign, brand|o
+牌子|sign, plate; brand|o;o
 碰上|to run into, to come up against|v
 身旁|at one's side|o
 坚定|firm, resolute|o
@@ -5174,7 +5174,7 @@
 彩虹|rainbow|o
 美军|the US military|o
 荡|to swing, to sway|v
-同行|in the same line of work|o
+同行|in the same line of work; to travel together (tóngxíng)|o;v
 定义|definition; to define|o;v
 晒|to sun, to dry in the sun; to get a tan|v;v
 乌鸦|crow, raven|o
@@ -5230,7 +5230,7 @@
 颗|(measure word: small round things)|g
 成果|result, achievement|o
 换成|to change into, to swap for|v
-胡|(recklessly: 胡说, 胡闹)|g
+胡|Hu (a surname); recklessly, wildly (胡说, 胡闹)|o;o
 装满|to fill up|v
 运输|to transport; transport|v;o
 两样|two different things|o
@@ -5300,7 +5300,7 @@
 系列|series, set|o
 虚弱|weak, frail|o
 土耳其|Turkey|o
-宁可|would sooner, rather than|o
+宁可|would sooner, would prefer to|o
 求救|to call for help|v
 沉重|heavy, weighing on one|o
 窝|nest, den; to harbour|o;v
@@ -5320,7 +5320,7 @@
 血统|bloodline, descent|o
 先知|prophet|o
 同伙|accomplice, partner in crime|o
-正当|legitimate, proper|o
+正当|legitimate, proper (zhèngdàng); just as, just when|o;o
 水晶|crystal|o
 世间|in this world, on earth|o
 怜悯|to pity; compassion|v;o
@@ -5367,7 +5367,7 @@
 事务|affairs, business matters|o
 喘气|to gasp, to catch one's breath|v
 失|to lose; to fail|v;v
-委|(to appoint: 委托, 委员会)|g
+委|to entrust, to appoint; committee (short for 委员会)|v;o
 亲生|one's own (by blood)|o
 大婶|auntie (an older woman)|o
 小宝贝|little darling|o
@@ -5418,7 +5418,7 @@
 装修|to decorate, to fit out|v
 软|soft; weak|o;o
 阴道|vagina|o
-屁眼|arsehole|o
+屁眼|anus, arsehole (vulgar)|o
 老人家|an old person, the old folk|o
 别理|ignore it, take no notice|o
 救世主|saviour, messiah|o
@@ -5429,7 +5429,7 @@
 信徒|believer, follower|o
 得救|to be saved, to be rescued|v
 拳|fist; a punch; boxing|o;o;o
-放假|to have time off, to break up|v
+放假|to have time off, to have a holiday|v
 无效|invalid, of no effect|o
 朝着|towards, facing|o
 水管|water pipe, hose|o
@@ -5686,7 +5686,7 @@
 寡妇|widow|o
 收买|to buy off, to bribe|v
 男子汉|a real man|o
-盒|box, case (in compounds)|o
+盒|box, case (in compounds); (measure word: boxes, packs)|o;g
 遍|all over; (measure word: times through)|o;g
 中枪|to be shot|v
 创建|to found, to create|v
@@ -5754,7 +5754,7 @@
 日语|Japanese (the language)|o
 松鼠|squirrel|o
 校园|campus, school grounds|o
-母狗|bitch (a female dog)|o
+母狗|female dog; bitch, said of a woman (vulgar)|o;o
 聋|deaf|o
 飞翔|to soar, to fly|v
 制片|film production; producer|o;o
@@ -5799,7 +5799,7 @@
 冯|Feng (a surname)|o
 商场|shopping centre, market|o
 履行|to fulfil, to carry out|v
-支撑|to prop up, to hold out|v
+支撑|to prop up, to support; to hold out, to keep going|v;v
 火车站|railway station|o
 烂摊子|a mess, a shambles|o
 瑞典|Sweden|o
@@ -5819,12 +5819,12 @@
 同胞|compatriot, fellow countryman|o
 女仆|maid, housemaid|o
 情节|plot (of a story); the circumstances|o;o
-英|outstanding, heroic; British (英国)|o;o
+英|Britain, British (short for 英国); outstanding, heroic|o;o
 兼|to hold two posts at once; and also|v;o
 哲学|philosophy|o
 情报局|intelligence agency|o
 罕见|rare, seldom seen|o
-老板娘|landlady, the boss's wife|o
+老板娘|proprietress, female boss; the boss's wife|o;o
 调情|to flirt|v
 谜|riddle, mystery|o
 迫不及待|can't wait, in a rush to|o
@@ -5934,7 +5934,7 @@
 卫生间|bathroom, toilet|o
 差一点|very nearly|o
 谈恋爱|to be in a relationship, to date|v
-贱货|cheap thing, slut (insult)|o
+贱货|slut, bitch (vulgar); cheap goods|o;o
 长相|looks, appearance|o
 阁楼|attic, loft|o
 协调|to coordinate; harmonious|v;o
@@ -6124,7 +6124,7 @@
 冲浪|to surf; surfing|v;o
 出示|to show, to produce (a document)|v
 天地|heaven and earth; a world|o;o
-摘|to pick, to pluck; to extract|v;v
+摘|to pick, to pluck; to take off (glasses, a hat, a mask); to extract|v;v;v
 方位|bearing, direction|o
 时速|speed per hour|o
 未必|not necessarily|o
@@ -6197,7 +6197,7 @@
 一丝|a trace of, a shred of|o
 凡人|an ordinary person, a mortal|o
 性生活|sex life|o
-研究所|research institute; graduate school|o;o
+研究所|research institute; graduate school (Taiwanese usage)|o;o
 脏话|swear word, foul language|o
 舍|to give up, to part with|v
 零件|part, component|o
@@ -6285,7 +6285,7 @@
 灭亡|to perish, to be wiped out|v
 响起|to sound, to ring out|v
 囚禁|to imprison, to hold captive|v
-容|to hold, to allow; appearance|v;o
+容|to hold, to contain; to allow, to tolerate; appearance|v;v;o
 材|material, timber; talent|o;o
 看得见|can see|o
 通向|to lead to|v
@@ -6430,7 +6430,7 @@
 局势|situation (political or military)|o
 应用|to apply; an application|v;o
 破裂|to break down, to rupture|v
-表格|form, table|o
+表格|form; table|o;o
 贴心|thoughtful, considerate|o
 举止|bearing, manner|o
 发光|to give off light, to shine|v
@@ -6483,7 +6483,7 @@
 存档|to save (a file), archive; archive|v;o
 财政|public finance|o
 一齐|together, at the same time|o
-几多|how many, how much (colloq.)|o
+几多|how many, how much (Cantonese)|o
 乘以|multiplied by|o
 资本|capital (money)|o
 央行|central bank|o
@@ -6568,7 +6568,7 @@
 决策|decision; to make policy|o;v
 函数|function (math)|o
 进程|process, course|o
-今次|this time (colloq.)|o
+今次|this time (Cantonese)|o
 催产素|oxytocin|o
 单车|bicycle|o
 商会|chamber of commerce|o
@@ -6629,7 +6629,7 @@
 棵|(measure word: trees, plants)|g
 环保|environmental protection; eco-friendly|o;o
 百分之|... percent|o
-程式|program (software)|o
+程式|program (software) (Taiwanese usage)|o
 脱欧|Brexit; to leave the EU|o;v
 讲到|to talk about, mention|v
 削弱|to weaken|v
@@ -6873,7 +6873,7 @@
 爪牙|lackey, henchman|o
 生态|ecology|o
 盼望|to long for, look forward to|v
-网路|network; the internet|o;o
+网路|network (Taiwanese usage); the internet (Taiwanese usage)|o;o
 选区|constituency|o
 装甲车|armoured vehicle|o
 包容|to tolerate, be inclusive|v
@@ -6938,7 +6938,7 @@
 构建|to construct, build|v
 运营|to operate, run|v
 指数|index; exponent|o;o
-栏位|field (in a form or table)|o
+栏位|field (in a form or table) (Taiwanese usage)|o
 实体|entity|o
 笼罩|to shroud, envelop|v
 认知|cognition|o
@@ -7156,7 +7156,7 @@
 如下|as follows|o
 密钥|key (cryptographic)|o
 此前|before this, previously|o
-公尺|metre|o
+公尺|metre (Taiwanese usage)|o
 孤立|isolated; to isolate|o;v
 近期|in the near future; recent|o;o
 温和|mild, gentle|o
@@ -7228,7 +7228,7 @@
 镇压|to suppress, crack down|v
 气势|momentum, imposing manner|o
 证券|securities|o
-数位|digital; digit|o;o
+数位|digital (Taiwanese usage); digit, place (in a number)|o;o
 巅峰|peak, summit|o
 席卷|to sweep across|v
 议程|agenda|o
@@ -7282,7 +7282,7 @@
 动态|dynamic; developments, news|o;o
 叉乘|cross product|o
 曲线|curve|o
-有够|really, so (colloq.)|o
+有够|really, so (Taiwanese usage)|o
 毛豆|edamame, green soybeans|o
 热量|heat; calories|o;o
 甲烷|methane|o
@@ -7520,7 +7520,7 @@
 执导|to direct (a film)|v
 灵活|flexible, agile|o
 理事会|council, board|o
-感应|induction; to sense, respond|o;v
+感应|to sense, respond; induction (physics)|v;o
 房价|house price|o
 暗自|secretly, inwardly|o
 食尸鬼|ghoul|o
@@ -7707,7 +7707,7 @@
 刹那|instant, moment|o
 卫队|guard, bodyguard unit|o
 皇朝|imperial dynasty|o
-软体|software|o
+软体|software (Taiwanese usage)|o
 面向|to face; aimed at|v;o
 强国|great power|o
 之际|at the time of, on the occasion of|o
@@ -7964,7 +7964,7 @@
 坚固|solid, sturdy|o
 填写|to fill in (a form)|v
 增幅|growth, rate of increase|o
-士多啤梨|strawberry (colloq., = 草莓)|o
+士多啤梨|strawberry (Cantonese, = 草莓)|o
 外科|surgery (department)|o
 外观|appearance, exterior|o
 多巴胺|dopamine|o
@@ -8126,7 +8126,7 @@
 推论|inference, deduction|o
 提倡|to advocate, promote|v
 插秧|to transplant rice seedlings|v
-揾食|to make a living (colloq., = 谋生)|v
+揾食|to make a living (Cantonese, = 谋生)|v
 搞好|to do well, get right|v
 搞怪|to act weird, clown around|v
 搭建|to put up, build|v
@@ -8177,7 +8177,7 @@
 未经|without (permission, approval)|o
 本体论|ontology|o
 机智|quick-witted, resourceful|o
-机率|probability, chance|o
+机率|probability, chance (Taiwanese usage)|o
 杀菌剂|fungicide, germicide|o
 杀虫剂|insecticide|o
 杂技|acrobatics|o
@@ -8333,7 +8333,7 @@
 粗口|swear words, foul language|o
 粗暴|rough, brutal|o
 粗略|rough, approximate|o
-粟米|corn, maize|o
+粟米|corn, maize (Cantonese)|o
 精华|essence, best part; serum|o;o
 糖浆|syrup|o
 繁忙|busy|o
@@ -8400,7 +8400,7 @@
 荧光|fluorescence|o
 荷尔蒙|hormone|o
 获救|to be rescued|v
-萤幕|screen|o
+萤幕|screen (Taiwanese usage)|o
 营业|to do business, be open|v
 营业额|turnover|o
 营养|nutrition|o
@@ -8936,7 +8936,7 @@
 放入|to put in|v
 无懈可击|impeccable, flawless|o
 有助|to help, contribute to|v
-柳丁|orange (fruit)|o
+柳丁|orange (fruit) (Taiwanese usage)|o
 梅花|plum blossom|o
 梨子|pear|o
 水泥|cement|o
@@ -9078,7 +9078,7 @@
 大一|first year (of university), freshman|o
 本体|main body; noumenon, the thing itself|o;o
 极右翼|far right|o
-灵光|divine light, flash of inspiration; clever, effective (colloq.)|o;o
+灵光|divine light, halo; flash of inspiration; clever, effective (colloq.)|o;o;o
 狮鹫|griffin|o
 郑重|solemn, serious|o
 隐约|faint, indistinct|o
@@ -9162,7 +9162,7 @@
 试卷|exam paper|o
 顺差|trade surplus|o
 三级|third level, grade three; adult-rated (film)|o;o
-他娘的|damn it (colloq.)|o
+他娘的|damn it (vulgar)|o
 分割|to divide, to cut apart|v
 另有|to have another, there is also|v
 围攻|to besiege; to gang up on|v;v
@@ -9188,7 +9188,7 @@
 为首|headed by, led by|o
 字体|font, typeface|o
 开设|to open, to set up|v
-机车|locomotive; motorbike|o;o
+机车|locomotive; motorbike (Taiwanese usage)|o;o
 空运|air transport, airlift|o
 野生|wild|o
 销量|sales volume|o
@@ -9328,7 +9328,7 @@
 分布式|distributed|o
 应有|due, proper; should have|o;o
 搭载|to carry, to be equipped with|v
-牛顿|newton (unit of force)|o
+牛顿|Isaac Newton, the physicist; newton (unit of force)|o;o
 站台|platform (station)|o
 舰艇|naval vessel, warship|o
 不清|unclear|o
@@ -9443,7 +9443,7 @@
 同分异构|isomerism|o
 吞并|to annex, to swallow up|v
 嘻嘻|hee hee (giggling)|o
-回馈|to give back; feedback|v;o
+回馈|to give back, to repay; feedback (Taiwanese usage)|v;o
 圈圈|circle, ring|o
 大拇指|thumb|o
 天荒地老|until the end of time|o
@@ -9488,7 +9488,7 @@
 满满|full, brimming|o
 漏掉|to leave out, to miss|v
 漏油|oil leak; to leak oil|o;v
-演算法|algorithm|o
+演算法|algorithm (Taiwanese usage)|o
 演绎|to deduce; to interpret, to perform (a role)|v;v
 照亮|to light up, to illuminate|v
 熟知|to know well|v
@@ -9518,7 +9518,7 @@
 虚无|nothingness, void|o
 螺旋|spiral, helix|o
 螺杆|screw (rod)|o
-西元前|BC, before the Common Era|o
+西元前|BC, before the Common Era (Taiwanese usage)|o
 议论|to discuss, to talk about; comments|v;o
 调教|to train, to groom|v
 轻微|slight, minor|o
@@ -9863,7 +9863,7 @@
 塑料|plastic|o
 期限|deadline, time limit|o
 两岸|both banks; both sides of the Taiwan Strait|o;o
-九天|the highest heavens|o
+九天|nine days; the highest heavens|o;o
 二进制|binary|o
 人称|person (grammar); known as|o;o
 全速|full speed|o
@@ -10000,7 +10000,7 @@
 两栖|amphibious|o
 印记|mark, imprint|o
 厚度|thickness|o
-哈拉|to chat, to shoot the breeze (colloq.)|v
+哈拉|to chat, to shoot the breeze (Taiwanese usage)|v
 对准|to aim at, to align|v
 就任|to take office|v
 广大|vast; broad (masses)|o;o
@@ -10384,7 +10384,7 @@
 王妃|princess consort|o
 编制|to compile, to draw up; staffing, establishment|v;o
 装载|to load (cargo)|v
-起司|cheese|o
+起司|cheese (Taiwanese usage)|o
 陷于|to fall into, to be caught in|v
 顾不上|to have no time for, to be unable to attend to|v
 题材|subject matter, theme|o
@@ -10437,7 +10437,7 @@
 优质|high quality|o
 伤残|disabled; wounded and disabled|o;o
 伤者|injured person, the wounded|o
-伺服器|server|o
+伺服器|server (Taiwanese usage)|o
 余下|remaining, the rest|o
 余地|leeway, room|o
 依次|in turn, in order|o
@@ -10577,7 +10577,7 @@
 最远|farthest|o
 有生之年|in one's lifetime|o
 有轨电车|tram, streetcar|o
-朱古力|chocolate|o
+朱古力|chocolate (Cantonese)|o
 架设|to erect, to set up (a bridge, network)|v
 桃花|peach blossom|o
 棕榈|palm tree|o
@@ -10598,7 +10598,7 @@
 渐近线|asymptote|o
 温泉|hot spring|o
 渴求|to long for, to crave|v
-滑鼠|mouse (computer)|o
+滑鼠|mouse (computer) (Taiwanese usage)|o
 滚动|to roll; to scroll|v;v
 潜伏|to lurk, to lie in wait|v
 点击率|click-through rate|o
@@ -10641,7 +10641,7 @@
 移位|to shift, to displace|v
 移开|to move away|v
 稀有|rare|o
-程式员|programmer|o
+程式员|programmer (Taiwanese usage)|o
 窃窃私语|to whisper|v
 笑脸|smiling face|o
 等边三角形|equilateral triangle|o
@@ -10712,7 +10712,7 @@
 闭门造车|to work in isolation, cut off from reality|v
 阴暗|dark, gloomy|o
 阻抗|impedance|o
-阿嬷|grandma (colloq.)|o
+阿嬷|grandma (Taiwanese usage)|o
 阿爸|dad (colloq.)|o
 除去|to remove; except, besides|v;o
 雨林|rainforest|o
@@ -10837,7 +10837,7 @@
 体质|physique, constitution|o
 借着|by means of, taking advantage of|o
 克隆|to clone; clone|v;o
-公车|bus|o
+公车|bus; official car (government vehicle)|o;o
 原子能|atomic energy|o
 告示牌|notice board, sign|o
 垮台|to collapse, to fall from power|v
@@ -11049,7 +11049,7 @@
 战绩|military success, record (of wins)|o
 放走|to let go, to release|v
 日趋|day by day, increasingly|o
-相助|to help each other, to assist|v
+相助|to come to someone's aid, to help|v
 纲领|programme, guiding principle|o
 脚踏|pedal; footrest|o;o
 良机|good opportunity|o
@@ -11057,7 +11057,7 @@
 传教士|missionary|o
 分叉|fork, bifurcation; to branch|o;v
 巢穴|lair, nest|o
-影集|TV series; photo album|o;o
+影集|TV series (Taiwanese usage); photo album|o;o
 捕获|to capture|v
 末端|end, tip|o
 栖息地|habitat|o
@@ -11166,7 +11166,7 @@
 告辞|to take one's leave|v
 城区|urban district|o
 大吃一惊|to be astonished|v
-常务|routine; standing (committee)|o;o
+常务|standing (committee), executive; routine affairs|o;o
 抖动|to shake, to tremble|v
 改名|to change one's name|v
 攻破|to break through, to capture|v
@@ -11245,7 +11245,7 @@
 河谷|river valley|o
 法西斯主义|fascism|o
 爆弹|bomb|o
-犊子|calf; 滚犊子: get lost (colloq.)|o;n
+犊子|calf; 滚犊子: get lost (rude)|o;n
 相近|similar, close|o
 维生素|vitamin|o
 肆意|wanton, unbridled|o
@@ -11350,7 +11350,7 @@
 地质|geology|o
 幽暗|dim, gloomy|o
 志愿|aspiration, wish; voluntary|o;o
-捷运|metro, rapid transit|o
+捷运|metro, rapid transit (Taiwanese usage)|o
 授课|to teach, to give lessons|v
 放在心上|to take to heart, to care about|v
 月初|beginning of the month|o
@@ -11476,7 +11476,7 @@
 发车|departure (of a bus, train)|o
 地域|region, territory|o
 坦然|calm, at ease|o
-堂堂|dignified, imposing; (in) broad daylight|o;o
+堂堂|dignified, imposing; (before a title) no less than, of all people|o;o
 市值|market value|o
 年幼|young (in age)|o
 幸亏|fortunately, luckily|o
@@ -11669,7 +11669,7 @@
 招致|to bring about, to incur|v
 提早|earlier than planned, in advance|o
 摇摇欲坠|tottering, on the verge of collapse|o
-核子|nucleus; nuclear|o;o
+核子|nuclear; nucleon (physics)|o;o
 检察|to prosecute; procuratorial|v;o
 植根于|rooted in|o
 氨基酸|amino acid|o
@@ -11827,7 +11827,7 @@
 也罢|all right, never mind; whether … or|o;o
 凶猛|fierce, ferocious|o
 吃力|strenuous, laborious|o
-员警|police officer|o
+员警|police officer (Taiwanese usage)|o
 哀嚎|to wail, to howl|v
 弓箭手|archer|o
 成品|finished product|o
@@ -12228,7 +12228,7 @@
 悄悄|quietly, secretly|o
 灌输|to instill, to indoctrinate|v
 火气|temper, anger|o
-狗日的|(colloq.) son of a bitch|o
+狗日的|son of a bitch, bastard (vulgar)|o
 相见|to meet|v
 纵横|across the length and breadth of; to roam freely|o;v
 触动|to touch, to move (emotionally)|v
@@ -12430,7 +12430,7 @@
 谦虚|modest|o
 里外|inside and outside|o
 风声|sound of the wind; rumour, news|o;o
-飞弹|missile|o
+飞弹|missile (Taiwanese usage)|o
 飞舞|to flutter, to dance in the air|v
 上浮|to float up; to rise|v;v
 倾泻|to pour down|v
@@ -12608,7 +12608,7 @@
 不紧不慢|unhurried, at a steady pace|o
 九成|ninety percent|o
 争夺战|struggle, battle for|o
-伯母|aunt (father's elder brother's wife)|o
+伯母|aunt (father's elder brother's wife); auntie (polite, to a friend's mother)|o;o
 傍晚|dusk, evening|o
 全军|the whole army|o
 利器|sharp weapon; useful tool|o;o
@@ -12770,7 +12770,7 @@
 打磨|to polish, to grind|v
 抛开|to throw aside, to cast off|v
 擦拭|to wipe, to clean|v
-替身|stand-in, double, scapegoat|o
+替身|stand-in, double; scapegoat|o;o
 树干|tree trunk|o
 残缺|incomplete, fragmentary|o
 毒素|toxin|o
@@ -13020,7 +13020,7 @@
 遮天蔽日|blotting out the sky, overwhelming|o
 两手|both hands; two-pronged approach|o;o
 依附|to depend on, attach oneself to|v
-俯瞰|to look down on, overlook|v
+俯瞰|to look down from above, to overlook (a view)|v
 健壮|robust, strong|o
 光圈|halo, ring of light; aperture|o;o
 几样|several kinds|o
@@ -13705,7 +13705,7 @@
 朗读|to read aloud|v
 洋相|spectacle; 出洋相: to make a fool of oneself|o;n
 常委会|standing committee|o
-服务区|service area (on a motorway)|o
+服务区|service area (on a motorway); coverage area (of a mobile network)|o;o
 具名|to put one's name to, to be named|v
 冷冷清清|deserted and quiet, desolate|o
 界碑|boundary marker|o
@@ -13743,7 +13743,7 @@
 届|session, term (of office, a graduating class); to fall due; (measure word: sessions, graduating classes)|o;v;g
 判|to judge, to sentence|v
 甚|very, extremely|o
-致|to send, to cause; fine, delicate|v;o
+致|to send, to extend (greetings); to cause, to result in; fine, delicate|v;v;o
 准|accurate; to allow|o;v
 歇|to rest, to stop|v
 步|step, pace|o
@@ -13755,7 +13755,7 @@
 滴|drop; to drip; (measure word: drops)|o;v;g
 食|food; to eat|o;v
 鲸|whale|o
-丫|fork; girl|o;o
+丫|that bastard, you bastard (vulgar, Beijing slang); fork; girl|o;o;o
 窗|window|o
 果|fruit; result|o;o
 搂|to hug, embrace|v
@@ -13944,7 +13944,7 @@
 移|to move, to shift|v
 瓜|melon, gourd|o
 裤|trousers|o
-余|surplus, remaining|o
+余|surplus, remaining; more than (after a number)|o;o
 浪|wave; unrestrained|o;o
 署|government office; to sign|o;v
 轰|to rumble; to bomb; to drive away, to throw out|v;v;v
@@ -13954,7 +13954,7 @@
 咳|to cough|v
 首|head; first; (measure word: songs)|o;o;g
 争|to fight for, to contend|v
-折|to break, to fold; discount|v;o
+折|to break, to snap; to fold; discount|v;v;o
 萎|to wither|v
 鼠|mouse, rat|o
 捣|to pound; to make trouble|v;v
@@ -13987,15 +13987,15 @@
 链|chain|o
 瘾|addiction, craving|o
 碍|to hinder, to obstruct|v
-赖|to rely on; to deny, to blame; to hang on, to refuse to leave|v;v;v
+赖|to blame, to be one's fault; to hang on, to refuse to leave; to deny (a debt), to go back on; to rely on|v;v;v;v
 率|rate, ratio; to lead (shuài)|o;v
 厨|kitchen; cook|o;o
 肝|liver|o
 锅|pot, pan, wok; (measure word: potfuls)|o;g
 须|must; beard|o;o
-徐|slowly, gently|o
+徐|Xu (a surname); slowly, gently|o;o
 百|hundred|o
-洪|flood; vast|o;o
+洪|Hong (a surname); flood; vast|o;o;o
 麻|hemp; numb|o;o
 掌|palm of the hand; to be in charge of|o;v
 绳|rope, string|o
@@ -14016,7 +14016,7 @@
 社|society, association|o
 荷|lotus; to carry a load (hè)|o;v
 杂|mixed, miscellaneous|o
-郑|郑重: solemn, serious|n
+郑|Zheng (a surname); 郑重: solemn, serious|o;n
 弟|younger brother|o
 臣|official, a subject of a ruler|o
 居|to live, to reside|v
@@ -14085,7 +14085,7 @@
 肩|shoulder|o
 阶|step, stair; rank|o;o
 易|easy; to change|o;v
-梁|beam, rafter; bridge|o;o
+梁|Liang (a surname); beam, rafter; bridge|o;o;o
 浓|thick, dense, strong|o
 醋|vinegar; jealousy (in love)|o;o
 采|to pick, to gather; to adopt|v;v
@@ -14100,7 +14100,7 @@
 世|world; generation, age|o;o
 柳|willow|o
 萝|trailing plant (as in 萝卜 radish)|o
-萧|desolate, bleak|o
+萧|Xiao (a surname); desolate, bleak|o;o
 柴|firewood; dry and tough (of meat)|o;o
 裕|abundant, well-off|o
 俊|handsome, good-looking|o
@@ -14141,7 +14141,7 @@
 钢|steel|o
 勤|diligent, hardworking; frequently|o;o
 壮|strong, robust|o
-孙|grandchild|o
+孙|Sun (a surname); grandchild|o;o
 故|reason, cause; old, former; therefore, so (Classical)|o;o;o.c
 棋|chess, board game|o
 眶|eye socket|o
@@ -14173,7 +14173,7 @@
 瘤|tumour, lump|o
 删|to delete, to cut|v
 甭|don't, needn't (colloq., = 不用)|o
-陆|land; six (liù) (formal)|o;o
+陆|Lu (a surname); land; six (liù) (formal)|o;o;o
 微|tiny, slight; micro-|o;o
 紫|purple|o
 菌|bacteria, fungus|o
@@ -14203,7 +14203,7 @@
 哲|wise; philosophy|o;o
 湮|to sink into oblivion, be buried|v
 盗|to steal; a bandit|v;o
-谭|tale, talk|o
+谭|Tan (a surname); tale, talk|o;o
 展|to unfold, to display|v
 拥|to embrace; to crowd|v;v
 碳|carbon|o
@@ -14254,7 +14254,7 @@
 狭|narrow|o
 击|to strike, to hit|v
 嚷|to shout, yell|v
-蝴|(in 蝴蝶: butterfly)|g
+蝴|蝴蝶: butterfly|n
 哑|mute; hoarse|o;o
 识|to know, to recognise; consciousness (Buddhist)|v;o.b
 嘎|quack, creak (sound)|o
@@ -14266,7 +14266,7 @@
 伫|to stand still, stand long|v
 囊|bag, pouch|o
 始|to begin|v
-婊|(in 婊子: bitch)|g
+婊|婊子: bitch (vulgar)|n
 限|limit; to restrict|o;v
 嗜|to be addicted to, crave|v
 胀|to swell, to expand|v
@@ -14295,19 +14295,19 @@
 衰|to decline, to weaken|v
 霜|frost|o
 框|frame; to frame, to draw a box around|o;v
-沮|(in 沮丧: dejected)|g
+沮|沮丧: dejected|n
 皇|emperor, imperial|o
 荐|to recommend|v
 汪|woof (bark); vast (water); pool|o;o;o
 瘸|lame, limping|o
-昆|(in 昆虫: insect)|g
+昆|昆虫: insect|n
 泣|to weep|v
 浸|to soak, immerse|v
 攀|to climb|v
 泪|tear (from the eye)|o
 嘶|to neigh, hiss; hoarse|v;o
 鉴|mirror; to reflect on|o;v
-陛|(in 陛下: Your Majesty)|g
+陛|陛下: Your Majesty|n
 惩|to punish|v
 徒|follower, disciple; in vain|o;o
 模|model, pattern|o
@@ -14330,7 +14330,7 @@
 竖|vertical; to set upright|o;v
 耕|to plough, cultivate|v
 臂|arm|o
-啤|(in 啤酒: beer)|g
+啤|啤酒: beer|n
 武|military, martial|o
 沧|dark blue (of the sea)|o
 粮|grain, food|o
@@ -14372,7 +14372,7 @@
 卒|soldier, pawn; to die|o;v
 怨|to resent; a grievance; to blame|v;o;v
 愁|worry, sorrow|o
-揾|to look for (colloq., = 找)|v
+揾|to look for (Cantonese, = 找)|v
 校|school; to check (jiào)|o;v
 允|to permit, to allow|v
 崖|cliff|o
@@ -14387,9 +14387,9 @@
 洲|continent; islet|o;o
 捕|to catch, to arrest|v
 氧|oxygen|o
-纪|record; era, discipline|o;o
+纪|record; era, period; discipline|o;o;o
 触|to touch, to come into contact|v
-丈|husband; ten feet|o;o
+丈|ten feet (a unit of length, about 3.3 m); 丈夫: husband|o;n
 巢|nest, lair|o
 涌|to surge, gush|v
 秃|bald, bare|o
@@ -14436,7 +14436,7 @@
 嘻|hee hee (laughter)|o
 腻|greasy; bored, fed up|o;o
 驶|to drive, to sail|v
-矛|spear; contradiction (矛盾)|o;o
+矛|spear; 矛盾: contradiction|o;n
 胎|foetus; tyre|o;o
 津|saliva; ferry, ford|o;o
 译|to translate|v
@@ -14444,7 +14444,7 @@
 穴|cave, hole|o
 鳄|crocodile|o
 努|to make an effort, to exert|v
-乎|(in 似乎, 几乎: seemingly, almost)|g
+乎|似乎: seemingly; 几乎: almost|n;n
 介|to be between; to mind|v;v
 淋|to drench, to pour over|v
 睫|eyelash|o
@@ -14462,7 +14462,7 @@
 谴|to condemn, reproach|v
 遏|to check, hold back|v
 锤|hammer; to hammer, to pound|o;v
-骚|to disturb; flirtatious|v;o
+骚|flirtatious, slutty (vulgar); to disturb|o;v
 功|merit, achievement; skill|o;o
 樱|cherry (blossom)|o
 氏|clan, family name|o
@@ -14599,7 +14599,7 @@
 宴|banquet, feast|o
 毅|resolute, firm|o
 焉|how, where (classical); thereupon|o;o
-镖|dart, throwing weapon (in 保镖)|o
+镖|dart, throwing weapon; 保镖: bodyguard|o;n
 颖|clever, talented|o
 景|scenery, view; situation|o;o
 积|to accumulate, to pile up|v
@@ -14609,14 +14609,14 @@
 亡|to die, to perish; to flee|v;v
 掣|to pull, to hold back|v
 棉|cotton|o
-狸|(in 狐狸: fox)|g
+狸|狐狸: fox|n
 矩|rule, square (in 规矩)|o
 籍|registry, record; native place; membership|o;o;o
 违|to violate, to disobey|v
 酿|to brew, to ferment|v
 齿|tooth|o
 良|good, fine|o
-芒|awn, ray (of light)|o
+芒|ray (of light); awn, sharp point|o;o
 葱|spring onion|o
 喉|throat|o
 悟|to realise, awaken|v
@@ -14633,13 +14633,13 @@
 酗|to drink to excess|v
 妃|imperial concubine, princess|o
 镶|to inlay, set|v
-医|medical, to heal|o
+医|medicine, medical; doctor; to treat, to heal|o;o;v
 拘|to arrest, to restrain|v
 桃|peach|o
 拱|arch; to arch; to push (with the snout)|o;v;v
 贩|to peddle, to deal in; a trader|v;o
 馒|steamed bun|o
-尉|military officer (of middle rank)|o
+尉|junior military officer (lieutenant, captain)|o
 庞|huge; face|o;o
 溢|to overflow|v
 疾|illness; swift|o;o
@@ -14658,7 +14658,7 @@
 骆|camel (as in 骆驼)|o
 函|letter; function (math.)|o;o
 寒|cold; poor|o;o
-欺|to deceive, to bully|v
+欺|to deceive; to bully|v;v
 诧|surprised, astonished|o
 遣|to send, dispatch|v
 雕|to carve; eagle|v;o
@@ -14806,7 +14806,7 @@
 蓬|fluffy, dishevelled|o
 锋|sharp edge, point; vanguard|o;o
 窒|to stifle, to suffocate|v
-飙|whirlwind; to soar, surge|o;v
+飙|to soar, to surge; to race (a car), to go fast; whirlwind|v;v;o
 匙|spoon; key (钥匙)|o;o
 咄|aggressive, overbearing; tut|o;o
 境|border; circumstances|o;o
@@ -14814,7 +14814,7 @@
 棺|coffin|o
 滞|stagnant, sluggish|o
 澄|clear, limpid; to clarify|o;v
-申|to state, to apply for|v
+申|to state; to apply for|v;v
 眈|虎视眈眈: to glare like a tiger|n
 诱|to lure, to entice|v
 谦|modest, humble|o
@@ -14855,13 +14855,13 @@
 享|to enjoy, to have the benefit of|v
 亵|obscene, irreverent|o
 仰|to look up; to admire|v;v
-企|to plan; enterprise|v;o
+企|enterprise, business; to hope for, to aim at|o;v
 伟|great, mighty|o
 伺|to wait on, serve; to watch for|v;v
-佣|to hire; commission|v;o
+佣|servant (yōng); to hire (yōng); commission|o;v;o
 侃|to chat idly|v
 侄|nephew, niece (brother's child)|o
-侏|(in 侏儒: dwarf)|g
+侏|侏儒: dwarf|n
 侥|侥幸: lucky, by a fluke|n
 侦|to detect, to investigate|v
 侮|to insult, to humiliate|v
@@ -14890,7 +14890,7 @@
 凰|phoenix (female)|o
 凸|convex, protruding|o
 刊|periodical, publication; to print|o;v
-刹|(in 刹车: brake); an instant (chà); a land, a realm (chà) (Buddhist)|g;o;o.b
+刹|刹车: brake; an instant (chà); a land, a realm (chà) (Buddhist)|n;o;o.b
 剔|to pick out, remove|v
 剿|to exterminate, suppress (bandits)|v
 务|affair, business; must|o;o
@@ -14920,18 +14920,18 @@
 叙|to narrate, recount; to chat|v;v
 叨|to chatter, nag|v
 吟|to chant, to recite|v
-吩|(in 吩咐: to instruct)|g
+吩|吩咐: to instruct|n
 吭|to utter a sound (吭声)|v
 启|to open; to start|v;v
-呻|(in 呻吟: to groan)|g
-咆|(in 咆哮: to roar)|g
+呻|呻吟: to groan|n
+咆|咆哮: to roar|n
 咎|blame, fault|o
-咐|(in 吩咐: to instruct)|g
-咙|(in 喉咙: throat)|g
+咐|吩咐: to instruct|n
+咙|喉咙: throat|n
 咨|to consult, to seek advice|v
 咫|咫尺: very close|n
 哏|joke, funny line|o
-哮|(in 咆哮: to roar); wheeze|g;o
+哮|咆哮: to roar; wheeze|n;o
 哺|to feed, nurse|v
 售|to sell|v
 唾|saliva, spit; to spit|o;v
@@ -14940,7 +14940,7 @@
 喻|metaphor, analogy; to explain|o;v
 嗓|throat, voice|o
 嗤|to sneer, scoff|v
-嗽|(in 咳嗽: to cough)|g
+嗽|咳嗽: to cough|n
 嘱|to enjoin, to instruct|v
 嘲|to mock, to jeer at|v
 噩|dreadful, ill-omened|o
@@ -14953,17 +14953,17 @@
 囤|to hoard, stockpile|v
 固|solid, firm; stubborn|o;o
 圃|garden, nursery|o
-圾|(in 垃圾: rubbish)|g
+圾|垃圾: rubbish|n
 址|site, address|o
 坍|to collapse|v
 坞|dock, basin|o
 坯|unfired pottery, blank; embryo|o;o
-垃|(in 垃圾: rubbish)|g
+垃|垃圾: rubbish|n
 垄|ridge (in a field); monopoly|o;o
 培|to cultivate, to foster|v
 堪|to bear, to be capable of|v
 塑|to mold; plastic|v;o
-墅|(in 别墅: villa)|g
+墅|别墅: villa|n
 增|to increase, to add|v
 墟|ruins|o
 壑|gully, ravine|o
@@ -14983,7 +14983,7 @@
 娇|delicate, charming; pampered|o;o
 娱|to amuse; entertainment|v;o
 婢|maidservant|o
-婪|(in 贪婪: greedy)|g
+婪|贪婪: greedy|n
 婴|infant, baby|o
 婿|son-in-law; husband|o;o
 媒|medium; matchmaker|o;o
@@ -15004,11 +15004,11 @@
 寂|quiet, lonely|o
 寓|to reside; residence; to imply|v;o;v
 寝|sleep, bedroom|o
-寞|(in 寂寞: lonely)|g
+寞|寂寞: lonely|n
 寡|few; widowed|o;o
 寥|sparse, few; empty|o;o
-尬|(in 尴尬: awkward)|g
-尴|(in 尴尬: awkward)|g
+尬|尴尬: awkward|n
+尴|尴尬: awkward|n
 屈|to bend, to submit; wronged|v;o
 屉|drawer|o
 屹|屹立: to stand tall|n
@@ -15062,13 +15062,13 @@
 悖|contrary; perverse|o;o
 悚|frightened|o
 悦|pleased, delighted|o
-悯|(in 怜悯: to pity)|g
+悯|怜悯: to pity|n
 悸|palpitation, fright|o
 惋|to regret, sigh with pity|v
 惕|alert, wary|o
 惚|恍惚: dazed, in a trance|n
 惜|to cherish; to regret|v;v
-惫|(in 疲惫: worn out)|g
+惫|疲惫: worn out|n
 惭|ashamed|o
 惮|to dread, fear|v
 惶|panic, alarm|o
@@ -15077,12 +15077,12 @@
 愕|stunned, astonished|o
 愚|foolish, stupid|o
 愤|indignant, angry|o
-慨|(in 慷慨: generous, impassioned)|g
+慨|慷慨: generous, impassioned|n
 愧|ashamed|o
 慑|to fear; to awe, intimidate|v;v
 慕|to admire, to yearn for|v
 慧|wisdom, intelligence|o
-慷|(in 慷慨: generous, impassioned)|g
+慷|慷慨: generous, impassioned|n
 憎|to hate, to detest|v
 憾|regret, a lasting disappointment|o
 懈|lax, slack|o
@@ -15093,7 +15093,7 @@
 扩|to expand, to enlarge|v
 扰|to disturb, to harass|v
 扼|to grip, strangle; to control|v;v
-抉|(in 抉择: to choose)|g
+抉|抉择: to choose|n
 抑|to restrain, to suppress|v
 抚|to comfort; to stroke|v;v
 抨|to attack (in words), criticise|v
@@ -15106,7 +15106,7 @@
 拯|to save, to deliver|v
 捍|to defend, guard|v
 捺|to press down, restrain|v
-授|to hand over, to teach|v
+授|to give, to confer; to teach|v;v
 措|measure, step; to arrange|o;v
 援|to aid; to pull|v;v
 搀|to support by the arm; to mix|v;v
@@ -15140,7 +15140,7 @@
 构|to construct; structure|v;o
 析|to analyse, to split|v
 枢|pivot, hub, centre|o
-柠|(in 柠檬: lemon)|g
+柠|柠檬: lemon|n
 栅|fence, railing|o
 栈|warehouse, inn; plank road|o;o
 栖|to perch, dwell|v
@@ -15156,14 +15156,14 @@
 棱|edge, ridge|o
 椎|vertebra|o
 概|general, approximate; outline|o;o
-榄|(in 橄榄: olive)|g
+榄|橄榄: olive|n
 榈|棕榈: palm tree|n
-榴|(in 手榴弹: grenade; 石榴 pomegranate)|g
+榴|手榴弹: grenade; 石榴: pomegranate|n;n
 槛|threshold; railing (jiàn)|o;o
-槟|(in 香槟: champagne)|g
-橄|(in 橄榄: olive)|g
+槟|香槟: champagne (bīn)|n
+橄|橄榄: olive|n
 橘|tangerine, mandarin orange|o
-檬|(in 柠檬: lemon)|g
+檬|柠檬: lemon|n
 歧|forked, divergent; different|o;o
 歹|bad, evil|o
 歼|to annihilate, wipe out|v
@@ -15174,7 +15174,7 @@
 毋|do not, no need to|f3s
 毗|adjoining, adjacent|o
 毫|fine hair; the least bit|o;o
-氓|(in 流氓: hooligan)|g
+氓|流氓: hooligan (máng)|n
 氛|atmosphere, mood|o
 污|dirty; to pollute|o;v
 汰|to weed out, to eliminate|v
@@ -15198,7 +15198,7 @@
 涯|shore, limit (生涯 career)|o
 涵|to contain, include|v
 淆|confused, mixed|o
-淇|(in 冰淇淋: ice cream)|g
+淇|冰淇淋: ice cream|n
 渊|abyss, deep water|o
 渎|to profane, to show disrespect|v
 渐|gradually|o
@@ -15224,9 +15224,9 @@
 潇|潇洒: free and easy, suave|n
 澎|surging (of water)|o
 澜|big wave, billow|o
-澳|bay, inlet (澳洲 Australia)|o
+澳|Macao (short for 澳门); Australia (short for 澳洲); bay, inlet|o;o;o
 濒|to be on the verge of|v
-瀑|(in 瀑布: waterfall)|g
+瀑|瀑布: waterfall|n
 瀚|vast|o
 灼|to burn, scorch|v
 灾|disaster, calamity|o
@@ -15247,7 +15247,7 @@
 熔|to melt, smelt|v
 燥|dry|o
 牲|livestock; sacrifice|o;o
-牺|(in 牺牲: to sacrifice)|g
+牺|牺牲: to sacrifice|n
 犀|rhinoceros|o
 犊|calf|o
 狈|狼狈: in a sorry plight|n
@@ -15260,18 +15260,18 @@
 猖|wild, rampant|o
 猝|sudden, abrupt|o
 猢|monkey (as in 猢狲)|o
-猩|(in 猩猩: ape); scarlet|g;o
+猩|猩猩: ape; scarlet|n;o
 猾|cunning, crafty|o
 獠|fierce, ferocious; fang (獠牙)|o;o
 玄|mysterious, profound; black|o;o
-玫|(in 玫瑰: rose)|g
+玫|玫瑰: rose|n
 珑|玲珑: exquisite|n
 琉|glazed (as in 琉璃)|o
 琢|to carve, polish (jade); 琢磨: to ponder|v;n
 琥|amber (as in 琥珀)|o
 瑚|coral (as in 珊瑚)|o
 瑜|瑜伽: yoga; lustre of jade, excellence|n;o
-瑰|(in 玫瑰: rose); marvellous|g;o
+瑰|玫瑰: rose; marvellous|n;o
 璀|璀璨: bright, resplendent|n
 璧|jade disc|o
 璨|bright, resplendent|o
@@ -15288,7 +15288,7 @@
 疮|sore, wound|o
 疲|weary, exhausted|o
 痍|wound, injury|o
-痪|(in 瘫痪: paralysed)|g
+痪|瘫痪: paralysed|n
 痹|numbness, paralysis|o
 瘟|plague, pestilence|o
 盈|full, filled; surplus|o;o
@@ -15322,7 +15322,7 @@
 秩|order, sequence|o
 稀|rare, sparse; thin, watery|o;o
 稚|young, childish|o
-稽|(in 滑稽: comical)|g
+稽|滑稽: comical|n
 究|to look into, to investigate|v
 穹|vault, dome; sky|o;o
 窿|窟窿: hole; 穹窿: dome|n;n
@@ -15348,7 +15348,7 @@
 纷|numerous, confused|o
 绅|gentry, gentleman|o
 绌|insufficient, inferior|o
-绍|to introduce, to carry on|v
+绍|to introduce; to carry on, to continue|v;v
 绎|to unravel, deduce (演绎)|v
 络|net, network|o
 统|to unify, to command; system|v;o
@@ -15372,7 +15372,7 @@
 耀|to shine, to dazzle|v
 耦|coupling (耦合)|o
 耸|to tower, rise high; to shrug|v;v
-耽|to delay, to indulge in|v
+耽|to delay, to hold up; to indulge in|v;v
 耿|upright, honest; troubled|o;o
 聆|to listen|v
 聘|to hire, engage|v
@@ -15381,21 +15381,21 @@
 肆|unrestrained, wanton; shop|o;o
 肢|limb|o
 肤|skin|o
-肪|(in 脂肪: fat)|g
+肪|脂肪: fat|n
 育|to raise, to educate|v
 肴|meat dishes, cooked food|o
 胁|to threaten; the flank|v;o
-胞|womb; fellow countryman|o;o
+胞|of the same parents; fellow countryman; cell; womb|o;o;o;o
 胧|朦胧: hazy, dim|n
 胰|pancreas|o
-胳|(in 胳膊: arm)|g
+胳|胳膊: arm|n
 脂|fat, grease|o
 脯|dried meat; breast (胸脯) (pú)|o;o
 腐|rotten, corrupt; bean curd|o;o
 腑|internal organs|o
 腥|fishy, the smell of blood|o
 腺|gland|o
-膊|(in 胳膊: arm)|g
+膊|胳膊: arm|n
 膨|to swell, to expand|v
 膺|breast, chest; to receive|o;v
 臾|须臾: a moment|n
@@ -15404,59 +15404,59 @@
 舶|ocean-going ship|o
 艰|difficult, arduous|o
 芜|overgrown with weeds; disorderly|o;o
-芝|(in 芝麻: sesame)|g
+芝|芝麻: sesame|n
 芦|reed|o
 芯|core, wick; chip|o;o
 苍|dark green, grey; vast|o;o
 苟|careless, casual; if|o;o
-苹|(in 苹果: apple)|g
+苹|苹果: apple|n
 茁|sturdy, thriving (茁壮)|o
 茄|aubergine; (in 雪茄: cigar) (jiā)|o;o
 茅|thatch, cogongrass|o
-茉|(in 茉莉: jasmine)|g
+茉|茉莉: jasmine|n
 茫|vast, boundless; at a loss|o;o
 荧|glimmering; fluorescent|o;o
 荼|bitter herb; to poison|o;v
 莅|to arrive, attend (莅临)|v
-莓|(in 草莓: strawberry)|g
+莓|草莓: strawberry; berry|n;o
 莞|to smile|v
 莽|rash; dense grass|o;o
 萃|to gather; collection|v;o
-萄|(in 葡萄: grape)|g
+萄|葡萄: grape|n
 萤|firefly|o
 萦|to wind around, linger|v
-葡|(in 葡萄: grape)|g
+葡|葡萄: grape|n
 葫|葫芦: gourd, calabash|n
 蒲|cattail, bulrush|o
 蓄|to store up, to save|v
 蔑|to despise, disdain|v
 蔬|vegetables|o
 蔽|to cover, shelter, hide|v
-蕉|(in 香蕉: banana)|g
+蕉|香蕉: banana|n
 蕴|to contain, hold in store; aggregate (Buddhist)|v;o.b
 薪|salary, pay; firewood|o;o
 薯|potato, yam|o
-蘑|(in 蘑菇: mushroom)|g
+蘑|蘑菇: mushroom|n
 虑|to consider; anxiety|v;o
 蚀|to erode, eat away|v
-蚂|(in 蚂蚁: ant)|g
+蚂|蚂蚁: ant (mǎ)|n
 蛟|flood dragon|o
 蜃|mirage|o
 蜕|to shed skin, slough|v
-蜘|(in 蜘蛛: spider)|g
+蜘|蜘蛛: spider|n
 蜥|lizard (as in 蜥蜴)|o
 蜴|lizard (as in 蜥蜴)|o
-蝙|(in 蝙蝠: bat)|g
-蝠|(in 蝙蝠: bat)|g
+蝙|蝙蝠: bat|n
+蝠|蝙蝠: bat|n
 蝾|newt (as in 蝾螈)|o
-螂|(in 蟑螂: cockroach)|g
+螂|蟑螂: cockroach|n
 螃|螃蟹: crab|n
 螈|newt (as in 蝾螈)|o
 融|to melt; to blend; finance|v;v;o
 螳|螳螂: praying mantis|n
 螺|snail, spiral shell; screw|o;o
 蟆|蛤蟆: toad, frog|n
-蟑|(in 蟑螂: cockroach)|g
+蟑|蟑螂: cockroach|n
 蟒|python|o
 蠵|蠵龟: loggerhead turtle|n
 衅|quarrel, provocation (挑衅)|o
@@ -15498,8 +15498,8 @@
 谬|absurd, mistaken|o
 譬|example; for example (譬如)|o;o
 豁|open, clear; to give up (豁出去)|o;v
-豚|(in 海豚: dolphin); pig|g;o
-豫|(in 犹豫: to hesitate)|g
+豚|海豚: dolphin; pig|n;o
+豫|犹豫: to hesitate|n
 豺|jackal|o
 貌|appearance, looks|o
 责|duty, responsibility; to blame|o;v
@@ -15508,7 +15508,7 @@
 贯|to pierce through, to run through; native place (as in 籍贯)|v;o
 贸|trade, commerce|o
 贿|to bribe|v
-赂|(in 贿赂: to bribe)|g
+赂|贿赂: to bribe|n
 资|funds, resources; qualifications|o;o
 赅|comprehensive, concise|o
 赠|to give as a gift|v
@@ -15592,7 +15592,7 @@
 霄|sky, heaven|o
 霆|thunderclap|o
 霹|霹雳: thunderbolt|n
-革|leather; to reform, to expel|o;v
+革|leather; to reform, to change; to expel, to dismiss (from office)|o;v;v
 韧|tough, resilient|o
 顷|moment, instant; hectare (公顷)|o;o
 顽|stubborn; naughty|o;o
@@ -15600,7 +15600,7 @@
 颊|cheek|o
 频|frequency; repeatedly|o;o
 飓|hurricane (飓风)|o
-饪|(in 烹饪: cooking)|g
+饪|烹饪: cooking|n
 馈|to present, give; feedback (反馈)|v;o
 驭|to drive, control|v
 驯|to tame; tame|v;o

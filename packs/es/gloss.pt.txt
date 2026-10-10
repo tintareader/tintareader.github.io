@@ -81,7 +81,7 @@ sé|(um fato) eu sei|f1s
 nos|nos; nos (reflexivo), a nós mesmos|o;o
 nada|nada; nem um pouco (após verbo negado); nada más: só, apenas|o;o;n
 cómo|como?|o
-deber|dever, ter que; dever (dinheiro); lição de casa (deberes)|o;v;o
+deber|dever, ter de; dever (dinheiro); dever (n.), obrigação; deberes: lição de casa|v;v;o;n
 mucho|muito|o
 he|eu tenho (auxiliar)|f1s
 hablar|falar, conversar|v
@@ -89,7 +89,7 @@ tiene|ele/ela tem, o senhor/a senhora tem|f3s
 puedo|eu posso|f1s
 ella|ela|f3s
 quiero|eu quero|f1s
-fue|ele/ela foi (ser), o senhor/a senhora foi; ele/ela foi (ir), o senhor/a senhora foi; fue a: foi a, foi para|f3s;o;n
+fue|ele/ela foi (ser), o senhor/a senhora foi; ele/ela foi (ir), o senhor/a senhora foi; fue a: foi a, foi para|f3s;f3s;n
 gracias|obrigado, obrigada|o
 era|(identidade, característica) ele/ela era; eu era|f3s;f1s
 soy|(identidade, característica) eu sou|f1s
@@ -162,7 +162,7 @@ llegar|chegar; alcançar, chegar a|v;v
 salir|sair; sair-se (bem, mal); custar, sair por|v;v;v
 alguien|alguém|o
 poco|pouco|o
-padre|pai (≠ port. "padre")|o
+padre|pai; padres: pais|o;n
 cosas|coisas|o
 siempre|sempre|o
 hasta|até; até mesmo|o;o
@@ -195,7 +195,7 @@ nadie|ninguém|o
 debe|ele/ela deve|f3s
 niño|criança, menino; menina (f.)|o;o
 pasa|acontece; entre!; ele/ela passa; ele/ela passa (o tempo)|f3s;o;f3s;f3s
-tal|tal|o
+tal|tal; tal vez: talvez; qué tal: como vai?, tudo bem?|o;n;n
 entender|entender|v
 momento|momento|o
 nuevo|novo|o
@@ -281,7 +281,7 @@ comer|comer|v
 malo|mau, ruim|o
 cualquiera|qualquer, qualquer um|o
 eh|ei, hein|o
-cuenta|conta; darse cuenta: perceber, dar-se conta; ele/ela conta, narra; conta!, fala!|o;n;f3s;o
+cuenta|conta (restaurante); conta (bancária); darse cuenta: perceber, dar-se conta; ele/ela conta, narra; ele/ela conta, calcula; conta!, fala!; conta!, calcula!|o;o;n;f3s;f3s;o;o
 familia|família|o
 dicho|dito|f3s
 cuánto|quanto?, quantos?|o
@@ -301,7 +301,7 @@ muerto|morto|o
 loco|louco, doido|o
 ustedes|vocês|f2s2p
 grande|grande; grande, ótimo|o;o
-tratar|tratar; tentar (tratar de)|v;v
+tratar|tratar; tratar de: tentar; tratarse de: tratar-se de|v;n;n
 dormir|dormir; dormirse: adormecer, pegar no sono|v;n
 preguntar|perguntar|v
 caso|caso; hacer caso: prestar atenção, dar ouvidos; me caso: vou me casar|o;n;n
@@ -374,7 +374,7 @@ hey|ei|o
 bajo|sob, embaixo de; baixo; eu desço, eu abaixo|o;o;f1s
 realidad|realidade; en realidad: na verdade|o;n
 miedo|medo; tener miedo: ter medo|o;n
-deja|deixa!, larga! (deja: deixa isso, para); ele/ela deixa (para trás); ele/ela deixa, permite|o;f3s;f3s
+deja|deixa!, deixa isso!; permite!; ele/ela deixa; ele/ela permite|o;o;f3s;f3s
 mantener|manter|v
 justo|justo; exatamente, bem|o;o
 escucha|escuta!; ele/ela escuta; se escucha: ouve-se|o;f3s;n
@@ -386,7 +386,7 @@ coche|carro, automóvel|o
 difícil|difícil|o
 beber|beber|v
 fin|fim; por fin: finalmente, enfim|o;n
-cuidado|cuidado (¡cuidado!: cuidado!)|o
+cuidado|cuidado, zelo; cuidado!, atenção! (como exclamação); tener cuidado: ter cuidado|o;o;n
 cuerpo|corpo|o
 bastante|suficiente; bastante, bem|o;o
 adelante|adiante, para a frente; ¡adelante!: entre!, pode entrar!|o;n
@@ -417,7 +417,7 @@ primer|primeiro (antes de subst. m.)|o
 cuatro|quatro|o
 mas|mas (literário; cf. más)|o
 tocar|tocar; tocar (instrumento); ser a vez de (me toca)|v;v;v
-toma|toma!; aqui está; ele/ela toma, pega|o;o;f3s
+toma|toma!, pega!; aqui está; ele/ela toma, pega; tomada, captura; toma de decisiones: tomada de decisões|o;o;f3s;o;n
 allá|lá|o
 oportunidad|oportunidade, chance|o
 teléfono|telefone|o
@@ -425,11 +425,11 @@ arriba|em cima, acima, lá em cima|o
 final|fim, final; final, último|o;o
 muchacho|garoto, rapaz; garota, moça (f.)|o;o
 robar|roubar|v
-mayor|maior, mais velho; principal|o;o
+mayor|maior; mais velho; principal|o;o;o
 bebé|bebê|o
 decidir|decidir|v
 sangre|sangue|o
-medio|meio, metade; meio, centro; meio, recurso; a mídia (medios)|o;o;o;o
+medio|metade; meio; meios; medios: a mídia|o;o;o;n
 disparar|atirar, disparar|v
 luz|luz|o
 vuelta|volta, retorno; volta, giro; dar la vuelta: dar meia-volta|o;o;n
@@ -447,7 +447,7 @@ echar|jogar, atirar; servir, despejar; echar de menos: sentir falta de; echar a:
 subir|subir; levantar, aumentar; postar, fazer upload|v;v;v
 habitación|quarto, cômodo|o
 orden|ordem, comando; ordem, sequência|o;o
-vete|vai embora!, sai!|o
+vete|vai embora!, some!; (que) ele/ela vete|o;f3s
 culpa|culpa; tener la culpa: ter a culpa; ele/ela culpa|o;n;f3s
 libro|livro|o
 ok|ok|o
@@ -465,7 +465,7 @@ correcto|correto, certo|o
 abajo|embaixo, abaixo, lá embaixo|o
 bonito|bonito|o
 divertir|divertir; divertirse: divertir-se|v;n
-modo|modo, maneira (de todos modos: de qualquer modo)|o
+modo|modo, maneira; de todos modos: de qualquer modo|o;n
 queda|resta, sobra|f3s
 alto|alto; alto (som); alto!, pare!|o;o;o
 foto|foto|o
@@ -507,7 +507,7 @@ mil|mil|o
 sueño|sonho; sono; eu sonho|o;o;f1s
 calle|rua|o
 joder|foder, transar (vulgar); porra!, merda! (vulgar, Espanha)|v;o
-noticia|notícia (noticias: o noticiário)|o
+noticia|notícia; noticias: o noticiário, as notícias|o;n
 meter|pôr, enfiar; meterse: meter-se, envolver-se|v;n
 paso|passo; passagem; eu passo; eu passo (o tempo)|o;o;f1s;f1s
 sitio|lugar, local (≠ port. "sítio"); site|o;o
@@ -522,7 +522,7 @@ oficina|escritório (≠ port. "oficina")|o
 humano|humano|o
 peor|pior|o
 desear|desejar, querer|v
-tranquilo|tranquilo, calmo (¡tranquilo!: calma)|o
+tranquilo|calmo, tranquilo; calma!, relaxa! (como exclamação)|o;o
 cama|cama|o
 vender|vender|v
 lejos|longe|o
@@ -541,7 +541,7 @@ servir|servir; servir, ser útil|v;v
 país|país|o
 derecho|direito, lado direito; direito, lei; reto, em linha reta|o;o;o
 romper|quebrar, romper|v
-bastar|bastar (basta: chega)|v
+bastar|bastar; basta: chega!, para!|v;n
 perdonar|perdoar, desculpar|v
 además|além disso|o
 rey|rei|o
@@ -681,7 +681,7 @@ sino|mas sim, senão|o
 aire|ar|o
 decisión|decisão|o
 vosotros|vocês (pl., só na Espanha; na América Latina usa-se ustedes)|f2s2p
-disculpa|desculpa (disculpa: com licença)|o
+disculpa|desculpa, pedido de desculpas; com licença!, desculpa! (como exclamação)|o;o
 tirar|jogar, atirar; puxar; jogar fora (≠ port. "tirar")|v;v;v
 rojo|vermelho|o
 jamás|jamais, nunca|o
@@ -699,8 +699,8 @@ tienda|loja|o
 obtener|obter, conseguir|v
 hotel|hotel|o
 pelo|cabelo (≠ port. "pelo")|o
-haz|faz!|f3s
-gusto|gosto, sabor; prazer; mucho gusto: prazer em conhecer|o;o;n
+haz|faz!, faça!; feixe (de luz); feixe, molho|f3s;o;o
+gusto|gosto; prazer; mucho gusto: prazer em conhecer; eu agrado (te gusto, você gosta de mim)|o;o;n;f1s
 edad|idade|o
 maestro|professor; mestre|o;o
 esconder|esconder; esconderse: esconder-se|v;n
@@ -848,11 +848,11 @@ sorpresa|surpresa|o
 regla|regra; régua|o;o
 acá|aqui, cá (América Latina)|o
 inteligente|inteligente|o
-apuesto|bonito, elegante; eu aposto|o;f1s
+apuesto|eu aposto; bonito, elegante|f1s;o
 siéntate|senta!|o
 silencio|silêncio|o
 triste|triste|o
-despierto|acordado|o
+despierto|acordado; eu acordo|o;f1s
 edificio|prédio, edifício|o
 herido|ferido|o
 vámonos|vamos embora!|o
@@ -885,7 +885,7 @@ cumplir|cumprir; fazer (anos)|v;v
 espacio|espaço|o
 teniente|tenente|o
 permiso|permissão, licença; con permiso: com licença|o;n
-caliente|quente|o
+caliente|quente, morno; tarado (de pessoa, coloq.)|o;o
 guardar|guardar; guardar, pôr no lugar|v;v
 delante|na frente; delante de: na frente de|o;n
 simple|simples|o
@@ -968,7 +968,7 @@ privar|privar|v
 esperanza|esperança|o
 manejar|lidar com, administrar; dirigir (América Latina)|v;v
 compartir|compartilhar, dividir|v
-diferencia|diferença|o
+diferencia|diferença; a diferencia de: ao contrário de|o;n
 respirar|respirar|v
 zapato|sapato|o
 discutir|discutir, brigar; discutir, debater|v;v
@@ -985,7 +985,7 @@ limpiar|limpar|v
 busca|procura!, busca; ele/ela procura|o;f3s
 especie|tipo, espécie; espécie|o;o
 tarjeta|cartão|o
-reina|rainha|o
+reina|rainha; ele/ela reina, predomina|o;f3s
 estudio|estudo; estúdio; eu estudo|o;o;f1s
 izquierda|esquerda, lado esquerdo|o
 chino|chinês|o
@@ -1121,8 +1121,8 @@ hacerte|te fazer|v
 detalle|detalhe|o
 vistazo|olhada; echar un vistazo: dar uma olhada|o;n
 interior|interior, parte de dentro|o
-marcha|marcha; marcha (de carro); en marcha: em andamento; se marcha: vai embora|o;o;n;n
-comandante|comandante, major|o
+marcha|marcha; marcha (de veículo); en marcha: em andamento; se marcha: ele/ela vai embora, sai|o;o;n;n
+comandante|comandante; major (posto do exército)|o;o
 americano|americano|o
 doble|duplo, dobro|o
 acabado|acabado, terminado|o
@@ -1173,7 +1173,7 @@ responsable|responsável|o
 admitir|admitir|v
 quedarme|ficar|v
 agarrar|agarrar, pegar|v
-huella|pegada; rastro, impressão digital|o;o
+huella|pegada; vestígio; impressão digital|o;o;o
 nueve|nove|o
 definitivamente|com certeza, definitivamente|o
 diente|dente|o
@@ -1223,7 +1223,7 @@ nariz|nariz|o
 emergencia|emergência|o
 cubrir|cobrir|v
 pedido|pedido; pedido (particípio), solicitado|o;o
-larga|comprida, longa (≠ port. "larga")|o
+larga|longa (f.); a la larga: a longo prazo|o;n
 embarazada|grávida (≠ port. "embaraçada")|o
 justicia|justiça|o
 archivo|arquivo; arquivo (acervo)|o;o
@@ -1267,7 +1267,7 @@ tiro|tiro (disparo); arremesso, chute|o;o
 ruso|russo|o
 evidencia|prova, evidência|o
 resulta|acontece que|f3s
-toca|é a sua vez; ele/ela toca|f3s;f3s
+toca|é a vez (de alguém); ele/ela toca; ele/ela toca (um instrumento)|f3s;f3s;f3s
 confianza|confiança|o
 distinto|diferente, distinto; vários|o;o
 encerrar|trancar, prender (≠ port. "encerrar")|v
@@ -1333,13 +1333,13 @@ escalera|escada; escada de mão|o;o
 pan|pão|o
 príncipe|príncipe|o
 playa|praia|o
-coño|boceta (vulgar); porra! (Espanha)|o;o
+coño|porra! (vulgar, Espanha); boceta (vulgar)|o;o
 cinta|fita; fita, laço|o;o
 pecho|peito; seio|o;o
 fuente|fonte, chafariz; fonte (origem)|o;o
 nacional|nacional|o
 celebrar|comemorar, celebrar; realizar (uma reunião)|v;v
-socio|sócio, membro|o
+socio|sócio; membro|o;o
 detente|pare!|o
 show|show|o
 autobús|ônibus|o
@@ -1384,7 +1384,7 @@ inventar|inventar|v
 propiedad|propriedade|o
 pastel|bolo (≠ port. "pastel"); torta|o;o
 señoría|Vossa Excelência, Meritíssimo|o
-seguramente|certamente, provavelmente|o
+seguramente|provavelmente|o
 papi|papai|o
 pez|peixe (vivo)|o
 naturaleza|natureza|o
@@ -1421,11 +1421,11 @@ valiente|valente, corajoso|o
 universo|universo|o
 ciego|cego|o
 princesa|princesa|o
-gana|ele/ela ganha; vontade (tener ganas de: estar com vontade de)|f3s;o
+gana|ele/ela ganha; vontade; tener ganas de: ter vontade de|f3s;o;n
 belleza|beleza|o
 pollo|frango|o
 científico|cientista; científico|o;o
-sujeto|sujeito (gramática, assunto); cara, sujeito|o;o
+sujeto|sujeito; cara; preso, fixado; sujeto a: sujeito a|o;o;o;n
 jardín|jardim|o
 descanso|descanso, intervalo|o
 apoyo|apoio; eu apoio|o;f1s
@@ -1443,7 +1443,7 @@ tarea|tarefa; dever de casa|o;o
 pensamiento|pensamento|o
 olvídalo|esquece!|o
 prisionero|prisioneiro|o
-jurado|júri|o
+jurado|júri; jurado|o;o
 computador|computador (América Latina)|o
 pago|pagamento; eu pago|o;f1s
 dejarlo|deixar isso, largar isso|v
@@ -1503,7 +1503,7 @@ grandioso|grandioso, magnífico|o
 pérdida|perda|o
 salvaje|selvagem|o
 acostumbrar|acostumar; acostumbrarse a: acostumar-se com|v;n
-cuesta|custa; ladeira|f3s;o
+cuesta|custa; é difícil (para alguém); ladeira|f3s;f3s;o
 pretender|pretender, tentar|v
 pintura|pintura, quadro; tinta|o;o
 copia|cópia|o
@@ -1526,7 +1526,7 @@ tribunal|tribunal|o
 conexión|conexão|o
 acceso|acesso|o
 oscuridad|escuridão|o
-comienzo|começo|o
+comienzo|começo; eu começo|o;f1s
 teatro|teatro|o
 registrar|registrar; revistar|v;v
 entrevista|entrevista|o
@@ -1556,7 +1556,7 @@ vencer|vencer, derrotar; vencer (prazo), expirar|v;v
 creerlo|acreditar nisso|v
 callar|calar-se, ficar quieto; callarse: calar a boca|v;n
 proceso|processo; julgamento|o;o
-corto|curto|o
+corto|curto; eu corto|o;f1s
 lengua|língua (órgão); língua, idioma|o;o
 indicar|indicar, mostrar|v
 lobo|lobo|o
@@ -1627,7 +1627,7 @@ intentarlo|tentar|v
 esquina|esquina|o
 provocar|causar, provocar|v
 acusado|réu, acusado|o
-revista|revista|o
+revista|revista; revista, inspeção; pasar revista: passar em revista, inspecionar|o;o;n
 valer|valer; vale: tá bom, ok (Espanha)|v;n
 bendecir|abençoar|v
 vestir|vestir; vestirse: vestir-se|v;n
@@ -1671,7 +1671,7 @@ atractivo|atraente|o
 cura|padre; cura; ele/ela cura|o;o;f3s
 fotografía|foto, fotografia; fotografia (arte)|o;o
 cobarde|covarde (pessoa); covarde (adj.)|o;o
-harto|farto; estar harto: estar farto|o;n
+harto|farto, cansado; estar harto: estar farto; muito, bastante (coloquial, América Latina)|o;n;o
 arrancar|dar partida (motor); arrancar|v;v
 delicioso|delicioso|o
 deprisa|depressa, com pressa|o
@@ -1685,11 +1685,11 @@ fútbol|futebol|o
 olor|cheiro|o
 civil|civil; civil (não militar)|o;o
 gloria|glória|o
-firme|firme|o
+firme|firme, estável; assine! (usted); (que) ele/ela assine|o;o;f3s
 torre|torre|o
 instituto|instituto; escola de ensino médio|o;o
 anterior|anterior|o
-toque|toque|o
+toque|toque; (que) eu toque, (que) ele/ela toque; toque! (usted)|o;f1s;o
 wow|uau|o
 apestar|feder|v
 interrumpir|interromper|v
@@ -1718,7 +1718,7 @@ secuestrar|sequestrar; sequestrar (avião)|v;v
 nieve|neve|o
 marcar|marcar; discar; marcar (gol)|v;v;v
 obvio|óbvio|o
-empleo|emprego|o
+empleo|emprego, trabalho; uso; eu uso|o;o;f1s
 solución|solução|o
 mama|mãe, mamãe; mama, seio|o;o
 mundial|mundial|o
@@ -1742,7 +1742,7 @@ saca|tira!, tira isso; ele/ela tira|o;f3s
 destrozar|destruir, destroçar|v
 uniforme|uniforme|o
 comprometer|comprometer; comprometerse: comprometer-se|v;n
-contado|contado; al contado: à vista|o;n
+contado|contado, narrado; contado, calculado; al contado: à vista|o;o;n
 gira|turnê; ele/ela gira|o;f3s
 relájate|relaxa!|o
 siéntese|sente-se (formal)|o
@@ -1814,7 +1814,7 @@ charla|conversa, bate-papo|o
 combate|combate, luta|o
 cuyo|cujo|o
 inteligencia|inteligência|o
-abrigo|casaco|o
+abrigo|casaco; abrigo, refúgio; eu abrigo, eu nutro (uma esperança)|o;o;f1s
 lavar|lavar|v
 cómodo|confortável|o
 explosión|explosão|o
@@ -1960,7 +1960,7 @@ encontrarlo|encontrá-lo|v
 exterior|exterior, lado de fora|o
 preguntarle|perguntar a ele, a ela|v
 suicidio|suicídio|o
-saco|saco; paletó (América Latina)|o;o
+saco|saco; paletó (América Latina); eu tiro|o;o;f1s
 popular|popular|o
 okay|ok|o
 saludo|cumprimento, saudação|o
@@ -1993,11 +1993,11 @@ cristal|vidro; cristal|o;o
 tropa|tropa|o
 traidor|traidor|o
 juguete|brinquedo|o
-práctica|prática|o
+práctica|prática; prática (adj., f.)|o;o
 dejarte|te deixar (abandonar); te deixar (permitir)|v;v
 adorable|adorável, encantador|o
 condenado|condenado, maldito|o
-aviso|aviso, advertência; eu aviso, eu advirto|o;f1s
+aviso|aviso, advertência; eu aviso, eu comunico|o;f1s
 traducción|tradução|o
 disponible|disponível|o
 circunstancia|circunstância|o
@@ -2033,7 +2033,7 @@ básicamente|basicamente|o
 retroceder|recuar, retroceder|v
 tratado|tratado; tratado (adj.)|o;o
 elegante|elegante|o
-parado|em pé (≠ port. "parado"); desempregado (Espanha)|o;o
+parado|em pé (América Latina); parado, imóvel; desempregado (Espanha); bien parado: saindo-se bem; mal parado: saindo-se mal|o;o;o;n;n
 conferencia|palestra; conferência|o;o
 quita|tira isso!; ele/ela tira, remove|o;f3s
 extraordinario|extraordinário|o
@@ -2144,7 +2144,7 @@ serlo|sê-lo, ser isso|v
 suelta|solta!; solta (f.)|o;o
 impedir|impedir|v
 experimento|experimento|o
-física|física|o
+física|física; física (adj., f.)|o;o
 veneno|veneno|o
 amanecer|amanhecer, alvorada; clarear|o;v
 forense|forense; médico-legista|o;o
@@ -2161,7 +2161,7 @@ comentario|comentário|o
 emocionante|emocionante|o
 muro|muro (parede externa; a de um cômodo é pared)|o
 atar|amarrar|v
-ronda|rodada; ronda|o;o
+ronda|rodada; patrulha; chega a cerca de (um valor); ele/ela ronda, assombra|o;o;f3s;f3s
 brillar|brilhar|v
 recurso|recurso; último recurso: último recurso|o;n
 consciente|consciente|o
@@ -2220,7 +2220,7 @@ muera|que eu/ele/ela morra|f1s
 negativo|negativo|o
 coma|coma (médico); coma! (formal), que ele/ela coma; vírgula|o;o;o
 colina|colina, morro|o
-clínica|clínica|o
+clínica|clínica; clínica (adj., f.)|o;o
 exagerar|exagerar|v
 ambiente|ambiente, clima|o
 primavera|primavera|o
@@ -2236,7 +2236,7 @@ socorro|socorro!; ajuda|o;o
 rescate|resgate; resgate (pagamento)|o;o
 dígale|diga a ele/ela|o
 templo|templo|o
-fijar|fixar|v
+fijar|fixar; fijarse en: reparar em, prestar atenção em|v;n
 junta|conselho, comitê|o
 ponerte|pôr, vestir (em você); ficar; ponerte a: começar a|v;v;n
 muévanse|mexam-se!|o
@@ -2250,7 +2250,7 @@ túnel|túnel|o
 bandera|bandeira|o
 discúlpeme|com licença, me desculpe (formal)|o
 guía|guia (pessoa); guia (livro)|o;o
-pasta|massa, macarrão; grana, dinheiro (coloq.)|o;o
+pasta|massa; massa, grana (coloq.); pasta|o;o;o
 territorio|território|o
 rastrear|rastrear, seguir a pista|v
 queja|queixa, reclamação; se queja: queixa-se, reclama|o;n
@@ -2258,7 +2258,7 @@ ave|ave, pássaro|o
 verlos|vê-los|v
 fabuloso|fabuloso, maravilhoso|o
 museo|museu|o
-ésto|isto (grafia antiga de esto)|o
+ésto|isto (erro de grafia de esto)|o
 superficie|superfície|o
 discusión|briga, bate-boca; discussão, debate|o;o
 terapia|terapia|o
@@ -2288,7 +2288,7 @@ darles|dar a eles|v
 signo|sinal, signo|o
 abra|abra! (formal); que eu/ele abra|o;f1s
 hundir|afundar|v
-técnica|técnica|o
+técnica|técnica; técnica (adj., f.)|o;o
 máscara|máscara|o
 experimentar|vivenciar, sentir; fazer experiências|v;v
 patear|chutar|v
@@ -2389,8 +2389,8 @@ almorzar|almoçar|v
 cometido|cometido|o
 candidato|candidato|o
 salto|salto, pulo|o
-pinta|aparência, pinta; caneca de cerveja, pint|o;o
-mate|mate, chimarrão; xeque-mate|o;o
+pinta|aparência, pinta; caneca de cerveja, pint; ele/ela pinta, retrata; pinta bien: parece bom; pinta mal: parece ruim|o;o;f3s;n;n
+mate|(que) ele/ela mate, (que) eu mate; mate (bebida de ervas); xeque-mate|f3s;o;o
 generoso|generoso|o
 emperador|imperador|o
 agotar|esgotar, gastar tudo|v
@@ -2426,7 +2426,7 @@ boleto|passagem, ingresso (América Latina)|o
 gasto|gasto, despesa|o
 amado|amado|o
 onda|onda; vibe, astral (coloq.)|o;o
-haberle|tê-lo/tê-la (auxiliar)|v
+haberle|ter … lhe (verbo auxiliar)|v
 biblia|Bíblia|o
 alegre|alegre|o
 hamburguesa|hambúrguer|o
@@ -2439,7 +2439,7 @@ alcance|alcance|o
 flota|frota|o
 huh|hã|o
 tatuaje|tatuagem|o
-figura|figura|o
+figura|figura; ele/ela aparece, consta|o;f3s
 plaza|praça; vaga, lugar|o;o
 apellido|sobrenome (≠ port. "apelido")|o
 nervio|nervo|o
@@ -2473,8 +2473,8 @@ cuéntame|me conta|o
 novela|romance (livro); novela (TV)|o;o
 secreta|secreta|o
 comisaría|delegacia|o
-pulso|pulso|o
-haberse|ter-se|v
+pulso|pulso; a pulso: com esforço próprio, na raça|o;n
+haberse|ter … se (verbo auxiliar)|v
 temporal|temporário; temporal, tempestade|o;o
 cuídate|se cuida|o
 patrulla|patrulha|o
@@ -2552,7 +2552,7 @@ digno|digno, merecedor; digno, decoroso|o;o
 timar|enganar, dar golpe|v
 falla|falha, defeito; ele/ela falha|o;f3s
 influencia|influência|o
-liga|liga; elástico|o;o
+liga|liga; elástico; ele/ela liga, amarra|o;o;f3s
 armada|marinha; armada (f.)|o;o
 partida|partida, jogo; partida, saída|o;o
 honrar|honrar|v
@@ -2632,7 +2632,7 @@ gerente|gerente|o
 pulmón|pulmão|o
 potencial|potencial|o
 matemática|matemática|o
-caída|queda|o
+caída|queda; caída (f.)|o;o
 patada|chute, pontapé|o
 educar|educar, criar|v
 sacrificar|sacrificar|v
@@ -2752,7 +2752,7 @@ multitud|multidão|o
 fijo|fixo, permanente|o
 as|ás|o
 idioma|idioma, língua|o
-pico|pico, cume; bico; e pouco, um pouco (y pico)|o;o;o
+pico|pico; bico; y pico: e pouco|o;o;n
 huésped|hóspede|o
 verificar|verificar, conferir|v
 mayo|maio|o
@@ -2776,7 +2776,7 @@ proceder|proceder, prosseguir; ser cabível, ser apropriado|v;v
 inmunidad|imunidade|o
 fase|fase, etapa|o
 buscarlo|procurá-lo|v
-puesta|pôr do sol (puesta de sol); colocação|o;o
+puesta|posta, colocada, ligada (f.); puesta de sol / puesta del sol: pôr do sol; puesta en marcha: lançamento, início; colocação, montagem|o;n;n;o
 vital|vital|o
 caramelo|bala, doce|o
 llamarlo|chamá-lo, ligar para ele|v
@@ -2837,7 +2837,7 @@ sentencia|sentença (judicial)|o
 transformar|transformar|v
 americana|americana (f.)|o
 corbata|gravata|o
-costado|lado, flanco (do corpo)|o
+costado|custou (costar); lado, flanco (do corpo)|f3s;o
 drama|drama|o
 policia|polícia; policial|o;o
 apartar|afastar, separar|v
@@ -2846,7 +2846,7 @@ cima|cume, topo|o
 mascota|animal de estimação; mascote|o;o
 chaval|garoto, moleque (Espanha, coloq.)|o
 suelto|solto; trocado, moedas|o;o
-juzgado|tribunal, juizado|o
+juzgado|tribunal; julgado|o;o
 mantente|mantenha-se, fique|o
 investigador|investigador; pesquisador|o;o
 jaula|jaula, gaiola|o
@@ -2900,7 +2900,7 @@ pisar|pisar|v
 plazo|prazo; parcela, prestação|o;o
 atascar|travar, emperrar|v
 completar|completar|v
-cumplido|elogio (≠ port. "cumprido")|o
+cumplido|cumprido, realizado; elogio|o;o
 condena|condenação, pena|o
 once|onze|o
 presa|presa; represa, barragem|o;o
@@ -2917,9 +2917,9 @@ festival|festival|o
 destrucción|destruição|o
 bicho|bicho, inseto|o
 porno|pornô|o
-olvido|esquecimento; descuido|o;o
+olvido|esquecimento; descuido; eu esqueço|o;o;f1s
 desperdiciar|desperdiçar|v
-química|química|o
+química|química; química (adj., f.)|o;o
 conflicto|conflito|o
 historial|histórico, ficha|o
 quemado|queimado|o
@@ -2982,7 +2982,7 @@ sufrido|sofrido|o
 usarlo|usá-lo|v
 píldora|pílula|o
 averiguarlo|descobrir isso|v
-lanza|lança|o
+lanza|lança; ele/ela lança, joga|o;f3s
 solicitud|inscrição, requerimento; pedido|o;o
 moverse|mexer-se, mover-se|v
 técnicamente|tecnicamente|o
@@ -3024,8 +3024,8 @@ grita|ele/ela grita; grita!|f3s;o
 academia|academia (instituição)|o
 probarlo|prová-lo, experimentá-lo|v
 psiquiatra|psiquiatra|o
-sobra|sobra; de sobra: de sobra, bastante|o;n
-mear|mijar|v
+sobra|sobra, há mais que o suficiente; resto; de sobra: de sobra|f3s;o;n
+mear|mijar (coloq.)|v
 arco|arco (arquitetura); arco (arma)|o;o
 rota|quebrada (f.)|o
 satélite|satélite|o
@@ -3080,7 +3080,7 @@ horno|forno|o
 increíblemente|incrivelmente|o
 astuto|astuto, esperto|o
 ví|eu vi|f1s
-retrasado|atrasado; retardado|o;o
+retrasado|atrasado; defasado; retardado (ofensivo)|o;o;o
 rama|ramo, galho|o
 inicial|inicial|o
 monte|monte, morro|o
@@ -3146,7 +3146,7 @@ injusto|injusto|o
 corresponder|corresponder; caber a, competir a|v;v
 comando|comando (tropa); comando, ordem|o;o
 fallo|falha, erro; sentença, decisão|o;o
-comportar|comportar-se|v
+comportar|implicar, acarretar; comportarse: comportar-se|v;n
 civilización|civilização|o
 polla|pau, pica (vulgar)|o
 dosis|dose|o
@@ -3235,11 +3235,11 @@ lazo|laço (fita); laço, nó corrediço; laço, vínculo|o;o;o
 graduación|formatura|o
 envío|remessa, envio; envio|o;o
 matón|valentão, capanga|o
-portar|portar, carregar|v
+portar|portar, carregar; portarse: comportar-se|v;n
 ejecución|execução|o
-largar|soltar, largar|v
+largar|soltar, liberar; largarse: ir embora, vazar|v;n
 oírlo|ouvi-lo, ouvir ele|v
-saque|saque (esporte)|o
+saque|saque (no esporte); (que) eu tire, (que) ele/ela tire; tire! (usted)|o;f1s;o
 pañuelo|lenço; lenço (de pescoço), echarpe|o;o
 fanático|torcedor, fã; fanático|o;o
 trasladar|mudar, transferir|v
@@ -3468,7 +3468,7 @@ tumor|tumor|o
 embajada|embaixada|o
 malentendido|mal-entendido|o
 unirse|unir-se, juntar-se|v
-enfermar|adoecer, deixar doente|v
+enfermar|adoecer; deixar doente|v;v
 creativo|criativo|o
 silencioso|silencioso, quieto|o
 saluda|ele/ela cumprimenta; cumprimente!|f3s;o
@@ -3509,7 +3509,7 @@ estarlo|estar assim, sê-lo|v
 preguntarme|me perguntar|v
 na|nada (abreviação de nada)|o
 barón|barão|o
-jodidamente|pra caralho, porra (vulgar)|o
+jodidamente|pra caralho, droga (vulgar)|o
 bloque|bloco|o
 húmedo|úmido|o
 euro|euro|o
@@ -3830,7 +3830,7 @@ derramar|derramar|v
 severo|severo, rigoroso|o
 terapeuta|terapeuta|o
 ajedrez|xadrez|o
-cabrear|irritar, deixar puto|v
+cabrear|irritar, dar raiva (coloq.)|v
 estrellar|bater, espatifar|v
 bono|bônus, vale|o
 mocoso|pirralho|o
@@ -3957,8 +3957,8 @@ supuestamente|supostamente|o
 veredicto|veredito|o
 marqués|marquês|o
 revisión|revisão, verificação|o
-dejarnos|nos deixar|v
-déjanos|deixe-nos!|o
+dejarnos|nos deixar; nos permitir|v;v
+déjanos|deixe-nos!; deixe a gente!|o;o
 millonario|milionário|o
 granero|celeiro|o
 atrasar|atrasar, adiar|v
@@ -3990,7 +3990,7 @@ cualidad|qualidade (traço)|o
 humillar|humilhar|v
 convención|convenção|o
 valorar|valorizar, apreciar|v
-lunar|pinta, sinal (na pele) (≠ port. "lunar")|o
+lunar|pinta (na pele); lunar, da lua|o;o
 envejecer|envelhecer|v
 categoría|categoria|o
 concéntrate|concentre-se!|o
@@ -4022,7 +4022,7 @@ marcharse|ir embora|v
 distinguir|distinguir, discernir|v
 hervir|ferver|v
 caravana|caravana; engarrafamento|o;o
-picar|picar, coçar; picar (cortar)|v;v
+picar|picar, morder (inseto); coçar; picar, cortar em pedaços; ser picante (ardido)|v;v;v;v
 tambor|tambor|o
 convertirme|me tornar|v
 secuestrador|sequestrador|o
@@ -4057,7 +4057,7 @@ sofisticar|refinar, sofisticar|v
 justamente|justamente, exatamente|o
 procesar|processar; processar (na justiça)|v;v
 sangriento|sangrento|o
-zapatilla|chinelo, tênis|o
+zapatilla|chinelo; tênis|o;o
 obispo|bispo|o
 aah|aah|o
 descuento|desconto|o
@@ -4068,7 +4068,7 @@ desafortunado|infeliz, azarado|o
 filete|filé, bife|o
 extraer|extrair|v
 antigüedad|antiguidade; antiguidade (objeto)|o;o
-cruzado|cruzado; cruzada|o;o
+cruzado|cruzado; cruzado (soldado das Cruzadas)|o;o
 disminuir|diminuir, reduzir|v
 realista|realista|o
 cobertura|cobertura|o
@@ -4141,7 +4141,7 @@ pásame|me passa!|o
 puñetazo|soco|o
 billón|trilhão (10^12)|o
 atleta|atleta|o
-encontrarnos|nos encontrar|v
+encontrarnos|se encontrar; nos achar|v;v
 tribal|tribal|o
 cállese|fique quieto! (formal)|o
 perímetro|perímetro|o
@@ -4197,9 +4197,9 @@ déme|me dê! (formal)|o
 er|hã, é...|o
 salvación|salvação|o
 baloncesto|basquete|o
-cobra|naja (≠ port. "cobra", serpente em geral)|o
+cobra|ele/ela cobra, recebe; cobra (serpente)|f3s;o
 disfrazar|disfarçar|v
-vientre|ventre, barriga|o
+vientre|barriga; útero|o;o
 mirarme|olhar para mim|v
 creador|criador|o
 emborrachar|embebedar(-se)|v
@@ -4220,7 +4220,7 @@ pulgada|polegada|o
 psíquico|vidente, médium|o
 algodón|algodão|o
 sexto|sexto|o
-persecución|perseguição|o
+persecución|perseguição, caça; perseguição (opressão)|o;o
 entusiasmo|entusiasmo|o
 manejo|manejo; direção (de carro)|o;o
 jet|jato|o
@@ -4232,7 +4232,7 @@ salvarme|me salvar|v
 boom|boom, estrondo|o
 peluca|peruca|o
 esencia|essência|o
-navaja|canivete, navalha|o
+navaja|canivete; navalha|o;o
 renuncia|renúncia, demissão|o
 cuna|berço|o
 postura|postura (do corpo); posição, posicionamento|o;o
@@ -4255,7 +4255,7 @@ atrevido|ousado, atrevido|o
 dominio|domínio, maestria; domínio, território|o;o
 ferrocarril|ferrovia, estrada de ferro|o
 captura|captura|o
-delantera|dianteira, liderança|o
+delantera|dianteira (posição à frente); frente (f.)|o;o
 tomarme|tomar (para mim)|v
 terrestre|terrestre|o
 industrial|industrial|o
@@ -4289,7 +4289,7 @@ maniobra|manobra|o
 callejero|de rua, vira-lata|o
 pagarle|pagar a ele, pagar a ela|v
 pescador|pescador|o
-dejarlos|deixá-los|v
+dejarlos|deixá-los; permitir-lhes|v;v
 usualmente|geralmente, normalmente|o
 sacarla|tirá-la, tirar (f.)|v
 externo|externo|o
@@ -4346,7 +4346,7 @@ asilo|asilo, abrigo|o
 enganchar|enganchar, prender|v
 póngase|ponha! (formal)|o
 demostración|demonstração|o
-doncella|donzela, criada|o
+doncella|donzela; empregada (criada)|o;o
 reparación|conserto, reparo|o
 buzón|caixa de correio|o
 pecador|pecador|o
@@ -4382,7 +4382,7 @@ pala|pá|o
 dorada|dourada|o
 llevarle|levar para ele, levar para ela|v
 provisión|provisão, suprimento|o
-déjate|pare com isso|o
+déjate|deixe-se!; déjate de: pare com isso, deixe disso|o;n
 tour|turnê, excursão|o
 hermanito|irmãozinho|o
 verga|pau, pica (vulgar)|o
@@ -4505,7 +4505,7 @@ empresario|empresário|o
 fundamental|fundamental|o
 bésame|me beija!|o
 recomendación|recomendação|o
-déjale|deixe ele, deixe ela|o
+déjale|deixe ele, deixe ela (permita); deixe ele, deixe ela (largue)|o;o
 suplicar|suplicar, implorar|v
 baúl|baú|o
 cambiarme|me trocar, mudar de roupa|v
@@ -4524,7 +4524,7 @@ evacuar|evacuar|v
 juvenil|juvenil, jovem|o
 superficial|superficial, raso|o
 penique|pêni|o
-habernos|nos ter|o
+habernos|ter … a nós mesmos, ter … nos (auxiliar)|v
 perturbar|perturbar, inquietar|v
 ponme|me põe, me dá|o
 matarle|matá-lo, matá-la|v
@@ -4600,7 +4600,7 @@ independencia|independência|o
 sobredosis|overdose|o
 diseñador|designer, desenhista|o
 santuario|santuário|o
-estrado|banco das testemunhas|o
+estrado|banco das testemunhas; palanque, estrado|o;o
 impaciente|impaciente|o
 cuan|quão (em exclamações)|o
 representación|representação; apresentação, espetáculo|o;o
@@ -4629,7 +4629,7 @@ esperma|esperma|o
 fluido|fluido|o
 fundar|fundar|v
 alias|apelido, pseudônimo|o
-pica|coça, arde|f3s
+pica|coça; pica, morde; é picante (ardido)|f3s;f3s;f3s
 atómico|atômico|o
 trapo|trapo, pano|o
 excursión|passeio, excursão|o
@@ -4692,7 +4692,7 @@ telefono|telefone|o
 espina|espinho; espinha (de peixe)|o;o
 coreano|coreano|o
 reactor|reator|o
-lava|lava|o
+lava|ele/ela lava; lave!; lava|f3s;o;o
 mutuo|mútuo|o
 tapar|tapar, cobrir, bloquear|v
 residuo|resíduo|o
@@ -4702,7 +4702,7 @@ madrugada|madrugada|o
 escolta|escolta, guarda-costas|o
 sácalo|tire isso!|o
 unico|único, só; único, singular|o;o
-recado|recado|o
+recado|recado; incumbência, tarefa|o;o
 champagne|champanhe|o
 sutil|sutil|o
 laurel|louro|o
@@ -4738,7 +4738,7 @@ tablero|tabuleiro, painel|o
 bombardeo|bombardeio|o
 sesenta|sessenta|o
 animador|animador, apresentador|o
-ático|sótão, cobertura|o
+ático|sótão; cobertura, apartamento do último andar|o;o
 inquilino|inquilino|o
 chisme|fofoca|o
 volcán|vulcão|o
@@ -4756,7 +4756,7 @@ remordimiento|remorso|o
 chiquillo|garoto, moleque|o
 deténganse|parem!|o
 acondicionado|condicionado; aire acondicionado: ar-condicionado|o;n
-antorcha|tocha|o
+antorcha|tocha (com chama)|o
 exhibición|exibição, exposição|o
 pirámide|pirâmide|o
 fundador|fundador|o
@@ -4765,12 +4765,12 @@ comprobarlo|verificar isso|v
 muslo|coxa|o
 barbacoa|churrasco, churrasqueira|o
 finanzas|finanças|o
-recta|reta|o
+recta|reta (f.); linha reta|o;o
 llévalo|leve!|o
 correa|correia, coleira|o
 interponer|interpor; interpor, apresentar (recurso)|v;v
 seducir|seduzir|v
-helada|geada|o
+helada|congelada, gelada (f.); geada|o;o
 innecesario|desnecessário|o
 resfriado|resfriado|o
 suicidarse|suicidar-se|v
@@ -4807,7 +4807,7 @@ modificar|modificar|v
 poste|poste|o
 tarado|retardado, idiota (mais forte que imbécil) (≠ port. "tarado")|o
 improvisar|improvisar|v
-negativa|recusa, negativa|o
+negativa|negativa (f.); recusa|o;o
 evolucionar|evoluir|v
 pulsera|pulseira|o
 mandíbula|mandíbula, queixo|o
@@ -4827,7 +4827,7 @@ observador|observador|o
 ramo|buquê; ramo, setor|o;o
 revolver|mexer, remexer|v
 constitución|constituição|o
-cuota|taxa, cota|o
+cuota|mensalidade, parcela; cota, parte|o;o
 sabés|você sabe (voseo)|f2s2p
 peinado|penteado|o
 todopoderoso|todo-poderoso|o
@@ -5002,7 +5002,7 @@ sustituir|substituir|v
 batallón|batalhão|o
 carbono|carbono|o
 moverte|se mexer|v
-caña|cana, junco; copo pequeno de chope|o;o
+caña|cana, junco; copo pequeno de cerveja (Espanha)|o;o
 potente|potente|o
 semestre|semestre|o
 liar|enrolar (um cigarro); confundir, complicar|v;v
@@ -5065,7 +5065,7 @@ resolverlo|resolvê-lo|v
 domicilio|endereço, domicílio|o
 lila|lilás|o
 mineral|mineral|o
-moreno|moreno|o
+moreno|de cabelo escuro; de pele escura, bronzeado|o;o
 moverme|me mexer|v
 calificación|nota, classificação|o
 gimnasia|ginástica|o
@@ -5111,7 +5111,7 @@ acercarme|me aproximar|v
 contribuir|contribuir|v
 metálico|metálico|o
 lateral|lateral|o
-dicha|felicidade|o
+dicha|dita, mencionada (f.); felicidade, ventura|f3s;o
 plátano|banana|o
 trama|trama, enredo|o
 cintura|cintura|o
@@ -5182,7 +5182,7 @@ desvanecer|desvanecer, sumir|v
 tumbar|derrubar|v
 válido|válido|o
 desprecio|desprezo|o
-mola|é legal (coloq.)|f3s
+mola|é legal (Espanha, coloquial)|f3s
 secar|secar|v
 encuesta|pesquisa, enquete|o
 paramédico|paramédico, socorrista|o
@@ -5222,7 +5222,7 @@ unirme|me juntar, me unir|v
 anomalía|anomalia|o
 imponer|impor|v
 merecido|merecido|o
-párate|levanta!, fica de pé!|o
+párate|levante-se! (América Latina); pare!|o;o
 chile|pimenta (malagueta)|o
 conteste|responda! (formal)|o
 hazle|faça com ele!, faça com ela!|f3s
@@ -5257,7 +5257,7 @@ mirarlo|olhar para isso, olhar para ele|v
 cartero|carteiro|o
 porción|porção|o
 proteína|proteína|o
-torno|torno|o
+torno|torno; en torno a: em torno de, cerca de|o;n
 burdel|bordel|o
 verso|verso|o
 pro|vantagem, pró|o
@@ -5439,7 +5439,7 @@ yanqui|ianque, americano|o
 apelación|apelação, recurso|o
 trío|trio|o
 resentimiento|ressentimento|o
-canasta|cesta; cesta (no basquete)|o;o
+canasta|cesta, cesto; cesta (no basquete)|o;o
 bollo|pãozinho doce|o
 concentrarme|me concentrar|v
 encárgate|cuida disso!|o
@@ -5448,7 +5448,7 @@ legión|legião|o
 apartado|seção; caixa postal|o;o
 sinceridad|sinceridade|o
 finca|propriedade rural, sítio|o
-rellenar|preencher, reabastecer|v
+rellenar|preencher (um formulário); reabastecer, encher de novo; rechear (comida)|v;v;v
 lastimarte|te machucar|v
 traslado|transferência|o
 reemplazo|substituição, substituto|o
@@ -5522,7 +5522,7 @@ tejer|tricotar, tecer|v
 alabado|louvado|o
 camarote|camarote (de navio), cabine|o
 intimidar|intimidar|v
-pasarlo|passar (o tempo); pasarlo bien: se divertir|v;n
+pasarlo|passá-lo, gastá-lo; pasarlo bien: se divertir; pasarlo mal: passar um mau bocado|v;n;n
 vibración|vibração|o
 simpatía|simpatia, cordialidade|o
 átomo|átomo|o
@@ -5554,7 +5554,7 @@ prometedor|promissor|o
 tos|tosse|o
 dondequiera|onde quer que|o
 tazón|tigela|o
-corteza|casca, crosta|o
+corteza|casca (de árvore); crosta (do pão, da terra); casca (de queijo, de toucinho)|o;o;o
 transmisor|transmissor|o
 propaganda|propaganda (política)|o
 infernal|infernal|o
@@ -5740,10 +5740,10 @@ niñez|infância|o
 parrilla|grelha|o
 pegamento|cola|o
 voluntariamente|voluntariamente|o
-casual|casual, fortuito|o
+casual|casual, acidental; casual (roupa, estilo)|o;o
 fosa|fossa, cova|o
 volverme|me tornar, ficar; me virar|v;v
-empeñar|penhorar|v
+empeñar|penhorar; empeñarse en: insistir em, estar decidido a|v;n
 estafar|trapacear, dar um golpe|v
 besarme|me beijar|v
 dese|dê-se! (formal)|o
@@ -6007,7 +6007,7 @@ record|recorde|o
 agresor|agressor|o
 dispararme|atirar em mim|v
 frecuente|frequente|o
-pabellón|pavilhão, ala|o
+pabellón|pavilhão, salão; ala (de um hospital, de uma prisão)|o;o
 lima|lima (ferramenta); limão (verde)|o;o
 abdomen|abdome|o
 afirmativo|afirmativo|o
@@ -6016,7 +6016,7 @@ funeraria|funerária|o
 tómala|pega! (f.)|o
 zoo|zoológico|o
 banca|setor bancário; banco (assento)|o;o
-échale|manda ver!, tenta!|o
+échale|jogue nele/nela/nisso!, ponha mais!; échale un vistazo / échale un ojo: dê uma olhada nisso; vai fundo! (México)|o;n;o
 grifo|torneira (≠ port. "grifo")|o
 tacaño|pão-duro, mesquinho|o
 creíble|crível, convincente|o
@@ -6067,12 +6067,12 @@ carnaval|carnaval|o
 dieciséis|dezesseis|o
 grandote|grandalhão|o
 eje|eixo|o
-invertido|invertido, de cabeça para baixo|o
+invertido|investido; invertido, de cabeça para baixo|o;o
 quejarte|reclamar|v
 alejarte|se afastar|v
 canciller|chanceler|o
 corro|eu corro|f1s
-llanta|pneu, aro|o
+llanta|pneu (América Latina); aro da roda (Espanha)|o;o
 puntuación|pontuação (placar); pontuação (sinais)|o;o
 buenísimo|ótimo, excelente|o
 quiza|talvez|o
@@ -6250,7 +6250,7 @@ creciente|crescente|o
 esquivar|esquivar-se de, evitar|v
 inscripción|inscrição (matrícula); inscrição (gravada)|o;o
 hipótesis|hipótese|o
-tocarla|tocá-la, tocar nela (também uma música)|v
+tocarla|tocá-la; tocá-la (música)|v;v
 cartón|papelão; caixa (de leite), pacote|o;o
 flauta|flauta|o
 fotografiar|fotografar|v
@@ -6324,7 +6324,7 @@ encargarse|encarregar-se de, cuidar de|v
 esmeralda|esmeralda|o
 trazar|traçar, desenhar; tramar, planejar|v;v
 ajuste|ajuste; acerto, acordo|o;o
-benéfico|beneficente, benéfico|o
+benéfico|beneficente, de caridade; benéfico|o;o
 consciencia|consciência (estar consciente); consciência (moral)|o;o
 coyote|coiote|o
 comestible|comestível|o
@@ -6560,7 +6560,7 @@ decreto|decreto|o
 coalición|coalizão|o
 prosperidad|prosperidade|o
 importación|importação|o
-relativo|relativo; relativo a, referente a (relativo a)|o;o
+relativo|relativo; relativo a: relativo a, referente a|o;n
 iraní|iraniano|o
 ambiental|ambiental|o
 consenso|consenso|o
@@ -6587,7 +6587,7 @@ acreedor|credor|o
 energética|energética (como em política energética)|o
 situado|situado, localizado|o
 desempeño|desempenho (de uma função, um papel)|o
-incorporar|incorporar, acrescentar; sentar-se, erguer-se (incorporarse); juntar-se a (incorporarse a)|v;v;v
+incorporar|incorporar, acrescentar; sentar-se (incorporarse); incorporarse a: juntar-se a|v;v;n
 gobernante|governante (pessoa); governante, no poder|o;o
 franquista|franquista|o
 generalizar|generalizar; espalhar-se, generalizar-se (generalizarse)|v;v
@@ -6638,7 +6638,7 @@ plus|bônus, adicional|o
 castellano|castelhano, espanhol (língua)|o
 inversionista|investidor|o
 parlamentario|parlamentar; parlamentar (membro do parlamento)|o;o
-protagonizar|estrelar; protagonizar, estar no centro de|v;v
+protagonizar|protagonizar, ser o principal em; estar no centro de, estar envolvido em|v;v
 integral|integral, completo; integral (pão); integral (em cálculo)|o;o;o
 caracterizar|caracterizar|v
 perteneciente|pertencente|o
@@ -6677,7 +6677,7 @@ titulado|intitulado; formado, diplomado|o;o
 innovador|inovador; inovador (pessoa)|o;o
 reinado|reinado|o
 véase|veja-se (remissão)|o
-sumar|somar; juntar-se a (sumarse a)|v;v
+sumar|somar, adicionar; sumarse a: juntar-se a, somar-se a|v;n
 solidaridad|solidariedade|o
 renovable|renovável|o
 políticamente|politicamente|o
@@ -6810,7 +6810,7 @@ residir|residir, morar; residir (em), consistir (em)|v;v
 geográfico|geográfico|o
 conserva|conserva, enlatado|o
 sucesivamente|sucessivamente; y así sucesivamente: e assim por diante|o;n
-optar|optar, escolher; candidatar-se a (optar a)|v;v
+optar|optar, escolher; optar a: candidatar-se a|v;n
 bizantino|bizantino|o
 islote|ilhota|o
 latinoamericano|latino-americano|o
@@ -6866,7 +6866,7 @@ exclusivamente|exclusivamente|o
 guionista|roteirista|o
 nominal|nominal|o
 surgimiento|surgimento|o
-decena|dezena (decenas de: dezenas de)|o
+decena|cerca de dez, dez; decenas de: dezenas de|o;n
 aventurero|aventureiro; aventureiro (adj.)|o;o
 ampliamente|amplamente|o
 sistémico|sistêmico|o
@@ -6877,7 +6877,7 @@ redacción|redação, escrita; redação (de jornal); redação (escolar)|o;o;o
 susurro|sussurro|o
 equivaler|equivaler (a)|v
 cochero|cocheiro|o
-restar|subtrair; tirar, minimizar (restar importancia)|v;v
+restar|subtrair; tirar; restar importancia: minimizar; restar, sobrar|v;v;n;v
 colaborador|colaborador|o
 colonial|colonial|o
 desdichado|desgraçado, infeliz; infeliz (pessoa)|o;o
@@ -7001,7 +7001,7 @@ movilidad|mobilidade|o
 multinacional|multinacional|o
 presentador|apresentador|o
 flamenco|flamenco; flamengo; flamingo|o;o;o
-ende|(por ende) portanto, por isso|o
+ende|por ende: portanto, por conseguinte|n
 arrecife|recife|o
 discriminación|discriminação|o
 futbolista|jogador de futebol|o
@@ -7034,7 +7034,7 @@ marítimo|marítimo|o
 boliviano|boliviano|o
 chimpancé|chimpanzé|o
 consentir|consentir, permitir; mimar (criança)|v;v
-contraer|contrair (doença, dívida); assumir; casar-se (contraer matrimonio)|v;v;v
+contraer|contrair (uma doença, uma dívida); assumir; contraer matrimonio: casar-se|v;v;n
 estrechar|estreitar; abraçar, apertar; estrechar la mano: apertar a mão|v;v;n
 normativa|normas, regulamento|o
 antología|antologia|o
@@ -7087,7 +7087,7 @@ coherente|coerente|o
 autismo|autismo|o
 correlación|correlação|o
 doctrina|doutrina|o
-hostelero|hoteleiro, estalajadeiro|o
+hostelero|hoteleiro, dono de restaurante; hoteleiro, de restauração|o;o
 húngaro|húngaro|o
 proveniente|proveniente|o
 subrayar|sublinhar, ressaltar|v
@@ -7177,7 +7177,7 @@ concretamente|especificamente, concretamente|o
 desastroso|desastroso|o
 estatus|status|o
 pianista|pianista|o
-referente|referência; referente a (referente a)|o;o
+referente|referência, ponto de comparação; referente a: referente a, a respeito de|o;n
 delegación|delegação; filial, escritório local|o;o
 excavación|escavação|o
 mapuche|mapuche|o
@@ -7467,7 +7467,7 @@ persa|persa|o
 propagación|propagação, disseminação|o
 argelino|argelino|o
 comparable|comparável|o
-erigir|erguer, construir; erigir-se em, colocar-se como (erigirse en)|v;v
+erigir|erigir, construir; erigirse en: constituir-se em|v;n
 levantamiento|levante, revolta; levantamento, suspensão|o;o
 repertorio|repertório|o
 logaritmo|logaritmo|o
@@ -7726,7 +7726,7 @@ enriquecer|enriquecer; enriquecer-se (enriquecerse)|v;v
 erosionar|erodir, desgastar|v
 escalada|escalada (de tensão); escalada, subida|o;o
 espanto|terror, pavor|o
-expensas|(a expensas de) à custa de|o
+expensas|a expensas de: à custa de|n
 ráfaga|rajada (de vento); rajada (de tiros)|o;o
 alternativo|alternativo|o
 canalizar|canalizar|v
@@ -7914,7 +7914,7 @@ homólogo|homólogo, contraparte; equivalente, homólogo (adj.)|o;o
 industrialización|industrialização|o
 mensual|mensal|o
 planificar|planejar|v
-pos|em busca de, atrás de (en pos de)|o
+pos|en pos de: em busca de, atrás de|n
 predominante|predominante|o
 recopilar|compilar, reunir|v
 rotación|rotação; rotatividade|o;o
@@ -8002,7 +8002,7 @@ intersección|interseção|o
 minería|mineração|o
 sindicalista|sindicalista|o
 surcoreano|sul-coreano|o
-vicioso|vicioso (círculo); depravado|o;o
+vicioso|depravado, dissoluto; círculo vicioso: círculo vicioso|o;n
 afroamericano|afro-americano|o
 anatomía|anatomia|o
 idear|idealizar, conceber|v
@@ -8332,7 +8332,7 @@ apremiante|premente, urgente|o
 arbitrario|arbitrário|o
 carril|faixa, pista; trilho|o;o
 casamentero|casamenteiro|o
-cofre|baú, cofre; porta-malas|o;o
+cofre|baú, cofre; capô (de carro, México)|o;o
 colisión|colisão|o
 desfase|defasagem, descompasso|o
 drones|drones|o
@@ -8411,7 +8411,7 @@ pedagogía|pedagogia, educação|o
 publicitario|publicitário, promocional|o
 restrictivo|restritivo|o
 retornar|retornar, voltar|v
-alojar|alojar, acomodar; hospedar|v;v
+alojar|alojar, acomodar; hospedar; alojarse en: ficar em, hospedar-se em|v;v;n
 antiguamente|antigamente|o
 bélico|bélico|o
 diván|divã, sofá|o
@@ -8846,7 +8846,7 @@ reactivar|reativar, reanimar|v
 sake|saquê|o
 sucumbir|sucumbir|v
 supremacía|supremacia|o
-abate|abade, padre|o
+abate|abade, padre; ele/ela abate, derruba; se abate sobre: abate-se sobre, atinge|o;f3s;n
 ansia|ânsia, anseio; ansiedade|o;o
 benigno|benigno; ameno, suave|o;o
 brusco|brusco, repentino; brusco, rude|o;o
@@ -8892,7 +8892,7 @@ insolvente|insolvente|o
 lésbico|lésbico|o
 origami|origami|o
 oxitocina|ocitocina|o
-pintada|pichação, grafite|o
+pintada|pintada (f.); pichação|o;o
 poético|poético|o
 póker|pôquer|o
 replicar|replicar, retrucar; replicar, reproduzir|v;v
@@ -9072,7 +9072,7 @@ arribar|chegar; aportar|v;v
 autobiografía|autobiografia|o
 bajel|nau, navio|o
 barbero|barbeiro|o
-boliche|boliche; boate, balada|o;o
+boliche|boliche (pista de boliche); boate (Argentina, Uruguai)|o;o
 celada|cilada, emboscada; celada (elmo)|o;o
 consola|console|o
 cripta|cripta|o
@@ -9093,7 +9093,7 @@ mandamiento|mandamento|o
 modernista|modernista|o
 ochocientos|oitocentos|o
 palco|camarote (teatro) (≠ port. "palco")|o
-pardiez|por Deus!, céus!|o
+pardiez|por Deus!, céus! (antigo)|o
 pedagogo|pedagogo, educador|o
 porcelana|porcelana|o
 párpado|pálpebra|o
@@ -9130,7 +9130,7 @@ millar|milhar|o
 necrópolis|necrópole|o
 nostalgia|nostalgia|o
 opresión|opressão|o
-ordenada|ordenada (coordenada y); arrumada, ordenada|o;o
+ordenada|arrumada, ordenada; disposta, organizada; ordenada, coordenada y|o;o;o
 peatón|pedestre|o
 permanentemente|permanentemente|o
 prefacio|prefácio|o
@@ -9363,7 +9363,7 @@ asemejar|assemelhar-se, parecer (asemejarse a)|v
 camarilla|panelinha, conluio|o
 clandestinidad|clandestinidade, sigilo; clandestinidade (vida, atividade)|o;o
 cojín|almofada|o
-concurrir|comparecer; coincidir, convergir (≠ port. "concorrer")|v;v
+concurrir|comparecer; coincidir, convergir; concorrer (em eleição), competir|v;v;v
 consulado|consulado|o
 deducción|dedução|o
 demoniaco|demoníaco|o
@@ -9423,7 +9423,7 @@ monopólico|monopolista|o
 métrica|métrica (do verso); métrica, medida|o;o
 pesticida|pesticida|o
 poblacional|populacional|o
-precipitar|apressar, precipitar; lançar, arremessar (do alto); precipitar (química)|v;v;v
+precipitar|apressar, provocar; lançar de cima; apressar-se, agir precipitadamente (precipitarse); precipitar (química)|v;v;v;v
 preservación|preservação|o
 primacía|primazia|o
 proyectil|projétil, míssil|o
@@ -9493,7 +9493,7 @@ paradójicamente|paradoxalmente|o
 pender|pender, estar pendurado|v
 perdición|ruína, perdição; perdição (da alma)|o;o
 pique|rivalidade, implicância; irse a pique: ir a pique, afundar|o;n
-podre|pus, podridão (≠ port. "podre")|o
+podre|poderei (podré sem acento); pus, podridão|f1s;o
 polémico|polêmico|o
 pupila|pupila|o
 raso|cetim; plano, limpo; al raso: ao relento|o;o;n
@@ -9603,7 +9603,7 @@ tosco|tosco, rústico|o
 verdor|verdor, verdura|o
 alzar|levantar, erguer|v
 amazónico|amazônico|o
-apoderar|autorizar, dar poderes (apoderarse de: apoderar-se de)|v
+apoderar|autorizar, dar poderes; apoderarse de: apoderar-se de, tomar conta de|v;n
 bolchevique|bolchevique|o
 cardiovascular|cardiovascular|o
 commodities|commodities, matérias-primas|o
@@ -9870,7 +9870,7 @@ intolerancia|intolerância|o
 lírico|lírico|o
 machacar|triturar, esmagar; repisar, insistir em|v;v
 manufacturar|manufaturar, fabricar|v
-mariquita|joaninha|o
+mariquita|joaninha; maricas, homem afeminado (ofensivo)|o;o
 mercader|mercador|o
 mestizo|mestiço|o
 mirador|mirante|o
@@ -10041,7 +10041,7 @@ polución|poluição|o
 predominantemente|predominantemente|o
 saldar|saldar, quitar|v
 tala|corte, derrubada (de árvores)|o
-trillón|quintilhão (10^18) (≠ port. "trilhão")|o
+trillón|quintilhão (10^18, um milhão de milhões de milhões)|o
 visceral|visceral|o
 admiración|admiração|o
 anuario|anuário|o
@@ -10315,7 +10315,7 @@ exactitud|exatidão, precisão|o
 follaje|folhagem|o
 ilusorio|ilusório|o
 implorar|implorar|v
-impregnar|impregnar, embeber|v
+impregnar|embeber, permear, saturar|v
 imprescindible|imprescindível, indispensável|o
 inquisitivo|inquisitivo, curioso|o
 insolente|insolente|o
@@ -10753,12 +10753,12 @@ surrealista|surreal; surrealista|o;o
 telómero|telômero|o
 termita|cupim|o
 turbina|turbina|o
-tópico|clichê, lugar-comum (≠ port. "tópico"); tópico, de uso externo|o;o
+tópico|clichê, lugar-comum; tópico, de uso externo (remédio); tópico, assunto (América Latina)|o;o;o
 túnica|túnica|o
 urbanístico|urbanístico|o
 acueducto|aqueduto|o
 agobiar|sufocar, sobrecarregar|v
-alistar|alistar; alistarse: aprontar-se|v;n
+alistar|alistar, recrutar; preparar, aprontar (América Latina)|v;v
 antieuropeo|antieuropeu|o
 aplacar|aplacar, apaziguar|v
 benedictino|beneditino|o
@@ -10936,7 +10936,7 @@ podio|pódio|o
 psicoanalítico|psicanalítico|o
 regar|regar, irrigar|v
 rezagada|atrasada (f.); retardatário|o;o
-ría|ria, estuário|o
+ría|(que) eu ria, (que) ele/ela ria; ria! (usted); ria, estuário|f1s;o;o
 sopesar|sopesar, ponderar|v
 terminación|término, conclusão; acabamento|o;o
 vidriera|vitral; vitrine|o;o
@@ -11009,7 +11009,7 @@ ortopédico|ortopédico|o
 palillo|palito de dente; hashi, pauzinho; baqueta|o;o;o
 palmo|palmo; palmo a palmo: palmo a palmo|o;n
 peculiaridad|peculiaridade|o
-pendejadas|besteiras, bobagens (coloq.)|o
+pendejadas|bobagens, merdas (vulgar, América Latina)|o
 predeterminar|predeterminar|v
 priorato|priorado|o
 privación|privação|o
@@ -11341,7 +11341,7 @@ fulminar|fulminar; fulminar con la mirada: fuzilar com o olhar|v;n
 gaveta|gaveta|o
 gotear|gotejar, pingar|v
 gravamen|imposto, tributo; ônus, gravame|o;o
-hinchada|torcida|o
+hinchada|torcida (de um time); inchada (f.)|o;o
 humildemente|humildemente|o
 infringir|infringir, violar (regra)|v
 injuria|injúria, insulto; difamação|o;o
@@ -11363,7 +11363,7 @@ ochocientas|oitocentas (f.)|o
 ondulación|ondulação, onda; marola|o;o
 opcional|opcional|o
 paramilitar|paramilitar|o
-pegada|pegada, potência de soco|o
+pegada|colada, grudada (f.); soco, força do golpe|o;o
 penetración|penetração|o
 pesquisa|investigação, averiguação (≠ port. "pesquisa" acadêmica)|o
 poscomunistas|pós-comunistas|o
@@ -11575,7 +11575,7 @@ mundano|mundano; social, da alta sociedade|o;o
 muéstreme|mostre-me (o senhor)|o
 nanotecnología|nanotecnologia|o
 nanómetro|nanômetro|o
-nel|nada, não (coloq., = no)|o
+nel|nada, não (México, coloquial)|o
 oleaje|ondulação, marulho, ondas|o
 ondear|ondular, tremular|v
 osado|ousado, audacioso|o
@@ -11592,7 +11592,7 @@ rapto|sequestro, rapto; arroubo, êxtase|o;o
 receso|recesso, intervalo|o
 recreativo|recreativo|o
 recreo|recreio; recreação|o;o
-recámara|quarto (de dormir) (México); câmara (de arma)|o;o
+recámara|quarto (México); câmara (de uma arma)|o;o
 reiniciar|reiniciar|v
 repisa|prateleira, parapeito; consolo da lareira|o;o
 resoplar|bufar|v
@@ -11730,7 +11730,7 @@ clientelismo|clientelismo|o
 clítoris|clitóris|o
 colorido|colorido (adj.); colorido, coloração|o;o
 colágeno|colágeno|o
-complaciente|prestativo, condescendente; complacente, acomodado|o;o
+complaciente|prestativo, solícito; indulgente|o;o
 condicionalidad|condicionalidade|o
 conocedor|conhecedor, especialista; entendido|o;o
 consecuentemente|consequentemente|o
@@ -11777,7 +11777,7 @@ obsesivo|obsessivo|o
 ortogonal|ortogonal|o
 paludismo|malária|o
 paralelismo|paralelo, paralelismo|o
-pasiva|voz passiva|o
+pasiva|passiva (f.); voz passiva|o;o
 patinaje|patinação|o
 pesquero|pesqueiro; barco de pesca|o;o
 plantel|equipe, quadro de pessoal; elenco (esporte)|o;o
@@ -11950,7 +11950,7 @@ doblaje|dublagem|o
 dotación|equipe, tripulação; dotação, verba|o;o
 empatar|empatar|v
 gema|gema, pedra preciosa|o
-gilipolleces|besteiras, merda (coloq.)|o
+gilipolleces|bobagens, merdas (vulgar, Espanha)|o
 grabadora|gravador|o
 homenajear|homenagear|v
 incoherente|incoerente|o
@@ -12146,7 +12146,7 @@ reticente|relutante, reticente|o
 retumbar|retumbar, ressoar|v
 revisionista|revisionista|o
 romá|rom, cigano|o
-ruda|arruda|o
+ruda|rude, grosseira (f.); arruda (planta)|o;o
 rudimentario|rudimentar|o
 sacra|sacra, sagrada (f.)|o
 secuenciación|sequenciamento|o
@@ -12243,7 +12243,7 @@ pujar|dar lance (em leilão); fazer força, esforçar-se|v;v
 refinanciación|refinanciamento|o
 remodelar|remodelar, reformar|v
 rociar|borrifar, pulverizar, regar|v
-rodada|rastro de pneu, sulco|o
+rodada|filmada, gravada (f.); marca de pneu, sulco|o;o
 romanización|romanização|o
 rótula|rótula, patela|o
 sabotaje|sabotagem|o
@@ -12331,7 +12331,7 @@ descomunal|descomunal, enorme|o
 desengañar|desiludir, abrir os olhos de alguém|v
 despreocupado|despreocupado|o
 destinatario|destinatário|o
-didáctica|didática|o
+didáctica|didática, metodologia de ensino; didática, educativa (f.)|o;o
 dolorosamente|dolorosamente|o
 déle|dê-lhe, dê a ele/ela (formal)|o
 díganle|digam-lhe! (pl.)|o
@@ -12882,7 +12882,7 @@ faena|tarefa, afazer; trabalho; sacanagem, golpe baixo|o;o;o
 faldón|fralda (de casaco), aba|o
 fango|lama, lodo|o
 flequillo|franja|o
-follón|bagunça, confusão; briga, barraco (coloq.)|o;o
+follón|bagunça, confusão (Espanha, coloquial); briga (Espanha, coloquial)|o;o
 forcejear|debater-se, lutar|v
 fundido|derretido, fundido; fusão (cinema); queimado (lâmpada)|o;o;o
 grava|cascalho, brita|o
@@ -12916,7 +12916,7 @@ ramen|lámen|o
 rebosar|transbordar|v
 refrescante|refrescante|o
 regordete|gorducho, rechonchudo|o
-retar|desafiar; dar bronca, repreender|v;v
+retar|desafiar, provocar; repreender (Argentina, Chile, Uruguai)|v;v
 riquísimo|delicioso; riquíssimo|o;o
 riña|briga, rixa|o
 ronco|rouco|o
@@ -13119,7 +13119,7 @@ apremiar|pressionar, apressar; ser urgente, urgir|v;v
 apóstata|apóstata|o
 ardientemente|ardentemente|o
 argonauta|argonauta|o
-aventar|joeirar, abanar (cereais); jogar, atirar|v;v
+aventar|jogar, lançar (América Latina); joeirar|v;v
 azafata|comissária de bordo; recepcionista|o;o
 bajeza|baixeza, vileza|o
 ballesta|besta (arma)|o
@@ -13191,7 +13191,7 @@ leonado|fulvo, trigueiro|o
 loza|louça|o
 macabro|macabro|o
 malditamente|malditamente, pra caramba|o
-manteca|banha; manteiga|o;o
+manteca|banha; manteiga (Argentina, Uruguai)|o;o
 migaja|migalha|o
 mimbre|vime|o
 miramiento|consideração, respeito|o
@@ -13393,7 +13393,7 @@ enrollado|enrolado; envolvido (com alguém); legal, bacana (coloq.)|o;o;o
 sus|seus, suas, dele, dela, deles, do senhor, de vocês (formal ou pl.)|o
 coger|pegar, apanhar; foder, transar (vulgar, América Latina)|v;v
 marica|homem gay, homem efeminado (insulto ofensivo)|o
-capullo|botão (de flor), casulo; babaca, idiota (vulgar, Espanha)|o;o
+capullo|botão (de flor); casulo; babaca, idiota (vulgar, Espanha)|o;o;o
 maricón|homem gay (insulto ofensivo)|o
 jódete|vá se ferrar!, vá se foder! (vulgar)|o
 hostia|porra!, caramba! (vulgar, Espanha); hóstia|o;o
@@ -13406,7 +13406,7 @@ canguro|canguru; babá (Espanha, coloq.)|o;o
 preparatoria|ensino médio (México)|o
 platicar|conversar, bater papo (México)|v
 mamón|lactente; babaca, filho da mãe (vulgar, Espanha)|o;o
-chingar|foder, transar (vulgar, México); estragar, ferrar, encher o saco (coloq.)|v;v
+chingar|foder (vulgar, México); estragar, ferrar (coloquial); incomodar, encher o saco (coloquial)|v;v;v
 se|se (reflexivo); se (impessoal), a gente; lhe, lhes, ao senhor (substitui le antes de lo, la)|o;o;o
 segundo|segundo (ordinal); segundo (de tempo)|o;o
 amo|eu amo; dono, patrão|f1s;o
@@ -13441,7 +13441,7 @@ sentaos|sentem-se! (pl., Espanha)|o
 deciros|dizer a vocês (pl., Espanha)|v
 asentir|concordar, assentir (muitas vezes com a cabeça)|v
 busto|busto (escultura); busto, peito|o;o
-corrido|corrido (cortina), contínuo; corrido (balada mexicana); envergonhado (antiquado)|o;o;o
+corrido|correu (correr); fechada (cortina); contínuo, seguido; corrido (balada mexicana); envergonhado (antigo)|f3s;o;o;o;o
 impedido|impedido, bloqueado; deficiente, inválido (antiquado)|o;o
 pendejo|babaca, idiota (vulgar)|o
 fungir|atuar como, exercer a função de (América Latina)|v
@@ -13464,12 +13464,12 @@ fui|eu fui (ser); eu fui (ir)|f1s;f1s
 ello|isso, isto (neutro); por ello: por isso; para ello: para isso|f3s;n;n
 fueron|eles foram, vocês foram (pl., ser); eles foram, vocês foram (pl., ir)|f3p;f3p
 divertido|divertido, engraçado; achando graça, entretido|o;o
-ocupado|ocupado, atarefado; ocupado (lugar), tomado|o;o
+ocupado|ocupado; ocupado, tomado; resolvido, cuidado (ocuparse de)|o;o;o
 fuiste|você foi, tu foste (ser); você foi, tu foste (ir)|f2s2p;f2s2p
 encantado|muito prazer; encantado, contentíssimo; encantado, enfeitiçado|o;o;o
 privado|privado, particular; privado (de), carente|o;o
 viva|viva!, hurra!; viva (f.); viva (subjuntivo de vivir)|o;o;o
-debido|devido, adequado; debido a: devido a, por causa de; devido (dinheiro)|o;n;o
+debido|devido, apropriado; debido a: devido a, por causa de; devido (a pagar); tinha de, deveria ter (depois de haber)|o;n;o;f3s
 dispuesto|disposto, pronto; estar dispuesto a: estar disposto a|o;n
 despierta|acordada (f.); acorda!; ele/ela acorda|o;o;f3s
 fuimos|nós fomos (ser); nós fomos (ir)|f1p;f1p
@@ -13485,10 +13485,10 @@ zorra|raposa (fêmea); vadia, puta (insulto vulgar)|o;o
 apropiado|apropriado, adequado|o
 creas|você acredite (subjuntivo de creer); você cria (crear)|f2s2p;f2s2p
 comprometido|noivo; comprometido, empenhado; comprometido (prejudicado)|o;o;o
-enfrente|em frente, do outro lado; enfrente de: em frente a, diante de|o;n
+enfrente|em frente, do outro lado; enfrente de: em frente a, diante de; (que) ele/ela enfrente|o;n;f3s
 sed|sede; tener sed: ter sede, estar com sede|o;n
 destinado|destinado, fadado; estar destinado a: estar destinado a; designado, lotado|o;n;o
-medias|meia-calça; meias (América Latina); a medias: pela metade|o;o;n
+medias|meias-calças, meias; meias (América Latina); a medias: pela metade; média, intermediária (f. pl.)|o;o;n;o
 educado|educado, bem-educado; instruído, culto|o;o
 encubierto|infiltrado, à paisana; encoberto, secreto; acobertado, abafado|o;o;o
 honrado|honesto, íntegro; honrado|o;o
@@ -16200,3 +16200,27 @@ farmacológico|farmacológico|o
 fibrosis|fibrose|o
 girasol|girassol|o
 glamour|glamour|o
+oye|ei!, escuta! (para chamar a atenção); ele/ela ouve|o;f3s
+demonios|demônios, diabos; que diabos!, droga! (para dar ênfase: qué demonios)|o;o
+diablos|que diabos!, droga! (para dar ênfase: qué diablos); diabos|o;o
+viste|você viu; ele/ela veste, usa (vestir)|f2s2p;f3s
+perra|cadela; insulto vulgar contra mulher|o;o
+nena|querida, bebê (termo carinhoso); menininha|o;o
+oiga|com licença!, escute! (para chamar a atenção, usted); (que) ele/ela ouça|o;f3s
+decidido|decidido; determinado, resoluto; estar decidido a: estar decidido a|o;o;n
+oigan|escutem!, ei! (para chamar a atenção de um grupo); (que) eles/elas ouçam, (que) vocês ouçam (pl.)|o;f3p
+china|China (o país); chinesa (f.); porcelana|o;o;o
+complicado|complicado, complexo, difícil|o
+entrado|entrado; bien entrado: bem avançado em (um período)|o;n
+arreglado|consertado, resolvido; arrumado, bem vestido; se virou (se las ha arreglado, ele/ela se virou)|o;o;o
+suba|(que) ele/ela suba, (que) eu suba; aumento (Argentina, Uruguai)|f3s;o
+amada|amada, querida (f.); amada (f.)|o;o
+pervertido|pervertido; pervertido, corrompido|o;o
+arriesgado|arriscado, perigoso; ousado; posto em risco|o;o;o
+doña|Doña (título antes do nome de uma mulher)|f3s
+botones|botões; mensageiro de hotel|o;o
+estimado|estimado, calculado; estimado, respeitado; prezado (no início de carta: Estimado señor)|o;o;o
+descuida|não se preocupe!; ele/ela descuida, negligencia|o;f3s
+perras|cadelas; insultos vulgares contra mulheres; dinheiro, grana (Espanha, coloq.)|o;o;o
+subas|(que) você suba; aumentos (Argentina, Uruguai)|f2s2p;o
+quiebre|quebra, ruptura (principalmente América Latina); (que) ele/ela quebre|o;f3s

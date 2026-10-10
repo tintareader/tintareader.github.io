@@ -68,7 +68,7 @@ yeah|ya|o
 've|(sudah: I've seen, you've gone)|g
 got|dapat, bentuk lampau dari get; have got: punya; have got to: harus (aku harus pergi); got up: bangun, berdiri; got out: keluar, kabur; got back: kembali; got rid of: menyingkirkan, membuang; got over: pulih dari; got away: kabur, lolos; got on: naik, akur; got off: turun; got through: melewati, menyelesaikan, tersambung; got used to: terbiasa dengan|o;n;n;n;n;n;n;n;n;n;n;n;n
 okay|oke, baiklah|o
-as|seperti; saat, ketika; sebagai (bekerja sebagai guru); karena (karena sudah larut); as if / as though: seolah-olah; as for: mengenai|o;o;o;o;n;n
+as|seperti, sebagai; sama ... dengan (dalam perbandingan: setinggi, secepat); sementara, ketika; sebagai (dalam peran: bekerja sebagai guru); karena (karena sudah larut, kami pergi); as if / as though: dengan cara yang seakan-akan; as for: mengenai|o;o;o;o;o;n;n
 take|mengambil; take over: mengambil alih; take on: menerima (pekerjaan, tanggung jawab), mempekerjakan, melawan, tampak (bercorak); take off: melepas (pakaian), lepas landas, pergi; take out: mengeluarkan (dari saku, tas), mengambil, mengajak keluar; take back: menarik kembali (ucapan), mengembalikan (barang); take after: mirip (orang tua); take place: terjadi, berlangsung; take part: ikut serta; take care of: merawat, mengurus; take advantage of: memanfaatkan; take it easy: santai saja, tenang; memerlukan, makan (waktu, tenaga: butuh satu jam); naik (bus, kereta); menerima (pekerjaan, nasihat, kartu); membawa, mengantar (ke suatu tempat); melakukan (mandi, memotret, melihat sebentar)|v;n;n;n;n;n;n;n;n;n;n;n;v;v;v;v;v
 good|bagus, baik, bermutu; baik hati, berkelakuan baik; menyenangkan, enak; goods: barang dagangan; for good: untuk selamanya; no good: tidak berguna; baik, oke (sebagai jawaban: Good, thanks! = Baik, terima kasih!)|o;o;o;n;n;n;o
 let|membiarkan, mengizinkan; let down: mengecewakan, lengah (let down one's guard); let go: melepaskan; let in: membiarkan masuk; let out: mengeluarkan (desahan, teriakan), melepaskan; let alone: apalagi|v;n;n;n;n;n
@@ -127,7 +127,7 @@ over|di atas; selesai, berakhir; ke seberang, melintasi; selama (over the weeken
 guy|cowok, pria; (guys) orang-orang, siapa saja|o;o
 day|hari (24 jam); siang, siang hari|o;o
 please|tolong, silakan (permintaan sopan)|o
-should|sebaiknya, seharusnya|o
+should|sebaiknya, seharusnya; (sebelum subjek) jika (jika Anda butuh bantuan, telepon)|o;o
 said|bentuk lampau dari say|o
 sorry|maaf (meminta ampun); kasihan (merasa prihatin)|o;o
 off|lepas, pergi (dari suatu tempat atau permukaan); mati (tidak menyala); libur, tidak bekerja (hari libur); basi, busuk (makanan); batal (pernikahannya batal); potongan (diskon 20%)|o;o;o;o;o;o
@@ -286,7 +286,7 @@ speak|bertutur, berbicara; speak up: bicara lebih keras, angkat bicara|v;n
 both|keduanya|o
 laugh|tertawa; tawa|v;o
 ready|siap|o
-guess|menduga, menebak; I guess: rasanya, kurasa|v;n
+guess|menebak; I guess: kukira, kurasa; sebuah tebakan|v;n;o
 pretty|cantik, manis; cukup, agak|o;o
 wife|istri|o
 drink|minum; minuman|v;o
@@ -319,8 +319,8 @@ myself|diri saya sendiri|o
 um|em… (ragu-ragu)|o
 soon|segera, tak lama lagi; as soon as: segera setelah; sooner or later: cepat atau lambat|o;n;n
 close|menutup; dekat|v;o
-question|pertanyaan; masalah, persoalan; bertanya, mempertanyakan, meragukan|o;o;v
-few|sedikit, tidak banyak|o
+question|pertanyaan, sesuatu yang ditanyakan; masalah, persoalan; menanyai, mengajukan pertanyaan kepada; mempertanyakan, meragukan|o;o;v;v
+few|sedikit, tidak banyak; a few: beberapa|o;n
 heart|jantung; hati, perasaan, cinta; pusat, jantung (pusat kota); by heart: di luar kepala, hafal; at heart: pada dasarnya|o;o;o;n;n
 couldn|(tidak, dalam couldn't)|g
 lady|nyonya, perempuan|o
@@ -358,7 +358,7 @@ working|bekerja (bentuk -ing dari work); berfungsi, berjalan; bekerja, punya pek
 pick|menjemput, mengambil; memilih; pick up: mengangkat, menjemput, mengangkat (telepon), belajar; pick on: merundung|v;v;n;n
 crazy|gila|o
 write|menulis|v
-stand|berdiri; tahan, sanggup menahan; stand for: mewakili, singkatan dari, menoleransi; stand out: menonjol; stand up for: membela; stand by: bersiaga, mendukung|v;v;n;n;n;n
+stand|berdiri; tahan, sanggup menahan; stand for: mewakili, singkatan dari, menoleransi; stand out: menonjol; stand up for: membela; stand by: bersiaga, mendukung; kios, lapak, penyangga (a fruit stand: kios buah); tribun penonton|v;v;n;n;n;n;o;o
 save|menyelamatkan; menyimpan|v;v
 game|permainan; pertandingan; hewan buruan|o;o;o
 exactly|tepat, persis; betul sekali! (menyetujui)|o;o
@@ -407,7 +407,7 @@ dog|anjing|o
 important|penting|o
 line|garis; antrean; baris (sebaris teks); sambungan telepon; dialog, kalimat yang diucapkan aktor|o;o;o;o;o
 trust|mempercayai; kepercayaan|v;o
-cut|memotong; cut off: memutus, mengisolasi, menyela; cut out: memotong, berhenti; cut down: menebang, mengurangi|v;n;n;n
+cut|memotong; cut off: memutus, mengisolasi, menyela; cut out: menggunting, berhenti (melakukan sesuatu); cut down: menebang (pohon), mengurangi; potongan, luka; pemotongan, pengurangan (pemotongan pajak)|v;n;n;n;o;o
 wear|mengenakan, memakai (pakaian); wear out: aus, membuat letih; wear off: hilang perlahan (efek)|v;n;n
 trouble|kesulitan, kesusahan, masalah; menyusahkan, mengganggu|o;v
 power|kekuasaan, wewenang; kekuatan, tenaga; listrik (listrik padam)|o;o;o
@@ -424,7 +424,7 @@ pass|melewati, melintas; lulus (ujian); pass away: meninggal dunia; disahkan (un
 city|kota|o
 truth|kebenaran|o
 sell|menjual; sell out: terjual habis, mengkhianati prinsip|v;n
-pull|menarik; pull over: menepi; pull off: berhasil melakukan; pull up: berhenti (kendaraan), menarik ke atas|v;n;n;n
+pull|menarik; pull over: menepi di pinggir jalan; pull off: berhasil melakukan (sesuatu yang sulit); pull up: berhenti (kendaraan), mengangkat; tarikan; daya tarik (daya tarik kota)|v;n;n;n;o;o
 blood|darah|o
 finish|menyelesaikan, selesai|v
 behind|di belakang; terlambat, tertinggal (terlambat dari jadwal); mendukung, di belakang|o;o;o
@@ -449,7 +449,7 @@ drop|menjatuhkan; tetes; drop off: mengantar, tertidur; drop in: mampir; drop ou
 bed|tempat tidur, kasur|o
 either|salah satu (dari dua)|o
 country|negara, negeri; pedesaan, kampung|o;o
-figure|bentuk, angka; mengira, memperkirakan; figure out: memahami, memecahkan|o;v;n
+figure|angka, jumlah; sosok, bentuk, tubuh seseorang (sosoknya); tokoh (tokoh publik); mengira, menganggap (kukira); menghitung; figure out: memahami, memecahkan|o;o;o;v;v;n
 front|depan; in front of: di depan|o;n
 learn|belajar, mempelajari|v
 whoa|wah (terkejut; tahan dulu)|o
@@ -474,10 +474,10 @@ hasn't|belum, tidak (bentuk perfek untuk dia)|f3s
 hadn't|belum, tidak (bentuk perfek lampau)|f3s
 shouldn't|sebaiknya jangan, tidak seharusnya|o
 mustn't|tidak boleh|o
-return|kembali, pulang; mengembalikan|v;v
+return|kembali, pulang; mengembalikan; kepulangan, kembalinya (saat kepulangannya)|v;v;o
 stupid|bodoh, tidak pintar|o
-sigh|menghela napas (karena lelah atau lega)|v
-hurry|bergegas, buru-buru; hurry up: bergegas, cepat!|v;n
+sigh|mengembuskan napas panjang karena lelah atau lega; embusan napas, desahan|v;o
+hurry|bergerak cepat, bergegas; hurry up: lebih cepat, ayo cepat!; ketergesaan (dengan tergesa-gesa)|v;n;o
 hot|panas; pedas; menarik, seksi|o;o;o
 news|berita, kabar|o
 food|makanan|o
@@ -485,7 +485,7 @@ date|tanggal; kencan; berkencan dengan|o;o;v
 follow|mengikuti; memahami|v;v
 decide|memutuskan|v
 full|penuh; lengkap|o;o
-early|lebih awal, pagi-pagi|o
+early|sebelum waktu biasa, awal; dekat permulaan (pagi-pagi sekali, awal tahun 1990-an)|o;o
 lord|bangsawan, tuan; (dengan huruf besar) Tuhan|o;o
 picture|gambar, foto; film|o;o
 sometimes|kadang-kadang|o
@@ -498,7 +498,7 @@ king|raja|o
 funny|lucu; aneh, mencurigakan|o;o
 stick|menempelkan, melekat; tongkat, ranting; stick to: berpegang pada; stick around: tetap di sini; stick out: mencuat, mencolok|v;o;n;n;n
 captain|kapten (kapal, tim, atau pasukan)|o
-chuckle|terkekeh, tertawa kecil|v
+chuckle|tertawa pelan; tawa kecil|v;o
 human|manusia; manusiawi, milik manusia|o;o
 em|(dalam 'em) mereka|o
 safe|aman, selamat; brankas|o;o
@@ -519,14 +519,14 @@ state|negara, negara bagian, pemerintah; keadaan; menyatakan secara resmi|o;o;v
 company|perusahaan; kebersamaan, ditemani orang lain|o;o
 force|kekuatan, tenaga; memaksa; pasukan|o;v;o
 fly|terbang; lalat|v;o
-win|menang, mengalahkan|v
+win|menjadi pertama, mengalahkan yang lain, menang; kemenangan|v;o
 shouldn|(dalam shouldn't) tidak seharusnya|o
 running|berlari; berjalan, beroperasi; running out of: kehabisan|o;o;n
 alright|baiklah, tidak apa-apa (= all right)|o
 million|1.000.000|o
 piece|potongan, bagian; satu buah|o;o
 ma|(dalam ma'am) nyonya; ibu (informal)|o;o
-scream|menjerit (karena takut atau sakit)|v
+scream|berteriak keras karena takut atau sakit; jeritan|v;o
 gentleman|tuan, pria terhormat|o
 perfect|sempurna, tepat sekali|o
 beat|memukuli; mengalahkan; irama|v;v;o
@@ -535,7 +535,7 @@ step|langkah; tahap; melangkah, menginjak; anak tangga (the front steps: tangga 
 anybody|siapa saja, siapa pun|o
 bitch|(merendahkan) perempuan jahat; anjing betina; mengeluh|o;o;v
 ass|(vulgar) pantat; orang bodoh; keledai|o;o;o
-kiss|mencium|v
+kiss|menyentuh dengan bibir, mencium; ciuman|v;o
 shoot|menembak; syuting, mengambil gambar|v;v
 special|khusus, istimewa|o
 attack|menyerang; serangan (penyakit yang mendadak)|v;o
@@ -546,7 +546,7 @@ sick|sakit; menjijikkan; sick of: bosan dengan|o;o;n
 poor|miskin; malang, kasihan; buruk mutunya|o;o;o
 perhaps|mungkin, barangkali|o
 report|laporan; melaporkan secara resmi|o;v
-wake|bangun, membangunkan; wake up: bangun, membangunkan|v;n
+wake|berhenti tidur, membangunkan; wake up: bangun, membangunkan seseorang; in the wake of: setelah, akibat dari; jejak air yang ditinggalkan kapal yang bergerak|v;n;n;o
 serious|serius, tidak bercanda; gawat, parah|o;o
 voice|suara (orang berbicara)|o
 sense|makna, arti; akal sehat; indra; merasakan, mendeteksi; make sense: masuk akal|o;o;o;v;n
@@ -558,7 +558,7 @@ explain|menjelaskan, menerangkan|v
 earth|bumi, dunia; tanah; what on earth / why on earth / how on earth / where on earth / who on earth: sebenarnya, gerangan (penegas)|o;o;n
 past|masa lalu; melewati, lebih jauh dari|o;o
 mistake|kesalahan, kekeliruan|o
-meeting|rapat, pertemuan|o
+meeting|pertemuan yang diatur untuk membahas sesuatu, rapat; meeting, bentuk -ing dari meet|o;o
 possible|mungkin, bisa terjadi|o
 strong|kuat|o
 arm|lengan; mempersenjatai|o;v
@@ -592,7 +592,7 @@ clean|bersih; membersihkan|o;v
 act|bertindak; berperan, berakting; perbuatan, undang-undang|v;v;o
 dress|gaun; berpakaian, memakaikan baju|o;v
 evening|sore, petang (akhir hari sebelum malam)|o
-bet|bertaruh; I bet: saya yakin|v;n
+bet|mempertaruhkan uang pada suatu hasil, bertaruh; I bet: aku yakin; taruhan|v;n;o
 ship|kapal; mengirim barang|o;v
 allow|membolehkan, mengizinkan|v
 sex|jenis kelamin; hubungan badan|o;o
@@ -605,7 +605,7 @@ letter|surat; huruf|o;o
 rather|lebih baik, malah; agak, cukup; rather than: daripada; would rather: lebih suka|o;o;n;n
 steal|mencuri|v
 felt|bentuk lampau dari feel; kain kempa, laken; felt like: ingin, terasa seperti|o;o;n
-grunt|mendengus, menggerutu|v
+grunt|mengeluarkan bunyi rendah dan kasar, menggerutu; dengusan|v;o
 protect|melindungi|v
 cover|menutupi; menangani, mencakup; perlindungan|v;v;o
 join|bergabung dengan; menjadi anggota|v;v
@@ -613,11 +613,11 @@ sing|menyanyi|v
 ball|bola; pesta dansa resmi|o;o
 quiet|sepi, tidak berisik; lengang, tidak ramai|o;o
 law|hukum, undang-undang; polisi|o;o
-count|menghitung; berarti, penting; count on: mengandalkan|v;v;n
+count|mengucapkan angka berurutan, menghitung; penting; count on: mengandalkan; penghitungan, jumlah total (penghitungan suara); graf, bangsawan (Graf Monte Cristo)|v;v;n;o;o
 somewhere|di suatu tempat, ke suatu tempat|o
 train|kereta api; melatih, berlatih|o;v
 enjoy|menikmati|v
-knock|memukul, mengetuk pintu|v
+knock|memukul, mengetuk pintu; ketukan (di pintu)|v;o
 coffee|kopi|o
 test|ujian, tes; menguji, mencoba|o;v
 fool|orang bodoh; menipu|o;v
@@ -646,33 +646,33 @@ ooh|(seruan kaget atau senang)|g
 class|kelas (kelompok belajar); pelajaran; kelas sosial; mutu|o;o;o;o
 mark|bekas, tanda; menilai, memberi nilai; menandai letaknya|o;v;v
 choice|pemilihan; pilihan yang ada|o;o
-arrest|menangkap, menahan|v
+arrest|menahan, menangkap; penangkapan|v;o
 card|kartu (untuk pesan, permainan, atau pembayaran)|o
 imagine|membayangkan; mengira, menyangka|v;v
 system|sistem (rangkaian bagian atau aturan)|o
 wonderful|luar biasa bagus, menakjubkan|o
 mad|marah; gila|o;o
-push|mendorong; mendesak|v;v
+push|mendorong; mendesak; dorongan; upaya besar (dorongan untuk reformasi)|v;v;o;o
 absolutely|sepenuhnya, sama sekali; (sebagai jawaban) tentu saja|o;o
 ride|menunggang, berkendara; perjalanan|v;o
 drug|obat; narkoba|o;o
 present|sekarang, kini; hadiah; menyajikan, memperkenalkan; hadir|o;o;v;o
 smell|mencium (dengan hidung); bau; berbau (it smells good: baunya enak)|v;o;v
-building|gedung, bangunan|o
+building|bangunan dengan dinding dan atap, gedung; building, bentuk -ing dari build|o;o
 yesterday|kemarin|o
 box|kotak, dus; bertinju|o;v
 president|presiden, direktur utama|o
 darling|sayang (panggilan untuk orang tercinta)|o
 share|membagi dengan orang lain; bagian, jatah; saham|v;o;o
-reach|tiba di, sampai di; menjangkau, meraih|v;v
-burn|terbakar, membakar|v
+reach|tiba di, mencapai; merentangkan tangan untuk menyentuh; jangkauan, sejauh mana orang bisa meraih (di luar jangkauan)|v;v;o
+burn|menyala, menghancurkan dengan api, terbakar; luka bakar, cedera akibat api atau panas|v;o
 leg|kaki, tungkai|o
 forgive|memaafkan, mengampuni|v
 worth|senilai, seharga; layak, pantas|o;o
 pain|rasa sakit, nyeri|o
 message|pesan|o
 swear|bersumpah; mengumpat, berkata kasar|v;v
-visit|mengunjungi, menjenguk|v
+visit|pergi menemui seseorang atau suatu tempat, mengunjungi; kunjungan|v;o
 build|membangun, merakit|v
 fish|ikan; memancing, menangkap ikan|o;v
 american|Amerika, dari Amerika Serikat; orang Amerika|o;o
@@ -685,7 +685,7 @@ wedding|pernikahan (upacaranya)|o
 court|pengadilan; istana, lingkungan raja; mendekati, menggaet|o;o;v
 none|tidak ada satu pun|o
 amazing|menakjubkan, mengagumkan|o
-general|umum, menyeluruh (tidak rinci); jenderal|o;o
+general|memengaruhi semua orang, umum; tidak rinci, garis besar (gambaran umum); in general: biasanya, secara keseluruhan; jenderal, perwira tinggi tentara|o;o;n;o
 chief|pemimpin, kepala; utama, terpenting|o;o
 dark|gelap; tua (warnanya); suram|o;o;o
 strange|aneh, tidak biasa; asing, tidak dikenal|o;o
@@ -693,7 +693,7 @@ station|stasiun (kereta); markas polisi, stasiun penyiaran; gas station / petrol
 goodbye|selamat tinggal, sampai jumpa (diucapkan saat berpisah)|g
 fear|rasa takut; takut akan|o;v
 near|dekat, tidak jauh|o
-kick|menendang|v
+kick|memukul dengan kaki, menendang; tendangan|v;o
 wall|dinding, tembok; penghalang|o;o
 brain|otak; kecerdasan|o;o
 arrive|tiba, sampai|v
@@ -722,7 +722,7 @@ hotel|hotel, penginapan berbayar|o
 deep|dalam; sulit dipahami, mendalam; mendalam, sangat (deep love: cinta yang mendalam)|o;o;o
 idiot|orang tolol, orang yang bertindak tanpa akal|o
 short|pendek; singkat, sebentar; shorts: celana pendek; in short: singkatnya; short of: kekurangan|o;o;n;n;n
-jump|melompat|v
+jump|mendorong diri dari tanah, melompat; lompatan; lonjakan mendadak (lonjakan harga)|v;o;o
 table|meja; tabel, daftar angka|o;o
 buddy|teman, kawan (informal)|o
 birthday|hari ulang tahun|o
@@ -760,7 +760,7 @@ seven|7|o
 clothes|pakaian, baju|o
 respect|hormat, penghargaan; menghormati|o;v
 smoke|asap; merokok|o;v
-escape|melarikan diri, lolos|v
+escape|melarikan diri, membebaskan diri; pelarian|v;o
 window|jendela|o
 hasn|(dalam hasn't) tidak punya, belum|f3s
 boat|perahu, kapal kecil|o
@@ -785,7 +785,7 @@ seriously|dengan serius; sungguh, benar-benar|o;o
 forever|selamanya, terus-menerus|o
 entire|seluruh, utuh|o
 space|ruang, celah; angkasa, luar angkasa|o;o
-mention|menyebut sekilas, menyinggung; not to mention: belum lagi|v;n
+mention|menyebut sekilas, menyinggung; not to mention: belum lagi, selain itu; sebutan, penyebutan|v;n;o
 gasp|tersentak menarik napas (karena kaget)|v
 track|jalur, lintasan; lagu dalam rekaman; melacak; keep track of: memantau, mencatat; jejak; rel kereta|o;o;v;n;o;o
 across|menyeberangi, di seberang|o
@@ -811,16 +811,16 @@ sea|laut|o
 contact|menghubungi; hubungan, kontak|v;o
 killer|pembunuh|o
 grab|menyambar, merenggut|v
-groan|mengerang, merintih|v
+groan|mengeluarkan bunyi rendah karena sakit atau keluhan, mengerang; erangan|v;o
 witness|saksi; menyaksikan|o;v
 relationship|hubungan; hubungan asmara|o;o
 sitting|sedang duduk|o
 radio|radio (alatnya); siaran radio|o;o
 decision|keputusan|o
-remain|tetap tinggal, tersisa|v
+remain|tetap tinggal, tersisa; sisa-sisa (makanan, jenazah)|v;o
 lunch|makan siang|o
 field|ladang, lapangan; bidang ilmu|o;o
-smile|tersenyum|v
+smile|mengangkat sudut mulut karena senang, tersenyum; senyuman|v;o
 peace|perdamaian; ketenangan|o;o
 cat|kucing|o
 government|pemerintah|o
@@ -831,7 +831,7 @@ tough|sulit, berat; kuat, tahan banting|o;o
 enemy|musuh|o
 memory|ingatan, daya ingat; kenangan|o;o
 concern|kekhawatiran; menyangkut, melibatkan|o;v
-travel|bepergian, berkelana|v
+travel|pergi dari satu tempat ke tempat lain, bepergian; perjalanan (perjalanan udara, dalam perjalanannya)|v;o
 teacher|guru|o
 position|letak, posisi; jabatan; pendirian, sikap|o;o;o
 lawyer|pengacara|o
@@ -860,7 +860,7 @@ afternoon|siang, sore|o
 personal|pribadi, milik satu orang|o
 difficult|sulit, sukar|o
 proud|bangga|o
-shout|berteriak, berseru keras|v
+shout|mengatakan dengan sangat keras, berteriak; teriakan|v;o
 church|gereja|o
 tea|teh|o
 slow|lambat, pelan|o
@@ -871,7 +871,7 @@ public|terbuka untuk umum; masyarakat, khalayak|o;o
 base|dasar, alas; pangkalan militer; based in / based on: berbasis di, berdasarkan|o;o;n
 angry|marah|o
 file|berkas, arsip; mengarsipkan; kikir|o;v;o
-bear|beruang; membawa, menanggung|o;v
+bear|binatang liar besar dan berat, beruang; membawa, memiliki (menanggung beban, menyandang nama); menahan, menoleransi (tidak tahan)|o;v;v
 sad|sedih|o
 cross|menyeberang, melintasi; kesal, jengkel; salib, tanda silang|v;o;o
 match|pertandingan; korek api; setara dengan, cocok dengan|o;o;v
@@ -885,7 +885,7 @@ taste|rasa; mencicipi, merasakan; selera|o;v;o
 suspect|orang yang dicurigai bersalah; menduga, mengira (kuduga dia berbohong); mencurigai, tidak memercayai|o;v;v
 queen|ratu; permaisuri|o;o
 plane|pesawat terbang; bidang datar|o;o
-sake|(for the sake of) demi, untuk kepentingan|o
+sake|manfaat, kebaikan (demi kebaikanmu); for the sake of: demi kebaikan, agar; for God's sake / for heaven's sake: seruan kesal atau mendesak|o;n;n
 mm|(bunyi setuju atau berpikir)|g
 standing|sedang berdiri|o
 island|pulau|o
@@ -899,7 +899,7 @@ mum|ibu (Inggris)|o
 pop|bunyi letup; musik pop; ayah (informal); meletus|o;o;o;v
 boyfriend|pacar laki-laki|o
 mm-hmm|(bunyi yang berarti ya)|g
-fill|mengisi, memenuhi; fill in: mengisi (formulir), menggantikan; fill out: mengisi (formulir)|v;n;n
+fill|mengisi, memenuhi; fill in: mengisi (formulir), menggantikan; fill out: mengisi (formulir); sepuasnya (eat your fill: makan sepuasnya)|v;n;n;o
 beg|memohon, mengemis; mengemis di jalan|v;v
 pleasure|kesenangan, kenikmatan|o
 vote|memilih dalam pemilu; suara, pilihan|v;o
@@ -961,9 +961,9 @@ jail|penjara|o
 member|anggota|o
 cost|biaya, harga; berharga, memakan biaya|o;v
 address|alamat; berbicara kepada; menangani, mengatasi|o;v;v
-spirit|jiwa, roh; hantu; semangat, keberanian|o;o;o
+spirit|jiwa, roh; hantu; suasana hati, sikap (dalam semangat baik); keberanian, semangat|o;o;o;o
 guest|tamu|o
-release|membebaskan, melepaskan; merilis, mengumumkan|v;v
+release|membebaskan, melepaskan; mengumumkan, merilis; pembebasan (pembebasan para tahanan); rilis, sesuatu yang diumumkan (siaran pers)|v;v;o;o
 manage|berhasil melakukan; mengelola, mengepalai|v;v
 stone|batu (bahannya); batu kecil|o;o
 la|(suku kata nyanyian) la|o
@@ -995,7 +995,7 @@ race|balapan, lomba kecepatan; ras, suku bangsa; melaju kencang|o;o;v
 battle|pertempuran|o
 laughter|tawa, gelak|o
 mountain|gunung|o
-wash|mencuci, membasuh|v
+wash|mencuci, membasuh; cucian, sekali cuci; cucian kotor (in the wash: sedang dicuci)|v;o;o
 level|tingkat, taraf; rata, datar|o;o
 whose|milik siapa|o
 final|terakhir, penghabisan; final, pertandingan penentu|o;o
@@ -1017,8 +1017,8 @@ summer|musim panas|o
 magic|sihir, kesaktian; sulap|o;o
 dirty|kotor; cabul, jorok|o;o
 colonel|kolonel|o
-camp|perkemahan; berkemah|o;v
-yell|berteriak keras|v
+camp|tempat menginap dalam tenda, perkemahan; berkemah; kubu, kelompok di satu sisi perdebatan|o;v;o
+yell|berteriak keras; teriakan|v;o
 holding|memegang, menggenggam; holding on: menunggu, berpegangan|o;n
 remind|mengingatkan|v
 immediately|segera, langsung|o
@@ -1038,14 +1038,14 @@ usually|biasanya, umumnya|o
 er|(bunyi ragu-ragu)|g
 color|warna; mewarnai|o;v
 result|akibat, hasil; hasil ujian atau tes|o;o
-crap|(vulgar) omong kosong, sampah; tinja|o;o
+crap|(vulgar) sampah, omong kosong; (vulgar) tinja|o;o
 yo|(sapaan atau panggilan santai)|g
 grand|megah, mentereng; seribu dolar (informal)|o;o
 sky|langit|o
 warm|hangat; ramah|o;o
-piss|(vulgar) kencing; pissed off: kesal, jengkel|v;n
+piss|(vulgar) kencing; pissed off: kesal (kasar); (vulgar) air seni, tindakan kencing (kencing sebentar); take the piss: (Inggris, vulgar) mengejek|v;n;o;n
 worst|paling buruk|o
-shake|mengguncang, bergetar|v
+shake|menggerakkan cepat ke kanan dan kiri, mengguncang; guncangan (gelengan kepala)|v;o
 aah|(pekik takut atau kesakitan)|g
 low|rendah, dekat tanah; sedikit jumlahnya; berat, rendah nadanya|o;o;o
 challenge|tantangan; menantang, mempertanyakan|o;v
@@ -1063,14 +1063,14 @@ shh|(meminta diam)|g
 conversation|percakapan, obrolan|o
 nervous|gugup, gelisah|o
 themselves|(bentuk refleksif dari they) diri mereka sendiri|o
-hunt|memburu; mencari-cari|v;v
+hunt|mengejar untuk membunuh atau menangkap, berburu; mencari; pencarian, perburuan|v;v;o
 hire|mempekerjakan; menyewa|v;v
 discuss|membicarakan, membahas|v
 leader|pemimpin|o
 rose|mawar; rose, bentuk lampau dari rise|o;o
 hadn|(dalam hadn't) bentuk negatif dari had|o
 tape|selotip, pita perekat; rekaman; merekam|o;o;v
-chase|mengejar|v
+chase|berlari mengejar untuk menangkap; pengejaran|v;o
 gas|gas; bensin (Amerika)|o;o
 egg|telur|o
 bone|tulang|o
@@ -1104,12 +1104,12 @@ folk|orang-orang; rakyat biasa; musik tradisional|o;o;o
 nose|hidung|o
 target|sasaran, target; tujuan yang ingin dicapai|o;o
 driver|sopir, pengemudi|o
-crash|menabrak dan rusak; bunyi keras benda pecah|v;o
+crash|menabrak dengan keras dan rusak; bunyi keras benda pecah; kecelakaan saat kendaraan menabrak sesuatu (kecelakaan mobil)|v;o;o
 plant|tanaman, tumbuhan; pabrik; menanam|o;o;v
 bullet|peluru|o
 energy|energi, tenaga; semangat|o;o
 guilty|bersalah; merasa bersalah|o;o
-bunch|ikat, tandan, sekelompok|o
+bunch|kumpulan benda yang dipegang atau tumbuh bersama, seikat, setandan; a bunch of: (informal) banyak|o;n
 empty|kosong; mengosongkan|o;v
 writing|tulisan|o
 danger|bahaya|o
@@ -1132,7 +1132,7 @@ indeed|memang, sungguh|o
 wild|liar, hidup di alam; tidak terkendali|o;o
 fellow|orang, pria; sesama, se-kelompok|o;o
 refuse|menolak|v
-claim|menyatakan, mengklaim; menuntut sebagai miliknya|v;v
+claim|mengatakan sesuatu itu benar, mengklaim; menuntut sebagai miliknya; klaim, pernyataan bahwa sesuatu itu benar; tuntutan, hak (hak atas takhta)|v;v;o;o
 character|watak, sifat; tokoh dalam cerita; huruf, aksara|o;o;o
 opportunity|kesempatan, peluang|o
 apologize|minta maaf|v
@@ -1186,7 +1186,7 @@ bottom|bagian bawah, dasar; pantat|o;o
 closer|lebih dekat|o
 damage|kerusakan; merusak|o;v
 shooting|penembakan; pembunuhan dengan tembakan|o;o
-bite|menggigit|v
+bite|memotong dengan gigi, menggigit; sesuap (makan sedikit); gigitan, luka karena gigi atau sengatan|v;o;o
 approach|mendekati; pendekatan, cara menangani|v;o
 interview|wawancara; mewawancarai|o;v
 nature|alam, dunia tumbuhan dan hewan; watak, sifat seseorang|o;o
@@ -1228,7 +1228,7 @@ due|dijadwalkan tiba, jatuh tempo; terutang, harus dibayar; due to: karena|o;o;n
 plenty|banyak, lebih dari cukup|o
 page|halaman|o
 excellent|sangat bagus, unggul|o
-asshole|(vulgar) bajingan, orang menyebalkan; lubang dubur|o;o
+asshole|(vulgar) orang yang menjijikkan; (vulgar) dubur|o;o
 bless|memberkati, memohon berkat bagi; bless you: ucapan sopan setelah orang bersin|v;n
 fuckin|(vulgar) = fucking, untuk penekanan|o
 unite|menyatukan, bersatu|v
@@ -1239,7 +1239,7 @@ main|utama, terpenting|o
 hill|bukit|o
 request|meminta dengan sopan; permintaan|v;o
 whoever|siapa pun yang|o
-post|jabatan, pos; surat, pos; tiang; mengirim lewat pos|o;o;o;v
+post|pekerjaan atau jabatan; surat; tiang tegak; mengirim lewat pos; mengunggah (mengunggah foto)|o;o;o;v;v
 minister|menteri; pendeta, pemimpin gereja|o;o
 bridge|jembatan|o
 gate|gerbang, pintu pagar|o
@@ -1249,7 +1249,7 @@ although|meskipun, walaupun|o
 rob|merampok, merampas dengan paksa|v
 breath|napas|o
 lesson|pelajaran (jam belajar); pelajaran dari pengalaman|o;o
-dick|(vulgar) kemaluan laki-laki; laki-laki menyebalkan|o;o
+dick|(vulgar) penis; (vulgar) pria yang menjijikkan|o;o
 market|pasar; permintaan pasar|o;o
 career|karier|o
 emergency|keadaan darurat|o
@@ -1281,7 +1281,7 @@ hanging|tergantung; hukuman gantung|o;o
 advice|nasihat, saran|o
 noise|kebisingan, suara berisik|o
 term|istilah; jangka waktu, masa; syarat perjanjian; in terms of: dalam hal, mengenai|o;o;o;n
-whisper|berbisik|v
+whisper|berbicara sangat pelan, berbisik; bisikan|v;o
 rush|terburu-buru, bergegas; serbuan, arus orang banyak|v;o
 nor|dan tidak juga|o
 drag|menyeret; hal yang membosankan (informal)|v;o
@@ -1310,7 +1310,7 @@ thief|pencuri, maling|o
 rent|uang sewa; menyewa, menyewakan|o;v
 century|abad, 100 tahun|o
 credit|pujian atas jasa; kredit, beli sekarang bayar nanti|o;o
-spread|membentang, membuka lebar; menyebar, meluas|v;v
+spread|membentangkan; menjangkau lebih banyak tempat, menyebar; penyebaran (penyebaran penyakit)|v;v;o
 super|hebat, bagus sekali; sangat (informal)|o;o
 research|penelitian, riset|o
 warn|memperingatkan|v
@@ -1362,7 +1362,7 @@ plate|piring|o
 prisoner|tahanan, narapidana|o
 earn|mendapatkan dengan bekerja; layak mendapat|v;v
 nonsense|omong kosong, hal yang tidak masuk akal|o
-mix|mencampur; menggabungkan; mix up: mencampuradukkan, keliru|v;v;n
+mix|menyatukan menjadi satu, mencampur; menggabungkan; mix up: mengacaukan (satu hal dengan yang lain); campuran|v;v;n;o
 contract|kontrak, perjanjian tertulis; menyusut, mengerut|o;v
 original|asli, yang pertama; baru, bukan tiruan|o;o
 confuse|membingungkan; keliru membedakan|v;v
@@ -1381,7 +1381,7 @@ honestly|dengan jujur; (sebagai penekanan) sungguh|o;o
 bro|saudara, bro (informal)|o
 image|gambar, citra; citra, kesan di mata orang|o;o
 society|masyarakat; perkumpulan, himpunan|o;o
-spare|cadangan, disimpan untuk berjaga; merelakan, meluangkan; menyelamatkan dari celaka|o;v;v
+spare|cadangan, disimpan untuk keperluan; dapat memberikan (waktu, uang); menyelamatkan dari bahaya|o;v;v
 breathing|bernapas|o
 repeat|mengulangi|v
 sweetie|sayang, manis (sapaan)|o
@@ -1403,7 +1403,7 @@ poison|racun|o
 roger|(di radio) pesan diterima, roger|o
 customer|pelanggan, pembeli|o
 universe|alam semesta|o
-meaning|arti, makna|o
+meaning|apa yang dilambangkan kata atau perbuatan, arti; meaning, bentuk -ing dari mean|o;o
 bright|terang, benderang; pintar, cerdas; cerah, mencolok warnanya|o;o;o
 indian|dari India; dari suku asli Amerika (kuno, sering menyinggung)|o;o
 dr|Dr., singkatan dari Doctor|o
@@ -1487,7 +1487,7 @@ arrange|menata, menyusun; mengatur, merencanakan|v;v
 mister|Mr., sapaan untuk pria|o
 ancient|kuno, dari zaman dahulu; sangat tua|o;o
 value|nilai, harga; menghargai, menjunjung tinggi|o;v
-cough|batuk|v
+cough|mengeluarkan udara dari tenggorokan dengan bunyi keras, batuk; batuk|v;o
 direct|langsung, tanpa perantara; mengarahkan, mengelola|o;v
 lake|danau|o
 co|Co., singkatan dari Company|o
@@ -1520,7 +1520,7 @@ handsome|tampan, ganteng|o
 mayor|wali kota|o
 indistinct|(catatan takarir) tidak jelas terdengar|o
 deny|menyangkal, membantah; menolak memberi|v;v
-site|lokasi, tempat berdirinya sesuatu|o
+site|tempat sesuatu berada atau dibangun, lokasi; situs web|o;o
 require|memerlukan; mengharuskan, mensyaratkan|v;v
 supply|menyediakan, memasok; persediaan, pasokan|v;o
 knee|lutut|o
@@ -1529,7 +1529,7 @@ official|resmi, disahkan pihak berwenang; pejabat|o;o
 trace|jejak, bekas samar; melacak, menelusuri|o;v
 growl|geraman, bunyi rendah hewan yang marah|o
 lower|lebih bawah, lebih rendah; menurunkan|o;v
-struggle|berjuang, bergulat menghadapi kesulitan|v
+struggle|berjuang atau berusaha keras melawan kesulitan; perjuangan|v;o
 square|persegi, bujur sangkar; alun-alun, lapangan kota|o;o
 bike|sepeda, sepeda motor|o
 weather|cuaca|o
@@ -1554,7 +1554,7 @@ borrow|meminjam|v
 slowly|dengan pelan, perlahan-lahan|o
 spanish|Spanyol, dari Spanyol; bahasa Spanyol|o;o
 journey|perjalanan|o
-transfer|memindahkan, mengalihkan|v
+transfer|memindahkan dari satu tempat atau orang ke yang lain; pemindahan, transfer|v;o
 ocean|samudra|o
 sugar|gula|o
 map|peta|o
@@ -1564,7 +1564,7 @@ excite|membangkitkan semangat, menggairahkan|v
 shoulder|bahu, pundak|o
 liar|pembohong, pendusta|o
 easily|dengan mudah|o
-rescue|menyelamatkan, menolong|v
+rescue|menyelamatkan dari bahaya; penyelamatan|v;o
 intend|bermaksud, berniat|v
 insane|gila, tidak waras|o
 wet|basah|o
@@ -1617,7 +1617,7 @@ showing|memperlihatkan; pemutaran film|o;o
 insist|bersikeras, mendesak terus|v
 develop|berkembang, mengembangkan; membangun di atas lahan|v;v
 circle|lingkaran; lingkaran pergaulan, kalangan|o;o
-secretary|sekretaris; menteri, kepala departemen|o;o
+secretary|orang yang mengetik dan mengatur pekerjaan atasan, sekretaris; kepala departemen pemerintah, menteri|o;o
 newspaper|surat kabar, koran|o
 genius|orang jenius, orang berbakat luar biasa|o
 bark|gonggongan; kulit pohon|o;o
@@ -1639,7 +1639,7 @@ sudden|mendadak, tiba-tiba|o
 bleep|(nada tinggi pendek yang menutupi kata kasar)|g
 defense|pertahanan, perlindungan dari serangan; pembelaan bagi terdakwa|o;o
 period|jangka waktu, masa; haid, menstruasi; titik|o;o;o
-accuse|menuduh, menyalahkan|v
+accuse|mengatakan seseorang telah berbuat salah, menuduh; the accused: orang yang didakwa melakukan kejahatan|v;n
 vehicle|kendaraan|o
 effort|usaha, jerih payah; upaya, percobaan|o;o
 bug|serangga; bug, kesalahan dalam program; alat penyadap; mengganggu|o;o;o;v
@@ -1661,7 +1661,7 @@ barely|nyaris tidak, hanya pas-pasan|o
 diamond|berlian, intan|o
 engage|melibatkan, menarik dan menahan (perhatian); mempekerjakan; engage in: ikut serta; engage with: berurusan dengan|v;v;n;n
 disease|penyakit (pada manusia, hewan, atau tumbuhan)|o
-sob|terisak, menangis tersedu|v
+sob|menangis dengan napas tersengal, terisak; isakan|v;o
 betray|mengkhianati|v
 yard|halaman, pekarangan; yard, satuan panjang 0,9 m|o;o
 goin|going, sedang pergi (ejaan santai)|o
@@ -1701,7 +1701,7 @@ rate|laju, kecepatan terjadinya; tarif, ongkos; menilai mutunya|o;o;v
 chocolate|cokelat|o
 royal|kerajaan, milik raja atau ratu|o
 expert|ahli, pakar|o
-capture|menawan, menangkap|v
+capture|menawan, menangkap; penangkapan (penangkapan kota)|v;o
 witch|penyihir perempuan|o
 honour|honour, ejaan Inggris dari honor|o
 chick|anak burung; (informal, sering menghina) cewek|o;o
@@ -1760,7 +1760,7 @@ pilot|pilot, penerbang|o
 delicious|enak sekali, lezat|o
 proper|pantas, sesuai; sungguhan, sepenuhnya|o;o
 defeat|mengalahkan; kekalahan|v;o
-hug|memeluk|v
+hug|memeluk erat dengan lengan; pelukan|v;o
 swim|berenang|v
 lad|anak laki-laki, pemuda (Inggris)|o
 advantage|keuntungan, kelebihan; take advantage of: memanfaatkan|o;n
@@ -1800,7 +1800,7 @@ treatment|perawatan, pengobatan; perlakuan|o;o
 useless|tidak berguna; payah, tidak becus|o;o
 pour|menuang; hujan deras|v;v
 clever|pandai, cepat menangkap|o
-nerve|saraf; nyali, keberanian; kelancangan|o;o;o
+nerve|serat pembawa rasa di tubuh, saraf; keberanian; kelancangan, ketidaksopanan (berani-beraninya bertanya)|o;o;o
 apple|apel|o
 performance|pertunjukan, penampilan; kinerja, seberapa baik bekerja|o;o
 changing|berubah, menjadi lain|o
@@ -1893,7 +1893,7 @@ candy|permen, manisan (Amerika)|o
 pride|kebanggaan; kesombongan|o;o
 heh|(tawa pendek)|g
 toast|roti panggang; sulang, ucapan sebelum minum bersama|o;o
-flow|mengalir|v
+flow|bergerak terus-menerus seperti air, mengalir; aliran|v;o
 insult|menghina; hinaan|v;o
 suffering|penderitaan|o
 section|bagian, potongan|o
@@ -2021,7 +2021,7 @@ frame|bingkai; rangka, kerangka; menjebak agar tampak bersalah|o;o;v
 propose|mengusulkan; melamar, meminang|v;v
 april|April|o
 string|tali kecil, benang; senar alat musik|o;o
-launch|meluncurkan; memulai sesuatu yang baru|v;v
+launch|mengirim, meluncurkan; memulai sesuatu yang baru; peluncuran|v;v;o
 precious|berharga, bernilai tinggi; tersayang, amat dicintai|o;o
 youth|masa muda; pemuda|o;o
 negative|negatif, menyatakan tidak; pesimis, tidak menaruh harapan; negatif, menunjukkan tidak ada|o;o;o
@@ -2072,7 +2072,7 @@ thy|(kuno) engkau punya, -mu|o
 friendly|ramah, bersahabat|o
 estate|tanah milik dan rumahnya; harta warisan|o;o
 robbery|perampokan|o
-spit|meludah, menyemburkan|v
+spit|mengeluarkan cairan dari mulut, meludah; ludah; tusuk pemanggang daging|v;o;o
 cave|gua|o
 cock|(vulgar) kemaluan laki-laki; ayam jantan|o;o
 alert|waspada, sigap; peringatan bahaya|o;o
@@ -2081,7 +2081,7 @@ nasty|menjijikkan, tidak menyenangkan; jahat, ketus|o;o
 salt|garam|o
 expose|menyingkap, membuka tutupnya; membongkar rahasia|v;v
 policy|kebijakan; polis asuransi|o;o
-slap|menampar|v
+slap|memukul dengan telapak tangan, menampar; tamparan|v;o
 maid|pembantu perempuan, pelayan|o
 thunder|guntur, guruh|o
 relate|menceritakan; relate to: berkaitan dengan, memahami|v;n
@@ -2221,7 +2221,7 @@ orange|jeruk; oranye, jingga|o;o
 chamber|ruang, kamar untuk keperluan tertentu; rongga, ruang tertutup|o;o
 flesh|daging, bagian lunak tubuh|o
 highly|sangat, amat|o
-bud|kuncup bunga; kawan, bro (informal)|o;o
+bud|bunga sebelum mekar, kuncup; teman, kawan (informal)|o;o
 hostage|sandera|o
 federal|federal, tentang pemerintah pusat atas negara bagian|o
 bail|uang jaminan agar terdakwa bebas|o
@@ -2289,7 +2289,7 @@ crystal|kristal, mineral bening seperti kaca; kristal, bentuk padat teratur suat
 impressive|mengesankan, patut dikagumi|o
 bee|lebah|o
 pitch|lapangan olahraga; tinggi rendahnya nada; melempar; menawarkan gagasan|o;o;v;v
-pussy|(vulgar) kemaluan perempuan; kucing (kata anak-anak)|o;o
+pussy|(vulgar) alat kelamin perempuan; kucing (kata anak-anak); (vulgar) pengecut, pria lemah|o;o;o
 adventure|petualangan|o
 deck|geladak kapal; satu set kartu|o;o
 attract|menarik, memikat; menarik minat|v;v
@@ -2376,7 +2376,7 @@ occasion|saat, kali terjadinya; acara istimewa|o;o
 passenger|penumpang|o
 exhaust|melelahkan sama sekali; gas buang mesin, knalpot|v;o
 producer|orang atau perusahaan yang membuat barang; orang yang mengelola pembuatan film atau pertunjukan|o;o
-slide|meluncur, tergelincir|v
+slide|bergerak mulus di permukaan, meluncur; kemerosotan (merosot ke arah perang); perosotan, slide (di taman bermain, dalam presentasi)|v;o;o
 division|pembagian; perpecahan, perselisihan; divisi tentara|o;o;o
 refer|(refer to) menyebut, menunjuk pada; merujuk, mengirim ke pihak lain|v;v
 fox|rubah|o
@@ -2422,7 +2422,7 @@ flee|melarikan diri, mengungsi dari bahaya|v
 improve|memperbaiki, membaik|v
 shelter|tempat berlindung, naungan|o
 tend|cenderung; mengurus, merawat|v;v
-collapse|ambruk, roboh mendadak; runtuh, gagal total|v;v
+collapse|jatuh tiba-tiba, roboh; gagal total; keruntuhan, kejatuhan atau kegagalan mendadak|v;v;o
 ad|iklan|o
 passport|paspor|o
 bush|semak; belantara, tanah liar|o;o
@@ -2451,7 +2451,7 @@ depress|membuat murung, menyedihkan; menekan ke bawah|v;v
 toe|jari kaki|o
 commissioner|komisaris, pejabat tinggi suatu dinas|o
 confession|pengakuan salah|o
-trunk|batang pohon; koper besar; belalai gajah|o;o;o
+trunk|batang utama pohon; peti besar untuk bepergian; belalai gajah; ruang di belakang mobil untuk bagasi (Amerika; Inggris boot)|o;o;o;o
 stable|stabil, tidak mudah berubah; kandang kuda|o;o
 terribly|sangat, teramat; dengan sangat buruk|o;o
 bum|pantat (Inggris); gelandangan (Amerika)|o;o
@@ -2496,7 +2496,7 @@ fetch|menjemput, mengambilkan|v
 yup|yup, ejaan lain dari yep|o
 rocket|roket|o
 purse|dompet uang; tas tangan (Amerika)|o;o
-scale|skala, besarnya; skala, deretan tanda ukur; sisik ikan|o;o;o
+scale|ukuran atau cakupan, skala; deretan tanda untuk mengukur, skala; lempeng kecil pada ikan, sisik; alat untuk menimbang, timbangan (timbangan kamar mandi)|o;o;o;o
 pile|tumpukan, timbunan; menumpuk|o;v
 organization|organisasi, perkumpulan; penataan, pengaturan|o;o
 hop|melompat dengan satu kaki, berjingkat; melompat ringan|v;v
@@ -2513,7 +2513,7 @@ ding|(bunyi denting ringan)|g
 poem|puisi, sajak|o
 pole|tiang, galah; kutub bumi|o;o
 gentle|lembut, halus dan hati-hati|o
-meter|meteran, alat ukur pemakaian gas atau listrik; meter, satuan panjang (Amerika)|o;o
+meter|meter, satuan panjang 100 cm; meteran, alat pengukur pemakaian gas atau listrik|o;o
 personality|kepribadian; tokoh, orang terkenal|o;o
 advise|menasihati, menyarankan|v
 injure|melukai, mencederai|v
@@ -2600,7 +2600,7 @@ frankly|terus terang, sejujurnya|o
 festival|festival, perayaan umum|o
 pulse|denyut nadi|o
 average|rata-rata, jumlah lazimnya; biasa-biasa saja|o;o
-pat|menepuk pelan dengan telapak tangan|v
+pat|menyentuh lembut dengan telapak tangan, menepuk; tepukan (tepukan di punggung)|v;o
 everyday|sehari-hari, biasa|o
 generous|murah hati, suka memberi; berlimpah, lebih dari biasanya|o;o
 indicate|menunjuk, menunjukkan; menandakan, memperlihatkan|v;v
@@ -2647,7 +2647,7 @@ judgment|putusan pengadilan; pertimbangan, kemampuan menilai|o;o
 seed|benih, biji|o
 compromise|kompromi, kesepakatan saling mengalah; membahayakan, mempertaruhkan|o;v
 bake|memanggang dalam oven|v
-boil|merebus, mendidih|v
+boil|memanaskan cairan sampai bergelembung, mendidih; titik didih (hingga mendidih)|v;o
 appearance|penampilan, rupa; kemunculan, munculnya|o;o
 feature|raut wajah; ciri, bagian yang menonjol|o;o
 foster|mengasuh anak orang lain; memupuk, menumbuhkan|v;v
@@ -2680,7 +2680,7 @@ humiliate|mempermalukan di depan orang|v
 pro|profesional; alasan yang mendukung|o;o
 react|bereaksi, menanggapi|v
 minor|lebih kecil, kurang penting; anak di bawah umur|o;o
-burst|meletus, pecah mendadak; burst into: tiba-tiba (menangis, tertawa), menerobos masuk; burst out: tiba-tiba (tertawa, menangis), berseru|v;n;n
+burst|pecah tiba-tiba; burst into: tiba-tiba mulai (menangis, tertawa), masuk tiba-tiba; burst out: tiba-tiba mulai (tertawa, menangis), berseru; ledakan (ledakan amarah)|v;n;n;o
 shore|pantai, tepi laut|o
 officially|secara resmi, oleh pihak berwenang|o
 superior|lebih baik, lebih tinggi pangkatnya; atasan|o;o
@@ -2713,7 +2713,7 @@ native|asli, lahir di suatu tempat; bawaan, alami|o;o
 cable|kabel, tali atau kawat tebal; telegram, pesan lewat kawat|o;o
 prick|(kasar) lelaki yang menjijikkan; (kasar) penis; menusuk sehingga berlubang kecil|o;o;v
 vanish|lenyap, hilang mendadak|v
-con|menipu, mengakali demi uang; napi, mantan tahanan (informal)|v;o
+con|menipu seseorang demi uang; narapidana (informal); argumen yang menentang (pro dan kontra)|v;o;o
 unlike|berbeda dari, tidak seperti; tidak seperti biasanya|o;o
 relation|hubungan, kaitan; kerabat, anggota keluarga|o;o
 convict|memvonis bersalah; narapidana|v;o
@@ -2723,7 +2723,7 @@ kit|perangkat, kumpulan alat atau suku cadang|o
 steak|bistik, potongan daging tebal|o
 thus|dengan cara ini, begitulah; karena itu, maka|o;o
 await|menantikan, menunggu|v
-divide|membagi, memecah; membagikan|v;v
+divide|membagi menjadi bagian; membagikan; pemisah, jurang (jurang antara kota dan desa)|v;v;o
 swell|membengkak, membesar; alun, gelombang laut yang naik turun|v;o
 instinct|naluri|o
 cowboy|koboi, penggembala sapi berkuda|o
@@ -2787,7 +2787,7 @@ privilege|hak istimewa, kehormatan khusus|o
 publish|menerbitkan|v
 farewell|(diucapkan saat berpisah) selamat jalan|o
 raid|penyergapan, penggerebekan; menyergap, menggerebek|o;v
-weed|gulma, rumput liar yang mengganggu; ganja (informal)|o;o
+weed|tanaman liar yang tumbuh di tempat yang tak diinginkan, gulma; ganja (informal); mencabuti gulma; weed out: menyingkirkan (orang atau hal yang tak diinginkan)|o;o;v;n
 chirp|(bunyi cicit burung)|g
 satellite|satelit buatan; satelit, bulan sebuah planet|o;o
 deposit|uang muka, panjar; menaruh, menyetorkan ke bank|o;v
@@ -2817,7 +2817,7 @@ rely|bergantung, percaya; rely on: mengandalkan, bergantung pada|v;n
 fulfill|memenuhi janji, melaksanakan; memuaskan, memenuhi kebutuhan|v;v
 sync|sinkron, sepadan waktunya; menyelaraskan waktunya|o;v
 missile|rudal, peluru kendali|o
-dine|bersantap malam|v
+dine|makan malam; dining room: ruangan tempat makan, ruang makan|v;n
 curtain|tirai, gorden|o
 humanity|umat manusia; perikemanusiaan, kebaikan hati|o;o
 reverse|mundur, berbalik; kebalikan|v;o
@@ -2846,7 +2846,7 @@ necklace|kalung|o
 conflict|perselisihan tajam; pertikaian, peperangan|o;o
 journalist|wartawan, jurnalis|o
 vessel|kapal; bejana, wadah cairan; pembuluh darah|o;o;o
-embrace|memeluk; menerima dengan senang hati|v;v
+embrace|memeluk; menerima dengan senang hati; pelukan|v;v;o
 twelve|12|o
 corn|serealia, tanaman biji-bijian; jagung (Amerika)|o;o
 quote|mengutip kata-kata seseorang; penawaran harga|v;o
@@ -2984,7 +2984,7 @@ wagon|gerobak kuda; gerbong barang|o;o
 sailor|pelaut, awak kapal|o
 helpful|suka menolong, banyak membantu|o
 bloke|orang, pria (Inggris)|o
-worship|menyembah, beribadah kepada Tuhan; memuja, mengagumi habis-habisan|v;v
+worship|berdoa dan memuliakan Tuhan, menyembah; mengagumi sekali; ibadah, berdoa dan memuliakan (tempat ibadah); your worship: Yang Mulia (gelar hormat lama)|v;v;o;n
 clan|klan, marga|o
 dressing|saus salad; perban, pembalut luka|o;o
 supper|makan malam, santapan terakhir hari itu|o
@@ -3074,7 +3074,7 @@ chin|dagu|o
 appropriate|pantas, sesuai keadaan; mengambil untuk dipakai sendiri|o;v
 chime|(bunyi dentang lonceng)|g
 fist|kepalan tangan, tinju|o
-broad|lebar; luas, garis besar saja|o;o
+broad|lebar; umum, tidak rinci; perempuan (slang Amerika kuno, menghina)|o;o;o
 wealth|kekayaan, harta berlimpah|o
 fond|fond of: menyukai; penyayang, penuh kasih|n;o
 bunny|kelinci (kata anak-anak)|o
@@ -3106,7 +3106,7 @@ ram|domba jantan; menghantam, mendorong dengan keras|o;v
 counter|meja layanan di toko; melawan, menangkis|o;v
 covering|lapisan penutup|o
 ditch|parit, selokan; membuang, menyingkirkan|o;v
-cart|kereta, pedati yang ditarik hewan|o
+cart|kendaraan terbuka yang ditarik hewan, pedati; kendaraan kecil yang didorong tangan (kereta belanja)|o;o
 teenager|remaja, anak belasan tahun|o
 recruit|merekrut, menerima anggota baru; anggota baru, rekrutan|v;o
 raw|mentah; mentah, masih alami; perih, lecet|o;o;o
@@ -3117,7 +3117,7 @@ conquer|menaklukkan, menguasai|v
 catching|(tentang penyakit) menular|o
 budget|anggaran, rencana pengeluaran; murah, hemat|o;o
 phase|fase, tahap perubahan|o
-shrink|menyusut, mengerut; mengkerut, mundur ketakutan|v;v
+shrink|menjadi lebih kecil, menyusut; mundur karena takut; psikiater (informal)|v;v;o
 remarkable|luar biasa, patut diperhatikan|o
 cooperate|bekerja sama dengan sukarela|v
 disguise|menyamarkan, mengubah rupa; samaran, pakaian penyamaran|v;o
@@ -3138,7 +3138,7 @@ reception|sambutan, penerimaan; resepsi, pesta untuk tamu; meja resepsionis|o;o;
 ritual|ritual, rangkaian tindakan yang selalu sama|o
 barn|lumbung, kandang besar|o
 currently|saat ini, sekarang|o
-rumbling|(bunyi bergemuruh seperti guntur)|g
+rumbling|(bunyi dalam yang bergulung seperti guntur); bergemuruh, mengeluarkan bunyi dalam yang bergulung; gemuruh, ketidakpuasan pelan yang berlanjut (keraguan yang bergemuruh bertahun-tahun)|g;o;o
 stream|sungai kecil, anak sungai; aliran tetap, arus|o;o
 shooter|penembak|o
 scheme|siasat, rencana (terutama yang licik)|o
@@ -3176,7 +3176,7 @@ rap|musik rap; ketukan tajam dan cepat|o;o
 booze|minuman keras (informal)|o
 racing|balapan, olahraga adu cepat|o
 flirt|menggoda, bersikap genit|v
-clothe|memakaikan pakaian, menyediakan pakaian bagi|v
+clothe|memakaikan pakaian, menyediakan pakaian; clothing: pakaian|v;n
 freezing|dingin sekali, membeku; membeku, menjadi es|o;o
 suspend|menggantung; menghentikan sementara; menskors, melarang sementara|v;v;v
 pierce|menembus, melubangi|v
@@ -3325,7 +3325,7 @@ bait|umpan; memancing, memikat|o;v
 sniffle|menyedot ingus, menghirup lewat hidung yang tersumbat|v
 sting|menyengat; sengatan, rasa perih menusuk|v;o
 tomato|tomat|o
-murmur|bergumam, berbicara lirih|v
+murmur|berbicara dengan suara rendah dan lembut, bergumam; gumaman|v;o
 northern|utara, dari arah utara|o
 nowadays|zaman sekarang, dewasa ini|o
 drift|hanyut terbawa air atau angin; melantur, bergerak tanpa arah|v;v
@@ -3381,9 +3381,9 @@ smack|menampar; bunyi plak tamparan|v;o
 draft|draf, versi kasar pertama; wajib militer, pemanggilan bertugas|o;o
 ham|ham, daging paha babi yang diasin|o
 poster|poster|o
-resolve|menyelesaikan masalah; bertekad, memutuskan dengan bulat|v;v
+resolve|menyelesaikan masalah; memutuskan dengan tegas; tekad|v;v;o
 pad|bantalan, alas empuk; blok kertas, notes|o;o
-fold|melipat|v
+fold|melipat satu bagian ke atas yang lain; lipatan|v;o
 absurd|absurd, tidak masuk akal sampai menggelikan|o
 villain|orang jahat; tokoh antagonis dalam cerita|o;o
 unlock|membuka kunci|v
@@ -3635,7 +3635,7 @@ harbor|pelabuhan, teluk tempat kapal berlabuh; melindungi, menampung|o;v
 breach|pelanggaran aturan atau perjanjian; celah, lubang di tembok|o;o
 gesture|gerak tangan atau kepala, isyarat; sikap yang menunjukkan perasaan|o;o
 pledge|ikrar, janji khidmat; berikrar, berjanji dengan sungguh|o;v
-moan|mengerang kesakitan; mengeluh, menggerutu|v;v
+moan|mengeluarkan bunyi rendah karena sakit, merintih; mengeluh; rintihan|v;v;o
 gathering|perkumpulan, pertemuan orang|o
 gag|membekap mulut agar tak bersuara; lelucon, banyolan|v;o
 ahem|(bunyi berdeham untuk menarik perhatian)|g
@@ -3687,7 +3687,7 @@ repay|membayar kembali, melunasi|v
 sustain|mempertahankan, menopang terus; mengalami, menderita|v;v
 auction|lelang|o
 knot|simpul; knot, kecepatan satu mil laut per jam|o;o
-forge|memalsukan; menempa logam|v;v
+forge|membuat tiruan palsu, memalsukan; membentuk logam dengan memanaskannya, menempa; tempa, bengkel pandai besi|v;v;o
 condemn|mengecam keras; menjatuhkan hukuman|v;v
 ms|Ms., sebutan untuk perempuan tanpa menyebut status nikahnya|o
 corporate|korporat, tentang perusahaan besar|o
@@ -3960,7 +3960,7 @@ violet|bunga violet ungu kecil; ungu kebiruan|o;o
 mushroom|jamur; menjamur, tumbuh pesat|o;v
 observation|pengamatan; komentar, ucapan|o;o
 underestimate|meremehkan, menganggap lebih kecil dari kenyataannya|v
-dispatch|mengirimkan, memberangkatkan; menyelesaikan dengan cepat|v;v
+dispatch|mengirim; menyelesaikan dengan cepat; kiriman berita, pesan atau laporan resmi|v;v;o
 generally|biasanya; pada umumnya, oleh kebanyakan orang; secara garis besar|o;o;o
 cloth|kain tenun; lap, sepotong kain pembersih|o;o
 secretly|diam-diam, tanpa diketahui orang|o
@@ -4007,7 +4007,7 @@ grain|biji-bijian; butiran kecil; serat kayu|o;o;o
 tasty|enak, sedap|o
 mademoiselle|Mademoiselle, sapaan Prancis untuk perempuan belum menikah|o
 asian|Asia, dari Asia|o
-blink|mengedipkan mata|v
+blink|menutup dan membuka mata dengan cepat, berkedip; kedipan (dalam sekejap mata)|v;o
 presume|menganggap benar tanpa bukti; lancang, berani-berani|v;v
 pregnancy|kehamilan|o
 carrot|wortel|o
@@ -4214,7 +4214,7 @@ ivy|tanaman ivy, sulur berdaun hijau mengkilap|o
 fabric|kain; kerangka, susunan yang menyatukan sesuatu|o;o
 accountant|akuntan|o
 reign|masa pemerintahan raja atau ratu; bertakhta, memerintah|o;v
-sip|menyeruput, minum sedikit-sedikit|v
+sip|minum seteguk-seteguk kecil, menyesap; seteguk, sesapan|v;o
 sniper|penembak jitu dari tempat tersembunyi|o
 ha-ha|(bunyi tawa)|g
 unlikely|kecil kemungkinannya; sulit dipercaya|o;o
@@ -4266,7 +4266,7 @@ intern|magang, peserta pelatihan kerja; menginternir, menahan di kamp|o;v
 errand|suruhan, pergi sebentar mengambil atau mengantar|o
 countess|istri earl atau count; countess, perempuan berpangkat itu|o;o
 whew|(bunyi lega) fiuh|g
-decline|menolak dengan halus; menurun, merosot jumlah atau kekuatannya|v;v
+decline|menolak dengan sopan; menurun jumlah atau kekuatannya; penurunan, kemerosotan (penurunan harga)|v;v;o
 immortal|abadi, hidup selamanya; abadi, tak pernah dilupakan|o;o
 font|fon, jenis dan ukuran huruf cetak|o
 venture|usaha berisiko; berani pergi atau berkata|o;v
@@ -4379,7 +4379,7 @@ evolution|evolusi, perkembangan makhluk hidup secara perlahan|o
 notion|gagasan, anggapan yang samar|o
 blond|pirang, berambut pirang (tentang laki-laki)|o
 injection|suntikan|o
-grasp|menggenggam erat; memahami, menangkap maksud|v;v
+grasp|memegang erat; memahami; genggaman erat; pemahaman (menguasai bahasa Inggris dengan baik)|v;v;o;o
 horny|(informal) terangsang|o
 suitable|cocok, sesuai untuk keperluan atau keadaannya|o
 examination|pemeriksaan teliti; ujian, uji pengetahuan|o;o
@@ -4540,7 +4540,7 @@ moonlight|cahaya bulan|o
 comet|komet, bintang berekor|o
 granddaughter|cucu perempuan|o
 lira|lira, bekas mata uang Italia; lira, mata uang Turki|o;o
-gaze|menatap lama dan tak berkedip|v
+gaze|memandang lama dan tajam; tatapan, pandangan panjang dan mantap|v;o
 digital|digital, ditampilkan dengan angka; digital, menyimpan data sebagai angka|o;o
 attic|loteng, ruang di bawah atap|o
 jr|Jr., si muda, diletakkan setelah nama anak|o
@@ -4567,7 +4567,7 @@ junkie|pecandu narkoba (tidak resmi, merendahkan); orang yang kecanduan sesuatu 
 tutor|tutor, guru privat|o
 lifestyle|gaya hidup|o
 'it|(salah cetak dari it) itu|f3s
-manufacture|memproduksi barang dalam jumlah besar|v
+manufacture|membuat barang dalam jumlah besar, memproduksi; produksi, pembuatan barang|v;o
 sinner|pendosa, orang yang berbuat dosa|o
 cracker|biskuit kering tipis; petasan kertas Natal|o;o
 interior|bagian dalam; pedalaman|o;o
@@ -4643,7 +4643,7 @@ forensics|forensik, uji ilmiah untuk mengungkap kejahatan|o
 refresh|menyegarkan kembali; memperbarui, memutakhirkan|v;v
 outcome|hasil akhir, kesudahan|o
 verify|memverifikasi, memastikan kebenarannya|v
-dove|burung dara, lambang perdamaian; bentuk lampau dari dive (Amerika)|o;o
+dove|burung seperti merpati kecil, lambang perdamaian; menyelam, bentuk lampau dari dive (Amerika); orang yang menyukai perdamaian atau kebijakan lunak, lawan dari elang|o;o;o
 carrier|pembawa, pengangkut; kapal induk|o;o
 postpone|menunda ke waktu lain|v
 voyage|pelayaran, perjalanan jauh di laut atau angkasa|o
@@ -4808,7 +4808,7 @@ info|info, keterangan (informal)|o
 mold|jamur, lapisan berbulu pada makanan basi; cetakan, acuan tempat menuang logam|o;o
 motherfuckers|(vulgar) bajingan-bajingan, orang-orang keparat|o
 artificial|buatan, bukan alami; dibuat-buat, tidak tulus|o;o
-sparkle|berkilauan, berkelip-kelip|v
+sparkle|bersinar dengan kilatan kecil, berkilau; kilauan|v;o
 utter|sama sekali, mutlak; mengucapkan, mengeluarkan|o;v
 instructor|instruktur, pengajar keterampilan|o
 detention|penahanan, ditahan pihak berwajib; hukuman tinggal di sekolah|o;o
@@ -4899,7 +4899,7 @@ hitch|mengaitkan dengan tali atau pengait; kendala kecil yang menghambat|v;o
 waltz|walsa, tarian lambat berbirama tiga|o
 betrayal|pengkhianatan terhadap orang yang memercayaimu|o
 bunk|ranjang sempit yang menempel di dinding; omong kosong|o;o
-nod|mengangguk|v
+nod|menggerakkan kepala ke bawah dan ke atas tanda setuju, mengangguk; anggukan|v;o
 doe|rusa atau kelinci betina|o
 forensic|forensik, memakai ilmu untuk mengungkap kejahatan; forensik, tentang pengadilan|o;o
 backpack|ransel, tas punggung|o
@@ -5098,7 +5098,7 @@ category|kategori, golongan barang sejenis|o
 flare|nyala terang mendadak; suar, cahaya isyarat|o;o
 potion|ramuan, minuman bersihir atau berobat|o
 barber|tukang cukur|o
-wink|mengedipkan sebelah mata sebagai isyarat|v
+wink|menutup dan membuka satu mata sebagai isyarat, mengedip; kedipan|v;o
 atomic|atom, tentang atom; atom, bertenaga nuklir|o;o
 neighbourhood|neighbourhood, ejaan Inggris dari neighborhood|o
 immigrant|imigran, pendatang yang menetap di negeri baru|o
@@ -5127,7 +5127,7 @@ perish|binasa, mati; melapuk, membusuk|v;v
 adoption|pengangkatan anak, adopsi; penerapan, pengambilan suatu gagasan|o;o
 lighten|meringankan, mencerahkan|v
 jackass|(informal) orang tolol; keledai jantan|o;o
-revolt|memberontak terhadap penguasa; memuakkan, membuat jijik|v;v
+revolt|bangkit melawan penguasa, memberontak; membuat jijik; pemberontakan|v;v;o
 cheerful|ceria, riang|o
 acceptable|dapat diterima, cukup memadai|o
 clamor|(teriakan gaduh dan simpang siur)|g
@@ -5163,7 +5163,7 @@ compartment|kompartemen, ruang terpisah dalam wadah atau gerbong|o
 ruthless|kejam, tanpa belas kasihan|o
 crappy|(vulgar) jelek sekali, tidak berguna|o
 scold|memarahi, mengomeli|v
-stocking|stoking, kaus kaki panjang|o
+stocking|penutup kaki yang pas, stoking; pengisian dengan barang (mengisi rak)|o;o
 cant|(salah cetak dari can't) tidak bisa|o
 sh|(meminta diam) sst|g
 brothel|rumah bordil, rumah pelacuran|o
@@ -5228,7 +5228,7 @@ enable|memungkinkan, membuat sanggup|v
 tribute|penghormatan, kata atau tindakan penghargaan; upeti, bayaran dari pihak yang kalah|o;o
 aspirin|aspirin, obat penghilang nyeri dan demam|o
 cheerleader|pemandu sorak|o
-thrust|mendorong keras dan tiba-tiba|v
+thrust|mendorong keras dan tiba-tiba; dorongan keras; daya dorong (mesin)|v;o;o
 liberal|liberal, terbuka pada gagasan baru dan toleran; murah hati, royal|o;o
 cuban|Kuba, dari Kuba|o
 plumber|tukang ledeng|o
@@ -5278,7 +5278,7 @@ irrelevant|tidak relevan, tidak ada hubungannya|o
 poppy|bunga popi merah berhati hitam|o
 thorn|duri|o
 carpenter|tukang kayu|o
-blush|tersipu, merah muka karena malu|v
+blush|menjadi merah muka karena malu, tersipu; rona merah di wajah|v;o
 disciple|murid setia, pengikut ajaran|o
 perfection|kesempurnaan|o
 abort|membatalkan di tengah jalan; menggugurkan kandungan|v;v
@@ -5438,7 +5438,7 @@ strangely|anehnya, dengan cara yang sulit dijelaskan|o
 wrinkle|kerut, kerutan pada kulit atau kain|o
 'er|(dalam ucapan) dia, -nya|o
 batch|angkatan, kumpulan yang dibuat atau diurus sekaligus|o
-bind|mengikat, membelenggu; menyatukan, merekatkan|v;v
+bind|mengikat; menyatukan; kesulitan, situasi sulit (dalam kesulitan)|v;v;o
 handkerchief|saputangan|o
 flashlight|senter (Amerika)|o
 authentic|autentik, asli sesuai yang diakuinya|o
@@ -5534,7 +5534,7 @@ restrict|membatasi, mengekang|v
 fiber|serat, benang halus; serat makanan yang membantu pencernaan|o;o
 runaway|pelarian, orang yang kabur; lepas kendali, tak terkendali|o;o
 sow|menaburkan benih, menyemai; babi betina|v;o
-clapping|(bunyi tepuk tangan)|g
+clapping|(bunyi tangan yang bertepuk); clapping, bentuk -ing dari clap|g;o
 psychiatric|psikiatris, tentang pengobatan penyakit jiwa|o
 compensation|ganti rugi, uang pengganti kerugian|o
 roughly|kira-kira, kurang lebih; dengan kasar, tidak lembut|o;o
@@ -5712,7 +5712,7 @@ bbc|BBC, lembaga penyiaran Inggris|o
 hull|lambung kapal; kulit ari biji|o;o
 raft|rakit|o
 moose|rusa besar Amerika Utara bertanduk lebar|o
-caress|membelai dengan lembut dan penuh kasih|v
+caress|menyentuh dengan lembut dan penuh kasih, membelai; belaian|v;o
 scroll|gulungan naskah; menggulir teks di layar|o;v
 mercury|air raksa, logam cair keperakan; Merkurius, planet terdekat matahari|o;o
 revive|menghidupkan kembali, memulihkan|v
@@ -5814,7 +5814,7 @@ gestapo|Gestapo, polisi rahasia Jerman Nazi|o
 trim|memangkas sedikit agar rapi; rapi, teratur|v;o
 intrude|menyerobot masuk, mengganggu di tempat yang tak diinginkan|v
 knuckle|buku jari|o
-coo|(bunyi lembut merpati); berbisik mesra, berbicara lembut|g;v
+coo|(bunyi lembut rendah merpati); berbicara lembut dan penuh kasih; COO, direktur operasional|g;v;o
 supportive|suportif, penuh dukungan dan dorongan|o
 cuddle|mendekap mesra, memeluk penuh kasih|v
 deprive|merampas hak, membuat tak memperoleh yang dibutuhkan|v
@@ -6420,7 +6420,7 @@ homecoming|kepulangan, kembali ke rumah|o
 swelling|bengkak, bagian tubuh yang membesar karena cedera|o
 knob|kenop, gagang bulat; benjol kecil, tonjolan bundar|o;o
 crumb|remah roti atau kue|o
-grin|menyeringai, tersenyum lebar|v
+grin|tersenyum lebar; senyum lebar|v;o
 masturbate|beronani, memuaskan diri sendiri dengan tangan|v
 christianity|agama Kristen, ajaran Kristus|o
 breakup|putusnya hubungan; pecahnya, hancur berkeping|o;o
@@ -6531,14 +6531,14 @@ cleanse|membersihkan sampai tuntas, menyucikan|v
 sedative|obat penenang yang membawa kantuk|o
 spelling|ejaan, cara sebuah kata dituliskan|o
 accept|menerima, mau mengambil atau memercayai|v
-within|di dalam, sebelum lewat|o
+within|di dalam; sebelum berakhir, dalam waktu kurang dari (dalam seminggu)|o;o
 director|direktur perusahaan, sutradara film|o
 corner|sudut, pojok pertemuan dua garis atau jalan|o
 apparently|rupanya, kata orang begitu|o
-literally|secara harfiah, sungguhan dan bukan kiasan|o
+literally|sungguh-sungguh, bukan kiasan; kata demi kata|o;o
 pa|ayah, bapak (informal)|o
-chart|bagan angka, peta laut|o
-cleaner|petugas atau bahan pembersih|o
+chart|lembar berisi angka, grafik; peta laut|o;o
+cleaner|orang atau bahan yang membersihkan, pembersih; lebih bersih|o;o
 immunity|kekebalan terhadap penyakit atau tuntutan hukum|o
 severe|sangat buruk, sangat keras|o
 believer|orang yang beriman atau memercayai suatu gagasan|o
@@ -6587,7 +6587,7 @@ fiscal|berkaitan dengan pajak dan belanja pemerintah|o
 eurozone|zona euro, kelompok negara pengguna euro|o
 inflation|kenaikan harga secara umum; pengisian dengan udara|o;o
 deficit|kekurangan, saat pengeluaran melebihi pendapatan|o
-export|mengekspor, menjual barang ke negara lain|v
+export|menjual barang ke negara lain, mengekspor; barang yang dijual ke negara lain (ekspor)|v;o
 stability|kestabilan, keadaan tidak berubah atau goyah|o
 debut|penampilan atau pertunjukan pertama|o
 anti|anti, menentang|o
@@ -6771,7 +6771,7 @@ restructuring|restrukturisasi, penataan ulang, terutama perusahaan atau utang|o
 incorporate|memasukkan, menggabungkan sebagai bagian|v
 narrative|narasi, cerita, kisah peristiwa|o
 domain|bidang kegiatan atau ilmu; wilayah kekuasaan|o;o
-spur|mendorong, memacu|v
+spur|mendorong, memicu; taji, ujung runcing (di tumit penunggang); spur of the moment: tiba-tiba, tanpa rencana|v;o;n
 axis|sumbu putar; sumbu acuan pada grafik; poros, persekutuan|o;o;o
 malaria|malaria, penyakit yang ditularkan nyamuk|o
 diversity|keberagaman, keanekaragaman|o
@@ -6983,7 +6983,7 @@ minimize|meminimalkan, mengurangi sekecil mungkin|v
 openness|keterusterangan; keterbukaan terhadap gagasan baru|o;o
 policymaking|pembuatan kebijakan|o
 preference|kesukaan, preferensi; perlakuan istimewa|o;o
-decrease|mengurangi, berkurang|v
+decrease|menjadi atau membuat berkurang, menurun; penurunan|v;o
 prosperous|makmur, sejahtera|o
 array|susunan, deretan, rangkaian luas|o
 consolidate|memperkuat, memantapkan; menggabungkan|v;v
@@ -7120,7 +7120,7 @@ insecurity|rasa tidak percaya diri; ketidakamanan|o;o
 unify|menyatukan, mempersatukan|v
 exploration|penjelajahan, eksplorasi; penyelidikan, pengkajian|o;o
 dioxide|dioksida, senyawa dengan dua atom oksigen (seperti karbon dioksida)|o
-binding|mengikat secara hukum|o
+binding|wajib ditaati secara hukum, mengikat; binding, bentuk -ing dari bind|o;o
 subsidiary|anak perusahaan|o
 threshold|ambang batas; ambang pintu|o;o
 debtor|debitur, orang atau negara yang berutang|o
@@ -7344,7 +7344,7 @@ guitarist|gitaris|o
 mindset|pola pikir, sikap|o
 anthology|antologi, kumpulan tulisan atau lagu|o
 arsenal|gudang senjata, persenjataan|o
-catalog|katalog, daftar lengkap|o
+catalog|daftar lengkap barang, katalog; mendaftar, mencatat berurutan|o;v
 denounce|mengecam secara terbuka|v
 meltdown|keruntuhan mendadak; pelelehan inti reaktor nuklir|o;o
 shortcoming|kekurangan, kelemahan|o
@@ -7809,7 +7809,7 @@ polarize|memecah menjadi dua kubu yang berlawanan|v
 configuration|konfigurasi, susunan, pengaturan|o
 deportation|deportasi, pengusiran dari negara|o
 empirical|empiris, berdasarkan pengamatan atau percobaan|o
-listing|daftar, entri dalam daftar|o
+listing|daftar, entri dalam daftar; pendaftaran, penyebutan dalam daftar (mendaftar pilihan)|o;o
 usher|mengantar, menunjukkan jalan; mengawali (era baru)|v;v
 benign|tidak berbahaya, ramah; jinak (tumor), bukan kanker|o;o
 bipartisan|didukung kedua partai politik|o
@@ -8168,7 +8168,7 @@ extermination|pembasmian|o
 intersect|berpotongan|v
 legislator|anggota legislatif, pembuat undang-undang|o
 linkage|keterkaitan, hubungan|o
-rendering|penafsiran, pembawaan; gambar hasil komputer|o;o
+rendering|tafsiran, penampilan; gambar yang dihasilkan komputer, render; rendering, bentuk -ing dari render|o;o;o
 revision|revisi, perbaikan; belajar untuk ujian|o;o
 rugby|rugbi (olahraga beregu dengan bola lonjong)|o
 splice|menyambung (dengan menjalin)|v
@@ -8472,7 +8472,7 @@ visualization|bayangan mental; visualisasi|o;o
 approximate|kira-kira, perkiraan|o
 bayonet|bayonet, sangkur|o
 ceramic|keramik|o
-conditioning|pembiasaan, pelatihan; pendingin udara|o;o
+conditioning|latihan, pembiasaan; pendingin udara; menjadikan sesuatu bergantung pada syarat (mensyaratkan bantuan pada reformasi)|o;o;o
 consequential|penting; yang diakibatkan|o;o
 correspondent|koresponden, wartawan|o
 discretionary|atas kebijaksanaan sendiri, opsional|o
@@ -9221,7 +9221,7 @@ stowaway|penumpang gelap|o
 unhealthy|tidak sehat; sakit|o;o
 viewpoint|sudut pandang|o
 aluminium|aluminium, ejaan Inggris untuk aluminum|o
-anal|berkaitan dengan anus; terlalu cerewet, rewel|o;o
+anal|berkaitan dengan dubur; terlalu cerewet, sangat teliti (informal)|o;o
 biotechnology|bioteknologi|o
 cipher|sandi; orang tak berarti|o;o
 cleric|ulama, rohaniwan|o
@@ -9317,7 +9317,7 @@ beverage|minuman|o
 cheaply|dengan murah|o
 combatant|kombatan, petempur|o
 commute|pulang-pergi kerja; meringankan (hukuman)|v;v
-costing|perhitungan biaya|o
+costing|perkiraan biaya; costing, bentuk -ing dari cost|o;o
 democratize|mendemokratisasikan|v
 estrogen|estrogen|o
 faire|(dalam laissez-faire) membiarkan ekonomi bebas dari campur tangan negara|o
@@ -9437,11 +9437,11 @@ cause|sebab, alasan; karena (tidak resmi); menyebabkan|o;o;v
 supposed|supposed to: seharusnya, semestinya; yang diduga, dianggap|n;o
 touch|menyentuh; sentuhan; in touch: berhubungan, tetap kontak|v;o;n
 fast|cepat, laju; berpuasa|o;v
-cry|menangis; berteriak, berseru|v;v
+cry|menangis; berteriak, menyerukan; teriakan, seruan|v;v;o
 sort|jenis, macam; menyortir, mengurutkan; sort out: menyelesaikan, membereskan|o;v;n
 black|hitam; berkulit hitam, keturunan Afrika|o;o
 grow|tumbuh, membesar; menanam, membudidayakan; lambat laun menjadi; grow up: menjadi dewasa; grow into: tumbuh menjadi|v;v;v;n;n
-hang|menggantung; menggantung (menghukum mati dengan tali); hang out: nongkrong, menghabiskan waktu; hang on: menunggu; hang up: menutup telepon; hang in there: bertahan, jangan menyerah|v;v;n;n;n;n
+hang|menggantung; membunuh dengan tali, menggantung; hang out: menghabiskan waktu, nongkrong; hang on: menunggu; hang up: menutup telepon; hang in there: bertahan, jangan menyerah; get the hang of: menjadi paham cara melakukan|v;v;n;n;n;n;n
 white|putih; berkulit putih, keturunan Eropa|o;o
 secret|rahasia, tersembunyi; rahasia (sesuatu yang disembunyikan)|o;o
 cheer|sorakan; menyemangati; cheer up: menjadi gembira|o;v;n
@@ -9463,7 +9463,7 @@ account|rekening; laporan, penuturan; akun; account for: menjelaskan; into accou
 rid|get rid of: menyingkirkan, membuang; membebaskan dari|n;v
 copy|salinan, tiruan; menyalin; eksemplar|o;v;o
 further|lebih jauh, lebih lanjut; tambahan, lebih|o;o
-freak|orang atau hal aneh; freak out: panik, kalap|o;n
+freak|orang atau hal yang aneh; freak out: kehilangan kendali, panik; sangat tidak biasa dan tak terduga (kecelakaan aneh)|o;n;o
 apart|terpisah, berjauhan; apart from: selain, kecuali|o;n
 cheat|curang, menipu; cheat on: berselingkuh dari|v;n
 chair|kursi; ketua (rapat)|o;o
@@ -9485,7 +9485,7 @@ purr|mendengkur (kucing yang senang); berbicara dengan lembut dan menggoda|v;v
 cum|merangkap, sekaligus (kitchen-cum-dining room = dapur merangkap ruang makan)|o
 coldly|dengan dingin, tidak ramah|o
 née|terlahir dengan nama (sebelum nama gadis seorang wanita)|o
-huff|mendengus kesal; in a huff: tersinggung, merajuk|v;n
+huff|mengembuskan napas karena kesal; in a huff: tersinggung, merajuk; embusan napas karena kesal|v;n;o
 furrow|mengerutkan (dahi); alur di tanah, kerutan dalam|v;o
 morrow|hari esok; pagi|o;o
 angrily|dengan marah|o
@@ -9762,7 +9762,7 @@ befall|menimpa (hal buruk)|v
 complexion|warna dan tekstur kulit wajah; sifat, watak|o;o
 ignite|menyalakan, terbakar; memicu (perasaan)|v;v
 muscular|berotot, kekar; berkaitan dengan otot|o;o
-parting|perpisahan; belahan rambut|o;o
+parting|perpisahan, salam perpisahan; belahan rambut; parting with: melepaskan|o;o;n
 perk|tunjangan, fasilitas pekerjaan; perk up: menjadi lebih bersemangat|o;n
 remembrance|kenangan, ingatan; peringatan|o;o
 smug|puas diri, sombong|o
@@ -10920,7 +10920,7 @@ husky|serak, parau (suara); anjing husky (penarik kereta salju); besar dan kekar
 imperil|membahayakan|v
 internationalization|internasionalisasi; penyesuaian perangkat lunak untuk bahasa lain|o;o
 intestine|usus|o
-invalid|tidak sah, tidak berlaku; orang yang lemah karena sakit|o;o
+invalid|tidak sah, tidak dapat diterima; orang yang lemah karena sakit (kuno, bisa menyinggung)|o;o
 lightweight|ringan; orang yang tidak penting, kelas teri|o;o
 loathe|membenci|v
 managerial|manajerial|o
@@ -10979,7 +10979,7 @@ emergent|baru muncul, sedang berkembang|o
 enchanter|penyihir, tukang sihir|o
 epidemiology|epidemiologi, ilmu penyebaran penyakit|o
 favourable|favourable, ejaan Inggris untuk favorable|o
-fook|keparat, sialan (kasar, bahasa lisan, = fuck)|o
+fook|(vulgar) fuck (ejaan Irlandia dan Inggris utara)|o
 forearm|lengan bawah|o
 frenzy|kegilaan, kehebohan tak terkendali|o
 gamers|para pemain gim video, bentuk jamak dari gamer|o
@@ -11090,7 +11090,7 @@ solemnity|kekhidmatan, keagungan|o
 straddle|mengangkang (di atas sesuatu)|v
 swoop|menukik tiba-tiba; serangan mendadak|v;o
 talkie|film bersuara (awal)|o
-topping|taburan, lapisan atas makanan; hebat (bahasa lisan)|o;o
+topping|lapisan di atas makanan, taburan; sangat bagus (kolokial); menduduki peringkat pertama (memuncaki daftar); menaruh di atas (menaburinya dengan kacang)|o;o;o;o
 unwarranted|tidak beralasan|o
 wad|gepok, gumpalan (kertas, uang)|o
 watery|berair; encer, hambar|o;o
@@ -11450,7 +11450,7 @@ spec|spesifikasi (bahasa lisan); on spec: tanpa jaminan, untung-untungan|o;n
 statutory|diwajibkan undang-undang|o
 steppe|stepa, padang rumput luas|o
 stratum|lapisan|o
-striving|usaha, jerih payah|o
+striving|usaha; striving, bentuk -ing dari strive|o;o
 subfamily|subfamili, anak suku (biologi)|o
 symbolism|simbolisme, perlambangan|o
 termination|pengakhiran; pemecatan|o;o
@@ -12106,7 +12106,7 @@ malignant|ganas (kanker); jahat|o;o
 mildly|sedikit, agak; dengan lembut|o;o
 morbid|muram, terobsesi pada kematian|o
 multisite|di beberapa lokasi|o
-musing|renungan|o
+musing|renungan; musing, bentuk -ing dari muse|o;o
 nab|menangkap, menyambar (bahasa lisan)|v
 observance|kepatuhan (pada hukum, adat); upacara keagamaan|o;o
 orangutan|orang utan|o
@@ -13180,7 +13180,7 @@ steely|keras, tegas; seperti baja|o;o
 thicken|mengentalkan, menebal|v
 tortoise|kura-kura darat|o
 unbuckle|membuka gesper|v
-undoing|kehancuran, kejatuhan|o
+undoing|kehancuran, kejatuhan; undoing, bentuk -ing dari undo|o;o
 unroll|membuka gulungan, membentangkan|v
 whereupon|lalu, sesudah itu|o
 wholeheartedly|sepenuh hati|o
@@ -13196,7 +13196,7 @@ bittersweet|pahit-manis, bahagia sekaligus sedih|o
 blabber|mengoceh, membocorkan|v
 bloodline|garis keturunan|o
 blot|noda, cela; menyerap, mengeringkan; blot out: menutupi, menghalangi|o;v;n
-brooding|murung dan termenung; mengancam|o;o
+brooding|muram dan merenung; mengancam; brooding, bentuk -ing dari brood|o;o;o
 caramel|karamel; permen karamel|o;o
 carp|ikan mas; mengomel, menggerutu|o;v
 chasm|jurang, celah dalam di tanah; kesenjangan lebar|o;o
@@ -14080,7 +14080,7 @@ sunscreen|krim yang melindungi kulit dari matahari|o
 sympathizer|orang yang mendukung suatu perjuangan atau kelompok|o
 symptomatic|menunjukkan tanda penyakit; menjadi tanda masalah yang lebih besar|o;o
 teamwork|orang-orang bekerja sama sebagai kelompok|o
-therapeutics|cabang kedokteran tentang pengobatan penyakit|o
+therapeutics|cabang kedokteran tentang pengobatan penyakit, terapeutik; pengobatan, obat-obatan (obat antijamur)|o;o
 thylacine|marsupial Australia bergaris yang telah punah, harimau Tasmania|o
 timeframe|jangka waktu terjadinya sesuatu|o
 unattainable|mustahil dicapai|o
@@ -14349,7 +14349,7 @@ ruinous|menyebabkan kehancuran atau malapetaka keuangan|o
 scavenge|mencari dan mengumpulkan barang yang masih terpakai dari sampah; memakan bangkai|v;v
 shoal|tempat dangkal di air; kawanan besar ikan|o;o
 socialization|proses belajar bersikap dalam masyarakat|o
-spacing|jarak yang disisakan di antara benda|o
+spacing|jarak yang disisakan di antara benda, spasi; menjarangkan, menempatkan dengan jarak (menjarangkan kelahiran)|o;o
 storeroom|ruangan tempat menyimpan barang|o
 surmise|menduga tanpa bukti kuat|v
 symbolically|dengan cara yang melambangkan hal lain|o
@@ -14693,7 +14693,7 @@ fisted|tight-fisted: tidak mau mengeluarkan uang; ham-fisted: canggung, kasar|n;
 foreboding|firasat bahwa sesuatu yang buruk akan terjadi|o
 forthe|for the (ditulis sebagai satu kata)|o
 frigid|sangat dingin; tidak ramah|o;o
-git|orang yang tidak menyenangkan (Inggris, informal)|o
+git|orang yang tidak menyenangkan (Inggris, informal); mendapatkan (ejaan dialek)|o;v
 harmonica|alat musik kecil yang dimainkan dengan meniup dan menyedot|o
 heterogeneous|terdiri dari berbagai jenis bagian|o
 homestead|pertanian beserta rumahnya|o
@@ -15638,7 +15638,7 @@ rollercoaster|wahana pasar malam dengan turunan curam; rangkaian naik turun yang
 saturation|keadaan penuh sepenuhnya; intensitas warna|o;o
 scalpel|pisau kecil yang tajam untuk operasi|o
 shaker|wadah untuk dikocok, misalnya untuk garam atau koktail|o
-siding|jalur kereta api pendek; penutup dinding luar|o;o
+siding|jalur kereta api pendek, rel simpang; penutup dinding luar; siding with: memihak|o;o;n
 sinus|rongga berisi udara di tengkorak yang berhubungan dengan hidung|o
 skateboard|papan pendek beroda untuk dinaiki|o
 snob|orang yang memandang rendah mereka yang berkelas sosial lebih rendah|o
@@ -16119,3 +16119,4 @@ undeveloped|belum berkembang atau dibangun|o
 unjustly|dengan cara yang tidak adil|o
 unproven|belum terbukti benar|o
 annum|per annum: per tahun, tahunan|n
+united|bersatu (the United States: Amerika Serikat; the United Nations: Perserikatan Bangsa-Bangsa); menyatukan, bersatu (bentuk lampau unite)|o;o

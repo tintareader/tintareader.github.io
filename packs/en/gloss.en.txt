@@ -80,7 +80,7 @@ look|to look; look! (pay attention); a look, a glance; a look, an expression, ap
 've|(have: I've seen, you've gone)|g
 got|got, past of get; have got: to have; have got to: must (I've got to go); got up: rose (from bed), stood up; got out: left, escaped; got back: returned; got rid of: removed, threw away; got over: recovered from; got away: escaped; got on: boarded, got along; got off: left (a bus, a train); got through: survived, finished, reached by telephone; got used to: became accustomed to|o;n;n;n;n;n;n;n;n;n;n;n;n
 okay|okay, all right|o
-as|as, like; as (while); as (in the role of: work as a teacher); as, because (as it was late, we left); as if / as though: in a way that suggests; as for: concerning|o;o;o;o;n;n
+as|as, like; as (in comparisons: as tall as, as soon as); as (while); as (in the role of: work as a teacher); as, because (as it was late, we left); as if / as though: in a way that suggests; as for: concerning|o;o;o;o;o;n;n
 take|to take; take over: to take control of; take on: to accept (work, a responsibility), to employ, to fight against, to acquire (a look, a quality); take off: to remove (clothes), to leave the ground, to leave; take out: to bring out (of a pocket, a bag), to remove, to take someone out; take back: to withdraw (something said), to return (goods); take after: to resemble (a parent); take place: to happen; take part: to participate; take care of: to look after, to deal with; take advantage of: to use (a chance), to exploit; take it easy: to relax, to calm down; to need (time, effort: it takes an hour); to travel by (a bus, a train); to accept (a job, advice, a card); to carry or lead (somewhere); to have (a shower, a photo, a look)|v;n;n;n;n;n;n;n;n;n;n;n;v;v;v;v;v
 good|good, of high quality; good, kind, well-behaved; good, pleasant, enjoyable; goods: things for sale; for good: permanently; no good: useless, bad; good, fine, all right (as a reply: Good, thanks!)|o;o;o;n;n;n;o
 let|to let, to allow; let down: to disappoint, to fail someone, to lower (let down one's guard); let go: to release, to stop holding; let in: to allow to enter; let out: to utter (a sigh, a cry), to release; let alone: and certainly not|v;n;n;n;n;n
@@ -142,7 +142,7 @@ guy|guy, man; (guys) people, either sex|o;o
 day|day, a period of 24 hours; day, daytime, not night|o;o
 little|little, small; a little, a bit|o;o
 please|please (polite request)|o
-should|should, ought to|o
+should|should, ought to; (before its subject) if (should you need help, call)|o;o
 said|past form of say|o
 sorry|sorry (apologising); sorry (feeling pity)|o;o
 off|off, away (from a place or surface); off, switched off; off, not at work (a day off); off, gone bad (of food); off, cancelled (the wedding is off); off, reduced (20% off)|o;o;o;o;o;o
@@ -315,7 +315,7 @@ once|once, one time; once, formerly; once, as soon as; at once: immediately, at 
 bit|a bit: a little; bit, small piece; bit, past of bite|n;o;o
 laugh|to laugh; a laugh|v;o
 ready|ready|o
-guess|to guess; I guess: I suppose|v;n
+guess|to guess; I guess: I suppose; a guess|v;n;o
 pretty|pretty, attractive; pretty, fairly|o;o
 wife|wife|o
 drink|to drink; a drink|v;o
@@ -352,10 +352,10 @@ check|to check; to check (look at); check, the bill; check out: to look at, to i
 um|um (hesitating)|o
 soon|soon; as soon as: immediately when; sooner or later: eventually|o;n;n
 close|to close, to shut; close, near|v;o
-question|question, something asked; question, a matter, an issue; to question, to ask, to doubt|o;o;v
+question|question, something asked; question, a matter, an issue; to question, to ask questions of; to question, to doubt|o;o;v;v
 saying|saying; a saying, a proverb|o;o
 lie|to lie, to tell an untruth; to lie down; a lie|v;v;o
-few|few, not many|o
+few|few, not many; a few: some, several|o;n
 heart|heart, organ that pumps blood; heart, feelings, love; heart, centre (the heart of the city); by heart: from memory; at heart: basically, really|o;o;o;n;n
 couldn|(could not, in couldn't)|g
 lady|lady, woman|o
@@ -400,7 +400,7 @@ working|working, -ing form of work; working, functioning; working, having a job|
 pick|to pick up; to pick, to choose; pick up: to lift, to collect, to answer (the phone), to learn; pick on: to bully, to criticise unfairly|v;v;n;n
 crazy|crazy, mad|o
 write|to write|v
-stand|to stand; to bear, to tolerate; stand for: to represent, to be short for, to tolerate; stand out: to be noticeable; stand up for: to defend; stand by: to wait ready, to support|v;v;n;n;n;n
+stand|to stand; to bear, to tolerate; stand for: to represent, to be short for, to tolerate; stand out: to be noticeable; stand up for: to defend; stand by: to wait ready, to support; a stand, a stall, a holder (a fruit stand, a music stand); the stands, seats for watching a game|v;v;n;n;n;n;o;o
 save|to save (rescue); to save (keep)|v;v
 game|game, activity played for fun; game, a match; game, wild animals hunted for food|o;o;o
 exactly|exactly, precisely; exactly! (agreeing)|o;o
@@ -456,7 +456,7 @@ cause|cause, reason; because (informal); to cause|o;o;v
 important|important|o
 line|line, long thin mark; line, a queue; line, row of words (a line of text); line, telephone connection; line, words an actor says|o;o;o;o;o
 trust|to trust; trust|v;o
-cut|to cut; cut off: to disconnect, to isolate, to interrupt; cut out: to remove by cutting, to stop (doing something); cut down: to fell (a tree), to reduce|v;n;n;n
+cut|to cut; cut off: to disconnect, to isolate, to interrupt; cut out: to remove by cutting, to stop (doing something); cut down: to fell (a tree), to reduce; a cut, a wound; a cut, a reduction (tax cuts)|v;n;n;n;o;o
 least|least, the smallest amount (the least I can do); at least: at the minimum, no fewer than; at least: anyway, if nothing else|o;n;n
 wear|to wear; wear out: to become useless through use, to exhaust; wear off: to fade gradually (an effect)|v;n;n
 trouble|trouble, difficulty, problems; to trouble, to bother|o;v
@@ -477,7 +477,7 @@ pass|to pass; to pass (an exam); pass away: to die; to be approved (a law, a bil
 city|city|o
 truth|truth|o
 sell|to sell; sell out: to sell all of, to betray principles for money|v;n
-pull|to pull; pull over: to stop at the side of the road; pull off: to succeed in (something difficult); pull up: to stop (a vehicle), to raise|v;n;n;n
+pull|to pull; pull over: to stop at the side of the road; pull off: to succeed in (something difficult); pull up: to stop (a vehicle), to raise; a pull; a pull, an attraction (the pull of the city)|v;n;n;n;o;o
 blood|blood|o
 finish|to finish|v
 behind|behind, at the back of; behind, late (behind schedule); behind, supporting|o;o;o
@@ -503,9 +503,9 @@ half|half|o
 drop|to drop; a drop; drop off: to deliver on the way, to fall asleep; drop in: to visit informally; drop out: to leave (school, a race)|v;o;n;n;n
 bed|bed|o
 either|either|o
-cry|to cry, to weep; to shout, to call out|v;v
+cry|to cry, to weep; to shout, to call out; a cry, a shout|v;v;o
 country|country, a nation; country, the countryside|o;o
-figure|figure, a shape or number; to figure, to work out; figure out: to work out, to understand|o;v;n
+figure|figure, a number, an amount; figure, a shape, a person's body (her figure); figure, a person (a public figure); to figure, to think, to suppose (I figure); to figure, to work out; figure out: to work out, to understand|o;o;o;v;v;n
 front|front; in front of: before|o;n
 learn|to learn|v
 whoa|whoa (surprise; slow down)|o
@@ -513,11 +513,11 @@ bye|bye, goodbye|o
 telling|telling|o
 honey|honey (sweet food); honey (affectionate address)|o;o
 wonder|to wonder; wonder, amazement; no wonder: it is not surprising|v;o;n
-return|to come back, to go back; to give back|v;v
+return|to come back, to go back; to give back; a return, coming back (on his return)|v;v;o
 stupid|foolish, not clever|o
-sigh|to breathe out slowly from tiredness or relief|v
+sigh|to breathe out slowly from tiredness or relief; a sigh|v;o
 sort|kind, type; to arrange in order; sort out: to deal with, to resolve|o;v;n
-hurry|to move quickly, to rush; hurry up: to be quicker, hurry up!|v;n
+hurry|to move quickly, to rush; hurry up: to be quicker, hurry up!; hurry, haste (in a hurry)|v;n;o
 hot|at a high temperature; spicy; attractive|o;o;o
 news|reports of recent events|o
 food|what people eat|o
@@ -525,7 +525,7 @@ date|day of the month; romantic meeting; to go out with|o;o;v
 follow|to go after; to understand|v;v
 decide|to make a choice|v
 full|holding as much as possible; complete|o;o
-early|before the usual time|o
+early|before the usual time; near the beginning (early in the morning, the early 1990s)|o;o
 lord|nobleman; (capitalised) God|o;o
 picture|image, photograph; film|o;o
 black|of the darkest colour; dark-skinned, of African descent|o;o
@@ -540,8 +540,8 @@ funny|making you laugh; odd, suspicious|o;o
 stick|to attach, to become fixed; thin piece of wood; stick to: to keep to, to not change; stick around: to stay; stick out: to project, to be noticeable|v;o;n;n;n
 grow|to get bigger; to cultivate; to become gradually; grow up: to become an adult; grow into: to become (in time)|v;v;v;n;n
 captain|officer in charge of a ship, team or unit|o
-chuckle|to laugh quietly|v
-hang|to fasten from above; to kill by rope; hang out: to spend time; hang on: to wait; hang up: to end a phone call; hang in there: to keep going, not give up|v;v;n;n;n;n
+chuckle|to laugh quietly; a chuckle|v;o
+hang|to fasten from above; to kill by rope; hang out: to spend time; hang on: to wait; hang up: to end a phone call; hang in there: to keep going, not give up; get the hang of: to learn how to do|v;v;n;n;n;n;n
 human|person; belonging to people|o;o
 em|(in 'em) them|o
 safe|out of danger; strongbox for valuables|o;o
@@ -562,7 +562,7 @@ state|nation, government; condition; to say formally|o;o;v
 company|business firm; being with others|o;o
 force|physical power; to make someone do something; armed body|o;v;o
 fly|to move through the air; small insect|v;o
-win|to come first, to beat others|v
+win|to come first, to beat others; a win, a victory|v;o
 shouldn|(in shouldn't) should not|o
 running|moving fast on foot; operating; running out of: having no more of|o;o;n
 white|of the colour of snow; pale-skinned, of European descent|o;o
@@ -570,7 +570,7 @@ alright|okay, fine (= all right)|o
 million|1,000,000|o
 piece|part of a whole; single item|o;o
 ma|(in ma'am) madam; mother (informal)|o;o
-scream|to cry out loudly in fear or pain|v
+scream|to cry out loudly in fear or pain; a scream|v;o
 gentleman|polite word for a man|o
 perfect|without fault, exactly right|o
 beat|to hit repeatedly; to defeat; rhythm|v;v;o
@@ -580,7 +580,7 @@ anybody|any person|o
 secret|kept hidden from others; something kept hidden|o;o
 bitch|(offensive) spiteful woman; female dog; to complain|o;o;v
 ass|(vulgar) buttocks; fool; donkey|o;o;o
-kiss|to touch with the lips|v
+kiss|to touch with the lips; a kiss|v;o
 shoot|to fire a weapon; to film|v;v
 special|not ordinary, meant for one purpose|o
 attack|to use violence against; sudden bout of illness|v;o
@@ -591,7 +591,7 @@ sick|ill, unwell; disgusting; sick of: fed up with|o;o;n
 poor|having little money; deserving pity; of low quality|o;o;o
 perhaps|maybe, possibly|o
 report|account of something; to tell officially|o;v
-wake|to stop sleeping, to rouse; wake up: to stop sleeping, to wake someone|v;n
+wake|to stop sleeping, to rouse; wake up: to stop sleeping, to wake someone; in the wake of: after, as a result of; wake, the track left behind a moving ship|v;n;n;o
 serious|not joking; grave, severe|o;o
 voice|sound a person makes when speaking|o
 sense|meaning; good judgement; ability to feel; to detect; make sense: to be understandable, to be logical|o;o;o;v;n
@@ -603,7 +603,7 @@ explain|to make clear, to give reasons for|v
 earth|the world; soil, ground; what on earth / why on earth / how on earth / where on earth / who on earth: ever, at all (for emphasis)|o;o;n
 past|time before now; beyond, further than|o;o
 mistake|error, something done wrongly|o
-meeting|gathering arranged to discuss something|o
+meeting|gathering arranged to discuss something; meeting, -ing form of meet|o;o
 possible|able to happen|o
 strong|having great power or force|o
 arm|limb from shoulder to hand; to supply with weapons|o;v
@@ -639,7 +639,7 @@ clean|free of dirt; to remove dirt from|o;v
 act|to do something; to perform a part; deed, law|v;v;o
 dress|garment worn by women; to put clothes on|o;v
 evening|end of the day, before night|o
-bet|to risk money on a result; I bet: I'm sure|v;n
+bet|to risk money on a result; I bet: I'm sure; a bet|v;n;o
 ship|large boat; to send goods|o;v
 allow|to let something happen, to permit|v
 sex|male or female; physical act between people|o;o
@@ -652,7 +652,7 @@ letter|written message; sign for a sound|o;o
 rather|instead, preferably; fairly, quite; rather than: instead of; would rather: to prefer|o;o;n;n
 steal|to take without permission|v
 felt|felt, past of feel; felt, thick cloth of pressed wool; felt like: wanted (to do or have), seemed like|o;o;n
-grunt|to make a low rough sound|v
+grunt|to make a low rough sound; a grunt|v;o
 protect|to keep safe from harm|v
 cover|to put something over; to deal with, to include; protection|v;v;o
 join|to come together with; to become a member of|v;v
@@ -660,11 +660,11 @@ sing|to make music with the voice|v
 ball|round object used in games; formal dance|o;o
 quiet|making little or no noise; not busy|o;o
 law|rule made by a state; the police|o;o
-count|to say numbers in order; to matter; count on: to rely on|v;v;n
+count|to say numbers in order; to matter; count on: to rely on; a count, a total (the vote count); Count, a nobleman (the Count of Monte Cristo)|v;v;n;o;o
 somewhere|in or to some place|o
 train|railway vehicle; to teach a skill, to practise|o;v
 enjoy|to get pleasure from|v
-knock|to hit, to strike a door|v
+knock|to hit, to strike a door; a knock (at the door)|v;o
 jesus|(exclamation of surprise or annoyance); Jesus Christ, central figure of Christianity|g;o
 coffee|hot drink made from roasted beans|o
 test|check of quality or knowledge; to try out|o;v
@@ -695,35 +695,35 @@ ooh|(exclamation of surprise or pleasure)|g
 class|group taught together; lesson; social rank; quality|o;o;o;o
 mark|spot or line left on something; to grade; to show the position of|o;v;v
 choice|act of choosing; option available|o;o
-arrest|to take into custody|v
+arrest|to take into custody; an arrest|v;o
 card|stiff piece of paper for messages, games or payment|o
 imagine|to form a picture in the mind; to suppose|v;v
 joke|something said to make people laugh; to say something in fun|o;v
 system|set of connected parts or rules|o
 wonderful|extremely good, marvellous|o
 mad|angry; insane|o;o
-push|to press away from you; to urge|v;v
+push|to press away from you; to urge; a push; a push, a big effort (the push for reform)|v;v;o;o
 absolutely|completely; (as an answer) certainly|o;o
 ride|to travel on a horse or in a vehicle; journey|v;o
 drug|medicine; illegal substance|o;o
 present|now, current; gift; to show or introduce; attending|o;o;v;o
 smell|to sense with the nose; odour; to give off a smell (it smells good)|v;o;v
-building|structure with walls and a roof|o
+building|structure with walls and a roof; building, -ing form of build|o;o
 yesterday|the day before today|o
 box|container with straight sides; to fight with fists|o;v
 mess|dirty or disordered state; trouble; mess up: to spoil, to get wrong; mess with: to interfere with, to provoke|o;o;n;n
 president|head of a country or company|o
 darling|term of affection for someone loved|o
 share|to divide with others; portion; part of a company|v;o;o
-reach|to arrive at; to stretch out to touch|v;v
-burn|to be on fire, to destroy with fire|v
+reach|to arrive at; to stretch out to touch; reach, how far one can stretch (out of reach)|v;v;o
+burn|to be on fire, to destroy with fire; a burn, an injury from fire or heat|v;o
 leg|limb used for standing and walking|o
 forgive|to stop blaming, to pardon|v
 worth|having the value of; deserving|o;o
 pain|unpleasant feeling caused by injury or illness|o
 message|piece of information sent to someone|o
 swear|to promise solemnly; to use rude words|v;v
-visit|to go and see someone or somewhere|v
+visit|to go and see someone or somewhere; a visit|v;o
 build|to make by putting parts together|v
 fish|animal that lives in water; to catch these|o;v
 american|of the United States; person from the United States|o;o
@@ -737,7 +737,7 @@ wedding|ceremony where two people marry|o
 court|place where legal cases are heard; royal household; to woo|o;o;v
 none|not any, not one|o
 amazing|causing wonder, very impressive|o
-general|affecting everyone, not detailed; General, senior army officer|o;o
+general|affecting everyone, widespread; not detailed, broad (a general idea); in general: usually, as a whole; General, senior army officer|o;o;n;o
 chief|leader; main, most important|o;o
 dark|without light; deep in colour; gloomy|o;o;o
 strange|unusual, unfamiliar; unknown|o;o
@@ -745,7 +745,7 @@ station|stopping place for trains; base for police or broadcasting; gas station 
 goodbye|(said when parting)|g
 fear|feeling caused by danger; to be afraid of|o;v
 near|close to, a short distance away|o
-kick|to strike with the foot|v
+kick|to strike with the foot; a kick|v;o
 wall|upright side of a room or building; barrier|o;o
 brain|organ of thought inside the head; intelligence|o;o
 arrive|to reach a place|v
@@ -777,7 +777,7 @@ hotel|building where travellers pay to sleep|o
 deep|going a long way down; hard to understand; deep, intense, strongly felt (deep love, deep trouble)|o;o;o
 idiot|fool, someone who acts without sense|o
 short|small in length or height; lasting little time; shorts: short trousers; in short: briefly, to summarise; short of: lacking, not having enough|o;o;n;n;n
-jump|to push yourself off the ground|v
+jump|to push yourself off the ground; a jump; a jump, a sudden rise (a jump in prices)|v;o;o
 table|flat top on legs; list of figures in rows|o;o
 buddy|friend, mate (informal)|o
 birthday|day someone was born, marked each year|o
@@ -817,7 +817,7 @@ seven|7|o
 clothes|things worn on the body|o
 respect|regard for someone's worth; to treat with regard|o;v
 smoke|grey cloud from fire; to draw in tobacco smoke|o;v
-escape|to get away, to break free|v
+escape|to get away, to break free; an escape|v;o
 window|opening in a wall with glass|o
 hasn|(in hasn't) has not|f3s
 boat|small vessel that travels on water|o
@@ -842,7 +842,7 @@ seriously|in a serious way; really, truly|o;o
 forever|for all time, endlessly|o
 entire|whole, complete|o
 space|empty room, gap; area beyond the earth|o;o
-mention|to say briefly, to refer to; not to mention: and also, besides|v;n
+mention|to say briefly, to refer to; not to mention: and also, besides; a mention|v;n;o
 gasp|to draw breath sharply in shock|v
 track|path or course; recorded song; to follow; keep track of: to follow, to keep a record of; tracks, marks left on the ground; railway line, rails|o;o;v;n;o;o
 across|from one side to the other of|o
@@ -868,16 +868,16 @@ sea|large body of salt water|o
 contact|to get in touch with; connection between people|v;o
 killer|person who kills|o
 grab|to take hold of suddenly|v
-groan|to make a low sound of pain or complaint|v
+groan|to make a low sound of pain or complaint; a groan|v;o
 witness|person who saw something happen; to see it happen|o;v
 relationship|way two people are connected; romance|o;o
 sitting|resting on a seat|o
 radio|device that receives broadcasts; broadcasting by waves|o;o
 decision|choice that has been made|o
-remain|to stay, to be left|v
+remain|to stay, to be left; the remains, what is left (of a meal, a body)|v;o
 lunch|meal in the middle of the day|o
 field|open land for crops or sport; area of study|o;o
-smile|to turn the mouth up in pleasure|v
+smile|to turn the mouth up in pleasure; a smile|v;o
 peace|freedom from war; calm|o;o
 cat|small furry animal kept as a pet|o
 government|group that rules a country|o
@@ -888,7 +888,7 @@ tough|hard to do; strong, not easily hurt|o;o
 enemy|person or country fighting against you|o
 memory|ability to remember; something remembered|o;o
 concern|worry; to be about, to involve|o;v
-travel|to go from place to place|v
+travel|to go from place to place; travel, journeys (air travel, on his travels)|v;o
 teacher|person whose job is to teach|o
 position|place where something is; job; opinion held|o;o;o
 lawyer|person trained to advise on the law|o
@@ -917,7 +917,7 @@ afternoon|time between midday and evening|o
 personal|belonging to one person, private|o
 difficult|not easy, needing effort|o
 proud|pleased with what you or yours have done|o
-shout|to say very loudly|v
+shout|to say very loudly; a shout|v;o
 church|building for Christian worship|o
 tea|hot drink made from leaves|o
 slow|taking a long time, not fast|o
@@ -929,7 +929,7 @@ public|open to everyone; the people generally|o;o
 base|bottom part, foundation; military camp; based in / based on: located in, founded on|o;o;n
 angry|feeling strong displeasure|o
 file|folder of papers or data; to put away in order; tool for smoothing|o;v;o
-bear|large heavy wild animal; to carry, to endure|o;v
+bear|large heavy wild animal; to carry, to have (bear a weight, bear a name); to endure, to tolerate (can't bear it)|o;v;v
 sad|unhappy|o
 cross|to go from one side to the other; annoyed; shape of two lines|v;o;o
 match|contest between two sides; small stick that makes fire; to be equal to|o;o;v
@@ -944,7 +944,7 @@ taste|flavour; to sense flavour; judgement in style|o;v;o
 suspect|person thought guilty; to think likely (I suspect he lied); to think guilty, to distrust|o;v;v
 queen|female ruler; wife of a king|o;o
 plane|aircraft; flat surface|o;o
-sake|(for the sake of) benefit, purpose|o
+sake|benefit, good (for your sake); for the sake of: for the benefit of, in order to; for God's sake / for heaven's sake: exclamation of annoyance or urgency|o;n;n
 mm|(sound of agreement or thinking)|g
 standing|upright on the feet|o
 island|land with water all around it|o
@@ -959,8 +959,8 @@ screw|metal fastener with a spiral thread; to fasten with these; (vulgar) to hav
 pop|sudden small sound; popular music; dad (informal); to burst|o;o;o;v
 boyfriend|male romantic partner|o
 mm-hmm|(sound meaning yes)|g
-fill|to make full; fill in: to complete (a form), to substitute for someone; fill out: to complete (a form)|v;n;n
-within|inside, before the end of|o
+fill|to make full; fill in: to complete (a form), to substitute for someone; fill out: to complete (a form); one's fill, as much as one wants (eat your fill)|v;n;n;o
+within|inside; before the end of, in less than (within a week)|o;o
 beg|to ask desperately; to ask for money in the street|v;v
 pleasure|feeling of enjoyment|o
 vote|to choose in an election; choice so made|v;o
@@ -1024,9 +1024,9 @@ jail|prison|o
 member|person belonging to a group|o
 cost|price to be paid; to be priced at|o;v
 address|where a person lives; to speak to; to deal with|o;v;v
-spirit|soul; ghost; mood, courage|o;o;o
+spirit|soul; ghost; mood, attitude (in good spirits); courage, energy|o;o;o;o
 guest|person invited or staying|o
-release|to set free; to make public|v;v
+release|to set free; to make public; a release, setting free (the release of prisoners); a release, something made public (a press release)|v;v;o;o
 manage|to succeed in doing; to be in charge of|v;v
 stone|hard mineral matter; small rock|o;o
 la|(sung syllable) la|o
@@ -1058,7 +1058,7 @@ race|contest of speed; group of people by descent; to move fast|o;o;v
 battle|fight between armed forces|o
 laughter|sound of laughing|o
 mountain|very high hill|o
-wash|to clean with water|v
+wash|to clean with water; a wash; the wash, clothes being washed (in the wash)|v;o;o
 level|height or standard reached; flat and even|o;o
 whose|belonging to whom|o
 final|last, at the end; deciding match|o;o
@@ -1080,8 +1080,8 @@ summer|warmest season of the year|o
 magic|power to do the impossible; tricks that seem impossible|o;o
 dirty|not clean; rude, indecent|o;o
 colonel|senior army officer|o
-camp|place to stay in tents; to stay in one|o;v
-yell|to shout loudly|v
+camp|place to stay in tents; to stay in one; group on one side of an argument, a faction|o;v;o
+yell|to shout loudly; a yell|v;o
 holding|keeping in the hands; holding on: waiting, gripping|o;n
 remind|to make someone remember|v
 immediately|at once, without delay|o
@@ -1105,14 +1105,14 @@ er|(sound of hesitation)|g
 color|red, blue, green and the rest; to add colour to|o;v
 rid|get rid of: to free yourself from; to free from|n;v
 result|what follows from something; outcome of a test|o;o
-crap|(vulgar) rubbish, nonsense; excrement|o;o
+crap|(vulgar) rubbish, nonsense; (vulgar) excrement|o;o
 yo|(informal greeting or call for attention)|g
 grand|impressive, large in a fine way; thousand dollars (informal)|o;o
 sky|space above the earth|o
 warm|slightly hot; friendly|o;o
-piss|(vulgar) to urinate; pissed off: annoyed|v;n
+piss|(vulgar) to urinate; pissed off: annoyed (rude); (vulgar) urine, an act of urinating (take a piss); take the piss: (British, vulgar) to mock|v;n;o;n
 worst|least good of all|o
-shake|to move quickly to and fro|v
+shake|to move quickly to and fro; a shake (a shake of the head)|v;o
 aah|(cry of fear or pain)|g
 low|near the ground; small in amount; deep in sound|o;o;o
 challenge|hard task that tests you; to question, to dare|o;v
@@ -1130,7 +1130,7 @@ shh|(asking for silence)|g
 conversation|talk between people|o
 nervous|anxious, easily frightened|o
 themselves|(reflexive of they) their own selves|o
-hunt|to chase in order to kill or catch; to search for|v;v
+hunt|to chase in order to kill or catch; to search for; a hunt, a search|v;v;o
 hire|to pay someone to work; to pay to use for a time|v;v
 discuss|to talk about with others|v
 copy|thing made to be like another; to make one; single example of a book or paper|o;v;o
@@ -1138,7 +1138,7 @@ leader|person others follow|o
 rose|flower with thorns on its stem; rose, past of rise|o;o
 hadn|(in hadn't) negative form of had|o
 tape|strip of sticky material; recording; to record|o;o;v
-chase|to run after in order to catch|v
+chase|to run after in order to catch; a chase|v;o
 gas|substance like air; petrol (American)|o;o
 egg|oval object laid by a bird|o
 bone|hard piece of the skeleton|o
@@ -1154,7 +1154,7 @@ further|to a greater distance or degree; more, additional|o;o
 correct|right, with no mistakes; to put right|o;v
 otherwise|if not, or else; in other ways|o;o
 pray|to speak to God|v
-freak|strange person or thing; freak out: to lose control|o;n
+freak|strange person or thing; freak out: to lose control; very unusual and unexpected (a freak accident)|o;n;o
 awesome|very impressive, great (informal)|o
 monster|large frightening creature; cruel person|o;o
 prince|son of a king or queen|o
@@ -1174,14 +1174,14 @@ folk|people in general; ordinary people; traditional music|o;o;o
 nose|part of the face used for smelling|o
 target|thing aimed at; goal to reach|o;o
 driver|person who drives|o
-crash|to hit violently and be damaged; loud noise of breaking|v;o
+crash|to hit violently and be damaged; loud noise of breaking; accident in which a vehicle hits something (a car crash)|v;o;o
 plant|living thing that grows in soil; factory; to put in the ground|o;o;v
 bullet|small metal piece fired from a gun|o
 corner|point where two lines or streets meet|o
 energy|power to do work; liveliness|o;o
 guilty|having done wrong; feeling at fault|o;o
 apart|separated, away from each other; apart from: except for|o;n
-bunch|group of things held or growing together|o
+bunch|group of things held or growing together; a bunch of: (informal) a lot of|o;n
 empty|holding nothing; to take everything out of|o;v
 writing|words put on paper|o
 danger|chance of harm|o
@@ -1204,7 +1204,7 @@ indeed|really, in fact|o
 wild|living in nature, not tamed; uncontrolled|o;o
 fellow|man, chap; belonging to the same group|o;o
 refuse|to say no to|v
-claim|to say something is true; to demand as yours|v;v
+claim|to say something is true; to demand as yours; a claim, a statement that something is true; a claim, a demand, a right (a claim to the throne)|v;v;o;o
 character|nature of a person; person in a story; letter or sign|o;o;o
 opportunity|chance to do something good|o
 apologize|to say sorry|v
@@ -1261,7 +1261,7 @@ bottom|lowest part; buttocks|o;o
 closer|nearer|o
 damage|harm done to something; to harm|o;v
 shooting|firing a gun; killing by gunfire|o;o
-bite|to cut with the teeth|v
+bite|to cut with the teeth; a bite, a mouthful (have a bite); a bite, a wound from teeth or a sting|v;o;o
 approach|to come near to; way of dealing with something|v;o
 interview|meeting where someone is questioned; to question in this way|o;v
 nature|the physical world of plants and animals; character of a person|o;o
@@ -1305,10 +1305,9 @@ chair|seat for one person with a back; person in charge of a meeting|o;o
 plenty|as much as is needed and more|o
 page|one side of a sheet in a book|o
 excellent|extremely good|o
-asshole|(vulgar) contemptible person; anus|o;o
+asshole|(vulgar) contemptible person; (vulgar) anus|o;o
 bless|to ask God's favour for; bless you: polite word said after a sneeze|v;n
 fuckin|(vulgar) = fucking, used for emphasis|o
-unite|to join together|v
 responsible|having the duty for; being the cause of; sensible|o;o;o
 justice|fair treatment; the law and its courts|o;o
 military|to do with soldiers and war; the armed forces|o;o
@@ -1316,7 +1315,7 @@ main|chief, most important|o
 hill|raised piece of ground, lower than a mountain|o
 request|to ask for politely; polite asking|v;o
 whoever|any person who|o
-post|job or position; mail; upright pole; to send by mail|o;o;o;v
+post|job or position; mail; upright pole; to send by mail; to put online (post a photo)|o;o;o;v;v
 minister|head of a government department; church leader|o;o
 bridge|structure carrying a road over water|o
 bullshit|(vulgar) nonsense, lies; (vulgar) to bullshit, to lie to|o;v
@@ -1327,7 +1326,7 @@ although|though, in spite of the fact that|o
 rob|to take from by force or threat|v
 breath|air taken into the lungs|o
 lesson|period of teaching; something learned from experience|o;o
-dick|(vulgar) penis; contemptible man|o;o
+dick|(vulgar) penis; (vulgar) contemptible man|o;o
 market|place where goods are sold; demand for goods|o;o
 career|working life in one line of work|o
 emergency|sudden danger needing action at once|o
@@ -1361,7 +1360,7 @@ advice|opinion on what someone should do|o
 dump|to drop and leave behind; place for rubbish; to end a relationship with|v;o;v
 noise|loud or unwanted sound|o
 term|word for something; period of time; condition of an agreement; in terms of: regarding|o;o;o;n
-whisper|to speak very quietly|v
+whisper|to speak very quietly; a whisper|v;o
 rush|to hurry; sudden movement of many people|v;o
 nor|and not|o
 drag|to pull along the ground; something boring (informal)|v;o
@@ -1390,7 +1389,7 @@ thief|person who steals|o
 rent|money paid to use a home; to pay or take this|o;v
 century|100 years|o
 credit|praise for what you did; buying now and paying later|o;o
-spread|to open out; to reach more places|v;v
+spread|to open out; to reach more places; spread, spreading (the spread of a disease)|v;v;o
 super|excellent; very (informal)|o;o
 research|careful study to find out facts|o
 warn|to tell of a danger ahead|v
@@ -1444,7 +1443,7 @@ prisoner|person kept locked up|o
 earn|to get by working; to deserve|v;v
 nonsense|words or behaviour with no sense|o
 whistle|high sound made by blowing; to make it; a whistle, the small instrument blown to make it|o;v;o
-mix|to put together into one; to combine; mix up: to confuse (one thing with another)|v;v;n
+mix|to put together into one; to combine; mix up: to confuse (one thing with another); a mix, a mixture|v;v;n;o
 contract|written agreement; to make smaller or tighter|o;v
 original|first, earliest; new and not copied|o;o
 confuse|to make unclear; to mistake one for another|v;v
@@ -1452,6 +1451,7 @@ process|series of steps; to deal with in steps|o;v
 training|teaching of a skill; exercise to get fit|o;o
 weak|not strong|o
 audience|people watching or listening|o
+united|united, joined together (the United States, the United Nations); united, past of unite|o;o
 incredible|too strange to believe; amazing|o;o
 grandpa|grandfather (informal)|o
 gang|organised group of criminals; group of friends|o;o
@@ -1463,7 +1463,7 @@ honestly|in a truthful way; (as emphasis) really|o;o
 bro|brother, mate (informal)|o
 image|picture; way something is seen by others|o;o
 society|people living together; club or group|o;o
-spare|extra, kept for need; to give up; to save from harm|o;v;v
+spare|extra, kept for need; to be able to give (time, money); to save from harm|o;v;v
 breathing|taking air in and out|o
 repeat|to say or do again|v
 sweetie|dear, love (used in speaking to someone)|o
@@ -1485,7 +1485,7 @@ poison|substance that kills or harms if taken in|o
 roger|(on radio) message received|o
 customer|person who buys from a shop|o
 universe|everything that exists in space|o
-meaning|what a word or act stands for|o
+meaning|what a word or act stands for; meaning, -ing form of mean|o;o
 bright|giving much light; clever; strong in colour|o;o;o
 indian|of India; of the native peoples of America (dated, often offensive)|o;o
 dr|Dr., short for Doctor|o
@@ -1569,7 +1569,7 @@ arrange|to put in order; to make plans for|v;v
 mister|Mr., form of address for a man|o
 ancient|of times long past; very old|o;o
 value|worth in money or use; to think highly of|o;v
-cough|to push air out of the throat with a sharp sound|v
+cough|to push air out of the throat with a sharp sound; a cough|v;o
 direct|straight, with nothing in between; to guide or manage|o;v
 lake|large area of water with land all round|o
 co|Co., short for Company|o
@@ -1602,7 +1602,7 @@ handsome|good-looking, said of a man|o
 mayor|head of a town council|o
 indistinct|(subtitle note) too unclear to make out|o
 deny|to say something is not true; to refuse to give|v;v
-site|place where something is or is built|o
+site|place where something is or is built; website|o;o
 require|to need; to demand as a rule|v;v
 supply|to provide; amount available|v;o
 knee|joint in the middle of the leg|o
@@ -1611,7 +1611,7 @@ official|approved by those in charge; person holding office|o;o
 trace|slight sign left behind; to find by following signs|o;v
 growl|low angry sound made by an animal|o
 lower|further down; to let down|o;v
-struggle|to fight or try hard against difficulty|v
+struggle|to fight or try hard against difficulty; a struggle|v;o
 square|shape with four equal sides; open space in a town|o;o
 bike|bicycle or motorcycle|o
 weather|state of the air, wet, dry, hot or cold|o
@@ -1636,7 +1636,7 @@ borrow|to take for a time and give back|v
 slowly|at a low speed, not quickly|o
 spanish|of Spain; the Spanish language|o;o
 journey|act of travelling from one place to another|o
-transfer|to move from one place or person to another|v
+transfer|to move from one place or person to another; a transfer|v;o
 ocean|one of the great seas of the world|o
 sugar|sweet substance used in food|o
 map|drawing of an area seen from above|o
@@ -1646,7 +1646,7 @@ excite|to stir up feeling in|v
 shoulder|joint where the arm meets the body|o
 liar|person who tells lies|o
 easily|with no difficulty|o
-rescue|to save from danger|v
+rescue|to save from danger; a rescue|v;o
 intend|to mean to do|v
 insane|mad, not sane|o
 wet|covered or soaked with liquid|o
@@ -1699,7 +1699,7 @@ showing|letting be seen; screening of a film|o;o
 insist|to say firmly and keep saying|v
 develop|to grow or make grow; to build on land|v;v
 circle|round flat shape; group of friends|o;o
-secretary|person who types and arranges a manager's work; head of a department|o;o
+secretary|person who types and arranges a manager's work; head of a government department, a minister|o;o
 newspaper|printed sheets of news sold daily|o
 genius|person of very great ability|o
 bark|sharp sound a dog makes; outer covering of a tree|o;o
@@ -1721,7 +1721,7 @@ sudden|happening quickly and without warning|o
 bleep|(short high tone covering a rude word)|g
 defense|protecting against attack; case made for the accused|o;o
 period|length of time; monthly bleeding; full stop|o;o;o
-accuse|to say someone has done wrong|v
+accuse|to say someone has done wrong; the accused: the person charged with a crime|v;n
 vehicle|thing that carries people or goods on roads|o
 effort|hard work put into something; attempt|o;o
 bug|insect; fault in a program; hidden listening device; to annoy|o;o;o;v
@@ -1743,7 +1743,7 @@ barely|only just, with nothing to spare|o
 diamond|very hard clear precious stone|o
 engage|to involve, to attract and hold (attention); to take on for work; engage in: to take part in; engage with: to deal with|v;v;n;n
 disease|illness (of people, animals or plants)|o
-sob|to cry with catching breath|v
+sob|to cry with catching breath; a sob|v;o
 betray|to be false to someone who trusts you|v
 yard|ground beside a building; unit of length, 0.9 m|o;o
 goin|going (informal spelling)|o
@@ -1784,7 +1784,7 @@ chocolate|sweet brown food made from cocoa|o
 royal|of a king or queen|o
 expert|person who knows a subject deeply|o
 text|written words; message sent by phone; to text, to send a message by phone|o;o;v
-capture|to take prisoner, to catch|v
+capture|to take prisoner, to catch; capture, catching (the capture of the city)|v;o
 witch|woman said to have magic powers|o
 honour|honour, British spelling of honor|o
 chick|young bird; (informal, often offensive) young woman|o;o
@@ -1843,7 +1843,7 @@ pilot|person who flies an aircraft|o
 delicious|very good to taste|o
 proper|right and suitable; real, full|o;o
 defeat|to beat in a fight or contest; loss of a contest|v;o
-hug|to hold close in the arms|v
+hug|to hold close in the arms; a hug|v;o
 swim|to move through water|v
 lad|boy, young man (British)|o
 advantage|thing that puts you ahead; take advantage of: to use (a chance), to exploit|o;n
@@ -1883,7 +1883,7 @@ treatment|care given to an illness; way of behaving towards|o;o
 useless|of no use; hopeless at something|o;o
 pour|to make liquid flow; to rain hard|v;v
 clever|quick to learn and think|o
-nerve|fibre carrying feeling in the body; courage; cheek|o;o;o
+nerve|fibre carrying feeling in the body; courage; impudence, rudeness (the nerve to ask)|o;o;o
 apple|round firm fruit with red or green skin|o
 performance|acting or playing before an audience; how well something works|o;o
 changing|becoming different|o
@@ -1976,7 +1976,7 @@ candy|sweets (American)|o
 pride|pleasure in what you have done; too high an opinion of yourself|o;o
 heh|(short laugh)|g
 toast|browned slices of bread; words said before drinking together|o;o
-flow|to move steadily like water|v
+flow|to move steadily like water; a flow|v;o
 insult|to say something rude and hurtful; rude remark|v;o
 suffering|pain or hardship borne|o
 section|part cut off or marked out|o
@@ -2017,7 +2017,7 @@ express|to put into words; fast train or service|v;o
 capable|able to do something; skilled|o;o
 progress|movement forward; improvement|o;o
 zone|area marked off for a purpose|o
-literally|word for word, really and not as a figure of speech|o
+literally|really, not as a figure of speech; word for word|o;o
 junior|younger, lower in rank|o
 deeply|far down; very strongly|o;o
 bull|male of cattle|o
@@ -2105,7 +2105,7 @@ frame|border round a picture; structure holding a thing together; to make someon
 propose|to put forward an idea; to ask someone to marry you|v;v
 april|fourth month of the year|o
 string|thin cord; wire on a musical instrument|o;o
-launch|to send off; to start something new|v;v
+launch|to send off; to start something new; a launch|v;v;o
 precious|worth much; much loved|o;o
 youth|time of being young; young man|o;o
 negative|saying no; not hopeful; showing something is absent|o;o;o
@@ -2156,7 +2156,7 @@ thy|(old) your|o
 friendly|kind and pleasant towards others|o
 estate|land and house of one owner; property left at death|o;o
 robbery|taking by force or threat|o
-spit|to force liquid from the mouth|v
+spit|to force liquid from the mouth; spit, saliva; a spit, a rod for roasting meat|v;o;o
 cave|hollow space in a hill or under ground|o
 cock|(vulgar) penis; male bird|o;o
 alert|watchful, quick to notice; warning of danger|o;o
@@ -2166,7 +2166,7 @@ salt|white substance used to flavour food|o
 expose|to uncover; to make a secret known|v;v
 flag|cloth with a country's colours on it; to flag, to mark for attention|o;v
 policy|plan of action of a government or firm; insurance contract|o;o
-slap|to hit with the open hand|v
+slap|to hit with the open hand; a slap|v;o
 maid|woman servant|o
 pa|father (informal)|o
 thunder|loud noise heard after lightning|o
@@ -2308,7 +2308,7 @@ orange|round juicy fruit; its colour|o;o
 chamber|room used for a purpose; enclosed space|o;o
 flesh|soft part of the body between skin and bone|o
 highly|very, to a great degree|o
-bud|flower before it opens; mate (informal)|o;o
+bud|flower before it opens; friend, pal (informal)|o;o
 hostage|person held until demands are met|o
 federal|of a central government over several states|o
 bail|money paid so an accused person can go free|o
@@ -2376,7 +2376,7 @@ crystal|clear glass-like mineral; regular solid form of a substance|o;o
 impressive|good enough to be admired|o
 bee|flying insect that makes honey|o
 pitch|sports field; how high or low a sound is; to throw; to sell an idea|o;o;v;v
-pussy|(vulgar) female sex organs; cat (child's word)|o;o
+pussy|(vulgar) female sex organs; cat (child's word); (vulgar) coward, weak man|o;o;o
 adventure|exciting and risky experience|o
 deck|floor of a ship; pack of cards|o;o
 attract|to draw towards; to make someone interested|v;v
@@ -2463,7 +2463,7 @@ occasion|time when something happens; special event|o;o
 passenger|person carried in a vehicle|o
 exhaust|to tire out completely; waste gases from an engine|v;o
 producer|person or company that makes goods; person who runs the making of a film or show|o;o
-slide|to move smoothly over a surface|v
+slide|to move smoothly over a surface; a slide, a decline (a slide into war); a slide (in a playground, in a presentation)|v;o;o
 division|dividing into parts; disagreement; army unit|o;o;o
 refer|(refer to) to speak of; to send on to someone else|v;v
 fox|wild animal like a small dog with a bushy tail|o
@@ -2509,7 +2509,7 @@ flee|to run away from danger|v
 improve|to make or get better|v
 shelter|place giving cover from danger or weather|o
 tend|to be likely to; to look after|v;v
-collapse|to fall down suddenly; to fail completely|v;v
+collapse|to fall down suddenly; to fail completely; a collapse, a sudden fall or failure|v;v;o
 ad|advertisement|o
 passport|document allowing you to travel abroad|o
 bush|low woody plant; wild uncleared country|o;o
@@ -2538,7 +2538,7 @@ depress|to make sad; to press down|v;v
 toe|one of the five parts at the end of the foot|o
 commissioner|senior official in charge of a service|o
 confession|admitting to a wrong|o
-trunk|main stem of a tree; large travelling case; elephant's nose|o;o;o
+trunk|main stem of a tree; large travelling case; elephant's nose; space at the back of a car for luggage (American; British boot)|o;o;o;o
 stable|steady, not likely to change; building for horses|o;o
 terribly|very, extremely; very badly|o;o
 bum|buttocks (British); tramp (American)|o;o
@@ -2583,7 +2583,7 @@ fetch|to go and bring back|v
 yup|yup, another spelling of yep|o
 rocket|tube that flies by shooting out burning gases|o
 purse|small bag for money; handbag (American)|o;o
-scale|size or extent; series of marks for measuring; small plate on a fish|o;o;o
+scale|size or extent; series of marks for measuring; small plate on a fish; device for weighing (bathroom scales)|o;o;o;o
 pile|heap of things one on another; to heap up|o;v
 organization|body of people working together; putting in order|o;o
 hop|to jump on one leg; to jump lightly|v;v
@@ -2600,7 +2600,7 @@ ding|(light ringing sound)|g
 poem|piece of writing in verse|o
 pole|long rounded piece of wood or metal; either end of the earth's axis|o;o
 gentle|kind and careful, not rough|o
-meter|device that measures use of gas or power; unit of length (American)|o;o
+meter|unit of length, 100 cm; device that measures use of gas or power|o;o
 personality|nature that makes one person different from another; famous person|o;o
 advise|to tell someone what you think they should do|v
 injure|to hurt the body of|v
@@ -2687,7 +2687,7 @@ frankly|openly and honestly|o
 festival|time of public celebration|o
 pulse|beat of blood felt at the wrist|o
 average|usual amount or level; ordinary|o;o
-pat|to touch gently with the flat hand|v
+pat|to touch gently with the flat hand; a pat (a pat on the back)|v;o
 everyday|ordinary, of every day|o
 generous|glad to give; larger than usual|o;o
 indicate|to point to; to show|v;v
@@ -2734,7 +2734,7 @@ judgment|decision of a court; ability to decide well|o;o
 seed|small grain from which a plant grows|o
 compromise|agreement where each side gives way; to put at risk|o;v
 bake|to cook in an oven|v
-boil|to heat a liquid until it bubbles|v
+boil|to heat a liquid until it bubbles; boiling point (bring to the boil)|v;o
 appearance|way someone looks; coming into sight|o;o
 feature|part of the face; noticeable part of something|o;o
 foster|to bring up a child not your own; to help grow|v;v
@@ -2768,7 +2768,7 @@ humiliate|to shame in front of others|v
 pro|professional; argument in favour|o;o
 react|to act in answer to something|v
 minor|smaller, less important; person under age|o;o
-burst|to break open suddenly; burst into: to begin suddenly (tears, laughter), to enter suddenly; burst out: to begin suddenly (laughing, crying), to exclaim|v;n;n
+burst|to break open suddenly; burst into: to begin suddenly (tears, laughter), to enter suddenly; burst out: to begin suddenly (laughing, crying), to exclaim; a burst (a burst of anger)|v;n;n;o
 shore|land along the edge of the sea|o
 officially|by those in charge, formally|o
 superior|better or higher in rank; person above you at work|o;o
@@ -2801,7 +2801,7 @@ native|born in a place; belonging naturally|o;o
 cable|thick rope or wire; message sent by wire|o;o
 prick|(vulgar) contemptible man; (vulgar) penis; to make a small hole in|o;o;v
 vanish|to go out of sight suddenly|v
-con|to trick someone out of money; convict (informal)|v;o
+con|to trick someone out of money; convict (informal); argument against (pros and cons)|v;o;o
 unlike|different from; not typical of|o;o
 relation|connection between things; member of the family|o;o
 convict|to find guilty in court; person serving a sentence|v;o
@@ -2811,7 +2811,7 @@ kit|set of tools or parts for a job|o
 steak|thick slice of meat|o
 thus|in this way; therefore|o;o
 await|to wait for|v
-divide|to split into parts; to share out|v;v
+divide|to split into parts; to share out; a divide, a split, a gap (the urban-rural divide)|v;v;o
 swell|to grow bigger; slow rise and fall of the sea|v;o
 instinct|natural feeling that guides how you act|o
 cowboy|man who herds cattle on horseback|o
@@ -2875,7 +2875,7 @@ privilege|special right or honour given to some|o
 publish|to bring out a book or paper for sale|v
 farewell|(said when parting) goodbye|o
 raid|sudden attack or police visit; to make one|o;v
-weed|wild plant growing where it is not wanted; marijuana (informal)|o;o
+weed|wild plant growing where it is not wanted; marijuana (informal); to remove weeds from; weed out: to remove (unwanted people or things)|o;o;v;n
 chirp|(short high sound of a bird)|g
 satellite|body sent into space to circle the earth; moon of a planet|o;o
 deposit|money paid as a first part; to put down or place in a bank|o;v
@@ -2905,7 +2905,7 @@ rely|to depend, to trust; rely on: to trust and depend on|v;n
 fulfill|to carry out a promise; to satisfy a need|v;v
 sync|matching in time; to make match in time|o;v
 missile|weapon sent through the air at a target|o
-dine|to eat dinner|v
+dine|to eat dinner; dining room: room where meals are eaten|v;n
 curtain|cloth hung over a window or stage|o
 humanity|people as a whole; kindness to others|o;o
 reverse|to go backwards; the opposite|v;o
@@ -2934,7 +2934,7 @@ necklace|chain or beads worn round the neck|o
 conflict|serious disagreement; fighting|o;o
 journalist|person who writes for papers or news programmes|o
 vessel|ship; container for liquid; tube carrying blood|o;o;o
-embrace|to hold in the arms; to take up gladly|v;v
+embrace|to hold in the arms; to take up gladly; an embrace|v;v;o
 twelve|12|o
 corn|grain crop; maize (American)|o;o
 quote|to repeat someone's exact words; price offered for a job|v;o
@@ -3072,7 +3072,7 @@ wagon|open cart pulled by horses; railway truck|o;o
 sailor|person who works on a ship|o
 helpful|giving useful help|o
 bloke|man, fellow (British)|o
-worship|to pray to and honour God; to admire greatly|v;v
+worship|to pray to and honour God; to admire greatly; worship, praying and honouring (a place of worship); your worship: sir (old title of respect)|v;v;o;n
 clan|group of families with one ancestor|o
 dressing|sauce for salad; bandage for a wound|o;o
 supper|last meal of the day|o
@@ -3162,7 +3162,7 @@ chin|part of the face below the mouth|o
 appropriate|right for the occasion; to take for your own use|o;v
 chime|(ringing sound of a bell)|g
 fist|hand closed tight|o
-broad|wide; general, not detailed|o;o
+broad|wide; general, not detailed; woman (dated American slang, offensive)|o;o;o
 wealth|large amount of money and property|o
 fond|fond of: liking; loving, affectionate|n;o
 bunny|rabbit (child's word)|o
@@ -3194,7 +3194,7 @@ ram|male sheep; to hit or push with force|o;v
 counter|surface where you are served in a shop; to act against|o;v
 covering|layer put over something|o
 ditch|long narrow channel dug for water; to get rid of|o;v
-cart|open vehicle pulled by an animal|o
+cart|open vehicle pulled by an animal; small vehicle pushed by hand (a shopping cart)|o;o
 teenager|person between 13 and 19|o
 recruit|to take on new members; new member|v;o
 raw|not cooked; in its natural state; sore|o;o;o
@@ -3205,7 +3205,7 @@ conquer|to defeat and take control of|v
 catching|(of illness) passing easily to others|o
 budget|plan of money to be spent; cheap|o;o
 phase|stage in a course of change|o
-shrink|to get smaller; to draw back in fear|v;v
+shrink|to get smaller; to draw back in fear; psychiatrist (informal)|v;v;o
 remarkable|worth taking notice of, out of the ordinary|o
 cooperate|to work together willingly|v
 disguise|to change the look of so as not to be known; clothes worn to do this|v;o
@@ -3226,7 +3226,7 @@ reception|welcome given; party for guests; desk where visitors arrive|o;o;o
 ritual|set of acts always done the same way|o
 barn|large farm building for crops and animals|o
 currently|at the present time|o
-rumbling|(deep rolling sound like thunder)|g
+rumbling|(deep rolling sound like thunder); rumbling, making a deep rolling sound; rumbling, continuing as low discontent (doubts rumbling for years)|g;o;o
 stream|small river; steady flow|o;o
 shooter|person who fires a gun|o
 scheme|plan, especially a clever or dishonest one|o
@@ -3264,7 +3264,7 @@ rap|music with spoken rhyming words; sharp quick knock|o;o
 booze|alcoholic drink (informal)|o
 racing|contest of speed as a sport|o
 flirt|to behave playfully as if attracted to someone|v
-clothe|to put clothes on, to provide clothes for|v
+clothe|to put clothes on, to provide clothes for; clothing: clothes|v;n
 freezing|very cold; turning to ice|o;o
 suspend|to hang up; to stop for a time; to bar for a time|v;v;v
 pierce|to make a hole through|v
@@ -3381,7 +3381,7 @@ irish|of Ireland|o
 nanny|woman paid to look after children|o
 october|tenth month of the year|o
 scandal|action that shocks people; talk about it|o;o
-chart|sheet showing figures or a map of the sea|o
+chart|sheet showing figures, graph; map of the sea|o;o
 euro|unit of money used in much of Europe|o
 amongst|among, in the middle of|o
 persuade|to talk someone into doing or believing|v
@@ -3414,7 +3414,7 @@ bait|food put out to catch fish or animals; to tempt|o;v
 sniffle|to draw air noisily through a blocked nose|v
 sting|to prick with a sharp poisoned point; sharp burning pain|v;o
 tomato|soft round red fruit eaten in salads|o
-murmur|to speak in a low soft voice|v
+murmur|to speak in a low soft voice; a murmur|v;o
 northern|of or from the north|o
 nowadays|at the present time, unlike before|o
 drift|to be carried along by water or air; to move with no aim|v;v
@@ -3470,9 +3470,9 @@ smack|to hit with the flat hand; sharp sound of such a blow|v;o
 draft|first rough version; calling up for military service|o;o
 ham|salted meat from a pig's leg|o
 poster|large printed sheet put up on a wall|o
-resolve|to settle a problem; to decide firmly|v;v
+resolve|to settle a problem; to decide firmly; resolve, determination|v;v;o
 pad|soft flat piece of material; block of paper sheets|o;o
-fold|to bend one part over another|v
+fold|to bend one part over another; a fold, a crease|v;o
 absurd|so unreasonable it is laughable|o
 villain|wicked person; bad character in a story|o;o
 unlock|to open with a key|v
@@ -3489,7 +3489,7 @@ receipt|paper showing that money has been paid|o
 overcome|to get the better of; to be overpowered by feeling|v;v
 theft|crime of stealing|o
 adore|to love deeply; to like very much|v;v
-cleaner|person or substance that cleans|o
+cleaner|person or substance that cleans; cleaner, more clean|o;o
 frustrate|to stop someone getting what they want|v
 feast|large fine meal for many people|o
 cabinet|cupboard with shelves; group of chief ministers|o;o
@@ -3727,7 +3727,7 @@ harbor|sheltered water where ships lie; to give shelter to|o;v
 breach|breaking of a rule or agreement; gap made in a wall|o;o
 gesture|movement of the hand or head; act showing feeling|o;o
 pledge|solemn promise; to promise solemnly|o;v
-moan|to make a low sound of pain; to complain|v;v
+moan|to make a low sound of pain; to complain; a moan|v;v;o
 gathering|meeting of people|o
 gag|to stop the mouth so no sound comes; joke|v;o
 ahem|(sound made to get attention)|g
@@ -3779,7 +3779,7 @@ repay|to pay back|v
 sustain|to keep going; to suffer harm|v;v
 auction|sale where things go to the highest bidder|o
 knot|fastening made by tying; speed of one sea mile an hour|o;o
-forge|to make a false copy of; to shape metal by heating|v;v
+forge|to make a false copy of; to shape metal by heating; a forge, a blacksmith's workshop|v;v;o
 condemn|to say strongly that something is wrong; to sentence|v;v
 ms|Ms., title for a woman that does not show whether she is married|o
 corporate|of a large business|o
@@ -4053,7 +4053,7 @@ violet|small purple flower; bluish purple|o;o
 mushroom|soft fungus eaten as food; to grow very fast|o;v
 observation|watching closely; remark made|o;o
 underestimate|to think something smaller or weaker than it is|v
-dispatch|to send off; to deal with quickly|v;v
+dispatch|to send off; to deal with quickly; a dispatch, an official message or report|v;v;o
 generally|usually; by most people; in a broad way|o;o;o
 cloth|woven material; piece of it for cleaning|o;o
 secretly|without others knowing|o
@@ -4100,7 +4100,7 @@ grain|seed of a food plant; tiny hard piece; pattern of lines in wood|o;o;o
 tasty|pleasant to eat|o
 mademoiselle|Mademoiselle, French form of address for an unmarried woman|o
 asian|of Asia|o
-blink|to shut and open the eyes quickly|v
+blink|to shut and open the eyes quickly; a blink (in the blink of an eye)|v;o
 presume|to take as true without proof; to be so bold as to|v;v
 pregnancy|time when a woman is carrying a child|o
 carrot|long orange root eaten as a vegetable|o
@@ -4307,7 +4307,7 @@ ivy|climbing plant with dark shiny leaves|o
 fabric|cloth; structure holding something together|o;o
 accountant|person who keeps money records|o
 reign|rule of a king or queen; to rule|o;v
-sip|to drink in small mouthfuls|v
+sip|to drink in small mouthfuls; a sip|v;o
 sniper|person who shoots from a hidden position|o
 ha-ha|(sound of laughter)|g
 unlikely|not to be expected; hard to believe|o;o
@@ -4359,7 +4359,7 @@ intern|trainee doing a job to learn; to shut up in a camp|o;v
 errand|short journey to fetch or deliver|o
 countess|wife of an earl or count; woman of that rank|o;o
 whew|(sound of relief)|g
-decline|to refuse politely; to fall in number or strength|v;v
+decline|to refuse politely; to fall in number or strength; a decline, a fall (a decline in prices)|v;v;o
 immortal|living for ever; never forgotten|o;o
 font|style and size of printed letters|o
 venture|risky undertaking; to dare to go or say|o;v
@@ -4472,7 +4472,7 @@ evolution|slow development of living things over time|o
 notion|idea, vague belief|o
 blond|fair-haired, said of a man|o
 injection|putting of medicine into the body with a needle|o
-grasp|to take firm hold of; to understand|v;v
+grasp|to take firm hold of; to understand; a grasp, a firm hold; grasp, understanding (a good grasp of English)|v;v;o;o
 horny|(informal) sexually aroused|o
 suitable|right for the purpose or occasion|o
 examination|close look at something; test of knowledge|o;o
@@ -4633,7 +4633,7 @@ moonlight|light of the moon|o
 comet|body in space with a bright tail|o
 granddaughter|daughter of your son or daughter|o
 lira|former unit of money in Italy; unit of money in Turkey|o;o
-gaze|to look long and steadily|v
+gaze|to look long and steadily; a gaze, a long steady look|v;o
 digital|shown in numbers; storing data as numbers|o;o
 attic|room in the roof of a house|o
 jr|Jr., the younger, put after a son's name|o
@@ -4660,7 +4660,7 @@ junkie|drug addict (informal, derogatory); person hooked on something (an adrena
 tutor|teacher who works with one pupil or a few|o
 lifestyle|way a person lives|o
 'it|(misprint of it) it|f3s
-manufacture|to make goods in large amounts|v
+manufacture|to make goods in large amounts; manufacture, the making of goods|v;o
 sinner|person who does wrong against religious law|o
 cracker|thin dry biscuit; paper tube pulled at Christmas|o;o
 interior|inside part; inland|o;o
@@ -4668,6 +4668,7 @@ physician|doctor of medicine|o
 chapel|small church or place of worship|o
 desperately|in a way that shows there is no hope; very badly|o;o
 riddle|puzzling question asked for fun|o
+unite|to join together|v
 nazis|Nazis, Hitler's party and its members|o
 hose|long tube for carrying water|o
 fragment|small piece broken off|o
@@ -4736,7 +4737,7 @@ forensics|scientific tests used to solve crimes|o
 refresh|to make fresh again; to bring up to date|v;v
 outcome|way something turns out|o
 verify|to check that something is true|v
-dove|bird like a small pigeon, a sign of peace; dove, past of dive (American)|o;o
+dove|bird like a small pigeon, a sign of peace; dove, past of dive (American); person who favours peace or a soft policy, opposite of a hawk|o;o;o
 carrier|person or thing that carries; ship for aircraft|o;o
 postpone|to put off to a later time|v
 voyage|long journey by sea or in space|o
@@ -4901,7 +4902,7 @@ info|information (informal)|o
 mold|furry growth on old food; hollow shape metal is poured into|o;o
 motherfuckers|(vulgar) despicable people|o
 artificial|made by people, not natural; not sincere|o;o
-sparkle|to shine with small flashes of light|v
+sparkle|to shine with small flashes of light; a sparkle|v;o
 utter|complete, absolute; to say|o;v
 instructor|person who teaches a skill|o
 detention|being kept in custody; being kept in after school|o;o
@@ -4992,7 +4993,7 @@ hitch|to fasten with a hook or rope; small problem that holds things up|v;o
 waltz|slow dance in three-time|o
 betrayal|being false to someone who trusts you|o
 bunk|narrow bed fixed to a wall; nonsense|o;o
-nod|to move the head down and up in agreement|v
+nod|to move the head down and up in agreement; a nod|v;o
 doe|female deer or rabbit|o
 forensic|using science to solve crimes; of the courts|o;o
 backpack|bag carried on the back|o
@@ -5191,7 +5192,7 @@ category|group of things of the same kind|o
 flare|sudden bright flame; light fired as a signal|o;o
 potion|drink with magic or medicine in it|o
 barber|man who cuts men's hair|o
-wink|to close and open one eye as a signal|v
+wink|to close and open one eye as a signal; a wink|v;o
 atomic|of atoms; using nuclear power|o;o
 neighbourhood|neighbourhood, British spelling of neighborhood|o
 immigrant|person who comes to live in a new country|o
@@ -5220,7 +5221,7 @@ perish|to die; to rot away|v;v
 adoption|taking another's child as your own; taking up of an idea|o;o
 lighten|to make less heavy or less dark|v
 jackass|(informal) stupid person; male donkey|o;o
-revolt|to rise against those in power; to disgust|v;v
+revolt|to rise against those in power; to disgust; a revolt, an uprising|v;v;o
 cheerful|happy and bright in manner|o
 acceptable|good enough to be agreed to|o
 clamor|(loud confused shouting)|g
@@ -5256,7 +5257,7 @@ compartment|separate part of a container or railway carriage|o
 ruthless|showing no pity|o
 crappy|(vulgar) very poor, worthless|o
 scold|to tell off angrily|v
-stocking|close-fitting covering for the leg|o
+stocking|close-fitting covering for the leg; stocking, filling with goods (stocking the shelves)|o;o
 cant|(misprint of can't) cannot|o
 sh|(asking for silence)|g
 brothel|house where prostitutes work|o
@@ -5321,7 +5322,7 @@ enable|to make able or possible|v
 tribute|words or acts showing respect; payment made by a beaten people|o;o
 aspirin|common medicine for pain and fever|o
 cheerleader|girl who leads cheers for a team|o
-thrust|to push hard and suddenly|v
+thrust|to push hard and suddenly; a thrust, a hard push; thrust, driving force (of an engine)|v;o;o
 liberal|open to new ideas, tolerant; generous|o;o
 cuban|of Cuba|o
 plumber|person who fits and mends water pipes|o
@@ -5372,7 +5373,7 @@ irrelevant|having nothing to do with the matter|o
 poppy|red wild flower with a black centre|o
 thorn|sharp point on a plant stem|o
 carpenter|person who makes things from wood|o
-blush|to go red in the face from shame|v
+blush|to go red in the face from shame; a blush|v;o
 disciple|close follower of a teacher or belief|o
 perfection|state of being perfect|o
 abort|to stop before the end; to end a pregnancy|v;v
@@ -5532,7 +5533,7 @@ strangely|oddly, in a way hard to explain|o
 wrinkle|small line or fold in the skin or cloth|o
 'er|(in speech) her|o
 batch|number of things made or dealt with together|o
-bind|to tie up; to hold together|v;v
+bind|to tie up; to hold together; a bind, a difficult situation (in a bind)|v;v;o
 handkerchief|small square of cloth for wiping the nose|o
 flashlight|small hand light with a battery (American)|o
 authentic|genuine, really what it claims to be|o
@@ -5628,7 +5629,7 @@ restrict|to keep within limits|v
 fiber|thin thread; rough part of food that helps digestion|o;o
 runaway|person who has run away; out of control|o;o
 sow|to put seed in the ground; female pig|v;o
-clapping|(sound of hands struck together)|g
+clapping|(sound of hands struck together); clapping, -ing form of clap|g;o
 psychiatric|to do with treating illness of the mind|o
 compensation|money paid to make up for loss or harm|o
 roughly|about, not exactly; not gently|o;o
@@ -5806,7 +5807,7 @@ bbc|BBC, the British broadcasting service|o
 hull|body of a ship; outer covering of a seed|o;o
 raft|flat floating platform of logs or boards|o
 moose|large deer of North America with broad antlers|o
-caress|to touch gently and lovingly|v
+caress|to touch gently and lovingly; a caress|v;o
 scroll|roll of paper for writing; to move text up a screen|o;v
 mercury|silver liquid metal; planet nearest the sun|o;o
 revive|to bring back to life or use|v
@@ -5908,7 +5909,7 @@ gestapo|secret police of Nazi Germany|o
 trim|to cut a little off to tidy; neat and in order|v;o
 intrude|to come in where you are not wanted|v
 knuckle|joint of a finger|o
-coo|(soft low sound of a dove); to speak softly and lovingly|g;v
+coo|(soft low sound of a dove); to speak softly and lovingly; COO, chief operating officer|g;v;o
 supportive|giving help and encouragement|o
 cuddle|to hold close in the arms lovingly|v
 deprive|to keep someone from having what they need|v
@@ -6515,7 +6516,7 @@ homecoming|returning home|o
 swelling|part of the body grown larger through injury|o
 knob|round handle; small rounded lump|o;o
 crumb|tiny piece of bread or cake|o
-grin|to smile broadly|v
+grin|to smile broadly; a grin|v;o
 masturbate|to give yourself sexual pleasure by hand|v
 christianity|religion based on the teaching of Christ|o
 breakup|end of a relationship; breaking into pieces|o;o
@@ -6627,7 +6628,7 @@ fiscal|relating to government taxes and spending|o
 eurozone|the group of countries that use the euro|o
 inflation|a general rise in prices; the act of filling with air|o;o
 deficit|a shortfall, when spending is greater than income|o
-export|to sell goods to another country|v
+export|to sell goods to another country; export, goods sold to another country (exports)|v;o
 stability|steadiness, the state of not changing or failing|o
 debut|a first appearance or performance|o
 anti|against, opposed to|o
@@ -6817,7 +6818,7 @@ restructuring|reorganisation, especially of a company or debt|o
 incorporate|to include as a part|v
 narrative|a story, an account of events|o
 domain|a field of activity or knowledge; an area of control|o;o
-spur|to encourage, to prompt|v
+spur|to encourage, to prompt; a spur, a sharp point (on a rider's heel); spur of the moment: suddenly, without planning|v;o;n
 axis|a line around which something turns; a reference line on a graph; an alliance|o;o;o
 malaria|a disease spread by mosquitoes|o
 diversity|variety, a range of different people or things|o
@@ -7034,14 +7035,14 @@ linguistic|relating to language|o
 affordable|cheap enough to buy|o
 née|born (before a woman's original surname)|o
 reliance|dependence|o
-huff|to blow out air in annoyance; in a huff: offended, sulking|v;n
+huff|to blow out air in annoyance; in a huff: offended, sulking; a huff, a breath out in annoyance|v;n;o
 autonomy|self-government, independence|o
 minimize|to reduce to the smallest amount|v
 furrow|to wrinkle (the brow); groove in the ground, deep wrinkle|v;o
 openness|frankness; willingness to accept new ideas|o;o
 policymaking|the making of policy|o
 preference|a greater liking; favourable treatment|o;o
-decrease|to become or make less|v
+decrease|to become or make less; a decrease|v;o
 prosperous|wealthy, successful|o
 array|a wide range, an ordered arrangement|o
 consolidate|to strengthen; to combine into one|v;v
@@ -7187,7 +7188,7 @@ unify|to unite, to make into one|v
 astonishment|great surprise|o
 exploration|travelling to discover; examination|o;o
 dioxide|a compound with two oxygen atoms (as in carbon dioxide)|o
-binding|legally required to be obeyed|o
+binding|legally required to be obeyed; binding, -ing form of bind|o;o
 subsidiary|a company owned by another company|o
 threshold|a level at which something starts; a doorway|o;o
 crouch|to bend low with knees bent|v
@@ -7446,7 +7447,7 @@ guitarist|a person who plays the guitar|o
 mindset|a way of thinking, an attitude|o
 anthology|a collection of writings or songs|o
 arsenal|a store of weapons|o
-catalog|a complete list of items|o
+catalog|a complete list of items; to list, to record in order|o;v
 denounce|to condemn publicly|v
 grit|small stones, sand; courage, determination; to clench (the teeth)|o;o;v
 meltdown|a sudden collapse; overheating of a nuclear reactor|o;o
@@ -7990,7 +7991,7 @@ configuration|arrangement, set-up|o
 deportation|forced removal from a country|o
 empirical|based on observation or experiment|o
 innocently|without guilt; naively|o;o
-listing|list, entry in a list|o
+listing|list, entry in a list; listing, naming in a list (listing the options)|o;o
 trifle|something unimportant; a trifle: slightly; trifle with: to treat lightly; layered dessert|o;n;n;o
 usher|to guide, to show someone the way; to bring in (a new era)|v;v
 benign|harmless, kind; not cancerous|o;o
@@ -8426,7 +8427,7 @@ hone|to sharpen; to perfect (a skill)|v;v
 intersect|to cross|v
 legislator|lawmaker|o
 linkage|connection|o
-rendering|interpretation, performance; image generated by computer|o;o
+rendering|interpretation, performance; image generated by computer; rendering, -ing form of render|o;o;o
 revision|change, correction; studying for exams|o;o
 rugby|team sport with an oval ball|o
 splice|to join by interweaving|v
@@ -8766,7 +8767,7 @@ millennials|people born 1981–1996|o
 muscular|having strong muscles; of the muscles|o;o
 outward|external, toward the outside|o
 oxytocin|bonding hormone|o
-parting|separation, farewell; line in the hair|o;o
+parting|separation, farewell; line in the hair; parting with: giving up|o;o;n
 periodic|occurring at intervals|o
 perk|benefit of a job; perk up: to become livelier|o;n
 precarious|unstable, dangerous|o
@@ -8811,7 +8812,7 @@ visualization|mental image; visual representation|o;o
 approximate|roughly correct|o
 bayonet|blade on a rifle|o
 ceramic|made of fired clay|o
-conditioning|training; air conditioning|o;o
+conditioning|training; air conditioning; conditioning, making something depend on a condition (conditioning aid on reform)|o;o;o
 confidently|with confidence|o
 consequential|important; resulting|o;o
 correspondent|reporter|o
@@ -9767,7 +9768,7 @@ stowaway|person hiding on a ship or plane to travel free|o
 unhealthy|bad for health; ill|o;o
 viewpoint|opinion, point of view|o
 aluminium|aluminium, British spelling of aluminum|o
-anal|relating to the anus; excessively fussy|o;o
+anal|relating to the anus; excessively fussy (informal)|o;o
 biotechnology|use of living organisms in industry and medicine|o
 bristle|short stiff hair; to become angry or defensive; bristle with: to be full of|o;v;n
 cipher|secret code; person of no importance|o;o
@@ -9907,7 +9908,7 @@ cheaply|at low cost|o
 combatant|fighter|o
 commute|to travel regularly to work; to reduce (a sentence)|v;v
 conjecture|a guess; to guess|o;v
-costing|estimate of cost|o
+costing|estimate of cost; costing, -ing form of cost|o;o
 democratize|to make democratic, to open to all|v
 epiphany|sudden realization; Christian feast of the Magi (6 January)|o;o
 estrogen|female sex hormone|o
@@ -10886,7 +10887,7 @@ husky|low and rough (of a voice); sled dog; big and strong|o;o;o
 imperil|to endanger|v
 internationalization|making international; adapting software for other languages|o;o
 intestine|gut, tube from stomach to anus|o
-invalid|not valid, not acceptable; person weakened by illness|o;o
+invalid|not valid, not acceptable; person weakened by illness (dated, can be offensive)|o;o
 lightweight|light in weight; person of little importance|o;o
 loathe|to hate|v
 managerial|of managers or management|o
@@ -10945,7 +10946,7 @@ emergent|newly arising, developing|o
 enchanter|sorcerer, magician|o
 epidemiology|study of how diseases spread|o
 favourable|favourable, British spelling of favorable|o
-fook|fuck (colloq., = fuck)|o
+fook|(vulgar) fuck (Irish and northern English spelling)|o
 forearm|arm between elbow and wrist|o
 frenzy|wild excitement, uncontrolled activity|o
 gamers|people who play video games, plural of gamer|o
@@ -11056,7 +11057,7 @@ solemnity|seriousness, dignity|o
 straddle|to sit or stand with a leg on each side of|v
 swoop|to dive down suddenly; sudden attack|v;o
 talkie|early film with sound|o
-topping|layer put on top of food; excellent (colloq.)|o;o
+topping|layer put on top of food; excellent (colloq.); topping, coming first in (topping the list); topping, putting on top (topping it with nuts)|o;o;o;o
 unwarranted|unjustified|o
 wad|thick bundle (of paper, money)|o
 watery|full of water; weak, thin|o;o
@@ -11416,7 +11417,7 @@ spec|specification (colloq.); on spec: without guarantee|o;n
 statutory|required by law|o
 steppe|large treeless grassy plain|o
 stratum|layer|o
-striving|effort|o
+striving|effort; striving, -ing form of strive|o;o
 subfamily|division of a biological family|o
 symbolism|use of symbols|o
 termination|ending; dismissal|o;o
@@ -12072,7 +12073,7 @@ malignant|cancerous; evil|o;o
 mildly|slightly; gently|o;o
 morbid|gloomy about death|o
 multisite|at several sites|o
-musing|reflection|o
+musing|reflection; musing, -ing form of muse|o;o
 nab|to catch, to grab (colloq.)|v
 observance|obeying (a law, custom); religious ritual|o;o
 orangutan|red-haired ape|o
@@ -13867,7 +13868,7 @@ sunscreen|cream that protects skin from the sun|o
 sympathizer|person who supports a cause or group|o
 symptomatic|showing signs of a disease; being a sign of a larger problem|o;o
 teamwork|people working together as a group|o
-therapeutics|branch of medicine about treating disease|o
+therapeutics|branch of medicine about treating disease; treatments, medicines (antifungal therapeutics)|o;o
 thicken|to make or become thicker|v
 thylacine|extinct striped Australian marsupial, the Tasmanian tiger|o
 timeframe|period of time in which something happens|o
@@ -13875,7 +13876,7 @@ tortoise|slow land turtle|o
 unattainable|impossible to reach or achieve|o
 unbuckle|to undo a buckle|v
 uncompromising|refusing to change one's position|o
-undoing|ruin, downfall|o
+undoing|ruin, downfall; undoing, -ing form of undo|o;o
 unearth|to dig up; to discover something hidden|v;v
 unroll|to open out (something rolled)|v
 uphill|going up a slope; difficult|o;o
@@ -13904,7 +13905,7 @@ bloodline|line of descent|o
 blot|stain, blemish; to soak up; blot out: to hide|o;v;n
 borderline|on the edge between two states; barely acceptable|o;o
 brevity|shortness|o
-brooding|gloomy and thoughtful; menacing|o;o
+brooding|gloomy and thoughtful; menacing; brooding, -ing form of brood|o;o;o
 caramel|burnt sugar; toffee|o;o
 carp|freshwater fish; to complain|o;v
 chasm|deep crack in the ground; wide gap|o;o
@@ -14276,7 +14277,7 @@ scavenge|to search for and collect usable things from waste; to feed on dead ani
 shoal|shallow place in water; large group of fish|o;o
 skilful|skilled|o
 socialization|process of learning how to behave in society|o
-spacing|the distance left between things|o
+spacing|the distance left between things; spacing, placing at intervals (spacing out births)|o;o
 storeroom|room where things are kept|o
 stuffy|airless; formal, pompous|o;o
 surmise|to guess without firm evidence|v
@@ -14626,7 +14627,7 @@ fisted|tight-fisted: unwilling to spend money; ham-fisted: clumsy, heavy-handed|
 foreboding|feeling that something bad will happen|o
 forthe|for the (written as one word)|o
 frigid|extremely cold; unfriendly|o;o
-git|unpleasant person (British, informal)|o
+git|unpleasant person (British, informal); to get (dialect spelling)|o;v
 harmonica|small musical instrument played by blowing and sucking|o
 heterogeneous|made of different kinds of parts|o
 homestead|farm and its house|o
@@ -15572,7 +15573,7 @@ rollercoaster|fairground ride with steep drops; series of extreme ups and downs|
 saturation|state of being completely full; intensity of a colour|o;o
 scalpel|small sharp knife used in surgery|o
 shaker|container for shaking, as for salt or cocktails|o
-siding|short railway track; outer wall covering|o;o
+siding|short railway track; outer wall covering; siding with: taking the side of|o;o;n
 sinus|air-filled space in the skull connected to the nose|o
 skateboard|short board with wheels for riding|o
 snob|person who looks down on those of lower social class|o

@@ -105,7 +105,7 @@
 مكان|tempat (pl. أماكن)|o
 نظر|melihat, memandang (ينظُر، نظر); pandangan, penglihatan (pl. أنظار)|v;o
 حقا|sungguh, benar-benar|o
-مثل|seperti, bagai; peribahasa, contoh (مَثَل، pl. أمثال); مثلا: misalnya; mewakili, memerankan (II, يمثل، تمثيل)|o;o;n;v
+مثل|seperti, sebagai, misalnya; peribahasa, contoh (مَثَل، pl. أمثال); مثلا: misalnya; mewakili, memerankan (II, يمثل، تمثيل); berakting (memerankan tokoh)|o;o;n;v;v
 ل|untuk, bagi (milik: لي milikku); agar, untuk (+ kata kerja); hendaklah (+ kata kerja: لنذهب ayo kita pergi)|o;o;o
 أيضا|juga|o
 حصل|mendapat, memperoleh (+ على; يحصُل، حصول); terjadi|v;v
@@ -236,7 +236,7 @@
 متأكد|yakin, pasti|o
 شرطة|polisi|o
 فكرة|ide, gagasan (pl. أفكار)|o
-وصل|tiba, sampai (يصِل، وصول); menghubungkan, mengantar (II, يوصل، توصيل)|v;v
+وصل|tiba, sampai (يصِل، وصول); menghubungkan (II, يوصل، توصيل); mengantar (dengan kendaraan)|v;v;v
 لعنة|kutukan, laknat; اللعنة: sialan!, sial|o;n
 قليلا|sedikit|o
 ملك|raja (pl. ملوك); memiliki, mempunyai (يملِك، ملك); milik, harta (pl. أملاك); malaikat (pl. ملائكة)|o;v;o;o
@@ -379,7 +379,7 @@
 مزيد|lebih banyak, tambahan (المزيد من lebih banyak)|o
 جانب|sisi, samping (pl. جوانب); إلى جانب: di samping, selain; جانبا: ke samping|o;n;n
 كأن|seolah-olah, seakan-akan (+ kata benda atau kata ganti: كأنه seolah-olah dia)|o
-رجاء|tolong, mohon; harapan, permohonan|o;o
+رجاء|tolong; harapan; permohonan|o;o;o
 الأرض|bumi, dunia; tanah, lantai|o;o
 مجنون|gila; orang gila (pl. مجانين)|o;o
 هرب|kabur, melarikan diri (يهرُب، هروب)|v
@@ -420,7 +420,7 @@
 قلب|hati, jantung (pl. قلوب); membalikkan, menjungkirbalikkan (يقلِب، قلب)|o;v
 غدا|besok; menjadi (يغدو)|o;v
 حفلة|pesta, perayaan; konser|o;o
-وهى|dan dia (pr.), sementara dia (pr.) (= وهي)|o
+وهى|dan dia (perempuan), sedangkan dia (ejaan keliru untuk وهي)|o
 رائعة|luar biasa, hebat (f.); mahakarya (pl. روائع)|o;o
 مستعد|siap, bersedia|o
 ألف|seribu (pl. آلاف); terbiasa, akrab dengan (يألَف، ألفة); mengarang, menyusun (II, يؤلف، تأليف)|o;v;v
@@ -464,7 +464,7 @@
 دور|peran (pl. أدوار); giliran (دوري giliranku); lantai, tingkat (pl. أدوار)|o;o;o
 ذات|diri, hakikat, zat; بالذات: khususnya, justru; yang memiliki, dengan (f. dari ذو); ذات مرة: suatu kali, pernah|o;n;o;n
 حرب|perang (pl. حروب)|o
-تناول|makan, menyantap (VI, يتناول، تناول); meminum (obat), membahas|v;v
+تناول|makan, menyantap (hidangan) (VI, يتناول، تناول); minum (obat); membahas (suatu topik)|v;v;v
 استمر|terus, berlanjut (X, يستمر، استمرار)|v
 ملبس|pakaian, busana (pl. ملابس)|o
 مر|lewat, berlalu (يمُر، مرور); pahit (مُر)|v;o
@@ -643,7 +643,7 @@
 خمسة|lima (dengan kata benda maskulin; خمس dengan feminin)|o
 سماع|pendengaran, mendengarkan|o
 انتبه|memperhatikan, berhati-hati, menyadari (VIII, ينتبه، انتباه)|v
-سن|usia, umur; gigi (pl. أسنان); menetapkan (undang-undang), mengasah (يسُن، سن)|o;o;v
+سن|usia; gigi (pl. أسنان); menetapkan (undang-undang) (يسُن، سن); mengasah|o;o;v;v
 أمريكي|orang Amerika, Amerika (pl. أمريكان، أمريكيون)|o
 مركز|pusat (pl. مراكز); pos, kantor (مركز الشرطة kantor polisi); kedudukan, peringkat|o;o;o
 ثلاث|tiga (dengan kata benda feminin; ثلاثة dengan maskulin)|o
@@ -677,7 +677,7 @@
 كال|menakar (يكيل، كيل); Cal (nama)|v;o
 شباب|anak muda, kawan-kawan (يا شباب kawan-kawan!); masa muda|o;o
 تغيير|perubahan, pergantian|o
-أبى|menolak, enggan (يأبى، إباء); ayahku (= أبي)|v;o
+أبى|menolak (يأبى، إباء); ayahku (ejaan keliru untuk أبي)|v;o
 مدى|jangkauan, cakupan, rentang; betapa (مدى سعادتي betapa bahagianya aku); على مدى: selama, sepanjang|o;o;n
 اختار|memilih (VIII, يختار، اختيار)|v
 رائحة|bau, aroma (pl. روائح)|o
@@ -826,7 +826,7 @@
 موقف|situasi, posisi, sikap (pl. مواقف); tempat parkir, halte (موقف السيارات)|o;o
 التقى|bertemu (+ ب; VIII, يلتقي، التقاء)|v
 مرح|keriangan, kegembiraan; riang, ceria (مرِح)|o;o
-عقد|kontrak, perjanjian (pl. عقود); dasawarsa; kalung (عِقد); mengadakan (rapat), mengikat (يعقِد، عقد)|o;o;o;v
+عقد|kontrak, kesepakatan (pl. عقود); dasawarsa; kalung (عِقد); mengadakan (rapat) (يعقِد، عقد); mengikat (simpul)|o;o;o;v;v
 محظوظ|beruntung|o
 تأخر|terlambat, tertunda (V, يتأخر، تأخر); keterlambatan, penundaan|v;o
 سماء|langit|o
@@ -837,7 +837,7 @@
 محتمل|mungkin, kemungkinan besar; tertahankan|o;o
 شدة|intensitas, kerasnya, kekuatan; kesulitan, kesusahan; بشدة: sangat, dengan keras|o;o;n
 طاقة|energi, tenaga; kapasitas|o;o
-صف|baris, barisan (pl. صفوف); kelas, ruang kelas; berbaris, memarkir (يصُف، صف)|o;o;v
+صف|baris, deret (pl. صفوف); kelas, ruang kelas; menyusun berbaris (يصُف، صف); memarkir (mobil)|o;o;v;v
 هان|mudah, remeh (يهون، هوان)|v
 ويل|celaka (ويل لك celakalah kamu); Will (nama)|o;o
 أثر|jejak, bekas, tanda (pl. آثار); pengaruh, dampak; memengaruhi (II, يؤثر، تأثير)|o;o;v
@@ -893,7 +893,7 @@
 كهذا|seperti ini (m.), semacam ini (شيء كهذا hal seperti ini)|o
 شمس|matahari (pl. شموس)|o
 معنى|makna, arti (pl. معان)|o
-حكم|keputusan, vonis, hukuman (pl. أحكام); kekuasaan, pemerintahan; wasit (حَكَم); memerintah, mengadili, menjatuhkan hukuman (يحكُم، حكم)|o;o;o;v
+حكم|putusan, vonis, hukuman (pl. أحكام); aturan, pemerintahan; wasit (حَكَم); memerintah (يحكُم، حكم); mengadili, menjatuhi hukuman|o;o;o;v;v
 كاميرا|kamera|o
 سارة|menyenangkan (f.); Sarah (nama)|o;o
 جامعة|universitas; liga (جامعة الدول العربية Liga Arab)|o;o
@@ -963,7 +963,7 @@
 غد|besok (الغد)|o
 واجه|menghadapi (III, يواجه، مواجهة)|v
 السنة|tahun ini, tahun itu; sunah (amalan Nabi)|o;o
-اعترف|mengaku, mengakui (VIII, يعترف، اعتراف)|v
+اعترف|mengaku, mengakui (VIII, يعترف، اعتراف); mengakui (negara, hak)|v;v
 بكثير|jauh, jauh lebih (أفضل بكثير jauh lebih baik)|o
 حيال|mengenai, terhadap (ماذا ستفعل حيال … apa yang akan kamu lakukan terhadap …)|o
 تحكم|mengendalikan (+ ب، في; V, يتحكم، تحكم); kendali|v;o
@@ -988,7 +988,7 @@
 تحول|berubah menjadi (+ إلى; V, يتحول، تحول); perubahan, transformasi|v;o
 قاض|hakim (القاضي، pl. قضاة)|o
 عد|menghitung (يعُد، عد); kembalilah! (perintah dari عاد)|v;o
-فصل|bab, bagian (pl. فصول); musim; memisahkan, memecat (يفصِل، فصل)|o;o;v
+فصل|bab, bagian (pl. فصول); musim; memisahkan (يفصِل، فصل); memecat (dari pekerjaan)|o;o;v;v
 متجر|toko (pl. متاجر)|o
 جمع|mengumpulkan (يجمَع، جمع); bentuk jamak (tata bahasa)|v;o
 تفقد|memeriksa, menginspeksi (V, يتفقد، تفقد); kamu kehilangan, dia (pr.) kehilangan (تفقِد)|v;f2s2p
@@ -1030,7 +1030,7 @@
 مفتوح|terbuka|o
 فشل|gagal (يفشَل، فشل); kegagalan|v;o
 إلينا|kepada kami, ke arah kami|o
-تابع|mengikuti, melanjutkan (III, يتابع، متابعة); pengikut (pl. أتباع); milik, di bawah (+ ل)|v;o;o
+تابع|mengikuti, terus memantau (III, يتابع، متابعة); melanjutkan, meneruskan; pengikut (pl. أتباع); milik, bagian dari (+ ل)|v;v;o;o
 مفقود|hilang|o
 فجأة|tiba-tiba|o
 معظم|sebagian besar, kebanyakan (معظم الوقت sebagian besar waktu)|o
@@ -1055,7 +1055,7 @@
 عادل|adil; Adil (nama)|o;o
 استغرق|memakan (waktu), berlangsung (X, يستغرق، استغراق)|v
 سابقا|sebelumnya, dahulu|o
-رد|menjawab, membalas, mengembalikan (يرُد، رد); jawaban, tanggapan (pl. ردود)|v;o
+رد|membalas, menjawab (يرُد، رد); mengembalikan; balasan, jawaban (pl. ردود)|v;v;o
 كنيسة|gereja (pl. كنائس)|o
 مجلس|dewan, majelis (pl. مجالس); ruang duduk|o;o
 تصوير|syuting, pemotretan, fotografi|o
@@ -1072,7 +1072,7 @@
 مخطئ|salah, keliru (أنت مخطئ kamu salah)|o
 أمريكا|Amerika|o
 كلية|fakultas, akademi; ginjal (كُلية، pl. كلى)|o;o
-التقط|memungut, mengambil (foto), menangkap (VIII, يلتقط، التقاط)|v
+التقط|memungut, menangkap (VIII, يلتقط، التقاط); mengambil (foto)|v;v
 فخور|bangga (+ ب)|o
 مصاب|terluka, cedera; terinfeksi, sakit (+ ب)|o;o
 قفز|melompat (يقفِز، قفز)|v
@@ -1114,7 +1114,7 @@
 موسم|musim (pl. مواسم)|o
 عار|aib, malu; telanjang (عارٍ)|o;o
 باق|tersisa, tinggal (الباقي sisanya)|o
-وقف|berdiri, berhenti (يقِف، وقوف); wakaf (pl. أوقاف)|v;o
+وقف|berdiri (يقِف، وقوف); berhenti; wakaf (pl. أوقاف)|v;v;o
 هوية|identitas; kartu identitas, KTP (بطاقة الهوية)|o;o
 عصابة|geng, komplotan; penutup mata, perban|o;o
 دواء|obat (pl. أدوية)|o
@@ -1241,7 +1241,7 @@
 هول|kengerian, kedahsyatan (pl. أهوال); aula|o;o
 واجب|kewajiban, tugas; pekerjaan rumah (PR); wajib, harus|o;o;o
 ظلام|kegelapan, gelap|o
-بحرية|angkatan laut; dengan bebas (ب + حرية)|o;o
+بحرية|angkatan laut; bahari, maritim, laut (adj., f.); dengan bebas (ب + حرية)|o;o;o
 حاليا|saat ini, sekarang|o
 مثلي|sepertiku (مثلي مثلك sama sepertimu); gay, homoseksual|o;o
 تفصيل|detail, rincian (pl. تفاصيل); بالتفصيل: secara rinci|o;n
@@ -1313,7 +1313,7 @@
 نسخة|salinan (pl. نسخ); versi, edisi|o;o
 إصلاح|perbaikan; reformasi|o;o
 تشغيل|pengoperasian, menyalakan; ketenagakerjaan, lapangan kerja|o;o
-محيط|samudra; lingkungan sekitar, keliling|o;o
+محيط|samudra; lingkungan sekitar; keliling lingkaran|o;o;o
 وكالة|agen, kantor berita, badan|o
 حافلة|bus|o
 ركب|naik, menunggang (يركَب، ركوب); lutut-lutut (pl. dari ركبة)|v;o
@@ -1341,7 +1341,7 @@
 مسرور|senang, gembira|o
 سبيل|jalan (pl. سبل); على سبيل المثال: misalnya; في سبيل: demi|o;n;n
 صراحة|keterusterangan, kejujuran; بصراحة: terus terang, jujur saja|o;n
-مالك|pemilik (pl. ملاك); kamu kenapa? (ما لك)|o;o
+مالك|pemilik (pl. ملاك); kamu kenapa? (ما لك); Malik (nama)|o;o;o
 روك|musik rok|o
 مدهش|menakjubkan, mengagumkan|o
 فات|berlalu, lewat (يفوت، فوات); فات الأوان: sudah terlambat|v;n
@@ -1441,7 +1441,7 @@
 نوى|berniat (ينوي، نية)|v
 نصيحة|nasihat (pl. نصائح)|o
 بيانات|data (pl. dari بيان)|o
-تجاوز|melampaui, melebihi, mengatasi (VI, يتجاوز، تجاوز); menyalip|v;v
+تجاوز|melampaui, melebihi (VI, يتجاوز، تجاوز); mengatasi; menyalip|v;v;v
 صعوبة|kesulitan; بصعوبة: dengan susah payah|o;n
 ريح|angin (pl. رياح)|o
 كرسي|kursi (pl. كراسي)|o
@@ -1524,7 +1524,7 @@
 أنزل|menurunkan (IV, ينزل، إنزال); aku turun (أنزِل)|v;f1s
 ممارسة|praktik, latihan|o
 آلي|otomatis, mekanis; robot (إنسان آلي)|o;o
-أصغر|lebih kecil, terkecil, lebih muda, termuda|o
+أصغر|lebih kecil, terkecil; lebih muda, termuda|o;o
 مخلوق|makhluk|o
 تقبل|menerima (V, يتقبل، تقبل); kamu menerima, dia (pr.) menerima (تقبَل)|v;f2s2p
 أقصى|maksimum, paling jauh (الحد الأقصى batas maksimum)|o
@@ -1555,7 +1555,7 @@
 بيرة|bir|o
 أخضر|hijau (f. خضراء، pl. خضر)|o
 أداء|penampilan, kinerja|o
-كريم|dermawan, murah hati (pl. كرماء); krim (losion)|o;o
+كريم|dermawan, baik hati (pl. كرماء); krim (losion); Karim (nama)|o;o;o
 مسار|jalur, lintasan|o
 استسلم|menyerah (X, يستسلم، استسلام)|v
 جيل|generasi (pl. أجيال); gel|o;o
@@ -1612,7 +1612,7 @@
 تحية|salam, penghormatan; تحياتي: salam hangat|o;n
 إنجليزي|Inggris; orang Inggris (pl. إنجليز)|o;o
 خلق|menciptakan (يخلُق، خلق); ciptaan, penciptaan; akhlak, budi pekerti (خُلُق، pl. أخلاق)|v;o;o
-أميرة|putri (kerajaan)|o
+أميرة|putri raja; Amira (nama)|o;o
 ثوب|baju, pakaian, jubah (pl. ثياب، أثواب)|o
 متن|على متن: di atas (kapal, pesawat); teks, matan (pl. متون)|n;o
 ملعون|terkutuk, terlaknat|o
@@ -1855,7 +1855,7 @@
 مزاج|suasana hati, mood|o
 خصوصا|terutama, khususnya|o
 أكتب|aku menulis|f1s
-طرح|mengajukan (pertanyaan), melempar (يطرَح، طرح); pengurangan|v;o
+طرح|mengajukan (pertanyaan) (يطرَح، طرح); melempar; pengurangan|v;v;o
 محفظة|dompet (pl. محافظ)|o
 نوبة|serangan (نوبة قلبية serangan jantung); giliran jaga, sif|o;o
 غذاء|makanan, gizi; makan siang (= غداء)|o;o
@@ -1906,7 +1906,7 @@
 ماما|mama, ibu (cak.)|o
 لازم|perlu; harus (cak.: لازم أروح aku harus pergi)|o;o
 مقدار|jumlah, kadar, ukuran (pl. مقادير)|o
-فارس|ksatria, penunggang kuda (pl. فرسان); Persia (بلاد فارس)|o;o
+فارس|ksatria, penunggang kuda (pl. فرسان); Persia (بلاد فارس); Fares (nama)|o;o;o
 موجة|gelombang, ombak (pl. أمواج)|o
 مطلوب|dicari, diperlukan, dibutuhkan|o
 مسح|menyeka, menghapus (يمسَح، مسح); survei, pemindaian|v;o
@@ -2155,7 +2155,7 @@
 حشرة|serangga, kutu|o
 عصبي|gugup, mudah marah, tegang; saraf|o;o
 أبله|orang dungu, orang bodoh; bodoh, dungu (f. بلهاء، pl. بله)|o;o
-سئ|buruk (= سيئ)|o
+سئ|buruk (ejaan keliru untuk سيئ)|o
 مقدمة|pendahuluan, kata pengantar; bagian depan|o;o
 أقود|aku menyetir, aku memimpin|f1s
 فاتن|memikat, mempesona, cantik sekali|o
@@ -2165,11 +2165,11 @@
 إعداد|persiapan, penyiapan|o
 وزارة|kementerian, departemen|o
 المدعي|penggugat, pihak penuntut; المدعي العام: jaksa, jaksa penuntut umum|o;n
-أصمت|aku diam; diam! (= اصمت)|f1s;o
+أصمت|diamlah!, tutup mulut! (ejaan keliru untuk اصمت); aku diam|o;f1s
 إطار|bingkai (pl. أطر); ban; kerangka|o;o;o
 نجاة|keselamatan, penyelamatan, lolos|o
 تجاهل|mengabaikan (VI, يتجاهل، تجاهل)|v
-أري|aku memperlihatkan (أُري); aku melihat (= أرى)|f1s;f1s
+أري|aku melihat (ejaan keliru untuk أرى); aku menunjukkan (أُري)|f1s;f1s
 آكل|aku makan; pemakan (آكل لحوم البشر kanibal)|f1s;o
 عاصمة|ibu kota (pl. عواصم)|o
 ضريبة|pajak (pl. ضرائب)|o
@@ -2238,10 +2238,10 @@
 تسلل|menyelinap masuk, menyusup (V, يتسلل، تسلل); offside (sepak bola)|v;o
 ملعب|taman bermain, stadion, lapangan (pl. ملاعب)|o
 إرهابي|teroris|o
-اقل|lebih sedikit, kurang (= أقل)|o
+اقل|lebih sedikit (ejaan keliru untuk أقل)|o
 تاجر|pedagang, saudagar, penjual (pl. تجار); berdagang, berniaga (III, يتاجر، متاجرة)|o;v
 توافق|sepakat, cocok, sesuai (VI, يتوافق، توافق); kesepakatan, kecocokan|v;o
-شريف|terhormat, jujur, mulia (pl. شرفاء); sheriff|o;o
+شريف|terhormat, jujur, mulia (pl. شرفاء); syerif; Sharif, Sherif (nama)|o;o;o
 حفظ|menjaga, memelihara, menyimpan (يحفَظ، حفظ); menghafal, menghafalkan|v;v
 مضاد|anti-, kontra- (مضاد حيوي antibiotik)|o
 رضيع|bayi (pl. رضع)|o
@@ -2386,7 +2386,7 @@
 لحد|liang lahat (لَحد); sampai, hingga (cak., = حتى)|o;o
 أوروبا|Eropa|o
 مت|matilah! (perintah dari مات); aku mati, kamu mati (مُتُّ، مُتَّ)|o;f1s
-بشئ|(ب + شيء) dengan sesuatu, tentang sesuatu (= بشيء)|o
+بشئ|(ب + شيء) dengan sesuatu, tentang sesuatu (ejaan keliru untuk بشيء)|o
 مدين|berutang (أنا مدين لك aku berutang padamu); debitur, orang yang berutang|o;o
 دافئ|hangat|o
 المخابرات|intelijen (badan), dinas rahasia|o
@@ -2729,12 +2729,12 @@
 رقمي|digital; nomorku|o;o
 عمود|kolom, tiang, pilar (pl. أعمدة)|o
 مستودع|gudang, depot, tempat penyimpanan (pl. مستودعات)|o
-سماعي|dengan pendengaran, auditori; dipelajari dari mendengar|o;o
+سماعي|mendengarku, agar mendengarku (سماع + ي: هل يمكنك سماعي apakah kamu bisa mendengarku?); dengan telinga, pendengaran; dipelajari dengan mendengar|o;o;o
 ظهيرة|tengah hari, siang|o
 فنان|seniman|o
 مهرج|badut, pelawak|o
 غربي|barat, Barat|o
-أخرس|bisu (f. خرساء، pl. خرس); diam! (أخرس: tutup mulut)|o;o
+أخرس|diam! (ejaan keliru untuk اخرس); bisu (f. خرساء، pl. خرس)|o;o
 انسحب|mundur, menarik diri, mengundurkan diri (VII, ينسحب، انسحاب)|v
 اليابان|Jepang|o
 ورك|pinggul, paha (pl. أوراك)|o
@@ -2809,7 +2809,7 @@
 راهبة|biarawati|o
 ثنائي|duo, pasangan; ganda, bilateral|o;o
 أحرز|mencetak (gol), meraih, membuat (kemajuan) (IV, يحرز، إحراز)|v
-احمق|orang bodoh, orang tolol; bodoh (f. حمقاء، pl. حمقى)|o;o
+احمق|orang bodoh, tolol; dungu (f. حمقاء، pl. حمقى) (ejaan keliru untuk أحمق)|o;o
 رقيق|halus, lembut, tipis; budak-budak|o;o
 عروس|pengantin perempuan (pl. عرائس); boneka (cak.)|o;o
 تنظيم|organisasi, pengorganisasian; pengaturan, regulasi|o;o
@@ -2876,7 +2876,7 @@
 أفعى|ular, ular berbisa (pl. أفاع)|o
 راج|laris, digemari (يروج، رواج)|v
 تعيين|pengangkatan (untuk jabatan); penugasan|o;o
-أهدأ|lebih tenang, lebih sunyi; aku menjadi tenang|o;f1s
+أهدأ|tenanglah! (ejaan keliru untuk اهدأ); lebih tenang, lebih sepi; aku menenangkan diri|o;o;f1s
 اختفاء|hilangnya, lenyapnya|o
 حساسية|kepekaan, sensitivitas; alergi|o;o
 ثبت|terbukti, ditetapkan (يثبُت، ثبوت); memasang, mengencangkan, menginstal (II, يثبت، تثبيت)|v;v
@@ -2894,9 +2894,9 @@
 مقهى|kafe, kedai kopi (pl. مقاه)|o
 بعث|mengirim (يبعَث، بعث); kebangkitan; Baath (partai)|v;o;o
 بيئة|lingkungan|o
-قانونية|legal, sah; legalitas|o;o
+قانونية|sah, legal (f.); keabsahan|o;o
 ماسة|berlian; mendesak (حاجة ماسة kebutuhan mendesak)|o;o
-تدمر|hancur; kamu menghancurkan; Palmyra|o;f2s2p;o
+تدمر|dihancurkan (V, يتدمر، تدمر); kamu menghancurkan, dia (perempuan) menghancurkan (تدمِّر); Palmyra|v;f2s2p;o
 تشريح|otopsi; pembedahan, anatomi|o;o
 عاود|melanjutkan kembali, kembali ke, mengulangi (III, يعاود، معاودة)|v
 هاهو|ini dia (lk.), inilah dia|o
@@ -2989,7 +2989,7 @@
 فاخر|mewah, istimewa, kelas satu|o
 مرأب|garasi|o
 إرادة|kehendak, kemauan|o
-أخوة|saudara-saudara laki-laki (pl. dari أخ); persaudaraan (أخوة)|o;o
+أخوة|saudara laki-laki (pl. dari أخ; ejaan keliru untuk إخوة); persaudaraan (أُخوّة)|o;o
 التهم|melahap, menelan bulat-bulat (VIII, يلتهم، التهام); dakwaan-dakwaan (pl. dari تهمة)|v;o
 العيون|mata (jamak)|o
 مليار|miliar|o
@@ -3017,7 +3017,7 @@
 تمثل|kamu mewakili; dia (pr.) mewakili, itu mewakili; terwujud dalam, berupa (V, يتمثل، تمثل)|f2s2p;f3s;v
 أجنبي|asing; orang asing (pl. أجانب)|o;o
 التزام|komitmen, kewajiban|o
-أبق|tetaplah!, tetap (أبق بعيدا menjauhlah)|o
+أبق|tinggallah! (ejaan keliru untuk ابق: أبق بعيدا menjauhlah); simpanlah! (perintah dari أبقى)|o;o
 إخلاء|evakuasi, pengosongan; إخلاء سبيل: pembebasan|o;n
 دق|mengetuk, membunyikan, memukul (يدُق، دق); menit (cak., = دقيقة)|v;o
 وين|di mana (cak., = أين)|o
@@ -3084,7 +3084,7 @@
 رج|mengguncang, mengocok (يرُج، رج)|v
 حثالة|sampah masyarakat, ampas|o
 بيان|pernyataan, pengumuman, deklarasi|o
-مضطرة|terpaksa, harus (pr.)|o
+مضطرة|terpaksa, wajib, harus (f.)|o
 تحد|tantangan (التحدي); kamu menantang|o;f2s2p
 اضطراب|gangguan, kekacauan; kerusuhan|o;o
 موهوب|berbakat|o
@@ -3109,7 +3109,7 @@
 دودة|cacing (pl. ديدان)|o
 شعبي|populer, rakyat, tradisional; nasional, milik rakyat|o;o
 تفاوض|perundingan, negosiasi; berunding, bernegosiasi (VI, يتفاوض، تفاوض)|o;v
-مزيفة|palsu, dipalsukan, tiruan|o
+مزيفة|palsu, dipalsukan, tiruan (f.)|o
 بسكويت|biskuit, kue kering|o
 نفايات|sampah, limbah|o
 نقدا|tunai|o
@@ -3209,7 +3209,7 @@
 سابقة|preseden; catatan kriminal (pl. سوابق); sebelumnya (f.)|o;o;o
 شمل|mencakup, meliputi (يشمَل، شمول); persatuan, kebersamaan (لم الشمل: berkumpul kembali dengan keluarga)|v;o
 العراق|Irak|o
-خاطيء|salah, keliru; pendosa|o;o
+خاطيء|salah, keliru; pendosa (ejaan keliru untuk خاطئ)|o;o
 محزن|menyedihkan|o
 معيشة|kehidupan, penghidupan (غرفة المعيشة ruang keluarga)|o
 مخالفة|pelanggaran; tilang, denda|o;o
@@ -3222,7 +3222,7 @@
 مدفع|meriam, senapan (pl. مدافع)|o
 ورقي|dari kertas, terbuat dari kertas|o
 فرن|oven, tungku; toko roti (pl. أفران)|o;o
-أسمك|namamu (= اسمك); lebih tebal|o;o
+أسمك|namamu (ejaan keliru untuk اسمك); lebih tebal|o;o
 بدل|sebagai ganti (بدلا من); tunjangan; mengganti, menukar (II, يبدل، تبديل)|o;o;v
 ممتلئ|penuh, terisi; montok, gemuk|o;o
 لغم|ranjau, ranjau darat (pl. ألغام)|o
@@ -3298,7 +3298,7 @@
 تصحيح|koreksi, perbaikan|o
 فرص|peluang-peluang, kesempatan (pl. dari فرصة)|o
 كوم|tumpukan, timbunan (pl. أكوام); .com (dot com)|o;o
-سواك|siwak (kayu pembersih gigi); selain kamu (= سواك)|o;o
+سواك|selain kamu, kecuali kamu (سوى + ك); siwak (kayu pembersih gigi)|o;o
 رسمية|resmi (f.); formalitas|o;o
 مأساة|tragedi (pl. مآس)|o
 أجاد|pandai dalam, menguasai (IV, يجيد، إجادة)|v
@@ -3313,12 +3313,12 @@
 جاب|menjelajahi, berkeliling (يجوب، جوب); membawa (cak., = أحضر)|v;v
 فذلك|maka itu (adalah), jadi itulah (ف + ذلك)|o
 ضم|mencakup, menambahkan, menggabungkan; memeluk (يضُم، ضم)|v;v
-مفاجئة|mendadak (f.); kejutan (= مفاجأة)|o;o
+مفاجئة|mendadak (f.); kejutan (ejaan keliru untuk مفاجأة)|o;o
 ذيل|ekor (pl. ذيول)|o
-خطا|melangkah, berjalan (يخطو، خطو); kesalahan (= خطأ)|v;o
+خطا|kesalahan, kekeliruan (ejaan keliru untuk خطأ); melangkah, berjalan (يخطو، خطو)|o;v
 شعوري|perasaanku; emosional, sadar|o;o
 عش|sarang (pl. أعشاش); hiduplah! (عش حياتك nikmati hidupmu)|o;o
-لاشئ|tidak ada apa-apa (= لا شيء)|o
+لاشئ|tidak ada apa-apa (ejaan keliru untuk لا شيء)|o
 مخافة|rasa takut (مخافة أن karena takut kalau)|o
 سياتل|Seattle|o
 طازج|segar|o
@@ -3344,7 +3344,7 @@
 صراع|perjuangan, konflik|o
 الغربية|barat (f.); Tepi Barat (الضفة الغربية)|o;o
 ذخيرة|amunisi|o
-فار|tikus (= فأر); mendidih (يفور، فوران)|o;v
+فار|tikus (ejaan keliru untuk فأر); mendidih (يفور، فوران)|o;v
 دفتر|buku catatan (pl. دفاتر)|o
 منديل|sapu tangan, tisu (pl. مناديل)|o
 أولوية|prioritas|o
@@ -3445,7 +3445,7 @@
 ترفض|kamu menolak; dia (pr.) menolak|f2s2p;f3s
 جنى|menuai, memanen, memperoleh (يجني، جني)|v
 عون|bantuan, pertolongan; pembantu (pl. أعوان)|o;o
-امس|kemarin (= أمس)|o
+امس|kemarin (ejaan keliru untuk أمس)|o
 لاوس|Laos|o
 تنقل|berpindah-pindah, bepergian ke sana kemari (V, يتنقل، تنقل); kamu memindahkan, kamu mentransfer (تنقل)|v;f2s2p
 جوهر|inti, hakikat; permata (pl. جواهر)|o;o
@@ -3538,7 +3538,7 @@
 خصية|buah zakar, testis|o
 مسجل|terdaftar, direkam; alat perekam|o;o
 تخزين|penyimpanan|o
-الشرقية|timur; yang timur|o;o
+الشرقية|timur (f.); yang timur|o;o
 الأسد|singa itu; Leo; al-Assad (nama)|o;o;o
 راعى|memperhitungkan, memperhatikan; merawat, menjaga (III, يراعي، مراعاة)|v;v
 ضباب|kabut|o
@@ -3553,7 +3553,7 @@
 جودة|kualitas, mutu|o
 ثابتة|tetap, stabil, kokoh (f.)|o
 جرأة|keberanian, nyali|o
-كلم|berbicara dengan, mengajak bicara (II, يكلم، تكليم); luka-luka (كلوم)|v;o
+كلم|berbicara kepada (II, يكلم، تكليم); luka (pl. كلوم)|v;o
 أطاق|tahan, sanggup menanggung (IV, يطيق، إطاقة); لا أطيق: aku tidak tahan|v;n
 فضي|perak (kata sifat)|o
 رافق|menemani, mendampingi (III, يرافق، مرافقة)|v
@@ -3573,7 +3573,7 @@
 روبوت|robot|o
 لواء|brigade; mayor jenderal; panji, bendera|o;o;o
 مقال|artikel (pl. مقالات)|o
-حساسة|sensitif, peka|o
+حساسة|peka, sensitif (f.)|o
 عنف|kekerasan|o
 تأمل|merenung, bermeditasi (V, يتأمل، تأمل); meditasi, renungan; kamu berharap; dia (pr.) berharap|v;o;f2s2p;f3s
 سلفا|di muka, sebelumnya|o
@@ -4937,7 +4937,7 @@
 أقبض|aku menangkap (أقبض على); aku dibayar, aku menerima (uang)|f1s;f1s
 عشوائية|acak (f.); keacakan, ketidakteraturan|o;o
 مخلل|diasinkan, diacar; acar (pl. مخللات)|o;o
-إئتمان|kredit (بطاقة ائتمان: kartu kredit)|o
+إئتمان|kredit (بطاقة ائتمان: kartu kredit) (ejaan keliru untuk ائتمان)|o
 تلوث|polusi, pencemaran; tercemar (V, يتلوث، تلوث)|o;v
 مجازفة|risiko, untung-untungan, spekulasi|o
 ملاذ|tempat berlindung, perlindungan, suaka|o
@@ -5653,7 +5653,7 @@
 سكوتش|Scotch (wiski); selotip (cak.)|o;o
 مغادر|pergi, berangkat|o
 خلسة|diam-diam, secara sembunyi-sembunyi|o
-سلامتك|semoga lekas sembuh!, semoga selamat (harfiah: keselamatanmu)|o
+سلامتك|semoga lekas sembuh!, semoga kamu baik-baik saja (lit. keselamatanmu)|o
 قافلة|konvoi, kafilah (pl. قوافل)|o
 قالب|cetakan, templat (pl. قوالب); balok, batangan, kue (قالب صابون: sebatang sabun)|o;o
 أساسية|dasar, pokok, mendasar (f.)|o
@@ -5966,7 +5966,7 @@
 أفجر|aku meledakkan|f1s
 اجتياز|melewati, menyeberangi, lolos (اجتياز الامتحان: lulus ujian)|o
 فيرمونت|Vermont|o
-للإنطلاق|untuk berangkat, untuk peluncuran (ل + انطلاق)|v
+للإنطلاق|untuk berangkat, untuk peluncuran (ل + انطلاق) (ejaan ceroboh untuk للانطلاق)|v
 مصداقية|kredibilitas|o
 ابتعاد|menjauh, menjaga jarak, menghindar|o
 ضاحية|pinggiran kota (pl. ضواح)|o
@@ -6010,7 +6010,7 @@
 ملتزم|berkomitmen, terikat, taat|o
 وماهو|dan apakah (= و + ما هو)|o
 حامية|garnisun; panas, sengit (pr.); pelindung (pr.)|o;o;o
-مصاصين|pengisap (مصاصين الدماء: vampir)|o
+مصاصين|mereka yang menghisap (m. jamak); مصاصين الدماء / مصاصين دماء: vampir|o;n
 مصيدة|perangkap (مصيدة فئران: perangkap tikus) (pl. مصائد)|o
 انحراف|penyimpangan, penyelewengan; kenakalan|o;o
 مطمئن|menenangkan; tenang, tenteram|o;o
@@ -6058,7 +6058,7 @@
 ثقافي|budaya, kultural|o
 حماسة|antusiasme, semangat, kegairahan|o
 رصيد|saldo (rekening); pulsa (telepon)|o;o
-نبوة|nubuat, ramalan (pl. نبوءات)|o
+نبوة|nubuat (jamak نبوءات); kenabian|o;o
 التصرفات|tingkah laku, perbuatan|o
 تشويه|perusakan rupa, distorsi; pencemaran nama baik|o;o
 صادر|dikeluarkan, berasal (dari); keluar (surat, panggilan)|o;o
@@ -6131,7 +6131,7 @@
 طاغية|tiran, diktator (pl. طغاة)|o
 مكتمل|lengkap, selesai|o
 أخلاق|moral, etika; akhlak, tata krama|o;o
-دلك|memijat, menggosok (يدلُك، دلك); pijat|v;o
+دلك|itu (ejaan ceroboh untuk ذلك); memijat, menggosok (يدلُك، دلك); pijat|o;v;o
 سلمي|damai|o
 صدف|kebetulan-kebetulan (pl. dari صدفة); kerang, induk mutiara|o;o
 قامو|mereka berdiri, mereka melakukan (= قاموا)|f3p
@@ -6286,7 +6286,7 @@
 زميلة|rekan kerja (pr.); teman sekelas (pr.)|o;o
 مسقط|Muskat; مسقط رأس: tempat kelahiran|o;n
 وصي|wali, pemegang amanah, pelaksana wasiat (pl. أوصياء)|o
-أرجوحة|ayunan, tempat tidur gantung (pl. أراجيح)|o
+أرجوحة|ayunan (jamak أراجيح); hamak|o;o
 اعتزم|berniat, bertekad (VIII, يعتزم، اعتزام)|v
 تنح|minggir!, mundur! (perintah)|o
 عسر|kesulitan, kesusahan; عسر الهضم: gangguan pencernaan|o;n
@@ -6432,7 +6432,7 @@
 متماسكة|kompak, padu, kokoh|o
 أصلى|asli, orisinal (= أصلي)|o
 تتويج|penobatan, pemahkotaan|o
-تسائلت|aku bertanya-tanya; kamu bertanya-tanya; dia (pr.) bertanya-tanya|f1s;f2s2p;f3s
+تسائلت|aku bertanya-tanya; kamu bertanya-tanya; dia (perempuan) bertanya-tanya (ejaan ceroboh untuk تساءلت)|f1s;f2s2p;f3s
 خاطب|berbicara kepada, menyapa (III, يخاطب، مخاطبة); pelamar, tunangan|v;o
 وطنية|patriotisme, nasionalisme; nasional, patriotik|o;o
 إسباني|Spanyol; orang Spanyol (pl. إسبان)|o;o
@@ -6495,7 +6495,7 @@
 مواصفات|spesifikasi, fitur|o
 هارلم|Harlem|o
 هد|merobohkan, meruntuhkan (يهُد، هد)|v
-اسرائيل|Israel|o
+اسرائيل|Israel (ejaan ceroboh untuk إسرائيل)|o
 سخف|kekonyolan, omong kosong, absurditas|o
 شاسع|luas sekali, amat besar|o
 مناوبة|sif, giliran jaga|o
@@ -6638,7 +6638,7 @@
 وتين|aorta (قطع الوتين: menghabisi)|o
 بصر|penglihatan, daya lihat (pl. أبصار); لمح البصر: sekejap mata|o;n
 ديزل|diesel, solar|o
-شعرى|puitis (= شعري); rambutku (= شعري)|o;o
+شعرى|rambutku (= شعري); puitis (= شعري)|o;o
 شوربة|sup|o
 ماوس|tetikus, mouse (komputer)|o
 مطلع|tahu, paham (+ على); awal, permulaan (مطلع الشهر: awal bulan); terbitnya (matahari)|o;o;o
@@ -6731,7 +6731,7 @@
 انحرف|menyimpang, membelok, tersesat (VII, ينحرف، انحراف)|v
 بالون|balon|o
 شورت|celana pendek|o
-مشحون|bermuatan, terisi, dikirim; tegang (suasana)|o;o
+مشحون|bermuatan, dipenuhi (dengan); dikapalkan (muatan); tegang (suasana)|o;o;o
 هالوين|Halloween|o
 آس|kartu as; murad (tanaman)|o;o
 صاغية|mendengarkan (أذن صاغية: telinga yang mau mendengar)|o
@@ -7282,7 +7282,7 @@
 أبرد|lebih dingin, lebih sejuk|o
 أطبق|menutup rapat, mencengkeram (+ على) (IV, يطبق، إطباق); aku menerapkan, aku melaksanakan|v;f1s
 زووم|zoom|o
-ممسحة|alat pel, keset|o
+ممسحة|pel, pembersih; keset (ممسحة الأرجل)|o;o
 مه|diam!, hentikan!; apa? (cak.)|o;o
 الترددات|frekuensi; keraguan|o;o
 المفترسة|pemangsa, buas|o
@@ -7335,7 +7335,7 @@
 شريفة|terhormat, jujur, mulia; Syarifah (nama)|o;o
 طرفة|lelucon, anekdot; kedipan (طرفة عين: sekejap mata)|o;o
 فرضية|hipotesis, asumsi|o
-مصاصو|pengisap (مصاصو الدماء: vampir)|o
+مصاصو|mereka yang menghisap (m. jamak); مصاصو الدماء / مصاصو دماء: vampir|o;n
 برمودا|Bermuda|o
 بلدية|kotamadya, dewan kota; lokal, kota|o;o
 فرانكفورت|Frankfurt|o
@@ -7649,7 +7649,7 @@
 يومئذ|pada hari itu|o
 لئن|sungguh jika, jika memang|o
 تاب|bertobat (يتوب، توبة); menerima tobat (tentang Allah)|v;v
-شهيد|saksi (pl. شهداء); syahid|o;o
+شهيد|syahid, martir (jamak شهداء); saksi|o;o
 بصير|Maha Melihat, melihat; berwawasan tajam|o;o
 ذل|kehinaan, kerendahan; menjadi hina (يذِل، ذل)|o;v
 أطاع|menaati, patuh (IV, يطيع، إطاعة)|v
@@ -7659,7 +7659,7 @@
 قدير|Mahakuasa, mampu|o
 مشرك|orang musyrik, orang yang menyekutukan Allah|o
 توكل|bertawakal, berserah diri (V, يتوكل، توكل)|v
-محسن|orang yang berbuat baik, dermawan|o
+محسن|pelaku kebaikan, dermawan; Mohsen (nama)|o;o
 مكر|tipu daya, makar; membuat tipu daya, merencanakan makar (يمكُر، مكر)|o;v
 اهتدى|mendapat petunjuk, menemukan jalan yang benar (VIII, يهتدي، اهتداء)|v
 استكبر|menyombongkan diri, bersikap angkuh (X, يستكبر، استكبار)|v
@@ -7686,7 +7686,7 @@
 مفسد|perusak, pembuat kerusakan|o
 منكر|kemungkaran, perbuatan jahat; mengingkari, menolak|o;o
 مهتد|mendapat petunjuk|o
-مصدق|membenarkan (yang datang sebelumnya); orang yang membenarkan, orang beriman|o;o
+مصدق|percaya (لست مصدقا: aku tidak percaya); tersertifikasi, diratifikasi (مصدق عليه); membenarkan (apa yang sebelumnya), orang yang menegaskan|o;o;o
 منذر|pemberi peringatan|o
 نشاء|Kami kehendaki, Kami inginkan|f1p
 بسط|membentangkan, mengulurkan (يبسُط، بسط); melapangkan (rezeki)|v;v
@@ -7696,17 +7696,17 @@
 استعجل|meminta disegerakan, tergesa-gesa (X, يستعجل، استعجال)|v
 تأويل|tafsiran, takwil; kenyataan, kesudahan akhir|o;o
 تقوى|takwa, kesalehan|o
-هاد|pemberi petunjuk|o
+هاد|ini (percakapan, Levantin/Maroko, = هذا); pemandu|o;o
 جادل|berbantah, berdebat (III, يجادل، جدال)|v
-تنزيل|wahyu, penurunan|o
+تنزيل|unduhan; penurunan, pembongkaran; wahyu, penurunan wahyu|o;o;o
 حليم|Maha Penyantun, sabar|o
 زعم|mengaku, menyangka (يزعُم، زعم); anggapan, klaim|v;o
 نذر|nazar (pl. نذور); bernazar (ينذُر، نذر); peringatan, pemberi peringatan (pl. dari نذير)|o;v;o
-هاجر|berhijrah (III, يهاجر، هجرة)|v
+هاجر|berhijrah (III, يهاجر، هجرة); Hajar (nama)|v;o
 وعظ|menasihati, memberi pengajaran (يعِظ، وعظ)|v
 حرث|ladang, tanaman; membajak tanah (يحرُث، حرث)|o;v
 خاسرون|orang-orang yang merugi|o
-دعاء|doa, permohonan (pl. أدعية); seruan, panggilan|o;o
+دعاء|doa, permohonan (jamak أدعية); seruan; Doaa (nama)|o;o;o
 طهر|suci, bersih (يطهُر، طهارة); kesucian; menyucikan (II, يطهر، تطهير)|v;o;v
 فسق|menyimpang, berbuat fasik (يفسُق، فسق); kefasikan, dosa|v;o
 مسرف|orang yang berlebih-lebihan, orang yang melampaui batas|o
@@ -7727,7 +7727,7 @@
 طغى|melampaui batas, berbuat sewenang-wenang (يطغى، طغيان)|v
 غيب|yang gaib; ketidakhadiran|o;o
 لدن|sisi, dekat; من لدن: dari (sisi)|o;n
-نكح|menikahi (ينكِح، نكاح)|v
+نكح|menikah (istilah agama, hukum) (ينكِح، نكاح); bersetubuh (kasar)|v;v
 أعراب|orang Arab Badui, Arab gurun|o
 اصطفى|memilih (VIII, يصطفي، اصطفاء)|v
 جهر|mengeraskan suara, menampakkan (يجهَر، جهر); suara keras, keterusterangan|v;o
@@ -7736,9 +7736,9 @@
 شفيع|pemberi syafaat (pl. شفعاء)|o
 طمع|ketamakan; harapan, kerinduan; mengharapkan, menginginkan (يطمَع، طمع)|o;o;v
 قرآن|Al-Qur'an; bacaan|o;o
-مبشر|pembawa kabar gembira|o
+مبشر|menjanjikan, menggembirakan (نتائج مبشرة: hasil yang menjanjikan); pembawa kabar baik; misionaris|o;o;o
 نفر|sekelompok orang, rombongan (pl. أنفار); berangkat (ينفِر، نفير); lari, menjauhi (نفور)|o;v;v
-بشير|pembawa kabar gembira, pemberita|o
+بشير|pembawa kabar gembira, pewarta; Bashir (nama)|o;o
 تالله|demi Allah! (sumpah)|o
 تبارك|Mahasuci, Mahaberkah (V); تبارك الله: Mahasuci Allah|v;n
 تتقوا|kamu (jamak) bertakwa, kamu menjaga diri|f2s2p
@@ -7760,19 +7760,19 @@
 تنذر|kamu memberi peringatan; dia (pr.) memberi peringatan|f2s2p;f3s
 حسرة|penyesalan, kepedihan|o
 حفيظ|pemelihara, penjaga|o
-خلاق|bagian, nasib; Maha Pencipta (nama Allah)|o;o
+خلاق|kreatif; Sang Pencipta (salah satu nama Tuhan); bagian, jatah|o;o;o
 زاغ|menyimpang, berpaling (يزيغ، زيغ)|v
 زبر|kitab-kitab, lembaran (pl. dari زبور); potongan, bongkahan (besi)|o;o
 صفا|jernih, bersih (يصفو، صفاء); الصفا: Shafa (bukit di Makkah)|v;n
 طاف|mengelilingi, bertawaf (يطوف، طواف); mendatangi, menimpa|v;v
 طيبات|yang baik-baik, rezeki yang baik|o
-فؤاد|hati (pl. أفئدة)|o
+فؤاد|hati (jamak أفئدة); Fouad (nama)|o;o
 قعد|duduk (يقعُد، قعود); tinggal di belakang, tidak ikut|v;v
 مثقال|berat, timbangan; مثقال ذرة: seberat zarah|o;n
 ناصرين|para penolong (jamak)|o
 أثيم|pendosa, berdosa|o
 أعوج|bengkok (f. عوجاء، pl. عوج)|o
-أهدى|lebih mendapat petunjuk; memberi hadiah (IV, يهدي، إهداء)|o;v
+أهدى|menghadiahkan, memberikan (IV, يهدي، إهداء); mempersembahkan (buku, lagu); lebih terbimbing|v;v;o
 اتبعوه|ikutilah dia! (jamak); mereka mengikutinya|o;f3p
 بخس|mencurangi, mengurangi takaran (يبخَس، بخس); murah, rendah (harga)|v;o
 برز|keluar, tampak (يبرُز، بروز)|v
@@ -7786,12 +7786,12 @@
 ضلالة|kesesatan, penyimpangan|o
 عاكف|tekun (beribadah), beriktikaf|o
 عزم|tekad, kebulatan hati; bertekad, berketetapan hati (يعزِم، عزم)|o;v
-غابر|orang yang tertinggal|o
+غابر|silam, lampau (الزمن الغابر: zaman silam); orang yang tertinggal|o;o
 مآب|tempat kembali, kesudahan (baik atau buruk)|o
 مبصر|terang, jelas; melihat|o;o
 متكبر|sombong, angkuh; Yang Memiliki Kebesaran (nama Allah)|o;o
 مرد|kembali, penolakan; لا مرد له: yang tidak dapat ditolak|o;n
-مطهر|disucikan, suci|o
+مطهر|desinfektan, antiseptik; disucikan, suci; api penyucian|o;o;o
 منيب|kembali (kepada Allah) dengan bertobat|o
 مهاد|tempat istirahat, hamparan; buaian|o;o
 ناقة|unta betina (pl. نوق)|f3s
@@ -7800,11 +7800,11 @@
 اعبدوه|sembahlah Dia! (jamak)|o
 بغي|kezaliman, penindasan; pezina (perempuan)|o;o
 بهتان|fitnah, dusta besar|o
-حاج|membantah, berdebat dengan (III, يحاج، محاجة); jamaah haji (pl. حجاج)|v;o
+حاج|jemaah haji, haji (jamak حجاج); gelar hormat untuk pria tua (يا حاج); berdebat dengan, membantah (III, يحاج، محاجة)|o;o;v
 خر|tersungkur, runtuh (يخِر، خرور)|v
 رءوسهم|kepala-kepala mereka|o
 رجيم|terkutuk, terusir (harfiah: dirajam)|o
-زكي|suci, saleh|o
+زكي|suci, saleh; harum (رائحة زكية: bau yang wangi); Zaki (nama)|o;o;o
 ظهير|penolong, pendukung|o
 عداوة|permusuhan, kebencian|o
 غل|dendam, kedengkian; belenggu (pl. أغلال)|o;o
@@ -7816,10 +7816,10 @@
 قهار|Yang Maha Perkasa, Yang Mahakuasa (nama Allah)|o
 مدكر|orang yang mengambil pelajaran, orang yang ingat|o
 مكرم|dimuliakan|o
-منير|bercahaya, menerangi|o
+منير|bersinar, menerangi; Mounir (nama)|o;o
 ند|tandingan, sekutu (pl. أنداد)|o
 نكونن|kami pasti akan menjadi (penegasan)|f1p
-أحبط|menghapuskan, membatalkan (IV, يحبط، إحباط)|v
+أحبط|menggagalkan, mengagalkan (IV, يحبط، إحباط); mengecewakan, mematahkan semangat; membatalkan, membuat tidak sah|v;v;v
 أفئدة|hati-hati|o
 أفاض|mencurahkan, meluap (IV, يفيض، إفاضة); bertolak, berangkat|v;v
 ائتوني|bawalah kepadaku!; datanglah kepadaku! (jamak)|o;o
@@ -7885,7 +7885,7 @@
 رجفة|gempa, guncangan|o
 شعيرة|syiar, tanda-tanda agama (pl. شعائر)|o
 شهاب|bintang jatuh, nyala api (pl. شهب)|o
-صبار|sangat sabar, tabah; kaktus|o;o
+صبار|kaktus; lidah buaya (aloe vera); sangat sabar, teguh|o;o;o
 صفح|memaafkan, melapangkan dada (يصفَح، صفح); maaf|v;o
 صلح|perdamaian, kesepakatan damai; menjadi baik, menjadi saleh (يصلُح، صلاح)|o;v
 صلصال|tanah liat kering yang berdenting|o
@@ -7908,9 +7908,9 @@
 ملكوت|kerajaan, kekuasaan|o
 ممنون|berterima kasih, berutang budi; غير ممنون: tiada putus-putusnya|o;n
 موقنين|yakin, sangat yakin (jamak)|o
-ميسر|judi, permainan untung-untungan; dimudahkan|o;o
+ميسر|mudah, dipermudah, terjangkau (قرض ميسر: pinjaman lunak); judi, permainan untung-untungan|o;o
 نرينك|Kami perlihatkan kepadamu; Kami akan perlihatkan kepadamu|f1p;f1p
-نسف|menerbangkan, menghamburkan (ينسِف، نسف); peledakan|v;o
+نسف|meledakkan, meruntuhkan (ينسِف، نسف); menerbangkan, menyebarkan; peledakan|v;v;o
 هاتوا|datangkanlah! tunjukkanlah! (jamak)|o
 يعظكم|menasihati kamu (jamak); dia menasihati kamu|o;f3s
 آتوهم|berikanlah kepada mereka! (jamak)|o
@@ -7966,7 +7966,7 @@
 رجزا|azab, wabah; kotoran|o;o
 ردوها|kembalikanlah itu! (jamak); mereka mengembalikannya|o;f3p
 رزقناهم|Kami beri mereka rezeki|f1p
-رغد|kelimpahan, kesenangan; رغدا: dengan leluasa, dengan berlimpah|o;n
+رغد|kelimpahan, kemudahan; رغدا: bebas, berlimpah; Raghad (nama)|o;n;o
 زقوم|Zaqqum (pohon di neraka)|o
 زكى|menyucikan (II, يزكي، تزكية); tumbuh, menjadi suci (يزكو، زكاء)|v;v
 زلفة|kedekatan|o
@@ -7975,9 +7975,9 @@
 سندس|sutra halus|o
 شرع|memulai (يشرَع، شروع); menetapkan, mensyariatkan (يشرَع، شرع); hukum, syariat|v;v;o
 صافات|berbaris bersaf-saf; (burung) dengan sayap terkembang (pr. jamak)|o;o
-صرصر|kecoak, jangkrik; (angin) yang sangat dingin dan bergemuruh|o;o
+صرصر|kecoak; jangkrik; angin dingin yang menderu|o;o;o
 ضاق|menjadi sempit, sesak (يضيق، ضيق); ضاق ذرعا: tidak sanggup menghadapi|v;n
-ضياء|cahaya, sinar|o
+ضياء|cahaya, sinar; Diaa (nama)|o;o
 طوى|melipat, menggulung (يطوي، طي); Tuwa (lembah suci)|v;o
 عادون|orang-orang yang melampaui batas (jamak)|o
 عاصم|pelindung, penjaga; Asim (nama)|o;o
@@ -7987,17 +7987,17 @@
 عير|kafilah|o
 غار|gua (pl. غيران); meresap ke dalam tanah (tentang air) (يغور، غور); cemburu (يغار، غيرة)|o;v;v
 غدو|pagi hari, waktu pagi|o
-غض|menundukkan (pandangan, suara) (يغُض، غض); segar, lembut|v;o
+غض|menundukkan (pandangan, suara) (يغُض، غض); غض النظر / غض الطرف: mengabaikan, menutup mata (+ عن); segar, lembut|v;n;o
 غيث|hujan|o
 فصدوا|lalu mereka menghalangi (orang lain), lalu mereka berpaling|o
 قاهر|berkuasa, tak terkalahkan; القاهر: Yang Maha Menundukkan (nama Allah)|o;n
-قوام|perawakan, kekentalan; kesederhanaan, keseimbangan|o;o
+قوام|perawakan, bentuk tubuh, postur; kekentalan, tekstur; kesederhanaan, keseimbangan|o;o;o
 مبدل|yang mengubah, yang mengganti|o
 متعناهم|Kami beri mereka kesenangan|f1p
 مثنى|dua-dua, berpasangan; bentuk dual|o;o
 مجاهد|pejuang (dalam jihad); orang yang bersungguh-sungguh|o;o
 مرج|padang rumput (pl. مروج); membiarkan mengalir, mencampurkan (يمرُج، مرج)|o;v
-مسنون|dibentuk, berubah (tentang lumpur); diasah|o;o
+مسنون|orang lanjut usia (jamak dari مسن); diasah; dibentuk, diubah (tanah liat)|o;o;o
 مشركات|perempuan-perempuan musyrik|o
 مشهود|disaksikan, dihadiri; terkenal|o;o
 مضجع|tempat tidur, tempat berbaring (pl. مضاجع)|o
@@ -8009,13 +8009,13 @@
 ميقات|waktu yang ditentukan (pl. مواقيت)|o
 ميمنة|sisi kanan; sayap kanan; أصحاب الميمنة: golongan kanan|o;o;n
 نؤته|Kami berikan kepadanya|f1p
-ناصية|ubun-ubun, jambul; dahi (pl. نواص)|o;o
+ناصية|sudut jalan; jambul; dahi (jamak نواص)|o;o;o
 نتلوها|Kami membacakannya|f1p
 نتوفينك|Kami wafatkan engkau|f1p
 نذقه|Kami rasakan kepadanya|f1p
 نزغ|menimbulkan perselisihan (ينزَغ، نزغ); godaan setan|v;o
 نصح|menasihati (ينصَح، نصح، نصيحة); nasihat|v;o
-نقض|melanggar (janji, perjanjian), membatalkan (ينقُض، نقض)|v
+نقض|melanggar (janji, perjanjian), membatalkan (ينقُض، نقض); حق النقض: hak veto|v;n
 نكالا|hukuman yang menjadi pelajaran, contoh yang menjerakan|o
 هين|mudah, ringan, remeh|o
 وثن|berhala (pl. أوثان)|o
@@ -8177,7 +8177,7 @@
 غنائي|liris, musik, bernyanyi (فرقة غنائية: grup musik)|o
 متتال|berturut-turut, beruntun|o
 دلفين|lumba-lumba (jmk. دلافين)|o
-وفاء|kesetiaan; penunaian (janji)|o;o
+وفاء|kesetiaan, kejujuran; pemenuhan (janji); Wafaa (nama)|o;o;o
 فيسبوك|Facebook|o
 أدرينالين|adrenalin|o
 قمح|gandum|o
@@ -8227,7 +8227,7 @@
 منتفخ|bengkak, kembung|o
 حضيض|titik terendah, dasar jurang|o
 آهة|rintihan, desahan|o
-ابتسام|tersenyum|o
+ابتسام|senyum; Ibtisam (nama)|o;o
 إصلاحي|reformis, perbaikan; إصلاحية: lembaga pemasyarakatan anak|o;n
 كرتون|karton; kartun|o;o
 مكسرات|kacang-kacangan|o
@@ -8372,7 +8372,7 @@
 ضاهى|menyamai, menandingi (III, يضاهي، مضاهاة)|v
 كوبرا|kobra|o
 اقتصر|terbatas pada (+ على) (VIII, يقتصر، اقتصار)|v
-تجرا|berani (V, يتجرأ، تجرؤ)|v
+تجرا|berani (V, يتجرأ، تجرؤ) (ejaan ceroboh untuk تجرأ)|v
 أميرال|laksamana|o
 إقرار|pengakuan; pernyataan (الإقرار الضريبي: SPT pajak)|o;o
 زراعي|pertanian|o
@@ -8469,7 +8469,7 @@
 بركاني|vulkanik|o
 عتاد|perlengkapan, peralatan, amunisi|o
 امتلأ|penuh, terisi (VIII, يمتلئ، امتلاء)|v
-كرتوني|karton (adj.) (علبة كرتونية: kotak karton)|o
+كرتوني|dari kardus (adj.) (علبة كرتونية: kotak kardus); kartun, animasi (رسوم كرتونية: kartun)|o;o
 ثاقب|tajam, menembus (نظرة ثاقبة: tatapan tajam)|o
 جبري|wajib, paksa (الإقامة الجبرية: tahanan rumah); aljabar (adj.)|o;o
 قنصل|konsul|o
@@ -8582,7 +8582,7 @@
 سارع|bersegera, berlomba-lomba (III, يسارع، مسارعة)|v
 عاذ|berlindung (+ ب) (يعوذ، عوذ); أعوذ بالله: aku berlindung kepada Allah|v;n
 متكئ|bersandar, berbaring|o
-محضر|dihadirkan; berita acara, notulen|o;o
+محضر|berita acara, laporan, notulen (rapat); dihadirkan, dibuat hadir|o;o
 يحيى|Yahya (nabi); dia hidup|o;f3s
 أورث|mewariskan (IV, يورث، إيراث)|v
 استبشر|bergembira (dengan kabar baik) (X, يستبشر، استبشار)|v
@@ -8591,7 +8591,7 @@
 رازق|pemberi rezeki (خير الرازقين: sebaik-baik pemberi rezeki)|o
 فاحشة|perbuatan keji, kemaksiatan (jmk. فواحش)|o
 فرقان|pembeda (antara hak dan batil); الفرقان: Al-Furqan (Al-Qur'an)|o;n
-نهى|melarang (+ عن) (ينهى، نهي)|v
+نهى|melarang (+ عن) (ينهى، نهي); larangan, pencegahan (النهي عن المنكر); Noha (nama)|v;o;o
 اجتنب|menjauhi, menghindari (VIII, يجتنب، اجتناب)|v
 استأخر|menunda, terlambat (X, يستأخر)|v
 استضعف|menganggap lemah, menindas (X, يستضعف، استضعاف)|v
@@ -8628,7 +8628,7 @@
 نفور|kebencian, lari menjauh|o
 أزلف|mendekatkan (IV, يزلف، إزلاف)|v
 أغوى|menyesatkan, menggoda (IV, يغوي، إغواء)|v
-ألحد|menyimpang, menjadi ateis (IV, يلحد، إلحاد); memutarbalikkan|v;v
+ألحد|menjadi ateis (IV, يلحد، إلحاد); menyimpang; memutarbalikkan|v;v;v
 اجتبى|memilih (VIII, يجتبي، اجتباء)|v
 استبق|berlomba, berlomba-lomba (VIII, يستبق، استباق)|v
 استحب|lebih menyukai (X, يستحب، استحباب)|v
@@ -8640,12 +8640,12 @@
 جدث|kubur (jmk. أجداث)|o
 حاشر|pengumpul, pemanggil|o
 حمأ|lumpur hitam|o
-حواري|murid, hawari (pengikut Isa) (الحواريون: para hawari)|o
+حواري|dialog, perbincangan (adj.) (برنامج حواري: talk show); gang, lorong (jamak dari حارة); murid, rasul (Isa) (الحواريون: para murid)|o;o;o
 خرص|menduga-duga; berdusta (يخرُص، خرص)|v;v
 خسف|membenamkan (ke dalam bumi); gerhana (bulan) (يخسِف، خسوف)|v;v
 ذائق|merasakan (كل نفس ذائقة الموت: setiap jiwa akan merasakan mati)|o
 شفع|memberi syafaat (+ ل) (يشفَع، شفاعة)|v
-شيعة|pengikut, golongan; Syiah|o;o
+شيعة|kaum Syiah; pengikut, partai|o;o
 صنم|berhala (jmk. أصنام)|o
 عقر|menyembelih, memotong urat kaki (unta) (يعقِر، عقر); kemandulan|v;o
 قانت|taat (kepada Allah)|o
@@ -8668,10 +8668,10 @@
 مهطع|bergegas, berjalan cepat (dengan leher terjulur)|o
 نافق|bersikap munafik (III, ينافق، نفاق)|v
 نشور|kebangkitan (dari kubur)|o
-هدى|memberi petunjuk (يهدي، هداية); petunjuk, hidayah|v;o
+هدى|membimbing (يهدي، هداية); petunjuk; Huda (nama)|v;o;o
 وسوس|membisikkan (kejahatan), menggoda (يوسوس، وسوسة)|v
 ولج|masuk, memasuki (يلِج، ولوج)|v
-ذمة|perlindungan, perjanjian; tanggungan, hati nurani (في ذمة: dalam tanggungan)|o;o
+ذمة|perlindungan, perjanjian; hati nurani; tanggungan, kewajiban (في ذمة: dalam tanggungan)|o;o;o
 رمان|delima|o
 زلزل|mengguncangkan (يزلزل، زلزلة)|v
 طوفان|banjir besar, air bah|o
@@ -10907,7 +10907,7 @@
 أوريغامي|origami|o
 استلهم|mengambil inspirasi dari (X, يستلهم، استلهام)|v
 انسجم|selaras, akur (VII, ينسجم، انسجام)|v
-بربر|bangsa Berber|o
+بربر|suku Berber (bisa menyinggung; أمازيغ lebih disukai)|o
 تخليص|pengurusan, pembebasan; penyelamatan|o;o
 ترددات|frekuensi|o
 تسابق|berlomba, bersaing (VI, يتسابق، تسابق)|v

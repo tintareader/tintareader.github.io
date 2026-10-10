@@ -103,7 +103,7 @@ nosso|kami, kita (milik kami, milik kita); (Nossa!, berdiri sendiri) wah!, astag
 outro|lain, yang lain|o
 sou|(jati diri, sifat) saya adalah|f1s
 são|mereka adalah; kalian adalah; Santo (dalam nama: São Paulo)|f3s;f2s2p;o
-obrigado|terima kasih (diucapkan laki-laki; perempuan mengucapkan obrigada)|o
+obrigado|terima kasih (diucapkan pria; wanita berkata obrigada); berutang budi, terpaksa|o;o
 posso|saya bisa|f1s
 acho|saya pikir, menurut saya|f1s
 sobre|tentang, di atas|o
@@ -123,13 +123,13 @@ até|sampai, hingga; bahkan|o;o
 assim|begini, begitu|o
 casa|rumah; dia menikah; kamu menikah|o;f3s;f2s2p
 nunca|tidak pernah|o
-cara|orang, bung (maskulin); wajah (feminin)|o;o
+cara|cowok, orang (m.); wajah, muka (f.); mahal (f.)|o;o;o
 vocês|kalian|f2s2p
 deixar|meninggalkan; membiarkan; deixar de: berhenti (melakukan)|v;v;n
 quê|apa|o
 essa|itu (feminin, dekat lawan bicara)|o
 à|ke, pada (a + a)|o
-pai|ayah; orang tua (pais)|o;o
+pai|ayah; pais: orang tua|o;n
 também|juga|o
 este|ini (sebelum kata benda)|o
 melhor|lebih baik, terbaik|o
@@ -241,7 +241,7 @@ chamar|memanggil; chamar-se: bernama|v;n
 nenhum|tidak ada, tak satu pun|o
 vão|mereka pergi, mereka akan; kalian pergi, kalian akan; sia-sia|f3p;f2s2p;o
 certeza|kepastian; com certeza: tentu saja, pasti|o;n
-ligar|menelepon; menyalakan; peduli (ligar para)|v;v;v
+ligar|menelepon; menyalakan; peduli (ligar para); menghubungkan, menyambungkan|v;v;v;v
 ok|oke|o
 tipo|jenis, tipe; kayak, semacam (pengisi jeda)|o;o
 lembrar|ingat (lembrar de)|v
@@ -254,7 +254,7 @@ tirar|mengeluarkan, melepas; tirar uma foto: memotret|v;n
 menos|kurang, lebih sedikit; kecuali; pelo menos: setidaknya; mais ou menos: kurang lebih, lumayan|o;o;n;n
 continuar|melanjutkan, terus|v
 trazer|membawa (ke sini)|v
-morto|mati, tewas|o
+morto|mati; dibunuh (matar)|o;o
 importar|penting; mengimpor|v;v
 feliz|bahagia, senang|o
 tomar|mengambil (minuman, keputusan); minum; tomar conta de: menjaga, merawat|v;v;n
@@ -292,7 +292,7 @@ momento|saat, momen|o
 dormir|tidur|v
 irmão|saudara laki-laki; saudara perempuan (feminin)|o;o
 frente|depan; em frente: terus ke depan|o;n
-merda|tahi, sial (kasar)|o
+merda|tahi, sialan (vulgar)|o
 indo|sedang pergi|o
 próximo|berikutnya; dekat|o;o
 descobrir|mengetahui, menemukan|v
@@ -346,13 +346,13 @@ nova|baru (feminin)|o
 contra|melawan, terhadap|o
 terminar|selesai, mengakhiri; terminar com: putus dengan|v;n
 cair|jatuh|v
-quarto|kamar, kamar tidur; keempat|o;o
+quarto|kamar, kamar tidur; keempat; seperempat|o;o;o
 morte|kematian|o
 perto|dekat|o
 seguir|mengikuti; melanjutkan|v;v
 jogar|melempar; bermain (permainan)|v;v
 idiota|orang bodoh; bodoh|o;o
-demais|terlalu banyak; selain itu|o;o
+demais|terlalu banyak, terlalu; os demais / as demais: yang lain, sisanya; lagi pula (sastra)|o;n;o
 caminho|jalan|o
 mês|bulan|o
 polícia|polisi|o
@@ -426,9 +426,9 @@ pois|karena, jadi; pois é: memang, betul|o;n
 negócio|bisnis, usaha; hal, barang|o;o
 ontem|kemarin|o
 marido|suami|o
-rapaz|anak muda, pemuda; gadis, pemudi (Portugis Eropa) (feminin)|o;o
+rapaz|anak laki-laki, pemuda; anak perempuan, gadis muda (Port. Portugal; kasar di Brasil) (f.)|o;o
 mil|ribu, seribu|o
-plano|rencana; datar|o;o
+plano|rencana; datar; bidang, tingkat; em primeiro plano: di latar depan; em segundo plano: di latar belakang|o;o;o;n;n
 jovem|muda; anak muda|o;o
 sangue|darah|o
 numa|di sebuah (feminin) (em + uma)|o
@@ -452,7 +452,7 @@ lutar|berkelahi, berjuang|v
 maneira|cara|o
 ponto|titik, poin; titik, noktah; tempat; ponto de ônibus: halte bus; em ponto: tepat (às três em ponto)|o;o;o;n;n
 atirar|menembak; melempar|v;v
-direito|hak; lurus; dengan benar|o;o;o
+direito|hak; kanan (bukan kiri); lurus; dengan benar|o;o;o;o
 médico|dokter|o
 pé|kaki|o
 livro|buku|o
@@ -473,7 +473,7 @@ cinco|lima|o
 bebê|bayi|o
 aprender|belajar|v
 idéia|ide, gagasan (ejaan lama)|o
-saia|rok; keluar! (sair)|o;o
+saia|rok; keluar! (sair); (agar) aku/dia keluar|o;o;f1s
 tornar|menjadi (tornar-se); membuat|v;v
 possível|mungkin|o
 força|kekuatan, tenaga; ayo!, semangat! (dorongan)|o;o
@@ -482,7 +482,7 @@ vê|dia melihat; kamu melihat; lihat!|f3s;f2s2p;o
 dessa|dari itu (feminin) (de + essa)|o
 telefone|telepon|o
 tocar|menyentuh; memainkan (musik)|v;v
-partir|berangkat, pergi; a partir de: mulai dari|v;n
+partir|pergi; a partir de: mulai dari; mematahkan|v;n;v
 bastante|cukup; banyak|o;o
 café|kopi; café da manhã: sarapan|o;n
 neste|di (…) ini, dalam (…) ini (em + este)|o
@@ -516,7 +516,7 @@ roupa|pakaian, baju|o
 ordem|perintah; urutan|o;o
 rua|jalan|o
 aceitar|menerima|v
-baixo|rendah, pendek; em baixo: di bawah|o;n
+baixo|rendah, pendek; em baixo: di bawah; para baixo: ke bawah|o;n;n
 mau|buruk, jahat|o
 cantar|menyanyi|v
 cama|tempat tidur, ranjang|o
@@ -543,7 +543,7 @@ comida|makanan|o
 milhão|juta|o
 explicar|menjelaskan|v
 preso|ditangkap, dipenjara; tahanan|o;o
-trás|para trás: ke belakang; atrás de: di belakang; por trás: dari belakang, di balik|n;n;n
+trás|para trás: ke belakang; atrás de: di belakang; por trás: dari belakang, di belakang; de trás: belakang, bagian belakang|n;n;n;n
 calma|tenang; tenanglah!|o;o
 passado|masa lalu; lalu (minggu lalu)|o;o
 sentar|duduk (sentar-se)|v
@@ -667,7 +667,7 @@ ar|udara|o
 céu|langit; surga|o;o
 uh|eh|o
 merecer|pantas, layak mendapat|v
-visto|terlihat; visa; pelo visto: rupanya|o;o;n
+visto|terlihat; visa; pelo visto: tampaknya; visto que: karena, mengingat|o;o;n;n
 assistir|menonton; menghadiri|v;v
 frio|dingin|o
 ataque|serangan|o
@@ -715,7 +715,7 @@ igual|sama|o
 acidente|kecelakaan|o
 cansado|lelah, capek|o
 simplesmente|hanya, begitu saja|o
-ocupado|sibuk|o
+ocupado|sibuk; diduduki; dijabat (jabatan)|o;o;o
 show|pertunjukan, konser|o
 natal|Natal|o
 hotel|hotel|o
@@ -812,7 +812,7 @@ atender|menjawab (telepon, pintu); melayani, menangani|v;v
 mover|memindahkan, bergerak|v
 missão|misi|o
 passa|dia lewat; dia menghabiskan (waktu); se passar: terjadi, berlangsung (o que se passa?)|f3s;f3s;n
-juro|saya bersumpah|f1s
+juro|aku bersumpah; bunga (uang)|f1s;o
 enganar|menipu; enganar-se: keliru|v;n
 guardar|menyimpan; membereskan, menaruh kembali|v;v
 negro|kulit hitam (orang)|o
@@ -904,8 +904,8 @@ respirar|bernapas|v
 bêbado|mabuk|o
 aguentar|tahan, menahan|v
 carne|daging; tubuh, daging (manusia)|o;o
-vista|pemandangan; penglihatan|o;o
-saco|kantong, tas; encher o saco: mengganggu, menjengkelkan|o;n
+vista|pemandangan; penglihatan; terlihat (f.)|o;o;o
+saco|tas, kantong; encher o saco: mengganggu; menyebalkan (percakapan); de saco cheio: jengkel, muak|o;n;o;n
 desses|dari itu (de + esses)|o
 santo|orang suci, santo; suci|o;o
 época|zaman, masa|o
@@ -1000,12 +1000,12 @@ vinho|anggur (minuman)|o
 colega|rekan, kawan|o
 beijar|mencium|v
 tia|bibi|o
-toque|sentuhan; dering (telepon); sentuhlah!, mainkanlah! (tocar)|o;o;o
+toque|sentuhan; dering (telepon); sentuh! (tocar); mainkan! (tocar)|o;o;o;o
 explodir|meledak, meledakkan|v
 foder|bercinta, ngentot (kasar)|v
 memória|ingatan, kenangan|o
 sul|selatan|o
-marca|merek; tanda, bekas; dia menandai, mencetak (gol); kamu menandai|o;o;f3s;f2s2p
+marca|merek; tanda; dia menandai; dia mencetak gol; kamu menandai|o;o;f3s;f3s;f2s2p
 cheiro|bau, aroma|o
 direto|langsung; segera|o;o
 assumir|mengambil alih (peran); mengakui|v;v
@@ -1013,7 +1013,7 @@ gay|gay|o
 favorito|favorit, kesayangan|o
 sucesso|kesuksesan, keberhasilan|o
 relatório|laporan|o
-culpado|bersalah|o
+culpado|bersalah; pelaku|o;o
 inocente|tidak bersalah|o
 sargento|sersan|o
 inteiro|utuh, seluruh|o
@@ -1093,7 +1093,7 @@ raiva|kemarahan; rabies|o;o
 ora|nah, jadi|o
 carregar|membawa, mengangkut; mengisi daya (baterai); memuat|v;v;v
 registro|catatan, register|o
-liga|dia menelepon; dia menghubungkan; liga|f3s;f3s;o
+liga|menelepon; menyalakan (perangkat); menghubungkan; liga|f3s;f3s;f3s;o
 estação|stasiun; musim|o;o
 cadê|di mana? (lisan)|o
 vídeo|video|o
@@ -1125,7 +1125,7 @@ beijo|ciuman; saya mencium|o;f1s
 visão|penglihatan, visi|o
 ferido|terluka|o
 fantasma|hantu|o
-metro|meter; kereta bawah tanah|o;o
+metro|meter; kereta bawah tanah (Port. Portugal)|o;o
 brincadeira|lelucon, candaan; permainan|o;o
 cadeira|kursi|o
 checar|mengecek (informal, dari bahasa Inggris)|v
@@ -1219,7 +1219,7 @@ diante|diante de: di hadapan, menghadapi|n
 mala|koper|o
 envolver|melibatkan; membungkus|v;v
 trair|mengkhianati; berselingkuh|v;v
-companheiro|teman, kawan|o
+companheiro|teman, kawan; pasangan (dalam hubungan)|o;o
 banda|band, kelompok musik|o
 aberto|terbuka|o
 limite|batas|o
@@ -1243,7 +1243,7 @@ gelo|es|o
 corrida|lomba lari, balapan; perjalanan (taksi)|o;o
 política|politik; kebijakan|o;o
 caramba|wah!, astaga!|o
-busca|pencarian; dia mencari, menjemput; kamu mencari|o;f3s;f2s2p
+busca|pencarian; dia mencari; dia menjemput; kamu mencari|o;f3s;f3s;f2s2p
 departamento|departemen|o
 acompanhar|menemani; mengikuti|v;v
 profissional|profesional|o
@@ -1319,7 +1319,7 @@ esquerdo|kiri|o
 armar|mempersenjatai; memasang, menyiapkan|v;v
 limpeza|pembersihan, kebersihan|o
 resolvido|terselesaikan, beres|o
-desaparecido|hilang|o
+desaparecido|menghilang (desaparecer); hilang|o;o
 vc|kamu (singkatan tulisan dari você)|f2s2p
 novato|pemula, anak baru|o
 delicado|halus, rapuh|o
@@ -1377,7 +1377,7 @@ congelar|membeku, membekukan|v
 muro|tembok (di luar)|o
 enrolar|membungkus, menggulung; mengulur-ulur, bertele-tele|v;v
 rude|kasar|o
-combinado|sepakat, beres|o
+combinado|sepakat, kesepakatan; gabungan|o;o
 frito|goreng; estar frito: habislah, celaka|o;n
 riso|tawa|o
 heroína|pahlawan wanita; heroin|o;o
@@ -1439,7 +1439,7 @@ contado|diceritakan, dihitung|o
 cobrar|menagih (uang); menuntut, meminta pertanggungjawaban|v;v
 tragédia|tragedi|o
 pescar|memancing|v
-salva|dia menyelamatkan|f3s
+salva|menyelamatkan; tembakan salvo, rentetan (n.); salva de palmas: tepuk tangan meriah|f3s;o;n
 perfil|profil|o
 solto|lepas, bebas|o
 soco|pukulan, tinju|o
@@ -1602,7 +1602,7 @@ gravata|dasi|o
 ex|mantan|o
 assento|tempat duduk|o
 foco|fokus|o
-mijar|kencing (kasar)|v
+mijar|kencing (vulgar)|v
 horror|kengerian, horor|o
 lama|lumpur|o
 vingar|membalas dendam (vingar-se)|v
@@ -1717,7 +1717,7 @@ azar|nasib sial|o
 esperado|diharapkan, ditunggu|o
 descoberta|penemuan|o
 nervo|saraf|o
-sacar|menarik (uang); mencabut (senjata)|v;v
+sacar|menarik (uang); menarik (pistol); paham, mengerti (Bras., bahasa gaul)|v;v;v
 gabinete|kantor, ruang kerja; kabinet|o;o
 elogio|pujian|o
 mídia|media|o
@@ -1790,7 +1790,7 @@ amigável|ramah, bersahabat|o
 isca|umpan|o
 radiação|radiasi|o
 marinheiro|pelaut|o
-gozar|menikmati; mengejek; orgasme (kasar)|v;v;v
+gozar|menikmati; menggoda, mengejek; orgasme (seksual, vulgar)|v;v;v
 lesão|cedera|o
 observação|pengamatan, komentar|o
 exausto|kelelahan|o
@@ -1878,7 +1878,7 @@ atmosfera|atmosfer, suasana|o
 músico|musisi|o
 trono|takhta|o
 preta|hitam (feminin)|o
-rodar|berputar; memutar, syuting (film)|v;v
+rodar|berputar; syuting (film); menjalankan (program)|v;v;v
 suprimento|pasokan|o
 perspectiva|sudut pandang, perspektif|o
 servo|pelayan, hamba|o
@@ -1943,7 +1943,7 @@ gelado|dingin sekali|o
 lanterna|senter|o
 conforme|sesuai dengan, menurut|o
 entediado|bosan|o
-puto|marah besar (kasar)|o
+puto|murka, kesal (vulgar); anak kecil (Port. Portugal, percakapan)|o;o
 mexicano|Meksiko|o
 injusto|tidak adil|o
 autorizado|berwenang, diizinkan|o
@@ -1964,7 +1964,7 @@ transferido|dipindahkan|o
 ceder|mengalah; memberi jalan, ambruk|v;v
 incrivelmente|luar biasa|o
 riqueza|kekayaan|o
-motel|motel|o
+motel|motel cinta (disewa per jam); motel|o;o
 escrita|tulisan|o
 barão|baron|o
 tremendo|luar biasa, dahsyat|o
@@ -1986,7 +1986,7 @@ cabe|dia muat|f3s
 noção|gagasan, pengertian|o
 trailer|trailer, cuplikan|o
 dobrar|melipat; melipatgandakan; berbelok (di tikungan)|v;v;v
-otário|orang bodoh, korban tipu|o
+otário|bodoh, tolol (bahasa gaul)|o
 decepcionar|mengecewakan|v
 durão|jagoan, orang keras|o
 abuso|penyalahgunaan, pelecehan|o
@@ -2011,14 +2011,14 @@ fama|ketenaran|o
 considerado|dianggap|o
 publicidade|periklanan; publisitas|o;o
 radar|radar|o
-bicha|banci, homo (hinaan yang menyinggung)|o
+bicha|banci (hinaan kasar); antrean (Port. Portugal)|o;o
 decidido|diputuskan, mantap|o
 nascido|lahir|o
 gabar|menyombongkan diri (gabar-se)|v
 sobra|sisa; tersisa|o;f3s
 ala|sayap (gedung)|o
 cabra|kambing|o
-cento|por cento: persen|n
+cento|seratus (cento e …, 101–199); por cento: persen|o;n
 mando|saya mengirim; perintah|f1s;o
 poeira|debu|o
 hall|aula, lobi|o
@@ -2075,7 +2075,7 @@ editor|editor|o
 suspenso|ditangguhkan, diskors|o
 mergulhar|menyelam|v
 estável|stabil|o
-apelido|nama panggilan (bukan "nama keluarga")|o
+apelido|julukan; nama keluarga (Port. Portugal)|o;o
 cria|dia membesarkan, menciptakan; kamu membesarkan, menciptakan|f3s;f2s2p
 piscar|berkedip; mengedipkan mata|v;v
 misericórdia|belas kasihan|o
@@ -2204,7 +2204,7 @@ alívio|kelegaan|o
 dezembro|Desember|o
 república|republik|o
 brinca|dia bermain; dia bercanda|f3s;f3s
-ve|lihat! (tanpa aksen, vê)|o
+ve|melihat (vê tanpa aksen); kamu melihat; lihat!|f3s;f2s2p;o
 beira|tepi; à beira de: di ambang|o;n
 químico|kimia; ahli kimia|o;o
 esfregar|menggosok|v
@@ -2228,11 +2228,11 @@ amoroso|penuh kasih|o
 colapso|keruntuhan|o
 queimado|terbakar, gosong|o
 veem|mereka melihat; kalian melihat|f3p;f2s2p
-bocado|um bocado: sedikit, cukup banyak|n
+bocado|potongan, sesuap; um bocado: sedikit, cukup banyak|o;n
 secar|mengeringkan|v
 carroça|gerobak|o
 desfile|parade, pawai; peragaan busana|o;o
-importe|pentinglah!|o
+importe|(agar) itu penting (importar)|f3s
 partícula|partikel|o
 sequestrar|menculik; membajak|v;v
 tradicional|tradisional|o
@@ -2248,7 +2248,7 @@ balde|ember|o
 atores|aktor-aktor|o
 perturbado|terganggu|o
 dignidade|martabat|o
-rever|bertemu lagi, meninjau|v
+rever|melihat lagi; meninjau ulang|v;v
 ruína|reruntuhan, kehancuran|o
 torneio|turnamen|o
 equilíbrio|keseimbangan|o
@@ -2276,7 +2276,7 @@ desconfiar|tidak percaya; curiga|v;v
 sensacional|sensasional, luar biasa|o
 descontar|memberi potongan harga; melampiaskan (kepada orang lain)|v;v
 hilário|sangat lucu, kocak|o
-coletiva|konferensi pers|o
+coletiva|kolektif (f.); konferensi pers|o;o
 definitivo|pasti, final|o
 transplante|transplantasi, cangkok|o
 psicologia|psikologi|o
@@ -2339,7 +2339,7 @@ imigrante|imigran, pendatang|o
 batimento|detak (jantung)|o
 válido|sah, berlaku|o
 fratura|patah tulang, fraktur|o
-porrada|pukulan, hajaran|o
+porrada|pukulan, bogem (slang)|o
 ironia|ironi|o
 valentão|perundung, tukang gencet|o
 nó|simpul, ikatan|o
@@ -2353,7 +2353,7 @@ morfina|morfin|o
 hipoteca|hipotek, KPR|o
 conquista|penaklukan; pencapaian, prestasi|o;o
 estatística|statistik|o
-eletrônica|elektronika|o
+eletrônica|elektronik (f.); elektronika|o;o
 remar|mendayung|v
 consolo|penghiburan|o
 manchete|judul berita, tajuk utama|o
@@ -2472,7 +2472,7 @@ duende|peri, kurcaci|o
 fatia|irisan, potong|o
 parlamento|parlemen|o
 castigar|menghukum|v
-copa|dapur kecil, pantri; piala (turnamen)|o;o
+copa|ruang penyimpanan makanan; piala (turnamen); puncak pohon, tajuk (pohon)|o;o;o
 antiquado|kuno, ketinggalan zaman|o
 lisonjeado|tersanjung|o
 cuzão|bajingan (kasar)|o
@@ -2540,7 +2540,7 @@ democrata|anggota Partai Demokrat|o
 forçada|dipaksa, terpaksa (feminin)|o
 postar|mengunggah, memposting|v
 pula|dia melompat; lompat!|f3s;o
-sacanagem|tipu daya kotor; iseng-isengan|o;o
+sacanagem|akal bulus (slang); bercanda, mengerjai (slang); cabul, seks (kasar)|o;o;o
 isqueiro|korek api|o
 sepultura|kuburan, makam|o
 tonta|pusing (feminin)|o
@@ -2669,7 +2669,7 @@ promissor|menjanjikan|o
 catar|memungut, mengumpulkan|v
 inconveniente|tidak nyaman, merepotkan; kekurangan|o;o
 atar|mengikat|v
-cessar|berhenti|v
+cessar|berhenti; cessar-fogo: gencatan senjata|v;n
 pêssego|buah persik|o
 guardanapo|serbet|o
 àquele|ke itu (a + aquele)|o
@@ -2679,9 +2679,9 @@ contínuo|terus-menerus|o
 urbano|perkotaan|o
 áudio|audio|o
 bordel|rumah bordil|o
-recém|recém-nascido: bayi baru lahir|n
+recém|baru saja, baru; recém-nascido: bayi baru lahir|o;n
 implante|implan|o
-negativa|penolakan|o
+negativa|negatif (f.); penolakan|o;o
 consentimento|persetujuan|o
 farinha|tepung|o
 primeiramente|pertama-tama|o
@@ -2837,7 +2837,7 @@ denúncia|laporan (ke polisi); tuduhan|o;o
 ingrato|tidak tahu berterima kasih|o
 fascista|fasis|o
 contaminado|terkontaminasi, tercemar|o
-irado|sangat marah|o
+irado|murka; keren, mantap (Brasil, slang)|o;o
 excursão|darmawisata, tamasya|o
 modificar|mengubah|v
 virtual|virtual|o
@@ -2850,7 +2850,7 @@ búfalo|kerbau|o
 retribuir|membalas (budi)|v
 parcial|sebagian, parsial|o
 paradeiro|keberadaan|o
-psíquico|psikis|o
+psíquico|mental, psikologis; paranormal (kekuatan)|o;o
 crescente|tumbuh, meningkat|o
 perfurar|mengebor, menusuk|v
 bracelete|gelang|o
@@ -2912,7 +2912,7 @@ sobrancelha|alis|o
 verificação|pemeriksaan, verifikasi|o
 rima|sajak, rima|o
 descuidado|ceroboh|o
-fone|headphone, gagang telepon|o
+fone|headphone; telepon, gagang telepon|o;o
 imprudente|sembrono|o
 plasma|plasma|o
 exemplar|eksemplar (buku); teladan|o;o
@@ -3012,13 +3012,13 @@ escorpião|kalajengking|o
 genuíno|asli, tulus|o
 aplicação|aplikasi, penerapan|o
 invocar|memanggil, memohon|v
-aparição|penampakan, kemunculan|o
+aparição|penampakan; kemunculan|o;o
 pose|pose, gaya|o
 espontâneo|spontan|o
 lira|lira (alat musik)|o
 titã|raksasa, titan|o
 epidemia|epidemi, wabah|o
-santidade|Sua Santidade: Yang Mulia (Paus)|n
+santidade|kesucian; Sua Santidade: Yang Mulia (Paus)|o;n
 desajeitado|kikuk, canggung|o
 inquérito|penyelidikan|o
 brigada|brigade|o
@@ -3049,7 +3049,7 @@ ajuste|penyesuaian|o
 crueldade|kekejaman|o
 névoa|kabut|o
 atlântico|Atlantik|o
-ração|pakan ternak|o
+ração|pakan ternak, makanan hewan peliharaan; jatah|o;o
 transei|saya berhubungan seks|f1s
 infiel|tidak setia|o
 cadete|kadet, taruna|o
@@ -3103,7 +3103,7 @@ diálogo|dialog, percakapan|o
 olímpico|olimpiade|o
 tumulto|kerusuhan, keributan|o
 empurrão|dorongan|o
-saque|penarikan (uang); servis (tenis)|o;o
+saque|penarikan (uang); penjarahan; servis (tenis)|o;o;o
 batedor|pengintai; pengocok|o;o
 improvisar|berimprovisasi|v
 aplicativo|aplikasi (ponsel)|o
@@ -3273,7 +3273,7 @@ visualizar|membayangkan; melihat, menampilkan|v;v
 altivo|angkuh, sombong|o
 camarote|boks, balkon khusus (di teater); kabin (di kapal)|o;o
 careta|seringai, mimik muka; kolot, kaku (bahasa sehari-hari)|o;o
-esplanada|lapangan terbuka, esplanade|o
+esplanada|esplanade; teras kafe di luar ruangan (port. Portugal)|o;o
 pudor|rasa malu, kesopanan|o
 abadia|biara|o
 correcto|benar, tepat (Portugal)|o
@@ -3309,7 +3309,7 @@ adequadamente|dengan layak, dengan semestinya|o
 estimar|memperkirakan; menghargai|v;v
 florestal|kehutanan, hutan (kata sifat)|o
 parcialmente|sebagian|o
-percentual|persentase (kata sifat); poin persentase|o;o
+percentual|persentase (adj.); persentase, tingkat|o;o
 remessa|kiriman uang; kiriman, muatan|o;o
 resiliente|tangguh, lentur|o
 editado|disunting; diterbitkan|o;o
@@ -3455,7 +3455,7 @@ paróquia|paroki|o
 revirar|membolak-balik, mengobrak-abrik; memutar (bola mata)|v;v
 variante|varian|o
 vegetar|hidup seperti tumbuhan, bermalas-malasan|v
-exibido|dipertunjukkan, dipamerkan; ditayangkan|o;o
+exibido|diperlihatkan, dipamerkan; ditayangkan; tukang pamer (Brasil, kolok.)|o;o;o
 jesuíta|Yesuit|o
 mediante|melalui, dengan cara|o
 paraguaio|orang Paraguay, Paraguay|o
@@ -3465,7 +3465,7 @@ capacitar|melatih, memberdayakan, memampukan|v
 minar|merongrong, melemahkan; menambang, memasang ranjau|v;v
 sondagem|jajak pendapat, survei; pengeboran|o;o
 suscitar|menimbulkan, membangkitkan|v
-transformada|transformasi (matematika); diubah (feminin)|o;o
+transformada|diubah (f.); transformasi (mat.)|o;o
 arfar|terengah-engah|v
 temor|ketakutan, kecemasan|o
 datado|bertanggal|o
@@ -3499,7 +3499,7 @@ fundamentalmente|pada dasarnya|o
 maximizar|memaksimalkan|v
 propagar|menyebarkan|v
 reivindicar|menuntut, mengklaim|v
-rescaldo|dampak, akibat (Portugal)|o
+rescaldo|akibat, dampak (port. Portugal); pemadaman bara (setelah kebakaran)|o;o
 designar|menunjuk, menetapkan|v
 oxigénio|oksigen (Portugal)|o
 perspetiva|perspektif, pandangan (Portugal)|o
@@ -3936,7 +3936,7 @@ concluído|selesai, rampung|o
 deriva|hanyut, pergeseran; à deriva: terombang-ambing; dia berasal dari; kamu berasal dari|o;n;f3s;f2s2p
 estrelar|membintangi; menggoreng (telur)|v;v
 orbital|orbital|o
-licenciatura|gelar sarjana|o
+licenciatura|gelar sarjana (port. Portugal); gelar sarjana pendidikan (Brasil)|o;o
 modalidade|jenis, bentuk; cabang olahraga, nomor|o;o
 regente|wali raja; dirigen|o;o
 surpreendentemente|secara mengejutkan|o
@@ -4109,7 +4109,7 @@ thriller|film atau novel ketegangan|o
 urubu|burung nasar hitam|o
 arredondar|membulatkan|v
 bis|lagi! (minta tambahan pertunjukan); dua kali|o;o
-crioulo|Kreol|o
+crioulo|Kreol; orang kulit hitam (menyinggung)|o;o
 cátedra|jabatan guru besar|o
 descritivo|deskriptif|o
 diocesano|keuskupan (kata sifat)|o
@@ -4419,7 +4419,7 @@ puzzle|teka-teki, puzzle (Portugal)|o
 tailandês|orang Thailand, bahasa Thailand|o
 acústico|akustik|o
 agrupamento|pengelompokan, gugus|o
-diretório|direktori|o
+diretório|direktori; komite (partai politik, mahasiswa)|o;o
 emancipação|emansipasi|o
 fenômenos|fenomena|o
 habitualmente|biasanya|o
@@ -4610,7 +4610,7 @@ velhaco|bajingan, penipu; curang|o;o
 zoom|zoom|o
 amostragem|pengambilan sampel|o
 automática|otomatis (feminin)|o
-bossa|gaya, bakat; bossa nova|o;o
+bossa|bakat, keahlian; bossa nova: bossa nova (musik Brasil)|o;n
 dezessete|tujuh belas|o
 elegível|memenuhi syarat|o
 judaísmo|agama Yahudi|o
@@ -4912,7 +4912,7 @@ atrizes|aktris, pemeran perempuan|o
 atuações|penampilan, akting; tindakan|o;o
 canino|anjing (kata sifat); gigi taring|o;o
 cassar|mencabut (mandat atau izin)|v
-comedor|pemakan|o
+comedor|pemakan; penggoda perempuan (Brasil, kasar)|o;o
 compilar|menyusun, menghimpun|v
 cortesão|abdi istana; sopan ala istana|o;o
 desejado|diinginkan, didambakan|o
@@ -5131,7 +5131,7 @@ baluarte|benteng, kubu pertahanan|o
 bolseiro|penerima beasiswa (Portugis Eropa)|o
 bots|bot|o
 branquelo|orang berkulit pucat, bule (bahasa gaul)|o
-cabrão|bajingan (kasar, Portugis Eropa)|o
+cabrão|bajingan (vulgar, Port. Portugal)|o
 cantil|kantong air, botol minum|o
 carolíngio|Karolingia|o
 cativeiro|penawanan, masa tawanan|o
@@ -5619,7 +5619,7 @@ velocidade|kecepatan|o
 duvidar|meragukan|v
 conhecido|dikenal; kenalan|o;o
 cinema|bioskop|o
-raio|sinar; petir; que raio: apa-apaan|o;o;n
+raio|sinar; petir; que raio: apa-apaan; jari-jari|o;o;n;o
 assustador|menakutkan|o
 perda|kehilangan, kerugian|o
 majestade|Yang Mulia, keagungan|o
@@ -5675,7 +5675,7 @@ documento|dokumen|o
 atingir|mencapai; mengenai|v;v
 parado|diam, berhenti|o
 jardim|kebun, taman|o
-altura|tinggi, ketinggian; na altura: pada waktu itu|o;n
+altura|tinggi; na altura: pada waktu itu (Port. Portugal)|o;n
 princesa|putri|o
 inútil|tidak berguna|o
 cozinhar|memasak|v
@@ -5715,7 +5715,7 @@ correto|benar, tepat|o
 acalmar|menenangkan, tenang|v
 morder|menggigit|v
 chutar|menendang|v
-central|pusat; kantor polisi|o;o
+central|pusat; pusat kendali, markas|o;o
 apoiar|mendukung|v
 alimentar|memberi makan|v
 domingo|Minggu|o
@@ -5729,7 +5729,7 @@ perseguir|mengejar|v
 cego|buta|o
 der|(kalau, ketika) saya memberi; dia memberi|f1s;f3s
 empurrar|mendorong|v
-roubo|perampokan, pencurian|o
+roubo|pencurian, perampokan; aku mencuri, aku merampok|o;f1s
 suportar|menanggung, tahan|v
 entrevista|wawancara|o
 talento|bakat|o
@@ -5821,7 +5821,7 @@ rapidamente|dengan cepat|o
 iniciar|memulai|v
 data|tanggal|o
 okay|oke|o
-lance|gerakan, langkah; tawaran (lelang); urusan, hal (slang)|o;o;o
+lance|(agar) aku/dia meluncurkan, melempar (lançar); langkah, permainan; tawaran; hal, situasi (bahasa gaul)|f1s;o;o;o
 negar|menyangkal|v
 usado|bekas, dipakai|o
 cala|cala a boca: diam|n
@@ -5851,7 +5851,7 @@ grave|serius, parah; berat (suara)|o;o
 ferrar|mengacaukan, merusak|v
 mata|dia membunuh; hutan|f3s;o
 dama|wanita, nyonya|o
-placa|papan, tanda; pelat nomor|o;o
+placa|papan tanda; pelat nomor; pelat, plakat|o;o;o
 acaso|kebetulan; por acaso: kebetulan|o;n
 curso|kursus|o
 autoridade|otoritas, wewenang|o
@@ -5859,7 +5859,7 @@ ignorar|mengabaikan; tidak tahu|v;o
 vovô|kakek; nenek (feminin)|o;o
 dano|kerusakan|o
 completo|lengkap, penuh|o
-parada|perhentian, halte; parade; barang, hal (slang)|o;o;o
+parada|perhentian; parade; barang, hal (bahasa gaul); diam, berhenti (f.)|o;o;o;o
 eliminar|menghapus, menyingkirkan|v
 torna|dia menjadi; dia membuat|f3s;f3s
 vencedor|pemenang|o
@@ -5879,7 +5879,7 @@ tarefa|tugas; pekerjaan rumah|o;o
 doido|gila|o
 temer|takut|v
 identidade|identitas|o
-macaco|monyet|o
+macaco|monyet; hinaan rasis untuk orang kulit hitam (kasar)|o;o
 compartilhar|berbagi|v
 assassinado|dibunuh|o
 objetivo|tujuan, sasaran|o
@@ -5955,7 +5955,7 @@ produto|produk|o
 ha|ada (há tanpa aksen)|o
 acontecido|terjadi|o
 fronteira|perbatasan|o
-venda|penjualan; penutup mata|o;o
+venda|penjualan; penutup mata; (agar) aku/dia menjual (vender)|o;o;f1s
 cientista|ilmuwan|o
 espalhar|menyebarkan|v
 suicídio|bunuh diri|o
@@ -6160,18 +6160,18 @@ solta|dia melepaskan; lepas, longgar (feminin)|f3s;o
 bate|dia memukul; dia mengetuk|f3s;f3s
 satisfeito|puas|o
 fio|kawat, benang|o
-folga|hari libur; istirahat|o;o
+folga|hari libur; istirahat; kelonggaran|o;o;o
 cavaleiro|ksatria, penunggang kuda|o
 quebrado|rusak, patah|o
 mínimo|minimum; paling sedikit|o;o
-sincronia|sinkronisasi (subtitel)|o
+sincronia|sinkronisasi, sinkroni|o
 cujo|yang (miliknya)|o
 explicação|penjelasan|o
 adolescente|remaja|o
 mágico|pesulap; ajaib|o;o
 mistério|misteri|o
 castelo|kastil, istana|o
-parecido|mirip|o
+parecido|mirip, serupa; tampak (parecer)|o;o
 aliança|aliansi; cincin kawin|o;o
 interno|internal, dalam; dokter magang|o;o
 corrente|arus; rantai|o;o
@@ -6234,7 +6234,7 @@ raro|langka, jarang|o
 despedir|berpamitan (despedir-se); memecat|v;v
 bicicleta|sepeda|o
 sanduíche|roti lapis|o
-câmara|ruang, kamar; kamera|o;o
+câmara|ruang, dewan; kamera (Port. Portugal)|o;o
 admirar|mengagumi|v
 galinha|ayam betina|o
 estrangeiro|orang asing; asing; no estrangeiro: di luar negeri|o;o;n
@@ -6242,7 +6242,7 @@ ferir|melukai|v
 vidro|kaca|o
 garganta|tenggorokan|o
 escravo|budak|o
-marinha|angkatan laut|o
+marinha|angkatan laut; marinir (f.)|o;o
 popular|populer|o
 veículo|kendaraan|o
 percebe|dia menyadari; kamu menyadari; dia mengerti|f3s;f2s2p;f3s
@@ -6329,7 +6329,7 @@ algemar|memborgol|v
 forçado|dipaksa|o
 ultrapassar|menyalip; melampaui|v;v
 fluxo|aliran, arus|o
-bosta|tahi, sampah (kasar)|o
+bosta|tahi, kotoran (vulgar)|o
 camada|lapisan|o
 trabalhado|dikerjakan|o
 animar|menghibur, menyemangati; memeriahkan|v;v
@@ -6785,13 +6785,13 @@ esgoto|selokan|o
 insulto|hinaan|o
 administrar|mengelola|v
 quadril|pinggul|o
-suicida|ingin bunuh diri; pelaku bom bunuh diri|o;o
+suicida|bersifat bunuh diri, bom bunuh diri (serangan); orang yang membunuh dirinya sendiri|o;o
 véspera|malam sebelumnya, hari sebelumnya|o
 acampar|berkemah|v
 profeta|nabi|o
 projetos|proyek-proyek|o
 subterrâneo|bawah tanah|o
-fumo|asap, tembakau; saya merokok|o;f1s
+fumo|tembakau; asap (port. Portugal); saya merokok|o;o;f1s
 queimadura|luka bakar|o
 separação|perpisahan|o
 pelado|telanjang|o
@@ -6858,7 +6858,7 @@ verdadeiramente|sungguh-sungguh|o
 especificamente|secara khusus|o
 farmácia|apotek|o
 grita|dia berteriak; berteriaklah!|f3s;o
-atuar|berakting|v
+atuar|bertindak, berperan; bekerja, berkarya (di suatu bidang)|v;v
 autêntico|asli, autentik|o
 resfriado|pilek, masuk angin|o
 injeção|suntikan|o
@@ -6944,7 +6944,7 @@ boxe|tinju|o
 fofoca|gosip|o
 terrestre|darat, bumi|o
 idêntico|identik|o
-ria|dia tertawa; tertawalah!|f3s;o
+ria|dia dulu tertawa, biasa tertawa; saya dulu tertawa; tertawalah!|f3s;f1s;o
 gratidão|rasa syukur, terima kasih|o
 jeans|jins|o
 lateral|samping|o
@@ -7042,7 +7042,7 @@ vigarista|penipu|o
 dó|rasa kasihan; ter dó: merasa kasihan|o;n
 esboço|sketsa, garis besar|o
 ignorância|kebodohan, ketidaktahuan|o
-plástica|cirurgia plástica: operasi plastik|n
+plástica|plastik (f.); bedah plastik; cirurgia plástica: bedah plastik|o;o;n
 supervisão|pengawasan|o
 agendar|menjadwalkan|v
 humm|hmm|o
@@ -7086,7 +7086,7 @@ sardinha|ikan sarden|o
 controlador|pengendali|o
 durona|tangguh (feminin)|o
 golfo|teluk|o
-mineiro|penambang|o
+mineiro|penambang; dari Minas Gerais|o;o
 torneira|keran|o
 cisne|angsa|o
 devoção|pengabdian|o
@@ -7115,7 +7115,7 @@ múmia|mumi|o
 facilidade|kemudahan|o
 florido|berbunga-bunga|o
 conspirar|bersekongkol|v
-bundão|pengecut|o
+bundão|pengecut, penakut (kolok.)|o
 folheto|brosur, selebaran|o
 sogra|ibu mertua|o
 inauguração|peresmian|o
@@ -7137,7 +7137,7 @@ ganância|keserakahan|o
 invejar|iri|v
 contagioso|menular|o
 agonia|penderitaan hebat|o
-sonoro|trilha sonora: musik latar, soundtrack|n
+sonoro|bersuara, nyaring; trilha sonora: musik latar film|o;n
 desabar|runtuh|v
 estacionado|diparkir|o
 juntamente|bersama-sama|o
@@ -7266,13 +7266,13 @@ recompensar|memberi imbalan|v
 estréia|pemutaran perdana, debut (ejaan lama)|o
 vala|parit, selokan|o
 brandy|brendi|o
-transtorno|gangguan (kejiwaan); kekacauan|o;o
+transtorno|gangguan; kerepotan, masalah, kekacauan|o;o
 estudantil|pelajar, mahasiswa (kata sifat)|o
 defensiva|defensif|o
 inserir|memasukkan|v
 jarda|yard (ukuran panjang)|o
 proveito|manfaat; bom proveito: selamat makan|o;n
-ventre|perut, rahim|o
+ventre|perut; rahim|o;o
 hálito|napas|o
 madrasta|ibu tiri|o
 barbear|bercukur|v
@@ -7343,7 +7343,7 @@ discar|memutar nomor telepon|v
 animador|menggembirakan; penghibur|o;o
 ensopado|semur; basah kuyup|o;o
 soda|soda|o
-fossemos|(jika) kami adalah|f1p
+fossemos|(jika) kami adalah (tanpa aksen fôssemos); (jika) kami pergi|f1p;f1p
 variação|variasi|o
 libertado|dibebaskan|o
 náusea|mual|o
@@ -7358,7 +7358,7 @@ erguida|terangkat (feminin)|o
 entregador|kurir, pengantar|o
 compreensivo|pengertian|o
 espantoso|mencengangkan|o
-coleta|pengambilan (sampel)|o
+coleta|pengumpulan (sampah, sampel, data)|o
 removido|dipindahkan, dihapus|o
 automaticamente|secara otomatis|o
 baita|besar sekali, hebat|o
@@ -7499,7 +7499,7 @@ pedófilo|pedofil|o
 duquesa|bangsawati, duchess|o
 maço|bungkus (rokok)|o
 muscular|otot (kata sifat)|o
-porca|mur; babi betina|o;o
+porca|babi betina; kotor, jorok (f.); mur (untuk baut)|o;o;o
 bumbum|pantat|o
 dolorido|pegal, sakit|o
 hospedado|menginap|o
@@ -7570,7 +7570,7 @@ céptico|skeptis; orang skeptis (Portugal)|o;o
 internacionalmente|secara internasional|o
 nulo|batal, tidak sah; nol|o;o
 obesidade|obesitas|o
-polaco|Polandia; orang Polandia (Portugal)|o;o
+polaco|Polandia; orang Polandia (port. Portugal; menyinggung di Brasil)|o;o
 prol|(em prol de) demi, untuk kepentingan|o
 proposto|diusulkan|o
 provir|berasal (dari)|v
@@ -7832,7 +7832,7 @@ normalidade|kenormalan|o
 numerário|uang tunai|o
 proceder|melanjutkan; melaksanakan; berasal (proceder de)|v;v;v
 rodoviário|jalan raya (kata sifat)|o
-sao|mereka adalah; kalian adalah|f3s;f2s2p
+sao|mereka adalah; kalian adalah|f3p;f2s2p
 transações|transaksi-transaksi|o
 verba|dana, anggaran|o
 analogia|analogi|o
@@ -7907,7 +7907,7 @@ seguramente|pasti, tentu; dengan aman|o;o
 travesti|waria; perempuan trans|o;o
 vanguarda|garda depan, avant-garde|o
 vicioso|setan (lingkaran setan); bejat|o;o
-adotou|dia mengadopsi; kamu mengadopsi|o;f2s2p
+adotou|dia mengadopsi; kamu mengadopsi|f3s;f2s2p
 binomial|binomial|o
 agüentar|menahan, bertahan (ejaan lama)|v
 fortificação|benteng, perbentengan|o
@@ -7927,7 +7927,7 @@ bordado|sulaman; bersulam|o;o
 catalão|orang Katalan, Katalan|o
 clamor|seruan, protes keras|o
 cobiça|keserakahan|o
-diária|tarif harian (hotel), upah harian|o
+diária|harian (f.); tarif per hari (hotel), upah harian|o;o
 enchente|banjir|o
 envolta|terbungkus, diselimuti (feminin)|o
 estrondo|dentuman, gemuruh|o
@@ -8160,7 +8160,7 @@ frações|pecahan-pecahan|o
 fresta|celah, retakan|o
 funcionalidade|fungsionalitas, fitur|o
 funesto|fatal, membawa malapetaka|o
-mos|mereka kepadaku, itu kepadaku (me + os) (Portugal)|o
+mos|mereka untuk saya (me+os) (port. Portugal)|o
 orla|tepi, pinggiran; tepi pantai|o;o
 pentear|menyisir|v
 rasto|jejak (= rastro)|o
@@ -8671,7 +8671,7 @@ agachado|berjongkok|o
 aguaceiro|hujan lebat|o
 ancorado|berlabuh|o
 ansiar|merindukan, mendambakan|v
-apurado|tajam, halus; dalam kesulitan (percakapan)|o;o
+apurado|dipastikan, ditetapkan; dihitung (suara); halus, tajam; terjepit (kolok.)|o;o;o;o
 arara|burung makaw; ficar uma arara: marah besar|o;n
 arquejar|terengah-engah|v
 arrojado|berani, nekat|o
@@ -8720,7 +8720,7 @@ fabril|pabrik (kata sifat)|o
 falsidade|kepalsuan|o
 famosamente|terkenal karena|o
 folguedo|keriangan, pesta ria|o
-fudendo|brengsek, sialan (kasar, = fodendo)|o
+fudendo|sialan (kasar, = fodendo)|o
 fumegante|mengepul|o
 generalização|generalisasi; penyebaran|o;o
 gnomo|kurcaci|o
@@ -8785,7 +8785,7 @@ sânscrito|bahasa Sanskerta|o
 tateando|meraba-raba|o
 tato|indra peraba, sentuhan; kebijaksanaan, kepekaan|o;o
 tecnologicamente|secara teknologi|o
-teso|tegang, kaku|o
+teso|tegang, kaku; terangsang, keras (Brasil, kasar); bokek, kere (port. Portugal, kolok.)|o;o;o
 til|tilde (tanda ~)|o
 transtornado|kalut, terguncang|o
 trançar|mengepang, menganyam|v
@@ -8864,7 +8864,7 @@ ocasionar|menyebabkan|v
 ordinário|biasa, lazim; rendahan, kasar (tentang orang)|o;o
 penitência|penebusan dosa, penitensi|o
 pregador|pengkhotbah; jepitan jemuran|o;o
-punheta|onani, coli (kasar)|o
+punheta|onani, masturbasi (vulgar)|o
 reaparecer|muncul kembali|v
 repositório|tempat penyimpanan, repositori|o
 sintaxe|sintaksis|o
@@ -8912,7 +8912,7 @@ monção|musim hujan, monsun|o
 neutrino|neutrino|o
 oximetria|oksimetri|o
 perseverança|ketekunan|o
-pica|dia menyengat, dia menusuk; kamu menyengat; kontol (kasar)|f3s;f2s2p;o
+pica|menyengat, menusuk; kamu menyengat; kontol (vulgar)|f3s;f2s2p;o
 predição|prediksi, ramalan|o
 roleta|rolet; pintu putar|o;o
 rústico|pedesaan, sederhana, rustik|o
@@ -8998,7 +8998,7 @@ bilhar|biliar|o
 bojo|bagian yang menggembung, perut (wadah); tengah-tengah, di dalam|o;o
 botim|rampasan, jarahan; sepatu bot pendek|o;o
 brim|kain denim, kanvas|o
-broche|bros|o
+broche|bros; seks oral (kasar, port. Portugal)|o;o
 cabedal|kekayaan, bekal (pengetahuan); kulit (sepatu)|o;o
 cachorra|anjing betina|o
 carniça|bangkai|o
@@ -9230,7 +9230,7 @@ figa|jimat tangan (penolak bala); de uma figa: sialan, terkutuk|o;n
 figurão|orang penting, tokoh besar|o
 finamente|halus, dengan halus|o
 fraquejar|melemah, goyah|v
-fudido|celaka, kacau balau (kasar, = fodido)|o
+fudido|celaka, kacau, dalam masalah besar (kasar, = fodido)|o
 fulminante|mematikan, mendadak|o
 fôrma|loyang, cetakan|o
 galanteria|kesopanan pria, rayuan|o
@@ -9268,7 +9268,7 @@ atitude|sikap|o
 praticamente|praktis, hampir|o
 bebês|bayi-bayi|o
 dom|bakat, karunia|o
-física|fisika|o
+física|fisik (f.); fisika|o;o
 feminino|perempuan, feminin|o
 fresco|segar; sejuk|o;o
 gangue|geng|o
@@ -9279,7 +9279,7 @@ diamante|berlian|o
 grato|berterima kasih|o
 mantém|dia menjaga; kamu menjaga|f3s;f2s2p
 máscara|topeng, masker|o
-técnica|teknik|o
+técnica|teknik; teknis (f.)|o;o
 disponível|tersedia|o
 treinamento|pelatihan|o
 receio|ketakutan, kekhawatiran; saya khawatir|o;f1s
@@ -9309,7 +9309,7 @@ vaca|sapi|o
 lábio|bibir|o
 irritar|membuat kesal|v
 cura|obat, penyembuhan; dia menyembuhkan|o;f3s
-rabo|ekor; pantat|o;o
+rabo|ekor; pantat (vulgar di Brasil)|o;o
 sexta|Jumat; keenam|o;o
 prosseguir|melanjutkan|v
 porão|ruang bawah tanah|o
@@ -9375,7 +9375,7 @@ lágrima|air mata|o
 boneca|boneka|o
 alienígena|alien, makhluk asing|o
 cultura|budaya|o
-cardíaco|jantung; parada cardíaca: serangan jantung|o;n
+cardíaco|jantung; parada cardíaca: henti jantung|o;n
 diretamente|langsung|o
 destes|dari ini (de + estes)|o
 jogada|gerakan, langkah|o
@@ -9425,10 +9425,10 @@ combate|pertempuran|o
 cheirar|mencium, berbau|v
 refeição|makanan, waktu makan|o
 viciado|pecandu; kecanduan|o;o
-clínica|klinik|o
+clínica|klinis (f.); klinik|o;o
 uísque|wiski|o
 adiante|ke depan, maju|o
-assalto|perampokan, penjambretan|o
+assalto|perampokan, penjambretan; serangan, penyerbuan|o;o
 japonês|Jepang, orang Jepang|o
 romance|romansa; novel|o;o
 pó|bubuk; debu|o;o
@@ -9485,7 +9485,7 @@ mental|mental|o
 incidente|insiden|o
 museu|museum|o
 zangado|marah|o
-molho|saus|o
+molho|saus; de molho: direndam; molho de chaves: seikat kunci|o;n;n
 cristão|Kristen|o
 atraente|menarik|o
 território|wilayah|o
@@ -9518,7 +9518,7 @@ estacionamento|tempat parkir|o
 paraíso|surga, firdaus|o
 cheira|dia berbau, mencium; kamu mencium|f3s;f2s2p
 abençoar|memberkati|v
-torno|em torno de: di sekitar; saya berbalik|n;f1s
+torno|em torno de: sekitar; aku membuat (tornar); aku menjadi (tornar-se)|n;f1s;f1s
 assegurar|menjamin, memastikan|v
 compra|pembelian; dia membeli; kamu membeli|o;f3s;f2s2p
 zoar|mengejek, bercanda|v
@@ -9593,7 +9593,7 @@ maçã|apel|o
 eleição|pemilihan umum|o
 enganado|keliru, tertipu|o
 fruta|buah|o
-vaga|lowongan; tempat parkir|o;o
+vaga|lowongan; tempat parkir; ombak (Port. Portugal); kosong (f.); samar (f.)|o;o;o;o;o
 pisar|menginjak|v
 anunciar|mengumumkan|v
 demonstrar|menunjukkan, memperagakan|v
@@ -9613,7 +9613,7 @@ sacrifício|pengorbanan|o
 primavera|musim semi|o
 eh|eh|o
 alimento|makanan|o
-porto|pelabuhan|o
+porto|pelabuhan; Porto (kota di Portugal)|o;o
 símbolo|simbol, lambang|o
 aliás|ngomong-ngomong; malahan, sebenarnya|o;o
 poupar|menabung; menyelamatkan, menghindarkan|v;v
@@ -9651,7 +9651,7 @@ presumir|menduga, menganggap|v
 método|metode|o
 quinta|Kamis; kelima; peternakan, kebun (Portugis Eropa)|o;o;o
 brinde|bersulang; hadiah gratis|o;o
-dupla|pasangan, duo|o
+dupla|ganda (f.); pasangan, duo|o;o
 traficante|pengedar narkoba|o
 impressionado|terkesan|o
 pirata|bajak laut|o
@@ -9679,7 +9679,7 @@ piano|piano|o
 tatuagem|tato|o
 leitura|bacaan, membaca|o
 grama|rumput; gram|o;o
-ensaio|latihan (pertunjukan); esai|o;o
+ensaio|latihan; esai; uji coba|o;o;o
 confundir|membingungkan|v
 exterior|luar; luar negeri|o;o
 maconha|ganja|o
@@ -9789,7 +9789,7 @@ calada|diam (feminin)|o
 traçar|menyusun, merancang|v
 ow|aduh|o
 ferrado|celaka, habislah|o
-alegrar|menggembirakan|v
+alegrar|menghibur; alegrar-se: bergembira, bersukacita|v;n
 ignorante|bodoh, tidak tahu|o
 lanchonete|kedai makanan ringan|o
 ginásio|pusat kebugaran|o
@@ -9893,12 +9893,12 @@ anual|tahunan|o
 satisfação|kepuasan|o
 rastejar|merangkak|v
 arbusto|semak|o
-excluir|mengecualikan, menghapus|v
+excluir|mengecualikan; menghapus|v;v
 preliminar|pendahuluan|o
 crucial|sangat penting|o
 egípcio|Mesir|o
 contribuir|berkontribusi|v
-velhote|pak tua|o
+velhote|kakek-kakek (percakapan)|o
 recordar|mengingat|v
 suor|keringat|o
 consultor|konsultan|o
@@ -10020,7 +10020,7 @@ organismo|organisme|o
 documentário|film dokumenter|o
 laptop|laptop|o
 tampouco|juga tidak|o
-coberta|selimut|o
+coberta|tertutup (f.); selimut|o;o
 corresponder|sesuai, cocok; berkorespondensi|v;v
 perícia|keahlian; forensik|o;o
 encobrir|menutupi|v
@@ -10076,7 +10076,7 @@ operador|operator|o
 etiqueta|label; tata krama|o;o
 julgado|dihakimi, diadili|o
 ancião|tetua|o
-dispor|memiliki, tersedia; mengatur|v;v
+dispor|menyediakan; menata; ao seu dispor / ao dispor: siap melayani (Anda)|v;v;n
 sutil|halus, samar|o
 perpétuo|abadi, seumur hidup|o
 serra|pegunungan; gergaji|o;o
@@ -10154,7 +10154,7 @@ amarrado|terikat|o
 implicar|menyiratkan; melibatkan|v;v
 insuportável|tak tertahankan|o
 páscoa|Paskah|o
-pudim|puding|o
+pudim|puding, flan karamel|o
 sabão|sabun|o
 cultural|budaya|o
 transa|seks, hubungan singkat|o
@@ -10168,7 +10168,7 @@ ativar|mengaktifkan|v
 cancelado|dibatalkan|o
 terrorismo|terorisme|o
 ater|berpegang pada (ater-se)|v
-sacana|bajingan|o
+sacana|bajingan, brengsek (kasar)|o
 elétrico|listrik|o
 fracassar|gagal|v
 encanto|pesona|o
@@ -10270,14 +10270,14 @@ encosta|lereng bukit|o
 larva|larva, belatung|o
 cookie|kue kering|o
 teórico|teoretis|o
-chanceler|kanselir|o
+chanceler|kanselir; menteri luar negeri (Brasil)|o;o
 chimpanzé|simpanse|o
 protestante|Protestan|o
 úmido|lembap|o
 pegajoso|lengket|o
 funerária|rumah duka|o
 tremor|getaran, gemetar|o
-calhar|calhar de: kebetulan; se calhar: mungkin, barangkali|n;n
+calhar|terjadi (kebetulan); cocok, datang di saat yang tepat; calhar de: kebetulan; se calhar: mungkin, barangkali (port. Portugal)|v;v;n;n
 forasteiro|orang luar, orang asing|o
 lula|cumi-cumi|o
 melão|melon|o
@@ -10338,7 +10338,7 @@ trecho|bagian, penggalan|o
 animação|animasi; keceriaan|o;o
 comprovar|membuktikan|v
 inundação|banjir|o
-moreno|berambut gelap, berkulit sawo matang|o
+moreno|berambut gelap; berkulit gelap, kecokelatan|o;o
 financiamento|pendanaan|o
 percurso|rute|o
 vertical|tegak, vertikal|o
@@ -10435,7 +10435,7 @@ nomeadamente|yaitu, khususnya (Portugal)|o
 anti|anti- (awalan)|o
 abrangente|menyeluruh, luas|o
 globalização|globalisasi|o
-buceta|memek (kasar)|o
+buceta|vagina (kasar)|o
 estrutural|struktural|o
 inovador|inovatif; inovator|o;o
 literário|sastra|o
@@ -10569,7 +10569,7 @@ sírio|orang Suriah, Suriah|o
 âmbito|lingkup, ranah, kerangka|o
 espanto|keheranan; ketakutan|o;o
 directamente|secara langsung (Portugal)|o
-estima|penghargaan, rasa hormat; dia memperkirakan; kamu memperkirakan|o;f3s;f2s2p
+estima|penghargaan, rasa hormat; dia menaksir; kamu menaksir|o;f3s;f2s2p
 indicador|indikator|o
 setores|sektor-sektor|o
 neurônios|neuron|o
@@ -10632,7 +10632,7 @@ regulador|regulator; regulasi (kata sifat)|o;o
 renminbi|renminbi (mata uang Tiongkok)|o
 actor|aktor (Portugal)|o
 atribuir|mengaitkan, menganggap berasal dari; memberikan, menugaskan|v;v
-materno|keibuan, dari ibu (língua materna: bahasa ibu)|o
+materno|keibuan; língua materna: bahasa ibu|o;n
 denominado|disebut, bernama|o
 posterior|kemudian, berikutnya; belakang|o;o
 manifestante|pengunjuk rasa|o
@@ -10657,7 +10657,7 @@ favorável|menguntungkan, mendukung|o
 narrativa|narasi|o
 volver|berbalik; kembali|v;v
 integrante|anggota, komponen; tak terpisahkan|o;o
-agregado|agregat; rumah tangga (agregado familiar)|o;o
+agregado|agregat; agregado familiar: rumah tangga|o;n
 ecológico|ekologis|o
 restringir|membatasi|v
 sublime|agung, luhur|o
@@ -10690,7 +10690,7 @@ adopção|adopsi (Portugal)|o
 disponibilizar|menyediakan|v
 jornalismo|jurnalisme|o
 solidariedade|solidaritas|o
-mulato|mulato, orang berdarah campuran|o
+mulato|mulatto, keturunan campuran (usang, bisa menyinggung)|o
 coordenação|koordinasi|o
 graduação|gelar, kelulusan; program sarjana|o;o
 tuberculose|tuberkulosis, TBC|o
@@ -10711,7 +10711,7 @@ capacitores|kapasitor|o
 duradouro|tahan lama, langgeng|o
 laboral|ketenagakerjaan|o
 despeito|dendam, kekesalan; a despeito de: meskipun|o;n
-gozo|kenikmatan, kesenangan|o
+gozo|kenikmatan, kesenangan; orgasme (Brasil, kasar)|o;o
 doutorado|gelar doktor; pemegang gelar doktor|o;o
 cólera|kolera; amarah|o;o
 dinastia|dinasti|o
@@ -10876,7 +10876,7 @@ aquisição|pembelian, akuisisi|o
 correspondente|yang sesuai; koresponden|o;o
 braça|depa (satuan panjang)|o
 frouxo|longgar, kendur; lemah|o;o
-intima|dia memanggil (resmi), dia memerintahkan; kamu memanggil|f3s;f2s2p
+intima|dia menyuruh, memerintahkan; kamu menyuruh|f3s;f2s2p
 manso|jinak, lembut|o
 velhice|usia tua|o
 constituído|terdiri, terbentuk|o
@@ -10994,7 +10994,7 @@ subida|kenaikan; tanjakan, pendakian|o;o
 expoente|eksponen; tokoh terkemuka|o;o
 substituído|diganti|o
 trans|trans, transgender|o
-algibeira|saku|o
+algibeira|saku (usang)|o
 enxugar|mengeringkan, menyeka|v
 compensação|kompensasi, ganti rugi|o
 constatar|mendapati, memastikan|v
@@ -11611,7 +11611,7 @@ emitido|diterbitkan; dipancarkan|o;o
 ensinado|diajarkan|o
 eslavo|Slavia|o
 evocar|membangkitkan (kenangan)|v
-galão|galon; tanda pangkat, jalinan (militer)|o;o
+galão|galon; kendi, jeriken (wadah); jalinan emas (militer); kopi susu dalam gelas (port. Portugal)|o;o;o;o
 gerenciamento|manajemen, pengelolaan|o
 guerrilheiro|gerilyawan|o
 implantado|diterapkan, didirikan; ditanamkan|o;o
@@ -11689,7 +11689,7 @@ autocrático|otokratis|o
 aversão|kebencian, rasa tidak suka|o
 azulejo|ubin berglasir|o
 catalisar|mengatalisis|v
-complacência|rasa puas diri; kelonggaran, kemurahan|o;o
+complacência|kelonggaran, toleransi; sikap puas diri|o;o
 consistentemente|secara konsisten|o
 consórcio|konsorsium|o
 contradizer|membantah, bertentangan dengan|v
@@ -11856,7 +11856,7 @@ reverso|kebalikan, sisi lain|o
 rococó|rokoko|o
 régua|penggaris|o
 sinfonia|simfoni|o
-treta|masalah, perkelahian; tipu daya; omong kosong (Portugal)|o;o;o
+treta|masalah, perkelahian (Brasil, slang); tipu daya, penipuan; omong kosong (port. Portugal)|o;o;o
 acadêmicas|akademis (feminin jamak); akademisi (perempuan)|o;o
 alvenaria|pasangan bata, pekerjaan batu|o
 bisneto|cicit|o
@@ -12083,7 +12083,7 @@ tique|tik, kedutan; kebiasaan, tingkah|o;o
 torpor|kelesuan, mati rasa|o
 tortuoso|berliku-liku|o
 transtornar|mengganggu, mengacaukan|v
-tucano|burung tukan|o
+tucano|burung tukan; anggota partai PSDB (Brasil)|o;o
 vagaroso|lambat, pelan-pelan|o
 vórtice|pusaran|o
 zumbir|berdengung|v
@@ -12107,7 +12107,7 @@ fabricado|diproduksi, dibuat|o
 fidelidade|kesetiaan|o
 fortificado|dibentengi, diperkuat|o
 grafia|ejaan|o
-hidrográfico|hidrografis (bacia hidrográfica: daerah aliran sungai)|o
+hidrográfico|hidrografis; bacia hidrográfica: daerah aliran sungai|o;n
 ilustre|terkemuka, termasyhur|o
 louro|pirang; daun salam laurel|o;o
 modular|modular; memodulasi|o;v
@@ -12200,7 +12200,7 @@ remodelação|renovasi; perombakan (kabinet)|o;o
 sabonete|sabun batangan|o
 sina|nasib, takdir|o
 tântalo|tantalum|o
-verdiano|berkaitan dengan Verdi|o
+verdiano|bercorak Verdi, dari Verdi; cabo-verdiano: orang Tanjung Verde|o;n
 acúmulo|penumpukan|o
 antidemocrático|tidak demokratis|o
 apontado|ditunjuk (ke arah); ditunjuk, diangkat|o;o
@@ -12333,7 +12333,7 @@ confessando|mengaku|o
 confortar|menghibur, menenangkan|v
 conhecedor|ahli, pakar; berpengetahuan|o;o
 consternação|kekecewaan, kecemasan|o
-corno|tanduk; suami yang diselingkuhi|o;o
+corno|tanduk; suami yang diselingkuhi (vulgar)|o;o
 deslumbrar|menyilaukan, memukau|v
 despojo|jarahan, rampasan; sisa-sisa (biasanya despojos)|o;o
 dezenove|sembilan belas|o
@@ -12554,7 +12554,7 @@ subtropical|subtropis|o
 trigonométrico|trigonometris|o
 afetada|terdampak|o
 alcaide|gubernur (benteng atau kota)|o
-anta|tapir; dolmen|o;o
+anta|tapir; bodoh (Brasil, kolok.); dolmen|o;o;o
 apropriadamente|dengan tepat|o
 aristocracia|aristokrasi, kaum ningrat|o
 assinante|pelanggan|o
@@ -13053,7 +13053,7 @@ pelourinho|tiang hukuman, tiang cambuk|o
 pitoresco|indah, permai|o
 sorridente|tersenyum|o
 verruga|kutil|o
-abajur|kap lampu; lampu meja|o;o
+abajur|lampu meja, lampu tidur; kap lampu (port. Portugal)|o;o
 abastança|kemakmuran, kelimpahan|o
 abominação|kekejian|o
 abrigado|terlindung|o
@@ -13454,7 +13454,7 @@ prezado|yang terhormat (dalam surat); dihormati|o;o
 primoroso|indah sekali, istimewa|o
 provação|cobaan|o
 proveitoso|menguntungkan, bermanfaat|o
-putinha|lonte kecil (kasar)|o
+putinha|pelacur kecil, jalang (kasar)|o
 puxada|tarikan; ditarik|o;o
 pélvis|panggul|o
 quarentão|pria berumur empat puluhan|o
@@ -14385,7 +14385,7 @@ experimentador|pelaku eksperimen|o
 filtrado|disaring|o
 filtragem|penyaringan|o
 fragmentar|memecah-mecah|v
-gaita|harmonika; seruling kantong (gaita de foles); akordeon (Brasil Selatan)|o;o;o
+gaita|harmonika; gaita de foles: gaita (seruling kantong); akordeon (Brasil selatan)|o;n;o
 gangster|gangster|o
 geograficamente|secara geografis|o
 glúten|gluten|o
@@ -16270,3 +16270,76 @@ espirro|bersin|o
 explosiva|eksplosif, mudah meledak (f.)|o
 frigideira|wajan|o
 polaca|perempuan Polandia; pelacur (Brasil, kuno, menghina)|o;o
+será|dia akan menjadi; kamu akan menjadi; será que: aku bertanya-tanya apakah, mungkinkah|f3s;f2s2p;n
+ia|dia dulu hendak, biasa pergi; aku dulu hendak; AI (kecerdasan buatan)|f3s;f1s;o
+uns|beberapa; sekitar, kira-kira (sebelum angka)|o;o
+filhos|anak-anak; anak laki-laki|o;o
+diabos|setan-setan; sialan!, astaga!; que diabos: apa-apaan; dos diabos: luar biasa, hebat sekali (buruk)|o;o;n;n
+boas|baik (f. pl.); boas-vindas: selamat datang|o;n
+sentada|duduk (f.)|o
+namorados|sepasang kekasih (pacar laki-laki dan perempuan); pacar-pacar laki-laki|o;o
+amada|kekasih tercinta (f.); dicintai (f.)|o;o
+chute|tendangan; tembakan (ke gawang); tebakan (percakapan); (agar) aku/dia menendang (chutar)|o;o;o;f1s
+vagabunda|pelacur, perempuan murahan (kasar, untuk perempuan); pemalas, pengangguran (f.)|o;o
+espadas|sekop (jenis kartu); pedang|o;o
+óptimo|hebat, sangat bagus (ejaan Port. Portugal)|o
+game|permainan, video game (kata serapan Inggris)|o
+baixinho|pelan-pelan, lirih; pendek, rendah (diminutif); si pendek (orang bertubuh pendek)|o;o;o
+espertinho|sok pintar, sok tahu (ironis); cerdik, pintar (diminutif)|o;o
+gravadora|label rekaman, perusahaan rekaman|o
+preliminares|pendahuluan; foreplay; pendahuluan (pl.)|o;o;o
+escritos|tulisan; tertulis (m. pl.)|o;o
+amorzinho|sayang, kekasih|o
+horrores|kengerian; banyak sekali (percakapan)|o;o
+cãozinho|anjing kecil, anak anjing|o
+convosco|bersama kalian (pl., Port. Portugal)|o
+baronesa|bangsawan perempuan bergelar baron|o
+cantada|rayuan; dinyanyikan (f.)|o;o
+varinha|tongkat sihir; tongkat kecil, batang|o;o
+rosquinha|donat, kue kering berbentuk cincin|o
+fedido|bau, busuk|o
+cruzes|salib; ya ampun!, astaga! (Cruzes!)|o;o
+bichinho|binatang kecil; hewan peliharaan; sayang (panggilan sayang)|o;o;o
+burrito|burrito (makanan Meksiko); keledai kecil|o;o
+prévia|pratinjau, cuplikan; sebelumnya (f.)|o;o
+mãezinha|mama, bunda (diminutif dari mãe)|o
+tigresa|harimau betina|o
+perua|mobil van, station wagon (Bras.); kalkun betina|o;o
+bocadinho|sedikit, sebentar|o
+patinho|anak bebek, bebek kecil|o
+furada|bocor (f.); ban bocor; masalah, kesepakatan buruk (percakapan)|o;o;o
+adentro|ke dalam, jauh ke dalam (setelah kata benda); noite adentro: hingga larut malam|o;n
+ótica|sudut pandang, perspektif; optik; toko optik; optis (f.)|o;o;o;o
+salgadinho|camilan gurih; keripik (kemasan)|o;o
+oras|wah!, ayolah!, yang benar saja! (interjeksi)|o
+banquinho|bangku kecil, dingklik|o
+hospedaria|penginapan, losmen; akan menampung (hospedar)|o;o
+mancada|kesalahan, kecerobohan, kekecewaan (percakapan)|o
+sapatão|lesbi (hinaan kasar); sepatu besar|o;o
+manche|tongkat kendali (pesawat); (agar) aku/dia menodai (manchar)|o;f1s
+deveras|sungguh, benar-benar|o
+ata|notulen (rapat); dia mengikat (atar)|o;f3s
+cortesã|wanita penghibur kelas atas; wanita istana|o;o
+ouros|wajik (jenis kartu); emas|o;o
+vaquinha|sapi kecil; patungan (uang yang dikumpulkan)|o;o
+tampinha|si pendek, orang bertubuh pendek (percakapan); tutup botol, tutup kecil|o;o
+afilhada|anak baptis perempuan; anak didik perempuan|o;o
+almofadinha|pesolek, kelimis (kuno); bantal kecil|o;o
+conchinha|berpelukan menyamping (berpelukan); kerang kecil|o;o
+bombinha|petasan, mercon; inhaler; bom kecil|o;o;o
+baixaria|kerendahan, perilaku rendah (percakapan); akan menurunkan, akan mengunduh (baixar)|o;o
+carteirinha|kartu anggota, kartu identitas; de carteirinha: sejati, tulen; dompet kecil|o;n;o
+pires|lepek|o
+motora|motor (adj., f.); pengemudi (f., percakapan)|o;o
+causo|cerita, kisah (percakapan); por causo de: karena (tidak baku, = por causa de); aku menyebabkan (causar)|o;n;f1s
+cagado|ketakutan setengah mati (vulgar); celaka, bermasalah (vulgar); beruntung (Bras., vulgar)|o;o;o
+carrocinha|mobil penangkap anjing, tempat penampungan anjing; gerobak kecil|o;o
+fraquinho|agak lemah; um fraquinho por: kelemahan terhadap, naksir|o;n
+pisada|langkah kaki, jejak; terinjak (f.)|o;o
+core|core (Inggris: core business); (agar) aku/dia merona (corar)|o;f1s
+aviãozinho|kurir narkoba (bahasa gaul); pesawat kecil, pesawat mainan|o;o
+metas|target, sasaran; (agar) kamu memasukkan (meter)|o;f2s2p
+toques|sentuhan; dering (telepon); (agar) kamu menyentuh, (agar) kamu memainkan (tocar)|f3s;f3s;f2s2p
+trama|komplotan, rencana jahat; alur cerita; dia merencanakan (tramar)|o;o;f3s
+conquistas|penaklukan; pencapaian; kamu menaklukkan (conquistar)|o;o;f2s2p
+partidos|partai (politik); patah (m. pl.)|o;o

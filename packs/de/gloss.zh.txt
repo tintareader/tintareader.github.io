@@ -258,7 +258,7 @@ holen|去拿，取来|v
 ganze|整个的|o
 genug|足够|o
 fühlen|感觉|v
-scheiße|屎 (die, 无复数); 糟糕|o;o
+scheiße|屎, 他妈的 (粗俗) (die, 无复数); 糟糕 (粗俗)|o;o
 familie|家庭 (die, 复数 Familien)|o
 lang|长的|o
 gegen|反对，对抗; 大约 (表时间)|o;o
@@ -288,7 +288,7 @@ allein|独自|o
 beim|在 (bei+dem的缩合形式)|o
 weit|远的; 宽的|o;o
 gefunden|找到的|o
-lieben|爱|v
+lieben|爱，喜爱; 亲爱的 (lieb 的变形)|v;o
 zeigen|展示，给看|v
 ne|不 (口语); 对吧？ (口语); 一个 (口语)|o;o;o
 toll|棒，太好了|o
@@ -334,7 +334,7 @@ kerl|家伙 (der, 复数 Kerle)|o
 idee|主意 (die, 复数 Ideen)|o
 bereit|准备好的|o
 waffe|武器 (die, 复数 Waffen)|o
-krieg|战争 (der, 复数 Kriege)|o
+krieg|战争 (der, 复数 Kriege); 我得到 (口语)|o;f1s
 tod|死亡 (der, 复数 Tode)|o
 schwester|姐妹 (die, 复数 Schwestern); 护士|o;o
 monat|月份 (der, 复数 Monate)|o
@@ -368,7 +368,7 @@ sogar|甚至|o
 teufel|魔鬼 (der, 复数 Teufel)|o
 verloren|丢失的|o
 woher|从哪里|o
-bestimmt|肯定，一定; 特定的|o;o
+bestimmt|一定，肯定; 确定的，特定的; 被决定的，注定的 (用于)|o;o;o
 mama|妈妈|o
 wagen|车，马车 (der, 复数 Wagen); 敢于|o;v
 gefallen|使喜欢，中意 (gefällt, gefiel, gefallen); 帮忙 (der, 复数 Gefallen); 落下的 (fallen的过去分词)|v;o;o
@@ -376,8 +376,8 @@ gefallen|使喜欢，中意 (gefällt, gefiel, gefallen); 帮忙 (der, 复数 Ge
 seite|一边，侧面 (die, 复数 Seiten); 页|o;o
 verstanden|明白了的|o
 verlieren|失去 (verlor, verloren)|v
-lachen|笑|v
-schreiben|写 (schrieb, geschrieben)|v
+lachen|笑; 笑声 (das, 无复数)|v;o
+schreiben|写 (schrieb, geschrieben); 信函 (das, 复数 Schreiben)|v;o
 erzählt|讲过的|o
 stunden|小时 (die Stunde的复数)|o
 tragen|穿，戴 (trägt, trug, getragen); 搬运，携带|v;v
@@ -479,7 +479,7 @@ leicht|容易的; 轻的|o;o
 irgendwas|什么，随便什么 (口语)|o
 laut|大声的; 根据|o;o
 rede|讲话 (die, 复数 Reden); 我说话|o;f1s
-bitten|请求 (bat, gebeten)|v
+bitten|请求，恳求 (bat, gebeten); 请求，恳求 (die Bitte 的复数)|v;o
 sondern|而是，nicht … sondern：不是…而是|o
 telefon|电话 (das, 复数 Telefone)|o
 arzt|医生 (der, 复数 Ärzte)|o
@@ -492,9 +492,9 @@ fliegen|飞 (flog, geflogen, ist)|v
 zuerst|首先|o
 aufhören|停止|v
 wahrscheinlich|可能，大概|o
-arsch|屁股 (der, 复数 Ärsche)|o
+arsch|屁股 (粗俗) (der, 复数 Ärsche)|o
 aussehen|看起来 (sieht aus, sah aus, ausgesehen); 外表 (das, 无复数)|v;o
-gewinnen|赢 (gewann, gewonnen)|v
+gewinnen|赢 (gewann, gewonnen); 获得|v;v
 fehler|错误 (der, 复数 Fehler)|o
 beginnen|开始 (begann, begonnen)|v
 jung|年轻的|o
@@ -525,7 +525,7 @@ leider|可惜，遗憾|o
 umbringen|杀死 (brachte um, umgebracht)|v
 foto|照片 (das, 复数 Fotos)|o
 million|百万 (die, 复数 Millionen)|o
-scheiß|该死的，糟糕的 (口语); 见鬼|o;o
+scheiß|该死的, 操蛋的 (粗俗); 他妈的 (粗俗)|o;o
 stück|块，件 (das, 复数 Stücke); 剧 (戏剧)|o;o
 hölle|地狱 (die, 无复数)|o
 doktor|博士，医生 (der, 复数 Doktoren)|o
@@ -600,7 +600,7 @@ zukunft|未来 (die, 无复数)|o
 gefängnis|监狱 (das, 复数 Gefängnisse)|o
 pferd|马 (das, 复数 Pferde)|o
 verletzt|受伤的|o
-getroffen|见过的; 击中的|o;o
+getroffen|遇见了; 击中了; 做出的 (决定，协议)|o;o;o
 kraft|力量 (die, 复数 Kräfte)|o
 drüben|在那边|o
 verkaufen|卖|v
@@ -619,7 +619,7 @@ agent|特工 (der, 复数 Agenten)|o
 bezahlen|付钱|v
 passieren|发生 (ist)|v
 eher|更倾向于; 更快，更早|o;o
-ansehen|看; 观看 (sieht an, sah an, angesehen)|v;v
+ansehen|看; 观看 (sieht an, sah an, angesehen); 声望，威信 (das, 无复数)|v;v;o
 team|团队 (das, 复数 Teams)|o
 drehen|转动; 拍 (电影)|v;v
 versuch|尝试 (der, 复数 Versuche); 实验|o;o
@@ -751,7 +751,7 @@ dagegen|反对它; 相反，而|o;o
 blöd|笨的，傻的|o
 benutzt|用过的|o
 geliebt|爱过的; 心爱的|o;o
-arschloch|混蛋 (das, 复数 Arschlöcher)|o
+arschloch|混蛋, 王八蛋 (粗俗) (das, 复数 Arschlöcher)|o
 möglichkeit|可能性 (die, 复数 Möglichkeiten)|o
 gerettet|救过的|o
 rennen|跑 (rannte, gerannt, ist); 赛跑 (das, 复数 Rennen)|v;o
@@ -910,7 +910,7 @@ links|左边，在左边; 链接 (der Link的复数)|o;o
 professor|教授 (der, 复数 Professoren)|o
 kennenlernen|认识，结识|v
 verzeihen|原谅 (verzieh, verziehen)|v
-haut|皮肤 (die, 复数 Häute); 打|o;o
+haut|皮肤 (die, 复数 Häute); 他/她打|o;f3s
 leise|轻声的，安静的; 轻轻地|o;o
 anruf|电话 (der, 复数 Anrufe)|o
 selber|自己 (口语)|o
@@ -955,7 +955,7 @@ fbi|联邦调查局|o
 drink|饮料 (der, 复数 Drinks)|o
 wand|墙 (die, 复数 Wände)|o
 gold|黄金 (das, 无复数)|o
-akte|档案 (die, 复数 Akten)|o
+akte|档案，卷宗 (die, 复数 Akten); 幕，行为 (der Akt 的复数)|o;o
 nachdenken|思考 (dachte nach, nachgedacht)|v
 stein|石头 (der, 复数 Steine)|o
 springen|跳 (sprang, gesprungen, ist)|v
@@ -1012,7 +1012,7 @@ rat|建议 (der, 复数 Ratschläge); 议会，议员 (der, 复数 Räte)|o;o
 königin|女王 (die, 复数 Königinnen)|o
 gucken|看 (口语)|v
 sheriff|治安官|o
-ball|球 (der, 复数 Bälle)|o
+ball|球 (der, 复数 Bälle); 舞会|o;o
 angriff|攻击 (der, 复数 Angriffe)|o
 untertitel|字幕 (der, 复数 Untertitel)|o
 nahe|近的|o
@@ -1055,7 +1055,7 @@ brennen|燃烧 (brannte, gebrannt)|v
 worauf|在什么上面，为了什么|o
 gebeten|请求过的|o
 dorf|村庄 (das, 复数 Dörfer)|o
-gelten|有效; 算作 (gilt, galt, gegolten)|v;v
+gelten|有效; 算数 (gilt, galt, gegolten); gelten als: 被视为，被认为是|v;v;n
 achtung|注意！，小心！; 尊重 (die, 无复数)|o;o
 lieutenant|中尉|o
 statt|代替|o
@@ -1068,7 +1068,7 @@ klopfen|敲|v
 dritte|第三|o
 messer|刀 (das, 复数 Messer)|o
 position|位置 (die, 复数 Positionen)|o
-verlangen|要求|v
+verlangen|要求，索要; 渴望，欲望 (das, 无复数)|v;o
 falsche|错误的|o
 blau|蓝色的; 喝醉的 (口语)|o;o
 wild|野生的|o
@@ -1112,7 +1112,7 @@ entschieden|决定过的; 坚决的|o;o
 erschießen|枪杀 (erschoss, erschossen)|v
 vorne|在前面|o
 stopp|停！|o
-schlampe|贱人 (die, 复数 Schlampen)|o
+schlampe|荡妇, 贱人 (粗俗, 冒犯) (die, 复数 Schlampen)|o
 unsinn|胡说 (der, 无复数)|o
 rauchen|抽烟|v
 gebrochen|破碎的|o
@@ -1256,8 +1256,8 @@ termin|预约，约定时间 (der, 复数 Termine)|o
 richten|对准，瞄准; 审判|v;v
 verantwortung|责任 (die, 复数 Verantwortungen)|o
 großvater|祖父 (der, 复数 Großväter)|o
-wart|你们 (曾)是|f2s2p
-irre|疯狂的; 疯子|o;o
+wart|你们曾是 (复数); 等一下! (口语)|f2s2p;o
+irre|疯狂的，精神错乱的; 疯子; in die Irre: 迷路，误入歧途 (in die Irre führen: 误导)|o;o;n
 pause|休息 (die, 复数 Pausen)|o
 gestellt|放置过的; 问过 (问题)的|o;o
 gesamte|整个的|o
@@ -1305,7 +1305,7 @@ nee|不 (口语)|o
 beweis|证据 (der, 复数 Beweise)|o
 einheit|单位 (die, 复数 Einheiten); 统一|o;o
 hintern|屁股 (der, 复数 Hintern)|o
-gehalten|拿着的，保持的; 停下的|o;o
+gehalten|被握住的，被保持的; 被停住的; 被认为的 (für … gehalten)|o;o;o
 wachsen|生长 (wächst, wuchs, gewachsen, ist)|v
 bad|浴缸 (das, 复数 Bäder); 浴室|o;o
 einigen|一些 (第三格复数); 达成一致|o;v
@@ -1333,9 +1333,9 @@ entschuldigt|被原谅的; 对不起 (复数)|o;o
 daraus|从中，由此|o
 verfolgt|跟踪过的|o
 england|英格兰|o
-scharf|锋利的; 辣的; 热衷的 (口语)|o;o;o
+scharf|锋利的; 辣的; scharf auf: 很想要 (口语)|o;o;n
 rechnung|账单 (die, 复数 Rechnungen); 计算|o;o
-fräulein|小姐 (das, 复数 Fräulein); 年轻女士|o;o
+fräulein|小姐 (旧用语) (das, 复数 Fräulein); 年轻姑娘 (旧用语)|o;o
 brust|胸部 (die, 复数 Brüste); 乳房|o;o
 wundervoll|美妙的|o
 behandelt|对待过的|o
@@ -1501,7 +1501,7 @@ officer|警官|o
 aufmachen|打开|v
 verhindern|阻止|v
 zweimal|两次|o
-bastard|混蛋 (der, 复数 Bastarde)|o
+bastard|私生子, 杂种 (冒犯) (der, 复数 Bastarde)|o
 schutz|保护 (der, 无复数)|o
 sonntag|星期日 (der, 复数 Sonntage)|o
 doc|医生|o
@@ -1596,7 +1596,7 @@ schild|牌子 (das, 复数 Schilder); 盾 (der, 复数 Schilde)|o;o
 fahrer|司机 (der, 复数 Fahrer)|o
 beobachtet|被观察的|o
 talent|天赋 (das, 复数 Talente)|o
-geb|给！ (口语)|o
+geb|我给 (口语); 给! (不规范)|f1s;o
 enttäuscht|失望的|o
 spuren|痕迹 (die Spur的复数)|o
 theater|剧院 (das, 复数 Theater); 大惊小怪|o;o
@@ -1605,7 +1605,7 @@ gezogen|拉过的; 搬过家的|o;o
 knochen|骨头 (der, 复数 Knochen)|o
 ebenso|同样|o
 trage|我拿着，我穿着; 担架 (die, 复数 Tragen)|f1s;o
-verlässt|离开|o
+verlässt|他/她离开; 你离开|f3s;f2s2p
 bewusst|有意识的; 故意地|o;o
 fordern|要求|v
 dennoch|然而|o
@@ -1659,7 +1659,7 @@ post|邮件 (die, 无复数)|o
 mitgenommen|带走过的|o
 hemd|衬衫 (das, 复数 Hemden)|o
 dumme|愚蠢的|o
-tritt|一脚 (der, 复数 Tritte); 脚步，踢|o;o
+tritt|一脚 (der, 复数 Tritte); 他/她踏; 他/她踢|o;f3s;f3s
 samstag|星期六 (der, 复数 Samstage)|o
 irgendein|某个，随便哪个|o
 magie|魔法 (die, 无复数)|o
@@ -1700,7 +1700,7 @@ antun|做 (对某人) (tat an, angetan)|v
 üben|练习|v
 unterstützung|支持 (die, 复数 Unterstützungen)|o
 verbrennen|烧毁 (verbrannte, verbrannt)|v
-ausgezeichnet|优秀的|o
+ausgezeichnet|极好的; 获奖的，受表彰的|o;o
 norden|北方 (der, 无复数)|o
 möglicherweise|可能|o
 definitiv|肯定地|o
@@ -1711,7 +1711,7 @@ abends|在晚上|o
 bedenken|考虑 (bedachte, bedacht); 顾虑 (das Bedenken的复数)|v;o
 vernichten|摧毁|v
 kohle|煤 (die, 复数 Kohlen); 钱 (口语)|o;o
-hure|妓女 (die, 复数 Huren)|o
+hure|妓女, 婊子 (粗俗, 冒犯) (die, 复数 Huren)|o
 cousin|表哥，堂弟 (der, 复数 Cousins)|o
 treppe|楼梯 (die, 复数 Treppen)|o
 schönheit|美丽 (die, 复数 Schönheiten)|o
@@ -1768,7 +1768,7 @@ lügner|骗子 (der, 复数 Lügner)|o
 medizin|药，医学 (die, 复数 Medizinen)|o
 prozess|审判 (der, 复数 Prozesse); 过程|o;o
 alarm|警报 (der, 复数 Alarme)|o
-verwirrt|困惑的|o
+verwirrt|困惑的; 他/她使困惑|o;f3s
 amen|阿门|o
 eng|窄的; 紧的; 亲密的|o;o;o
 fan|粉丝 (der, 复数 Fans)|o
@@ -1918,7 +1918,7 @@ bestens|非常好|o
 leihen|借出; 借入 (lieh, geliehen)|v;v
 opfern|牺牲|v
 herrschen|统治; 盛行|v;v
-wonach|寻找什么，之后什么|o
+wonach|追求什么，寻找什么; 据此|o;o
 unterhaltung|交谈 (die, 复数 Unterhaltungen); 娱乐|o;o
 geschmack|味道 (der, 复数 Geschmäcker)|o
 süden|南方 (der, 无复数)|o
@@ -1944,7 +1944,7 @@ unbekannt|未知的|o
 cop|警察 (der, 复数 Cops)|o
 bekämpfen|打击，对抗|v
 anschauen|看，观看|v
-dauernd|不断地|o
+dauernd|不断地; 持久的，永久的|o;o
 doppelt|双倍的; 两次|o;o
 behauptet|声称过的|o
 figur|体形 (die, 复数 Figuren); 角色|o;o
@@ -2087,7 +2087,7 @@ füllen|填满|v
 christus|基督|o
 politik|政治 (die, 无复数); 政策|o;o
 befehlen|命令 (befiehlt, befahl, befohlen)|v
-zurecht|恰当地|o
+zurecht|(用于 zurechtkommen) 应付，处理得来; (用于 zurechtfinden) 找到路; 恰当地，到位|v;v;o
 malen|画画|v
 vertreten|代表; 代理 (vertritt, vertrat, vertreten)|v;v
 cops|警察们 (der Cop的复数)|o
@@ -2124,7 +2124,7 @@ bye|再见|o
 heimat|家乡 (die, 复数 Heimaten)|o
 flehen|恳求|v
 cent|分 (der, 复数 Cent)|o
-gewohnt|习惯的; 惯常的|o;o
+gewohnt|习惯了的; 惯常的; 住过|o;o;o
 schlacht|战役 (die, 复数 Schlachten)|o
 abgemacht|说定了！|o
 mitmachen|参加|v
@@ -2146,7 +2146,7 @@ versichern|保证; 投保|v;v
 begonnen|开始过的|o
 mai|五月 (der, 复数 Maie)|o
 kreuz|十字 (das, 复数 Kreuze); 后腰|o;o
-auftritt|登场，演出 (der, 复数 Auftritte)|o
+auftritt|出场，演出 (der, 复数 Auftritte); 他/她出现，发生|o;f3s
 gelandet|降落过的|o
 beschlossen|决定过的|o
 veränderung|变化 (die, 复数 Veränderungen)|o
@@ -2244,7 +2244,7 @@ korrekt|正确的|o
 osten|东方 (der, 无复数)|o
 weglaufen|跑开 (läuft weg, lief weg, weggelaufen, ist)|v
 mum|妈妈|o
-reifen|轮胎 (der, 复数 Reifen); 成熟|o;v
+reifen|轮胎 (der, 复数 Reifen); 箍; 成熟; 成熟的 (reif 的变形)|o;o;v;o
 durchgemacht|经历过的|o
 informiert|知情的|o
 informieren|告知|v
@@ -2261,7 +2261,7 @@ medizinische|医疗的|o
 sicherlich|当然|o
 öffentlichkeit|公众 (die, 无复数)|o
 verstärkung|增援 (die, 复数 Verstärkungen)|o
-indianer|印第安人 (der, 复数 Indianer)|o
+indianer|美洲原住民, 印第安人 (现常避免使用) (der, 复数 Indianer)|o
 keks|饼干 (der, 复数 Kekse)|o
 jo|好 (口语)|o
 blasen|吹 (bläst, blies, geblasen); 气泡 (die Blase的复数)|v;o
@@ -2276,7 +2276,7 @@ herrlich|极好的|o
 aussteigen|下车 (stieg aus, ausgestiegen, ist)|v
 ciao|再见|o
 donnerstag|星期四 (der, 复数 Donnerstage)|o
-probe|排练 (die, 复数 Proben); 样品，测试|o;o
+probe|排练 (die, 复数 Proben); 样品; 试验，考验|o;o;o
 lektion|一课 (die, 复数 Lektionen)|o
 schaff|我做得到 (口语)|f1s
 blicken|看，瞥|v
@@ -2296,7 +2296,7 @@ wüste|沙漠 (die, 复数 Wüsten)|o
 training|训练 (das, 复数 Trainings)|o
 viertel|四分之一 (das, 复数 Viertel); 街区|o;o
 klamotten|衣服 (口语) (die, 复数)|o
-heil|没受伤的，完好的; 万岁|o;o
+heil|未受伤的，完好的; 救赎，福祉 (das, 无复数); 万岁 (纳粹礼)|o;o;o
 wissenschaftler|科学家 (der, 复数 Wissenschaftler)|o
 drum|所以 (口语)|o
 verteidigung|防御 (die, 复数 Verteidigungen)|o
@@ -2330,7 +2330,7 @@ empfehlen|推荐 (empfiehlt, empfahl, empfohlen)|v
 hass|仇恨 (der, 无复数)|o
 rund|圆的; 大约|o;o
 seil|绳子 (das, 复数 Seile)|o
-verdienst|收入 (der, 复数 Verdienste); 功绩 (das, 复数 Verdienste)|o;o
+verdienst|收入 (der, 复数 Verdienste); 功绩 (das, 复数 Verdienste); 你赚，你应得|o;o;f2s2p
 verwandeln|使变成，转变|v
 motiv|动机 (das, 复数 Motive); 主题|o;o
 identifizieren|识别|v
@@ -2415,7 +2415,7 @@ benötigen|需要|v
 käfig|笼子 (der, 复数 Käfige)|o
 staatsanwalt|检察官 (der, 复数 Staatsanwälte)|o
 angezogen|穿好衣服的; 被吸引的|o;o
-penner|流浪汉 (der, 复数 Penner)|o
+penner|流浪汉, 叫花子 (口语, 贬义) (der, 复数 Penner)|o
 weich|柔软的|o
 locken|引诱; 卷发 (die Locke的复数)|v;o
 verhungern|饿死 (ist)|v
@@ -2569,7 +2569,7 @@ zombie|僵尸 (der, 复数 Zombies)|o
 funk|无线电 (der, 无复数)|o
 japan|日本|o
 museum|博物馆 (das, 复数 Museen)|o
-hurensohn|狗娘养的 (der, 复数 Hurensöhne)|o
+hurensohn|婊子养的 (粗俗) (der, 复数 Hurensöhne)|o
 mögliche|可能的|o
 gebet|祈祷 (das, 复数 Gebete)|o
 scheinbar|表面上看来|o
@@ -2653,9 +2653,9 @@ note|分数 (die, 复数 Noten); 音符|o;o
 stift|笔 (der, 复数 Stifte)|o
 besucher|访客 (der, 复数 Besucher)|o
 gestanden|坦白过的; 站过的|o;o
-schütze|射手 (der, 复数 Schützen); 射手座|o;o
+schütze|射手 (der, 复数 Schützen); 射手座; 我保护; 愿他/她保护|o;o;f1s;f3s
 hubschrauber|直升机 (der, 复数 Hubschrauber)|o
-unterlagen|文件 (die Unterlage的复数)|o
+unterlagen|文件，资料 (die Unterlage 的复数); 他们受制于; 他们败给了，他们屈服于|o;f3p;f3p
 kette|链条 (die, 复数 Ketten); 项链|o;o
 interessante|有趣的|o
 wovor|对什么 (害怕)|o
@@ -2743,7 +2743,7 @@ einbruch|入室盗窃，闯入 (der, 复数 Einbrüche)|o
 durchmachen|经历|v
 getragen|搬过的;穿过的|o;o
 narbe|疤痕 (die, 复数 Narben)|o
-entgehen|逃脱，错过 (entging, entgangen, ist)|v
+entgehen|逃脱 (entging, entgangen, ist); (指事物) 没被注意到; sich entgehen lassen: 错过|v;v;n
 zugreifen|自取 (griff zu, zugegriffen);访问|v;v
 ausnahme|例外 (die, 复数 Ausnahmen)|o
 botschafter|大使 (der, 复数 Botschafter)|o
@@ -2855,9 +2855,9 @@ cowboy|牛仔 (der, 复数 Cowboys)|o
 gefangene|囚犯 (der/die, 复数 Gefangenen)|o
 unterschrift|签名 (die, 复数 Unterschriften)|o
 küste|海岸 (die, 复数 Küsten)|o
-handel|贸易 (der, 无复数)|o
+handel|贸易 (der, 无复数); 交易|o;o
 dünn|薄的，瘦的|o
-parkplatz|停车场 (der, 复数 Parkplätze)|o
+parkplatz|停车场 (der, 复数 Parkplätze); 车位|o;o
 mommy|妈咪|o
 jahrelang|多年来|o
 männlich|男性的;阳性的|o;o
@@ -3099,7 +3099,7 @@ knacken|破解，咬开|v
 gesang|歌唱 (der, 复数 Gesänge)|o
 brand|火灾 (der, 复数 Brände)|o
 muster|图案 (das, 复数 Muster)|o
-beziehen|铺 (床);领取;sich beziehen auf: 涉及 (bezog, bezogen)|v;v;n
+beziehen|领取，获得 (bezog, bezogen); sich beziehen auf: 涉及，指的是; 搬入 (住所); 套上 (床品)|v;n;v;v
 eingeschlafen|睡着了的|o
 überfahren|碾过，撞倒 (überfährt, überfuhr, überfahren)|v
 produkt|产品 (das, 复数 Produkte)|o
@@ -3122,7 +3122,7 @@ ekelhaft|令人厌恶的|o
 explodiert|爆炸了的|o
 gewaltig|巨大的|o
 eigenartig|古怪的|o
-weichen|让步，退让 (wich, gewichen, ist)|v
+weichen|让开，退让 (wich, gewichen, ist); 软的 (weich 的变形)|v;o
 besetzt|被占用的;(电话) 占线|o;o
 kleben|粘贴|v
 teenager|青少年 (der, 复数 Teenager)|o
@@ -3683,7 +3683,7 @@ vermutung|猜测 (die, 复数 Vermutungen)|o
 buchstabe|字母 (der, 复数 Buchstaben)|o
 hergebracht|带来的|o
 gepackt|收拾好的;抓住的|o;o
-just|恰好|o
+just|恰好, 正是 (文学用语)|o
 furchtbare|可怕的|o
 qualität|质量 (die, 复数 Qualitäten)|o
 verhör|审讯 (das, 复数 Verhöre)|o
@@ -3707,7 +3707,7 @@ verbreiten|传播|v
 verkünden|宣布|v
 ersparen|省去|v
 illusion|幻想 (die, 复数 Illusionen)|o
-scheitern|失败 (ist)|v
+scheitern|失败 (ist); 失败 (das, 无复数)|v;o
 box|箱子 (die, 复数 Boxen);音箱|o;o
 jury|陪审团 (die, 复数 Jurys)|o
 ausgedacht|编造出来的|o
@@ -3792,7 +3792,7 @@ summt|嗡嗡作响|o
 bezaubernd|迷人的|o
 reif|成熟的 (水果);成熟的 (人)|o;o
 verlobte|未婚夫/未婚妻 (der/die, 复数 Verlobten)|o
-shit|糟了 (口语)|o
+shit|狗屎, 他妈的 (粗俗)|o
 trip|旅行 (der, 复数 Trips)|o
 aufwachsen|长大 (wuchs auf, aufgewachsen, ist)|v
 musiker|音乐家 (der, 复数 Musiker)|o
@@ -3937,7 +3937,7 @@ profil|个人资料 (das, 复数 Profile)|o
 riskiert|冒险过的|o
 ausrede|借口 (die, 复数 Ausreden)|o
 kühl|凉爽的|o
-verfügen|verfügen über: 拥有，支配|n
+verfügen|verfügen über: 拥有，可支配; 下令，规定|n;v
 verhindert|被阻止的;无法前来的|o;o
 darling|亲爱的|o
 tüte|袋子 (die, 复数 Tüten)|o
@@ -4070,10 +4070,10 @@ nähe|靠近 (die, 无复数); in der Nähe: 附近|o;n
 punkt|点 (der, 复数 Punkte); 句号; Punkt acht: 八点整|o;o;n
 merken|注意到; sich merken: 记住|v;n
 bescheid|Bescheid wissen: 知道 (这件事); Bescheid sagen: 告知|n;n
-klappe|halt die Klappe: 闭嘴; 盖子 (die, 复数 Klappen)|n;o
+klappe|halt die Klappe: 闭嘴 (粗鲁); 盖子, 翻板 (die, 复数 Klappen)|n;o
 rolle|角色 (die, 复数 Rollen); 卷; keine Rolle spielen: 不重要|o;o;n
 bestehen|存在 (bestand, bestanden); 通过 (考试); bestehen aus: 由...组成; bestehen auf: 坚持|v;v;n;n
-leiden|受苦 (litt, gelitten); nicht leiden können: 受不了|v;n
+leiden|受苦 (litt, gelitten); nicht leiden können: 受不了; 痛苦 (das, 复数 Leiden); 疾病，病痛|v;n;o;o
 beruhigen|使平静; sich beruhigen: 冷静下来|v;n
 weise|明智的; 方式 (die, 复数 Weisen); auf diese Weise: 以这种方式|o;o;n
 handeln|行动; 交易; es handelt sich um: 这关系到|v;v;n
@@ -4108,20 +4108,20 @@ aufpassen|留意，注意; aufpassen auf: 照看|v;n
 hut|帽子 (der, 复数 Hüte); auf der Hut sein: 提高警惕|o;n
 herzlich|热情的; herzlich willkommen: 热烈欢迎|o;n
 gang|走廊 (der, 复数 Gänge); 步态; 挡位; in Gang: 进行中|o;o;o;n
-lauten|是，写道 (指文字内容); wie lautet: 是什么|v;n
+lauten|内容为，写道 (指文字); wie lautet: 是什么，内容如何; 大声的 (laut 的变形)|v;n;o
 einverstanden|同意的; einverstanden sein: 同意|o;n
 benehmen|sich benehmen: 表现 (benimmt, benahm, benommen); 举止 (das, 无复数)|n;o
 angehen|涉及 (ging an, angegangen); 着手处理; das geht dich nichts an: 不关你的事|v;v;n
-maul|(动物的)嘴 (das, 复数 Mäuler); halt's Maul: 闭嘴|o;n
+maul|(动物的)嘴 (das, 复数 Mäuler); halt's Maul: 闭嘴 (粗鲁)|o;n
 beeil|beeil dich: 快点|n
 haufen|堆 (der, 复数 Haufen); ein Haufen: 一大堆|o;n
 regen|雨 (der, 复数 Regen); sich regen: 动一动|o;n
 wahnsinn|疯狂 (der, 无复数); Wahnsinn!: 太疯狂了！，太棒了！|o;n
-achten|尊重; achten auf: 留意|v;n
+achten|尊重; achten auf: 注意; 第八|v;n;o
 beeilen|sich beeilen: 赶快|n
 umstand|情况 (der, 复数 Umstände); unter Umständen: 可能|o;n
 umgehen|umgehen mit: 处理，应对 (ging um, umgegangen, ist); 避开|n;v
-irren|sich irren: 弄错|n
+irren|sich irren: 弄错，搞错; 犯错; 疯狂的 (irre 的变形)|n;v;o
 konzentrieren|sich konzentrieren: 集中注意力|n
 trennen|分开; sich trennen: 分手|v;n
 abgesehen|abgesehen von: 除了|n
@@ -4168,12 +4168,12 @@ pech|倒霉 (das, 无复数); Pech haben: 运气不好|o;n
 verabschieden|sich verabschieden: 告别|n
 spazieren|spazieren gehen: 散步|n
 anhören|听; sich anhören: 听起来|v;n
-schnitt|切口 (der, 复数 Schnitte); im Schnitt: 平均|o;n
+schnitt|切口 (der, 复数 Schnitte); im Schnitt: 平均; 我切了，他/她切了 (过去式)|o;n;f1s
 eilig|匆忙的; es eilig haben: 赶时间|o;n
 umdrehen|转过身; sich umdrehen: 转身|v;n
 rühren|搅拌; 打动; sich rühren: 动一动|v;v;n
 wundern|使惊讶; sich wundern: 感到惊讶|v;n
-decken|覆盖; den Tisch decken: 摆桌子|v;n
+decken|盖，覆盖; den Tisch decken: 摆餐桌; sich decken: 重合，吻合|v;n;n
 täuschen|欺骗; sich täuschen: 弄错|v;n
 ursache|原因 (die, 复数 Ursachen); keine Ursache: 不客气|o;n
 weigern|sich weigern: 拒绝|n
@@ -4191,7 +4191,7 @@ beeilt|beeilt euch: 快点 (复数)|n
 rächen|为...报仇; sich rächen: 报复|v;n
 wehren|sich wehren: 自卫，反抗|n
 gewöhnen|sich gewöhnen an: 习惯于|n
-scheiden|离婚 (schied, geschieden); sich scheiden lassen: 离婚|v;n
+scheiden|离婚 (schied, geschieden); sich scheiden lassen: 离婚; 离开，分开 (aus dem Amt scheiden: 离职)|v;n;v
 lohnen|sich lohnen: 值得|n
 verpiss|verpiss dich: 滚开 (粗俗)|n
 höhe|高度 (die, 复数 Höhen); 海拔; in die Höhe: 向上|o;o;n
@@ -4208,8 +4208,8 @@ führung|领导 (die, 复数 Führungen); 导览; in Führung: 领先|o;o;n
 langweilen|使厌烦; sich langweilen: 感到无聊|v;n
 reiß|reiß dich zusammen: 振作起来|n
 hinsetzen|sich hinsetzen: 坐下|n
-dritt|zu dritt: 三人一组|n
-scheißegal|das ist mir scheißegal: 我他妈无所谓|n
+dritt|zu dritt: 三个人一起，三人一组|n
+scheißegal|das ist mir scheißegal: 我他妈的不在乎 (粗俗)|n
 bedienen|服务; 操作; sich bedienen: 自取|v;v;n
 leb|leb wohl: 永别了|n
 eintreten|进入;发生 (tritt ein, trat ein, eingetreten, ist)|v;v
@@ -4307,7 +4307,7 @@ ablenkung|分心的事 (die, 复数 Ablenkungen)|o
 unerwartet|意外的|o
 beschleunigen|加速|v
 sonnenuntergang|日落 (der, 复数 Sonnenuntergänge)|o
-stillen|哺乳;解 (渴)|v;v
+stillen|安静的 (still 的变形); 哺乳; 解 (渴)，平息|o;v;v
 käufer|买家 (der, 复数 Käufer)|o
 krach|噪音 (der, 复数 Kräche);争吵|o;o
 zukommen|朝...走来 (kam zu, zugekommen, ist);等待着 (某人)|v;v
@@ -4514,7 +4514,7 @@ provozieren|挑衅|v
 standort|地点 (der, 复数 Standorte)|o
 verachten|鄙视|v
 erobern|征服|v
-notieren|记下|v
+notieren|记下，记录; 报价，挂牌 (指股票，按某价格)|v;v
 beneiden|羡慕|v
 gefeiert|被庆祝的|o
 offene|开放的|o
@@ -4567,7 +4567,7 @@ kaugummi|口香糖 (der, 复数 Kaugummis)|o
 demütigen|使蒙羞|v
 erwartung|期望 (die, 复数 Erwartungen)|o
 geteilt|分享的;被分开的|o;o
-sehnen|sich sehnen nach: 渴望;肌腱|n;o
+sehnen|sich sehnen nach: 渴望, 向往; 肌腱 (die Sehne 的复数)|n;o
 zerbrochen|碎了的|o
 gauner|骗子 (der, 复数 Gauner)|o
 pilz|蘑菇 (der, 复数 Pilze);菌类|o;o
@@ -5085,7 +5085,7 @@ stützen|支撑|v
 andenken|纪念品 (das, 复数 Andenken)|o
 definieren|定义|v
 gate|登机口 (das, 复数 Gates)|o
-saufen|(贪杯) 喝酒，(动物) 饮水 (säuft, soff, gesoffen)|v
+saufen|酗酒, 猛喝 (口语) (säuft, soff, gesoffen); 饮水 (指动物)|v;v
 anhängen|附加;把 (罪行) 栽给|v;v
 flamme|火焰 (die, 复数 Flammen)|o
 zustimmung|同意 (die, 复数 Zustimmungen)|o
@@ -5206,7 +5206,7 @@ vermieten|出租|v
 einleiten|启动，开始|v
 erpressen|勒索|v
 fliegende|飞行的|o
-flittchen|婊子 (das, 复数 Flittchen)|o
+flittchen|浪女, 轻佻女子 (贬义) (das, 复数 Flittchen)|o
 grundlage|基础 (die, 复数 Grundlagen)|o
 och|哦 (口语)|o
 sherry|雪利酒 (der, 复数 Sherrys)|o
@@ -5245,7 +5245,7 @@ bruch|骨折 (der, 复数 Brüche);违反|o;o
 dynamit|炸药 (das, 无复数)|o
 sonnenschein|阳光 (der, 无复数)|o
 uralt|古老的|o
-verschreiben|开药方 (verschrieb, verschrieben);sich verschreiben: 写错字|v;n
+verschreiben|开处方; sich verschreiben: 笔误 (verschrieb, verschrieben); 献身于 (sich … verschreiben)|v;n;v
 aufgelegt|挂了电话的;有心情的|o;o
 biegen|弯曲;转弯 (bog, gebogen)|v;v
 bräutigam|新郎 (der, 复数 Bräutigame)|o
@@ -5411,7 +5411,7 @@ auserwählt|被选中的|o
 hierbei|在这种情况下|o
 talentiert|有才华的|o
 anfänger|初学者 (der, 复数 Anfänger)|o
-erwidern|回应，反驳|v
+erwidern|回答，反驳; 回应，回报 (问候，感情)|v;v
 reue|懊悔 (die, 无复数)|o
 rhythmus|节奏 (der, 复数 Rhythmen)|o
 stipendium|奖学金 (das, 复数 Stipendien)|o
@@ -5821,7 +5821,7 @@ einatmen|吸气|v
 eingriff|干预 (der, 复数 Eingriffe);手术|o;o
 gewahrsam|拘留 (der, 无复数)|o
 hinterhalt|埋伏 (der, 复数 Hinterhalte)|o
-schlampen|贱货们 (die Schlampe 的复数)|o
+schlampen|婊子 (粗俗，冒犯) (die Schlampe 的复数)|o
 bearbeiten|处理，编辑|v
 katholisch|天主教的|o
 parfüm|香水 (das, 复数 Parfüms)|o
@@ -5976,7 +5976,7 @@ rauswerfen|扔出去 (口语)|v
 begräbnis|葬礼 (das, 复数 Begräbnisse)|o
 bemühung|努力 (die, 复数 Bemühungen)|o
 center|中心 (das, 复数 Center)|o
-dienstmädchen|女仆 (das, 复数 Dienstmädchen)|o
+dienstmädchen|女佣 (旧用语) (das, 复数 Dienstmädchen)|o
 gierig|贪婪的|o
 meinerseits|就我而言;ganz meinerseits: 我也很高兴|o;n
 aufgemacht|打开了的|o
@@ -6131,7 +6131,7 @@ einsehen|认识到 (sieht ein, sah ein, eingesehen)|v
 weiche|软的|o
 berechnung|计算 (die, 复数 Berechnungen)|o
 reinlegen|骗 (口语)|v
-rind|牛 (das, 复数 Rinder);牛肉|o;o
+rind|牛, 牛科动物 (das, 复数 Rinder); 牛肉|o;o
 bildschirm|屏幕 (der, 复数 Bildschirme)|o
 bucht|海湾 (die, 复数 Buchten)|o
 eminenz|(对红衣主教的尊称) 殿下 (die, 复数 Eminenzen)|o
@@ -6158,7 +6158,7 @@ abschlachten|屠杀|v
 annähernd|大约|o
 eichhörnchen|松鼠 (das, 复数 Eichhörnchen)|o
 gewebe|组织 (das, 复数 Gewebe);织物|o;o
-sternzeit|星历 (die, 无复数)|o
+sternzeit|恒星时 (die, 无复数); 星历 (星际迷航)|o;o
 unterschätzt|被低估的|o
 mühle|磨坊 (die, 复数 Mühlen)|o
 poker|扑克 (das, 无复数)|o
@@ -6629,7 +6629,7 @@ ritt|骑行 (der, 复数 Ritte); 骑过了 (我/他/她)|o;o
 tickt|滴答作响|o
 versiegelt|被封住的|o
 abgeschaltet|关掉的|o
-entsetzen|使恐惧; sich entsetzen: 感到恐惧|v;n
+entsetzen|使震惊，使恐惧; sich entsetzen: 感到震惊; 恐惧，惊骇 (das, 无复数)|v;n;o
 erscheinung|外表，现象 (die, 复数 Erscheinungen); 幽灵，幻象|o;o
 marquis|侯爵 (der, 复数 Marquis)|o
 raubüberfall|抢劫 (der, 复数 Raubüberfälle)|o
@@ -7012,7 +7012,7 @@ dominieren|主导，支配|v
 engagement|投入，参与 (das, 复数 Engagements)|o
 orthodox|正统的|o
 steinern|石制的|o
-trüben|使浑浊，使暗淡; 破坏 (气氛)|v;v
+trüben|使浑浊，使暗淡; 破坏，败坏; 阴沉的，浑浊的 (trüb 的变形)|v;v;o
 unbeweglich|不动的，静止的|o
 zornig|愤怒的|o
 abfahren|出发，离开 (fährt ab, fuhr ab, abgefahren, ist)|v
@@ -7235,7 +7235,7 @@ herrlichkeit|壮丽，辉煌 (die, 复数 Herrlichkeiten)|o
 merkmal|特征 (das, 复数 Merkmale)|o
 stellvertreter|代理人，代表 (der, 复数 Stellvertreter)|o
 abwechselnd|交替的，轮流地|o
-bleichen|漂白; 褪色|v;v
+bleichen|苍白的 (bleich 的变形); 漂白; 褪色|o;v;v
 folglich|因此|o
 fremdsprachig|外语的|o
 mittelfristig|中期的|o
@@ -8055,12 +8055,12 @@ herauf|上来，向上|o
 herausziehen|拉出，抽出 (zog heraus, herausgezogen)|v
 historiker|历史学家 (der, 复数 Historiker)|o
 lokomotive|机车 (die, 复数 Lokomotiven)|o
-preuße|普鲁士人 (der, 复数 Preußen)|o
+preuße|普鲁士人 (指人) (der, 复数 Preußen)|o
 rechtsstaatlichkeit|法治 (die, 无复数)|o
 rohstoff|原材料 (der, 复数 Rohstoffe)|o
 spaltung|分裂 (die, 复数 Spaltungen)|o
 übersteigen|超过 (übersteigt, überstieg, überstiegen)|v
-überziehen|透支 (账户); 覆盖 (überzieht, überzog, überzogen)|v;v
+überziehen|透支 (账户) (überzieht, überzog, überzogen); 覆盖, 涂上|v;v
 abwägen|权衡 (wog ab, abgewogen)|v
 allgegenwärtig|无处不在的|o
 artig|乖的，听话的 (指儿童)|o
@@ -8104,7 +8104,7 @@ tendieren|倾向于|v
 vorfinden|发现 (到达时) (fand vor, vorgefunden)|v
 woraus|从其中; 从什么|o;o
 abhandlung|论文 (die, 复数 Abhandlungen)|o
-ankleiden|给...穿衣; sich ankleiden: 穿衣|v;n
+ankleiden|给 (某人) 穿衣; sich ankleiden: 穿衣服|v;n
 beunruhigend|令人不安的|o
 bewährt|行之有效的|o
 bewältigung|应对，克服 (die, 无复数)|o
@@ -8323,7 +8323,7 @@ glaubwürdig|可信的|o
 hervorgehen|产生于，由此得出 (ging hervor, hervorgegangen, ist)|v
 initiieren|发起|v
 komposition|作品，构图 (die, 复数 Kompositionen)|o
-männchen|雄性动物; 小人 (das, 复数 Männchen)|o;o
+männchen|雄性 (动物) (das, 复数 Männchen); 小男人|o;o
 nominierung|提名 (die, 复数 Nominierungen)|o
 paarmal|几次|o
 praktik|做法 (die, 复数 Praktiken)|o
@@ -8503,7 +8503,7 @@ niederlegen|放下; 辞职|v;v
 notar|公证人 (der, 复数 Notare)|o
 passage|段落，通道 (die, 复数 Passagen)|o
 popularität|人气，受欢迎程度 (die, 无复数)|o
-quartal|季度 (das, 复数 Quartale)|o
+quartal|季度 (一年的) (das, 复数 Quartale)|o
 sparmaßnahme|紧缩措施 (die, 复数 Sparmaßnahmen)|o
 tausendmal|千次|o
 tribüne|看台，讲台 (die, 复数 Tribünen)|o
@@ -8633,7 +8633,7 @@ auslegen|解读; 铺开，展示|v;v
 aussprache|发音; 讨论 (die, 复数 Aussprachen)|o;o
 außenminister|外交部长 (der, 复数 Außenminister)|o
 becken|水池，盆地; 骨盆 (das, 复数 Becken)|o;o
-besetzung|占领 (军事); 阵容，演员表 (die, 复数 Besetzungen)|o;o
+besetzung|占领 (军事) (die, 复数 Besetzungen); 演员阵容 (戏剧)|o;o
 differenz|差异 (die, 复数 Differenzen)|o
 dilemma|困境 (das, 复数 Dilemmas)|o
 dunst|薄雾 (der, 复数 Dünste)|o
@@ -8645,7 +8645,7 @@ geschick|技巧; 命运 (das, 无复数)|o;o
 gremium|委员会 (das, 复数 Gremien)|o
 harmonie|和谐 (die, 复数 Harmonien)|o
 heftigkeit|激烈，猛烈 (die, 无复数)|o
-holocaust|大屠杀; (特指) 纳粹大屠杀 (der, 无复数)|o;o
+holocaust|大屠杀 (指犹太人大屠杀) (der, 无复数); 浩劫, 大规模毁灭|o;o
 häuschen|小房子 (das, 复数 Häuschen)|o
 konstruktion|构造，结构 (die, 复数 Konstruktionen)|o
 lump|无赖，流氓 (der, 复数 Lumpen)|o
@@ -8657,7 +8657,7 @@ toleranz|宽容 (die, 无复数)|o
 triumph|胜利，凯旋 (der, 复数 Triumphe)|o
 vorherrschaft|霸权，统治地位 (die, 无复数)|o
 vorliebe|偏爱 (die, 复数 Vorlieben)|o
-weide|牧场，草地; 柳树 (die, 复数 Weiden)|o;o
+weide|牧场, 草地 (die, 复数 Weiden); 柳树 (树)|o;o
 weltordnung|世界秩序 (die, 无复数)|o
 wohlbekannt|众所周知的|o
 zyklus|周期 (der, 复数 Zyklen)|o
@@ -8794,20 +8794,20 @@ abtei|修道院 (die, 复数 Abteien)|o
 alltäglich|日常的，平常的|o
 asyl|庇护 (das, 无复数)|o
 ausgangspunkt|出发点 (der, 复数 Ausgangspunkte)|o
-base|碱 (化学); 表姐妹 (旧用语) (die, 复数 Basen)|o;o
+base|碱 (化学) (die, 复数 Basen); (旧用语) 表姐妹|o;o
 bedingt|有条件的，有限的|o
 beurteilung|评判 (die, 复数 Beurteilungen)|o
 bucklig|驼背的|o
 bundesregierung|联邦政府 (die, 无复数)|o
 dienstbote|仆人 (der, 复数 Dienstboten)|o
-dirigent|指挥 (乐团) (der, 复数 Dirigenten)|o
+dirigent|指挥 (乐团的) (der, 复数 Dirigenten)|o
 dreihundert|三百|o
 entgegenkommen|迎合，妥协 (kam entgegen, entgegengekommen, ist)|v
 exil|流亡 (das, 无复数)|o
 fünfundzwanzig|二十五|o
 gesetzgebung|立法 (die, 无复数)|o
 getreide|谷物 (das, 无复数)|o
-gewahren|察觉，注意到 (文学用语)|v
+gewahren|察觉, 觉察 (文学用语)|v
 herankommen|靠近，接近 (kam heran, herangekommen, ist)|v
 hundertmal|百次|o
 härte|硬度; 严厉 (die, 无复数)|o;o
@@ -8905,7 +8905,7 @@ schädigen|损害|v
 statisch|静态的|o
 unilateral|单边的|o
 verwundbar|易受伤害的|o
-ablösen|替换，接替 (某人); 使分离|v;v
+ablösen|接替, 替换 (某人); 剥离|v;v
 aktienmarkt|股市 (der, 复数 Aktienmärkte)|o
 alsbald|马上，不久|o
 anatomie|解剖学 (die, 无复数)|o
@@ -9017,17 +9017,17 @@ aktionär|股东 (der, 复数 Aktionäre)|o
 ankündigung|公告，宣布 (die, 复数 Ankündigungen)|o
 ausarbeiten|制定，详细阐述|v
 ausbauen|扩建，扩展|v
-australier|澳大利亚人 (der, 复数 Australier)|o
+australier|澳大利亚人 (指人) (der, 复数 Australier)|o
 außenwelt|外部世界 (die, 无复数)|o
 beziehungsweise|或者，分别|o
-blitzen|打闪，闪电|v
+blitzen|闪光; (指闪电) 打闪|v;v
 chronik|编年史 (die, 复数 Chroniken)|o
 darbieten|表演，呈献|v
 deutung|解读，解释 (die, 复数 Deutungen)|o
 durchsetzung|贯彻，实施 (die, 无复数)|o
 ebbe|退潮 (die, 复数 Ebben)|o
 einflussreich|有影响力的|o
-frauenzimmer|女人，丫头，旧说法 (das, 复数 Frauenzimmer)|o
+frauenzimmer|女人 (旧用语, 贬义) (das, 复数 Frauenzimmer)|o
 fußspitze|脚尖 (die, 复数 Fußspitzen)|o
 fußweg|人行道 (der, 复数 Fußwege)|o
 führungspersönlichkeit|领导人物 (die, 复数 Führungspersönlichkeiten)|o
@@ -9064,7 +9064,7 @@ stabilisierung|稳定化 (die, 无复数)|o
 szenarium|情景，场景 (das, 复数 Szenarien)|o
 vorhergehend|先前的，前面的|o
 vorschein|zum Vorschein kommen: 显露出来，出现|n
-weibchen|雌性动物 (das, 复数 Weibchen)|o
+weibchen|雌性 (动物) (das, 复数 Weibchen)|o
 wertpapier|证券 (das, 复数 Wertpapiere)|o
 westküste|西海岸 (die, 复数 Westküsten)|o
 wiege|摇篮 (die, 复数 Wiegen)|o
@@ -9335,7 +9335,7 @@ wiederwahl|连任，重新当选 (die, 复数 Wiederwahlen)|o
 windstoß|阵风 (der, 复数 Windstöße)|o
 wonne|狂喜，喜悦 (die, 复数 Wonnen)|o
 würdevoll|庄重的，有尊严的|o
-zigeuner|吉卜赛人 (旧时用语) (der, 复数 Zigeuner)|o
+zigeuner|吉卜赛人 (冒犯) (der, 复数 Zigeuner)|o
 überprüfung|审查，检查 (die, 复数 Überprüfungen)|o
 überzieher|大衣 (der, 复数 Überzieher)|o
 abdrucken|印刷，转载 (文章)|v
@@ -9564,7 +9564,7 @@ beisetzen|安葬|v
 bequemlichkeit|舒适，便利 (die, 复数 Bequemlichkeiten)|o
 besitztum|财产，所有物 (das, 复数 Besitztümer)|o
 blitzstrahl|闪电 (der, 复数 Blitzstrahlen)|o
-buße|赎罪，罚金 (die, 复数 Bußen)|o
+buße|忏悔, 赎罪 (die, 复数 Bußen); 罚款|o;o
 diplom|文凭 (das, 复数 Diplome)|o
 dokumentation|文献记录，纪录片 (die, 复数 Dokumentationen)|o
 duo|二人组 (das, 复数 Duos)|o
@@ -9770,7 +9770,7 @@ banner|旗幅，横幅 (das, 复数 Banner)|o
 befehlshaber|指挥官 (der, 复数 Befehlshaber)|o
 begrenzung|限制，界限 (die, 复数 Begrenzungen)|o
 behälter|容器 (der, 复数 Behälter)|o
-beihilfe|补贴，资助; 教唆 (法律用语) (die, 复数 Beihilfen)|o;o
+beihilfe|补贴, 津贴 (die, 复数 Beihilfen); 帮助犯罪 (法律)|o;o
 bettdecke|被子 (die, 复数 Bettdecken)|o
 blickwinkel|视角，观点 (der, 复数 Blickwinkel)|o
 bogenschütze|弓箭手 (der, 复数 Bogenschützen)|o
@@ -9829,7 +9829,7 @@ verzerrung|扭曲 (die, 复数 Verzerrungen)|o
 voranbringen|推进，推动|v
 weimarer|魏玛的 (形容词，不变化); 魏玛人 (der, 复数 Weimarer)|o;o
 weiterentwicklung|进一步发展 (die, 复数 Weiterentwicklungen)|o
-wirbel|旋涡，涡流; 椎骨 (der, 复数 Wirbel)|o;o
+wirbel|旋涡, 涡流 (der, 复数 Wirbel); 喧闹, 轰动; 椎骨|o;o;o
 zehntausend|一万|o
 zugute|zugute kommen: 有益于; sich etwas zugute halten: 以...自豪|n;n
 zusammensein|相处，在一起; 聚会，相聚时光 (das)|v;o
@@ -9960,7 +9960,7 @@ kriegsmacht|军事力量 (die, 复数 Kriegsmächte)|o
 kölner|科隆的 (形容词，不变化); 科隆人 (der, 复数 Kölner)|o;o
 lichtstrahl|光线，光束 (der, 复数 Lichtstrahlen)|o
 lärmend|喧闹的|o
-lüften|通风; 揭开 (秘密)|v;v
+lüften|通风, 换气; 揭露 (秘密)|v;v
 mahl|餐，正餐 (das, 复数 Mahle)|o
 meditation|冥想 (die, 复数 Meditationen)|o
 menschenfleisch|人肉 (das, 无复数)|o
@@ -10190,7 +10190,7 @@ redaktion|编辑部 (die, 复数 Redaktionen)|o
 reformation|宗教改革 (die, 复数 Reformationen)|o
 register|登记册，索引 (das, 复数 Register)|o
 ritze|裂缝 (die, 复数 Ritzen)|o
-robbe|海豹 (die, 复数 Robben)|o
+robbe|海豹 (动物) (die, 复数 Robben)|o
 rumpf|躯干; 船体 (der, 复数 Rümpfe)|o;o
 sandbank|沙洲 (die, 复数 Sandbänke)|o
 schiit|什叶派教徒 (der, 复数 Schiiten)|o
@@ -10344,13 +10344,13 @@ anstoß|推动，发球; 冒犯 (der, 复数 Anstöße)|o;o
 appell|呼吁，点名 (der, 复数 Appelle)|o
 arbeitsgruppe|工作组 (die, 复数 Arbeitsgruppen)|o
 arrangement|安排，编排 (das, 复数 Arrangements)|o
-asiat|亚洲人 (der, 复数 Asiaten)|o
+asiat|亚洲人 (指人) (der, 复数 Asiaten)|o
 asthma|哮喘 (das, 无复数)|o
 augenschein|外表; in Augenschein nehmen: 察看 (der, 无复数)|o;n
 ausspruch|名言，说法 (der, 复数 Aussprüche)|o
 balustrade|栏杆，栏饰 (die, 复数 Balustraden)|o
 baronin|女男爵 (die, 复数 Baroninnen)|o
-bedienung|服务; (机器的) 操作 (die, 无复数)|o;o
+bedienung|服务 (die, 无复数); 操作 (机器的)|o;o
 behagen|使满意，使舒心; 舒适，安适 (das)|v;o
 beruhigung|安抚，镇定 (die, 无复数)|o
 beschädigung|损坏 (die, 复数 Beschädigungen)|o
@@ -10367,7 +10367,7 @@ einzug|搬入; 入场，入城 (der, 复数 Einzüge)|o;o
 entwicklungsbank|开发银行 (die, 复数 Entwicklungsbanken)|o
 erdöl|石油 (das, 无复数)|o
 erhebung|调查; 隆起; 起义 (die, 复数 Erhebungen)|o;o;o
-feldzug|军事行动，战役 (der, 复数 Feldzüge)|o
+feldzug|战役 (军事) (der, 复数 Feldzüge)|o
 fernrohr|望远镜 (das, 复数 Fernrohre)|o
 forschungsergebnis|研究结果 (das, 复数 Forschungsergebnisse)|o
 freihandel|自由贸易 (der, 无复数)|o
@@ -10448,7 +10448,7 @@ taschenbuch|平装书 (das, 复数 Taschenbücher)|o
 trunk|饮品，一口酒 (der, 复数 Trünke)|o
 typus|类型 (der, 复数 Typen)|o
 umstrukturierung|重组 (die, 复数 Umstrukturierungen)|o
-untergebene|下属 (der/die, 复数 Untergebenen)|o
+untergebene|下属 (指人) (der/die, 复数 Untergebenen)|o
 vergleichsweise|相对而言|o
 verlängerung|延长 (die, 复数 Verlängerungen)|o
 verschmutzung|污染 (die, 无复数)|o
@@ -10482,7 +10482,7 @@ bezwingen|征服，战胜|v
 blindlings|盲目地|o
 blähen|使膨胀，使鼓起; sich blähen: 膨起，鼓起|v;n
 blödsinnig|愚蠢的|o
-dato|至今 (常作 bis dato)|v
+dato|bis dato: 迄今, 到目前为止|n
 derb|粗鲁的; 结实的|o;o
 desillusionieren|使幻灭|v
 destruktiv|破坏性的|o
@@ -10684,7 +10684,7 @@ jazzmusiker|爵士音乐家 (der, 复数 Jazzmusiker)|o
 kernwaffe|核武器 (die, 复数 Kernwaffen)|o
 konversation|对话 (die, 复数 Konversationen)|o
 kupfer|铜 (das, 无复数)|o
-köpfchen|小脑袋 (das, 复数 Köpfchen)|o
+köpfchen|小脑袋 (das, 复数 Köpfchen); 脑筋, 头脑 (口语)|o;o
 kürzung|削减 (die, 复数 Kürzungen)|o
 landgut|庄园，地产 (das, 复数 Landgüter)|o
 lebensdauer|寿命 (die, 无复数)|o
@@ -10944,7 +10944,7 @@ verlinken|链接到|v
 verrostet|生锈的|o
 verworren|混乱的，纠结的|o
 weck|醒醒! (命令式)|o
-weibisch|女人气的|o
+weibisch|娘娘腔的 (贬义)|o
 weißlich|发白的|o
 wohlig|舒适的，惬意的|o
 wund|疼痛的，擦伤的 (皮肤)|o
@@ -10957,7 +10957,7 @@ zusammenfassend|总而言之|o
 übergewichtig|超重的|o
 abrufbar|可调取的，可获取的|o
 abschwächung|减弱，缓和 (die, 复数 Abschwächungen)|o
-akkord|和弦; 计件工资 (der, 复数 Akkorde)|o;o
+akkord|和弦 (音乐) (der, 复数 Akkorde); 计件工作|o;o
 allgemeinheit|公众; 普遍性 (die, 无复数)|o;o
 anbieter|供应商 (der, 复数 Anbieter)|o
 anfangsbuchstabe|首字母 (der, 复数 Anfangsbuchstaben)|o
@@ -11002,7 +11002,7 @@ gebühr|费用 (die, 复数 Gebühren)|o
 gefieder|羽毛 (das, 无复数)|o
 gegenüberstehen|面对，与...对立|v
 gemahl|丈夫，配偶 (der, 复数 Gemahle)|o
-gestade|岸，滨 (文学用语) (das, 复数 Gestade)|o
+gestade|岸, 滨 (文学用语) (das, 复数 Gestade)|o
 gewissensbiss|良心的谴责 (der, 复数 Gewissensbisse)|o
 gewölbt|拱形的，弯曲的|o
 gleichmütig|沉静的，淡然的|o
@@ -11046,7 +11046,7 @@ regent|统治者，摄政者 (der, 复数 Regenten)|o
 reinheit|纯净 (die, 无复数)|o
 rohstoffpreis|原材料价格 (der, 复数 Rohstoffpreise)|o
 saatgut|种子 (das, 无复数)|o
-schiffen|航行 (诗意用语); 撒尿 (粗俗)|v;v
+schiffen|撒尿 (粗俗); 航行 (旧用语)|v;v
 schilf|芦苇 (das, 无复数)|o
 schizophrenie|精神分裂症 (die, 无复数)|o
 schlafrock|睡袍 (der, 复数 Schlafröcke)|o
@@ -11263,7 +11263,7 @@ python|蟒蛇 (der, 复数 Pythons)|o
 pächter|承租人，佃户 (der, 复数 Pächter)|o
 reduktion|削减，还原 (die, 复数 Reduktionen)|o
 refrain|副歌 (der, 复数 Refrains)|o
-regelrecht|简直是，彻头彻尾的|o
+regelrecht|地地道道的, 十足的; 合乎规矩的|o;o
 rektor|校长 (der, 复数 Rektoren)|o
 rentner|退休人员 (der, 复数 Rentner)|o
 reputation|声誉 (die, 无复数)|o
@@ -11548,7 +11548,7 @@ psychedelisch|迷幻的|o
 rabbinisch|拉比的|o
 rhythmisch|有节奏的|o
 rumpeln|隆隆作响，咯噔作响|v
-saß|坐 (我当时，或他/她/它当时)|o
+saß|我坐着, 我坐了; 他/她/它坐着, 他/她/它坐了|f1s;f3s
 schälen|削皮|v
 semantisch|语义的|o
 siebeneinhalb|七个半|o
@@ -11910,7 +11910,7 @@ mexikanisch|墨西哥的|o
 militärisch|军事的|o
 missbrauchen|虐待; 滥用|v;v
 mysteriös|神秘的|o
-nahen|靠近，临近|v
+nahen|临近，走近; 近的 (nah 的变形)|v;o
 nudel|面条 (die, 复数 Nudeln); 意大利面 (复数形式)|o;o
 obere|上面的|o
 perle|珍珠 (die, 复数 Perlen); 珠子|o;o
@@ -12070,7 +12070,7 @@ kostbare|珍贵的|o
 köter|野狗，臭狗 (der, 复数 Köter)|o
 laser|激光 (der, 复数 Laser)|o
 letztlich|归根结底|o
-luder|骚货，狐狸精 (das, 复数 Luder)|o
+luder|浪货, 骚货 (贬义) (das, 复数 Luder)|o
 meckern|抱怨，发牢骚|v
 minderjährig|未成年的|o
 moms|妈妈的|o
@@ -12226,7 +12226,7 @@ zivilgesellschaftlich|公民社会的|o
 zweierlei|两种 (事物)|o
 abitur|高中毕业会考 (das, 无复数)|o
 achsel|肩; 腋下 (die, 复数 Achseln)|o;o
-afrikaner|非洲人 (der, 复数 Afrikaner)|o
+afrikaner|非洲人 (指人) (der, 复数 Afrikaner)|o
 ausrichtung|方向，定位 (die, 复数 Ausrichtungen)|o
 bankier|银行家 (der, 复数 Bankiers)|o
 besonderheit|特点 (die, 复数 Besonderheiten)|o
@@ -12236,7 +12236,7 @@ darlehen|贷款 (das, 复数 Darlehen)|o
 droschke|马车出租车 (die, 复数 Droschken)|o
 dynastie|王朝 (die, 复数 Dynastien)|o
 ehebruch|通奸 (der, 无复数)|o
-eiche|橡树 (die, 复数 Eichen)|o
+eiche|橡树 (树) (die, 复数 Eichen)|o
 engländerin|(女) 英国人 (die, 复数 Engländerinnen)|o
 ertrag|收益 (der, 复数 Erträge)|o
 esszimmer|餐厅 (das, 复数 Esszimmer)|o
@@ -12258,7 +12258,7 @@ londoner|伦敦人; 伦敦的 (der, 复数 Londoner)|o;o
 markgraf|边境伯爵 (der, 复数 Markgrafen)|o
 martern|折磨|v
 moderator|主持人 (电视或广播) (der, 复数 Moderatoren)|o
-mündung|河口; 枪口 (die, 复数 Mündungen)|o;o
+mündung|河口 (河流的) (die, 复数 Mündungen); 枪口 (枪的)|o;o
 neid|嫉妒 (der, 无复数)|o
 nische|壁龛，缝隙市场 (die, 复数 Nischen)|o
 ohnmacht|昏厥; 无力感 (die, 无复数)|o;o
@@ -12427,7 +12427,7 @@ erschieß|开枪打死吧！(非正式); 我开枪 (口语)|o;f1s
 erzähl|讲！ (非正式); 我讲 (口语)|o;f1s
 fahr|开车！ (非正式); 我开车 (口语)|o;f1s
 fass|桶 (das, 复数 Fässer); 摸！ (非正式); 我摸 (口语)|o;o;f1s
-find|我觉得 (口语); 找到！ (非正式); 我找到 (口语)|f1s;o;f1s
+find|我觉得 (口语); 找到! (非正式)|f1s;o
 flieg|飞！(非正式); 我飞 (口语)|o;f1s
 frag|问！ (非正式); 我问 (口语)|o;f1s
 geh|走！ (非正式); 我走 (口语)|o;f1s
@@ -12465,7 +12465,7 @@ schnapp|抓住！ (非正式); 我抓住 (口语)|o;f1s
 schneid|切！(非正式); 我切 (口语)|o;f1s
 schrei|尖叫 (der, 复数 Schreie); 喊叫！ (非正式); 我喊叫 (口语)|o;o;f1s
 schreib|写！ (非正式); 我写 (口语)|o;f1s
-setz|坐！放！ (非正式); setz dich: 坐下; 我坐, 我放 (口语)|o;n;f1s
+setz|放!，摆! (非正式); setz dich: 坐下; 我放，我摆 (口语)|o;n;f1s
 sing|唱！(非正式); 我唱 (口语)|o;f1s
 sitz|座位 (der, 复数 Sitze); 坐！ (非正式); 我坐 (口语)|o;o;f1s
 spar|省着点！(非正式); 我省钱 (口语)|o;f1s
@@ -12501,3 +12501,4384 @@ duzen|以 du（你）相称|v
 siezen|以 Sie（您）相称|v
 start-up|初创公司 (das, 复数 Start-ups)|o
 weihnachtsfeier|圣诞聚会 (公司或社团的) (die, 复数 Weihnachtsfeiern)|o
+eindringling|闯入者，入侵者 (der, 复数 Eindringlinge)|o
+schnecke|蜗牛 (die, 复数 Schnecken); 鼻涕虫|o;o
+geschöpf|生物，造物 (das, 复数 Geschöpfe)|o
+fledermaus|蝙蝠 (die, 复数 Fledermäuse)|o
+verbünden|结盟，联合; sich verbünden: 结成同盟|v;n
+monitor|显示器，屏幕 (der, 复数 Monitore)|o
+aufschlitzen|划开，割开|v
+kakerlake|蟑螂 (die, 复数 Kakerlaken)|o
+sabotieren|破坏，蓄意破坏|v
+hinterhältig|阴险的，奸诈的，暗中使坏的|o
+anomalie|异常，反常 (die, 复数 Anomalien)|o
+imperium|帝国 (das, 复数 Imperien)|o
+patriot|爱国者 (der, 复数 Patrioten)|o
+vorlesung|讲座，大学课程 (die, 复数 Vorlesungen)|o
+abriegeln|封锁，隔离，设置警戒线|v
+apache|阿帕奇人 (der, 复数 Apachen)|o
+telefonat|通话，电话 (das, 复数 Telefonate)|o
+strafen|惩罚|v
+großbritannien|大不列颠|o
+konsul|领事 (der, 复数 Konsuln)|o
+türkei|土耳其|o
+iwf|国际货币基金组织 (IMF) (der, 无复数)|o
+österreich|奥地利|o
+ezb|欧洲中央银行 (ECB) (die, 无复数)|o
+asien|亚洲|o
+syrien|叙利亚|o
+web|网络，互联网 (das, 无复数)|o
+globalisierung|全球化 (die, 无复数)|o
+covid|新冠肺炎，Covid|o
+arbeitslosigkeit|失业 (die, 无复数)|o
+erholung|恢复，复苏 (die, 无复数); 休息，放松|o;o
+grünlich|略带绿色的，微绿的|o
+pandemie|大流行病 (die, 复数 Pandemien)|o
+sachsen|萨克森|o
+förderung|促进，支持 (die, 复数 Förderungen); 资助; 开采|o;o;o
+zigeunerin|吉卜赛女人，罗姆女人 (过时，常含冒犯) (die, 复数 Zigeunerinnen)|o
+archivieren|存档，归档|v
+zürich|苏黎世|o
+prag|布拉格|o
+terrorismus|恐怖主义 (der, 无复数)|o
+arabien|阿拉伯|o
+entscheidungsträger|决策者 (der, 复数 Entscheidungsträger)|o
+ungarn|匈牙利|o
+sowjetunion|苏联|o
+argentinien|阿根廷|o
+kreml|克里姆林宫|o
+produktivität|生产率，生产力 (die, 无复数)|o
+architektur|建筑，建筑学 (die, 无复数)|o
+regulierung|调节，管制 (die, 复数 Regulierungen)|o
+lockerung|放松，缓和，松动 (die, 复数 Lockerungen)|o
+kapitalismus|资本主义 (der, 无复数)|o
+libanon|黎巴嫩|o
+dynamik|动力，动态，势头 (die, 无复数)|o
+nationalismus|民族主义 (der, 无复数)|o
+instabilität|不稳定 (die, 无复数)|o
+ära|时代 (die, 复数 Ären)|o
+hannover|汉诺威|o
+legitimität|合法性 (die, 无复数)|o
+libyen|利比亚|o
+glaubwürdigkeit|可信度，可信性 (die, 无复数)|o
+atomwaffe|核武器 (die, 复数 Atomwaffen)|o
+advokat|律师，辩护人 (der, 复数 Advokaten)|o
+mainz|美因茨|o
+rhein|莱茵河|o
+solidarität|团结，声援 (die, 无复数)|o
+kreativität|创造力 (die, 无复数)|o
+brüssel|布鲁塞尔|o
+böhmen|波希米亚|o
+biologie|生物学 (die, 无复数)|o
+diplomatie|外交 (die, 无复数)|o
+vielfalt|多样性 (die, 无复数)|o
+württemberg|符腾堡|o
+belgien|比利时|o
+neuron|神经元 (das, 复数 Neuronen)|o
+norwegen|挪威|o
+kluft|鸿沟，裂痕，差距 (die, 复数 Klüfte)|o
+rhetorik|修辞学，辩才 (die, 无复数)|o
+transparenz|透明度 (die, 无复数)|o
+migrant|移民 (der, 复数 Migranten)|o
+indonesien|印度尼西亚|o
+gefährte|同伴，伙伴 (der, 复数 Gefährten)|o
+nürnberg|纽伦堡|o
+münster|明斯特 (城市); 大教堂 (das, 复数 Münster)|o;o
+inneres|内部，里面 (das, 无复数); 内部的 (中性)|o;o
+ölpreis|油价 (der, 复数 Ölpreise)|o
+dänemark|丹麦|o
+georgien|格鲁吉亚|o
+physik|物理学 (die, 无复数)|o
+weilchen|一小会儿 (das, 无复数)|o
+renminbi|人民币 (der, 无复数)|o
+filiale|分店，分行，分公司 (die, 复数 Filialen)|o
+kommunismus|共产主义 (der, 无复数)|o
+komplexität|复杂性 (die, 无复数)|o
+malerei|绘画 (die, 复数 Malereien)|o
+oecd|经济合作与发展组织 (OECD)|o
+antlitz|面容，脸庞 (das, 复数 Antlitze)|o
+liquidität|流动性 (die, 无复数)|o
+nationalsozialismus|国家社会主义，纳粹主义 (der, 无复数)|o
+afd|德国选择党 (AfD) (die, 无复数)|o
+geograph|地理学家 (der, 复数 Geographen)|o
+hessen|黑森|o
+singapur|新加坡|o
+quartett|四重奏，四人组 (das, 复数 Quartette)|o
+luxemburg|卢森堡|o
+hisbollah|真主党|o
+liberalisierung|自由化 (die, 复数 Liberalisierungen)|o
+palästina|巴勒斯坦|o
+korridor|走廊，通道 (der, 复数 Korridore)|o
+seufzer|叹息 (der, 复数 Seufzer)|o
+verbot|禁令，禁止 (das, 复数 Verbote)|o
+aachen|亚琛|o
+cdu|基民盟 (基督教民主联盟) (die, 无复数)|o
+teilchen|粒子 (das, 复数 Teilchen)|o
+nachhaltigkeit|可持续性 (die, 无复数)|o
+versorgung|供应，供给 (die, 无复数); 照料，护理|o;o
+rumänien|罗马尼亚|o
+dur|大调 (das, 无复数)|o
+theologie|神学 (die, 无复数)|o
+darmstadt|达姆施塔特|o
+webseite|网站，网页 (die, 复数 Webseiten)|o
+gesundheitsversorgung|医疗保健 (die, 无复数)|o
+athen|雅典|o
+jemen|也门|o
+wartung|维护，保养 (die, 复数 Wartungen)|o
+scham|羞耻，羞愧 (die, 无复数)|o
+algorithmus|算法 (der, 复数 Algorithmen)|o
+volkszählung|人口普查 (die, 复数 Volkszählungen)|o
+bestrebung|努力，追求 (die, 复数 Bestrebungen)|o
+jordanien|约旦 (国家) (das, 无复数)|o
+kopenhagen|哥本哈根|o
+rheinland|莱茵兰|o
+entscheidungsfindung|决策 (die, 无复数)|o
+serbien|塞尔维亚|o
+schleswig|石勒苏益格|o
+unesco|联合国教科文组织 (UNESCO)|o
+eindämmung|遏制，控制 (die, 无复数)|o
+genom|基因组 (das, 复数 Genome)|o
+rostock|罗斯托克|o
+aufwertung|升值，重估 (die, 复数 Aufwertungen); 提升价值|o;o
+professorin|女教授 (die, 复数 Professorinnen)|o
+thüringen|图林根|o
+tschechien|捷克 (das, 无复数)|o
+entschlossenheit|决心，果断 (die, 无复数)|o
+kenia|肯尼亚|o
+infanterie|步兵 (die, 无复数)|o
+krim|克里米亚|o
+besteuerung|征税，课税 (die, 无复数)|o
+finnland|芬兰|o
+schwägerin|嫂子，弟媳，姑子，小姨子 (die, 复数 Schwägerinnen)|o
+säugetier|哺乳动物 (das, 复数 Säugetiere)|o
+karlsruhe|卡尔斯鲁厄|o
+tunesien|突尼斯|o
+fokus|焦点，重点 (der, 复数 Fokusse)|o
+unfähigkeit|无能，无法做到 (die, 无复数)|o
+erderwärmung|全球变暖 (die, 无复数)|o
+gatte|丈夫，配偶 (der, 复数 Gatten)|o
+verachtung|轻蔑，鄙视 (die, 无复数)|o
+arbeitslosenquote|失业率 (die, 复数 Arbeitslosenquoten)|o
+kolumbien|哥伦比亚|o
+diagramm|图表，示意图 (das, 复数 Diagramme)|o
+genf|日内瓦|o
+antibiotikum|抗生素 (das, 复数 Antibiotika)|o
+ausbreitung|扩散，蔓延，扩张 (die, 无复数)|o
+ostasien|东亚|o
+ausgrabung|发掘，挖掘 (die, 复数 Ausgrabungen)|o
+berichterstattung|报道 (die, 无复数)|o
+unterstützer|支持者 (der, 复数 Unterstützer)|o
+gleichheit|平等 (die, 无复数); 相同|o;o
+mecklenburg|梅克伦堡|o
+alp|高山牧场 (die, 复数 Alpen); 梦魇精怪 (der, 复数 Alpe)|o;o
+diele|门厅，过道 (die, 复数 Dielen); 地板条|o;o
+hektar|公顷 (das, 复数 Hektar)|o
+optimismus|乐观主义，乐观 (der, 无复数)|o
+weltgesundheitsorganisation|世界卫生组织|o
+wiese|草地，草甸 (die, 复数 Wiesen)|o
+extremismus|极端主义 (der, 无复数)|o
+mobilität|流动性，机动性 (die, 无复数)|o
+konjunktur|经济周期，经济形势，景气 (die, 复数 Konjunkturen)|o
+autismus|自闭症 (der, 无复数)|o
+psychologie|心理学 (die, 无复数)|o
+asean|东盟 (ASEAN)|o
+coronavirus|冠状病毒 (das, 复数 Coronaviren)|o
+integrität|正直，诚信 (die, 无复数)|o
+müdigkeit|疲倦，疲劳 (die, 无复数)|o
+sequenz|序列，顺序 (die, 复数 Sequenzen)|o
+ungeduld|不耐烦，急躁 (die, 无复数)|o
+sparquote|储蓄率 (die, 复数 Sparquoten)|o
+abschreckung|威慑 (die, 无复数)|o
+hormon|激素 (das, 复数 Hormone)|o
+philippinen|菲律宾 (die, 复数)|o
+bangladesch|孟加拉国|o
+präsenz|存在，出席 (die, 无复数)|o
+kanzlerin|女总理 (die, 复数 Kanzlerinnen)|o
+schlussfolgerung|结论，推论 (die, 复数 Schlussfolgerungen)|o
+inszenierung|上演，导演制作 (die, 复数 Inszenierungen)|o
+empathie|同理心，共情 (die, 无复数)|o
+westjordanland|约旦河西岸|o
+pförtner|门卫，看门人 (der, 复数 Pförtner)|o
+rezension|评论，书评 (die, 复数 Rezensionen)|o
+atom|原子 (das, 复数 Atome)|o
+träger|承载者，携带者 (der, 复数 Träger); 承重梁|o;o
+anno|在...年 (拉丁语 anno)|o
+donau|多瑙河|o
+theologe|神学家 (der, 复数 Theologen)|o
+litauen|立陶宛|o
+treibhausgasemission|温室气体排放 (die, 复数 Treibhausgasemissionen)|o
+kassel|卡塞尔|o
+unterredung|谈话，会谈 (die, 复数 Unterredungen)|o
+klick|点击 (der, 复数 Klicks)|o
+kroatien|克罗地亚|o
+koordinierung|协调 (die, 无复数)|o
+sorgfalt|细心，认真 (die, 无复数)|o
+ordner|文件夹，活页夹 (der, 复数 Ordner); 工作人员，维持秩序者|o;o
+florenz|佛罗伦萨|o
+auswärtig|外国的，外部的; 外地的|o;o
+ruanda|卢旺达|o
+deregulierung|放松管制 (die, 复数 Deregulierungen)|o
+tuberkulose|肺结核 (die, 无复数)|o
+archäologie|考古学 (die, 无复数)|o
+homepage|主页 (die, 复数 Homepages)|o
+abkehr|背离，放弃 (die, 无复数)|o
+wiederbelebung|复兴，复苏，急救复苏 (die, 复数 Wiederbelebungen)|o
+keramik|陶瓷，陶器 (die, 复数 Keramiken)|o
+gleichgültigkeit|漠不关心，冷漠 (die, 无复数)|o
+doktrin|教义，学说 (die, 复数 Doktrinen)|o
+nutzer|用户 (der, 复数 Nutzer)|o
+sunnit|逊尼派教徒 (der, 复数 Sunniten)|o
+verlangsamung|放缓，减速 (die, 复数 Verlangsamungen)|o
+doha|多哈|o
+lothringen|洛林|o
+verleihung|授予，颁发 (die, 复数 Verleihungen)|o
+kiew|基辅 (das, 无复数)|o
+oligarch|寡头 (der, 复数 Oligarchen)|o
+slowakei|斯洛伐克|o
+dozent|讲师 (der, 复数 Dozenten)|o
+erdboden|地面，土地 (der, 无复数)|o
+neugierde|好奇心 (die, 无复数)|o
+polarisierung|两极分化 (die, 复数 Polarisierungen)|o
+tschechoslowakei|捷克斯洛伐克|o
+kommandeur|指挥官 (der, 复数 Kommandeure)|o
+bulgarien|保加利亚|o
+loge|(剧院的)包厢 (die, 复数 Logen); 共济会分会，会所|o;o
+verwunderung|惊讶，诧异 (die, 无复数)|o
+kohlendioxid|二氧化碳 (das, 无复数)|o
+analyst|分析师 (der, 复数 Analysten)|o
+konservatorium|音乐学院 (das, 复数 Konservatorien)|o
+politikerin|女政治家 (die, 复数 Politikerinnen)|o
+wendung|转向，转折 (die, 复数 Wendungen); 措辞，习语|o;o
+dominanz|主导地位，支配 (die, 无复数)|o
+linse|透镜，镜片 (die, 复数 Linsen); 小扁豆|o;o
+beschluss|决定，决议 (der, 复数 Beschlüsse)|o
+gazastreifen|加沙地带|o
+zähler|计量表，计数器 (der, 复数 Zähler); 分子|o;o
+atlantik|大西洋|o
+bankrott|破产的; 破产 (der, 复数 Bankrotte)|o;o
+haag|海牙|o
+sklaverei|奴隶制 (die, 无复数)|o
+korps|军团，兵团，团体 (das, 复数 Korps)|o
+beinchen|小腿，小脚 (das, 复数 Beinchen)|o
+gewand|长袍，服装 (das, 复数 Gewänder)|o
+kongo|刚果|o
+bochum|波鸿|o
+erwähnung|提及，提到 (die, 复数 Erwähnungen)|o
+akp|正义与发展党 (土耳其) (AKP) (die, 无复数)|o
+konstantinopel|君士坦丁堡|o
+wählerschaft|选民，选民群体 (die, 无复数)|o
+massenvernichtungswaffe|大规模杀伤性武器 (die, 复数 Massenvernichtungswaffen)|o
+bolivien|玻利维亚|o
+jugoslawien|南斯拉夫|o
+nobelpreisträger|诺贝尔奖得主 (der, 复数 Nobelpreisträger)|o
+wittenberg|维滕贝格|o
+informatik|计算机科学，信息学 (die, 无复数)|o
+verleger|出版商 (der, 复数 Verleger)|o
+rückzahlung|偿还，还款 (die, 复数 Rückzahlungen)|o
+lissabon|里斯本|o
+nordisch|北欧的，北方的|o
+slowenien|斯洛文尼亚|o
+bekanntheit|知名度，名气 (die, 无复数)|o
+gouvernement|行政区，省 (das, 复数 Gouvernements)|o
+redakteur|编辑 (der, 复数 Redakteure)|o
+scheu|害羞的，胆怯的; 羞怯，胆怯 (die, 无复数)|o;o
+sozialismus|社会主义 (der, 无复数)|o
+bosnien|波斯尼亚|o
+äthiopien|埃塞俄比亚|o
+erschütterung|震动，冲击，动荡 (die, 复数 Erschütterungen)|o
+katar|卡塔尔|o
+teheran|德黑兰|o
+darm|肠，肠道 (der, 复数 Därme)|o
+konsolidierung|巩固，整合 (die, 复数 Konsolidierungen)|o
+algerien|阿尔及利亚|o
+soziologie|社会学 (die, 无复数)|o
+archäologe|考古学家 (der, 复数 Archäologen)|o
+glut|余烬，炽热的炭火 (die, 复数 Gluten); 酷热|o;o
+grausamkeit|残忍，残酷 (die, 复数 Grausamkeiten)|o
+veranlassung|起因，原因 (die, 复数 Veranlassungen); 促使，发起|o;o
+begründer|创立者，奠基人 (der, 复数 Begründer)|o
+einfachheit|简单，简洁 (die, 无复数)|o
+einzelperson|个人，单独的人 (die, 复数 Einzelpersonen)|o
+flandern|佛兰德|o
+malerin|女画家 (die, 复数 Malerinnen)|o
+partikel|粒子，微粒 (die, 复数 Partikeln)|o
+visum|签证 (das, 复数 Visa)|o
+energieversorgung|能源供应 (die, 无复数)|o
+impfung|接种，疫苗接种 (die, 复数 Impfungen)|o
+marokko|摩洛哥|o
+rückschlag|挫折，倒退 (der, 复数 Rückschläge)|o
+vertrieb|销售，经销 (der, 无复数); 驱逐了，赶走了 (我/他/她/它)|o;o
+zypern|塞浦路斯|o
+schwächung|削弱 (die, 复数 Schwächungen)|o
+westfälisch|威斯特伐利亚的|o
+klarheit|清晰，明确 (die, 无复数)|o
+simbabwe|津巴布韦|o
+verfügbarkeit|可用性，可得性 (die, 无复数)|o
+sizilien|西西里|o
+udssr|苏联 (苏维埃社会主义共和国联盟) (die, 无复数)|o
+armenien|亚美尼亚|o
+panzerung|装甲，护甲 (die, 复数 Panzerungen)|o
+tourismus|旅游业，旅游 (der, 无复数)|o
+bearbeitung|处理，办理 (die, 复数 Bearbeitungen); 编辑，修订; 改编|o;o;o
+galle|胆汁 (die, 无复数); 胆囊|o;o
+hegemonie|霸权 (die, 复数 Hegemonien)|o
+oldenburg|奥尔登堡|o
+skelett|骨架，骨骼 (das, 复数 Skelette)|o
+brauerei|啤酒厂 (die, 复数 Brauereien)|o
+geschicklichkeit|技巧，灵巧 (die, 无复数)|o
+gleichberechtigung|平权，平等权利 (die, 无复数)|o
+kap|海角，岬 (das, 复数 Kaps)|o
+klugheit|聪明，智慧 (die, 无复数)|o
+mobilisierung|动员 (die, 复数 Mobilisierungen)|o
+rechner|计算机 (der, 复数 Rechner); 计算器|o;o
+vorsehung|天意，天命 (die, 无复数)|o
+wimper|睫毛 (die, 复数 Wimpern)|o
+belgrad|贝尔格莱德|o
+skepsis|怀疑，怀疑态度 (die, 无复数)|o
+ipcc|政府间气候变化专门委员会 (IPCC) (der, 无复数)|o
+pazifik|太平洋|o
+premierministerin|女首相，女总理 (die, 复数 Premierministerinnen)|o
+verantwortlichkeit|责任，问责 (die, 复数 Verantwortlichkeiten)|o
+vermächtnis|遗产，遗赠 (das, 复数 Vermächtnisse)|o
+kaiserin|女皇，皇后 (die, 复数 Kaiserinnen)|o
+urbanisierung|城市化 (die, 无复数)|o
+albanien|阿尔巴尼亚|o
+bundeskanzlerin|女联邦总理 (die, 复数 Bundeskanzlerinnen)|o
+dienerin|女仆，女佣 (die, 复数 Dienerinnen)|o
+gemach|房间，寝宫 (过时) (das, 复数 Gemächer)|o
+genugtuung|满足，慰藉，补偿 (die, 无复数)|o
+getöse|喧闹声，嘈杂 (das, 无复数)|o
+makler|经纪人，房产中介 (der, 复数 Makler)|o
+petersburg|彼得堡|o
+pokal|奖杯 (der, 复数 Pokale); 高脚杯|o;o
+elektrode|电极 (die, 复数 Elektroden)|o
+kavallerie|骑兵 (die, 无复数)|o
+rheinisch|莱茵的，莱茵河地区的|o
+außenministerin|女外交部长 (die, 复数 Außenministerinnen)|o
+christentum|基督教 (das, 无复数)|o
+dichtung|诗歌，文学作品 (die, 复数 Dichtungen); 密封圈，垫圈|o;o
+konkurs|破产 (der, 复数 Konkurse)|o
+rassismus|种族主义 (der, 无复数)|o
+heide|异教徒 (der, 复数 Heiden); 荒原，石楠荒野 (die)|o;o
+multiplikation|乘法 (die, 复数 Multiplikationen)|o
+antisemitismus|反犹太主义 (der, 无复数)|o
+feierlichkeit|庄严，隆重 (die, 复数 Feierlichkeiten); 庆典，典礼|o;o
+jüngling|青年，少年 (过时) (der, 复数 Jünglinge)|o
+zentralasien|中亚|o
+artenvielfalt|生物多样性 (die, 无复数)|o
+kader|干部，骨干 (der, 复数 Kader)|o
+preisträger|获奖者 (der, 复数 Preisträger)|o
+nürnberger|纽伦堡的 (形容词); 纽伦堡人 (der, 复数 Nürnberger)|o;o
+sanierung|翻新，整顿，修复 (die, 复数 Sanierungen)|o
+ordern|订购，下订单|v
+äbtissin|女修道院院长 (die, 复数 Äbtissinnen)|o
+amazonas|亚马孙|o
+bretagne|布列塔尼|o
+chromosom|染色体 (das, 复数 Chromosomen)|o
+fünftel|五分之一 (das, 复数 Fünftel)|o
+festigkeit|坚固，强度，稳固 (die, 无复数)|o
+fröhlichkeit|快乐，愉快 (die, 无复数)|o
+gardine|窗帘 (die, 复数 Gardinen)|o
+jungfer|少女，小姐 (过时) (die, 复数 Jungfern)|o
+anfälligkeit|易感性，脆弱性 (die, 复数 Anfälligkeiten)|o
+bagdad|巴格达|o
+enzyklopädie|百科全书 (die, 复数 Enzyklopädien)|o
+ngo|非政府组织 (NGO) (die, 复数 NGOs)|o
+rekonstruktion|重建，重构 (die, 复数 Rekonstruktionen)|o
+geometrie|几何学 (die, 无复数)|o
+lettland|拉脱维亚|o
+restaurierung|修复，修缮 (die, 复数 Restaurierungen)|o
+verschlechterung|恶化，变差 (die, 复数 Verschlechterungen)|o
+erreichung|达成，实现 (die, 无复数)|o
+kairo|开罗|o
+kamel|骆驼 (das, 复数 Kamele)|o
+programmierer|程序员 (der, 复数 Programmierer)|o
+amtsantritt|就任，上任 (der, 复数 Amtsantritte)|o
+apostel|使徒 (der, 复数 Apostel)|o
+industrialisierung|工业化 (die, 无复数)|o
+ehrfurcht|敬畏，崇敬 (die, 无复数)|o
+entrüstung|愤慨，义愤 (die, 无复数)|o
+haube|软帽，便帽 (die, 复数 Hauben); 罩，引擎盖|o;o
+schwarm|群，一大群 (der, 复数 Schwärme); 迷恋对象，偶像|o;o
+tapete|壁纸 (die, 复数 Tapeten)|o
+dringlichkeit|紧迫性 (die, 无复数)|o
+illustration|插图 (die, 复数 Illustrationen)|o
+staatsbürgerschaft|公民身份，国籍 (die, 复数 Staatsbürgerschaften)|o
+maastricht|马斯特里赫特|o
+netto|净的，净额的|o
+rechteck|长方形，矩形 (das, 复数 Rechtecke)|o
+bukarest|布加勒斯特|o
+komma|逗号 (das, 复数 Kommas 或 Kommata); 小数点|o;o
+pionier|先驱，开拓者 (der, 复数 Pioniere)|o
+freundlichkeit|友好，亲切 (die, 复数 Freundlichkeiten)|o
+spott|嘲笑，嘲弄 (der, 无复数)|o
+währenddem|当...的时候; 同时，与此同时|o;o
+alge|藻类，海藻 (die, 复数 Algen)|o
+desaster|灾难，惨败 (das, 复数 Desaster)|o
+geschütz|火炮，大炮 (das, 复数 Geschütze)|o
+platzierung|名次，排名，安置 (die, 复数 Platzierungen)|o
+ressentiment|怨恨，积怨 (das, 复数 Ressentiments)|o
+iraner|伊朗人 (男) (der, 复数 Iraner)|o
+zuständigkeit|管辖权，职责 (die, 复数 Zuständigkeiten)|o
+antarktis|南极洲|o
+pädagogik|教育学 (die, 无复数)|o
+biennale|双年展 (die, 复数 Biennalen)|o
+erstellung|制作，编制 (die, 无复数)|o
+untätigkeit|无所作为，闲散 (die, 无复数)|o
+estland|爱沙尼亚|o
+kortex|皮层 (der, 复数 Kortizes)|o
+mücke|蚊子，小飞虫 (die, 复数 Mücken)|o
+solist|独奏者，独唱者 (der, 复数 Solisten)|o
+geographie|地理学 (die, 无复数)|o
+anhebung|提高，上调 (die, 复数 Anhebungen)|o
+emirat|酋长国 (das, 复数 Emirate)|o
+erdgeschoss|一楼，底层 (das, 复数 Erdgeschosse)|o
+fürstentum|公国 (das, 复数 Fürstentümer)|o
+elektronik|电子学，电子设备 (die, 无复数)|o
+erz|矿石 (das, 复数 Erze)|o
+läufer|跑步者，跑者 (der, 复数 Läufer); 长条地毯，桌旗; 象 (国际象棋)|o;o;o
+siemens|西门子 (德国工程公司)|o
+uneinigkeit|分歧，不和 (die, 无复数)|o
+anziehungskraft|吸引力，魅力 (die, 复数 Anziehungskräfte); 引力|o;o
+diskrepanz|差异，不一致 (die, 复数 Diskrepanzen)|o
+gerüst|脚手架 (das, 复数 Gerüste); 框架|o;o
+liberalismus|自由主义 (der, 无复数)|o
+primat|灵长类动物 (der, 复数 Primaten); 首要地位 (das)|o;o
+exekutive|行政部门，行政权 (die, 复数 Exekutiven)|o
+faschismus|法西斯主义 (der, 无复数)|o
+huawei|华为 (中国科技公司)|o
+pavillon|亭子，展馆 (der, 复数 Pavillons)|o
+adjunkt|助理，副手 (瑞士) (der, 复数 Adjunkte)|o
+betäubung|麻醉，麻木 (die, 复数 Betäubungen); 昏迷，恍惚|o;o
+fettleibigkeit|肥胖 (die, 无复数)|o
+gefährtin|女伴侣，女同伴 (die, 复数 Gefährtinnen)|o
+lehen|封地，采邑 (das, 复数 Lehen)|o
+torheit|愚蠢，愚行 (die, 复数 Torheiten)|o
+wirtin|女房东，女主人，女店主 (die, 复数 Wirtinnen)|o
+zuwachs|增长，增加 (der, 无复数)|o
+lähmung|瘫痪 (die, 复数 Lähmungen)|o
+rezeption|(作品的)接受，评价 (die, 复数 Rezeptionen); 前台|o;o
+ansteckung|感染，传染 (die, 复数 Ansteckungen)|o
+arktis|北极|o
+ethik|伦理学，道德 (die, 无复数)|o
+journalismus|新闻业 (der, 无复数)|o
+menü|菜单 (das, 复数 Menüs); 套餐|o;o
+muslimbruderschaft|穆斯林兄弟会 (die, 无复数)|o
+ungewissheit|不确定性 (die, 复数 Ungewissheiten)|o
+destabilisierung|破坏稳定 (die, 无复数)|o
+feministin|女性主义者 (女) (die, 复数 Feministinnen)|o
+ignoranz|无视，漠视 (die, 无复数)|o
+quantenmechanik|量子力学 (die, 无复数)|o
+konvergenz|趋同，收敛 (die, 复数 Konvergenzen)|o
+renovierung|翻修，装修 (die, 复数 Renovierungen)|o
+tschetschenien|车臣|o
+überschwemmung|洪水，水灾 (die, 复数 Überschwemmungen)|o
+bestürzung|震惊，惊愕 (die, 无复数)|o
+brahmane|婆罗门 (der, 复数 Brahmanen)|o
+düne|沙丘 (die, 复数 Dünen)|o
+unwissenheit|无知，不了解 (die, 无复数)|o
+zuversicht|信心，乐观 (die, 无复数)|o
+bakterium|细菌 (das, 复数 Bakterien)|o
+kindersterblichkeit|儿童死亡率 (die, 无复数)|o
+altona|阿尔托纳|o
+reliquie|圣物，遗物 (die, 复数 Reliquien)|o
+zugehörigkeit|归属，隶属 (die, 无复数)|o
+tastatur|键盘 (die, 复数 Tastaturen)|o
+anthropologie|人类学 (die, 无复数)|o
+einzel|单个的，单独的 (用于复合词); 单打 (网球) (das, 复数 Einzel)|o;o
+autoritarismus|威权主义 (der, 无复数)|o
+erzwungen|被迫的，强制的|o
+festlegung|确定，规定，约定 (die, 复数 Festlegungen)|o
+mikro|麦克风 (microphone 的简称) (das, 复数 Mikros)|o
+zuwendung|关爱，关注 (die, 复数 Zuwendungen); 捐赠，补助|o;o
+begierde|欲望，渴望 (die, 复数 Begierden)|o
+gefährt|车辆，交通工具 (das, 复数 Gefährte)|o
+hain|小树林 (der, 复数 Haine)|o
+hieb|一击，一下 (der, 复数 Hiebe)|o
+leichtigkeit|轻松，轻盈 (die, 无复数)|o
+lektüre|阅读，读物 (die, 复数 Lektüren)|o
+nichtregierungsorganisation|非政府组织 (NGO) (die, 复数 Nichtregierungsorganisationen)|o
+opec|石油输出国组织 (OPEC) (die, 无复数)|o
+umkehr|转向，逆转 (die, 无复数)|o
+moskito|蚊子 (der, 复数 Moskitos)|o
+annexion|吞并，兼并 (die, 复数 Annexionen)|o
+beliebtheit|受欢迎程度，人气 (die, 无复数)|o
+exponat|展品 (das, 复数 Exponate)|o
+obergeschoss|上层，楼上 (das, 复数 Obergeschosse)|o
+architektin|女建筑师 (die, 复数 Architektinnen)|o
+astronom|天文学家 (der, 复数 Astronomen)|o
+chefredakteur|总编辑 (der, 复数 Chefredakteure)|o
+exponent|代表人物，指数 (der, 复数 Exponenten)|o
+genetik|遗传学 (die, 无复数)|o
+osnabrück|奥斯纳布吕克|o
+antikörper|抗体 (der, 复数 Antikörper)|o
+energieträger|能源 (der, 复数 Energieträger)|o
+rivalität|竞争，对立 (die, 复数 Rivalitäten)|o
+zehntel|十分之一 (das, 复数 Zehntel)|o
+antwerpen|安特卫普|o
+beilegung|解决，平息 (die, 复数 Beilegungen)|o
+beil|斧头，小斧 (das, 复数 Beile)|o
+damaskus|大马士革|o
+entropie|熵 (die, 复数 Entropien)|o
+hager|消瘦的，憔悴的|o
+kasachstan|哈萨克斯坦|o
+pharmaunternehmen|制药公司 (das, 复数 Pharmaunternehmen)|o
+pracht|华丽，壮观 (die, 无复数)|o
+troika|三驾马车，三人小组 (die, 复数 Troikas)|o
+bayreuth|拜罗伊特|o
+ehrung|表彰，授予荣誉 (die, 复数 Ehrungen)|o
+ermangelung|缺乏 (die, 无复数); in ermangelung: 由于缺乏，在没有...的情况下|o;n
+jugendarbeitslosigkeit|青年失业 (die, 无复数)|o
+neutron|中子 (das, 复数 Neutronen)|o
+thorium|钍 (das, 无复数)|o
+adelig|贵族的，高贵的|o
+airbus|空中客车 (飞机、公司) (der, 复数 Airbusse)|o
+detektor|探测器 (der, 复数 Detektoren)|o
+hymne|颂歌，国歌，赞美诗 (die, 复数 Hymnen)|o
+kambodscha|柬埔寨|o
+misere|困境，悲惨境况 (die, 复数 Miseren)|o
+säure|酸 (die, 复数 Säuren); 酸味|o;o
+südasien|南亚|o
+lesung|朗读会 (公开) (die, 复数 Lesungen); (议会的)读会|o;o
+luxemburger|卢森堡的 (形容词); 卢森堡人 (der, 复数 Luxemburger)|o;o
+pocke|痘，天花脓疱 (die, 复数 Pocken)|o
+pommern|波美拉尼亚|o
+provokation|挑衅 (die, 复数 Provokationen)|o
+besiedlung|定居，殖民 (die, 无复数)|o
+erhalt|收到，领取 (der, 无复数); 保存，维持|o;o
+lyrik|诗歌，抒情诗 (die, 无复数)|o
+venezuela|委内瑞拉|o
+votum|表决，意见 (das, 复数 Voten)|o
+barmherzigkeit|怜悯，慈悲 (die, 无复数)|o
+befestigung|防御工事 (die, 复数 Befestigungen); 固定|o;o
+bestimmtheit|确定性，肯定 (die, 无复数); 明确性，特指|o;o
+methan|甲烷 (das, 无复数)|o
+neurowissenschaft|神经科学 (die, 复数 Neurowissenschaften)|o
+ruck|猛然一动，抖动 (der, 复数 Rucke)|o
+sinfonie|交响曲 (die, 复数 Sinfonien)|o
+stau|堵车，交通堵塞 (der, 复数 Staus); 积压，淤积|o;o
+südostasien|东南亚|o
+teint|肤色，面色 (der, 复数 Teints)|o
+traurigkeit|悲伤 (die, 无复数)|o
+verletzlichkeit|脆弱性，易受伤害 (die, 无复数)|o
+anregung|刺激，激发 (die, 复数 Anregungen); 建议|o;o
+messias|弥赛亚，救世主 (der, 复数 Messiasse)|o
+strophe|诗节 (die, 复数 Strophen)|o
+ukrainer|乌克兰人 (男) (der, 复数 Ukrainer)|o
+autokratie|独裁制，专制 (die, 复数 Autokratien)|o
+chemnitz|开姆尼茨|o
+digitalisierung|数字化 (die, 无复数)|o
+inhaftierung|监禁，拘留 (die, 复数 Inhaftierungen)|o
+sexualität|性，性征 (die, 无复数)|o
+zulassung|准入，许可，批准 (die, 复数 Zulassungen)|o
+allel|等位基因 (das, 复数 Allele)|o
+esperanto|世界语 (das, 无复数)|o
+klassik|古典时期 (die, 无复数); 古典音乐|o;o
+überarbeitung|修订 (die, 复数 Überarbeitungen); 过度劳累|o;o
+athlet|运动员 (der, 复数 Athleten)|o
+einnahme|收入 (die, 复数 Einnahmen); 占领，攻占|o;o
+fotografin|女摄影师 (die, 复数 Fotografinnen)|o
+hebel|杠杆 (der, 复数 Hebel)|o
+pubertät|青春期 (die, 无复数)|o
+qualle|水母 (die, 复数 Quallen)|o
+veteran|老兵，资深人士 (der, 复数 Veteranen)|o
+wiking|维京人 (der, 复数 Wikinger)|o
+begrüßung|问候，欢迎 (die, 复数 Begrüßungen)|o
+bürgerschaft|市民，公民群体 (die, 复数 Bürgerschaften); 市议会 (汉堡、不来梅)|o;o
+köhler|烧炭工 (der, 复数 Köhler); 绿青鳕|o;o
+legitimation|合法化，授权，证明 (die, 复数 Legitimationen)|o
+märtyrer|殉道者，烈士 (der, 复数 Märtyrer)|o
+pragmatismus|实用主义 (der, 无复数)|o
+senatorin|女参议员 (die, 复数 Senatorinnen)|o
+tapferkeit|勇敢 (die, 无复数)|o
+trompete|小号 (die, 复数 Trompeten)|o
+zuwanderung|迁入移民 (die, 无复数)|o
+basler|巴塞尔的 (形容词); 巴塞尔人 (der, 复数 Basler)|o;o
+röhre|管子 (die, 复数 Röhren); 电子管|o;o
+rückmeldung|反馈 (die, 复数 Rückmeldungen)|o
+wohlfahrtsstaat|福利国家 (der, 复数 Wohlfahrtsstaaten)|o
+abgrenzung|划界，区分 (die, 复数 Abgrenzungen)|o
+erzherzog|大公 (der, 复数 Erzherzöge)|o
+instrumentalmusik|器乐 (die, 无复数)|o
+pluralismus|多元主义 (der, 无复数)|o
+präferenz|偏好 (die, 复数 Präferenzen)|o
+synonym|同义词 (das, 复数 Synonyme)|o
+säuberung|清洁，打扫 (die, 复数 Säuberungen); 清洗，肃清|o;o
+arzneimittel|药物，药品 (das, 复数 Arzneimittel)|o
+chemotherapie|化疗 (die, 复数 Chemotherapien)|o
+delfin|海豚 (der, 复数 Delfine)|o
+dopamin|多巴胺 (das, 无复数)|o
+inklusion|包容，融合 (die, 无复数)|o
+revolte|反叛，起义 (die, 复数 Revolten)|o
+vernetzung|联网，互联 (die, 复数 Vernetzungen)|o
+ägypter|埃及人 (男) (der, 复数 Ägypter)|o
+hedgefonds|对冲基金 (der, 复数 Hedgefonds)|o
+potenz|幂，能力，效力 (die, 复数 Potenzen)|o
+skeptiker|怀疑论者，持怀疑态度的人 (der, 复数 Skeptiker)|o
+crispr|CRISPR (基因编辑技术)|o
+demut|谦卑 (die, 无复数)|o
+herzegowina|黑塞哥维那|o
+katholik|天主教徒 (der, 复数 Katholiken)|o
+komet|彗星 (der, 复数 Kometen)|o
+korallenriff|珊瑚礁 (das, 复数 Korallenriffe)|o
+kreta|克里特岛|o
+kriminalität|犯罪 (die, 无复数)|o
+pestizid|农药，杀虫剂 (das, 复数 Pestizide)|o
+realismus|现实主义 (der, 无复数)|o
+vektor|向量，矢量 (der, 复数 Vektoren)|o
+besserung|好转，改善 (die, 无复数); 康复|o;o
+bitterkeit|苦味，痛苦 (die, 无复数)|o
+bruttoinlandsprodukt|国内生产总值，GDP (das, 复数 Bruttoinlandsprodukte)|o
+genesung|康复，痊愈 (die, 无复数)|o
+geschwätz|闲聊，废话 (das, 无复数)|o
+rabe|渡鸦 (der, 复数 Raben)|o
+räumlichkeit|空间性 (die, 复数 Räumlichkeiten); 场所，房屋|o;o
+sparsamkeit|节俭，节约 (die, 无复数)|o
+speise|食物，菜肴 (die, 复数 Speisen)|o
+spuk|闹鬼，鬼怪现象 (der, 无复数)|o
+stengel|茎，秆 (der, 复数 Stengel)|o
+warze|疣，瘊子 (die, 复数 Warzen)|o
+einsparung|节省，削减 (die, 复数 Einsparungen)|o
+einzelstaat|成员国，州 (der, 复数 Einzelstaaten)|o
+geltung|有效性 (die, 无复数); 声望，认可|o;o
+kasino|赌场 (das, 复数 Kasinos)|o
+membran|膜 (die, 复数 Membranen)|o
+moderatorin|女主持人 (die, 复数 Moderatorinnen)|o
+steuerhinterziehung|逃税 (die, 无复数)|o
+verzicht|放弃，舍弃 (der, 无复数)|o
+coupé|双门轿车 (das, 复数 Coupés)|o
+hinwendung|转向，倾心，专注 (die, 无复数)|o
+schuldzuweisung|指责，归咎 (die, 复数 Schuldzuweisungen)|o
+sockel|底座，基座 (der, 复数 Sockel)|o
+atomenergie|核能 (die, 无复数)|o
+kapitulation|投降 (die, 复数 Kapitulationen)|o
+kontraktion|收缩 (die, 复数 Kontraktionen)|o
+mosaik|马赛克，镶嵌画 (das, 复数 Mosaike)|o
+neurowissenschaftler|神经科学家 (der, 复数 Neurowissenschaftler)|o
+schamane|萨满 (der, 复数 Schamanen)|o
+zeitspanne|时间段 (die, 复数 Zeitspannen)|o
+aserbaidschan|阿塞拜疆|o
+gigant|巨人，庞然大物 (der, 复数 Giganten)|o
+gräueltat|暴行 (die, 复数 Gräueltaten)|o
+kapstadt|开普敦|o
+karo|方块 (扑克牌花色) (das, 复数 Karos); 方格|o;o
+katalysator|催化剂 (der, 复数 Katalysatoren); 催化转化器|o;o
+prosa|散文 (die, 无复数)|o
+abholzung|砍伐森林 (die, 无复数)|o
+erachten|认为，视为|v
+erdgeschoß|一楼，底层|o
+evangelium|福音 (das, 复数 Evangelien)|o
+faxen|发传真; 滑稽举动，胡闹 (die, 复数)|v;o
+fischerei|捕鱼，渔业 (die, 无复数); 渔场|o;o
+frömmigkeit|虔诚 (die, 无复数)|o
+gelenk|关节 (das, 复数 Gelenke)|o
+pein|痛苦，折磨 (die, 无复数)|o
+robotik|机器人学 (die, 无复数)|o
+stapel|一摞，堆 (der, 复数 Stapel)|o
+vergabe|授予，分配 (die, 无复数)|o
+patriotismus|爱国主义 (der, 无复数)|o
+antenne|天线 (die, 复数 Antennen)|o
+erdoberfläche|地表 (die, 无复数)|o
+erschaffung|创造，创世 (die, 无复数)|o
+graphen|石墨烯 (das, 无复数)|o
+kaukasus|高加索|o
+tagung|会议，研讨会 (die, 复数 Tagungen)|o
+tansania|坦桑尼亚|o
+vergütung|报酬，酬金 (die, 复数 Vergütungen)|o
+ökologie|生态学 (die, 无复数)|o
+geologie|地质学 (die, 无复数)|o
+osze|欧安组织 (欧洲安全与合作组织) (die, 无复数)|o
+regentschaft|摄政 (die, 复数 Regentschaften)|o
+resistenz|抗性，耐药性 (免疫) (die, 复数 Resistenzen)|o
+stettin|什切青|o
+biomasse|生物质 (die, 复数 Biomassen)|o
+delphin|海豚 (der, 复数 Delphine)|o
+feindschaft|敌意，仇恨 (die, 复数 Feindschaften)|o
+fortpflanzung|繁殖，生殖 (die, 无复数)|o
+fragmentierung|碎片化 (die, 无复数)|o
+insolvenz|资不抵债，破产 (die, 复数 Insolvenzen)|o
+kollektion|系列 (时装) (die, 复数 Kollektionen)|o
+kolumne|专栏 (报纸) (die, 复数 Kolumnen)|o
+konfiguration|配置，构型 (die, 复数 Konfigurationen)|o
+kreditwürdigkeit|信用度 (die, 无复数)|o
+mikrofon|麦克风，话筒 (das, 复数 Mikrofone)|o
+neuguinea|新几内亚|o
+sowjet|苏维埃 (委员会、人) (der, 复数 Sowjets)|o
+zerstörer|破坏者，驱逐舰 (人或军舰) (der, 复数 Zerstörer)|o
+chancengleichheit|机会平等 (die, 无复数)|o
+diaspora|离散社群，散居 (die, 无复数)|o
+flöte|长笛 (die, 复数 Flöten)|o
+kontinuität|连续性，延续 (die, 无复数)|o
+beschaffenheit|性质，状态 (die, 无复数)|o
+farc|哥伦比亚革命武装力量 (FARC，哥伦比亚游击队) (die, 无复数)|o
+feminismus|女性主义 (der, 无复数)|o
+fratze|鬼脸 (die, 复数 Fratzen); 丑陋的脸|o;o
+grönland|格陵兰|o
+kalb|小牛 (das, 复数 Kälber)|o
+kamm|梳子 (der, 复数 Kämme); 山脊，冠|o;o
+kindchen|小宝贝，小孩子 (das, 复数 Kindchen)|o
+klischee|陈词滥调，刻板印象 (das, 复数 Klischees)|o
+kniff|诀窍，窍门; 掐，捏 (der, 复数 Kniffe); (我/他/她/它) 掐了，捏了|o;o;o
+parkett|镶木地板 (das, 复数 Parkette); 剧院前排座位|o;o
+scheitel|发缝 (头发) (der, 复数 Scheitel); 头顶，顶点|o;o
+staatsangehörigkeit|国籍 (die, 复数 Staatsangehörigkeiten)|o
+subjekt|主语，主体 (das, 复数 Subjekte)|o
+wahrung|维护，保护 (die, 无复数)|o
+zaudern|犹豫，踌躇|v
+zinnen|城垛 (die, 复数)|o
+freizügigkeit|迁徙自由 (die, 无复数); 开放，放任|o;o
+lungenentzündung|肺炎 (die, 复数 Lungenentzündungen)|o
+reportage|报道，专题报道 (die, 复数 Reportagen)|o
+umwandlung|转换，转变 (die, 复数 Umwandlungen)|o
+attribut|属性，定语 (das, 复数 Attribute)|o
+auslosung|抽签 (die, 复数 Auslosungen)|o
+erzeugung|生产，产生 (die, 无复数)|o
+faktum|事实 (das, 复数 Fakten)|o
+gründer|创始人 (der, 复数 Gründer)|o
+gründerin|女创始人 (die, 复数 Gründerinnen)|o
+homosexualität|同性恋 (die, 无复数)|o
+kaserne|兵营 (die, 复数 Kasernen)|o
+memoiren|回忆录 (die, 复数)|o
+modul|模块 (das, 复数 Module)|o
+polynom|多项式 (das, 复数 Polynome)|o
+spezifikation|规格，规范 (die, 复数 Spezifikationen)|o
+taschenrechner|袖珍计算器 (der, 复数 Taschenrechner)|o
+unze|盎司 (die, 复数 Unzen)|o
+vize|副手，副职 (der, 复数 Vizes)|o
+wismar|维斯马|o
+ästhetik|美学 (die, 无复数)|o
+dschihad|圣战 (der, 复数 Dschihads)|o
+esm|欧洲稳定机制 (ESM) (der, 无复数)|o
+kaschmir|克什米尔|o
+kosmos|宇宙 (der, 无复数)|o
+machtergreifung|夺取政权 (die, 复数 Machtergreifungen)|o
+masche|针脚，线圈 (die, 复数 Maschen); 花招，手段|o;o
+mongolei|蒙古|o
+phosphor|磷 (der, 无复数)|o
+prozessor|处理器 (der, 复数 Prozessoren)|o
+syrer|叙利亚人 (男) (der, 复数 Syrer)|o
+genua|热那亚|o
+backbord|左舷 (das, 无复数)|o
+blindheit|失明，盲目 (die, 无复数)|o
+bonobo|倭黑猩猩 (der, 复数 Bonobos)|o
+imperialismus|帝国主义 (der, 无复数)|o
+ratifizierung|批准 (die, 复数 Ratifizierungen)|o
+relevanz|相关性，重要性 (die, 无复数)|o
+schub|推力，推动 (der, 复数 Schübe); 一批，一波|o;o
+stromerzeugung|发电 (die, 无复数)|o
+verpackung|包装 (die, 复数 Verpackungen)|o
+aufschub|推迟，延期 (der, 复数 Aufschübe)|o
+augenlid|眼睑，眼皮 (das, 复数 Augenlider)|o
+beet|花坛，苗圃 (das, 复数 Beete)|o
+dichterin|女诗人 (die, 复数 Dichterinnen)|o
+entschiedenheit|坚决，果断 (die, 无复数)|o
+entschädigung|赔偿，补偿 (die, 复数 Entschädigungen)|o
+essenz|精华，本质 (die, 复数 Essenzen)|o
+französin|法国女人 (die, 复数 Französinnen)|o
+furche|犁沟，皱纹 (die, 复数 Furchen)|o
+harz|树脂 (das, 复数 Harze); 哈茨山 (der)|o;o
+kur|疗程，疗养 (die, 复数 Kuren)|o
+mappe|文件夹，公文夹 (die, 复数 Mappen)|o
+moldau|伏尔塔瓦河; 摩尔多瓦|o;o
+natrium|钠 (das, 无复数)|o
+sonate|奏鸣曲 (die, 复数 Sonaten)|o
+trasse|路线，线路 (die, 复数 Trassen)|o
+absolvent|毕业生 (der, 复数 Absolventen)|o
+aminosäure|氨基酸 (die, 复数 Aminosäuren)|o
+bewahrung|保存，保持 (die, 无复数)|o
+biosphäre|生物圈 (die, 无复数)|o
+chirurgie|外科学 (学科) (die, 无复数)|o
+fremdenfeindlichkeit|仇外 (die, 无复数)|o
+geopolitik|地缘政治 (die, 无复数)|o
+psychose|精神病 (die, 复数 Psychosen)|o
+spirale|螺旋 (die, 复数 Spiralen)|o
+urin|尿 (der, 复数 Urine)|o
+vermittler|调解人，中间人 (der, 复数 Vermittler)|o
+zaum|马笼头 (der, 复数 Zäume)|o
+zentralisierte|集中化的 (变格形式)|o
+hightech|高科技|o
+karibik|加勒比地区|o
+klerus|神职人员，教士 (der, 无复数)|o
+merkur|水星|o
+präfektur|县，府 (行政区) (die, 复数 Präfekturen)|o
+sopran|女高音 (der, 复数 Soprane)|o
+anthropologe|人类学家 (der, 复数 Anthropologen)|o
+bataillon|营 (军队) (das, 复数 Bataillone)|o
+biodiversität|生物多样性 (die, 无复数)|o
+erleuchtung|启蒙，觉悟 (die, 复数 Erleuchtungen); 灵光一现|o;o
+förderer|赞助人，资助者 (der, 复数 Förderer)|o
+hommage|致敬 (die, 复数 Hommagen)|o
+ikone|圣像，偶像 (die, 复数 Ikonen)|o
+kalkül|算计，微积分 (das, 复数 Kalküle)|o
+kandidatin|女候选人 (die, 复数 Kandidatinnen)|o
+mitarbeiterin|女员工，女同事 (die, 复数 Mitarbeiterinnen)|o
+offenbarung|启示，揭示 (die, 复数 Offenbarungen)|o
+prämisse|前提 (die, 复数 Prämissen)|o
+saxophon|萨克斯管 (das, 复数 Saxophone)|o
+testosteron|睾酮 (das, 无复数)|o
+urheberrecht|版权，著作权 (das, 无复数)|o
+zeichner|绘图员，插画师 (der, 复数 Zeichner)|o
+aktivismus|行动主义，激进行动 (der, 无复数)|o
+avantgarde|先锋派 (die, 无复数)|o
+brutalität|残暴，野蛮 (die, 复数 Brutalitäten)|o
+entwaldung|森林砍伐 (die, 无复数)|o
+neoliberalismus|新自由主义 (der, 无复数)|o
+pädagoge|教育工作者，教师 (der, 复数 Pädagogen)|o
+unstimmigkeit|不一致，分歧 (die, 复数 Unstimmigkeiten)|o
+wasserversorgung|供水 (die, 无复数)|o
+übertreibung|夸张，夸大 (die, 复数 Übertreibungen)|o
+aktivistin|女活动家 (die, 复数 Aktivistinnen)|o
+annalen|编年史 (die, 复数)|o
+astronomie|天文学 (die, 无复数)|o
+dramatiker|剧作家 (der, 复数 Dramatiker)|o
+fels|岩石，峭壁 (der, 复数 Felsen)|o
+fundamentalismus|原教旨主义 (der, 无复数)|o
+jugendlich|青春的，青少年的|o
+pessimismus|悲观主义，悲观 (der, 无复数)|o
+schuldverschreibung|债券 (die, 复数 Schuldverschreibungen)|o
+sportler|运动员 (der, 复数 Sportler)|o
+statut|章程，条例 (das, 复数 Statuten)|o
+strang|股，绳索 (der, 复数 Stränge); 线路，轨道|o;o
+tschernobyl|切尔诺贝利|o
+ultraschall|超声波 (der, 无复数)|o
+verbundenheit|联系，归属感，团结 (die, 无复数)|o
+österreicher|奥地利人 (男) (der, 复数 Österreicher)|o
+abchasien|阿布哈兹|o
+belangen|起诉，追究责任|v
+beschluß|决定，决议 (der, 复数 Beschlüsse)|o
+bollwerk|堡垒，屏障 (das, 复数 Bollwerke)|o
+einzelhandel|零售业 (der, 无复数)|o
+eleganz|优雅 (die, 无复数)|o
+konstitution|体质，宪法 (身体素质、政治) (die, 复数 Konstitutionen)|o
+lehrling|学徒 (der, 复数 Lehrlinge)|o
+metropole|大都市 (die, 复数 Metropolen)|o
+nizza|尼斯|o
+radikalisierung|激进化 (die, 无复数)|o
+schar|人群，队伍，一群 (die, 复数 Scharen)|o
+schlittschuh|冰鞋 (der, 复数 Schlittschuhe)|o
+sinnlichkeit|感官享受，肉感 (die, 无复数)|o
+term|项 (数学) (der, 复数 Terme)|o
+truhe|箱子，柜子 (die, 复数 Truhen)|o
+tyrannei|暴政 (die, 复数 Tyranneien)|o
+unwille|不悦，愤慨 (der, 无复数)|o
+wanderung|徒步旅行 (die, 复数 Wanderungen); 迁徙|o;o
+windung|弯曲，盘绕，圈 (die, 复数 Windungen)|o
+berner|伯尔尼的 (形容词); 伯尔尼人 (der, 复数 Berner)|o;o
+delegierter|代表 (der, 复数 Delegierte)|o
+gebrüder|兄弟 (用于公司名) (die, 复数)|o
+komfort|舒适 (der, 无复数)|o
+miniatur|微型画，缩影 (die, 复数 Miniaturen)|o
+obamacare|奥巴马医改 (die, 无复数)|o
+täufer|施洗者 (der, 复数 Täufer); 再洗礼派教徒|o;o
+akademiker|大学毕业生，学者 (der, 复数 Akademiker)|o
+blockchain|区块链 (die, 复数 Blockchains)|o
+gema|GEMA (德国音乐著作权协会) (die, 无复数)|o
+konsonant|辅音 (der, 复数 Konsonanten)|o
+paradoxon|悖论 (das, 复数 Paradoxa)|o
+synapse|突触 (die, 复数 Synapsen)|o
+äquivalent|等价物，对等物 (das, 复数 Äquivalente)|o
+arkade|拱廊 (die, 复数 Arkaden)|o
+benennung|命名 (die, 复数 Benennungen); 称谓|o;o
+gültigkeit|有效性 (die, 无复数)|o
+implikation|含义，牵连 (die, 复数 Implikationen)|o
+kalkstein|石灰岩 (der, 无复数)|o
+schulung|培训，教导 (die, 复数 Schulungen)|o
+vernachlässigung|忽视，疏忽 (die, 无复数)|o
+altruismus|利他主义 (der, 无复数)|o
+brabant|布拉班特|o
+bürgermeisterin|女市长 (die, 复数 Bürgermeisterinnen)|o
+druckerei|印刷厂 (die, 复数 Druckereien)|o
+elektrotechnik|电气工程 (die, 无复数)|o
+fehde|世仇，争斗 (die, 复数 Fehden)|o
+initiator|发起人 (der, 复数 Initiatoren)|o
+kulisse|背景，布景 (die, 复数 Kulissen)|o
+optik|光学 (die, 无复数); 外观，观感|o;o
+optimist|乐观主义者 (der, 复数 Optimisten)|o
+ostukraine|乌克兰东部|o
+pensionierung|退休 (die, 复数 Pensionierungen)|o
+prägung|压印，铸造 (die, 复数 Prägungen); 烙印，特性|o;o
+sarkophag|石棺 (der, 复数 Sarkophage)|o
+signatur|签名 (die, 复数 Signaturen); 索书号|o;o
+visualisierung|可视化 (die, 复数 Visualisierungen)|o
+wissenschaftlerin|女科学家，女研究员 (die, 复数 Wissenschaftlerinnen)|o
+ölgemälde|油画 (das, 复数 Ölgemälde)|o
+überflutung|淹没，洪水泛滥 (die, 复数 Überflutungen)|o
+entdecker|发现者，探险家 (der, 复数 Entdecker)|o
+hologramm|全息图 (das, 复数 Hologramme)|o
+ion|离子 (das, 复数 Ionen)|o
+kamerun|喀麦隆|o
+kernschmelze|堆芯熔毁 (die, 复数 Kernschmelzen)|o
+komiker|喜剧演员 (der, 复数 Komiker)|o
+konzeption|构想，概念 (die, 复数 Konzeptionen)|o
+logistik|物流，后勤 (die, 无复数)|o
+posaune|长号 (die, 复数 Posaunen)|o
+wohnraum|居住空间，住房 (der, 复数 Wohnräume)|o
+abwicklung|办理，处理 (die, 复数 Abwicklungen); 清算，结束|o;o
+almosen|施舍，救济品 (das, 复数 Almosen)|o
+arterie|动脉 (die, 复数 Arterien)|o
+atomkraft|核能，核电 (die, 无复数)|o
+aufstieg|上升，崛起，晋升 (der, 复数 Aufstiege)|o
+beschämung|羞愧，羞辱 (die, 无复数)|o
+biotechnologie|生物技术 (die, 复数 Biotechnologien)|o
+brandung|拍岸浪，碎浪 (die, 无复数)|o
+deutlichkeit|清晰，明确 (die, 无复数)|o
+erkundigung|打听，查询 (die, 复数 Erkundigungen)|o
+gefüge|结构，构造 (das, 复数 Gefüge)|o
+gehäuse|外壳，机壳 (das, 复数 Gehäuse)|o
+granit|花岗岩 (der, 复数 Granite)|o
+hemisphäre|半球 (die, 复数 Hemisphären)|o
+herausforderer|挑战者 (der, 复数 Herausforderer)|o
+hufe|蹄 (复数，der Huf 的复数形式)|o
+kavalier|绅士，殷勤的男士 (der, 复数 Kavaliere)|o
+korrespondenz|通信，书信往来 (die, 复数 Korrespondenzen)|o
+legislaturperiode|立法期，任期 (die, 复数 Legislaturperioden)|o
+libelle|蜻蜓 (die, 复数 Libellen)|o
+lilie|百合 (die, 复数 Lilien)|o
+marxismus|马克思主义 (der, 无复数)|o
+mentalität|心态，思维方式 (die, 复数 Mentalitäten)|o
+nutznießer|受益者 (der, 复数 Nutznießer)|o
+obhut|照管，监护 (die, 无复数)|o
+spekulant|投机者 (der, 复数 Spekulanten)|o
+tamburin|铃鼓 (das, 复数 Tamburine)|o
+trägheit|懒惰，迟钝 (die, 无复数); 惯性|o;o
+venezianer|威尼斯人 (男) (der, 复数 Venezianer)|o
+verhängung|实施，施加 (die, 无复数)|o
+vollkommenheit|完美 (die, 无复数)|o
+wachs|蜡 (das, 复数 Wachse)|o
+wohngebiet|住宅区 (das, 复数 Wohngebiete)|o
+zersplitterung|分裂，碎片化 (die, 无复数)|o
+beibehaltung|保持，保留 (die, 无复数)|o
+geschichtsschreibung|历史编纂，史学 (die, 无复数)|o
+klassifikation|分类 (die, 复数 Klassifikationen)|o
+kollaps|崩溃，虚脱 (der, 复数 Kollapse)|o
+maas|默兹河|o
+mechanik|力学，机械学 (die, 无复数)|o
+mosambik|莫桑比克|o
+suizid|自杀 (der, 复数 Suizide)|o
+symphonie|交响曲 (die, 复数 Symphonien)|o
+unzulänglichkeit|不足，缺陷 (die, 复数 Unzulänglichkeiten)|o
+verlegung|迁移，转移 (die, 复数 Verlegungen); 铺设|o;o
+beschuss|炮击，射击 (der, 无复数)|o
+fanatiker|狂热分子 (der, 复数 Fanatiker)|o
+genealogie|谱系学，家谱 (die, 复数 Genealogien)|o
+ineffizienz|低效 (die, 复数 Ineffizienzen)|o
+inkompetenz|无能，不称职 (die, 无复数)|o
+korrelation|相关性 (die, 复数 Korrelationen)|o
+kurator|策展人 (der, 复数 Kuratoren)|o
+manöver|演习，机动 (das, 复数 Manöver)|o
+mysterium|奥秘，神秘 (das, 复数 Mysterien)|o
+pfleger|护理员，男护士 (der, 复数 Pfleger)|o
+referent|报告人，讲演者 (der, 复数 Referenten); 顾问|o;o
+rückhalt|支持，后盾 (der, 无复数)|o
+smartphone|智能手机 (das, 复数 Smartphones)|o
+spezialeinheit|特种部队，特别小组 (die, 复数 Spezialeinheiten)|o
+vorbeugung|预防 (die, 无复数)|o
+ausarbeitung|拟定，详细制定 (die, 复数 Ausarbeitungen)|o
+dekoration|装饰，装潢 (die, 复数 Dekorationen)|o
+gastronomie|餐饮业，美食学 (die, 无复数)|o
+globus|地球仪，地球 (der, 复数 Globen)|o
+horten|囤积|v
+ingenieurin|女工程师 (die, 复数 Ingenieurinnen)|o
+inventar|清单，存货 (das, 复数 Inventare)|o
+radikalismus|激进主义 (der, 无复数)|o
+arie|咏叹调 (die, 复数 Arien)|o
+beschaffung|采购，筹措 (die, 复数 Beschaffungen)|o
+hefe|酵母 (die, 复数 Hefen)|o
+junker|容克，年轻贵族 (der, 复数 Junker)|o
+kolonialismus|殖民主义 (der, 无复数)|o
+speicherung|存储，保存 (die, 无复数)|o
+usbekistan|乌兹别克斯坦|o
+ventil|阀门，气门 (das, 复数 Ventile)|o
+ölindustrie|石油工业 (die, 无复数)|o
+einflussnahme|施加影响 (die, 复数 Einflussnahmen)|o
+heiligtum|圣地，圣殿 (das, 复数 Heiligtümer)|o
+kryptowährung|加密货币 (die, 复数 Kryptowährungen)|o
+realisierung|实现，实施 (die, 复数 Realisierungen)|o
+stationierung|驻扎，部署 (die, 复数 Stationierungen)|o
+akkordeon|手风琴 (das, 复数 Akkordeons)|o
+aufrichtigkeit|真诚 (die, 无复数)|o
+depesche|急件，电报 (die, 复数 Depeschen)|o
+feigheit|怯懦 (die, 无复数)|o
+gemurmel|低语声，嘟囔 (das, 无复数)|o
+gläschen|小玻璃杯 (das, 复数 Gläschen)|o
+grundversorgung|基本供给，基础保障 (die, 无复数)|o
+immunität|免疫，豁免权 (die, 无复数)|o
+intoleranz|不宽容，不耐受 (die, 无复数)|o
+klee|三叶草 (der, 无复数)|o
+kognak|干邑白兰地 (der, 复数 Kognaks)|o
+manschette|袖口，袖扣 (die, 复数 Manschetten)|o
+pappel|杨树 (die, 复数 Pappeln)|o
+richtigkeit|正确性 (die, 无复数)|o
+schengen|申根|o
+schmeichelei|奉承，恭维 (die, 复数 Schmeicheleien)|o
+umwälzung|剧变，彻底变革 (die, 复数 Umwälzungen)|o
+unwahrheit|谎言，不实之词 (die, 复数 Unwahrheiten)|o
+ölreserve|石油储备 (die, 复数 Ölreserven)|o
+algier|阿尔及尔|o
+angiogenese|血管生成 (die, 无复数)|o
+bariton|男中音 (der, 复数 Baritone)|o
+beraterin|女顾问 (die, 复数 Beraterinnen)|o
+drehung|转动，旋转 (die, 复数 Drehungen)|o
+gau|大区，行政区 (der, 复数 Gaue)|o
+glukose|葡萄糖 (die, 无复数)|o
+konvent|大会，议会 (der, 复数 Konvente); 修道院|o;o
+orthodoxie|正统，东正教 (die, 无复数)|o
+pilger|朝圣者 (der, 复数 Pilger)|o
+röntgen|拍X光; X光检查 (das, 无复数)|v;o
+stralsund|施特拉尔松德|o
+surfen|冲浪，上网浏览|v
+textilie|纺织品 (die, 复数 Textilien)|o
+verzierung|装饰，装饰物 (die, 复数 Verzierungen)|o
+weser|威悉河|o
+achtsamkeit|正念，留心 (die, 无复数)|o
+arroganz|傲慢 (die, 无复数)|o
+befund|检查结果，发现 (der, 复数 Befunde)|o
+garnison|驻军，驻地 (die, 复数 Garnisonen)|o
+konsortium|财团，联合体 (das, 复数 Konsortien)|o
+larve|幼虫 (die, 复数 Larven)|o
+nostalgie|怀旧 (die, 无复数)|o
+präsidium|主席团，总统职位 (das, 复数 Präsidien); 总部，警察总局|o;o
+südossetien|南奥塞梯|o
+südsudan|南苏丹|o
+tribut|贡品，敬意 (der, 复数 Tribute)|o
+vergrößerung|扩大，放大 (die, 复数 Vergrößerungen)|o
+vizepräsidentin|女副总统，女副主席 (die, 复数 Vizepräsidentinnen)|o
+weihe|祝圣，授职 (die, 复数 Weihen)|o
+wuhan|武汉|o
+authentizität|真实性 (die, 无复数)|o
+einfühlungsvermögen|同理心，共情能力 (das, 无复数)|o
+erfassung|记录，登记 (die, 无复数)|o
+hengst|种马 (der, 复数 Hengste)|o
+indus|印度河|o
+jülich|于利希|o
+kaliber|口径 (das, 复数 Kaliber)|o
+lachs|鲑鱼，三文鱼 (der, 复数 Lachse)|o
+physiologie|生理学 (die, 无复数)|o
+programmierung|编程 (die, 无复数)|o
+rechenleistung|计算能力，算力 (die, 无复数)|o
+unsterblichkeit|不朽，永生 (die, 无复数)|o
+unterwerfung|征服，屈服 (die, 无复数)|o
+ausschreitung|暴乱，过激行为 (die, 复数 Ausschreitungen)|o
+dozentin|女讲师 (die, 复数 Dozentinnen)|o
+etablierung|确立，建立 (die, 无复数)|o
+kneten|揉，捏|v
+parlamentarier|议员 (der, 复数 Parlamentarier)|o
+projektion|投影，投射 (die, 复数 Projektionen)|o
+staatskapitalismus|国家资本主义 (der, 无复数)|o
+thronfolger|王位继承人 (der, 复数 Thronfolger)|o
+abnahme|减少，下降 (die, 无复数); 验收，检验|o;o
+api|应用程序接口 (API) (die, 复数 APIs)|o
+auswertung|评估，分析 (die, 复数 Auswertungen)|o
+departement|省，行政区 (行政区划) (das, 复数 Departements)|o
+distanzierung|保持距离，划清界限 (die, 复数 Distanzierungen)|o
+etikett|标签 (das, 复数 Etiketten)|o
+isolierung|隔热，绝缘 (die, 无复数); 隔离|o;o
+krabbe|螃蟹 (die, 复数 Krabben); 小虾|o;o
+laie|外行，门外汉 (der, 复数 Laien)|o
+markierung|标记 (die, 复数 Markierungen)|o
+organisator|组织者 (der, 复数 Organisatoren)|o
+persien|波斯|o
+soziologe|社会学家 (der, 复数 Soziologen)|o
+tracht|传统服饰 (die, 复数 Trachten)|o
+vilnius|维尔纽斯|o
+waage|秤，天平 (die, 复数 Waagen); 天秤座|o;o
+zeitraffer|延时摄影 (der, 无复数)|o
+biegung|弯曲，弯道 (die, 复数 Biegungen)|o
+eintracht|和睦，和谐 (die, 无复数)|o
+erbrechen|呕吐 (erbricht, erbrach, erbrochen); 呕吐 (das, 无复数)|v;o
+ermahnung|告诫，警告 (die, 复数 Ermahnungen)|o
+erreger|病原体 (der, 复数 Erreger)|o
+gefährdung|危害，威胁 (die, 复数 Gefährdungen)|o
+gemeinheit|卑鄙，下流 (die, 复数 Gemeinheiten); 恶劣的事|o;o
+heimkehr|回家，归来 (die, 无复数)|o
+himbeere|覆盆子 (die, 复数 Himbeeren)|o
+husar|骠骑兵 (der, 复数 Husaren)|o
+junggeselle|单身汉 (der, 复数 Junggesellen)|o
+kies|砾石，碎石 (der, 无复数)|o
+konfekt|糖果，甜点 (das, 无复数)|o
+kühnheit|大胆，勇敢 (die, 无复数)|o
+marienkirche|圣母教堂 (die, 复数 Marienkirchen)|o
+märkisch|勃兰登堡边区的|o
+närrin|傻女人，女丑角 (die, 复数 Närrinnen)|o
+ostern|复活节 (das, 无复数)|o
+physiognomie|面相，相貌特征 (die, 复数 Physiognomien)|o
+pöbel|暴民，乌合之众 (贬义) (der, 无复数)|o
+roggen|黑麦 (der, 无复数)|o
+romagna|罗马涅|o
+schwur|誓言，誓约 (der, 复数 Schwüre)|o
+sehenswürdigkeit|名胜，景点 (die, 复数 Sehenswürdigkeiten)|o
+spatz|麻雀 (der, 复数 Spatzen)|o
+themse|泰晤士河|o
+unmut|不悦，恼怒 (der, 无复数)|o
+versenkung|沉没，沉入 (die, 复数 Versenkungen); 舞台活门|o;o
+verstimmung|心情不好，不和 (die, 复数 Verstimmungen)|o
+zange|钳子，夹钳 (die, 复数 Zangen)|o
+zipfel|角，尖端 (der, 复数 Zipfel)|o
+zucht|饲养，培育 (die, 无复数); 纪律|o;o
+ammoniak|氨 (das, 无复数)|o
+auswanderung|移居国外，外迁 (die, 复数 Auswanderungen)|o
+besessenheit|痴迷，附身 (die, 无复数)|o
+bestechung|贿赂，行贿 (die, 复数 Bestechungen)|o
+dünger|肥料 (der, 复数 Dünger)|o
+hoden|睾丸 (der, 复数 Hoden)|o
+klausel|条款 (die, 复数 Klauseln)|o
+mammographie|乳房X光检查 (die, 复数 Mammographien)|o
+mikroorganismus|微生物 (der, 复数 Mikroorganismen)|o
+platin|铂，白金 (das, 无复数)|o
+prozedur|程序，手续 (die, 复数 Prozeduren)|o
+präzision|精确，精度 (die, 无复数)|o
+raster|网格，栅格 (das, 复数 Raster)|o
+resonanz|共振，共鸣 (die, 复数 Resonanzen); 反响|o;o
+taucher|潜水员 (der, 复数 Taucher)|o
+tropen|热带 (die, 复数)|o
+abonnent|订阅者，订户 (der, 复数 Abonnenten)|o
+aufarbeitung|梳理反思，清理 (die, 无复数)|o
+buddhismus|佛教 (der, 无复数)|o
+elektroauto|电动汽车 (das, 复数 Elektroautos)|o
+entsendung|派遣 (die, 复数 Entsendungen)|o
+erschließung|开发，开拓 (die, 无复数)|o
+knappheit|短缺，稀缺 (die, 无复数)|o
+konsultation|磋商，咨询 (die, 复数 Konsultationen)|o
+musikerin|女音乐家 (die, 复数 Musikerinnen)|o
+registrierung|注册，登记 (die, 复数 Registrierungen)|o
+stakeholder|利益相关者 (der, 复数 Stakeholder)|o
+varianz|方差 (die, 复数 Varianzen)|o
+argwohn|猜疑，不信任 (der, 无复数)|o
+besatzer|占领者 (der, 复数 Besatzer)|o
+derivat|衍生物，衍生品 (das, 复数 Derivate)|o
+endspiel|决赛，残局 (das, 复数 Endspiele)|o
+enthusiasmus|热情，热忱 (der, 无复数)|o
+entzündung|发炎，炎症 (die, 复数 Entzündungen)|o
+gesandtschaft|公使馆，外交使团 (die, 复数 Gesandtschaften)|o
+konsulat|领事馆 (das, 复数 Konsulate)|o
+leitlinie|指导方针，准则 (die, 复数 Leitlinien)|o
+magier|魔术师，魔法师 (der, 复数 Magier)|o
+neurotransmitter|神经递质 (der, 复数 Neurotransmitter)|o
+offenlegung|披露，公开 (die, 复数 Offenlegungen)|o
+parodie|戏仿，滑稽模仿 (die, 复数 Parodien)|o
+pornographie|色情内容 (die, 无复数)|o
+postleitzahl|邮政编码 (die, 复数 Postleitzahlen)|o
+repräsentation|代表，表现 (die, 复数 Repräsentationen)|o
+saarland|萨尔兰|o
+sauerstoffatom|氧原子 (das, 复数 Sauerstoffatome)|o
+sinto|辛提人 (辛提族成员) (der, 复数 Sinti)|o
+spermium|精子 (das, 复数 Spermien)|o
+stromversorgung|供电 (die, 无复数)|o
+textur|质地，纹理 (die, 复数 Texturen)|o
+vertrautheit|熟悉，亲密 (die, 无复数)|o
+waggon|火车车厢 (der, 复数 Waggons)|o
+ausschreibung|招标 (die, 复数 Ausschreibungen); 招聘广告|o;o
+berühmtheit|名声，名气 (die, 复数 Berühmtheiten); 名人|o;o
+bruderschaft|兄弟会，兄弟情谊 (die, 复数 Bruderschaften)|o
+duett|二重唱，二重奏 (das, 复数 Duette)|o
+einschüchterung|恐吓，威吓 (die, 复数 Einschüchterungen)|o
+geologe|地质学家 (der, 复数 Geologen)|o
+implementierung|实施，实现 (die, 复数 Implementierungen)|o
+konsole|控制台，游戏机 (die, 复数 Konsolen)|o
+mekka|麦加|o
+ministerin|女部长 (die, 复数 Ministerinnen)|o
+missionar|传教士 (der, 复数 Missionare)|o
+rückfall|复发，倒退 (der, 复数 Rückfälle)|o
+rückführung|遣返，送回 (die, 复数 Rückführungen)|o
+scheich|酋长，谢赫 (der, 复数 Scheichs)|o
+sprecherin|女发言人，女讲话者 (die, 复数 Sprecherinnen)|o
+tausendstel|千分之一 (das, 复数 Tausendstel)|o
+telekommunikation|电信 (die, 无复数)|o
+bildhauerei|雕塑 (艺术) (die, 无复数)|o
+botaniker|植物学家 (der, 复数 Botaniker)|o
+förster|护林员，林务官 (der, 复数 Förster)|o
+harmonisierung|协调统一 (die, 复数 Harmonisierungen)|o
+marihuana|大麻 (das, 无复数)|o
+maurer|泥瓦匠，砌砖工 (der, 复数 Maurer)|o
+milliardär|亿万富翁 (der, 复数 Milliardäre)|o
+praktikum|实习 (das, 复数 Praktika)|o
+sahelzone|萨赫勒地区|o
+stellungnahme|表态，意见声明 (die, 复数 Stellungnahmen)|o
+verdoppelung|加倍，翻倍 (die, 复数 Verdoppelungen)|o
+zwinger|兽笼，犬舍 (der, 复数 Zwinger); 城堡外围场地|o;o
+zynismus|愤世嫉俗，犬儒主义 (der, 无复数)|o
+ökumenisch|普世的，基督教各教派联合的|o
+afghane|阿富汗人 (男) (der, 复数 Afghanen)|o
+automat|自动售货机 (der, 复数 Automaten); 自动机|o;o
+bahre|担架 (die, 复数 Bahren); 灵柩架|o;o
+bambus|竹子 (der, 复数 Bambusse)|o
+befangenheit|偏见，不公正 (die, 无复数); 拘谨，局促|o;o
+bäcker|面包师 (der, 复数 Bäcker)|o
+chaussee|公路，铺装道路 (die, 复数 Chausseen)|o
+dezentralisierung|分散化，权力下放 (die, 无复数)|o
+doppel|双重的; 双打 (网球) (das, 复数 Doppel)|o;o
+durchlöchern|打满洞，打成筛子|v
+einwilligung|同意，许可 (die, 复数 Einwilligungen)|o
+entbehrung|匮乏，艰苦 (die, 复数 Entbehrungen)|o
+fazit|结论，总结 (das, 复数 Fazits)|o
+gallone|加仑 (die, 复数 Gallonen)|o
+gehilfe|助手，帮手 (der, 复数 Gehilfen)|o
+geistlichkeit|神职人员 (die, 无复数)|o
+gesamtheit|整体，全部 (die, 无复数)|o
+gnu|角马 (das, 复数 Gnus)|o
+halm|草茎，秆 (der, 复数 Halme)|o
+hohn|嘲讽，讥笑 (der, 无复数)|o
+katholizismus|天主教 (der, 无复数)|o
+kaviar|鱼子酱 (der, 无复数)|o
+koexistenz|共存 (die, 无复数)|o
+krümmung|曲率，弯曲 (die, 复数 Krümmungen)|o
+linkshänder|左撇子 (der, 复数 Linkshänder)|o
+marmelade|果酱 (die, 复数 Marmeladen)|o
+melancholie|忧郁 (die, 无复数)|o
+nachfolgerin|女继任者 (die, 复数 Nachfolgerinnen)|o
+ordinarius|正教授 (der, 复数 Ordinarien)|o
+orkan|飓风 (der, 复数 Orkane)|o
+perfektion|完美，完善 (die, 无复数)|o
+photosynthese|光合作用 (die, 无复数)|o
+rampenlicht|聚光灯，舞台脚灯 (das, 无复数)|o
+riff|礁 (das, 复数 Riffe)|o
+rondell|圆形花坛，圆形平台 (das, 复数 Rondelle)|o
+schmach|耻辱，屈辱 (die, 无复数)|o
+schott|舱壁 (das, 复数 Schotten)|o
+schüchternheit|害羞 (die, 无复数)|o
+semmel|小圆面包 (die, 复数 Semmeln)|o
+skandinavien|斯堪的纳维亚|o
+sowjetrepublik|苏维埃共和国 (die, 复数 Sowjetrepubliken)|o
+spielerei|玩耍，儿戏 (die, 复数 Spielereien); 小玩意|o;o
+sterblichkeit|死亡率，必死性 (die, 无复数)|o
+stickerei|刺绣 (die, 复数 Stickereien)|o
+straflosigkeit|不受惩罚，有罪不罚 (die, 无复数)|o
+stringtheorie|弦理论 (die, 复数 Stringtheorien)|o
+tanne|冷杉 (die, 复数 Tannen)|o
+unendlichkeit|无限 (die, 无复数)|o
+unglaube|不信，怀疑 (der, 无复数)|o
+unhöflichkeit|无礼，不礼貌 (die, 复数 Unhöflichkeiten)|o
+veilchen|紫罗兰 (das, 复数 Veilchen); 熊猫眼，黑眼圈|o;o
+verweis|参见，引用 (der, 复数 Verweise); 训斥，警告处分|o;o
+äquator|赤道 (der, 无复数)|o
+ölproduktion|石油产量，石油生产 (die, 无复数)|o
+adaption|改编，适应 (die, 复数 Adaptionen)|o
+aktiva|资产 (die, 复数)|o
+beeinflussung|影响 (die, 复数 Beeinflussungen)|o
+brocken|块，团 (der, 复数 Brocken)|o
+dezentralisieren|分散化，下放权力|v
+einzelfall|个案，孤例 (der, 复数 Einzelfälle)|o
+emigrant|移居国外者，侨民 (der, 复数 Emigranten)|o
+faschist|法西斯分子 (der, 复数 Faschisten)|o
+fraktal|分形 (das, 复数 Fraktale)|o
+genossenschaft|合作社 (die, 复数 Genossenschaften)|o
+hüter|守护者，看守人 (der, 复数 Hüter)|o
+kolleg|大学讲座课程 (das, 复数 Kollegs); 学院|o;o
+konzession|让步 (die, 复数 Konzessionen); 许可证，特许权|o;o
+koproduktion|联合制作 (die, 复数 Koproduktionen)|o
+restauration|复辟 (政治) (die, 复数 Restaurationen)|o
+subtraktion|减法 (die, 复数 Subtraktionen)|o
+visualisieren|可视化，形象化|v
+xinjiang|新疆|o
+ziegel|砖 (der, 复数 Ziegel); 瓦|o;o
+absetzung|罢免，免职 (die, 复数 Absetzungen)|o
+anziehung|吸引 (die, 无复数)|o
+atmung|呼吸 (die, 无复数)|o
+berechtigung|授权，资格 (die, 复数 Berechtigungen)|o
+bohrung|钻孔，钻探 (die, 复数 Bohrungen); 钻井|o;o
+bombardierung|轰炸 (die, 复数 Bombardierungen)|o
+chlor|氯 (das, 无复数)|o
+collegium|学术团体，学院 (das, 复数 Collegia)|o
+divergenz|分歧，发散 (die, 复数 Divergenzen)|o
+endpunkt|终点 (der, 复数 Endpunkte)|o
+gewinnung|获取，提取 (die, 无复数)|o
+gruft|墓穴，地下墓室 (die, 复数 Grüfte)|o
+historikerin|女历史学家 (die, 复数 Historikerinnen)|o
+infrarot|红外线 (das, 无复数)|o
+innovator|创新者 (der, 复数 Innovatoren)|o
+kirsche|樱桃 (die, 复数 Kirschen)|o
+kolonne|纵队，竖列 (die, 复数 Kolonnen); 车队|o;o
+myzel|菌丝体 (das, 复数 Myzelien)|o
+optimierung|优化 (die, 复数 Optimierungen)|o
+patt|僵局，和棋 (das, 复数 Patts)|o
+pfirsich|桃子 (der, 复数 Pfirsiche)|o
+pharmaindustrie|制药业 (die, 无复数)|o
+philanthropie|慈善 (die, 无复数)|o
+pik|黑桃 (扑克牌花色) (das, 复数 Piks)|o
+politbüro|政治局 (das, 复数 Politbüros)|o
+schwefelwasserstoff|硫化氢 (der, 无复数)|o
+spiritualität|灵性，精神性 (die, 无复数)|o
+sprit|汽油，燃料 (der, 无复数); 酒精|o;o
+teig|面团，生面糊 (der, 复数 Teige)|o
+versetzung|调动，调职 (die, 复数 Versetzungen); 升级 (升入下一学年)|o;o
+ausläufer|山麓，支脉 (der, 复数 Ausläufer)|o
+beeinträchtigung|损害，妨碍 (die, 复数 Beeinträchtigungen)|o
+diagonale|对角线 (die, 复数 Diagonalen)|o
+katalonien|加泰罗尼亚|o
+kästchen|小盒子，小方格 (das, 复数 Kästchen)|o
+monarch|君主 (der, 复数 Monarchen)|o
+spengler|水管工，白铁工 (瑞士、德国南部) (der, 复数 Spengler)|o
+tiflis|第比利斯|o
+verwundbarkeit|脆弱性，易受伤害 (die, 无复数)|o
+zentralisierung|集中化 (die, 无复数)|o
+bauchspeicheldrüsenkrebs|胰腺癌 (der, 无复数)|o
+bibliothekar|图书管理员 (der, 复数 Bibliothekare)|o
+brokkoli|西兰花 (der, 无复数)|o
+direktion|管理层，领导机构 (die, 复数 Direktionen)|o
+elektrofahrzeug|电动车辆 (das, 复数 Elektrofahrzeuge)|o
+etappe|阶段，赛段 (die, 复数 Etappen)|o
+forscherin|女研究员 (die, 复数 Forscherinnen)|o
+geografie|地理学 (die, 无复数)|o
+geschichtsschreiber|历史学家，编年史家 (der, 复数 Geschichtsschreiber)|o
+glatze|秃头 (die, 复数 Glatzen)|o
+korrespondent|记者，通讯员 (der, 复数 Korrespondenten)|o
+langlebigkeit|长寿，耐用 (die, 无复数)|o
+neurologe|神经科医生 (der, 复数 Neurologen)|o
+sequenzieren|测序|v
+simulation|模拟 (die, 复数 Simulationen)|o
+traube|葡萄 (die, 复数 Trauben); 串|o;o
+wespe|黄蜂 (die, 复数 Wespen)|o
+zika|寨卡 (病毒)|o
+zubereitung|制备，烹制 (die, 复数 Zubereitungen)|o
+bonität|信用度，偿付能力 (die, 无复数)|o
+eintragung|登记，记入 (die, 复数 Eintragungen)|o
+evp|欧洲人民党 (EVP) (die, 无复数)|o
+fixierung|执念，固着 (die, 复数 Fixierungen); 固定|o;o
+historie|历史，故事 (文学) (die, 复数 Historien)|o
+intellekt|智力，理智 (der, 无复数)|o
+kanu|独木舟，皮划艇 (das, 复数 Kanus)|o
+klotz|木块，大块头 (der, 复数 Klötze)|o
+konditionierung|条件作用，调教 (die, 无复数)|o
+konservatismus|保守主义 (der, 无复数)|o
+linderung|缓解，减轻 (die, 无复数)|o
+stabilisator|稳定器 (der, 复数 Stabilisatoren)|o
+tschad|乍得|o
+untertan|臣民 (统治者的) (der, 复数 Untertanen)|o
+urheber|创作者，始作俑者 (der, 复数 Urheber)|o
+verbannung|流放，放逐 (die, 复数 Verbannungen)|o
+wertschöpfungskette|价值链 (die, 复数 Wertschöpfungsketten)|o
+adria|亚得里亚海|o
+albernheit|愚蠢，傻气 (die, 复数 Albernheiten)|o
+anwender|用户，使用者 (der, 复数 Anwender)|o
+arznei|药，药物 (die, 复数 Arzneien)|o
+aufkleber|贴纸 (der, 复数 Aufkleber)|o
+beamtenschaft|公务员群体 (die, 无复数)|o
+betreuer|照料者，监督人 (der, 复数 Betreuer)|o
+blättchen|小叶片 (das, 复数 Blättchen); 卷烟纸|o;o
+brieflich|通过书信，书面地|o
+demenz|痴呆 (die, 复数 Demenzen)|o
+designen|设计|v
+ebook|电子书 (das, 复数 E-Books)|o
+ehegatte|配偶，丈夫 (der, 复数 Ehegatten)|o
+eroberer|征服者 (der, 复数 Eroberer)|o
+erzieher|教育者，家庭教师 (der, 复数 Erzieher)|o
+erörterung|讨论，探讨 (die, 复数 Erörterungen)|o
+ferkel|小猪 (das, 复数 Ferkel)|o
+fleiß|勤奋，努力 (der, 无复数)|o
+fliese|瓷砖 (die, 复数 Fliesen)|o
+graphik|图形艺术，版画 (die, 复数 Graphiken); 图表|o;o
+hauptdarstellerin|女主角 (die, 复数 Hauptdarstellerinnen)|o
+intimität|亲密，私密 (die, 复数 Intimitäten)|o
+kegel|圆锥 (der, 复数 Kegel); 保龄球瓶|o;o
+kittel|罩衫，工作服 (der, 复数 Kittel)|o
+klitoris|阴蒂 (die, 复数 Klitorides)|o
+klumpen|块，团 (der, 复数 Klumpen)|o
+mentor|导师 (der, 复数 Mentoren)|o
+mieter|租户，房客 (der, 复数 Mieter)|o
+morast|泥沼，沼泽 (der, 复数 Moraste)|o
+mumie|木乃伊 (die, 复数 Mumien)|o
+nachlässigkeit|疏忽，马虎 (die, 复数 Nachlässigkeiten)|o
+nervosität|紧张 (die, 无复数)|o
+orgie|狂欢，纵欲 (die, 复数 Orgien)|o
+patriarch|族长，大主教 (der, 复数 Patriarchen)|o
+pfosten|柱子，门柱 (der, 复数 Pfosten)|o
+pilgern|朝圣|v
+planke|木板 (die, 复数 Planken)|o
+prämie|奖金，保险费 (die, 复数 Prämien)|o
+schmied|铁匠 (der, 复数 Schmiede)|o
+schwefel|硫磺 (der, 无复数)|o
+siebent|第七 (siebte 的变体)|o
+steg|人行桥，栈桥 (der, 复数 Stege)|o
+sterblichkeitsrate|死亡率 (die, 复数 Sterblichkeitsraten)|o
+toskana|托斯卡纳|o
+trompeter|小号手 (der, 复数 Trompeter)|o
+ulme|榆树 (die, 复数 Ulmen)|o
+unterwürfigkeit|卑躬屈膝，顺从 (die, 无复数)|o
+urgroßvater|曾祖父 (der, 复数 Urgroßväter)|o
+verwundung|受伤 (die, 复数 Verwundungen); 伤口|o;o
+wachsamkeit|警惕，警觉 (die, 无复数)|o
+walliser|瓦莱的 (形容词); 瓦莱人 (der, 复数 Walliser)|o;o
+wasserknappheit|水资源短缺 (die, 无复数)|o
+willkür|专断，任意 (die, 无复数)|o
+zopf|辫子 (der, 复数 Zöpfe)|o
+adagio|柔板 (das, 复数 Adagios)|o
+bewässerung|灌溉 (die, 无复数)|o
+biokraftstoff|生物燃料 (der, 复数 Biokraftstoffe)|o
+coimbra|科英布拉|o
+däne|丹麦人 (男) (der, 复数 Dänen)|o
+epos|史诗 (das, 复数 Epen)|o
+erbauer|建造者 (der, 复数 Erbauer)|o
+evakuierung|疏散，撤离 (die, 复数 Evakuierungen)|o
+forstwirtschaft|林业 (die, 无复数)|o
+gerichtsbarkeit|司法管辖权 (die, 复数 Gerichtsbarkeiten)|o
+ideologe|思想家，意识形态鼓吹者 (der, 复数 Ideologen)|o
+intifada|起义 (巴勒斯坦人的) (die, 复数 Intifadas)|o
+kappe|帽子，便帽 (die, 复数 Kappen)|o
+knoblauch|大蒜 (der, 无复数)|o
+konstrukt|构想，构造物 (das, 复数 Konstrukte)|o
+lwiw|利沃夫|o
+meisterin|女大师，女冠军 (die, 复数 Meisterinnen)|o
+metaphysik|形而上学 (die, 无复数)|o
+multimedia|多媒体|o
+niederschlagung|镇压 (die, 复数 Niederschlagungen); 撤销 (案件)|o;o
+pfennig|芬尼 (德国旧辅币) (der, 复数 Pfennige)|o
+rückgabe|归还，退还 (die, 复数 Rückgaben)|o
+thermodynamik|热力学 (die, 无复数)|o
+tibeter|藏族人 (男) (der, 复数 Tibeter)|o
+veranstalter|主办方，组织者 (der, 复数 Veranstalter)|o
+abwanderung|外流，人口迁出 (die, 无复数)|o
+afroamerikaner|非裔美国人 (男) (der, 复数 Afroamerikaner)|o
+aussetzung|暂停，中止 (die, 复数 Aussetzungen)|o
+ballade|叙事诗，民谣 (die, 复数 Balladen)|o
+büffel|水牛，野牛 (der, 复数 Büffel)|o
+charakterisierung|刻画，描述特征 (die, 复数 Charakterisierungen)|o
+determinante|行列式，决定因素 (die, 复数 Determinanten)|o
+droide|机器人 (科幻) (der, 复数 Droiden)|o
+fötus|胎儿 (der, 复数 Föten)|o
+imperativ|命令式，当务之急 (der, 复数 Imperative)|o
+karussell|旋转木马 (das, 复数 Karusselle)|o
+maat|海军士官 (der, 复数 Maate)|o
+malediven|马尔代夫|o
+masern|麻疹 (die, 复数)|o
+millisekunde|毫秒 (die, 复数 Millisekunden)|o
+nikotin|尼古丁 (das, 无复数)|o
+orakel|神谕，神谕所 (das, 复数 Orakel)|o
+progerie|早衰症 (die, 无复数)|o
+quecksilber|汞，水银 (金属) (das, 无复数)|o
+reptil|爬行动物 (das, 复数 Reptilien)|o
+savanne|热带稀树草原 (die, 复数 Savannen)|o
+schakal|豺 (der, 复数 Schakale)|o
+schrein|神龛，圣祠 (der, 复数 Schreine)|o
+spiegelung|映照，倒影 (die, 复数 Spiegelungen)|o
+steyr|施泰尔|o
+ureinwohner|原住民，土著 (der, 复数 Ureinwohner)|o
+zertifikat|证书 (das, 复数 Zertifikate)|o
+amtsträger|公职人员 (der, 复数 Amtsträger)|o
+beschneidung|割礼，包皮环切 (die, 复数 Beschneidungen)|o
+diversität|多样性 (die, 无复数)|o
+fanatismus|狂热 (der, 无复数)|o
+geißel|灾祸，祸害 (die, 复数 Geißeln); 鞭子|o;o
+geschäftsführerin|女总经理 (die, 复数 Geschäftsführerinnen)|o
+multikulturalismus|多元文化主义 (der, 无复数)|o
+napoleonisch|拿破仑的|o
+orangerie|橘园，暖房 (die, 复数 Orangerien)|o
+protektorat|保护国 (das, 复数 Protektorate)|o
+restriktion|限制 (die, 复数 Restriktionen)|o
+syndikat|辛迪加，犯罪集团 (das, 复数 Syndikate)|o
+terrorismusbekämpfung|反恐 (die, 无复数)|o
+trilogie|三部曲 (die, 复数 Trilogien)|o
+voreingenommenheit|偏见，成见 (die, 无复数)|o
+anarchie|无政府状态 (die, 复数 Anarchien)|o
+ankläger|控告者，检察官 (der, 复数 Ankläger)|o
+assoziation|联想，协会 (die, 复数 Assoziationen)|o
+attraktion|吸引力，景点 (die, 复数 Attraktionen)|o
+aufstockung|增加，追加 (die, 复数 Aufstockungen)|o
+bestrahlung|照射，放射治疗 (die, 复数 Bestrahlungen)|o
+blutkörperchen|血细胞 (das, 复数 Blutkörperchen)|o
+boykott|抵制，杯葛 (der, 复数 Boykotte)|o
+daf|DaF (德语作为外语)|o
+diakon|执事 (der, 复数 Diakone)|o
+epilepsie|癫痫 (die, 无复数)|o
+exekution|处决 (die, 复数 Exekutionen)|o
+früherkennung|早期发现，早期筛查 (die, 无复数)|o
+gespür|直觉，敏锐感 (das, 无复数)|o
+helligkeit|亮度 (die, 无复数)|o
+indiz|迹象，间接证据 (das, 复数 Indizien)|o
+inka|印加人 (der, 复数 Inka)|o
+jackett|西装外套 (das, 复数 Jacketts)|o
+jamaika|牙买加|o
+kiribati|基里巴斯|o
+kleriker|神职人员 (der, 复数 Kleriker)|o
+kollateralschaden|附带损害 (der, 复数 Kollateralschäden)|o
+kondition|体能，耐力 (die, 复数 Konditionen); 条件，条款|o;o
+kosak|哥萨克人 (der, 复数 Kosaken)|o
+krankheitserreger|病原体 (der, 复数 Krankheitserreger)|o
+kühlung|冷却，降温 (die, 复数 Kühlungen)|o
+küken|雏鸡 (das, 复数 Küken)|o
+leitfaden|指南，手册 (der, 复数 Leitfäden)|o
+mazedonien|马其顿|o
+männlichkeit|男子气概，阳刚 (die, 无复数)|o
+paarung|交配 (die, 复数 Paarungen); 配对|o;o
+petrischale|培养皿 (die, 复数 Petrischalen)|o
+pfanne|平底锅 (die, 复数 Pfannen)|o
+präfekt|长官，地方行政长官 (der, 复数 Präfekten)|o
+rechenmaschine|计算机，计算器 (die, 复数 Rechenmaschinen)|o
+relativitätstheorie|相对论 (die, 无复数)|o
+rückblick|回顾，回望 (der, 复数 Rückblicke)|o
+schlupfloch|漏洞 (das, 复数 Schlupflöcher)|o
+skript|脚本，剧本 (das, 复数 Skripte); 讲义|o;o
+stipendiat|奖学金获得者 (der, 复数 Stipendiaten)|o
+trigonometrie|三角学 (die, 无复数)|o
+umkehrung|颠倒，反转 (die, 复数 Umkehrungen)|o
+vibration|振动 (die, 复数 Vibrationen)|o
+vollendung|完成 (die, 无复数); 完美|o;o
+wallfahrt|朝圣 (die, 复数 Wallfahrten)|o
+widrigkeit|逆境，障碍 (die, 复数 Widrigkeiten)|o
+zündung|点火 (die, 复数 Zündungen)|o
+atp|ATP (三磷酸腺苷) (das, 无复数)|o
+ausprägung|表现，形式，程度 (die, 复数 Ausprägungen)|o
+baltikum|波罗的海地区|o
+darbietung|表演，演出 (die, 复数 Darbietungen)|o
+ermessen|裁量权，判断 (das, 无复数); 估量，体会 (ermisst, ermaß, ermessen)|o;v
+fahrgestell|底盘 (das, 复数 Fahrgestelle); 起落架|o;o
+franziskaner|方济各会修士 (der, 复数 Franziskaner)|o
+föderalismus|联邦制 (der, 无复数)|o
+haftung|责任 (die, 复数 Haftungen)|o
+karlsbad|卡罗维发利|o
+konfession|教派，宗派 (die, 复数 Konfessionen)|o
+levante|黎凡特|o
+retrospektive|回顾展 (die, 复数 Retrospektiven)|o
+sardinien|撒丁岛|o
+selbstgefälligkeit|自满，沾沾自喜 (die, 无复数)|o
+sezession|分离，脱离 (die, 复数 Sezessionen)|o
+soja|大豆 (die, 无复数)|o
+spionage|间谍活动，刺探 (die, 无复数)|o
+turkmenistan|土库曼斯坦|o
+wiederkehr|回归，重现 (die, 无复数)|o
+ahmen|模仿，仿效|v
+annonce|广告，分类广告 (die, 复数 Annoncen)|o
+auferstehung|复活 (die, 复数 Auferstehungen)|o
+bedeutsamkeit|重要性 (die, 无复数)|o
+bedeutungslosigkeit|无足轻重，无意义 (die, 无复数)|o
+behebung|排除，解决 (die, 复数 Behebungen)|o
+benutzung|使用 (die, 无复数)|o
+bewachsen|长满的 (植物)|o
+bewerber|申请人，应聘者 (der, 复数 Bewerber)|o
+billigung|批准，认可 (die, 无复数)|o
+buckel|驼背，隆起 (der, 复数 Buckel); 背 (口语)|o;o
+bürgertum|资产阶级，中产阶级 (das, 无复数)|o
+bürsten|刷|v
+cabrio|敞篷车 (das, 复数 Cabrios)|o
+diagnostik|诊断学 (die, 无复数)|o
+eingraben|挖入，埋 (gräbt ein, grub ein, eingegraben); sich eingraben: 挖掩体，掘壕固守|v;n
+erdnuß|花生 (die, 复数 Erdnüsse)|o
+erfrischung|提神之物，清凉饮料 (die, 复数 Erfrischungen)|o
+erzieherin|幼儿园教师，保育员 (女) (die, 复数 Erzieherinnen)|o
+euphorie|欣快，极度兴奋 (die, 无复数)|o
+festlichkeit|庆祝活动 (die, 复数 Festlichkeiten)|o
+folgerung|结论，推论 (die, 复数 Folgerungen)|o
+gelassenheit|沉着，镇定 (die, 无复数)|o
+gestrüpp|灌木丛，荆棘丛 (das, 复数 Gestrüppe)|o
+gewinnerin|获胜者 (女) (die, 复数 Gewinnerinnen)|o
+gewirr|乱麻，迷宫般的一团 (das, 无复数)|o
+griffel|石笔 (der, 复数 Griffel); 雌蕊的花柱|o;o
+hoffnungslosigkeit|绝望 (die, 无复数)|o
+identifizierung|识别，鉴定 (die, 复数 Identifizierungen)|o
+individualität|个性 (die, 无复数)|o
+joch|轭 (das, 复数 Joche)|o
+kost|伙食，膳食 (die, 无复数)|o
+krimi|侦探小说，犯罪片 (der, 复数 Krimis)|o
+kuckuck|布谷鸟，杜鹃 (der, 复数 Kuckucke)|o
+körbchen|小篮子 (das, 复数 Körbchen); 狗窝|o;o
+lagerung|储存 (die, 复数 Lagerungen)|o
+lanze|长矛，枪 (die, 复数 Lanzen)|o
+likör|利口酒 (der, 复数 Liköre)|o
+nationalhymne|国歌 (die, 复数 Nationalhymnen)|o
+neuling|新手，新人 (der, 复数 Neulinge)|o
+pfarre|教区 (die, 复数 Pfarren)|o
+politisierung|政治化 (die, 无复数)|o
+raserei|狂怒，疯狂 (die, 无复数); 飙车，超速|o;o
+rausch|陶醉，醉意 (der, 复数 Räusche); 狂喜|o;o
+schacht|竖井，矿井 (der, 复数 Schächte)|o
+schaukel|秋千 (die, 复数 Schaukeln)|o
+sexismus|性别歧视 (der, 无复数)|o
+stiel|茎，梗 (der, 复数 Stiele); 柄|o;o
+städtchen|小城镇 (das, 复数 Städtchen)|o
+säugling|婴儿 (der, 复数 Säuglinge)|o
+unklarheit|不清楚，不确定 (die, 复数 Unklarheiten)|o
+vaterländisch|爱国的，祖国的|o
+verhängnis|厄运，灾难，毁灭 (das, 复数 Verhängnisse)|o
+verschleppung|绑架，劫持 (die, 复数 Verschleppungen); 拖延|o;o
+vestalin|维斯塔贞女 (die, 复数 Vestalinnen)|o
+weihnachtsfest|圣诞节 (das, 复数 Weihnachtsfeste)|o
+zinn|锡 (das, 无复数); 白镴|o;o
+bücherei|图书馆 (die, 复数 Büchereien)|o
+bürde|重担，负担 (die, 复数 Bürden)|o
+eingliederung|融入，纳入 (die, 复数 Eingliederungen)|o
+einzelgänger|独行侠，孤僻的人 (der, 复数 Einzelgänger)|o
+examen|考试，毕业考试 (das, 复数 Examen)|o
+freisetzung|释放 (die, 复数 Freisetzungen)|o
+klonen|克隆|v
+konföderation|邦联 (die, 复数 Konföderationen)|o
+lotterie|彩票，抽奖 (die, 复数 Lotterien)|o
+mahnung|提醒，警告，告诫 (die, 复数 Mahnungen)|o
+moldawien|摩尔多瓦|o
+nanotechnologie|纳米技术 (die, 复数 Nanotechnologien)|o
+oktopus|章鱼 (der, 复数 Oktopusse)|o
+perestroika|改革 (苏联) (die, 无复数)|o
+phytoplankton|浮游植物 (das, 无复数)|o
+primzahl|质数，素数 (die, 复数 Primzahlen)|o
+rampe|坡道 (die, 复数 Rampen); 装卸台|o;o
+reproduktion|复制，繁殖 (die, 复数 Reproduktionen)|o
+saurier|恐龙，蜥蜴类 (der, 复数 Saurier)|o
+sibirien|西伯利亚|o
+synästhesie|通感，联觉 (die, 复数 Synästhesien)|o
+verminderung|减少，降低 (die, 复数 Verminderungen)|o
+vulkanier|瓦肯人 (《星际迷航》中的种族) (der, 复数 Vulkanier)|o
+zentrifuge|离心机 (die, 复数 Zentrifugen)|o
+archipel|群岛 (der, 复数 Archipele)|o
+emanzipation|解放，平等化 (die, 无复数)|o
+entartet|退化的，堕落的; entartete Kunst: “堕落艺术” (纳粹对其所谴责艺术的称呼)|o;n
+gewürz|香料，调味料 (das, 复数 Gewürze)|o
+hering|鲱鱼 (der, 复数 Heringe)|o
+kündigung|解约通知，解雇，辞职 (die, 复数 Kündigungen)|o
+redakteurin|编辑 (女) (die, 复数 Redakteurinnen)|o
+ritus|仪式，礼仪 (der, 复数 Riten)|o
+slawe|斯拉夫人 (der, 复数 Slawen)|o
+vermarktung|营销，商业化 (die, 无复数)|o
+altertum|古代，上古 (das, 无复数)|o
+antidepressivum|抗抑郁药 (das, 复数 Antidepressiva)|o
+applikation|应用，使用 (die, 复数 Applikationen); 给药|o;o
+atomkern|原子核 (der, 复数 Atomkerne)|o
+automatik|自动装置 (die, 复数 Automatiken); 自动变速器|o;o
+banker|银行家 (der, 复数 Banker)|o
+botanik|植物学 (die, 无复数)|o
+dekade|十年 (die, 复数 Dekaden)|o
+epizentrum|震中 (das, 复数 Epizentren)|o
+extrovertiert|外向的|o
+gänze|全部，整体 (die, 无复数); zur Gänze: 完全地|o;n
+hinterlassenschaft|遗产，遗物 (die, 复数 Hinterlassenschaften)|o
+idealismus|理想主义，唯心主义 (der, 无复数)|o
+imker|养蜂人 (der, 复数 Imker)|o
+individualismus|个人主义 (der, 无复数)|o
+jüdin|犹太女子 (die, 复数 Jüdinnen)|o
+kakao|可可 (der, 复数 Kakaos)|o
+kollision|碰撞 (die, 复数 Kollisionen)|o
+kolumnist|专栏作家 (der, 复数 Kolumnisten)|o
+kreation|创作，作品 (die, 复数 Kreationen)|o
+lebensmittelversorgung|食品供应 (die, 无复数)|o
+leichtathletik|田径 (die, 无复数)|o
+leukämie|白血病 (die, 复数 Leukämien)|o
+modernität|现代性 (die, 无复数)|o
+nektar|花蜜 (der, 复数 Nektare)|o
+nährboden|温床 (der, 复数 Nährböden); 培养基|o;o
+parabel|寓言 (die, 复数 Parabeln); 抛物线|o;o
+pharao|法老 (der, 复数 Pharaonen)|o
+plage|折磨，烦扰，辛劳 (die, 复数 Plagen)|o
+rügen|斥责，谴责|v
+schaben|刮，削; 蟑螂 (die, 复数)|v;o
+sequenzierung|测序 (die, 复数 Sequenzierungen)|o
+skorpion|蝎子 (der, 复数 Skorpione)|o
+urenkel|曾孙，曾孙女 (der, 复数 Urenkel)|o
+vegetarier|素食者 (der, 复数 Vegetarier)|o
+verkörperung|化身，体现 (die, 复数 Verkörperungen)|o
+vokabular|词汇 (das, 复数 Vokabulare)|o
+zionismus|犹太复国主义 (der, 无复数)|o
+überparteilich|超党派的，无党派的|o
+adjektiv|形容词 (das, 复数 Adjektive)|o
+behaftet|带有 (…) 的，受 (…) 困扰的|o
+bengel|淘气鬼，小家伙 (der, 复数 Bengel)|o
+crowdfunding|众筹 (das, 无复数)|o
+düngemittel|肥料 (das, 复数 Düngemittel)|o
+eliminierung|消除，清除 (die, 复数 Eliminierungen)|o
+erläuterung|说明，阐释 (die, 复数 Erläuterungen)|o
+identifikation|认同，识别 (die, 复数 Identifikationen)|o
+islamismus|伊斯兰主义 (der, 无复数)|o
+kinderlähmung|脊髓灰质炎，小儿麻痹症 (die, 无复数)|o
+laboratorium|实验室 (das, 复数 Laboratorien)|o
+metronom|节拍器 (das, 复数 Metronome)|o
+mixtape|混音带，精选歌单 (das, 复数 Mixtapes)|o
+modellierung|建模 (die, 复数 Modellierungen)|o
+nutzlast|有效载荷 (die, 复数 Nutzlasten)|o
+patriarchat|父权制 (das, 复数 Patriarchate)|o
+rechtsprechung|判例，司法裁判，司法 (die, 无复数)|o
+rohöl|原油 (das, 无复数)|o
+scharia|伊斯兰教法 (die, 无复数)|o
+stute|母马 (die, 复数 Stuten)|o
+verstaatlichung|国有化 (die, 复数 Verstaatlichungen)|o
+zentralisieren|集中化|v
+abfindung|遣散费 (die, 复数 Abfindungen); 和解金，补偿|o;o
+adhs|ADHD (注意力缺陷多动障碍) (das, 无复数)|o
+belastbarkeit|承受力，承载能力 (die, 无复数)|o
+chefredakteurin|主编 (女) (die, 复数 Chefredakteurinnen)|o
+einschüchtern|恐吓，吓唬|v
+entsprechung|对应物，相当之物 (die, 复数 Entsprechungen)|o
+essstörung|饮食失调，进食障碍 (die, 复数 Essstörungen)|o
+favela|贫民窟 (巴西) (die, 复数 Favelas)|o
+genozid|种族灭绝 (der, 复数 Genozide)|o
+intervall|间隔，音程 (das, 复数 Intervalle)|o
+israelit|以色列人 (古代) (der, 复数 Israeliten)|o
+jaja|好啦好啦，知道了知道了 (不耐烦)|o
+kosmologie|宇宙学 (die, 无复数)|o
+kubikmeter|立方米 (der, 复数 Kubikmeter)|o
+maghreb|马格里布|o
+modifikation|修改，变体 (die, 复数 Modifikationen)|o
+monolog|独白 (der, 复数 Monologe)|o
+nashorn|犀牛 (das, 复数 Nashörner)|o
+neutralität|中立 (die, 无复数)|o
+nutzpflanze|农作物，经济作物 (die, 复数 Nutzpflanzen)|o
+pickel|痘痘，粉刺 (der, 复数 Pickel); 镐|o;o
+plätzchen|小饼干，曲奇 (das, 复数 Plätzchen)|o
+prostatakrebs|前列腺癌 (der, 无复数)|o
+quanten|量子 (das Quantum 的复数)|o
+reibung|摩擦 (die, 复数 Reibungen)|o
+resilienz|韧性，抗压力 (die, 无复数)|o
+sambia|赞比亚|o
+sekundarschule|中学 (die, 复数 Sekundarschulen)|o
+silvester|除夕，新年前夜 (der, 无复数)|o
+täubchen|小鸽子 (das, 复数 Täubchen); 宝贝 (昵称)|o;o
+unterzeichner|签署人 (der, 复数 Unterzeichner)|o
+verständigung|沟通 (die, 无复数); 理解，协议|o;o
+vizekönig|总督，副王 (der, 复数 Vizekönige)|o
+östrogen|雌激素 (das, 复数 Östrogene)|o
+überfischung|过度捕捞 (die, 无复数)|o
+admiralität|海军部 (die, 复数 Admiralitäten)|o
+albaner|阿尔巴尼亚人 (男) (der, 复数 Albaner)|o
+antimaterie|反物质 (die, 无复数)|o
+barsch|鲈鱼 (鱼) (der, 复数 Barsche); 生硬的，粗暴的|o;o
+beschützer|保护者 (der, 复数 Beschützer)|o
+bestattung|安葬，葬礼 (die, 复数 Bestattungen)|o
+bettchen|小床，婴儿床 (das, 复数 Bettchen)|o
+eingebung|灵感，冲动 (die, 复数 Eingebungen)|o
+eizelle|卵细胞，卵子 (die, 复数 Eizellen)|o
+enteignen|征收，剥夺财产|v
+ermutigung|鼓励 (die, 复数 Ermutigungen)|o
+etat|预算 (der, 复数 Etats)|o
+gebrüll|吼叫，咆哮 (das, 无复数)|o
+gelehrsamkeit|学识，学问 (die, 无复数)|o
+girlande|花环，彩带 (die, 复数 Girlanden)|o
+grashalm|草叶 (der, 复数 Grashalme)|o
+herold|传令官 (der, 复数 Herolde)|o
+häkchen|对勾，勾号 (das, 复数 Häkchen); 小钩|o;o
+institutionalisieren|制度化|v
+kapuze|兜帽，风帽 (die, 复数 Kapuzen)|o
+kazike|酋长 (美洲原住民) (der, 复数 Kaziken)|o
+kenntlich|可辨认的; kenntlich machen: 标明，使可辨认|o;n
+kruste|硬壳，外皮 (die, 复数 Krusten)|o
+känguru|袋鼠 (das, 复数 Kängurus)|o
+lichtung|林间空地 (die, 复数 Lichtungen)|o
+lineal|尺子 (das, 复数 Lineale)|o
+motte|蛾，衣蛾 (die, 复数 Motten)|o
+mütterchen|小母亲，妈妈 (das, 复数 Mütterchen); 老太太|o;o
+niederung|低地，平原 (die, 复数 Niederungen)|o
+obdach|栖身之所，住处 (das, 无复数)|o
+peinlichkeit|尴尬，难堪 (die, 复数 Peinlichkeiten)|o
+pfeffer|胡椒 (der, 复数 Pfeffer)|o
+pudel|贵宾犬，卷毛狗 (der, 复数 Pudel)|o
+punsch|潘趣酒 (热的香料饮料) (der, 复数 Punsche)|o
+rücksichtnahme|体谅，顾及他人 (die, 无复数)|o
+schießscharte|射击孔，箭孔 (die, 复数 Schießscharten)|o
+schikane|刁难，欺凌 (die, 复数 Schikanen)|o
+schlund|咽喉，深渊 (der, 复数 Schlünde)|o
+schwellung|肿胀 (die, 复数 Schwellungen)|o
+staffelei|画架 (die, 复数 Staffeleien)|o
+tatar|鞑靼人 (der, 复数 Tataren)|o
+trockenheit|干燥，干旱 (die, 无复数)|o
+unehrenhaft|不光彩的，不体面的|o
+ungesund|不健康的|o
+unwetter|暴风雨，恶劣天气 (das, 复数 Unwetter)|o
+vertreterin|代表 (女) (die, 复数 Vertreterinnen)|o
+verweigerung|拒绝 (die, 复数 Verweigerungen)|o
+widmung|题词，献辞 (die, 复数 Widmungen)|o
+witterung|天气，气候状况 (die, 无复数)|o
+wucht|冲力，力道 (die, 无复数)|o
+ähre|穗 (谷物的) (die, 复数 Ähren)|o
+aktivierung|激活 (die, 复数 Aktivierungen)|o
+anwohner|居民，附近居民 (der, 复数 Anwohner)|o
+biolumineszenz|生物发光 (die, 无复数)|o
+burkina|布基纳法索|o
+büchse|罐头，罐子 (die, 复数 Büchsen); 步枪|o;o
+drau|德拉瓦河|o
+eiweiß|蛋清 (das, 复数 Eiweiße); 蛋白质|o;o
+erbgut|遗传物质，基因组 (das, 无复数)|o
+faszination|魅力，着迷 (die, 无复数)|o
+gyrus|脑回 (der, 复数 Gyri)|o
+implantat|植入物 (das, 复数 Implantate)|o
+kaulquappe|蝌蚪 (die, 复数 Kaulquappen)|o
+konstellation|星座，格局，局面 (die, 复数 Konstellationen)|o
+lebensspanne|寿命，生命期 (die, 复数 Lebensspannen)|o
+led|LED (发光二极管) (die, 复数 LEDs)|o
+legalisierung|合法化 (die, 无复数)|o
+lehm|黏土，壤土 (der, 无复数)|o
+narkose|麻醉 (die, 复数 Narkosen)|o
+ozeanien|大洋洲|o
+rechtmäßigkeit|合法性 (die, 无复数)|o
+reh|狍，鹿 (das, 复数 Rehe)|o
+rücksitz|后座 (der, 复数 Rücksitze)|o
+samariter|撒马利亚人 (der, 复数 Samariter); 好心人，乐于助人者|o;o
+schädling|害虫，有害生物 (der, 复数 Schädlinge)|o
+teilchenphysik|粒子物理学 (die, 无复数)|o
+umweltschützer|环保人士 (der, 复数 Umweltschützer)|o
+verdauung|消化 (die, 无复数)|o
+verdrahten|接线，布线|v
+verkleidung|伪装，装扮 (die, 复数 Verkleidungen); 外层板，镶板|o;o
+viech|畜生，家伙 (口语) (das, 复数 Viecher)|o
+witzbold|爱开玩笑的人，滑稽的人 (der, 复数 Witzbolde)|o
+würdigung|赞赏，表彰 (die, 复数 Würdigungen)|o
+agrarpolitik|农业政策 (die, 无复数)|o
+bekleidung|服装，衣物 (die, 无复数)|o
+brüsseler|布鲁塞尔的|o
+domäne|领域 (die, 复数 Domänen); 庄园，领地|o;o
+elektrifizierung|电气化 (die, 无复数)|o
+klassifizierung|分类 (die, 复数 Klassifizierungen)|o
+landnahme|占领土地，拓殖 (die, 复数 Landnahmen)|o
+mesopotamien|美索不达米亚|o
+mobbing|欺凌，职场霸凌 (das, 无复数)|o
+proletarier|无产者 (der, 复数 Proletarier)|o
+putzfrau|清洁女工 (die, 复数 Putzfrauen)|o
+reederei|航运公司 (die, 复数 Reedereien)|o
+satzung|章程，规章 (die, 复数 Satzungen)|o
+sotschi|索契|o
+spezialisierung|专业化 (die, 复数 Spezialisierungen)|o
+stratege|战略家 (der, 复数 Strategen)|o
+unentschieden|未决定的; 平局 (das, 复数 Unentschieden)|o;o
+unkraut|杂草 (das, 复数 Unkräuter)|o
+vasall|封臣，附庸 (der, 复数 Vasallen)|o
+verkündigung|宣告，宣布 (die, 复数 Verkündigungen)|o
+verursacher|肇事者，造成者 (der, 复数 Verursacher)|o
+abonnement|订阅 (das, 复数 Abonnements)|o
+akku|充电电池 (der, 复数 Akkus)|o
+anästhesie|麻醉 (die, 复数 Anästhesien)|o
+aufprall|撞击，碰撞 (der, 复数 Aufpralle)|o
+bankett|宴会 (das, 复数 Bankette)|o
+beantwortung|回答，答复 (die, 复数 Beantwortungen)|o
+beharrlichkeit|坚持，毅力 (die, 无复数)|o
+bestäuber|传粉者 (der, 复数 Bestäuber)|o
+bäumchen|小树，树苗 (das, 复数 Bäumchen)|o
+eurasien|欧亚大陆|o
+fäkalie|粪便，污水 (die, 复数)|o
+gesichtserkennung|人脸识别 (die, 无复数)|o
+gosse|阴沟，水沟 (die, 复数 Gossen)|o
+hahaha|哈哈哈|o
+hähnchen|鸡，烤鸡 (das, 复数 Hähnchen); 小公鸡|o;o
+informatiker|计算机科学家 (der, 复数 Informatiker)|o
+insulinresistenz|胰岛素抵抗 (die, 复数 Insulinresistenzen)|o
+investmentfonds|投资基金 (der, 复数 Investmentfonds)|o
+juda|犹大|o
+migräne|偏头痛 (die, 复数 Migränen)|o
+mikrowelle|微波炉，微波 (die, 复数 Mikrowellen)|o
+minimierung|最小化 (die, 无复数)|o
+monsun|季风 (der, 复数 Monsune)|o
+phosphat|磷酸盐 (das, 复数 Phosphate)|o
+problematik|问题，问题群 (die, 无复数)|o
+rationalität|理性 (die, 无复数)|o
+reservat|保留地，保护区 (das, 复数 Reservate)|o
+röntgenbild|X光片 (das, 复数 Röntgenbilder)|o
+rückzieher|撤回，打退堂鼓 (der, 复数 Rückzieher)|o
+sabbat|安息日 (der, 复数 Sabbate)|o
+seidel|啤酒杯 (das, 复数 Seidel)|o
+tamiflu|达菲 (抗病毒药) (das, 无复数)|o
+technologe|技术专家 (der, 复数 Technologen)|o
+turteln|卿卿我我，谈情说爱|v
+verwüstung|破坏，蹂躏 (die, 复数 Verwüstungen)|o
+vielschichtig|多层次的，复杂的|o
+akronym|首字母缩略词 (das, 复数 Akronyme)|o
+athener|雅典人 (男) (der, 复数 Athener)|o
+beweglichkeit|灵活性，机动性 (die, 无复数)|o
+havanna|哈瓦那|o
+inkrafttreten|生效 (das, 无复数)|o
+intrige|阴谋，诡计 (die, 复数 Intrigen)|o
+kiesel|小卵石 (der, 复数 Kiesel)|o
+kolben|活塞 (der, 复数 Kolben); 烧瓶; 枪托|o;o;o
+laus|虱子 (die, 复数 Läuse)|o
+partitur|乐谱，总谱 (die, 复数 Partituren)|o
+ried|芦苇地，沼泽 (das, 复数 Riede)|o
+roden|开垦，砍伐 (土地)，连根拔除|v
+rotkehlchen|知更鸟 (das, 复数 Rotkehlchen)|o
+vögelchen|小鸟 (das, 复数 Vögelchen)|o
+zink|锌 (das, 无复数)|o
+ölfeld|油田 (das, 复数 Ölfelder)|o
+bundesverfassungsgericht|联邦宪法法院 (das, 无复数)|o
+delegieren|委派，授权|v
+demontage|拆除，拆卸 (die, 复数 Demontagen)|o
+doppelmoral|双重标准 (die, 无复数)|o
+entspannung|放松 (die, 无复数); 缓和 (国际关系)|o;o
+erdnussbutter|花生酱 (die, 无复数)|o
+erlangung|获得，取得 (die, 无复数)|o
+erzengel|大天使 (der, 复数 Erzengel)|o
+esg|ESG (环境、社会和治理标准) (das, 无复数)|o
+feldwebel|军士 (der, 复数 Feldwebel)|o
+fis|升F (音符) (das, 复数 Fis)|o
+galaxis|星系，银河系 (die, 复数 Galaxien)|o
+hemmnis|障碍，阻碍 (das, 复数 Hemmnisse)|o
+hemmung|抑制，顾虑 (die, 复数 Hemmungen); 犹豫|o;o
+koeffizient|系数 (der, 复数 Koeffizienten)|o
+konnektivität|连通性，连接性 (die, 无复数)|o
+koreaner|韩国人，朝鲜人 (男) (der, 复数 Koreaner)|o
+kryptographie|密码学 (die, 无复数)|o
+morphium|吗啡 (das, 无复数)|o
+panne|故障，抛锚 (die, 复数 Pannen); 失误|o;o
+passivität|被动，消极 (die, 无复数)|o
+pendel|摆，钟摆 (das, 复数 Pendel)|o
+romanze|浪漫史，罗曼史 (die, 复数 Romanzen)|o
+scheinwerfer|车头灯 (der, 复数 Scheinwerfer); 聚光灯|o;o
+symbiose|共生 (die, 复数 Symbiosen)|o
+umgehung|绕过，规避 (die, 复数 Umgehungen)|o
+urne|骨灰盒，瓮 (die, 复数 Urnen); 投票箱|o;o
+utopie|乌托邦 (die, 复数 Utopien)|o
+vereinfachung|简化 (die, 复数 Vereinfachungen)|o
+abstraktion|抽象 (die, 复数 Abstraktionen)|o
+antisemit|反犹主义者 (der, 复数 Antisemiten)|o
+atrazin|莠去津 (除草剂) (das, 无复数)|o
+ausschweifung|放荡，无度 (die, 复数 Ausschweifungen)|o
+auswärts|在外地，客场，外面; 在国外|o;o
+barbarei|野蛮，残暴 (die, 无复数)|o
+behaglichkeit|舒适，惬意 (die, 无复数)|o
+beschimpfung|辱骂，谩骂 (die, 复数 Beschimpfungen)|o
+besiegeln|盖章确认，敲定|v
+bohrer|钻，钻头 (der, 复数 Bohrer)|o
+böschung|斜坡，路堤 (die, 复数 Böschungen)|o
+cortisol|皮质醇 (das, 无复数)|o
+despot|暴君，专制君主 (der, 复数 Despoten)|o
+dolmetscher|口译员 (der, 复数 Dolmetscher)|o
+eck|角，拐角 (das, 复数 Ecke)|o
+ehrerbietung|敬意，恭敬 (die, 无复数)|o
+eidechse|蜥蜴 (die, 复数 Eidechsen)|o
+eigenheit|特点，怪癖 (die, 复数 Eigenheiten)|o
+elternschaft|为人父母 (die, 无复数)|o
+entschließung|决议 (die, 复数 Entschließungen)|o
+erker|凸窗，飘窗 (der, 复数 Erker)|o
+erkundung|探索，勘察 (die, 复数 Erkundungen)|o
+erniedrigung|羞辱，贬低 (die, 复数 Erniedrigungen)|o
+erzeugnis|产品 (das, 复数 Erzeugnisse)|o
+essig|醋 (der, 复数 Essige)|o
+galiläa|加利利|o
+gewöhnung|习惯，适应 (die, 无复数)|o
+glöckchen|小铃铛 (das, 复数 Glöckchen)|o
+harke|耙子 (die, 复数 Harken)|o
+hieroglyphe|象形文字 (die, 复数 Hieroglyphen)|o
+katechismus|教理问答 (der, 复数 Katechismen)|o
+knospe|花蕾，芽 (die, 复数 Knospen)|o
+kollaboration|合作，通敌 (die, 复数 Kollaborationen)|o
+kot|粪便 (der, 无复数)|o
+küster|教堂司事 (der, 复数 Küster)|o
+lazarett|军医院 (das, 复数 Lazarette)|o
+lenkung|转向，操控 (die, 无复数)|o
+lerche|云雀 (die, 复数 Lerchen)|o
+machenschaft|阴谋，勾当 (die, 复数 Machenschaften)|o
+meute|猎犬群 (die, 复数 Meuten); 暴徒，乌合之众|o;o
+moskitonetz|蚊帐 (das, 复数 Moskitonetze)|o
+nachahmung|模仿 (die, 复数 Nachahmungen)|o
+nachtigall|夜莺 (die, 复数 Nachtigallen)|o
+patschen|拍水，啪地拍; 拖鞋 (奥地利) (der, 复数 Patschen)|v;o
+philister|庸俗之人，市侩 (der, 复数 Philister)|o
+pinakothek|画廊，美术馆 (die, 复数 Pinakotheken)|o
+pünktlichkeit|准时 (die, 无复数)|o
+quaste|流苏 (die, 复数 Quasten)|o
+rebhuhn|鹧鸪 (das, 复数 Rebhühner)|o
+redewendung|习语，惯用语 (die, 复数 Redewendungen)|o
+referat|报告，论文 (das, 复数 Referate); 处，科室|o;o
+reiterei|骑兵 (die, 无复数)|o
+rückeroberung|收复，再征服 (die, 复数 Rückeroberungen)|o
+salbe|药膏，软膏 (die, 复数 Salben)|o
+schamlos|无耻的|o
+scheuern|刷洗，擦洗; 磨破，磨痛|v;v
+schleppe|拖裙 (礼服的) (die, 复数 Schleppen)|o
+schober|干草堆 (der, 复数 Schober)|o
+schutt|瓦砾，废墟 (der, 无复数)|o
+schwaden|一团，一缕 (烟、蒸汽) (der, 复数 Schwaden)|o
+sensibilität|敏感性 (die, 复数 Sensibilitäten)|o
+soundso|某某，诸如此类|o
+speichel|唾液，口水 (der, 无复数)|o
+steinchen|小石子 (das, 复数 Steinchen)|o
+strolch|无赖，淘气鬼 (der, 复数 Strolche); 流浪汉|o;o
+substantiv|名词 (das, 复数 Substantive)|o
+tantchen|小阿姨，小姑姑 (das, 复数 Tantchen)|o
+trübsal|忧郁，悲伤 (die, 无复数); Trübsal blasen: 郁郁寡欢，闷闷不乐|o;n
+umdrehung|旋转，转动 (die, 复数 Umdrehungen)|o
+unbeweglichkeit|不动，僵硬 (die, 无复数)|o
+unerfreulich|令人不快的，不愉快的|o
+unregelmäßigkeit|不规则，违规 (die, 复数 Unregelmäßigkeiten)|o
+unsichtbarkeit|隐形，看不见 (die, 无复数)|o
+vene|静脉 (die, 复数 Venen)|o
+verehrer|爱慕者，追求者 (der, 复数 Verehrer)|o
+verschlag|棚屋，披屋，板条箱 (der, 复数 Verschläge)|o
+volksentscheid|公投 (der, 复数 Volksentscheide)|o
+väterchen|爸爸，小老头 (das, 复数 Väterchen)|o
+weihnachtsbaum|圣诞树 (der, 复数 Weihnachtsbäume)|o
+zeitvertreib|消遣 (der, 复数 Zeitvertreibe)|o
+zement|水泥 (der, 复数 Zemente)|o
+zunft|行会 (die, 复数 Zünfte)|o
+zuverlässigkeit|可靠性 (die, 无复数)|o
+übelkeit|恶心 (die, 无复数)|o
+amazone|亚马逊女战士 (神话中的女战士) (die, 复数 Amazonen); 女骑手|o;o
+anteilseigner|股东 (der, 复数 Anteilseigner)|o
+antigen|抗原 (das, 复数 Antigene)|o
+beere|浆果 (die, 复数 Beeren)|o
+bewaffnung|武器装备，武装 (die, 复数 Bewaffnungen)|o
+biochemie|生物化学 (die, 无复数)|o
+bremse|刹车 (die, 复数 Bremsen); 牛虻|o;o
+burundi|布隆迪|o
+dekadenz|颓废，堕落 (die, 无复数)|o
+dhaka|达卡|o
+enteignung|征收，剥夺财产 (die, 复数 Enteignungen)|o
+ethnie|民族，族群 (die, 复数 Ethnien)|o
+geschlechtergleichheit|性别平等 (die, 无复数)|o
+harpune|鱼叉 (die, 复数 Harpunen)|o
+intensivierung|强化，加强 (die, 无复数)|o
+invasor|入侵者 (der, 复数 Invasoren)|o
+juwelier|珠宝商 (der, 复数 Juweliere)|o
+khartum|喀土穆|o
+kirgisistan|吉尔吉斯斯坦|o
+koller|暴怒，发脾气 (der, 复数 Koller); 幽闭烦躁症|o;o
+krücke|拐杖 (die, 复数 Krücken)|o
+kundgebung|集会，示威 (die, 复数 Kundgebungen)|o
+madagaskar|马达加斯加|o
+melone|瓜，甜瓜 (die, 复数 Melonen)|o
+nützlichkeit|有用性 (die, 无复数)|o
+oktave|八度音程 (die, 复数 Oktaven)|o
+pjöngjang|平壤|o
+ratingagentur|评级机构 (die, 复数 Ratingagenturen)|o
+ressort|部门，职权范围 (das, 复数 Ressorts)|o
+rubrik|栏目，标题 (die, 复数 Rubriken)|o
+rücknahme|收回，撤销 (die, 复数 Rücknahmen)|o
+thematik|主题，议题 (die, 复数 Thematiken)|o
+ungerade|奇数的; 不平的，不均匀的|o;o
+unternehmerin|企业家 (女)，女商人 (die, 复数 Unternehmerinnen)|o
+verfehlung|过失，违规行为 (die, 复数 Verfehlungen)|o
+versand|发货，寄送 (der, 无复数)|o
+vormundschaft|监护 (die, 复数 Vormundschaften)|o
+zählung|计数，普查 (die, 复数 Zählungen)|o
+anonymität|匿名 (die, 无复数)|o
+armenier|亚美尼亚人 (男) (der, 复数 Armenier)|o
+bäckerei|面包店 (die, 复数 Bäckereien)|o
+einzelhaft|单独监禁 (die, 无复数)|o
+elsaß|阿尔萨斯 (Elsass 的旧拼法)|o
+energiegewinnung|能源生产 (die, 无复数)|o
+entlastung|减轻，缓解 (die, 复数 Entlastungen); 免责，解除责任|o;o
+erbschaft|遗产，继承 (die, 复数 Erbschaften)|o
+festigung|巩固，加强 (die, 无复数)|o
+gefangennahme|俘获，逮捕 (die, 复数 Gefangennahmen)|o
+gepard|猎豹 (der, 复数 Geparden)|o
+geschoss|弹丸，子弹 (das, 复数 Geschosse); 楼层|o;o
+internationalisierung|国际化 (die, 无复数)|o
+kehrseite|背面，反面 (die, 复数 Kehrseiten); 缺点，不利之处|o;o
+kilowattstunde|千瓦时 (die, 复数 Kilowattstunden)|o
+kuratorin|策展人 (女) (die, 复数 Kuratorinnen)|o
+lektor|出版社编辑 (der, 复数 Lektoren); 外语讲师|o;o
+melken|挤奶 (melkte 或 molk, gemolken)|v
+nanometer|纳米 (der, 复数 Nanometer)|o
+narzissmus|自恋 (der, 无复数)|o
+neanderthaler|尼安德特人 (der, 复数 Neanderthaler)|o
+neonazi|新纳粹分子 (der, 复数 Neonazis)|o
+onkologe|肿瘤学家，肿瘤科医生 (der, 复数 Onkologen)|o
+osttimor|东帝汶|o
+philanthrop|慈善家 (der, 复数 Philanthropen)|o
+projektil|弹丸，发射体 (das, 复数 Projektile)|o
+riad|利雅得|o
+rückschritt|倒退，挫折 (der, 复数 Rückschritte)|o
+rückstand|积压，拖欠 (der, 复数 Rückstände); 残留物; 落后|o;o;o
+silikon|硅胶，硅酮 (das, 复数 Silikone)|o
+skelettmuskel|骨骼肌 (der, 复数 Skelettmuskeln)|o
+sonstwo|别的地方，其他任何地方|o
+stacheln|刺，棘，蜇针 (die, 复数)|o
+stratosphäre|平流层 (die, 无复数)|o
+säge|锯 (die, 复数 Sägen)|o
+tablett|托盘 (das, 复数 Tabletts)|o
+terminologie|术语 (die, 复数 Terminologien)|o
+tobago|多巴哥|o
+totalitarismus|极权主义 (der, 无复数)|o
+treptow|特雷普托|o
+ungehorsam|不服从，违抗 (der, 无复数); 不听话的|o;o
+veranschaulichung|图解，直观说明 (die, 复数 Veranschaulichungen)|o
+vermieter|房东，出租人 (der, 复数 Vermieter)|o
+abschottung|隔绝，封闭 (die, 无复数)|o
+aufwendung|开支，花费 (die, 复数 Aufwendungen)|o
+beherrschung|控制，自制 (die, 无复数); 精通，掌握|o;o
+beule|肿块，凹痕 (die, 复数 Beulen)|o
+dualität|二元性 (die, 复数 Dualitäten)|o
+eigenständigkeit|独立性，自主 (die, 无复数)|o
+elektrolyt|电解质 (der, 复数 Elektrolyte)|o
+erschaffer|创造者 (der, 复数 Erschaffer)|o
+fao|联合国粮农组织 (die, 无复数)|o
+flanke|侧面，侧翼 (die, 复数 Flanken); 传中 (足球)|o;o
+freimaurer|共济会会员 (der, 复数 Freimaurer)|o
+gameplay|游戏玩法 (das, 无复数)|o
+hospiz|临终关怀院 (das, 复数 Hospize)|o
+humanismus|人文主义 (der, 无复数)|o
+karotte|胡萝卜 (die, 复数 Karotten)|o
+keil|楔子 (der, 复数 Keile)|o
+kelch|圣杯，高脚杯 (der, 复数 Kelche)|o
+korpus|语料库 (das, 复数 Korpora); 主体，柜体 (der)|o;o
+körperschaft|法人团体，社团 (die, 复数 Körperschaften)|o
+lebensgefährte|伴侣 (男) (der, 复数 Lebensgefährten)|o
+lebensgefährtin|伴侣 (女) (die, 复数 Lebensgefährtinnen)|o
+legat|教皇特使，使节 (der, 复数 Legaten); 遗赠 (das)|o;o
+marode|破败的，衰败的|o
+materialismus|唯物主义，物质主义 (der, 无复数)|o
+mausklick|鼠标点击 (der, 复数 Mausklicks)|o
+mrna|mRNA (信使核糖核酸) (die, 无复数)|o
+mätresse|情妇 (国王的) (die, 复数 Mätressen)|o
+nukleus|核，细胞核 (der, 复数 Nuklei)|o
+perkussion|打击乐，叩诊 (die, 复数 Perkussionen)|o
+piraterie|海盗行为，盗版 (die, 无复数)|o
+quantität|数量 (die, 复数 Quantitäten)|o
+refinanzieren|再融资|v
+rekrut|新兵 (der, 复数 Rekruten)|o
+rivalisieren|竞争，对抗|v
+rummel|喧闹，忙乱 (der, 无复数); 游乐场|o;o
+schah|沙阿，国王 (der, 复数 Schahs)|o
+schilderung|描述，叙述 (die, 复数 Schilderungen)|o
+spionin|间谍 (女) (die, 复数 Spioninnen)|o
+steueroase|避税天堂 (die, 复数 Steueroasen)|o
+symbolik|象征意义 (die, 无复数)|o
+verschlüsselung|加密 (die, 复数 Verschlüsselungen)|o
+viereck|四边形，方形 (das, 复数 Vierecke)|o
+zerschlagung|粉碎，瓦解 (die, 无复数)|o
+zyniker|愤世嫉俗者 (der, 复数 Zyniker)|o
+akustik|声学，音响效果 (die, 无复数)|o
+amerikanerin|美国女人 (die, 复数 Amerikanerinnen)|o
+anführungszeichen|引号 (das, 复数 Anführungszeichen)|o
+aufklärer|启蒙思想家 (der, 复数 Aufklärer); 侦察机|o;o
+belegschaft|全体员工 (die, 复数 Belegschaften)|o
+botschafterin|大使 (女) (die, 复数 Botschafterinnen)|o
+brei|粥，糊，浆 (der, 复数 Breie)|o
+brüderchen|小弟弟 (das, 复数 Brüderchen)|o
+direktorium|董事会，理事会 (das, 复数 Direktorien)|o
+eber|公猪 (der, 复数 Eber)|o
+einstufung|分级，归类 (die, 复数 Einstufungen)|o
+erlöser|救世主，救赎者 (der, 复数 Erlöser)|o
+ermächtigung|授权 (die, 复数 Ermächtigungen)|o
+expertin|专家 (女) (die, 复数 Expertinnen)|o
+fluktuation|波动 (die, 复数 Fluktuationen); 人员流动|o;o
+fokussierung|聚焦 (die, 无复数)|o
+gallien|高卢|o
+garnele|虾 (die, 复数 Garnelen)|o
+genialität|天才，卓越 (die, 无复数)|o
+gesindel|乌合之众，下三烂 (das, 无复数)|o
+glühwürmchen|萤火虫 (das, 复数 Glühwürmchen)|o
+gral|圣杯 (der, 无复数)|o
+grashüpfer|蚱蜢，蝗虫 (der, 复数 Grashüpfer)|o
+heuchler|伪君子 (der, 复数 Heuchler)|o
+hexerei|巫术 (die, 无复数)|o
+inspektion|检查，视察 (die, 复数 Inspektionen)|o
+joggen|慢跑|v
+kontinuum|连续统 (das, 复数 Kontinua)|o
+lagune|潟湖 (die, 复数 Lagunen)|o
+machtlosigkeit|无力，无能为力 (die, 无复数)|o
+mikrometer|微米 (das, 复数 Mikrometer)|o
+neandertaler|尼安德特人 (der, 复数 Neandertaler)|o
+nigerianer|尼日利亚人 (男) (der, 复数 Nigerianer)|o
+pergament|羊皮纸 (das, 复数 Pergamente)|o
+selbstverständlichkeit|理所当然，不言而喻 (die, 复数 Selbstverständlichkeiten)|o
+spieß|烤肉叉，扦子 (der, 复数 Spieße); 长矛|o;o
+supraleiter|超导体 (der, 复数 Supraleiter)|o
+tadschikistan|塔吉克斯坦|o
+viehzucht|畜牧业 (die, 无复数)|o
+vielfältigkeit|多样性 (die, 无复数)|o
+zapfen|打 (啤酒)，放出 (液体); 球果，木栓 (der, 复数 Zapfen)|v;o
+zusammenlegung|合并 (die, 复数 Zusammenlegungen)|o
+überschneidung|重叠，交叉 (die, 复数 Überschneidungen)|o
+allegorie|寓言，讽喻 (die, 复数 Allegorien)|o
+benelux|比荷卢|o
+eisenerz|铁矿石 (das, 复数 Eisenerze)|o
+eritrea|厄立特里亚|o
+gambia|冈比亚|o
+geleit|护送，陪同 (das, 无复数)|o
+gönner|赞助人，恩主 (der, 复数 Gönner)|o
+heldin|女英雄，女主角 (die, 复数 Heldinnen)|o
+honorar|酬金，稿酬 (das, 复数 Honorare)|o
+hysterie|歇斯底里 (die, 无复数)|o
+karneval|狂欢节 (der, 复数 Karnevale)|o
+kartell|卡特尔，垄断联盟 (das, 复数 Kartelle)|o
+kompass|指南针，罗盘 (der, 复数 Kompasse)|o
+kontur|轮廓 (die, 复数 Konturen)|o
+kurzsichtigkeit|近视 (die, 无复数)|o
+mauretanien|毛里塔尼亚|o
+nordkoreaner|朝鲜人 (男) (der, 复数 Nordkoreaner)|o
+oase|绿洲 (die, 复数 Oasen)|o
+olympiade|奥运会 (die, 复数 Olympiaden); 奥林匹克竞赛|o;o
+partizipation|参与 (die, 无复数)|o
+protestantismus|新教 (der, 无复数)|o
+quaken|呱呱叫|v
+schauspielerei|表演 (die, 无复数)|o
+schiene|铁轨，轨道 (die, 复数 Schienen); 夹板|o;o
+schonungslos|无情的，毫不留情的|o
+sippe|氏族，亲族 (die, 复数 Sippen)|o
+traktor|拖拉机 (der, 复数 Traktoren)|o
+unproduktiv|无成效的，不生产的|o
+verdrängung|排挤，取代 (die, 复数 Verdrängungen); 压抑|o;o
+verwechslung|混淆，弄错 (die, 复数 Verwechslungen)|o
+vizekanzler|副总理 (der, 复数 Vizekanzler)|o
+winzer|酿酒葡萄种植者 (der, 复数 Winzer)|o
+youtuber|YouTube博主 (der, 复数 YouTuber)|o
+überbleibsel|残余，遗迹 (das, 复数 Überbleibsel)|o
+abenteurer|冒险家 (der, 复数 Abenteurer)|o
+adipositas|肥胖症 (die, 无复数)|o
+altan|阳台，露台 (der, 复数 Altane)|o
+antipathie|反感，厌恶 (die, 复数 Antipathien)|o
+ballen|大包，捆 (der, 复数 Ballen); 脚掌或拇指根部的肉垫; 握紧，攥成团|o;o;v
+baracke|木棚，棚屋 (die, 复数 Baracken)|o
+bausch|棉球，垫料 (der, 复数 Bäusche); in Bausch und Bogen: 全盘，一概|o;n
+beaufsichtigung|监督，看管 (die, 无复数)|o
+bedrängnis|困境，窘迫 (die, 复数 Bedrängnisse)|o
+behausung|住所，栖身处 (die, 复数 Behausungen)|o
+beklemmung|焦虑，压抑感 (die, 复数 Beklemmungen)|o
+bernburg|伯恩堡|o
+bevorzugung|优待，偏爱 (die, 复数 Bevorzugungen)|o
+bildgebung|成像 (die, 无复数)|o
+bresche|缺口，突破口 (die, 复数 Breschen); in die Bresche springen: 挺身而出，顶上去|o;n
+crowdsourcing|众包 (das, 无复数)|o
+cursor|光标 (der, 复数 Cursor)|o
+diskretion|谨慎，保密 (die, 无复数)|o
+empfindlichkeit|敏感度 (die, 复数 Empfindlichkeiten); 易怒，爱计较|o;o
+endstation|终点站 (die, 复数 Endstationen)|o
+engelchen|小天使 (das, 复数 Engelchen)|o
+entwaffnung|裁军，缴械 (die, 无复数)|o
+erbauung|启迪，精神振奋 (die, 无复数); 建造|o;o
+erdenken|想出，构思 (erdachte, erdacht)|v
+erhabenheit|崇高，庄严 (die, 无复数)|o
+erkennung|识别，检测 (die, 无复数)|o
+fettsäure|脂肪酸 (die, 复数 Fettsäuren)|o
+fidschi|斐济|o
+fregatte|护卫舰 (die, 复数 Fregatten)|o
+gefälligkeit|帮忙，恩惠 (die, 复数 Gefälligkeiten)|o
+gigawatt|吉瓦 (das, 复数 Gigawatt)|o
+grütze|谷粒 (die, 复数 Grützen); 水果布丁|o;o
+harnisch|铠甲; in Harnisch: 勃然大怒 (der, 复数 Harnische)|o;n
+hartnäckigkeit|固执，顽强 (die, 无复数)|o
+henne|母鸡 (die, 复数 Hennen)|o
+humoristisch|幽默的|o
+hypnose|催眠 (die, 复数 Hypnosen)|o
+imbiss|小吃，点心 (der, 复数 Imbisse); 小吃店|o;o
+injektion|注射 (die, 复数 Injektionen)|o
+kalifat|哈里发国 (das, 复数 Kalifate)|o
+kanadier|加拿大人 (男) (der, 复数 Kanadier); 独木舟|o;o
+keule|棍棒 (die, 复数 Keulen); 鸡腿，腿肉|o;o
+keuschheit|贞洁 (die, 无复数)|o
+klärung|澄清，厘清 (die, 复数 Klärungen)|o
+knorpel|软骨 (der, 复数 Knorpel)|o
+kodex|法典，准则 (der, 复数 Kodizes)|o
+konditionieren|使形成条件反射，调节|v
+kontra|反对，对 (对阵)|o
+kopfbedeckung|头饰，帽子 (die, 复数 Kopfbedeckungen)|o
+kruzifix|十字架苦像 (das, 复数 Kruzifixe)|o
+lebendigkeit|生动，活泼 (die, 无复数)|o
+lenkrad|方向盘 (das, 复数 Lenkräder)|o
+lombardei|伦巴第|o
+methodik|方法论，方法体系 (die, 复数 Methodiken)|o
+minarett|宣礼塔 (das, 复数 Minarette)|o
+musikant|民间乐手，街头艺人 (der, 复数 Musikanten)|o
+musizieren|演奏音乐|v
+nihilist|虚无主义者 (der, 复数 Nihilisten)|o
+oberförster|林务官，护林长 (der, 复数 Oberförster)|o
+observatorium|天文台，观测站 (das, 复数 Observatorien)|o
+pacht|租赁，租约 (die, 复数 Pachten)|o
+parität|平等，同等地位 (die, 无复数)|o
+passant|路人，行人 (der, 复数 Passanten)|o
+pflastern|铺路面，铺石板|v
+pfütze|水坑，水洼 (die, 复数 Pfützen)|o
+praktikant|实习生 (der, 复数 Praktikanten)|o
+prise|一小撮 (盐等) (die, 复数 Prisen)|o
+prospekt|宣传册，小册子 (der, 复数 Prospekte)|o
+refektorium|修道院食堂 (das, 复数 Refektorien)|o
+regelmäßigkeit|规律性，定期 (die, 无复数)|o
+regler|调节器，控制器 (der, 复数 Regler)|o
+rosine|葡萄干 (die, 复数 Rosinen)|o
+rost|铁锈 (der, 复数 Roste); 烤架，炉篦|o;o
+rächer|复仇者 (der, 复数 Rächer)|o
+sakristei|圣器室，法衣室 (die, 复数 Sakristeien)|o
+schamgefühl|羞耻心 (das, 无复数)|o
+schnauben|喷鼻息，哼鼻|v
+schneeflocke|雪花 (die, 复数 Schneeflocken)|o
+schwalbe|燕子 (die, 复数 Schwalben)|o
+serviette|餐巾 (die, 复数 Servietten)|o
+sinnlosigkeit|无意义，徒劳 (die, 无复数)|o
+sohle|鞋底 (die, 复数 Sohlen); 谷底，坑道底|o;o
+spanne|跨度，幅度 (die, 复数 Spannen)|o
+spind|储物柜 (der, 复数 Spinde)|o
+sprosse|梯级 (die, 复数 Sprossen); 嫩芽|o;o
+stachel|刺，棘，蜇针 (der, 复数 Stacheln)|o
+steifheit|僵硬 (die, 无复数)|o
+säufer|酒鬼 (口语，贬义) (der, 复数 Säufer)|o
+taschkent|塔什干|o
+taubheit|耳聋 (die, 无复数); 麻木|o;o
+trab|小跑 (der, 无复数)|o
+trunkenheit|醉酒 (die, 无复数)|o
+tölpel|笨蛋，蠢货 (der, 复数 Tölpel)|o
+ungnade|失宠; in Ungnade fallen: 失宠，失去恩惠 (die, 无复数)|o;n
+unverschämtheit|无耻，厚颜无耻 (die, 复数 Unverschämtheiten)|o
+verdammnis|永罚，天谴 (die, 无复数)|o
+verflechtung|相互交织，纠缠 (die, 复数 Verflechtungen)|o
+verhaltenskodex|行为准则 (der, 复数 Verhaltenskodizes)|o
+verheerung|严重破坏，浩劫 (die, 复数 Verheerungen)|o
+verlässlichkeit|可靠性 (die, 无复数)|o
+verschwiegenheit|保密，守口如瓶 (die, 无复数)|o
+verteufeln|妖魔化|v
+wohnort|居住地 (der, 复数 Wohnorte)|o
+zahnbürste|牙刷 (die, 复数 Zahnbürsten)|o
+zickzack|之字形 (der, 复数 Zickzacke)|o
+zielsetzung|目标，目的 (die, 复数 Zielsetzungen)|o
+austragungsort|举办地，赛场 (der, 复数 Austragungsorte)|o
+belang|关切，重要性 (der, 复数 Belange)|o
+bordell|妓院 (das, 复数 Bordelle)|o
+brigadegeneral|准将 (der, 复数 Brigadegenerale)|o
+disput|争论，辩论 (der, 复数 Disputs)|o
+echtheit|真实性 (die, 无复数)|o
+einsetzung|任命，就职 (die, 复数 Einsetzungen)|o
+endung|词尾，后缀 (die, 复数 Endungen)|o
+fiasko|惨败 (das, 复数 Fiaskos)|o
+internetnutzer|网民，互联网用户 (der, 复数 Internetnutzer)|o
+jawoll|是的，长官，当然|o
+kalium|钾 (das, 无复数)|o
+klatsch|闲话，八卦 (der, 无复数); 啪的一声|o;o
+kopenhagener|哥本哈根的|o
+maßschneidern|量身定做|v
+mongole|蒙古人 (男) (der, 复数 Mongolen)|o
+pessach|逾越节 (das, 无复数)|o
+pfingsten|圣灵降临节 (das, 无复数)|o
+plugin|插件 (das, 复数 Plugins)|o
+prozession|游行队伍，宗教游行 (die, 复数 Prozessionen)|o
+rekrutierung|招募 (die, 无复数)|o
+richterin|法官 (女) (die, 复数 Richterinnen)|o
+saat|种子 (die, 复数 Saaten); 播种|o;o
+schaft|柄，杆，筒 (der, 复数 Schäfte)|o
+sojabohne|大豆 (die, 复数 Sojabohnen)|o
+streichung|删除，削减 (die, 复数 Streichungen)|o
+tarif|费率，关税，工资标准 (der, 复数 Tarife)|o
+verschmelzung|融合，合并 (die, 复数 Verschmelzungen)|o
+accessoire|配饰 (das, 复数 Accessoires)|o
+asymmetrie|不对称 (die, 复数 Asymmetrien)|o
+beschuldigung|指控，指责 (die, 复数 Beschuldigungen)|o
+betiteln|给…取名，称为|v
+blende|光圈 (die, 复数 Blenden); 遮光板|o;o
+dissonanz|不协和音，不和谐 (die, 复数 Dissonanzen)|o
+dominikaner|多明我会修士 (der, 复数 Dominikaner)|o
+duldung|容忍 (die, 复数 Duldungen); 暂缓遣返|o;o
+elementarteilchen|基本粒子 (das, 复数 Elementarteilchen)|o
+esser|吃饭的人 (der, 复数 Esser)|o
+exoplanet|系外行星 (der, 复数 Exoplaneten)|o
+fabel|寓言 (die, 复数 Fabeln)|o
+geschwader|中队，舰队 (das, 复数 Geschwader)|o
+hundertstel|百分之一 (das, 复数 Hundertstel)|o
+insektizid|杀虫剂 (das, 复数 Insektizide)|o
+instruktion|指示，说明 (die, 复数 Instruktionen)|o
+jahrestagung|年会 (die, 复数 Jahrestagungen)|o
+kanalisation|下水道系统 (die, 无复数)|o
+langsamkeit|缓慢 (die, 无复数)|o
+lasche|舌片，搭片 (die, 复数 Laschen); 带子|o;o
+leihgabe|借出品，出借物 (die, 复数 Leihgaben)|o
+magnetfeld|磁场 (das, 复数 Magnetfelder)|o
+megawatt|兆瓦 (das, 复数 Megawatt)|o
+metastase|转移灶，转移 (die, 复数 Metastasen)|o
+nomade|游牧民 (der, 复数 Nomaden)|o
+nominell|名义上的|o
+normanne|诺曼人 (der, 复数 Normannen)|o
+nsu|NSU (国家社会主义地下组织，新纳粹恐怖组织) (der, 无复数)|o
+paläontologe|古生物学家 (der, 复数 Paläontologen)|o
+pünktchen|小点 (das, 复数 Pünktchen)|o
+quantentheorie|量子理论 (die, 复数 Quantentheorien)|o
+relikt|遗迹，遗存 (das, 复数 Relikte)|o
+rupie|卢比 (die, 复数 Rupien)|o
+schlitzauge|对东亚人的蔑称 (种族歧视用语，指眯缝眼) (das, 复数 Schlitzaugen)|o
+schwerelosigkeit|失重 (die, 无复数)|o
+schwimmer|游泳者 (der, 复数 Schwimmer); 浮子|o;o
+teddybär|泰迪熊 (der, 复数 Teddybären)|o
+theoretiker|理论家 (der, 复数 Theoretiker)|o
+transzendenz|超越，超验 (die, 无复数)|o
+tripolis|的黎波里|o
+tschetschene|车臣人 (男) (der, 复数 Tschetschenen)|o
+unhcr|联合国难民署 (das, 无复数)|o
+verbreitern|加宽，拓宽|v
+werbespot|电视广告，广告片 (der, 复数 Werbespots)|o
+zeitlupe|慢动作 (die, 无复数)|o
+abbé|神父，修道院院长 (der, 复数 Abbés)|o
+arche|方舟 (die, 复数 Archen)|o
+fruchtbarkeit|生育力，肥沃 (die, 无复数)|o
+gebärmutterhalskrebs|宫颈癌 (der, 无复数)|o
+gegenseitigkeit|相互性，互惠 (die, 无复数)|o
+homophobie|恐同 (die, 无复数)|o
+homs|霍姆斯|o
+häschen|小兔子 (das, 复数 Häschen)|o
+irrsinn|疯狂，荒唐 (der, 无复数)|o
+jod|碘 (das, 无复数)|o
+kubaner|古巴人 (男) (der, 复数 Kubaner)|o
+leugnung|否认 (die, 复数 Leugnungen)|o
+mercosur|南方共同市场 (南美贸易集团) (der, 无复数)|o
+philosophin|哲学家 (女) (die, 复数 Philosophinnen)|o
+phänotyp|表型 (der, 复数 Phänotypen)|o
+piepser|传呼机，寻呼机 (der, 复数 Piepser)|o
+plasma|等离子体，血浆 (das, 复数 Plasmen)|o
+pragmatiker|实用主义者 (der, 复数 Pragmatiker)|o
+siedepunkt|沸点 (der, 复数 Siedepunkte)|o
+ständer|架子，支架 (der, 复数 Ständer)|o
+textil|纺织的|o
+unfug|胡闹，胡说 (der, 无复数)|o
+vergewaltiger|强奸犯 (der, 复数 Vergewaltiger)|o
+wechselbalg|换生灵，被调包的孩子 (der, 复数 Wechselbälge)|o
+anbetung|崇拜，敬拜 (die, 无复数)|o
+besonnenheit|审慎，冷静 (die, 无复数)|o
+bewirtschaften|经营，耕种，管理|v
+designerin|设计师 (女) (die, 复数 Designerinnen)|o
+dezimieren|大量杀伤，大幅削减|v
+disputation|正式辩论，学术辩论 (die, 复数 Disputationen)|o
+eimsbüttel|艾姆斯比特尔|o
+einzelhändler|零售商 (der, 复数 Einzelhändler)|o
+frustration|挫败感 (die, 复数 Frustrationen)|o
+fußstapfen|脚印，足迹; in jemandes Fußstapfen treten: 追随某人的脚步 (der, 复数 Fußstapfen)|o;o
+gabun|加蓬|o
+glasmalerei|彩绘玻璃 (die, 无复数)|o
+judäa|犹地亚|o
+kalk|石灰，石灰岩 (der, 无复数); 水垢|o;o
+kalkulation|核算，成本计算 (die, 复数 Kalkulationen)|o
+krake|挪威海怪 (der, 复数 Kraken); 章鱼|o;o
+kreuzigung|钉十字架 (die, 复数 Kreuzigungen)|o
+kubus|立方体 (der, 复数 Kuben)|o
+leitartikel|社论 (der, 复数 Leitartikel)|o
+mäuschen|小老鼠 (das, 复数 Mäuschen); 宝贝 (昵称)|o;o
+orchidee|兰花 (die, 复数 Orchideen)|o
+pathologie|病理学 (die, 复数 Pathologien)|o
+pfarrhaus|牧师住宅 (das, 复数 Pfarrhäuser)|o
+plakette|徽章，纪念牌 (die, 复数 Plaketten)|o
+podest|平台，基座 (das, 复数 Podeste)|o
+polemik|论战，笔战 (die, 复数 Polemiken)|o
+proviant|口粮，给养 (der, 复数 Proviante)|o
+präparat|标本，制剂 (das, 复数 Präparate); 药物|o;o
+psalter|诗篇集 (der, 复数 Psalter)|o
+rebe|葡萄藤 (die, 复数 Reben)|o
+sachverhalt|事实情况，案情 (der, 复数 Sachverhalte)|o
+schmiede|铁匠铺，锻造厂 (die, 复数 Schmieden)|o
+silizium|硅 (das, 无复数)|o
+spital|医院 (瑞士、奥地利) (das, 复数 Spitäler)|o
+synchronisation|同步 (die, 复数 Synchronisationen); 配音|o;o
+trojaner|特洛伊人 (男) (der, 复数 Trojaner); 特洛伊木马 (恶意软件)|o;o
+verleumdung|诽谤，中伤 (die, 复数 Verleumdungen)|o
+zechen|狂饮，痛饮; 煤矿，矿井 (die, 复数)|v;o
+amphibie|两栖动物 (die, 复数 Amphibien)|o
+asylbewerber|寻求庇护者 (der, 复数 Asylbewerber)|o
+atomkraftwerk|核电站 (das, 复数 Atomkraftwerke)|o
+ausklügeln|精心设计，巧妙想出|v
+beschriftung|标注，文字说明 (die, 复数 Beschriftungen)|o
+beständigkeit|稳定性，耐受性 (die, 无复数)|o
+bärtig|有胡子的|o
+charakteristikum|特征，特点 (das, 复数 Charakteristika)|o
+darknet|暗网 (das, 无复数)|o
+deich|堤坝 (der, 复数 Deiche)|o
+desertifikation|荒漠化 (die, 无复数)|o
+dialektik|辩证法 (die, 无复数)|o
+elch|驼鹿 (der, 复数 Elche)|o
+ersetzung|替换 (die, 复数 Ersetzungen)|o
+erstarken|变强，增强 (ist)|v
+flöten|吹笛，吹长笛; flöten gehen: 泡汤，丢失|v;n
+fohlen|小马驹 (das, 复数 Fohlen); 产驹|o;v
+funktionalität|功能性，功能 (die, 复数 Funktionalitäten)|o
+genomik|基因组学 (die, 无复数)|o
+genotyp|基因型 (der, 复数 Genotypen)|o
+gepflogenheit|习惯，惯例 (die, 复数 Gepflogenheiten)|o
+gezeiten|潮汐 (die, 复数)|o
+gräuel|恐怖，憎恶之物 (der, 复数 Gräuel)|o
+harfe|竖琴 (die, 复数 Harfen)|o
+inbegriff|典型，化身 (der, 无复数)|o
+kacheln|瓷砖 (die Kachel 的复数)|o
+kadett|军校学员 (der, 复数 Kadetten)|o
+kaliningrad|加里宁格勒|o
+kleber|胶水，粘合剂 (der, 复数 Kleber)|o
+knesset|以色列议会 (die, 无复数)|o
+kobold|小妖精，地精 (der, 复数 Kobolde)|o
+koffein|咖啡因 (das, 无复数)|o
+kohlenstoffdioxid|二氧化碳 (das, 无复数)|o
+kroate|克罗地亚人 (der, 复数 Kroaten)|o
+libyer|利比亚人 (der, 复数 Libyer)|o
+medellín|麦德林|o
+metadaten|元数据 (die, 复数)|o
+meteorit|陨石 (der, 复数 Meteoriten)|o
+mikrophon|麦克风 (das, 复数 Mikrophone)|o
+mikroprozessor|微处理器 (der, 复数 Mikroprozessoren)|o
+milbe|螨 (die, 复数 Milben)|o
+monogramm|字母组合图案，花押字 (das, 复数 Monogramme)|o
+mystik|神秘主义 (die, 无复数)|o
+nachzügler|迟到者，掉队者 (der, 复数 Nachzügler)|o
+olivenöl|橄榄油 (das, 复数 Olivenöle)|o
+praline|夹心巧克力 (die, 复数 Pralinen)|o
+prostata|前列腺 (die, 无复数)|o
+puder|粉，爽身粉 (der, 复数 Puder)|o
+quantenphysik|量子物理学 (die, 无复数)|o
+sprengung|爆破，炸毁 (die, 复数 Sprengungen)|o
+stigmatisierung|污名化 (die, 无复数)|o
+toupet|假发片 (das, 复数 Toupets)|o
+uneinheitlich|不一致的，不均匀的，参差不齐的|o
+verfüttern|用作饲料喂食|v
+verleugnung|否认，不认 (die, 复数 Verleugnungen)|o
+vermehrung|增加 (die, 复数 Vermehrungen); 繁殖，增殖|o;o
+verschreibung|处方，开药 (die, 复数 Verschreibungen)|o
+vertrauenswürdigkeit|可信度 (die, 无复数)|o
+visitenkarte|名片 (die, 复数 Visitenkarten)|o
+vitalität|活力 (die, 无复数)|o
+widder|公羊 (der, 复数 Widder); 白羊座|o;o
+zerstritten|不和的，闹翻的，反目的|o
+zyklon|气旋，旋风 (der, 复数 Zyklone)|o
+affinität|亲和力，亲近感 (die, 复数 Affinitäten)|o
+ambivalenz|矛盾心理 (die, 复数 Ambivalenzen)|o
+amnestie|大赦 (die, 复数 Amnestien)|o
+annehmlichkeit|舒适，便利设施 (die, 复数 Annehmlichkeiten)|o
+appartement|公寓 (das, 复数 Appartements)|o
+argwöhnisch|猜疑的，怀疑的|o
+aristokratie|贵族阶层，贵族制 (die, 复数 Aristokratien)|o
+astrologie|占星术 (die, 无复数)|o
+astrophysik|天体物理学 (die, 无复数)|o
+auffindung|找到，发现 (die, 无复数)|o
+aufzählung|列举，清单 (die, 复数 Aufzählungen)|o
+augapfel|眼球 (der, 复数 Augäpfel); 掌上明珠|o;o
+backe|脸颊 (die, 复数 Backen); 臀部|o;o
+begleiterin|女伴，陪同者 (女) (die, 复数 Begleiterinnen)|o
+begünstigung|优待，偏袒 (die, 复数 Begünstigungen); 包庇罪犯|o;o
+beseelen|赋予生命，激励|v
+bewachung|看守，守卫 (die, 复数 Bewachungen)|o
+bewirtschaftung|经营，耕作 (die, 无复数); 配给管制|o;o
+bewunderer|仰慕者 (der, 复数 Bewunderer)|o
+bohle|厚木板 (die, 复数 Bohlen)|o
+brüderlichkeit|博爱，兄弟情谊 (die, 无复数)|o
+differenzierung|区分，分化 (die, 复数 Differenzierungen)|o
+dopen|给 (运动员) 服用兴奋剂|v
+efeu|常春藤 (der, 无复数)|o
+ekstase|狂喜，忘我 (die, 复数 Ekstasen)|o
+elster|喜鹊 (die, 复数 Elstern)|o
+erstarrung|僵硬，麻木 (die, 无复数); 凝固|o;o
+esprit|才智，风趣 (der, 无复数)|o
+ethnizität|族裔性 (die, 无复数)|o
+feinheit|精细，微妙 (die, 复数 Feinheiten); 细节|o;o
+florentiner|佛罗伦萨的; 佛罗伦萨人 (男) (der, 复数 Florentiner)|o;o
+füllung|馅料，填充物 (die, 复数 Füllungen)|o
+gebrechen|残疾，病痛 (das, 复数 Gebrechen)|o
+gebälk|木构架，椽子 (das, 无复数)|o
+gehege|围场，围栏 (das, 复数 Gehege)|o
+gemetzel|屠杀，血战 (das, 复数 Gemetzel)|o
+geschwür|溃疡，脓肿 (das, 复数 Geschwüre)|o
+geselligkeit|善交际，合群 (die, 复数 Geselligkeiten); 聚会|o;o
+gleichnis|寓言，比喻故事 (das, 复数 Gleichnisse); 明喻|o;o
+gurt|带子 (der, 复数 Gurte); 安全带|o;o
+habicht|苍鹰 (der, 复数 Habichte)|o
+hammel|阉羊 (der, 复数 Hammel); 羊肉|o;o
+heiland|救世主 (der, 无复数)|o
+heuchlerisch|虚伪的|o
+höcker|隆起，驼峰 (der, 复数 Höcker)|o
+instandsetzung|修理，修复 (die, 复数 Instandsetzungen)|o
+kandelaber|枝形烛台 (der, 复数 Kandelaber)|o
+karawane|商队，驼队 (die, 复数 Karawanen)|o
+karpfen|鲤鱼 (der, 复数 Karpfen)|o
+knechtschaft|奴役，束缚 (die, 无复数)|o
+koje|铺位，床铺 (die, 复数 Kojen)|o
+komik|喜剧性，幽默 (die, 无复数)|o
+konditorei|糕点店，咖啡糕点店 (die, 复数 Konditoreien)|o
+kotze|呕吐物 (粗俗) (die, 无复数)|o
+kundschaft|顾客，客户群 (die, 无复数)|o
+kurtisane|高级妓女，交际花 (die, 复数 Kurtisanen)|o
+lakai|仆从，听差 (der, 复数 Lakaien)|o
+lappen|破布，抹布 (der, 复数 Lappen)|o
+lawine|雪崩 (die, 复数 Lawinen)|o
+letter|铅字，印刷字母 (die, 复数 Lettern)|o
+leuchte|灯，光源 (die, 复数 Leuchten); 天才，聪明人|o;o
+libanese|黎巴嫩人 (男) (der, 复数 Libanesen)|o
+liebchen|亲爱的，心上人 (das, 复数 Liebchen)|o
+litanei|祷文，连祷 (die, 复数 Litaneien); 冗长的陈述|o;o
+lolli|棒棒糖 (der, 复数 Lollis)|o
+lächerlichkeit|荒谬，可笑 (die, 复数 Lächerlichkeiten)|o
+morphologie|形态学，词法 (die, 无复数)|o
+nelke|康乃馨，石竹 (die, 复数 Nelken); 丁香|o;o
+oberin|女修道院院长 (die, 复数 Oberinnen); 护士长|o;o
+obrigkeit|当局，官府 (die, 复数 Obrigkeiten)|o
+pappen|粘，贴 (口语)|v
+perser|波斯人 (男) (der, 复数 Perser); 波斯地毯|o;o
+pfand|押金 (das, 复数 Pfänder); 抵押物，担保|o;o
+raunen|低语，私语|v
+rezensent|评论者，书评人 (der, 复数 Rezensenten)|o
+rumäne|罗马尼亚人 (男) (der, 复数 Rumänen)|o
+rundung|弧形，圆润 (die, 复数 Rundungen)|o
+rückfahrt|返程 (die, 复数 Rückfahrten)|o
+rücksprache|商议，磋商 (die, 复数 Rücksprachen)|o
+sakko|西装外套，休闲西服 (das, 复数 Sakkos)|o
+sauberkeit|清洁，整洁 (die, 无复数)|o
+schnitzerei|雕刻，木雕 (die, 复数 Schnitzereien)|o
+schnurren|呼噜呼噜叫 (猫); 嗡嗡转动|v;v
+schweif|尾巴 (der, 复数 Schweife)|o
+schärfe|锋利，清晰度 (die, 复数 Schärfen); 辛辣; 严厉|o;o;o
+selbstbeherrschung|自制力 (die, 无复数)|o
+selbständigkeit|独立 (die, 无复数); 个体经营|o;o
+spaten|铁锹 (der, 复数 Spaten)|o
+spazierfahrt|兜风，游车 (die, 复数 Spazierfahrten)|o
+statur|身材，体格 (die, 复数 Staturen)|o
+steuervergünstigung|税收优惠 (die, 复数 Steuervergünstigungen)|o
+strauch|灌木 (der, 复数 Sträucher)|o
+stäbchen|筷子 (das, 复数 Stäbchen); 小棒|o;o
+symphonieorchester|交响乐团 (das, 复数 Symphonieorchester)|o
+taifun|台风 (der, 复数 Taifune)|o
+tscheche|捷克人 (男) (der, 复数 Tschechen)|o
+typologie|类型学 (die, 复数 Typologien)|o
+umfassungsmauer|围墙 (die, 复数 Umfassungsmauern)|o
+ungetrübt|不受干扰的，无忧无虑的|o
+unterwürfig|顺从的，卑躬屈膝的|o
+vehikel|破车 (das, 复数 Vehikel); 工具，载体|o;o
+verarmung|贫困化，变穷 (die, 无复数)|o
+verdenken|责怪，怪罪 (verdachte, verdacht)|v
+verfassungswidrig|违宪的|o
+verhütung|预防 (die, 无复数); 避孕|o;o
+verklärung|变容，美化 (die, 无复数)|o
+visite|查房 (die, 复数 Visiten); 拜访|o;o
+waagschale|天平盘 (die, 复数 Waagschalen)|o
+weben|织，编织 (wob, gewoben; 也作 webte, gewebt)|v
+weihrauch|乳香，香 (der, 无复数)|o
+wiedergutmachung|赔偿，补救 (die, 无复数)|o
+wirrwarr|混乱，乱七八糟 (der, 无复数)|o
+ärgernis|烦恼，讨厌的事 (das, 复数 Ärgernisse)|o
+allergie|过敏 (die, 复数 Allergien)|o
+betätigung|活动 (die, 复数 Betätigungen); 操作 (设备)|o;o
+biber|海狸 (der, 复数 Biber)|o
+brigade|旅，队 (die, 复数 Brigaden)|o
+captcha|验证码 (人机验证测试) (das, 复数 Captchas)|o
+diabetiker|糖尿病患者 (der, 复数 Diabetiker)|o
+erbse|豌豆 (die, 复数 Erbsen)|o
+fiedler|拉小提琴的人，民间提琴手 (der, 复数 Fiedler)|o
+genetiker|遗传学家 (der, 复数 Genetiker)|o
+gips|石膏 (der, 无复数); 石膏绷带|o;o
+halluzinogen|致幻剂 (das, 复数 Halluzinogene)|o
+inkubator|孵化器，培养箱 (der, 复数 Inkubatoren)|o
+jiddisch|意第绪的; 意第绪语 (das, 无复数)|o;o
+kadaver|尸体，动物尸体 (der, 复数 Kadaver)|o
+kalkutta|加尔各答|o
+kaskade|瀑布，级联 (die, 复数 Kaskaden)|o
+kerlchen|小家伙，小伙子 (das, 复数 Kerlchen)|o
+kippe|烟头 (die, 复数 Kippen); auf der Kippe stehen: 悬而未决，岌岌可危|o;n
+kohlehydrat|碳水化合物 (das, 复数 Kohlehydrate)|o
+kohlenhydrat|碳水化合物 (das, 复数 Kohlenhydrate)|o
+kolibri|蜂鸟 (der, 复数 Kolibris)|o
+kollagen|胶原蛋白 (das, 无复数)|o
+koordinator|协调员 (der, 复数 Koordinatoren)|o
+lymphknoten|淋巴结 (der, 复数 Lymphknoten)|o
+mikrobiologie|微生物学 (die, 无复数)|o
+mikrosekunde|微秒 (die, 复数 Mikrosekunden)|o
+milliliter|毫升 (der, 复数 Milliliter)|o
+mogadischu|摩加迪沙|o
+molekularbiologie|分子生物学 (die, 无复数)|o
+müllhalde|垃圾场，垃圾填埋场 (die, 复数 Müllhalden)|o
+ranken|攀缘，缠绕; 卷须 (die, 复数)|v;o
+rechtschreibung|拼写，正字法 (die, 无复数)|o
+replikator|复制器 (der, 复数 Replikatoren)|o
+räumung|清空，疏散 (die, 复数 Räumungen); 驱逐，腾退|o;o
+schilddrüse|甲状腺 (die, 复数 Schilddrüsen)|o
+schlachtung|屠宰 (die, 复数 Schlachtungen)|o
+sekundarstufe|中等教育阶段 (die, 复数 Sekundarstufen)|o
+stickstoffmonoxid|一氧化氮 (das, 无复数)|o
+teilchenbeschleuniger|粒子加速器 (der, 复数 Teilchenbeschleuniger)|o
+trapez|梯形 (das, 复数 Trapeze); 秋千杠|o;o
+ökologe|生态学家 (der, 复数 Ökologen)|o
+antiquität|古董 (die, 复数 Antiquitäten)|o
+apathie|冷漠，麻木 (die, 无复数)|o
+aufbewahrung|保管，存放 (die, 无复数)|o
+belag|涂层，配料 (der, 复数 Beläge); 路面，表面|o;o
+bigotterie|偏执，盲信 (die, 无复数)|o
+britannien|不列颠|o
+chemikerin|化学家 (女) (die, 复数 Chemikerinnen)|o
+deklaration|声明，申报 (die, 复数 Deklarationen)|o
+dienstleister|服务提供商 (der, 复数 Dienstleister)|o
+diffusion|扩散 (die, 复数 Diffusionen)|o
+diktat|听写 (das, 复数 Diktate); 强制命令，强令|o;o
+doku|纪录片 (die, 复数 Dokus)|o
+dosierung|剂量，用量 (die, 复数 Dosierungen)|o
+düsen|疾驰，飞奔 (口语)|v
+energieerzeugung|能源生产 (die, 无复数)|o
+entsorgung|处理，清运 (废物) (die, 无复数)|o
+filmemacherin|电影制作人 (女) (die, 复数 Filmemacherinnen)|o
+flugzeugabsturz|飞机坠毁 (der, 复数 Flugzeugabstürze)|o
+flugzeugträger|航空母舰 (der, 复数 Flugzeugträger)|o
+gefolgsmann|追随者，亲信 (der, 复数 Gefolgsleute)|o
+google|谷歌|o
+göre|淘气鬼，野孩子 (die, 复数 Gören)|o
+harare|哈拉雷|o
+hybrid|混合的; 混合体，杂交种 (der, 复数 Hybride)|o;o
+hämoglobin|血红蛋白 (das, 无复数)|o
+insignie|标志，徽章 (die, 复数 Insignien)|o
+kameradschaft|战友情谊，伙伴情谊 (die, 无复数)|o
+kantine|食堂 (die, 复数 Kantinen)|o
+kapitol|国会山 (das, 无复数)|o
+kaste|种姓 (die, 复数 Kasten)|o
+knüppel|棍棒 (der, 复数 Knüppel)|o
+kohärenz|连贯性，一致性 (die, 无复数)|o
+konvoi|车队，护航队 (der, 复数 Konvois)|o
+koran|古兰经 (der, 无复数)|o
+marxist|马克思主义者 (der, 复数 Marxisten)|o
+militarismus|军国主义 (der, 无复数)|o
+mystiker|神秘主义者 (der, 复数 Mystiker)|o
+neurologie|神经病学 (die, 无复数)|o
+prälat|高级教士 (der, 复数 Prälaten)|o
+psychologin|心理学家 (女) (die, 复数 Psychologinnen)|o
+ramallah|拉马拉|o
+reeder|船东 (der, 复数 Reeder)|o
+rückreise|返程 (die, 复数 Rückreisen)|o
+server|服务器 (der, 复数 Server)|o
+skalierung|缩放，扩展 (die, 复数 Skalierungen)|o
+sperre|障碍，路障 (die, 复数 Sperren); 禁令，封锁|o;o
+spüle|水槽，洗碗池 (die, 复数 Spülen)|o
+stiefmutter|继母 (die, 复数 Stiefmütter)|o
+szenerie|景色，布景 (die, 复数 Szenerien)|o
+textilindustrie|纺织业 (die, 无复数)|o
+trumpf|王牌 (der, 复数 Trümpfe)|o
+vergiftung|中毒 (die, 复数 Vergiftungen)|o
+verschleierung|蒙面纱 (die, 复数 Verschleierungen); 掩饰，混淆视听|o;o
+verzehr|食用，消费 (食物) (der, 无复数)|o
+waffel|华夫饼 (die, 复数 Waffeln); 威化饼|o;o
+wirtschaftlichkeit|经济效益，盈利性 (die, 无复数)|o
+ablenkungsmanöver|转移视线的手段 (das, 复数 Ablenkungsmanöver)|o
+alphabetisierung|扫盲教育 (die, 无复数); 识字率|o;o
+arbeiterschaft|工人阶级，劳动者 (die, 无复数)|o
+atheismus|无神论 (der, 无复数)|o
+atomanlage|核设施 (die, 复数 Atomanlagen)|o
+austragung|举办 (比赛、活动) (die, 复数 Austragungen); 解决 (争端)|o;o
+autist|自闭症患者 (der, 复数 Autisten)|o
+bioenergie|生物能源 (die, 无复数)|o
+blasphemie|亵渎 (die, 复数 Blasphemien)|o
+bolzen|螺栓，销钉 (der, 复数 Bolzen); 踢野球 (口语)|o;v
+charkow|哈尔科夫|o
+delikatesse|美食，佳肴 (die, 复数 Delikatessen)|o
+demografie|人口统计学 (die, 无复数)|o
+eckpfeiler|基石，支柱 (der, 复数 Eckpfeiler)|o
+einzigartigkeit|独一无二，独特性 (die, 无复数)|o
+entzug|戒断，撤销 (der, 无复数); 剥夺|o;o
+erdatmosphäre|地球大气层 (die, 无复数)|o
+euthanasie|安乐死 (die, 无复数)|o
+extremität|四肢，肢体 (die, 复数 Extremitäten)|o
+formalität|手续，形式 (die, 复数 Formalitäten)|o
+futsch|没了，丢了，坏了 (口语)|o
+galápagos|加拉帕戈斯|o
+goldrausch|淘金热 (der, 复数 Goldräusche)|o
+hummel|熊蜂 (die, 复数 Hummeln)|o
+hydrant|消防栓 (der, 复数 Hydranten)|o
+irreversibel|不可逆的|o
+joghurt|酸奶 (der/das, 复数 Joghurts)|o
+jungfräulichkeit|童贞 (die, 无复数)|o
+kanarienvogel|金丝雀 (der, 复数 Kanarienvögel)|o
+kartieren|绘制地图，测绘|v
+kognition|认知 (die, 复数 Kognitionen)|o
+konsistenz|一致性，稠度 (die, 无复数)|o
+kürbis|南瓜 (der, 复数 Kürbisse)|o
+lobbyismus|游说活动 (der, 无复数)|o
+magnet|磁铁 (der, 复数 Magnete)|o
+makro|宏 (das, 复数 Makros)|o
+malaysia|马来西亚|o
+maschinerie|机械装置，机器 (die, 复数 Maschinerien)|o
+mineralwasser|矿泉水 (das, 复数 Mineralwässer)|o
+musketier|火枪手 (der, 复数 Musketiere)|o
+nollywood|瑙莱坞 (尼日利亚电影业)|o
+parteigänger|党羽，支持者 (der, 复数 Parteigänger)|o
+plädoyer|辩护词，陈词 (das, 复数 Plädoyers); 结案陈词|o;o
+reddit|Reddit|o
+reorganisation|重组，改组 (die, 复数 Reorganisationen)|o
+rückgriff|求助，借助 (der, 复数 Rückgriffe)|o
+schmuggler|走私者 (der, 复数 Schmuggler)|o
+sichtbarkeit|可见度，能见度 (die, 无复数)|o
+stereoanlage|音响设备 (die, 复数 Stereoanlagen)|o
+stettiner|什切青的; 什切青居民 (der, 复数 Stettiner)|o;o
+stockholm|斯德哥尔摩|o
+subkontinent|次大陆 (der, 复数 Subkontinente)|o
+sympathisant|同情者，支持者 (der, 复数 Sympathisanten)|o
+tasmanisch|塔斯马尼亚的|o
+titan|泰坦巨人 (der, 复数 Titanen); 钛|o;o
+ungeziefer|害虫，害兽 (das, 无复数)|o
+verallgemeinerung|概括，泛化 (die, 复数 Verallgemeinerungen)|o
+veranlagung|素质，倾向 (die, 复数 Veranlagungen); 税务核定|o;o
+vergaser|化油器 (der, 复数 Vergaser)|o
+verleih|出租 (der, 复数 Verleihe); 出借|o;o
+verschluss|锁扣，搭扣 (der, 复数 Verschlüsse); 盖子，封口; 快门|o;o;o
+verstädterung|城市化 (die, 无复数)|o
+verwicklung|纠葛，纠缠 (die, 复数 Verwicklungen)|o
+weiher|池塘 (der, 复数 Weiher)|o
+zerbrechlichkeit|易碎，脆弱 (die, 无复数)|o
+zwickmühle|两难境地，困境 (die, 复数 Zwickmühlen)|o
+ölkatastrophe|石油灾难，原油泄漏 (die, 复数 Ölkatastrophen)|o
+überquerung|穿越，横渡 (die, 复数 Überquerungen)|o
+akupunktur|针灸 (die, 无复数)|o
+amulett|护身符 (das, 复数 Amulette)|o
+analphabetismus|文盲 (der, 无复数)|o
+ansporn|激励，动力 (der, 无复数)|o
+ausrufung|宣布，宣告 (die, 复数 Ausrufungen)|o
+barde|吟游诗人 (der, 复数 Barden)|o
+belebung|振兴，激活 (die, 复数 Belebungen)|o
+bereicherung|充实，丰富 (die, 复数 Bereicherungen)|o
+bewusstheit|意识，觉察 (die, 无复数)|o
+brasilianer|巴西人 (男) (der, 复数 Brasilianer)|o
+bäuerin|农妇，农家女 (die, 复数 Bäuerinnen)|o
+eignung|适合，资质 (die, 无复数)|o
+eishockey|冰球 (das, 无复数)|o
+gefälle|坡度，斜坡 (das, 复数 Gefälle); 差距|o;o
+gehoert|属于; 听到过 (不带变音符的拼写)|f3s;f3s
+ghana|加纳|o
+graduieren|毕业，获得学位; 分级，刻度|v;v
+kolonist|殖民者，移民 (der, 复数 Kolonisten)|o
+kontrahent|对手 (der, 复数 Kontrahenten); 合同当事人|o;o
+korrektheit|正确，得体 (die, 无复数)|o
+nutzbringend|有益的，有利可图的|o
+promi|名人 (口语) (der/die, 复数 Promis)|o
+relais|继电器，中继 (das, 复数 Relais)|o
+sühne|赎罪，补偿 (die, 无复数)|o
+tribus|部族，部落 (der, 复数 Tribus)|o
+ungleichung|不等式 (数学) (die, 复数 Ungleichungen)|o
+versteigerung|拍卖 (die, 复数 Versteigerungen)|o
+vokal|元音 (der, 复数 Vokale)|o
+wahnvorstellung|妄想 (die, 复数 Wahnvorstellungen)|o
+webbrowser|网页浏览器 (der, 复数 Webbrowser)|o
+zuständigkeitsbereich|职责范围，管辖范围 (der, 复数 Zuständigkeitsbereiche)|o
+äther|以太，乙醚 (der, 无复数)|o
+ablagerung|沉积物，沉淀 (die, 复数 Ablagerungen)|o
+adobe|Adobe (软件公司)|o
+anämie|贫血 (die, 复数 Anämien)|o
+atommüll|核废料 (der, 无复数)|o
+befruchtung|受精，授精 (die, 复数 Befruchtungen)|o
+begnadigung|赦免，特赦 (die, 复数 Begnadigungen)|o
+benachteiligung|不利地位，歧视 (die, 复数 Benachteiligungen)|o
+biomaterial|生物材料 (das, 复数 Biomaterialien)|o
+biomimikry|仿生学 (die, 无复数)|o
+blaubeere|蓝莓 (die, 复数 Blaubeeren)|o
+bombardement|轰炸，炮击 (das, 复数 Bombardements)|o
+cabriolet|敞篷车 (das, 复数 Cabriolets)|o
+despotismus|专制，暴政 (der, 无复数)|o
+dolmetscherin|口译员 (女) (die, 复数 Dolmetscherinnen)|o
+dominikanisch|多米尼加的|o
+donbass|顿巴斯|o
+egoismus|自私，利己主义 (der, 无复数)|o
+endergebnis|最终结果 (das, 复数 Endergebnisse)|o
+entgleisen|脱轨; 失控，出轨 (entgleiste, ist entgleist)|v;v
+entität|实体 (die, 复数 Entitäten)|o
+entlohnung|报酬，薪酬 (die, 复数 Entlohnungen)|o
+erarbeitung|制定，研究出 (die, 无复数)|o
+erprobung|试验，试用 (die, 复数 Erprobungen)|o
+erträumen|梦想，渴望|v
+erzeuger|生产者 (der, 复数 Erzeuger); 生父|o;o
+fastfood|快餐 (das, 无复数)|o
+felsbrocken|巨石 (der, 复数 Felsbrocken)|o
+gebirgskette|山脉 (die, 复数 Gebirgsketten)|o
+geflecht|网络，编织物 (das, 复数 Geflechte)|o
+grassieren|肆虐，流行|v
+heureka|我发现了|o
+illuminat|光明会成员 (der, 复数 Illuminaten)|o
+kapillare|毛细血管 (die, 复数 Kapillaren)|o
+kigali|基加利|o
+kosmologe|宇宙学家 (der, 复数 Kosmologen)|o
+körnchen|小颗粒，微粒 (das, 复数 Körnchen)|o
+leopard|豹 (der, 复数 Leoparden)|o
+lungenbläschen|肺泡 (das, 复数 Lungenbläschen)|o
+mangrove|红树林 (die, 复数 Mangroven)|o
+medaillon|挂坠盒 (das, 复数 Medaillons); 大奖章，圆形浮雕|o;o
+medikation|用药，药物治疗 (die, 复数 Medikationen)|o
+meeressäuger|海洋哺乳动物 (der, 复数 Meeressäuger)|o
+milligramm|毫克 (das, 复数 Milligramme)|o
+mustererkennung|模式识别 (die, 无复数)|o
+möwe|海鸥 (die, 复数 Möwen)|o
+nymphe|宁芙，仙女 (die, 复数 Nymphen)|o
+ozonschicht|臭氧层 (die, 无复数)|o
+personalisierung|个性化 (die, 复数 Personalisierungen)|o
+plastizität|可塑性 (die, 无复数)|o
+plazenta|胎盘 (die, 复数 Plazenten)|o
+präambel|序言，前言 (die, 复数 Präambeln)|o
+rabatt|折扣 (der, 复数 Rabatte)|o
+razzia|突击搜查，围捕 (die, 复数 Razzien)|o
+relativität|相对性 (die, 无复数)|o
+roastbeef|烤牛肉 (das, 复数 Roastbeefs)|o
+röhrchen|小管，小瓶 (das, 复数 Röhrchen)|o
+rübe|芜菁，甜菜 (die, 复数 Rüben); 脑袋 (口语)|o;o
+schablone|模板，镂空板 (die, 复数 Schablonen); 刻板印象|o;o
+schnupfen|感冒，鼻炎 (der, 复数 Schnupfen); 抽鼻子，吸鼻烟|o;v
+schwesterchen|小妹妹 (das, 复数 Schwesterchen)|o
+sibiu|锡比乌|o
+spezial|特殊的 (用于复合词)，专门的|o
+stalinismus|斯大林主义 (der, 无复数)|o
+standardisierung|标准化 (die, 复数 Standardisierungen)|o
+staubsauger|吸尘器 (der, 复数 Staubsauger)|o
+streber|死用功的人，书呆子 (贬义) (der, 复数 Streber)|o
+stuxnet|震网 (计算机蠕虫)|o
+temporallappen|颞叶 (der, 复数 Temporallappen)|o
+ural|乌拉尔|o
+variabilität|可变性，变异性 (die, 无复数)|o
+verwertung|利用，回收 (die, 复数 Verwertungen)|o
+verzweigung|分支，岔路 (die, 复数 Verzweigungen)|o
+weiblichkeit|女性特质 (die, 无复数)|o
+wlan|无线网络，WLAN (das, 复数 WLANs)|o
+wohltätigkeitsorganisation|慈善机构 (die, 复数 Wohltätigkeitsorganisationen)|o
+zellulose|纤维素 (die, 无复数)|o
+züchter|饲养员，育种者 (der, 复数 Züchter)|o
+aal|鳗鱼 (der, 复数 Aale)|o
+abweisend|冷淡的，拒人千里的|o
+adeln|封为贵族|v
+alkoven|壁龛式卧室 (der, 复数 Alkoven)|o
+anmaßend|傲慢的，自大的|o
+aufmunterung|鼓励，打气 (die, 复数 Aufmunterungen)|o
+aufrütteln|唤醒，震醒|v
+bassin|水池，蓄水池 (das, 复数 Bassins)|o
+befähigung|资格，能力 (die, 无复数)|o
+bergung|救援，打捞 (die, 复数 Bergungen)|o
+besitzerin|所有者 (女) (die, 复数 Besitzerinnen)|o
+beteuerung|保证，断言 (die, 复数 Beteuerungen)|o
+bewegend|感人的|o
+boah|哇，天哪 (口语)|o
+brennend|燃烧的; 迫切的|o;o
+bürgschaft|担保 (die, 复数 Bürgschaften)|o
+christenheit|基督教世界 (die, 无复数)|o
+dergestalt|如此，这样|o
+diskette|软盘 (die, 复数 Disketten)|o
+dürsten|口渴，渴望 (文学语)|v
+ehrbar|体面的，可敬的|o
+eiland|岛屿 (诗歌用语) (das, 复数 Eilande)|o
+einknicken|弯折，屈服 (ist eingeknickt); 弯曲|v;v
+einnicken|打盹，睡着 (ist eingenickt)|v
+embryo|胚胎 (der, 复数 Embryonen)|o
+endprodukt|最终产品 (das, 复数 Endprodukte)|o
+entbinden|解除，免除; 分娩 (entband, entbunden)|v;v
+entschwinden|消失，不见 (entschwand, entschwunden, ist)|v
+erdulden|忍受，承受|v
+eremitage|隐修处，隐居所 (die, 复数 Eremitagen)|o
+erschöpfen|耗尽，使精疲力竭|v
+espe|欧洲山杨 (die, 复数 Espen)|o
+etikette|礼节，礼仪 (die, 复数 Etiketten); 标签|o;o
+faulheit|懒惰 (die, 无复数)|o
+felswand|岩壁，悬崖 (die, 复数 Felswände)|o
+ganzheit|整体性，完整 (die, 无复数)|o
+geflügel|家禽 (das, 无复数)|o
+gekühlt|冷藏的，冷却的|o
+gelüsten|渴望，想要; 诱惑 (使人起欲望)|v;v
+geneigt|倾向于的，有意的; 倾斜的|o;o
+gepolstert|有软垫的，软包的|o
+geselle|出师的学徒工 (der, 复数 Gesellen); 家伙|o;o
+getümmel|混战，喧闹的人群 (das, 复数 Getümmel)|o
+gewerkschaftlich|工会的|o
+gewinnbringend|有利可图的|o
+gießkanne|洒水壶 (die, 复数 Gießkannen)|o
+goldschmied|金匠 (der, 复数 Goldschmiede)|o
+gratulation|祝贺 (die, 复数 Gratulationen)|o
+gruppieren|分组，归类|v
+grübchen|酒窝 (das, 复数 Grübchen)|o
+gurgel|喉咙，咽喉 (die, 复数 Gurgeln)|o
+haferbrei|燕麦粥 (der, 无复数)|o
+hecheln|喘气 (像狗一样); 说闲话，议论|v;v
+heimsuchung|灾难，折磨 (die, 复数 Heimsuchungen)|o
+herzzerreißend|令人心碎的|o
+huldigung|敬意，致敬 (die, 复数 Huldigungen)|o
+häkeln|钩针编织|v
+hämophilie|血友病 (die, 无复数)|o
+inbegriffen|包括在内的|o
+insoweit|就此而言，在此范围内; 在这方面|o;o
+jalousie|百叶窗 (die, 复数 Jalousien)|o
+jedweder|任何的，每一个 (正式)|o
+kaktus|仙人掌 (der, 复数 Kakteen)|o
+kannibale|食人族 (der, 复数 Kannibalen)|o
+karatschi|卡拉奇|o
+kontaminiert|受污染的|o
+korken|软木塞 (der, 复数 Korken); 瓶塞|o;o
+korsett|紧身胸衣 (das, 复数 Korsetts)|o
+kotflügel|挡泥板 (der, 复数 Kotflügel)|o
+krempe|帽檐 (die, 复数 Krempen)|o
+krippe|婴儿床，饲槽 (die, 复数 Krippen); 圣诞马槽场景; 托儿所|o;o;o
+kurbeln|摇动，转动曲柄; 拍电影|v;v
+ledig|未婚的，单身的|o
+leier|里拉琴 (die, 复数 Leiern); 老调重弹|o;o
+lästern|说坏话，恶意议论; 亵渎|v;v
+lüstern|好色的，淫荡的|o
+meuterei|兵变，哗变 (die, 复数 Meutereien)|o
+minderung|减少，降低 (die, 复数 Minderungen)|o
+mofa|轻便摩托车 (das, 复数 Mofas)|o
+monoton|单调的|o
+munkeln|窃窃私语，传闲话|v
+muskulös|肌肉发达的|o
+mästen|育肥 (牲畜)|v
+mörtel|灰浆，砂浆 (der, 复数 Mörtel)|o
+nacktheit|裸体，赤裸 (die, 无复数)|o
+neuheit|新奇，新事物 (die, 复数 Neuheiten)|o
+nichtigkeit|琐事，微不足道 (die, 复数 Nichtigkeiten); 无效|o;o
+obschon|尽管，虽然 (文学语)|o
+odyssee|漫长的历险，奥德赛 (die, 复数 Odysseen)|o
+omelett|煎蛋卷 (das, 复数 Omeletts)|o
+parterre|底层，一楼 (das, 复数 Parterres); 剧场前排座位|o;o
+pennen|睡觉，睡大觉 (口语)|v
+phantastisch|奇妙的，幻想的|o
+pilgerreise|朝圣之旅 (die, 复数 Pilgerreisen)|o
+pipi|尿尿，小便 (口语) (das, 无复数)|o
+piste|滑雪道 (die, 复数 Pisten); 跑道，赛道|o;o
+porös|多孔的|o
+prozentual|百分比的，按百分比计|o
+robustheit|坚固，强健 (die, 无复数)|o
+rüssel|象鼻，猪嘴 (der, 复数 Rüssel)|o
+salben|涂油礼; 涂药膏|v;v
+schattierung|色调，细微差别 (die, 复数 Schattierungen)|o
+scherbe|碎片，碎玻璃 (die, 复数 Scherben)|o
+scheusal|怪物，恶人 (das, 复数 Scheusale)|o
+schimpf|耻辱，侮辱 (der, 无复数)|o
+schlingel|调皮鬼，淘气包 (der, 复数 Schlingel)|o
+schnalle|搭扣，带扣 (die, 复数 Schnallen); 女人 (粗俗，对女性的贬称)|o;o
+schneiderin|裁缝 (女) (die, 复数 Schneiderinnen)|o
+schwelgen|沉溺，尽情享受|v
+solidität|坚固，稳固 (die, 无复数)|o
+spargel|芦笋 (der, 复数 Spargel)|o
+splitter|碎片，碎屑 (der, 复数 Splitter)|o
+spornen|策马，激励|v
+stadtviertel|城区，街区 (das, 复数 Stadtviertel)|o
+stramm|紧绷的，绷紧的; 结实的; 严格的|o;o;o
+streifzug|漫游，探访 (der, 复数 Streifzüge)|o
+strohhalm|吸管 (der, 复数 Strohhalme); 稻草|o;o
+söhnchen|小儿子 (das, 复数 Söhnchen)|o
+tarnen|伪装，掩饰|v
+teneriffa|特内里费岛|o
+tierchen|小动物 (das, 复数 Tierchen)|o
+tilgen|删除，抹去; 偿还 (债务)|v;v
+tortur|酷刑，折磨 (die, 复数 Torturen)|o
+tragik|悲剧性，悲怆 (die, 无复数)|o
+trompeten|吹小号，高声鸣叫|v
+turnen|做体操|v
+unentschlossenheit|犹豫不决，优柔寡断 (die, 无复数)|o
+unix|Unix (操作系统)|o
+unscheinbar|不起眼的，平淡无奇的|o
+unsereiner|我们这种人，像我们这样的人|o
+unverkennbar|明显的，不会认错的|o
+unwahr|不真实的，虚假的|o
+unwillkommen|不受欢迎的|o
+urwald|原始森林，丛林 (der, 复数 Urwälder)|o
+veranlagt|有倾向的，有天赋的|o
+verblenden|使目眩，使眼花; 蒙蔽，迷惑|v;v
+verbluten|失血而死 (ist verblutet)|v
+verderblich|易腐烂的; 有害的，致命的|o;o
+vergoldung|镀金 (die, 复数 Vergoldungen)|o
+vergänglichkeit|短暂，无常 (die, 无复数)|o
+vergöttern|崇拜，奉若神明|v
+verkümmern|枯萎，萎缩|v
+vertrocknen|干涸，枯萎|v
+verträumt|梦幻般的，出神的|o
+verzagen|灰心，绝望|v
+vesper|晚祷 (die, 复数 Vespern); 下午茶点|o;o
+vielseitigkeit|多才多艺，多样性 (die, 无复数)|o
+vincennes|万塞讷|o
+virtuosität|精湛技艺 (die, 无复数)|o
+wahn|妄想，狂热 (der, 无复数)|o
+wasserstoffatom|氢原子 (das, 复数 Wasserstoffatome)|o
+windig|多风的; 靠不住的，可疑的|o;o
+wörtchen|小词，几句话 (das, 复数 Wörtchen)|o
+yunnan|云南|o
+zahm|驯服的，温顺的|o
+zerknittert|皱巴巴的，起皱的|o
+zerstückeln|切成碎块，肢解|v
+zuliefern|供货 (作为分包商)|v
+zwietracht|不和，纠纷 (die, 无复数)|o
+zwist|争吵，争端 (der, 复数 Zwiste)|o
+abgestumpft|迟钝的，麻木的|o
+absurdität|荒谬，荒唐 (die, 复数 Absurditäten)|o
+accra|阿克拉|o
+adoleszenz|青春期 (die, 无复数)|o
+akropolis|卫城 (die, 复数 Akropolen)|o
+amnesie|失忆症 (die, 复数 Amnesien)|o
+anregend|令人兴奋的，提神的|o
+aquakultur|水产养殖 (die, 复数 Aquakulturen)|o
+aristokrat|贵族 (der, 复数 Aristokraten)|o
+arithmetik|算术 (die, 无复数)|o
+bastler|业余爱好者，手工爱好者，自己动手的人 (der, 复数 Bastler)|o
+beauvais|博韦|o
+beduine|贝都因人 (der, 复数 Beduinen)|o
+begutachtung|评估，专家鉴定 (die, 复数 Begutachtungen)|o
+besteigung|攀登，登顶 (die, 复数 Besteigungen)|o
+bestäubung|授粉 (die, 复数 Bestäubungen)|o
+bewilligen|批准，准予|v
+bewässern|灌溉，浇水|v
+bindend|有约束力的|o
+binär|二进制的，二元的|o
+blogosphäre|博客圈 (die, 无复数)|o
+bmi|BMI (体重指数) (der, 无复数)|o
+buckelwal|座头鲸 (der, 复数 Buckelwale)|o
+charakteristik|特征，特点 (die, 复数 Charakteristiken); 性格描写|o;o
+cholesterin|胆固醇 (das, 无复数)|o
+demographie|人口统计学 (die, 无复数)|o
+dezentral|分散的，去中心化的|o
+dmca|DMCA (美国数字千年版权法)|o
+doktorand|博士生 (der, 复数 Doktoranden)|o
+domestizieren|驯化|v
+dotcom|互联网公司 (das, 复数 Dotcoms)|o
+drachme|德拉克马 (die, 复数 Drachmen)|o
+dresden|德累斯顿|o
+dresdener|德累斯顿的; 德累斯顿居民 (der, 复数 Dresdener)|o;o
+driften|漂移，漂流 (ist)|v
+embryonal|胚胎的|o
+endphase|最后阶段 (die, 复数 Endphasen)|o
+erotik|情色，性爱气氛 (die, 无复数)|o
+erstürmung|攻占，猛攻 (die, 复数 Erstürmungen)|o
+erwirken|争取到，获得 (如裁决)|v
+ethnographie|民族志 (die, 无复数)|o
+euphrat|幼发拉底河|o
+evangelikal|福音派的|o
+fesselnd|引人入胜的，吸引人的|o
+festsetzung|确定，规定，裁定 (die, 复数 Festsetzungen)|o
+frontallappen|额叶 (der, 复数 Frontallappen)|o
+fürsorglich|关怀备至的，体贴的|o
+geldautomat|自动取款机，ATM (der, 复数 Geldautomaten)|o
+gestüt|种马场 (das, 复数 Gestüte)|o
+getue|大惊小怪，装腔作势 (das, 无复数)|o
+gewaltlosigkeit|非暴力 (die, 无复数)|o
+gewesen|曾是，曾经 (过去分词)|o
+gewährung|给予，准予 (die, 无复数)|o
+gleichaltrig|同龄的|o
+heldentum|英雄主义，英勇 (das, 无复数)|o
+herzinsuffizienz|心力衰竭 (die, 复数 Herzinsuffizienzen)|o
+hocker|凳子 (der, 复数 Hocker)|o
+humanoid|类人的，人形的|o
+hyäne|鬣狗 (die, 复数 Hyänen)|o
+hügelig|多丘陵的|o
+inaktiv|不活跃的，闲置的|o
+inspekteur|检查员，监察官 (der, 复数 Inspekteure)|o
+irrtümlich|错误的，谬误的; 错误地，误|o;o
+jurastudium|法学学习，法学学位 (das, 复数 Jurastudien)|o
+kasachisch|哈萨克的|o
+kassierer|收银员，出纳员 (der, 复数 Kassierer); 财务主管|o;o
+konservierung|保存，保鲜 (die, 复数 Konservierungen)|o
+koscher|符合犹太教规的，洁食的|o
+kranich|鹤 (鸟) (der, 复数 Kraniche)|o
+kriegerin|女战士 (die, 复数 Kriegerinnen)|o
+lebenserhaltungssystem|生命维持系统 (das, 复数 Lebenserhaltungssysteme)|o
+limitieren|限制，限定|v
+macke|怪癖，缺陷 (die, 复数 Macken); 狂热|o;o
+magnetismus|磁性，磁学 (der, 无复数)|o
+manie|狂热，躁狂症 (die, 复数 Manien)|o
+massai|马赛人 (der/die, 复数 Massai)|o
+millionstel|百万分之一的|o
+mitbewerber|竞争者，对手 (der, 复数 Mitbewerber)|o
+morgendlich|早晨的|o
+nebensächlich|次要的，无关紧要的|o
+norweger|挪威男人 (der, 复数 Norweger)|o
+ostwärts|向东|o
+oxid|氧化物 (das, 复数 Oxide)|o
+oxidation|氧化 (die, 复数 Oxidationen)|o
+pharmakologie|药理学 (die, 无复数)|o
+pimmel|小鸡鸡，阴茎 (粗俗，儿语) (der, 复数 Pimmel)|o
+pionierarbeit|开创性工作 (die, 无复数)|o
+planetarisch|行星的，全球的|o
+protagonistin|女主角，女主人公 (die, 复数 Protagonistinnen)|o
+puh|呼，哎呀|o
+pupille|瞳孔 (眼睛) (die, 复数 Pupillen)|o
+röntgenaufnahme|X光片 (die, 复数 Röntgenaufnahmen)|o
+röntgenstrahl|X射线 (der, 复数 Röntgenstrahlen)|o
+sanaa|萨那|o
+schlips|领带 (der, 复数 Schlipse)|o
+schwammig|海绵状的; 含糊的，模糊的|o;o
+seetang|海藻，海带 (der, 无复数)|o
+spaßig|有趣的，逗乐的|o
+sponsern|赞助|v
+stilllegung|关停，关闭 (die, 复数 Stilllegungen)|o
+stranden|搁浅，滞留 (ist)|v
+subjunktion|从属连词 (die, 复数 Subjunktionen)|o
+subkultur|亚文化 (die, 复数 Subkulturen)|o
+tasmanien|塔斯马尼亚|o
+telekom|德国电信 (德国电信公司)|o
+therapeutin|女治疗师 (die, 复数 Therapeutinnen)|o
+tirade|长篇大论，慷慨陈词 (die, 复数 Tiraden)|o
+tokioter|东京的; 东京居民 (der, 复数 Tokioter)|o;o
+transnistrien|德涅斯特河沿岸|o
+troyes|特鲁瓦|o
+töpfer|陶工 (der, 复数 Töpfer)|o
+ungemütlich|不舒服的，不愉快的|o
+usaid|USAID (美国国际开发署)|o
+verhext|被施魔法的，倒霉的|o
+vermählung|婚姻，婚礼 (die, 复数 Vermählungen)|o
+verschwörer|阴谋者，密谋者 (der, 复数 Verschwörer)|o
+vicenza|维琴察|o
+viktorianisch|维多利亚时代的|o
+wandlung|变化，转变 (die, 复数 Wandlungen)|o
+weblog|博客，网络日志 (das, 复数 Weblogs)|o
+wendig|灵活的，敏捷的，易操纵的|o
+werfer|投掷者 (der, 复数 Werfer); 投手|o;o
+wägen|权衡，斟酌 (wog, gewogen)|v
+würdenträger|显要人物，高官 (der, 复数 Würdenträger)|o
+zahnstocher|牙签 (der, 复数 Zahnstocher)|o
+zirkulation|循环，流通 (die, 无复数)|o
+zuchthaus|劳役监狱，苦役监狱 (das, 复数 Zuchthäuser)|o
+zugänglichkeit|可及性，易接近 (die, 无复数)|o
+überheblich|傲慢的，自负的|o
+überlastung|超负荷，负担过重 (die, 复数 Überlastungen)|o
+ananas|菠萝 (die, 复数 Ananas)|o
+atomkrieg|核战争 (der, 复数 Atomkriege)|o
+begnadigen|赦免，特赦|v
+bekräftigung|重申，确认 (die, 复数 Bekräftigungen)|o
+bevollmächtigen|授权，委托|v
+beziffert|已量化的，已编号的|o
+brutstätte|温床，滋生地 (die, 复数 Brutstätten)|o
+brutto|总的，毛的|o
+chongqing|重庆|o
+degradieren|降级，贬低|v
+diagonal|对角的，斜的|o
+direktive|指令，指示 (die, 复数 Direktiven)|o
+dominoeffekt|多米诺效应 (der, 复数 Dominoeffekte)|o
+einrahmen|装框，镶框|v
+eremit|隐士 (der, 复数 Eremiten)|o
+formieren|形成，组织; sich formieren: 列队，集结|v;n
+gefolgschaft|追随者，效忠 (die, 无复数)|o
+gerangel|推搡，扭打 (das, 无复数)|o
+götze|偶像，假神 (der, 复数 Götzen)|o
+herne|黑尔讷|o
+hunsrück|洪斯吕克 (丘陵地区)|o
+inhärent|固有的，内在的|o
+kaspisch|里海的|o
+kerosin|煤油，航空燃油 (das, 无复数)|o
+kollisionskurs|碰撞航线 (der, 复数 Kollisionskurse)|o
+konstatieren|确认，注意到，断言|v
+mandschurei|满洲|o
+marrakesch|马拉喀什|o
+metrik|度量，指标 (die, 复数 Metriken); 韵律学|o;o
+mohn|罂粟 (der, 无复数); 罂粟籽|o;o
+nilpferd|河马 (das, 复数 Nilpferde)|o
+peine|派内|o
+prisma|棱镜 (das, 复数 Prismen)|o
+quader|长方体，方石块 (der, 复数 Quader)|o
+regressiv|倒退的，递减的|o
+rückwirkend|追溯的，有追溯力地|o
+salzig|咸的|o
+schreiner|木匠，细木工 (der, 复数 Schreiner)|o
+sechstel|六分之一 (das, 复数 Sechstel)|o
+sulfat|硫酸盐 (das, 复数 Sulfate)|o
+uganda|乌干达|o
+unabsichtlich|无意的，意外的|o
+verabreichung|给药，施用 (药物) (die, 无复数)|o
+verdichten|压缩，浓缩; sich verdichten: 变浓，加剧|v;n
+verengen|使变窄，收缩|v
+vergünstigung|优惠，福利，折扣 (die, 复数 Vergünstigungen)|o
+vernichtend|毁灭性的，沉重打击的|o
+westwärts|向西|o
+zahnpasta|牙膏 (die, 复数 Zahnpasten)|o
+zirkel|圆规 (绘图) (der, 复数 Zirkel); 圈子，小组|o;o
+ächten|排斥，宣布为非法|v
+abo|订阅 (口语) (das, 复数 Abos)|o
+achtel|八分之一 (das, 复数 Achtel)|o
+agnostiker|不可知论者 (der, 复数 Agnostiker)|o
+auslöschung|灭绝，消灭 (die, 复数 Auslöschungen)|o
+balg|熊孩子 (口语); 兽皮，风箱 (der/das, 复数 Bälger)|o;o
+bewaldet|树木繁茂的，被森林覆盖的|o
+dauerhaftigkeit|耐久性，持久性 (die, 无复数)|o
+defensiv|防御的，防守的|o
+eichel|橡子 (die, 复数 Eicheln); 龟头|o;o
+eingeklemmt|被卡住的，被夹住的|o
+enklave|飞地 (die, 复数 Enklaven)|o
+ernsthaftigkeit|认真，严肃 (die, 无复数)|o
+erzählerisch|叙事的，叙述性的|o
+flicken|修补，补缀|v
+frust|挫败感 (口语) (der, 无复数)|o
+galoppieren|飞奔，疾驰 (ist)|v
+gebäck|糕点，饼干 (das, 无复数)|o
+georgier|格鲁吉亚男人 (der, 复数 Georgier)|o
+gießerei|铸造厂 (die, 复数 Gießereien)|o
+gmail|Gmail|o
+hektisch|忙乱的，紧张的|o
+hetero|异性恋的 (口语)|o
+horoskop|星座运势 (das, 复数 Horoskope)|o
+händigkeit|惯用手 (die, 无复数)|o
+induziert|诱导的，感应的|o
+institutionalisierung|制度化 (die, 无复数)|o
+irreparabel|无法修复的，不可挽回的|o
+irritieren|惹恼，使困惑，使不安|v
+jurisprudenz|法学，法律 (die, 无复数)|o
+kläger|原告 (der, 复数 Kläger)|o
+kolonialisierung|殖民化 (die, 无复数)|o
+kolonisierung|殖民化 (die, 无复数)|o
+koppeln|连接，耦合，挂接|v
+molar|臼齿; 摩尔的 (化学) (der, 复数 Molaren)|o;o
+obmann|主席，发言人 (der, 复数 Obmänner); 工头|o;o
+offensiv|进攻性的，攻击性的|o
+oxfam|乐施会|o
+pathogen|致病的|o
+picken|啄|v
+pornografie|色情作品 (die, 无复数)|o
+provinziell|地方性的，土气的|o
+pute|母火鸡 (die, 复数 Puten); 蠢女人 (口语，贬义)|o;o
+putze|清洁女工 (口语，贬义) (die, 复数 Putzen)|o
+qualmen|冒烟，浓烟滚滚|v
+raffinerie|炼油厂 (die, 复数 Raffinerien)|o
+rationalisierung|合理化 (die, 复数 Rationalisierungen)|o
+renovieren|翻新，装修|v
+rosenkranz|玫瑰念珠 (der, 复数 Rosenkränze)|o
+rückwand|后墙，背板 (die, 复数 Rückwände)|o
+schminke|化妆品 (die, 复数 Schminken)|o
+schminken|化妆; sich schminken: 化妆，涂脂抹粉|v;n
+schwenk|转动，摇镜头 (摄像机) (der, 复数 Schwenke)|o
+schwächling|弱者，体弱的人 (der, 复数 Schwächlinge)|o
+segnung|祝福 (die, 复数 Segnungen)|o
+somaliland|索马里兰|o
+spange|扣环，胸针 (die, 复数 Spangen); 牙套，发夹|o;o
+stereotyp|老一套的，刻板的; 刻板印象 (das, 复数 Stereotype)|o;o
+trikot|球衣，运动衫 (das, 复数 Trikots)|o
+unfreiwillig|非自愿的，不情愿的|o
+ungedeckt|无保护的，无遮盖的; 无担保的|o;o
+untröstlich|无法安慰的，伤心欲绝的|o
+unzucht|淫乱，猥亵行为 (过时) (die, 无复数)|o
+verdopplung|加倍 (die, 复数 Verdopplungen)|o
+verhütungsmittel|避孕药具 (das, 复数 Verhütungsmittel)|o
+verlockung|诱惑，吸引力 (die, 复数 Verlockungen)|o
+vermischung|混合，掺合 (die, 复数 Vermischungen)|o
+verrotten|腐烂，腐朽 (ist)|v
+verrücktheit|疯狂，荒唐 (die, 复数 Verrücktheiten)|o
+verschiedentlich|多次，屡次|o
+vertagen|休会，推迟|v
+zufriedenstellend|令人满意的|o
+anarchismus|无政府主义 (der, 无复数)|o
+anarchist|无政府主义者 (der, 复数 Anarchisten)|o
+anreichern|丰富，强化|v
+assistenz|协助，助理人员 (die, 复数 Assistenzen)|o
+astrolabium|星盘 (das, 复数 Astrolabien)|o
+baath|复兴党 (阿拉伯社会主义政党)|o
+bekanntmachung|公告，通知 (die, 复数 Bekanntmachungen)|o
+beliefern|供应，送货给|v
+bescheinigen|证明，书面确认|v
+beschleuniger|加速器 (der, 复数 Beschleuniger)|o
+bezugnahme|提及，参照 (die, 复数 Bezugnahmen)|o
+biomedizinisch|生物医学的|o
+cashflow|现金流 (der, 复数 Cashflows)|o
+couchsurfing|沙发冲浪 (das, 无复数)|o
+cybersicherheit|网络安全 (die, 无复数)|o
+cymatik|声波成像学 (die, 无复数)|o
+diffus|扩散的，模糊的|o
+doppelhelix|双螺旋 (die, 复数 Doppelhelices)|o
+drüse|腺体 (die, 复数 Drüsen)|o
+dünndarm|小肠 (der, 复数 Dünndärme)|o
+eiffelturm|埃菲尔铁塔|o
+einfühlsam|有同理心的，善解人意的|o
+einschaltquote|收视率 (die, 复数 Einschaltquoten)|o
+einzellig|单细胞的|o
+entfaltung|展开，发展 (die, 复数 Entfaltungen)|o
+entscheider|决策者 (der, 复数 Entscheider)|o
+entwirren|解开，理清|v
+erahnen|预感，猜到，预见|v
+ergreifend|感人的，动人的，凄楚的|o
+erlös|收益，收入 (der, 复数 Erlöse)|o
+ermüdend|令人疲倦的，乏味的|o
+essbar|可食用的|o
+esstisch|餐桌 (der, 复数 Esstische)|o
+facette|刻面，方面 (die, 复数 Facetten)|o
+fleischfresser|食肉动物 (der, 复数 Fleischfresser)|o
+gastgeberin|女主人，女东道主 (die, 复数 Gastgeberinnen)|o
+gefeit|免疫的，受保护的|o
+geißeln|鞭打，鞭笞; 严厉谴责|v;v
+gemessen|有节制的，从容的; 庄重的，审慎的|o;o
+gigatonnen|千兆吨 (die Gigatonne 的复数)|o
+großrechner|大型计算机 (der, 复数 Großrechner)|o
+gären|发酵，翻腾 (gor, gegoren)|v
+hektik|忙乱，慌乱 (die, 无复数)|o
+hinduismus|印度教 (der, 无复数)|o
+härchen|细毛，小毛发 (das, 复数 Härchen)|o
+impulsiv|冲动的|o
+intersexuell|雌雄同体的，间性的|o
+jemenitisch|也门的|o
+kalzium|钙 (das, 无复数)|o
+kartierung|测绘，制图 (die, 复数 Kartierungen)|o
+kategorisieren|分类|v
+kilowatt|千瓦 (das, 复数 Kilowatt)|o
+klecksen|涂污，溅污，涂抹|v
+knabbern|啃，啮咬|v
+kompost|堆肥 (der, 复数 Komposte)|o
+konservativismus|保守主义 (der, 无复数)|o
+kosmetisch|美容的，装饰性的|o
+kran|起重机 (机器) (der, 复数 Kräne)|o
+kumarin|香豆素 (das, 无复数)|o
+königskobra|眼镜王蛇 (die, 复数 Königskobras)|o
+legastheniker|阅读障碍者 (der, 复数 Legastheniker)|o
+lidar|激光雷达 (das, 无复数)|o
+lümmel|粗鲁的家伙，淘气鬼 (der, 复数 Lümmel)|o
+malteser|马耳他男人 (der, 复数 Malteser); 马尔济斯犬|o;o
+masturbieren|自慰|v
+matriarchin|女家长，女族长 (die, 复数 Matriarchinnen)|o
+metrisch|公制的; 格律的|o;o
+migrationshintergrund|移民背景 (der, 复数 Migrationshintergründe)|o
+mythologisch|神话的|o
+nachschub|补给，增援 (der, 无复数)|o
+nagellack|指甲油 (der, 复数 Nagellacke)|o
+nih|NIH (美国国立卫生研究院)|o
+nordatlantik|北大西洋 (der, 无复数)|o
+okkupation|占领 (军事) (die, 复数 Okkupationen)|o
+olymp|奥林匹斯山|o
+opportunitätskosten|机会成本 (die, 复数)|o
+oxidiert|被氧化的|o
+palmöl|棕榈油 (das, 无复数)|o
+pathologe|病理学家 (der, 复数 Pathologen)|o
+pfefferspray|防狼喷雾，胡椒喷雾 (das, 复数 Pfeffersprays)|o
+phönix|凤凰 (der, 复数 Phönixe)|o
+politologe|政治学家 (der, 复数 Politologen)|o
+proklamieren|宣告，宣布|v
+proteomik|蛋白质组学 (die, 无复数)|o
+rechtswidrig|违法的，非法的|o
+redundanz|冗余 (die, 复数 Redundanzen)|o
+reklame|广告 (die, 复数 Reklamen)|o
+religiosität|宗教信仰，虔诚 (die, 无复数)|o
+robotisch|机器人的|o
+rotkäppchen|小红帽 (das, 无复数)|o
+rundum|四周，完全|o
+schlaflosigkeit|失眠 (die, 无复数)|o
+schützling|被保护人，门生 (der, 复数 Schützlinge)|o
+seeleopard|豹海豹 (der, 复数 Seeleoparden)|o
+sekretariat|秘书处，秘书办公室 (das, 复数 Sekretariate)|o
+skandalös|丑闻般的，令人愤慨的|o
+sowjetzeit|苏联时代 (die, 无复数)|o
+spracherkennung|语音识别 (die, 无复数)|o
+spule|线圈，卷轴 (die, 复数 Spulen)|o
+stacheldraht|铁丝网 (der, 复数 Stacheldrähte)|o
+stimmig|协调的，一致的，和谐的|o
+stricken|编织，织毛衣|v
+säuger|哺乳动物 (der, 复数 Säuger)|o
+taverne|酒馆，小旅店 (die, 复数 Tavernen)|o
+teilhaben|分享，参与 (hatte teil, teilgehabt)|v
+tertiär|第三的，第三纪的|o
+trichter|漏斗 (der, 复数 Trichter)|o
+unangefochten|无可争议的，不受挑战的|o
+unausgeglichen|不平衡的，情绪不稳的|o
+unbefriedigend|不令人满意的|o
+unumstritten|无争议的|o
+unvollkommenheit|不完美，缺陷 (die, 复数 Unvollkommenheiten)|o
+vererbung|遗传，继承 (die, 无复数)|o
+verunreinigt|被污染的|o
+vervielfachen|成倍增加，使倍增|v
+wackelig|摇晃的，不稳的|o
+wassermelone|西瓜 (die, 复数 Wassermelonen)|o
+willentlich|故意的，有意地|o
+wissentlich|明知的，明知故犯地|o
+wägezelle|称重传感器 (die, 复数 Wägezellen)|o
+zensieren|审查; 评分 (在学校)|v;v
+zimmergenosse|室友 (男) (der, 复数 Zimmergenossen)|o
+zimmergenossin|室友 (女) (die, 复数 Zimmergenossinnen)|o
+abkühlung|降温，冷却 (die, 复数 Abkühlungen)|o
+abtretung|转让，让与 (die, 复数 Abtretungen)|o
+achillesferse|阿喀琉斯之踵，致命弱点 (die, 复数 Achillesfersen)|o
+akquisition|收购，获取 (die, 复数 Akquisitionen)|o
+aktualisierung|更新 (die, 复数 Aktualisierungen)|o
+alchemie|炼金术 (die, 无复数)|o
+ambiente|氛围，环境格调 (das, 无复数)|o
+antarktika|南极洲|o
+anthropologin|女人类学家 (die, 复数 Anthropologinnen)|o
+aquädukt|渡槽，引水桥 (der/das, 复数 Aquädukte)|o
+aromatisch|芳香的|o
+arsen|砷，砒霜 (das, 无复数)|o
+baldachin|华盖，天篷 (der, 复数 Baldachine)|o
+bemalung|彩绘，装饰画 (die, 复数 Bemalungen)|o
+beschwörung|召唤，施咒 (die, 复数 Beschwörungen); 恳求|o;o
+bestücken|配备，装配，备货|v
+beunruhigung|担忧，惊慌 (die, 复数 Beunruhigungen)|o
+bulgare|保加利亚男人 (der, 复数 Bulgaren)|o
+chatten|聊天 (在线)|v
+chicagoer|芝加哥的; 芝加哥居民 (der, 复数 Chicagoer)|o;o
+dogmatisch|教条的|o
+drogerie|药妆店，日用品店 (非处方) (die, 复数 Drogerien)|o
+dubios|可疑的，不正当的|o
+durchsuchung|搜查，搜身 (die, 复数 Durchsuchungen)|o
+eads|EADS (欧洲航空航天公司)|o
+einstweilig|暂时的，临时的|o
+erbracht|已取得的，已提供的 (过去分词)|o
+erlaucht|尊贵的，高贵的|o
+erteilung|授予，颁发 (die, 复数 Erteilungen)|o
+fechter|击剑手 (der, 复数 Fechter)|o
+feudal|封建的; 豪华的，阔绰的|o;o
+fiktional|虚构的|o
+forelle|鳟鱼 (die, 复数 Forellen)|o
+frühestens|最早，至少要到|o
+gallier|高卢人 (der, 复数 Gallier)|o
+gesprächig|健谈的|o
+großartigkeit|宏伟，壮丽 (die, 无复数)|o
+haarig|多毛的; 棘手的|o;o
+haltbarkeit|耐用性，持久 (die, 无复数); 保质期|o;o
+hunne|匈奴人，匈人 (der, 复数 Hunnen)|o
+hydraulisch|液压的|o
+inferior|劣等的，低等的|o
+inzest|乱伦 (der, 无复数)|o
+irrglaube|误解，错误信念 (der, 复数 Irrglauben)|o
+jacht|游艇 (die, 复数 Jachten)|o
+kampala|坎帕拉|o
+kartei|卡片索引，档案 (die, 复数 Karteien)|o
+kategorisch|断然的，绝对的|o
+kolumbianer|哥伦比亚人 (男) (der, 复数 Kolumbianer)|o
+kommilitone|同学 (der, 复数 Kommilitonen)|o
+kreuzigen|钉十字架|v
+kupplung|离合器 (die, 复数 Kupplungen); 联轴器，连接|o;o
+manövrieren|操纵，调动|v
+mediterran|地中海的|o
+mehrsprachig|多语言的|o
+misstrauensvotum|不信任投票 (das, 复数 Misstrauensvoten)|o
+mobilmachung|动员 (die, 复数 Mobilmachungen)|o
+murmel|弹珠 (die, 复数 Murmeln)|o
+muskulatur|肌肉组织，肌肉 (die, 无复数)|o
+oral|口头的，口腔的|o
+picardie|皮卡第|o
+portemonnaie|钱包 (das, 复数 Portemonnaies)|o
+posaunen|大声宣扬，高声吹嘘; 长号 (die, 复数)|v;o
+propagandist|宣传员 (der, 复数 Propagandisten)|o
+publik|公开的，众所周知的; publik machen: 公开，公之于众|o;n
+quotient|商，比率 (der, 复数 Quotienten)|o
+radial|径向的，放射状的|o
+revers|翻领 (das, 复数 Revers); 反面|o;o
+revisionistisch|修正主义的|o
+schisma|分裂，教会分裂 (das, 复数 Schismen)|o
+schlaumeier|自作聪明的人，小聪明 (der, 复数 Schlaumeier)|o
+schmuggel|走私 (der, 无复数)|o
+seltenheit|稀少，罕见的事物 (die, 复数 Seltenheiten)|o
+siegerin|女胜利者 (die, 复数 Siegerinnen)|o
+skalar|标量的; 标量 (der, 复数 Skalare)|o;o
+skalarprodukt|标量积，点积 (das, 复数 Skalarprodukte)|o
+solidarisch|团结的，声援的|o
+späher|侦察兵，哨兵 (der, 复数 Späher)|o
+staatlichkeit|国家地位 (die, 无复数)|o
+stöpsel|塞子，插头 (der, 复数 Stöpsel)|o
+testamentarisch|遗嘱的，按遗嘱的|o
+therme|温泉，温泉浴场 (die, 复数 Thermen)|o
+torus|圆环面，环面 (der, 复数 Tori)|o
+touchscreen|触摸屏 (der, 复数 Touchscreens)|o
+transformator|变压器 (der, 复数 Transformatoren)|o
+transvestit|异装者 (过时，可能冒犯) (der, 复数 Transvestiten)|o
+treiber|驱动程序 (软件) (der, 复数 Treiber); 赶牲口的人|o;o
+unbeschadet|不影响，尽管 (+属格); 未受伤的|o;o
+unerkannt|未被认出的，未被察觉的|o
+unlogisch|不合逻辑的|o
+unschätzbar|无价的，不可估量的|o
+unverwechselbar|独一无二的，不会混淆的|o
+unzutreffend|不准确的，不正确的|o
+verlogenheit|说谎成性，不诚实 (die, 无复数)|o
+verstümmelung|残害，肢体毁伤 (die, 复数 Verstümmelungen)|o
+witwer|鳏夫 (der, 复数 Witwer)|o
+zyklop|独眼巨人 (der, 复数 Zyklopen)|o
+äthiopisch|埃塞俄比亚的|o
+übermittlung|传送，传达 (die, 复数 Übermittlungen)|o
+abgeschiedenheit|与世隔绝，僻静 (die, 无复数)|o
+abholzen|砍伐，滥伐森林|v
+abschreckend|有威慑力的，令人却步的|o
+abstufung|分级，层次 (die, 复数 Abstufungen)|o
+ade|再见，告辞|o
+aggressivität|攻击性 (die, 无复数)|o
+agonie|垂死挣扎，极度痛苦 (die, 复数 Agonien)|o
+akne|痤疮，青春痘 (die, 无复数)|o
+allenthalben|到处，四处|o
+amboise|昂布瓦斯|o
+ambulanz|门诊部 (die, 复数 Ambulanzen); 救护车|o;o
+anal|肛门的|o
+andersartigkeit|差异，异质性 (die, 无复数)|o
+andren|其他的，别的 (anderen 的口语拼写)|o
+aneignung|占用，掌握 (die, 复数 Aneignungen)|o
+anfechtung|质疑，提出异议 (die, 复数 Anfechtungen); 诱惑|o;o
+anhieb|auf Anhieb: 一次就成，立刻 (der, 无复数)|n
+anhängsel|附属物，附加物 (das, 复数 Anhängsel)|o
+anmaßung|傲慢，僭越 (die, 复数 Anmaßungen)|o
+anzetteln|策划，挑起|v
+apart|别致的，与众不同的; 单独地|o;o
+appetitlich|诱人的，令人垂涎的|o
+armaturenbrett|仪表板 (das, 复数 Armaturenbretter)|o
+atmosphärisch|大气的，气氛的|o
+ausgeklügelt|巧妙的，精密的|o
+ausradieren|擦掉，彻底消灭|v
+bagatelle|小事，琐事 (die, 复数 Bagatellen)|o
+bazillus|杆菌 (der, 复数 Bazillen)|o
+befruchten|使受精，使受孕|v
+begutachten|评估，检查|v
+berichtigen|更正，纠正|v
+beritten|骑马的，骑着马的|o
+bestrahlt|被辐射的，接受放射治疗的|o
+betrügerin|女骗子 (die, 复数 Betrügerinnen)|o
+beulen|凸起，凹痕 (die, 复数); 鼓起|o;v
+billiarde|千万亿 (10^15) (die, 复数 Billiarden)|o
+bissig|爱咬人的，易怒的; 尖刻的|o;o
+blamage|出丑，丢脸 (die, 复数 Blamagen)|o
+blutegel|水蛭 (der, 复数 Blutegel)|o
+boshaftigkeit|恶意，恶毒 (die, 无复数)|o
+bruttosozialprodukt|国民生产总值，GNP (das, 无复数)|o
+bürschchen|小伙子，小家伙 (das, 复数 Bürschchen)|o
+bürste|刷子 (die, 复数 Bürsten)|o
+campingplatz|露营地 (der, 复数 Campingplätze)|o
+compiler|编译器 (der, 复数 Compiler)|o
+darwinismus|达尔文主义 (der, 无复数)|o
+diadem|王冠，头冠 (das, 复数 Diademe)|o
+dickicht|灌木丛，密林 (das, 复数 Dickichte)|o
+dienlich|有用的，有帮助的|o
+dieppe|迪耶普|o
+diffamierung|诽谤，抹黑 (die, 复数 Diffamierungen)|o
+distel|蓟 (die, 复数 Disteln)|o
+dynastisch|王朝的|o
+düngen|施肥|v
+einfädeln|穿线; 策划，安排|v;v
+einprägsam|易记的，朗朗上口的|o
+elektriker|电工 (der, 复数 Elektriker)|o
+elektrisiert|通电的; 兴奋的，激动的|o;o
+endresultat|最终结果 (das, 复数 Endresultate)|o
+endverbraucher|终端用户，最终消费者 (der, 复数 Endverbraucher)|o
+entpuppen|sich entpuppen als: 原来是，结果证明是|n
+entrichten|缴纳 (费用，税款)|v
+epidemiologe|流行病学家 (der, 复数 Epidemiologen)|o
+erblinden|失明|v
+evangelist|福音传道者 (der, 复数 Evangelisten)|o
+extrahieren|提取|v
+fettig|油腻的|o
+flitzen|飞奔，疾驰|v
+forensisch|法医的，司法的|o
+fremdling|陌生人，外来者 (der, 复数 Fremdlinge)|o
+frittiert|油炸的|o
+frühwarnsystem|预警系统 (das, 复数 Frühwarnsysteme)|o
+fuchteln|挥舞，乱挥|v
+gaumen|上颚，味觉 (der, 复数 Gaumen)|o
+gebaren|举止，行为 (das, 无复数); sich gebaren: 表现，举止|o;n
+gecko|壁虎 (der, 复数 Geckos)|o
+gedärme|肠子，内脏 (das, 复数 Gedärme)|o
+gefilde|田野，领域 (das, 复数 Gefilde)|o
+geflüster|耳语，低语 (das, 无复数)|o
+gehirnscan|脑部扫描 (der, 复数 Gehirnscans)|o
+gekicher|咯咯笑 (das, 无复数)|o
+gemütlichkeit|舒适惬意 (die, 无复数); 和蔼可亲|o;o
+gereichen|zu etwas gereichen: 带来，导致|n
+gerste|大麦 (die, 无复数)|o
+geräuchert|熏制的|o
+geschichtenerzählerin|女讲故事的人 (die, 复数 Geschichtenerzählerinnen)|o
+gesuch|请求，申请书 (das, 复数 Gesuche)|o
+getrost|放心地，安心地|o
+gewähr|保证，担保 (die, 无复数)|o
+gilde|行会 (die, 复数 Gilden)|o
+gleiter|滑翔机 (der, 复数 Gleiter)|o
+gobelins|哥白林挂毯 (die, 复数)|o
+goldig|可爱的，讨人喜欢的|o
+gurgeln|漱口; 发出汩汩声|v;v
+halunke|恶棍，无赖 (der, 复数 Halunken)|o
+harmonik|和声学，谐波 (die, 无复数)|o
+heimatlich|故乡的，家乡的|o
+hemmungslos|肆无忌惮的，毫无顾忌的|o
+herumspielen|摆弄，玩弄|v
+hufeisen|马蹄铁 (das, 复数 Hufeisen)|o
+hugenotte|胡格诺派教徒 (der, 复数 Hugenotten)|o
+hydraulik|液压，水力学 (die, 无复数)|o
+hyperbolisch|双曲线的，夸张的|o
+hämisch|幸灾乐祸的，恶意的|o
+händig|用……手的|o
+immateriell|无形的，非物质的|o
+imponieren|给人留下深刻印象|v
+indiskret|不谨慎的，唐突的|o
+infrarotlicht|红外线 (das, 无复数)|o
+interaktivität|交互性 (die, 无复数)|o
+iteration|迭代 (die, 复数 Iterationen)|o
+iucn|IUCN (国际自然保护联盟) (die, 无复数)|o
+jungfräulich|处女的，未经开发的|o
+kabeljau|鳕鱼 (der, 复数 Kabeljaue)|o
+kardiologe|心脏病专家 (der, 复数 Kardiologen)|o
+kauz|猫头鹰 (der, 复数 Käuze); 怪人|o;o
+kläranlage|污水处理厂 (die, 复数 Kläranlagen)|o
+knattern|噼啪作响，哒哒响|v
+knifflig|棘手的，复杂的|o
+knusprig|酥脆的|o
+komprimieren|压缩|v
+kontrahieren|收缩 (肌肉)|v
+korfu|科孚岛|o
+kribbeln|发麻，刺痒|v
+krämer|小店主，小商贩 (der, 复数 Krämer)|o
+kusch|趴下！ (对狗的口令); 安静！|o;o
+lancieren|推出，发起; 放出 (消息)|v;v
+landeinwärts|向内陆|o
+leserschaft|读者群 (die, 无复数)|o
+liquidieren|清算，变现; 消灭|v;v
+logarithmisch|对数的|o
+mammogramm|乳腺X光片 (das, 复数 Mammogramme)|o
+manisch|躁狂的|o
+mathematiker|数学家 (der, 复数 Mathematiker)|o
+metaphorisch|隐喻的，比喻的|o
+methyl|甲基 (das, 无复数)|o
+mikrofinanzierung|小额金融 (die, 无复数)|o
+mikrokosmos|微观世界，缩影 (der, 复数 Mikrokosmen)|o
+mikrokredit|小额贷款 (der, 复数 Mikrokredite)|o
+milliardstel|十亿分之一 (das, 复数 Milliardstel)|o
+mitochondrium|线粒体 (das, 复数 Mitochondrien)|o
+monokultur|单一栽培 (die, 复数 Monokulturen)|o
+möbliert|带家具的|o
+nachhall|回响，回声 (der, 复数 Nachhalle)|o
+neurobiologe|神经生物学家 (der, 复数 Neurobiologen)|o
+ozon|臭氧 (das, 无复数)|o
+pachten|租赁，租用 (农田)|v
+pakistaner|巴基斯坦人 (男) (der, 复数 Pakistaner)|o
+paralyse|麻痹，瘫痪 (die, 复数 Paralysen)|o
+parteilichkeit|偏袒，偏见 (die, 无复数)|o
+peptid|肽 (das, 复数 Peptide)|o
+pflug|犁 (der, 复数 Pflüge)|o
+pilgerfahrt|朝圣 (die, 复数 Pilgerfahrten)|o
+pingelig|吹毛求疵的，挑剔的|o
+platonisch|柏拉图式的|o
+polymer|聚合物 (das, 复数 Polymere)|o
+portwein|波特酒 (der, 复数 Portweine)|o
+positionierung|定位 (die, 复数 Positionierungen)|o
+prachtstück|精品，珍品 (das, 复数 Prachtstücke)|o
+professionalität|专业性，专业水准 (die, 无复数)|o
+prolongieren|延长，延期|v
+pronomen|代词 (das, 复数 Pronomen)|o
+prototyping|原型设计 (das, 无复数)|o
+präventiv|预防性的|o
+prüfer|考官，检验员 (der, 复数 Prüfer)|o
+psychopharmakon|精神药物 (das, 复数 Psychopharmaka)|o
+qualm|浓烟 (der, 无复数)|o
+quarz|石英 (der, 复数 Quarze)|o
+quälerei|折磨，虐待 (die, 复数 Quälereien); 苦差事|o;o
+rauigkeit|粗糙度 (die, 无复数)|o
+rebellieren|反叛，造反|v
+reim|韵，押韵 (der, 复数 Reime)|o
+rekursiv|递归的|o
+relational|关系的|o
+replikation|复制 (die, 复数 Replikationen)|o
+rostig|生锈的|o
+rupfen|拔 (毛)，拔掉|v
+russifizierung|俄罗斯化 (die, 无复数)|o
+rückfällig|复发的; rückfällig werden: 复发，再次犯罪|o;n
+rücksichtslosigkeit|冷酷无情，不顾及他人 (die, 无复数)|o
+sachkundige|专家，内行 (der/die, 复数 Sachkundige); 内行的 (sachkundig 的变格形式)|o;o
+sarkasmus|讽刺，挖苦 (der, 复数 Sarkasmen)|o
+sauce|酱汁 (die, 复数 Saucen)|o
+schichten|堆叠，分层|v
+schillern|闪烁，呈虹彩色|v
+schimmel|霉 (der, 复数 Schimmel); 白马|o;o
+schlampig|马虎的，邋遢的|o
+schmunzeln|微笑 (含蓄地，觉得有趣)|v
+schwadron|骑兵中队 (die, 复数 Schwadronen)|o
+schwätzer|话痨，饶舌者 (der, 复数 Schwätzer)|o
+seychellen|塞舌尔|o
+siebente|第七 (siebte 的变体)|o
+sittlich|道德的，伦理的|o
+sklavisch|奴性的，盲从的|o
+sommerlich|夏天的，夏季的|o
+sperling|麻雀 (der, 复数 Sperlinge)|o
+sprudeln|冒泡，起泡|v
+streuung|散布，离散 (die, 复数 Streuungen)|o
+sträfling|囚犯 (der, 复数 Sträflinge)|o
+stund|小时 (Stunde 的古体) (die, 复数 Stunden)|o
+störrisch|固执的，倔强的|o
+sympathisieren|同情，支持|v
+synergie|协同作用 (die, 复数 Synergien)|o
+szenisch|舞台的，场景的|o
+säkularisierung|世俗化 (die, 复数 Säkularisierungen)|o
+tabernakel|圣体龛，圣幕 (das, 复数 Tabernakel)|o
+taxonomie|分类学 (die, 复数 Taxonomien)|o
+teersand|油砂 (der, 复数 Teersande)|o
+tektonisch|构造的|o
+thal|山谷 (Tal 的旧拼写) (das, 复数 Täler)|o
+theben|底比斯|o
+theke|柜台，吧台 (die, 复数 Theken)|o
+tomatensauce|番茄酱汁 (die, 复数 Tomatensaucen)|o
+toscana|托斯卡纳|o
+tosen|咆哮，肆虐|v
+trist|阴郁的，凄凉的|o
+troja|特洛伊|o
+trudeln|翻滚，螺旋下坠 (飞机)|v
+tunika|束腰外衣 (die, 复数 Tuniken)|o
+tweeten|发推文|v
+tätowieren|纹身|v
+umkrempeln|卷起，挽起; 彻底改造|v;v
+unaids|UNAIDS (联合国艾滋病规划署)|o
+unauffindbar|找不到的，无处可寻的|o
+unausstehlich|令人无法忍受的，讨厌的|o
+unbeantwortet|未回答的|o
+unbefristet|无限期的，长期的|o
+unbeirrt|不为所动的，坚定不移的|o
+unbrauchbar|无用的，不能用的|o
+ungehobelt|粗鲁的，没教养的|o
+ungenießbar|不能吃的，不能喝的; 难以忍受的|o;o
+ungetüm|庞然大物，怪物 (das, 复数 Ungetüme)|o
+uninteressant|无趣的|o
+unkenntnis|无知，不了解 (die, 无复数)|o
+unorthodox|非正统的，不拘一格的|o
+untiefe|浅滩 (die, 复数 Untiefen)|o
+unumstößlich|不可推翻的，不可更改的|o
+unumwunden|直截了当地，坦率地|o
+unwirklich|不真实的，超现实的|o
+unzahl|无数，大量 (die, 无复数)|o
+unzulässig|不允许的，不可接受的|o
+urbino|乌尔比诺|o
+urplötzlich|突然间，猝不及防|o
+vagabund|流浪汉 (der, 复数 Vagabunden)|o
+vanille|香草 (die, 无复数)|o
+verbürgen|担保，保证; sich verbürgen für: 为……担保|v;n
+verkleinerung|缩小，缩减 (die, 复数 Verkleinerungen); 指小词|o;o
+verlautbarung|声明，公告 (die, 复数 Verlautbarungen)|o
+verlernen|忘掉，荒废 (技能)|v
+verletzend|伤人的，冒犯的|o
+verleumden|诽谤，中伤|v
+vermählen|嫁出; sich vermählen: 结婚 (正式)|v;n
+verorten|定位，确定位置|v
+verpflanzen|移植|v
+verpfuscht|搞砸的，毁掉的|o
+verrinnen|流逝，消逝 (verrann, verronnen, ist)|v
+verschlüsseln|加密，编码|v
+verschönerung|美化，改善 (die, 复数 Verschönerungen)|o
+versenden|寄送，发送 (versandte, versandt)|v
+versorgungskette|供应链 (die, 复数 Versorgungsketten)|o
+verspeisen|吃光，享用|v
+verwandtschaftlich|亲属的，家族的|o
+viehzüchter|畜牧业者 (der, 复数 Viehzüchter)|o
+waagerecht|水平的|o
+wagnis|冒险，风险之举 (das, 复数 Wagnisse)|o
+widerlegung|驳斥，反驳 (die, 复数 Widerlegungen)|o
+widerspenstig|不听话的，倔强的|o
+widrig|不利的，恶劣的|o
+wiederverwerten|回收，再利用|v
+witzeln|开玩笑，打趣|v
+wolkig|多云的|o
+zank|争吵，口角 (der, 无复数)|o
+zapfsäule|加油机 (die, 复数 Zapfsäulen)|o
+zepter|权杖 (das, 复数 Zepter)|o
+zersetzung|分解，瓦解 (die, 复数 Zersetzungen); 颠覆|o;o
+zierde|装饰，饰物 (die, 复数 Zierden)|o
+zimperlich|娇气的，过分拘谨的|o
+zusammengehörigkeit|归属感 (die, 无复数)|o
+ödland|荒地 (das, 无复数)|o
+ölfarbe|油画颜料 (die, 复数 Ölfarben)|o
+adaptiv|适应性的|o
+anhängerschaft|追随者，拥护者 (die, 无复数)|o
+audienz|觐见，接见 (晋见要人) (die, 复数 Audienzen)|o
+auspuff|排气管 (der, 复数 Auspuffe)|o
+bauchnabel|肚脐 (der, 复数 Bauchnabel)|o
+befolgung|遵守，服从 (die, 无复数)|o
+bekanntheitsgrad|知名度 (der, 无复数)|o
+belarussisch|白俄罗斯的|o
+betäubungsmittel|麻醉剂 (das, 复数 Betäubungsmittel); 毒品|o;o
+bewähren|sich bewähren: 经受住考验，证明自己的价值|n
+bibliothekarin|女图书管理员 (die, 复数 Bibliothekarinnen)|o
+boykottieren|抵制|v
+dreieckig|三角形的|o
+eckstein|基石 (der, 复数 Ecksteine)|o
+einschläfern|使入睡，安乐死; 使放松警惕|v;v
+enthusiastisch|热情的，热忱的|o
+entschlüsselung|解码，解密 (die, 复数 Entschlüsselungen)|o
+existent|现存的，存在的|o
+flammenwerfer|火焰喷射器 (der, 复数 Flammenwerfer)|o
+folterung|酷刑，折磨 (die, 复数 Folterungen)|o
+fänger|捕手，捕猎者 (der, 复数 Fänger)|o
+föderalistisch|联邦主义的|o
+gebeutelt|饱受打击的，遭受重创的|o
+gegenläufig|相反的，逆向的|o
+geltendmachung|主张，提出 (权利要求) (die, 无复数)|o
+geläut|钟声 (das, 无复数)|o
+gleichsetzung|等同，画等号 (die, 复数 Gleichsetzungen)|o
+goldbarren|金条 (der, 复数 Goldbarren)|o
+hallöchen|嗨，你好|o
+heraufbeschwören|唤起，招致 (beschwor herauf, heraufbeschworen)|v
+heterogen|异质的，不同种类的|o
+hierarchisch|等级制的|o
+katapult|投石机，弹射器 (das, 复数 Katapulte)|o
+klösterlich|修道院的|o
+kobra|眼镜蛇 (die, 复数 Kobras)|o
+komplott|阴谋，密谋 (das, 复数 Komplotte)|o
+kopierer|复印机 (der, 复数 Kopierer)|o
+legalisieren|合法化|v
+legalität|合法性 (die, 无复数)|o
+leninismus|列宁主义 (der, 无复数)|o
+lesart|解读，理解方式 (die, 复数 Lesarten)|o
+leugner|否认者 (der, 复数 Leugner)|o
+machbarkeit|可行性 (die, 无复数)|o
+makel|瑕疵，缺陷 (der, 复数 Makel)|o
+maßgeschneidert|量身定制的|o
+novum|新事物 (das, 复数 Nova)|o
+parteiisch|偏袒的，有偏见的|o
+patriarchalisch|父权制的，家长式的|o
+pazifist|和平主义者 (der, 复数 Pazifisten)|o
+repressalie|报复，报复措施 (die, 复数 Repressalien)|o
+rückblende|闪回，倒叙 (die, 复数 Rückblenden)|o
+sanktionieren|制裁; 批准，认可|v;v
+scharlatan|江湖骗子 (der, 复数 Scharlatane)|o
+sperrung|封锁，封闭 (die, 复数 Sperrungen)|o
+spezialgebiet|专长领域，专业领域 (das, 复数 Spezialgebiete)|o
+stevia|甜叶菊 (die, 无复数)|o
+stichhaltig|站得住脚的，有说服力的|o
+storch|鹳 (der, 复数 Störche)|o
+trügen|欺骗，误导 (trog, getrogen)|v
+turnhalle|体育馆 (die, 复数 Turnhallen)|o
+ukw|调频广播，甚高频广播 (UKW，超短波的缩写) (die, 无复数)|o
+unlösbar|无法解决的，不溶的|o
+unpolitisch|非政治的|o
+verankerung|固定，写入 (法律) (die, 复数 Verankerungen)|o
+verbocken|搞砸，搞糟 (口语)|v
+verbreiterung|拓宽，加宽 (die, 复数 Verbreiterungen)|o
+verfolger|追捕者 (der, 复数 Verfolger); 迫害者|o;o
+verkäuferin|女售货员 (die, 复数 Verkäuferinnen)|o
+vernehmung|审讯，询问 (die, 复数 Vernehmungen)|o
+verstärker|放大器，扩音器 (der, 复数 Verstärker)|o
+welpe|幼犬，幼崽 (der, 复数 Welpen)|o
+wiedereingliederung|重新融入，回归社会 (die, 无复数)|o
+wohnmobil|房车 (das, 复数 Wohnmobile)|o
+aas|腐肉 (das, 复数 Aase)|o
+abgeflacht|变平的，趋于平缓的|o
+abschotten|封闭，隔离; sich abschotten: 与外界隔绝，闭关自守|v;n
+absperrung|路障，警戒线 (die, 复数 Absperrungen); 封锁|o;o
+adressat|收件人，受众 (der, 复数 Adressaten)|o
+affektiv|情感的，情绪的|o
+akkumulation|积累，累积 (die, 复数 Akkumulationen)|o
+alkoholismus|酗酒，酒精中毒 (der, 无复数)|o
+amplitude|振幅 (die, 复数 Amplituden)|o
+android|仿真机器人，安卓 (der, 复数 Androiden)|o
+angezettelt|被策划的，被挑起的 (过去分词)|o
+angiogenetisch|血管生成的|o
+angsteinflößend|令人恐惧的，吓人的|o
+arbeitend|工作的，正在工作的 (现在分词)|o
+arithmetisch|算术的|o
+athletisch|运动型的，健壮的|o
+ausloten|探测，探究|v
+balancieren|保持平衡，平衡|v
+bauchspeicheldrüse|胰腺 (die, 复数 Bauchspeicheldrüsen)|o
+bemessen|测定，分配 (bemisst, bemaß, bemessen)|v
+berauschend|令人陶醉的，令人振奋的|o
+besteck|餐具 (das, 复数 Bestecke)|o
+bimetall|双金属 (das, 复数 Bimetalle)|o
+boje|浮标，浮筒 (die, 复数 Bojen)|o
+bourges|布尔日|o
+brillanz|光彩，卓越 (die, 无复数)|o
+brustwarze|乳头 (die, 复数 Brustwarzen)|o
+brühe|肉汤，高汤 (die, 复数 Brühen)|o
+curaçao|库拉索|o
+deponie|垃圾填埋场 (die, 复数 Deponien)|o
+differentialgleichung|微分方程 (die, 复数 Differentialgleichungen)|o
+disqualifizieren|取消资格|v
+dito|同上，同样|o
+doktorandin|女博士生 (die, 复数 Doktorandinnen)|o
+dramatik|戏剧 (die, 无复数); 戏剧性|o;o
+dritteldrehung|三分之一圈 (die, 复数 Dritteldrehungen)|o
+eckig|有棱角的，方形的|o
+edv|电子数据处理 (die, 无复数)|o
+eingravieren|雕刻，刻上|v
+encoder|编码器 (der, 复数 Encoder)|o
+erdnuss|花生 (die, 复数 Erdnüsse)|o
+ergattern|弄到手，抢到|v
+erschwinglichkeit|可负担性 (die, 无复数)|o
+erwerbung|购置，获得 (die, 复数 Erwerbungen)|o
+exemplarisch|典型的，示范性的; 作为例子|o;o
+fitnessstudio|健身房 (das, 复数 Fitnessstudios)|o
+futuristisch|未来主义的，未来感的|o
+garnitur|一套，成套 (die, 复数 Garnituren); 装饰|o;o
+geräuschkulisse|背景噪音 (die, 复数 Geräuschkulissen)|o
+hochladen|上传|v
+hominide|人科动物 (der, 复数 Hominiden)|o
+horrorfilm|恐怖片 (der, 复数 Horrorfilme)|o
+humanität|人道，人性 (die, 无复数)|o
+höhlenmalerei|洞穴壁画 (die, 复数 Höhlenmalereien)|o
+ilo|ILO (国际劳工组织) (die, 无复数)|o
+invers|逆的，反向的|o
+jongleur|杂耍艺人 (der, 复数 Jongleure)|o
+jünger|更年轻的; 门徒 (der, 复数 Jünger)|o;o
+kapern|夺取，劫持 (船只)|v
+karzinogen|致癌的; 致癌物 (das, 复数 Karzinogene)|o;o
+kenianer|肯尼亚人 (男) (der, 复数 Kenianer)|o
+keynesianismus|凯恩斯主义 (der, 无复数)|o
+kieme|鳃 (die, 复数 Kiemen)|o
+kleiderbügel|衣架 (der, 复数 Kleiderbügel)|o
+koexistieren|共存|v
+kojote|郊狼 (der, 复数 Kojoten)|o
+kokon|茧 (der, 复数 Kokons)|o
+kolosseum|罗马斗兽场|o
+kommissarin|女警长 (die, 复数 Kommissarinnen); 专员|o;o
+kompensation|补偿 (die, 复数 Kompensationen)|o
+konfus|困惑的，混乱的|o
+kontaktlinse|隐形眼镜 (die, 复数 Kontaktlinsen)|o
+korrelieren|相关|v
+kreationist|神创论者 (der, 复数 Kreationisten)|o
+kriminalisieren|定为犯罪，使犯罪化|v
+kriminalpolizei|刑事警察 (die, 无复数)|o
+kristallisiert|结晶的|o
+krümel|碎屑，面包屑 (der, 复数 Krümel)|o
+kulinarisch|烹饪的，美食的|o
+legitimierung|合法化，正当化 (die, 复数 Legitimierungen)|o
+liegenschaft|不动产，房地产 (die, 复数 Liegenschaften)|o
+lokalisierung|定位，本地化 (die, 复数 Lokalisierungen)|o
+maulbronn|毛尔布龙|o
+mentorin|女导师 (die, 复数 Mentorinnen)|o
+mountainbike|山地自行车 (das, 复数 Mountainbikes)|o
+nabelschnur|脐带 (die, 复数 Nabelschnüre)|o
+naivität|天真，幼稚 (die, 无复数)|o
+nomadisch|游牧的|o
+nomen|名词 (das, 复数 Nomina)|o
+paläontologie|古生物学 (die, 无复数)|o
+papierröhre|纸筒 (die, 复数 Papierröhren)|o
+pathologisch|病理的，病态的|o
+pauken|死记硬背，拼命用功; 定音鼓 (die, 复数)|v;o
+petersilie|欧芹，香芹 (die, 无复数)|o
+phobie|恐惧症 (die, 复数 Phobien)|o
+photovoltaik|光伏技术 (die, 无复数)|o
+plenum|全体会议 (das, 复数 Plenen)|o
+polygon|多边形 (das, 复数 Polygone)|o
+problemlöser|解决问题的人 (der, 复数 Problemlöser)|o
+projektor|投影仪 (der, 复数 Projektoren)|o
+prävalenz|患病率，流行率 (die, 复数 Prävalenzen)|o
+randomisiert|随机的|o
+rebellisch|叛逆的|o
+recke|勇士，英雄 (诗意) (der, 复数 Recken)|o
+reha|康复治疗 (die, 无复数)|o
+rehabilitierung|康复，平反 (die, 复数 Rehabilitierungen)|o
+rückkopplungsschleife|反馈回路 (die, 复数 Rückkopplungsschleifen)|o
+sandale|凉鞋 (die, 复数 Sandalen)|o
+schaurig|阴森的，毛骨悚然的; 可怕的|o;o
+schleuder|弹弓，投石器 (die, 复数 Schleudern); 脱水机|o;o
+scho|已经，的确 (schon 的方言拼写)|o
+sicherheitsgurt|安全带 (der, 复数 Sicherheitsgurte)|o
+simultan|同时的|o
+sklerose|硬化症 (die, 复数 Sklerosen)|o
+sooo|非常，太 (so 的拉长形式)|o
+sozialisierung|社会化 (die, 无复数)|o
+spirituose|烈酒 (die, 复数 Spirituosen)|o
+staugebühr|拥堵费 (die, 复数 Staugebühren)|o
+stigmatisiert|被污名化的|o
+styropor|泡沫塑料，聚苯乙烯泡沫 (das, 无复数)|o
+symptomatisch|症状的，有代表性的|o
+templer|圣殿骑士 (der, 复数 Templer)|o
+todestrakt|死囚区 (der, 复数 Todestrakte)|o
+trampeln|践踏，跺脚|v
+tresen|吧台，柜台 (der, 复数 Tresen)|o
+trojanisch|特洛伊的|o
+ultraviolett|紫外线的|o
+unbemannt|无人的，无人驾驶的|o
+unpersönlich|冷淡的，非个人的|o
+unpraktisch|不实用的|o
+veranschlagen|估计，估算，列入预算|v
+verdauungstrakt|消化道 (der, 复数 Verdauungstrakte)|o
+verduften|溜走，消失 (口语)|v
+verdünnt|稀释的，变淡的|o
+vernarrt|迷恋的，痴迷的|o
+verwesung|腐烂，腐败 (die, 无复数)|o
+wiederauferstehung|复活 (die, 复数 Wiederauferstehungen)|o
+wohneinheit|住宅单元，住房 (die, 复数 Wohneinheiten)|o
+wohnhaft|居住的，住在……的|o
+wohnviertel|住宅区 (das, 复数 Wohnviertel)|o
+zocken|赌博; 玩电子游戏 (口语)|v;v
+abschiebung|驱逐出境 (die, 复数 Abschiebungen)|o
+aggregat|聚合体，总计 (das, 复数 Aggregate); 机组，设备|o;o
+amazonasgebiet|亚马逊地区|o
+angewandt|应用的|o
+annullieren|宣告无效，取消|v
+aramäisch|阿拉米的，阿拉米语|o
+aufspießen|刺穿，串起|v
+ausgangssperre|宵禁 (die, 复数 Ausgangssperren)|o
+bedrückend|压抑的，令人沮丧的|o
+beordern|命令，召唤|v
+bewerfen|向……投掷，扔 (bewirft, bewarf, beworfen)|v
+brodeln|翻滚，冒泡，沸腾|v
+dialektisch|辩证的|o
+diskothek|迪斯科舞厅，夜店 (die, 复数 Diskotheken)|o
+dual|双重的，二元的|o
+effizienteste|最有效率的 (变格的最高级)|o
+ehebrechen|通奸 (brach die Ehe, die Ehe gebrochen)|v
+ehebrecher|通奸者 (der, 复数 Ehebrecher)|o
+einheitlichkeit|统一性，一致性 (die, 无复数)|o
+empfängnis|受孕，怀孕 (die, 无复数)|o
+energetisch|能量的，精力充沛的|o
+entente|协约，协约国 (die, 复数 Ententen)|o
+entgleiten|从手中滑落，失控 (entglitt, entglitten, ist)|v
+enthauptung|斩首 (die, 复数 Enthauptungen)|o
+erg|尔格 (能量单位) (das, 复数 Erg)|o
+ernüchternd|令人清醒的，令人醒悟的|o
+esche|白蜡树，梣树 (die, 复数 Eschen)|o
+finanztransaktionssteuer|金融交易税 (die, 复数 Finanztransaktionssteuern)|o
+gebirgszug|山脉 (der, 复数 Gebirgszüge)|o
+genitalverstümmelung|生殖器切割 (die, 无复数)|o
+genossenschaftlich|合作社的，合作的|o
+glosse|注释，旁注 (die, 复数 Glossen); 短评|o;o
+glückssträhne|好运连连 (die, 复数 Glückssträhnen)|o
+gurren|咕咕叫|v
+gymnasiallehrer|中学教师 (der, 复数 Gymnasiallehrer)|o
+herdenimmunität|群体免疫 (die, 无复数)|o
+hinduistisch|印度教的|o
+hochstapler|冒名顶替者，骗子 (der, 复数 Hochstapler)|o
+idealisieren|理想化|v
+ikonographie|圣像学，图像学 (die, 无复数)|o
+inkognito|隐姓埋名地，微服|o
+inspizieren|检查，视察|v
+internierung|拘禁，关押 (die, 复数 Internierungen)|o
+irrig|错误的，谬误的|o
+islamophobie|伊斯兰恐惧症 (die, 无复数)|o
+isotop|同位素 (das, 复数 Isotope)|o
+itu|ITU (国际电信联盟) (die, 无复数)|o
+jpeg|JPEG (图像格式) (das, 复数 JPEGs)|o
+kalkulieren|计算，估算|v
+kastration|阉割 (die, 复数 Kastrationen)|o
+ki|人工智能，AI (künstliche Intelligenz 的缩写) (die, 无复数)|o
+kicken|踢; 踢足球 (口语)|v;v
+klaffen|裂开，张开|v
+kompromittieren|使名誉受损，连累 (名誉)|v
+konföderiert|邦联的，联盟的|o
+konglomerat|联合企业，混合物 (das, 复数 Konglomerate)|o
+konkav|凹的|o
+konsultieren|咨询，请教|v
+kopplung|耦合，连接 (die, 复数 Kopplungen)|o
+kosmetik|化妆品，美容 (die, 无复数)|o
+kosmonaut|宇航员 (苏联/俄罗斯) (der, 复数 Kosmonauten)|o
+kuscheln|依偎，搂抱|v
+lesotho|莱索托|o
+machbarkeitsstudie|可行性研究 (die, 复数 Machbarkeitsstudien)|o
+malaysisch|马来西亚的|o
+mogeln|作弊，耍小花招|v
+monstrum|怪物，庞然怪物 (das, 复数 Monstren)|o
+motten|蛾子 (die, 复数); 封存，闲置|o;v
+paschtune|普什图人 (der, 复数 Paschtunen)|o
+pflanzenfresser|食草动物 (der, 复数 Pflanzenfresser)|o
+pflaume|李子 (die, 复数 Pflaumen)|o
+pyrenäen|比利牛斯山脉|o
+reißverschluss|拉链 (der, 复数 Reißverschlüsse)|o
+revanche|报复，复仇 (die, 复数 Revanchen); 复赛|o;o
+revisionismus|修正主义 (der, 无复数)|o
+rippchen|小肋骨 (das, 复数 Rippchen); 小排骨|o;o
+ritterlich|骑士风度的，侠义的|o
+sadistisch|虐待狂的，施虐的|o
+schaltung|电路 (die, 复数 Schaltungen); 换挡|o;o
+schlitzen|切开，割开|v
+schokoriegel|巧克力棒 (der, 复数 Schokoriegel)|o
+selbstständigkeit|独立 (die, 无复数); 自主创业|o;o
+solang|只要，在……期间 (solange 的变体)|o
+sternchen|小星星 (das, 复数 Sternchen); 星号|o;o
+streuner|流浪者，流浪动物 (der, 复数 Streuner)|o
+sägen|锯|v
+tamile|泰米尔人 (der, 复数 Tamilen)|o
+tatare|鞑靼人 (der, 复数 Tataren)|o
+traber|快步马 (马) (der, 复数 Traber)|o
+triftig|有力的，充分的|o
+unangetastet|原封未动的，完好无损的|o
+unantastbar|不可侵犯的，神圣不可侵犯的|o
+vandalismus|故意破坏公物 (der, 无复数)|o
+verewigen|使永存，使不朽; sich verewigen: 留名，留下印记|v;n
+verpflegung|伙食，膳食供应 (die, 无复数)|o
+versorger|供应者，供给方 (der, 复数 Versorger)|o
+veterinär|兽医的; 兽医 (der, 复数 Veterinäre)|o;o
+videoclip|视频短片 (der, 复数 Videoclips)|o
+weihnachtstag|圣诞节 (der, 复数 Weihnachtstage)|o
+wiedereinsetzung|复职，恢复原状 (die, 复数 Wiedereinsetzungen)|o
+wiedererlangung|重新获得，恢复 (die, 无复数)|o
+wächterin|女守卫，女看守 (die, 复数 Wächterinnen)|o
+zellmembran|细胞膜 (die, 复数 Zellmembranen)|o
+ölen|上油，涂油|v
+abstrahieren|抽象化，概括|v
+affekt|情绪，激动 (der, 复数 Affekte)|o
+agnostisch|不可知论的|o
+ambiguität|歧义，模棱两可 (die, 复数 Ambiguitäten)|o
+amöbe|变形虫 (die, 复数 Amöben)|o
+antikommunistisch|反共的|o
+antilope|羚羊 (die, 复数 Antilopen)|o
+antizipieren|预料，预见|v
+aroma|香气，风味 (das, 复数 Aromen)|o
+arretierung|锁定，固定 (die, 复数 Arretierungen); 逮捕|o;o
+askese|禁欲，苦行 (die, 无复数)|o
+atheistisch|无神论的|o
+ausschaltung|消除，排除 (die, 无复数); 关闭|o;o
+ausschüttung|分配，分红 (die, 复数 Ausschüttungen); 释放|o;o
+australopithecus|南方古猿 (der, 复数 Australopithecinen)|o
+axiom|公理 (das, 复数 Axiome)|o
+barrikade|路障，街垒 (die, 复数 Barrikaden)|o
+bekehrung|皈依，改宗 (die, 复数 Bekehrungen)|o
+bespannen|蒙上，装弦|v
+beurlauben|准假; 停职|v;v
+bewaffnen|武装|v
+biochemisch|生物化学的|o
+bka|联邦刑事警察局 (das, 无复数)|o
+blinddarm|阑尾 (der, 复数 Blinddärme)|o
+brikett|煤砖 (das, 复数 Briketts)|o
+bückeburg|比肯堡|o
+chengdu|成都|o
+despotisch|专制的，暴虐的|o
+dickdarm|大肠 (der, 复数 Dickdärme)|o
+dreimonatig|三个月的|o
+dreistellig|三位数的|o
+dreitägig|三天的|o
+dschibuti|吉布提|o
+dukat|杜卡特金币 (der, 复数 Dukaten)|o
+dysfunktion|功能障碍 (die, 复数 Dysfunktionen)|o
+editieren|编辑|v
+ehrenkodex|荣誉准则 (der, 复数 Ehrenkodizes)|o
+eigennutz|私利，自私 (der, 无复数)|o
+einhellig|一致的，全体一致的|o
+elektroschock|电击 (der, 复数 Elektroschocks)|o
+epileptisch|癫痫的|o
+erdreich|土壤，泥土 (das, 无复数)|o
+erektion|勃起 (die, 复数 Erektionen)|o
+erhängen|绞死 (处决); sich erhängen: 上吊自尽|v;n
+esoterisch|深奥的，神秘主义的|o
+extrakt|提取物，萃取物 (der, 复数 Extrakte)|o
+fadenscheinig|站不住脚的，磨破的|o
+farblich|颜色方面的，在色彩上|o
+feudalismus|封建制度 (der, 无复数)|o
+fibel|识字课本，启蒙读物 (die, 复数 Fibeln)|o
+finne|芬兰人 (der, 复数 Finnen)|o
+flötenspieler|长笛演奏者 (der, 复数 Flötenspieler)|o
+fmri|fMRI (功能性磁共振成像)|o
+fremdheit|陌生感，异质性 (die, 无复数)|o
+fünfeinhalb|五个半|o
+gefügig|顺从的，温顺的|o
+geradlinig|直率的，坦率的; 线性的|o;o
+gezänk|争吵不休 (das, 无复数)|o
+grat|山脊 (der, 复数 Grate)|o
+guru|古鲁，精神导师 (der, 复数 Gurus)|o
+hadith|圣训 (der, 复数 Hadithe)|o
+hebung|提高，抬升 (die, 复数 Hebungen)|o
+herablassend|居高临下的，傲慢的|o
+herrchen|狗的主人 (das, 复数 Herrchen)|o
+hervorhebung|强调，突出 (die, 复数 Hervorhebungen)|o
+heuern|雇用 (水手)，应募上船|v
+himalaja|喜马拉雅山脉|o
+hochtrasse|高架公路或铁路 (die, 复数 Hochtrassen)|o
+holographisch|全息的|o
+holprig|崎岖的，颠簸的; 磕磕绊绊的|o;o
+holzfäller|伐木工 (der, 复数 Holzfäller)|o
+hypertext|超文本 (der, 复数 Hypertexte)|o
+idiotin|蠢女人，白痴 (女) (侮辱) (die, 复数 Idiotinnen)|o
+ingwer|姜 (der, 无复数)|o
+insolvenzverfahren|破产程序 (das, 复数 Insolvenzverfahren)|o
+ionisch|爱奥尼亚的，爱奥尼式的|o
+karitativ|慈善的|o
+kausalität|因果关系 (die, 无复数)|o
+klack|咔嗒声，啪嗒声|o
+klamm|潮湿的，湿冷的; 手头拮据的; 峡谷，深谷 (die, 复数 Klammen)|o;o;o
+klaps|轻拍，轻打 (der, 复数 Klapse)|o
+klausur|笔试，闭卷考试 (die, 复数 Klausuren); 隐居|o;o
+kleiber|普通䴓 (der, 复数 Kleiber)|o
+klitzeklein|小小的，极小的|o
+kohlenstoffatom|碳原子 (das, 复数 Kohlenstoffatome)|o
+kolonisation|殖民 (die, 复数 Kolonisationen)|o
+koloss|巨人，庞然大物 (der, 复数 Kolosse)|o
+konfigurieren|配置|v
+kontern|反驳，反击|v
+kreationismus|神创论 (der, 无复数)|o
+kuhdung|牛粪 (der, 无复数)|o
+legionär|军团士兵 (der, 复数 Legionäre)|o
+lesbar|可读的，清晰易读的|o
+limbisch|边缘的|o
+managerin|女经理 (die, 复数 Managerinnen)|o
+meme|网络迷因，梗 (das, 复数 Meme)|o
+millennial|千禧一代 (der/die, 复数 Millennials)|o
+minütig|……分钟的 (如 fünfminütig)|o
+mittelmäßigkeit|平庸 (die, 无复数)|o
+modernismus|现代主义 (der, 无复数)|o
+mta|MTA (医学技术助理) (der/die, 复数 MTAs)|o
+möhre|胡萝卜 (die, 复数 Möhren)|o
+müsli|穆斯里，麦片 (das, 复数 Müslis)|o
+narzisst|自恋者 (der, 复数 Narzissten)|o
+nippel|螺纹接头 (管件) (der, 复数 Nippel); 乳头 (口语)|o;o
+notbremse|紧急制动，紧急刹车 (die, 复数 Notbremsen)|o
+notorisch|臭名昭著的; 惯常的|o;o
+nötigung|胁迫，强迫 (die, 复数 Nötigungen)|o
+objektivität|客观性 (die, 无复数)|o
+onkologie|肿瘤学 (die, 无复数)|o
+paddel|桨 (das, 复数 Paddel)|o
+passé|过时的，落伍的|o
+pazifismus|和平主义 (der, 无复数)|o
+pendler|通勤者 (der, 复数 Pendler)|o
+phage|噬菌体 (der, 复数 Phagen)|o
+pharmakonzern|制药公司 (der, 复数 Pharmakonzerne)|o
+pilotin|女飞行员 (die, 复数 Pilotinnen)|o
+polarität|极性，两极性 (die, 复数 Polaritäten)|o
+potent|强有力的，有影响力的; 富有的|o;o
+prestigeträchtig|声望很高的，有威望的|o
+profilieren|赋予轮廓; sich profilieren: 树立名声，出人头地|v;n
+psychoanalytiker|精神分析师 (der, 复数 Psychoanalytiker)|o
+pufferzone|缓冲区 (die, 复数 Pufferzonen)|o
+pulsieren|搏动，跳动|v
+radikalisieren|使激进化|v
+ranke|卷须，藤蔓 (die, 复数 Ranken)|o
+rar|稀少的，罕见的|o
+reiterin|女骑手 (die, 复数 Reiterinnen)|o
+respektlosigkeit|不尊重，无礼 (die, 复数 Respektlosigkeiten)|o
+richterlich|法官的，司法的|o
+rodung|开垦，砍伐森林 (die, 复数 Rodungen)|o
+rune|卢恩字母，北欧古文字 (die, 复数 Runen)|o
+rückruf|回电 (der, 复数 Rückrufe); 召回|o;o
+rückschluss|推断，结论 (der, 复数 Rückschlüsse)|o
+sabbern|流口水|v
+saisonal|季节性的|o
+saturn|土星|o
+sauerei|肮脏，一团糟 (口语) (die, 复数 Sauereien); 丑闻，可恶之事 (口语)|o;o
+schmelztiegel|大熔炉，坩埚 (der, 复数 Schmelztiegel)|o
+schmierig|油腻的; 谄媚的，油滑的|o;o
+schnippen|弹，打响指|v
+schnuppern|嗅，闻|v
+schnörkel|花饰，花体装饰 (der, 复数 Schnörkel)|o
+schulabbrecher|辍学者 (der, 复数 Schulabbrecher)|o
+schwarzschildradius|史瓦西半径 (der, 复数 Schwarzschildradien)|o
+schöffe|参审员 (der, 复数 Schöffen)|o
+scientologe|山达基信徒 (der, 复数 Scientologen)|o
+screenshot|截图 (der, 复数 Screenshots)|o
+sechsmonatig|六个月的|o
+seinetwegen|因为他，为了他|o
+selektieren|挑选，筛选|v
+skrupel|顾虑，良心不安 (der, 复数 Skrupel)|o
+solarkollektor|太阳能集热器 (der, 复数 Solarkollektoren)|o
+spektroskopie|光谱学 (die, 无复数)|o
+spieldynamik|游戏动态 (die, 复数 Spieldynamiken)|o
+spinat|菠菜 (der, 无复数)|o
+sprech|说吧！ (sprechen 的命令式词干)|o
+statist|群众演员，龙套 (der, 复数 Statisten)|o
+steuerpflichtig|应纳税的|o
+straßensperre|路障 (die, 复数 Straßensperren)|o
+streiterei|争吵，口角 (die, 复数 Streitereien)|o
+subjektivität|主观性 (die, 无复数)|o
+testamentsvollstrecker|遗嘱执行人 (der, 复数 Testamentsvollstrecker)|o
+traditionalist|传统主义者 (der, 复数 Traditionalisten)|o
+trampolin|蹦床 (das, 复数 Trampoline)|o
+treuhänder|受托人 (der, 复数 Treuhänder)|o
+tuilerien|杜伊勒里宫|o
+unaufrichtig|不真诚的，虚伪的|o
+unbeschwert|无忧无虑的|o
+undurchführbar|行不通的，无法实施的|o
+unfertig|未完成的; 不成熟的|o;o
+ungar|匈牙利人 (男) (der, 复数 Ungarn)|o
+ungeahnt|意想不到的，未曾料到的|o
+universalität|普遍性 (die, 无复数)|o
+unmenschlich|不人道的，非人的|o
+untauglich|不适合的，不称职的|o
+unvergesslich|难忘的|o
+urgroßmutter|曾祖母 (die, 复数 Urgroßmütter)|o
+verdichtung|压缩，浓缩 (die, 复数 Verdichtungen)|o
+verdunstung|蒸发 (die, 无复数)|o
+verflüchtigt|已挥发的，已消失的|o
+verführung|诱惑，引诱 (die, 复数 Verführungen)|o
+verkürzung|缩短，简化 (die, 复数 Verkürzungen)|o
+verschanzen|sich verschanzen: 据守，固守，筑起防线|n
+veruntreuung|侵占，挪用公款 (die, 复数 Veruntreuungen)|o
+verwüsten|蹂躏，摧毁|v
+vollständigkeit|完整性 (die, 无复数)|o
+vorgängerin|女前任 (die, 复数 Vorgängerinnen)|o
+wilderei|偷猎 (die, 无复数)|o
+windturbine|风力涡轮机 (die, 复数 Windturbinen)|o
+wohnheim|宿舍 (das, 复数 Wohnheime)|o
+ölkonzern|石油公司 (der, 复数 Ölkonzerne)|o
+ölpest|石油泄漏 (die, 无复数)|o
+öltröpfchen|油滴 (das, 复数 Öltröpfchen)|o
+übertretung|违反，违规 (die, 复数 Übertretungen)|o
+weniger|较少，更少; 减去|o;o
+lauter|全是，尽是 (用于名词前); 更响的|o;o
+bestes|最好的; 尽力 (sein Bestes)|o;o
+süßer|甜的，更甜的; 亲爱的 (称呼)|o;o
+heiliger|圣人 (ein Heiliger); 神圣的|o;o
+vereinigten|联合的; Vereinigten Staaten: 美国; Vereinigten Königreich / Vereinigten Königreichs: 英国; 他们联合了|o;n;n;f3p
+zweiter|第二|o
+wolle|羊毛 (die, 无复数); 他/她想要，我想要 (间接引语)|o;f3s
+fremder|陌生人，外国人 (ein Fremder); 外国的，陌生的，不熟悉的|o;o
+achte|第八; 我尊重; achte auf: 要注意|o;f1s;n
+loser|失败者 (口语) (der, 复数 Loser); 松的 (lose 的变形)|o;o
+herrschaften|各位先生女士 (meine Herrschaften); 统治 (die Herrschaft 的复数)|o;o
+geliebter|情人 (ein Geliebter); 亲爱的，被爱的|o;o
+kürze|简短 (die, 无复数); in Kürze: 不久，很快; 我缩短|o;n;f1s
+schoß|膝上 (der, 复数 Schöße); 我/他/她射击了 (schoss 的旧拼写)|o;f1s
+weste|背心 (die, 复数 Westen); weiße Weste: 清白记录|o;n
+wärme|温暖，热 (die, 无复数); 我加热|o;f1s
+verlobter|未婚夫 (ein Verlobter); 已订婚的|o;o
+mais|玉米 (der, 无复数)|o
+dauer|持续时间，时长 (die, 无复数); auf Dauer: 长期，持久地|o;n
+anstelle|代替 (+ 二格)|o
+bekannter|熟人，朋友 (ein Bekannter); 知名的，著名的; 更有名的|o;o;o
+abreise|离开，出发 (die, 复数 Abreisen)|o
+schweiß|汗 (der, 无复数)|o
+schuft|恶棍，坏蛋 (der, 复数 Schufte)|o
+letzter|最后的，最近的|o
+bedacht|谨慎的，周到的; darauf bedacht: 一心想要，注重; 被考虑的 (bedenken 的变形)|o;n;o
+rast|休息，歇脚 (旅途中) (die, 复数 Rasten); 他/她飞驰，疾驶|o;f3s
+begabt|有天赋的|o
+begehrt|抢手的，受欢迎的，令人垂涎的|o
+puste|气息，喘气 (口语) (die, 无复数); außer Puste: 上气不接下气|o;n
+sekte|教派，邪教 (die, 复数 Sekten)|o
+beschämt|羞愧的|o
+angestellter|职员，雇员 (ein Angestellter)|o
+verwandter|亲戚 (ein Verwandter); 有亲缘关系的|o;o
+berechtigt|有权 (做)的; 有道理的|o;o
+überholt|过时的，陈旧的; 被超过的; 被彻底检修的|o;o;o
+gekonnt|熟练的，高超的; 能够 (können 的过去分词)|o;o
+vergnügt|愉快的，兴高采烈的|o
+floß|木筏 (das, 复数 Flöße); 他/她流动了 (floss 的旧拼写)|o;f3s
+kröten|蟾蜍 (die Kröte 的复数); 钱 (口语)|o;o
+zustande|zustande kommen: 成功实现，发生; zustande bringen: 促成，完成|n;n
+geborgen|安全的，受庇护的; 获救的，被救出的|o;o
+linker|左边的 (手，侧); 左翼的; 左派人士 (ein Linker)|o;o;o
+lumpen|破布，破衣烂衫 (der, 复数 Lumpen); 无赖 (der Lump 的复数)|o;o
+ältester|最年长的，最老的|o
+siebte|第七|o
+pole|波兰人 (der, 复数 Polen)|o
+vergebens|徒劳地|o
+dürre|旱灾 (die, 复数 Dürren); 干燥的，干旱的; 瘦削的|o;o;o
+überzogen|过分的，夸张的; 透支的; 覆盖的，涂了一层的|o;o;o
+ferner|此外，再者; 更远的|o;o
+starre|僵硬的，呆板的 (starr 的变形); 僵硬 (die, 无复数); 我凝视|o;o;f1s
+sankt|圣 (用于名字前)|o
+franken|法郎 (der, 复数 Franken); 弗兰肯 (地区); 法兰克人，弗兰肯人 (der Franke 的复数)|o;o;o
+teils|部分地; teils … teils: 一部分……一部分……|o;n
+gläubiger|债权人 (der, 复数 Gläubiger); 信徒 (ein Gläubiger); 虔诚的，信教的 (gläubig 的变形)|o;o;o
+distanziert|冷淡的，保持距离的，矜持的; sich distanzieren von: 与……划清界限|o;n
+gewandt|灵巧的，熟练的; 转向了 (wenden 的过去分词)|o;o
+klaue|爪子 (die, 复数 Klauen); 我偷，我顺手拿 (口语)|o;f1s
+verlies|地牢 (das, 复数 Verliese)|o
+anstieg|上升，增加 (der, 复数 Anstiege); 登上，上坡; 它上升了，它增加了|o;o;f3s
+vereinigte|联合的; Vereinigte Königreich: 英国; Vereinigte Staaten: 美国; 他/她联合了|o;n;n;f3s
+stütze|支撑，支柱 (die, 复数 Stützen); 我支持|o;f1s
+fülle|丰富，大量 (die, 无复数); in Hülle und Fülle: 极其丰富; 我装满|o;n;f1s
+beamter|公务员，官员 (ein Beamter)|o
+anlaß|场合 (Anlass 的旧拼写) (der, 复数 Anlässe); 原因|o;o
+aufschrei|喊叫，尖叫 (der, 复数 Aufschreie); 强烈抗议|o;o
+absage|拒绝，回绝 (die, 复数 Absagen); 取消|o;o
+reisender|旅行者，乘客 (ein Reisender)|o
+bleiche|苍白的 (bleich 的变形); 我漂白|o;f1s

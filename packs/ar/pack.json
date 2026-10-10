@@ -1,16 +1,16 @@
 {
   "id": "ar",
-  "version": "1.0.81",
+  "version": "1.0.98",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "4b7786a3cb6833989964ee5b3ea0a5946f198bca0507749466353e7bfd96bf83"
+      "sha256": "98bafef27acc5cffc8ad952c15ff5c61e26ff7ac3030c3f7ea545059270166fd"
     },
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "3e034a49a9fa7a6b4dea5fdd53afbcbc03bfe2e5639ee245b66a73926beea6b2"
+      "sha256": "5c9ef41bfbfdf2d29f3d6f4abfafdbfbb6913737a0d95df3c48b7cb5a953de4e"
     },
     "ranks": {
       "path": "ranks.txt",
@@ -25,7 +25,7 @@
     "readings": {
       "path": "readings.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "4cb8faba411e82e734bdf7e3c6b9edf60584351063adbaafcc16d015ab7cc7b5"
+      "sha256": "1b5b5a21c4988ca591df2c15fd26b157a4b7a271a64c98572b9dad92fff31fc4"
     },
     "learner": {
       "path": "learner.txt",
@@ -40,7 +40,7 @@
     "gloss.id": {
       "path": "gloss.id.txt",
       "license": "unencumbered",
-      "sha256": "ff6c72daeb20dc3f7b9fee622af01cbae96716469e25266ca9a66155fa1f6596"
+      "sha256": "abd228808ad60098d06044f1d9e83698b6a5f39b8aff94b8b49f111f09c38a2b"
     },
     "phrases": {
       "path": "phrases.txt",
@@ -65,7 +65,7 @@
     "gloss.es": {
       "path": "gloss.es.txt",
       "license": "unencumbered",
-      "sha256": "ff69362dbbb4932fd5b88eb754100a9ef9424f4703a82360d3a87085b87f29a5"
+      "sha256": "e84401e3e578f0aecc56ce5ce430e95ef3eac5b85dd8fd0fe692ee61e5bfdd86"
     },
     "phrases.fr": {
       "path": "phrases.fr.txt",
@@ -75,7 +75,7 @@
     "gloss.fr": {
       "path": "gloss.fr.txt",
       "license": "unencumbered",
-      "sha256": "5e3462d24d60c490c10fe7ebe83b00bd9f23ef10d5d1999cff569c6b195e997f"
+      "sha256": "2da6ec7220fd6adba99227180d7591c4226a4b5fb6119a8fbd4c9b7dd00c91e1"
     },
     "phrases.pt": {
       "path": "phrases.pt.txt",
@@ -85,7 +85,7 @@
     "gloss.pt": {
       "path": "gloss.pt.txt",
       "license": "unencumbered",
-      "sha256": "6ac558d574c731d5af97c6db5ba967f2518b212bd8d31d043b95dca335a59c23"
+      "sha256": "bb839311aa0110da0f2a98f9df1fccf79955ee164bbd052f6a879a7ab0ad9ca2"
     },
     "letters": {
       "path": "letters.txt",
