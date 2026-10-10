@@ -1,31 +1,31 @@
 {
   "id": "pt",
-  "version": "1.1.61",
+  "version": "1.1.75",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "b9bf9a340c240fc722647753a9d73afeffe3306005cda6764536863bb2f0ff11"
+      "sha256": "4b5b7150c2da6702071d097830fd03f8c181abc523abe97243165020412ada0e"
     },
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "43405004744308bf25492298cfa55c97e7af660591913693bce072f6b9b0582a"
+      "sha256": "8df43817935470b16426e6818cd76e1808c4d6507cccc03be45e0fa736670765"
     },
     "ranks": {
       "path": "ranks.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "056fbf78e40a71a1963b79df6f0be303fb4d1c978f96072b50f1305ea0c3e5d6"
+      "sha256": "d33a9fe24910043511ac6a1ffda00b84cd0ced60930ec63f3514b660588210df"
+    },
+    "lemmas": {
+      "path": "lemmas.txt",
+      "license": "ODbL-1.0",
+      "sha256": "302c98e38ab5ba167d1bdfd515da27b25ea0f2e9b265eb019469066dc49c5743"
     },
     "learner": {
       "path": "learner.txt",
       "license": "CC-BY-SA-4.0",
       "sha256": "64bf6fe69d76c3f7233b36578af64fafbea83f055c26a5d181105c4967ae949c"
-    },
-    "lemmas": {
-      "path": "lemmas.txt",
-      "license": "ODbL-1.0",
-      "sha256": "a34c39c3a94b03e45cfbe5c0822a8e9032ac15fe9de41ae3e619746d72d5052c"
     },
     "sample": {
       "path": "sample.txt",
@@ -50,12 +50,12 @@
     "gloss.id": {
       "path": "gloss.id.txt",
       "license": "unencumbered",
-      "sha256": "267a4e94bb765de1787fc7db0567ab348be7537e0ce3219df524138b18b5a484"
+      "sha256": "d88bb4de098cf64a898a3ac9416557c683bee9ab2d8a83851224145a0246b456"
     },
     "gloss.es": {
       "path": "gloss.es.txt",
       "license": "unencumbered",
-      "sha256": "6d62dcdc172962e1ad8956d2b1b750e8bad02a27d330b89617202801f5eacd70"
+      "sha256": "bf282c5203e8b957eb99a245530f87c7b6a5330ff7bbc0fc751a4faa962b4c83"
     },
     "phrases.es": {
       "path": "phrases.es.txt",
@@ -70,7 +70,7 @@
     "gloss.fr": {
       "path": "gloss.fr.txt",
       "license": "unencumbered",
-      "sha256": "8bbda3a7b024879a375d7df24b508e68e7fa6793a4c114a027495658298dad44"
+      "sha256": "48778a087e09e7a0bcb705a7da72987e6fc94d33512c4a0f2eead555be69b477"
     },
     "letters": {
       "path": "letters.txt",

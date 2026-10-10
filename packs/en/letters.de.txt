@@ -1,0 +1,59 @@
+# Tinta — wie die englischen Buchstaben klingen, für Leser des Deutschen.
+# Diese Datei ist eigene Arbeit des Projekts: frei von Rechten Dritter.
+# key|context|note
+#   context  leer für den Buchstaben im Allgemeinen; sonst die Stelle im Wort,
+#            für die die Notiz gilt: end, start, between (zwischen zwei Vokalen),
+#            beforefront (vor e, i und Ähnlichem), beforevowel, aftervowel. Die
+#            Engine findet heraus, wo ein Buchstabe steht; die erste passende
+#            Angabe gilt.
+# Für diese Leser geschrieben, nicht übersetzt: Vergleiche mit deutschen Wörtern.
+a||kurz, zwischen a und ä: cat; ei wie in Wein, wenn ein e das Wort schließt
+a|penult+before:tion|ei wie in Wein: nation, station (bei ration oft kurzes a)
+a|antepenult+before:tion|ei wie in Wein: nations, stations (bei ration oft kurzes a)
+b||b wie in Boot, mit fest geschlossenen Lippen
+c||k wie das c in Café
+c|beforefront|stimmloses s wie in Bus oder Haus: cinema, city
+d||d wie in Dach, am Wortende nicht wie t
+e||kurzes e wie in Bett; i wie in Biene bei be und me
+e|end|meist stumm; der Vokal davor wird wie sein Name gesprochen: make, home
+f||f wie in Feuer
+g||g wie in Gabel
+g|beforefront|oft wie dsch in Dschungel (gem), aber nicht in get und give
+h||ein leichter Hauch wie das h in Haus, nie wie ch
+i||kurzes offenes i wie in bitte: sit; ai wie in Mai: time
+j||wie dsch in Dschungel: jam, nicht wie das deutsche j
+k||k wie in Kind; stumm vor n: know
+l||l wie in Land; am Silbenende dunkler, die Zunge weiter hinten; stumm vor k, m, f oder d in manchen Wörtern: walk, calm, half, could
+m||m wie in Mann
+n||n wie in Nase
+o||kurzes offenes o wie in Gott: hot; ou, ein o das nach u hin schließt: home
+p||p wie in Papa, mit einem kleinen Luftstoß
+q||nur in qu
+r||kein deutsches r: die Zunge nach hinten gebogen, ohne Gaumen oder Zäpfchen zu berühren
+r|end|nach Vokal im britischen Englisch stumm: car; im amerikanischen wird es gesprochen
+s||s wie in Bus; oft stimmhaft wie das s in Sonne: is
+s|end|s wie in Haus, oder stimmhaft mit Summen: cats, dogs
+t||t wie in Tag, mit einem kleinen Luftstoß; in manchen Wörtern stumm vor -en oder -le: listen, castle
+u||kurzes dunkles a: cut; u wie in Mut: rule; ju, wie j und u in Juli: use
+v||wie das w in Wasser, nicht wie das deutsche v in Vater
+w||wie ein kurzes u mit gerundeten Lippen, nicht das deutsche w (das ist englisch v): water; stumm vor r: write
+x||ks wie in Hexe
+y||wie das deutsche j in Jahr
+y|afterconsonant+beforeconsonant|Vokal zwischen Konsonanten: kurzes i in gym, myth, system; langes ai in type, style, cycle
+y|end+afterconsonant|Vokal am Ende: i in happy, ai in my
+z||stimmhaftes s wie in Sonne, nicht wie das deutsche z: zzz
+th||das Deutsche hat diesen Laut nicht: die Zungenspitze leicht zwischen die Zähne und hauchen (think), stimmhaft mit Summen in this
+sh||sch wie in Schule
+ch||tsch wie in Matsch: chair; k in school, sch in chef
+ph||f wie in Telefon
+wh||wie ein kurzes u, nicht das deutsche w: what; h wie in Haus in who
+ck||k wie in Rock; der Vokal davor ist kurz
+ng||ng wie in lang, ohne ein g dahinter: sing; in finger, longer und English hört man ein g danach
+qu||kw wie in Quelle: quick
+ee||langes i wie in Biene
+oo||langes u wie in Mut: food; kurz wie in book
+igh||ai wie in Mai; das gh ist stumm: light, night, high
+tion||etwa wie "schn" in nation; das t klingt wie sch
+tch||tsch wie in Matsch: watch; ein einziger Laut, nicht t und ch getrennt
+dge||dsch wie in Dschungel: bridge; ein einziger Laut, und das e ist stumm
+ough||je nach Wort verschiedene Laute: langes u in through, o das nach u schließt in though, offenes o in thought, "aff" in enough, "off" in cough
