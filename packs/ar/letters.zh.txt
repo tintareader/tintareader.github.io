@@ -1,0 +1,61 @@
+# Tinta — what the Arabic letters sound like, for a reader of Chinese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: sun, article (Arabic's al-), end, start,
+#            lastsyllable (the last vowel of several), between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Mandarin sounds and pinyin.
+ا||长音 a，拖长：介于“啊”和英语 bad 的 a 之间; 在重辅音、q 或 r 旁边更靠后，偏向“奥”; 在词首它承载一个短元音
+ا|start|在词首只是短元音 a、i 或 u 的“座位”，不读长音 ā
+ا|article|冠词 al-（“这个”）的 a：句首读出，前面有元音时省去 (fi l-bayt)
+ا|end|词尾的长音 ā (hunā); 在名词最后一个字母后常表示词尾 -an (kitāban，“一本书”)
+ب||像拼音的 b，但声带振动，双唇闭紧
+ت||像拼音的 d（不送气），舌尖抵上齿背
+ث||汉语没有：舌尖放在上下齿之间吹气，像英语 think 的 th
+ج||像拼音的 j，但声带振动 (英语 jam); 埃及读成 g，如英语 go; 黎巴嫩和叙利亚读成英语 pleasure 里的 s
+ح||汉语没有：喉咙收紧，用力呼出的 h，比拼音的 h 更紧，但没有摩擦的“喀”声
+خ||像拼音的 h，如“喝”，喉部摩擦较重
+د||像拼音的 d，但声带振动，舌尖抵上齿背
+ذ||汉语没有：舌尖放在上下齿之间，声带振动，像英语 this 的 th
+ر||舌尖轻弹一下的 r，像快速说的“得”; 写成双字母时是连续颤动的大舌音
+ز||像英语 zoo 的 z：声带振动的 s，像蜜蜂的“嗡嗡”
+س||像拼音的 s，如“丝”
+ش||像拼音的 sh，但舌头不卷，像“嘘!”
+ص||“重”的 s：发 s 时舌根抬起; 使旁边的元音变暗，a 偏向“奥”
+ض||“重”的 d：发 d 时舌根抬起; 使旁边的元音变暗，a 偏向“奥”
+ط||“重”的 t：发 t 时舌根抬起，不送气; 使旁边的元音变暗，a 偏向“奥”
+ظ||“重”的 ذ：舌尖在齿间、舌根抬起; 使旁边的元音变暗; 很多人读成“重”的 z
+ع||汉语没有：ح 的浊音，喉咙收紧同时声带振动，像被掐住的“啊”
+غ||声带振动的“喝”：舌根靠近软腭漱口般发音，像法语的 r
+ف||像拼音的 f
+ق||比拼音的 k 更靠后的 k，舌根抵住小舌，不送气; 使旁边的元音变暗
+ك||像拼音的 k，如“开”
+ل||像拼音的 l
+ل|sun|冠词 al-（“这个”）的 l，被后一个字母同化：读 ash-shams，不读 al-shams
+ل|article|冠词 al-（“这个”）的 l：al-kitāb
+م||像拼音的 m
+ن||像拼音的 n
+ه||轻轻呼气的 h，比拼音的 h 软，没有摩擦; 词尾也要读出来
+و||半元音 w，如“我”; 或长音 u，如“乌”
+ي||半元音 y，如“呀”; 或长音 i，如“衣”
+ء||声门塞音：气流突然一断，像“啊、啊”两个字之间的停顿
+أ||先断一下气，再读 a 或 u
+إ||先断一下气，再读 i
+آ||先断一下气，再读长音 a
+ؤ||断一下气，写在 wāw 上
+ئ||断一下气，写在 yāʾ 上
+ة||词尾读 -a (madrasa，“学校”); 后面接词尾或另一个名词时读 -at (madrasatī，“我的学校”)
+ى||词尾的长音 a：没有点的 ي (ʻalā，“在……上”)
+َ||短音 a，像“啊”，标在字母上方; 在重辅音、q 或 r 旁边偏向“奥”
+ُ||短音 u，像“乌”，标在字母上方
+ِ||短音 i，像“衣”，标在字母下方
+ْ||无元音：带这个符号的字母结束音节
+ّ||字母读两遍：辅音在口中多停留一拍，像“安那”连读时的 n (ḥubb，“爱”)
+ً||词尾读 -an (shukran); 通常后面写一个 alif
+ٌ||词尾读 -un：非确指名词的词尾 (kitābun，“一本书”)
+ٍ||词尾读 -in：同一个词尾在介词之后的形式
+# A tile's label for the two marks that have no sound of their own
+ْ|tile|无元音
+ّ|tile|双读

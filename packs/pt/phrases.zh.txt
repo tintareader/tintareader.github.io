@@ -1,0 +1,604 @@
+# What each Portuguese phrase in `phrases.txt` means, in Mandarin Chinese
+# (simplified characters).
+#
+# Format: pattern|gloss — joined to `phrases.txt` on the pattern. A pattern
+# this file does not explain falls back to `phrases.en.txt`, so a translation
+# in progress shows Chinese where it has one and English elsewhere.
+#
+# Hand-written, like `phrases.txt` and `phrases.en.txt` — dictgen does not
+# generate this file, it only carries it across into the manifest.
+#
+# Three rules, all inherited from the file this translates:
+#
+#   - The patterns on the left are the join key and must not change. A changed
+#     pattern is a phrase the app stops finding; an invented one is a phrase it
+#     hunts for and never finds.
+#   - The sense count must match `phrases.en.txt`. `;` separates senses and
+#     `,` joins near-synonyms inside one, exactly as in `gloss.zh.txt`.
+#   - `;` `( )` and `: ` are ASCII, never their fullwidth forms: the app scans
+#     for those exact characters to find where one sense ends and the next
+#     begins.
+#
+# Verbs are glossed as bare Chinese verbs — the English `to` has no counterpart
+# to carry across. Portuguese inside brackets, and a Portuguese key before
+# `: `, stay Portuguese. Register and region are marked the way gloss.zh.txt
+# marks them (口语, 粗俗, 巴西用法, 葡萄牙用法).
+
+# ---- 动词短语: 变位的是动词, 所以词组以不定式列出。
+ter que|必须, 得
+ter de|必须, 得
+acabar de|刚刚 (做了某事)
+começar a|开始 (做某事)
+parar de|停止 (做某事)
+deixar de|不再 (做某事), 停止; 未能, 没有做到
+voltar a|再次 (做某事), 重新
+continuar a|继续 (做某事)
+tratar de|处理, 照管; 关于, 讲的是
+dar para|可能, 能够; 朝向, 面对
+ter a ver com|与…有关
+estar de acordo|同意
+
+# ---- ter + 名词: 葡萄牙语用"有", 汉语常用形容词。
+ter razão|有道理, 说得对
+ter certeza|确定, 肯定
+ter medo|害怕
+ter cuidado|小心
+ter sorte|运气好
+ter fome|饿
+ter pressa|赶时间, 着急
+ter graça|有趣, 好笑
+ter jeito|有本事, 有窍门; 有办法解决
+ter saudade|想念 (某人, 某物)
+
+# ---- 其他轻动词习语。
+dar certo|成功, 顺利
+dar errado|出错, 失败
+dar uma olhada|看一看, 瞧一眼
+dar conta|应付, 搞定; 意识到
+dar em cima|勾搭, 搭讪 (某人)
+dar à luz|分娩, 生孩子
+fazer sentido|有道理, 说得通
+fazer as pazes|和好 (吵架后)
+valer a pena|值得
+vale a pena|值得
+prestar atenção|注意
+tomar conta|照看, 照顾; 接管, 占据
+tomar cuidado|小心, 当心
+ficar de olho|盯着, 留意
+perder a cabeça|发火, 失去理智
+calar a boca|闭嘴
+ir embora|走开, 离开
+se ferrar|倒霉, 完蛋; vá se ferrar: 滚开 (粗俗)
+
+# ---- 连接词和话语标记。
+no entanto|然而, 不过
+por isso|所以, 因此
+além disso|此外, 而且
+ou seja|也就是说, 换句话说
+quer dizer|也就是说; 我是说
+na verdade|其实, 事实上
+de fato|事实上, 确实
+de qualquer forma|无论如何, 反正
+de qualquer jeito|无论如何, 反正
+por acaso|是否碰巧, 难道; 偶然, 碰巧
+afinal de contas|毕竟, 归根结底
+apesar de|尽管, 虽然
+por causa de|因为, 由于
+a fim de|为了
+mesmo assim|即便如此
+ainda assim|即便如此, 仍然
+desde que|只要; 自从
+contanto que|只要
+para que|为了, 以便
+já que|既然
+uma vez que|既然, 鉴于
+pelo menos|至少
+ao menos|至少
+mais ou menos|大约, 差不多; 马马虎虎, 一般
+
+# ---- 写成两个词的疑问词和关系词。
+o que|什么; …的东西, 所…的
+por que|为什么
+por quê|为什么 (用于句末)
+que tal|…怎么样
+# ---- 情态和程度。
+com certeza|当然, 肯定
+claro que sim|当然
+claro que não|当然不
+é claro|当然
+de verdade|真的, 真正地
+nem sequer|甚至不, 连…都不
+nem mesmo|甚至不, 连…都不
+de jeito nenhum|绝不, 根本不
+cada vez mais|越来越
+prestes a|即将, 快要
+o mesmo|同样的, 同一个
+de acordo com|根据, 按照
+que nem|就像 (口语); 连…都不
+# ---- 时间和方式。
+de repente|突然; 也许 (口语)
+às vezes|有时
+de vez em quando|偶尔, 时不时
+de novo|再, 又
+mais uma vez|再一次
+outra vez|再, 又一次
+uma vez|一次
+agora mesmo|马上, 就现在; 刚才
+no momento|目前, 此刻
+no início|起初, 一开始; 在…之初
+no final|最后, 最终; 在…末尾
+em breve|不久, 很快
+o tempo todo|一直, 始终
+hoje em dia|如今, 现在
+ao mesmo tempo|同时
+por enquanto|暂时, 目前
+a tempo|及时
+em frente|向前, 往前直走
+em cima|在上面
+ao redor|周围, 在四周
+
+# ---- 字面意思猜不出的介词短语。
+graças a|多亏, 由于
+através de|通过, 经由
+a partir de|从 (某时) 起
+em vez de|代替, 而不是
+ao invés de|代替, 而不是
+
+# ---- 固定对话用语。
+por favor|请
+de nada|不客气; (关于) 无事, 没什么
+sinto muito|非常抱歉
+que pena|真可惜
+não importa|没关系, 不要紧
+tudo bem|好的, 没问题; 你好吗？
+com licença|劳驾, 借过, 对不起
+meu deus|我的天
+boa sorte|祝你好运
+bom dia|早上好
+boa tarde|下午好
+boa noite|晚上好; 晚安
+até logo|回头见
+até amanhã|明天见
+até mais|再见
+muito prazer|很高兴认识你
+não faz mal|没关系, 不要紧
+filho da puta|狗娘养的, 婊子养的 (粗俗)
+puta que pariu|他妈的, 操 (粗俗)
+
+# ==== 2026-09-23 扩充 (第四阶段): 由模型提出, 仅保留 `measure:phrase-fit` 在小说和
+# OPUS 中找到、且抽样句子中确为习语用法的词组。
+# ---- 动词短语和动词 + 介词
+acabar por|最终 (做了某事), 结果
+acabar com|结束, 终结, 干掉; 与…分手
+haver de|将要, 会; 必定, 应该 (há de ser); 有 (havia de + 名词, 如出了什么问题)
+tornar a|再次 (做某事), 重新
+pôr se a|开始, 着手
+ir ter com|去找, 去见 (葡萄牙用法)
+ouvir falar|听说 (过)
+ouvir dizer|听人说
+querer dizer|意思是, 意味着
+contar com|指望, 依靠
+dar se conta|意识到, 发觉
+tratar se de|涉及, 事关, 讲的是
+estar a fim|想要, 有兴致; 喜欢, 看上 (某人) (巴西用法)
+não ter como|没办法, 不可能
+não há como|没办法
+não poder deixar de|不得不, 忍不住 (做某事)
+não passar de|不过是, 只是
+não ver a hora|迫不及待
+tomara que|但愿
+quem me dera|要是…就好了, 但愿
+será que|不知道…是不是, 难道
+estar brincando|开玩笑
+estar a brincar|开玩笑 (葡萄牙用法); 在玩
+falar sério|说正经的, 认真; fala sério: 少来了, 别开玩笑了
+deixar cair|掉落, 弄掉
+deixar em paz|不打扰, 别管
+deixa pra lá|算了, 别管了
+deixa para lá|算了, 别管了
+deixa comigo|交给我吧
+pode deixar|交给我吧, 放心; (你) 可以放下, 可以离开
+mandar embora|打发走, 赶走; 解雇
+# ---- ter + 名词和 estar com + 名词
+ter sede|渴
+ter ideia|知道, 有概念
+ter a certeza|确定 (葡萄牙用法)
+ter vontade|想要, 有意
+ter vergonha|羞愧; 害羞
+ter culpa|有过错, 该负责
+ter lugar|举行, 发生; 有位置
+ter pena|同情, 可怜
+ter dó|同情, 可怜
+ter calma|保持冷静
+nada a ver|毫无关系; 胡扯, 没道理
+ter cara de|看起来像
+ter uma queda|暗恋 (某人); 摔倒
+estar com fome|饿
+estar com sede|渴
+estar com sono|困
+estar com medo|害怕
+estar com pressa|赶时间
+estar com frio|冷
+estar com raiva|生气
+estar com saudade|想念 (某人)
+morrer de fome|饿死; 饿极了
+morto de|…得要命 (morto de fome, de medo, de cansaço)
+# ---- dar
+dar um jeito|想办法解决, 搞定
+dar uma volta|散步, 兜风
+dar um tempo|休息一下; 给 (某人) 一些时间
+dar o fora|走开, 滚开; 甩掉 (某人)
+dar no pé|溜走, 开溜
+dar um pulo|顺便去一趟; 跳一下
+dar ouvidos|听从, 理会
+dar razão|认为 (某人) 有理, 赞同
+dar a entender|暗示, 使人明白
+dar as costas|转过身去, 不理
+dar de ombros|耸肩
+dar de cara com|碰见, 撞见
+dar uma de|装作, 扮演
+dar trabalho|费事, 麻烦
+dar vontade|让人想要
+dar medo|吓人
+dar nojo|令人恶心
+dar tempo|来得及 (dá tempo); 给时间
+dar com a língua nos dentes|泄露秘密, 说漏嘴
+dar o troco|报复, 以牙还牙; 找零钱
+dar a mínima|在乎 (não dar a mínima: 毫不在乎)
+dar no mesmo|结果一样, 都一样
+dar licença|允许, 让一让 (dá licença: 劳驾)
+dar ao luxo|dar-se ao luxo: 舍得, 能负担得起
+dar sorte|运气好; 带来好运
+dar azar|倒霉; 带来厄运
+dar cabo de|除掉, 干掉, 毁掉
+dar aula|教课, 上课
+# ---- fazer
+fazer falta|让人想念, 不可缺少
+fazer questão|坚持 (要), 一定要
+fazer de conta|假装
+fazer mal|有害, 对…不好; 做错
+fazer bem|对…有益; 做得对
+fazer ideia|知道, 有概念
+fazer caso|理会, 在意
+fazer anos|faz (dez) anos: (十) 年前; 满 (岁); 过生日 (葡萄牙用法)
+fazer as malas|收拾行李
+fazer a barba|刮胡子
+fazer uma pergunta|提问
+fazer frio|天冷
+fazer calor|天热
+fazer parte|是…的一部分, 属于
+fazer careta|做鬼脸
+fazer merda|搞砸 (粗俗)
+fazer o quê|有什么办法呢？; 做什么？
+fazer tempo|faz tempo: 很久以前, 好久了
+fazer muito tempo|faz muito tempo: 很久以前; 已经很久了
+fazer de bobo|愚弄, 耍
+# ---- ficar, estar
+ficar sabendo|得知, 听说
+ficar de pé|站起来, 站着
+ficar em pé|站起来, 站着
+ficar sem|用完, 没有了
+ficar bem|没事, 好起来; 合适, 好看
+ficar à vontade|别客气, 随意
+ficar tranquilo|放心, 别担心
+fica frio|冷静点, 别紧张
+estar de saída|正要出门
+estar por fora|不了解情况, 消息不灵通
+estar na hora|到时间了, 该 (做某事) 了
+está na hora|是时候了
+estar ferrado|完蛋了, 惨了
+estar a par|知情, 了解最新情况
+estar de olho|盯着, 留意
+estar nem aí|毫不在乎 (巴西用法)
+# ---- tomar, levar, pôr, tirar, meter, botar
+tomar banho|洗澡
+tomar um banho|洗个澡
+tomar café|喝咖啡; 吃早饭
+levar a cabo|实施, 完成
+levar a mal|见怪, 生气
+levar a sério|认真对待
+levar em conta|考虑到
+levar jeito|有天赋, 有窍门
+levar um tiro|中枪
+meter medo|吓唬, 令人害怕
+tirar uma foto|拍照
+tirar sarro|取笑, 开玩笑 (巴西用法)
+tirar proveito|利用, 从…中获益
+tirar uma soneca|打个盹, 小睡
+# ---- passar, cair, sair, pegar, bater, abrir 等动词
+passar mal|身体不适
+passar a perna|欺骗, 坑
+passar fome|挨饿
+passar pela cabeça|闪过脑海, 想到
+vir à tona|浮出水面, 暴露出来
+vir ao caso|相关, 切题
+cair bem|合适, 受欢迎
+cair na real|面对现实, 醒悟
+cair fora|走开, 滚开
+cair no sono|睡着
+pegar no sono|睡着
+pegar fogo|着火
+pega leve|悠着点, 别太过分
+pegar o jeito|掌握窍门
+bater papo|聊天
+bater palmas|鼓掌
+abrir mão|放弃 (abrir mão de)
+abrir o jogo|坦白, 说实话
+correr bem|进展顺利 (葡萄牙用法)
+correr atrás|追赶; 争取, 努力追求
+engolir em seco|咽口水 (紧张, 无言以对)
+custe o que custar|不惜一切代价
+encher o saco|烦人, 惹 (某人) 讨厌
+encher a cara|喝醉, 喝得烂醉
+pisar na bola|搞砸, 失误
+perder tempo|浪费时间
+mudar de ideia|改变主意
+chamar a atenção|引人注意; 训斥, 提醒
+sentir falta|想念
+voltar atrás|反悔, 让步
+ir atrás|追, 去找
+ir com calma|慢慢来, 别着急
+ir à merda|见鬼去 (粗俗)
+vai se foder|去你妈的, 滚 (粗俗)
+se manda|滚, 走开
+se liga|注意点, 醒醒 (巴西用法); 开启, 接通
+não custa|不妨, 无妨
+não adianta|没用
+não tem jeito|没办法; 没救了
+não há de quê|不客气
+não tem de quê|不客气
+nem que seja|哪怕只是
+# ---- 连接词和话语标记
+a propósito|顺便说一下
+por falar nisso|说到这个, 顺便说一下
+falando nisso|说到这个
+de resto|此外, 其余的
+ou melhor|或者说, 更确切地说
+antes de mais nada|首先
+pelo contrário|恰恰相反
+ao contrário|相反; 反过来
+em compensação|另一方面, 作为补偿
+de qualquer modo|无论如何, 反正
+em todo caso|无论如何
+em todo o caso|无论如何
+seja como for|不管怎样
+mesmo que|即使, 尽管; (真的) 说…
+ainda que|尽管, 即使
+se bem que|虽然, 不过
+nem que|即使
+por mais que|无论多么
+a não ser que|除非
+a não ser|除了; 除非
+a menos que|除非
+caso contrário|否则
+assim que|一…就; (é assim que: 就是这样)
+logo que|一…就
+à medida que|随着
+ao passo que|而, 然而
+visto que|既然, 鉴于
+posto que|尽管; 既然
+de modo que|以便, 所以
+só que|只是, 不过
+até porque|何况, 况且
+além do mais|再说, 而且
+ainda por cima|更有甚者, 更糟的是
+por sua vez|反过来, 转而
+sendo assim|既然如此, 那么
+pensando bem|仔细一想
+cá entre nós|咱们私下说
+quanto a|至于, 关于
+a respeito de|关于
+acerca de|关于
+por volta de|大约 (某时), 左右
+por conta de|因为; 由 (某人) 负担
+por conta própria|自己, 独立地
+em lugar de|代替, 而不是
+à procura de|寻找
+diante de|在…面前; 面对
+dentro de|在…里面; 在 (一段时间) 之内
+ao pé de|在…脚下; 在…旁边
+# ---- 程度、情态、评价
+nem pensar|想都别想, 休想
+nem por isso|并不怎么, 也不见得
+nem tanto|没那么
+de modo algum|绝不, 根本不
+de maneira nenhuma|绝不, 根本不
+de forma alguma|绝不, 根本不
+sem falta|务必, 一定
+claro que|当然
+quem sabe|也许; 谁知道
+sei lá|我哪知道, 谁知道
+pelo visto|看来, 显然
+pelo jeito|看样子
+ao que parece|看来, 似乎
+por sinal|顺便说一下, 碰巧
+já não|不再
+até mesmo|甚至
+muito menos|更不用说
+quanto mais|越…越; 更不用说
+menos mal|还好, 幸好
+ainda bem|幸好, 还好
+ainda bem que|幸好, 好在
+tanto faz|无所谓, 都行
+mais vale|最好还是, 不如
+bem feito|活该！; 做得好的
+de propósito|故意
+sem querer|无意中, 不是故意的
+de graça|免费
+ação de graças|感恩节; 感恩
+a sério|认真地, 当真 (葡萄牙用法)
+de brincadeira|开玩笑地
+à toa|白白地, 漫无目的地; 闲着
+à vontade|自在, 随意; 尽情, 随便多少
+à beça|很多 (巴西用法)
+pra caramba|很, 非常多 (巴西用法)
+pra caralho|他妈的多, 超级 (粗俗)
+pra valer|当真, 认真地
+para valer|当真, 认真地
+um monte de|一大堆
+um bocado|一点儿; 很多, 相当多
+de sobra|绰绰有余, 多余
+de certo modo|在某种程度上
+de certa forma|在某种程度上
+de algum modo|不知怎么地, 以某种方式
+de alguma forma|不知怎么地, 以某种方式
+isso mesmo|没错, 正是
+assim mesmo|就这样; 即便如此
+si mesmo|自己, 他自己, 她自己
+por si só|本身, 单凭自身
+um ao outro|互相
+uns aos outros|互相, 彼此
+um do outro|彼此的
+# ---- 时间
+de manhã|在早上, 上午
+à tarde|在下午
+de tarde|在下午
+à noite|在晚上
+de noite|在夜里
+de madrugada|凌晨
+na hora|当时, 当场; 准时; 在 (合适的) 时候
+em cima da hora|在最后一刻
+em seguida|接着, 随后
+daqui a pouco|一会儿, 马上
+daqui a|…之后, 从现在起 (daqui a dois dias)
+de agora em diante|从现在起
+há pouco|刚才
+há muito tempo|很久以前; 很久了
+há tempos|好久了; 很久以前
+há anos|好几年了; 几年前
+há dias|几天前; 好几天了
+por ora|暂时
+por fim|最后, 终于
+mais de uma vez|不止一次
+de uma vez|一下子, 一次性; 彻底
+de uma vez por todas|一劳永逸, 彻底
+de vez|永远, 彻底
+era uma vez|从前
+por vezes|有时 (葡萄牙用法)
+toda vez que|每当
+de quando em quando|偶尔, 时不时
+aos poucos|渐渐, 一点一点地
+outro dia|前几天; 改天
+um dia desses|改天; 前几天
+da noite para o dia|一夜之间
+de antemão|事先, 预先
+todo dia|每天
+todo o dia|一整天 (葡萄牙用法); 每天
+enquanto isso|与此同时
+já já|马上, 一会儿就 (巴西用法)
+já volto|我马上回来
+já vou|来了！, 我这就去
+já era|完了, 没戏了 (巴西用法); já era hora: 早该如此了
+desde logo|立即; 当然 (葡萄牙用法)
+# ---- 地点和姿势
+lá fora|外面
+lá dentro|里面
+por aqui|这附近; 这边走
+por aí|到处, 外面; 差不多这样
+em volta|周围
+à volta|周围 (葡萄牙用法)
+ao fundo|在背景中; 在后面, 在最里面; 到底部
+no fundo|内心深处, 说到底; 在底部
+pela frente|在前面, 未来; 从前面
+por trás|在后面
+por cima|在上面
+por baixo|在下面
+por dentro|在里面; 知情
+por fora|在外面; 不知情
+por toda parte|到处
+em toda parte|到处
+lugar nenhum|哪儿都不, 无处
+para trás|向后, 往回; 在后面
+pra trás|向后, 往回; 在后面
+pra frente|向前
+logo ali|就在那边
+de pé|站着
+em pé|站着
+de joelhos|跪着
+de costas|仰面; 背对着
+de bruços|趴着, 脸朝下
+de lado|侧着, 侧身; 放在一边
+de cabeça para baixo|倒着, 颠倒
+de pernas para o ar|底朝天, 一团糟
+a pé|步行
+a sós|单独, 私下
+à solta|逍遥法外, 没被拴住
+à deriva|漂流, 随波逐流
+às escondidas|偷偷地
+às pressas|匆忙地
+à tona|浮到水面
+em cheio|正中, 结结实实地
+em branco|空白的
+em jogo|利害攸关
+fora de si|失去理智, 发狂
+na cara|当面; 明摆着
+cara de pau|厚脸皮; 不要脸的
+sangue frio|冷静, 沉着
+pão duro|吝啬鬼, 小气
+café da manhã|早餐 (巴西用法)
+pequeno almoço|早餐 (葡萄牙用法)
+sala de estar|客厅
+carteira de motorista|驾驶执照 (巴西用法)
+# ---- 人和称呼
+a gente|我们 (口语); 人们
+o senhor|您 (对男士的尊称); 这位先生; 主, 上帝
+a senhora|您 (对女士的尊称); 这位女士
+os senhores|诸位, 各位 (尊称); 先生们; 老爷们
+todo mundo|大家, 所有人
+todo o mundo|大家; 全世界
+toda a gente|大家 (葡萄牙用法)
+o pessoal|大伙儿, 大家; 员工
+meu bem|亲爱的, 宝贝
+meu caro|我亲爱的 (朋友)
+o tal|有名的, 所谓的; 那个 (人, 东西)
+# ---- 疑问和反应
+o quê|什么？
+para quê|为了什么？, 干吗？
+pra quê|为了什么？, 干吗？
+pra que|为了什么？; 以便
+como assim|什么意思？
+como é que|怎么 (会)
+o que é que|什么 (到底)
+o que foi|怎么了？, 出什么事了？; 是什么
+o que houve|发生了什么？
+o que há|怎么了？, 有什么事？; 有什么
+e aí|然后呢？, 所以呢？; 嘿, 怎么样
+e daí|那又怎样？
+e se|要是…会怎样; 而如果
+é o seguinte|是这样的
+é isso aí|就是这样, 没错
+não é mesmo|不是吗？, 对吧？
+é mesmo|真的吗？; 没错
+pois é|是啊, 就是; (因为是)
+pois não|当然可以; 有什么可以帮您？ (巴西用法); (因为) 不
+pois sim|是啊, 才怪 (反语)
+pois bem|那好, 好吧
+ora essa|真是的！; 不客气
+olha só|你看; 听着
+veja só|瞧瞧; 想想看
+tá bom|好的, 行
+tá legal|好的, 行 (巴西用法)
+tudo certo|一切顺利, 没问题
+como vai|你好吗？
+espera aí|等一下
+espere aí|等一下
+calma aí|别急, 等等
+vem cá|过来
+por nada|不客气; 无缘无故; 白白地
+graças a deus|感谢上帝, 谢天谢地
+pelo amor de deus|看在上帝的份上
+se deus quiser|如果上帝愿意, 但愿如此
+só deus sabe|天知道
+nossa senhora|天哪！, 圣母
+minha nossa|我的天
+que bom|太好了
+que droga|该死, 真糟糕
+que merda|妈的 (粗俗)
+que diabo|见鬼
+o que diabo|到底什么鬼
+que porra|他妈的什么 (粗俗)
+sem essa|少来了
+puta merda|我操, 他妈的 (粗俗)
+quem diria|谁能想到
+se calhar|也许, 说不定 (葡萄牙用法)
+rio de janeiro|里约热内卢 (巴西城市和州)

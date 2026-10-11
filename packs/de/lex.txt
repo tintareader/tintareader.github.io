@@ -3746,7 +3746,7 @@ zurückrufen|||
 fuchs|||nm
 frech|||
 geschieden||scheiden|
-marine|||nf;nm
+marine|||nf
 rebell|||nm
 belästigen|||
 brillant|||
@@ -3854,7 +3854,7 @@ küsst||küssen|
 verfassung|||nf;nf
 fußball|||nm
 geschnitten||schneiden|
-master|||
+master|||nm;nm
 zeh|||nm
 gürtel|||nm
 vereinbarung|||nf
@@ -5313,7 +5313,7 @@ bruch|||nm;nm
 dynamit|||nn
 sonnenschein|||nm
 uralt|||
-verschreiben|||v;v;v
+verschreiben|||v;n;v
 aufgelegt||auflegen|
 biegen|||
 bräutigam|||nm
@@ -5836,7 +5836,7 @@ bezeugen|||
 fantastische||fantastisch|
 konkret|||
 länge|||nf
-vermissten||vermissen|
+vermissten||vermissen|adj;v
 buchhalter|||nm
 computerlogbuch|||nn
 drache|||nm
@@ -5942,7 +5942,7 @@ power|||nf
 zitrone|||nf
 blüte|||nf
 überwältigt||überwältigen|
-vati|||
+vati|||nm
 verbünden|||v
 chemie|||nf
 göttliche||göttlich|
@@ -6033,7 +6033,7 @@ wanne|||nf
 dauer|||nf;adv
 drogendealer|||nm
 verbessert||verbessern|
-vertraute||vertraut|nm;adj
+vertraute||vertraut|nm;adj;v
 beschränken|||
 monitor|||nm
 rechtmäßig|||
@@ -6703,7 +6703,7 @@ vorhanden|||
 zerstörte||zerstören|
 angemeldet||anmelden|
 ausgenutzt||ausnutzen|
-ausschuss|||nm
+ausschuss|||nm;nm
 gier|||nf
 insbesondere|||
 maestro|||
@@ -6896,7 +6896,7 @@ sogleich|||
 wahrhaftig|||
 libanon|||
 ansatz|||nm
-volkswirtschaft|5||nf
+volkswirtschaft|5||nf;nf
 weitgehend|||
 ärgerlich|||
 eurozone|5||nf
@@ -7084,7 +7084,7 @@ seufzer|||nm
 visuell|||
 weltwirtschaft|5||nf
 akademisch|||
-verbot|||nn
+verbot|||nn;v
 vergeblich|||
 literarisch|||
 aachen|5||
@@ -7234,7 +7234,7 @@ radikal|||
 infanterie|||nf
 mangeln|||
 krim|||
-aufbau|||nm
+aufbau|||nm;nm
 hinausgehen|||
 besteuerung|5||nf
 behaglich|||
@@ -7264,7 +7264,7 @@ münden|5||
 erhöhung|||nf
 erzählung|||nf
 unabhängigkeit|||nf
-übergang|||nm
+übergang|||nm;nm
 fokus|||nm
 via|||
 spezialisieren|||
@@ -7582,7 +7582,7 @@ konzipieren|||
 polarisierung|5||nf
 transatlantisch|5||
 tschechoslowakei|||
-bestreben|||
+bestreben|||nn;v
 kommandeur|||nm
 fundamental|||
 mittler|||nm
@@ -8039,7 +8039,7 @@ kongruent|5||
 koreanisch|||
 mürrisch|||
 rau|||
-samt|||
+samt|||prep;nm
 signalisieren|||
 sämtlich|5||
 untragbar|||
@@ -8251,7 +8251,7 @@ altstadt|||nf
 amme|||nf
 belieben|||
 einigung|||nf
-fakultät|||nf
+fakultät|||nf;nf
 import|||nm
 konzern|||nm
 mithilfe|||prep
@@ -8303,7 +8303,7 @@ elektron|||nn
 entgegengesetzt|||adj
 gemüt|||nn
 gestaltung|||nf
-glied|||nn
+glied|||nn;nn;nn
 kooperation|||nf
 oberhalb|||prep
 schiffbrüchig|5||adj
@@ -8502,7 +8502,7 @@ moskito|||nm
 undenkbar|||
 werben|||
 aneinander|||
-auflösung|||nf
+auflösung|||nf;nf;nf
 ausgleich|||nm
 befürchtung|||nf
 erforschung|||nf
@@ -8538,7 +8538,7 @@ stagnieren|5||
 zehntel|||nn
 zurücknehmen|||
 zuwenden|||
-beben|||nn
+beben|||nn;v
 belagerung|||nf
 börse|||nf
 diplomat|||nm
@@ -8582,7 +8582,7 @@ träge|||
 unbegreiflich|||
 unermüdlich|||
 unvorstellbar|||
-verschlagen|||
+verschlagen|||adj;v;v
 zerfallen|||
 zupfen|||
 amtierend|||
@@ -8866,7 +8866,7 @@ festland|||nn
 gegenteilig|5||
 gähnen|||
 hedgefonds|||nm
-kabinett|||nn
+kabinett|||nn;nn
 kohlenstoff|||nm
 landstraße|||nf
 lateinamerikanisch|5||adj
@@ -8925,13 +8925,13 @@ häuslich|||
 kleinlich|||
 mild|||
 nichtig|||
-oppositioneller|5||
+oppositioneller|5||nm;adj
 propagieren|5||
 rabe|||nm
 rasseln|||
 räumlichkeit|5||nf;nf
 schwankend|5||
-sonderlich|||
+sonderlich|||adj;n;adj
 sooft|5||
 sparsamkeit|5||nf
 speise|||nf
@@ -8968,7 +8968,7 @@ anliegen|||nn
 aufseher|||nm
 bundesrepublik|5||nf
 demonstrant|||nm
-dämmerung|||nf
+dämmerung|||nf;nf
 eroberung|||nf
 führungskraft|||nf
 führungsrolle|5||nf
@@ -9120,7 +9120,7 @@ landkreis|||nm
 publikation|5||nf
 steuerung|||nf
 transformation|||nf
-überkommen|||
+überkommen|||v;adj
 ausgerüstet|||
 florieren|5||
 geologie|||nf
@@ -9298,7 +9298,7 @@ beleuchtung|||nf
 beratung|||nf
 diskriminierung|||nf
 ebensowenig|5||
-frankfurter|||nm
+frankfurter|||nm;adj;nf
 gebüsch|||nn
 gletscher|||nm
 grafschaft|||nf
@@ -9318,7 +9318,7 @@ tribüne|||nf
 verschuldung|5||nf
 vorbringen|||
 wahlkampf|||nm
-zerstreuung|||nf
+zerstreuung|||nf;nf
 genua|||
 backbord|||nn
 blindheit|||nf
@@ -9351,7 +9351,7 @@ durchsichtig|||
 entschiedenheit|5||nf
 entschädigung|||nf
 erhellen|||
-erlegen|||
+erlegen|||v;v
 ersehnen|||
 ersinnen|5||
 essenz|||nf
@@ -9661,7 +9661,7 @@ kreditgeber|5||nm
 lebensjahr|||nn
 nachtwache|||nf
 neuerung|5||nf
-niederlassung|5||nf
+niederlassung|5||nf;nf
 orientierung|||nf
 postkutsche|||nf
 sonnensystem|||nn
@@ -9760,7 +9760,7 @@ alltäglich|||
 asyl|||nn
 ausgangspunkt|||nm
 base|||nf
-bedingt|5||adj
+bedingt|5||adj;n
 beurteilung|||nf
 bucklig|||
 bundesregierung|||nf
@@ -9791,7 +9791,7 @@ spektrum|||nn
 streitigkeit|||nf
 ungerechtigkeit|||nf
 vorgehensweise|||nf
-vorhof|5||nm
+vorhof|5||nm;nm
 widerstreben|5||nn;v
 wärterin|5||nf
 wörterbuch|||nn
@@ -10127,7 +10127,7 @@ liebkosung|5||nf
 londoner|||nm
 markgraf|5||nm
 martern|5||
-moderator|||nm
+moderator|||nm;nm
 mündung|||nf
 neid|||nm
 nische|||nf
@@ -10245,7 +10245,7 @@ herausbringen|||
 hervortreten|5||
 heu|||nn
 höchstwahrscheinlich|||
-instanz|||nf
+instanz|||nf;nf
 kriegsende|||nn
 krug|||nm
 lebensqualität|||nf
@@ -10415,7 +10415,7 @@ ammoniak|||nn
 angelehnt|||adj
 auswanderung|5||nf
 bereichern|||v
-besessenheit|||nf
+besessenheit|||nf;nf
 bestechung|||nf
 datieren|||v
 dünger|||nm
@@ -10533,7 +10533,7 @@ bekanntlich|||adv
 besatzer|5||nm
 derivat|5||nn
 designiert|||adj
-endspiel|||nn
+endspiel|||nn;nn
 enthusiasmus|||nm
 entzündung|||nf
 gesandtschaft|5||nf
@@ -10610,7 +10610,7 @@ einmischung|||nf
 erfinder|||nm
 fertigstellen|||
 fläschchen|||nn
-folie|||nf
+folie|||nf;nf
 gehorsam|||nm
 gesamtnachfrage|5||nf
 gleichstellung|5||nf
@@ -10630,7 +10630,7 @@ präsentation|||nf
 pyramide|||nf
 rascheln|||
 rechtfertigung|||nf
-rücktritt|||nm
+rücktritt|||nm;nm
 schauplatz|||nm
 schläfe|||nf
 schulbildung|||nf
@@ -10943,7 +10943,7 @@ zigeuner|||nm
 überzieher|5||nm
 abdrucken|5||v
 aufbürden|5||v
-ausläufer|5||nm
+ausläufer|5||nm;nm
 beeinträchtigung|5||nf
 chilenisch|5||adj
 diagonale|5||nf
@@ -11072,7 +11072,7 @@ pult|||nn
 rahmenbedingung|5||nf
 repräsentant|||nm
 rückgrat|||nn
-schnepfe|||nf
+schnepfe|||nf;nf
 sehne|||nf
 sozialleistung|5||nf
 spalte|||nf
@@ -11659,7 +11659,7 @@ attraktivität|5||nf
 aufrechterhaltung|5||nf
 aufständisch|||
 ausschluss|||nm
-bann|||nm
+bann|||nm;nm
 banner|||nn
 befehlshaber|||nm
 begrenzung|||nf
@@ -11668,7 +11668,7 @@ beihilfe|||nf
 bettdecke|||nf
 blickwinkel|||nm
 bogenschütze|||nm
-büste|||nf
+büste|||nf;nf
 denkweise|||nf
 direktinvestition|5||nf
 dunkelrot|5||
@@ -11726,8 +11726,8 @@ weiterentwicklung|5||nf
 wirbel|||nm
 zehntausend|||
 zugute|||
-zusammensein|||v;nn
-überwindung|||nf
+zusammensein|||nn;v
+überwindung|||nf;nf
 bücherei|||nf
 bürde|||nf
 eingliederung|5||nf
@@ -11901,7 +11901,7 @@ animation|||nf
 anschicken|5||
 argumentation|||nf
 artillerie|||nf
-auslöser|||nm
+auslöser|||nm;nm
 ausrottung|||nf
 automatisierung|5||nf
 backenbart|5||nm
@@ -11997,10 +11997,10 @@ zeitweise|||
 zugegen|||
 zwischenraum|5||nm
 abfindung|||nf;nf
-abrunden|5||v
+abrunden|5||v;v
 adhs|5||nn
 anprangern|5||v
-belastbarkeit|5||nf
+belastbarkeit|5||nf;nf
 beschneiden|||v
 chefredakteurin|||nf
 eigennützig|5||adj
@@ -12082,7 +12082,7 @@ ermutigung|||nf
 erstarren|||
 etat|||nm
 fechten|||
-forschender|5||
+forschender|5||nm;adj
 frostig|5||
 gebrüll|||nn
 gelehrsamkeit|5||nf
@@ -12134,7 +12134,7 @@ rühmen|||
 scharfsinnig|||
 schauerlich|5||
 schießscharte|5||nf
-schikane|||nf
+schikane|||nf;nf
 schlund|||nm
 schlängeln|5||
 schwellung|||nf
@@ -12243,7 +12243,7 @@ aussöhnung|5||nf
 automobil|||nn
 banknote|||nf
 barrel|||nn
-beleg|||nm
+beleg|||nm;nm
 binnennachfrage|5||nf
 biologe|||nm
 bistum|5||nn
@@ -12259,7 +12259,7 @@ einfließen|5||
 einkunft|||nf
 einwanderer|||nm
 ekel|||nm
-empfänger|||nm
+empfänger|||nm;nm
 erdgas|||nn
 faser|||nf
 funktionär|5||nm
@@ -12545,12 +12545,12 @@ vertauschen|||
 abrüstung|5||nf
 abteil|||nn
 aktionsplan|5||nm
-andacht|||nf
+andacht|||nf;nf
 andernorts|5||
 ankern|5||
 ankömmling|5||nm
-anstoß|||nm
-appell|||nm
+anstoß|||nm;nm;nm
+appell|||nm;nm
 arbeitsgruppe|||nf
 arrangement|||nn
 asiat|||nm
@@ -12570,7 +12570,7 @@ dampfboot|5||nn
 darauffolgend|||
 dreizehnte|5||
 durchgang|||nm
-einlage|||nf
+einlage|||nf;nf;nf
 einverständnis|||nn
 einzug|||nm
 entwicklungsbank|5||nf
@@ -12610,7 +12610,7 @@ innenminister|||nm
 intensität|||nf
 isolation|||nf
 jahrzehntelang|||
-kessel|||nm
+kessel|||nm;nm
 kilogramm|||nn
 kirchhof|5||nm
 kohlenstoffemission|5||nf
@@ -12627,7 +12627,7 @@ länderei|||nf
 machbar|||
 manier|5||nf
 mehl|||nn
-mehrzahl|||nf
+mehrzahl|||nf;nf
 meinetwillen|||
 minimum|||nn
 mitmensch|||nm
@@ -12745,7 +12745,7 @@ hartherzig|5||
 haschen|5||
 herb|||
 hieroglyphe|||nf
-instand|||
+instand|||adj;n;n
 jauchzen|||
 katechismus|5||nm
 knospe|||nf
@@ -12798,7 +12798,7 @@ schutt|||nm
 schwaden|5||nm
 schwirren|||
 sensibilität|||nf
-siedend|5||
+siedend|5||adj;n
 sinnlich|||
 skrupellos|||
 soundso|||
@@ -12838,7 +12838,7 @@ verehrer|||nm
 vergelten|||
 verinnerlichen|5||
 vermessen|||
-verschlag|||nm
+verschlag|||nm;nm
 vertilgen|5||
 volksentscheid|5||nm
 väterchen|||nn
@@ -13204,7 +13204,7 @@ akustik|||nf
 allseits|||
 ambitioniert|||
 amerikanerin|||nf
-anbelangen|||
+anbelangen|||v;n
 anführungszeichen|||nn
 aufklärer|||nm;nm
 belegschaft|||nf
@@ -13400,7 +13400,7 @@ gasförmig|5||
 gebrechlich|||
 gefrieren|||
 gefälligkeit|||nf
-geraum|||
+geraum|||adj;n
 gewichtig|5||
 gigawatt|5||nn
 glücken|||
@@ -13520,7 +13520,7 @@ ungeschützt|||
 ungnade|||nf
 unsympathisch|||
 unverschämtheit|||nf
-verbeißen|||
+verbeißen|||v;n
 verbrecherisch|5||
 verdammnis|||nf
 vereinsamen|5||
@@ -13661,12 +13661,12 @@ staatspräsident|5||nm
 stammzelle|||nf
 strafpredigt|5||nf
 strafverfolgung|||nf
-strauß|||nm
+strauß|||nm;nm
 swing|||nm
 säbel|||nm
 südosten|||nm
 tabu|||nn
-tenor|||nm
+tenor|||nm;nm
 tischler|||nm
 todesangst|||nf
 tonfall|||nm
@@ -13681,7 +13681,7 @@ verlagerung|5||nf
 versprechung|||nf
 verteidigungsausgabe|5||nf
 vertiefung|5||nf
-verwerfung|5||nf
+verwerfung|5||nf;nf;nf
 veto|||nn
 viertelmeile|||nf
 vonnöten|||
@@ -13703,7 +13703,7 @@ zylinder|||nm
 abendländisch|5||
 abwegig|||
 adäquat|5||
-allerseits|||
+allerseits|||adv;n
 asphaltiert|5||
 austragungsort|5||nm
 belang|||nm
@@ -13866,7 +13866,7 @@ schwimmer|||nm;nm
 selbstgefällig|||
 skalierbar|5||
 skalieren|5||
-sonder|||
+sonder|||prep;n
 suggerieren|5||
 teddybär|||nm
 temporal|||
@@ -13912,7 +13912,7 @@ fruchtbarkeit|||nf
 frühkindlich|5||
 fummeln|||
 fälschlich|||
-geartet|5||
+geartet|5||adj;n
 gebärmutterhalskrebs|5||nm
 gegenseitigkeit|||nf
 homophobie|5||nf
@@ -14094,7 +14094,7 @@ atomkraftwerk|||nn
 ausklügeln|5||v
 beschießen|||
 beschriftung|5||nf
-beständigkeit|||nf
+beständigkeit|||nf;nf
 brüchig|||
 bärtig|||adj
 bügeln|||
@@ -14155,7 +14155,7 @@ mystik|5||nf
 nachzügler|||nm
 olivenöl|||nn
 praline|||nf
-pranger|||nm
+pranger|||nm;n
 prostata|||nf
 puder|||nm
 quantenphysik|||nf
@@ -14468,7 +14468,7 @@ kadaver|||nm
 kalkutta|||
 kaskade|5||nf
 kerlchen|||nn
-kippe|||nf
+kippe|||nf;nf;n
 kohlehydrat|5||nn
 kohlenhydrat|||nn
 kolibri|||nm
@@ -14632,7 +14632,7 @@ arbeiterschaft|5||nf
 atheismus|5||nm
 atomanlage|5||nf
 auditiv|5||
-aufbauend|5||
+aufbauend|5||adj;n
 ausrutschen|||
 austragung|5||nf
 autist|5||nm
@@ -14791,7 +14791,7 @@ schinden|||
 sechstens|5||
 stationieren|||
 sühne|||nf
-tribus|5||nm
+tribus|5||nf
 ungleichung|5||nf
 unverwundbar|||
 unüblich|||
@@ -14867,7 +14867,7 @@ kovalent|5||
 körnchen|||nn
 landschaftlich|5||
 langlebig|5||
-laufend|||
+laufend|||adj;adv
 launisch|||
 leopard|||nm
 lungenbläschen|5||nn
@@ -15427,7 +15427,7 @@ kranich|||nm
 kriegerin|||nf
 lebenserhaltungssystem|||nn
 limitieren|5||v
-macke|||nf;nf
+macke|||nf;nf;n
 magnetismus|5||nm
 manie|||nf
 massai|5||nmf
@@ -15540,7 +15540,7 @@ abo|||nn
 achtel|||nn
 agnostiker|5||nm
 auslöschung|||nf
-balg|||nm;nm
+balg|||nm;nm;nm
 bewaldet|5||adj
 dauerhaftigkeit|5||nf
 defensiv|||adj
@@ -15563,7 +15563,7 @@ händigkeit|5||nf
 induziert|5||adj
 institutionalisierung|5||nf
 irreparabel|||adj
-irritieren|||v
+irritieren|||v;v
 jurisprudenz|5||nf
 kläger|||nm
 kolonialisierung|5||nf
@@ -15591,7 +15591,7 @@ schwenk|||nm
 schwächling|||nm
 segnung|5||nf
 somaliland|5||
-spange|||nf;nf
+spange|||nf;nf;nf
 stereotyp|5||adj;nn
 trikot|||nn
 unfreiwillig|||adj
@@ -15610,7 +15610,7 @@ zufriedenstellend|||adj
 anarchismus|5||nm
 anarchist|||nm
 anreichern|5||v
-assistenz|5||nf
+assistenz|5||nf;nf
 astrolabium|5||nn
 baath|5||
 bekanntmachung|||nf
@@ -16012,7 +16012,7 @@ rücksichtslosigkeit|5||nf
 sachkundige|5||nmf;adj
 sarkasmus|||nm
 sauce|||nf
-schichten|||v
+schichten|||npl;v
 schillern|5||v
 schimmel|||nm;nm
 schlampig|||adj
@@ -16240,7 +16240,7 @@ ilo|5||nf
 invers|5||adj
 jongleur|5||nm
 jünger|||adj;nm
-kapern|||v
+kapern|||v;npl
 karzinogen|5||adj;nn
 kenianer|5||nm
 keynesianismus|5||nm
@@ -16749,7 +16749,7 @@ psychologische||psychologisch|
 pärchen|||nn
 rechtsanwalt|||nm
 reihenfolge|||nf
-romantik|||nf
+romantik|||nf;nf
 ruine|||nf
 schleier|||nm
 schwiegersohn|||nm
@@ -16848,7 +16848,7 @@ absage|||nf;nf
 reisender||reisen|nm
 bleiche||bleichen|adj;v
 vereinigen|||
-lose||los|
+lose||los|adj;npl
 kürzen|||
 wärmen|||
 sekt|||nm
@@ -16873,7 +16873,7 @@ zwecklos|||
 grundlos|||
 respektlos|||
 bedingungslos|||
-tatenlos|||
+tatenlos|||adj;n
 geschmacklos|||
 gnadenlos|||
 aussichtslos|||
@@ -16990,7 +16990,7 @@ geschlechtslos|5||
 bartlos|5||
 fehlerlos|5||
 fleckenlos|5||
-schadlos|5||
+schadlos|5||adj;n
 fleischlos|5||
 klanglos|5||
 zinslos|5||

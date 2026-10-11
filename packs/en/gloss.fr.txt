@@ -295,7 +295,7 @@ word|mot; parole, promesse (tu as ma parole); nouvelles (des nouvelles de lui ?)
 eye|oeil|o
 such|tel, pareil; si, tellement (une si belle journée); such as: comme, tel que|o;o;n
 also|aussi, également|o
-haven|(have not, dans haven't)|g
+haven|havre, refuge, lieu sûr|o
 yet|encore, jusqu'ici; pourtant, mais|o;o
 whole|entier, tout; on the whole: dans l'ensemble|o;n
 since|depuis (à partir de là); puisque, comme|o;o
@@ -1621,9 +1621,9 @@ complicate|compliquer|v
 outta|hors de, de (familier)|o
 japanese|japonais, du Japon; le japonais (la langue)|o;o
 university|université|o
-gunshot|(bruit de coup de feu)|g
+gunshot|coup de feu, son d'un coup de feu|o
 sudden|soudain, brusque|o
-bleep|(bip couvrant un gros mot)|g
+bleep|bip, signal électronique court et aigu; faire bip, biper; couvrir un gros mot d'un bip|o;v;v
 defense|défense, protection; défense (de l'accusé)|o;o
 period|période, durée; règles; point (ponctuation)|o;o;o
 accuse|dire que quelqu'un a mal agi, accuser; the accused: la personne inculpée d'un crime|v;n
@@ -1780,7 +1780,7 @@ engineer|ingénieur|o
 dawn|aube, aurore; (dawn on) commencer à apparaître, venir à l'esprit|o;v
 doin|en train de faire (orthographe familière de doing)|o
 vacation|vacances (américain)|o
-siren|(sirène, signal d'alerte)|g
+siren|sirène, appareil émettant un signal d'alarme fort et montant|o
 mail|courrier; poster, envoyer par la poste|o;v
 victory|victoire|o
 treatment|traitement, soins; traitement, façon de traiter|o;o
@@ -1958,7 +1958,7 @@ desperate|désespéré, prêt à tout; urgent, pressant|o;o
 channel|chaîne (de télévision); chenal, canal; voie, moyen|o;o;o
 pen|stylo; enclos|o;o
 bat|batte; chauve-souris|o;o
-screech|(crissement strident)|g
+screech|crisser, pousser un cri strident; crissement, cri strident|v;o
 properly|correctement, comme il faut|o
 mostly|surtout, la plupart du temps|o
 product|produit; résultat, fruit|o;o
@@ -2035,7 +2035,7 @@ county|comté, département|o
 cookie|biscuit (américain)|o
 id|pièce d'identité|o
 fourth|4e|o
-roar|(rugissement, grondement)|g
+roar|rugir, vrombir (comme un lion ou un moteur); rugissement|v;o
 cleaning|nettoyage|o
 emperor|empereur|o
 lf|(coquille pour if) si|o
@@ -2326,7 +2326,7 @@ cage|cage|o
 classic|classique, de valeur durable; typique, classique|o;o
 accent|accent (façon de parler); accent (sur une syllabe)|o;o
 tradition|tradition|o
-honk|(coup de klaxon)|g
+honk|klaxonner; coup de klaxon|v;o
 script|scénario, texte|o
 offering|offrande|o
 sniff|renifler|v
@@ -2645,7 +2645,7 @@ structure|structure, agencement; construction, édifice|o;o
 filthy|crasseux, immonde; obscène, ordurier|o;o
 backup|renfort, soutien; sauvegarde, copie|o;o
 brief|bref, court; mettre au courant, briefer|o;v
-squeal|(cri aigu et prolongé)|g
+squeal|pousser un cri aigu et prolongé; cri aigu, couinement|v;o
 someplace|quelque part (américain)|o
 conscience|conscience (morale)|o
 rebel|rebelle, insurgé; se rebeller, se soulever|o;v
@@ -2662,7 +2662,7 @@ homicide|homicide, meurtre; brigade criminelle|o;o
 organ|organe; orgue|o;o
 fingerprint|empreinte digitale|o
 survivor|survivant, rescapé|o
-whir|(ronronnement d'une machine)|g
+whir|tourner en ronronnant, vrombir doucement; ronronnement, vrombissement|v;o
 encourage|encourager|v
 guilt|culpabilité, faute; culpabilité, sentiment de faute|o;o
 humiliate|humilier|v
@@ -2677,7 +2677,7 @@ offense|infraction, délit; offense, affront; attaque (dans un match)|o;o;o
 clay|argile, terre glaise|o
 unhappy|malheureux, triste; mécontent, pas satisfait|o;o
 dismiss|congédier, renvoyer; écarter, chasser de son esprit; licencier|v;v;v
-thud|(bruit sourd d'une chute)|g
+thud|tomber ou heurter avec un bruit sourd; bruit sourd|v;o
 lap|genoux (position assise); tour (de piste)|o;o
 atmosphere|atmosphère (air); ambiance, atmosphère|o;o
 compliment|compliment|o
@@ -2777,7 +2777,7 @@ publish|publier, éditer|v
 farewell|adieu (en se quittant)|o
 raid|raid, descente; faire une descente dans, attaquer|o;v
 weed|plante sauvage qui pousse où on n'en veut pas, mauvaise herbe; marijuana (familier); désherber; weed out: éliminer (personnes ou choses indésirables)|o;o;v;n
-chirp|(pépiement)|g
+chirp|pépier, gazouiller (comme un oiseau); pépiement|v;o
 satellite|satellite; satellite (d'une planète)|o;o
 deposit|acompte, arrhes; déposer, verser|o;v
 intelligent|intelligent|o
@@ -2795,7 +2795,7 @@ beam|rayon (de lumière); poutre; sourire jusqu'aux oreilles|o;o;v
 bounce|rebondir|v
 belief|croyance, conviction; confiance, foi|o;o
 thirty|30|o
-boo|(huée; cri pour faire sursauter)|g
+boo|hou !, cri pour faire peur; huer; huée|o;v;o
 alibi|alibi|o
 hers|le sien, à elle|o
 mm-hm|mmh (qui veut dire oui)|g
@@ -2815,7 +2815,7 @@ blackmail|chantage; faire chanter|o;v
 loyalty|loyauté, fidélité|o
 encounter|rencontrer par hasard, tomber sur; rencontrer, se heurter à|v;v
 drain|vider, faire écouler; canalisation, égout|v;o
-rattle|(cliquetis, bruit de ferraille)|g
+rattle|cliqueter, faire un bruit de petits chocs répétés; cliquetis; hochet|v;o;o
 highway|route nationale, grand axe|o
 resource|ressource|o
 noon|midi|o
@@ -2921,7 +2921,7 @@ catholic|catholique|o
 dessert|dessert|o
 alpha|alpha (première lettre grecque); chef, dominant|o;o
 soap|savon|o
-whoop|(grand cri de joie)|g
+whoop|pousser des cris de joie; cri de joie|v;o
 electronic|électronique|o
 remote|éloigné, isolé; à distance, télécommandé|o;o
 retreat|battre en retraite, reculer; retraite, refuge|v;o
@@ -2937,7 +2937,7 @@ concept|concept, notion|o
 proposal|proposition, projet; demande en mariage|o;o
 investment|investissement, placement|o
 ye|(vieilli) vous|f2s2p
-creak|(grincement, craquement)|g
+creak|grincer, craquer (comme le bois ou une charnière); grincement|v;o
 politician|homme politique, politicien|o
 soil|sol, terre|o
 deadly|mortel; extrême, terrible|o;o
@@ -2979,7 +2979,7 @@ dressing|vinaigrette, assaisonnement; pansement|o;o
 supper|dîner, souper|o
 whiskey|whisky|o
 addict|toxicomane, accro|o
-clatter|(fracas, cliquetis)|g
+clatter|faire un bruit d'objets durs qui s'entrechoquent; fracas, cliquetis|v;o
 comedy|comédie|o
 fraud|fraude, escroquerie; imposteur, charlatan|o;o
 description|description|o
@@ -3061,7 +3061,7 @@ stall|stand, étal; caler, s'arrêter net; gagner du temps, temporiser|o;v;v
 assign|attribuer, assigner|v
 chin|menton|o
 appropriate|approprié, adapté; s'approprier, s'emparer de|o;v
-chime|(carillon, tintement)|g
+chime|sonner, carillonner (comme une cloche ou une horloge); carillon, tintement|v;o
 fist|poing|o
 broad|large; général, peu détaillé; femme (argot américain démodé, offensant)|o;o;o
 wealth|richesse, fortune|o
@@ -3088,7 +3088,7 @@ cinema|cinéma (salle); cinéma (art)|o;o
 web|toile (d'araignée); le Web, Internet|o;o
 doom|destin funeste, perte|o
 happily|joyeusement, avec bonheur; heureusement, par chance|o;o
-blare|(son strident d'un klaxon ou d'une radio)|g
+blare|retentir, beugler (comme un klaxon ou une radio); vacarme|v;o
 peanut|cacahuète|o
 ram|bélier; percuter, enfoncer|o;v
 counter|comptoir, guichet; contrer, riposter à|o;v
@@ -3197,7 +3197,7 @@ promotion|promotion, avancement; promotion, publicité|o;o
 homeless|sans abri, sans domicile|o
 pace|allure, rythme; pas|o;o
 unfortunate|malchanceux, malheureux; regrettable, fâcheux|o;v
-howl|(hurlement long d'un animal ou du vent)|g
+howl|hurler (comme un animal ou le vent); hurlement|v;o
 combat|combat, affrontement; combattre, lutter contre|o;v
 humor|humour; humeur, disposition|o;o
 skirt|jupe; contourner, longer|o;v
@@ -3327,7 +3327,7 @@ gently|doucement, délicatement|o
 snore|ronfler|v
 roast|rôtir, faire rôtir|v
 define|définir|v
-gunfire|(bruit de coups de feu)|g
+gunfire|coups de feu, fusillade|o
 stitch|point (de couture); point de côté|o;o
 certificate|certificat, attestation|o
 backwards|en arrière, à reculons; à l'envers, dans l'ordre inverse|o;o
@@ -3381,7 +3381,7 @@ lesbian|lesbienne|o
 economy|économie (d'un pays); économie, épargne|o;o
 acid|acide; acide, LSD (familier)|o;o
 steer|conduire, diriger|v
-squeak|(petit cri aigu, couinement)|g
+squeak|couiner, grincer avec un son bref et aigu; couinement|v;o
 insect|insecte|o
 lighter|briquet; plus léger|o;o
 thanksgiving|Thanksgiving, fête américaine de novembre|o
@@ -3466,7 +3466,7 @@ phrase|expression, locution|o
 isolate|isoler|v
 rhythm|rythme|o
 tomb|tombeau, sépulture|o
-muffled|(son étouffé, assourdi)|g
+muffled|étouffé, assourdi, entendu à travers quelque chose (d'un son)|o
 jewelry|bijoux|o
 ankle|cheville|o
 disagree|ne pas être d'accord|v
@@ -3515,7 +3515,7 @@ poke|pousser du doigt, donner un petit coup à|v
 coal|charbon|o
 genetic|génétique|o
 misery|misère, souffrance|o
-hiss|(sifflement, comme celui d'un serpent)|g
+hiss|siffler (comme un serpent); sifflement|v;o
 imitate|imiter|v
 supreme|suprême|o
 bingo|loto, bingo; (cri quand on gagne) gagné!|o;g
@@ -3580,7 +3580,7 @@ stack|pile, tas; empiler, entasser|o;v
 distress|détresse, angoisse; détresse (en mer)|o;o
 grill|griller, faire cuire au gril; cuisiner, interroger serré|v;v
 corrupt|corrompu, malhonnête; corrompre, soudoyer|o;v
-sixth|6e|o
+sixth|6e, sixième; sixième (fraction), un sixième|o;o
 reporting|reportage, couverture; signalement, compte rendu officiel|o;o
 dinosaur|dinosaure|o
 adjust|ajuster, régler; s'adapter, s'habituer|v;v
@@ -3606,7 +3606,7 @@ primary|primordial, principal; primaire, du premier degré|o;o
 t-shirt|tee-shirt|o
 finance|finance, gestion de l'argent; financer|o;v
 shitty|(vulgaire) merdique, dégueulasse|o
-resume|reprendre, recommencer|v
+resume|reprendre après une pause; CV, curriculum vitae (américain, résumé)|v;o
 surf|surfer (sur les vagues); surfer, naviguer sur Internet|v;v
 affection|affection, tendresse|o
 therapist|thérapeute|o
@@ -3692,7 +3692,7 @@ bonus|prime, bonus|o
 lure|attirer, appâter; appât, attrait|v;o
 cargo|cargaison, fret|o
 painter|peintre|o
-wha|(coquille pour what) quoi|o
+wha|quoi (graphie familière)|o
 hush|(pour demander le silence); silence|g;o
 journal|journal (tenu au jour le jour); revue, périodique|o;o
 rag|chiffon, vieux bout de tissu|o
@@ -3872,7 +3872,7 @@ gotcha|je t'ai eu, compris (familier)|o
 specialist|spécialiste|o
 scrape|racler, gratter; réussir de justesse|v;v
 income|revenu, revenus|o
-jingle|(tintement de clochettes ou de pièces)|g
+jingle|tinter (comme des clochettes ou des pièces); tintement; jingle, ritournelle publicitaire|v;o;o
 snatch|arracher, s'emparer de|v
 eternity|éternité; éternité, attente interminable|o;o
 harvest|récolte, moisson; récolte, ce qui est engrangé|o;o
@@ -3887,7 +3887,7 @@ compound|composé, mélange; enceinte, complexe|o;o
 allah|(Allah) Allah, Dieu dans l'islam|o
 concrete|béton; concret, précis|o;o
 thread|fil; fil (d'un raisonnement)|o;o
-cripple|estropier, handicaper; paralyser, mettre à mal|v;v
+cripple|estropier, handicaper; paralyser, endommager gravement; infirme (vieilli, injurieux)|v;v;o
 essential|indispensable, essentiel; l'essentiel, le point central|o;o
 bearing|allure, maintien; (bearings) repères, sens de l'orientation|o;o
 dialogue|dialogue (dans un livre, un film); dialogue, pourparlers|o;o
@@ -3903,7 +3903,7 @@ rider|cavalier, cycliste|o
 invention|invention; invention, affabulation|o;o
 wax|cire|o
 vest|maillot de corps (britannique); gilet (américain)|o;o
-im|(coquille pour I'm) je suis|f1s
+im|je suis (graphie familière de I'm)|f1s
 cuff|poignet, manchette; (cuffs) menottes|o;o
 endless|interminable, sans fin|o
 seduce|séduire; détourner, entraîner sur une mauvaise pente|v;v
@@ -3985,7 +3985,7 @@ retirement|retraite|o
 sole|seul, unique; plante du pied, semelle; sole (poisson)|o;o;o
 salute|saluer (militairement); salut|v;o
 wig|perruque|o
-shriek|(cri perçant)|g
+shriek|pousser un cri perçant; cri perçant|v;o
 settlement|accord, règlement; hameau, colonie; règlement (d'une dette)|o;o;o
 barbecue|barbecue|o
 household|foyer, ménage|o
@@ -4023,7 +4023,7 @@ almighty|tout-puissant; monumental, terrible (familier)|o;o
 climate|climat; climat, ambiance|o;o
 approval|autorisation, accord; approbation, estime|o;o
 trouser|(trousers) pantalon|o
-snarl|(grognement hargneux)|g
+snarl|grogner en montrant les dents; grondement|v;o
 capacity|capacité, contenance; capacité, aptitude; qualité, fonction|o;o;o
 legally|légalement, en droit|o
 regulation|règlement, réglementation; régulation, contrôle|o;o
@@ -4225,7 +4225,7 @@ cottage|petite maison de campagne, cottage|o
 spear|lance, javelot|o
 carve|sculpter, tailler; découper (la viande)|v;v
 assemble|rassembler, réunir; assembler, monter|v;v
-snort|(reniflement bruyant)|g
+snort|renifler bruyamment, s'ébrouer; reniflement, grognement|v;o
 offensive|choquant, blessant; offensive|o;o
 balcony|balcon; balcon (d'un théâtre)|o;o
 discount|remise, réduction; écarter, ne pas tenir compte de|o;v
@@ -4289,7 +4289,7 @@ cooperation|coopération, collaboration|o
 sailing|navigation, voile|o
 virtue|vertu, honnêteté; qualité, mérite|o;o
 sincere|sincère|o
-whoosh|(bruit d'un objet qui file)|g
+whoosh|passer en trombe avec un sifflement; sifflement, souffle|v;o
 classified|classé secret, confidentiel; classé, trié|o;o
 fag|clope, cigarette (britannique familier); (injurieux) pédé|o;o
 pursuit|poursuite; activité, occupation|o;o
@@ -4369,7 +4369,7 @@ stray|s'égarer, errer; animal errant|v;o
 shovel|pelle|o
 evolution|évolution|o
 notion|notion, idée vague|o
-blond|blond (pour un homme)|o
+blond|blond, aux cheveux jaune pâle|o
 injection|piqûre, injection|o
 grasp|saisir fermement; comprendre; une prise ferme; compréhension (une bonne maîtrise de l'anglais)|v;v;o;o
 horny|(familier) excité|o
@@ -4445,7 +4445,7 @@ poisoning|empoisonnement, intoxication|o
 cartoon|dessin animé; dessin humoristique|o;o
 software|logiciel, logiciels|o
 awhile|un moment, un instant|o
-psych|(psych out) déstabiliser, intimider; psycho, psychologie (familier)|v;o
+psych|psychologie (familier); psych out: déstabiliser, intimider|o;n
 conscious|conscient, éveillé; conscient, délibéré|o;o
 deliberately|délibérément, exprès; posément, avec application|o;o
 clone|clone; copie conforme|o;o
@@ -4553,7 +4553,7 @@ aunty|tata, tantine (familier)|o
 photography|photographie (art)|o
 inappropriate|inapproprié, déplacé|o
 vengeance|vengeance|o
-clang|(bruit métallique retentissant)|g
+clang|résonner d'un bruit métallique; bruit métallique|v;o
 acquaintance|connaissance, relation; connaissance, notions|o;o
 junkie|drogué (familier, péjoratif); accro à quelque chose (un accro à l'adrénaline)|o;o
 tutor|professeur particulier, tuteur|o
@@ -4639,7 +4639,7 @@ dove|oiseau semblable à un petit pigeon, colombe, symbole de paix; plongé, for
 carrier|transporteur, porteur; porte-avions|o;o
 postpone|reporter, remettre|v
 voyage|voyage (en mer ou dans l'espace)|o
-crunch|(craquement, bruit d'écrasement)|g
+crunch|croquer, crisser (sous la dent ou sous les pieds); craquement, crissement; moment critique (when it comes to the crunch)|v;o;o
 housing|logement, logements|o
 ambitious|ambitieux; ambitieux, audacieux|o;o
 rapid|rapide|o
@@ -4684,13 +4684,13 @@ protective|protecteur, qui protège; protecteur, possessif|o;o
 hound|chien de meute; traquer, harceler|o;v
 airline|compagnie aérienne|o
 sensation|sensation, impression physique; sensation, grand émoi|o;o
-suspenseful|(note de sous-titre) musique de suspense|o
-trainer|entraîneur, formateur; basket, chaussure de sport|o;o
+suspenseful|plein de suspense, haletant|o
+trainer|entraîneur, formateur; basket, chaussure de sport (britannique)|o;o
 pint|pinte (environ un demi-litre)|o
 pasta|pâtes|o
 delta|delta|o
 whoo-hoo|(cri d'excitation)|g
-clink|(tintement de verre ou de métal)|g
+clink|tinter (comme des verres qui trinquent); tintement|v;o
 itch|démanger, gratter|v
 instantly|instantanément, aussitôt|o
 strand|brin, mèche; laisser en plan, abandonner|o;v
@@ -4710,7 +4710,7 @@ essence|essence, fond|o
 outstanding|remarquable, exceptionnel; en souffrance, impayé|o;o
 wardrobe|armoire, penderie; garde-robe|o;o
 lump|morceau, bloc; bosse, grosseur|o;o
-squawk|(cri rauque d'oiseau)|g
+squawk|pousser un cri rauque (comme un oiseau); cri rauque|v;o
 starter|entrée (au repas); démarreur, celui qui donne le départ|o;o
 cupcake|cupcake, petit gâteau|o
 grease|graisse|o
@@ -4729,7 +4729,7 @@ inject|injecter|v
 reckless|imprudent, téméraire|o
 pause|pause, arrêt; faire une pause, s'arrêter un instant|o;v
 glance|jeter un coup d'oeil; coup d'oeil|v;o
-rustle|(bruissement de feuilles ou de papier)|g
+rustle|bruisser, froisser (comme des feuilles sèches ou du papier); bruissement, froissement|v;o
 premise|prémisse; (premises) locaux, lieux|o;o
 whereas|alors que, tandis que|o
 heavenly|céleste, du ciel; divin, merveilleux|o;o
@@ -4829,7 +4829,7 @@ substitute|remplaçant, produit de substitution|o
 visa|visa|o
 partnership|partenariat, association|o
 definition|définition (d'un mot); netteté, définition|o;o
-crackling|(crépitement)|g
+crackling|crépitement (comme d'un feu); couenne croustillante de rôti de porc (britannique)|o;o
 loneliness|solitude|o
 overhear|entendre par hasard, surprendre|v
 parrot|perroquet|o
@@ -4853,7 +4853,7 @@ bounty|prime, récompense; générosité, largesse|o;o
 wed|épouser, se marier (soutenu)|v
 asylum|asile (protection d'un réfugié); (vieilli) asile d'aliénés|o;o
 blunt|émoussé, peu tranchant; direct, sans détour|o;o
-thump|(bruit sourd d'un coup)|g
+thump|frapper fort avec un bruit sourd; coup sourd, bruit sourd d'un coup|v;o
 battlefield|champ de bataille|o
 petition|pétition|o
 carnival|carnaval|o
@@ -4995,7 +4995,7 @@ dispute|différend, litige; contester, mettre en doute|o;v
 hamburger|hamburger|o
 psychology|psychologie|o
 astonish|étonner, stupéfier|v
-rumble|(grondement sourd et prolongé)|g
+rumble|gronder, gargouiller sourdement; grondement|v;o
 motivate|motiver|v
 restless|agité, incapable de tenir en place|o
 marvellous|marvellous, orthographe britannique de marvelous|o
@@ -5122,7 +5122,7 @@ jackass|(familier) crétin, imbécile; âne|o;o
 revolt|se soulever contre le pouvoir; dégoûter; une révolte, un soulèvement|v;v;o
 cheerful|gai, de bonne humeur|o
 acceptable|acceptable|o
-clamor|(clameur, vociférations confuses)|g
+clamor|clameur, vacarme de cris; réclamer à grands cris|o;v
 realistic|réaliste, lucide; réaliste, fidèle à la réalité|o;o
 banner|banderole, bannière|o
 sufficient|suffisant|o
@@ -5168,7 +5168,7 @@ heap|tas en désordre|o
 snitch|dénoncer quelqu'un; personne qui dénonce|v;o
 prophecy|annonce de ce qui va arriver|o
 tread|marcher sur, poser le pied sur|v
-tweet|(petit cri aigu d'un oiseau); court message publié en ligne|g;o
+tweet|tweet, message court publié en ligne; tweeter; pépiement d'un petit oiseau|o;v;o
 essay|court texte sur un sujet|o
 graveyard|terrain où l'on enterre les morts|o
 injustice|traitement injuste|o
@@ -5233,9 +5233,9 @@ discreet|discret, qui sait ne pas trop en dire|o
 thrive|prospérer, se développer|v
 morphine|morphine, drogue puissante contre la douleur|o
 dread|grande peur de ce qui vient|o
-barrack|caserne où logent les soldats; huer un orateur|o;v
+barrack|caserne; huer un orateur (britannique)|o;v
 agony|douleur physique ou morale très vive|o
-clank|(bruit métallique lourd)|g
+clank|cliqueter lourdement, faire un bruit métallique; bruit métallique sourd|v;o
 awaken|se réveiller; éveiller un sentiment|v;v
 karate|karaté, art martial japonais de coups de main et de pied|o
 highlight|meilleur moment d'un événement; mettre en avant|o;v
@@ -5309,9 +5309,9 @@ surgical|chirurgical|o
 elderly|âgé|o
 eyebrow|sourcil|o
 purely|purement, uniquement|o
-hoot|(coup de klaxon, cri de hibou)|g
+hoot|klaxonner, hululer comme un hibou; coup de klaxon, hululement|v;o
 vibe|ambiance qu'un lieu ou une personne dégage (familier)|o
-gong|(son grave d'un disque de métal frappé)|g
+gong|gong, disque métallique qui résonne gravement quand on le frappe|o
 profound|profond, de sentiment ou de sens|o
 shrine|sanctuaire à la mémoire d'un saint|o
 slot|fente où l'on glisse quelque chose; créneau dans un emploi du temps|o;o
@@ -5380,7 +5380,7 @@ reinforcement|renforts envoyés; renforcement|o;o
 transportation|transport de personnes ou de marchandises (américain)|o
 ha-ha-ha|(bruit du rire)|g
 interference|ingérence, fait de gêner; parasites qui brouillent un signal|o;o
-twitter|(gazouillis léger des petits oiseaux)|g
+twitter|Twitter, réseau social; gazouiller (comme de petits oiseaux); gazouillis|o;v;o
 freakin|(familier) fichu, pour insister|o
 mourning|deuil porté pour un mort|o
 wont|(faute pour won't) ne fera pas|o
@@ -5412,7 +5412,7 @@ definite|net et certain|o
 thrash|rouer de coups; s'agiter violemment|v;v
 antidote|antidote contre un poison|o
 tart|tarte aux fruits; (injurieux) femme habillée de façon aguichante; acide au goût|o;o;o
-yelp|(cri bref de douleur)|g
+yelp|glapir, pousser un cri de douleur; glapissement|v;o
 metaphor|métaphore, façon de nommer une chose par une autre pour dire à quoi elle ressemble|o
 lemonade|boisson sucrée au citron|o
 cement|ciment, poudre grise qui durcit, utilisée en construction|o
@@ -5431,7 +5431,7 @@ strangely|étrangement, d'une façon difficile à expliquer|o
 wrinkle|ride ou pli dans la peau ou le tissu|o
 'er|(à l'oral) la, elle|o
 batch|lot de choses faites ou traitées ensemble|o
-bind|attacher; maintenir ensemble; une impasse, une situation difficile (dans le pétrin)|v;v;o
+bind|attacher, lier; maintenir ensemble, lier; in a bind: dans le pétrin|v;v;n
 handkerchief|mouchoir|o
 flashlight|lampe de poche (américain)|o
 authentic|authentique, vraiment ce qu'il prétend être|o
@@ -5548,7 +5548,7 @@ context|contexte, mots qui entourent un passage; cadre qui donne le sens|o;o
 stereo|chaîne stéréo à deux enceintes|o
 banish|bannir d'un pays en punition|v
 enchant|enchanter, charmer vivement; ensorceler|v;v
-whinny|(hennissement doux d'un cheval)|g
+whinny|hennir doucement; hennissement|v;o
 nuisance|personne ou chose qui agace|o
 terrorism|terrorisme, violence à des fins politiques|o
 ungrateful|ingrat|o
@@ -5573,7 +5573,7 @@ denial|démenti, fait de nier; refus d'accorder|o;o
 metro|métro d'une ville|o
 comparison|comparaison|o
 blackout|coupure de courant ou d'éclairage; perte de mémoire ou de connaissance|o;o
-neigh|(hennissement prolongé d'un cheval)|g
+neigh|hennir; hennissement|v;o
 allowance|somme versée régulièrement; quantité autorisée|o;o
 gutter|caniveau ou gouttière pour l'eau|o
 slavery|esclavage, fait de posséder des personnes; travail dur et non payé|o;o
@@ -5638,7 +5638,7 @@ shameless|éhonté, sans honte de mal agir|o
 meteor|météore, roche qui brûle en entrant dans l'atmosphère|o
 ballistic|balistique, des missiles en vol; go ballistic: sortir de ses gonds|o;n
 harness|harnais d'un cheval ou d'un ouvrier; exploiter, mettre à profit|o;v
-turf|gazon avec sa couche de racines|o
+turf|gazon, couche d'herbe et de racines; territoire, chasse gardée (familier)|o;o
 vulture|vautour|o
 duh|(pour souligner une évidence)|g
 fingernail|ongle|o
@@ -5655,7 +5655,7 @@ worldwide|dans le monde entier|o
 rite|rite, forme réglée d'une cérémonie religieuse|o
 manuscript|manuscrit écrit à la main; texte de l'auteur avant impression|o;o
 underworld|milieu du crime organisé; séjour des morts dans les récits anciens|o;o
-cackle|(rire rauque et saccadé)|g
+cackle|ricaner, rire d'un rire grinçant; ricanement|v;o
 curly|bouclé, frisé|o
 performer|artiste qui joue, chante ou danse devant un public|o
 bidding|ordre qu'on vous donne; enchères à une vente|o;o
@@ -5711,7 +5711,7 @@ mercury|mercure, métal liquide argenté; Mercure, planète la plus proche du So
 revive|faire revivre, remettre en usage|v
 gracias|(espagnol) merci|o
 coral|corail, matière dure bâtie par de petits animaux marins|o
-gallon|gallon, mesure de liquide d'environ 4,5 litres|o
+gallon|gallon, unité de liquide, environ 3,8 litres (États-Unis) ou 4,5 litres (Royaume-Uni)|o
 newly|récemment, tout juste|o
 accessory|accessoire ajouté; complice d'un crime|o;o
 impatient|impatient|o
@@ -5789,7 +5789,7 @@ loaf|miche de pain; traîner sans rien faire|o;v
 portuguese|portugais; le portugais|o;o
 researcher|chercheur|o
 valid|valable en droit ou en raison|o
-plaster|plâtre qui durcit sur les murs; pansement adhésif|o;o
+plaster|plâtre, enduit; pansement adhésif (britannique)|o;o
 breeding|élevage, reproduction; bonne éducation|o;o
 hazard|danger; risque, chose qui peut nuire|o;o
 iove|(faute pour love) amour|o
@@ -5869,7 +5869,7 @@ spectacle|spectacle frappant; (spectacles) lunettes|o;o
 bakery|boulangerie|o
 dent|bosse creusée par un choc|o
 faculty|faculté du corps ou de l'esprit; faculté d'une université|o;o
-fiddle|violon; truquer des comptes; tripoter, jouer avec|o;v;v
+fiddle|violon; tripoter; magouiller, frauder sur l'argent (britannique, familier)|o;v;v
 modify|modifier légèrement|v
 ecstasy|extase, joie immense; ecstasy, drogue illégale euphorisante|o;o
 perceive|remarquer, percevoir; voir d'une certaine façon|v;v
@@ -6075,13 +6075,13 @@ vintage|de grande qualité et d'une autre époque; millésime d'un vin|o;o
 courthouse|palais de justice|o
 pedal|pédale actionnée du pied|o
 adjourn|suspendre une séance|v
-snicker|(petit rire moqueur)|g
+snicker|ricaner, rire sous cape; ricanement|v;o
 moth|papillon de nuit|o
 holiness|sainteté; His Holiness: Sa Sainteté, titre du pape|o;n
 isolation|isolement, mise à l'écart|o
 transformation|transformation complète|o
 meow|(miaulement du chat)|g
-caravan|caravane tractée par une voiture; caravane, groupe qui voyage ensemble|o;o
+caravan|caravane (britannique); caravane, groupe qui voyage ensemble|o;o
 loft|comble, espace sous le toit|o
 mp|MP, député|o
 nominate|proposer pour un poste ou un prix|v
@@ -6095,7 +6095,7 @@ alleged|(soi-disant) allégué, affirmé sans preuve|o
 asap|ASAP, dès que possible|o
 exceed|dépasser une limite|v
 soar|planer haut; monter en flèche|v;v
-cuckoo|coucou, oiseau qui pond dans le nid des autres|o
+cuckoo|coucou (oiseau qui pond dans le nid des autres); cinglé, fou (familier)|o;o
 melon|melon, gros fruit juteux à peau épaisse|o
 brownie|brownie, petit gâteau au chocolat; jeannette, jeune éclaireuse|o;o
 descendant|descendant d'un ancêtre|o
@@ -6249,14 +6249,14 @@ optimistic|optimiste|o
 urgently|d'urgence|o
 maze|labyrinthe de chemins fait pour égarer|o
 spooky|effrayant comme une histoire de fantômes|o
-paste|pâte molle qui colle; coller|o;v
+paste|pâte, mélange humide qui colle; coller avec de la colle; coller (du texte ou des images copiés)|o;v;v
 tonic|tonique qui redonne des forces; tonic, eau gazeuse au quinquina|o;o
 fireplace|cheminée, âtre creusé dans un mur|o
 vicar|pasteur ou curé de paroisse (britannique)|o
 skating|patinage|o
 stupidity|stupidité; bêtise, acte stupide|o;o
 sneaky|sournois, qui agit en douce|o
-dumpling|boulette de pâte cuite dans un ragoût|o
+dumpling|boulette de pâte, souvent farcie, bouillie ou cuite à la vapeur|o
 frequent|fréquent; fréquenter un lieu|o;v
 mixture|mélange obtenu en mêlant; combinaison|o;o
 rust|rouille qui se forme sur le fer humide|o
@@ -6356,7 +6356,7 @@ cocoa|cacao en poudre; chocolat chaud|o;o
 destroyer|destroyer, navire de guerre rapide; destructeur|o;o
 frenchman|Français|o
 pending|en attente, pas encore tranché; en attendant|o;o
-slurp|(bruit sonore de quelqu'un qui aspire une boisson)|g
+slurp|boire ou manger bruyamment, aspirer; aspiration bruyante|v;o
 nervously|nerveusement|o
 sprout|germer, se mettre à pousser; jeune pousse|v;o
 capability|capacité de faire quelque chose|o
@@ -6384,7 +6384,7 @@ pow|(bruit d'un coup violent ou d'un tir)|g
 revolver|revolver, pistolet à barillet|o
 stump|souche d'un arbre coupé; laisser complètement perplexe|o;v
 certainty|certitude; chose sûre d'arriver|o;o
-slate|ardoise, roche grise qui se fend en feuilles; éreinter, critiquer durement|o;v
+slate|ardoise; programmer, prévoir (américain); descendre en flammes, critiquer durement (britannique)|o;v;v
 grumble|ronchonner à voix basse|v
 sinister|sinistre, qui laisse présager le mal|o
 dryer|sèche-linge ou sèche-cheveux|o
@@ -6396,7 +6396,7 @@ generosity|générosité|o
 quarry|carrière d'où l'on extrait la pierre; proie d'une chasse|o;o
 assess|évaluer la valeur ou la qualité de|v
 beta|bêta, deuxième lettre de l'alphabet grec; version bêta d'un programme|o;o
-appal|horrifier, choquer profondément|v
+appal|consterner, horrifier (graphie britannique de appall)|v
 evidently|manifestement|o
 gamma|gamma, troisième lettre de l'alphabet grec; rayon gamma émis par la matière radioactive|o;o
 militia|milice de citoyens formés au combat|o
@@ -6421,7 +6421,7 @@ breakup|rupture d'une relation; éclatement en morceaux|o;o
 peso|peso, monnaie du Mexique et d'autres pays|o
 depot|dépôt de marchandises; dépôt d'autobus|o;o
 deception|tromperie, fait de faire croire ce qui est faux|o
-sizzle|(grésillement de la friture)|g
+sizzle|grésiller (comme une friture); grésillement|v;o
 holder|titulaire d'un titre ou d'un poste; support qui maintient quelque chose|o;o
 margin|marge blanche d'une page; marge de manœuvre; marge bénéficiaire|o;o;o
 ex-boyfriend|ex, ancien petit ami|o
@@ -6469,7 +6469,7 @@ insecure|peu sûr de soi; peu sûr, mal protégé|o;o
 sympathetic|compatissant devant le malheur d'autrui; bien disposé|o;o
 cluck|(gloussement bref de la poule)|g
 unidentified|non identifié|o
-burp|(bruit d'un rot)|g
+burp|roter; rot|v;o
 crude|grossier, sommaire; grossier, vulgaire; brut, à l'état naturel|o;o;o
 dependent|dépendant, qui vit aux dépens d'un autre|o
 dictionary|dictionnaire|o
@@ -6508,11 +6508,11 @@ horrify|horrifier|v
 knockout|coup qui met un boxeur K.-O.; bombe, personne d'une beauté renversante|o;o
 quarterback|quarterback qui dirige l'attaque au football américain|o
 eminence|titre d'un cardinal (Votre Éminence); haute position, renommée|o;o
-wheeze|(sifflement d'une respiration difficile)|g
+wheeze|respirer avec un sifflement; respiration sifflante|v;o
 willingly|volontiers, sans y être forcé|o
 moor|lande sauvage; amarrer un bateau|o;v
 muck|saleté, boue ou fumier|o
-cheeky|effronté d'une façon amusante|o
+cheeky|effronté, culotté mais drôle (britannique, familier)|o
 lapd|LAPD, la police de Los Angeles|o
 powerless|impuissant, sans pouvoir d'agir|o
 scalp|cuir chevelu|o
@@ -6641,7 +6641,7 @@ expansion|croissance, expansion|o
 output|production|o
 format|format, présentation|o
 politically|politiquement|o
-premier|Premier ministre, chef du gouvernement|o
+premier|Premier ministre, chef du gouvernement; premier, principal|o;o
 adaptation|adaptation (à de nouvelles conditions); adaptation (d'un livre au cinéma ou au théâtre)|o;o
 thereby|ainsi, de ce fait|o
 austerity|austérité, fortes réductions des dépenses publiques|o
@@ -6661,7 +6661,7 @@ symbolic|symbolique|o
 mid|milieu de, mi-|o
 significantly|sensiblement, de façon importante|o
 default|défaut de paiement; option par défaut|o;o
-derivative|produit dérivé (finance); dérivée (maths)|o;o
+derivative|produit dérivé (finance); dérivée (mathématiques); dérivé, peu original|o;o;o
 regulatory|réglementaire|o
 contemporary|contemporain, actuel; contemporain (de la même époque)|o;o
 ratio|rapport, proportion|o
@@ -6701,7 +6701,7 @@ genre|genre (artistique, musical ou littéraire)|o
 agricultural|agricole|o
 ethnic|ethnique|o
 recur|se reproduire, se répéter|v
-caput|tête (dans per caput : par personne)|o
+caput|per caput: par personne, par tête|n
 geopolitical|géopolitique|o
 synagogue|synagogue|o
 neuron|neurone|o
@@ -6724,7 +6724,7 @@ parliamentary|parlementaire|o
 songwriter|auteur-compositeur|o
 diplomacy|diplomatie (relations entre pays); diplomatie, tact|o;o
 solidarity|solidarité|o
-regulator|régulateur, autorité de régulation|o
+regulator|autorité de régulation; régulateur, détendeur|o;o
 renewable|renouvelable (énergie éolienne, solaire); renouvelable, prolongeable|o;o
 primarily|principalement, surtout|o
 productive|productif|o
@@ -6831,7 +6831,7 @@ quantitative|quantitatif|o
 imperative|impératif, urgent|o
 stance|position, prise de position|o
 feat|exploit|o
-vis|(dans vis-à-vis) par rapport à, face à|o
+vis|vis-à-vis: par rapport à, comparé à|n
 sine|sinus, rapport du côté opposé à l'hypoténuse|o
 taxpayer|contribuable|o
 administrative|administratif|o
@@ -7042,7 +7042,7 @@ downward|descendant, vers le bas|o
 feminism|féminisme|o
 persistent|persistant, durable; tenace, obstiné|o;o
 doctrine|doctrine|o
-lag|décalage, retard|o
+lag|être à la traîne, prendre du retard; retard, décalage|v;o
 dimensional|dimensionnel|o
 dominance|domination, prédominance|o
 actively|activement|o
@@ -7203,7 +7203,7 @@ predictable|prévisible|o
 textile|textile, tissu|o
 dismantle|démonter, démanteler|v
 foremost|principal, premier|o
-hedge|couverture (contre un risque financier); haie|o;o
+hedge|haie; couverture, protection contre une perte financière; se couvrir contre une perte (hedge a risk); éluder, ne pas répondre clairement|o;o;v;v
 jeopardize|compromettre, mettre en danger|v
 superpower|superpuissance|o
 convergence|convergence|o
@@ -7222,7 +7222,7 @@ comparable|comparable|o
 dividend|dividende|o
 judiciary|pouvoir judiciaire, magistrature|o
 accordingly|en conséquence; de manière appropriée|o;o
-premium|supplément, prime; prime d'assurance|o;o
+premium|supplément, surcoût; prime d'assurance; haut de gamme, de première qualité|o;o;o
 prompt|provoquer, inciter; rapide, ponctuel|v;o
 ballot|vote, scrutin; bulletin de vote|o;o
 embody|incarner|v
@@ -7297,7 +7297,7 @@ extinction|extinction|o
 socially|socialement; en société|o;o
 chronology|chronologie|o
 discontent|mécontentement|o
-geezer|mec, type (familier)|o
+geezer|type, mec (britannique, familier); vieux, papy (américain, familier)|o;o
 governmental|gouvernemental|o
 membrane|membrane|o
 redistribution|redistribution|o
@@ -7381,7 +7381,7 @@ discredit|discréditer|v
 disruptive|perturbateur|o
 illiberal|illibéral, intolérant|o
 nurture|élever, entretenir, favoriser|v
-outlet|point de vente; exutoire; média, organe de presse|o;o;o
+outlet|magasin d'usine, point de vente; prise électrique (américain); exutoire, moyen d'expression; média, organe de presse|o;o;o;o
 parity|parité, égalité|o
 rapper|rappeur|o
 bureaucratic|bureaucratique; bureaucratique, paperassier|o;o
@@ -7550,7 +7550,7 @@ minimal|minimal|o
 refinery|raffinerie|o
 respective|respectif|o
 thereafter|par la suite|o
-viva|vive ! (acclamation); soutenance de thèse|o;o
+viva|vive ! (acclamation); soutenance orale de thèse (britannique)|o;o
 basin|lavabo, cuvette; bassin (fluvial)|o;o
 bla|bla-bla, et cetera (dans bla bla bla)|o
 depreciate|se déprécier|v
@@ -7648,7 +7648,7 @@ uranium|uranium|o
 applejack|eau-de-vie de pomme|o
 augment|augmenter, accroître|v
 copyright|droit d'auteur|o
-fubar|complètement fichu, foutu (argot)|o
+fubar|complètement fichu, foutu (argot vulgaire)|o
 imprisonment|emprisonnement|o
 lambda|lambda, onzième lettre de l'alphabet grec|o
 literacy|alphabétisation, capacité à lire et écrire|o
@@ -7824,7 +7824,7 @@ processor|processeur|o
 summarize|résumer|v
 traumatic|traumatisant|o
 withstand|résister à, supporter|v
-accordance|conformité (in accordance with : conformément à)|o
+accordance|accord, conformité; in accordance with: conformément à, selon|o;n
 alleviate|soulager, atténuer|v
 articulate|qui s'exprime clairement; exprimer clairement|o;v
 bracket|parenthèse, crochet ( ) [ ]; tranche (tranche de revenu)|o;o
@@ -7877,7 +7877,7 @@ sampling|échantillonnage, prélèvement; sélection (pour des tests)|o;o
 scarcity|pénurie, rareté|o
 skyscraper|gratte-ciel|o
 vibrant|vivant, plein d'énergie; vif, éclatant (couleur)|o;o
-abide|supporter (can't abide); respecter, se conformer à (abide by)|v;v
+abide|supporter, tolérer (can't abide); abide by: respecter, se conformer à|v;n
 assurance|assurance, garantie; assurance, confiance en soi|o;o
 disproportionate|disproportionné|o
 interdependence|interdépendance|o
@@ -7928,7 +7928,7 @@ northeastern|du nord-est|o
 prioritize|donner la priorité à|v
 regression|régression; régression (statistique)|o;o
 todo|tâche à faire (comme dans todo list)|o
-understandably|naturellement, on le comprend|o
+understandably|naturellement, comme on pouvait s'y attendre; de façon compréhensible|o;o
 blender|mixeur, blender|o
 diversification|diversification|o
 invariably|invariablement, toujours|o
@@ -8169,7 +8169,7 @@ intersect|croiser, se croiser|v
 legislator|législateur|o
 linkage|lien, liaison|o
 rendering|interprétation, exécution; image générée par ordinateur, rendu; rendering, forme en -ing de render|o;o;o
-revision|modification, correction; révisions (pour les examens)|o;o
+revision|révision, correction; révisions pour les examens (britannique)|o;o
 rugby|rugby, sport d'équipe avec un ballon ovale|o
 splice|épisser, raccorder|v
 compress|comprimer, presser|v
@@ -8724,7 +8724,7 @@ cosmetic|superficiel; cosmétique|o;o
 dissertation|mémoire, thèse|o
 futile|futile, vain|o
 hippocampus|hippocampe (région du cerveau)|o
-hoc|(dans ad hoc) à cet effet, improvisé|o
+hoc|ad hoc: pour un usage précis, improvisé|n
 inland|à l'intérieur des terres|o
 jihad|djihad|o
 masculine|masculin, viril|o
@@ -8762,7 +8762,7 @@ vowel|voyelle|o
 whats|qu'est-ce qui est; qu'est-ce qui a (what's)|o;o
 achievable|réalisable, atteignable|o
 airfield|aérodrome|o
-arsehole|(insulte vulgaire) connard; trou du cul|o;o
+arsehole|(insulte vulgaire, britannique) connard; anus, trou du cul|o;o
 biofuel|biocarburant|o
 buttress|étayer, renforcer; contrefort|v;o
 candidacy|candidature|o
@@ -8855,14 +8855,14 @@ rendition|interprétation, version; remise extrajudiciaire (d'un suspect)|o;o
 renounce|renoncer à, rejeter|v
 satirical|satirique|o
 scaling|mise à l'échelle; montée en charge, expansion|o;o
-shite|(vulgaire) merde, conneries|o
+shite|(vulgaire, britannique) merde, conneries|o
 sneaker|basket, chaussure de sport|o
 subdue|maîtriser, soumettre|v
 sundown|coucher du soleil|o
 uhm|euh|o
 vacant|vacant, inoccupé; vide, absent (regard)|o;o
 verbal|verbal, oral; verbal (relatif aux verbes)|o;o
-versa|(dans vice versa) inversement|o
+versa|vice versa: inversement|n
 anus|anus|o
 backstop|filet de sécurité, mesure de dernier recours|o
 censor|censurer; censeur|v;o
@@ -9018,7 +9018,7 @@ proliferate|proliférer|v
 ratification|ratification|o
 redirect|réorienter, rediriger|v
 simultaneous|simultané|o
-slag|scories; (insulte) salope|o;o
+slag|scories, laitier; (britannique, injurieux) salope, femme facile|o;o
 smartphones|smartphones, pluriel de smartphone|o
 stipulate|stipuler|v
 swath|bande, étendue|o
@@ -9095,7 +9095,7 @@ federalism|fédéralisme|o
 hereditary|héréditaire|o
 humankind|humanité, genre humain|o
 ingenuity|ingéniosité|o
-insofar|(dans insofar as) dans la mesure où|o
+insofar|insofar as: dans la mesure où|n
 insurer|assureur|o
 intolerance|intolérance; intolérance (alimentaire)|o;o
 invasive|envahissant, invasif; invasif (qui pénètre dans le corps)|o;o
@@ -9110,7 +9110,7 @@ tempo|tempo, rythme|o
 unchecked|incontrôlé, sans frein|o
 cardiovascular|cardiovasculaire|o
 charitable|caritatif; charitable, généreux|o;o
-coloured|qui a de la couleur (orthographe britannique de colored)|o
+coloured|coloré, en couleur (graphie britannique de colored); (vieilli, injurieux) de couleur, non blanc|o;o
 columnist|chroniqueur|o
 conducive|propice, favorable (à)|o
 diarrhea|diarrhée|o
@@ -9273,7 +9273,7 @@ vocational|professionnel|o
 worthwhile|qui en vaut la peine|o
 accidental|accidentel, fortuit|o
 arrogance|arrogance|o
-avant|(dans avant-garde) novateur et expérimental|o
+avant|avant-garde: nouveau et expérimental, d'avant-garde|n
 blockchain|chaîne de blocs, blockchain|o
 browse|parcourir, feuilleter; naviguer (sur Internet)|v;v
 brutally|brutalement; sans ménagement|o;o
@@ -9320,7 +9320,7 @@ commute|faire la navette (pour le travail); commuer (une peine)|v;v
 costing|estimation du coût, chiffrage; costing, forme en -ing de cost|o;o
 democratize|démocratiser|v
 estrogen|œstrogène|o
-faire|(dans laissez-faire) non-intervention de l'État dans l'économie|o
+faire|laissez-faire: laisser-faire, non-intervention de l'État dans l'économie|n
 fluorescent|fluorescent|o
 frontal|frontal (à l'avant); frontal, direct|o;o
 geoengineering|géo-ingénierie|o
@@ -9528,7 +9528,7 @@ squire|propriétaire terrien, châtelain; écuyer|o;o
 uneasy|inquiet, anxieux; mal à l'aise|o;o
 flutter|voleter, battre (des ailes, des cils); émoi, agitation nerveuse|v;o
 aloud|à voix haute|o
-dost|fais (avec thou)|f3s
+dost|(archaïque) do (avec thou)|f3s
 gloomy|sombre, obscur; triste, pessimiste|o;o
 curiously|avec curiosité; curieusement, étrangement|o;o
 grit|gravillons, sable; cran, détermination; serrer (les dents)|o;o;v
@@ -9597,7 +9597,7 @@ intently|attentivement|o
 spat|spat, passé de spit (cracher); prise de bec, chamaillerie|o;o
 warmly|chaleureusement; chaudement|o;o
 indifferent|indifférent; médiocre|o;o
-whence|d'où|o
+whence|(vieilli) d'où|o
 abbe|abbé|o
 colonist|colon|o
 proudly|fièrement|o
@@ -9723,7 +9723,7 @@ ornament|ornement, objet décoratif|o
 radiate|rayonner (depuis un centre); dégager, émettre (chaleur, lumière); respirer, rayonner de (joie)|v;v;v
 allure|attrait, charme|o
 exasperate|exaspérer|v
-fortnight|quinze jours, deux semaines|o
+fortnight|quinzaine, deux semaines (surtout britannique)|o
 helplessly|sans pouvoir s'en empêcher, impuissant|o
 overflow|déborder; être plein à craquer|v;v
 scorn|mépris; mépriser|o;v
@@ -10092,7 +10092,7 @@ residency|résidence, séjour; internat (médecine), résidence d'artiste|o;o
 retrospective|rétrospectif; rétrospective (exposition)|o;o
 rhetorical|rhétorique, oratoire; rhetorical question: question rhétorique|o;n
 satin|satin|o
-saxophone|saxophone|o
+saxophone|saxophone, instrument à anche en cuivre de la famille des bois|o
 shrill|strident, perçant|o
 sprinkle|saupoudrer, asperger|v
 stillness|calme, silence, immobilité|o
@@ -10860,7 +10860,7 @@ lotta|plein de, beaucoup de (fam.)|o
 lullaby|berceuse|o
 mangrove|palétuvier, mangrove|o
 marmot|marmotte|o
-measle|(dans measles) rougeole|o
+measle|measles: rougeole, maladie contagieuse à taches rouges|n
 mediocre|médiocre|o
 mod|mod, modification (d'un jeu, d'un appareil) (fam.); modérateur (d'un forum) (fam.); mod (style de la jeunesse britannique des années 1960)|o;o;o
 moisture|humidité|o
@@ -11118,7 +11118,7 @@ crunchy|croquant, croustillant|o
 daybreak|aube, point du jour|o
 digitization|numérisation|o
 doublet|pourpoint; élément d'une paire|o;o
-draught|courant d'air; gorgée; on draught: à la pression|o;o;n
+draught|courant d'air froid (graphie britannique de draft); gorgée; on draught: à la pression|o;o;n
 enclave|enclave|o
 endow|doter, financer; endowed with: doté de|v;n
 ethically|éthiquement, moralement|o
@@ -11137,7 +11137,7 @@ ladyship|titre d'une noble (your ladyship : madame)|o
 legislate|légiférer|v
 mortify|humilier, mortifier|v
 niche|niche (dans un mur); créneau, niche de marché|o;o
-nicker|hennissement doux; livre sterling (fam.)|o;o
+nicker|petit hennissement doux; livre sterling (argot britannique)|o;o
 nutritional|nutritionnel|o
 overreach|viser trop haut, aller trop loin|v
 pander|flatter, céder (aux bas instincts ou aux goûts)|v
@@ -11182,7 +11182,7 @@ cinch|jeu d'enfant (fam.); serrer fort|o;v
 collagen|collagène|o
 concurrently|simultanément|o
 condone|tolérer, fermer les yeux sur|v
-cordial|chaleureux, cordial; sirop de fruits|o;o
+cordial|cordial, chaleureux; sirop de fruits concentré (britannique)|o;o
 dispatcher|répartiteur|o
 estrange|éloigner, brouiller (surtout estranged : brouillé)|v
 exasperation|exaspération|o
@@ -11534,7 +11534,7 @@ ramification|ramification, conséquence|o
 recurrence|récurrence, réapparition|o
 reminisce|évoquer ses souvenirs|v
 responder|personne qui répond; first responder: premier intervenant, secouriste|o;n
-rouble|rouble|o
+rouble|rouble, graphie britannique de ruble|o
 runoff|ruissellement; second tour (d'une élection)|o;o
 satyr|satyre (créature mi-homme mi-bouc); satyre (homme lubrique)|o;o
 secrete|sécréter; cacher|v;v
@@ -11555,7 +11555,7 @@ wildfire|feu de forêt, incendie incontrôlé; like wildfire: comme une traîné
 actuator|actionneur|o
 adieu|adieu|o
 bedrock|roche en place, socle rocheux; fondement|o;o
-blower|souffleur, soufflerie; téléphone (fam.)|o;o
+blower|soufflerie, ventilateur; téléphone (britannique, familier)|o;o
 bony|osseux, décharné; plein d'arêtes, plein d'os|o;o
 bookstore|librairie|o
 buzzard|buse|o
@@ -11581,7 +11581,7 @@ ferret|furet; ferret out: dénicher|o;n
 fluorine|fluor|o
 foliage|feuillage|o
 gat|flingue (fam.)|o
-graft|greffe; corruption; boulot acharné (fam.)|o;o;o
+graft|greffe; corruption, pots-de-vin; boulot dur, labeur (britannique, familier)|o;o;o
 grate|râper; agacer; grille de foyer|v;v;o
 ideologues|idéologues, pluriel de ideologue|o
 imaginative|imaginatif, créatif|o
@@ -11748,7 +11748,7 @@ exaggeration|exagération|o
 externally|à l'extérieur|o
 fascination|fascination|o
 gambit|stratagème, manœuvre d'ouverture|o
-goddam|foutu, sacré (fam.)|o
+goddam|foutu, sacré (familier, juron)|o
 gymnasium|gymnase|o
 hazardous|dangereux|o
 hydropower|hydroélectricité|o
@@ -11832,7 +11832,7 @@ deign|daigner|v
 densely|densément|o
 devoid|devoid of: dépourvu de|n
 differentiation|distinction; différenciation|o;o
-druggist|pharmacien|o
+druggist|pharmacien (américain, vieilli)|o
 enigmatic|énigmatique|o
 entwine|entrelacer|v
 epitope|épitope|o
@@ -11883,7 +11883,7 @@ scurry|trottiner, filer à petits pas|v
 sender|expéditeur|o
 shipbuilding|construction navale|o
 sorrowful|triste, affligé|o
-spanking|fessée; tout (neuf) (fam.)|o;o
+spanking|fessée (comme punition); spanking new: flambant neuf (familier)|o;n
 spire|flèche (d'église)|o
 statistician|statisticien|o
 stylistic|stylistique|o
@@ -11898,10 +11898,10 @@ tinge|pointe, nuance|o
 twig|brindille|o
 unelected|non élu|o
 wanderer|vagabond, voyageur errant|o
-wop|terme péjoratif pour un Italien, rital (fam.)|o
+wop|(insulte raciste visant un Italien)|g
 abet|être complice de, encourager (un crime)|v
 anatomical|anatomique|o
-anecdote|anecdote|o
+anecdote|anecdote, court récit d'un fait réel|o
 artisan|artisan|o
 bigotry|sectarisme, intolérance|o
 biochemistry|biochimie|o
@@ -11911,7 +11911,7 @@ bluster|fanfaronnades; parler avec arrogance|o;v
 bulwark|rempart; protection|o;o
 bystander|témoin, spectateur|o
 centrally|au centre|o
-coffer|coffre (surtout coffers : caisses, fonds)|o
+coffer|coffre-fort, coffre; coffers: caisses, fonds disponibles|o;n
 collusion|collusion|o
 conspicuous|voyant, remarquable|o
 contra|contre, contrairement à|o
@@ -11980,8 +11980,8 @@ reactive|réactif (qui réagit au lieu d'agir); réactif (chimie)|o;o
 reassuringly|de façon rassurante|o
 reborn|réincarné, né de nouveau; renouvelé|o;o
 redouble|redoubler (d'efforts)|v
-redundancy|licenciement; redondance|o;o
-redundant|superflu, redondant; licencié|o;o
+redundancy|licenciement économique, suppression de poste (britannique); redondance, répétition inutile|o;o
+redundant|superflu, redondant; licencié car son poste est supprimé (britannique)|o;o
 repel|repousser; dégoûter|v;v
 rhino|rhinocéros|o
 skillfully|habilement|o
@@ -12142,7 +12142,7 @@ veterinary|vétérinaire|o
 visage|visage|o
 viz|à savoir|o
 waft|flotter, se répandre dans l'air|v
-widget|gadget, bidule|o
+widget|petit gadget, bidule; widget, petite appli ou commande à l'écran|o;o
 wriggle|se tortiller|v
 zoology|zoologie|o
 adequacy|adéquation, suffisance|o
@@ -12280,7 +12280,7 @@ ciphertext|texte chiffré|o
 citrus|agrume|o
 closeness|intimité, proximité affective; proximité|o;o
 clueless|paumé, qui n'y connaît rien (fam.)|o
-cocksucker|enfoiré, fils de pute (vulg.)|o
+cocksucker|enculé, salaud (vulgaire, injurieux)|o
 commencement|commencement, début; cérémonie de remise des diplômes|o;o
 commonality|point commun|o
 conjugate|conjuguer; conjugué, apparié|v;o
@@ -12618,7 +12618,7 @@ bookie|bookmaker|o
 botanist|botaniste|o
 brocade|brocart|o
 caffeine|caféine|o
-calibre|calibre, envergure; calibre (d'une arme)|o;o
+calibre|calibre, graphie britannique de caliber|o
 cartographer|cartographe|o
 causal|causal|o
 charger|chargeur; destrier|o;o
@@ -12682,12 +12682,12 @@ metaphorical|métaphorique, figuré|o
 millennial|millénial (né vers 1981–1996); millénaire|o;o
 mitzva|commandement religieux; bonne action (judaïsme)|o;o
 monetarist|monétariste|o
-moult|muer|v
+moult|muer, perdre ses plumes, ses poils ou sa peau (graphie britannique de molt)|v
 naturalist|naturaliste|o
 nausea|nausée|o
 nonfiction|documentaire, ouvrages non romanesques|o
 overrun|envahir, submerger; dépasser (délai, budget)|v;v
-panellist|membre d'un jury, intervenant|o
+panellist|panéliste, graphie britannique de panelist|o
 pediatric|pédiatrique|o
 penchant|penchant, goût|o
 penetrative|pénétrant, perçant|o
@@ -12815,7 +12815,7 @@ insatiable|insatiable|o
 knitting|tricot|o
 knowingly|sciemment, délibérément; d'un air entendu|o;o
 monotonous|monotone|o
-mould|moisissure; moule; mouler, façonner|o;o;v
+mould|moisissure (graphie britannique de mold); moule; mouler, façonner|o;o;v
 onlooker|spectateur, badaud|o
 ooze|suinter; vase, boue|v;o
 paralyse|paralyse, orthographe britannique de paralyze|o
@@ -12910,7 +12910,7 @@ recluse|reclus, ermite|o
 reek|puer, empester; puanteur|v;o
 relent|céder, s'adoucir|v
 rigging|gréement; truquage (d'un vote)|o;o
-ruddy|rubicond, rougeaud; fichu, sacré (fam.)|o;o
+ruddy|rougeaud, rubicond (du visage); sacré, fichu (britannique, familier)|o;o
 ruffian|voyou, brute|o
 shockwave|onde de choc; onde de choc (émotion collective)|o;o
 sketchbook|carnet de croquis|o
@@ -13008,7 +13008,7 @@ bookshelf|étagère à livres|o
 bugle|clairon|o
 cloister|cloître (galerie); cloître, monastère|o;o
 contemptuously|avec mépris|o
-cot|lit de bébé; lit de camp|o;o
+cot|lit de bébé (britannique); lit de camp (américain)|o;o
 drowsy|somnolent|o
 elegantly|élégamment|o
 elm|orme|o
@@ -13059,7 +13059,7 @@ flake|flocon, écaille; personne peu fiable (fam.); s'écailler|o;o;v
 foggy|brumeux; confus, flou|o;o
 fortitude|force d'âme, courage|o
 fruitless|vain, infructueux|o
-fulfil|accomplir, remplir; satisfaire, combler|v;v
+fulfil|accomplir, remplir, graphie britannique de fulfill|v
 furry|à fourrure, poilu|o
 ghostly|fantomatique, spectral|o
 girdle|gaine, corset; ceinture|o;o
@@ -13102,7 +13102,7 @@ disgraceful|honteux, scandaleux|o
 elapse|s'écouler (temps)|v
 excruciating|atroce, insoutenable|o
 flannel|flanelle, tissu de laine doux; gant de toilette (britannique)|o;o
-flog|fouetter, flageller; fourguer, vendre (fam.)|v;v
+flog|fouetter; vendre, refourguer (britannique, familier)|v;v
 fondness|affection, tendresse|o
 frankness|franchise|o
 futon|futon|o
@@ -13135,7 +13135,7 @@ slither|glisser, ramper|v
 solstice|solstice|o
 starry|étoilé|o
 stow|ranger; stow away: voyager clandestinement|v;n
-tradesman|commerçant; artisan|o;o
+tradesman|artisan, ouvrier qualifié; commerçant (vieilli)|o;o
 tremor|tremblement; secousse sismique|o;o
 unreadable|illisible; impénétrable (visage)|o;o
 unruly|indiscipliné, turbulent|o
@@ -13260,7 +13260,7 @@ ceaseless|incessant|o
 censure|blâme, censure; blâmer, censurer|o;v
 cobbler|cordonnier; tourte aux fruits (croûte sur le dessus)|o;o
 condescension|condescendance|o
-dab|tamponner, effleurer; petite touche, noisette; dab hand: expert, as|v;o;n
+dab|tamponner, toucher légèrement; petite quantité, touche; dab hand: as, expert (britannique)|v;o;n
 deference|déférence|o
 delirium|délire; délire, exaltation|o;o
 delude|tromper, abuser|v
@@ -13316,7 +13316,7 @@ mandible|mandibule, mâchoire|o
 meekly|docilement, humblement|o
 oblivion|oubli; inconscience, néant|o;o
 passageway|couloir, passage|o
-skilful|habile, adroit|o
+skilful|habile, graphie britannique de skillful|o
 stuffy|étouffant, mal aéré; guindé, compassé|o;o
 truthful|honnête, sincère|o
 unforgiving|rancunier, impitoyable; rude, sans pitié|o;o
@@ -13386,7 +13386,7 @@ falsify|modifier des faits ou des documents pour tromper|v
 faulty|qui ne fonctionne pas bien, défectueux|o
 fixation|attachement fort et malsain à une seule chose|o
 futuristic|qui ressemble au futur, très moderne|o
-goggle|fixer du regard les yeux écarquillés; (goggles) lunettes de protection|v;o
+goggle|écarquiller les yeux, regarder avec des yeux ronds; goggles: lunettes de protection|v;n
 grading|fait de noter un travail; tri selon la qualité|o;o
 handover|fait de remettre quelque chose à une autre personne ou à un autre groupe|o
 hashtag|mot ou expression précédé de # pour indiquer un sujet en ligne|o
@@ -13691,7 +13691,7 @@ unofficially|de façon non officielle|o
 vigil|fait de rester éveillé pour veiller ou prier, surtout la nuit|o
 abdication|fait de renoncer au trône ou à une position de pouvoir|o
 adjudicate|juger officiellement dans un différend|v
-aint|je ne suis pas; il n'est pas; ils ne sont pas (familier)|f3s;f3s;f3s
+aint|ne suis pas, n'est pas, ne sont pas (non standard); n'a pas, n'ont pas (non standard)|f3s;f3s
 airy|clair et ouvert avec de l'air frais; désinvolte et insouciant|o;o
 algebraic|relatif à l'algèbre|o
 ambivalence|fait d'avoir des sentiments partagés sur quelque chose|o
@@ -13765,7 +13765,7 @@ reprisal|acte nuisible fait en retour d'un tort|o
 rye|céréale servant à faire du pain et du whisky|o
 schizophrenic|personne atteinte de schizophrénie, grave maladie mentale; relatif à cette maladie|o;o
 shorthand|façon rapide d'écrire à l'aide de symboles; façon abrégée de dire quelque chose|o;o
-slider|petit sandwich; commande qui coulisse le long d'une ligne; lancer rapide au baseball|o;o;o
+slider|curseur, réglette; mini-burger (américain); balle glissante (baseball)|o;o;o
 solver|personne ou programme qui résout des problèmes|o
 spaceflight|voyage dans l'espace|o
 spruce|grand arbre à feuilles persistantes; soigné et élégant; mettre en ordre|o;o;v
@@ -13844,7 +13844,7 @@ secede|quitter officiellement un pays ou une organisation|v
 stats|statistiques (familier); chiffres montrant des faits sur quelque chose|o;o
 sterilization|destruction des germes; opération qui rend une personne ou un animal incapable d'avoir des petits|o;o
 stockholder|personne qui possède des actions d'une entreprise|o
-takeaway|nourriture achetée pour être mangée ailleurs; point principal retenu|o;o
+takeaway|plat à emporter (britannique); enseignement principal, leçon à retenir|o;o
 textual|relatif à un texte écrit|o
 toxicity|degré de toxicité de quelque chose|o
 unitary|formant un tout unique; gouverné par un seul gouvernement central|o;o
@@ -13857,7 +13857,7 @@ arable|propre à la culture|o
 assay|test de la qualité ou de la teneur d'une substance; tester|o;v
 autonomously|de façon indépendante, sans contrôle extérieur|o
 backlog|tas de travail pas encore fait|o
-chit|petit mot ou note; jeune fille (familier)|o;o
+chit|note, bon, petite facture; gamine, péronnelle (vieilli, péjoratif)|o;o
 clerical|relatif au travail de bureau; relatif aux prêtres|o;o
 constructively|de façon utile et positive|o
 cosmological|relatif à l'étude de l'univers|o
@@ -14582,7 +14582,7 @@ jig|danse vive; bouger rapidement de haut en bas|o;v
 jumble|mélange désordonné; mélanger en désordre|o;v
 latency|délai avant que quelque chose se produise; état caché|o;o
 livable|assez bon pour qu'on y vive|o
-lovey|nom affectueux et amical donné à quelqu'un (familier)|o
+lovey|mon chou, terme affectueux (britannique, familier)|o
 markup|somme ajoutée à un coût pour fixer un prix de vente; code informatique qui met un texte en forme|o;o
 maximization|fait de rendre quelque chose aussi grand que possible|o
 mayonnaise|sauce épaisse et crémeuse faite d'œufs et d'huile|o
@@ -14732,7 +14732,7 @@ motorbike|moto|o
 nave|partie centrale principale d'une église|o
 obliterate|détruire complètement|v
 obscene|choquant, surtout en matière de sexe|o
-ofcourse|of course (écrit en un seul mot)|o
+ofcourse|bien sûr (faute d'orthographe courante)|o
 orgy|fête débridée avec beaucoup de sexe; excès|o;o
 ornate|décoré avec beaucoup de détails|o
 patriarchy|société dirigée par les hommes|o
@@ -14991,7 +14991,7 @@ explanatory|qui donne des raisons ou une explication|o
 feckless|faible et irresponsable|o
 flier|personne qui vole; publicité imprimée|o;o
 gigatons|unités de poids égales à un milliard de tonnes|o
-googly|balle lancée au cricket qui dévie dans le sens opposé; grands yeux qui roulent|o;o
+googly|globuleux et roulants (des yeux); (au cricket) balle qui dévie dans le sens inverse (britannique)|o;o
 grueling|extrêmement fatigant|o
 haters|personnes qui détestent fortement les autres|o
 hearten|rendre plus joyeux|v
@@ -15191,7 +15191,7 @@ limelight|centre de l'attention du public|o
 loner|personne qui préfère être seule|o
 marcher|personne qui marche dans un défilé|o
 masonry|ouvrage de pierre ou de brique|o
-millionth|une des million de parties égales|o
+millionth|millionième (rang); millionième (fraction), un millionième|o;o
 mink|petit animal à fourrure; sa fourrure précieuse|o;o
 misogyny|haine des femmes|o
 monorail|train qui roule sur un seul rail|o
@@ -15362,7 +15362,7 @@ conceit|orgueil excessif; métaphore ingénieuse et prolongée|o;o
 concentrator|appareil qui augmente la force de quelque chose|o
 consummate|parfait, très habile; consommer un mariage par un rapport sexuel|o;v
 crustacean|animal à carapace dure et à nombreuses pattes, comme un crabe|o
-declination|angle d'une étoile au-dessus de l'équateur céleste; pente descendante|o;o
+declination|déclinaison, distance angulaire au nord ou au sud de l'équateur céleste; déclinaison magnétique, angle entre le nord magnétique et le nord géographique|o;o
 denigrate|critiquer injustement, rabaisser|v
 dinged|cabossé; heurté avec un petit tintement|o;o
 disassemble|démonter|v
@@ -15370,7 +15370,7 @@ discus|lourd disque lancé en athlétisme|o
 dismissive|qui montre que quelque chose ne mérite pas d'attention|o
 dispersion|fait de se répandre sur une grande surface|o
 divination|tentative de prédire l'avenir par la magie|o
-duffle|étoffe de laine épaisse et grossière; grand sac en toile|o;o
+duffle|grand sac en toile (duffle bag); drap de laine épais et grossier|o;o
 elemental|de base et essentiel; relatif aux forces de la nature|o;o
 emphatic|énergique et clair|o
 encapsulate|exprimer brièvement; enfermer dans une capsule|v;v
@@ -15385,7 +15385,7 @@ expectant|plein d'espoir; enceinte|o;o
 exploratory|fait pour en savoir plus|o
 extort|obtenir de l'argent par menaces ou par la force|v
 extraterritorial|en dehors du territoire juridique d'un pays|o
-familiarize|faire bien connaître à quelqu'un|v
+familiarize|familiariser (quelqu'un) avec quelque chose|v
 federally|par le gouvernement national|o
 firestorm|énorme incendie violent; vive protestation publique|o;o
 fizz|bulles de gaz dans une boisson; faire des bulles|o;v
@@ -16097,7 +16097,7 @@ sideburns|poils qui poussent sur les côtés du visage d'un homme|o
 situ|in situ: à sa place d'origine, pas déplacé|n
 sleepwalk|marcher pendant son sommeil|v
 statewide|dans tout un État|o
-stead|(in someone's stead) à la place de quelqu'un; (stand someone in good stead) être utile à quelqu'un plus tard|o;v
+stead|place (in her stead: à sa place); in good stead: utile plus tard (it will stand you in good stead)|o;n
 storehouse|bâtiment pour entreposer des marchandises|o
 suckling|bébé ou jeune animal qui boit encore du lait|o
 sugary|qui contient beaucoup de sucre; trop sucré|o;o

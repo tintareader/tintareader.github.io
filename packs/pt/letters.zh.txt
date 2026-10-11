@@ -1,0 +1,74 @@
+# Tinta — what the Portuguese letters sound like, for a reader of Chinese.
+# This project's own work: unencumbered.
+# key|context|note
+#   context  empty for the letter in general; otherwise where in the word the
+#            note applies: end, start, between (two vowels), beforefront (before
+#            e, i and the like), beforevowel, aftervowel. The engine works out
+#            where a letter stands; the first context with a note wins.
+# Written for this reader, not translated: comparisons are to Mandarin sounds and pinyin.
+a||像拼音的 a，如“爸”
+a|end|在词尾很弱，近似轻声的“的”(de) 里的 e
+b||近似拼音的 b，但声带振动
+c||不送气的 k，近似拼音的 g；不读拼音的 c
+c|beforefront|像拼音的 s
+d||近似拼音的 d，但声带振动
+d|before:i|在巴西，i 前读近似拼音的 j：dia
+d|before:e+penult|在巴西，词尾弱读的 e 前也读近似拼音的 j：cidade
+e||像“诶”，不滑向 i
+e|end|在巴西，词尾读拼音的 i：leite
+f||像拼音的 f
+g||近似拼音的 g，但声带振动
+g|beforefront|近似拼音的 r，但舌尖不卷，更像英语 measure 里的 s
+h||永远不发音
+i||像拼音的 i，如“衣”
+j||近似拼音的 r，但舌尖不卷，更像英语 measure 里的 s
+k||k；只用于外来词
+l||像拼音的 l，清晰
+l|end|在巴西，音节末读成 u：Brasil 听起来像“布拉兹乌”
+l|beforeconsonant|在巴西，辅音前也读成 u：alto 听起来像“奥乌图”
+m||像拼音的 m
+m|end|不读 m：使前面的元音带鼻音
+m|beforeconsonant|辅音前不读 m：使前面的元音带鼻音，如 campo
+n||像拼音的 n
+n|beforeconsonant|辅音前不读 n：使前面的元音带鼻音，如 mundo
+o||像“哦”，纯而不滑向 u
+o|end|在词尾读拼音的 u：livro
+p||不送气的 p，近似拼音的 b
+q||只出现在 qu 中
+r||舌尖在上齿龈快速轻弹一下，像很快的 d
+r|start|在巴西，词首读近似拼音的 h：rio
+r|end|音节末读轻轻的 h，或轻弹一下
+s||像拼音的 s
+s|between|在两个元音之间读浊音 z，声带振动，像英语 zoo
+s|end|读 s；在里约和葡萄牙读近似拼音的 sh，浊辅音前变成浊音：mesmo
+t||不送气的 t，近似拼音的 d
+t|before:i|在巴西，i 前读近似拼音的 q：tia
+t|before:e+penult|在巴西，词尾弱读的 e 前也读近似拼音的 q：leite
+u||像拼音的 u，如“不”
+v||v：上齿轻咬下唇，声带振动；汉语里没有这个音
+w||w；只用于外来词
+x||最常读近似拼音的 sh；也可读 ks、z 或 s
+y||读拼音的 i；只用于外来词
+z||浊音 z，声带振动，像英语 zoo；不读拼音的 z
+z|end|在词尾读 s：feliz
+lh||近似 l 加 i 滑音，像“lia”的开头
+nh||像“妞”(niu) 开头的 n 带 i 滑音
+ch||近似拼音的 sh
+rr||像拼音的 h，在喉咙里摩擦：carro
+ss||像拼音的 s；元音之间写 ss，因为单个 s 在那里读 z
+qu||在 e 和 i 前读 k，个别词读 kw (cinquenta, frequente)；在 a 和 o 前读 kw
+ão||鼻化的“奥”，像 ao 从鼻子里发出
+õe||鼻化的 oi，像“欧伊”从鼻子里发出
+ãe||鼻化的 ai，像“爱”从鼻子里发出
+á||a，重音落在这里
+à||a；是 a 加 a 连在一起
+â||闭口的 a，近似轻声的 e，重音落在这里
+ã||鼻化的 a，像“安”的元音从鼻子里发出
+é||开口的 e，像“哎”，重音落在这里
+ê||闭口的 e，像“诶”，重音落在这里
+í||i，重音落在这里
+ó||开口的 o，嘴张得比“哦”大，重音落在这里
+ô||闭口的 o，像“哦”，重音落在这里
+õ||鼻化的 o，从鼻子里发出
+ú||u，重音落在这里
+ç||像拼音的 s

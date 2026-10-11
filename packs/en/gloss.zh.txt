@@ -1402,9 +1402,9 @@ complicate|使复杂化|v
 outta|out of, 从…出来 (口语)|o
 japanese|日本的; 日语|o;o
 university|大学|o
-gunshot|(枪声) 枪响|g
+gunshot|枪击，枪声|o
 sudden|突然的|o
-bleep|(盖住脏话的哔声)|g
+bleep|短促的高音电子声，哔声; 发出哔声; 用哔声盖住脏话|o;v;v
 defense|防御, 防守; 辩护|o;o
 period|一段时间; 月经; 句号|o;o;o
 accuse|说某人做了错事, 指控; the accused: 被控犯罪的人|v;n
@@ -1561,7 +1561,7 @@ engineer|工程师|o
 dawn|黎明; 开始明白|o;v
 doin|doing 的口语拼法, 做|o
 vacation|假期 (美式说法)|o
-siren|(尖锐的警报声) 警笛|g
+siren|警报器，发出响亮升调警报声的装置|o
 mail|邮件; 邮寄|o;v
 victory|胜利|o
 treatment|治疗; 对待方式|o;o
@@ -1739,7 +1739,7 @@ desperate|走投无路的, 不顾一切的; 急需的|o;o
 channel|频道; 水道, 海峡; 渠道, 途径|o;o;o
 pen|笔; 圈, 栏|o;o
 bat|球棒, 球拍; 蝙蝠|o;o
-screech|(尖利刺耳的声音) 刺耳的尖叫|g
+screech|发出尖厉刺耳的声音或叫声; 尖叫声，刺耳声|v;o
 properly|正确地, 恰当地|o
 mostly|大部分, 通常|o
 product|产品; 结果, 产物|o;o
@@ -1816,7 +1816,7 @@ county|县, 郡|o
 cookie|饼干 (美式说法)|o
 id|ID, 身份证件|o
 fourth|第四|o
-roar|(低沉的巨响) 咆哮, 轰鸣|g
+roar|吼叫，轰鸣 (如狮子或发动机); 吼声，轰鸣声|v;o
 cleaning|清洁, 打扫|o
 emperor|皇帝|o
 lf|(if 的误印) 如果|o
@@ -2107,7 +2107,7 @@ cage|笼子|o
 classic|经典的; 典型的|o;o
 accent|口音; 重音|o;o
 tradition|传统|o
-honk|(汽车喇叭声) 嘀嘀|g
+honk|按汽车喇叭; 喇叭声|v;o
 script|剧本|o
 offering|供品, 祭品|o
 sniff|嗅, 吸鼻子|v
@@ -2426,7 +2426,7 @@ structure|结构; 建筑物|o;o
 filthy|肮脏的; 下流的|o;o
 backup|后援, 支援; 备份|o;o
 brief|短暂的; 向…简要说明|o;v
-squeal|(尖长的叫声) 尖叫|g
+squeal|发出长而尖的叫声; 尖叫声|v;o
 someplace|某个地方 (美式说法)|o
 conscience|良心|o
 rebel|反叛者; 反抗|o;v
@@ -2443,7 +2443,7 @@ homicide|凶杀; 凶杀案调查组|o;o
 organ|器官; 管风琴|o;o
 fingerprint|指纹|o
 survivor|幸存者|o
-whir|(机器转动的低沉声) 呼呼声|g
+whir|呼呼地转动，发出低沉平稳的嗡嗡声; 呼呼声|v;o
 encourage|鼓励|v
 guilt|罪责; 内疚|o;o
 humiliate|使当众出丑, 羞辱|v
@@ -2458,7 +2458,7 @@ offense|罪行; 冒犯人的事; 进攻方|o;o;o
 clay|黏土|o
 unhappy|不快乐的; 不满意的|o;o
 dismiss|打发走; 不予考虑; 解雇|v;v;v
-thud|(重物落地的闷响) 咚|g
+thud|砰地落下或撞击，发出沉闷的重响; 砰的一声|v;o
 lap|大腿 (坐时腰到膝的部分); 一圈|o;o
 atmosphere|大气层; 气氛|o;o
 compliment|恭维话, 赞美|o
@@ -2558,7 +2558,7 @@ publish|出版, 发表|v
 farewell|(分别时说) 别了, 再见|o
 raid|突袭, 突击搜查; 突袭|o;v
 weed|长在不想要之处的野草; 大麻 (口语); 除去杂草; weed out: 剔除 (不想要的人或东西)|o;o;v;n
-chirp|(鸟的短促叫声) 啾啾|g
+chirp|啾啾叫 (如鸟); 啾啾声|v;o
 satellite|人造卫星; 卫星|o;o
 deposit|定金, 押金; 放下, 存入|o;v
 intelligent|聪明的|o
@@ -2576,7 +2576,7 @@ beam|光束; 梁; 眉开眼笑|o;o;v
 bounce|弹起, 反弹|v
 belief|信念; 信任|o;o
 thirty|三十, 30|o
-boo|(表示不满或吓人的喊声) 嘘|g
+boo|嘘！，吓人的喊声; 喝倒彩，起哄; 嘘声|o;v;o
 alibi|不在犯罪现场的证明|o
 hers|她的|o
 mm-hm|(表示同意的声音) 嗯|g
@@ -2596,7 +2596,7 @@ blackmail|敲诈, 勒索; 敲诈|o;v
 loyalty|忠诚|o
 encounter|偶遇; 遭遇, 面临|v;v
 drain|排水; 排水管|v;o
-rattle|(接连的短促碰撞声) 咯咯声|g
+rattle|发出咔嗒咔嗒的连续撞击声; 咔嗒声; 拨浪鼓 (婴儿玩具)|v;o;o
 highway|公路, 干道|o
 resource|资源|o
 noon|中午十二点|o
@@ -2702,7 +2702,7 @@ catholic|天主教的|o
 dessert|甜点|o
 alpha|希腊字母的第一个字母; 头领|o;o
 soap|肥皂|o
-whoop|(高兴的大叫) 哇|g
+whoop|高兴地大喊; 欢呼声|v;o
 electronic|电子的|o
 remote|遥远的; 遥控的|o;o
 retreat|撤退; 静养之处|v;o
@@ -2718,7 +2718,7 @@ concept|概念|o
 proposal|提议, 方案; 求婚|o;o
 investment|投资|o
 ye|(古) 你们|f2s2p
-creak|(木头或合页的吱嘎声) 嘎吱|g
+creak|吱嘎作响 (如木头或门铰链); 吱嘎声|v;o
 politician|政客, 政治家|o
 soil|土壤|o
 deadly|致命的; 极大的|o;o
@@ -2760,7 +2760,7 @@ dressing|沙拉酱; 敷料, 绷带|o;o
 supper|晚饭|o
 whiskey|威士忌|o
 addict|瘾君子, 上瘾的人|o
-clatter|(硬物碰撞的响声) 哐当声|g
+clatter|发出硬物相撞的哗啦声; 哐啷声|v;o
 comedy|喜剧|o
 fraud|诈骗; 骗子|o;o
 description|描述|o
@@ -2842,7 +2842,7 @@ stall|摊位; 熄火, 抛锚; 拖延|o;v;v
 assign|分配, 指派|v
 chin|下巴|o
 appropriate|恰当的; 挪用, 占用|o;v
-chime|(钟声) 叮咚|g
+chime|鸣响 (如钟或时钟); 钟声，铃声|v;o
 fist|拳头|o
 broad|宽的; 概括的, 不详细的; 女人 (过时的美式俚语, 冒犯)|o;o;o
 wealth|财富|o
@@ -2870,7 +2870,7 @@ cinema|电影院; 电影艺术|o;o
 web|蜘蛛网; 互联网|o;o
 doom|厄运, 劫数|o
 happily|愉快地; 幸好|o;o
-blare|(喇叭或收音机的刺耳巨响) 嘟嘟响|g
+blare|发出刺耳的巨响 (如喇叭或收音机); 刺耳的响声|v;o
 peanut|花生|o
 ram|公羊; 猛撞, 猛推|o;v
 counter|柜台; 反击, 抵制|o;v
@@ -2979,7 +2979,7 @@ promotion|晋升; 促销|o;o
 homeless|无家可归的|o
 pace|速度, 步调; 一步|o;o
 unfortunate|不幸的; 令人遗憾的|o;v
-howl|(动物或风的长声嚎叫) 嚎叫|g
+howl|嚎叫，呼啸 (如动物或风); 嚎叫声|v;o
 combat|战斗; 与…作斗争|o;v
 humor|幽默; 心情|o;o
 skirt|裙子; 绕过…的边缘|o;v
@@ -3106,7 +3106,7 @@ gently|轻轻地, 温和地|o
 snore|打鼾|v
 roast|烤, 烘|v
 define|给…下定义|v
-gunfire|(开枪的声音) 枪声|g
+gunfire|连续的枪炮射击|o
 stitch|针脚; 岔气|o;o
 certificate|证书|o
 backwards|向后; 倒着|o;o
@@ -3160,7 +3160,7 @@ lesbian|女同性恋者|o
 economy|经济; 节约|o;o
 acid|酸; 迷幻药 (口语)|o;o
 steer|驾驶, 掌舵|v
-squeak|(短促的尖细声) 吱|g
+squeak|发出短促的尖声，吱吱叫; 吱吱声|v;o
 insect|昆虫|o
 lighter|打火机; 较轻的|o;o
 thanksgiving|感恩节 (美国十一月的节日)|o
@@ -3248,7 +3248,7 @@ phrase|短语, 词组|o
 isolate|隔离, 使孤立|v
 rhythm|节奏|o
 tomb|坟墓|o
-muffled|(隔着东西的沉闷声音) 沉闷的|g
+muffled|闷住的，低沉的，隔着东西听到的 (指声音)|o
 jewelry|首饰|o
 ankle|脚踝|o
 disagree|不同意|v
@@ -3297,7 +3297,7 @@ poke|戳, 捅|v
 coal|煤|o
 genetic|遗传的, 基因的|o
 misery|痛苦, 悲惨|o
-hiss|(蛇般的嘶嘶声) 嘶|g
+hiss|发出嘶嘶声 (如蛇); 嘶嘶声|v;o
 imitate|模仿|v
 supreme|最高的|o
 bingo|宾果游戏; (猜对时喊) 中了|o;g
@@ -3362,7 +3362,7 @@ stack|一摞, 一堆; 堆起|o;v
 distress|痛苦, 忧虑; 海上遇险|o;o
 grill|烤; 盘问|v;v
 corrupt|腐败的, 贪污的; 使腐化|o;v
-sixth|第六|o
+sixth|第六; 六分之一|o;o
 reporting|报道; 汇报|o;o
 dinosaur|恐龙|o
 adjust|调整; 适应|v;v
@@ -3388,7 +3388,7 @@ primary|首要的; 初级的|o;o
 t-shirt|T恤衫|o
 finance|财务, 金融; 提供资金|o;v
 shitty|(粗俗) 糟透的, 恶劣的|o
-resume|中断后继续|v
+resume|中断后重新开始，继续; 简历 (美式，résumé)|v;o
 surf|冲浪; 上网浏览|v;v
 affection|喜爱, 深情|o
 therapist|治疗师|o
@@ -3474,7 +3474,7 @@ bonus|奖金, 额外的好处|o
 lure|引诱; 诱饵|v;o
 cargo|货物|o
 painter|画家, 油漆工|o
-wha|(what 的误印) 什么|o
+wha|什么 (非正式拼写)|o
 hush|(要求安静) 嘘; 寂静|g;o
 journal|日志; 期刊|o;o
 rag|破布|o
@@ -3654,7 +3654,7 @@ gotcha|懂了, 明白了 (口语)|o
 specialist|专家|o
 scrape|刮, 擦; 勉强做到|v;v
 income|收入|o
-jingle|(铃铛或硬币的清脆响声) 叮当声|g
+jingle|叮当作响 (如小铃铛或硬币); 叮当声; 广告歌，简短上口的广告曲|v;o;o
 snatch|抢夺, 一把抓住|v
 eternity|永恒; 漫长的等待|o;o
 harvest|收割, 收获; 收成|o;o
@@ -3669,7 +3669,7 @@ compound|化合物, 复合物; 大院|o;o
 allah|(Allah) 真主|o
 concrete|混凝土; 具体的, 明确的|o;o
 thread|线; 思路|o;o
-cripple|使跛, 使残疾; 严重损坏|v;v
+cripple|使跛，使残废; 严重损坏; 残疾人 (旧用法，冒犯)|v;v;o
 essential|必不可少的; 要点|o;o
 bearing|举止, 仪态; (bearings) 方向感|o;o
 dialogue|对白; 对话, 会谈|o;o
@@ -3685,7 +3685,7 @@ rider|骑手, 骑车人|o
 invention|发明; 捏造|o;o
 wax|蜡|o
 vest|背心内衣 (英式说法); 马甲 (美式说法)|o;o
-im|(I'm 的误印) 我是|f1s
+im|我是 (I'm 的非正式拼写)|f1s
 cuff|袖口; (cuffs) 手铐|o;o
 endless|无尽的|o
 seduce|勾引; 诱使误入歧途|v;v
@@ -3767,7 +3767,7 @@ retirement|退休|o
 sole|唯一的; 脚底, 鞋底; 鳎鱼|o;o;o
 salute|敬礼; 敬礼|v;o
 wig|假发|o
-shriek|(短促的尖叫) 尖叫|g
+shriek|尖叫; 尖叫声|v;o
 settlement|和解协议; 小村落; 结清|o;o;o
 barbecue|户外烧烤|o
 household|一家人, 家庭|o
@@ -3805,7 +3805,7 @@ almighty|全能的; 极大的 (口语)|o;o
 climate|气候; 风气, 氛围|o;o
 approval|批准; 赞许|o;o
 trouser|(trousers) 裤子|o
-snarl|(呲牙的怒吼声) 咆哮|g
+snarl|龇牙咆哮; 咆哮声|v;o
 capacity|容量; 能力; 职位, 身份|o;o;o
 legally|依法, 合法地|o
 regulation|规章, 条例; 管理, 控制|o;o
@@ -4006,7 +4006,7 @@ cottage|乡间小屋|o
 spear|矛, 标枪|o
 carve|雕刻; 切开 (肉)|v;v
 assemble|集合; 组装|v;v
-snort|(从鼻子发出的粗重声音) 哼|g
+snort|用鼻子哼，喷鼻息; 哼声|v;o
 offensive|冒犯人的, 令人厌恶的; 攻势|o;o
 balcony|阳台; 楼座|o;o
 discount|折扣; 认为不可能而不予考虑|o;v
@@ -4070,7 +4070,7 @@ cooperation|合作|o
 sailing|航行|o
 virtue|美德; 优点|o;o
 sincere|真诚的|o
-whoosh|(疾驰而过的声音) 嗖|g
+whoosh|嗖地飞快移动; 嗖的一声|v;o
 classified|机密的; 分类的|o;o
 fag|香烟 (英式口语); (冒犯语) 男同性恋|o;o
 pursuit|追赶; 爱好, 消遣|o;o
@@ -4150,7 +4150,7 @@ stray|走失, 走散; 走失的动物|v;o
 shovel|铁锹|o
 evolution|进化|o
 notion|概念, 想法|o
-blond|金发的 (指男子)|o
+blond|金发的，淡黄头发的|o
 injection|注射|o
 grasp|紧紧抓住; 理解; 紧握; 理解, 掌握 (英语掌握得好)|v;v;o;o
 horny|(口语) 性欲冲动的|o
@@ -4227,7 +4227,7 @@ poisoning|中毒|o
 cartoon|动画片; 漫画|o;o
 software|软件|o
 awhile|一会儿|o
-psych|(psych out) 使心理崩溃; 心理学 (口语)|v;o
+psych|心理学 (非正式); psych out: 使紧张，使胆怯|o;n
 conscious|清醒的, 有知觉的; 有意的|o;o
 deliberately|故意地; 从容不迫地|o;o
 clone|克隆生物; 一模一样的复制品|o;o
@@ -4335,7 +4335,7 @@ aunty|阿姨, 姑姑 (口语)|o
 photography|摄影|o
 inappropriate|不合适的|o
 vengeance|复仇|o
-clang|(金属的响亮撞击声) 铛|g
+clang|发出金属的响亮撞击声; 当啷声|v;o
 acquaintance|熟人; 略知|o;o
 junkie|瘾君子 (非正式, 贬义); 沉迷于某事的人 (肾上腺素上瘾者)|o;o
 tutor|家教, 导师|o
@@ -4421,7 +4421,7 @@ dove|像小鸽子的鸟, 和平的象征, 鸽子; 潜入, dive 的过去式 (美
 carrier|运送者, 载体; 航空母舰|o;o
 postpone|推迟|v
 voyage|航行|o
-crunch|(硬物被压碎的声音) 咔嚓|g
+crunch|嘎吱嘎吱地咬碎或踩碎; 嘎吱声; 关键时刻 (when it comes to the crunch)|v;o;o
 housing|住房|o
 ambitious|有野心的; 雄心勃勃的, 难度大的|o;o
 rapid|迅速的|o
@@ -4466,13 +4466,13 @@ protective|保护性的; 呵护的|o;o
 hound|猎犬; 追逼, 纠缠|o;v
 airline|航空公司|o
 sensation|感觉; 轰动|o;o
-suspenseful|(字幕说明) 悬疑音乐|o
-trainer|教练; 运动鞋|o;o
+suspenseful|充满悬念的，令人紧张的|o
+trainer|教练，培训师; 运动鞋 (英式)|o;o
 pint|品脱 (约半升)|o
 pasta|意大利面食|o
 delta|三角洲|o
 whoo-hoo|(兴奋的欢呼) 哇哦|g
-clink|(玻璃或金属的清脆碰撞声) 叮当|g
+clink|发出叮当轻响 (如碰杯); 叮当声|v;o
 itch|发痒|v
 instantly|立刻, 马上|o
 strand|一缕, 一股; 使滞留, 使孤立无援|o;v
@@ -4492,7 +4492,7 @@ essence|本质, 精髓|o
 outstanding|杰出的; 未付的, 未完成的|o;o
 wardrobe|衣柜; 全部衣物|o;o
 lump|块; 肿块|o;o
-squawk|(鸟的粗厉叫声) 呱呱叫|g
+squawk|发出刺耳的大叫声 (如鸟); 嘎嘎叫声|v;o
 starter|头盘; 发起者, 起动装置|o;o
 cupcake|纸杯蛋糕|o
 grease|油脂|o
@@ -4511,7 +4511,7 @@ inject|注射|v
 reckless|鲁莽的|o
 pause|暂停; 暂停一下|o;v
 glance|瞥一眼; 一瞥|v;o
-rustle|(落叶或纸张的沙沙声) 沙沙|g
+rustle|沙沙作响 (如干叶或纸张); 沙沙声|v;o
 premise|前提; (premises) 房屋及场地|o;o
 whereas|然而, 但是|o
 heavenly|天国的; 美妙的|o;o
@@ -4611,7 +4611,7 @@ substitute|替代者, 替代品|o
 visa|签证|o
 partnership|合伙关系|o
 definition|定义; 清晰度|o;o
-crackling|(接连的细碎脆响, 如火烧声) 噼啪|g
+crackling|噼啪声 (如火烧); 烤猪脆皮 (英式)|o;o
 loneliness|孤独|o
 overhear|无意中听到|v
 parrot|鹦鹉|o
@@ -4635,7 +4635,7 @@ bounty|悬赏金; 慷慨的施予|o;o
 wed|结婚 (书面语)|v
 asylum|政治庇护; (旧) 精神病院|o;o
 blunt|钝的; 直言不讳的|o;o
-thump|(重击的闷响) 咚|g
+thump|重击，发出沉闷声; 砰的一声，重击声|v;o
 battlefield|战场|o
 petition|请愿书|o
 carnival|狂欢节|o
@@ -4777,7 +4777,7 @@ dispute|争端; 对…提出质疑|o;v
 hamburger|汉堡包|o
 psychology|心理学|o
 astonish|使大为惊讶|v
-rumble|(低沉的隆隆声) 隆隆|g
+rumble|发出隆隆声; 隆隆声|v;o
 motivate|激发…的动力|v
 restless|坐立不安的|o
 marvellous|marvellous, marvelous 的英式拼法, 奇妙的|o
@@ -4903,7 +4903,7 @@ jackass|(口语) 蠢货; 公驴|o;o
 revolt|起来反抗当权者, 造反; 使厌恶; 反抗, 起义|v;v;o
 cheerful|开朗快活的|o
 acceptable|可以接受的|o
-clamor|(嘈杂的喊叫) 喧嚷|g
+clamor|喧嚷，吵闹声; 大声要求|o;v
 realistic|现实的, 实事求是的; 逼真的|o;o
 banner|横幅|o
 sufficient|足够的 (书面语)|o
@@ -4950,7 +4950,7 @@ heap|一堆|o
 snitch|告密; 告密者|v;o
 prophecy|预言|o
 tread|踩, 踏|v
-tweet|(小鸟的短促叫声) 啾; 网上发的短消息|g;o
+tweet|推文; 发推文; 小鸟的啾啾声|o;v;o
 essay|文章, 论文|o
 graveyard|墓地|o
 injustice|不公|o
@@ -5015,9 +5015,9 @@ discreet|谨言慎行的|o
 thrive|茁壮成长, 兴旺|v
 morphine|吗啡|o
 dread|恐惧, 畏惧|o
-barrack|兵营; 起哄, 喝倒彩|o;v
+barrack|军营，营房; 起哄，对演讲者喝倒彩 (英式)|o;v
 agony|极大的痛苦|o
-clank|(沉重的金属声) 哐啷|g
+clank|发出沉重的金属撞击声; 哐当声|v;o
 awaken|唤醒; 唤起 (情感)|v;v
 karate|空手道|o
 highlight|最精彩的部分; 突出, 强调|o;v
@@ -5091,9 +5091,9 @@ surgical|外科手术的|o
 elderly|上了年纪的|o
 eyebrow|眉毛|o
 purely|纯粹, 完全|o
-hoot|(喇叭或猫头鹰的响声) 呜呜|g
+hoot|按喇叭，像猫头鹰一样叫; 喇叭声，猫头鹰叫声|v;o
 vibe|气场, 感觉 (口语)|o
-gong|(敲锣的响声) 铛|g
+gong|锣|o
 profound|深刻的, 深切的|o
 shrine|圣祠, 神龛|o
 slot|投币口, 狭缝; 时段|o;o
@@ -5162,7 +5162,7 @@ reinforcement|增援部队; 加固|o;o
 transportation|运输 (美式说法)|o
 ha-ha-ha|(笑声) 哈哈哈|g
 interference|干涉, 妨碍; 干扰 (信号)|o;o
-twitter|(小鸟的啁啾声) 叽叽喳喳|g
+twitter|推特，社交媒体服务; 啁啾，叽叽喳喳 (如小鸟); 啁啾声|o;v;o
 freakin|(口语) 该死的 (加强语气)|o
 mourning|哀悼|o
 wont|(won't 的误印) 不会|o
@@ -5194,7 +5194,7 @@ definite|明确的, 肯定的|o
 thrash|痛打; 猛烈扭动|v;v
 antidote|解毒剂|o
 tart|水果馅饼; (冒犯语) 打扮妖艳的女人; 酸的|o;o;o
-yelp|(短促尖锐的痛叫) 嗷|g
+yelp|痛得尖叫; 尖叫声|v;o
 metaphor|比喻, 隐喻|o
 lemonade|柠檬汽水|o
 cement|水泥|o
@@ -5213,7 +5213,7 @@ strangely|奇怪地, 离奇地|o
 wrinkle|皱纹, 褶皱|o
 'er|(口语中) 她|o
 batch|一批|o
-bind|捆绑; 使连在一起; 困境, 困难处境 (陷入困境)|v;v;o
+bind|捆，绑; 使结合，粘合; in a bind: 处境困难|v;v;n
 handkerchief|手帕|o
 flashlight|手电筒 (美式说法)|o
 authentic|真正的, 名副其实的|o
@@ -5330,7 +5330,7 @@ context|上下文; 背景, 语境|o;o
 stereo|立体声音响|o
 banish|放逐, 驱逐出境|v
 enchant|使着迷; 施魔法于|v;v
-whinny|(马的轻声嘶鸣) 咴咴|g
+whinny|轻声嘶鸣; 马的轻嘶声|v;o
 nuisance|讨厌的人或事|o
 terrorism|恐怖主义|o
 ungrateful|不知感恩的|o
@@ -5355,7 +5355,7 @@ denial|否认; 拒绝给予|o;o
 metro|地铁|o
 comparison|比较|o
 blackout|停电; 昏厥, 记忆中断|o;o
-neigh|(马的长声嘶叫) 嘶|g
+neigh|马嘶鸣; 嘶鸣声|v;o
 allowance|零用钱, 津贴; 限额|o;o
 gutter|排水沟, 檐槽|o
 slavery|奴隶制; 苦役|o;o
@@ -5420,7 +5420,7 @@ shameless|不知羞耻的|o
 meteor|流星|o
 ballistic|弹道的; go ballistic: 勃然大怒|o;n
 harness|挽具, 安全带; 利用, 驾驭|o;v
-turf|草皮|o
+turf|草皮; 地盘 (非正式)|o;o
 vulture|秃鹫|o
 duh|(表示这还用说) 废话|g
 fingernail|指甲|o
@@ -5437,7 +5437,7 @@ worldwide|全世界的|o
 rite|宗教仪式|o
 manuscript|手稿; 原稿|o;o
 underworld|黑社会; 冥界|o;o
-cackle|(刺耳的怪笑) 咯咯笑|g
+cackle|刺耳地大笑; 刺耳的笑声|v;o
 curly|卷曲的|o
 performer|表演者|o
 bidding|吩咐; 出价竞买|o;o
@@ -5493,7 +5493,7 @@ mercury|水银; 水星|o;o
 revive|使复活, 使恢复|v
 gracias|(西班牙语) 谢谢|o
 coral|珊瑚|o
-gallon|加仑 (约 4.5 升)|o
+gallon|加仑，液体单位，约3.8升 (美) 或4.5升 (英)|o
 newly|新近, 刚刚|o
 accessory|配件, 附件; 从犯|o;o
 impatient|不耐烦的|o
@@ -5570,7 +5570,7 @@ loaf|一条面包; 闲荡|o;v
 portuguese|葡萄牙的; 葡萄牙语|o;o
 researcher|研究员|o
 valid|有效的, 站得住脚的|o
-plaster|灰泥; 创可贴|o;o
+plaster|灰泥，石膏; 创可贴 (英式)|o;o
 breeding|繁殖; 良好的教养|o;o
 hazard|危险; 危害之源|o;o
 iove|(love 的误印) 爱|o
@@ -5650,7 +5650,7 @@ spectacle|奇观, 壮观的场面; (spectacles) 眼镜|o;o
 bakery|面包房|o
 dent|凹痕|o
 faculty|官能, 才能; 学院, 系|o;o
-fiddle|小提琴; 在钱上做手脚; 摆弄|o;v;v
+fiddle|小提琴; 摆弄，乱动; 弄虚作假骗钱 (英式，口语)|o;v;v
 modify|稍作修改|v
 ecstasy|狂喜; 摇头丸|o;o
 perceive|察觉; 看待|v;v
@@ -5857,13 +5857,13 @@ vintage|有年头的精品的; 酒的年份|o;o
 courthouse|法院大楼|o
 pedal|踏板|o
 adjourn|休会|v
-snicker|(暗自的嘲笑) 窃笑|g
+snicker|窃笑，暗笑; 窃笑声|v;o
 moth|蛾|o
 holiness|神圣; His Holiness: 教皇冕下|o;n
 isolation|隔离, 孤立|o
 transformation|彻底的转变|o
 meow|(猫的叫声) 喵|g
-caravan|旅居拖车; 旅行的队伍|o;o
+caravan|房车，汽车拖挂的活动住房 (英式); 结伴同行的队伍，商队|o;o
 loft|阁楼|o
 mp|MP, 国会议员|o
 nominate|提名|v
@@ -5877,7 +5877,7 @@ alleged|(据称的) 未经证实的|o
 asap|ASAP, 尽快|o
 exceed|超过, 超出|v
 soar|高飞; 猛涨|v;v
-cuckoo|布谷鸟|o
+cuckoo|布谷鸟，杜鹃 (会把蛋下在别的鸟巢里); 疯癫的 (非正式)|o;o
 melon|甜瓜|o
 brownie|布朗尼蛋糕; 幼年女童军|o;o
 descendant|后代|o
@@ -6031,14 +6031,14 @@ optimistic|乐观的|o
 urgently|紧急地|o
 maze|迷宫|o
 spooky|阴森吓人的|o
-paste|糊状物; 粘贴|o;v
+paste|糊状物，膏; 用胶水粘贴; 粘贴 (复制的文本或图片)|o;v;v
 tonic|滋补品; 汤力水|o;o
 fireplace|壁炉|o
 vicar|教区牧师 (英式说法)|o
 skating|滑冰|o
 stupidity|愚蠢; 蠢事|o;o
 sneaky|鬼鬼祟祟的|o
-dumpling|饺子, 面团子|o
+dumpling|饺子，团子，带馅或不带馅的蒸煮面团|o
 frequent|频繁的; 常去|o;v
 mixture|混合物; 结合|o;o
 rust|锈|o
@@ -6137,7 +6137,7 @@ cocoa|可可粉; 热可可|o;o
 destroyer|驱逐舰; 毁灭者|o;o
 frenchman|法国男子|o
 pending|待定的; 直到|o;o
-slurp|(喝东西的响亮吸吮声) 吸溜|g
+slurp|出声地吃或喝; 啜食声|v;o
 nervously|紧张不安地|o
 sprout|发芽; 嫩芽|v;o
 capability|能力|o
@@ -6165,7 +6165,7 @@ pow|(重击或枪响的声音) 砰|g
 revolver|左轮手枪|o
 stump|树桩; 把…难住|o;v
 certainty|确信; 必然的事|o;o
-slate|石板; 严厉批评|o;v
+slate|板岩，石板; 安排，预定 (美式); 严厉批评 (英式)|o;v;v
 grumble|嘟囔着抱怨|v
 sinister|阴险的, 不祥的|o
 dryer|烘干机, 吹风机|o
@@ -6177,7 +6177,7 @@ generosity|慷慨|o
 quarry|采石场; 猎物|o;o
 assess|评估|v
 beta|希腊字母的第二个字母; 测试版|o;o
-appal|使震惊|v
+appal|使震惊，使惊骇 (appall 的英式拼写)|v
 evidently|显然|o
 gamma|希腊字母的第三个字母; 伽马射线|o;o
 militia|民兵|o
@@ -6203,7 +6203,7 @@ breakup|分手; 破裂, 解体|o;o
 peso|比索|o
 depot|仓库; 车库|o;o
 deception|欺骗|o
-sizzle|(油煎的声音) 滋滋|g
+sizzle|发出煎炸的嘶嘶声; 嘶嘶声|v;o
 holder|持有者; 支托, 座|o;o
 margin|页边空白; 余地; 利润|o;o;o
 ex-boyfriend|前男友|o
@@ -6251,7 +6251,7 @@ insecure|缺乏自信的; 不安全的|o;o
 sympathetic|有同情心的; 赞同的, 友善的|o;o
 cluck|(母鸡的低叫声) 咯咯|g
 unidentified|身份不明的|o
-burp|(打嗝的声音) 嗝|g
+burp|打嗝; 嗝|v;o
 crude|粗糙的, 未加工完的; 粗俗的; 天然未提炼的|o;o;o
 dependent|依靠他人供养的|o
 dictionary|词典|o
@@ -6290,11 +6290,11 @@ horrify|使惊骇|v
 knockout|击倒; 极美的人|o;o
 quarterback|四分卫|o
 eminence|红衣主教的称号 (阁下); 崇高地位, 声望|o;o
-wheeze|(呼吸困难的哮鸣声) 喘息|g
+wheeze|气喘，呼吸带哮鸣声; 喘息声|v;o
 willingly|乐意地|o
 moor|荒野高地; 系泊 (船)|o;v
 muck|脏东西, 烂泥, 粪|o
-cheeky|放肆而俏皮的|o
+cheeky|厚脸皮的，没大没小但逗人的 (英式，口语)|o
 lapd|LAPD, 洛杉矶警察局|o
 powerless|无能为力的|o
 scalp|头皮|o
@@ -6416,7 +6416,7 @@ word|词, 话; 诺言, 保证 (you have my word 我向你保证); 消息 (any wo
 eye|眼睛|o
 such|这样的; 如此 (这么好的一天); such as: 比如，例如|o;o;n
 also|也, 还|o
-haven|(用于 haven't) 没有|g
+haven|安全的地方，避风港|o
 yet|至今, 还; 然而, 但是|o;o
 whole|整个的; on the whole: 总的来说|o;n
 since|自从; 因为|o;o
@@ -6641,7 +6641,7 @@ expansion|扩张, 扩大|o
 output|产量, 产出|o
 format|格式, 形式|o
 politically|政治上|o
-premier|总理, 首相|o
+premier|总理，政府首脑; 首要的，最重要的|o;o
 adaptation|适应, 调整; 改编作品|o;o
 thereby|从而, 因此|o
 austerity|紧缩 (政策)|o
@@ -6661,7 +6661,7 @@ symbolic|象征性的|o
 mid|…中期, …中间|o
 significantly|显著地, 大幅地|o
 default|违约, 拖欠; 默认设置|o;o
-derivative|金融衍生品; 导数 (数学)|o;o
+derivative|金融衍生品; 导数 (数学); 派生的，缺乏新意的|o;o;o
 regulatory|监管的|o
 contemporary|当代的, 现代的; 同时代的|o;o
 ratio|比率, 比例|o
@@ -6701,7 +6701,7 @@ genre|体裁, 类型|o
 agricultural|农业的|o
 ethnic|民族的, 种族的|o
 recur|再次发生, 复发|v
-caput|头 (用于 per caput: 人均)|o
+caput|per caput: 人均，每人|n
 geopolitical|地缘政治的|o
 synagogue|犹太教会堂|o
 neuron|神经元|o
@@ -6724,7 +6724,7 @@ parliamentary|议会的|o
 songwriter|词曲作者|o
 diplomacy|外交; 手腕, 策略|o;o
 solidarity|团结|o
-regulator|监管机构|o
+regulator|监管机构; 调节器，调压阀|o;o
 renewable|可再生的 (如风能、太阳能); 可续期的|o;o
 primarily|主要地, 首要地|o
 productive|多产的, 富有成效的|o
@@ -6831,7 +6831,7 @@ quantitative|定量的, 数量的|o
 imperative|必要的, 紧迫的|o
 stance|立场, 态度|o
 feat|壮举, 伟绩|o
-vis|(用于 vis-à-vis)关于, 与…相比|o
+vis|vis-à-vis: 关于，相对于，与……相比|n
 sine|正弦 (对边与斜边之比)|o
 taxpayer|纳税人|o
 administrative|行政的, 管理的|o
@@ -7042,7 +7042,7 @@ downward|向下的, 下降的|o
 feminism|女权主义, 女性主义|o
 persistent|持续的, 持久的; 坚持不懈的|o;o
 doctrine|学说, 主义|o
-lag|滞后, 延迟|o
+lag|落后，滞后; 延迟|v;o
 dimensional|维度的, …维的|o
 dominance|支配地位, 统治|o
 actively|积极地, 主动地|o
@@ -7203,7 +7203,7 @@ predictable|可预测的|o
 textile|纺织品, 布料|o
 dismantle|拆除, 拆卸|v
 foremost|首要的, 最重要的|o
-hedge|对冲, 防范 (金融损失); 树篱|o;o
+hedge|树篱; 对冲，防范财务损失的保障; 对冲，规避风险 (hedge a risk); 含糊其辞，回避正面回答|o;o;v;v
 jeopardize|危及, 使陷入危险|v
 superpower|超级大国|o
 convergence|汇聚, 趋同|o
@@ -7222,7 +7222,7 @@ comparable|类似的, 可比较的|o
 dividend|股息, 红利|o
 judiciary|司法机关, 司法系统|o
 accordingly|因此, 于是; 相应地|o;o
-premium|附加费, 溢价; 保险费|o;o
+premium|额外费用，溢价; 保险费; 优质的，高档的|o;o;o
 prompt|导致, 促使; 迅速的, 准时的|v;o
 ballot|投票; 选票|o;o
 embody|体现, 象征|v
@@ -7297,7 +7297,7 @@ extinction|灭绝|o
 socially|在社会方面; 在社交上|o;o
 chronology|年表, 时间顺序|o
 discontent|不满|o
-geezer|家伙, 老兄 (口语)|o
+geezer|家伙，男人 (英式，口语); 老头 (美式，口语)|o;o
 governmental|政府的|o
 membrane|膜, 薄膜|o
 redistribution|重新分配 (尤指财富)|o
@@ -7381,7 +7381,7 @@ discredit|败坏…的名声, 使丧失信誉|v
 disruptive|破坏性的, 扰乱性的|o
 illiberal|限制自由的, 狭隘的|o
 nurture|养育, 培养|v
-outlet|专卖店, 直销店; 发泄途径, 表达途径; 媒体|o;o;o
+outlet|商店，专卖店，直销店; 电源插座 (美式); 发泄途径，表达渠道; 媒体机构|o;o;o;o
 parity|平等, 对等|o
 rapper|说唱歌手|o
 bureaucratic|官僚的; 繁琐的, 官僚作风的|o;o
@@ -7550,7 +7550,7 @@ minimal|极小的, 最低限度的|o
 refinery|炼油厂, 精炼厂|o
 respective|各自的|o
 thereafter|此后|o
-viva|万岁 (欢呼); 论文答辩|o;o
+viva|万岁！(欢呼); 论文答辩，口试 (英式)|o;o
 basin|盆, 洗脸盆; 流域|o;o
 bla|废话, 等等 (用于 bla bla bla)|o
 depreciate|贬值, 折旧|v
@@ -7648,7 +7648,7 @@ uranium|铀|o
 applejack|苹果白兰地|o
 augment|增加, 增强|v
 copyright|版权, 著作权|o
-fubar|彻底完蛋的, 一团糟的 (俚语)|o
+fubar|完全坏了，彻底搞砸了 (粗俗俚语)|o
 imprisonment|监禁, 坐牢|o
 lambda|希腊字母表第十一个字母λ|o
 literacy|读写能力, 识字|o
@@ -7824,7 +7824,7 @@ processor|处理器|o
 summarize|总结, 概括|v
 traumatic|造成创伤的, 痛苦的|o
 withstand|经受住, 抵挡|v
-accordance|一致, 符合 (in accordance with: 按照, 依照)|o
+accordance|一致，符合; in accordance with: 按照，依照|o;n
 alleviate|减轻, 缓解 (痛苦或问题)|v
 articulate|能言善辩的, 表达清晰的; 清楚地表达|o;v
 bracket|括号; 档次, 等级 (如收入档次)|o;o
@@ -7877,7 +7877,7 @@ sampling|取样, 采样; 抽样|o;o
 scarcity|短缺, 稀缺|o
 skyscraper|摩天大楼|o
 vibrant|充满活力的, 生机勃勃的; 鲜艳的|o;o
-abide|忍受, 容忍 (can't abide); 遵守 (abide by)|v;v
+abide|忍受，容忍 (can't abide); abide by: 遵守|v;n
 assurance|保证, 承诺; 自信|o;o
 disproportionate|不成比例的|o
 interdependence|相互依存|o
@@ -7928,7 +7928,7 @@ northeastern|东北的, 东北部的|o
 prioritize|优先考虑, 优先处理|v
 regression|倒退, 退化; 回归 (统计)|o;o
 todo|待办事项 (如 todo list)|o
-understandably|可以理解地|o
+understandably|可以理解地，自然地; 以容易理解的方式|o;o
 blender|搅拌机, 料理机|o
 diversification|多样化, 分散风险|o
 invariably|总是, 一贯|o
@@ -8169,7 +8169,7 @@ intersect|相交,交叉|v
 legislator|立法者|o
 linkage|联系,关联|o
 rendering|诠释, 演绎; 计算机生成的图像, 渲染图; rendering, render 的 -ing 形式|o;o;o
-revision|修订,修改;复习(备考)|o;o
+revision|修改，修订; 复习备考 (英式)|o;o
 rugby|橄榄球|o
 splice|拼接,绞接|v
 compress|压缩,挤压|v
@@ -8724,7 +8724,7 @@ cosmetic|表面的;化妆品的,美容的|o;o
 dissertation|学位论文|o
 futile|徒劳的,无用的|o
 hippocampus|海马体|o
-hoc|(用于ad hoc)特定的,临时的|o
+hoc|ad hoc: 特设的，临时的|n
 inland|内陆的|o
 jihad|圣战|o
 masculine|男性的,有男子气概的|o
@@ -8762,7 +8762,7 @@ vowel|元音|o
 whats|是什么(what is);已经……什么(what has)|o;o
 achievable|可实现的|o
 airfield|机场,飞机场|o
-arsehole|混蛋(粗俗骂人话);肛门|o;o
+arsehole|(粗俗骂人话，英式) 混蛋; 肛门|o;o
 biofuel|生物燃料|o
 buttress|支持,加强;扶壁|v;o
 candidacy|候选资格|o
@@ -8855,14 +8855,14 @@ rendition|演绎,版本;引渡(嫌犯)|o;o
 renounce|宣布放弃,摒弃|v
 satirical|讽刺的|o
 scaling|按比例缩放;扩展,扩大规模|o;o
-shite|(粗俗)垃圾,废话|o
+shite|(粗俗，英式) 垃圾，废话|o
 sneaker|运动鞋|o
 subdue|制服,控制|v
 sundown|日落|o
 uhm|嗯(犹豫声)|o
 vacant|空的,空缺的;茫然的(表情)|o;o
 verbal|口头的,言语的;动词的|o;o
-versa|(用于vice versa)反之亦然|o
+versa|vice versa: 反之亦然|n
 anus|肛门|o
 backstop|保障措施,最后防线|o
 censor|审查,删除;审查员|v;o
@@ -9018,7 +9018,7 @@ proliferate|激增,扩散|v
 ratification|批准(条约)|o
 redirect|改变方向,转向|v
 simultaneous|同时的|o
-slag|矿渣,炉渣;(骂人话)荡妇|o;o
+slag|矿渣，熔渣; (英式，冒犯) 荡妇|o;o
 smartphones|智能手机(smartphone的复数)|o
 stipulate|规定,约定|v
 swath|大片,一长条|o
@@ -9095,7 +9095,7 @@ federalism|联邦制|o
 hereditary|遗传的,世袭的|o
 humankind|人类|o
 ingenuity|独创性,聪明才智|o
-insofar|(用于insofar as)在……范围内|o
+insofar|insofar as: 在……范围内，就……而言|n
 insurer|保险公司|o
 intolerance|不宽容,偏执;不耐受(食物)|o;o
 invasive|入侵性的;侵入性的|o;o
@@ -9110,7 +9110,7 @@ tempo|节奏,速度(音乐)|o
 unchecked|不受控制的|o
 cardiovascular|心血管的|o
 charitable|慈善的;宽厚的,仁慈的|o;o
-coloured|有颜色的 (colored 的英式拼写)|o
+coloured|有颜色的，彩色的 (colored 的英式拼写); (旧用法，冒犯) 有色人种的|o;o
 columnist|专栏作家|o
 conducive|有助于……的,有利的|o
 diarrhea|腹泻|o
@@ -9273,7 +9273,7 @@ vocational|职业的|o
 worthwhile|值得的|o
 accidental|意外的,偶然的|o
 arrogance|傲慢|o
-avant|(用于avant-garde)先锋的,前卫的|o
+avant|avant-garde: 前卫的，先锋派的|n
 blockchain|区块链|o
 browse|浏览;浏览网页|v;v
 brutally|残忍地;直截了当地|o;o
@@ -9320,7 +9320,7 @@ commute|通勤;减刑|v;v
 costing|成本估算; costing, cost 的 -ing 形式|o;o
 democratize|使民主化,使大众化|v
 estrogen|雌激素|o
-faire|(用于laissez-faire)自由放任的|o
+faire|laissez-faire: 自由放任，国家不干预经济|n
 fluorescent|荧光的|o
 frontal|正面的,前部的;直接的|o;o
 geoengineering|地球工程|o
@@ -9528,7 +9528,7 @@ squire|乡绅，地主; 骑士的侍从|o;o
 uneasy|不安的，担心的; 不舒服的，不自在的|o;o
 flutter|拍动，飘动; 紧张兴奋，心慌|v;o
 aloud|出声地，大声地|o
-dost|做 (与 thou 连用，= do)|f3s
+dost|(古语) do (与 thou 连用)|f3s
 gloomy|昏暗的，阴暗的; 忧郁的，悲观的|o;o
 curiously|好奇地; 奇怪地，奇特地|o;o
 grit|沙砾，砂粒; 勇气，毅力; 咬紧 (牙齿)|o;o;v
@@ -9597,7 +9597,7 @@ intently|专心地，专注地|o
 spat|吐 (spit 的过去式); 口角，小争吵|o;o
 warmly|热情地，亲切地; 暖和地|o;o
 indifferent|冷漠的，不感兴趣的; 平庸的，一般的|o;o
-whence|从何处，从哪里|o
+whence|(古旧) 从何处|o
 abbe|修道院长，(法国) 神父|o
 colonist|殖民者，移民|o
 proudly|自豪地，骄傲地|o
@@ -9723,7 +9723,7 @@ ornament|装饰，装饰品|o
 radiate|(从中心) 向四周扩散，辐射; 发出，散发 (热、光); 流露，洋溢 (喜悦)|v;v;v
 allure|魅力，吸引力|o
 exasperate|激怒，使恼火|v
-fortnight|两星期|o
+fortnight|两星期 (主要为英式)|o
 helplessly|无助地，无可奈何地|o
 overflow|溢出，漫出; 充满，挤满|v;v
 scorn|轻蔑，蔑视; 鄙视，看不起|o;v
@@ -10092,7 +10092,7 @@ residency|居住，居留; 住院医师实习期，驻留创作期 (医生或艺
 retrospective|回顾的，追溯的; 回顾展 (艺术家的生平作品展)|o;o
 rhetorical|修辞的，辞令的; rhetorical question: 反问句，设问|o;n
 satin|缎子，绸缎|o
-saxophone|萨克斯管|o
+saxophone|萨克斯管，带簧片的铜制木管乐器|o
 shrill|尖锐的，刺耳的|o
 sprinkle|撒，洒|v
 stillness|平静，寂静，静止|o
@@ -10860,7 +10860,7 @@ lotta|很多的 (口语，= a lot of)|o
 lullaby|摇篮曲|o
 mangrove|红树 (生长在海岸沼泽的热带树木)|o
 marmot|土拨鼠，旱獭|o
-measle|(用于 measles) 麻疹|o
+measle|measles: 麻疹，出红疹的传染病|n
 mediocre|平庸的，一般的|o
 mod|模组，改装 (游戏或设备，口语); 版主 (网络论坛，口语); 摩登派成员 (20世纪60年代英国青年风格)|o;o;o
 moisture|潮气，湿气|o
@@ -11118,7 +11118,7 @@ crunchy|松脆的|o
 daybreak|黎明, 破晓|o
 digitization|数字化|o
 doublet|紧身上衣 (旧时男子穿); 成对物之一|o;o
-draught|穿堂风; 一大口 (饮料); on draught: 桶装的, 散装生啤|o;o;n
+draught|穿堂风，冷风 (draft 的英式拼写); 一大口 (饮料); on draught: 生啤的，从桶中直接打出的|o;o;n
 enclave|飞地|o
 endow|捐资, 资助; endowed with: 具有 (某种品质)|v;n
 ethically|合乎道德地|o
@@ -11137,7 +11137,7 @@ ladyship|夫人, 小姐 (对贵族女性的尊称, your ladyship)|o
 legislate|立法|v
 mortify|使羞辱, 使难堪|v
 niche|壁龛; 利基, 细分市场|o;o
-nicker|马的轻嘶声; 英镑 (口语)|o;o
+nicker|马的轻声嘶鸣; 英镑 (英式俚语)|o;o
 nutritional|营养的|o
 overreach|做得过头, 操之过急|v
 pander|迎合 (低级趣味)|v
@@ -11182,7 +11182,7 @@ cinch|容易的事 (口语); 系紧|o;v
 collagen|胶原蛋白|o
 concurrently|同时|o
 condone|宽恕, 纵容 (错误行为)|v
-cordial|热情友好的; 果汁浓浆|o;o
+cordial|热情友好的，亲切的; 浓缩果汁饮料 (英式)|o;o
 dispatcher|调度员|o
 estrange|使疏远 (通常用 estranged)|v
 exasperation|恼怒|o
@@ -11534,7 +11534,7 @@ ramification|后果, 影响|o
 recurrence|复发, 再现|o
 reminisce|追忆, 缅怀往事|v
 responder|响应者; first responder: 急救人员|o;n
-rouble|卢布|o
+rouble|卢布 (ruble 的英式拼写)|o
 runoff|地表径流; 决选|o;o
 satyr|萨提尔 (半人半羊的神); 好色之徒|o;o
 secrete|分泌; 隐藏|v;v
@@ -11555,7 +11555,7 @@ wildfire|野火; like wildfire: 迅速地|o;n
 actuator|执行器, 驱动器|o
 adieu|再见|o
 bedrock|基岩; 基础|o;o
-blower|鼓风机; 电话 (口语)|o;o
+blower|鼓风机，吹风机; 电话 (英式，口语)|o;o
 bony|骨瘦如柴的; 多骨刺的|o;o
 bookstore|书店|o
 buzzard|秃鹰, 鵟|o
@@ -11581,7 +11581,7 @@ ferret|雪貂; ferret out: 搜出, 查出|o;n
 fluorine|氟|o
 foliage|树叶, 枝叶|o
 gat|枪 (口语)|o
-graft|移植物; 贪污; 苦干 (口语)|o;o;o
+graft|移植的组织; 贪污，受贿; 苦干，辛苦工作 (英式，口语)|o;o;o
 grate|擦碎 (食物); 使烦躁; 炉栅|v;v;o
 ideologues|空想家, 死守某种意识形态的人 (ideologue 的复数)|o
 imaginative|富有想象力的|o
@@ -11748,7 +11748,7 @@ exaggeration|夸张, 夸大|o
 externally|在外部|o
 fascination|着迷, 浓厚兴趣|o
 gambit|开局, 策略|o
-goddam|该死的 (口语)|o
+goddam|该死的 (口语，亵渎)|o
 gymnasium|体育馆, 健身房|o
 hazardous|危险的|o
 hydropower|水电|o
@@ -11832,7 +11832,7 @@ deign|屈尊 (做)|v
 densely|密集地|o
 devoid|devoid of: 完全没有|n
 differentiation|区分; 分化|o;o
-druggist|药剂师|o
+druggist|药剂师 (美式，旧用法)|o
 enigmatic|神秘的, 高深莫测的|o
 entwine|缠绕|v
 epitope|抗原表位|o
@@ -11883,7 +11883,7 @@ scurry|小步快跑|v
 sender|发送者, 寄件人|o
 shipbuilding|造船|o
 sorrowful|悲伤的|o
-spanking|打屁股; 崭新的, 非常 (口语)|o;o
+spanking|打屁股 (作为惩罚); spanking new: 崭新的 (口语)|o;n
 spire|尖塔|o
 statistician|统计学家|o
 stylistic|风格上的, 文体的|o
@@ -11898,10 +11898,10 @@ tinge|一丝, 淡淡的痕迹|o
 twig|细枝|o
 unelected|非选举产生的|o
 wanderer|流浪者|o
-wop|意大利佬 (对意大利人的蔑称, 口语)|o
+wop|(对意大利人的侮辱性称呼)|g
 abet|教唆, 协助 (犯罪)|v
 anatomical|解剖的|o
-anecdote|轶事, 趣闻|o
+anecdote|轶事，真实小故事|o
 artisan|工匠|o
 bigotry|偏执, 偏见|o
 biochemistry|生物化学|o
@@ -11911,7 +11911,7 @@ bluster|大话, 虚张声势; 咆哮, 恐吓|o;v
 bulwark|堡垒, 防御墙; 保障|o;o
 bystander|旁观者|o
 centrally|在中心, 集中地|o
-coffer|保险箱 (coffers: 资金)|o
+coffer|保险箱; coffers: 资金，金库|o;n
 collusion|勾结, 串通|o
 conspicuous|显眼的|o
 contra|反对, 与…相反|o
@@ -11980,8 +11980,8 @@ reactive|被动反应的; 活性的, 易起化学反应的|o;o
 reassuringly|令人安心地|o
 reborn|重生的; 焕然一新的|o;o
 redouble|加倍 (努力)|v
-redundancy|裁员; 冗余|o;o
-redundant|多余的; 被裁员的|o;o
+redundancy|裁员，因职位不再需要而被解雇 (英式); 冗余，不必要的重复|o;o
+redundant|多余的，不必要的; 被裁员的 (英式)|o;o
 repel|击退, 驱除; 使厌恶|v;v
 rhino|犀牛|o
 skillfully|熟练地, 巧妙地|o
@@ -12142,7 +12142,7 @@ veterinary|兽医的|o
 visage|面容|o
 viz|即, 也就是|o
 waft|飘荡, 飘散|v
-widget|小装置, 小部件|o
+widget|小装置，小玩意; 小部件，屏幕上的小程序或控件|o;o
 wriggle|扭动|v
 zoology|动物学|o
 adequacy|充足, 足够|o
@@ -12280,7 +12280,7 @@ ciphertext|密文|o
 citrus|柑橘类水果|o
 closeness|亲密;接近|o;o
 clueless|一无所知的，没头绪的(口语)|o
-cocksucker|卑鄙的家伙(粗口，口语)|o
+cocksucker|卑鄙的家伙 (粗俗，冒犯)|o
 commencement|开始，开端;毕业典礼|o;o
 commonality|共同点|o
 conjugate|列出动词变位;结合的，成对的|v;o
@@ -12618,7 +12618,7 @@ bookie|赌注登记人|o
 botanist|植物学家|o
 brocade|锦缎|o
 caffeine|咖啡因|o
-calibre|才干，水准;口径|o;o
+calibre|口径，才干 (caliber 的英式拼写)|o
 cartographer|地图绘制者|o
 causal|因果的|o
 charger|充电器;战马|o;o
@@ -12682,12 +12682,12 @@ metaphorical|比喻的，隐喻的|o
 millennial|千禧一代(约1981–1996年出生);千年的|o;o
 mitzva|诫命;善行(犹太教)|o;o
 monetarist|货币主义的|o
-moult|换毛，蜕皮|v
+moult|换羽，脱毛，蜕皮 (molt 的英式拼写)|v
 naturalist|博物学家|o
 nausea|恶心|o
 nonfiction|非虚构作品|o
 overrun|侵占，蜂拥而入;超出(时间、费用)|v;v
-panellist|小组成员，嘉宾|o
+panellist|小组成员，嘉宾 (panelist 的英式拼写)|o
 pediatric|儿科的|o
 penchant|爱好，偏好|o
 penetrative|穿透性的，敏锐的|o
@@ -12815,7 +12815,7 @@ insatiable|贪得无厌的，永不满足的|o
 knitting|编织|o
 knowingly|故意地，蓄意地;心照不宣地|o;o
 monotonous|单调的，乏味的|o
-mould|霉菌;模具;塑造|o;o;v
+mould|霉，霉菌 (mold 的英式拼写); 模具，模子; 塑造，使成形|o;o;v
 onlooker|旁观者|o
 ooze|渗出，缓慢流出;软泥|v;o
 paralyse|paralyse, paralyze 的英式拼写|o
@@ -12910,7 +12910,7 @@ recluse|隐士，隐居者|o
 reek|发出恶臭;恶臭|v;o
 relent|让步，态度软化|v
 rigging|(船的)索具;操纵(选举)|o;o
-ruddy|红润的(脸色);该死的(口语)|o;o
+ruddy|红润的，红色的 (指脸色); 该死的 (英式，口语)|o;o
 ruffian|恶棍，暴徒|o
 shockwave|冲击波;巨大震动，广泛震惊|o;o
 sketchbook|素描本|o
@@ -13008,7 +13008,7 @@ bookshelf|书架|o
 bugle|军号|o
 cloister|回廊;修道院|o;o
 contemptuously|轻蔑地|o
-cot|婴儿床;折叠床，行军床|o;o
+cot|婴儿床 (英式); 行军床 (美式)|o;o
 drowsy|昏昏欲睡的|o
 elegantly|优雅地|o
 elm|榆树|o
@@ -13059,7 +13059,7 @@ flake|薄片(如雪花);靠不住的人(口语);剥落|o;o;v
 foggy|有雾的;糊涂的，模糊的|o;o
 fortitude|坚忍，刚毅|o
 fruitless|徒劳的，无成果的|o
-fulfil|履行，完成;满足|v;v
+fulfil|履行，实现 (fulfill 的英式拼写)|v
 furry|毛茸茸的|o
 ghostly|幽灵般的|o
 girdle|紧身褡;腰带|o;o
@@ -13102,7 +13102,7 @@ disgraceful|可耻的|o
 elapse|(时间)流逝|v
 excruciating|极度痛苦的|o
 flannel|柔软的羊毛布, 法兰绒; 洗脸巾 (英式)|o;o
-flog|鞭打;卖(口语)|v;v
+flog|鞭打; 卖掉 (英式，口语)|v;v
 fondness|喜爱|o
 frankness|坦率，直率|o
 futon|日式床垫|o
@@ -13135,7 +13135,7 @@ slither|蛇行，滑行|v
 solstice|至日(夏至或冬至)|o
 starry|布满星星的|o
 stow|收起，存放;stow away: 偷乘(船或飞机)|v;n
-tradesman|店主，商人;手艺人，技工|o;o
+tradesman|手艺人，技工; 店主 (旧用法)|o;o
 tremor|颤抖;轻微地震|o;o
 unreadable|难以辨认的;(表情)难以捉摸的|o;o
 unruly|难以控制的，不守规矩的|o
@@ -13260,7 +13260,7 @@ ceaseless|不停的，无休止的|o
 censure|谴责，责难;正式谴责|o;v
 cobbler|补鞋匠;水果馅饼(顶部有酥皮)|o;o
 condescension|屈尊俯就的态度，居高临下|o
-dab|轻触，轻涂;少量;dab hand: 能手|v;o;n
+dab|轻触，轻搽; 少量; dab hand: 能手，行家 (英式)|v;o;n
 deference|尊重，顺从|o
 delirium|谵妄，神志不清;狂喜|o;o
 delude|欺骗，蒙蔽|v
@@ -13316,7 +13316,7 @@ mandible|下颌骨|o
 meekly|温顺地，顺从地|o
 oblivion|被遗忘，湮没;昏迷，不省人事|o;o
 passageway|走廊，通道|o
-skilful|熟练的，灵巧的|o
+skilful|熟练的，灵巧的 (skillful 的英式拼写)|o
 stuffy|闷热的，不通风的;古板的，自负的|o;o
 truthful|诚实的|o
 unforgiving|不宽容的;严酷的|o;o
@@ -13386,7 +13386,7 @@ falsify|篡改, 伪造 (事实或记录以欺骗)|v
 faulty|有故障的, 有缺陷的|o
 fixation|迷恋, 执念 (对某事物过分而不健康的依恋)|o
 futuristic|未来感的, 非常现代的|o
-goggle|瞪眼看; (goggles) 护目镜|v;o
+goggle|瞪大眼睛看; goggles: 护目镜|v;n
 grading|评分, 打分; 分级, 按质量分类|o;o
 handover|移交 (把东西交给另一个人或团体)|o
 hashtag|话题标签 (# 后的词或短语, 用于网上标记话题)|o
@@ -13691,7 +13691,7 @@ unofficially|非正式地, 私下地|o
 vigil|守夜 (尤指夜间不睡觉守候或祈祷)|o
 abdication|退位, 放弃王位或权力地位|o
 adjudicate|裁决, 判决 (正式裁断争议)|v
-aint|不是, 不 (am not 的非正式说法); 不是 (is not 的非正式说法); 不是 (are not 的非正式说法)|f3s;f3s;f3s
+aint|不是 (am not、is not、are not，非标准); 没有 (has not、have not，非标准)|f3s;f3s
 airy|通风宽敞的, 空气清新的; 轻松随意的, 无忧无虑的|o;o
 algebraic|代数的|o
 ambivalence|矛盾心理 (对某事感情复杂)|o
@@ -13765,7 +13765,7 @@ reprisal|报复 (以伤害回应伤害的行为)|o
 rye|黑麦 (用来做面包和威士忌的谷物)|o
 schizophrenic|精神分裂症患者 (患有严重精神疾病的人); 精神分裂症的|o;o
 shorthand|速记 (用符号快速书写的方法); 简略说法|o;o
-slider|迷你汉堡 (小三明治); 滑块 (沿线移动的控件); 滑球 (棒球中的快速投球)|o;o;o
+slider|滑块; 迷你汉堡 (美式); 滑球 (棒球)|o;o;o
 solver|解题者, 求解器 (解决问题的人或程序)|o
 spaceflight|太空飞行|o
 spruce|云杉 (高大的常绿树); 整洁利落的; 收拾整齐|o;o;v
@@ -13844,7 +13844,7 @@ secede|脱离, 退出 (正式离开国家或组织)|v
 stats|统计数据 (非正式); 反映某事实况的数字|o;o
 sterilization|消毒, 灭菌 (杀死细菌); 绝育手术 (使人或动物不能生育)|o;o
 stockholder|股东 (持有公司股份的人)|o
-takeaway|外卖 (买了到别处吃的食物); 主要收获|o;o
+takeaway|外卖食品 (英式); 要点，主要收获|o;o
 textual|文本的, 与书面文字有关的|o
 toxicity|毒性 (某物有毒的程度)|o
 unitary|单一的, 统一的; 单一制的 (由一个中央政府管辖)|o;o
@@ -13857,7 +13857,7 @@ arable|可耕种的 (适合种植作物)|o
 assay|检测, 化验 (检验物质的质量或成分); 检测|o;v
 autonomously|自主地, 不受外界控制地|o
 backlog|积压的工作, 未完成的事务|o
-chit|便条, 小账单; 小姑娘 (非正式)|o;o
+chit|便条，欠条，账单; 黄毛丫头 (旧用法，贬义)|o;o
 clerical|文书的, 办公室工作的; 神职的, 牧师的|o;o
 constructively|建设性地 (有益而积极地)|o
 cosmological|宇宙学的 (与研究宇宙有关)|o
@@ -14582,7 +14582,7 @@ jig|吉格舞 (活泼的舞蹈); 上下快速抖动|o;v
 jumble|杂乱的一堆 (凌乱的混合物); 弄乱|o;v
 latency|延迟 (某事发生之前的延时); 潜伏状态 (隐藏的状态)|o;o
 livable|适合居住的 (足以住人)|o
-lovey|亲爱的 (对人友好亲昵的称呼, 非正式)|o
+lovey|亲爱的，对人的亲昵称呼 (英式，口语)|o
 markup|加价 (在成本上增加的金额, 用来定售价); 标记语言 (给文本设定格式的计算机代码)|o;o
 maximization|最大化 (使某物尽可能大或多)|o
 mayonnaise|蛋黄酱 (用鸡蛋和油做的浓稠奶油状酱)|o
@@ -14732,7 +14732,7 @@ motorbike|摩托车|o
 nave|中殿 (教堂的主要中央部分)|o
 obliterate|彻底抹除, 彻底毁灭|v
 obscene|淫秽的 (令人反感, 尤指与性有关)|o
-ofcourse|of course (写成一个词)|o
+ofcourse|当然 (常见错误拼写)|o
 orgy|狂欢性爱派对 (充满大量性行为的狂野聚会); 放纵 (过度沉溺)|o;o
 ornate|华丽的 (装饰极为繁复)|o
 patriarchy|父权制 (由男性掌控的社会)|o
@@ -14991,7 +14991,7 @@ explanatory|解释性的, 说明的|o
 feckless|无能的, 不负责任的|o
 flier|飞行员, 乘飞机的人; 传单|o;o
 gigatons|千兆吨, 十亿吨|o
-googly|(板球) 反向旋转球; 圆睁的 (形容眼睛)|o;o
+googly|又大又会转的 (指眼睛); (板球中) 反向旋转的球 (英式)|o;o
 grueling|极其累人的, 艰苦的|o
 haters|憎恨者, 厌恶他人的人|o
 hearten|使振作, 鼓舞|v
@@ -15191,7 +15191,7 @@ limelight|聚光灯下, 公众注目的中心|o
 loner|独行者, 喜欢独处的人|o
 marcher|游行者, 行军者|o
 masonry|石工, 砖石建筑|o
-millionth|百万分之一|o
+millionth|第一百万; 百万分之一|o;o
 mink|水貂; 貂皮|o;o
 misogyny|厌女症, 对女性的仇视|o
 monorail|单轨铁路|o
@@ -15362,7 +15362,7 @@ conceit|自负, 自视过高; 巧喻 (精巧的长比喻)|o;o
 concentrator|浓缩器, 集中器|o
 consummate|完美的, 技艺精湛的; 圆房 (完成婚姻中的性行为)|o;v
 crustacean|甲壳动物 (如螃蟹)|o
-declination|赤纬 (天体在天赤道以上的角度); 向下倾斜|o;o
+declination|赤纬，天体在天赤道以北或以南的角距离; 磁偏角，磁北与真北之间的夹角|o;o
 denigrate|诋毁, 贬低|v
 dinged|有凹痕的, 被碰凹的; 被撞得发出叮当声的|o;o
 disassemble|拆卸, 拆开|v
@@ -15370,7 +15370,7 @@ discus|铁饼|o
 dismissive|不屑一顾的, 轻视的|o
 dispersion|分散, 扩散|o
 divination|占卜|o
-duffle|粗厚毛呢; 帆布大包|o;o
+duffle|大帆布包 (duffle bag); 粗厚呢料|o;o
 elemental|基本的, 本质的; 自然力量的|o;o
 emphatic|强调的, 断然的|o
 encapsulate|简要概括; 装入胶囊|v;v
@@ -15385,7 +15385,7 @@ expectant|期待的; 怀孕的|o;o
 exploratory|探索性的, 试探性的|o
 extort|勒索, 敲诈|v
 extraterritorial|治外法权的, 境外的|o
-familiarize|使熟悉|v
+familiarize|使 (某人) 熟悉某事物|v
 federally|由联邦政府, 在联邦层面|o
 firestorm|大火风暴; 强烈的公众抗议|o;o
 fizz|气泡 (饮料中); 冒泡|o;v
@@ -16097,7 +16097,7 @@ sideburns|鬓角|o
 situ|in situ: 在原处, 未被移动|n
 sleepwalk|梦游|v
 statewide|全州范围的|o
-stead|(in someone's stead) 代替某人; (stand someone in good stead) 日后对某人有用|o;v
+stead|代替，位置 (in her stead: 代替她); in good stead: 日后有用 (it will stand you in good stead)|o;n
 storehouse|仓库|o
 suckling|乳儿, 吃奶的幼崽|o
 sugary|含糖多的; 太甜的|o;o

@@ -1,6 +1,6 @@
 {
   "id": "ar",
-  "version": "1.0.108",
+  "version": "1.0.112",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -171,6 +171,21 @@
       "path": "loans.txt",
       "license": "unencumbered",
       "sha256": "4445309d121e1db3275a3fb98c9a214787a8a9876a0ea6f62312e6d6b54be58d"
+    },
+    "gloss.zh": {
+      "path": "gloss.zh.txt",
+      "license": "unencumbered",
+      "sha256": "c15a5cf3dc704c18cfb5c425caec49cec7dce89a471bd750625feaa2b7d6257c"
+    },
+    "phrases.zh": {
+      "path": "phrases.zh.txt",
+      "license": "unencumbered",
+      "sha256": "9e042f64a71eec33297a27576790fcaf6851cc69f7882e36828a75482e2973ce"
+    },
+    "letters.zh": {
+      "path": "letters.zh.txt",
+      "license": "unencumbered",
+      "sha256": "13348a4c4354db3418e94afcb89bb25d42a70b469be6b6032397bf864c9d67ca"
     }
   }
 }
