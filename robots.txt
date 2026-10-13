@@ -1,3 +1,21 @@
+# Search engines and assistants answering a reader: welcome.
+# Crawlers gathering text to train models: please stay out. The dictionaries
+# here are this project's own work; see NOTICE.txt.
+
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: meta-externalagent
+User-agent: Bytespider
+User-agent: cohere-training-data-crawler
+User-agent: AI2Bot
+User-agent: Diffbot
+User-agent: Timpibot
+Disallow: /
+
 User-agent: *
 Allow: /
 
