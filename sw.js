@@ -16,7 +16,8 @@
  *
  * - **The page** (`/`, `/index.html`) is network-first, and waits on the
  *   network for `NAV_TIMEOUT_MS` at most before it falls back. It is fetched
- *   `no-cache`, past the browser's HTTP cache: GitHub Pages says `max-age=600`,
+ *   `no-cache`, past the browser's HTTP cache: GitHub Pages said `max-age=600`
+ *   (Cloudflare says `max-age=0`, but the next host may not),
  *   and a page kept from before a deploy names assets the server no longer
  *   has, so a fresh open within ten minutes of a deploy booted into 404s. A
  *   page is stored as the offline copy only when every asset it names is in
@@ -77,7 +78,7 @@
 /* global self, caches, fetch, Request, Response, URL, TextEncoder, crypto */
 
 /** Replaced at build time: `{ version: string, precache: string[] }`. */
-const BUILD = {"version":"37605d33db23","precache":["/assets/TextAnalyser-Cr71gQ-D.js","/assets/ar-CElavSdJ.js","/assets/ar-nkbnvsVu.js","/assets/ar.en-Cr1jO0cF.js","/assets/ar.es-Su4V4pPl.js","/assets/ar.fr-C--TsbNM.js","/assets/ar.id-BXmFhy-3.js","/assets/ar.pt-MUrcDqn3.js","/assets/ar.zh-LOBtdXSU.js","/assets/cluster-yT3GTSi9.js","/assets/de-BLRHB1cN.js","/assets/de-DMOpK4bM.js","/assets/de.en-Dl0Qq7WA.js","/assets/de.es-BZILYW00.js","/assets/de.fr-DfPaF68J.js","/assets/de.id-BkfJ0yCC.js","/assets/de.pt-BBawP2tz.js","/assets/de.zh-Blsvsprw.js","/assets/en-B_wcbe6i.js","/assets/en.ar-DuZxoeKU.js","/assets/en.de-BeaWJchS.js","/assets/en.es-BkUyKT_i.js","/assets/en.fr-DDu6b6xb.js","/assets/en.id-4OIsml_V.js","/assets/en.pt-C-qjCdMM.js","/assets/en.zh-Dbhw2ExC.js","/assets/es-5rXtt5Se.js","/assets/es-CbRsi-6-.js","/assets/es.en-DX_3G_Im.js","/assets/es.fr-DVS22kQC.js","/assets/es.id-CVi4a6dr.js","/assets/es.pt-BTrrZ0MP.js","/assets/es.zh-Bf1BygyS.js","/assets/fr-7IVV6y_w.js","/assets/fr-C8I4CW-t.js","/assets/fr.en-hcs9fH-c.js","/assets/fr.es-BSiNhxHh.js","/assets/fr.id-23UaRZu5.js","/assets/fr.pt-Zx0qOUqU.js","/assets/fr.zh-B9wOKhHh.js","/assets/id-9BpP-4lD.js","/assets/id-h_pcGbGL.js","/assets/id.en-CQ-hFvxs.js","/assets/id.es-DNUUU-Hq.js","/assets/id.fr-Cgd1BkJY.js","/assets/id.pt-CmzCxT9q.js","/assets/id.zh-CUyTqDp7.js","/assets/index--IC-EoSY.js","/assets/index--fgEz0wu.js","/assets/index-9LyUtYol.js","/assets/index-BYFK1a6e.js","/assets/index-CAPdK7N9.css","/assets/index-CFGDvzRH.js","/assets/index-CREyc7Nq.js","/assets/index-CqxkZxhd.js","/assets/index-a1n2bXBS.js","/assets/index-rV55RA_e.js","/assets/letters-BYtImwMN.js","/assets/pt-Cn7Ebip0.js","/assets/pt-rA8fRxfI.js","/assets/pt.en-CCJpl5GA.js","/assets/pt.es-5aAfGNcU.js","/assets/pt.fr-DpiADX0M.js","/assets/pt.id-BAjwgZYz.js","/assets/pt.zh-BNgcaZ7m.js","/assets/romance-TKR64flA.js","/assets/zh-DAiyTBuU.js","/assets/zh-DHj9p9Xa.js","/assets/zh.en-CbFXK3Pi.js","/assets/zh.es-Cxjf8td_.js","/assets/zh.fr-BYTYragV.js","/assets/zh.id-BjR8rm6F.js","/assets/zh.pt-BWsdELS6.js","/favicon.ico","/icon.svg","/icons/apple-touch-icon.png","/icons/icon-192.png","/index.html","/manifest.webmanifest"]};
+const BUILD = {"version":"979ed0832b1d","precache":["/assets/TextAnalyser-Cr71gQ-D.js","/assets/ar-CElavSdJ.js","/assets/ar-nkbnvsVu.js","/assets/ar.en-Cr1jO0cF.js","/assets/ar.es-Su4V4pPl.js","/assets/ar.fr-C--TsbNM.js","/assets/ar.id-BXmFhy-3.js","/assets/ar.pt-MUrcDqn3.js","/assets/ar.zh-LOBtdXSU.js","/assets/cluster-yT3GTSi9.js","/assets/de-BLRHB1cN.js","/assets/de-DMOpK4bM.js","/assets/de.en-Dl0Qq7WA.js","/assets/de.es-BZILYW00.js","/assets/de.fr-DfPaF68J.js","/assets/de.id-BkfJ0yCC.js","/assets/de.pt-BBawP2tz.js","/assets/de.zh-Blsvsprw.js","/assets/en-B_wcbe6i.js","/assets/en.ar-DuZxoeKU.js","/assets/en.de-BeaWJchS.js","/assets/en.es-BkUyKT_i.js","/assets/en.fr-DDu6b6xb.js","/assets/en.id-4OIsml_V.js","/assets/en.pt-C-qjCdMM.js","/assets/en.zh-Dbhw2ExC.js","/assets/es-5rXtt5Se.js","/assets/es-CbRsi-6-.js","/assets/es.en-DX_3G_Im.js","/assets/es.fr-DVS22kQC.js","/assets/es.id-CVi4a6dr.js","/assets/es.pt-BTrrZ0MP.js","/assets/es.zh-Bf1BygyS.js","/assets/fr-7IVV6y_w.js","/assets/fr-C8I4CW-t.js","/assets/fr.en-hcs9fH-c.js","/assets/fr.es-BSiNhxHh.js","/assets/fr.id-23UaRZu5.js","/assets/fr.pt-Zx0qOUqU.js","/assets/fr.zh-B9wOKhHh.js","/assets/id-9BpP-4lD.js","/assets/id-h_pcGbGL.js","/assets/id.en-CQ-hFvxs.js","/assets/id.es-DNUUU-Hq.js","/assets/id.fr-Cgd1BkJY.js","/assets/id.pt-CmzCxT9q.js","/assets/id.zh-CUyTqDp7.js","/assets/index--IC-EoSY.js","/assets/index--fgEz0wu.js","/assets/index-9LyUtYol.js","/assets/index-BYFK1a6e.js","/assets/index-CAPdK7N9.css","/assets/index-CFGDvzRH.js","/assets/index-CREyc7Nq.js","/assets/index-CqxkZxhd.js","/assets/index-a1n2bXBS.js","/assets/index-rV55RA_e.js","/assets/letters-BYtImwMN.js","/assets/pt-Cn7Ebip0.js","/assets/pt-rA8fRxfI.js","/assets/pt.en-CCJpl5GA.js","/assets/pt.es-5aAfGNcU.js","/assets/pt.fr-DpiADX0M.js","/assets/pt.id-BAjwgZYz.js","/assets/pt.zh-BNgcaZ7m.js","/assets/romance-TKR64flA.js","/assets/zh-DAiyTBuU.js","/assets/zh-DHj9p9Xa.js","/assets/zh.en-CbFXK3Pi.js","/assets/zh.es-Cxjf8td_.js","/assets/zh.fr-BYTYragV.js","/assets/zh.id-BjR8rm6F.js","/assets/zh.pt-BWsdELS6.js","/favicon.ico","/icon.svg","/icons/apple-touch-icon.png","/icons/icon-192.png","/index.html","/manifest.webmanifest"]};
 
 const PREFIX = "tinta-";
 const SHELL = `${PREFIX}shell-${BUILD.version}`;
@@ -112,8 +113,17 @@ self.addEventListener("install", (event) => {
       // for names without a hash: a hashed asset in the HTTP cache cannot be
       // stale, and it is usually there — the page just loaded it — so asking
       // the network again doubled the first visit's download.
-      await cache.addAll(
-        BUILD.precache.map((p) => new Request(p, p.startsWith("/assets/") ? {} : { cache: "reload" })),
+      //
+      // Each one fetched and put, not `addAll`, so a redirect can be taken off:
+      // Cloudflare Pages answers `/index.html` with a 308 to `/`, `addAll`
+      // stored the redirected response, and that is a network error as a
+      // page — the offline reload drew nothing.
+      await Promise.all(
+        BUILD.precache.map(async (p) => {
+          const res = await fetch(new Request(p, p.startsWith("/assets/") ? {} : { cache: "reload" }));
+          if (!res.ok) throw new TypeError(`${p}: ${res.status}`);
+          await cache.put(p, unredirect(res));
+        }),
       );
       // A waiting worker would keep the old build's shell as the offline page
       // until every tab closed, which on a phone is roughly never.
@@ -242,8 +252,8 @@ async function storePage(cache, res) {
 
 /**
  * A navigation may not be answered with a response that was redirected: the
- * browser treats it as a network error. `/` and `/index.html` do not redirect
- * on any host this runs on, but a copy costs nothing next to a blank page.
+ * browser treats it as a network error. Cloudflare Pages redirects
+ * `/index.html` to `/` (its pretty URLs), so the stored page is a copy too.
  */
 function unredirect(res) {
   if (!res.redirected) return res;
