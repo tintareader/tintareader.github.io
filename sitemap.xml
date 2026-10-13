@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://tintareader.com/</loc></url>
   <url><loc>https://tintareader.com/pricing</loc></url>
   <url><loc>https://tintareader.com/privacy</loc></url>
   <url><loc>https://tintareader.com/terms</loc></url>
   <url><loc>https://tintareader.com/refunds</loc></url>
   <url><loc>https://tintareader.com/support</loc></url>
+  <url>
+    <loc>https://tintareader.com/pro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tintareader.com/pro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tintareader.com/es/pro"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tintareader.com/pt/pro"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tintareader.com/fr/pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tintareader.com/zh/pro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tintareader.com/de/pro"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tintareader.com/ar/pro"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tintareader.com/id/pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tintareader.com/pro"/>
+  </url>
+  <url>
+    <loc>https://tintareader.com/es/pro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tintareader.com/pro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tintareader.com/es/pro"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tintareader.com/pt/pro"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tintareader.com/fr/pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tintareader.com/zh/pro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tintareader.com/de/pro"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tintareader.com/ar/pro"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tintareader.com/id/pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tintareader.com/pro"/>
+  </url>
+  <url>
+    <loc>https://tintareader.com/pt/pro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tintareader.com/pro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tintareader.com/es/pro"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tintareader.com/pt/pro"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tintareader.com/fr/pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tintareader.com/zh/pro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tintareader.com/de/pro"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tintareader.com/ar/pro"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tintareader.com/id/pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tintareader.com/pro"/>
+  </url>
+  <url>
+    <loc>https://tintareader.com/fr/pro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tintareader.com/pro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tintareader.com/es/pro"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tintareader.com/pt/pro"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tintareader.com/fr/pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tintareader.com/zh/pro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tintareader.com/de/pro"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tintareader.com/ar/pro"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tintareader.com/id/pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tintareader.com/pro"/>
+  </url>
+  <url>
+    <loc>https://tintareader.com/zh/pro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tintareader.com/pro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tintareader.com/es/pro"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tintareader.com/pt/pro"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tintareader.com/fr/pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tintareader.com/zh/pro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tintareader.com/de/pro"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tintareader.com/ar/pro"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tintareader.com/id/pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tintareader.com/pro"/>
+  </url>
+  <url>
+    <loc>https://tintareader.com/de/pro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tintareader.com/pro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tintareader.com/es/pro"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tintareader.com/pt/pro"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tintareader.com/fr/pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tintareader.com/zh/pro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tintareader.com/de/pro"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tintareader.com/ar/pro"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tintareader.com/id/pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tintareader.com/pro"/>
+  </url>
+  <url>
+    <loc>https://tintareader.com/ar/pro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tintareader.com/pro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tintareader.com/es/pro"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tintareader.com/pt/pro"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tintareader.com/fr/pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tintareader.com/zh/pro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tintareader.com/de/pro"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tintareader.com/ar/pro"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tintareader.com/id/pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tintareader.com/pro"/>
+  </url>
+  <url>
+    <loc>https://tintareader.com/id/pro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tintareader.com/pro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tintareader.com/es/pro"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tintareader.com/pt/pro"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tintareader.com/fr/pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tintareader.com/zh/pro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tintareader.com/de/pro"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tintareader.com/ar/pro"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tintareader.com/id/pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tintareader.com/pro"/>
+  </url>
 </urlset>
