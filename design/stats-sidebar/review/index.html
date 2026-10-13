@@ -1,0 +1,488 @@
+<title>Tinta Sidebar Stats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,600&family=Literata:ital,opsz,wght@0,7..72,400;1,7..72,400&display=swap">
+<style>
+/* Layout: one reading column for the argument, widening to a contact sheet of panels and to text-beside-panel pairs, one per design. */
+:root {
+  /* Tinta's own paper, ink and plum (the Pro page), with the app's word-status colours */
+  --paper: #fbf4ec; --card: #ffffff; --sunk: #f4eadf; --line: #eaddcf; --line2: #dccbb9;
+  --ink: #2b2330; --ink2: #4a3f50; --dim: #6e5f73;
+  --plum: #7a3e8f; --plum-wash: #f3e8f6;
+  --known: #1b1f24; --learning: #804906; --new: #b03a64; --ignored: #858993;
+  --shadow: 0 14px 40px -24px rgba(90, 43, 106, .35);
+  --display: "Fraunces", Georgia, "Times New Roman", serif;
+  --ui: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --read: "Literata", Georgia, serif;
+  --gut: clamp(16px, 4vw, 40px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #101318; --card: #161a20; --sunk: #1a1f26; --line: #273039; --line2: #36414e;
+    --ink: #e4e8ee; --ink2: #b6bdc6; --dim: #8994a3;
+    --plum: #c3aef4; --plum-wash: #221d33;
+    --known: #c5ccd4; --learning: #e6b94f; --new: #ff5277; --ignored: #8a939e;
+    --shadow: 0 14px 40px -24px rgba(0, 0, 0, .7);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #101318; --card: #161a20; --sunk: #1a1f26; --line: #273039; --line2: #36414e;
+  --ink: #e4e8ee; --ink2: #b6bdc6; --dim: #8994a3;
+  --plum: #c3aef4; --plum-wash: #221d33;
+  --known: #c5ccd4; --learning: #e6b94f; --new: #ff5277; --ignored: #8a939e;
+  --shadow: 0 14px 40px -24px rgba(0, 0, 0, .7);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); -webkit-text-size-adjust: 100%; }
+body { background: var(--paper); color: var(--ink); font: 400 16px/1.6 var(--ui); padding-inline: var(--gut); padding-block: 0 64px; }
+.wrap { max-width: 1180px; margin: 0 auto; }
+.col { max-width: 46rem; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: -.01em; }
+h1 { font-size: clamp(36px, 5.2vw, 58px); line-height: 1.04; }
+h2 { font-size: clamp(26px, 3vw, 36px); line-height: 1.12; }
+h3 { font-size: 22px; line-height: 1.2; }
+p { margin: 0; }
+a { color: var(--plum); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--plum); outline-offset: 2px; border-radius: 4px; }
+.eyebrow { font-size: 12.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--dim); }
+.lede { font-family: var(--read); font-size: clamp(17px, 1.6vw, 19.5px); line-height: 1.6; color: var(--ink2); }
+section { padding-block: 56px 0; }
+section > .wrap > h2 { margin-bottom: 14px; }
+.sub { color: var(--dim); font-size: 15px; }
+em.w { font-family: var(--read); font-style: italic; }
+
+/* header */
+header { padding-block: 56px 8px; }
+header .wrap { display: grid; gap: 18px; }
+header .col { display: grid; gap: 16px; }
+
+/* control bar */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); margin-inline: calc(var(--gut) * -1); padding: 10px var(--gut); }
+.bar .wrap { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; }
+.bar .lab { font-size: 12.5px; color: var(--dim); margin-right: 8px; }
+.seg { display: inline-flex; padding: 2px; border-radius: 8px; background: var(--sunk); box-shadow: inset 0 0 0 1px var(--line); }
+.seg button { font: 500 13px/1 var(--ui); color: var(--dim); background: none; border: 0; border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 0 0 1px var(--line2); }
+.ctl { display: inline-flex; align-items: center; }
+
+/* short version */
+.tldr { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 8px; }
+.tldr div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; font-size: 15px; line-height: 1.5; }
+.tldr b { display: block; font-family: var(--display); font-weight: 600; font-size: 17px; margin-bottom: 6px; }
+
+/* contact sheet */
+.sheet { overflow-x: auto; margin-top: 26px; padding-bottom: 6px; }
+.sheet ol { list-style: none; margin: 0; padding: 0; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(138px, 1fr); gap: 12px; min-width: 1030px; }
+.sheet a { display: grid; gap: 8px; text-decoration: none; color: var(--ink); }
+.sheet img { width: 100%; height: auto; aspect-ratio: 400 / 900; border-radius: 8px; border: 1px solid var(--line2); background: var(--sunk); display: block; }
+.sheet a:hover img { border-color: var(--plum); }
+.sheet span { font-size: 13px; line-height: 1.3; }
+.sheet small { display: block; color: var(--dim); font-size: 12px; }
+
+/* before */
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 300px)) minmax(0, 1fr); gap: 22px; align-items: start; margin-top: 18px; }
+.pair figcaption { font-size: 13px; color: var(--dim); margin-top: 8px; }
+.issues { display: grid; gap: 12px; padding-left: 1.1em; margin: 0; font-size: 15.5px; line-height: 1.55; }
+.issues li::marker { color: var(--new); }
+.note { margin-top: 16px; padding: 12px 16px; border-left: 3px solid var(--plum); background: var(--plum-wash); border-radius: 0 8px 8px 0; font-size: 15px; }
+
+/* brief */
+.brief { display: grid; gap: 0; margin-top: 18px; border-top: 1px solid var(--line); }
+.brief > div { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 28px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.brief q { font-family: var(--read); font-size: 17px; line-height: 1.5; quotes: "\201C" "\201D"; }
+.brief cite { display: block; font-style: normal; font-size: 12.5px; color: var(--dim); margin-top: 4px; }
+.brief p { font-size: 15px; line-height: 1.55; }
+.brief p b { font-weight: 600; }
+
+/* research */
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px 28px; margin-top: 18px; }
+.facts p { font-size: 15px; line-height: 1.55; }
+.facts p b { display: block; font-weight: 600; margin-bottom: 2px; }
+.scale { margin-top: 26px; overflow-x: auto; }
+.scale svg { display: block; width: 100%; min-width: 560px; height: auto; }
+.scale text { font-family: var(--ui); }
+
+/* table */
+.tablewrap { overflow-x: auto; margin-top: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 14.5px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+thead th { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--dim); font-weight: 600; background: var(--sunk); }
+tbody tr:last-child td { border-bottom: 0; }
+td.y { color: var(--ink); font-weight: 600; white-space: nowrap; }
+td.n { color: var(--dim); white-space: nowrap; }
+
+/* designs */
+.design { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 28px 44px; align-items: start; padding-block: 44px; border-top: 1px solid var(--line); }
+.design:first-of-type { border-top: 0; }
+.design .txt { display: grid; gap: 14px; min-width: 0; }
+.design .who { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--dim); }
+.design h3 { font-size: 30px; }
+.design h3 small { display: block; font-family: var(--ui); font-weight: 500; font-size: 15px; letter-spacing: 0; color: var(--ink2); margin-top: 6px; }
+.design blockquote { margin: 0; padding-left: 16px; border-left: 2px solid var(--line2); font-family: var(--read); font-size: 16.5px; line-height: 1.5; color: var(--ink2); }
+.design blockquote cite { display: block; font-family: var(--ui); font-style: normal; font-size: 12.5px; color: var(--dim); margin-top: 6px; }
+.design ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: 15px; line-height: 1.5; }
+.lens { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 8px; font-size: 14.5px; line-height: 1.5; }
+.lens .t { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--plum); font-weight: 600; }
+.lens b { font-weight: 600; }
+.shot { margin: 0; }
+.shot img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line2); box-shadow: var(--shadow); background: var(--sunk); }
+.shot figcaption { font-size: 12.5px; color: var(--dim); margin-top: 8px; }
+body.view-app .design { grid-template-columns: minmax(0, 1fr); }
+body.view-app .design .shot { grid-row: 2; }
+body.view-app .pair { grid-template-columns: minmax(0, 1fr); }
+.pick { border-top: 0; margin-top: 8px; padding: 32px; border-radius: 16px; background: var(--card); border: 1px solid var(--line2); }
+
+/* build + stats page */
+.steps { display: grid; gap: 12px; margin: 18px 0 0; padding-left: 1.3em; font-size: 15.5px; line-height: 1.55; }
+.steps li::marker { font-family: var(--display); font-weight: 600; color: var(--plum); }
+.mods { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; margin-top: 18px; }
+.mods div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; font-size: 14.5px; line-height: 1.5; }
+.mods b { display: block; font-weight: 600; font-size: 15.5px; }
+.mods i { display: block; font-style: normal; font-size: 12.5px; color: var(--plum); margin-bottom: 4px; letter-spacing: .04em; }
+.how { display: grid; gap: 10px; margin-top: 14px; font-size: 15px; line-height: 1.55; color: var(--ink2); }
+.sources { columns: 2 320px; column-gap: 36px; margin-top: 14px; font-size: 13.5px; line-height: 1.5; }
+.sources p { break-inside: avoid; margin-bottom: 8px; color: var(--ink2); }
+.sources h4 { font: 600 12px/1.4 var(--ui); letter-spacing: .1em; text-transform: uppercase; color: var(--dim); margin: 14px 0 6px; break-after: avoid; }
+.dot { display: inline-block; width: .55em; height: .55em; border-radius: 50%; vertical-align: .08em; margin-right: .3em; }
+
+@media (max-width: 860px) {
+  .design { grid-template-columns: minmax(0, 1fr); }
+  .design .shot { max-width: 340px; }
+  body.view-app .design .shot { max-width: none; }
+  .pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pair .issues-wrap { grid-column: 1 / -1; }
+  .brief > div { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+}
+@media (prefers-reduced-motion: no-preference) { .sheet img, .seg button { transition: border-color .15s ease, background .15s ease; } }
+</style>
+
+<div class="bar" role="region" aria-label="Screenshot settings">
+  <div class="wrap">
+    <span class="ctl"><span class="lab" id="l-theme">App theme</span><span class="seg" role="group" aria-labelledby="l-theme"><button id="t-dark" data-set="theme" data-v="dark" aria-pressed="true">Dark</button><button id="t-light" data-set="theme" data-v="light" aria-pressed="false">Light</button></span></span>
+    <span class="ctl"><span class="lab" id="l-card">Word card</span><span class="seg" role="group" aria-labelledby="l-card"><button id="c-closed" data-set="card" data-v="closed" aria-pressed="true">Closed</button><button id="c-card" data-set="card" data-v="card" aria-pressed="false">Open, mid-read</button></span></span>
+    <span class="ctl"><span class="lab" id="l-view">Show</span><span class="seg" role="group" aria-labelledby="l-view"><button id="v-panel" data-set="view" data-v="panel" aria-pressed="true">Sidebar</button><button id="v-app" data-set="view" data-v="app" aria-pressed="false">Whole app</button></span></span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap">
+    <div class="col">
+      <span class="eyebrow">Tinta Reader · Stats tab · 13 October 2026</span>
+      <h1>The Stats tab, five ways</h1>
+      <p class="lede">Five designers known for statistics, each applied to the right-hand column of the app as it is now. Julie Zhuo’s principles set the brief. Every screen is the real app with real numbers: a Spanish learner partway through <em class="w">La ofrenda</em>, one of Tinta’s own stories.</p>
+    </div>
+    <div class="tldr">
+      <div><b>Answer one question</b>The sidebar should say whether you can read this text and what stands in your way. Julie Zhuo’s cut does that in five lines and still fits under the word card.</div>
+      <div><b>Borrow two pieces</b>Stephen Few’s bullet graph places 91% against 95 and 98. Edward Tufte’s word strip shows where the new words are in 34 pixels.</div>
+      <div><b>Move “you” to the stats page</b>Vocabulary size, coverage by frequency band and progress over time answer a different question. Give them the larger page.</div>
+      <div><b>Fix the number first</b>Count names you set aside as known. <em class="w">La ofrenda</em> is 93% known, but the panel says 91% because Lupe, set aside four times, still counts against you.</div>
+    </div>
+    <nav class="sheet" aria-label="All panels">
+      <ol>
+        <li><a href="#before"><img data-shot="before" src="img/before-closed-dark-panel.webp" width="400" height="900" alt="The current Stats panel"><span>Today<small>the current panel</small></span></a></li>
+        <li><a href="#few"><img data-shot="few" src="img/few-dark-closed-panel.webp" width="400" height="900" alt="Stephen Few panel"><span>Stephen Few<small>the bullet graph</small></span></a></li>
+        <li><a href="#tufte"><img data-shot="tufte" src="img/tufte-dark-closed-panel.webp" width="400" height="900" alt="Edward Tufte panel"><span>Edward Tufte<small>word-sized graphics</small></span></a></li>
+        <li><a href="#felton"><img data-shot="felton" src="img/felton-dark-closed-panel.webp" width="400" height="900" alt="Nicholas Felton panel"><span>Nicholas Felton<small>the reading report</small></span></a></li>
+        <li><a href="#isotype"><img data-shot="isotype" src="img/isotype-dark-closed-panel.webp" width="400" height="900" alt="Isotype panel"><span>Isotype<small>count, don’t scale</small></span></a></li>
+        <li><a href="#posavec"><img data-shot="posavec" src="img/posavec-dark-closed-panel.webp" width="400" height="900" alt="Stefanie Posavec panel"><span>Stefanie Posavec<small>the text’s fingerprint</small></span></a></li>
+        <li><a href="#zhuo"><img data-shot="zhuo" src="img/zhuo-dark-closed-panel.webp" width="400" height="900" alt="Julie Zhuo's cut panel"><span>Julie Zhuo’s cut<small>verdict, reason, next step</small></span></a></li>
+      </ol>
+    </nav>
+  </div>
+</header>
+
+<section id="before">
+  <div class="wrap">
+    <h2>The panel today</h2>
+    <p class="sub col">Same reader, same text, same moment as every mockup below.</p>
+    <div class="pair">
+      <figure class="shot"><img data-shot="before" src="img/before-closed-dark-panel.webp" width="400" height="900" alt="Current This text scope: 91% headline, Total and Unique stacked bars, frequency bands"><figcaption>This text</figcaption></figure>
+      <figure class="shot"><img data-shot="before-overall" src="img/before-overall-dark-panel.webp" width="400" height="900" alt="Current Overall scope: vocabulary counts, frequency coverage, progress"><figcaption>Overall</figcaption></figure>
+      <div class="issues-wrap">
+        <ul class="issues">
+          <li>This text shows 17 numbers and Overall shows 25. None of them says whether 91% is good.</li>
+          <li>Both bars are almost all Known grey, so the part a reader can act on, 8 new and 6 learning, is a sliver at the right end.</li>
+          <li>Total and Unique sit side by side with nothing to say which one the headline uses. It is Total, the running words.</li>
+          <li>Overall gives precision without context: 8.17% of the dictionary, 69.33% of the Top 1,500, dates as 2026-08-24.</li>
+          <li>Names set aside still count against the reader. Lupe appears four times; marking it Ignored leaves the headline at 91%.</li>
+        </ul>
+        <p class="note">The version tried on 13 October said the share known, how far it had moved since the text was opened, and how many new words were left. That pointed the right way, and the brief below keeps all three.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="brief">
+  <div class="wrap">
+    <h2>The brief: Julie Zhuo’s take</h2>
+    <p class="sub col">Julie Zhuo led product design at Facebook, co-founded the analytics company Sundial and wrote <em>The Making of a Manager</em>. She has not written about reading apps. These are her published principles on data and metrics, applied to this tab; every design below follows the resulting brief.</p>
+    <div class="brief">
+      <div><div><q>Building dashboards is easier than knowing what to put in a dashboard.</q><cite><a href="https://x.com/joulee/status/1411841676679680000">X, July 2021</a>, posted in quotation marks</cite></div><p><b>Decide the questions first.</b> A reader brings three to this tab: can I read this, what is in my way, and is it getting easier?</p></div>
+      <div><div><q>Logging is cheap… But attention isn’t cheap. Most of what we track never helps.</q><cite><a href="https://x.com/joulee/status/1980701580707180836">X, October 2025</a></cite></div><p><b>Compute everything, show a handful.</b> The panel shows four or five numbers. The other 37 go to the stats page or nowhere.</p></div>
+      <div><div><q>any metric will be a proxy</q><cite><a href="https://x.com/joulee/status/1410469053827751939">X thread on goals, 2021</a></cite></div><p><b>Lead with the goal.</b> The reader wants to read comfortably, so the panel leads with a verdict, <i>Stretch</i>, and 91% supports it.</p></div>
+      <div><div><q>Diagnose with data, treat with design.</q><cite><a href="https://x.com/joulee/status/1367875690939346949">X, March 2021</a>, crediting Chandra Narayanan</cite></div><p><b>Pair each number with what to do.</b> “Six new words” comes with the six words and a button to the next one.</p></div>
+      <div><div><q>Push, not pull</q><cite>Paraphrase of <a href="https://opinionatedintelligence.substack.com/p/data-has-a-discovery-problem">Opinionated Intelligence, April 2026</a>: dashboards only help people who already know what to ask</cite></div><p><b>Push one insight.</b> The app can work out that learning six words takes this text from Stretch to Comfortable, so it says so.</p></div>
+      <div><div><q>exemplary analysis takes the listener through a story</q><cite><a href="https://x.com/joulee/status/1942600311790789092">X, July 2025</a></cite></div><p><b>Order it like a sentence.</b> Verdict, then the reason, then the next step.</p></div>
+      <div><div><q>The Nag Metric</q><cite><a href="https://lg.substack.com/p/the-nag-metric">The Looking Glass</a>: an element’s share of the screen times how hard it pulls at attention</cite></div><p><b>Keep it calm.</b> No streaks, badges or running totals while you read. Overall progress gets one quiet door to the stats page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="number">
+  <div class="wrap">
+    <h2>What 91% means</h2>
+    <p class="sub col">Vocabulary coverage is one of the best-studied numbers in reading research. Four findings shape how the panel should show it.</p>
+    <div class="facts">
+      <p><b>Count running words</b>Coverage counts every repeat: 98% means one unfamiliar word in fifty (Nation 2006). The headline already does this. Unique counts belong on the stats page.</p>
+      <p><b>95 is the floor, 98 is comfortable</b>95% is the usual minimum and 98% the level for reading without help (Laufer 1989; Hu &amp; Nation 2000; Laufer &amp; Ravenhorst-Kalovski 2010).</p>
+      <p><b>Names count as known</b>Laufer &amp; Ravenhorst-Kalovski count proper nouns as known. Tinta’s Ignored words should count the same way, which makes this text 93%.</p>
+      <p><b>No cliff, so show bands</b>Comprehension rises steadily with coverage (Schmitt, Jiang &amp; Grabe 2011, 661 readers), and replications soften the cut-offs further (Kremmel et al. 2023; Webb et al. 2025). Bands are guidance, not a pass mark.</p>
+    </div>
+    <div class="scale" role="img" aria-label="Reading bands from 85 to 100 percent: Hard below 90, Stretch 90 to 95, Comfortable 95 to 98, Easy from 98. La ofrenda opened at 89, is at 91 now, and would be 93 with names counted.">
+      <svg viewBox="0 0 1000 118" aria-hidden="true">
+        <g font-size="13">
+          <rect x="20" y="40" width="318" height="16" fill="var(--sunk)"/><rect x="340" y="40" width="318" height="16" fill="var(--line)"/><rect x="660" y="40" width="190" height="16" fill="var(--sunk)"/><rect x="852" y="40" width="128" height="16" fill="var(--line)"/>
+          <text x="179" y="78" text-anchor="middle" fill="var(--dim)">Hard</text><text x="499" y="78" text-anchor="middle" fill="var(--ink)" font-weight="600">Stretch</text><text x="755" y="78" text-anchor="middle" fill="var(--dim)">Comfortable</text><text x="916" y="78" text-anchor="middle" fill="var(--dim)">Easy</text>
+          <g fill="var(--dim)" font-size="12"><text x="20" y="100">85%</text><text x="340" y="100" text-anchor="middle">90</text><text x="660" y="100" text-anchor="middle">95</text><text x="852" y="100" text-anchor="middle">98</text><text x="980" y="100" text-anchor="end">100</text></g>
+          <g stroke="var(--line2)"><line x1="340" x2="340" y1="58" y2="88"/><line x1="660" x2="660" y1="58" y2="88"/><line x1="852" x2="852" y1="58" y2="88"/></g>
+          <circle cx="295.6" cy="48" r="6" fill="var(--card)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="448.8" cy="48" r="7" fill="var(--ink)"/>
+          <circle cx="563.2" cy="48" r="6" fill="var(--card)" stroke="var(--plum)" stroke-width="2"/>
+          <text x="295.6" y="26" text-anchor="middle" fill="var(--dim)">opened 89</text>
+          <text x="448.8" y="26" text-anchor="middle" fill="var(--ink)" font-weight="600">now 91</text>
+          <text x="563.2" y="26" text-anchor="middle" fill="var(--plum)">93 with names counted</text>
+        </g>
+      </svg>
+    </div>
+    <p class="sub col" style="margin-top:10px">Tinta’s level stories are written so that a reader at that level knows at least 90% of the running words, which is why 90 is where Stretch begins.</p>
+  </div>
+</section>
+
+<section id="split">
+  <div class="wrap">
+    <h2>Sidebar or stats page</h2>
+    <p class="sub col">The sidebar is read in a glance, mid-sentence, often under an open word card with about 500 pixels to spare. Everything that does not change what the reader does next moves to the larger page.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Statistic</th><th>Sidebar</th><th>Stats page</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Share of this text known, with its band</td><td class="y">Keep</td><td>History per text</td><td>The verdict the reader came for</td></tr>
+          <tr><td>Change since the text was opened (89 → 91%)</td><td class="y">Keep</td><td>Session log</td><td>Proof that marking words works</td></tr>
+          <tr><td>New words left, named, tap to jump</td><td class="y">Keep</td><td>With glosses and bands</td><td>The next action</td></tr>
+          <tr><td>Words you are learning in this text</td><td class="y">One line</td><td>Review queue</td><td>Context, not an action</td></tr>
+          <tr><td>Running vs unique counts, four statuses each</td><td class="n">Move</td><td>Full table</td><td>Eight numbers, one decision at most</td></tr>
+          <tr><td>The text’s frequency bands (1–100 … Unlisted)</td><td class="n">Move</td><td>Difficulty profile</td><td>Already inside the coverage figure</td></tr>
+          <tr><td>Ignored counts</td><td class="n">Move</td><td>Full table</td><td>Bookkeeping</td></tr>
+          <tr><td>Words known overall (1,325)</td><td class="n">Door only</td><td>Growth chart</td><td>A different question: how am I doing?</td></tr>
+          <tr><td>Coverage by frequency band (1,040 / 1,500)</td><td class="n">Move</td><td>Milestones</td><td>Goal-setting, not reading</td></tr>
+          <tr><td>Progress chart, weekly gains, active days</td><td class="n">Move</td><td>Progress</td><td>Looking back, not reading</td></tr>
+          <tr><td>Share of the dictionary known (8.17%)</td><td class="n">Drop</td><td>Drop</td><td>Discouraging and not actionable</td></tr>
+          <tr><td>Frequency list source note</td><td class="n">Move</td><td>Footnote</td><td>Provenance, read once</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="designs" style="padding-top:40px">
+  <div class="wrap">
+    <h2 style="margin-bottom:6px">Five designers, one brief</h2>
+    <p class="sub col">Each panel shows the same facts in that designer’s visual language, built from the app’s own colour tokens. Use the bar at the top to switch theme, open the word card or see the whole app.</p>
+
+    <article class="design" id="few">
+      <div class="txt">
+        <span class="who">Stephen Few · Perceptual Edge</span>
+        <h3>The bullet graph<small>Author of <i>Information Dashboard Design</i> and inventor of the bullet graph</small></h3>
+        <blockquote>A dashboard is “a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance.”<cite>Dashboard Confusion (2004), restated in <a href="http://perceptualedge.com/articles/visual_business_intelligence/dboard_confusion_revisited.pdf">Dashboard Confusion Revisited</a></cite></blockquote>
+        <ul>
+          <li>One bullet graph: grey ranges for Hard, Stretch, Comfortable and Easy, a target tick at 95, the opened value as a hollow mark.</li>
+          <li>The scale starts at 85, so the measure is a mark rather than a bar; a bar from 85 would exaggerate the gaps.</li>
+          <li>A two-row table names the new and learning words. One sparkline closes the panel.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p><b>Keeps:</b> the clearest verdict of the five. Range, position and target are readable in one look.</p><p><b>Costs:</b> the table leaves the next step for the reader to work out, and the vocabulary row answers a second question.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="few" src="img/few-dark-closed-panel.webp" width="400" height="900" alt="Stephen Few style panel: bullet graph of 91% known against grey bands, a table of new and learning words, vocabulary sparkline" loading="lazy"><figcaption>Stephen Few</figcaption></figure>
+    </article>
+
+    <article class="design" id="tufte">
+      <div class="txt">
+        <span class="who">Edward Tufte · Yale</span>
+        <h3>Word-sized graphics<small>Coined “data-ink”, “chartjunk” and “sparkline”</small></h3>
+        <blockquote>A sparkline is a “small intense, simple, word-sized graphic with typographic resolution.” And the question behind every number: “Compared to what?”<cite><a href="https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/">Sparkline theory and practice</a>; <i>Envisioning Information</i>, p. 67</cite></blockquote>
+        <ul>
+          <li>The numbers sit in a sentence: up from 89%, 95% with the six new words, 98% with the five being learned.</li>
+          <li>A range frame runs only from 85 to 100, the stretch that matters.</li>
+          <li>The text drawn as a sparkline: one tick per running word, tall where a word is new, with the reader’s place marked.</li>
+          <li>Set in the app’s reading face, foreign words in italic, a red dot at the end of the vocabulary line.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p><b>Keeps:</b> the sentence tells the story from opened to now to what it would take. The word strip is the best “where” in the set at 34 pixels.</p><p><b>Costs:</b> three graphics and a paragraph are too much to take in at a glance.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="tufte" src="img/tufte-dark-closed-panel.webp" width="400" height="900" alt="Edward Tufte style panel: 91% known in serif, range frame from 85 to 100, a tick strip of the whole text, new and learning words in italic" loading="lazy"><figcaption>Edward Tufte</figcaption></figure>
+    </article>
+
+    <article class="design" id="felton">
+      <div class="txt">
+        <span class="who">Nicholas Felton · Feltron Annual Reports</span>
+        <h3>The reading report<small>Ten annual reports of his own life in numbers, now in MoMA’s collection</small></h3>
+        <blockquote>“Reduce, reduce, reduce… In most cases, I can get away with eliminating a key or an entire axis altogether.”<cite><a href="https://blog.mrmeyer.com/2008/interview-nicholas-felton/">Interview with Dan Meyer, 2008</a></cite></blockquote>
+        <ul>
+          <li>One giant thin numeral with its verdict in spaced capitals, and the whole text as one hairline bar.</li>
+          <li>Three tiles keyed by a coloured rule: +2 since opened, 6 new, 5 learning.</li>
+          <li>The new words set as a typographic list with their uses, and a report footer with seven weekly columns.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p><b>Keeps:</b> the most motivating panel, with a verdict you can read from across the room.</p><p><b>Costs:</b> the footer’s 1,325 words and +113 this week pull attention away from the text, and the tiles report without directing.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="felton" src="img/felton-dark-closed-panel.webp" width="400" height="900" alt="Nicholas Felton style panel: huge thin 91%, Stretch, three numeric tiles, a list of new words with uses, words known with weekly columns" loading="lazy"><figcaption>Nicholas Felton</figcaption></figure>
+    </article>
+
+    <article class="design" id="isotype">
+      <div class="txt">
+        <span class="who">Otto &amp; Marie Neurath, Gerd Arntz · Vienna, from 1925</span>
+        <h3>Count, don’t scale<small>Isotype, the picture language made to show statistics to everyone</small></h3>
+        <blockquote>“At the first look you see the most important points; at the second, the less important points; at the third, the details; at the fourth, nothing more – if you see more, the teaching-picture is bad.”<cite>Otto Neurath, via <a href="https://isotyperevisited.org/2012/08/introduction.php">Isotype Revisited</a></cite></blockquote>
+        <ul>
+          <li>One sign is one word in fifty. Three rows on one baseline, when opened, now and easy reading, so you count the pink signs: 5, then 2, then 1.</li>
+          <li>Signs are sorted within each row, so the colours sit together and can be counted.</li>
+          <li>The six words as chips; words known as signs of one hundred each. Set in DM Sans, already in Tinta’s assets.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p><b>Keeps:</b> the plainest explanation of what 91% means. “Two in every fifty are new” needs no legend.</p><p><b>Costs:</b> three rows to say one number. It explains more than a reader mid-text needs, so it fits better in onboarding or on the stats page.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="isotype" src="img/isotype-dark-closed-panel.webp" width="400" height="900" alt="Isotype style panel: rows of 50 word signs for when opened, now and easy reading, with pink signs for new words" loading="lazy"><figcaption>Isotype</figcaption></figure>
+    </article>
+
+    <article class="design" id="posavec">
+      <div class="txt">
+        <span class="who">Stefanie Posavec · London</span>
+        <h3>The text’s fingerprint<small><i>Writing Without Words</i>, <i>(En)tangled Word Bank</i>, <i>Dear Data</i> with Giorgia Lupi</small></h3>
+        <blockquote>Her sentence drawings work by one rule: “a line would turn right after each sentence (scaled by the number of words per sentence).”<cite><a href="https://www.stefanieposavec.com/archive/writing-without-words">Writing Without Words, 2006</a></cite></blockquote>
+        <ul>
+          <li>One line per sentence in reading order, each dash a word, paragraphs as gaps. New words are thick pink with their forms written beside them.</li>
+          <li>▸ marks where you are. A legend explains the rule, as on every Dear Data postcard.</li>
+          <li>The door to overall progress is a rhythm of days: a mark for each day you read, sized by the words it added.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p><b>Keeps:</b> the only design that shows where the difficulty is, and it could double as a navigator: tap a line to go to it.</p><p><b>Costs:</b> the tallest panel, and it needs its legend. It belongs on the stats page, or as the Stats tab’s expanded view.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="posavec" src="img/posavec-dark-closed-panel.webp" width="400" height="900" alt="Stefanie Posavec style panel: each sentence drawn as a line of word dashes, new words in pink and labelled, a rhythm of reading days below" loading="lazy"><figcaption>Stefanie Posavec</figcaption></figure>
+    </article>
+
+    <article class="design pick" id="zhuo">
+      <div class="txt">
+        <span class="who">The recommendation</span>
+        <h3>Julie Zhuo’s cut<small>Her principles applied strictly to the same brief</small></h3>
+        <ul>
+          <li><b>Verdict:</b> Stretch, with 91% beside it and a four-step ladder of Hard, Stretch, Comfortable and Easy.</li>
+          <li><b>Reason:</b> up from 89% when you opened it.</li>
+          <li><b>Next step:</b> “Learn six words to make it Comfortable (95%)”, the words as chips that jump to them, and “Next: rieron, six sentences on” with a Go to it button.</li>
+          <li>One quiet line for the words being learned, and a door to the stats page with no number on it.</li>
+        </ul>
+        <div class="lens"><span class="t">Why this one</span><p>It is the only panel where every number comes with something to do, and it fits under an open word card with room to spare (switch the word card above). It also follows on from the 13 October version.</p><p><b>Borrow if you want more:</b> Few’s bullet graph in place of the ladder to show the exact position, and Tufte’s word strip under it to show where the new words are.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="zhuo" src="img/zhuo-dark-closed-panel.webp" width="400" height="900" alt="Julie Zhuo's cut: Stretch, 91% known, a four-step ladder, up from 89%, a card saying learn six words to make it Comfortable with word chips and a Go to it button" loading="lazy"><figcaption>Julie Zhuo’s cut</figcaption></figure>
+    </article>
+  </div>
+</section>
+
+<section id="build">
+  <div class="wrap">
+    <h2>To build it</h2>
+    <ol class="steps col">
+      <li><b>Count Ignored words as readable</b> in the headline, so names stop counting against the reader. <em class="w">La ofrenda</em> moves from 91% to 93%.</li>
+      <li><b>Keep each text’s coverage at the moment it opens.</b> The 13 October build (app commit d927aec2) already computed it for “Up from X% when you opened it”.</li>
+      <li><b>Find the next New word after the cursor</b> for “Next: rieron · Go to it”. The reader already moves word by word and can skip to unknown words.</li>
+      <li><b>Name the bands:</b> Hard below 90, Stretch 90–95, Comfortable 95–98, Easy from 98. Each needs a string in all eight interface languages.</li>
+      <li><b>Remove the This text / Overall switch.</b> Overall becomes the stats page, reached from the door at the foot of the panel.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="page">
+  <div class="wrap">
+    <h2>What the larger stats page can hold</h2>
+    <p class="sub col">The designs that are too much for a glance are right for a page you open on purpose. Giorgia Lupi, left out of the five because her work overlaps with Posavec’s, fits here best.</p>
+    <div class="mods">
+      <div><i>Felton</i><b>The report</b>Words known, this week against your average, weekly columns, days read.</div>
+      <div><i>Isotype</i><b>What coverage means</b>The fifty-word rows, as the explainer of the bands. Good in onboarding too.</div>
+      <div><i>Few</i><b>Milestones</b>A bullet graph per frequency band: Top 500 done, Top 1,500 at 1,040, Top 4,000 at 1,262.</div>
+      <div><i>Tufte</i><b>Growth</b>Words known since 24 August as one line, with the milestones marked on it.</div>
+      <div><i>Posavec</i><b>Each text</b>A fingerprint per text with its coverage when opened and when finished.</div>
+      <div><i>Lupi</i><b>Words you met</b>Each word as a small drawn mark: when you met it, in which text, how often it came back.</div>
+      <div><i>Plain table</i><b>The full counts</b>Running and unique words by status, Ignored included, with the frequency list’s source.</div>
+    </div>
+  </div>
+</section>
+
+<section id="method">
+  <div class="wrap">
+    <h2>How these were made</h2>
+    <div class="how col">
+      <p>The app is the published build in this repository (app commit 65923bd0), served locally and driven in Chromium. The reader is a Spanish learner set up with the app’s own “Mark as known: Top 500” plus about half of its Top 1,500 band, with seven weeks of seeded history: 615 words known on 24 August, 1,325 on 13 October.</p>
+      <p>The text is <em class="w">La ofrenda</em>, Tinta’s own level-1,500 story. It opened at 89% known. Ten words were then marked while reading (five Known, four Learning, Lupe Ignored), which took it to 91%.</p>
+      <p>Every figure on every panel is read out of the running app by script: the counts, glosses and bands from the Stats and Words tabs, the word order from the reader, the history from saved state. The only figure entered by hand is the 89% at opening, copied from the app’s own headline before any marking.</p>
+      <p>Each panel was injected into the Stats tab using the app’s colour tokens, so light and dark are the app’s own palettes. Screens are 1440 × 900 at 2×. On this Linux machine the interface font is Inter and the reading face falls back to a generic serif; on a Mac they render as SF and Palatino.</p>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="wrap">
+    <h2>Sources</h2>
+    <div class="sources">
+      <h4>Julie Zhuo</h4>
+      <p><a href="https://x.com/joulee/status/1411841676679680000">On deciding what goes in a dashboard</a> (X, 2021)</p>
+      <p><a href="https://x.com/joulee/status/1980701580707180836">On logging and attention</a> (X, 2025)</p>
+      <p><a href="https://x.com/joulee/status/1410469053827751939">On metrics as proxies</a> (X, 2021)</p>
+      <p><a href="https://x.com/joulee/status/1367875690939346949">Diagnose with data, treat with design</a> (X, 2021)</p>
+      <p><a href="https://lg.substack.com/p/stay-healthy-stay-data-informed">Stay Healthy. Stay Data-Informed.</a> (The Looking Glass, 2020)</p>
+      <p><a href="https://opinionatedintelligence.substack.com/p/data-has-a-discovery-problem">On pushing insight instead of pulling it</a> (Opinionated Intelligence, 2026)</p>
+      <p><a href="https://x.com/joulee/status/1942600311790789092">On analysis as a story</a> (X, 2025)</p>
+      <p><a href="https://lg.substack.com/p/the-nag-metric">The Nag Metric</a> (The Looking Glass)</p>
+      <h4>Designers</h4>
+      <p>Stephen Few: <a href="https://www.perceptualedge.com/articles/misc/Bullet_Graph_Design_Spec.pdf">Bullet Graph Design Specification</a>; <a href="https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf">Common Pitfalls in Dashboard Design</a>; <a href="http://perceptualedge.com/articles/visual_business_intelligence/dboard_confusion_revisited.pdf">Dashboard Confusion Revisited</a></p>
+      <p>Edward Tufte: <a href="https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/">Sparkline theory and practice</a></p>
+      <p>Nicholas Felton: <a href="https://blog.mrmeyer.com/2008/interview-nicholas-felton/">Dan Meyer interview</a>; <a href="https://typenetwork.com/articles/input-in-use-for-the-feltron-annual-report">Input in the Feltron Annual Report</a></p>
+      <p>Isotype: <a href="https://isotyperevisited.org/2012/08/introduction.php">Isotype Revisited</a>; <a href="https://www.eyemagazine.com/feature/article/talking-pictures1">Eye, Talking pictures</a></p>
+      <p>Stefanie Posavec: <a href="https://www.stefanieposavec.com/archive/writing-without-words">Writing Without Words</a>; <a href="https://www.stefanieposavec.com/archive/entangled-word-bank">(En)tangled Word Bank</a></p>
+      <h4>Coverage research</h4>
+      <p>Hu &amp; Nation (2000), <a href="https://nflrc.hawaii.edu/rfl/item/43">Unknown vocabulary density and reading comprehension</a></p>
+      <p>Laufer &amp; Ravenhorst-Kalovski (2010), <a href="https://scholarspace.manoa.hawaii.edu/items/eaead47e-853e-4797-ba6f-596df150c1d7/full">Lexical threshold revisited</a></p>
+      <p>Schmitt, Jiang &amp; Grabe (2011), <a href="https://www.lextutor.ca/cover/papers/schmitt_etal_2011.pdf">The percentage of words known in a text and reading comprehension</a></p>
+      <p>Nation (2006), <a href="https://www.wgtn.ac.nz/__data/assets/pdf_file/0018/1626120/2006-How-large-a-vocab.pdf">How large a vocabulary is needed for reading and listening?</a></p>
+      <p>Kremmel et al. (2023), <a href="https://forrt.org/flora-replication-atlas/doi/10.1111/lang.12622/">replication of Hu &amp; Nation</a></p>
+      <p>Webb, Pellicer-Sánchez &amp; Wang (2025), <a href="https://nflrc.hawaii.edu/rfl/item-detail/654">coverage and comprehension in advanced learners</a></p>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  var state = { theme: 'dark', card: 'closed', view: 'panel' };
+  try { var saved = JSON.parse(localStorage.getItem('tinta-stats-study') || '{}'); ['theme', 'card', 'view'].forEach(function (k) { if (saved[k]) state[k] = saved[k]; }); } catch (e) {}
+  function file(key, view) {
+    if (key === 'before') return 'img/before-' + state.card + '-' + state.theme + '-' + view + '.webp';
+    if (key === 'before-overall') return 'img/before-overall-' + state.theme + '-' + view + '.webp';
+    return 'img/' + key + '-' + state.theme + '-' + state.card + '-' + view + '.webp';
+  }
+  function render() {
+    document.querySelectorAll('img[data-shot]').forEach(function (img) {
+      var inSheet = !!img.closest('.sheet');
+      var view = inSheet ? 'panel' : state.view;
+      img.src = file(img.dataset.shot, view);
+      img.width = view === 'app' ? 2016 : 400;
+      img.height = view === 'app' ? 1260 : 900;
+      img.style.aspectRatio = view === 'app' ? '2016 / 1260' : '400 / 900';
+    });
+    document.body.classList.toggle('view-app', state.view === 'app');
+    document.querySelectorAll('button[data-set]').forEach(function (b) { b.setAttribute('aria-pressed', String(state[b.dataset.set] === b.dataset.v)); });
+  }
+  document.querySelectorAll('button[data-set]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      state[b.dataset.set] = b.dataset.v;
+      try { localStorage.setItem('tinta-stats-study', JSON.stringify(state)); } catch (e) {}
+      render();
+    });
+  });
+  render();
+})();
+</script>

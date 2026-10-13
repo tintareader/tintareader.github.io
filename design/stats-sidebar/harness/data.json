@@ -1,0 +1,2567 @@
+{
+ "text": {
+  "roots": [
+   {
+    "root": "y",
+    "st": "k",
+    "gloss": "and",
+    "level": 1
+   },
+   {
+    "root": "el",
+    "st": "k",
+    "gloss": "the (m.)",
+    "level": 1
+   },
+   {
+    "root": "de",
+    "st": "k",
+    "gloss": "of, from",
+    "level": 1
+   },
+   {
+    "root": "un",
+    "st": "k",
+    "gloss": "a, one (m.)",
+    "level": 1
+   },
+   {
+    "root": "ser",
+    "st": "k",
+    "gloss": "to be (identity, characteristic); being (n.); seres humanos: human beings",
+    "level": 1
+   },
+   {
+    "root": "me",
+    "st": "k",
+    "gloss": "me; myself",
+    "level": 1
+   },
+   {
+    "root": "la",
+    "st": "k",
+    "gloss": "the (f.); her, it",
+    "level": 1
+   },
+   {
+    "root": "lupe",
+    "st": "i",
+    "gloss": "",
+    "level": 0
+   },
+   {
+    "root": "una",
+    "st": "k",
+    "gloss": "a, one (f.)",
+    "level": 1
+   },
+   {
+    "root": "pan",
+    "st": "k",
+    "gloss": "bread",
+    "level": 3
+   },
+   {
+    "root": "no",
+    "st": "k",
+    "gloss": "no, not",
+    "level": 1
+   },
+   {
+    "root": "les",
+    "st": "k",
+    "gloss": "to them, to you (pl.)",
+    "level": 2
+   },
+   {
+    "root": "mi",
+    "st": "k",
+    "gloss": "my",
+    "level": 1
+   },
+   {
+    "root": "a",
+    "st": "k",
+    "gloss": "to, at; marks a person as the object (not translated)",
+    "level": 1
+   },
+   {
+    "root": "su",
+    "st": "k",
+    "gloss": "his, her, its, their, your (formal)",
+    "level": 1
+   },
+   {
+    "root": "abuelo",
+    "st": "k",
+    "gloss": "grandfather; grandmother (f.)",
+    "level": 3
+   },
+   {
+    "root": "decir",
+    "st": "k",
+    "gloss": "to say, to tell",
+    "level": 1
+   },
+   {
+    "root": "día",
+    "st": "k",
+    "gloss": "day",
+    "level": 2
+   },
+   {
+    "root": "muerto",
+    "st": "k",
+    "gloss": "dead",
+    "level": 2
+   },
+   {
+    "root": "mamá",
+    "st": "k",
+    "gloss": "mom",
+    "level": 2
+   },
+   {
+    "root": "se",
+    "st": "k",
+    "gloss": "-self, -selves; one, people (impersonal); to him, to her, to them, to you (formal) (replacing le before lo, la)",
+    "level": 1
+   },
+   {
+    "root": "mesa",
+    "st": "k",
+    "gloss": "table",
+    "level": 3
+   },
+   {
+    "root": "flor",
+    "st": "k",
+    "gloss": "flower",
+    "level": 3
+   },
+   {
+    "root": "foto",
+    "st": "k",
+    "gloss": "photo",
+    "level": 2
+   },
+   {
+    "root": "en",
+    "st": "k",
+    "gloss": "in, on, at",
+    "level": 1
+   },
+   {
+    "root": "las",
+    "st": "k",
+    "gloss": "the (f. pl.); them",
+    "level": 1
+   },
+   {
+    "root": "haber",
+    "st": "k",
+    "gloss": "to have (auxiliary); there to be",
+    "level": 1
+   },
+   {
+    "root": "ofrenda",
+    "st": "l",
+    "gloss": "offering",
+    "level": 5
+   },
+   {
+    "root": "comida",
+    "st": "k",
+    "gloss": "food; meal",
+    "level": 2
+   },
+   {
+    "root": "mole",
+    "st": "u",
+    "gloss": "mole (Mexican sauce of chillies, spices and often chocolate)",
+    "level": 5
+   },
+   {
+    "root": "le",
+    "st": "k",
+    "gloss": "to him, to her, to you (formal)",
+    "level": 1
+   },
+   {
+    "root": "preguntar",
+    "st": "k",
+    "gloss": "to ask (a question)",
+    "level": 2
+   },
+   {
+    "root": "reír",
+    "st": "u",
+    "gloss": "to laugh; reírse de: to laugh at",
+    "level": 3
+   },
+   {
+    "root": "yo",
+    "st": "k",
+    "gloss": "I",
+    "level": 1
+   },
+   {
+    "root": "hambre",
+    "st": "k",
+    "gloss": "hunger; tener hambre: to be hungry",
+    "level": 3
+   },
+   {
+    "root": "muy",
+    "st": "k",
+    "gloss": "very",
+    "level": 1
+   },
+   {
+    "root": "para",
+    "st": "k",
+    "gloss": "for (purpose), in order to; he/she/it stops; stop!",
+    "level": 1
+   },
+   {
+    "root": "hacer",
+    "st": "k",
+    "gloss": "to do, to make",
+    "level": 1
+   },
+   {
+    "root": "con",
+    "st": "k",
+    "gloss": "with",
+    "level": 1
+   },
+   {
+    "root": "por",
+    "st": "k",
+    "gloss": "because of, for; by (agent, means); through, along; por favor: please; por fin: at last",
+    "level": 1
+   },
+   {
+    "root": "los",
+    "st": "k",
+    "gloss": "the (m. pl.); them",
+    "level": 1
+   },
+   {
+    "root": "amigo",
+    "st": "k",
+    "gloss": "friend",
+    "level": 2
+   },
+   {
+    "root": "invitar",
+    "st": "k",
+    "gloss": "to invite",
+    "level": 3
+   },
+   {
+    "root": "casa",
+    "st": "k",
+    "gloss": "house, home",
+    "level": 2
+   },
+   {
+    "root": "primero",
+    "st": "k",
+    "gloss": "first",
+    "level": 2
+   },
+   {
+    "root": "noviembre",
+    "st": "k",
+    "gloss": "November",
+    "level": 4
+   },
+   {
+    "root": "al",
+    "st": "k",
+    "gloss": "to the (a + el)",
+    "level": 1
+   },
+   {
+    "root": "entrar",
+    "st": "k",
+    "gloss": "to enter, to go in",
+    "level": 2
+   },
+   {
+    "root": "ver",
+    "st": "k",
+    "gloss": "to see; to watch; tener que ver: to have to do with",
+    "level": 1
+   },
+   {
+    "root": "grande",
+    "st": "k",
+    "gloss": "big, large; great",
+    "level": 2
+   },
+   {
+    "root": "lleno",
+    "st": "k",
+    "gloss": "full",
+    "level": 3
+   },
+   {
+    "root": "naranja",
+    "st": "k",
+    "gloss": "orange",
+    "level": 4
+   },
+   {
+    "root": "vela",
+    "st": "l",
+    "gloss": "candle; sail",
+    "level": 4
+   },
+   {
+    "root": "persona",
+    "st": "k",
+    "gloss": "person",
+    "level": 2
+   },
+   {
+    "root": "mayor",
+    "st": "k",
+    "gloss": "bigger, greater; older; main",
+    "level": 2
+   },
+   {
+    "root": "sus",
+    "st": "k",
+    "gloss": "his, her, its, their, your (formal or pl.)",
+    "level": 2
+   },
+   {
+    "root": "tío",
+    "st": "k",
+    "gloss": "uncle; guy (Spain); aunt (f.)",
+    "level": 2
+   },
+   {
+    "root": "vecino",
+    "st": "k",
+    "gloss": "neighbor",
+    "level": 3
+   },
+   {
+    "root": "mañana",
+    "st": "k",
+    "gloss": "tomorrow; the morning",
+    "level": 2
+   },
+   {
+    "root": "también",
+    "st": "k",
+    "gloss": "also, too",
+    "level": 2
+   },
+   {
+    "root": "fruta",
+    "st": "k",
+    "gloss": "fruit (to eat: apples, oranges, bananas)",
+    "level": 5
+   },
+   {
+    "root": "plato",
+    "st": "k",
+    "gloss": "plate, dish",
+    "level": 3
+   },
+   {
+    "root": "botella",
+    "st": "k",
+    "gloss": "bottle",
+    "level": 3
+   },
+   {
+    "root": "tequila",
+    "st": "k",
+    "gloss": "tequila",
+    "level": 5
+   },
+   {
+    "root": "uno",
+    "st": "k",
+    "gloss": "one; unos / unas: some, a few",
+    "level": 1
+   },
+   {
+    "root": "cigarro",
+    "st": "k",
+    "gloss": "cigarette; cigar",
+    "level": 4
+   },
+   {
+    "root": "tu",
+    "st": "k",
+    "gloss": "your",
+    "level": 1
+   },
+   {
+    "root": "fumar",
+    "st": "l",
+    "gloss": "to smoke",
+    "level": 3
+   },
+   {
+    "root": "muchísimo",
+    "st": "k",
+    "gloss": "very much, a great deal",
+    "level": 4
+   },
+   {
+    "root": "contestar",
+    "st": "k",
+    "gloss": "to answer",
+    "level": 3
+   },
+   {
+    "root": "ella",
+    "st": "k",
+    "gloss": "she",
+    "level": 1
+   },
+   {
+    "root": "encantar",
+    "st": "k",
+    "gloss": "to delight (me encanta = I love it)",
+    "level": 2
+   },
+   {
+    "root": "tener",
+    "st": "k",
+    "gloss": "to have",
+    "level": 1
+   },
+   {
+    "root": "oler",
+    "st": "l",
+    "gloss": "to smell",
+    "level": 3
+   },
+   {
+    "root": "bien",
+    "st": "k",
+    "gloss": "well, fine; good (n.); bienes: goods, property, assets",
+    "level": 1
+   },
+   {
+    "root": "tomar",
+    "st": "k",
+    "gloss": "to take; to drink",
+    "level": 2
+   },
+   {
+    "root": "pedazo",
+    "st": "l",
+    "gloss": "piece, bit",
+    "level": 3
+   },
+   {
+    "root": "gritar",
+    "st": "k",
+    "gloss": "to shout, to scream",
+    "level": 3
+   },
+   {
+    "root": "ese",
+    "st": "k",
+    "gloss": "that (m.)",
+    "level": 1
+   },
+   {
+    "root": "ti",
+    "st": "k",
+    "gloss": "you (after a preposition)",
+    "level": 2
+   },
+   {
+    "root": "dar",
+    "st": "k",
+    "gloss": "to give",
+    "level": 1
+   },
+   {
+    "root": "mucho",
+    "st": "k",
+    "gloss": "much, a lot",
+    "level": 1
+   },
+   {
+    "root": "vergüenza",
+    "st": "k",
+    "gloss": "shame, embarrassment",
+    "level": 3
+   },
+   {
+    "root": "pero",
+    "st": "k",
+    "gloss": "but",
+    "level": 1
+   },
+   {
+    "root": "todos",
+    "st": "k",
+    "gloss": "everyone, all",
+    "level": 1
+   },
+   {
+    "root": "esta",
+    "st": "k",
+    "gloss": "this (f.)",
+    "level": 1
+   },
+   {
+    "root": "noche",
+    "st": "k",
+    "gloss": "night",
+    "level": 2
+   },
+   {
+    "root": "venir",
+    "st": "k",
+    "gloss": "to come",
+    "level": 1
+   },
+   {
+    "root": "nuestro",
+    "st": "k",
+    "gloss": "our",
+    "level": 1
+   },
+   {
+    "root": "visitar",
+    "st": "k",
+    "gloss": "to visit",
+    "level": 3
+   },
+   {
+    "root": "explicar",
+    "st": "k",
+    "gloss": "to explain",
+    "level": 3
+   },
+   {
+    "root": "viaje",
+    "st": "k",
+    "gloss": "trip, journey",
+    "level": 3
+   },
+   {
+    "root": "largo",
+    "st": "k",
+    "gloss": "long",
+    "level": 3
+   },
+   {
+    "root": "llegar",
+    "st": "k",
+    "gloss": "to arrive; to reach (as far as)",
+    "level": 2
+   },
+   {
+    "root": "sed",
+    "st": "u",
+    "gloss": "thirst; tener sed: to be thirsty",
+    "level": 4
+   },
+   {
+    "root": "eso",
+    "st": "k",
+    "gloss": "that (neuter)",
+    "level": 1
+   },
+   {
+    "root": "dejar",
+    "st": "k",
+    "gloss": "to leave behind; to let, to allow; dejar de: to stop (doing); to give up, to quit",
+    "level": 2
+   },
+   {
+    "root": "agua",
+    "st": "k",
+    "gloss": "water",
+    "level": 2
+   },
+   {
+    "root": "sal",
+    "st": "k",
+    "gloss": "salt; get out!",
+    "level": 3
+   },
+   {
+    "root": "lo",
+    "st": "k",
+    "gloss": "it, him (object); the (neuter)",
+    "level": 1
+   },
+   {
+    "root": "que",
+    "st": "k",
+    "gloss": "that, which; than; (heading a clause) because, since, or plain emphasis (sí que, oye que)",
+    "level": 1
+   },
+   {
+    "root": "más",
+    "st": "k",
+    "gloss": "more, most",
+    "level": 1
+   },
+   {
+    "root": "gustar",
+    "st": "k",
+    "gloss": "to please (me gusta = I like it)",
+    "level": 2
+   },
+   {
+    "root": "marcar",
+    "st": "u",
+    "gloss": "to mark; to dial; to score",
+    "level": 4
+   },
+   {
+    "root": "camino",
+    "st": "k",
+    "gloss": "road, path, way; I walk",
+    "level": 2
+   },
+   {
+    "root": "entonces",
+    "st": "k",
+    "gloss": "then, so",
+    "level": 2
+   },
+   {
+    "root": "triste",
+    "st": "k",
+    "gloss": "sad",
+    "level": 3
+   },
+   {
+    "root": "fiesta",
+    "st": "k",
+    "gloss": "party",
+    "level": 2
+   },
+   {
+    "root": "recordar",
+    "st": "k",
+    "gloss": "to remember; to remind",
+    "level": 2
+   },
+   {
+    "root": "compañía",
+    "st": "k",
+    "gloss": "company, firm; company, companionship",
+    "level": 3
+   },
+   {
+    "root": "dos",
+    "st": "k",
+    "gloss": "two",
+    "level": 2
+   },
+   {
+    "root": "después",
+    "st": "k",
+    "gloss": "after, afterward",
+    "level": 2
+   },
+   {
+    "root": "familia",
+    "st": "k",
+    "gloss": "family",
+    "level": 2
+   },
+   {
+    "root": "sentar",
+    "st": "k",
+    "gloss": "to seat; sentarse: to sit down",
+    "level": 3
+   },
+   {
+    "root": "comer",
+    "st": "k",
+    "gloss": "to eat",
+    "level": 2
+   },
+   {
+    "root": "fin",
+    "st": "k",
+    "gloss": "end; por fin: finally",
+    "level": 2
+   },
+   {
+    "root": "probar",
+    "st": "u",
+    "gloss": "to try, to taste; to prove",
+    "level": 3
+   },
+   {
+    "root": "qué",
+    "st": "k",
+    "gloss": "what?; how…! (in exclamations)",
+    "level": 1
+   },
+   {
+    "root": "tal",
+    "st": "k",
+    "gloss": "such; tal vez: maybe, perhaps; qué tal: how are you?, how's it going?",
+    "level": 2
+   },
+   {
+    "root": "estar",
+    "st": "k",
+    "gloss": "to be (state, location)",
+    "level": 1
+   },
+   {
+    "root": "poco",
+    "st": "k",
+    "gloss": "little, few",
+    "level": 2
+   },
+   {
+    "root": "seco",
+    "st": "k",
+    "gloss": "dry",
+    "level": 4
+   },
+   {
+    "root": "claro",
+    "st": "k",
+    "gloss": "clear; of course",
+    "level": 2
+   },
+   {
+    "root": "ya",
+    "st": "k",
+    "gloss": "already, now; no longer (with a negative); I see, right; ya que: since",
+    "level": 1
+   },
+   {
+    "root": "llevar",
+    "st": "k",
+    "gloss": "to carry, to take; to wear; to have been (for a time)",
+    "level": 2
+   },
+   {
+    "root": "sabor",
+    "st": "u",
+    "gloss": "flavour, taste",
+    "level": 4
+   }
+  ],
+  "seq": [
+   {
+    "w": "Mi",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 0
+   },
+   {
+    "w": "amiga",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 2
+   },
+   {
+    "w": "Lupe",
+    "st": "i",
+    "s": 0,
+    "p": 0,
+    "seg": 4
+   },
+   {
+    "w": "me",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 6
+   },
+   {
+    "w": "invitó",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 8
+   },
+   {
+    "w": "a",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 10
+   },
+   {
+    "w": "su",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 12
+   },
+   {
+    "w": "casa",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 14
+   },
+   {
+    "w": "el",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 16
+   },
+   {
+    "w": "primero",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 18
+   },
+   {
+    "w": "de",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 20
+   },
+   {
+    "w": "noviembre",
+    "st": "k",
+    "s": 0,
+    "p": 0,
+    "seg": 22
+   },
+   {
+    "w": "Al",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 25
+   },
+   {
+    "w": "entrar",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 27
+   },
+   {
+    "w": "vi",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 29
+   },
+   {
+    "w": "una",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 31
+   },
+   {
+    "w": "mesa",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 33
+   },
+   {
+    "w": "grande",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 35
+   },
+   {
+    "w": "llena",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 37
+   },
+   {
+    "w": "de",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 39
+   },
+   {
+    "w": "flores",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 41
+   },
+   {
+    "w": "naranjas",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 43
+   },
+   {
+    "w": "velas",
+    "st": "l",
+    "s": 1,
+    "p": 0,
+    "seg": 45
+   },
+   {
+    "w": "y",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 47
+   },
+   {
+    "w": "fotos",
+    "st": "k",
+    "s": 1,
+    "p": 0,
+    "seg": 49
+   },
+   {
+    "w": "En",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 52
+   },
+   {
+    "w": "las",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 54
+   },
+   {
+    "w": "fotos",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 56
+   },
+   {
+    "w": "había",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 58
+   },
+   {
+    "w": "personas",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 60
+   },
+   {
+    "w": "mayores",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 62
+   },
+   {
+    "w": "sus",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 64
+   },
+   {
+    "w": "abuelos",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 66
+   },
+   {
+    "w": "un",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 68
+   },
+   {
+    "w": "tío",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 70
+   },
+   {
+    "w": "y",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 72
+   },
+   {
+    "w": "una",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 74
+   },
+   {
+    "w": "vecina",
+    "st": "k",
+    "s": 2,
+    "p": 0,
+    "seg": 76
+   },
+   {
+    "w": "Es",
+    "st": "k",
+    "s": 4,
+    "p": 1,
+    "seg": 79
+   },
+   {
+    "w": "la",
+    "st": "k",
+    "s": 4,
+    "p": 1,
+    "seg": 81
+   },
+   {
+    "w": "ofrenda",
+    "st": "l",
+    "s": 4,
+    "p": 1,
+    "seg": 83
+   },
+   {
+    "w": "me",
+    "st": "k",
+    "s": 4,
+    "p": 1,
+    "seg": 85
+   },
+   {
+    "w": "dijo",
+    "st": "k",
+    "s": 4,
+    "p": 1,
+    "seg": 87
+   },
+   {
+    "w": "Lupe",
+    "st": "i",
+    "s": 4,
+    "p": 1,
+    "seg": 89
+   },
+   {
+    "w": "Mañana",
+    "st": "k",
+    "s": 5,
+    "p": 1,
+    "seg": 92
+   },
+   {
+    "w": "es",
+    "st": "k",
+    "s": 5,
+    "p": 1,
+    "seg": 94
+   },
+   {
+    "w": "el",
+    "st": "k",
+    "s": 5,
+    "p": 1,
+    "seg": 96
+   },
+   {
+    "w": "Día",
+    "st": "k",
+    "s": 5,
+    "p": 1,
+    "seg": 98
+   },
+   {
+    "w": "de",
+    "st": "k",
+    "s": 5,
+    "p": 1,
+    "seg": 100
+   },
+   {
+    "w": "Muertos",
+    "st": "k",
+    "s": 5,
+    "p": 1,
+    "seg": 102
+   },
+   {
+    "w": "En",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 105
+   },
+   {
+    "w": "la",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 107
+   },
+   {
+    "w": "mesa",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 109
+   },
+   {
+    "w": "también",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 111
+   },
+   {
+    "w": "había",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 113
+   },
+   {
+    "w": "comida",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 115
+   },
+   {
+    "w": "pan",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 117
+   },
+   {
+    "w": "fruta",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 119
+   },
+   {
+    "w": "un",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 121
+   },
+   {
+    "w": "plato",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 123
+   },
+   {
+    "w": "de",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 125
+   },
+   {
+    "w": "mole",
+    "st": "u",
+    "s": 7,
+    "p": 2,
+    "seg": 127
+   },
+   {
+    "w": "una",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 129
+   },
+   {
+    "w": "botella",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 131
+   },
+   {
+    "w": "de",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 133
+   },
+   {
+    "w": "tequila",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 135
+   },
+   {
+    "w": "y",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 137
+   },
+   {
+    "w": "unos",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 139
+   },
+   {
+    "w": "cigarros",
+    "st": "k",
+    "s": 7,
+    "p": 2,
+    "seg": 141
+   },
+   {
+    "w": "Tu",
+    "st": "k",
+    "s": 9,
+    "p": 3,
+    "seg": 144
+   },
+   {
+    "w": "abuelo",
+    "st": "k",
+    "s": 9,
+    "p": 3,
+    "seg": 146
+   },
+   {
+    "w": "fumaba",
+    "st": "l",
+    "s": 9,
+    "p": 3,
+    "seg": 148
+   },
+   {
+    "w": "le",
+    "st": "k",
+    "s": 10,
+    "p": 3,
+    "seg": 150
+   },
+   {
+    "w": "pregunté",
+    "st": "k",
+    "s": 10,
+    "p": 3,
+    "seg": 152
+   },
+   {
+    "w": "Muchísimo",
+    "st": "k",
+    "s": 12,
+    "p": 4,
+    "seg": 155
+   },
+   {
+    "w": "contestó",
+    "st": "k",
+    "s": 12,
+    "p": 4,
+    "seg": 157
+   },
+   {
+    "w": "ella",
+    "st": "k",
+    "s": 12,
+    "p": 4,
+    "seg": 159
+   },
+   {
+    "w": "riéndose",
+    "st": "u",
+    "s": 12,
+    "p": 4,
+    "seg": 161
+   },
+   {
+    "w": "Y",
+    "st": "k",
+    "s": 13,
+    "p": 4,
+    "seg": 164
+   },
+   {
+    "w": "le",
+    "st": "k",
+    "s": 13,
+    "p": 4,
+    "seg": 166
+   },
+   {
+    "w": "encantaba",
+    "st": "k",
+    "s": 13,
+    "p": 4,
+    "seg": 168
+   },
+   {
+    "w": "el",
+    "st": "k",
+    "s": 13,
+    "p": 4,
+    "seg": 170
+   },
+   {
+    "w": "mole",
+    "st": "u",
+    "s": 13,
+    "p": 4,
+    "seg": 172
+   },
+   {
+    "w": "de",
+    "st": "k",
+    "s": 13,
+    "p": 4,
+    "seg": 174
+   },
+   {
+    "w": "mi",
+    "st": "k",
+    "s": 13,
+    "p": 4,
+    "seg": 176
+   },
+   {
+    "w": "mamá",
+    "st": "k",
+    "s": 13,
+    "p": 4,
+    "seg": 178
+   },
+   {
+    "w": "Yo",
+    "st": "k",
+    "s": 15,
+    "p": 5,
+    "seg": 181
+   },
+   {
+    "w": "tenía",
+    "st": "k",
+    "s": 15,
+    "p": 5,
+    "seg": 183
+   },
+   {
+    "w": "hambre",
+    "st": "k",
+    "s": 15,
+    "p": 5,
+    "seg": 185
+   },
+   {
+    "w": "y",
+    "st": "k",
+    "s": 15,
+    "p": 5,
+    "seg": 187
+   },
+   {
+    "w": "el",
+    "st": "k",
+    "s": 15,
+    "p": 5,
+    "seg": 189
+   },
+   {
+    "w": "pan",
+    "st": "k",
+    "s": 15,
+    "p": 5,
+    "seg": 191
+   },
+   {
+    "w": "olía",
+    "st": "l",
+    "s": 15,
+    "p": 5,
+    "seg": 193
+   },
+   {
+    "w": "muy",
+    "st": "k",
+    "s": 15,
+    "p": 5,
+    "seg": 195
+   },
+   {
+    "w": "bien",
+    "st": "k",
+    "s": 15,
+    "p": 5,
+    "seg": 197
+   },
+   {
+    "w": "Tomé",
+    "st": "k",
+    "s": 16,
+    "p": 5,
+    "seg": 200
+   },
+   {
+    "w": "un",
+    "st": "k",
+    "s": 16,
+    "p": 5,
+    "seg": 202
+   },
+   {
+    "w": "pedazo",
+    "st": "l",
+    "s": 16,
+    "p": 5,
+    "seg": 204
+   },
+   {
+    "w": "No",
+    "st": "k",
+    "s": 18,
+    "p": 6,
+    "seg": 207
+   },
+   {
+    "w": "gritó",
+    "st": "k",
+    "s": 19,
+    "p": 6,
+    "seg": 209
+   },
+   {
+    "w": "Lupe",
+    "st": "i",
+    "s": 19,
+    "p": 6,
+    "seg": 211
+   },
+   {
+    "w": "Ese",
+    "st": "k",
+    "s": 20,
+    "p": 6,
+    "seg": 214
+   },
+   {
+    "w": "pan",
+    "st": "k",
+    "s": 20,
+    "p": 6,
+    "seg": 216
+   },
+   {
+    "w": "no",
+    "st": "k",
+    "s": 20,
+    "p": 6,
+    "seg": 218
+   },
+   {
+    "w": "es",
+    "st": "k",
+    "s": 20,
+    "p": 6,
+    "seg": 220
+   },
+   {
+    "w": "para",
+    "st": "k",
+    "s": 20,
+    "p": 6,
+    "seg": 222
+   },
+   {
+    "w": "ti",
+    "st": "k",
+    "s": 20,
+    "p": 6,
+    "seg": 224
+   },
+   {
+    "w": "Es",
+    "st": "k",
+    "s": 21,
+    "p": 6,
+    "seg": 227
+   },
+   {
+    "w": "para",
+    "st": "k",
+    "s": 21,
+    "p": 6,
+    "seg": 229
+   },
+   {
+    "w": "mi",
+    "st": "k",
+    "s": 21,
+    "p": 6,
+    "seg": 231
+   },
+   {
+    "w": "abuelo",
+    "st": "k",
+    "s": 21,
+    "p": 6,
+    "seg": 233
+   },
+   {
+    "w": "Me",
+    "st": "k",
+    "s": 23,
+    "p": 7,
+    "seg": 236
+   },
+   {
+    "w": "dio",
+    "st": "k",
+    "s": 23,
+    "p": 7,
+    "seg": 238
+   },
+   {
+    "w": "mucha",
+    "st": "k",
+    "s": 23,
+    "p": 7,
+    "seg": 240
+   },
+   {
+    "w": "vergüenza",
+    "st": "k",
+    "s": 23,
+    "p": 7,
+    "seg": 242
+   },
+   {
+    "w": "pero",
+    "st": "k",
+    "s": 23,
+    "p": 7,
+    "seg": 244
+   },
+   {
+    "w": "todos",
+    "st": "k",
+    "s": 23,
+    "p": 7,
+    "seg": 246
+   },
+   {
+    "w": "se",
+    "st": "k",
+    "s": 23,
+    "p": 7,
+    "seg": 248
+   },
+   {
+    "w": "rieron",
+    "st": "u",
+    "s": 23,
+    "p": 7,
+    "seg": 250
+   },
+   {
+    "w": "Esta",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 253
+   },
+   {
+    "w": "noche",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 255
+   },
+   {
+    "w": "vienen",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 257
+   },
+   {
+    "w": "nuestros",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 259
+   },
+   {
+    "w": "muertos",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 261
+   },
+   {
+    "w": "a",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 263
+   },
+   {
+    "w": "visitarnos",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 265
+   },
+   {
+    "w": "me",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 267
+   },
+   {
+    "w": "explicó",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 269
+   },
+   {
+    "w": "su",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 271
+   },
+   {
+    "w": "mamá",
+    "st": "k",
+    "s": 25,
+    "p": 8,
+    "seg": 273
+   },
+   {
+    "w": "Hacen",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 276
+   },
+   {
+    "w": "un",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 278
+   },
+   {
+    "w": "viaje",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 280
+   },
+   {
+    "w": "muy",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 282
+   },
+   {
+    "w": "largo",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 284
+   },
+   {
+    "w": "y",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 286
+   },
+   {
+    "w": "llegan",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 288
+   },
+   {
+    "w": "con",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 290
+   },
+   {
+    "w": "hambre",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 292
+   },
+   {
+    "w": "y",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 294
+   },
+   {
+    "w": "con",
+    "st": "k",
+    "s": 26,
+    "p": 8,
+    "seg": 296
+   },
+   {
+    "w": "sed",
+    "st": "u",
+    "s": 26,
+    "p": 8,
+    "seg": 298
+   },
+   {
+    "w": "Por",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 301
+   },
+   {
+    "w": "eso",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 303
+   },
+   {
+    "w": "les",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 305
+   },
+   {
+    "w": "dejamos",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 307
+   },
+   {
+    "w": "agua",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 309
+   },
+   {
+    "w": "sal",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 311
+   },
+   {
+    "w": "y",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 313
+   },
+   {
+    "w": "lo",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 315
+   },
+   {
+    "w": "que",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 317
+   },
+   {
+    "w": "más",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 319
+   },
+   {
+    "w": "les",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 321
+   },
+   {
+    "w": "gustaba",
+    "st": "k",
+    "s": 27,
+    "p": 8,
+    "seg": 323
+   },
+   {
+    "w": "Las",
+    "st": "k",
+    "s": 28,
+    "p": 8,
+    "seg": 326
+   },
+   {
+    "w": "flores",
+    "st": "k",
+    "s": 28,
+    "p": 8,
+    "seg": 328
+   },
+   {
+    "w": "les",
+    "st": "k",
+    "s": 28,
+    "p": 8,
+    "seg": 330
+   },
+   {
+    "w": "marcan",
+    "st": "u",
+    "s": 28,
+    "p": 8,
+    "seg": 332
+   },
+   {
+    "w": "el",
+    "st": "k",
+    "s": 28,
+    "p": 8,
+    "seg": 334
+   },
+   {
+    "w": "camino",
+    "st": "k",
+    "s": 28,
+    "p": 8,
+    "seg": 336
+   },
+   {
+    "w": "Entonces",
+    "st": "k",
+    "s": 30,
+    "p": 9,
+    "seg": 339
+   },
+   {
+    "w": "no",
+    "st": "k",
+    "s": 30,
+    "p": 9,
+    "seg": 341
+   },
+   {
+    "w": "es",
+    "st": "k",
+    "s": 30,
+    "p": 9,
+    "seg": 343
+   },
+   {
+    "w": "un",
+    "st": "k",
+    "s": 30,
+    "p": 9,
+    "seg": 345
+   },
+   {
+    "w": "día",
+    "st": "k",
+    "s": 30,
+    "p": 9,
+    "seg": 347
+   },
+   {
+    "w": "triste",
+    "st": "k",
+    "s": 30,
+    "p": 9,
+    "seg": 349
+   },
+   {
+    "w": "dije",
+    "st": "k",
+    "s": 30,
+    "p": 9,
+    "seg": 351
+   },
+   {
+    "w": "yo",
+    "st": "k",
+    "s": 30,
+    "p": 9,
+    "seg": 353
+   },
+   {
+    "w": "No",
+    "st": "k",
+    "s": 32,
+    "p": 10,
+    "seg": 356
+   },
+   {
+    "w": "Es",
+    "st": "k",
+    "s": 33,
+    "p": 10,
+    "seg": 359
+   },
+   {
+    "w": "una",
+    "st": "k",
+    "s": 33,
+    "p": 10,
+    "seg": 361
+   },
+   {
+    "w": "fiesta",
+    "st": "k",
+    "s": 33,
+    "p": 10,
+    "seg": 363
+   },
+   {
+    "w": "Los",
+    "st": "k",
+    "s": 34,
+    "p": 10,
+    "seg": 366
+   },
+   {
+    "w": "recordamos",
+    "st": "k",
+    "s": 34,
+    "p": 10,
+    "seg": 368
+   },
+   {
+    "w": "y",
+    "st": "k",
+    "s": 34,
+    "p": 10,
+    "seg": 370
+   },
+   {
+    "w": "les",
+    "st": "k",
+    "s": 34,
+    "p": 10,
+    "seg": 372
+   },
+   {
+    "w": "hacemos",
+    "st": "k",
+    "s": 34,
+    "p": 10,
+    "seg": 374
+   },
+   {
+    "w": "compañía",
+    "st": "k",
+    "s": 34,
+    "p": 10,
+    "seg": 376
+   },
+   {
+    "w": "Dos",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 379
+   },
+   {
+    "w": "días",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 381
+   },
+   {
+    "w": "después",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 383
+   },
+   {
+    "w": "la",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 385
+   },
+   {
+    "w": "familia",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 387
+   },
+   {
+    "w": "se",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 389
+   },
+   {
+    "w": "sentó",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 391
+   },
+   {
+    "w": "a",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 393
+   },
+   {
+    "w": "comer",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 395
+   },
+   {
+    "w": "la",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 397
+   },
+   {
+    "w": "comida",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 399
+   },
+   {
+    "w": "de",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 401
+   },
+   {
+    "w": "la",
+    "st": "k",
+    "s": 36,
+    "p": 11,
+    "seg": 403
+   },
+   {
+    "w": "ofrenda",
+    "st": "l",
+    "s": 36,
+    "p": 11,
+    "seg": 405
+   },
+   {
+    "w": "Por",
+    "st": "k",
+    "s": 37,
+    "p": 11,
+    "seg": 408
+   },
+   {
+    "w": "fin",
+    "st": "k",
+    "s": 37,
+    "p": 11,
+    "seg": 410
+   },
+   {
+    "w": "probé",
+    "st": "u",
+    "s": 37,
+    "p": 11,
+    "seg": 412
+   },
+   {
+    "w": "el",
+    "st": "k",
+    "s": 37,
+    "p": 11,
+    "seg": 414
+   },
+   {
+    "w": "pan",
+    "st": "k",
+    "s": 37,
+    "p": 11,
+    "seg": 416
+   },
+   {
+    "w": "Qué",
+    "st": "k",
+    "s": 39,
+    "p": 12,
+    "seg": 419
+   },
+   {
+    "w": "tal",
+    "st": "k",
+    "s": 39,
+    "p": 12,
+    "seg": 421
+   },
+   {
+    "w": "me",
+    "st": "k",
+    "s": 40,
+    "p": 12,
+    "seg": 423
+   },
+   {
+    "w": "preguntó",
+    "st": "k",
+    "s": 40,
+    "p": 12,
+    "seg": 425
+   },
+   {
+    "w": "Lupe",
+    "st": "i",
+    "s": 40,
+    "p": 12,
+    "seg": 427
+   },
+   {
+    "w": "Está",
+    "st": "k",
+    "s": 42,
+    "p": 13,
+    "seg": 430
+   },
+   {
+    "w": "un",
+    "st": "k",
+    "s": 42,
+    "p": 13,
+    "seg": 432
+   },
+   {
+    "w": "poco",
+    "st": "k",
+    "s": 42,
+    "p": 13,
+    "seg": 434
+   },
+   {
+    "w": "seco",
+    "st": "k",
+    "s": 42,
+    "p": 13,
+    "seg": 436
+   },
+   {
+    "w": "Claro",
+    "st": "k",
+    "s": 44,
+    "p": 14,
+    "seg": 439
+   },
+   {
+    "w": "dijo",
+    "st": "k",
+    "s": 44,
+    "p": 14,
+    "seg": 441
+   },
+   {
+    "w": "su",
+    "st": "k",
+    "s": 44,
+    "p": 14,
+    "seg": 443
+   },
+   {
+    "w": "mamá",
+    "st": "k",
+    "s": 44,
+    "p": 14,
+    "seg": 445
+   },
+   {
+    "w": "Los",
+    "st": "k",
+    "s": 45,
+    "p": 14,
+    "seg": 448
+   },
+   {
+    "w": "muertos",
+    "st": "k",
+    "s": 45,
+    "p": 14,
+    "seg": 450
+   },
+   {
+    "w": "ya",
+    "st": "k",
+    "s": 45,
+    "p": 14,
+    "seg": 452
+   },
+   {
+    "w": "se",
+    "st": "k",
+    "s": 45,
+    "p": 14,
+    "seg": 454
+   },
+   {
+    "w": "llevaron",
+    "st": "k",
+    "s": 45,
+    "p": 14,
+    "seg": 456
+   },
+   {
+    "w": "el",
+    "st": "k",
+    "s": 45,
+    "p": 14,
+    "seg": 458
+   },
+   {
+    "w": "sabor",
+    "st": "u",
+    "s": 45,
+    "p": 14,
+    "seg": 460
+   }
+  ],
+  "title": "La ofrenda",
+  "headline": "91%",
+  "bars": [
+   {
+    "label": "Total",
+    "total": "217",
+    "parts": [
+     "Known 199",
+     "Learning 6",
+     "New 8",
+     "Ignored 4"
+    ]
+   },
+   {
+    "label": "Unique",
+    "total": "126",
+    "parts": [
+     "Known 114",
+     "Learning 5",
+     "New 6",
+     "Ignored 1"
+    ]
+   }
+  ],
+  "bands": [
+   {
+    "label": "1–100",
+    "pct": "51.6%"
+   },
+   {
+    "label": "101–500",
+    "pct": "23.5%"
+   },
+   {
+    "label": "501–1,500",
+    "pct": "16.1%"
+   },
+   {
+    "label": "1,501–4,000",
+    "pct": "4.1%"
+   },
+   {
+    "label": "4,000+",
+    "pct": "2.8%"
+   },
+   {
+    "label": "Unlisted",
+    "pct": "1.8%"
+   }
+  ],
+  "openedPct": 89
+ },
+ "overall": {
+  "rows": [
+   [
+    "Dictionary entries",
+    "16,213"
+   ],
+   [
+    "Known",
+    "1,325 · 8.17%"
+   ],
+   [
+    "Learning",
+    "47 · 0.29%"
+   ],
+   [
+    "Ignored",
+    "1 · 0.01%"
+   ],
+   [
+    "Top 100",
+    "100 / 100 · 100.00%"
+   ],
+   [
+    "Top 500",
+    "500 / 500 · 100.00%"
+   ],
+   [
+    "Top 1,500",
+    "1,040 / 1,500 · 69.33%"
+   ],
+   [
+    "Top 4,000",
+    "1,262 / 4,000 · 31.55%"
+   ],
+   [
+    "2026-08-24 — 2026-10-13",
+    "Known 1,325 (+710 since 2026-08-24)"
+   ]
+  ],
+  "coverage": [
+   {
+    "label": "Top 100",
+    "val": "100 / 100 · 100.00%",
+    "l": 100,
+    "k": 100
+   },
+   {
+    "label": "Top 500",
+    "val": "500 / 500 · 100.00%",
+    "l": 100,
+    "k": 100
+   },
+   {
+    "label": "Top 1,500",
+    "val": "1,040 / 1,500 · 69.33%",
+    "l": 70.8667,
+    "k": 69.3333
+   },
+   {
+    "label": "Top 4,000",
+    "val": "1,262 / 4,000 · 31.55%",
+    "l": 32.7,
+    "k": 31.55
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-24",
+    "k": 615,
+    "l": 8
+   },
+   {
+    "d": "2026-08-25",
+    "k": 627,
+    "l": 13
+   },
+   {
+    "d": "2026-08-26",
+    "k": 639,
+    "l": 12
+   },
+   {
+    "d": "2026-08-27",
+    "k": 647,
+    "l": 11
+   },
+   {
+    "d": "2026-08-28",
+    "k": 662,
+    "l": 13
+   },
+   {
+    "d": "2026-08-29",
+    "k": 671,
+    "l": 15
+   },
+   {
+    "d": "2026-08-31",
+    "k": 695,
+    "l": 15
+   },
+   {
+    "d": "2026-09-01",
+    "k": 709,
+    "l": 20
+   },
+   {
+    "d": "2026-09-03",
+    "k": 737,
+    "l": 18
+   },
+   {
+    "d": "2026-09-05",
+    "k": 771,
+    "l": 19
+   },
+   {
+    "d": "2026-09-07",
+    "k": 797,
+    "l": 20
+   },
+   {
+    "d": "2026-09-08",
+    "k": 813,
+    "l": 20
+   },
+   {
+    "d": "2026-09-10",
+    "k": 845,
+    "l": 26
+   },
+   {
+    "d": "2026-09-11",
+    "k": 857,
+    "l": 24
+   },
+   {
+    "d": "2026-09-14",
+    "k": 901,
+    "l": 25
+   },
+   {
+    "d": "2026-09-15",
+    "k": 921,
+    "l": 30
+   },
+   {
+    "d": "2026-09-16",
+    "k": 933,
+    "l": 32
+   },
+   {
+    "d": "2026-09-17",
+    "k": 945,
+    "l": 29
+   },
+   {
+    "d": "2026-09-18",
+    "k": 964,
+    "l": 28
+   },
+   {
+    "d": "2026-09-19",
+    "k": 980,
+    "l": 32
+   },
+   {
+    "d": "2026-09-20",
+    "k": 994,
+    "l": 35
+   },
+   {
+    "d": "2026-09-23",
+    "k": 1038,
+    "l": 36
+   },
+   {
+    "d": "2026-09-24",
+    "k": 1049,
+    "l": 33
+   },
+   {
+    "d": "2026-09-25",
+    "k": 1067,
+    "l": 34
+   },
+   {
+    "d": "2026-09-28",
+    "k": 1112,
+    "l": 39
+   },
+   {
+    "d": "2026-10-02",
+    "k": 1170,
+    "l": 42
+   },
+   {
+    "d": "2026-10-04",
+    "k": 1199,
+    "l": 42
+   },
+   {
+    "d": "2026-10-05",
+    "k": 1212,
+    "l": 45
+   },
+   {
+    "d": "2026-10-08",
+    "k": 1259,
+    "l": 42
+   },
+   {
+    "d": "2026-10-09",
+    "k": 1275,
+    "l": 45
+   },
+   {
+    "d": "2026-10-10",
+    "k": 1288,
+    "l": 43
+   },
+   {
+    "d": "2026-10-12",
+    "k": 1320,
+    "l": 43
+   },
+   {
+    "d": "2026-10-13",
+    "k": 1325,
+    "l": 47
+   }
+  ]
+ }
+}
