@@ -4,7 +4,7 @@ const e=`# Portuguese starter in English: the note under the story, the coach's 
 # engine splits it (tools/measure/starter-sentences.ts), a tab between.
 
 @note In Brazil a pizza is usually big, and it goes in the middle of the table for everyone to share.
-@literal imagine
+@literal what · nothing
 @why That’s how Brazilians brush off a thank-you or an apology: “not at all”, “don’t be silly”.
 
 Quero uma pizza.	I want a pizza.
@@ -16,7 +16,7 @@ Não tem mesa para mim.	There’s no table for me.
 Uma família olha para mim.	A family looks at me.
 — Senta aqui com a gente! — diz o pai.	“Sit here with us!” says the father.
 — Desculpa, não quero incomodar.	“Sorry, I don’t want to be a bother.”
-— Imagina!	“Don’t be silly!”
+— Que nada!	“Not at all!”
 Senta, senta.	“Sit down, sit down.”
 Eu me sento, e o garçom chega.	I sit down, and the waiter comes over.
 — Uma pizza, por favor — digo.	“A pizza, please,” I say.

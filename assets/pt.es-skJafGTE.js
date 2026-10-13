@@ -4,7 +4,7 @@ const a=`# Portuguese starter in Spanish: the note under the story, the coach's 
 # engine splits it (tools/measure/starter-sentences.ts), a tab between.
 
 @note En Brasil, la pizza suele ser grande y se pone en el centro de la mesa para compartirla entre todos.
-@literal imagina
+@literal qué · nada
 @why Así quitan importancia los brasileños a un «gracias» o a un «perdón»: «¡qué va!», «no es nada».
 
 Quero uma pizza.	Quiero una pizza.
@@ -16,7 +16,7 @@ Não tem mesa para mim.	No hay mesa para mí.
 Uma família olha para mim.	Una familia me mira.
 — Senta aqui com a gente! — diz o pai.	—¡Siéntate aquí con nosotros! —dice el padre.
 — Desculpa, não quero incomodar.	—Perdón, no quiero molestar.
-— Imagina!	—¡Qué va!
+— Que nada!	—¡Qué va!
 Senta, senta.	Siéntate, siéntate.
 Eu me sento, e o garçom chega.	Me siento y llega el camarero.
 — Uma pizza, por favor — digo.	—Una pizza, por favor —digo.

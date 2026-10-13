@@ -4,7 +4,7 @@ const e=`# Portuguese starter in French: the note under the story, the coach's t
 # engine splits it (tools/measure/starter-sentences.ts), a tab between.
 
 @note Au Brésil, la pizza est souvent grande et se pose au milieu de la table, pour que tout le monde se serve.
-@literal imagine
+@literal quoi · rien
 @why C’est ainsi que les Brésiliens balaient un merci ou une excuse : « mais non, voyons », « pas du tout ».
 
 Quero uma pizza.	Je veux une pizza.
@@ -16,7 +16,7 @@ Não tem mesa para mim.	Il n’y a pas de table pour moi.
 Uma família olha para mim.	Une famille me regarde.
 — Senta aqui com a gente! — diz o pai.	« Venez vous asseoir avec nous ! » dit le père.
 — Desculpa, não quero incomodar.	« Pardon, je ne veux pas vous déranger. »
-— Imagina!	« Mais non, voyons ! »
+— Que nada!	« Mais non, voyons ! »
 Senta, senta.	« Asseyez-vous, asseyez-vous. »
 Eu me sento, e o garçom chega.	Je m’assieds, et le serveur arrive.
 — Uma pizza, por favor — digo.	« Une pizza, s’il vous plaît », dis-je.

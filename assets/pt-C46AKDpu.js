@@ -4,12 +4,13 @@ const a=`# Portuguese starter: the first story a newcomer reads, with the coach 
 # as the pack's own stories are.
 #
 # The anchor is pizza, not café: the pack's first story is already about the
-# cafezinho. The sentence to translate is Imagina!, the Brazilian "don't
-# mention it", which the card can only gloss as "to imagine".
+# cafezinho. The sentence to translate is Que nada!, the Brazilian "not at
+# all", which the card can only gloss word by word as "what" and "nothing".
+# It was Imagina! until 2026-10-13: one word, so there was nothing to add up.
 
 @anchor pizza
 @known hotel
-@translate Imagina!
+@translate Que nada!
 @form pizzas
 
 ## Uma pizza, por favor
@@ -23,7 +24,7 @@ Uma família olha para mim.
 
 — Desculpa, não quero incomodar.
 
-— Imagina! Senta, senta.
+— Que nada! Senta, senta.
 
 Eu me sento, e o garçom chega.
 

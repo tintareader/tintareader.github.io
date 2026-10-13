@@ -4,7 +4,7 @@ const a=`# Portuguese starter in Indonesian: the note under the story, the coach
 # engine splits it (tools/measure/starter-sentences.ts), a tab between.
 
 @note Di Brasil, pizza biasanya besar dan ditaruh di tengah meja untuk dimakan bersama-sama.
-@literal bayangkan
+@literal apa · tidak ada
 @why Begitulah orang Brasil menanggapi ucapan terima kasih atau permintaan maaf: “ah, tidak apa-apa”, “jangan begitu”.
 
 Quero uma pizza.	Saya mau pizza.
@@ -16,7 +16,7 @@ Não tem mesa para mim.	Tidak ada meja untuk saya.
 Uma família olha para mim.	Sebuah keluarga melihat saya.
 — Senta aqui com a gente! — diz o pai.	“Duduk di sini sama kami!” kata ayahnya.
 — Desculpa, não quero incomodar.	“Maaf, saya tidak mau merepotkan.”
-— Imagina!	“Ah, jangan begitu!”
+— Que nada!	“Ah, jangan begitu!”
 Senta, senta.	“Duduk, duduk.”
 Eu me sento, e o garçom chega.	Saya duduk, lalu pelayan datang.
 — Uma pizza, por favor — digo.	“Pizza satu, ya,” kata saya.
