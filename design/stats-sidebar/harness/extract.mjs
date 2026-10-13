@@ -1,17 +1,21 @@
 // Pull every number the mockups use out of the running app, so nothing is invented.
 import { openApp, statsTab, readState } from './app.mjs';
 import fs from 'node:fs';
-const { browser, page } = await openApp({ theme: 'dark', state: 'state-reading.json', scale: 1 });
+const STATE = process.argv[2] ?? 'state-reading.json', OUT = process.argv[3] ?? 'data.json';
+const { browser, page } = await openApp({ theme: 'dark', state: STATE, scale: 1 });
 const data = { text: {}, overall: {} };
 // Words tab: every root in this text with status, gloss, band
 await page.locator('.sidetab', { hasText: 'Words' }).click();
 await page.waitForTimeout(500);
+const more = page.locator('.morecols');
+if (await more.count() && (await more.getAttribute('aria-pressed')) !== 'true') { await more.click(); await page.waitForTimeout(300); }
 data.text.roots = await page.evaluate(() => [...document.querySelectorAll('.wlist li.wrow')].map(li => {
   const bg = li.querySelector('.stdot')?.getAttribute('style') || '';
   const st = /c-known/.test(bg) ? 'k' : /c-learning/.test(bg) ? 'l' : /c-unknown/.test(bg) ? 'u' : /c-ignored/.test(bg) ? 'i' : /c-derived/.test(bg) ? 'd' : '?';
   const ticks = li.querySelectorAll('.bandticks i.f').length;
   const hasTicks = !!li.querySelector('.bandticks');
-  return { root: li.querySelector('.wbtn span')?.textContent, st, gloss: li.querySelector('.wgloss')?.textContent || '', level: hasTicks ? 6 - ticks : 0 };
+  const nums = [...li.querySelectorAll('.num:not(.wband)')].map(n => +n.textContent);
+  return { root: li.querySelector('.wbtn span')?.textContent, st, gloss: li.querySelector('.wgloss')?.textContent || '', level: hasTicks ? 6 - ticks : 0, freq: nums[0], first: nums[1] };
 }));
 // Reader: running words in order, with sentence and paragraph breaks
 data.text.seq = await page.evaluate(() => {
@@ -45,8 +49,8 @@ data.overall.coverage = await page.evaluate(() => [...document.querySelectorAll(
   l: parseFloat(r.querySelector('.bandfill.l').style.width), k: parseFloat(r.querySelector('.bandfill.k').style.width) })));
 const st = await readState(page);
 data.overall.history = st.byLang.es.history;
-data.text.openedPct = 89; // measured: the headline when La ofrenda was opened, before this session's marks
-fs.writeFileSync('data.json', JSON.stringify(data, null, 1));
+data.text.openedPct = process.argv[4] ? +process.argv[4] : parseInt(data.text.headline); // La ofrenda: 89, its headline before this session's marks
+fs.writeFileSync(OUT, JSON.stringify(data, null, 1));
 const c = data.text.seq.reduce((m, x) => (m[x.st] = (m[x.st] || 0) + 1, m), {});
 console.log('running', data.text.seq.length, c, 'sentences', new Set(data.text.seq.map(x => x.s)).size, 'paras', new Set(data.text.seq.map(x => x.p)).size);
 console.log('roots', data.text.roots.length, data.text.roots.filter(r => r.st !== 'k').map(r => `${r.st}:${r.root}(${r.level})=${r.gloss}`).join(' | '));

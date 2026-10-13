@@ -1,0 +1,391 @@
+<title>Tinta Sidebar Stats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,600&family=Literata:ital,opsz,wght@0,7..72,400;1,7..72,400&display=swap">
+<style>
+/*R1CSS*/
+/* Round 2 */
+body:not(.round-1) .r1 { display: none !important; }
+body.round-1 .r2 { display: none !important; }
+.badge { display: inline-block; font: 600 11.5px/1 var(--ui); letter-spacing: .08em; text-transform: uppercase; color: var(--plum); background: var(--plum-wash); border-radius: 999px; padding: 5px 10px; }
+.cal { margin: 22px 0 0; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 18px 12px; }
+.cal .scroll { overflow-x: auto; }
+.cal .scroll > svg { display: block; width: 100%; min-width: 640px; height: auto; }
+.cal text { font-family: var(--ui); font-size: 13px; fill: var(--dim); }
+.cal text.cl { fill: var(--ink2); }
+.cal text.ax { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.cal figcaption { font-size: 14px; line-height: 1.55; color: var(--ink2); margin-top: 10px; max-width: 46rem; }
+.cal .key { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--dim); margin-bottom: 8px; }
+.cal .key span { display: inline-flex; align-items: center; gap: 6px; }
+.private { margin-top: 18px; }
+.states { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 22px; }
+.states figcaption { font-size: 13.5px; line-height: 1.45; color: var(--dim); }
+.states figcaption b { display: block; font-weight: 600; color: var(--ink); font-size: 14.5px; margin-bottom: 2px; }
+body.view-app .states { grid-template-columns: minmax(0, 1fr); }
+.pick .lens { margin-top: 2px; }
+.changed { margin-top: 18px; display: grid; gap: 10px; }
+</style>
+
+<div class="bar" role="region" aria-label="Screenshot settings">
+  <div class="wrap">
+    <span class="ctl"><span class="lab" id="l-round">Round</span><span class="seg" role="group" aria-labelledby="l-round"><button id="r-2" data-set="round" data-v="2" aria-pressed="true">2 · Taps</button><button id="r-1" data-set="round" data-v="1" aria-pressed="false">1 · Bands</button></span></span>
+    <span class="ctl"><span class="lab" id="l-theme">App theme</span><span class="seg" role="group" aria-labelledby="l-theme"><button id="t-dark" data-set="theme" data-v="dark" aria-pressed="true">Dark</button><button id="t-light" data-set="theme" data-v="light" aria-pressed="false">Light</button></span></span>
+    <span class="ctl"><span class="lab" id="l-card">Word card</span><span class="seg" role="group" aria-labelledby="l-card"><button id="c-closed" data-set="card" data-v="closed" aria-pressed="true">Closed</button><button id="c-card" data-set="card" data-v="card" aria-pressed="false">Open, mid-read</button></span></span>
+    <span class="ctl"><span class="lab" id="l-view">Show</span><span class="seg" role="group" aria-labelledby="l-view"><button id="v-panel" data-set="view" data-v="panel" aria-pressed="true">Sidebar</button><button id="v-app" data-set="view" data-v="app" aria-pressed="false">Whole app</button></span></span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap">
+    <div class="col">
+      <span class="eyebrow">Tinta Reader · Stats tab · 13 October 2026</span>
+      <h1>The Stats tab, five ways</h1>
+      <p class="lede r2">Five designers known for statistics, each applied to the right-hand column of the app as it is now, with Julie Zhuo’s principles as the brief. This is the second round. It counts the taps a text will take and compares them with the reader’s own past texts. The first round used research thresholds for reading without help; switch Round in the bar to see it.</p>
+      <p class="lede r1">Round one, kept for comparison. It judged each text against research thresholds for reading without help: 95% known as the minimum and 98% as comfortable. Round two replaces those thresholds, because Tinta glosses every word.</p>
+    </div>
+    <div class="tldr r2">
+      <div><b>Count taps</b>With an instant gloss, a new word costs a tap. What wears a reader out is the number of taps, and that grows with the length of the text.</div>
+      <div><b>Compare with the reader’s own texts</b>Tinta learns a limit for each reader from the texts they finish and stop, kept on their device. It replaces thresholds measured for reading without help.</div>
+      <div><b>Push the fix</b>On a dense text, offer the move that saves the most taps. Setting aside two names and learning <em class="w">mate</em> turns 37 taps into 24.</div>
+      <div><b>Build Julie Zhuo’s cut</b>It gives the verdict, the cost and the next step, and fits under the open word card. It already borrows Tufte’s rug and word strip; Few’s bullet graph is the alternative.</div>
+    </div>
+    <nav class="sheet" aria-label="All panels">
+      <ol>
+        <li><a href="#before"><img data-shot="before" src="img/before-closed-dark-panel.webp" width="400" height="900" alt="The current Stats panel"><span>Today<small>the current panel</small></span></a></li>
+        <li><a href="#few"><img data-shot="few" src="img/r2-few-dark-closed-panel.webp" width="400" height="900" alt="Stephen Few panel"><span>Stephen Few<small>the bullet graph</small></span></a></li>
+        <li><a href="#tufte"><img data-shot="tufte" src="img/r2-tufte-dark-closed-panel.webp" width="400" height="900" alt="Edward Tufte panel"><span>Edward Tufte<small>word-sized graphics</small></span></a></li>
+        <li><a href="#felton"><img data-shot="felton" src="img/r2-felton-dark-closed-panel.webp" width="400" height="900" alt="Nicholas Felton panel"><span>Nicholas Felton<small>the reading report</small></span></a></li>
+        <li><a href="#isotype"><img data-shot="isotype" src="img/r2-isotype-dark-closed-panel.webp" width="400" height="900" alt="Isotype panel"><span>Isotype<small>count, don’t scale</small></span></a></li>
+        <li><a href="#posavec"><img data-shot="posavec" src="img/r2-posavec-dark-closed-panel.webp" width="400" height="900" alt="Stefanie Posavec panel"><span>Stefanie Posavec<small>the text’s fingerprint</small></span></a></li>
+        <li><a href="#zhuo"><img data-shot="zhuo" src="img/r2-zhuo-dark-closed-panel.webp" width="400" height="900" alt="Julie Zhuo's cut panel"><span>Julie Zhuo’s cut<small>verdict, cost, next step</small></span></a></li>
+      </ol>
+    </nav>
+  </div>
+</header>
+
+<section id="before">
+  <div class="wrap">
+    <h2>The panel today</h2>
+    <p class="sub col">Same reader, same text, same moment as every mockup below.</p>
+    <div class="pair">
+      <figure class="shot"><img data-shot="before" src="img/before-closed-dark-panel.webp" width="400" height="900" alt="Current This text scope: 91% headline, Total and Unique stacked bars, frequency bands"><figcaption>This text</figcaption></figure>
+      <figure class="shot"><img data-shot="before-overall" src="img/before-overall-dark-panel.webp" width="400" height="900" alt="Current Overall scope: vocabulary counts, frequency coverage, progress"><figcaption>Overall</figcaption></figure>
+      <div class="issues-wrap">
+        <ul class="issues">
+          <li>This text shows 17 numbers and Overall shows 25. None of them says how much work the text will be.</li>
+          <li>Both bars are almost all Known grey, so the part a reader acts on, the 8 new words, is a sliver at the right end.</li>
+          <li>The headline is a share of words known, which undercounts what a reader understands: words not yet marked, and cognates such as <em class="w">hotel</em> and <em class="w">taxi</em>, count as New.</li>
+          <li>Overall gives precision without context: 8.17% of the dictionary, 69.33% of the Top 1,500, dates as 2026-08-24.</li>
+          <li>Names set aside still count against the reader. Lupe appears four times; marking it Ignored leaves the headline at 91%.</li>
+        </ul>
+        <p class="note">The version tried on 13 October said the share known, how far it had moved since the text was opened, and how many new words were left. The last two carry into round two, counted in taps.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="brief">
+  <div class="wrap">
+    <h2>The brief: Julie Zhuo’s take</h2>
+    <p class="sub col">Julie Zhuo led product design at Facebook, co-founded the analytics company Sundial and wrote <em>The Making of a Manager</em>. She has not written about reading apps. These are her published principles on data and metrics, applied to this tab; every design below follows the resulting brief.</p>
+    <div class="brief">
+      <div><div><q>Building dashboards is easier than knowing what to put in a dashboard.</q><cite><a href="https://x.com/joulee/status/1411841676679680000">X, July 2021</a>, posted in quotation marks</cite></div><p><b>Decide the questions first.</b> A reader brings three to this tab: how much work is this text, how does it compare with what I usually manage, and what should I do next?</p></div>
+      <div><div><q>Logging is cheap… But attention isn’t cheap. Most of what we track never helps.</q><cite><a href="https://x.com/joulee/status/1980701580707180836">X, October 2025</a></cite></div><p><b>Compute everything, show a handful.</b> The panel shows the taps, the taps left and the reader’s own limit. The rest goes to the stats page or nowhere.</p></div>
+      <div><div><q>any metric will be a proxy</q><cite><a href="https://x.com/joulee/status/1410469053827751939">X thread on goals, 2021</a></cite></div><p><b>Lead with the goal.</b> The reader wants texts they can finish, so the panel leads with a comparison to their own reading, “Lighter than most texts you finish”, and the numbers support it.</p></div>
+      <div><div><q>Diagnose with data, treat with design.</q><cite><a href="https://x.com/joulee/status/1367875690939346949">X, March 2021</a>, crediting Chandra Narayanan</cite></div><p><b>Pair each number with what to do.</b> “Five taps ahead” comes with the five words and a button to the next one.</p></div>
+      <div><div><q>Push, not pull</q><cite>Paraphrase of <a href="https://opinionatedintelligence.substack.com/p/data-has-a-discovery-problem">Opinionated Intelligence, April 2026</a>: dashboards only help people who already know what to ask</cite></div><p><b>Push one insight.</b> The app can work out that setting aside two names and learning <em class="w">mate</em> saves 13 taps, so it says so.</p></div>
+      <div><div><q>exemplary analysis takes the listener through a story</q><cite><a href="https://x.com/joulee/status/1942600311790789092">X, July 2025</a></cite></div><p><b>Order it like a sentence.</b> Verdict, then the cost, then the next step.</p></div>
+      <div><div><q>The Nag Metric</q><cite><a href="https://lg.substack.com/p/the-nag-metric">The Looking Glass</a>: an element’s share of the screen times how hard it pulls at attention</cite></div><p><b>Keep it calm.</b> No streaks or badges. Before the reading log fills, one quiet line says when the comparison will start.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="number">
+  <div class="wrap">
+    <h2>Taps, and a limit of your own</h2>
+    <p class="sub col">Round one used the coverage bands from reading research: 95% known as the minimum and 98% as comfortable. Those were measured for reading without help. Tinta glosses every word instantly, which changes the conditions.</p>
+    <div class="facts">
+      <p><b>Glosses raise comprehension</b>Computer glosses in the reader’s language had a large effect in one meta-analysis, paper glosses a small one (Taylor 2006). Studies that glossed half the words or more had the largest average effect (Taylor 2014).</p>
+      <p><b>Looking up raises effective coverage</b>Dictionary use helped about as much as an equal rise in words known, and readers who looked up enough to pass 96% gained most (Prichard &amp; Matsumoto 2011).</p>
+      <p><b>Words are not the whole text</b>Glosses helped readers understand single sentences at every difficulty. Whether they helped with the whole text depended on how hard it was (Hosseini Alast &amp; Baleghizadeh).</p>
+      <p><b>No tested limits for this</b>No study sets level-by-level limits for instant-gloss reading. Beginners gain most from glosses in their own language, and length adds load of its own. Tinta can measure the rest.</p>
+    </div>
+    <figure class="cal">
+      <div class="key"><span><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="var(--ink2)"/></svg>a text you finished</span><span><svg width="12" height="12"><path d="M1 1 l10 10 m0 -10 l-10 10" stroke="var(--ink)" stroke-width="2"/></svg>a text you stopped</span><span><svg width="14" height="14"><path d="M7 0 l7 7 l-7 7 l-7 -7z" fill="var(--new)"/></svg>the two texts in this study</span><span class="badge">Illustrative log</span></div>
+      <div class="scroll"><!--CALCHART--></div>
+      <figcaption>Each reader gets two limits from their own reading: the densest text they have finished, here 13 new words per 100, and the most taps they have finished in one text, here 58. The shaded area is under both. <em class="w">La ofrenda</em> sits well inside it; <em class="w">Un mate en la oficina</em> sits above the density line until two names and one word are dealt with. The sixteen past texts are illustrative, because Tinta does not log reading yet.</figcaption>
+    </figure>
+    <div class="changed col">
+      <p class="note private"><b>Kept on the device.</b> Tinta’s privacy policy promises no analytics and no tracking, and reading without an account collects nothing. So the reading log stays on the reader’s device, and each reader is compared only with themselves. Measured taps also avoid the undercount in “% known”, since nobody taps a word they know.</p>
+    </div>
+  </div>
+</section>
+
+<section id="split">
+  <div class="wrap">
+    <h2>Sidebar or stats page</h2>
+    <p class="sub col">The sidebar is read in a glance, mid-sentence, often under an open word card with about 500 pixels to spare. Everything that does not change what the reader does next moves to the larger page.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Statistic</th><th>Sidebar</th><th>Stats page</th><th>Why</th></tr></thead>
+        <tbody class="r2">
+          <tr><td>Taps in this text, and taps left</td><td class="y">Keep</td><td>Per text in the log</td><td>The cost of the text</td></tr>
+          <tr><td>New words per 100, against the reader’s own limit</td><td class="y">Keep</td><td>The limits chart</td><td>The verdict, made personal</td></tr>
+          <tr><td>The fix that saves most taps (names, a repeated word)</td><td class="y">Keep</td><td>—</td><td>The next action</td></tr>
+          <tr><td>Next new word, with Go to it</td><td class="y">Keep</td><td>—</td><td>The next action</td></tr>
+          <tr><td>New words read past without a tap</td><td class="y">One line</td><td>—</td><td>Keeps Known honest</td></tr>
+          <tr><td>Words you are learning in this text</td><td class="y">One line</td><td>Review queue</td><td>Context, not an action</td></tr>
+          <tr><td>Share of running words known (91%)</td><td class="n">Move</td><td>Per text</td><td>Undercounts what a glossed reader understands</td></tr>
+          <tr><td>Running vs unique counts, four statuses each</td><td class="n">Move</td><td>Full table</td><td>Eight numbers, no decision</td></tr>
+          <tr><td>The text’s frequency bands</td><td class="n">Move</td><td>Difficulty profile</td><td>Already inside the taps</td></tr>
+          <tr><td>Words known overall, progress over time</td><td class="n">Door only</td><td>Growth chart</td><td>A different question</td></tr>
+          <tr><td>Coverage bands at 95% and 98%</td><td class="n">Drop</td><td>Explainer only</td><td>Measured for reading without help</td></tr>
+          <tr><td>Share of the dictionary known (8.17%)</td><td class="n">Drop</td><td>Drop</td><td>Discouraging and not actionable</td></tr>
+        </tbody>
+        <tbody class="r1">
+          <tr><td>Share of this text known, with its band</td><td class="y">Keep</td><td>History per text</td><td>The verdict the reader came for</td></tr>
+          <tr><td>Change since the text was opened (89 → 91%)</td><td class="y">Keep</td><td>Session log</td><td>Proof that marking words works</td></tr>
+          <tr><td>New words left, named, tap to jump</td><td class="y">Keep</td><td>With glosses and bands</td><td>The next action</td></tr>
+          <tr><td>Words you are learning in this text</td><td class="y">One line</td><td>Review queue</td><td>Context, not an action</td></tr>
+          <tr><td>Running vs unique counts, four statuses each</td><td class="n">Move</td><td>Full table</td><td>Eight numbers, one decision at most</td></tr>
+          <tr><td>The text’s frequency bands (1–100 … Unlisted)</td><td class="n">Move</td><td>Difficulty profile</td><td>Already inside the coverage figure</td></tr>
+          <tr><td>Words known overall (1,325)</td><td class="n">Door only</td><td>Growth chart</td><td>A different question: how am I doing?</td></tr>
+          <tr><td>Share of the dictionary known (8.17%)</td><td class="n">Drop</td><td>Drop</td><td>Discouraging and not actionable</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="designs" style="padding-top:40px">
+  <div class="wrap">
+    <h2 style="margin-bottom:6px">Five designers, one brief</h2>
+    <p class="sub col">Each panel shows the same facts in that designer’s visual language, built from the app’s own colour tokens. The comparison with past texts uses the illustrative reading log above; everything about the text itself is read from the app.</p>
+
+    <article class="design" id="few">
+      <div class="txt">
+        <span class="who">Stephen Few · Perceptual Edge</span>
+        <h3>The bullet graph<small>Author of <i>Information Dashboard Design</i> and inventor of the bullet graph</small></h3>
+        <blockquote>A dashboard is “a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance.”<cite>Dashboard Confusion (2004), restated in <a href="http://perceptualedge.com/articles/visual_business_intelligence/dboard_confusion_revisited.pdf">Dashboard Confusion Revisited</a></cite></blockquote>
+        <ul class="r2">
+          <li>Two bullet graphs. The first puts new words per 100 against grey ranges from your own texts: easy for you, usual, and where you stopped. The tick is the most you have finished.</li>
+          <li>The second does the same for taps in the whole text, which is where length shows.</li>
+          <li>The scale starts at zero now, so the measure is a bar again. A table names the new and learning words.</li>
+        </ul>
+        <ul class="r1">
+          <li>One bullet graph: grey ranges for Hard, Stretch, Comfortable and Easy, a target tick at 95, the opened value as a hollow mark.</li>
+          <li>The scale starts at 85, so the measure is a mark rather than a bar.</li>
+          <li>A two-row table names the new and learning words. One sparkline closes the panel.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p class="r2"><b>Keeps:</b> the most exact comparison, and the only one that shows both limits, density and length, at once.</p><p class="r2"><b>Costs:</b> two graphs and a table, and the next step is left to the reader.</p><p class="r1"><b>Keeps:</b> the clearest verdict of the five. <b>Costs:</b> the table leaves the next step for the reader to work out.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="few" src="img/r2-few-dark-closed-panel.webp" width="400" height="900" alt="Stephen Few style panel"><figcaption>Stephen Few</figcaption></figure>
+    </article>
+
+    <article class="design" id="tufte">
+      <div class="txt">
+        <span class="who">Edward Tufte · Yale</span>
+        <h3>Word-sized graphics<small>Coined “data-ink”, “chartjunk” and “sparkline”</small></h3>
+        <blockquote>A sparkline is a “small intense, simple, word-sized graphic with typographic resolution.” And the question behind every number: “Compared to what?”<cite><a href="https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/">Sparkline theory and practice</a>; <i>Envisioning Information</i>, p. 67</cite></blockquote>
+        <ul class="r2">
+          <li>The hero is the count of taps, 8, with “one in every 27 words” beside it.</li>
+          <li>A sentence carries the comparison: down from 22, five still ahead, lighter than 12 of the 13 texts you have finished.</li>
+          <li>A rug of your last 16 texts on one axis: finished as dots, stopped as crosses, this text as a diamond. Then the word strip, showing where the taps fall.</li>
+        </ul>
+        <ul class="r1">
+          <li>The numbers sit in a sentence: up from 89%, 95% with the six new words, 98% with the five being learned.</li>
+          <li>A range frame from 85 to 100 and the text drawn as a sparkline, tall where a word is new.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p class="r2"><b>Keeps:</b> the rug and the word strip, each one line high, are the two graphics the brief needs.</p><p class="r2"><b>Costs:</b> a paragraph plus three graphics, and no button for the next step.</p><p class="r1"><b>Keeps:</b> the sentence tells the story. <b>Costs:</b> too much to take in at a glance.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="tufte" src="img/r2-tufte-dark-closed-panel.webp" width="400" height="900" alt="Edward Tufte style panel"><figcaption>Edward Tufte</figcaption></figure>
+    </article>
+
+    <article class="design" id="felton">
+      <div class="txt">
+        <span class="who">Nicholas Felton · Feltron Annual Reports</span>
+        <h3>The reading report<small>Ten annual reports of his own life in numbers, now in MoMA’s collection</small></h3>
+        <blockquote>“Reduce, reduce, reduce… In most cases, I can get away with eliminating a key or an entire axis altogether.”<cite><a href="https://blog.mrmeyer.com/2008/interview-nicholas-felton/">Interview with Dan Meyer, 2008</a></cite></blockquote>
+        <ul class="r2">
+          <li>The giant numeral is the taps ahead, 5, out of 8 in the text.</li>
+          <li>Tiles: 4 new words per 100, 14 fewer taps since you opened it, 6 words to learn.</li>
+          <li>A column chart of your last 16 texts with your limit drawn across, this one in pink, and a footer of texts finished and stopped.</li>
+        </ul>
+        <ul class="r1">
+          <li>One giant thin numeral, 91%, with its verdict in spaced capitals; three tiles; a list of new words; a weekly footer.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p class="r2"><b>Keeps:</b> “5 taps ahead” is a number you can feel, and it shrinks as you read.</p><p class="r2"><b>Costs:</b> the footer’s totals pull attention away from the text, and the comparison takes a chart to read.</p><p class="r1"><b>Keeps:</b> the most motivating panel. <b>Costs:</b> the tiles report without directing.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="felton" src="img/r2-felton-dark-closed-panel.webp" width="400" height="900" alt="Nicholas Felton style panel"><figcaption>Nicholas Felton</figcaption></figure>
+    </article>
+
+    <article class="design" id="isotype">
+      <div class="txt">
+        <span class="who">Otto &amp; Marie Neurath, Gerd Arntz · Vienna, from 1925</span>
+        <h3>Count, don’t scale<small>Isotype, the picture language made to show statistics to everyone</small></h3>
+        <blockquote>“At the first look you see the most important points; at the second, the less important points; at the third, the details; at the fourth, nothing more – if you see more, the teaching-picture is bad.”<cite>Otto Neurath, via <a href="https://isotyperevisited.org/2012/08/introduction.php">Isotype Revisited</a></cite></blockquote>
+        <ul class="r2">
+          <li>Three grids of 100 signs, one sign per word: when you opened it, now, and the most you have finished. Count the pink: 10, 4, 13.</li>
+          <li>Your last 16 texts as signs, filled if finished and outlined if stopped.</li>
+        </ul>
+        <ul class="r1">
+          <li>One sign is one word in fifty. Three rows: when opened, now and easy reading, so you count 5, then 2, then 1.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p class="r2"><b>Keeps:</b> the clearest way to explain a per-100 limit to someone new.</p><p class="r2"><b>Costs:</b> three grids to say two numbers. Better as the stats page’s explainer.</p><p class="r1"><b>Keeps:</b> the plainest explanation of 91%. <b>Costs:</b> three rows to say one number.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="isotype" src="img/r2-isotype-dark-closed-panel.webp" width="400" height="900" alt="Isotype style panel"><figcaption>Isotype</figcaption></figure>
+    </article>
+
+    <article class="design" id="posavec">
+      <div class="txt">
+        <span class="who">Stefanie Posavec · London</span>
+        <h3>The text’s fingerprint<small><i>Writing Without Words</i>, <i>(En)tangled Word Bank</i>, <i>Dear Data</i> with Giorgia Lupi</small></h3>
+        <blockquote>Her sentence drawings work by one rule: “a line would turn right after each sentence (scaled by the number of words per sentence).”<cite><a href="https://www.stefanieposavec.com/archive/writing-without-words">Writing Without Words, 2006</a></cite></blockquote>
+        <ul class="r2">
+          <li>The fingerprint now shows where the taps fall, sentence by sentence; labels behind you fade.</li>
+          <li>Your shelf: each past text a line as tall as it is long, dotted where you stopped, and this one in pink with your place marked.</li>
+        </ul>
+        <ul class="r1">
+          <li>One line per sentence, each dash a word, new words thick pink and labelled; a rhythm of reading days below.</li>
+        </ul>
+        <div class="lens"><span class="t">Through Julie Zhuo’s lens</span><p class="r2"><b>Keeps:</b> the only design that shows length, which is half of what a tap limit is about.</p><p class="r2"><b>Costs:</b> tall, and it needs its legend.</p><p class="r1"><b>Keeps:</b> shows where the difficulty is. <b>Costs:</b> the tallest panel.</p></div>
+      </div>
+      <figure class="shot"><img data-shot="posavec" src="img/r2-posavec-dark-closed-panel.webp" width="400" height="900" alt="Stefanie Posavec style panel"><figcaption>Stefanie Posavec</figcaption></figure>
+    </article>
+
+    <article class="design pick" id="zhuo">
+      <div class="txt">
+        <span class="who">The recommendation</span>
+        <h3>Julie Zhuo’s cut<small>Her principles applied strictly to the same brief</small></h3>
+        <p class="r2" style="font-size:15.5px;line-height:1.55">One panel through its three real situations. Before a reader has a log, it leads with the cost. Once it knows them, it compares. On a hard text, it pushes the fix.</p>
+        <ul class="r1">
+          <li><b>Verdict:</b> Stretch, with 91% beside it and a four-step ladder.</li>
+          <li><b>Next step:</b> “Learn six words to make it Comfortable (95%)”, with chips and Go to it.</li>
+        </ul>
+        <div class="lens"><span class="t">Why this one</span><p class="r2">Every number comes with something to do, the comparison is with the reader’s own texts, and it fits under the open word card. Switch the word card in the bar to see it.</p><p class="r2"><b>Also in it:</b> a nudge for new words read past without a tap (<em class="w">mole</em>, <em class="w">riéndose</em>). Marking them keeps Known honest, which keeps the taps honest.</p><p class="r1">It was the only panel where every number came with something to do.</p></div>
+      </div>
+      <figure class="shot r1"><img data-shot="zhuo" src="img/zhuo-dark-closed-panel.webp" width="400" height="900" alt="Julie Zhuo's cut, round one"><figcaption>Julie Zhuo’s cut, round one</figcaption></figure>
+      <div class="states r2">
+        <figure class="shot"><img data-shot="zhuo-first" src="img/r2-zhuo-first-dark-closed-panel.webp" width="400" height="900" alt="Before a reading log exists: 8 new words, one every 27; five taps ahead; a note that the comparison starts after ten texts"><figcaption><b>Before there is a log</b>The cost leads: 8 new words, one every 27, five still ahead, with Tufte’s word strip to show where. A quiet line says the comparison starts after ten texts.</figcaption></figure>
+        <figure class="shot"><img data-shot="zhuo" src="img/r2-zhuo-dark-closed-panel.webp" width="400" height="900" alt="Calibrated: lighter than most texts you finish; 4 new words per 100; five taps left; next new word rieron"><figcaption><b>Once it knows you</b>“Lighter than most texts you finish”, with the rug of your texts; 4 per 100, five taps left; the words ahead and a button to the next.</figcaption></figure>
+        <figure class="shot"><img data-shot="zhuo-dense" src="img/r2-zhuo-dense-dark-closed-panel.webp" width="400" height="900" alt="Dense text: denser than any text you've finished; 16 per 100, 37 taps; set aside two names and learn mate first for 13 fewer taps"><figcaption><b>A text above your limit</b><em class="w">Un mate en la oficina</em>: 16 per 100, 37 taps. Setting aside Martín and Sofía and learning <em class="w">mate</em> saves 13 taps and brings it to 10 per 100.</figcaption></figure>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="build">
+  <div class="wrap">
+    <h2>To build it</h2>
+    <ol class="steps col r2">
+      <li><b>Count taps.</b> Each time a word card opens, count it against the text, both in total and by distinct word.</li>
+      <li><b>Keep a reading log on the device, per text.</b> When it opens: its length, New occurrences and distinct New words, and words known overall. While reading: taps, words marked, the furthest sentence reached. At the end: finished (reached the last sentence), stopped, or reopened later.</li>
+      <li><b>Learn the two limits from recent texts,</b> say the last thirty, so they move with the reader’s level: the densest text finished, and the most taps finished in one text. Start comparing after ten texts.</li>
+      <li><b>Offer the fixes that save most taps.</b> An unlisted word written with a capital is almost always a name, so offer Set names aside. Then suggest the New word that repeats most.</li>
+      <li><b>Nudge on words read past without a tap,</b> so Known stays close to what the reader really knows.</li>
+      <li><b>Keep it private.</b> The log never leaves the device. If it syncs for Pro, the privacy policy’s list of what Pro stores needs a line for it.</li>
+      <li><b>Remove the This text / Overall switch.</b> Overall becomes the stats page, reached from the door at the foot of the panel.</li>
+    </ol>
+    <ol class="steps col r1">
+      <li><b>Count Ignored words as readable</b> in the headline, so names stop counting against the reader.</li>
+      <li><b>Keep each text’s coverage at the moment it opens</b> for “Up from X% when you opened it”.</li>
+      <li><b>Name the bands</b>: Hard, Stretch, Comfortable, Easy. Round two drops them.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="page">
+  <div class="wrap">
+    <h2>What the larger stats page can hold</h2>
+    <p class="sub col">The designs that are too much for a glance are right for a page you open on purpose. Giorgia Lupi, left out of the five because her work overlaps with Posavec’s, fits here best.</p>
+    <div class="mods">
+      <div><i>New</i><b>Your limits</b>The chart above, drawn from every text you have read, with each one you can open.</div>
+      <div><i>Felton</i><b>The report</b>Texts finished and stopped, taps this week, words known, days read.</div>
+      <div><i>Isotype</i><b>What per 100 means</b>The grids of 100 signs, as the explainer for the limits. Good in onboarding too.</div>
+      <div><i>Posavec</i><b>Each text</b>A fingerprint per text, with its taps when opened and when finished, and your shelf.</div>
+      <div><i>Tufte</i><b>Growth</b>Words known since 24 August as one line, with the limits over time beneath it.</div>
+      <div><i>Lupi</i><b>Words you met</b>Each word as a small drawn mark: when you met it, in which text, how often you tapped it.</div>
+      <div><i>Plain table</i><b>The full counts</b>Running and unique words by status, % known, the frequency bands, and the word list’s source.</div>
+    </div>
+  </div>
+</section>
+
+<section id="method">
+  <div class="wrap">
+    <h2>How these were made</h2>
+    <div class="how col">
+      <p>The app is the published build in this repository (app commit 65923bd0), served locally and driven in Chromium. The reader is a Spanish learner set up with the app’s own “Mark as known: Top 500” plus about half of its Top 1,500 band, with seven weeks of seeded history: 615 words known on 24 August, 1,325 on 13 October.</p>
+      <p><em class="w">La ofrenda</em>, Tinta’s own level-1,500 story, opened with 22 New occurrences in 217 words. Ten words were then marked while reading (five Known, four Learning, Lupe Ignored), which left 8. <em class="w">Un mate en la oficina</em>, Tinta’s level-4,000 story, is shown just opened: 37 New occurrences in 233 words, including Martín four times, Sofía three and <em class="w">mate</em> six.</p>
+      <p>Every figure about a text is read out of the running app by script: counts, repeats, positions, glosses and bands. The one exception is the sixteen-text reading log behind each comparison, which is illustrative, because Tinta does not log reading yet.</p>
+      <p>Each panel was injected into the Stats tab using the app’s colour tokens, so light and dark are the app’s own palettes. Screens are 1440 × 900 at 2×. On this Linux machine the interface font is Inter and the reading face falls back to a generic serif; on a Mac they render as SF and Palatino.</p>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="wrap">
+    <h2>Sources</h2>
+    <div class="sources">
+      <h4>Glossed reading and coverage</h4>
+      <p>Taylor (2006), <a href="https://journal.equinoxpub.com/Calico/article/view/17377">The effects of CALL versus traditional L1 glosses on L2 reading comprehension</a></p>
+      <p>Taylor (2014), <a href="https://journal.equinoxpub.com/Calico/article/view/16993">Glossing frequency and L2 reading comprehension</a></p>
+      <p>Prichard &amp; Matsumoto (2011), <a href="https://www.academia.edu/6792345/The_effect_of_lexical_coverage_and_dictionary_use_on_L2_reading_comprehension">The effect of lexical coverage and dictionary use on L2 reading comprehension</a></p>
+      <p>Hosseini Alast &amp; Baleghizadeh, <a href="https://doi.org/10.1177/13621688211020423">The interplay of glossing with text difficulty and comprehension levels</a></p>
+      <p><a href="https://www.researchgate.net/publication/347660326_The_relative_effects_of_L1_and_L2_glosses_on_L2_learning_A_meta-analysis">The relative effects of L1 and L2 glosses on L2 learning: a meta-analysis</a></p>
+      <p>Abraham (2008), <a href="https://www.researchgate.net/publication/240511228_Computer-mediated_glosses_in_second_language_reading_comprehension_and_vocabulary_learning_A_meta-analysis">Computer-mediated glosses in second language reading comprehension and vocabulary learning</a></p>
+      <p>Hu &amp; Nation (2000), <a href="https://nflrc.hawaii.edu/rfl/item/43">Unknown vocabulary density and reading comprehension</a>; Kremmel et al. (2023), <a href="https://onlinelibrary.wiley.com/doi/10.1111/lang.12622">a replication</a></p>
+      <p>Laufer &amp; Ravenhorst-Kalovski (2010), <a href="https://scholarspace.manoa.hawaii.edu/items/eaead47e-853e-4797-ba6f-596df150c1d7/full">Lexical threshold revisited</a></p>
+      <p>Dang, Macis &amp; Aguilera-Munizaga (2025), <a href="https://e-space.mmu.ac.uk/640667">Spanish–English cognates in academic spoken English</a></p>
+      <h4>Julie Zhuo</h4>
+      <p><a href="https://x.com/joulee/status/1411841676679680000">On deciding what goes in a dashboard</a> (X, 2021)</p>
+      <p><a href="https://x.com/joulee/status/1980701580707180836">On logging and attention</a> (X, 2025)</p>
+      <p><a href="https://x.com/joulee/status/1410469053827751939">On metrics as proxies</a> (X, 2021)</p>
+      <p><a href="https://x.com/joulee/status/1367875690939346949">Diagnose with data, treat with design</a> (X, 2021)</p>
+      <p><a href="https://opinionatedintelligence.substack.com/p/data-has-a-discovery-problem">On pushing insight instead of pulling it</a> (Opinionated Intelligence, 2026)</p>
+      <p><a href="https://x.com/joulee/status/1942600311790789092">On analysis as a story</a> (X, 2025)</p>
+      <p><a href="https://lg.substack.com/p/the-nag-metric">The Nag Metric</a> (The Looking Glass)</p>
+      <h4>Designers</h4>
+      <p>Stephen Few: <a href="https://www.perceptualedge.com/articles/misc/Bullet_Graph_Design_Spec.pdf">Bullet Graph Design Specification</a>; <a href="https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf">Common Pitfalls in Dashboard Design</a></p>
+      <p>Edward Tufte: <a href="https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/">Sparkline theory and practice</a></p>
+      <p>Nicholas Felton: <a href="https://blog.mrmeyer.com/2008/interview-nicholas-felton/">Dan Meyer interview</a></p>
+      <p>Isotype: <a href="https://isotyperevisited.org/2012/08/introduction.php">Isotype Revisited</a></p>
+      <p>Stefanie Posavec: <a href="https://www.stefanieposavec.com/archive/writing-without-words">Writing Without Words</a></p>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  var state = { round: '2', theme: 'dark', card: 'closed', view: 'panel' };
+  try { var saved = JSON.parse(localStorage.getItem('tinta-stats-study') || '{}'); ['round', 'theme', 'card', 'view'].forEach(function (k) { if (saved[k]) state[k] = saved[k]; }); } catch (e) {}
+  var R2 = { few: 1, tufte: 1, felton: 1, isotype: 1, posavec: 1, zhuo: 1, 'zhuo-first': 1, 'zhuo-dense': 1 };
+  function file(img, view) {
+    var key = img.dataset.shot;
+    if (key === 'before') return 'img/before-' + state.card + '-' + state.theme + '-' + view + '.webp';
+    if (key === 'before-overall') return 'img/before-overall-' + state.theme + '-' + view + '.webp';
+    var r1 = img.closest('.r1') || (state.round === '1' && !img.closest('.r2'));
+    var prefix = (!r1 && R2[key]) ? 'img/r2-' : 'img/';
+    return prefix + key + '-' + state.theme + '-' + state.card + '-' + view + '.webp';
+  }
+  function render() {
+    document.body.classList.toggle('round-1', state.round === '1');
+    document.querySelectorAll('img[data-shot]').forEach(function (img) {
+      var view = img.closest('.sheet') ? 'panel' : state.view;
+      img.src = file(img, view);
+      img.width = view === 'app' ? 2016 : 400;
+      img.height = view === 'app' ? 1260 : 900;
+      img.style.aspectRatio = view === 'app' ? '2016 / 1260' : '400 / 900';
+    });
+    document.body.classList.toggle('view-app', state.view === 'app');
+    document.querySelectorAll('button[data-set]').forEach(function (b) { b.setAttribute('aria-pressed', String(state[b.dataset.set] === b.dataset.v)); });
+  }
+  document.querySelectorAll('button[data-set]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      state[b.dataset.set] = b.dataset.v;
+      try { localStorage.setItem('tinta-stats-study', JSON.stringify(state)); } catch (e) {}
+      render();
+    });
+  });
+  render();
+})();
+</script>

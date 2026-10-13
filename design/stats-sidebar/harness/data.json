@@ -5,757 +5,1009 @@
     "root": "y",
     "st": "k",
     "gloss": "and",
-    "level": 1
+    "level": 1,
+    "freq": 9,
+    "first": 24
    },
    {
     "root": "el",
     "st": "k",
     "gloss": "the (m.)",
-    "level": 1
+    "level": 1,
+    "freq": 7,
+    "first": 9
    },
    {
     "root": "de",
     "st": "k",
     "gloss": "of, from",
-    "level": 1
+    "level": 1,
+    "freq": 7,
+    "first": 11
    },
    {
     "root": "un",
     "st": "k",
     "gloss": "a, one (m.)",
-    "level": 1
+    "level": 1,
+    "freq": 6,
+    "first": 34
    },
    {
     "root": "ser",
     "st": "k",
     "gloss": "to be (identity, characteristic); being (n.); seres humanos: human beings",
-    "level": 1
+    "level": 1,
+    "freq": 6,
+    "first": 39
    },
    {
     "root": "me",
     "st": "k",
     "gloss": "me; myself",
-    "level": 1
+    "level": 1,
+    "freq": 5,
+    "first": 4
    },
    {
     "root": "la",
     "st": "k",
     "gloss": "the (f.); her, it",
-    "level": 1
+    "level": 1,
+    "freq": 5,
+    "first": 40
    },
    {
     "root": "lupe",
     "st": "i",
     "gloss": "",
-    "level": 0
+    "level": 0,
+    "freq": 4,
+    "first": 3
    },
    {
     "root": "una",
     "st": "k",
     "gloss": "a, one (f.)",
-    "level": 1
+    "level": 1,
+    "freq": 4,
+    "first": 16
    },
    {
     "root": "pan",
     "st": "k",
     "gloss": "bread",
-    "level": 3
+    "level": 3,
+    "freq": 4,
+    "first": 57
    },
    {
     "root": "no",
     "st": "k",
     "gloss": "no, not",
-    "level": 1
+    "level": 1,
+    "freq": 4,
+    "first": 99
    },
    {
     "root": "les",
     "st": "k",
     "gloss": "to them, to you (pl.)",
-    "level": 2
+    "level": 2,
+    "freq": 4,
+    "first": 145
    },
    {
     "root": "mi",
     "st": "k",
     "gloss": "my",
-    "level": 1
+    "level": 1,
+    "freq": 3,
+    "first": 1
    },
    {
     "root": "a",
     "st": "k",
     "gloss": "to, at; marks a person as the object (not translated)",
-    "level": 1
+    "level": 1,
+    "freq": 3,
+    "first": 6
    },
    {
     "root": "su",
     "st": "k",
     "gloss": "his, her, its, their, your (formal)",
-    "level": 1
+    "level": 1,
+    "freq": 3,
+    "first": 7
    },
    {
     "root": "abuelo",
     "st": "k",
     "gloss": "grandfather; grandmother (f.)",
-    "level": 3
+    "level": 3,
+    "freq": 3,
+    "first": 33
    },
    {
     "root": "decir",
     "st": "k",
     "gloss": "to say, to tell",
-    "level": 1
+    "level": 1,
+    "freq": 3,
+    "first": 43
    },
    {
     "root": "día",
     "st": "k",
     "gloss": "day",
-    "level": 2
+    "level": 2,
+    "freq": 3,
+    "first": 48
    },
    {
     "root": "muerto",
     "st": "k",
     "gloss": "dead",
-    "level": 2
+    "level": 2,
+    "freq": 3,
+    "first": 50
    },
    {
     "root": "mamá",
     "st": "k",
     "gloss": "mom",
-    "level": 2
+    "level": 2,
+    "freq": 3,
+    "first": 86
    },
    {
     "root": "se",
     "st": "k",
     "gloss": "-self, -selves; one, people (impersonal); to him, to her, to them, to you (formal) (replacing le before lo, la)",
-    "level": 1
+    "level": 1,
+    "freq": 3,
+    "first": 118
    },
    {
     "root": "mesa",
     "st": "k",
     "gloss": "table",
-    "level": 3
+    "level": 3,
+    "freq": 2,
+    "first": 17
    },
    {
     "root": "flor",
     "st": "k",
     "gloss": "flower",
-    "level": 3
+    "level": 3,
+    "freq": 2,
+    "first": 21
    },
    {
     "root": "foto",
     "st": "k",
     "gloss": "photo",
-    "level": 2
+    "level": 2,
+    "freq": 2,
+    "first": 25
    },
    {
     "root": "en",
     "st": "k",
     "gloss": "in, on, at",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 26
    },
    {
     "root": "las",
     "st": "k",
     "gloss": "the (f. pl.); them",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 27
    },
    {
     "root": "haber",
     "st": "k",
     "gloss": "to have (auxiliary); there to be",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 29
    },
    {
     "root": "ofrenda",
     "st": "l",
     "gloss": "offering",
-    "level": 5
+    "level": 5,
+    "freq": 2,
+    "first": 41
    },
    {
     "root": "comida",
     "st": "k",
     "gloss": "food; meal",
-    "level": 2
+    "level": 2,
+    "freq": 2,
+    "first": 56
    },
    {
     "root": "mole",
     "st": "u",
     "gloss": "mole (Mexican sauce of chillies, spices and often chocolate)",
-    "level": 5
+    "level": 5,
+    "freq": 2,
+    "first": 62
    },
    {
     "root": "le",
     "st": "k",
     "gloss": "to him, to her, to you (formal)",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 73
    },
    {
     "root": "preguntar",
     "st": "k",
     "gloss": "to ask (a question)",
-    "level": 2
+    "level": 2,
+    "freq": 2,
+    "first": 74
    },
    {
     "root": "reír",
     "st": "u",
     "gloss": "to laugh; reírse de: to laugh at",
-    "level": 3
+    "level": 3,
+    "freq": 2,
+    "first": 78
    },
    {
     "root": "yo",
     "st": "k",
     "gloss": "I",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 87
    },
    {
     "root": "hambre",
     "st": "k",
     "gloss": "hunger; tener hambre: to be hungry",
-    "level": 3
+    "level": 3,
+    "freq": 2,
+    "first": 89
    },
    {
     "root": "muy",
     "st": "k",
     "gloss": "very",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 94
    },
    {
     "root": "para",
     "st": "k",
     "gloss": "for (purpose), in order to; he/she/it stops; stop!",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 106
    },
    {
     "root": "hacer",
     "st": "k",
     "gloss": "to do, to make",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 131
    },
    {
     "root": "con",
     "st": "k",
     "gloss": "with",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 138
    },
    {
     "root": "por",
     "st": "k",
     "gloss": "because of, for; by (agent, means); through, along; por favor: please; por fin: at last",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 143
    },
    {
     "root": "los",
     "st": "k",
     "gloss": "the (m. pl.); them",
-    "level": 1
+    "level": 1,
+    "freq": 2,
+    "first": 173
    },
    {
     "root": "amigo",
     "st": "k",
     "gloss": "friend",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 2
    },
    {
     "root": "invitar",
     "st": "k",
     "gloss": "to invite",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 5
    },
    {
     "root": "casa",
     "st": "k",
     "gloss": "house, home",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 8
    },
    {
     "root": "primero",
     "st": "k",
     "gloss": "first",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 10
    },
    {
     "root": "noviembre",
     "st": "k",
     "gloss": "November",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 12
    },
    {
     "root": "al",
     "st": "k",
     "gloss": "to the (a + el)",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 13
    },
    {
     "root": "entrar",
     "st": "k",
     "gloss": "to enter, to go in",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 14
    },
    {
     "root": "ver",
     "st": "k",
     "gloss": "to see; to watch; tener que ver: to have to do with",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 15
    },
    {
     "root": "grande",
     "st": "k",
     "gloss": "big, large; great",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 18
    },
    {
     "root": "lleno",
     "st": "k",
     "gloss": "full",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 19
    },
    {
     "root": "naranja",
     "st": "k",
     "gloss": "orange",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 22
    },
    {
     "root": "vela",
     "st": "l",
     "gloss": "candle; sail",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 23
    },
    {
     "root": "persona",
     "st": "k",
     "gloss": "person",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 30
    },
    {
     "root": "mayor",
     "st": "k",
     "gloss": "bigger, greater; older; main",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 31
    },
    {
     "root": "sus",
     "st": "k",
     "gloss": "his, her, its, their, your (formal or pl.)",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 32
    },
    {
     "root": "tío",
     "st": "k",
     "gloss": "uncle; guy (Spain); aunt (f.)",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 35
    },
    {
     "root": "vecino",
     "st": "k",
     "gloss": "neighbor",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 38
    },
    {
     "root": "mañana",
     "st": "k",
     "gloss": "tomorrow; the morning",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 45
    },
    {
     "root": "también",
     "st": "k",
     "gloss": "also, too",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 54
    },
    {
     "root": "fruta",
     "st": "k",
     "gloss": "fruit (to eat: apples, oranges, bananas)",
-    "level": 5
+    "level": 5,
+    "freq": 1,
+    "first": 58
    },
    {
     "root": "plato",
     "st": "k",
     "gloss": "plate, dish",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 60
    },
    {
     "root": "botella",
     "st": "k",
     "gloss": "bottle",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 64
    },
    {
     "root": "tequila",
     "st": "k",
     "gloss": "tequila",
-    "level": 5
+    "level": 5,
+    "freq": 1,
+    "first": 66
    },
    {
     "root": "uno",
     "st": "k",
     "gloss": "one; unos / unas: some, a few",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 68
    },
    {
     "root": "cigarro",
     "st": "k",
     "gloss": "cigarette; cigar",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 69
    },
    {
     "root": "tu",
     "st": "k",
     "gloss": "your",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 70
    },
    {
     "root": "fumar",
     "st": "l",
     "gloss": "to smoke",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 72
    },
    {
     "root": "muchísimo",
     "st": "k",
     "gloss": "very much, a great deal",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 75
    },
    {
     "root": "contestar",
     "st": "k",
     "gloss": "to answer",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 76
    },
    {
     "root": "ella",
     "st": "k",
     "gloss": "she",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 77
    },
    {
     "root": "encantar",
     "st": "k",
     "gloss": "to delight (me encanta = I love it)",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 81
    },
    {
     "root": "tener",
     "st": "k",
     "gloss": "to have",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 88
    },
    {
     "root": "oler",
     "st": "l",
     "gloss": "to smell",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 93
    },
    {
     "root": "bien",
     "st": "k",
     "gloss": "well, fine; good (n.); bienes: goods, property, assets",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 95
    },
    {
     "root": "tomar",
     "st": "k",
     "gloss": "to take; to drink",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 96
    },
    {
     "root": "pedazo",
     "st": "l",
     "gloss": "piece, bit",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 98
    },
    {
     "root": "gritar",
     "st": "k",
     "gloss": "to shout, to scream",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 100
    },
    {
     "root": "ese",
     "st": "k",
     "gloss": "that (m.)",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 102
    },
    {
     "root": "ti",
     "st": "k",
     "gloss": "you (after a preposition)",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 107
    },
    {
     "root": "dar",
     "st": "k",
     "gloss": "to give",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 113
    },
    {
     "root": "mucho",
     "st": "k",
     "gloss": "much, a lot",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 114
    },
    {
     "root": "vergüenza",
     "st": "k",
     "gloss": "shame, embarrassment",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 115
    },
    {
     "root": "pero",
     "st": "k",
     "gloss": "but",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 116
    },
    {
     "root": "todos",
     "st": "k",
     "gloss": "everyone, all",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 117
    },
    {
     "root": "esta",
     "st": "k",
     "gloss": "this (f.)",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 120
    },
    {
     "root": "noche",
     "st": "k",
     "gloss": "night",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 121
    },
    {
     "root": "venir",
     "st": "k",
     "gloss": "to come",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 122
    },
    {
     "root": "nuestro",
     "st": "k",
     "gloss": "our",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 123
    },
    {
     "root": "visitar",
     "st": "k",
     "gloss": "to visit",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 126
    },
    {
     "root": "explicar",
     "st": "k",
     "gloss": "to explain",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 128
    },
    {
     "root": "viaje",
     "st": "k",
     "gloss": "trip, journey",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 133
    },
    {
     "root": "largo",
     "st": "k",
     "gloss": "long",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 135
    },
    {
     "root": "llegar",
     "st": "k",
     "gloss": "to arrive; to reach (as far as)",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 137
    },
    {
     "root": "sed",
     "st": "u",
     "gloss": "thirst; tener sed: to be thirsty",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 142
    },
    {
     "root": "eso",
     "st": "k",
     "gloss": "that (neuter)",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 144
    },
    {
     "root": "dejar",
     "st": "k",
     "gloss": "to leave behind; to let, to allow; dejar de: to stop (doing); to give up, to quit",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 146
    },
    {
     "root": "agua",
     "st": "k",
     "gloss": "water",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 147
    },
    {
     "root": "sal",
     "st": "k",
     "gloss": "salt; get out!",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 148
    },
    {
     "root": "lo",
     "st": "k",
     "gloss": "it, him (object); the (neuter)",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 150
    },
    {
     "root": "que",
     "st": "k",
     "gloss": "that, which; than; (heading a clause) because, since, or plain emphasis (sí que, oye que)",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 151
    },
    {
     "root": "más",
     "st": "k",
     "gloss": "more, most",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 152
    },
    {
     "root": "gustar",
     "st": "k",
     "gloss": "to please (me gusta = I like it)",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 154
    },
    {
     "root": "marcar",
     "st": "u",
     "gloss": "to mark; to dial; to score",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 158
    },
    {
     "root": "camino",
     "st": "k",
     "gloss": "road, path, way; I walk",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 160
    },
    {
     "root": "entonces",
     "st": "k",
     "gloss": "then, so",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 161
    },
    {
     "root": "triste",
     "st": "k",
     "gloss": "sad",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 166
    },
    {
     "root": "fiesta",
     "st": "k",
     "gloss": "party",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 172
    },
    {
     "root": "recordar",
     "st": "k",
     "gloss": "to remember; to remind",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 174
    },
    {
     "root": "compañía",
     "st": "k",
     "gloss": "company, firm; company, companionship",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 178
    },
    {
     "root": "dos",
     "st": "k",
     "gloss": "two",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 179
    },
    {
     "root": "después",
     "st": "k",
     "gloss": "after, afterward",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 181
    },
    {
     "root": "familia",
     "st": "k",
     "gloss": "family",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 183
    },
    {
     "root": "sentar",
     "st": "k",
     "gloss": "to seat; sentarse: to sit down",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 185
    },
    {
     "root": "comer",
     "st": "k",
     "gloss": "to eat",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 187
    },
    {
     "root": "fin",
     "st": "k",
     "gloss": "end; por fin: finally",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 194
    },
    {
     "root": "probar",
     "st": "u",
     "gloss": "to try, to taste; to prove",
-    "level": 3
+    "level": 3,
+    "freq": 1,
+    "first": 195
    },
    {
     "root": "qué",
     "st": "k",
     "gloss": "what?; how…! (in exclamations)",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 198
    },
    {
     "root": "tal",
     "st": "k",
     "gloss": "such; tal vez: maybe, perhaps; qué tal: how are you?, how's it going?",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 199
    },
    {
     "root": "estar",
     "st": "k",
     "gloss": "to be (state, location)",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 203
    },
    {
     "root": "poco",
     "st": "k",
     "gloss": "little, few",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 205
    },
    {
     "root": "seco",
     "st": "k",
     "gloss": "dry",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 206
    },
    {
     "root": "claro",
     "st": "k",
     "gloss": "clear; of course",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 207
    },
    {
     "root": "ya",
     "st": "k",
     "gloss": "already, now; no longer (with a negative); I see, right; ya que: since",
-    "level": 1
+    "level": 1,
+    "freq": 1,
+    "first": 213
    },
    {
     "root": "llevar",
     "st": "k",
     "gloss": "to carry, to take; to wear; to have been (for a time)",
-    "level": 2
+    "level": 2,
+    "freq": 1,
+    "first": 215
    },
    {
     "root": "sabor",
     "st": "u",
     "gloss": "flavour, taste",
-    "level": 4
+    "level": 4,
+    "freq": 1,
+    "first": 217
    }
   ],
   "seq": [
