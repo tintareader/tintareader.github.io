@@ -60,7 +60,7 @@ their own voice, and may lay each question out however they like.
 
 - The panel replaces the Stats tab's content in the reader's right-hand
   column, under the app's Words / Stats / Letters tabs, at a 1440 × 900
-  window. It has **408 × 817 px**. It must fit without scrolling. The harness
+  window. It has **399 × 817 px** (the column is 400 px with its border). It must fit without scrolling. A design cannot widen the column: anything wider is clipped. The harness
   reports `(SCROLLS)` or anything that runs past the right edge.
 - When the reader taps a word, the word card opens above the panel and takes
   roughly the top half (`CARD=1` shoots this too). The first question should

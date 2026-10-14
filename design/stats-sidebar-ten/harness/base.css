@@ -3,6 +3,10 @@
    own rules under .mp-<id>; the app's tokens (var(--ink), var(--c-unknown) ...)
    are there to use, and the app's light/dark switch re-themes them. */
 .side.mocking .sidescroll { display: none !important; }
+/* The column is 400 px with its border, so the panel gets 399. A design wider
+   than that would push the column out; here it is clipped instead, and
+   shoot.mjs reports what runs past the edge. */
+.side.mocking { min-width: 0; }
 #mock-panel { flex: 1 1 0; overflow-y: auto; overflow-x: hidden; min-height: 0; }
 #mock-panel svg { display: block; overflow: visible; }
 #mock-panel .mp { color: var(--ink); }

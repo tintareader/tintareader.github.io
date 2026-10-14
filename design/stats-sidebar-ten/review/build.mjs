@@ -215,7 +215,7 @@ footer { padding-block: 36px 60px; border-top: 1px solid var(--line); margin-top
       </dl>
       <p class="ui" style="font-size:.95rem;font-weight:600;color:var(--ink);margin-bottom:.4em">The frame</p>
       <ul class="rules">
-        <li>408 × 817 px in the reader’s right-hand column at a 1440 × 900 window, with no scrolling.</li>
+        <li>399 × 817 px in the reader’s right-hand column at a 1440 × 900 window, with no scrolling.</li>
         <li>New words in the app’s pink, so the panel agrees with the text; every other colour is the designer’s.</li>
         <li>Light and dark, from the app’s own switch. Status never by colour alone; text at least 10.5 px.</li>
       </ul>
