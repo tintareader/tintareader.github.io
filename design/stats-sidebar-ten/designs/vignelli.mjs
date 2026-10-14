@@ -22,9 +22,12 @@ export const fonts = [
   { family: 'Libre Bodoni', style: 'normal', weight: '400 700', file: 'LibreBodoni-normal-400_700.woff2' },
 ];
 
-// The grid: 408 px panel, 16 px margins, six 56 px columns with 8 px gutters.
-const COL = 56, GUT = 8, W = 6 * COL + 5 * GUT; // 376
-const span = (n) => n * COL + (n - 1) * GUT;      // 1→56, 3→184, 6→376
+// The grid: 399 px panel, 16 px margins, six 54.5 px columns with 8 px gutters.
+// Every rule, bar and line ends on the same right edge, 16 px in.
+const PANEL = 399, M = 16, GUT = 8;
+const W = PANEL - 2 * M;                          // 367
+const COL = (W - 5 * GUT) / 6;                    // 54.5
+const span = (n) => n * COL + (n - 1) * GUT;      // 1→54.5, 3→179.5, 6→367
 
 function line(points, w, h, label) {
   const t0 = Date.parse(points[0].d), t1 = Date.parse(points.at(-1).d);
@@ -44,12 +47,12 @@ function scale(D) {
   const H = 30, BY = 16, BH = 12;
   const segs = [];
   let x = 0;
-  for (const [n, cls] of [[D.counts.k, 'vg-sk'], [D.counts.l, 'vg-sl'], [D.counts.u, 'vg-su']]) {
-    if (!n) continue;
-    const w = (n / D.total) * W;
-    segs.push(`<rect x="${x.toFixed(1)}" y="${BY}" width="${Math.max(1, w - 1).toFixed(1)}" height="${BH}" class="${cls}"/>`);
+  const parts = [[D.counts.k, 'vg-sk'], [D.counts.l, 'vg-sl'], [D.counts.u, 'vg-su']].filter(([n]) => n);
+  parts.forEach(([n, cls], i) => {
+    const w = (n / D.total) * W, gap = i < parts.length - 1 ? 1 : 0;   // 1 px gaps between parts, none at the right edge
+    segs.push(`<rect x="${x.toFixed(2)}" y="${BY}" width="${Math.max(1, w - gap).toFixed(2)}" height="${BH}" class="${cls}"/>`);
     x += w;
-  }
+  });
   const mark = (pct, text) => {
     const mx = (pct / 100) * W;
     return `<line x1="${mx.toFixed(1)}" x2="${mx.toFixed(1)}" y1="1" y2="${BY}" class="vg-tick"/><text x="${(mx - 5).toFixed(1)}" y="10" text-anchor="end">${text}</text>`;
@@ -74,7 +77,7 @@ export function html(D) {
     <h2 class="vg-band">Can I read this?</h2>
     <p class="vg-verdict vg-in"><b>${esc(v.label)}</b> at ${D.level}</p>
     <div class="vg-g vg-figs">
-      <div class="vg-fig vg-c13"><span class="vg-kick">About</span><span class="vg-num">1 in ${D.oneIn}</span><span class="vg-cap">words is new to you</span></div>
+      <div class="vg-fig vg-c13"><span class="vg-kick">About</span><span class="vg-num">1<small class="vg-in-w">in</small>${D.oneIn}</span><span class="vg-cap">words is new to you</span></div>
       <div class="vg-fig vg-c46"><span class="vg-kick">Known</span><span class="vg-num">${D.pct}<span class="vg-pc">%</span></span><span class="vg-cap">of the running words</span></div>
     </div>
     <div class="vg-in">${scale(D)}</div>
@@ -121,8 +124,8 @@ export const css = `
 }
 .mp-vignelli * { box-sizing: border-box; }
 .mp-vignelli p, .mp-vignelli h2, .mp-vignelli ol { margin: 0; padding: 0; }
-.mp-vignelli .vg-in { margin-inline: 16px; }
-.mp-vignelli .vg-g { display: grid; grid-template-columns: repeat(6, ${COL}px); column-gap: ${GUT}px; margin-inline: 16px; }
+.mp-vignelli .vg-in { margin-inline: ${M}px; }
+.mp-vignelli .vg-g { display: grid; grid-template-columns: repeat(6, ${COL}px); column-gap: ${GUT}px; margin-inline: ${M}px; }
 .mp-vignelli .vg-c1 { grid-column: 1; }
 .mp-vignelli .vg-c2 { grid-column: 2; }
 .mp-vignelli .vg-c3 { grid-column: 3; }
@@ -132,13 +135,14 @@ export const css = `
 
 /* The band */
 .mp-vignelli .vg-s + .vg-s { margin-top: 20px; }
-.mp-vignelli .vg-band { height: 28px; padding: 0 16px; background: var(--ink); color: var(--panel); font: 700 17px/28px "Inter Tight", var(--font-ui); letter-spacing: -.01em; }
+.mp-vignelli .vg-band { height: 28px; padding: 0 ${M}px; background: var(--ink); color: var(--panel); font: 700 17px/28px "Inter Tight", var(--font-ui); letter-spacing: -.01em; }
 
 /* Type */
 .mp-vignelli .vg-kick { font-weight: 600; }
 .mp-vignelli .vg-cap { color: var(--dim); }
 .mp-vignelli .vg-num { font-family: "Libre Bodoni", serif; font-size: 48px; line-height: 40px; font-weight: 400; letter-spacing: -.02em; white-space: nowrap; margin-top: 6px; }
 .mp-vignelli .vg-num small { font: 400 17px/1 "Inter Tight", var(--font-ui); letter-spacing: 0; vertical-align: baseline; }
+.mp-vignelli .vg-num .vg-in-w { margin: 0 8px 0 7px; }
 .mp-vignelli .vg-pc { font-size: 28px; line-height: 0; vertical-align: 13px; margin-left: 2px; }
 .mp-vignelli .vg-u { color: var(--c-unknown); }
 .mp-vignelli .vg-l { color: var(--c-learning); }
@@ -161,7 +165,7 @@ export const css = `
 
 /* 2 */
 .mp-vignelli .vg-sub { margin-top: 10px; font-weight: 600; }
-.mp-vignelli .vg-list { list-style: none; margin-top: 6px; border-top: 2px solid var(--ink); margin-inline: 16px; }
+.mp-vignelli .vg-list { list-style: none; margin-top: 6px; border-top: 2px solid var(--ink); margin-inline: ${M}px; }
 .mp-vignelli .vg-list li { margin: 0; align-items: baseline; height: 22px; padding-top: 1px; border-bottom: 1px solid var(--vg-rule); }
 .mp-vignelli .vg-w { color: var(--c-unknown); font: 400 17px/20px "Libre Bodoni", serif; }
 .mp-vignelli .vg-x { font-weight: 700; font-variant-numeric: tabular-nums; }
