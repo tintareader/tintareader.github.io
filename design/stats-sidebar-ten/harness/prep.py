@@ -5,7 +5,7 @@ scaled to 1600 px wide.
 
     python3 harness/prep.py reference beck ...   (no ids: every PNG in out/)
 """
-import sys, pathlib
+import re, sys, pathlib
 from PIL import Image, ImageChops
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -25,6 +25,9 @@ def trim_bottom(im, margin=40):
 for png in sorted(OUT.glob('*.png')):
     stem = png.stem
     if ids and not any(stem == i or stem.startswith(i + '-') for i in ids):
+        continue
+    # The page shows the word card as a sidebar crop only, and the reference only as a crop.
+    if re.search(r'-card-(light|dark)$', stem) or re.match(r'reference-(light|dark)$', stem):
         continue
     im = Image.open(png)
     if stem.endswith('-panel'):

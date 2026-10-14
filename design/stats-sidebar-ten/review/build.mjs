@@ -9,6 +9,7 @@ import { notes, across } from './notes.mjs';
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 // In the order of the work each designer is known for.
 const ORDER = ['minard', 'dubois', 'beck', 'rams', 'vignelli', 'kare', 'scher', 'cox', 'fragapane', 'chalabi'];
+const SHORT = { minard: 'Minard', dubois: 'Du Bois', beck: 'Beck', rams: 'Rams', vignelli: 'Vignelli', kare: 'Kare', scher: 'Scher', cox: 'Cox', fragapane: 'Fragapane', chalabi: 'Chalabi' };
 const D = buildData('tortuga');
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const img = (name) => fs.existsSync(`${ROOT}review/img/${name}.webp`) ? `img/${name}.webp` : null;
@@ -127,7 +128,7 @@ nav.toc a { text-decoration: none; } nav.toc a:hover { text-decoration: underlin
 .seg button[aria-pressed="true"] { background: var(--bg); color: var(--ink); box-shadow: 0 1px 2px var(--shadow); }
 .sheet { display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 22px 16px; }
 .sheet-item { display: grid; gap: 4px; text-decoration: none; color: var(--text); min-width: 0; }
-.sheet-frame { display: block; aspect-ratio: 818 / 1640; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: 0 1px 2px var(--shadow); max-width: 100%; }
+.sheet-frame { display: block; aspect-ratio: 800 / 1700; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: 0 1px 2px var(--shadow); max-width: 100%; }
 .sheet-frame img { display: block; width: 100%; height: auto; }
 .sheet-item:hover .sheet-frame { border-color: var(--accent); }
 .sheet-name { font: 600 .9rem/1.25 var(--f-ui); color: var(--ink); margin-top: 4px; }
@@ -186,7 +187,7 @@ footer { padding-block: 36px 60px; border-top: 1px solid var(--line); margin-top
   <p class="eyebrow">Tinta Reader · design study · 14 October 2026</p>
   <h1>The Stats Panel, Ten Ways</h1>
   <p class="lede">The three-question panel says the right things. Here ten designers each show exactly the same facts, in their own way, built into the running app in its light and dark themes.</p>
-  <nav class="toc" aria-label="Contents"><a href="#sheet">All ten</a><a href="#brief">What stays the same</a>${designs.map(d => `<a href="#${d.id}">${esc(d.designer.split(' ').at(-1))}</a>`).join('')}<a href="#across">Reading across</a><a href="#method">How this was made</a></nav>
+  <nav class="toc" aria-label="Contents"><a href="#sheet">All ten</a><a href="#brief">What stays the same</a>${designs.map(d => `<a href="#${d.id}">${esc(SHORT[d.id] ?? d.designer)}</a>`).join('')}<a href="#across">Reading across</a><a href="#method">How this was made</a></nav>
 </header>
 
 <section class="block" id="sheet" aria-labelledby="sheet-h">
