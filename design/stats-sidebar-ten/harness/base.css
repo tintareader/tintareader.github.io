@@ -1,0 +1,8 @@
+/* Shared frame for every mockup: the panel replaces the Stats tab's scrolling
+   content, under the app's own Words / Stats / Letters tabs. Designs scope their
+   own rules under .mp-<id>; the app's tokens (var(--ink), var(--c-unknown) ...)
+   are there to use, and the app's light/dark switch re-themes them. */
+.side.mocking .sidescroll { display: none !important; }
+#mock-panel { flex: 1 1 0; overflow-y: auto; overflow-x: hidden; min-height: 0; }
+#mock-panel svg { display: block; overflow: visible; }
+#mock-panel .mp { color: var(--ink); }
