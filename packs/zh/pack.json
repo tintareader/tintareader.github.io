@@ -1,31 +1,31 @@
 {
   "id": "zh",
-  "version": "1.1.123",
+  "version": "1.1.132",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "d5a2a318525b164d9ef4460fe06ff87e5016ca25819f1494eb73c9b0d2f79759"
+      "sha256": "9fb477585705a103d9199eebd03a0d4732f54a9413c711856f248593c72816f4"
     },
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "d0e021d6e7a61997b00bafc95fb540980c2060757a3b33865e6824696b60a09e"
+      "sha256": "caf223b647f9a5a6342c4e5171ef524bd0f28dfbdd5cb3751e9623e86a92341e"
     },
     "ranks": {
       "path": "ranks.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "04670742a854718535b395dd0c3d233a24bb3b9f25fc1d406158c15e24900147"
+      "sha256": "ddce2c70d9d4ff4d265dc9b290efbc5a834be6143d1b7b94e00b11124147537b"
     },
     "readings": {
       "path": "readings.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "0326511502e003b33dbadbbd93b8a2e609d5ecfed7ecc6d93f60a2172fc807f8"
+      "sha256": "566ca951e81b1e6b7aba10a187ef286d9ad79055713fd8db8877d018c1263af5"
     },
     "variants": {
       "path": "variants.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "f4f79dcd2ab923f244ed46595126ef072a7639736252cf9c24e8cd350b0f1446"
+      "sha256": "06154ccfc8c4817f29e8a2b25303825ea0cc874e343275a1fc0a4b91081a6dcb"
     },
     "learner": {
       "path": "learner.txt",
@@ -50,7 +50,7 @@
     "gloss.id": {
       "path": "gloss.id.txt",
       "license": "unencumbered",
-      "sha256": "4ff56636b40f42e910d47c36f337bf9ebf8237df7ce48b5b958426e3cc5eab22"
+      "sha256": "aa5eeabca03be6f6729a2043996b363c4197f71b3f1a096cad3ee8056f80ecb2"
     },
     "phrases.id": {
       "path": "phrases.id.txt",
@@ -65,7 +65,7 @@
     "gloss.es": {
       "path": "gloss.es.txt",
       "license": "unencumbered",
-      "sha256": "9d66955f2134e870f050f1a3ef595c8035fa7ebdffe089bbbbcf58c9a2e30039"
+      "sha256": "dacd90112ff2a262bdc716671a6381ae31640f966dbb0ee9d953bfe2c924d573"
     },
     "phrases.fr": {
       "path": "phrases.fr.txt",
@@ -75,7 +75,7 @@
     "gloss.fr": {
       "path": "gloss.fr.txt",
       "license": "unencumbered",
-      "sha256": "0e262d690c9084e16d7c0e1365e70de4bd49fa590a3d5db9eab3454e67b05079"
+      "sha256": "23c387d284026cd38436849bdd516d8ef296ebb226eff37ae4ea440c1983320f"
     },
     "phrases.pt": {
       "path": "phrases.pt.txt",
@@ -85,12 +85,12 @@
     "gloss.pt": {
       "path": "gloss.pt.txt",
       "license": "unencumbered",
-      "sha256": "17a94656a73d5f76bc40100c6b60eb3ab4c0e51d177a3d0df76d10560e9dc6a0"
+      "sha256": "a8ec299ee04c7549a3e399b5e6ee323c4cea8060494478a884c1274803a53c4e"
     },
     "radicals": {
       "path": "radicals.txt",
       "license": "Unicode-3.0",
-      "sha256": "2b2e649e223582c96a366ea43621639e8808b1164db20e87ad8a0781a9f7611f"
+      "sha256": "fa7f64a534ebf8dac8854417672bd2f38a53fc4ed662f735c1e65e9a2051435c"
     },
     "letters": {
       "path": "letters.txt",
@@ -125,27 +125,27 @@
     "parts": {
       "path": "parts.txt",
       "license": "LGPL-3.0-or-later",
-      "sha256": "c5118232c321e619b24c3d53808e285874dd1328f140526f35ce2f7d97e5ceb4"
+      "sha256": "f8e190fb8f647d6f86c1ac674ef3d2397c95fa95b7670744f842c27599dad504"
     },
     "parts.es": {
       "path": "parts.es.txt",
       "license": "LGPL-3.0-or-later",
-      "sha256": "a80b5c07151a6fed080bf35891b254cf3c7f3c417dca7b20fc7d871d78fce8ca"
+      "sha256": "54bdfa444271f56ac002e0fb9d861721ea105c570dc9254bb506a5ce6564bf87"
     },
     "parts.fr": {
       "path": "parts.fr.txt",
       "license": "LGPL-3.0-or-later",
-      "sha256": "1d820de92c4e74524747689592d2bfeca028780efdfae2e4a0e04510cffac7e1"
+      "sha256": "2a4a1e239c39666b7c17bcbf93aede86643f76a553c861c54aba864762fcb289"
     },
     "parts.id": {
       "path": "parts.id.txt",
       "license": "LGPL-3.0-or-later",
-      "sha256": "a9335f80c5e25d2ce404b372e13179e1850b8221117d87ddb00fe1b8fda9fbe2"
+      "sha256": "c6cb925e353d580d112f849fa82b8734cf1c959382383c62ba95b70ddc2ff05e"
     },
     "parts.pt": {
       "path": "parts.pt.txt",
       "license": "LGPL-3.0-or-later",
-      "sha256": "9b1e59e17575a61945f1a410a7203dc7f3c544283039854c11b32add19abb51d"
+      "sha256": "c3a6e74f8452b7c3e56827ce92abede208eb1c0a1de6955490498c417989ee97"
     },
     "stories": {
       "path": "stories.txt",

@@ -16,7 +16,7 @@
 # contributors, itself derived from Unihan (https://www.unicode.org/charts/unihan.html) and
 # CJKlib (https://github.com/cburgmer/cjklib).
 #
-# Modified by Tinta on 2026-10-02: the rows cut to the characters of the
+# Modified by Tinta on 2026-10-14: the rows cut to the characters of the
 # Mandarin pack and the parts they name; the fields matches and radical
 # dropped; pinyin, decomposition, etymology and definition written as
 # |-separated columns, the definition kept only where noted above.
@@ -1327,6 +1327,7 @@
 凌|líng|⿰冫夌|pictophonetic|冫|夌|ice|
 凍|dòng|⿰冫東|pictophonetic|冫|東|ice|
 减|jiǎn|⿰冫咸|pictophonetic|冫|咸|ice|
+凑|còu|⿰冫奏|pictophonetic|冫|奏|ice|
 凝|níng|⿰冫疑|pictophonetic|冫|疑|ice|
 几|jǐ|⿰丿乙|pictographic|||A small table; compare 丌|
 凡|fán|⿵几丶|ideographic|||A plate or flat dish; an everyday item|
@@ -1861,6 +1862,7 @@
 埃|āi|⿰土矣|pictophonetic|土|矣|earth|fine dust; dirt; Angstrom
 埋|mái|⿰土里|pictophonetic|土|里|earth|
 城|chéng|⿰土成|pictophonetic|土|成|earth|
+埔|bù|⿰土甫|pictophonetic|土|甫|earth|arena; market; plain; port
 域|yù|⿰土或|pictophonetic|土|或|earth|
 埶|yì|⿰坴丸|ideographic|||Clay 坴 formed into a ball 丸|art
 執|zhí|⿰幸丸|ideographic|||A hand 幸 clutching a pebble 丸|
@@ -1915,6 +1917,8 @@
 声|shēng|⿱士？|ideographic|||Simplified form of 聲; see that character for the etymology|
 壳|ké|⿱士冗|ideographic|||A shell discarded 冗 by a soldier 士|
 壴|zhù|⿱土口|pictographic|||A drum 口 on a stand with feathers 土 on top|drum
+壶|hú|⿱士⿱冖业|pictographic|||A jar of wine|
+壺|hú|⿱士亞|pictographic|||A jar of wine|
 壽|shòu|⿳⿳士乛工一吋|ideographic|||Ancient form of 老|
 夂|zhǐ|⿻丿又|||||to go
 夃|gǔ|⿵乃又|||||
@@ -1965,6 +1969,7 @@
 奠|diàn|⿱酋大|ideographic|||A man 大 lifting up an offering of wine 酋|
 奢|shē|⿱大者|pictophonetic|大|者|big|
 奥|ào|⿱⿵宀米大|ideographic|||A person 大 discovering a house 宀 full of rice 米|mysterious, obscure, profound; used in transliterations
+奧|ào|⿱⿵？釆大|ideographic|||A person 大 discovering a house full of rice 釆|mysterious, obscure, profound; used in transliterations
 奪|duó|⿳大隹寸|ideographic|||A man 大 grasping 寸 a bird 隹|
 奮|fèn|⿳大隹田|ideographic|||A man 大 working on the farm 田|
 女|nǚ|？|pictographic|||A woman turned to the side|
@@ -2002,6 +2007,7 @@
 姗|shān|⿰女册|pictophonetic|女|册|woman|
 姚|yáo|⿰女兆|pictophonetic|女|兆|woman|
 姜|jiāng|⿱羊女|ideographic|||Simplified form of 薑; grass 艹 provides the meaning while 畺 provides the pronunciation|
+姥|lǎo|⿰女老|ideographic|||An older 老 woman 女; 老 also provides the pronunciation|
 姦|jiān|⿱女⿰女女|ideographic|||Someone who flirts with many women 女|
 姨|yí|⿰女夷|pictophonetic|女|夷|woman|
 姪|zhí|⿰女至|pictophonetic|女|至|woman|
@@ -2038,6 +2044,7 @@
 嫡|dí|⿰女啇|pictophonetic|女|啇|woman|
 嫣|yān|⿰女焉|pictophonetic|女|焉|woman|
 嫦|cháng|⿰女常|pictophonetic|女|常|woman|
+嫩|nèn|⿰女敕|pictophonetic|女|敕|woman|soft, delicate; young, tender
 嬌|jiāo|⿰女喬|pictophonetic|女|喬|woman|
 嬰|yīng|⿱賏女|pictophonetic|女||woman|
 嬷|mā|⿰女麽|pictophonetic|女|麽|woman|
@@ -2094,6 +2101,7 @@
 宰|zǎi|⿱宀辛|ideographic|||A barracks 宀 where slaves 辛 live|
 害|hài|⿱宀⿱丰口|||||
 宴|yàn|⿱宀妟|ideographic|||A woman 女 cooking food 日 for a house 宀 banquet|
+宵|xiāo|⿱宀肖|pictophonetic|宀|肖|roof|
 家|jiā|⿱宀豕|pictophonetic|宀|豕|roof|
 容|róng|⿱宀谷|pictophonetic|宀||roof|
 宽|kuān|⿱宀苋|pictophonetic|宀|苋|roof|
@@ -2637,6 +2645,7 @@
 折|zhé|⿰扌斤|ideographic|||A hand 扌 wielding an axe 斤|
 抚|fǔ|⿰扌无|pictophonetic|扌|无|hand|
 抛|pāo|⿰扌⿺九力|pictophonetic|扌||hand|
+抠|kōu|⿰扌区|pictophonetic|扌|区|hand|
 抢|qiǎng|⿰扌仓|pictophonetic|扌|仓|hand|
 护|hù|⿰扌户|ideographic|||Guarding 扌 a home 户; 户 also provides the pronunciation|
 报|bào|⿰扌⿸卩又|ideographic|||A hand 扌 cuffing 又 a criminal 卩, representing sentencing|
@@ -2686,6 +2695,7 @@
 按|àn|⿰扌安|pictophonetic|扌|安|hand|
 挑|tiāo|⿰扌兆|pictophonetic|扌|兆|hand|
 挖|wā|⿰扌穵|ideographic|||To dig out 扌 a hollow 穵; 穵 also provides the pronunciation|
+挝|wō|⿰扌过|pictophonetic|扌|过|hand|to beat; to strike
 挠|náo|⿰扌尧|pictophonetic|扌|尧|hand|
 挡|dǎng|⿰扌当|ideographic|||A hand 扌 raised at the right time 当; 当 also provides the pronunciation|
 挣|zhēng|⿰扌争|ideographic|||To fight 争 by hand 扌; 争 also provides the pronunciation|
@@ -2772,6 +2782,7 @@
 摟|lǒu|⿰扌婁|pictophonetic|扌|婁|hand|
 摧|cuī|⿰扌崔|pictophonetic|扌|崔|hand|
 摩|mó|⿸麻手|pictophonetic|手|麻|hand|
+摳|kōu|⿰扌區|pictophonetic|扌|區|hand|
 摸|mō|⿰扌莫|pictophonetic|扌|莫|hand|
 摺|zhé|⿰扌習|ideographic|||Skill 習 in paper-folding扌 ; 習 also provides the pronunciation|
 撈|lāo|⿰扌勞|pictophonetic|扌|勞|hand|
@@ -2789,6 +2800,7 @@
 撰|zhuàn|⿰扌巽|pictophonetic|扌|巽|hand|
 撲|pū|⿰扌菐|pictophonetic|扌|菐|hand|
 撼|hàn|⿰扌感|pictophonetic|扌|感|hand|
+撾|wō|⿰扌過|pictophonetic|扌|過|hand|to beat; to strike
 撿|jiǎn|⿰扌僉|pictophonetic|扌|僉|hand|
 擁|yōng|⿰扌雍|pictophonetic|扌|雍|hand|
 擂|léi|⿰扌雷|pictophonetic|扌|雷|hand|
@@ -2859,6 +2871,7 @@
 斂|liǎn|⿰僉攵|pictophonetic|攵|僉|strike|
 斃|bì|⿱敝死|pictophonetic|死|敝|death|
 文|wén|⿱亠乂|pictographic|||A tattooed chest, representing writing|
+斐|fěi|⿱非文|pictophonetic|文|非|culture|graceful, elegant, beautiful
 斑|bān|⿲王文王|ideographic|||Markings 文 in jade 王|
 斗|dòu|⿻十？|ideographic|||A hand holding a measuring dipper|
 料|liào|⿰米斗|ideographic|||A hand measuring 斗 a cup of rice 米|
@@ -2937,6 +2950,7 @@
 晴|qíng|⿰日青|pictophonetic|日|青|sun|
 晶|jīng|⿱日⿰日日|ideographic|||Many suns 日, suggesting a bright and glittering gem|
 智|zhì|⿱知日|ideographic|||Known 知 clearly 日; 知 also provides the pronunciation|
+晾|liàng|⿰日京|pictophonetic|日|京|sun|
 暂|zàn|⿱斩日|pictophonetic|日|斩|sun|
 暄|xuān|⿰日宣|pictophonetic|日|宣|sun|
 暈|yūn|⿱日軍|pictophonetic|日|軍|sun|
@@ -3251,6 +3265,7 @@
 汪|wāng|⿰氵王|pictophonetic|氵|王|water|
 汰|tài|⿰氵太|pictophonetic|氵|太|water|
 汲|jí|⿰氵及|pictophonetic|氵|及|water|
+汶|wèn|⿰氵文|pictophonetic|氵|文|water|a river in Shandong province
 汹|xiōng|⿰氵凶|pictophonetic|氵|凶|water|
 決|jué|⿰氵夬|pictophonetic|夬|氵|decisive|
 汽|qì|⿰氵气|ideographic|||Liquid 氵 gas 气; 气 also provides the pronunciation|
@@ -3382,6 +3397,7 @@
 渺|miǎo|⿰氵眇|pictophonetic|氵|眇|water|
 渾|hún|⿰氵軍|pictophonetic|氵|軍|water|
 湃|pài|⿰氵拜|pictophonetic|氵|拜|water|
+湊|còu|⿰氵奏|pictophonetic|氵|奏|water|
 湖|hú|⿰氵胡|pictophonetic|氵|胡|water|
 湧|yǒng|⿰氵勈|pictophonetic|氵|勈|water|
 湮|yān|⿰氵垔|ideographic|||A dammed 垔 stream 氵; 垔 also provides the pronunciation|
@@ -3530,6 +3546,7 @@
 然|rán|⿱肰灬|pictophonetic|灬|肰|fire|
 煉|liàn|⿰火柬|pictophonetic|火|柬|fire|
 煌|huáng|⿰火皇|pictophonetic|火|皇|fire|
+煎|jiān|⿱前灬|pictophonetic|灬|前|fire|
 煙|yān|⿰火垔|pictophonetic|火|垔|fire|
 煞|shā|⿱⿰刍攵灬|||||
 煤|méi|⿰火某|pictophonetic|火|某|fire|
@@ -4092,12 +4109,14 @@
 粘|zhān|⿰米占|pictophonetic|米|占|grain|
 粟|sù|⿱覀米|ideographic|||A millet plant 米 bearing grain 覀|
 粤|yuè|⿱⿴囗米丂|||||
+粥|zhōu|⿲弓米弓|ideographic|||Steaming 弓 rice 米|
 粦|lín|⿱米舛|||||
 粪|fèn|⿱米共|pictophonetic|米|共|grain|
 粮|liáng|⿰米良|pictophonetic|米|良|grain|
 粲|càn|⿱⿰歺又米|||||bright, radiant; smiling; to polish
 粵|yuè|⿱⿴囗釆丂|||||
 粹|cuì|⿰米卒|pictophonetic|米|卒|grain|
+粽|zòng|⿰米宗|pictophonetic|米|宗|rice|
 精|jīng|⿰米青|pictophonetic|米|青|grain|
 糊|hú|⿰米胡|pictophonetic|米|胡|grain|
 糕|gāo|⿰米羔|pictophonetic|米|羔|rice|
@@ -4164,6 +4183,7 @@
 緣|yuán|⿰糹彖|pictophonetic|糹|彖|thread|
 編|biān|⿰糹扁|pictophonetic|糹|扁|thread|
 緩|huǎn|⿰糹爰|pictophonetic|糹|爰|thread|
+緬|miǎn|⿰糹面|pictophonetic|糹|面|thread|distant, remote; to think of
 練|liàn|⿰糹柬|pictophonetic|糹|柬|thread|
 緻|zhì|⿰糹致|ideographic|||A silken 糹present 致; 致 also provides the pronunciation|
 縈|yíng|⿱⿱炏冖糸|pictophonetic|糸||thread|
@@ -4247,6 +4267,7 @@
 绽|zhàn|⿰纟定|pictophonetic|纟|定|thread|
 绿|lǜ|⿰纟录|pictophonetic|纟|录|silk|
 缀|zhuì|⿰纟叕|ideographic|||To bind 叕 by thread 纟; 叕 also provides the pronunciation|
+缅|miǎn|⿰纟面|pictophonetic|纟|面|thread|distant, remote; to think of
 缆|lǎn|⿰纟览|pictophonetic|纟|览|thread|
 缉|jī|⿰纟咠|pictophonetic|纟|咠|thread|
 缊|yūn|⿰纟昷|pictophonetic|纟|昷|silk|tangled hemp, raveled silk; vague, confused
@@ -4502,6 +4523,7 @@
 芜|wú|⿱艹无|pictophonetic|艹|无|weed|
 芝|zhī|⿱艹之|pictophonetic|艹|之|plant|
 芦|lú|⿱艹户|pictophonetic|艹|户|grass|
+芬|fēn|⿱艹分|pictophonetic|艹|分|flower|aroma, fragrance, perfume
 芭|bā|⿱艹巴|pictophonetic|艹|巴|plant|a plantain or banana palm
 芯|xīn|⿱艹心|ideographic|||The heart 心 of a plant 艹; 心 also provides the pronunciation|
 花|huā|⿱艹化|ideographic|||A flower 艹 in bloom 化; 化 also provides the pronunciation|
@@ -4521,6 +4543,7 @@
 茅|máo|⿱艹矛|pictophonetic|艹|矛|grass|
 茉|mò|⿱艹末|pictophonetic|艹|末|herb|
 茎|jīng|⿱艹？|pictophonetic|艹||grass|
+茨|cí|⿱艹次|pictophonetic|艹|次|grass|thatching; caltrop, Tribulus terrestris
 茫|máng|⿱艹汒|pictophonetic|艹|汒|grass|
 茱|zhū|⿱艹朱|pictophonetic|艹|朱|plant|dogwood
 茲|zī|⿱艹⿰幺幺|||||now, here; this; time, year
@@ -4726,6 +4749,7 @@
 衷|zhōng|⿻衣中|ideographic|||A person in a robe 衣 with his heart 中 marked; 中 also provides the pronunciation|
 衹|zhǐ|⿰衤氏|pictophonetic|衤|氏|cloth|
 袁|yuán|⿻衣口|ideographic|||A person 口 wearing a robe 衣|
+袄|ǎo|⿰衤夭|pictophonetic|衤|夭|clothes|
 袋|dài|⿱代衣|pictophonetic|衣|代|clothes|
 袍|páo|⿰衤包|ideographic|||A cloth 衤 wrap 包; 包 also provides the pronunciation|
 袒|tǎn|⿰衤旦|pictophonetic|衤|旦|clothes|
@@ -4756,6 +4780,7 @@
 褲|kù|⿰衤庫|pictophonetic|衤|庫|clothes|
 褻|xiè|⿻衣埶|pictophonetic|衣|埶|cloth|
 襄|xiāng|⿱⿱亠⿰口口⿱井衣|ideographic|||Using two hands 口 to help someone remove their clothes 衣|to aid, to help, to assist; to undress
+襖|ǎo|⿰衤奥|pictophonetic|衤|奥|clothes|
 襟|jīn|⿰衤禁|ideographic|||Cloth 衤 that restricts 禁; 禁 also provides the pronunciation|
 襢|tǎn|⿰衤亶|ideographic|||The truth 亶 hidden under one's robes 衤; 亶 also provides the pronunciation|
 襪|wà|⿰衤蔑|pictophonetic|衤|蔑|clothes|
@@ -5712,6 +5737,7 @@
 飲|yǐn|⿰飠欠|pictophonetic|飠|欠|food|
 飽|bǎo|⿰飠包|pictophonetic|飠|包|food|
 飾|shì|⿰飠⿱？巾|pictophonetic|巾|飠|cloth|
+餃|jiǎo|⿰飠交|pictophonetic|飠|交|food|
 餅|bǐng|⿰飠并|pictophonetic|飠|并|food|
 養|yǎng|⿱羊食|pictophonetic|食|羊|food|
 餌|ěr|⿰飠耳|pictophonetic|飠|耳|food|
@@ -5736,6 +5762,7 @@
 饱|bǎo|⿰饣包|pictophonetic|饣|包|food|
 饵|ěr|⿰饣耳|pictophonetic|饣|耳|food|
 饶|ráo|⿰饣尧|pictophonetic|饣|尧|food|
+饺|jiǎo|⿰饣交|pictophonetic|饣|交|food|
 饼|bǐng|⿰饣并|pictophonetic|饣|并|food|
 饿|è|⿰饣我|ideographic|||To want 我 food 饣; 我 also provides the pronunciation|
 馅|xiàn|⿰饣臽|ideographic|||Food 饣 stuffed in a hole 臽; 臽 also provides the pronunciation|

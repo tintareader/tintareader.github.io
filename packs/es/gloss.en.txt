@@ -6601,6 +6601,7 @@ créanme|believe me|o
 monetario|monetary|o
 climático|climate, climatic|o
 exclamar|to exclaim|v
+pib|GDP (producto interno bruto)|o
 déficit|deficit|o
 inflación|inflation|o
 archivar|to file, to archive; to shelve (a case, a matter)|v;v
@@ -6613,12 +6614,14 @@ exportación|export, exportation|o
 posteriormente|subsequently, later|o
 infraestructura|infrastructure|o
 economista|economist|o
+vos|you (informal singular, River Plate and Central America)|f2s2p
 vector|vector|o
 desempleo|unemployment|o
 editar|to edit; to publish|v;v
 emergente|emerging, emergent|o
 municipio|municipality, borough; town council|o;o
 innovación|innovation|o
+fmi|IMF (International Monetary Fund)|o
 recesión|recession|o
 desigualdad|inequality|o
 dirigente|leader|o
@@ -6631,13 +6634,16 @@ variable|variable, changeable; variable (in maths)|o;o
 denominar|to name, to call, to designate|v
 fortalecer|to strengthen|v
 tecnológico|technological|o
+bce|ECB (European Central Bank)|o
 asentir|to agree, to assent (often by nodding)|v
 constituir|to constitute, to make up; to set up, to establish|v;v
 consumidor|consumer|o
 integración|integration|o
+otan|NATO|o
 murmurar|to murmur, mutter; to gossip|v;v
 estructural|structural|o
 respaldar|to back, to support, to endorse|v
+covid|COVID, COVID-19|o
 feminista|feminist|o
 decenio|decade|o
 islámico|Islamic|o
@@ -6666,6 +6672,7 @@ mandato|term of office; mandate, order|o;o
 localidad|town, locality; seat, ticket (theatre)|o;o
 relativamente|relatively|o
 integrar|to integrate; to make up, to form|v;v
+nacionalidad|nationality|o
 sonrojar|to make blush; sonrojarse: to blush|v;n
 financiamiento|financing, funding|o
 decreto|decree|o
@@ -6674,6 +6681,7 @@ prosperidad|prosperity|o
 importación|import, importation|o
 relativo|relative; relativo a: relating to, concerning|o;n
 iraní|Iranian|o
+usd|US dollar, USD|o
 ambiental|environmental|o
 consenso|consensus|o
 estrenar|to premiere, to release (a film, a play); to use for the first time|v;v
@@ -6733,6 +6741,7 @@ gallego|Galician|o
 incremento|increase, rise|o
 ámbito|field, sphere, scope|o
 patrimonio|heritage; assets, estate|o;o
+pbi|GDP (Peru, Argentina)|o
 fósil|fossil|o
 colombiano|Colombian|o
 entidad|entity, body, organization|o
@@ -6751,6 +6760,7 @@ castellano|Castilian, Spanish (language)|o
 inversionista|investor|o
 parlamentario|parliamentary; member of parliament|o;o
 protagonizar|to star in, to play the lead in; to be at the centre of, to be involved in|v;v
+ibérico|Iberian|o
 integral|comprehensive, full; wholemeal (bread); integral (in calculus)|o;o;o
 caracterizar|to characterize|v
 perteneciente|belonging (to)|o
@@ -6810,6 +6820,7 @@ provincial|provincial|o
 crónica|chronicle; report, column (journalism)|o;o
 legislación|legislation|o
 argumentar|to argue|v
+secundaria|secondary school, high school|o
 equivalente|equivalent|o
 clasificación|classification; qualification, standings (sport)|o;o
 península|peninsula|o
@@ -6848,8 +6859,10 @@ denominación|name, designation; denomination|o;o
 iraquí|Iraqi|o
 restauración|restoration|o
 emprender|to undertake, to embark on|v
+ventura|fortune, luck|o
 tributario|tax; tributary|o;o
 agravar|to aggravate, to worsen|v
+vih|HIV|o
 humanitario|humanitarian|o
 debut|debut|o
 disputar|to contest, to compete for; to play (a match)|v;v
@@ -6888,6 +6901,7 @@ disminución|decrease, reduction, decline|o
 ampliación|expansion, extension, enlargement|o
 contribuyente|taxpayer|o
 ecosistema|ecosystem|o
+foro|forum|o
 menester|need, necessity; ser menester: to be necessary|o;n
 migrante|migrant|o
 páramo|moor, barren plateau|o
@@ -6909,6 +6923,7 @@ originario|native (of), originating (from)|o
 cinematográfico|film, cinematic|o
 territorial|territorial|o
 coordinar|to coordinate|v
+plantilla|template; staff, workforce; squad (team); insole|o;o;o;o
 varianza|variance (in statistics)|o
 distinción|distinction|o
 complejidad|complexity|o
@@ -6921,6 +6936,7 @@ populismo|populism|o
 residir|to reside, to live; to lie (in), to consist (in)|v;v
 geográfico|geographical|o
 conserva|tinned food, preserve|o
+psoe|PSOE (Spanish Socialist party)|o
 sucesivamente|successively; y así sucesivamente: and so on|o;n
 optar|to opt, to choose; optar a: to apply for|v;n
 bizantino|Byzantine|o
@@ -6950,6 +6966,7 @@ agrupación|group, association; grouping|o;o
 comuna|commune|o
 deflación|deflation|o
 gestionar|to manage, to handle; to arrange|v;v
+ocde|OECD|o
 significativamente|significantly|o
 extremista|extremist|o
 peruano|Peruvian|o
@@ -6979,15 +6996,19 @@ guionista|scriptwriter, screenwriter|o
 nominal|nominal|o
 surgimiento|emergence, rise|o
 decena|about ten, ten; decenas de: dozens of, tens of|o;n
+abc|ABC, alphabet; basics|o;o
 aventurero|adventurer; adventurous|o;o
 ampliamente|widely, broadly|o
+cerro|hill|o
 sistémico|systemic|o
 cápita|capita (in per cápita)|o
 manifestante|demonstrator, protester|o
+unesco|UNESCO|o
 capacitación|training|o
 redacción|writing, drafting; newsroom, editorial staff; essay|o;o;o
 susurro|whisper|o
 equivaler|to be equivalent (to), to amount (to)|v
+omc|WTO (World Trade Organization)|o
 cochero|coachman|o
 restar|to subtract; to take away; restar importancia: to play down; to remain, to be left|v;v;n;v
 colaborador|collaborator, contributor|o
@@ -7028,6 +7049,7 @@ gradual|gradual|o
 comunismo|communism|o
 diapositiva|slide (presentation)|o
 ínsula|isle (literary)|o
+ods|SDGs, Sustainable Development Goals|o
 realización|carrying out, execution; production, directing (film)|o;o
 vertical|vertical|o
 confrontación|confrontation|o
@@ -7053,6 +7075,7 @@ emprendedor|entrepreneur; enterprising|o;o
 mitigar|to mitigate|v
 cumplimiento|fulfilment, compliance|o
 predicción|prediction, forecast|o
+eta|eta (Greek letter); ETA (Basque separatist group)|o;o
 intervalo|interval|o
 conllevar|to entail, to involve|v
 guion|script, screenplay; hyphen, dash|o;o
@@ -7088,12 +7111,15 @@ sustentar|to support, to sustain; to base (on)|v;v
 vocal|vowel; board member|o;o
 disgusto|displeasure, annoyance; quarrel|o;o
 sucesión|succession; series|o;o
+estatuto|statute; status|o;o
 gradualmente|gradually|o
 acoger|to welcome, to receive; to take in, to host|v;v
 audiovisual|audiovisual|o
 barroco|Baroque|o
 flexibilidad|flexibility|o
+pdf|PDF (file format)|o
 discapacidad|disability|o
+gobernación|interior ministry (Mexico); provincial government office; governing|o;o;o
 opositor|opponent (political); candidate (in a public exam)|o;o
 proteccionismo|protectionism|o
 marginal|marginal|o
@@ -7128,6 +7154,7 @@ coronar|to crown|v
 fracción|fraction; faction|o;o
 manifestar|to express, to state; to demonstrate, to protest (manifestarse)|v;v
 arzobispo|archbishop|o
+lgbt|LGBT|o
 vanguardia|vanguard; avant-garde|o;o
 provisional|provisional, temporary|o
 tramo|section, stretch; bracket (tax)|o;o
@@ -7152,6 +7179,7 @@ normativa|regulations, rules|o
 antología|anthology|o
 incierto|uncertain|o
 sociología|sociology|o
+anexo|annex, appendix; attached|o;o
 descontento|discontent, dissatisfaction; dissatisfied|o;o
 aldeano|villager; village, rustic|o;o
 catedrático|professor (holding a chair)|o
@@ -7161,7 +7189,9 @@ extenso|extensive, vast; lengthy|o;o
 cátedra|chair, professorship|o
 galardonado|award-winning; prizewinner|o;o
 impartir|to give, to teach (a class, a course)|v
+primaria|primary school; primary (election)|o;o
 malestar|unease, discontent; discomfort|o;o
+antropología|anthropology|o
 subsahariano|sub-Saharan|o
 desviación|deviation; diversion, detour|o;o
 persistir|to persist|v
@@ -7219,6 +7249,7 @@ exigencia|demand, requirement|o
 ciudadanía|citizenship; citizens, the public|o;o
 escaño|seat (in parliament)|o
 unilateral|unilateral|o
+drag|drag (queen)|o
 hábitat|habitat|o
 coordinador|coordinator|o
 grabador|engraver; recorder|o;o
@@ -7290,6 +7321,7 @@ desastroso|disastrous|o
 estatus|status|o
 pianista|pianist|o
 referente|benchmark, reference point; referente a: concerning, regarding|o;n
+asear|to clean, to tidy up|v
 delegación|delegation; local office, branch|o;o
 excavación|excavation|o
 mapuche|Mapuche|o
@@ -7313,6 +7345,7 @@ reglamentación|regulation, rules|o
 atónito|astonished, stunned|o
 coeficiente|coefficient|o
 exhibir|to exhibit, to display, to show|v
+izar|to hoist (a flag, a sail)|v
 obstaculizar|to hinder, to obstruct|v
 abrumador|overwhelming|o
 catalogar|to catalogue; to classify, to label|v;v
@@ -7344,8 +7377,10 @@ fundamentalmente|fundamentally, essentially|o
 inducir|to induce, to lead (to)|v
 propenso|prone, inclined|o
 volteo|turning over, flipping|o
+atribución|attribution; power, remit|o;o
 cláusula|clause|o
 manufacturero|manufacturing|o
+single|single (record)|o
 uruguayo|Uruguayan|o
 aparente|apparent|o
 cambiario|exchange-rate, currency (as in tipo cambiario)|o
@@ -7389,6 +7424,7 @@ traductor|translator|o
 trans|trans, transgender|o
 adquisición|acquisition, purchase|o
 hebreo|Hebrew|o
+isis|ISIS (Islamic State)|o
 presto|quick, ready; quickly, at once|o;o
 alfil|bishop (chess)|o
 entretanto|meanwhile|o
@@ -7403,8 +7439,10 @@ resiliencia|resilience|o
 rentabilidad|profitability; return, yield|o;o
 rentable|profitable|o
 automáticamente|automatically|o
+ciclismo|cycling|o
 congregación|congregation|o
 numerador|numerator|o
+pce|PCE (Communist Party of Spain)|o
 revuelta|revolt, uprising|o
 seudónimo|pseudonym|o
 hipotecario|mortgage (as in crédito hipotecario)|o
@@ -7430,6 +7468,7 @@ fronterizo|border, frontier|o
 redactar|to write, to draft|v
 denso|dense|o
 diámetro|diameter|o
+llano|plain, flat land; flat, plain|o;o
 microscopio|microscope|o
 nominación|nomination|o
 nutriente|nutrient|o
@@ -7448,6 +7487,7 @@ hostilidad|hostility|o
 keynesiano|Keynesian|o
 minimizar|to minimize; to play down|v;v
 modificación|modification, change|o
+liceo|secondary school, high school (Chile, Uruguay, Venezuela)|o
 apresuradamente|hurriedly|o
 azote|lash, whipping; scourge|o;o
 biodiversidad|biodiversity|o
@@ -7493,6 +7533,7 @@ constructivo|constructive|o
 emigrar|to emigrate|v
 monumental|monumental|o
 mutación|mutation|o
+pardo|brown, dun; mixed-race (historical)|o;o
 telenovela|soap opera|o
 acuñar|to coin, to mint|v
 carnívoro|carnivore; carnivorous|o;o
@@ -7595,6 +7636,7 @@ rugby|rugby|o
 simetría|symmetry|o
 carlista|Carlist|o
 genocidio|genocide|o
+observatorio|observatory|o
 apuntalar|to shore up, to prop up|v
 románico|Romanesque; Romance (languages)|o;o
 simultáneamente|simultaneously|o
@@ -7658,6 +7700,7 @@ reverencia|bow, curtsy; reverence|o;o
 simbólico|symbolic|o
 forestal|forest, forestry|o
 notablemente|notably, considerably|o
+oms|WHO (World Health Organization)|o
 protestante|Protestant|o
 rivalidad|rivalry|o
 silvestre|wild|o
@@ -7674,6 +7717,7 @@ guerrillero|guerrilla (fighter)|o
 mueca|grimace|o
 quinientos|five hundred|o
 televisivo|television, TV|o
+amparo|protection, shelter; amparo (constitutional appeal, Mexico)|o;o
 decorado|set, scenery; decorated|o;o
 definido|defined, definite|o
 neerlandés|Dutch|o
@@ -7737,6 +7781,7 @@ influenciar|to influence|v
 nutrición|nutrition|o
 oleada|wave (of people, events)|o
 reprimir|to repress, to suppress|v
+sudamericano|South American|o
 trazado|layout, route, plan|o
 vacunación|vaccination|o
 disuadir|to deter, to dissuade|v
@@ -7765,6 +7810,7 @@ sensorial|sensory|o
 busto|bust (sculpture); bust, chest|o;o
 implicancia|implication, consequence|o
 paradoja|paradox|o
+pisco|pisco (Peruvian and Chilean grape brandy)|o
 activismo|activism|o
 aplicable|applicable|o
 cabecera|head (of a bed, a table); masthead, header; county town|o;o;o
@@ -7823,6 +7869,7 @@ tiniebla|darkness (usu. tinieblas)|o
 trance|trance; difficult moment, plight|o;o
 transcurso|course (of time)|o
 aceleración|acceleration|o
+anal|anal|o
 distorsionar|to distort|v
 organizador|organizer; organizing|o;o
 abarcar|to cover, to span, to include|v
@@ -7845,6 +7892,7 @@ alternativo|alternative|o
 canalizar|to channel|v
 caudal|flow (of a river); wealth, abundance|o;o
 consecución|achievement, attainment|o
+cónyuge|spouse|o
 desestabilizar|to destabilize|v
 distorsión|distortion|o
 elector|voter, elector|o
@@ -7919,6 +7967,7 @@ suprimir|to abolish, to eliminate, to suppress|v
 súbitamente|suddenly|o
 aeronave|aircraft|o
 diversificar|to diversify|v
+ong|NGO|o
 progresivo|progressive, gradual|o
 tridimensional|three-dimensional|o
 ayo|tutor (of a noble child)|o
@@ -7937,6 +7986,7 @@ sudeste|southeast|o
 sunitas|Sunnis, Sunni|o
 textil|textile|o
 urna|ballot box; urn|o;o
+urss|USSR|o
 vigor|vigour; en vigor: in force|o;n
 alentador|encouraging, heartening|o
 asentar|to settle, to establish; to set down, to record|v;v
@@ -7972,13 +8022,16 @@ sultán|sultan|o
 actualizar|to update; to bring up to date|v;v
 aerolínea|airline|o
 conquistador|conqueror, conquistador|o
+cónsul|consul|o
 desregulación|deregulation|o
 dudoso|doubtful, dubious|o
 erudito|scholar; learned, erudite|o;o
 fríamente|coldly|o
+info|info, information|o
 interdependencia|interdependence|o
 riguroso|rigorous, strict; harsh (climate)|o;o
 sobresalto|start, fright|o
+cronología|chronology|o
 desplomar|to collapse, to plummet|v
 funda|cover, case; pillowcase|o;o
 guarnición|garrison; garnish, side dish|o;o
@@ -7994,7 +8047,9 @@ dinámico|dynamic|o
 entrañar|to entail, to involve|v
 especulación|speculation|o
 fertilidad|fertility|o
+fray|Friar, Brother (title before a name)|o
 hemisferio|hemisphere|o
+pcc|Chinese Communist Party|o
 pesimista|pessimistic; pessimist|o;o
 potable|drinkable, potable|o
 soprano|soprano|o
@@ -8039,6 +8094,7 @@ astronomía|astronomy|o
 bondadoso|kind, good-natured|o
 fijaos|look, notice! (pl., Spain)|o
 guerrilla|guerrilla group; guerrilla warfare|o;o
+honoris|honoris causa: honorary (degree)|n
 irritación|irritation|o
 islandés|Icelandic; Icelander|o;o
 maximizar|to maximize|v
@@ -8049,6 +8105,7 @@ resurgimiento|resurgence, revival|o
 ruborizar|ruborizarse: to blush|n
 serenidad|serenity, calm|o
 sistemáticamente|systematically|o
+cnt|CNT (anarchist trade union, Spain)|o
 coautor|co-author|o
 concertar|to arrange, to agree on; to coordinate|v;v
 desapalancamiento|deleveraging|o
@@ -8082,6 +8139,7 @@ silenciosamente|silently|o
 veto|veto|o
 vértice|vertex, apex|o
 áspero|rough; harsh, gruff|o;o
+belén|nativity scene|o
 contrapeso|counterweight, counterbalance|o
 escepticismo|scepticism|o
 inspirador|inspiring|o
@@ -8094,6 +8152,7 @@ contundente|forceful, compelling; blunt (object)|o;o
 deportista|athlete, sportsperson|o
 episcopal|episcopal|o
 extremidad|limb; extremity, end|o;o
+polinesio|Polynesian|o
 promotor|promoter, developer; sponsor|o;o
 transcurrir|to pass, to elapse; to take place|v;v
 urgentemente|urgently|o
@@ -8124,9 +8183,13 @@ oligarca|oligarch|o
 rebaja|reduction, discount; (pl.) sales|o;o
 recaer|to fall on, to rest with; to relapse|v;v
 directorio|directory; board of directors|o;o
+filología|philology; language and literature studies|o;o
 mitigación|mitigation|o
+unam|UNAM (National Autonomous University of Mexico)|o
 adquisitivo|purchasing; poder adquisitivo: purchasing power|o;n
 analogía|analogy|o
+bjp|BJP (Indian nationalist party)|o
+brics|BRICS (Brazil, Russia, India, China, South Africa)|o
 búlgaro|Bulgarian|o
 comentarista|commentator|o
 corrido|has run (correr); drawn (curtain); continuous, in a row; corrido (Mexican ballad); embarrassed (dated)|f3s;o;o;o;o
@@ -8137,6 +8200,7 @@ ilimitado|unlimited|o
 inmunológico|immune, immunological|o
 inventor|inventor|o
 irregular|irregular|o
+odm|MDGs, Millennium Development Goals|o
 ostentar|to hold (a title, office); to flaunt|v;v
 pergamino|parchment, scroll|o
 phi|phi (Greek letter)|o
@@ -8157,6 +8221,7 @@ oceánico|oceanic, ocean|o
 precursor|precursor, forerunner|o
 ranking|ranking, league table|o
 socioeconómico|socio-economic|o
+cercanías|commuter rail (Spain); outskirts, surroundings|o;o
 abrupto|abrupt; steep, rugged|o;o
 constancia|perseverance, constancy; record, proof|o;o
 coordenada|coordinate|o
@@ -8169,6 +8234,7 @@ rédito|return, yield; interest|o;o
 saga|saga|o
 ascendencia|ancestry, descent; ascendancy|o;o
 campanilla|small bell; bellflower|o;o
+corpus|corpus; Corpus Christi: Corpus Christi (feast)|o;n
 descuido|carelessness; oversight, slip|o;o
 desesperar|to despair; to exasperate|v;v
 furor|fury, rage; craze|o;o
@@ -8252,11 +8318,13 @@ enzima|enzyme|o
 errar|to err, to be wrong; to miss (a target); to wander|v;v;v
 incursión|raid, incursion; foray|o;o
 insertar|to insert|v
+kgb|KGB (Soviet secret police)|o
 visualización|visualization; display, viewing|o;o
 abundar|to abound, to be plentiful|v
 alabanza|praise|o
 arpón|harpoon|o
 colmillo|fang, tusk; canine tooth|o;o
+convenio|agreement, accord; collective agreement|o;o
 doscientas|two hundred (f.)|o
 entrepierna|crotch|o
 fisonomía|features, face|o
@@ -8326,12 +8394,14 @@ piénsese|consider, think (impersonal imperative)|o
 reciclar|to recycle|v
 regente|regent|o
 reproductivo|reproductive|o
+sacro|sacred; sacrum (bone)|o;o
 substituir|to substitute, to replace|v
 ancla|anchor|o
 anexión|annexation|o
 aullido|howl|o
 caricia|caress|o
 emprendimiento|entrepreneurship; venture, business|o;o
+fomento|promotion, encouragement|o
 indignar|to anger; indignarse: to become indignant|v;n
 memorizar|to memorize|v
 nordeste|northeast|o
@@ -8354,6 +8424,7 @@ vocación|vocation, calling|o
 arancelario|tariff (adj.)|o
 brevemente|briefly|o
 bíblico|biblical|o
+crispr|CRISPR (gene editing)|o
 deflacionario|deflationary|o
 desprender|to give off, to emit; to detach|v;v
 diversificación|diversification|o
@@ -8387,6 +8458,7 @@ recargar|to recharge, reload; to overload|v;v
 regañar|to scold; to quarrel|v;v
 sien|temple (of the head)|o
 trascender|to transcend, to go beyond; to leak out|v;v
+uci|ICU, intensive care unit|o
 atrocidad|atrocity|o
 emblemático|emblematic, iconic|o
 hospitalario|hospital (adj.); hospitable|o;o
@@ -8402,6 +8474,7 @@ síntesis|synthesis; summary|o;o
 cantera|quarry; youth academy (sport)|o;o
 distintivo|distinctive; badge, emblem|o;o
 formalmente|formally|o
+ied|FDI, foreign direct investment|o
 indiferencia|indifference|o
 mayúscula|capital letter|o
 éter|ether|o
@@ -8411,6 +8484,7 @@ fragilidad|fragility|o
 fragmentar|to fragment|v
 ilustrador|illustrator|o
 impunidad|impunity|o
+ipcc|IPCC (UN climate panel)|o
 llamamiento|appeal, call|o
 simultáneo|simultaneous|o
 afligir|to afflict, distress|v
@@ -8433,6 +8507,7 @@ retina|retina|o
 abogar|to advocate, to plead (for)|v
 alteración|alteration, change; disturbance|o;o
 atestiguar|to testify, to bear witness to|v
+boe|BOE (Spain's official state gazette)|o
 confluencia|confluence, convergence|o
 desnutrición|malnutrition|o
 dibujante|draughtsman, illustrator, cartoonist|o
@@ -8472,9 +8547,12 @@ incompleto|incomplete|o
 mayoritariamente|mostly, mainly|o
 patrocinar|to sponsor|v
 retroalimentación|feedback|o
+salina|salt flat; saltworks|o;o
 vertiente|aspect, side; slope|o;o
 vítor|cheer|o
 asimétrico|asymmetric|o
+csic|CSIC (Spain's national research council)|o
+farc|FARC (Colombian guerrilla group)|o
 invocar|to invoke|v
 predominar|to predominate, to prevail|v
 simétrico|symmetrical|o
@@ -8556,11 +8634,13 @@ metano|methane|o
 neoliberal|neoliberal|o
 selectivo|selective|o
 tribuna|platform, rostrum; stand (in a stadium); forum|o;o;o
+ucd|UCD (Spanish centrist party of the Transition)|o
 antropólogo|anthropologist|o
 colateral|collateral|o
 embarcación|boat, vessel|o
 esquizofrenia|schizophrenia|o
 impedido|prevented, blocked; disabled (dated)|o;o
+logia|lodge (Masonic)|o
 novedoso|novel, innovative|o
 ovación|ovation|o
 presunto|alleged, presumed|o
@@ -8569,9 +8649,11 @@ reeditar|to reissue, to republish|v
 repetición|repetition; replay|o;o
 similitud|similarity|o
 tenencia|possession, holding; tenancy|o;o
+udi|UDI (Chilean right-wing party)|o
 visibilidad|visibility|o
 adentrar|adentrarse: to go into, penetrate|n
 arquear|to arch; arquear las cejas: to raise one's eyebrows|v;n
+cofradía|religious brotherhood (Holy Week); guild|o;o
 competente|competent; responsible, relevant (authority)|o;o
 desembarcar|to land, to disembark; to unload|v;v
 detonación|detonation, report (of a gun)|o
@@ -8591,6 +8673,7 @@ pauta|guideline, pattern|o
 piénsenlo|think about it! (pl.)|o
 prótesis|prosthesis|o
 regulatorios|regulatory|o
+ugt|UGT (Spanish trade union)|o
 aludir|to allude, to refer (to)|v
 anchura|width|o
 bibliografía|bibliography|o
@@ -8598,6 +8681,7 @@ conjuntamente|jointly, together|o
 conmemoración|commemoration|o
 estigma|stigma|o
 ficticio|fictitious, fictional|o
+fifa|FIFA (world football body)|o
 franciscano|Franciscan|o
 hegemónico|hegemonic, dominant|o
 mescalina|mescaline|o
@@ -8613,6 +8697,7 @@ acercamiento|rapprochement; approach|o;o
 antecesor|predecessor; ancestor|o;o
 austral|southern|o
 diecinueve|nineteen|o
+emirato|emirate|o
 enderezar|to straighten; enderezarse: to straighten up|v;n
 entrecejo|space between the eyebrows; fruncir el entrecejo: to frown|o;n
 fabril|manufacturing, industrial|o
@@ -8623,6 +8708,7 @@ incredulidad|disbelief, incredulity|o
 primordial|fundamental, essential|o
 prosa|prose|o
 puramente|purely|o
+recio|strong, tough; loud, harsh|o;o
 saneamiento|sanitation; restructuring, cleaning up (finances)|o;o
 solicitante|applicant|o
 sosiego|calm, tranquillity|o
@@ -8632,6 +8718,7 @@ colmena|beehive|o
 consonante|consonant|o
 corresponsal|correspondent|o
 deportar|to deport|v
+efe|the letter F|o
 elevación|elevation, rise|o
 estipular|to stipulate|v
 geológico|geological|o
@@ -8761,6 +8848,7 @@ inflar|to inflate, to blow up|v
 infligir|to inflict|v
 navío|ship, vessel|o
 octava|octave; eighth (f.)|o;o
+pnv|PNV (Basque Nationalist Party)|o
 tangible|tangible|o
 torero|bullfighter|o
 torna|he/she/it turns, becomes; (pl.) tables (se vuelven las tornas: the tables turn)|f3s;o
@@ -8831,11 +8919,13 @@ incondicional|unconditional; staunch supporter|o;o
 indudablemente|undoubtedly|o
 insuficiencia|insufficiency; failure (medical)|o;o
 lapso|period, lapse (of time)|o
+opep|OPEC|o
 oruga|caterpillar|o
 secuenciar|to sequence|v
 vinculación|link, connection|o
 autobiográfico|autobiographical|o
 catolicismo|Catholicism|o
+centroamericano|Central American|o
 cese|cessation, end; dismissal|o;o
 decaer|to decline, to wane|v
 dominación|domination, rule|o
@@ -8862,6 +8952,7 @@ hackers|hackers|o
 insensato|foolish, senseless; fool|o;o
 lumbre|fire, firelight|o
 ofrecimiento|offer|o
+pdc|PDC (Christian Democratic Party)|o
 pragmática|pragmatics; pragmatic|o;o
 pulpo|octopus|o
 quimioterapia|chemotherapy|o
@@ -8886,6 +8977,7 @@ colmo|height, limit; es el colmo: that's the last straw|o;n
 danzar|to dance|v
 desechar|to discard, to reject|v
 estructurar|to structure|v
+link|link|o
 maternidad|motherhood, maternity|o
 optimizar|to optimize|v
 tibetano|Tibetan|o
@@ -8908,6 +9000,8 @@ adición|addition|o
 adyacente|adjacent|o
 ambientar|to set (a story); to create an atmosphere|v;v
 aparejo|tackle, rigging; harness|o;o
+bio|organic; bio, biography|o;o
+cayo|key, cay (small island)|o
 clausura|closure; closing ceremony|o;o
 contrariar|to upset, annoy; to go against|v;v
 controvertir|to dispute, to contest|v
@@ -8995,6 +9089,7 @@ salpicar|to splash, spatter; to sprinkle|v;v
 sencillez|simplicity|o
 temible|fearsome, dreadful|o
 topónimo|place name|o
+tpp|TPP (Trans-Pacific Partnership)|o
 tranvía|tram, streetcar|o
 utensilio|utensil, tool|o
 arduo|arduous|o
@@ -9006,6 +9101,7 @@ excluyente|exclusionary, exclusive|o
 insolvencia|insolvency|o
 insolvente|insolvent|o
 lésbico|lesbian (adj.)|o
+nsa|NSA (US National Security Agency)|o
 origami|origami|o
 oxitocina|oxytocin|o
 pintada|painted (f.); graffiti|o;o
@@ -9030,6 +9126,7 @@ perpetrar|to perpetrate|v
 pinyin|pinyin (Chinese romanization)|o
 prefectura|prefecture|o
 progresivamente|progressively|o
+tnp|NPT, Nuclear Non-Proliferation Treaty|o
 viabilidad|viability, feasibility|o
 aferrar|to grip; to cling (aferrarse)|v;v
 alborotar|to stir up, agitate; to make a racket|v;v
@@ -9084,7 +9181,9 @@ negociado|negotiated; department, section|o;o
 pragmatismo|pragmatism|o
 provocación|provocation|o
 romanticismo|Romanticism; romance|o;o
+tapia|mud wall, adobe wall|o
 versus|versus, against|o
+bifurcación|fork (in a road), bifurcation|o
 catalizador|catalyst|o
 cautela|caution|o
 folk|folk (music)|o
@@ -9141,6 +9240,7 @@ valoración|assessment, evaluation; valuation|o;o
 xenófobo|xenophobic|o
 yelmo|helmet (of armour)|o
 aborigen|aboriginal, native; aborigine|o;o
+aeronáutica|aeronautics; air force|o;o
 antifranquista|anti-Franco, opposed to Franco's regime|o
 automatizar|to automate|v
 centrista|centrist|o
@@ -9165,6 +9265,7 @@ sinapsis|synapse|o
 supernova|supernova|o
 supranacional|supranational|o
 taladrar|to drill|v
+tel|tel. (telephone)|o
 tristemente|sadly|o
 vestigio|trace, vestige|o
 visigodo|Visigothic; Visigoth|o;o
@@ -9200,12 +9301,14 @@ digitalización|digitization|o
 encallar|to run aground|v
 escama|scale (of a fish or reptile)|o
 espesor|thickness|o
+evangelista|evangelist; evangelical|o;o
 extrañamente|strangely|o
 formulador|formulator, policymaker|o
 frac|tailcoat|o
 horrorizar|to horrify|v
 inhalar|to inhale|v
 llamarada|flare, blaze|o
+manar|to flow, to well up|v
 mandamiento|commandment|o
 modernista|modernist|o
 ochocientos|eight hundred|o
@@ -9220,7 +9323,9 @@ severidad|severity, strictness|o
 telépatas|telepaths|o
 tertulia|social gathering, discussion group|o
 tutorial|tutorial|o
+utc|UTC (Coordinated Universal Time)|o
 acentuar|to accentuate, to emphasize; to accent|v;v
+ceo|CEO|o
 comendador|knight commander|o
 discrecional|discretionary|o
 holocubierta|holodeck|o
@@ -9232,6 +9337,8 @@ permanencia|stay; permanence; continuance|o;o;o
 pretendiente|suitor; claimant, pretender|o;o
 razonablemente|reasonably|o
 sustentabilidad|sustainability|o
+taxonomía|taxonomy|o
+televisar|to televise|v
 topología|topology|o
 troika|troika|o
 óblast|oblast (Russian region)|o
@@ -9239,6 +9346,7 @@ abreviar|to abbreviate, to shorten|v
 adversidad|adversity|o
 ambigüedad|ambiguity|o
 arduamente|arduously, hard|o
+arn|RNA|o
 autodefensa|self-defence|o
 cono|cone|o
 decepcionante|disappointing|o
@@ -9261,6 +9369,7 @@ vibrar|to vibrate|v
 aborrecer|to loathe, detest|v
 aflicción|affliction, sorrow|o
 amenazador|threatening|o
+antifascista|anti-fascist|o
 cebada|barley|o
 comento|I comment, I remark|f1s
 cresta|crest; comb (of a bird)|o;o
@@ -9278,6 +9387,7 @@ gentileza|kindness, courtesy|o
 holgar|to be unnecessary; huelga decir: needless to say|v;n
 imprudencia|imprudence, rashness|o
 incomodo|I bother, I inconvenience|f1s
+lsd|LSD|o
 madurez|maturity; ripeness|o;o
 manjar|delicacy, dish|o
 matiz|shade, hue; nuance|o;o
@@ -9288,6 +9398,7 @@ pastoral|pastoral|o
 percatar|percatarse de: to notice, realize|n
 placentero|pleasant|o
 reality|reality show|o
+rocío|dew|o
 sobrar|to be left over; to be superfluous|v;v
 sonrisita|little smile, smirk|o
 tallar|to carve, to sculpt|v
@@ -9314,7 +9425,9 @@ sepultura|grave, burial|o
 silbido|whistle, whistling|o
 tecnocrático|technocratic|o
 típicamente|typically|o
+uefa|UEFA (European football body)|o
 acompañamiento|accompaniment; support|o;o
+afd|AfD (German far-right party)|o
 aristocracia|aristocracy|o
 ateo|atheist; atheistic|o;o
 avecinar|to approach, to loom (avecinarse)|v
@@ -9354,7 +9467,9 @@ redundar|redundar en: to result in|n
 sabana|savanna|o
 subespecie|subspecies|o
 suscitar|to provoke, to arouse, to give rise to|v
+tir|IRR, internal rate of return|o
 balístico|ballistic|o
+cdu|CDU (German Christian Democratic party)|o
 conveniencia|advisability; convenience|o;o
 cuestionamiento|questioning, challenge|o
 deficitario|loss-making, in deficit|o
@@ -9371,6 +9486,7 @@ perpetuar|to perpetuate|v
 propiamente|properly, strictly (speaking)|o
 refugiar|to shelter; to take refuge (refugiarse)|v;v
 réplica|replica; reply, retort; aftershock|o;o;o
+sars|SARS|o
 sumarse|to join, to add oneself (to)|v
 supresión|suppression; abolition, elimination|o;o
 verificación|verification, check|o
@@ -9441,6 +9557,7 @@ notorio|evident, obvious; well-known|o;o
 omiso|neglectful; hacer caso omiso: to ignore|o;n
 rojizo|reddish|o
 saqueo|looting, plunder|o
+sms|text message, SMS|o
 solidario|supportive, showing solidarity; joint (liability)|o;o
 toxina|toxin|o
 transcripción|transcription|o
@@ -9547,6 +9664,7 @@ primacía|primacy|o
 proyectil|projectile, missile|o
 reciclado|recycling; recycled|o;o
 residencial|residential|o
+salmo|psalm|o
 sobrepasar|to exceed, surpass|v
 torrente|torrent|o
 transponer|to transpose; to go beyond|v;v
@@ -9636,6 +9754,7 @@ endurecer|to harden; to toughen|v;v
 euroescépticos|Eurosceptics|o
 exento|exempt, free (from)|o
 fallidos|failed, unsuccessful (masc. pl.)|o
+fda|FDA (US Food and Drug Administration)|o
 filantropía|philanthropy|o
 gobierna|he/she/it governs, you govern (formal)|f3s
 hispanoamericano|Spanish-American, Latin American (Spanish-speaking)|o
@@ -9670,6 +9789,7 @@ alejamiento|distancing, estrangement; removal|o;o
 brutalidad|brutality|o
 checheno|Chechen|o
 circunferencia|circumference; circle|o;o
+comic|comic (book)|o
 confiscar|to confiscate|v
 filólogo|philologist|o
 fragata|frigate|o
@@ -9704,6 +9824,7 @@ expresivo|expressive|o
 extraviar|to lose, mislay; extraviarse: to get lost|v;n
 falto|falto de: lacking in, short of|n
 feto|fetus|o
+florentino|Florentine|o
 franquear|to cross, get past; to stamp (a letter)|v;v
 gestor|manager, administrator|o
 listar|to list|v
@@ -9717,6 +9838,7 @@ rasgar|to tear, rip|v
 rizado|curly|o
 subconjunto|subset|o
 sumando|adding; addend (maths)|o;o
+tlcan|NAFTA|o
 tosco|rough, crude, coarse|o
 verdor|greenness, verdure|o
 alzar|to raise, lift|v
@@ -9917,12 +10039,14 @@ anticonceptivo|contraceptive|o
 antojo|whim, craving|o
 atener|atenerse a: to abide by, stick to|n
 bandada|flock (of birds)|o
+bei|EIB (European Investment Bank)|o
 bombear|to pump|v
 calibrar|to calibrate; to gauge|v;v
 chillar|to scream, shriek, squeal|v
 cociente|quotient|o
 compaginar|to combine, reconcile (e.g. work and family)|v
 convivir|to live together, coexist|v
+cop|COP (UN climate conference)|o
 depositante|depositor|o
 desabrochar|to unbutton, unfasten|v
 desencanto|disenchantment, disillusion|o
@@ -9943,6 +10067,7 @@ istmo|isthmus|o
 jubón|doublet|o
 legitimar|to legitimize|v
 mediación|mediation|o
+mega|mega-, huge (colloq.)|o
 narval|narwhal|o
 normalizar|to normalize; to standardize|v;v
 novel|new, first-time, novice|o
@@ -9984,6 +10109,7 @@ evaporar|to evaporate|v
 gradiente|gradient|o
 humedal|wetland|o
 impar|odd (number)|o
+ine|INE (Mexican electoral institute; voter ID card); national statistics institute (Spain, Chile)|o;o
 intolerancia|intolerance|o
 lírico|lyric, lyrical|o
 machacar|to crush, pound; to go on about|v;v
@@ -9994,16 +10120,20 @@ mestizo|mixed-race, mestizo|o
 mirador|viewpoint, lookout|o
 obeso|obese|o
 opaco|opaque; dull|o;o
+osce|OSCE|o
 pactar|to agree, make a pact|v
 pivote|pivot; centre (basketball)|o;o
 quechua|Quechua|o
 reticencia|reluctance, reticence|o
 samoano|Samoan|o
 sobrevolar|to fly over|v
+tamil|Tamil|o
+tept|PTSD, post-traumatic stress disorder|o
 testosterona|testosterone|o
 vizconde|viscount|o
 acrónimo|acronym|o
 acuario|aquarium; Aquarius|o;o
+api|API (programming interface)|o
 boceto|sketch, draft|o
 converger|to converge|v
 duplicado|duplicate, copy; duplicated|o;o
@@ -10020,6 +10150,7 @@ orquídea|orchid|o
 parodia|parody|o
 protagonismo|prominence, leading role|o
 radial|radio (adj.), broadcast; radial|o;o
+tdt|digital terrestrial TV (Spain)|o
 venerar|to venerate, revere|v
 vicepresidencia|vice-presidency|o
 absolver|to acquit; to absolve|v;v
@@ -10040,6 +10171,7 @@ brío|spirit, verve|o
 bálsamo|balm|o
 caliza|limestone|o
 calzada|roadway; (Roman) road|o;o
+carmelita|Carmelite|o
 cauce|riverbed, channel; course, means|o;o
 cerrojo|bolt, latch|o
 chií|Shiite|o
@@ -10152,6 +10284,7 @@ inmersión|immersion|o
 inmerso|immersed|o
 intrigar|to intrigue; to plot|v;v
 lingüista|linguist|o
+monzón|monsoon|o
 neoliberalismo|neoliberalism|o
 nutrir|to nourish, feed|v
 penuria|hardship, penury; shortage|o;o
@@ -10194,6 +10327,7 @@ inflexible|inflexible|o
 inmediación|vicinity, surroundings (usu. pl.)|o
 laureado|award-winning; laureate|o;o
 leonés|Leonese, from León|o
+lgbti|LGBTI|o
 mecha|wick; fuse; streak (in hair)|o;o;o
 napoleónico|Napoleonic|o
 olivo|olive tree|o
@@ -10221,6 +10355,7 @@ alpino|alpine|o
 arriero|muleteer|o
 asfixiar|to suffocate, asphyxiate|v
 bicolor|two-coloured|o
+box|boxing (Lat. Am.); pit (motor racing); stall|o;o;o
 brocheta|skewer, kebab|o
 caballeriza|stable|o
 cegar|to blind|v
@@ -10240,6 +10375,7 @@ escrúpulo|scruple|o
 estratégicamente|strategically|o
 forro|lining; cover (of a book)|o;o
 gaita|bagpipes|o
+galán|leading man; suitor, ladies' man|o;o
 granítico|granite, granitic|o
 hulla|coal|o
 inaugural|inaugural, opening|o
@@ -10273,13 +10409,16 @@ tapete|table runner, mat; sobre el tapete: under discussion|o;n
 torbellino|whirlwind|o
 tranquilizar|to calm, reassure|v
 transmisible|transmissible|o
+vice|vice-president (colloq.)|o
 anterioridad|priority in time; con anterioridad: beforehand, previously|o;n
 anticíclico|countercyclical; anticyclonic|o;o
 aplazar|to postpone, defer|v
 atenuar|to attenuate, lessen|v
 austrohúngaro|Austro-Hungarian|o
+capitanía|captaincy; harbour master's office|o;o
 ceremonial|ceremonial|o
 consorcio|consortium|o
+consultivo|advisory, consultative|o
 desintegrar|to disintegrate|v
 desmoronar|to crumble, collapse (usu. desmoronarse)|v
 desnuclearización|denuclearization|o
@@ -10316,6 +10455,7 @@ reconciliar|to reconcile|v
 refinanciar|to refinance|v
 repensar|to rethink|v
 reptil|reptile|o
+senior|senior (older person; sports category)|o
 superponer|to superimpose, overlap|v
 unilateralismo|unilateralism|o
 unánime|unanimous|o
@@ -10376,6 +10516,7 @@ rebote|rebound, bounce|o
 recobrar|to recover, regain|v
 rublo|rouble|o
 súbito|sudden|o
+tbc|TB, tuberculosis|o
 temático|thematic, theme (adj.)|o
 unanimidad|unanimity|o
 acre|acrid, pungent; acre|o;o
@@ -10425,6 +10566,7 @@ duna|dune|o
 débilmente|weakly, faintly|o
 embarazar|to make pregnant; to hinder|v;v
 embestir|to charge, ram|v
+encina|holm oak|o
 erecto|erect, upright|o
 escolarización|schooling, school enrolment|o
 estambre|stamen; worsted yarn|o;o
@@ -10446,6 +10588,7 @@ modelado|modelling|o
 monástico|monastic|o
 mordisco|bite, nibble|o
 nacionalizar|to nationalize; to naturalize|v;v
+olp|PLO (Palestine Liberation Organization)|o
 oratorio|oratorio; chapel, oratory|o;o
 pagoda|pagoda|o
 palidez|pallor, paleness|o
@@ -10597,6 +10740,7 @@ enfurecer|to enrage, infuriate|v
 enorgullecer|to make proud (enorgullecerse: to be proud)|v
 ensamblar|to assemble|v
 entablar|to strike up, begin (talks, relations)|v
+erc|ERC (Catalan left-wing republican party)|o
 esbozar|to sketch, outline; esbozar una sonrisa: to give a faint smile|v;n
 esterlina|sterling; libra esterlina: pound sterling|o;n
 extremar|to take to extremes; extremar precauciones: to be extra careful|v;n
@@ -11915,6 +12059,7 @@ trópico|tropic|o
 táctico|tactical; tactician|o;o
 vascular|vascular|o
 viñedo|vineyard|o
+padrón|register of residents, electoral roll|o
 acarrear|to carry, haul; to bring about, entail|v;v
 adosar|to place against, lean against|v
 afluir|to flow (into); to flock|v;v
@@ -12902,6 +13047,7 @@ varonil|manly, virile|o
 vinagre|vinegar|o
 ándale|come on!, hurry up!; that's it! (colloq.)|o;o
 íntegro|whole, entire; upright|o;o
+dni|national identity card (Spain, Argentina, Peru)|o
 acumulativo|cumulative|o
 adelgazar|to lose weight; to slim down|v;v
 amputación|amputation|o
@@ -13503,6 +13649,7 @@ ventanal|large window|o
 vente|come (with me), come along (you, imperative)|o
 vértigo|vertigo, dizziness|o
 zafar|to loosen, to free; to get out of (Lat. Am., colloq.)|v;v
+nazareno|Nazarene; hooded penitent (Holy Week procession)|o;o
 abarrotar|to pack, to cram|v
 abdicar|to abdicate|v
 aditivo|additive|o
@@ -13945,6 +14092,7 @@ vinilo|vinyl|o
 yema|egg yolk; fingertip; bud|o;o;o
 yoruba|Yoruba|o
 ágora|agora|o
+romería|pilgrimage festival (to a shrine, with picnic and dancing)|o
 abogacía|legal profession, law|o
 acordeón|accordion|o
 acróbata|acrobat|o
@@ -14745,6 +14893,8 @@ vuelco|overturning, upset; dar un vuelco: to overturn, change completely|o;n
 ámbar|amber|o
 ébano|ebony|o
 ígneo|igneous; fiery|o;o
+cuaresma|Lent|o
+nochevieja|New Year's Eve|o
 acatar|to comply with, to obey|v
 acepción|sense, meaning (of a word)|o
 acrobacia|acrobatics, stunt|o
@@ -15692,6 +15842,7 @@ vengativo|vindictive, vengeful|o
 vicisitud|vicissitude, ups and downs|o
 vidrioso|glassy; brittle; touchy|o;o;o
 vivaz|lively, vivacious; sharp|o;o
+cafetera|coffee maker; coffee pot|o;o
 acopio|stockpiling, gathering|o
 acupuntura|acupuncture|o
 adicionar|to add, to add on|v
@@ -16194,31 +16345,131 @@ farmacológico|pharmacological|o
 fibrosis|fibrosis|o
 girasol|sunflower|o
 glamour|glamour|o
-celo|zeal; heat (in animals)|o;o
-ejercitar|to exercise, to train|v
-encubrir|to cover up|v
-lente|lens|o
-privar|to deprive|v
-subas|(that) you go up; rises, increases (Argentina, Uruguay)|f2s2p;o
-quiebre|break, rupture (chiefly Latin America); (that) he/she/it break|o;f3s
-pervertir|to pervert, to corrupt|v
-descuidar|to neglect|v
-dote|dowry; gift, talent|o;o
-estima|esteem, regard|o
-relajarme|to relax|v
-reposo|rest|o
-satisfactorio|satisfactory|o
-serial|serial|o
-codicia|greed|o
-mudarte|to move (house)|v
+selectividad|university entrance exam (Spain)|o
+egresado|graduate (Lat. Am.)|o
+güey|dude, mate (Mexican slang)|o
+cubrebocas|face mask (Mexican)|o
+eps|health insurer (Colombia: Entidad Promotora de Salud)|o
+lavadero|laundry area, utility sink|o
+rider|delivery rider (app courier, Spain)|o
+teletrabajo|remote work, teleworking|o
+cutre|shabby, tacky (Spain, colloq.)|o
+trapeador|mop (Lat. Am.)|o
+aguinaldo|Christmas bonus (year-end pay); Christmas gift|o;o
+colegiatura|school or tuition fees (Mexico)|o
+rut|tax ID number (Chile: Rol Único Tributario)|o
+fregona|mop (Spain)|o
+chorizo|chorizo (spicy sausage); thief, crook (Spain, colloq.)|o;o
+quiosco|kiosk, newsstand|o
+verbena|open-air night festival (summer, Spain); verbena (plant)|o;o
+botijo|clay drinking jug with a spout (Spain)|o
+paella|paella (Valencian rice dish)|o
+mercadillo|street market, flea market (Spain)|o
+comal|comal (flat griddle for tortillas, Mexico)|o
+imss|IMSS (Mexican Social Security Institute)|o
+estanco|tobacconist (state-licensed, Spain)|o
+prepa|high school (Mexico, colloq.: preparatoria)|o
+tapabocas|face mask (Colombia, Argentina)|o
+comadre|godmother of one's child (or mother of one's godchild); close female friend|o;o
+empanada|empanada (filled pastry turnover)|o
+malecón|seafront promenade, esplanade|o
+arepa|arepa (corn flatbread, Venezuela and Colombia)|o
+pana|buddy, mate (Venezuela, Caribbean, slang); corduroy|o;o
+órale|right on!, come on!, wow! (Mexican)|o
+colmado|corner grocery shop (Dominican Republic, Puerto Rico)|o
+tendedero|clothes line; clothes-drying rack|o;o
+sororidad|sisterhood, solidarity among women|o
+desescalada|easing of lockdown (Spain, COVID)|o
+remis|minicab, car with driver (Argentina)|o
+rfc|tax ID number (Mexico: Registro Federal de Contribuyentes)|o
+tesina|short thesis, dissertation|o
+abarrotes|groceries (Mexico, tienda de abarrotes)|o
+quinceañera|girl's fifteenth birthday party; fifteen-year-old girl|o;o
+chicharrón|pork crackling|o
+porrón|glass wine jug with a long spout (Spain)|o
+guagua|bus (Caribbean, Canary Islands); baby (Andes)|o;o
+chévere|great, cool (Caribbean, Venezuela, Colombia)|o
+kínder|kindergarten, nursery school|o
+chido|cool, great (Mexican slang)|o
+gazpacho|gazpacho (cold tomato soup)|o
+chancla|flip-flop, slipper|o
+combi|minibus (shared taxi, Mexico, Peru)|o
+piropo|compliment (said to a passer-by), catcall|o
+quilombo|mess, chaos (River Plate slang); maroon settlement|o;o
+churro|churro (fried dough stick); good-looking guy (Spain, colloq.)|o;o
+ceviche|ceviche (raw fish cured in lime juice)|o
+chabola|shack, shanty (Spain)|o
+finiquito|final settlement (pay owed on leaving a job)|o
+horchata|horchata (tiger nut or rice milk drink)|o
+tutear|to address as tú (informally)|v
+tamal|tamale (steamed corn dough wrapped in a husk)|o
+chamba|job, work (Mexico, Peru, colloq.)|o
+selfi|selfie|o
+bacán|cool, great (Chile, Peru, Caribbean, slang)|o
+chamo|kid, guy (Venezuelan slang)|o
+chilaquiles|chilaquiles (fried tortilla pieces in salsa, Mexico)|o
+consuegro|co-father-in-law (father of one's child's spouse)|o
+empadronamiento|registration on the local residents' register (Spain)|o
+pozole|pozole (hominy and meat stew, Mexico)|o
+tinaco|rooftop water tank (Mexico)|o
+tocayo|namesake (someone with the same first name)|o
+wasap|WhatsApp message|o
+rebozo|rebozo (long shawl, Mexico)|o
+todes|everyone (gender-neutral form of todos)|o
+bombona|gas cylinder (Spain)|o
+calefón|gas water heater (Southern Cone)|o
+icfes|ICFES (Colombian school-leaving exam, Saber 11)|o
+mañanera|morning press conference (Mexican president's); morning (adj.)|o;o
+huipil|huipil (embroidered tunic, Mexico and Central America)|o
+tianguis|street market (Mexico)|o
+botellón|drinking party in the street (Spain); big bottle|o;o
+alfajor|alfajor (biscuit sandwich with dulce de leche)|o
+alpargata|espadrille|o
+curp|CURP (Mexican personal ID code)|o
+guayabera|guayabera (light pleated shirt, Caribbean)|o
+molcajete|molcajete (stone mortar, Mexico)|o
+monotributo|simplified flat-rate tax scheme for the self-employed (Argentina, Uruguay)|o
+parcero|buddy, mate (Colombian slang)|o
+tostón|fried green plantain slice (Caribbean); bore, drag (Spain, colloq.)|o;o
+garrafón|large water jug, water cooler bottle (Mexico)|o
+viralizar|to make go viral, to spread online|v
+bizum|Bizum (instant mobile payment, Spain)|o
+cachar|to catch, to get it, understand (Chile, colloq.)|v
+gestoría|agency handling paperwork and taxes (Spain)|o
+ghostear|to ghost (someone)|v
+paellera|paella pan|o
+pesero|minibus, shared taxi (Mexico City)|o
+pituto|connection, string-pulling contact (Chile, colloq.)|o
+pupusa|pupusa (stuffed corn flatbread, El Salvador)|o
+stalkear|to stalk (on social media)|v
+táper|plastic food container, Tupperware|o
+wasapear|to WhatsApp, to message|v
+yapear|to pay with Yape (mobile payment, Peru)|v
 adecuadamente|properly, adequately|o
 cargador|charger; magazine (gun)|o;o
+celo|zeal; heat (in animals)|o;o
+chuleta|chop, cutlet|o
+codicia|greed|o
+coleccionista|collector|o
+descuidar|to neglect|v
+dote|dowry; gift, talent|o;o
+ejercitar|to exercise, to train|v
+encubrir|to cover up|v
+estima|esteem, regard|o
+lente|lens|o
+mudarte|to move (house)|v
+pervertir|to pervert, to corrupt|v
+privar|to deprive|v
+quiebre|break, rupture (chiefly Latin America); (that) he/she/it break|o;f3s
 racial|racial|o
 rehusar|to refuse|v
+relajarme|to relax|v
 remar|to row|v
-chuleta|chop, cutlet|o
+reposo|rest|o
 rígido|rigid, stiff|o
-coleccionista|collector|o
+satisfactorio|satisfactory|o
+serial|serial|o
+subas|(that) you go up; rises, increases (Argentina, Uruguay)|f2s2p;o
 sobremesa|time spent talking at the table after a meal|o
 mole|mole (Mexican sauce of chillies, spices and often chocolate)|o
 tomá|take! (voseo)|o

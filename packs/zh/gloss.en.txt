@@ -6899,6 +6899,7 @@
 分支|branch|o
 证书|certificate|o
 违约|to default, breach a contract|v
+人民币|renminbi, yuan (Chinese currency)|o
 公元前|BC, BCE|o
 提振|to boost|v
 神通|supernatural powers|o
@@ -7627,6 +7628,7 @@
 推开|to push open, push away|v
 交互|interaction; interactive|o;o
 大鹏|roc (mythical giant bird)|o
+国企|state-owned enterprise|o
 延续|to continue, last|v
 流向|flow direction; to flow towards|o;v
 迄今|so far, to date|o
@@ -7677,6 +7679,7 @@
 民意|public opinion|o
 老兵|veteran|o
 雕塑|sculpture|o
+生肖|Chinese zodiac animal (of one's birth year)|o
 浩然|vast; noble (spirit)|o;o
 闻名|famous|o
 凭借|by means of, relying on|o
@@ -11614,6 +11617,7 @@
 邮局|post office|o
 须臾|a moment, an instant|o
 默许|to tacitly consent|v
+豆腐|tofu, bean curd|o
 不妥|inappropriate, not right|o
 二话不说|without a word of objection, without hesitation|o
 伦理学|ethics|o
@@ -11686,6 +11690,7 @@
 重中之重|top priority, most important of all|o
 非线性|nonlinear|o
 高压|high pressure; high voltage; high-handed|o;o;o
+粥|rice porridge, congee|o
 先发制人|to strike first, pre-empt|v
 办案|to handle a case|v
 厚重|thick and heavy; profound|o;o
@@ -12324,6 +12329,7 @@
 轰动|to cause a sensation, to stir|v
 迷雾|dense fog; mystery|o;o
 办事处|office, agency (local branch)|o
+本科|undergraduate (bachelor's) course|o
 一席之地|a place, a foothold (in a field)|o
 一目了然|clear at a glance|o
 一见钟情|love at first sight|o
@@ -12572,6 +12578,7 @@
 馒头|steamed bun|o
 首饰|jewellery|o
 麻木|numb|o
+口罩|face mask|o
 一股脑|all at once, lock, stock and barrel|o
 不死心|unwilling to give up|o
 出击|to attack|v
@@ -12586,6 +12593,7 @@
 成全|to help (someone) achieve their aim|v
 战死|to die in battle|v
 提防|to guard against, to beware of|v
+文科|humanities and liberal arts (school stream)|o
 春雨|spring rain|o
 有理|reasonable, right|o
 果不其然|sure enough, just as expected|o
@@ -12702,6 +12710,7 @@
 粉末|powder|o
 退路|way out, room for retreat|o
 镖局|armed escort agency|o
+煎饼|jianbing (savoury crepe, street breakfast)|o
 举步维艰|every step is a struggle, in dire straits|o
 剿灭|to exterminate, to wipe out|v
 墓碑|tombstone|o
@@ -13163,6 +13172,7 @@
 远走高飞|to go far away, flee|v
 跃跃欲试|eager to have a go|o
 鬼鬼祟祟|sneaky, furtive|o
+算盘|abacus|o
 借机|to seize the opportunity|v
 背面|back, reverse side|o
 争先恐后|to scramble to be first|v
@@ -13180,16 +13190,19 @@
 话锋一转|to change the subject abruptly|v
 为所欲为|to do whatever one likes (without restraint)|v
 姗姗来迟|to arrive late, be slow in coming|v
+打卡|to clock in; to check in at a place (and post about it)|v;v
 撕心裂肺|heart-rending, agonising|o
 无足轻重|insignificant, of no consequence|o
 洗耳恭听|to listen respectfully, be all ears|v
 粉身碎骨|to be smashed to pieces; to lay down one's life|v;v
 触目惊心|shocking, alarming to see|o
+中医|traditional Chinese medicine; TCM doctor|o;o
 人山人海|huge crowds, a sea of people|o
 恼羞成怒|to fly into a rage from embarrassment|v
 破口大骂|to curse loudly, hurl abuse|v
 笨手笨脚|clumsy|o
 非同小可|no small matter, extremely serious|o
+包子|steamed bun (with filling)|o
 外卖|takeaway, food delivery|o
 一劳永逸|once and for all|o
 一拥而上|to rush forward in a crowd, swarm in|v
@@ -13209,6 +13222,8 @@
 南辕北辙|to act contrary to one's aim, going the wrong way|v
 变本加厉|to intensify, get worse|v
 子虚乌有|fictitious, nonexistent|o
+相亲|to go on an arranged blind date (with a view to marriage)|v
+公交车|city bus|o
 屡见不鲜|common, nothing new|o
 巴不得|to be eager for, only too glad to|v
 得不偿失|the loss outweighs the gain, not worth it|o
@@ -13218,10 +13233,13 @@
 耳熟能详|familiar, often heard|o
 走火入魔|obsessed, carried away to excess|o
 钉子|nail; 碰钉子: to meet with a rebuff|o;n
+动车|bullet train (D-series high-speed train)|o
+拖鞋|slippers, flip-flops|o
 两败俱伤|both sides lose, lose-lose|o
 丧心病狂|deranged, utterly inhuman|o
 若有若无|faint, barely perceptible|o
 身无分文|penniless|o
+土豪|nouveau riche, flashy rich person|o
 一败涂地|to suffer a crushing defeat|v
 一蹶不振|never to recover after a setback|o
 哑然失笑|to burst out laughing despite oneself|v
@@ -13288,6 +13306,7 @@
 蛛丝马迹|faint clues, traces|o
 见多识广|experienced, well-informed|o
 踌躇满志|complacent, full of ambition and self-satisfaction|o
+煤气|gas (for cooking); coal gas|o;o
 一意孤行|to insist on having one's own way, obstinate|v
 关子|climax of a story; 卖关子: to keep people in suspense|o;n
 出其不意|to take by surprise, unexpectedly|v
@@ -13342,11 +13361,13 @@
 名正言顺|fully justified, legitimate|o
 尽收眼底|to take in the whole view at a glance|v
 弱肉强食|law of the jungle, the strong prey on the weak|o
+暖气|central heating; radiator|o;o
 深恶痛绝|to detest bitterly|v
 焕然一新|completely renewed, brand new look|o
 瞠目结舌|dumbfounded, speechless|o
 行尸走肉|a walking corpse, living without purpose|o
 误入歧途|to go astray|v
+春晚|Spring Festival Gala (CCTV New Year's Eve TV show)|o
 不敢当|I don't deserve it (modest reply to praise)|f1s
 众说纷纭|opinions differ widely|o
 口诛笔伐|to denounce in speech and writing|v
@@ -13363,6 +13384,7 @@
 那还用说|needless to say, of course|o
 顺理成章|logical, a natural consequence|o
 轿子|sedan chair|o
+酱油|soy sauce|o
 一瘸一拐|limping, hobbling|o
 一饮而尽|to drain in one gulp|v
 不像话|outrageous, unacceptable|o
@@ -13372,7 +13394,9 @@
 冷嘲热讽|sneering and mockery|o
 勃然大怒|to fly into a rage|v
 千载难逢|once in a lifetime|o
+印章|seal, stamp (personal or official)|o
 打家劫舍|to rob and plunder homes|v
+春节|Spring Festival, Chinese New Year|o
 有说有笑|chatting and laughing|o
 欺人太甚|to push someone too far, go too far|v
 死气沉沉|lifeless, dull, stagnant|o
@@ -13381,6 +13405,7 @@
 铁石心肠|heart of stone, heartless|o
 闷闷不乐|depressed, in low spirits|o
 鱼死网破|a fight to the death, mutual destruction|o
+班主任|head teacher (in charge of a class)|o
 一家之主|head of the household|o
 一望无际|boundless, stretching to the horizon|o
 一网打尽|to round up all at once, wipe out entirely|v
@@ -13408,6 +13433,7 @@
 跌跌撞撞|stumbling, staggering|o
 骂骂咧咧|cursing and grumbling|o
 心率|heart rate|o
+胡同|hutong, narrow lane (Beijing)|o
 一笔勾销|to write off, cancel entirely|v
 公之于众|to make public|v
 前所未见|never seen before, unprecedented|o
@@ -13448,6 +13474,9 @@
 繁文缛节|red tape, excessive formalities|o
 闭目养神|to rest with eyes closed|v
 马脚|telltale sign; 露马脚: to give oneself away|o;n
+凑合|to make do; so-so, passable; to gather together|v;o;v
+显摆|to show off (colloq.)|v
+米饭|cooked rice|o
 万劫不复|irredeemable, beyond salvation|o
 不请自来|uninvited, to show up unasked|o
 不闻不问|to be indifferent, ignore completely|v
@@ -13467,6 +13496,7 @@
 走投无路|at a dead end, with nowhere to turn|o
 身经百战|battle-hardened, very experienced|o
 远道而来|to come from afar|v
+毛笔|writing brush (calligraphy)|o
 结账|to pay the bill, to settle up|v
 三头六臂|superhuman abilities|o
 不省人事|unconscious|o
@@ -13524,14 +13554,24 @@
 风生水起|thriving, flourishing|o
 齐聚一堂|to gather together in one place|v
 发票|invoice, receipt|o
+白酒|baijiu (Chinese grain spirit)|o
 一落千丈|to plummet, decline sharply|v
+中考|senior high school entrance exam|o
 力不从心|unable to do what one wishes, not up to it|o
 变幻莫测|unpredictable, ever-changing|o
 平起平坐|on an equal footing|o
 形同虚设|useless, existing in name only|o
+点赞|to like (a post)|v
+理科|sciences (school stream)|o
+鞭炮|firecrackers|o
 风起云涌|surging, rising in great waves|o
 高谈阔论|to hold forth, talk grandly|v
+麻将|mahjong|o
+灯笼|lantern|o
+电动车|e-bike, electric scooter; electric vehicle|o;o
 租户|tenant|o
+派出所|local police station|o
+饺子|dumpling, jiaozi|o
 粤语|Cantonese (language)|o
 一往无前|to press on fearlessly|v
 一筹莫展|at a complete loss, helpless|o
@@ -13560,6 +13600,7 @@
 肃然起敬|to feel deep respect|v
 行情|market conditions, prices|o
 马马虎虎|so-so; careless|o;o
+姥姥|grandma (mother's mother)|o
 一语不发|without a word|o
 井井有条|orderly, shipshape|o
 人满为患|overcrowded|o
@@ -13608,6 +13649,7 @@
 轻车熟路|to know the ropes, do something familiar with ease|v
 面红耳赤|red in the face (from anger or shame)|o
 鬼哭狼嚎|to wail and howl, hideous shrieking|v
+高铁|high-speed rail|o
 三三两两|in twos and threes, in small groups|o
 义愤填膺|filled with righteous indignation|o
 亡命之徒|desperado, someone with nothing to lose|o
@@ -13647,6 +13689,8 @@
 言听计从|to do whatever someone says, blindly obey|v
 遍体鳞伤|covered in wounds, battered all over|o
 风平浪静|calm, peaceful, uneventful|o
+老乡|fellow townsman (from the same home town)|o
+菜刀|kitchen cleaver|o
 不共戴天|mortal (enemy), irreconcilable|o
 不甘示弱|unwilling to be outdone|o
 从长计议|to take time to consider, think it over carefully|v
@@ -13668,11 +13712,15 @@
 连滚带爬|scrambling away in a panic|o
 连绵不绝|continuous, unending|o
 重色轻友|to put a lover before friends|v
+火锅|hotpot|o
+凡尔赛|humblebrag(ging) (slang)|o
 孝子|filial son; son in mourning (at a funeral)|o;o
 小题大做|to make a fuss over nothing|v
 稍纵即逝|fleeting, gone in an instant|o
 脱胎换骨|to be completely transformed, reborn|v
+除夕|Chinese New Year's Eve|o
 鹤立鸡群|to stand out from the crowd|v
+物业|property management (company); real estate|o;o
 煽情|to stir up emotions; sentimental, mawkish|v;o
 冷眼旁观|to watch coldly from the sidelines|v
 出类拔萃|outstanding, head and shoulders above the rest|o
@@ -13681,6 +13729,10 @@
 死于非命|to die a violent death|v
 血流成河|rivers of blood, bloodbath|o
 闻风丧胆|terrified at the mere mention|o
+军训|military training (for new students)|o
+奶茶|milk tea, bubble tea|o
+粽子|zongzi (sticky rice wrapped in leaves, Dragon Boat food)|o
+孝顺|filial, devoted to one's parents; to be good to one's parents|o;v
 椅背|back of a chair|o
 香案|incense altar|o
 养家糊口|to support one's family, make a living|v
@@ -13691,46 +13743,124 @@
 循规蹈矩|to follow the rules, conventional|v
 情有可原|excusable, understandable|o
 赶尽杀绝|to exterminate, show no mercy|v
+吃货|foodie|o
 呼风唤雨|to wield great power, work miracles|v
 精疲力竭|exhausted, worn out|o
+豆浆|soy milk|o
+家长会|parents' meeting (at school)|o
 只字不提|not to mention a single word about|o
+押金|deposit (refundable)|o
+马扎|folding stool|o
+补习班|cram school, tutoring class|o
+油条|youtiao (fried dough stick); old hand, slippery person|o;o
 潜移默化|to influence imperceptibly|v
 胆囊|gall bladder|o
 夹子|clip, clamp, tongs|o
+体制内|within the state system (civil service, state jobs)|o
 横幅|banner (horizontal)|o
 闭门羹|a cold shoulder; 吃闭门羹: to be turned away at the door|o;n
+茶馆|teahouse|o
 白手起家|to build from nothing, self-made|v
 审判长|presiding judge|o
+刷屏|to flood one's social media feed (goes viral)|v
+旗袍|qipao, cheongsam|o
 包涵|to excuse, to bear with (polite)|v
+二维码|QR code|o
+弹幕|bullet comments (scrolling on a video)|o
 朗读|to read aloud|v
 洋相|spectacle; 出洋相: to make a fool of oneself|o;n
+小卖部|tuck shop, small convenience shop|o
+景区|scenic area, tourist site|o
 常委会|standing committee|o
+三轮车|tricycle, pedicab|o
+菜市场|food market, wet market|o
+朋友圈|WeChat Moments; circle of friends|o;o
+农历|lunar calendar (Chinese)|o
+哪里哪里|not at all (modest reply to a compliment)|o
+唐装|Tang suit (traditional Chinese jacket)|o
 服务区|service area (on a motorway); coverage area (of a mobile network)|o;o
+抠门|stingy (colloq.)|o
+夜市|night market|o
+烧香|to burn incense (at a temple)|v
 具名|to put one's name to, to be named|v
 冷冷清清|deserted and quiet, desolate|o
+四合院|siheyuan, courtyard house (Beijing)|o
+学霸|top student, swot (slang)|o
+网吧|internet café|o
+种草|to get someone wanting to buy something (slang); to plant grass|v;v
 界碑|boundary marker|o
+破防|to be emotionally broken through, deeply moved or upset (slang)|v
 座谈会|forum, discussion meeting|o
+棉袄|padded cotton jacket|o
 发胶|hair gel, hairspray|o
+春运|Spring Festival travel rush|o
 白鹭|egret|o
+卧铺|sleeper berth (on a train)|o
+彩礼|betrothal gift, bride price|o
+扫墓|to sweep the graves (honour ancestors, esp. at Qingming)|v
+网红|internet celebrity, influencer|o
 腰椎|lumbar vertebra, lower spine|o
+臭豆腐|stinky tofu|o
+快递员|courier, delivery man|o
 垫付|to pay for someone in advance|v
 警灯|police light, siren light|o
+蒸笼|bamboo steamer|o
+网购|online shopping; to shop online|o;v
+热水壶|electric kettle|o
+腊八|Laba festival (8th day of the 12th lunar month)|o
+挂号|to register (at a hospital); to send by registered mail|v;v
 糖原|glycogen|o
+年终奖|year-end bonus|o
 庙会|temple fair|o
 老伴儿|husband or wife (of an old couple)|o
+七夕|Qixi, Chinese Valentine's Day (7th day of the 7th lunar month)|o
 随葬品|burial goods, grave goods|o
+寒假|winter holiday (school)|o
+内卷|rat race, involution (pointless competition)|o
+保温杯|thermos flask, insulated cup|o
+居委会|neighbourhood committee|o
 边角料|offcuts, scraps|o
+铁饭碗|iron rice bowl, secure lifelong job|o
+国庆节|National Day (1 October)|o
+考研|to take the postgraduate entrance exam|v
+公积金|housing provident fund|o
 防卫过当|excessive self-defence (legal)|o
 保洁|cleaning (service); cleaner|o;o
+元宵节|Lantern Festival (15th of the 1st lunar month)|o
+剩女|"leftover woman" (unmarried woman in her late twenties or older)|o
+压岁钱|New Year money (given to children in red envelopes)|o
 封盖|to block (a shot, basketball)|v
+硬座|hard seat (on a train)|o
+汤圆|tangyuan (sweet glutinous rice balls)|o
+三好学生|model student (good in conduct, study and health)|o
+佛系|laid-back, easy-going, unbothered (slang)|o
 大后天|in three days' time|o
+学区房|home in a good school district|o
+晾衣架|clothes-drying rack|o
 椎间盘|intervertebral disc|o
+短视频|short video|o
+红领巾|red scarf (Young Pioneers)|o
+躺平|to lie flat, opt out of the rat race (slang)|v
+份子钱|cash gift (pooled for a wedding etc.)|o
 带货|to promote goods (online, livestream selling)|v
 焊缝|weld seam|o
 总包|main contractor (general contracting)|o
+麻辣烫|malatang (spicy numbing hotpot soup)|o
+扫码|to scan a QR code|v
+清明节|Qingming festival, Tomb-Sweeping Day|o
+端午节|Dragon Boat Festival|o
+春联|Spring Festival couplets (on doorways)|o
 监舍|prison cell, cellblock|o
+本命年|one's zodiac year (every 12 years, thought unlucky)|o
+秋裤|long johns|o
 捧哏|straight man (in crosstalk)|o
 毛肚|tripe (beef, in hotpot)|o
+打工人|working stiff, wage worker (slang)|o
+炒锅|wok|o
+暖水瓶|thermos flask (for hot water)|o
+电饭锅|rice cooker|o
+社恐|socially anxious (person) (slang)|o
+重阳节|Double Ninth Festival (9th of the 9th lunar month)|o
 弄堂|lane, alley (Shanghai dialect)|o
 微信|WeChat (the messaging app); a WeChat message|o;o
 操场|sports ground, playground|o
@@ -13742,6 +13872,7 @@
 饮|to drink|v
 届|session, term (of office, a graduating class); to fall due; (measure word: sessions, graduating classes)|o;v;g
 判|to judge, to sentence|v
+煎|to pan-fry|v
 甚|very, extremely|o
 致|to send, to extend (greetings); to cause, to result in; fine, delicate|v;v;o
 准|accurate; to allow|o;v
@@ -13840,6 +13971,7 @@
 劈|to split, chop|v
 债|debt|o
 稳|steady, stable|o
+凑|to gather, to put together; to approach|v;v
 木|wood, tree|o
 谅|to forgive, to excuse|v
 御|imperial; to defend against|o;v
@@ -14078,6 +14210,7 @@
 僵|stiff, rigid; deadlocked|o;o
 聚|to gather, to assemble|v
 铃|bell|o
+晾|to air, to dry in the air|v
 消|to disappear; to eliminate|v;v
 确|true, certain; firm|o;o
 论|to discuss; theory; by (a unit), in terms of|v;o;o
@@ -14294,6 +14427,7 @@
 胶|glue; rubber, plastic|o;o
 衰|to decline, to weaken|v
 霜|frost|o
+壶|pot, kettle|o
 框|frame; to frame, to draw a box around|o;v
 沮|沮丧: dejected|n
 皇|emperor, imperial|o
@@ -14565,6 +14699,7 @@
 束|bundle; to bind; (measure word: bunches, bouquets, beams of light)|o;v;g
 植|to plant|v
 岗|post, sentry; mound|o;o
+抠|to dig, pick at; stingy|v;o
 梯|ladder, stairs|o
 瓮|urn, earthen jar|o
 缀|to sew, stitch; to embellish|v;v
@@ -14679,6 +14814,7 @@
 浆|thick liquid, pulp; starch|o;o
 溶|to dissolve|v
 突|sudden; to break through|o;v
+粽|zongzi (rice dumpling)|o
 蛛|spider|o
 遥|distant, far|o
 映|to reflect, to shine on|v
@@ -14979,6 +15115,7 @@
 妨|to hinder, to obstruct|v
 姑|aunt (father's sister); girl|o;o
 姗|slowly, leisurely|o
+姥|maternal grandmother|o
 姻|marriage, in-law relations|o
 娇|delicate, charming; pampered|o;o
 娱|to amuse; entertainment|v;o
@@ -15000,6 +15137,7 @@
 宛|as if, seemingly; winding|o;o
 宜|suitable, fitting|o
 宪|constitution, statute|o
+宵|night|o
 宿|to stay the night; lodging|v;o
 寂|quiet, lonely|o
 寓|to reside; residence; to imply|v;o;v
@@ -15463,6 +15601,7 @@
 衍|to spread out, derive; to develop|v;v
 衔|to hold in the mouth; rank, title|v;o
 衷|inner feelings, heart|o
+袄|padded jacket|o
 袖|sleeve|o
 裨|benefit, advantage (裨益)|o
 裳|skirt, clothing|o
@@ -15601,6 +15740,7 @@
 频|frequency; repeatedly|o;o
 飓|hurricane (飓风)|o
 饪|烹饪: cooking|n
+饺|dumpling|o
 馈|to present, give; feedback (反馈)|v;o
 驭|to drive, control|v
 驯|to tame; tame|v;o

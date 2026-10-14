@@ -1,22 +1,22 @@
 {
   "id": "id",
-  "version": "1.1.141",
+  "version": "1.1.167",
   "minApp": "0.2.5",
   "files": {
     "lex": {
       "path": "lex.txt",
       "license": "unencumbered",
-      "sha256": "6d5f3a43e90124d2cf9011dd3142e5b69abecc277b2ad93fd61d112ef62e049c"
+      "sha256": "994ac6fc71955e0cd2bfdc86b6eedfabf8117ce3586057aeaa72e90c089757af"
     },
     "gloss.en": {
       "path": "gloss.en.txt",
       "license": "unencumbered",
-      "sha256": "5d4f11b8e3bf264d6df09f3387480393ae023831b654f4564faedef32c079a7a"
+      "sha256": "c7740bb22683b50f322becf486ec4e4b9b47d40aa58b79326dfea2080386ec4c"
     },
     "ranks": {
       "path": "ranks.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "5040d84d369b8f300d633e070449f3681c5191814f2f514f58d370b84bb0896b"
+      "sha256": "cbab2e014e4d01b6f5ce6f3389fd53385bb7d4051471533e38f36c63e9a2be67"
     },
     "learner": {
       "path": "learner.txt",
@@ -41,7 +41,7 @@
     "gloss.es": {
       "path": "gloss.es.txt",
       "license": "unencumbered",
-      "sha256": "34bccc78fdbb1fa15ad3531d4163eaf13d0a6e06debd70ac1b97bf33a4ee90af"
+      "sha256": "1d245a938167086a9d5aef277833df9bba98a98e4707816b854b7532a480f2dc"
     },
     "phrases.es": {
       "path": "phrases.es.txt",
@@ -56,7 +56,7 @@
     "gloss.fr": {
       "path": "gloss.fr.txt",
       "license": "unencumbered",
-      "sha256": "1a0ec0b23158d013984d59c795d8c4be7cb19816a30478e60e7ef58232d2bdf7"
+      "sha256": "a8d33a5f04ef7efcbe77c4a59e86f61eefd55be089ac042d56e5bb6217992c00"
     },
     "phrases.pt": {
       "path": "phrases.pt.txt",
@@ -66,7 +66,7 @@
     "gloss.pt": {
       "path": "gloss.pt.txt",
       "license": "unencumbered",
-      "sha256": "d0cc3061123675ffd013fc6dba29e3083c1d448f20acb55004fab7daa0b9c790"
+      "sha256": "8a881e33c4b533b251e732d45720364e66c19a1d17ee239d93c5690f3ef5cef0"
     },
     "phrases.zh": {
       "path": "phrases.zh.txt",
@@ -76,7 +76,7 @@
     "gloss.zh": {
       "path": "gloss.zh.txt",
       "license": "unencumbered",
-      "sha256": "f124451b891376091e2d06a10689877c5ce7a6f52619ab6c5d36a5e2a5b9054a"
+      "sha256": "96c12401e45e827962d80bebd9c4d0508d32f1f70efb684682e9754e84f65652"
     },
     "letters": {
       "path": "letters.txt",
