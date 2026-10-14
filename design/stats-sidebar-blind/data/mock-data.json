@@ -1,0 +1,7733 @@
+{
+ "texts": {
+  "tortuga": {
+   "title": "La tortuga gigante",
+   "source": "Horacio Quiroga, Cuentos de la selva (1918), opening",
+   "total": 262,
+   "counts": {
+    "k": 227,
+    "l": 2,
+    "u": 33,
+    "i": 0
+   },
+   "unique": {
+    "total": 131,
+    "k": 105,
+    "l": 2,
+    "u": 24,
+    "i": 0
+   },
+   "headline": 86,
+   "new_unique": 24,
+   "learning_words": [
+    {
+     "word": "director",
+     "gloss": "director; principal",
+     "count": 1,
+     "first": 65,
+     "band": "Top 1,500 — corpus #802"
+    },
+    {
+     "word": "viento",
+     "gloss": "wind",
+     "count": 1,
+     "first": 218,
+     "band": "Top 1,500 — corpus #1353"
+    }
+   ],
+   "new_words": [
+    {
+     "word": "monte",
+     "gloss": "mountain, hill",
+     "count": 4,
+     "first": 92,
+     "band": "Top 4,000 — corpus #3447"
+    },
+    {
+     "word": "aire",
+     "gloss": "air",
+     "count": 2,
+     "first": 10,
+     "band": "Top 1,500 — corpus #689"
+    },
+    {
+     "word": "enfermar",
+     "gloss": "to fall ill; to make ill",
+     "count": 2,
+     "first": 26,
+     "band": "Top 4,000 — corpus #3952"
+    },
+    {
+     "word": "escopeta",
+     "gloss": "shotgun",
+     "count": 2,
+     "first": 110,
+     "band": "4,000+ — corpus #4947"
+    },
+    {
+     "word": "cazar",
+     "gloss": "to hunt",
+     "count": 2,
+     "first": 111,
+     "band": "Top 4,000 — corpus #2253"
+    },
+    {
+     "word": "bicho",
+     "gloss": "bug, creature",
+     "count": 2,
+     "first": 112,
+     "band": "Top 4,000 — corpus #3244"
+    },
+    {
+     "word": "cuero",
+     "gloss": "leather",
+     "count": 2,
+     "first": 118,
+     "band": "Top 4,000 — corpus #3872"
+    },
+    {
+     "word": "solamente",
+     "gloss": "only",
+     "count": 1,
+     "first": 33,
+     "band": "Top 1,500 — corpus #1382"
+    },
+    {
+     "word": "zoológico",
+     "gloss": "zoo",
+     "count": 1,
+     "first": 67,
+     "band": "4,000+ — corpus #5788"
+    },
+    {
+     "word": "ejercicio",
+     "gloss": "exercise",
+     "count": 1,
+     "first": 96,
+     "band": "Top 4,000 — corpus #2264"
+    },
+    {
+     "word": "puntería",
+     "gloss": "aim, marksmanship",
+     "count": 1,
+     "first": 107,
+     "band": "4,000+ — corpus #8781"
+    },
+    {
+     "word": "adelantar",
+     "gloss": "to move forward; to overtake",
+     "count": 1,
+     "first": 124,
+     "band": "Top 4,000 — corpus #4301"
+    },
+    {
+     "word": "hermanitos",
+     "gloss": "",
+     "count": 1,
+     "first": 128,
+     "band": "Unlisted"
+    },
+    {
+     "word": "calor",
+     "gloss": "heat; tener calor: to be hot",
+     "count": 1,
+     "first": 152,
+     "band": "Top 1,500 — corpus #1286"
+    },
+    {
+     "word": "fruta",
+     "gloss": "fruit (to eat: apples, oranges, bananas)",
+     "count": 1,
+     "first": 182,
+     "band": "4,000+"
+    },
+    {
+     "word": "ramadita",
+     "gloss": "",
+     "count": 1,
+     "first": 197,
+     "band": "Unlisted"
+    },
+    {
+     "word": "hoja",
+     "gloss": "leaf; sheet (of paper)",
+     "count": 1,
+     "first": 199,
+     "band": "Top 4,000 — corpus #2008"
+    },
+    {
+     "word": "palmera",
+     "gloss": "palm tree",
+     "count": 1,
+     "first": 201,
+     "band": "4,000+ — corpus #11726"
+    },
+    {
+     "word": "bramar",
+     "gloss": "to roar, bellow",
+     "count": 1,
+     "first": 215,
+     "band": "4,000+"
+    },
+    {
+     "word": "agarrado",
+     "gloss": "holding on, clutching; stingy (colloq.)",
+     "count": 1,
+     "first": 239,
+     "band": "4,000+ — corpus #9365"
+    },
+    {
+     "word": "víbora",
+     "gloss": "viper",
+     "count": 1,
+     "first": 242,
+     "band": "4,000+ — corpus #6480"
+    },
+    {
+     "word": "venenoso",
+     "gloss": "poisonous",
+     "count": 1,
+     "first": 243,
+     "band": "4,000+ — corpus #5733"
+    },
+    {
+     "word": "lata",
+     "gloss": "can, tin; nuisance (colloq.); dar la lata: to pester",
+     "count": 1,
+     "first": 260,
+     "band": "Top 4,000 — corpus #2682"
+    },
+    {
+     "word": "querosene",
+     "gloss": "",
+     "count": 1,
+     "first": 262,
+     "band": "Unlisted"
+    }
+   ],
+   "repeated_new": [
+    {
+     "word": "monte",
+     "gloss": "mountain, hill",
+     "count": 4,
+     "first": 92,
+     "band": "Top 4,000 — corpus #3447"
+    },
+    {
+     "word": "aire",
+     "gloss": "air",
+     "count": 2,
+     "first": 10,
+     "band": "Top 1,500 — corpus #689"
+    },
+    {
+     "word": "enfermar",
+     "gloss": "to fall ill; to make ill",
+     "count": 2,
+     "first": 26,
+     "band": "Top 4,000 — corpus #3952"
+    },
+    {
+     "word": "escopeta",
+     "gloss": "shotgun",
+     "count": 2,
+     "first": 110,
+     "band": "4,000+ — corpus #4947"
+    },
+    {
+     "word": "cazar",
+     "gloss": "to hunt",
+     "count": 2,
+     "first": 111,
+     "band": "Top 4,000 — corpus #2253"
+    },
+    {
+     "word": "bicho",
+     "gloss": "bug, creature",
+     "count": 2,
+     "first": 112,
+     "band": "Top 4,000 — corpus #3244"
+    },
+    {
+     "word": "cuero",
+     "gloss": "leather",
+     "count": 2,
+     "first": 118,
+     "band": "Top 4,000 — corpus #3872"
+    }
+   ],
+   "repeated_tokens": 16,
+   "after_repeated_pct": 92,
+   "one_in": 8,
+   "paragraphs": 5,
+   "tokens": [
+    {
+     "t": "Había",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "vez",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "hombre",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "vivía",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Buenos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Aires",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "estaba",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "muy",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "contento",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "porque",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "era",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "hombre",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "sano",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "trabajador",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Pero",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "día",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "enfermó",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "médicos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "dijeron",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "solamente",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "yéndose",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "al",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "campo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "podría",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "curarse",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Él",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "quería",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "ir",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "porque",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "tenía",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "hermanos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "chicos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "quienes",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "daba",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "comer",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "enfermaba",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "cada",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "día",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Hasta",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "amigo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "suyo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "era",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "director",
+     "s": "l",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "del",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Zoológico",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "dijo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "día",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Usted",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "es",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "amigo",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "mío",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "es",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "hombre",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "bueno",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "trabajador",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Por",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "eso",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "quiero",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "vaya",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "vivir",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "al",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "monte",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "hacer",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "mucho",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "ejercicio",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "al",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "aire",
+     "s": "u",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "libre",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "para",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "curarse",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Y",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "como",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "usted",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "tiene",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "mucha",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "puntería",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "escopeta",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "cace",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "bichos",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "del",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "monte",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "para",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "traerme",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "cueros",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "yo",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "daré",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "plata",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "adelantada",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "para",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "sus",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "hermanitos",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "puedan",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "comer",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "bien",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "El",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "hombre",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "enfermo",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "aceptó",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "fue",
+     "s": "k",
+     "p": 2,
+     "phr": true
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 2,
+     "phr": true
+    },
+    {
+     "t": "vivir",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "al",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "monte",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "lejos",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "lejos",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "Misiones",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "todavía",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "Hacía",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "allá",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "mucho",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "calor",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "eso",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "hacía",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "bien",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "Vivía",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "solo",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "bosque",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "él",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "mismo",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "cocinaba",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "Comía",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "pájaros",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "bichos",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "del",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "monte",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "cazaba",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "escopeta",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "después",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "comía",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "frutas",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "Dormía",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "bajo",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "árboles",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "cuando",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "hacía",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "mal",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "tiempo",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "construía",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "cinco",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "minutos",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "ramadita",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "hojas",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "palmera",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "allí",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "pasaba",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "sentado",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "fumando",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "muy",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "contento",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "medio",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "del",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "bosque",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "bramaba",
+     "s": "u",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "viento",
+     "s": "l",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "lluvia",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "Había",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "hecho",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "atado",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "cueros",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "animales",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "llevaba",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "al",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "hombro",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Había",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "también",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "agarrado",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "vivas",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "muchas",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "víboras",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "venenosas",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "llevaba",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "dentro",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "gran",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "mate",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "porque",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "allá",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "hay",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "mates",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "tan",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "grandes",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "como",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "lata",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "querosene",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    }
+   ],
+   "bands": [
+    {
+     "label": "1–100",
+     "pct": 55.7
+    },
+    {
+     "label": "101–500",
+     "pct": 19.5
+    },
+    {
+     "label": "501–1,500",
+     "pct": 9.9
+    },
+    {
+     "label": "1,501–4,000",
+     "pct": 9.9
+    },
+    {
+     "label": "4,000+",
+     "pct": 3.8
+    },
+    {
+     "label": "Unlisted",
+     "pct": 1.1
+    }
+   ]
+  },
+  "quijote": {
+   "title": "Don Quijote, capítulo 1",
+   "source": "Miguel de Cervantes (1605), first two paragraphs",
+   "total": 217,
+   "counts": {
+    "k": 160,
+    "l": 0,
+    "u": 57,
+    "i": 0
+   },
+   "unique": {
+    "total": 133,
+    "k": 78,
+    "l": 0,
+    "u": 55,
+    "i": 0
+   },
+   "headline": 73,
+   "new_unique": 55,
+   "learning_words": [],
+   "new_words": [
+    {
+     "word": "hidalgo",
+     "gloss": "",
+     "count": 2,
+     "first": 20,
+     "band": "Unlisted"
+    },
+    {
+     "word": "rocín",
+     "gloss": "",
+     "count": 2,
+     "first": 29,
+     "band": "Unlisted"
+    },
+    {
+     "word": "mancha",
+     "gloss": "stain, spot",
+     "count": 1,
+     "first": 6,
+     "band": "Top 4,000 — corpus #2634"
+    },
+    {
+     "word": "cuyo",
+     "gloss": "whose",
+     "count": 1,
+     "first": 8,
+     "band": "Top 4,000 — corpus #1942"
+    },
+    {
+     "word": "lanza",
+     "gloss": "spear, lance; he/she/it throws, launches",
+     "count": 1,
+     "first": 24,
+     "band": "Top 4,000 — corpus #3326"
+    },
+    {
+     "word": "astillero",
+     "gloss": "shipyard",
+     "count": 1,
+     "first": 26,
+     "band": "4,000+ — corpus #11557"
+    },
+    {
+     "word": "adarga",
+     "gloss": "",
+     "count": 1,
+     "first": 27,
+     "band": "Unlisted"
+    },
+    {
+     "word": "antiguo",
+     "gloss": "old, ancient; former",
+     "count": 1,
+     "first": 28,
+     "band": "Top 1,500 — corpus #817"
+    },
+    {
+     "word": "flaco",
+     "gloss": "skinny",
+     "count": 1,
+     "first": 30,
+     "band": "4,000+ — corpus #5271"
+    },
+    {
+     "word": "galgo",
+     "gloss": "greyhound",
+     "count": 1,
+     "first": 32,
+     "band": "4,000+ — corpus #27504"
+    },
+    {
+     "word": "olla",
+     "gloss": "pot",
+     "count": 1,
+     "first": 35,
+     "band": "4,000+ — corpus #5450"
+    },
+    {
+     "word": "carnero",
+     "gloss": "ram; mutton",
+     "count": 1,
+     "first": 41,
+     "band": "4,000+ — corpus #16172"
+    },
+    {
+     "word": "salpicón",
+     "gloss": "",
+     "count": 1,
+     "first": 42,
+     "band": "Unlisted"
+    },
+    {
+     "word": "duelo",
+     "gloss": "grief, mourning; duel",
+     "count": 1,
+     "first": 46,
+     "band": "Top 4,000 — corpus #3911"
+    },
+    {
+     "word": "quebrantos",
+     "gloss": "",
+     "count": 1,
+     "first": 48,
+     "band": "Unlisted"
+    },
+    {
+     "word": "lentejas",
+     "gloss": "",
+     "count": 1,
+     "first": 51,
+     "band": "Unlisted"
+    },
+    {
+     "word": "palomino",
+     "gloss": "",
+     "count": 1,
+     "first": 55,
+     "band": "Unlisted"
+    },
+    {
+     "word": "añadidura",
+     "gloss": "addition; por añadidura: in addition",
+     "count": 1,
+     "first": 57,
+     "band": "4,000+"
+    },
+    {
+     "word": "consumir",
+     "gloss": "to consume",
+     "count": 1,
+     "first": 60,
+     "band": "Top 4,000 — corpus #3397"
+    },
+    {
+     "word": "hacienda",
+     "gloss": "estate, ranch; treasury",
+     "count": 1,
+     "first": 66,
+     "band": "4,000+ — corpus #6043"
+    },
+    {
+     "word": "della",
+     "gloss": "",
+     "count": 1,
+     "first": 69,
+     "band": "Unlisted"
+    },
+    {
+     "word": "concluir",
+     "gloss": "to conclude",
+     "count": 1,
+     "first": 70,
+     "band": "4,000+ — corpus #5794"
+    },
+    {
+     "word": "sayo",
+     "gloss": "smock, tunic",
+     "count": 1,
+     "first": 71,
+     "band": "4,000+"
+    },
+    {
+     "word": "velar",
+     "gloss": "to watch over, to look after (velar por); to hold a wake",
+     "count": 1,
+     "first": 73,
+     "band": "4,000+ — corpus #13548"
+    },
+    {
+     "word": "calza",
+     "gloss": "wedge; calzas: breeches, hose",
+     "count": 1,
+     "first": 74,
+     "band": "4,000+ — corpus #15033"
+    },
+    {
+     "word": "velludo",
+     "gloss": "",
+     "count": 1,
+     "first": 76,
+     "band": "Unlisted"
+    },
+    {
+     "word": "pantuflos",
+     "gloss": "",
+     "count": 1,
+     "first": 82,
+     "band": "Unlisted"
+    },
+    {
+     "word": "mesmo",
+     "gloss": "",
+     "count": 1,
+     "first": 85,
+     "band": "Unlisted"
+    },
+    {
+     "word": "entresemana",
+     "gloss": "",
+     "count": 1,
+     "first": 90,
+     "band": "Unlisted"
+    },
+    {
+     "word": "honrar",
+     "gloss": "to honour",
+     "count": 1,
+     "first": 92,
+     "band": "4,000+ — corpus #5916"
+    },
+    {
+     "word": "vellorí",
+     "gloss": "",
+     "count": 1,
+     "first": 95,
+     "band": "Unlisted"
+    },
+    {
+     "word": "fino",
+     "gloss": "fine; thin; refined",
+     "count": 1,
+     "first": 99,
+     "band": "Top 4,000 — corpus #3299"
+    },
+    {
+     "word": "cuarenta",
+     "gloss": "forty",
+     "count": 1,
+     "first": 110,
+     "band": "Top 4,000 — corpus #3745"
+    },
+    {
+     "word": "sobrino",
+     "gloss": "nephew; niece (f.)",
+     "count": 1,
+     "first": 113,
+     "band": "Top 4,000 — corpus #1921"
+    },
+    {
+     "word": "veinte",
+     "gloss": "twenty",
+     "count": 1,
+     "first": 119,
+     "band": "Top 4,000 — corpus #2131"
+    },
+    {
+     "word": "mozo",
+     "gloss": "waiter; young man",
+     "count": 1,
+     "first": 122,
+     "band": "4,000+ — corpus #5755"
+    },
+    {
+     "word": "plaza",
+     "gloss": "square; place, spot",
+     "count": 1,
+     "first": 126,
+     "band": "Top 4,000 — corpus #2668"
+    },
+    {
+     "word": "ensillar",
+     "gloss": "to saddle",
+     "count": 1,
+     "first": 129,
+     "band": "4,000+"
+    },
+    {
+     "word": "podadera",
+     "gloss": "",
+     "count": 1,
+     "first": 135,
+     "band": "Unlisted"
+    },
+    {
+     "word": "frisaba",
+     "gloss": "",
+     "count": 1,
+     "first": 136,
+     "band": "Unlisted"
+    },
+    {
+     "word": "complexión",
+     "gloss": "build, constitution",
+     "count": 1,
+     "first": 148,
+     "band": "4,000+ — corpus #18906"
+    },
+    {
+     "word": "recia",
+     "gloss": "",
+     "count": 1,
+     "first": 149,
+     "band": "Unlisted"
+    },
+    {
+     "word": "seco",
+     "gloss": "dry",
+     "count": 1,
+     "first": 150,
+     "band": "Top 4,000 — corpus #2599"
+    },
+    {
+     "word": "enjuto",
+     "gloss": "lean, gaunt",
+     "count": 1,
+     "first": 153,
+     "band": "4,000+"
+    },
+    {
+     "word": "madrugador",
+     "gloss": "",
+     "count": 1,
+     "first": 157,
+     "band": "Unlisted"
+    },
+    {
+     "word": "sobrenombre",
+     "gloss": "nickname",
+     "count": 1,
+     "first": 168,
+     "band": "4,000+ — corpus #15893"
+    },
+    {
+     "word": "quijada",
+     "gloss": "jaw, jawbone",
+     "count": 1,
+     "first": 170,
+     "band": "4,000+ — corpus #20057"
+    },
+    {
+     "word": "quesada",
+     "gloss": "",
+     "count": 1,
+     "first": 172,
+     "band": "Unlisted"
+    },
+    {
+     "word": "autor",
+     "gloss": "author; perpetrator",
+     "count": 1,
+     "first": 181,
+     "band": "Top 4,000 — corpus #3261"
+    },
+    {
+     "word": "deste",
+     "gloss": "",
+     "count": 1,
+     "first": 183,
+     "band": "Unlisted"
+    },
+    {
+     "word": "conjetura",
+     "gloss": "conjecture",
+     "count": 1,
+     "first": 188,
+     "band": "4,000+ — corpus #8221"
+    },
+    {
+     "word": "verosímil",
+     "gloss": "plausible, credible",
+     "count": 1,
+     "first": 189,
+     "band": "4,000+"
+    },
+    {
+     "word": "quijana",
+     "gloss": "",
+     "count": 1,
+     "first": 196,
+     "band": "Unlisted"
+    },
+    {
+     "word": "narración",
+     "gloss": "narration, narrative",
+     "count": 1,
+     "first": 208,
+     "band": "4,000+ — corpus #18760"
+    },
+    {
+     "word": "dél",
+     "gloss": "",
+     "count": 1,
+     "first": 209,
+     "band": "Unlisted"
+    }
+   ],
+   "repeated_new": [
+    {
+     "word": "hidalgo",
+     "gloss": "",
+     "count": 2,
+     "first": 20,
+     "band": "Unlisted"
+    },
+    {
+     "word": "rocín",
+     "gloss": "",
+     "count": 2,
+     "first": 29,
+     "band": "Unlisted"
+    }
+   ],
+   "repeated_tokens": 4,
+   "after_repeated_pct": 75,
+   "one_in": 4,
+   "paragraphs": 2,
+   "tokens": [
+    {
+     "t": "En",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "lugar",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Mancha",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "cuyo",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "nombre",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "quiero",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "acordarme",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "ha",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mucho",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "tiempo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "vivía",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "hidalgo",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "lanza",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "astillero",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "adarga",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "antigua",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "rocín",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "flaco",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "galgo",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "corredor",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Una",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "olla",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "algo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "vaca",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "carnero",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "salpicón",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "noches",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "duelos",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "quebrantos",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "sábados",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "lentejas",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "viernes",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "algún",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "palomino",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "añadidura",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "domingos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "consumían",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "tres",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "partes",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "su",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "hacienda",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "El",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "resto",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "della",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "concluían",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "sayo",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "velarte",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "calzas",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "velludo",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "para",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "fiestas",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "sus",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "pantuflos",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mesmo",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "días",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "entresemana",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "honraba",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "su",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "vellorí",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "fino",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Tenía",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "su",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "casa",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "ama",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "pasaba",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "cuarenta",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "sobrina",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "llegaba",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "veinte",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mozo",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "campo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "plaza",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "así",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "ensillaba",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "rocín",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "como",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "tomaba",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "podadera",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Frisaba",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "edad",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "nuestro",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "hidalgo",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "cincuenta",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "años",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "era",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "complexión",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "recia",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "seco",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "carnes",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "enjuto",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "rostro",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "gran",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "madrugador",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "amigo",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "caza",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Quieren",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "decir",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "tenía",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "sobrenombre",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Quijada",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "o",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Quesada",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "esto",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "hay",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "alguna",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "diferencia",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "los",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "autores",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "deste",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "caso",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "escriben",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "aunque",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "por",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "conjeturas",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "verosímiles",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "deja",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "entender",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "llamaba",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Quijana",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Pero",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "esto",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "importa",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "poco",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "nuestro",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "cuento",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "basta",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "narración",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "dél",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "salga",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "punto",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "verdad",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    }
+   ],
+   "bands": [
+    {
+     "label": "1–100",
+     "pct": 52.1
+    },
+    {
+     "label": "101–500",
+     "pct": 13.8
+    },
+    {
+     "label": "501–1,500",
+     "pct": 5.5
+    },
+    {
+     "label": "1,501–4,000",
+     "pct": 8.3
+    },
+    {
+     "label": "4,000+",
+     "pct": 9.7
+    },
+    {
+     "label": "Unlisted",
+     "pct": 10.6
+    }
+   ]
+  },
+  "cena": {
+   "title": "La cena a las diez",
+   "source": "Tinta's built-in story 1 (level 500)",
+   "total": 110,
+   "counts": {
+    "k": 109,
+    "l": 0,
+    "u": 1,
+    "i": 0
+   },
+   "unique": {
+    "total": 59,
+    "k": 58,
+    "l": 0,
+    "u": 1,
+    "i": 0
+   },
+   "headline": 99,
+   "new_unique": 1,
+   "learning_words": [],
+   "new_words": [
+    {
+     "word": "sobremesa",
+     "gloss": "time spent talking at the table after a meal",
+     "count": 1,
+     "first": 94,
+     "band": "4,000+"
+    }
+   ],
+   "repeated_new": [],
+   "repeated_tokens": 0,
+   "after_repeated_pct": 99,
+   "one_in": 110,
+   "paragraphs": 11,
+   "tokens": [
+    {
+     "t": "Son",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "siete",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "tengo",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "hambre",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "Cuándo",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "vamos",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "comer",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "pregunto",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "mi",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "amiga",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "A",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "diez",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "dice",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "ella",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "A",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "diez",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "noche",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "Es",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "muy",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "tarde",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "No",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "aquí",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "es",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "así",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Comimos",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "tres",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Es",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "verdad",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "Aquí",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "comida",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "es",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "tres",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "cena",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "muy",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "tarde",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "Por",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "noche",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "casa",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "mi",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "amiga",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "hay",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "mucha",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "gente",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "mesa",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "Hablamos",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "comemos",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "bebemos",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "Después",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "ya",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "queda",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "nada",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "levanto",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "A",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "dónde",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "vas",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "pregunta",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "mi",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "amiga",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "No",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "nos",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "vamos",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "Qué",
+     "s": "k",
+     "p": 9,
+     "phr": true
+    },
+    {
+     "t": "va",
+     "s": "k",
+     "p": 9,
+     "phr": true
+    },
+    {
+     "t": "Ahora",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "viene",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "sobremesa",
+     "s": "u",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "Nadie",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "levanta",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "Todos",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "hablan",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "hablan",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "A",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "mañana",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "todavía",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "estamos",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "allí",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    }
+   ],
+   "bands": [
+    {
+     "label": "1–100",
+     "pct": 67.3
+    },
+    {
+     "label": "101–500",
+     "pct": 24.5
+    },
+    {
+     "label": "501–1,500",
+     "pct": 7.3
+    },
+    {
+     "label": "1,501–4,000",
+     "pct": 0.0
+    },
+    {
+     "label": "4,000+",
+     "pct": 0.9
+    },
+    {
+     "label": "Unlisted",
+     "pct": 0.0
+    }
+   ]
+  },
+  "ofrenda": {
+   "title": "La ofrenda",
+   "source": "Tinta's built-in story 2 (level 1500)",
+   "total": 217,
+   "counts": {
+    "k": 194,
+    "l": 1,
+    "u": 22,
+    "i": 0
+   },
+   "unique": {
+    "total": 126,
+    "k": 107,
+    "l": 1,
+    "u": 18,
+    "i": 0
+   },
+   "headline": 89,
+   "new_unique": 18,
+   "learning_words": [
+    {
+     "word": "invitar",
+     "gloss": "to invite",
+     "count": 1,
+     "first": 5,
+     "band": "Top 1,500 — corpus #929"
+    }
+   ],
+   "new_words": [
+    {
+     "word": "lupe",
+     "gloss": "",
+     "count": 4,
+     "first": 3,
+     "band": "Unlisted"
+    },
+    {
+     "word": "mole",
+     "gloss": "mole (Mexican sauce of chillies, spices and often chocolate)",
+     "count": 2,
+     "first": 62,
+     "band": "4,000+"
+    },
+    {
+     "word": "noviembre",
+     "gloss": "November",
+     "count": 1,
+     "first": 12,
+     "band": "Top 4,000 — corpus #3836"
+    },
+    {
+     "word": "naranja",
+     "gloss": "orange",
+     "count": 1,
+     "first": 22,
+     "band": "Top 4,000 — corpus #2777"
+    },
+    {
+     "word": "vela",
+     "gloss": "candle; sail",
+     "count": 1,
+     "first": 23,
+     "band": "Top 4,000 — corpus #2185"
+    },
+    {
+     "word": "vecino",
+     "gloss": "neighbor",
+     "count": 1,
+     "first": 38,
+     "band": "Top 1,500 — corpus #1238"
+    },
+    {
+     "word": "fruta",
+     "gloss": "fruit (to eat: apples, oranges, bananas)",
+     "count": 1,
+     "first": 58,
+     "band": "4,000+"
+    },
+    {
+     "word": "tequila",
+     "gloss": "tequila",
+     "count": 1,
+     "first": 66,
+     "band": "4,000+ — corpus #6064"
+    },
+    {
+     "word": "cigarro",
+     "gloss": "cigarette; cigar",
+     "count": 1,
+     "first": 69,
+     "band": "Top 4,000 — corpus #3615"
+    },
+    {
+     "word": "contestar",
+     "gloss": "to answer",
+     "count": 1,
+     "first": 76,
+     "band": "Top 1,500 — corpus #1067"
+    },
+    {
+     "word": "oler",
+     "gloss": "to smell",
+     "count": 1,
+     "first": 93,
+     "band": "Top 1,500 — corpus #895"
+    },
+    {
+     "word": "pedazo",
+     "gloss": "piece, bit",
+     "count": 1,
+     "first": 98,
+     "band": "Top 1,500 — corpus #1290"
+    },
+    {
+     "word": "vergüenza",
+     "gloss": "shame, embarrassment",
+     "count": 1,
+     "first": 115,
+     "band": "Top 1,500 — corpus #1533"
+    },
+    {
+     "word": "visitar",
+     "gloss": "to visit",
+     "count": 1,
+     "first": 126,
+     "band": "Top 1,500 — corpus #1379"
+    },
+    {
+     "word": "viaje",
+     "gloss": "trip, journey",
+     "count": 1,
+     "first": 133,
+     "band": "Top 1,500 — corpus #570"
+    },
+    {
+     "word": "marcar",
+     "gloss": "to mark; to dial; to score",
+     "count": 1,
+     "first": 158,
+     "band": "Top 4,000 — corpus #1828"
+    },
+    {
+     "word": "seco",
+     "gloss": "dry",
+     "count": 1,
+     "first": 206,
+     "band": "Top 4,000 — corpus #2599"
+    },
+    {
+     "word": "sabor",
+     "gloss": "flavour, taste",
+     "count": 1,
+     "first": 217,
+     "band": "Top 4,000 — corpus #2519"
+    }
+   ],
+   "repeated_new": [
+    {
+     "word": "lupe",
+     "gloss": "",
+     "count": 4,
+     "first": 3,
+     "band": "Unlisted"
+    },
+    {
+     "word": "mole",
+     "gloss": "mole (Mexican sauce of chillies, spices and often chocolate)",
+     "count": 2,
+     "first": 62,
+     "band": "4,000+"
+    }
+   ],
+   "repeated_tokens": 6,
+   "after_repeated_pct": 92,
+   "one_in": 10,
+   "paragraphs": 15,
+   "tokens": [
+    {
+     "t": "Mi",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "amiga",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Lupe",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "invitó",
+     "s": "l",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "su",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "casa",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "primero",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "noviembre",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Al",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "entrar",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "vi",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mesa",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "grande",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "llena",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "flores",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "naranjas",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "velas",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "fotos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "En",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "las",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "fotos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "había",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "personas",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mayores",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "sus",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "abuelos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "tío",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "vecina",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Es",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "ofrenda",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "dijo",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Lupe",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Mañana",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "es",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Día",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Muertos",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "En",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "mesa",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "también",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "había",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "comida",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "pan",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "fruta",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "plato",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "mole",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "botella",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "tequila",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "unos",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "cigarros",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "Tu",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "abuelo",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "fumaba",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "pregunté",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "Muchísimo",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "contestó",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "ella",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "riéndose",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Y",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "encantaba",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "mole",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "mi",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "mamá",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Yo",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "tenía",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "hambre",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "pan",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "olía",
+     "s": "u",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "muy",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "bien",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "Tomé",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "pedazo",
+     "s": "u",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "No",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "gritó",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "Lupe",
+     "s": "u",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "Ese",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "pan",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "es",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "para",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "ti",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "Es",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "para",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "mi",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "abuelo",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "Me",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "dio",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "mucha",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "vergüenza",
+     "s": "u",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "pero",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "todos",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "rieron",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "Esta",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "noche",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "vienen",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "nuestros",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "muertos",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "visitarnos",
+     "s": "u",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "explicó",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "su",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "mamá",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "Hacen",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "viaje",
+     "s": "u",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "muy",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "largo",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "llegan",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "hambre",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "sed",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "Por",
+     "s": "k",
+     "p": 8,
+     "phr": true
+    },
+    {
+     "t": "eso",
+     "s": "k",
+     "p": 8,
+     "phr": true
+    },
+    {
+     "t": "les",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "dejamos",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "agua",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "sal",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 8,
+     "phr": true
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 8,
+     "phr": true
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "les",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "gustaba",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "Las",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "flores",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "les",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "marcan",
+     "s": "u",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "camino",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "Entonces",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "es",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "día",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "triste",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "dije",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "yo",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "No",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "Es",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "fiesta",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "Los",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "recordamos",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "les",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "hacemos",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "compañía",
+     "s": "k",
+     "p": 10,
+     "phr": false
+    },
+    {
+     "t": "Dos",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "días",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "después",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "familia",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "sentó",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "comer",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "comida",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "ofrenda",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "Por",
+     "s": "k",
+     "p": 11,
+     "phr": true
+    },
+    {
+     "t": "fin",
+     "s": "k",
+     "p": 11,
+     "phr": true
+    },
+    {
+     "t": "probé",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "pan",
+     "s": "k",
+     "p": 11,
+     "phr": false
+    },
+    {
+     "t": "Qué",
+     "s": "k",
+     "p": 12,
+     "phr": true
+    },
+    {
+     "t": "tal",
+     "s": "k",
+     "p": 12,
+     "phr": true
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 12,
+     "phr": false
+    },
+    {
+     "t": "preguntó",
+     "s": "k",
+     "p": 12,
+     "phr": false
+    },
+    {
+     "t": "Lupe",
+     "s": "u",
+     "p": 12,
+     "phr": false
+    },
+    {
+     "t": "Está",
+     "s": "k",
+     "p": 13,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 13,
+     "phr": false
+    },
+    {
+     "t": "poco",
+     "s": "k",
+     "p": 13,
+     "phr": false
+    },
+    {
+     "t": "seco",
+     "s": "u",
+     "p": 13,
+     "phr": false
+    },
+    {
+     "t": "Claro",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "dijo",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "su",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "mamá",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "Los",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "muertos",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "ya",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "llevaron",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 14,
+     "phr": false
+    },
+    {
+     "t": "sabor",
+     "s": "u",
+     "p": 14,
+     "phr": false
+    }
+   ],
+   "bands": [
+    {
+     "label": "1–100",
+     "pct": 51.6
+    },
+    {
+     "label": "101–500",
+     "pct": 23.5
+    },
+    {
+     "label": "501–1,500",
+     "pct": 16.1
+    },
+    {
+     "label": "1,501–4,000",
+     "pct": 4.1
+    },
+    {
+     "label": "4,000+",
+     "pct": 2.8
+    },
+    {
+     "label": "Unlisted",
+     "pct": 1.8
+    }
+   ]
+  },
+  "mate": {
+   "title": "Un mate en la oficina",
+   "source": "Tinta's built-in story 3 (level 4000)",
+   "total": 233,
+   "counts": {
+    "k": 211,
+    "l": 0,
+    "u": 22,
+    "i": 0
+   },
+   "unique": {
+    "total": 112,
+    "k": 98,
+    "l": 0,
+    "u": 14,
+    "i": 0
+   },
+   "headline": 90,
+   "new_unique": 14,
+   "learning_words": [],
+   "new_words": [
+    {
+     "word": "martín",
+     "gloss": "",
+     "count": 4,
+     "first": 13,
+     "band": "Unlisted"
+    },
+    {
+     "word": "sofía",
+     "gloss": "",
+     "count": 3,
+     "first": 59,
+     "band": "Unlisted"
+    },
+    {
+     "word": "yerba",
+     "gloss": "grass, herb; maté (yerba mate)",
+     "count": 2,
+     "first": 23,
+     "band": "4,000+ — corpus #15759"
+    },
+    {
+     "word": "calabaza",
+     "gloss": "pumpkin; gourd (also the cup mate is drunk from)",
+     "count": 2,
+     "first": 28,
+     "band": "4,000+ — corpus #5498"
+    },
+    {
+     "word": "bombilla",
+     "gloss": "light bulb; metal straw for drinking mate",
+     "count": 2,
+     "first": 32,
+     "band": "4,000+ — corpus #8720"
+    },
+    {
+     "word": "aire",
+     "gloss": "air",
+     "count": 1,
+     "first": 9,
+     "band": "Top 1,500 — corpus #689"
+    },
+    {
+     "word": "media",
+     "gloss": "half (f.); average",
+     "count": 1,
+     "first": 11,
+     "band": "Top 1,500 — corpus #889"
+    },
+    {
+     "word": "termo",
+     "gloss": "thermos flask",
+     "count": 1,
+     "first": 19,
+     "band": "4,000+ — corpus #17181"
+    },
+    {
+     "word": "metal",
+     "gloss": "metal",
+     "count": 1,
+     "first": 34,
+     "band": "Top 4,000 — corpus #2422"
+    },
+    {
+     "word": "despacio",
+     "gloss": "slowly",
+     "count": 1,
+     "first": 107,
+     "band": "Top 4,000 — corpus #1575"
+    },
+    {
+     "word": "ofender",
+     "gloss": "to offend",
+     "count": 1,
+     "first": 111,
+     "band": "Top 4,000 — corpus #2028"
+    },
+    {
+     "word": "ronda",
+     "gloss": "round; patrol; it comes to about, it is around (a figure); he/she/it hangs around, haunts",
+     "count": 1,
+     "first": 137,
+     "band": "Top 4,000 — corpus #2343"
+    },
+    {
+     "word": "contestar",
+     "gloss": "to answer",
+     "count": 1,
+     "first": 184,
+     "band": "Top 1,500 — corpus #1067"
+    },
+    {
+     "word": "micrófono",
+     "gloss": "microphone",
+     "count": 1,
+     "first": 221,
+     "band": "Top 4,000 — corpus #3426"
+    }
+   ],
+   "repeated_new": [
+    {
+     "word": "martín",
+     "gloss": "",
+     "count": 4,
+     "first": 13,
+     "band": "Unlisted"
+    },
+    {
+     "word": "sofía",
+     "gloss": "",
+     "count": 3,
+     "first": 59,
+     "band": "Unlisted"
+    },
+    {
+     "word": "yerba",
+     "gloss": "grass, herb; maté (yerba mate)",
+     "count": 2,
+     "first": 23,
+     "band": "4,000+ — corpus #15759"
+    },
+    {
+     "word": "calabaza",
+     "gloss": "pumpkin; gourd (also the cup mate is drunk from)",
+     "count": 2,
+     "first": 28,
+     "band": "4,000+ — corpus #5498"
+    },
+    {
+     "word": "bombilla",
+     "gloss": "light bulb; metal straw for drinking mate",
+     "count": 2,
+     "first": 32,
+     "band": "4,000+ — corpus #8720"
+    }
+   ],
+   "repeated_tokens": 13,
+   "after_repeated_pct": 96,
+   "one_in": 11,
+   "paragraphs": 10,
+   "tokens": [
+    {
+     "t": "En",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mi",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "primer",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "día",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "trabajo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Buenos",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Aires",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "media",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mañana",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Martín",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "puso",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "sobre",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mesa",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "termo",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "paquete",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "yerba",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "mate",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "calabaza",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "pequeña",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "bombilla",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "metal",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Llenó",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "calabaza",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "yerba",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "echó",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "poco",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "agua",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "caliente",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "tomó",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "él",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "primero",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Después",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "volvió",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 0,
+     "phr": true
+    },
+    {
+     "t": "llenarlo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "pasó",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Sofía",
+     "s": "u",
+     "p": 0,
+     "phr": false
+    },
+    {
+     "t": "Sofía",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "tomó",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "hasta",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "final",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "hizo",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "ruido",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "bombilla",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "devolvió",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "mate",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Martín",
+     "s": "u",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "llenó",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "otra",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "vez",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "dio",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "otro",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "compañero",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Así",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "dando",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "vueltas",
+     "s": "k",
+     "p": 1,
+     "phr": true
+    },
+    {
+     "t": "alrededor",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "mesa",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "mate",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "llegó",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "hasta",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "mí",
+     "s": "k",
+     "p": 1,
+     "phr": false
+    },
+    {
+     "t": "Estaba",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "amargo",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "muy",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "caliente",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "Lo",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "tomé",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "despacio",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "porque",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "quería",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "ofender",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "nadie",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "se",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "devolví",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "Martín",
+     "s": "u",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "sonrisa",
+     "s": "k",
+     "p": 2,
+     "phr": false
+    },
+    {
+     "t": "Gracias",
+     "s": "k",
+     "p": 3,
+     "phr": false
+    },
+    {
+     "t": "El",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "mate",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "siguió",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "dando",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "vueltas",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "pero",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "ya",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "volvió",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "mí",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Pasó",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "una",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "ronda",
+     "s": "u",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "otra",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Pensé",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "había",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "hecho",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "algo",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "mal",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Tal",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "vez",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "había",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "tardado",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "demasiado",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "O",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "tal",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "vez",
+     "s": "k",
+     "p": 4,
+     "phr": true
+    },
+    {
+     "t": "habían",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "visto",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "mi",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "cara",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "cuando",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "lo",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "probé",
+     "s": "k",
+     "p": 4,
+     "phr": false
+    },
+    {
+     "t": "Al",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "final",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "aguanté",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "y",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "le",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "pregunté",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "a",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "Sofía",
+     "s": "u",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "voz",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "baja",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "por",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "qué",
+     "s": "k",
+     "p": 5,
+     "phr": true
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "daban",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 5,
+     "phr": false
+    },
+    {
+     "t": "Porque",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "dijiste",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "gracias",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "contestó",
+     "s": "u",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "riéndose",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "Acá",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "cuando",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "decís",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "gracias",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "quiere",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "decir",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "que",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "ya",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 6,
+     "phr": true
+    },
+    {
+     "t": "querés",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 6,
+     "phr": false
+    },
+    {
+     "t": "Martín",
+     "s": "u",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "me",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "pasó",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "mate",
+     "s": "k",
+     "p": 7,
+     "phr": false
+    },
+    {
+     "t": "otra",
+     "s": "k",
+     "p": 7,
+     "phr": true
+    },
+    {
+     "t": "vez",
+     "s": "k",
+     "p": 7,
+     "phr": true
+    },
+    {
+     "t": "Tomá",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "Y",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "te",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "quedes",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "hablando",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "con",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "el",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "mate",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "en",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "la",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "mano",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "eh",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "Que",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "es",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "un",
+     "s": "k",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "micrófono",
+     "s": "u",
+     "p": 8,
+     "phr": false
+    },
+    {
+     "t": "Desde",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "aquel",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "día",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "solo",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "digo",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "gracias",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "cuando",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "de",
+     "s": "k",
+     "p": 9,
+     "phr": true
+    },
+    {
+     "t": "verdad",
+     "s": "k",
+     "p": 9,
+     "phr": true
+    },
+    {
+     "t": "no",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "quiero",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    },
+    {
+     "t": "más",
+     "s": "k",
+     "p": 9,
+     "phr": false
+    }
+   ],
+   "bands": [
+    {
+     "label": "1–100",
+     "pct": 57.1
+    },
+    {
+     "label": "101–500",
+     "pct": 21.9
+    },
+    {
+     "label": "501–1,500",
+     "pct": 7.7
+    },
+    {
+     "label": "1,501–4,000",
+     "pct": 6.9
+    },
+    {
+     "label": "4,000+",
+     "pct": 3.4
+    },
+    {
+     "label": "Unlisted",
+     "pct": 3.0
+    }
+   ]
+  }
+ },
+ "persona": {
+  "name": "Sam (simulated reader)",
+  "level": "A2",
+  "language": "Spanish (Latin America)",
+  "known": 1751,
+  "learning": 105,
+  "ignored": 7,
+  "dictionary": 16213,
+  "coverage": [
+   {
+    "label": "Top 100",
+    "k": 100,
+    "total": 100
+   },
+   {
+    "label": "Top 500",
+    "k": 498,
+    "total": 500
+   },
+   {
+    "label": "Top 1,500",
+    "k": 1105,
+    "total": 1500
+   },
+   {
+    "label": "Top 4,000",
+    "k": 1528,
+    "total": 4000
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-18",
+    "k": 613,
+    "l": 14
+   },
+   {
+    "d": "2026-08-19",
+    "k": 656,
+    "l": 16
+   },
+   {
+    "d": "2026-08-20",
+    "k": 707,
+    "l": 18
+   },
+   {
+    "d": "2026-08-23",
+    "k": 725,
+    "l": 27
+   },
+   {
+    "d": "2026-08-24",
+    "k": 750,
+    "l": 30
+   },
+   {
+    "d": "2026-08-25",
+    "k": 790,
+    "l": 29
+   },
+   {
+    "d": "2026-08-26",
+    "k": 817,
+    "l": 25
+   },
+   {
+    "d": "2026-08-27",
+    "k": 838,
+    "l": 25
+   },
+   {
+    "d": "2026-08-28",
+    "k": 863,
+    "l": 29
+   },
+   {
+    "d": "2026-08-31",
+    "k": 886,
+    "l": 33
+   },
+   {
+    "d": "2026-09-01",
+    "k": 903,
+    "l": 33
+   },
+   {
+    "d": "2026-09-02",
+    "k": 918,
+    "l": 38
+   },
+   {
+    "d": "2026-09-03",
+    "k": 960,
+    "l": 41
+   },
+   {
+    "d": "2026-09-04",
+    "k": 971,
+    "l": 43
+   },
+   {
+    "d": "2026-09-05",
+    "k": 1024,
+    "l": 47
+   },
+   {
+    "d": "2026-09-06",
+    "k": 1069,
+    "l": 49
+   },
+   {
+    "d": "2026-09-07",
+    "k": 1090,
+    "l": 52
+   },
+   {
+    "d": "2026-09-08",
+    "k": 1096,
+    "l": 58
+   },
+   {
+    "d": "2026-09-09",
+    "k": 1122,
+    "l": 62
+   },
+   {
+    "d": "2026-09-10",
+    "k": 1160,
+    "l": 67
+   },
+   {
+    "d": "2026-09-11",
+    "k": 1201,
+    "l": 71
+   },
+   {
+    "d": "2026-09-12",
+    "k": 1239,
+    "l": 74
+   },
+   {
+    "d": "2026-09-13",
+    "k": 1272,
+    "l": 76
+   },
+   {
+    "d": "2026-09-19",
+    "k": 1301,
+    "l": 82
+   },
+   {
+    "d": "2026-09-20",
+    "k": 1310,
+    "l": 88
+   },
+   {
+    "d": "2026-09-21",
+    "k": 1336,
+    "l": 89
+   },
+   {
+    "d": "2026-09-22",
+    "k": 1363,
+    "l": 91
+   },
+   {
+    "d": "2026-09-23",
+    "k": 1370,
+    "l": 97
+   },
+   {
+    "d": "2026-09-25",
+    "k": 1400,
+    "l": 98
+   },
+   {
+    "d": "2026-09-26",
+    "k": 1415,
+    "l": 98
+   },
+   {
+    "d": "2026-09-27",
+    "k": 1434,
+    "l": 98
+   },
+   {
+    "d": "2026-09-29",
+    "k": 1466,
+    "l": 103
+   },
+   {
+    "d": "2026-09-30",
+    "k": 1501,
+    "l": 105
+   },
+   {
+    "d": "2026-10-01",
+    "k": 1535,
+    "l": 109
+   },
+   {
+    "d": "2026-10-02",
+    "k": 1567,
+    "l": 107
+   },
+   {
+    "d": "2026-10-05",
+    "k": 1592,
+    "l": 103
+   },
+   {
+    "d": "2026-10-06",
+    "k": 1633,
+    "l": 104
+   },
+   {
+    "d": "2026-10-07",
+    "k": 1654,
+    "l": 103
+   },
+   {
+    "d": "2026-10-09",
+    "k": 1682,
+    "l": 104
+   },
+   {
+    "d": "2026-10-10",
+    "k": 1703,
+    "l": 108
+   },
+   {
+    "d": "2026-10-12",
+    "k": 1736,
+    "l": 108
+   },
+   {
+    "d": "2026-10-13",
+    "k": 1751,
+    "l": 105
+   }
+  ],
+  "start": {
+   "d": "2026-08-18",
+   "k": 613,
+   "l": 14
+  },
+  "last": {
+   "d": "2026-10-13",
+   "k": 1751,
+   "l": 105
+  },
+  "gain_7": 118,
+  "gain_prev_7": 167,
+  "gain_28": 479,
+  "gain_all": 1138,
+  "active_7": 5,
+  "active_28": 19,
+  "active_all": 42,
+  "days_all": 57,
+  "today_gain": 15
+ },
+ "library": [
+  {
+   "title": "La cena a las diez",
+   "pct": 99
+  },
+  {
+   "title": "Dos cafés",
+   "pct": 97
+  },
+  {
+   "title": "Un café, por favor",
+   "pct": 96
+  },
+  {
+   "title": "Un mate en la oficina",
+   "pct": 90
+  },
+  {
+   "title": "La ofrenda",
+   "pct": 89
+  },
+  {
+   "title": "La tortuga gigante",
+   "pct": 86
+  },
+  {
+   "title": "Don Quijote, capítulo 1",
+   "pct": 73
+  }
+ ]
+}

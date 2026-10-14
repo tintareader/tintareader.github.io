@@ -1,0 +1,494 @@
+<title>Tinta Stats Panel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+/* Layout: one reading column (about 68ch) that widens to full width for figure rows. */
+:root {
+  --bg: #fcfcfa; --surface: #f2f3ef; --panel: #eceee9; --ink: #1b1f24; --text: #2c3238; --dim: #5b646c;
+  --line: #d8dcd4; --accent: #3d5a99; --new: #b03a64; --learn: #a0701f; --ok: #1f7a4a; --okfill: #e2f0e6;
+  --shadow: rgba(20, 24, 30, .10); --scrim: rgba(16, 19, 24, .82);
+  --f-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --f-body: "Literata", Georgia, "Times New Roman", serif;
+  --f-ui: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101318; --surface: #14181e; --panel: #181c23; --ink: #e8ecf0; --text: #c9d0d7; --dim: #939dab;
+    --line: #2a333d; --accent: #a8b8d8; --new: #ff6b8a; --learn: #e6b94f; --ok: #8fd6b0; --okfill: #1f3a2e;
+    --shadow: rgba(0, 0, 0, .45); --scrim: rgba(4, 6, 10, .88); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101318; --surface: #14181e; --panel: #181c23; --ink: #e8ecf0; --text: #c9d0d7; --dim: #939dab;
+  --line: #2a333d; --accent: #a8b8d8; --new: #ff6b8a; --learn: #e6b94f; --ok: #8fd6b0; --okfill: #1f3a2e;
+  --shadow: rgba(0, 0, 0, .45); --scrim: rgba(4, 6, 10, .88); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font: 400 17px/1.62 var(--f-body); margin: 0; }
+.wrap { max-width: 1160px; margin: 0 auto; padding-inline: 24px; }
+.col { max-width: 68ch; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, img[tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+h1, h2, h3 { font-family: var(--f-display); color: var(--ink); text-wrap: balance; font-weight: 600; letter-spacing: -.01em; }
+h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.05; margin: .2em 0 .25em; }
+h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); line-height: 1.15; margin: 0 0 .5em; }
+h3 { font-size: 1.32rem; line-height: 1.25; margin: 0 0 .4em; }
+h4 { font: 600 .82rem/1.3 var(--f-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--dim); margin: 1.6em 0 .5em; }
+p { margin: 0 0 .9em; }
+.ui { font-family: var(--f-ui); }
+.eyebrow { font: 500 .8rem/1.3 var(--f-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--dim); margin: 0; }
+.lede { font-size: 1.18rem; line-height: 1.55; color: var(--text); max-width: 60ch; }
+.k { color: var(--ink); font-weight: 600; }
+.new { color: var(--new); font-style: italic; }
+.small { font-size: .9rem; }
+.note { font: 400 .88rem/1.5 var(--f-ui); color: var(--dim); }
+.flag { font: 500 .74rem/1 var(--f-ui); letter-spacing: .04em; color: var(--learn); border: 1px solid currentColor; border-radius: 3px; padding: 2px 5px; white-space: nowrap; vertical-align: 1px; }
+section { padding-block: 56px 8px; border-top: 1px solid var(--line); }
+header.top { padding-block: 40px 28px; }
+
+/* The subject's own device: one word in eight is new. */
+.wordrow { display: flex; gap: 6px; margin: 14px 0 6px; }
+.wordrow i { width: 14px; height: 20px; border-radius: 3px; background: var(--ink); opacity: .85; }
+.wordrow i.n { background: var(--new); opacity: 1; }
+
+nav.toc { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 18px; font: 500 .92rem/1.4 var(--f-ui); }
+nav.toc a { text-decoration: none; }
+nav.toc a:hover { text-decoration: underline; }
+
+.tldr { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 580px); gap: 40px; align-items: start; }
+.tldr .pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.points { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+.points li { padding-left: 16px; border-left: 2px solid var(--line); }
+.points b { color: var(--ink); }
+.q3 { display: grid; gap: 4px; margin: 0 0 16px; font: 600 1.05rem/1.4 var(--f-ui); color: var(--ink); }
+.q3 span { color: var(--dim); font-weight: 400; font-size: .92rem; }
+
+figure { margin: 0; }
+figcaption { font: 400 .82rem/1.4 var(--f-ui); color: var(--dim); margin-top: 6px; }
+.shot { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: 0 1px 2px var(--shadow); }
+img[data-zoom] { cursor: zoom-in; }
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 360px)); gap: 16px; }
+.trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.quad { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.apps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 18px; }
+
+.design { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 736px); gap: 36px; padding-block: 40px; border-top: 1px dashed var(--line); }
+.design:first-of-type { border-top: none; }
+.design .who { font: 500 .8rem/1.3 var(--f-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--new); margin-bottom: 6px; }
+.design .meta { font: 400 .92rem/1.55 var(--f-ui); color: var(--text); }
+.design .meta p { margin-bottom: .7em; }
+
+table { border-collapse: collapse; width: 100%; font: 400 .9rem/1.45 var(--f-ui); }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+th { font-weight: 600; color: var(--ink); font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; }
+td b { color: var(--ink); }
+.tablewrap { overflow-x: auto; margin: 10px 0 18px; }
+.tablewrap > table { min-width: 620px; }
+.design .tablewrap > table { min-width: 0; }
+.zq td:first-child { width: 34%; color: var(--dim); }
+.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.yes { color: var(--ok); font-weight: 600; }
+.no { color: var(--dim); }
+.chip { display: inline-block; font: 600 .78rem/1 var(--f-ui); padding: 4px 8px; border-radius: 10px; border: 1px solid var(--line); color: var(--ink); background: var(--surface); white-space: nowrap; }
+.chip.ok { color: var(--ok); background: var(--okfill); border-color: transparent; }
+
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 12px 0 18px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; font: 400 .9rem/1.5 var(--f-ui); }
+.card h3 { font-size: 1.08rem; margin-bottom: .3em; }
+.card .src { color: var(--dim); font-size: .8rem; margin-top: 8px; }
+blockquote { margin: 0 0 .6em; padding-left: 12px; border-left: 2px solid var(--new); font-style: italic; color: var(--ink); }
+
+.zhuo { counter-reset: z; list-style: none; padding: 0; margin: 0; display: grid; gap: 18px; }
+.zhuo li { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.zhuo .said { font-size: 1rem; }
+.zhuo .sum { font-style: italic; color: var(--ink); margin: 0 0 .6em; padding-left: 12px; border-left: 2px dotted var(--line); }
+.zhuo .use { font: 400 .92rem/1.55 var(--f-ui); }
+.zhuo .use b { color: var(--ink); }
+
+ol.src { font: 400 .86rem/1.5 var(--f-ui); padding-left: 1.4em; }
+ol.src li { margin-bottom: 6px; }
+.rating { font-family: var(--f-ui); letter-spacing: 1px; color: var(--ink); white-space: nowrap; }
+.rating .o { color: var(--line); }
+
+footer { padding-block: 40px 60px; border-top: 1px solid var(--line); margin-top: 40px; }
+
+/* Lightbox */
+.lb { position: fixed; inset: 0; background: var(--scrim); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 10; }
+.lb img { max-width: 100%; max-height: 100%; border-radius: 6px; box-shadow: 0 10px 40px rgba(0,0,0,.5); }
+.lb button { position: absolute; top: calc(12px + env(safe-area-inset-top, 0px)); right: 12px; font: 600 .9rem/1 var(--f-ui); padding: 9px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); cursor: pointer; }
+
+@media (max-width: 900px) {
+  .tldr, .design, .zhuo li { grid-template-columns: minmax(0, 1fr); }
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .quad { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .wrap { padding-inline: 16px; }
+  body { font-size: 16px; }
+  .pair, .trio, .apps, .quad, .cards { grid-template-columns: minmax(0, 1fr); }
+  .pair { max-width: 380px; }
+}
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow">Tinta Reader · design review · 13 October 2026</p>
+    <h1>Tinta Stats Panel</h1>
+    <div class="wordrow" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="n"></i></div>
+    <p class="lede">Five redesigns of the Stats tab in the reader’s right-hand column, each in the manner of a designer known for statistics, built into the running app and shown in its light and dark themes. Julie Zhuo’s questions shape all five. The last section recommends the panel to build.</p>
+    <nav class="toc ui" aria-label="Contents">
+      <a href="#summary">Summary</a><a href="#today">Today’s tab</a><a href="#research">Research</a><a href="#zhuo">Julie Zhuo</a><a href="#reading">Reading research</a><a href="#split">Sidebar or stats page</a><a href="#designs">Five designs</a><a href="#recommend">Recommendation</a><a href="#numbers">Real or illustrative</a><a href="#method">Method</a><a href="#sources">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<section id="summary">
+  <div class="wrap tldr">
+    <div>
+      <h2>The short version</h2>
+      <p>The sidebar should answer three questions a reader has in the middle of a text, in this order, in plain words:</p>
+      <div class="q3"><div>Can I read this? <span>a verdict for your level, and how often you will look up a word</span></div><div>What will help most? <span>the new words that keep coming back in this text, with one button</span></div><div>Am I getting better? <span>this text getting easier over time, then words known this week</span></div></div>
+      <ul class="points">
+        <li><b>Build the three-question panel</b> in the recommendation. It leads with a natural frequency (“About 1 word in 8 is new to you”), judges readability by the reader’s level rather than the 95% rule for unaided reading, offers one action (“Add 7 to Learning”), and fits under the word card.</li>
+        <li><b>Move the rest to a stats page</b>: vocabulary by status, coverage of the commonest 100 to 4,000 words, full history, the text’s frequency bands and the notes on method. <b>Drop “% of dictionary entries known”</b>; at 10.80% of 16,213 entries it measures nothing a reader can act on.</li>
+        <li><b>Set the readability bar from the owner’s experience, then check it with data.</b> Research puts comfortable unaided reading at 95–98% of words known; it says little about reading with instant glosses. The verdict uses 60% as the workable floor from A2 up, and lets A1 readers take on any short text.</li>
+        <li>The figures in the mockups are the app’s own, computed for a simulated reader. The level, the thresholds, the button and the stats-page link are proposals. <a href="#numbers">Which numbers are real</a>.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="pair">
+        <figure><img class="shot" data-zoom tabindex="0" alt="Recommended Stats panel in the light theme" src="{{img:recommended-light-panel}}"><figcaption>Recommended panel, light</figcaption></figure>
+        <figure><img class="shot" data-zoom tabindex="0" alt="Recommended Stats panel in the dark theme" src="{{img:recommended-dark-panel}}"><figcaption>Dark</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="today">
+  <div class="wrap">
+    <h2>What the Stats tab shows today</h2>
+    <div class="col">
+      <p>The tab has two scopes. <b class="k">This text</b> shows the share of running words known (86% here), two stacked bars for running and unique words by status, and the text’s spread over six frequency bands with a note on the OpenSubtitles list behind them. <b class="k">Overall</b> shows dictionary entries by status, known words in the commonest 100, 500, 1,500 and 4,000, and a progress chart drawn from a daily history the app already keeps.</p>
+    </div>
+    <div class="quad">
+      <figure><img class="shot" data-zoom tabindex="0" alt="Current Stats tab, This text scope, light theme" src="{{img:baseline-light-panel}}"><figcaption>This text, light</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="Current Stats tab, This text scope, dark theme" src="{{img:baseline-dark-panel}}"><figcaption>This text, dark</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="Current Stats tab, Overall scope, light theme" src="{{img:baseline-overall-light-panel}}"><figcaption>Overall, light</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="Current Stats tab, Overall scope, dark theme" src="{{img:baseline-overall-dark-panel}}"><figcaption>Overall, dark</figcaption></figure>
+    </div>
+    <div class="col">
+      <h4>What to keep and what to change</h4>
+      <ul>
+        <li><b class="k">Keep the headline share.</b> It is the right number. It has no reference, though: nothing says whether 86% is easy, fine or too hard for this reader.</li>
+        <li><b class="k">Two bars, one story.</b> The Total and Unique bars repeat the same four-status legend; “running” and “unique” words are a linguist’s distinction, not a reader’s.</li>
+        <li><b class="k">Frequency bands describe the text, not the reader</b>, and need a three-line footnote. They belong with the text’s details on a stats page.</li>
+        <li><b class="k">“1,751 · 10.80%” of 16,213 dictionary entries</b> counts inflected forms and rare words in the denominator, shows two decimals, and can only discourage.</li>
+        <li><b class="k">The progress chart is a good start</b> (the history is real), but it has no scale, and at the default 400 px panel the date range breaks across lines next to the total (visible in the Overall crops).</li>
+        <li><b class="k">Nothing suggests what to do next.</b> The tab diagnoses and stops.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <div class="wrap">
+    <h2>What makes statistics work, and look good</h2>
+    <div class="col"><p>Six findings shaped every design. Each comes with what it means for a 400-pixel column beside a text.</p></div>
+    <div class="cards">
+      <div class="card"><h3>Position beats angle and area</h3>People judge position on a common scale and length most accurately; angles, areas and colour saturation least. <b>So:</b> bars and dots on one scale, no gauges or donuts.<div class="src">Cleveland &amp; McGill 1984; replicated by Heer &amp; Bostock 2010</div></div>
+      <div class="card"><h3>Natural frequencies and icon arrays</h3>“1 in 8” and a row of eight symbols help people with low numeracy understand a proportion. <b>So:</b> lead with “About 1 word in 8 is new to you”, keep the percentage for precision.<div class="src">Galesic, Garcia-Retamero &amp; Gigerenzer 2009</div></div>
+      <div class="card"><h3>A dashboard is read at a glance</h3>The most important information, on one screen, monitored at a glance. <b>So:</b> the first two questions must stay visible when the word card is open above them.<div class="src">Few 2006</div></div>
+      <div class="card"><h3>Looks are part of the function</h3>Embellished charts were read no less accurately and recalled better two to three weeks later; how good an interface looked shaped how usable people found it. <b>So:</b> character is welcome when it carries data (symbols, a mark per word).<div class="src">Bateman et al. 2010; Tractinsky, Katz &amp; Ikar 2000</div></div>
+      <div class="card"><h3>Effort rises near a goal</h3>People speed up as a reward gets closer (goal gradient). <b>So:</b> show a near, meaningful step (“knowing these 7: 92% of this text”), not a total against 16,213 entries.<div class="src">Kivetz, Urminsky &amp; Zheng 2006</div></div>
+      <div class="card"><h3>Act now, reflect later</h3>Personal data serves different stages: collection, integration, reflection, action. <b>So:</b> the sidebar serves action while reading; reflection gets its own page.<div class="src">Li, Dey &amp; Forlizzi 2010</div></div>
+    </div>
+
+    <h3 style="margin-top:28px">How top statistics designers work</h3>
+    <div class="col">
+      <ol>
+        <li><b class="k">Start from the question, not the data.</b> Zhuo’s “people problem”; Few’s dashboards built around what must be monitored.</li>
+        <li><b class="k">Match resolution to the question.</b> One number for “can I?”; every word for “where?” (Tufte’s data-dense small graphics, Lupi’s individual records).</li>
+        <li><b class="k">Put a comparison next to every number</b>: a threshold, last week, the reader’s other texts (Few’s bullet graph, Tufte’s small multiples).</li>
+        <li><b class="k">Make quantities countable.</b> Isotype shows more of something with more symbols of the same size, never a bigger symbol.</li>
+        <li><b class="k">Use colour for meaning only.</b> Here the product already has a vocabulary: pink new, amber learning, plain known. Every design keeps it.</li>
+        <li><b class="k">Say what it means in words</b> (Lupi’s annotations, Felton’s captions).</li>
+        <li><b class="k">Make it personal.</b> These are the reader’s own words and days (Felton, Lupi).</li>
+      </ol>
+    </div>
+
+    <h3 style="margin-top:28px">Five designers, and why these five</h3>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Designer</th><th>Known for</th><th>Why for this panel</th></tr></thead>
+        <tbody>
+          <tr><td><b>Edward Tufte</b></td><td><i>The Visual Display of Quantitative Information</i> (1983): data-ink, chartjunk, small multiples. Sparklines, “data-intense, design-simple, word-sized graphics” (<i>Beautiful Evidence</i>, 2006).</td><td>The panel is a narrow column beside text; Tufte’s graphics are made to sit inside sentences.</td></tr>
+          <tr><td><b>Stephen Few</b></td><td><i>Information Dashboard Design</i> (2006); the bullet graph, designed to replace gauges, which shows one measure against qualitative ranges and a target.</td><td>The panel is a monitor read in a glance; “is 86% enough?” is exactly a measure against ranges.</td></tr>
+          <tr><td><b>Nicholas Felton</b></td><td>The Feltron Annual Reports (2005–2014), his own year in numbers; co-founder of Daytum, maker of Reporter, a designer of Facebook’s Timeline; work in MoMA’s collection.</td><td>Tinta’s statistics are personal data; Felton made personal statistics something people want to look at.</td></tr>
+          <tr><td><b>Giorgia Lupi</b></td><td><i>Dear Data</i> with Stefanie Posavec (2016); the Data Humanism manifesto (2017): embrace complexity, data is imperfect, add context; partner at Pentagram.</td><td>A text is not a percentage. Lupi draws the individual items (here every word) and the story in them.</td></tr>
+          <tr><td><b>Gerd Arntz</b>, with Otto and Marie Neurath</td><td>Isotype, the Vienna method of pictorial statistics (from the mid-1920s): Arntz drew the pictograms, Marie Neurath turned figures into charts, and quantity is shown by repeating same-size symbols.</td><td>Most learners are not statisticians; Isotype was built for everyone, and it anticipates the icon-array research.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="zhuo">
+  <div class="wrap">
+    <h2>Julie Zhuo’s take</h2>
+    <div class="col">
+      <p>Julie Zhuo spent nearly 14 years at Facebook, rising to vice president of product design, wrote <i>The Making of a Manager</i> (2019) and the newsletter <i>The Looking Glass</i>, and co-founded Sundial, an analytics company, with Chandra Narayanan, who led analytics at Facebook. These are the things she has actually said that bear on a stats panel, with what each changes. Anything I could not check against a primary source is marked.</p>
+    </div>
+    <ol class="zhuo">
+      <li><div class="said"><blockquote>Diagnose with data, treat with design.</blockquote><p class="note">She credits the line to Chandra Narayanan. In GV’s interview she explains that data helps a team understand the problems and what matters most, and then you get into a design mindset to solve them. <a href="https://gv.com/news/facebook-design-data-julie-zhuo">GV interview</a>; <a href="https://lg.substack.com/p/stay-healthy-stay-data-informed">The Looking Glass</a>.</p></div><div class="use"><b>In the designs:</b> every statistic in the panel diagnoses something the reader can act on now, and the panel offers the treatment: the new words that return in this text, with “Add 7 to Learning”.</div></li>
+      <li><div class="said"><blockquote>What people problem are we solving? How do we know it’s a real problem? How will we know if we’ve solved it?</blockquote><p class="note">The three questions from her Stanford talk “How a Facebook Designer Thinks” (November 2016). A transcript summary also has her steering teams away from business phrasing such as optimising a click-through rate, because that is not a people problem. <a href="https://stvp.stanford.edu/podcasts/how-a-facebook-designer-thinks">Stanford eCorner</a> <span class="flag">transcript not opened</span></p></div><div class="use"><b>In the designs:</b> all five panels are organised as three reader questions in everyday words: Can I read this? What will help most? Am I getting better? No “types”, “tokens” or “frequency bands” in the sidebar.</div></li>
+      <li><div class="said"><blockquote>How will we know if we’ve solved this problem? What would be different in the world?</blockquote><p class="note">From the clip “Defining Success Upfront” (Stanford eCorner, 2016). Stanford’s description adds that this keeps teams from defining success along the way with vanity metrics; that wording is Stanford’s, not hers. <a href="https://ecorner.stanford.edu/clips/defining-success-upfront/">eCorner clip</a></p></div><div class="use"><b>In the designs:</b> what is different for a reader is that real texts get easier, so the outcome comes first: “This text: 77% → 86% since 18 Aug”. The recommendation also defines the panel’s own success upfront (<a href="#success">below</a>).</div></li>
+      <li><div class="said"><blockquote>Metrics are a proxy for the change we want to see in the world.</blockquote><p class="note">A chapter title in the Prime Venture Partners podcast with her (2021). In a 2024 thread on goals she writes: “Any metric will be a proxy; THIS is the real goal.” <a href="https://www.primevp.in/content/podcast/principles-building-great-products-julie-zhuo-former-design-vp-facebook">Prime VP podcast</a>; <a href="https://threadreaderapp.com/user/joulee">Thread Reader archive</a> <span class="flag">thread not checked on X</span></p></div><div class="use"><b>In the designs:</b> “words known” is the proxy; reading real texts is the goal. The panels keep the word count to one line and lead with the text in front of the reader. “% of dictionary entries” is dropped.</div></li>
+      <li><div class="said"><p class="sum">Metrics and experience are not opposites.</p><p class="note">My summary, not her words, of her essay “Metrics Versus Experience” (Medium, 2016), which argues that setting the two against each other is the wrong way to start, that measurement shows how people really use a product, and that a product people value should move its metrics. <a href="https://medium.com/the-year-of-the-looking-glass/metrics-versus-experience-a9347d6b80b">Medium</a> <span class="flag">read from excerpts</span></p></div><div class="use"><b>In the designs:</b> statistics are part of reading, not a report to visit later; they sit in the reader’s column and point back into the text (which paragraph, which words).</div></li>
+      <li><div class="said"><p class="note">Two smaller points. On Lenny’s Podcast (2022) she said she set her book-writing goals in words rather than minutes, because you can spend 30 minutes and not produce a sentence (<a href="https://www.lennysnewsletter.com/p/episode-2-julie-zhuo">episode</a>; <span class="flag">via a third-party transcript</span>). At Sundial’s 2025 funding round she described the aim as letting anyone understand and act on data “without needing a data science degree” (<a href="https://www.streetinsider.com/Business+Wire/Sundial+Raises+%2423M+to+Redefine+Data-informed+Decisions+with+AI/25028267.html">press release</a>).</p></div><div class="use"><b>In the designs:</b> count words and texts, never minutes; plain language throughout.</div></li>
+    </ol>
+    <div class="col" style="margin-top:18px">
+      <p class="note">Not used: her paywalled Looking Glass essays “The Paradoxes of Data” (2024) and “Elephants, Blind Men, and that One 15-Minute Trick” (2022), which I could only see in part. I found nothing she has said about language learning or reading statistics; applying her principles to Tinta is my work, not hers.</p>
+    </div>
+  </div>
+</section>
+
+<section id="reading">
+  <div class="wrap">
+    <h2>What reading research says, and where it stops</h2>
+    <div class="col">
+      <p><b class="k">Coverage thresholds are for reading without help.</b> Hu and Nation (2000) gave learners a fiction text at 80, 90, 95 and 100% known words and estimated that about 98% is needed for adequate unassisted comprehension; 98% was an estimate, not a tested level, from 66 students. Laufer and Ravenhorst-Kalovski (2010) proposed 95% as a minimal and 98% as an optimal threshold. Schmitt, Jiang and Grabe (2011, 661 readers) found comprehension rising roughly in a straight line with coverage, with no sharp threshold. A replication of Hu and Nation by Kremmel and colleagues (2023, 104 adult learners) could not fully reproduce the original result and advised caution with fixed cut-offs.</p>
+      <p><b class="k">Glosses help.</b> Abraham’s meta-analysis of computer glosses (2008) reported a medium effect on reading comprehension and a large effect on incidental vocabulary learning (as quoted by later studies; I did not see the paper’s figures). Yanagisawa, Webb and Uchihara (2020) analysed 42 glossing studies on vocabulary learning from reading.</p>
+      <p><b class="k">The gap.</b> I found no study that tests comprehension of glossed texts at 50–90% known words directly. One study described by Kremmel and colleagues glossed its target words and found no significant link between comprehension and the rate of unknown words <span class="flag">secondary report</span>. That is the space Tinta works in, so the owner’s experience is the best guide available:</p>
+      <blockquote style="font-style:normal">“In my own experience it also depends on level of vocab, so A1 level and below any amount of unknown is manageable for a small text, then as texts get larger 60% known or more for A2 level is readable. B1 50% is a bit of a slog.”<br><span class="note">The product owner</span></blockquote>
+      <p><b class="k">The app today aims higher.</b> Its story writer aims for 88–97% known when it keeps a story within the commonest 1,000 words, and 93–97% above that (“~95% known … about one word in 20 is new”): the unaided standard. The verdict below follows the owner instead, and the panel always shows the count of lookups so that text length is visible.</p>
+    </div>
+    <div class="tablewrap col">
+      <table>
+        <caption class="note" style="caption-side:bottom;text-align:left;padding-top:6px">Proposed verdicts. 95 and 98 come from the research on unaided reading; 60 and the A1 short-text rule come from the owner’s experience. Both are settings to check against how often readers finish texts.</caption>
+        <thead><tr><th>Share of running words known</th><th>A1, text up to about 200 words</th><th>A1 longer texts, A2, B1 and up</th></tr></thead>
+        <tbody>
+          <tr><td class="num">98% and up</td><td><span class="chip ok">Easy</span></td><td><span class="chip ok">Easy</span></td></tr>
+          <tr><td class="num">95–98%</td><td><span class="chip ok">Comfortable</span></td><td><span class="chip ok">Comfortable</span></td></tr>
+          <tr><td class="num">60–95%</td><td><span class="chip">Short enough to work through</span></td><td><span class="chip">Readable with lookups</span></td></tr>
+          <tr><td class="num">under 60%</td><td><span class="chip">Short enough to work through</span></td><td><span class="chip">Hard going</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col"><p class="note">The app has no reader level today; it offers A1–C1 only when writing a story. The panel needs a “My level” setting, defaulting to an estimate from words known. A2 in the mockups is an assumption.</p></div>
+  </div>
+</section>
+
+<section id="split">
+  <div class="wrap">
+    <h2>Sidebar or stats page</h2>
+    <div class="col"><p>The test for the sidebar: does the number help the reader with the text in front of them, now? If it serves reflection, planning or curiosity, it goes to the stats page. If it serves neither, it goes.</p></div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Statistic</th><th>Today</th><th>Sidebar</th><th>Stats page</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td><b>Share of this text known</b></td><td>This text</td><td class="yes">Yes, as “1 word in N” plus % and a verdict</td><td>Per text, over time</td><td>Answers “Can I read this?”; a natural frequency is easier to grasp</td></tr>
+          <tr><td><b>Verdict for your level</b></td><td>No</td><td class="yes">Yes</td><td>Thresholds explained, level setting</td><td>A number needs a reference to mean anything</td></tr>
+          <tr><td><b>Status mix of the words</b></td><td>Two bars</td><td class="yes">One thin bar with thresholds</td><td>Both bars</td><td>The second bar repeats the first</td></tr>
+          <tr><td><b>New words that come back here</b></td><td>No (Words tab has the counts)</td><td class="yes">Yes, with “Add N to Learning”</td><td>No</td><td>The one thing that helps most, right now</td></tr>
+          <tr><td><b>This text, then and now</b></td><td>No</td><td class="yes">Yes, one sparkline</td><td>For every text</td><td>The real goal; Zhuo’s “what would be different”</td></tr>
+          <tr><td><b>Words known, this week</b></td><td>Overall, total only</td><td class="yes">One line</td><td>Full history, weekly gains, days read</td><td>Motivating, but a proxy</td></tr>
+          <tr><td><b>Where new words fall</b> (paragraph map)</td><td>No</td><td class="no">Optional</td><td>Text details</td><td>Useful, not essential mid-read</td></tr>
+          <tr><td><b>Unique-word counts</b></td><td>This text</td><td class="no">No (count of different new words only)</td><td>Yes</td><td>Types versus tokens is specialist vocabulary</td></tr>
+          <tr><td><b>Frequency bands of the text</b></td><td>This text</td><td class="no">No</td><td>Text details</td><td>Describes the text, not the reader; needs a footnote</td></tr>
+          <tr><td><b>Commonest 100 / 500 / 1,500 / 4,000 known</b></td><td>Overall</td><td class="no">No</td><td>Yes, as bullet graphs</td><td>Reflection and goal-setting</td></tr>
+          <tr><td><b>Vocabulary by status</b></td><td>Overall</td><td class="no">No</td><td>Yes</td><td>Reflection</td></tr>
+          <tr><td><b>% of dictionary entries known</b></td><td>Overall</td><td class="no">No</td><td class="no">No, drop it</td><td>Denominator full of forms and rare words; nothing to act on</td></tr>
+          <tr><td><b>Your texts by share known</b></td><td>Text chooser</td><td class="no">No (stays in the chooser)</td><td>Yes: what you can read now</td><td>Choosing a text is its own moment</td></tr>
+          <tr><td><b>Notes on method and sources</b></td><td>Footnotes</td><td class="no">No</td><td>“About these numbers”</td><td>Keeps the sidebar short</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>The stats page, in outline</h3>
+    <div class="col">
+      <ol>
+        <li><b class="k">What you can read now.</b> Your texts by share known, today and a month ago; how many sit in your workable range (Tufte’s small multiples).</li>
+        <li><b class="k">Your words.</b> Known and learning over time; weekly gains against your average; days read (Few’s bars, Felton’s report).</li>
+        <li><b class="k">The commonest words.</b> Known words in the top 100, 500, 1,500 and 4,000, as bullet graphs with 95% marked (Few).</li>
+        <li><b class="k">This text in detail.</b> Frequency bands, the paragraph map, unique and running words, every new word (Lupi’s word-by-word field fits here).</li>
+        <li><b class="k">About these numbers.</b> What “known” means, the verdict thresholds, the frequency list, your level.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="designs">
+  <div class="wrap">
+    <h2>Five sidebar designs</h2>
+    <div class="col"><p>All five sit in the Stats tab of the running app, beside the same text and the same reader: “La tortuga gigante” by Horacio Quiroga, for a simulated A2 reader who knows 1,751 Spanish words. Each answers the same three questions. Select any image to enlarge it.</p></div>
+
+    {{design:tufte}}
+    {{design:few}}
+    {{design:felton}}
+    {{design:lupi}}
+    {{design:isotype}}
+
+    <h3 style="margin-top:12px">Side by side</h3>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>My judgement</th><th>Tufte</th><th>Few</th><th>Felton</th><th>Lupi</th><th>Isotype</th></tr></thead>
+        <tbody>
+          <tr><td>Answers “Can I read this?” at a glance</td><td>{{r:3}}</td><td>{{r:5}}</td><td>{{r:4}}</td><td>{{r:2}}</td><td>{{r:5}}</td></tr>
+          <tr><td>Offers an action</td><td>{{r:3}}</td><td>{{r:5}}</td><td>{{r:4}}</td><td>{{r:3}}</td><td>{{r:3}}</td></tr>
+          <tr><td>Leads with the outcome, not the proxy</td><td>{{r:5}}</td><td>{{r:2}}</td><td>{{r:2}}</td><td>{{r:5}}</td><td>{{r:2}}</td></tr>
+          <tr><td>Fits under an open word card</td><td>{{r:3}}</td><td>{{r:4}}</td><td>{{r:2}}</td><td>{{r:2}}</td><td>{{r:3}}</td></tr>
+          <tr><td>Delight</td><td>{{r:4}}</td><td>{{r:2}}</td><td>{{r:5}}</td><td>{{r:5}}</td><td>{{r:4}}</td></tr>
+          <tr><td>Effort to build</td><td>moderate</td><td>low</td><td>moderate</td><td>high</td><td>moderate</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="recommend">
+  <div class="wrap">
+    <h2>Recommendation: the three-question panel</h2>
+    <div class="col">
+        <p>Build one panel that borrows the strongest part of four designs: Isotype’s natural frequency for the headline, Few’s scale with the reader’s thresholds and his action button, Felton’s list with a dot per use, and Tufte’s sparklines for progress. It keeps the app’s own type and colours, so it reads as part of Tinta rather than a new style.</p>
+        <ul>
+          <li><b class="k">Can I read this?</b> “About 1 word in 8 is new to you”, eight word symbols with one pink, a verdict for the reader’s level, “86% known · 33 lookups in 262 words”, and one bar with 60% and 95% marked.</li>
+          <li><b class="k">What will help most?</b> The new words that come back in this text, most frequent first, each with a dot per use and its gloss; “Add 7 to Learning”; “Knowing them: 92% of this text”.</li>
+          <li><b class="k">Am I getting better?</b> This text 77% → 86% since 18 Aug, then words known with +118 this week.</li>
+        </ul>
+        <p>Why this one: it answers the questions in the order a reader has them; it uses a natural frequency first and the exact share second; it judges by the reader’s level, which is what makes Tinta different from a graded reader; it offers one action that follows from the diagnosis; it measures the real goal before the proxy; and the first two questions stay in view with the word card open, as below.</p>
+    </div>
+    <div class="apps">
+      <figure><img class="shot" data-zoom tabindex="0" alt="Recommended panel in the app, light theme, with the word card for monte open" src="{{img:recommended-card-light}}"><figcaption>The reader has tapped monte (4× in this text): card above, panel below. Light.</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="Recommended panel in the app, dark theme, with the word card for monte open" src="{{img:recommended-card-dark}}"><figcaption>Dark</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="Recommended panel in the app, light theme" src="{{img:recommended-light}}"><figcaption>No word selected. Light.</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="Recommended panel in the app, dark theme" src="{{img:recommended-dark}}"><figcaption>Dark</figcaption></figure>
+    </div>
+
+    <h3 style="margin-top:36px">The same panel on three texts</h3>
+    <div class="col"><p>The verdict, the headline and the help section change with the text. All three are the app’s own figures for the same reader: one of Tinta’s built-in stories, Quiroga, and the opening of <i>Don Quijote</i>, where 53 of the 55 new words appear only once.</p></div>
+    <div class="trio">
+      <figure><img class="shot" data-zoom tabindex="0" alt="La cena a las diez: only 1 new word in 110, Easy, light theme" src="{{img:recommended-cena-light-panel}}"><figcaption>La cena a las diez · 99% · Easy</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="La tortuga gigante: about 1 word in 8 is new, light theme" src="{{img:recommended-light-panel}}"><figcaption>La tortuga gigante · 86% · Readable with lookups</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="Don Quijote opening: about 1 word in 4 is new, light theme" src="{{img:recommended-quijote-light-panel}}"><figcaption>Don Quijote, cap. 1 · 73% · Readable with lookups</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="La cena a las diez, dark theme" src="{{img:recommended-cena-dark-panel}}"><figcaption>Dark</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="La tortuga gigante, dark theme" src="{{img:recommended-dark-panel}}"><figcaption>Dark</figcaption></figure>
+      <figure><img class="shot" data-zoom tabindex="0" alt="Don Quijote opening, dark theme" src="{{img:recommended-quijote-dark-panel}}"><figcaption>Dark</figcaption></figure>
+    </div>
+
+    <div class="col">
+      <h4>What it takes to build</h4>
+      <ol>
+        <li><b class="k">Already in the app:</b> the share known, word counts by status, how many times each word appears in the text (the Words tab’s “Times in this text”), the daily history of known and learning words.</li>
+        <li><b class="k">New and cheap:</b> “1 in N” (running words ÷ new running words), the returning new words (new words used twice or more) and the share after learning them, the week’s gain from the history.</li>
+        <li><b class="k">New and small:</b> this text over time. The app already stores a time for each word’s status (for sync), so it can count which of the text’s words were known on any date; that is an approximation, because only the latest change is kept. Saving the share each time a text is opened would also work.</li>
+        <li><b class="k">Needs decisions:</b> a “My level” setting with an estimated default; the thresholds; the bulk “Add N to Learning” action (the app already imports statuses in bulk).</li>
+        <li><b class="k">Clean the list:</b> names count as new words today (“martín” 4× in <i>Un mate en la oficina</i>, “lupe” 4× in <i>La ofrenda</i>), and “aire” picks up “Buenos Aires”. Leave out capitalised words that are not sentence-initial, or put Ignore beside them.</li>
+        <li><b class="k">Accessibility:</b> status is never shown by colour alone (labels, rows, the learning underline in the text). My colour-vision check of the app’s status colours found the closest pair to be new and ignored in the dark theme for protan vision (ΔE 8.4 in OKLab), which is acceptable with labels.</li>
+      </ol>
+      <h4 id="success">How we will know it works</h4>
+      <p class="ui small">Zhuo’s third question, answered before building:</p>
+      <ul>
+        <li>Readers finish more of the texts they open, measured by verdict band and level. If A2 readers finish 60–80% texts about as often as 80–95% ones, keep 60; if not, raise it.</li>
+        <li>More of the texts readers open fall in their workable range.</li>
+        <li>Words added with “Add N to Learning” become known within a few weeks.</li>
+        <li>Not success: time spent in the panel or panel views.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="numbers">
+  <div class="wrap">
+    <h2>Which numbers are real</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Kind</th><th>Numbers</th><th>Where they come from</th></tr></thead>
+        <tbody>
+          <tr><td><b>Real</b>, computed by the app</td><td>86% known; 227 known, 2 learning, 33 new of 262 running words; 105 / 2 / 24 of 131 unique; frequency bands; monte 4×, aire, enfermar, escopeta, cazar, bicho, cuero 2× each, glosses; 1,751 known, 105 learning, 7 ignored, 16,213 entries; 100/100, 498/500, 1,105/1,500, 1,528/4,000; the 42-day history (613 on 18 Aug to 1,751 on 13 Oct); the other texts’ shares (99, 97, 96, 90, 89, 73)</td><td>Read off the app’s own Stats tab, Words tab, text chooser and saved state for the simulated reader</td></tr>
+          <tr><td><b>Real</b>, computed by the app on a replay</td><td>This text 77% on 18 Aug → 86% today, and the daily series behind the sparklines</td><td>A second replay of the same reader in a fresh browser profile, reading each text’s share from the text chooser after every simulated day; the final values match the first run exactly</td></tr>
+          <tr><td><b>Derived</b> by me from the app’s numbers</td><td>1 in 8 (262 ÷ 33); 92% after the 7 returning words ((227 + 16) ÷ 262); +118 this week and 142 a week on average; 5 of 7 days; paragraph shares 92, 82, 92, 84, 85%; “53 of the 55 new words appear only once”</td><td>Simple arithmetic on the figures above; the app does not show them today</td></tr>
+          <tr><td><b>Illustrative</b></td><td>The reader; the A2 level; the verdicts and their thresholds; “Add 7 to Learning”; “All your statistics”; “Reading report” and the date line</td><td>A simulated persona and proposals; see Method</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="method">
+  <div class="wrap col">
+    <h2>How this was made</h2>
+    <p><b class="k">The app.</b> The current static build of the site (built from app commit 65923bd0), served locally and driven with Playwright in headless Chromium at 1440 × 900 pixels, 2× density. Nothing in the build was edited. Each mockup is HTML and SVG placed into the live page in place of the Stats tab’s content, coloured only with the app’s own CSS variables, so the app’s light/dark switch themes it. Screenshots come from that page.</p>
+    <p><b class="k">The reader.</b> Simulated, not a real user. Spanish (Latin America), English interface. On 18 Aug 2026 the reader used the app’s own “Mark as known → Top 500”. Over the next eight weeks there were 41 more sessions (42 active days out of 57, including five days away), each importing that day’s words through the app’s Import, as a word and status list sampled from the app’s Spanish dictionary with frequent words more likely. The browser clock was set to each day, so the app recorded its own daily history. End state: 1,751 known, 105 learning, 7 ignored.</p>
+    <p><b class="k">The texts.</b> The opening of Horacio Quiroga’s “La tortuga gigante” (<i>Cuentos de la selva</i>, 1918; 262 words) and the first two paragraphs of Cervantes’s <i>Don Quijote</i> (1605; 217 words), both public domain, pasted in as a reader would; I typed them from the originals as I know them, so small differences from a printed edition are possible. The other three are Tinta’s built-in Spanish stories.</p>
+    <p><b class="k">Type.</b> Tufte uses the app’s reading face, Few and the recommendation the app’s interface face, Felton DM Sans and Lupi’s notes Fraunces Italic (both from Tinta’s Pro page), and Isotype Jost, a Futura-like face from Google Fonts. The screenshots were made on Linux, so the interface face renders as Inter and the reading face Palatino falls back to Charter; on a Mac they would be SF and Palatino.</p>
+    <p><b class="k">Research.</b> Web searches only; most publisher pages could not be opened from this environment, so several claims rest on abstracts, excerpts or secondary summaries, and are marked where it matters. This round did not look at any earlier design work for this panel.</p>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="wrap col">
+    <h2>Sources</h2>
+    <h4>Julie Zhuo</h4>
+    <ol class="src">
+      <li>GV, “Facebook Veteran Julie Zhuo: Lessons from High-Growth Startups and How to Hire Exceptional Designers.” <a href="https://gv.com/news/facebook-design-data-julie-zhuo">gv.com</a></li>
+      <li>Zhuo, J. “stay healthy, stay data informed.” <i>The Looking Glass</i>. <a href="https://lg.substack.com/p/stay-healthy-stay-data-informed">lg.substack.com</a> (seen in part)</li>
+      <li>Stanford eCorner, “How a Facebook Designer Thinks” (talk, 30 Nov 2016). <a href="https://stvp.stanford.edu/podcasts/how-a-facebook-designer-thinks">stvp.stanford.edu</a>; clip “Defining Success Upfront”. <a href="https://ecorner.stanford.edu/clips/defining-success-upfront/">ecorner.stanford.edu</a>; <i>Stanford Daily</i> report, 17 Nov 2016. <a href="https://stanforddaily.com/2016/11/17/julie-zhuo-discusses-facebook-design-strategies/">stanforddaily.com</a></li>
+      <li>Zhuo, J. “Metrics Versus Experience.” <i>The Year of the Looking Glass</i> (Medium), 6 Jul 2016. <a href="https://medium.com/the-year-of-the-looking-glass/metrics-versus-experience-a9347d6b80b">medium.com</a></li>
+      <li>Prime Venture Partners podcast, “Principles of Building Great Products with Julie Zhuo” (2021). <a href="https://www.primevp.in/content/podcast/principles-building-great-products-julie-zhuo-former-design-vp-facebook">primevp.in</a></li>
+      <li>Thread Reader archive of @joulee (2024 thread on goals). <a href="https://threadreaderapp.com/user/joulee">threadreaderapp.com</a></li>
+      <li>Lenny’s Podcast, episode 2: Julie Zhuo (7 Jun 2022). <a href="https://www.lennysnewsletter.com/p/episode-2-julie-zhuo">lennysnewsletter.com</a></li>
+      <li>Business Wire via StreetInsider, “Sundial Raises $23M to Redefine Data-informed Decisions with AI.” <a href="https://www.streetinsider.com/Business+Wire/Sundial+Raises+%2423M+to+Redefine+Data-informed+Decisions+with+AI/25028267.html">streetinsider.com</a></li>
+    </ol>
+    <h4>Designers</h4>
+    <ol class="src">
+      <li>Tufte, E. <i>The Visual Display of Quantitative Information</i> (1983); <i>Beautiful Evidence</i> (2006), sparklines pp. 46–63. <a href="https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/">edwardtufte.com</a></li>
+      <li>Few, S. <i>Information Dashboard Design</i> (2006; 2nd ed. 2013); bullet graph design specification (2008).</li>
+      <li>Felton, N. Interview, <i>The Great Discontent</i>. <a href="https://thegreatdiscontent.com/interview/nicholas-felton">thegreatdiscontent.com</a>; Science Gallery Dublin, “Feltron Annual Report.” <a href="https://dublin.sciencegallery.com/lifelogging-exhibits/feltron-annual-report">sciencegallery.com</a></li>
+      <li>Lupi, G. “Data Humanism: The Revolutionary Future of Data Visualization.” <i>PRINT</i> (2017). <a href="https://www.printmag.com/article/data-humanism-future-of-data-visualization/">printmag.com</a>; Lupi &amp; Posavec, <i>Dear Data</i> (2016). <a href="https://www.pentagram.com/work/dear-data">pentagram.com</a>; Al-Hazwani et al., “Data Humanism Decoded” (2025). <a href="https://arxiv.org/abs/2509.00440">arxiv.org</a></li>
+      <li>Isotype: <a href="https://en.wikipedia.org/wiki/Isotype_(picture_language)">Wikipedia</a>; <a href="https://en.wikipedia.org/wiki/Marie_Neurath">Marie Neurath</a>; <i>Eye</i> magazine, “International Picture Language” (1995). <a href="https://www.eyemagazine.com/feature/article/archive-international-picture-language">eyemagazine.com</a></li>
+    </ol>
+    <h4>Displays and perception</h4>
+    <ol class="src">
+      <li>Cleveland, W. &amp; McGill, R. “Graphical Perception.” <i>JASA</i> 79 (1984): 531–554. Heer, J. &amp; Bostock, M. “Crowdsourcing Graphical Perception.” CHI 2010.</li>
+      <li>Galesic, M., Garcia-Retamero, R. &amp; Gigerenzer, G. “Using Icon Arrays to Communicate Medical Risks: Overcoming Low Numeracy.” <i>Health Psychology</i> 28(2) (2009): 210–216. <a href="https://doi.org/10.1037/a0014474">doi</a></li>
+      <li>Bateman, S. et al. “Useful Junk? The Effects of Visual Embellishment on Comprehension and Memorability of Charts.” CHI 2010. <a href="https://doi.org/10.1145/1753326.1753716">doi</a></li>
+      <li>Tractinsky, N., Katz, A. S. &amp; Ikar, D. “What Is Beautiful Is Usable.” <i>Interacting with Computers</i> 13(2) (2000): 127–145.</li>
+      <li>Kivetz, R., Urminsky, O. &amp; Zheng, Y. “The Goal-Gradient Hypothesis Resurrected.” <i>Journal of Marketing Research</i> 43 (2006): 39–58.</li>
+      <li>Li, I., Dey, A. &amp; Forlizzi, J. “A Stage-Based Model of Personal Informatics Systems.” CHI 2010: 557–566.</li>
+    </ol>
+    <h4>Reading</h4>
+    <ol class="src">
+      <li>Hu, M. &amp; Nation, I. S. P. “Unknown Vocabulary Density and Reading Comprehension.” <i>Reading in a Foreign Language</i> 13(1) (2000).</li>
+      <li>Laufer, B. &amp; Ravenhorst-Kalovski, G. C. “Lexical Threshold Revisited.” <i>Reading in a Foreign Language</i> 22(1) (2010): 15–30. <a href="https://scholarspace.manoa.hawaii.edu/items/eaead47e-853e-4797-ba6f-596df150c1d7">scholarspace</a></li>
+      <li>Schmitt, N., Jiang, X. &amp; Grabe, W. “The Percentage of Words Known in a Text and Reading Comprehension.” <i>Modern Language Journal</i> 95(1) (2011): 26–43. <a href="https://www.lextutor.ca/cover/papers/schmitt_etal_2011.pdf">pdf</a></li>
+      <li>Kremmel, B., Indrarathne, B., Kormos, J. &amp; Suzuki, S. “Unknown Vocabulary Density and Reading Comprehension: Replicating Hu and Nation (2000).” <i>Language Learning</i> (2023). <a href="https://doi.org/10.1111/lang.12622">doi</a></li>
+      <li>Abraham, L. B. “Computer-Mediated Glosses in Second Language Reading Comprehension and Vocabulary Learning: A Meta-Analysis.” <i>CALL</i> 21(3) (2008): 199–226. <a href="https://doi.org/10.1080/09588220802090246">doi</a></li>
+      <li>Yanagisawa, A., Webb, S. &amp; Uchihara, T. “How Do Different Forms of Glossing Contribute to L2 Vocabulary Learning from Reading?” <i>SSLA</i> (2020). <a href="https://www.cambridge.org/core/product/38124150D59DF3039EE1FF5AE88FE922">cambridge.org</a></li>
+    </ol>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap note">Independent design round for Tinta Reader’s Stats tab · 13 October 2026 · mockups built in the app’s current build with a simulated reader.</div>
+</footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Enlarged screenshot"><img id="lbimg" alt=""><button type="button" id="lbclose">Close</button></div>
+<script>
+(function () {
+  var lb = document.getElementById('lb'), img = document.getElementById('lbimg'), close = document.getElementById('lbclose'), last = null;
+  function open(src, alt) { img.src = src; img.alt = alt || ''; lb.hidden = false; close.focus(); }
+  function shut() { lb.hidden = true; img.removeAttribute('src'); if (last) last.focus(); }
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest ? e.target.closest('img[data-zoom]') : null;
+    if (t) { last = t; open(t.src, t.alt); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (!lb.hidden && e.key === 'Escape') shut();
+    var t = document.activeElement;
+    if (lb.hidden && t && t.matches && t.matches('img[data-zoom]') && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); last = t; open(t.src, t.alt); }
+  });
+  lb.addEventListener('click', function (e) { if (e.target === lb || e.target === close) shut(); });
+})();
+</script>

@@ -1,0 +1,66 @@
+{
+ "dark": {
+  "new/learning": {
+   "normal": 24.5,
+   "protan": 23.6,
+   "deutan": 13.7,
+   "tritan": 21.6
+  },
+  "new/known": {
+   "normal": 26.7,
+   "protan": 26.2,
+   "deutan": 16.0,
+   "tritan": 31.4
+  },
+  "learning/known": {
+   "normal": 15.0,
+   "protan": 16.2,
+   "deutan": 14.9,
+   "tritan": 11.1
+  },
+  "known/ignored": {
+   "normal": 18.3,
+   "protan": 18.1,
+   "deutan": 18.3,
+   "tritan": 18.3
+  },
+  "new/ignored": {
+   "normal": 22.0,
+   "protan": 8.4,
+   "deutan": 9.1,
+   "tritan": 25.6
+  }
+ },
+ "light": {
+  "new/learning": {
+   "normal": 20.1,
+   "protan": 20.7,
+   "deutan": 15.2,
+   "tritan": 13.8
+  },
+  "new/known": {
+   "normal": 27.3,
+   "protan": 14.4,
+   "deutan": 23.1,
+   "tritan": 29.8
+  },
+  "learning/known": {
+   "normal": 36.0,
+   "protan": 32.4,
+   "deutan": 36.9,
+   "tritan": 36.1
+  },
+  "known/ignored": {
+   "normal": 32.0,
+   "protan": 31.9,
+   "deutan": 32.0,
+   "tritan": 32.0
+  },
+  "new/ignored": {
+   "normal": 18.8,
+   "protan": 17.5,
+   "deutan": 9.8,
+   "tritan": 21.6
+  }
+ }
+}

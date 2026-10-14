@@ -1,0 +1,20 @@
+import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
+const PROFILE = '/home/user/tinta-blind-work/profile-sam';
+const ctx = await chromium.launchPersistentContext(PROFILE, { viewport: { width: 1440, height: 900 } });
+await ctx.clock.setFixedTime(new Date('2026-10-13T18:40:00Z'));
+const page = ctx.pages()[0] ?? await ctx.newPage();
+await page.goto('http://localhost:4273/', { waitUntil: 'networkidle' });
+await page.waitForTimeout(1200);
+await page.click('button.sidetab:has-text("Words")');
+await page.click('button.tab[aria-label^="New"]');
+await page.waitForTimeout(400);
+await page.click('text=More columns');
+await page.waitForTimeout(600);
+await page.screenshot({ path: '/home/user/tinta-blind-work/explore/more-columns.png' });
+const rows = await page.evaluate(() => {
+  const t = document.querySelector('table');
+  if (t) return [...t.querySelectorAll('tr')].map(tr => [...tr.children].map(td => td.innerText.trim()).join(' | '));
+  return [...document.querySelectorAll('.wrow')].map(r => r.innerText.replace(/\s+/g, ' '));
+});
+console.log(rows.join('\n'));
+await ctx.close();

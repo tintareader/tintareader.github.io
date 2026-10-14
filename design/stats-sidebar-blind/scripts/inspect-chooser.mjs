@@ -1,0 +1,13 @@
+import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
+const PROFILE = '/home/user/tinta-blind-work/profile-sam';
+const ctx = await chromium.launchPersistentContext(PROFILE, { viewport: { width: 1440, height: 900 } });
+await ctx.clock.setFixedTime(new Date('2026-10-13T18:40:00Z'));
+const page = ctx.pages()[0] ?? await ctx.newPage();
+await page.goto('http://localhost:4273/', { waitUntil: 'networkidle' });
+await page.waitForTimeout(1200);
+await page.click('button.titlebtn');
+await page.waitForTimeout(400);
+const html = await page.evaluate(() => { const m = document.querySelector('[role=menu], [role=listbox], .textmenu, .popmenu, .titlemenu'); return m ? m.outerHTML.slice(0, 2500) : 'none'; });
+console.log(html);
+await page.screenshot({ path: '/home/user/tinta-blind-work/explore/chooser.png' });
+await ctx.close();

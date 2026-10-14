@@ -1,0 +1,20 @@
+import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
+const PROFILE = '/home/user/tinta-blind-work/profile-sam';
+const ctx = await chromium.launchPersistentContext(PROFILE, { viewport: { width: 1440, height: 900 } });
+await ctx.clock.setFixedTime(new Date('2026-10-13T18:40:00Z'));
+const page = ctx.pages()[0] ?? await ctx.newPage();
+await page.goto('http://localhost:4273/', { waitUntil: 'networkidle' });
+await page.waitForTimeout(1200);
+const info = await page.evaluate(() => {
+  const r = document.querySelector('.reader');
+  const html = r.innerHTML;
+  const i = html.indexOf('vez');
+  const classes = {};
+  r.querySelectorAll('*').forEach(e => { const c = e.tagName + '.' + e.className; classes[c] = (classes[c] || 0) + 1; });
+  return { snippet: html.slice(Math.max(0, i - 1500), i + 1200), classes };
+});
+console.log(info.snippet);
+console.log(JSON.stringify(info.classes, null, 1));
+const sideHtml = await page.evaluate(() => document.querySelector('.side').outerHTML.slice(0, 3000));
+console.log('SIDE:', sideHtml);
+await ctx.close();
