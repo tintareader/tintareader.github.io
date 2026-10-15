@@ -1,6 +1,6 @@
 {
   "id": "ar",
-  "version": "1.0.130",
+  "version": "1.0.149",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -25,7 +25,7 @@
     "readings": {
       "path": "readings.txt",
       "license": "CC-BY-SA-4.0",
-      "sha256": "931d5b0aa0d95bde0a9633d927e0c40688a60d9f6b78bc2a48aeb1a890c8e799"
+      "sha256": "51720708e6b8ba396160d180b1f2829fa22fd6ba4cde3beae42d206872b68d30"
     },
     "learner": {
       "path": "learner.txt",
@@ -186,6 +186,21 @@
       "path": "letters.zh.txt",
       "license": "unencumbered",
       "sha256": "13348a4c4354db3418e94afcb89bb25d42a70b469be6b6032397bf864c9d67ca"
+    },
+    "roots": {
+      "path": "roots.txt",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1a1510cb0003e2a670970aa1d2afd67dc2c786a84e0f7151a9e7828938c7db98"
+    },
+    "rootfill": {
+      "path": "rootfill.txt",
+      "license": "unencumbered",
+      "sha256": "20b0fb6d8cf2a8c97702ad5eb01d227d9fea97fa0c08e27ae028fb75a3d2942f"
+    },
+    "rootmeans": {
+      "path": "rootmeans.txt",
+      "license": "unencumbered",
+      "sha256": "9a5c762ff579190cfd5d4d4e5782dbab857ee414c0bacbf8984a5566bf6ee133"
     }
   }
 }

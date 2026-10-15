@@ -701,9 +701,9 @@ assassinato|||nm
 daí||de,aí|contr
 sai||sair|
 descer|||
-quente|||adj
 mexer|||
 surpresa|||nf
+quente|||adj
 decisão|||nf
 simples|||adj
 idade|||nf
@@ -1140,7 +1140,6 @@ defesa|||nf
 visão|||nf
 fantasma|||nm
 metro|||nm
-beijo|||nm
 cadeira|||nf
 checar|||
 evidência|||nf
@@ -1189,6 +1188,7 @@ puxar|||
 soar|||
 vizinho|||nm
 arriscar|||
+beijo|||nm
 condição|||nf
 observar|||
 especialmente|||adv
@@ -1222,7 +1222,6 @@ faca|||nf
 caminhão|||nm
 procura|||nf
 interessar|||
-porco|||nm
 dividir|||
 interesse|||nm
 cobrir|||
@@ -1232,6 +1231,7 @@ relaxar|||
 opção|||nf
 diante|||adv
 par|||nm
+porco|||nm
 viram||ver,virar|
 mala|||nf
 envolver|||
@@ -1350,7 +1350,6 @@ incluir|||
 ferido|||adj
 avô|||nm
 teoria|||nf
-rato|||nm
 natural|||adj
 posto||pôr|
 prisioneiro|||nm
@@ -1374,6 +1373,7 @@ apoio|||nm
 madame|||nf
 adulto|||nm
 prestes|||adv
+rato|||nm
 evento|||nm
 superar|||
 seguida|||nf
@@ -1446,7 +1446,6 @@ ti|||pron
 arruinar|||
 documento|||nm
 atingir|||
-parado|||adj
 jardim|||nm
 altura|||nf
 princesa|||nf
@@ -1457,15 +1456,16 @@ puro|||adj
 manda||mandar|
 firme|||adj
 adivinhar|||
+parada|||nf
 motorista|||nmf
 maldita||maldito|
 normalmente|||adv
 jogador|||nm
+parado|||adj
 aluno|||nmf
 julgar|||
 táxi|||nm
 km|||nm
-parada|||nf
 corredor|||nm
 noiva|||nf
 crédito|||nm
@@ -2684,7 +2684,6 @@ fraude|||nf
 impressionar|||
 desagradável|||adj
 lealdade|||nf
-pato|||nm
 conclusão|||nf
 combinação|||nf
 identificação|||nf
@@ -2731,6 +2730,7 @@ malvado|||adj
 seca|||nf
 colocado||colocar|
 ótimos||ótimo|
+pato|||nm
 lançamento|||nm
 traje|||nm
 tapete|||nm
@@ -3883,6 +3883,7 @@ zoológico|||nm
 liberado||liberar|
 bicho|||nm
 honrar|||
+pata|||nf
 predador|||nm
 alguem||alguém|pron
 mergulho|||nm
@@ -3943,6 +3944,7 @@ mutante|||nmf
 consultar|||
 distinto|||adj
 vara|||nf
+rapidinho|||adv
 satisfazer|||
 careca|||adj
 insubstituível|||adj
@@ -4001,7 +4003,6 @@ maré|||nf
 residente|||nmf
 farol|||nm
 oriental|||adj
-pata|||nf
 extraterrestre|||nmf
 camisinha|||nf
 arranhão|||nm
@@ -4388,7 +4389,6 @@ cometa|||nm
 indicação|||nf
 aperto|||nm
 brindar|||
-rapidinho|||adv
 óptimo||ótimo|
 soro|||nm
 bancar|||
@@ -5715,6 +5715,7 @@ abismo|||nm
 queridinho|||nm
 mexicana||mexicano|
 ocular|||adj
+porquinho|||nm
 entao||então|adv
 preconceito|||nm
 camarim|||nm
@@ -6005,7 +6006,6 @@ traiçoeiro|||adj
 receptor|||nm
 blefando|||
 gravadora|||
-porquinho|||nm
 comporta||comportar|
 contemplar|||
 realeza|||nf
@@ -6097,6 +6097,7 @@ recompensar|||
 estréia||estreia|nf
 vala|||nf
 brandy|||nm
+beijinho|||nm
 transtorno|||nm;nm
 estudantil|||adj
 defensiva|||nf
@@ -11985,7 +11986,6 @@ sequenciamento|5||nm
 sobreposição|||nf
 subjetiva|||adj
 vaguear|||
-beijinho|||nm
 abside|5||nf
 adiado||adiar|
 admiravelmente|5||
@@ -16337,7 +16337,7 @@ voluntariado|||nm
 úlcera|||nf
 úmidas||úmido|
 finados|5||nm
-quentinha|5||nf
+quentinha|||nf
 admin|5||nmf
 adotados||adotar|
 afogamento|||nm
@@ -16494,7 +16494,7 @@ bermuda|||nf
 calçadão|||nm
 despachante|||nmf
 farofa|5||nf
-jeitinho|5||nm
+jeitinho|||nm
 lombada|||nf
 tcc|5||nm
 churrasqueira|||nf
@@ -16686,6 +16686,25 @@ rodinha|||nf
 fresquinho|||adj
 covinha|||nf
 rosca|||nf
+abobrinha|||nf
+parquinho|||nm
+cofrinho|||nm
+fininho|||adj
+jatinho|||nm
+picadinho|||nm
+tchauzinho|||interj
+conversinha|||nf
+presentinho|||nm
+olhadinha|||nf
+cavalinho|||nm
+ratinho|||nm
+lanchinho|||nm
+pestinha|||nmf
+maninho|||nm
+brinquedinho|||nm
+tudinho|||pron
+lugarzinho|||nm
+viadinho|||nm
 cafezinho|5||nm
 fado|5||nm
 réveillon|5||nm

@@ -131,6 +131,19 @@ the same licence. homographs.txt is the same extract's second reading of
 a word that is both a verb and a noun, and verbal nouns' readings, under the
 same licence.
 
+Root letters, Arabic — CC BY-SA 4.0
+
+Files:  app/public/packs/ar/roots.txt
+
+Derived from the same Wiktionary extract, CC BY-SA 4.0: the root letters each
+headword's own entry names (its root box or etymology), or, where it names
+none, those of the word its etymology says it is made from or of the entry
+that lists it among its derived terms. This file is itself licensed CC BY-SA
+4.0, and is kept apart from rootfill.txt and rootmeans.txt (section 4), so
+that the share-alike licence reaches neither; a row in rootfill.txt that
+corrects a root in this file removes the word from this file rather than
+sharing it.
+
 Names in Latin letters, Arabic — CC0 1.0
 
 Files:  app/public/packs/ar/latin.txt
@@ -200,6 +213,8 @@ Files:  app/public/packs/*/gloss.*.txt
         app/public/packs/*/letters.txt
         app/public/packs/*/letters.*.txt
         app/public/packs/*/derive.txt
+        app/public/packs/ar/rootfill.txt
+        app/public/packs/ar/rootmeans.txt
 
 The glosses are generated at build time by a large language model, from the word
 list alone. They are not copied or translated from any licensed dictionary or
@@ -211,8 +226,16 @@ word list and its morphology, which is this project's own arrangement of its
 own output.
 
 derive.txt says which headword a derived word is built on (garotinho on
-garoto), written by hand for this project. It copies nothing from the lemma
+garoto, Freiheit on frei), written for this project: by hand, or judged by
+a model from pairs of the pack's own headwords and read. It copies nothing from the lemma
 lists above; it exists because they file such words as inflections.
+
+rootfill.txt gives the Arabic root letters of the headwords Wiktionary gives
+none, and rootmeans.txt what each root is about, in each gloss language. Both
+were written for this project by a large language model, rootfill.txt from
+each word and its gloss alone, without Wiktionary's roots in view; they copy
+nothing from the Wiktionary extract of section 3a, and are kept out of
+roots.txt so that they stay unencumbered.
 
 letters.txt and letters.*.txt are the tables and notes behind letters mode —
 each alphabet's letters, their names and romanisations, and what each sounds

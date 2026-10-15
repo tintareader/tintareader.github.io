@@ -706,9 +706,9 @@ assassinato|murder|o
 daí|from there; e daí: so what|o;n
 sai|he/she leaves, goes out; you leave; get out!|f3s;f2s2p;o
 descer|to go down, to get off|v
-quente|hot|o
 mexer|to move; to stir; mexer com: to mess with; mexer em: to touch, to fiddle with (something)|v;v;n;n
 surpresa|surprise|o
+quente|hot|o
 decisão|decision|o
 simples|simple|o
 idade|age|o
@@ -1145,7 +1145,6 @@ defesa|defence|o
 visão|vision, sight|o
 fantasma|ghost|o
 metro|metre; underground, subway (Eur. Pt.)|o;o
-beijo|kiss; I kiss|o;f1s
 cadeira|chair|o
 checar|to check (informal, from English)|v
 evidência|evidence|o
@@ -1194,6 +1193,7 @@ puxar|to pull (not "push")|v
 soar|to sound|v
 vizinho|neighbour|o
 arriscar|to risk|v
+beijo|kiss; I kiss|o;f1s
 condição|condition|o
 observar|to observe, to watch|v
 especialmente|especially|o
@@ -1227,7 +1227,6 @@ faca|knife|o
 caminhão|lorry, truck|o
 procura|search; he/she looks for; you look for|o;f3s;f2s2p
 interessar|to interest|v
-porco|pig; filthy|o;o
 dividir|to divide; to share|v;v
 interesse|interest|o
 cobrir|to cover|v
@@ -1237,6 +1236,7 @@ relaxar|to relax|v
 opção|option|o
 diante|diante de: in front of, faced with|n
 par|pair; even (number)|o;o
+porco|pig; filthy|o;o
 viram|they saw, you saw (pl., ver); they turn, they become (virar)|f3p;f3p
 mala|suitcase|o
 envolver|to involve; to wrap|v;v
@@ -1355,7 +1355,6 @@ incluir|to include|v
 ferido|injured, wounded|o
 avô|grandfather; grandparents, grandmothers (f.)|o;o
 teoria|theory|o
-rato|rat, mouse|o
 natural|natural|o
 posto|post, station; put|o;o
 prisioneiro|prisoner|o
@@ -1379,6 +1378,7 @@ apoio|support; I support|o;f1s
 madame|madam|o
 adulto|adult|o
 prestes|prestes a: about to|n
+rato|rat, mouse|o
 evento|event|o
 superar|to overcome, to get over|v
 seguida|em seguida: next, right after|n
@@ -1451,7 +1451,6 @@ ti|you (after a preposition)|f2s2p
 arruinar|to ruin|v
 documento|document|o
 atingir|to reach; to hit|v;v
-parado|still, stopped|o
 jardim|garden|o
 altura|height; na altura: at the time (Eur. Pt.)|o;n
 princesa|princess|o
@@ -1462,15 +1461,16 @@ puro|pure|o
 manda|sends; orders|f3s;f3s
 firme|firm, steady|o
 adivinhar|to guess|v
+parada|stop; parade; thing, stuff (slang); still, stopped (f.)|o;o;o;o
 motorista|driver|o
 maldita|damned (f.)|o
 normalmente|normally, usually|o
 jogador|player|o
+parado|still, stopped|o
 aluno|student, pupil|o
 julgar|to judge|v
 táxi|taxi|o
 km|km, kilometre|o
-parada|stop; parade; thing, stuff (slang); still, stopped (f.)|o;o;o;o
 corredor|corridor; runner|o;o
 noiva|bride, fiancée|o
 crédito|credit|o
@@ -2689,7 +2689,6 @@ fraude|fraud|o
 impressionar|to impress|v
 desagradável|unpleasant|o
 lealdade|loyalty|o
-pato|duck|o
 conclusão|conclusion|o
 combinação|combination|o
 identificação|identification, ID|o
@@ -2736,6 +2735,7 @@ malvado|wicked, evil|o
 seca|drought; dry (f.)|o;o
 colocado|placed, put|o
 ótimos|great, excellent (pl.)|o
+pato|duck|o
 lançamento|launch; release|o;o
 traje|outfit, dress|o
 tapete|carpet, rug|o
@@ -2999,7 +2999,7 @@ azar|bad luck|o
 esperado|expected|o
 nervo|nerve|o
 sacar|to withdraw (money); to draw (a gun); to get it, to understand (Braz., slang)|v;v;v
-docinho|sweetie|o
+docinho|sweetie, honey; little sweet, party sweet (brigadeiro etc.)|o;o
 gabinete|office; cabinet|o;o
 elogio|compliment|o
 mídia|media|o
@@ -3034,7 +3034,7 @@ pop|pop|o
 verme|worm|o
 formos|(when, if) we are (ser); (when, if) we go (ir)|f1p;f1p
 inspirar|to inspire; to breathe in|v;v
-mocinho|good guy, hero (of a film or story); young lady, girl, missy (f.); heroine (f.)|o;o;o
+mocinho|good guy, hero (of a film or story); young man (to a boy); young lady, girl, missy (f.); heroine (f.)|o;o;o;o
 rasgar|to tear, to rip|v
 doar|to donate|v
 bagagem|luggage|o
@@ -3242,7 +3242,7 @@ massagem|massage|o
 manipular|to manipulate|v
 solitária|lonely (f.); solitary confinement|o;o
 instalação|facility, installation|o
-carrinho|trolley; little car|o;o
+carrinho|toy car, little car; trolley, shopping cart; carrinho de bebê: pram, stroller|o;o;n
 liderança|leadership|o
 turnê|tour|o
 quinze|fifteen|o
@@ -3760,7 +3760,7 @@ doação|donation|o
 traduzido|translated|o
 macarrão|pasta, noodles|o
 precisamente|precisely|o
-gracinha|cutie, sweetie; que gracinha!: how cute!|o;n
+gracinha|cutie, sweetie; que gracinha!: how cute!; fazer gracinha: show off, play the clown; gracinhas: wisecracks|o;n;n;n
 concentração|concentration|o
 reservado|reserved|o
 volume|volume|o
@@ -3888,6 +3888,7 @@ zoológico|zoo|o
 liberado|released, cleared|o
 bicho|creature, animal|o
 honrar|to honour|v
+pata|paw, foot (of an animal); female duck|o;o
 predador|predator|o
 alguem|someone (unaccented alguém)|o
 mergulho|dive|o
@@ -3948,6 +3949,7 @@ mutante|mutant|o
 consultar|to consult|v
 distinto|distinct; distinguished|o;o
 vara|rod, stick; court district|o;o
+rapidinho|real quick, in a jiffy; uma rapidinha: a quickie|o;n
 satisfazer|to satisfy|v
 careca|bald; bald spot|o;o
 insubstituível|irreplaceable|o
@@ -4006,7 +4008,6 @@ maré|tide|o
 residente|resident|o
 farol|lighthouse; headlight; traffic light|o;o;o
 oriental|eastern|o
-pata|paw, foot (of an animal); female duck|o;o
 extraterrestre|alien|o
 camisinha|condom (Braz.)|o
 arranhão|scratch|o
@@ -4393,7 +4394,6 @@ cometa|comet|o
 indicação|nomination; recommendation|o;o
 aperto|squeeze; tight spot|o;o
 brindar|to toast (drink)|v
-rapidinho|really quickly|o
 óptimo|great, excellent (Eur. Pt. spelling)|o
 soro|serum; drip|o;o
 bancar|to play at, to act like; to fund|v;v
@@ -4635,7 +4635,7 @@ abordagem|approach|o
 elenco|cast|o
 celebração|celebration|o
 cereja|cherry|o
-filhinho|little son, sonny; little daughter (f.); sweetie (to a child)|o;o;o
+filhinho|little son, sonny; little daughter (f.); sweetie (to a child); filhinho de papai: daddy's boy, rich kid|o;o;o;n
 incômodo|nuisance; uncomfortable|o;o
 servido|served|o
 violino|violin|o
@@ -5639,7 +5639,7 @@ ganharia|would win, would earn|o
 juvenil|juvenile, youth|o
 fecho|catch, fastener; zip|o;o
 pesquisador|researcher|o
-homenzinho|little man (often belittling)|o
+homenzinho|little man (fondly, to a boy, or belittling)|o
 trincheira|trench|o
 cruzamento|junction; crossing|o;o
 latino|Latino, Latin|o
@@ -5720,6 +5720,7 @@ abismo|abyss|o
 queridinho|darling, favourite, pet (teacher's pet); sweetie|o;o
 mexicana|Mexican (f.)|o
 ocular|testemunha ocular: eyewitness|n
+porquinho|piglet, little pig|o
 entao|then, so (unaccented então)|o
 preconceito|prejudice|o
 camarim|dressing room|o
@@ -6010,7 +6011,6 @@ traiçoeiro|treacherous|o
 receptor|receiver|o
 blefando|bluffing|o
 gravadora|record label, record company|o
-porquinho|piglet, little pig|o
 comporta|floodgate; behaves|o;f3s
 contemplar|to contemplate|v
 realeza|royalty|o
@@ -6102,6 +6102,7 @@ recompensar|to reward|v
 estréia|premiere, debut (old spelling)|o
 vala|ditch|o
 brandy|brandy|o
+beijinho|little kiss; coconut fudge ball (Brazilian sweet)|o;o
 transtorno|disorder; inconvenience, trouble, disruption|o;o
 estudantil|student (adj)|o
 defensiva|defensive|o
@@ -10020,7 +10021,7 @@ castidade|chastity|o
 cedro|cedar|o
 comprometimento|commitment; impairment, compromising|o;o
 consolador|consoling, comforting|o
-corpinho|bodice; little body|o;o
+corpinho|little body; body, figure (admiring); bodice (dated)|o;o;o
 danificar|to damage|v
 delicadamente|delicately, gently|o
 demolição|demolition|o
@@ -10241,7 +10242,7 @@ linho|linen; flax|o;o
 locução|phrase, expression; voice-over, narration|o;o
 migalha|crumb|o
 milênios|millennia|o
-modinha|sentimental song (Brazilian); passing fad|o;o
+modinha|passing fad, trend (é só modinha); modinha (19th-century sentimental song)|o;o
 murchar|to wilt, to wither|v
 neurocientistas|neuroscientists|o
 nudez|nudity, nakedness|o
@@ -11990,7 +11991,6 @@ sequenciamento|sequencing|o
 sobreposição|overlap, superimposition|o
 subjetiva|subjective|o
 vaguear|to wander, to roam|v
-beijinho|little kiss; coconut fudge ball (Brazilian sweet)|o;o
 abside|apse|o
 adiado|postponed|o
 admiravelmente|admirably|o
@@ -13719,7 +13719,7 @@ planejam|they plan; you (pl.) plan|f3p;f2s2p
 presunção|presumption; conceit|o;o
 procuração|power of attorney|o
 psicanalista|psychoanalyst|o
-rapazinho|little boy, lad|o
+rapazinho|young lad, young man|o
 recenseamento|census|o
 reciprocidade|reciprocity|o
 referencial|reference point, frame of reference; referential|o;o
@@ -15011,7 +15011,7 @@ laudo|report, expert opinion|o
 multado|fined|o
 objeções|objections|o
 ornamentação|ornamentation, decoration|o
-palavrinha|little word|o
+palavrinha|a quick word (posso ter uma palavrinha?); little word|o;o
 palheiro|haystack; hay barn|o;o
 pilantra|crook, swindler (colloq.)|o
 plantio|planting|o
@@ -16129,7 +16129,7 @@ ostensivo|ostensible, overt; conspicuous|o;o
 oásis|oasis|o
 pacificador|peacemaker; pacifying|o;o
 paleontólogo|palaeontologist|o
-palhinha|cane weave; little straw|o;o
+palhinha|cane weave (cadeira de palhinha); drinking straw (Eur. Pt.); little straw|o;o;o
 paredão|big wall; cliff face; firing wall|o;o;o
 patronal|employers' (adj.), of the employer|o
 pautar|to guide, to base on; to rule (lines)|v;v
@@ -16342,7 +16342,7 @@ voluntariado|volunteering|o
 úlcera|ulcer|o
 úmidas|damp, humid (f. pl.)|o
 finados|Dia de Finados: All Souls' Day (2 November); the dead|n;o
-quentinha|takeaway meal box (colloq.)|o
+quentinha|nice and warm (f.); takeaway meal box (colloq.)|o;o
 admin|admin (colloq.)|o
 adotados|adopted (m. pl.)|o
 afogamento|drowning|o
@@ -16499,7 +16499,7 @@ bermuda|shorts, Bermuda shorts|o
 calçadão|promenade (seafront or pedestrian street)|o
 despachante|paperwork agent (handles licences and documents for a fee)|o
 farofa|farofa (toasted manioc flour side dish)|o
-jeitinho|jeitinho (the Brazilian knack of getting round rules); little way|o;o
+jeitinho|way, knack; dar um jeitinho: find a way, sort it out; com jeitinho: nicely, gently (pedir com jeitinho); the Brazilian knack of getting round rules|o;n;n;o
 lombada|speed bump; spine (of a book)|o;o
 tcc|final-year thesis (Trabalho de Conclusão de Curso)|o
 churrasqueira|barbecue grill|o
@@ -16538,7 +16538,7 @@ mototáxi|motorcycle taxi|o
 parcelar|to pay in instalments|v
 coador|strainer; cloth coffee filter|o;o
 fgts|FGTS (Brazilian severance fund built from employer deposits)|o
-maquininha|card machine (payment terminal)|o
+maquininha|little machine, gadget; card machine (payment terminal)|o;o
 botijão|gas cylinder|o
 francesinha|francesinha (Porto meat sandwich in beer sauce, Eur. Pt.)|o
 nif|tax number (Eur. Pt.)|o
@@ -16562,7 +16562,7 @@ almofadinha|dandy, fop (dated); small cushion|o;o
 amorzinho|sweetheart, darling|o
 angústia|anguish, distress|o
 ata|minutes (of a meeting); he/she ties (atar)|o;f3s
-aviãozinho|drug runner (slang); little plane, toy plane|o;o
+aviãozinho|little plane, toy plane; aviãozinho de papel: paper plane; drug runner (slang)|o;n;o
 baixaria|sleaze, low behaviour (colloq.); would lower, would download (baixar)|o;o
 banquinho|stool, small bench|o
 baronesa|baroness|o
@@ -16691,6 +16691,25 @@ rodinha|little wheel; rodinhas: training wheels, castors|o;n
 fresquinho|nice and fresh, freshly made|o
 covinha|dimple|o
 rosca|thread (screw); ring-shaped bread|o;o
+abobrinha|zucchini, courgette; nonsense, rubbish; falar abobrinha: talk nonsense|o;o;n
+parquinho|playground|o
+cofrinho|piggy bank; builder's bum, butt crack (slang)|o;o
+fininho|thin, nice and thin; de fininho: on the sly, quietly, slipping away (sair de fininho)|o;n
+jatinho|private jet|o
+picadinho|minced-meat stew, hash (dish); fazer picadinho de: make mincemeat of; finely chopped|o;n;o
+tchauzinho|bye-bye, bye now|o
+conversinha|a little chat; sweet talk, idle talk|o;o
+presentinho|a little present|o
+olhadinha|a quick look, a peek (dar uma olhadinha)|o
+cavalinho|little horse, pony; de cavalinho: piggyback|o;n
+ratinho|little mouse|o
+lanchinho|a snack, a bite|o
+pestinha|little pest, brat|o
+maninho|little brother, bro; little sister, sis (f.)|o;o
+brinquedinho|little toy; plaything (of a person)|o;o
+tudinho|absolutely everything|o
+lugarzinho|a little place, a nice spot|o
+viadinho|little queer, sissy (offensive slur)|o
 cafezinho|small, strong black coffee, often sweet and offered to guests|o
 fado|fado (Portuguese song of longing); fate|o;o
 réveillon|New Year's Eve (the night and its party)|o
