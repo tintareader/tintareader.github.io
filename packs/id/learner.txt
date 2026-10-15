@@ -18,6 +18,7 @@ bersih|500|basics
 biru|500|basics
 botol|500|basics
 bruder|500|basics
+buah|500|basics
 bunga|500|basics
 burung|500|basics
 bus|500|basics
@@ -58,7 +59,6 @@ kucing|500|basics
 kuda|500|basics
 kuning|500|basics
 kursi|500|basics
-lambat|500|basics
 langit|500|basics
 lapar|500|basics
 laut|500|basics
@@ -72,12 +72,14 @@ meja|500|basics
 merah|500|basics
 mulut|500|basics
 murah|500|basics
-murid|500|basics
 nenek|500|basics
 nol|500|basics
 orang tua|500|basics
 panas|500|basics
+panjang|500|basics
 pasar|500|basics
+pelan|500|basics
+pendek|500|basics
 petang|500|basics
 piring|500|basics
 pisau|500|basics
@@ -103,7 +105,7 @@ sendok|500|basics
 senin|500|basics
 sepatu|500|basics
 sepuluh|500|basics
-singkat|500|basics
+siswa|500|basics
 sore|500|basics
 stasiun|500|basics
 sungai|500|basics
@@ -132,8 +134,9 @@ bandara|1500|everyday
 bantal|1500|everyday
 basah|1500|everyday
 bawang|1500|everyday
+bawang putih|1500|everyday
 bebek|1500|everyday
-berbaris|1500|everyday
+bepergian|1500|everyday
 beristirahat|1500|everyday
 bioskop|1500|everyday
 bosan|1500|everyday
@@ -160,7 +163,6 @@ kacamata|1500|everyday
 kacang|1500|everyday
 kambing|1500|everyday
 kamus|1500|everyday
-kandang|1500|everyday
 kantong|1500|everyday
 katak|1500|everyday
 kaus kaki|1500|everyday
@@ -173,20 +175,19 @@ kesepian|1500|everyday
 kulkas|1500|everyday
 kupu-kupu|1500|everyday
 laba-laba|1500|everyday
+lalat|1500|everyday
 langit-langit|1500|everyday
-layang|1500|everyday
 lebah|1500|everyday
 lemari|1500|everyday
 lembaran|1500|everyday
 lemon|1500|everyday
 liburan|1500|everyday
 lidah|1500|everyday
-luruh|1500|everyday
 lutut|1500|everyday
 mangkuk|1500|everyday
 mantel|1500|everyday
+maret|1500|everyday
 menaiki|1500|everyday
-menenteng|1500|everyday
 mengendarai|1500|everyday
 mentega|1500|everyday
 minyak|1500|everyday
@@ -207,19 +208,24 @@ pahit|1500|everyday
 pasir|1500|everyday
 payung|1500|everyday
 peluk|1500|everyday
+pena|1500|everyday
 pensil|1500|everyday
 perak|1500|everyday
 perpustakaan|1500|everyday
 pink|1500|everyday
 pisang|1500|everyday
 pot|1500|everyday
+pr|1500|everyday
 putaran|1500|everyday
 rak|1500|everyday
 rok|1500|everyday
 rumput|1500|everyday
 rusa|1500|everyday
 sabuk|1500|everyday
+salju|1500|everyday
+santapan|1500|everyday
 sarung tangan|1500|everyday
+sebelas|1500|everyday
 selimut|1500|everyday
 semut|1500|everyday
 sepeda|1500|everyday
@@ -232,7 +238,7 @@ stroberi|1500|everyday
 sup|1500|everyday
 supermarket|1500|everyday
 syal|1500|everyday
-tataran|1500|everyday
+terang|1500|everyday
 tetangga|1500|everyday
 toilet|1500|everyday
 tomat|1500|everyday

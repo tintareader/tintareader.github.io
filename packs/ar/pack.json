@@ -1,6 +1,6 @@
 {
   "id": "ar",
-  "version": "1.0.129",
+  "version": "1.0.130",
   "files": {
     "lex": {
       "path": "lex.txt",
@@ -45,22 +45,22 @@
     "phrases": {
       "path": "phrases.txt",
       "license": "unencumbered",
-      "sha256": "cf7d11cdb7c77c6e4df465ef7b1a3546c7f2f7550054f67b8b57a3eebf38d5d7"
+      "sha256": "adc8387518a2c29bac3436fde34aeed4680576667ff51ebc3eca48db64331cd3"
     },
     "phrases.en": {
       "path": "phrases.en.txt",
       "license": "unencumbered",
-      "sha256": "8e7402ef67a317e8619d98b2c3411ba7e07645ec16f31d550cd775986c2f41ca"
+      "sha256": "f1ae8ef4f60c762367788ee08b0d8c2c00d45e1cc2dd2b620d6249c7d589ab96"
     },
     "phrases.id": {
       "path": "phrases.id.txt",
       "license": "unencumbered",
-      "sha256": "8ee7c664670426ae27a46a3484d7eb6265e286ee1fb8efe594690be4d4805509"
+      "sha256": "4779ddb226d16fc28a0fd5658aa3573e5edc9ad3d0dbdd295b5bf1e95e8647f7"
     },
     "phrases.es": {
       "path": "phrases.es.txt",
       "license": "unencumbered",
-      "sha256": "8796ef774b926efc595538f1b783dee79f3b3228d1fe32e8bed0d224c42e4a80"
+      "sha256": "74c2d05d51bd5032701d30837278efb6107f2ba8d8c501930b266acaa6f400e6"
     },
     "gloss.es": {
       "path": "gloss.es.txt",
@@ -70,7 +70,7 @@
     "phrases.fr": {
       "path": "phrases.fr.txt",
       "license": "unencumbered",
-      "sha256": "03104b1b012bb7fa9761eed45327be3dcb6293e93c32f1cd54d2823da7d3460c"
+      "sha256": "7b5d81344af927c04118fd58a286189894246b859e0e2cbe02b95b94aff02a86"
     },
     "gloss.fr": {
       "path": "gloss.fr.txt",
@@ -80,7 +80,7 @@
     "phrases.pt": {
       "path": "phrases.pt.txt",
       "license": "unencumbered",
-      "sha256": "a0f888f34ef96b07444acdc25a81fd514eed18d99f3cce684d77f1d4330b349f"
+      "sha256": "026b7528fba6c06fe76b4e62d3a4473ee2ec7c1243e424edb2cd65d0de864dcb"
     },
     "gloss.pt": {
       "path": "gloss.pt.txt",
@@ -180,7 +180,7 @@
     "phrases.zh": {
       "path": "phrases.zh.txt",
       "license": "unencumbered",
-      "sha256": "98bf8947b2129bee4fe2e0ba9cdce629634184cd3ea4e4b60c2356b74d1e6dfa"
+      "sha256": "8f44828fa091dbf35eb9298395f865e06dfd0cd8bc26fc147c5af4d1ab141755"
     },
     "letters.zh": {
       "path": "letters.zh.txt",

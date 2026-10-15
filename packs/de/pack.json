@@ -1,6 +1,6 @@
 {
   "id": "de",
-  "version": "1.0.176",
+  "version": "1.0.177",
   "variety": "de-DE",
   "files": {
     "lex": {
@@ -41,22 +41,22 @@
     "phrases.id": {
       "path": "phrases.id.txt",
       "license": "unencumbered",
-      "sha256": "8b33322f8639852734e34869920e38f17a4d23855e590ff45a02f5da10b01610"
+      "sha256": "f2d3e83d5c4265ad455063e53e152e7b6145fc28a79b62891819ca8e0dac7292"
     },
     "phrases": {
       "path": "phrases.txt",
       "license": "unencumbered",
-      "sha256": "1fefe5fddfd43d8b597e46215bc5ee607df20d953d5c2b521be89598991a7f3d"
+      "sha256": "992f7b6519c36ebe3ba922df5e1800822456010c693f2f8ddc7a27bfc5b3ebf4"
     },
     "phrases.en": {
       "path": "phrases.en.txt",
       "license": "unencumbered",
-      "sha256": "419e08fd07ed4f039b2388a386e7c88b2b1c457c77995e4d139deb2701d8092f"
+      "sha256": "12fca7868d6394115bc4cebd90df1c447830cc2c4eaaa49939406e1602e5b2d4"
     },
     "phrases.es": {
       "path": "phrases.es.txt",
       "license": "unencumbered",
-      "sha256": "bc80d9e63d4b1557554572b3eaa27cf8ebfa213bdbcc8d66b5c053104de46f8d"
+      "sha256": "5070d41b323cac45512b1fb84475f5930de66f810f32bea1cab2785acc60b857"
     },
     "gloss.es": {
       "path": "gloss.es.txt",
@@ -66,7 +66,7 @@
     "phrases.fr": {
       "path": "phrases.fr.txt",
       "license": "unencumbered",
-      "sha256": "e231bd81952fad5f0b696997b8b1c61d2d1049378a22a59a2f64dd51bd01b510"
+      "sha256": "ddc80066e4a1121aac15ede192fff1fd76ce75a1fe6f52d88671bf82184ecb0d"
     },
     "gloss.fr": {
       "path": "gloss.fr.txt",
@@ -76,7 +76,7 @@
     "phrases.pt": {
       "path": "phrases.pt.txt",
       "license": "unencumbered",
-      "sha256": "dfd485cd89dbca6d742b0af05420ae83dc28a21c41a3c5e08437f272b79a2712"
+      "sha256": "21747615811804a9d44d4d649c1754770cca088d7bc133e02ea3ea3d2d83b085"
     },
     "gloss.pt": {
       "path": "gloss.pt.txt",
@@ -126,7 +126,7 @@
     "phrases.zh": {
       "path": "phrases.zh.txt",
       "license": "unencumbered",
-      "sha256": "91bfdc229de092d9dc4b0ce078fab12c8174f2a1c5730eaa121987dad8c621b1"
+      "sha256": "b4a60d769709aac303275717dbaf54e772ec7c0aca2429ec8150c030fe0d8bf4"
     },
     "stories": {
       "path": "stories.txt",
