@@ -199,6 +199,7 @@ Files:  app/public/packs/*/gloss.*.txt
         app/public/packs/*/phrases.*.txt
         app/public/packs/*/letters.txt
         app/public/packs/*/letters.*.txt
+        app/public/packs/*/derive.txt
 
 The glosses are generated at build time by a large language model, from the word
 list alone. They are not copied or translated from any licensed dictionary or
@@ -208,6 +209,10 @@ glosses are written by hand for this project, from the same starting point.
 lex.txt is listed here because it holds no meanings and no ranks: it is the
 word list and its morphology, which is this project's own arrangement of its
 own output.
+
+derive.txt says which headword a derived word is built on (garotinho on
+garoto), written by hand for this project. It copies nothing from the lemma
+lists above; it exists because they file such words as inflections.
 
 letters.txt and letters.*.txt are the tables and notes behind letters mode —
 each alphabet's letters, their names and romanisations, and what each sounds
